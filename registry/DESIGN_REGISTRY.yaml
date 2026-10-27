@@ -1,5 +1,6 @@
 schema_version: 1
 updated_at: "2026-10-27"
+
 factory_baseline:
   repository: riccardopinato/App-Factory-Core
   commit: 7b84e33df715cf2a48bda7c7495d0690819bff0f
@@ -58,7 +59,7 @@ patterns:
   - id: DS-006
     name: State-complete screens
     category: resilience
-    sources: [FrameLab, App-Factory design guidance]
+    sources: [FrameLab, App-Factory-design-guidance]
     maturity: REFERENCE
     reuse_mode: ADAPT
     tags: [loading, skeleton, empty, error, offline, retry]
@@ -175,56 +176,6 @@ patterns:
     reuse_mode: ADAPT
     tags: [canvas, pan, zoom, draw, resize, snapping, layers]
 
-styles:
-  - id: STYLE-A
-    name: Editorial Personal
-    source: Agenda-per-Anna
-    maturity: SOURCE_VERIFIED
-  - id: STYLE-B
-    name: Editorial Knowledge
-    source: Notes-Ecosistema
-    maturity: SOURCE_VERIFIED
-  - id: STYLE-C
-    name: Colorful Travel
-    source: Wonderlog
-    maturity: SOURCE_VERIFIED
-  - id: STYLE-D
-    name: Photographic Editorial Premium
-    source: FrameLab-Google-AI-Studio
-    maturity: SOURCE_VERIFIED
-  - id: STYLE-E
-    name: Daily Editorial Color
-    source: World-Days
-    maturity: SOURCE_VERIFIED
-  - id: STYLE-F
-    name: Clean Green Utility
-    source: Battery_Guard
-    maturity: SOURCE_VERIFIED
-  - id: STYLE-G
-    name: Outdoor Utility
-    source: CamperBoss
-    maturity: SOURCE_VERIFIED
-  - id: STYLE-H
-    name: Neon Analytics
-    source: FocuSense
-    maturity: SOURCE_VERIFIED
-  - id: STYLE-I
-    name: Reliable Safety Utility
-    source: Phone-Guard
-    maturity: SOURCE_VERIFIED
-  - id: STYLE-J
-    name: Pocket/Bag Protection Status UX
-    source: Pocket-Guard
-    maturity: SOURCE_VERIFIED
-  - id: STYLE-K
-    name: Compact Pixel Utility Branding
-    source: 180FlipCharge
-    maturity: REFERENCE
-  - id: STYLE-L
-    name: Green/Black Finance Blocks
-    source: CashMate-AI
-    maturity: REFERENCE
-
   - id: DS-021
     name: Safety severity semantic colors
     category: safety-ux
@@ -265,19 +216,82 @@ styles:
     reuse_mode: COPY_OR_ADAPT
     tags: [responsive, navigation-bar, navigation-rail, max-width]
 
-styles_extension:
+styles:
+  - id: STYLE-A
+    name: Editorial Personal
+    source: Agenda-per-Anna
+    maturity: SOURCE_VERIFIED
+
+  - id: STYLE-B
+    name: Editorial Knowledge
+    source: Notes-Ecosistema
+    maturity: SOURCE_VERIFIED
+
+  - id: STYLE-C
+    name: Colorful Travel
+    source: Wonderlog
+    maturity: SOURCE_VERIFIED
+
+  - id: STYLE-D
+    name: Photographic Editorial Premium
+    source: FrameLab-Google-AI-Studio
+    maturity: SOURCE_VERIFIED
+
+  - id: STYLE-E
+    name: Daily Editorial Color
+    source: World-Days
+    maturity: SOURCE_VERIFIED
+
+  - id: STYLE-F
+    name: Clean Green Utility
+    source: Battery_Guard
+    maturity: SOURCE_VERIFIED
+
+  - id: STYLE-G
+    name: Outdoor Utility
+    source: CamperBoss
+    maturity: SOURCE_VERIFIED
+
+  - id: STYLE-H
+    name: Neon Analytics
+    source: FocuSense
+    maturity: SOURCE_VERIFIED
+
+  - id: STYLE-I
+    name: Reliable Safety Utility
+    source: Phone-Guard
+    maturity: SOURCE_VERIFIED
+
+  - id: STYLE-J
+    name: Pocket/Bag Protection Status UX
+    source: Pocket-Guard
+    maturity: SOURCE_VERIFIED
+
+  - id: STYLE-K
+    name: Compact Pixel Utility Branding
+    source: 180FlipCharge
+    maturity: REFERENCE
+
+  - id: STYLE-L
+    name: Green/Black Finance Blocks
+    source: CashMate-AI
+    maturity: REFERENCE
+
   - id: STYLE-M
     name: Forest/Moss Map Outdoor
     source: TrailPath
     maturity: SOURCE_VERIFIED
+
   - id: STYLE-N
     name: Minimal Premium Safety Utility
     source: Easy-Debloat
     maturity: SOURCE_VERIFIED
+
   - id: STYLE-O
     name: Image-first Culinary Cards
     source: In-Cucina-con-gli-Anime
     maturity: SOURCE_VERIFIED
+
   - id: STYLE-P
     name: Visual Alerts / AOD Circle
     source: Luminous-Infinite-Circle
