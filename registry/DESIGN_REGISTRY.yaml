@@ -1,0 +1,226 @@
+schema_version: 1
+updated_at: "2026-10-27"
+factory_baseline:
+  repository: riccardopinato/App-Factory-Core
+  commit: 7b84e33df715cf2a48bda7c7495d0690819bff0f
+  master: "26.6"
+  golden_index: 23
+
+maturity:
+  - DISCOVERY
+  - REFERENCE
+  - ADAPTED
+  - SOURCE_VERIFIED
+  - LIBRARY_VERIFIED
+  - COPY_READY
+
+patterns:
+  - id: DS-001
+    name: Token-first visual system
+    category: design-system
+    sources: [Agenda-per-Anna, Wonderlog, Notes-Ecosistema, FrameLab]
+    maturity: SOURCE_VERIFIED
+    reuse_mode: ADAPT
+    tags: [tokens, spacing, radii, typography, motion]
+
+  - id: DS-002
+    name: Material 3 as infrastructure, not identity
+    category: design-system
+    sources: [Wonderlog, Battery_Guard, Notes-Ecosistema, World-Days, CamperBoss, Phone-Guard]
+    maturity: SOURCE_VERIFIED
+    reuse_mode: ADAPT
+    tags: [material3, branding, theme]
+
+  - id: DS-003
+    name: Responsive NavigationBar to NavigationRail
+    category: navigation
+    sources: [Agenda-per-Anna, Wonderlog, FrameLab, World-Days]
+    maturity: SOURCE_VERIFIED
+    reuse_mode: COPY_OR_ADAPT
+    tags: [responsive, navigation, tablet, desktop]
+
+  - id: DS-004
+    name: Progressive disclosure
+    category: ux
+    sources: [Agenda-per-Anna]
+    maturity: SOURCE_VERIFIED
+    reuse_mode: ADAPT
+    tags: [capture, cognitive-load, more]
+
+  - id: DS-005
+    name: Reduced-motion-aware functional motion
+    category: motion
+    sources: [Agenda-per-Anna, FrameLab]
+    maturity: SOURCE_VERIFIED
+    reuse_mode: COPY_OR_ADAPT
+    tags: [motion, accessibility, haptics]
+
+  - id: DS-006
+    name: State-complete screens
+    category: resilience
+    sources: [FrameLab, App-Factory design guidance]
+    maturity: REFERENCE
+    reuse_mode: ADAPT
+    tags: [loading, skeleton, empty, error, offline, retry]
+
+  - id: DS-007
+    name: Border-defined zero-elevation card
+    category: component
+    sources: [Wonderlog, Notes-Ecosistema, World-Days, Phone-Guard]
+    maturity: SOURCE_VERIFIED
+    reuse_mode: COPY_OR_ADAPT
+    tags: [card, surface, border, low-elevation]
+
+  - id: DS-008
+    name: Semantic domain accents
+    category: color
+    sources: [Agenda-per-Anna, Phone-Guard, World-Days]
+    maturity: SOURCE_VERIFIED
+    reuse_mode: ADAPT
+    tags: [semantic-color, domain, state]
+
+  - id: DS-009
+    name: Editorial typography hierarchy
+    category: typography
+    sources: [Notes-Ecosistema, FrameLab]
+    maturity: SOURCE_VERIFIED
+    reuse_mode: ADAPT
+    tags: [serif, sans, editorial, hierarchy]
+
+  - id: DS-010
+    name: Contrast-aware accent surface
+    category: color
+    sources: [Agenda-per-Anna]
+    maturity: SOURCE_VERIFIED
+    reuse_mode: COPY_OR_ADAPT
+    tags: [contrast, gradient, dark-mode]
+
+  - id: DS-011
+    name: Deterministic visual-key artwork
+    category: visual-system
+    sources: [World-Days]
+    maturity: SOURCE_VERIFIED
+    reuse_mode: COPY_OR_ADAPT
+    tags: [gradient, generated-art, category, lightweight]
+
+  - id: DS-012
+    name: Photographic editorial layout
+    category: visual-system
+    sources: [FrameLab]
+    maturity: REFERENCE
+    reuse_mode: ADAPT
+    tags: [photography, whitespace, premium, editorial]
+
+  - id: DS-013
+    name: Neon analytics card family
+    category: component
+    sources: [FocuSense]
+    maturity: SOURCE_VERIFIED
+    reuse_mode: COPY_OR_ADAPT
+    tags: [neon, analytics, metrics, gradient]
+
+  - id: DS-014
+    name: 270-degree score ring
+    category: data-visualization
+    sources: [FocuSense]
+    maturity: SOURCE_VERIFIED
+    reuse_mode: COPY_OR_ADAPT
+    tags: [score, progress, canvas, gamification]
+
+  - id: DS-015
+    name: Clean utility action family
+    category: component
+    sources: [Phone-Guard, Battery_Guard]
+    maturity: SOURCE_VERIFIED
+    reuse_mode: COPY_OR_ADAPT
+    tags: [utility, button, choice, panel]
+
+  - id: DS-016
+    name: Protection status and escalation UX
+    category: safety-ux
+    sources: [Phone-Guard, Pocket-Guard, Tabletop-Motion-Alarm]
+    maturity: SOURCE_VERIFIED
+    reuse_mode: ADAPT
+    tags: [alarm, status, warning, diagnostics, sensor]
+
+  - id: DS-017
+    name: Contextual bottom sheet
+    category: component
+    sources: [Wonderlog, Notes-Ecosistema]
+    maturity: SOURCE_VERIFIED
+    reuse_mode: COPY_OR_ADAPT
+    tags: [bottom-sheet, drag-handle, progressive-disclosure]
+
+  - id: DS-018
+    name: Editorial eyebrow and section header
+    category: component
+    sources: [Notes-Ecosistema]
+    maturity: SOURCE_VERIFIED
+    reuse_mode: COPY_OR_ADAPT
+    tags: [editorial, heading, label]
+
+  - id: DS-019
+    name: Skeleton geometry equals final content geometry
+    category: performance-ux
+    sources: [FrameLab]
+    maturity: REFERENCE
+    reuse_mode: ADAPT
+    tags: [skeleton, image, layout-shift, perceived-performance]
+
+  - id: DS-020
+    name: Canvas workspace interaction family
+    category: workspace
+    sources: [Notes-Ecosistema, penpot/penpot]
+    maturity: REFERENCE
+    reuse_mode: ADAPT
+    tags: [canvas, pan, zoom, draw, resize, snapping, layers]
+
+styles:
+  - id: STYLE-A
+    name: Editorial Personal
+    source: Agenda-per-Anna
+    maturity: SOURCE_VERIFIED
+  - id: STYLE-B
+    name: Editorial Knowledge
+    source: Notes-Ecosistema
+    maturity: SOURCE_VERIFIED
+  - id: STYLE-C
+    name: Colorful Travel
+    source: Wonderlog
+    maturity: SOURCE_VERIFIED
+  - id: STYLE-D
+    name: Photographic Editorial Premium
+    source: FrameLab-Google-AI-Studio
+    maturity: SOURCE_VERIFIED
+  - id: STYLE-E
+    name: Daily Editorial Color
+    source: World-Days
+    maturity: SOURCE_VERIFIED
+  - id: STYLE-F
+    name: Clean Green Utility
+    source: Battery_Guard
+    maturity: SOURCE_VERIFIED
+  - id: STYLE-G
+    name: Outdoor Utility
+    source: CamperBoss
+    maturity: SOURCE_VERIFIED
+  - id: STYLE-H
+    name: Neon Analytics
+    source: FocuSense
+    maturity: SOURCE_VERIFIED
+  - id: STYLE-I
+    name: Reliable Safety Utility
+    source: Phone-Guard
+    maturity: SOURCE_VERIFIED
+  - id: STYLE-J
+    name: Pocket/Bag Protection Status UX
+    source: Pocket-Guard
+    maturity: SOURCE_VERIFIED
+  - id: STYLE-K
+    name: Compact Pixel Utility Branding
+    source: 180FlipCharge
+    maturity: REFERENCE
+  - id: STYLE-L
+    name: Green/Black Finance Blocks
+    source: CashMate-AI
+    maturity: REFERENCE
