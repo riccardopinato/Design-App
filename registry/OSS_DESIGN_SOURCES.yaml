@@ -1,9 +1,15 @@
-schema_version: 1
+schema_version: 2
 source_catalog: riccardopinato/Analisi-delle-mie-stelle-github
 source_path: catalog/ui-ux-design.md
 imported_at: "2026-10-27"
 default_status: DISCOVERY
 rule: "External repositories remain discovery/reference until license and reuse scope are checked."
+curated_research:
+  batch: CURATED_2026_10_27
+  observed_at: "2026-10-27"
+  factory_baseline: "riccardopinato/App-Factory-Core@7b84e33df715cf2a48bda7c7495d0690819bff0f"
+  new_sources: 37
+  note: "Curated for mobile app design, motion, design systems, visual QA, iconography and sound."
 
 sources:
   - {repo: "fyne-io/fyne", utility: 96, ease: 62, deepen: true}
@@ -42,3 +48,413 @@ sources:
   - {repo: "continue-revolution/sd-webui-animatediff", utility: 36, ease: 66, deepen: false}
   - {repo: "Medium/loadable-components", utility: 34, ease: 74, deepen: false}
   - {repo: "CaffeineViking/osgw", utility: 31, ease: 52, deepen: false}
+# Curated GitHub design research — 2026-10-27.
+  # These sources are pinned to the observed branch head for deterministic provenance.
+  # They remain DISCOVERY/REFERENCE until adapted and validated inside Design-App or an app.
+
+  - repo: "style-dictionary/style-dictionary"
+    batch: CURATED_2026_10_27
+    domain: design-tokens
+    stack: "Cross-platform / JavaScript"
+    license: "Apache-2.0"
+    source_ref: "f82e7aafbcaed3ca9009ec53859fbe05ed0c96a8"
+    classification: TOOLING_DONOR
+    priority: A
+    role: "Build cross-platform design tokens into platform-specific outputs."
+    copy_policy: ADAPT_TOOLING
+
+  - repo: "tokens-studio/figma-plugin"
+    batch: CURATED_2026_10_27
+    domain: design-tokens
+    stack: "Figma / TypeScript"
+    license: "MIT"
+    source_ref: "a1b51d76018fed175b7d9702fc9fb32f8f401e6a"
+    classification: TOOLING_REFERENCE
+    priority: A
+    role: "Design-token authoring and Figma workflow reference."
+    copy_policy: REFERENCE_OR_ADAPT
+
+  - repo: "tokens-studio/sd-transforms"
+    batch: CURATED_2026_10_27
+    domain: design-tokens
+    stack: "TypeScript / Style Dictionary"
+    license: "MIT"
+    source_ref: "5066620531629a0e6a2f89f4365e1ad40d0c9216"
+    classification: TOOLING_DONOR
+    priority: B
+    role: "Transform Tokens Studio exports for Style Dictionary pipelines."
+    copy_policy: ADAPT_TOOLING
+
+  - repo: "figma/code-connect"
+    batch: CURATED_2026_10_27
+    domain: design-ops
+    stack: "Figma / TypeScript"
+    license: "MIT"
+    source_ref: "d856baa9bf7907c430121139725a7a8181bac9a3"
+    classification: TOOLING_REFERENCE
+    priority: B
+    role: "Connect Figma design-system components with production code."
+    copy_policy: REFERENCE_OR_ADAPT
+
+  - repo: "figma/sds"
+    batch: CURATED_2026_10_27
+    domain: design-system
+    stack: "Figma / React / TypeScript"
+    license: "MIT"
+    source_ref: "05525f75192a3aa5d5690c5e41277ebd19d2efe1"
+    classification: UI_UX_REFERENCE
+    priority: B
+    role: "Reference architecture for variables, styles, components and Code Connect."
+    copy_policy: REFERENCE_ONLY
+
+  - repo: "widgetbook/widgetbook"
+    batch: CURATED_2026_10_27
+    domain: component-workbench
+    stack: "Flutter / Dart"
+    license: "MIT"
+    source_ref: "66c1eb2f002aab2c90cceddff9f7a84db1959dc2"
+    classification: TOOLING_DONOR
+    priority: A
+    role: "Interactive component catalogue and design-system workbench for Flutter."
+    copy_policy: ADAPT_TOOLING
+
+  - repo: "gskinner/flutter_animate"
+    batch: CURATED_2026_10_27
+    domain: motion
+    stack: "Flutter / Dart"
+    license: "BSD-3-Clause"
+    source_ref: "62c12040b1e3f80403b4fbfa48649155df006eb5"
+    classification: CODE_DONOR
+    priority: A
+    role: "Composable micro-interactions and lightweight functional motion."
+    copy_policy: DEPENDENCY_OR_ADAPT
+
+  - repo: "xvrh/lottie-flutter"
+    batch: CURATED_2026_10_27
+    domain: motion
+    stack: "Flutter / Dart"
+    license: "MIT"
+    source_ref: "a662621ae02998cf3482a6b8619ec05d63f2eebd"
+    classification: CODE_DONOR
+    priority: A
+    role: "Pure-Dart Lottie playback for bounded vector animations."
+    copy_policy: DEPENDENCY_OR_ADAPT
+
+  - repo: "LottieFiles/dotlottie-flutter"
+    batch: CURATED_2026_10_27
+    domain: motion
+    stack: "Flutter / Dart"
+    license: "MIT"
+    source_ref: "b5fbd6da993a28b92b36958625b3d69f30f90a86"
+    classification: CODE_DONOR
+    priority: A
+    role: "Official Lottie/dotLottie runtime across Flutter targets."
+    copy_policy: DEPENDENCY_OR_ADAPT
+
+  - repo: "rive-app/rive-flutter"
+    batch: CURATED_2026_10_27
+    domain: motion
+    stack: "Flutter / Dart"
+    license: "MIT"
+    source_ref: "6f853e45d380f5b2bfccc893b08037e03e292a3b"
+    classification: CODE_DONOR
+    priority: A
+    role: "Stateful interactive vector animation and state-machine UI."
+    copy_policy: DEPENDENCY_OR_ADAPT
+
+  - repo: "bdlukaa/fluent_ui"
+    batch: CURATED_2026_10_27
+    domain: ui-library
+    stack: "Flutter / Dart"
+    license: "BSD-3-Clause"
+    source_ref: "f806a8641f245d919176f38af0bc56f9391972a0"
+    classification: UI_UX_REFERENCE
+    priority: B
+    role: "Desktop/Windows-inspired component and layout reference."
+    copy_policy: REFERENCE_OR_DEPENDENCY
+
+  - repo: "duobaseio/forui"
+    batch: CURATED_2026_10_27
+    domain: ui-library
+    stack: "Flutter / Dart"
+    license: "MIT code + OFL-1.1 bundled fonts"
+    source_ref: "eea1e8e651d263f14ef43897ccbb7a2576549da5"
+    classification: UI_UX_REFERENCE
+    priority: B
+    role: "Modern Flutter component system and alternative visual language."
+    copy_policy: REFERENCE_OR_DEPENDENCY
+
+  - repo: "android/compose-samples"
+    batch: CURATED_2026_10_27
+    domain: native-reference
+    stack: "Android / Kotlin / Jetpack Compose"
+    license: "Apache-2.0"
+    source_ref: "25631e8f544a9a1e3f01e296eaf1b4c28428196c"
+    classification: UI_UX_REFERENCE
+    priority: A
+    role: "Official Compose patterns, layouts, accessibility and navigation reference."
+    copy_policy: REFERENCE_OR_ADAPT
+
+  - repo: "android/nowinandroid"
+    batch: CURATED_2026_10_27
+    domain: native-reference
+    stack: "Android / Kotlin / Jetpack Compose"
+    license: "Apache-2.0"
+    source_ref: "2982e63cb691ad49cd009aab43dc206fee6699c2"
+    classification: UI_UX_REFERENCE
+    priority: A
+    role: "Production-scale Compose app reference for adaptive UI and design architecture."
+    copy_policy: REFERENCE_OR_ADAPT
+
+  - repo: "JetBrains/compose-multiplatform"
+    batch: CURATED_2026_10_27
+    domain: native-reference
+    stack: "Kotlin / Compose Multiplatform"
+    license: "Apache-2.0"
+    source_ref: "d5b0e9fa0e94455ef09bd6ce903344eb917db04f"
+    classification: UI_UX_REFERENCE
+    priority: B
+    role: "Cross-platform Compose primitives and platform adaptation reference."
+    copy_policy: REFERENCE_ONLY
+
+  - repo: "valentinilk/compose-shimmer"
+    batch: CURATED_2026_10_27
+    domain: loading-motion
+    stack: "Kotlin / Jetpack Compose"
+    license: "Apache-2.0"
+    source_ref: "948235ec24fa77764e4b4dbd6245b11897ac0efc"
+    classification: CODE_DONOR
+    priority: A
+    role: "Lightweight shimmer/skeleton loading effect for Compose."
+    copy_policy: DEPENDENCY_OR_ADAPT
+
+  - repo: "skydoves/Balloon"
+    batch: CURATED_2026_10_27
+    domain: overlay
+    stack: "Kotlin / Compose / KMP"
+    license: "Apache-2.0"
+    source_ref: "15e9ea5a15374e643c8c4f074c87f4ee66a84760"
+    classification: CODE_DONOR
+    priority: B
+    role: "Tooltips, guided hints and animated anchored overlays."
+    copy_policy: DEPENDENCY_OR_ADAPT
+
+  - repo: "skydoves/landscapist"
+    batch: CURATED_2026_10_27
+    domain: image-ux
+    stack: "Kotlin / Compose / KMP"
+    license: "Apache-2.0"
+    source_ref: "e3a0e1fba4c27c19cc3497e614b26c1d0ebb9bff"
+    classification: CODE_DONOR
+    priority: B
+    role: "Image loading, placeholders and transitions for Compose."
+    copy_policy: DEPENDENCY_OR_ADAPT
+
+  - repo: "Trendyol/komposto"
+    batch: CURATED_2026_10_27
+    domain: design-system
+    stack: "Android / Kotlin / Jetpack Compose"
+    license: "Apache-2.0"
+    source_ref: "74ab68e44abdacc203afdb9290f1df18594a8ad5"
+    classification: UI_UX_REFERENCE
+    priority: B
+    role: "Compose design-system reference with tokens, RTL and accessibility."
+    copy_policy: REFERENCE_OR_ADAPT
+
+  - repo: "SwiftUIX/SwiftUIX"
+    batch: CURATED_2026_10_27
+    domain: ui-library
+    stack: "Apple / Swift / SwiftUI"
+    license: "MIT"
+    source_ref: "3a99044b7045fb5907a7df18c7fe323e5656c6ab"
+    classification: CODE_DONOR
+    priority: A
+    role: "Expanded SwiftUI primitives and missing UI capabilities."
+    copy_policy: DEPENDENCY_OR_ADAPT
+
+  - repo: "exyte/PopupView"
+    batch: CURATED_2026_10_27
+    domain: overlay
+    stack: "Apple / Swift / SwiftUI"
+    license: "MIT"
+    source_ref: "99695337ce9e965b70e4aa14b49b1a9920017333"
+    classification: CODE_DONOR
+    priority: B
+    role: "Toast, popup and overlay interaction patterns in SwiftUI."
+    copy_policy: DEPENDENCY_OR_ADAPT
+
+  - repo: "exyte/AnimatedTabBar"
+    batch: CURATED_2026_10_27
+    domain: navigation-motion
+    stack: "Apple / Swift / SwiftUI"
+    license: "MIT"
+    source_ref: "dcc003243f1fddc019564b08431cf508358f7d58"
+    classification: UI_UX_REFERENCE
+    priority: B
+    role: "Animated tab-bar patterns for selective consumer-app use."
+    copy_policy: REFERENCE_OR_DEPENDENCY
+
+  - repo: "imodeveloper/dskit-swiftui"
+    batch: CURATED_2026_10_27
+    domain: design-system
+    stack: "Apple / Swift / SwiftUI"
+    license: "MIT"
+    source_ref: "2377446e5fa88c6c1a71ccf3a24a832a5cb672e1"
+    classification: UI_UX_REFERENCE
+    priority: B
+    role: "Reusable SwiftUI design-system structure and component standards."
+    copy_policy: REFERENCE_OR_ADAPT
+
+  - repo: "Orange-OpenSource/ouds-ios"
+    batch: CURATED_2026_10_27
+    domain: design-system
+    stack: "Apple / Swift / SwiftUI"
+    license: "MIT"
+    source_ref: "ae587e89c809495689a77a212cea127df6ae764d"
+    classification: UI_UX_REFERENCE
+    priority: A
+    role: "Large real-world SwiftUI design-system implementation."
+    copy_policy: REFERENCE_OR_ADAPT
+
+  - repo: "markiv/SwiftUI-Shimmer"
+    batch: CURATED_2026_10_27
+    domain: loading-motion
+    stack: "Apple / Swift / SwiftUI"
+    license: "MIT"
+    source_ref: "0226e21f9bf355d40e07e5f5e1c33679d50e167f"
+    classification: CODE_DONOR
+    priority: B
+    role: "Very small shimmer primitive across Apple platforms."
+    copy_policy: DEPENDENCY_OR_ADAPT
+
+  - repo: "lucide-icons/lucide"
+    batch: CURATED_2026_10_27
+    domain: iconography
+    stack: "Cross-platform SVG / TypeScript"
+    license: "ISC; inherited Feather subset MIT"
+    source_ref: "2ca268e74888d3506b3319fb8f94aaaaf70ceca9"
+    classification: ASSET_SOURCE
+    priority: A
+    role: "Consistent neutral line-icon system."
+    copy_policy: IN_APP_USE_WITH_LICENSE
+
+  - repo: "tabler/tabler-icons"
+    batch: CURATED_2026_10_27
+    domain: iconography
+    stack: "Cross-platform SVG"
+    license: "MIT"
+    source_ref: "ed177a085b652fe04ec4f37ced867c94621e7840"
+    classification: ASSET_SOURCE
+    priority: A
+    role: "Large high-quality SVG icon set."
+    copy_policy: IN_APP_USE_WITH_LICENSE
+
+  - repo: "ionic-team/ionicons"
+    batch: CURATED_2026_10_27
+    domain: iconography
+    stack: "Cross-platform SVG / TypeScript"
+    license: "MIT"
+    source_ref: "d1e2c48641fd5f4910ee42a144dc1c84b1a9a4ee"
+    classification: ASSET_SOURCE
+    priority: B
+    role: "Mobile-oriented icon family with broad platform familiarity."
+    copy_policy: IN_APP_USE_WITH_LICENSE
+
+  - repo: "Remix-Design/RemixIcon"
+    batch: CURATED_2026_10_27
+    domain: iconography
+    stack: "Cross-platform SVG / icon font"
+    license: "Remix Icon License v1.0"
+    source_ref: "9fb7967c0a4c09910161192bde99efd3df09f5eb"
+    classification: ASSET_SOURCE
+    priority: B
+    role: "Neutral icon system with commercial in-app use allowed."
+    copy_policy: "IN_APP_USE_ONLY; DO_NOT_REPACKAGE_AS_ICON_LIBRARY"
+
+  - repo: "cashapp/paparazzi"
+    batch: CURATED_2026_10_27
+    domain: visual-qa
+    stack: "Android / Kotlin"
+    license: "Apache-2.0"
+    source_ref: "535a155fa1a6ce21c87074244161ab6542161b2a"
+    classification: TOOLING_DONOR
+    priority: A
+    role: "Android screenshot rendering and visual regression without device/emulator."
+    copy_policy: DEPENDENCY_OR_ADAPT
+
+  - repo: "pointfreeco/swift-snapshot-testing"
+    batch: CURATED_2026_10_27
+    domain: visual-qa
+    stack: "Apple / Swift"
+    license: "MIT"
+    source_ref: "0c6380dd46cd45e00f2bf87cf6002f3478e84452"
+    classification: TOOLING_DONOR
+    priority: A
+    role: "Snapshot testing for Swift and SwiftUI visual regression."
+    copy_policy: DEPENDENCY_OR_ADAPT
+
+  - repo: "wyzowl/sfx-kit"
+    batch: CURATED_2026_10_27
+    domain: sound
+    stack: "Audio assets / WAV + JSON metadata"
+    license: "CC0-1.0"
+    source_ref: "92780e7ab0cdfb557497a988089c47f46e8c7412"
+    classification: ASSET_SOURCE
+    priority: A
+    role: "320 UI/animation SFX with semantic metadata, timing and sync points."
+    copy_policy: VENDOR_ALLOWED_CC0
+
+  - repo: "Calinou/kenney-ui-audio"
+    batch: CURATED_2026_10_27
+    domain: sound
+    stack: "Audio assets / WAV"
+    license: "CC0-1.0"
+    source_ref: "8c3d81b9159d058c444f89d12d518276b0b09345"
+    classification: ASSET_SOURCE
+    priority: A
+    role: "50 compact UI sounds: buttons, switches and generic clicks."
+    copy_policy: VENDOR_ALLOWED_CC0
+
+  - repo: "DevsDaddy/Unity-UI-Audio-Collection"
+    batch: CURATED_2026_10_27
+    domain: sound
+    stack: "Audio assets"
+    license: "MIT repository license"
+    source_ref: "661c9f25f615bda2aedb8cc8a40c711b3842d107"
+    classification: ASSET_SOURCE
+    priority: B
+    role: "200+ UI clips including click, success, error, notification and transition SFX."
+    copy_policy: "VERIFY_ASSET_SCOPE_BEFORE_VENDORING"
+
+  - repo: "bluefireteam/audioplayers"
+    batch: CURATED_2026_10_27
+    domain: sound
+    stack: "Flutter / Dart"
+    license: "MIT"
+    source_ref: "7358eba581cb7ee3d0f048ff5170bb605776c9f3"
+    classification: CODE_DONOR
+    priority: A
+    role: "Cross-platform playback for short UI sounds and multiple simultaneous audio files."
+    copy_policy: DEPENDENCY_OR_ADAPT
+
+  - repo: "google/oboe"
+    batch: CURATED_2026_10_27
+    domain: sound
+    stack: "Android / C++"
+    license: "Apache-2.0"
+    source_ref: "4468344c8fdfdd7df068d5abefe2d8615fd6b431"
+    classification: CODE_DONOR
+    priority: B
+    role: "Low-latency Android audio when ordinary UI playback is insufficient."
+    copy_policy: "USE_ONLY_WITH_LOW_LATENCY_JUSTIFICATION"
+
+  - repo: "AudioKit/AudioKit"
+    batch: CURATED_2026_10_27
+    domain: sound
+    stack: "Apple / Swift"
+    license: "MIT"
+    source_ref: "c358c15fdcdd0e78c4b4988f5c532c7cfb5c2eeb"
+    classification: CODE_DONOR
+    priority: B
+    role: "Advanced synthesis, processing and analysis for Apple platforms."
+    copy_policy: "USE_ONLY_FOR_ADVANCED_AUDIO_REQUIREMENTS"
