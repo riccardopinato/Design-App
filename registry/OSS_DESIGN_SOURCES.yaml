@@ -5,7 +5,7 @@ imported_at: "2026-10-27"
 default_status: DISCOVERY
 rule: "External repositories remain discovery/reference until license and reuse scope are checked."
 curated_research:
-  batch: CURATED_2026_10_27
+  batch_id: CURATED_2026_10_27
   observed_at: "2026-10-27"
   factory_baseline: "riccardopinato/App-Factory-Core@7b84e33df715cf2a48bda7c7495d0690819bff0f"
   new_sources: 37
