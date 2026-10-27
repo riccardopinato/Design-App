@@ -224,3 +224,61 @@ styles:
     name: Green/Black Finance Blocks
     source: CashMate-AI
     maturity: REFERENCE
+
+  - id: DS-021
+    name: Safety severity semantic colors
+    category: safety-ux
+    sources: [Easy-Debloat, Phone-Guard]
+    maturity: SOURCE_VERIFIED
+    reuse_mode: ADAPT
+    tags: [safe, caution, dangerous, severity, status]
+
+  - id: DS-022
+    name: Single canonical image with context-specific crop
+    category: media-ux
+    sources: [In-Cucina-con-gli-Anime]
+    maturity: SOURCE_VERIFIED
+    reuse_mode: COPY_OR_ADAPT
+    tags: [image, card, crop, detail, aspect-ratio]
+
+  - id: DS-023
+    name: Guided prerequisite onboarding
+    category: onboarding
+    sources: [Easy-Debloat]
+    maturity: SOURCE_VERIFIED
+    reuse_mode: ADAPT
+    tags: [onboarding, permission, shizuku, setup, diagnostics]
+
+  - id: DS-024
+    name: AOD edge visual alert
+    category: notification-ux
+    sources: [Luminous-Infinite-Circle]
+    maturity: REFERENCE
+    reuse_mode: ADAPT
+    tags: [aod, edge, circle, visual-alert, accessibility]
+
+  - id: DS-025
+    name: Responsive destination shell with bounded content widths
+    category: navigation
+    sources: [In-Cucina-con-gli-Anime, Agenda-per-Anna, Wonderlog]
+    maturity: SOURCE_VERIFIED
+    reuse_mode: COPY_OR_ADAPT
+    tags: [responsive, navigation-bar, navigation-rail, max-width]
+
+styles_extension:
+  - id: STYLE-M
+    name: Forest/Moss Map Outdoor
+    source: TrailPath
+    maturity: SOURCE_VERIFIED
+  - id: STYLE-N
+    name: Minimal Premium Safety Utility
+    source: Easy-Debloat
+    maturity: SOURCE_VERIFIED
+  - id: STYLE-O
+    name: Image-first Culinary Cards
+    source: In-Cucina-con-gli-Anime
+    maturity: SOURCE_VERIFIED
+  - id: STYLE-P
+    name: Visual Alerts / AOD Circle
+    source: Luminous-Infinite-Circle
+    maturity: REFERENCE
