@@ -310,3 +310,78 @@ The initial UI/UX/design source pool comes from
 riccardopinato/Analisi-delle-mie-stelle-github and is mirrored separately in
 registry/OSS_DESIGN_SOURCES.yaml. External sources are discovery/reference until
 license and actual reuse scope are checked.
+
+
+### STYLE-M — Forest/Moss Map Outdoor / TrailPath
+Source: riccardopinato/TrailPath
+
+Characteristics:
+- forest #236146, moss #6D8B5B, sand #F0E8D7, ink/night neutrals;
+- Material 3 light/dark;
+- 72 dp navigation;
+- bold compact headings with negative letter spacing;
+- map-first outdoor identity;
+- floating map controls must stay within safe area and avoid edge clipping.
+
+Best reuse:
+- hiking/trail/map utilities;
+- outdoor route products.
+
+### STYLE-N — Minimal Premium Safety Utility / Easy Debloat
+Source: project chat + implemented app
+
+Characteristics:
+- native Kotlin/Compose + Material 3;
+- compact premium layout;
+- blue/indigo identity;
+- semantic package safety: SAFE green, CAUTION amber, DANGEROUS red;
+- neutral background, ~20 dp cards;
+- compact package rows;
+- dark mode and optional dynamic color;
+- subtle haptics/micro-animation;
+- horizontal filters;
+- three-destination bottom navigation;
+- guided Shizuku setup instead of generic permission walls.
+
+Best reuse:
+- diagnostic/admin utilities;
+- tools with risk classification and setup prerequisites.
+
+### STYLE-O — Image-first Culinary Cards / In Cucina con gli Anime
+Source: riccardopinato/In-Cucina-con-gli-Anime
+
+Characteristics:
+- one canonical artwork asset per recipe;
+- card keeps fixed visual proportions and crops with BoxFit.cover;
+- detail reuses the same image uncropped with BoxFit.contain;
+- current card artwork area is 178 px;
+- no duplicate card/hero asset required;
+- responsive NavigationBar -> NavigationRail;
+- reusable design tokens include 48 dp minimum interaction target and bounded content widths.
+
+Best reuse:
+- recipe/food catalogs;
+- media cards where crop and full-view must coexist without duplicated assets.
+
+### STYLE-P — Visual Alerts / Luminous Infinite Circle
+Source: project chat / donor lineage
+
+Characteristics:
+- screen-edge/AOD luminous visual indicator;
+- circle/edge-based notification emphasis;
+- flash can complement the screen visual;
+- intended for important notifications and accessibility;
+- visual alert engine should remain independent from product-specific notification logic.
+
+Best reuse:
+- notification control;
+- high-salience alerts;
+- accessibility-oriented notification surfaces.
+
+## Coverage notes
+
+The harvest intentionally distinguishes "no unique design evidence found" from
+"not inspected". BeerClass AI and SleepMax currently have product/UI implementation
+history, but no sufficiently distinctive reusable visual system emerged from the
+retrieved Project context. They should not receive invented style entries merely to
+fill the catalog.
