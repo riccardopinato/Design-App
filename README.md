@@ -32,7 +32,8 @@ The initial Project harvest includes:
 - 180FlipCharge branding direction;
 - CashMate design direction;
 - shared Project design frameworks;
-- the 36 UI/UX/design repositories already catalogued in Analisi-delle-mie-stelle-github.
+- the 36 UI/UX/design repositories already catalogued in Analisi-delle-mie-stelle-github;
+- 37 additional curated GitHub sources for Flutter, Compose, SwiftUI, design tokens, motion, icons, visual QA and sound.
 
 ## Fast lookup
 
@@ -42,7 +43,9 @@ Start here:
 - registry/OSS_DESIGN_SOURCES.yaml — external discovery pool;
 - tested/TESTED_REGISTRY.yaml — first-party reusable source inventory;
 - tested/source_snapshots/ — pinned source code snapshots;
-- sources/PROJECT_FILE_FRAMEWORKS.md — reusable design rules from older Project frameworks.
+- sources/PROJECT_FILE_FRAMEWORKS.md — reusable design rules from older Project frameworks;
+- sources/GITHUB_DESIGN_RESEARCH_2026-10-27.md — curated GitHub research and adoption tiers;
+- sources/SOUND_DESIGN_GUIDE.md — semantic UI sound guidance and vetted audio sources.
 
 ## Maturity
 
@@ -64,6 +67,10 @@ A working source app does not automatically make an extraction COPY_READY.
 - STYLE-J — Pocket/Bag Protection Status UX
 - STYLE-K — Compact Pixel Utility Branding / 180FlipCharge
 - STYLE-L — Green/Black Finance Blocks / CashMate
+- STYLE-M — Forest/Moss Map Outdoor / TrailPath
+- STYLE-N — Minimal Premium Safety Utility / Easy Debloat
+- STYLE-O — Image-first Culinary Cards / In Cucina con gli Anime
+- STYLE-P — Visual Alerts / AOD Circle / Luminous Infinite Circle
 
 ## Automatic intake
 
@@ -72,3 +79,18 @@ animation, component or repository, evaluate it for Design-App and register it w
 useful. Third-party code must pass license/provenance checks before being copied.
 
 See AGENTS.md for the operating contract.
+
+
+## External design-source coverage
+
+The external discovery pool now contains 73 unique repositories:
+- 36 initial UI/UX discovery sources;
+- 37 curated and commit-pinned sources from the 2026-10-27 research batch.
+
+The curated batch adds explicit coverage for design tokens, Flutter, Jetpack Compose,
+SwiftUI, icon systems, component workbenches, visual regression, animation runtimes
+and UI sound design.
+
+No external runtime dependency is automatically admitted into an app merely because
+it is catalogued here. Dependency Admission, license checks and per-app Product Bible
+constraints still apply.

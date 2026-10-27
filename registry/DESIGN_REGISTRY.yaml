@@ -216,6 +216,47 @@ patterns:
     reuse_mode: COPY_OR_ADAPT
     tags: [responsive, navigation-bar, navigation-rail, max-width]
 
+
+  - id: DS-026
+    name: Cross-platform design-token pipeline
+    category: design-system
+    sources: [style-dictionary/style-dictionary, tokens-studio/figma-plugin, tokens-studio/sd-transforms]
+    maturity: REFERENCE
+    reuse_mode: ADAPT
+    tags: [tokens, figma, style-dictionary, cross-platform, automation]
+
+  - id: DS-027
+    name: Component workbench and visual regression
+    category: visual-qa
+    sources: [widgetbook/widgetbook, cashapp/paparazzi, pointfreeco/swift-snapshot-testing]
+    maturity: REFERENCE
+    reuse_mode: ADAPT
+    tags: [component-catalog, screenshot, snapshot, regression, qa]
+
+  - id: DS-028
+    name: Tiered motion stack
+    category: motion
+    sources: [gskinner/flutter_animate, xvrh/lottie-flutter, LottieFiles/dotlottie-flutter, rive-app/rive-flutter]
+    maturity: REFERENCE
+    reuse_mode: ADAPT
+    tags: [micro-interaction, lottie, dotlottie, rive, state-machine]
+
+  - id: DS-029
+    name: Semantic sound feedback system
+    category: sound-design
+    sources: [wyzowl/sfx-kit, Calinou/kenney-ui-audio, bluefireteam/audioplayers]
+    maturity: REFERENCE
+    reuse_mode: ADAPT
+    tags: [sound, sfx, feedback, success, warning, notification, accessibility]
+
+  - id: DS-030
+    name: Iconography source hierarchy
+    category: iconography
+    sources: [google/material-design-icons, lucide-icons/lucide, tabler/tabler-icons, ionic-team/ionicons, Remix-Design/RemixIcon]
+    maturity: REFERENCE
+    reuse_mode: ADAPT
+    tags: [icons, svg, material-symbols, lucide, tabler, consistency]
+
 styles:
   - id: STYLE-A
     name: Editorial Personal

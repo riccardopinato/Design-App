@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 from pathlib import Path
 import re
-import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -21,17 +20,29 @@ all_ids = pattern_ids + style_ids
 if len(all_ids) != len(set(all_ids)):
     fail("duplicate design/style IDs")
 
-expected_patterns = [f"DS-{i:03d}" for i in range(1, 26)]
+expected_patterns = [f"DS-{i:03d}" for i in range(1, 31)]
 if pattern_ids != expected_patterns:
-    fail(f"pattern IDs are not the canonical DS-001..DS-025 sequence: {pattern_ids}")
+    fail(f"pattern IDs are not the canonical DS-001..DS-030 sequence: {pattern_ids}")
 
 expected_styles = [f"STYLE-{chr(ord('A') + i)}" for i in range(16)]
 if style_ids != expected_styles:
     fail(f"style IDs are not the canonical STYLE-A..STYLE-P sequence: {style_ids}")
 
-repos = re.findall(r'\{repo:\s*"([^"]+)"', oss)
-if len(repos) != 36 or len(set(repos)) != 36:
-    fail(f"expected 36 unique OSS design sources, found {len(repos)} / {len(set(repos))} unique")
+repos = re.findall(r'repo:\s*"([^"]+)"', oss)
+if len(repos) != 73 or len(set(repos)) != 73:
+    fail(f"expected 73 unique OSS design sources, found {len(repos)} / {len(set(repos))} unique")
+
+curated_count = len(re.findall(r"^\s+batch:\s+CURATED_2026_10_27\s*$", oss, re.MULTILINE))
+if curated_count != 37:
+    fail(f"expected 37 sources in CURATED_2026_10_27, found {curated_count}")
+
+source_ref_count = len(re.findall(r'^\s+source_ref:\s+"[0-9a-f]{40}"\s*$', oss, re.MULTILINE))
+if source_ref_count < 37:
+    fail(f"expected at least 37 pinned curated source refs, found {source_ref_count}")
+
+sound_count = len(re.findall(r"^\s+domain:\s+sound\s*$", oss, re.MULTILINE))
+if sound_count != 6:
+    fail(f"expected 6 curated sound sources, found {sound_count}")
 
 snapshot_paths = re.findall(r"path:\s*([^,}\n]+)", tested)
 snapshot_paths = [p.strip() for p in snapshot_paths if p.strip().startswith("tested/source_snapshots/")]
@@ -54,6 +65,8 @@ required = [
     ROOT / "README.md",
     ROOT / "sources" / "PROJECT_PATTERN_HARVEST.md",
     ROOT / "sources" / "PROJECT_FILE_FRAMEWORKS.md",
+    ROOT / "sources" / "GITHUB_DESIGN_RESEARCH_2026-10-27.md",
+    ROOT / "sources" / "SOUND_DESIGN_GUIDE.md",
 ]
 for path in required:
     if not path.is_file():
@@ -61,6 +74,7 @@ for path in required:
 
 print(
     f"Design-App validation PASS: {len(pattern_ids)} patterns, "
-    f"{len(style_ids)} styles, {len(repos)} OSS sources, "
+    f"{len(style_ids)} styles, {len(repos)} OSS sources "
+    f"({curated_count} curated, {sound_count} sound), "
     f"{len(snapshot_paths)} snapshots, {len(coverage_rows)} covered products."
 )
