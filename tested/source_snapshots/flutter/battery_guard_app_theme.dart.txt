@@ -1,0 +1,56 @@
+SOURCE_SNAPSHOT
+source_repo: riccardopinato/Battery_Guard
+source_path: lib/theme/app_theme.dart
+source_blob: 673182eaa967151904dce8c8f55a19ad5601abd4
+harvested_at: 2026-10-27
+ownership: first-party App Factory source
+maturity: SOURCE_VERIFIED (not automatically COPY_READY)
+
+import 'package:flutter/material.dart';
+
+class AppTheme {
+  const AppTheme._();
+
+  static ThemeData light() {
+    final scheme = ColorScheme.fromSeed(
+      seedColor: const Color(0xFF21A366),
+      brightness: Brightness.light,
+    );
+    return _theme(scheme);
+  }
+
+  static ThemeData dark() {
+    final scheme = ColorScheme.fromSeed(
+      seedColor: const Color(0xFF3DDC84),
+      brightness: Brightness.dark,
+    );
+    return _theme(scheme);
+  }
+
+  static ThemeData _theme(ColorScheme scheme) {
+    return ThemeData(
+      useMaterial3: true,
+      colorScheme: scheme,
+      scaffoldBackgroundColor: scheme.surface,
+      navigationBarTheme: NavigationBarThemeData(
+        height: 72,
+        indicatorColor: scheme.primaryContainer,
+      ),
+      cardTheme: CardThemeData(
+        elevation: 0,
+        color: scheme.surfaceContainerLow,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(24),
+        ),
+      ),
+      filledButtonTheme: FilledButtonThemeData(
+        style: FilledButton.styleFrom(
+          minimumSize: const Size.fromHeight(52),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(18),
+          ),
+        ),
+      ),
+    );
+  }
+}

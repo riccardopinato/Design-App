@@ -1,0 +1,34 @@
+schema_version: 1
+updated_at: "2026-10-27"
+
+meaning:
+  SOURCE_VERIFIED: "Implementation exists in a first-party app and has app-level working/test history."
+  LIBRARY_VERIFIED: "Extracted Design-App implementation has independent validation evidence."
+  COPY_READY: "Library artifact is validated, documented and safe for rapid integration."
+
+items:
+  - {id: SNAP-ANNA-TOKENS, target: Flutter, status: SOURCE_VERIFIED, path: tested/source_snapshots/flutter/anna_theme_semantics.dart.txt, source: riccardopinato/Agenda-per-Anna}
+  - {id: SNAP-WONDERLOG-TOKENS, target: Flutter, status: SOURCE_VERIFIED, path: tested/source_snapshots/flutter/wonderlog_tokens.dart.txt, source: riccardopinato/Wonderlog}
+  - {id: SNAP-WONDERLOG-THEME, target: Flutter, status: SOURCE_VERIFIED, path: tested/source_snapshots/flutter/wonderlog_theme.dart.txt, source: riccardopinato/Wonderlog}
+  - {id: SNAP-NOTES-THEME, target: Flutter, status: SOURCE_VERIFIED, path: tested/source_snapshots/flutter/notes_theme.dart.txt, source: riccardopinato/Notes-Ecosistema}
+  - {id: SNAP-NOTES-EDITORIAL, target: Flutter, status: SOURCE_VERIFIED, path: tested/source_snapshots/flutter/notes_editorial.dart.txt, source: riccardopinato/Notes-Ecosistema}
+  - {id: SNAP-BATTERY-THEME, target: Flutter, status: SOURCE_VERIFIED, path: tested/source_snapshots/flutter/battery_guard_app_theme.dart.txt, source: riccardopinato/Battery_Guard}
+  - {id: SNAP-CAMPERBOSS-THEME, target: Flutter, status: SOURCE_VERIFIED, path: tested/source_snapshots/flutter/camperboss_app_theme.dart.txt, source: riccardopinato/CamperBoss}
+  - {id: SNAP-WORLD-DAYS-THEME, target: Flutter, status: SOURCE_VERIFIED, path: tested/source_snapshots/flutter/world_days_app_theme.dart.txt, source: riccardopinato/World-Days}
+  - {id: SNAP-WORLD-DAYS-VISUALS, target: Flutter, status: SOURCE_VERIFIED, path: tested/source_snapshots/flutter/world_days_observance_visuals.dart.txt, source: riccardopinato/World-Days}
+  - {id: SNAP-FOCUS-THEME, target: Jetpack-Compose, status: SOURCE_VERIFIED, path: tested/source_snapshots/compose/focussense_theme.kt.txt, source: riccardopinato/FocuSense}
+  - {id: SNAP-FOCUS-NEON, target: Jetpack-Compose, status: SOURCE_VERIFIED, path: tested/source_snapshots/compose/focussense_neon_ui.kt.txt, source: riccardopinato/FocuSense}
+  - {id: SNAP-PHONE-GUARD-THEME, target: Jetpack-Compose, status: SOURCE_VERIFIED, path: tested/source_snapshots/compose/phone_guard_theme.kt.txt, source: riccardopinato/Phone-Guard}
+  - {id: SNAP-PHONE-GUARD-COMPONENTS, target: Jetpack-Compose, status: SOURCE_VERIFIED, path: tested/source_snapshots/compose/phone_guard_utility_components.kt.txt, source: riccardopinato/Phone-Guard}
+
+  - {id: SNAP-TRAILPATH-THEME, target: Flutter, status: SOURCE_VERIFIED, path: tested/source_snapshots/flutter/trailpath_app_theme.dart.txt, source: riccardopinato/TrailPath}
+  - {id: SNAP-ANIME-KITCHEN-TOKENS, target: Flutter, status: SOURCE_VERIFIED, path: tested/source_snapshots/flutter/anime_kitchen_design_tokens.dart.txt, source: riccardopinato/In-Cucina-con-gli-Anime}
+  - {id: SNAP-ANIME-KITCHEN-THEME, target: Flutter, status: SOURCE_VERIFIED, path: tested/source_snapshots/flutter/anime_kitchen_app_theme.dart.txt, source: riccardopinato/In-Cucina-con-gli-Anime}
+  - {id: SNAP-ANIME-KITCHEN-SHELL, target: Flutter, status: SOURCE_VERIFIED, path: tested/source_snapshots/flutter/anime_kitchen_responsive_shell.dart.txt, source: riccardopinato/In-Cucina-con-gli-Anime}
+  - {id: SNAP-ANIME-KITCHEN-CARD, target: Flutter, status: SOURCE_VERIFIED, path: tested/source_snapshots/flutter/anime_kitchen_recipe_card.dart.txt, source: riccardopinato/In-Cucina-con-gli-Anime}
+
+rules:
+  - "Every snapshot contains its immutable source blob in the file header."
+  - "SOURCE_VERIFIED is intentionally weaker than COPY_READY."
+  - "Before reuse, inspect dependencies/imports and adapt package names and product identity."
+  - "Promote to LIBRARY_VERIFIED only after an extracted harness or integration validates the artifact itself."
