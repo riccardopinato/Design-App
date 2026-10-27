@@ -4,7 +4,8 @@
 Design-App is the specialized design library for the App Factory.
 
 It stores reusable visual patterns, UI/UX references, motion patterns, design tokens,
-first-party source snapshots, tested components and external design sources.
+iconography, semantic sound/haptic patterns, first-party source snapshots, tested
+components and external design sources.
 
 It does NOT replace:
 - App-Factory-Core CURRENT / Master / Golden Rules;
@@ -14,7 +15,7 @@ It does NOT replace:
 
 ## Intake rule
 Whenever work on an App Factory project discovers a reusable design pattern,
-animation, library, component, layout, interaction or external repository, evaluate
+animation, sound asset, icon system, library, component, layout, interaction or external repository, evaluate
 it for Design-App without waiting for a separate request.
 
 ## Maturity states
@@ -66,6 +67,10 @@ third-party product identity.
 - Minimum interactive targets should normally be 48 dp where platform conventions apply.
 - Empty/loading/error/offline states are part of the design.
 - Motion must clarify state, attention or feedback; decorative noise is not a goal.
+- Sound is optional semantic feedback, not decoration: never add a sound to every tap.
+- Sound must never be the only carrier of state; pair critical meaning with visual/semantic feedback.
+- UI sound packs require asset-level licensing, not only a code repository license.
+- Critical alarms/safety audio are product capabilities and must not be replaced by decorative UI SFX.
 - Responsive layouts should adapt navigation and information density, not merely stretch phone UI.
 
 ## Source snapshots
@@ -73,3 +78,21 @@ Files under tested/source_snapshots/ are first-party snapshots copied from worki
 app repositories for fast retrieval. Their header/provenance record identifies the
 source. A snapshot remains pinned; updates create a new version rather than silently
 rewriting history when the behavior materially changes.
+
+
+## External design-source categories
+Use external sources according to their classification:
+- TOOLING_DONOR: development/design-system tooling; do not ship unless the app needs it.
+- CODE_DONOR: runtime library candidate; apply Dependency Admission before adding it.
+- UI_UX_REFERENCE: study concepts and reimplement in the target design system.
+- ASSET_SOURCE: verify asset-level license before vendoring icons/audio.
+- REFERENCE_ONLY: never copy code/assets when licensing or fit is uncertain.
+
+For motion, prefer the smallest tier that solves the problem:
+1. native/framework animation;
+2. lightweight composable motion;
+3. Lottie/dotLottie for bounded vector sequences;
+4. Rive for genuinely interactive/stateful animation.
+
+For short UI audio, prefer a small semantic sound set and ordinary platform/player
+APIs. Oboe/AudioKit-level engines require a product-level reason.
