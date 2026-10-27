@@ -1,0 +1,44 @@
+schema_version: 1
+source_catalog: riccardopinato/Analisi-delle-mie-stelle-github
+source_path: catalog/ui-ux-design.md
+imported_at: "2026-10-27"
+default_status: DISCOVERY
+rule: "External repositories remain discovery/reference until license and reuse scope are checked."
+
+sources:
+  - {repo: "fyne-io/fyne", utility: 96, ease: 62, deepen: true}
+  - {repo: "penpot/penpot", utility: 88, ease: 46, deepen: true, role: "canvas interaction and design-token reference"}
+  - {repo: "CosmicMind/Material", utility: 87, ease: 48, deepen: true}
+  - {repo: "wasabeef/awesome-android-ui", utility: 78, ease: 61, deepen: false}
+  - {repo: "google/material-design-icons", utility: 78, ease: 61, deepen: false}
+  - {repo: "airbnb/lottie-android", utility: 74, ease: 88, deepen: true, role: "selective onboarding/empty/success motion"}
+  - {repo: "mui/material-ui", utility: 61, ease: 77, deepen: false}
+  - {repo: "itsfatduck/optimizerDuck", utility: 61, ease: 61, deepen: false}
+  - {repo: "supreme-gg-gg/instagram-cli", utility: 59, ease: 74, deepen: false}
+  - {repo: "sadmann7/diceui", utility: 59, ease: 74, deepen: false}
+  - {repo: "Benexl/yt-x", utility: 59, ease: 74, deepen: false}
+  - {repo: "AstraeLabs/VibraVid", utility: 59, ease: 74, deepen: false}
+  - {repo: "stemdeckapp/stemdeck", utility: 59, ease: 59, deepen: false}
+  - {repo: "hitarth-gg/zenshin", utility: 57, ease: 74, deepen: false}
+  - {repo: "PaoloJN/youtube-ai-extension", utility: 57, ease: 74, deepen: false}
+  - {repo: "Wartybix/Constrict", utility: 57, ease: 66, deepen: false}
+  - {repo: "apalis-dev/apalis-board", utility: 54, ease: 52, deepen: false}
+  - {repo: "framework7io/framework7-vue", utility: 53, ease: 41, deepen: false}
+  - {repo: "markusressel/idotmatrix-api-client", utility: 52, ease: 74, deepen: false}
+  - {repo: "go-gitea/gitea", utility: 52, ease: 70, deepen: false}
+  - {repo: "vsouza/awesome-ios", utility: 52, ease: 56, deepen: false}
+  - {repo: "xandemon/developer-icons", utility: 50, ease: 74, deepen: false}
+  - {repo: "jamiepine/voicebox", utility: 43, ease: 69, deepen: false}
+  - {repo: "Open-Dev-Society/OpenStock", utility: 43, ease: 62, deepen: false}
+  - {repo: "brillout/awesome-react-components", utility: 43, ease: 61, deepen: false}
+  - {repo: "axcore/tartube", utility: 41, ease: 66, deepen: false}
+  - {repo: "kristopolous/BOOTSTRA.386", utility: 41, ease: 58, deepen: false}
+  - {repo: "gravity-ui/aikit", utility: 39, ease: 74, deepen: false}
+  - {repo: "kijai/ComfyUI-SCAIL-Pose", utility: 39, ease: 66, deepen: false}
+  - {repo: "cjwirth/awesome-ios-ui", utility: 39, ease: 61, deepen: false}
+  - {repo: "Lenochxd/WebDeck", utility: 39, ease: 58, deepen: false}
+  - {repo: "mckaywrigley/chatbot-ui", utility: 38, ease: 69, deepen: false}
+  - {repo: "datagod/LEDarcade", utility: 36, ease: 66, deepen: false}
+  - {repo: "continue-revolution/sd-webui-animatediff", utility: 36, ease: 66, deepen: false}
+  - {repo: "Medium/loadable-components", utility: 34, ease: 74, deepen: false}
+  - {repo: "CaffeineViking/osgw", utility: 31, ease: 52, deepen: false}
