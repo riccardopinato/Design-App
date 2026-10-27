@@ -1,0 +1,67 @@
+schema_version: 1
+updated_at: "2026-10-27"
+
+meaning:
+  SOURCE_VERIFIED: "The source implementation exists in a working app repository and has app-level validation/history."
+  LIBRARY_VERIFIED: "The extracted Design-App artifact has its own harness/test evidence."
+  COPY_READY: "Reusable artifact verified in the library and documented for rapid integration."
+
+items:
+  - id: SNAP-ANNA-TOKENS
+    name: Anna design tokens / semantic accents / haptic and reduced-motion primitives
+    source_repo: riccardopinato/Agenda-per-Anna
+    source_path: lib/src/theme_semantics.dart
+    source_blob: "current source snapshot harvested 2026-10-27"
+    status: SOURCE_VERIFIED
+    target: Flutter
+    snapshot_path: tested/source_snapshots/flutter/anna_theme_semantics.dart.txt
+
+  - id: SNAP-WONDERLOG-TOKENS
+    name: Wonderlog spacing/radii/layout/colors
+    source_repo: riccardopinato/Wonderlog
+    source_path: flutter/lib/app/theme/wonderlog_tokens.dart
+    source_blob: 88e6f5b18653cc94c92b89f21965665e86464515
+    status: SOURCE_VERIFIED
+    target: Flutter
+    snapshot_path: tested/source_snapshots/flutter/wonderlog_tokens.dart.txt
+
+  - id: SNAP-NOTES-THEME
+    name: Notes editorial theme
+    source_repo: riccardopinato/Notes-Ecosistema
+    source_path: flutter_app/lib/src/theme/notes_theme.dart
+    source_blob: 537e466f85b2bc7db9d22404ac60c0d89885817b
+    status: SOURCE_VERIFIED
+    target: Flutter
+    snapshot_path: tested/source_snapshots/flutter/notes_theme.dart.txt
+
+  - id: SNAP-NOTES-EDITORIAL
+    name: Notes editorial heading primitives
+    source_repo: riccardopinato/Notes-Ecosistema
+    source_path: flutter_app/lib/src/widgets/editorial.dart
+    source_blob: a21332769a13f7af02e88d048d5491d1ec5ccdbc
+    status: SOURCE_VERIFIED
+    target: Flutter
+    snapshot_path: tested/source_snapshots/flutter/notes_editorial.dart.txt
+
+  - id: SNAP-WORLD-DAYS-VISUALS
+    name: Deterministic category artwork
+    source_repo: riccardopinato/World-Days
+    source_path: lib/core/visual/observance_visuals.dart
+    source_blob: ecf2efbc4172d6d7ec29ab7afa38c40cf5fc7fdf
+    status: SOURCE_VERIFIED
+    target: Flutter
+    snapshot_path: tested/source_snapshots/flutter/world_days_observance_visuals.dart.txt
+
+  - id: SNAP-FOCUS-NEON
+    name: FocuSense neon component family
+    source_repo: riccardopinato/FocuSense
+    source_path: app/src/main/java/com/utilitylab/focussense/ui/components/NeonUi.kt
+    source_blob: a086c0915a6f1efc3c1003b640261317f1bfecab
+    status: SOURCE_VERIFIED
+    target: Jetpack Compose
+    snapshot_path: tested/source_snapshots/compose/focussense_neon_ui.kt.txt
+
+notes:
+  - "SOURCE_VERIFIED is intentionally weaker than COPY_READY."
+  - "Before direct reuse, inspect source dependencies/imports and adapt package names."
+  - "Snapshots are pinned references; do not silently overwrite historical source provenance."
