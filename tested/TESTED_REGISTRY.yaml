@@ -21,6 +21,12 @@ items:
   - {id: SNAP-PHONE-GUARD-THEME, target: Jetpack-Compose, status: SOURCE_VERIFIED, path: tested/source_snapshots/compose/phone_guard_theme.kt.txt, source: riccardopinato/Phone-Guard}
   - {id: SNAP-PHONE-GUARD-COMPONENTS, target: Jetpack-Compose, status: SOURCE_VERIFIED, path: tested/source_snapshots/compose/phone_guard_utility_components.kt.txt, source: riccardopinato/Phone-Guard}
 
+  - {id: SNAP-TRAILPATH-THEME, target: Flutter, status: SOURCE_VERIFIED, path: tested/source_snapshots/flutter/trailpath_app_theme.dart.txt, source: riccardopinato/TrailPath}
+  - {id: SNAP-ANIME-KITCHEN-TOKENS, target: Flutter, status: SOURCE_VERIFIED, path: tested/source_snapshots/flutter/anime_kitchen_design_tokens.dart.txt, source: riccardopinato/In-Cucina-con-gli-Anime}
+  - {id: SNAP-ANIME-KITCHEN-THEME, target: Flutter, status: SOURCE_VERIFIED, path: tested/source_snapshots/flutter/anime_kitchen_app_theme.dart.txt, source: riccardopinato/In-Cucina-con-gli-Anime}
+  - {id: SNAP-ANIME-KITCHEN-SHELL, target: Flutter, status: SOURCE_VERIFIED, path: tested/source_snapshots/flutter/anime_kitchen_responsive_shell.dart.txt, source: riccardopinato/In-Cucina-con-gli-Anime}
+  - {id: SNAP-ANIME-KITCHEN-CARD, target: Flutter, status: SOURCE_VERIFIED, path: tested/source_snapshots/flutter/anime_kitchen_recipe_card.dart.txt, source: riccardopinato/In-Cucina-con-gli-Anime}
+
 rules:
   - "Every snapshot contains its immutable source blob in the file header."
   - "SOURCE_VERIFIED is intentionally weaker than COPY_READY."
