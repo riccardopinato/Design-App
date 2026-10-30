@@ -4,7 +4,7 @@
   "factory_baseline": "riccardopinato/App-Factory-Core@e9507056601c4a6751510da4c5d1f61601a5dc25",
   "targets": {
     "flutter": {
-      "status": "IMPLEMENTED_PENDING_VALIDATION",
+      "status": "LIBRARY_VERIFIED",
       "harness": "packs/visual-qa/flutter/test/support/visual_matrix.dart"
     },
     "compose": {
@@ -109,6 +109,7 @@
     "deterministic_host_linux": true,
     "pixel_diff_artifact_on_failure": true,
     "flutter_version": "3.47.9",
-    "initial_baseline_commit": "8388e31f5cdce514bcf4492f1f45b5bc3b62ada3"
+    "initial_baseline_commit": "8388e31f5cdce514bcf4492f1f45b5bc3b62ada3",
+    "first_comparison_run": "https://github.com/riccardopinato/Design-App/actions/runs/41059634636"
   }
 }
