@@ -12,10 +12,10 @@ manifest: packs/sound/semantic/manifest.json
 localFiles: packs/sound/adapters/flutter/assets/*.wav
 externalRuntimeDependency: bluefireteam/audioplayers tag audioplayers-v6.5.1 (MIT)
 sourceCodeCopied: No; only WAV assets were copied
-testsExecuted: pending CI
-evidenceRefs: pending CI
-status: IMPLEMENTED_PENDING_VALIDATION
-verifiedAt: null
+testsExecuted: Python manifest SHA256/Git SHA1/WAV validation; flutter pub get; flutter analyze lib test; flutter test; example flutter pub get/analyze; Design-App registry validator
+evidenceRefs: https://github.com/riccardopinato/Design-App/actions/runs/41049437359 ; https://github.com/riccardopinato/Design-App/actions/runs/41049437240
+status: LIBRARY_VERIFIED
+verifiedAt: 2026-10-30
 
 ## Adaptation summary
 
