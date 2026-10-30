@@ -17,11 +17,11 @@ class _FactoryIconsShowcaseState extends State<FactoryIconsShowcase> {
   @override
   Widget build(BuildContext context) => MaterialApp(
         debugShowCheckedModeBanner: false,
-        theme: ThemeData(useMaterial3: true, colorSchemeSeed: Colors.rose),
+        theme: ThemeData(useMaterial3: true, colorSchemeSeed: Colors.pink),
         darkTheme: ThemeData(
           useMaterial3: true,
           colorScheme: ColorScheme.fromSeed(
-            seedColor: Colors.rose,
+            seedColor: Colors.pink,
             brightness: Brightness.dark,
           ),
         ),
