@@ -1,0 +1,26 @@
+name: factory_sound_flutter
+description: Opt-in semantic UI sound adapter for App Factory with six pinned CC0 clips.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: 6.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/selection.wav
+    - assets/success.wav
+    - assets/warning.wav
+    - assets/error.wav
+    - assets/completion.wav
+    - assets/notification_soft.wav
