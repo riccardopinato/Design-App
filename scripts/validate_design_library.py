@@ -95,6 +95,23 @@ required = [
     ROOT / "packs" / "sound" / "adapters" / "flutter" / "test" / "semantic_sound_test.dart",
     ROOT / "packs" / "sound" / "adapters" / "flutter" / "example" / "lib" / "main.dart",
     ROOT / ".github" / "workflows" / "semantic-sound-pack.yml",
+    ROOT / "packs" / "icons" / "manifest" / "icons.json",
+    ROOT / "packs" / "icons" / "manifest" / "generate.py",
+    ROOT / "packs" / "icons" / "manifest" / "test_manifest.py",
+    ROOT / "packs" / "icons" / "README.md",
+    ROOT / "packs" / "icons" / "PROVENANCE.md",
+    ROOT / "packs" / "icons" / "flutter" / "pubspec.yaml",
+    ROOT / "packs" / "icons" / "flutter" / "lib" / "factory_icons.dart",
+    ROOT / "packs" / "icons" / "flutter" / "lib" / "src" / "factory_icon_widgets.dart",
+    ROOT / "packs" / "icons" / "flutter" / "lib" / "src" / "generated_factory_icon_keys.dart",
+    ROOT / "packs" / "icons" / "flutter" / "test" / "factory_icons_test.dart",
+    ROOT / "packs" / "icons" / "flutter" / "example" / "lib" / "main.dart",
+    ROOT / "packs" / "icons" / "compose" / "build.gradle.kts",
+    ROOT / "packs" / "icons" / "compose" / "settings.gradle.kts",
+    ROOT / "packs" / "icons" / "compose" / "src" / "main" / "kotlin" / "factory" / "icons" / "GeneratedFactoryIconKeys.kt",
+    ROOT / "packs" / "icons" / "compose" / "src" / "main" / "kotlin" / "factory" / "icons" / "FactoryIconWidgets.kt",
+    ROOT / "packs" / "icons" / "compose" / "src" / "test" / "kotlin" / "factory" / "icons" / "FactoryIconMappingTest.kt",
+    ROOT / ".github" / "workflows" / "icon-adapter-pack.yml",
 ]
 for path in required:
     if not path.is_file():

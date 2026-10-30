@@ -84,6 +84,14 @@ on-device timing/volume acceptance for the product using it.
 
 ## Step 3 — Icon Adapter Pack
 
+The first 24-key semantic manifest, generated Flutter/Compose adapters, Flutter
+widget tests, Compose JVM harness and deterministic drift validation have
+passed exact-source CI under `packs/icons/`.
+Flutter adapter: **COPY_READY library-level**; Compose adapter:
+**LIBRARY_VERIFIED**, pending real Android UI/semantics test and consumer pilot.
+Aggregate pack: LIBRARY_VERIFIED. Provenance/evidence: `packs/icons/PROVENANCE.md`.
+
+
 Proposed paths:
 - `packs/icons/manifest/`
 - `packs/icons/flutter/`
