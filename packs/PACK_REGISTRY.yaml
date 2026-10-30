@@ -87,6 +87,8 @@ packs:
     ui_state_count: 5
     matrix_test_cases: 45
     committed_golden_baselines_required: 4
+    baseline_flutter_sdk: "3.47.9"
+    baseline_source_commit: "8388e31f5cdce514bcf4492f1f45b5bc3b62ada3"
     flutter_external_runtime_dependencies: 0
     compose_status: PLANNED
     swiftui_status: PLANNED
