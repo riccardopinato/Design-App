@@ -1,7 +1,9 @@
 # Factory Motion — Flutter v0.1.0
 
-**Status: IMPLEMENTED / awaiting independent library QA.** Do not treat this
-package as COPY_READY until its own Flutter CI and provenance gates pass.
+**Status: COPY_READY at library level** (Flutter analyze, widget tests, example
+analysis and registry validation passed on the pinned package source SHA).
+This is **not** cross-app, physical-device or Play-release certification.
+See `PROVENANCE.md` for exact CI evidence.
 
 Small, dependency-free UI motion primitives for Flutter applications.
 Built for App Factory's Material 3 baseline; works with app-specific themes.
