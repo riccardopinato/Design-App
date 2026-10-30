@@ -78,5 +78,21 @@ packs:
       - "No consuming-app, physical-device or visual screenshot certification."
   - id: PACK-VISUAL-QA
     name: Visual QA Kit
-    status: PLANNED
+    version: 0.1.0
+    status: IMPLEMENTED_PENDING_VALIDATION
     path: packs/visual-qa
+    flutter_package: packs/visual-qa/flutter
+    scenario_manifest: packs/visual-qa/manifest/visual_matrix.json
+    scenario_count: 9
+    ui_state_count: 5
+    matrix_test_cases: 45
+    committed_golden_baselines_required: 4
+    flutter_external_runtime_dependencies: 0
+    compose_status: PLANNED
+    swiftui_status: PLANNED
+    ci: .github/workflows/visual-qa-flutter.yml
+    verified_at: null
+    evidence: []
+    caveats:
+      - "No physical-device or consuming app evidence yet."
+      - "Golden PNGs must be committed and compared without automatic updates."
