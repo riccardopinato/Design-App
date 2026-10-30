@@ -13,6 +13,11 @@ externalAssetFilesCopied: false
 flutterRuntimeExternalDependencies: 0
 flutterTestDependencies: flutter_test (Flutter SDK)
 format: Linux Flutter golden pixel snapshots plus layout/semantics assertions
+flutterVersion: 3.47.9
+dartVersion: 3.13.7
+goldenInitialCommit: 8388e31f5cdce514bcf4492f1f45b5bc3b62ada3
+goldenInitialWorkflow: https://github.com/riccardopinato/Design-App/actions/runs/41059220975
+goldenBaselineFiles: 4 (under packs/visual-qa/flutter/test/goldens/)
 targetsImplemented: Flutter test harness, 9 form-factor scenarios, 5 states
 targetsPlanned: Compose Paparazzi / SwiftUI snapshot harness
 physicalDeviceEvidence: NOT VERIFIED
