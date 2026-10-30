@@ -122,3 +122,11 @@ The Flutter Visual QA Kit under `packs/visual-qa/flutter/` has passed its
 45-case layout matrix and four committed screenshot pixel comparisons:
 LIBRARY_VERIFIED, still awaiting real-app integration before COPY_READY.
 Compose/SwiftUI extensions remain planned.
+
+## Audit remediation 2026-10-30
+
+See `docs/AUDIT_REMEDIATION_v1.md` for the five-step corrective program,
+`registry/PATTERN_PROVENANCE.json` for donor evidence leads, and
+`docs/GITHUB_BRANCH_PROTECTION.md` for the outstanding repository-admin gate.
+The first-party design code has no blanket external reuse license; see
+`docs/LICENSE_POLICY.md`.
