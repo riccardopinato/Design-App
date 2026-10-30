@@ -107,6 +107,8 @@
     "automatic_regeneration_during_pr": false,
     "update_only_via_explicit_seed_operation": true,
     "deterministic_host_linux": true,
-    "pixel_diff_artifact_on_failure": true
+    "pixel_diff_artifact_on_failure": true,
+    "flutter_version": "3.47.9",
+    "initial_baseline_commit": "8388e31f5cdce514bcf4492f1f45b5bc3b62ada3"
   }
 }
