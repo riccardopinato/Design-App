@@ -56,3 +56,4 @@ jobs:
           git commit -m "test(visual-qa): pin four initial Flutter goldens"
           git push origin HEAD:feat/visual-qa-kit-v1
 # Retry after correcting the 200 percent text-scale navigation overflow.
+# Retry after making long localized text layout scrollable at 200% scale.
