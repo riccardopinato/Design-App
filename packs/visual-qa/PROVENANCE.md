@@ -15,7 +15,7 @@ flutterTestDependencies: flutter_test (Flutter SDK)
 format: Linux Flutter golden pixel snapshots plus layout/semantics assertions
 visualFontPolicy: DejaVu Sans mapped to Roboto during Linux golden tests; MaterialIcons bundled by uses-material-design
 previousGoldenStatus: invalid due to absent MaterialIcons and placeholder Ahem font
-newGoldenEvidence: awaiting exact-head CI
+newGoldenEvidence: https://github.com/riccardopinato/Design-App/actions/runs/41077569440 (4 actual icon/text baselines regenerated; post-PR pixel comparison required)
 flutterVersion: 3.47.9
 dartVersion: 3.13.7
 goldenInitialCommit: 8388e31f5cdce514bcf4492f1f45b5bc3b62ada3
