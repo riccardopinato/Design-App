@@ -1,6 +1,8 @@
 # App Factory Icon Adapter Pack v0.1.0
 
-**Status: implemented; final COPY_READY decision depends on exact-head CI.**
+**Verified status: Flutter COPY_READY (library-level); Compose LIBRARY_VERIFIED
+(JVM compile and mapping tests). Aggregate pack maturity: LIBRARY_VERIFIED.**
+No cross-app or physical-device certification.
 
 A canonical list of 24 semantic UI icon keys used in Flutter and Jetpack
 Compose. This is an *adapter*, not a third-party icon library.
