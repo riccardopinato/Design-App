@@ -1,0 +1,57 @@
+name: Seed Visual QA Golden Baselines (one-time branch)
+
+on:
+  push:
+    branches: ["feat/visual-qa-kit-v1"]
+    paths:
+      - ".github/workflows/seed-visual-qa-baselines.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visual-golden-seed-v1
+  cancel-in-progress: false
+
+jobs:
+  seed-once:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: feat/visual-qa-kit-v1
+          persist-credentials: true
+      - name: Check immutable baselines are not already present
+        id: check
+        run: |
+          if test -f packs/visual-qa/flutter/test/goldens/phone-light-content.png; then
+            echo "needed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "needed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2
+        if: steps.check.outputs.needed == 'true'
+        with:
+          channel: stable
+          cache: true
+      - name: Generate initial golden PNGs (only when missing)
+        if: steps.check.outputs.needed == 'true'
+        working-directory: packs/visual-qa/flutter
+        run: |
+          flutter --version
+          flutter pub get
+          flutter analyze lib test
+          flutter test test/visual_matrix_test.dart --reporter expanded
+          flutter test --update-goldens test/visual_golden_test.dart --reporter expanded
+      - name: Commit the initial four baselines to the feature branch
+        if: steps.check.outputs.needed == 'true'
+        run: |
+          python3 packs/visual-qa/manifest/validate_matrix.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add packs/visual-qa/flutter/test/goldens/*.png
+          test "$(git diff --cached --name-only | wc -l)" -eq 4
+          git commit -m "test(visual-qa): pin four initial Flutter goldens"
+          git push origin HEAD:feat/visual-qa-kit-v1
