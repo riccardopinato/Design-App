@@ -1,16 +1,27 @@
 import 'dart:io';
 import 'package:flutter/services.dart';
 
-/// The Flutter test Ahem font makes fake block text. Load a real system
-/// font explicitly, limited to Linux CI. No font files are vendored.
+/// Golden tests otherwise use Ahem rectangles instead of real text/icons.
+/// Deterministic Linux fixture fonts only; not shipped in product packages.
 Future<void> loadLinuxVisualQaFonts() async {
-  const path = '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf';
-  final font = File(path);
-  if (!font.existsSync()) {
-    throw StateError('Missing $path; install fonts-dejavu-core on Linux.');
+  Future<void> load(String family, File file) async {
+    if (!file.existsSync()) {
+      throw StateError('Missing golden-test font: ${file.path}');
+    }
+    final bytes = await file.readAsBytes();
+    await (FontLoader(family)
+          ..addFont(Future.value(ByteData.sublistView(bytes))))
+        .load();
   }
-  final bytes = await font.readAsBytes();
-  final loader = FontLoader('Roboto')
-    ..addFont(Future.value(ByteData.sublistView(Uint8List.fromList(bytes))));
-  await loader.load();
+
+  await load('Roboto', File('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'));
+
+  // uses-material-design bundles icon fonts in real Flutter apps; widget
+  // tests additionally need the actual engine SDK OTF registered.
+  final flutterSdk = Platform.environment['FLUTTER_ROOT'] ??
+      File(Platform.resolvedExecutable).parent.parent.parent.parent.parent.path;
+  final icons = File(
+    '$flutterSdk/bin/cache/artifacts/material_fonts/MaterialIcons-Regular.otf',
+  );
+  await load('MaterialIcons', icons);
 }
