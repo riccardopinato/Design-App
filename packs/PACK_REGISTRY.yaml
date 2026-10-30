@@ -50,7 +50,9 @@ packs:
   - id: PACK-ICONS-ADAPTER
     name: Icon Adapter Pack
     version: 0.1.0
-    status: IMPLEMENTED_PENDING_VALIDATION
+    status: LIBRARY_VERIFIED
+    flutter_maturity: COPY_READY
+    compose_maturity: LIBRARY_VERIFIED
     path: packs/icons
     manifest: packs/icons/manifest/icons.json
     generator: packs/icons/manifest/generate.py
@@ -64,11 +66,16 @@ packs:
     compose_extended_icon_dependency: false
     compose_core_icon_dependency: org.jetbrains.compose.material:material-icons-core:1.7.3
     ci: .github/workflows/icon-adapter-pack.yml
-    verified_at: null
-    evidence: []
+    verified_at: "2026-10-30"
+    source_head_sha: "c817f3843320fc170cd1cd66d80ca8694b140150"
+    evidence:
+      - "https://github.com/riccardopinato/Design-App/actions/runs/41056913754"
+      - "https://github.com/riccardopinato/Design-App/actions/runs/41056913763"
+      - "https://github.com/riccardopinato/Design-App/actions/runs/41056913734"
     caveats:
-      - "Standalone Flutter and Compose harness validation is pending."
-      - "No consuming app or physical-device certification."
+      - "Flutter widget semantics, light/dark, RTL and touch targets covered in package tests."
+      - "Compose JVM compile and icon mapping verified; native Android UI/device semantics not yet verified."
+      - "No consuming-app, physical-device or visual screenshot certification."
   - id: PACK-VISUAL-QA
     name: Visual QA Kit
     status: PLANNED
