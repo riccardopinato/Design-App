@@ -41,7 +41,7 @@ if source_ref_count < 59:
     fail(f"expected at least 59 pinned curated source refs, found {source_ref_count}")
 
 sound_count = len(re.findall(r"^\s+domain:\s+sound\s*$", oss, re.MULTILINE))
-new_batch_count = len(re.findall(r"^\\s+batch:\\s+CURATED_2026_10_30\\s*$", oss, re.MULTILINE))
+new_batch_count = len(re.findall(r"^\s+batch:\s+CURATED_2026_10_30\s*$", oss, re.MULTILINE))
 if new_batch_count != 22:
     fail(f"expected 22 sources in CURATED_2026_10_30, found {new_batch_count}")
 
