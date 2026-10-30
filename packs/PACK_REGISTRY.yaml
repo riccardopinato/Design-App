@@ -62,6 +62,7 @@ packs:
     icon_assets_vendored: 0
     flutter_external_runtime_dependencies: 0
     compose_extended_icon_dependency: false
+    compose_core_icon_dependency: org.jetbrains.compose.material:material-icons-core:1.7.3
     ci: .github/workflows/icon-adapter-pack.yml
     verified_at: null
     evidence: []
