@@ -67,13 +67,42 @@ class QaFixture extends StatelessWidget {
           ],
         ),
       ),
-      bottomNavigationBar: NavigationBar(
-        selectedIndex: 0,
-        destinations: const [
-          NavigationDestination(icon: Icon(Icons.home_outlined), label: 'Home'),
-          NavigationDestination(icon: Icon(Icons.calendar_today_outlined), label: 'Diary'),
-        ],
-      ),
+      bottomNavigationBar:
+          MediaQuery.textScalerOf(context).scale(1.0) >= 1.8
+              ? SizedBox(
+                  height: 72,
+                  child: Row(
+                    children: [
+                      Expanded(
+                        child: IconButton(
+                          onPressed: () {},
+                          tooltip: 'Home',
+                          icon: const Icon(Icons.home_outlined),
+                        ),
+                      ),
+                      Expanded(
+                        child: IconButton(
+                          onPressed: () {},
+                          tooltip: 'Diary',
+                          icon: const Icon(Icons.calendar_today_outlined),
+                        ),
+                      ),
+                    ],
+                  ),
+                )
+              : NavigationBar(
+                  selectedIndex: 0,
+                  destinations: const [
+                    NavigationDestination(
+                      icon: Icon(Icons.home_outlined),
+                      label: 'Home',
+                    ),
+                    NavigationDestination(
+                      icon: Icon(Icons.calendar_today_outlined),
+                      label: 'Diary',
+                    ),
+                  ],
+                ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         tooltip: 'Add entry',
