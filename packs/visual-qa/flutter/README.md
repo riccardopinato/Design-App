@@ -1,5 +1,10 @@
 # Factory Visual QA — Flutter v0.1.0
 
+Status: **LIBRARY_VERIFIED**. Exact-head CI compared 4 committed screenshots
+with Flutter 3.47.9 and verified all 45 matrix combinations. One real app
+adoption/visual-matrix pilot is still required before COPY_READY in the
+responsive Golden.
+
 A **test-only** visual QA starter kit with a deterministic screen fixture and a
 copyable test harness; no production UI framework or runtime graphics packages.
 
