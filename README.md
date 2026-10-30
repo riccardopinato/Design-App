@@ -33,7 +33,8 @@ The initial Project harvest includes:
 - CashMate design direction;
 - shared Project design frameworks;
 - the 36 UI/UX/design repositories already catalogued in Analisi-delle-mie-stelle-github;
-- 37 additional curated GitHub sources for Flutter, Compose, SwiftUI, design tokens, motion, icons, visual QA and sound.
+- 37 curated GitHub design, motion, audio and tooling sources from 2026-10-27;
+- 22 extra app-design and visual interaction sources from 2026-10-30.
 
 ## Fast lookup
 
@@ -45,7 +46,9 @@ Start here:
 - tested/source_snapshots/ — pinned source code snapshots;
 - sources/PROJECT_FILE_FRAMEWORKS.md — reusable design rules from older Project frameworks;
 - sources/GITHUB_DESIGN_RESEARCH_2026-10-27.md — curated GitHub research and adoption tiers;
-- sources/SOUND_DESIGN_GUIDE.md — semantic UI sound guidance and vetted audio sources.
+- sources/SOUND_DESIGN_GUIDE.md — semantic UI sound guidance and vetted audio sources;
+- sources/GITHUB_DESIGN_RESEARCH_2026-10-30.md — 22 app-design/UI gallery and gesture sources;
+- packs/ROADMAP_COPY_READY.md — implementation and acceptance sequence for 4 reusable packs.
 
 ## Maturity
 
@@ -83,14 +86,25 @@ See AGENTS.md for the operating contract.
 
 ## External design-source coverage
 
-The external discovery pool now contains 73 unique repositories:
+The external discovery pool now contains 95 unique repositories:
 - 36 initial UI/UX discovery sources;
-- 37 curated and commit-pinned sources from the 2026-10-27 research batch.
+- 37 curated and commit-pinned sources from the 2026-10-27 research batch;
+- 22 curated and commit-pinned app-design sources from the 2026-10-30 research batch.
 
-The curated batch adds explicit coverage for design tokens, Flutter, Jetpack Compose,
-SwiftUI, icon systems, component workbenches, visual regression, animation runtimes
-and UI sound design.
+The curated batches cover Flutter, Compose, SwiftUI, web accessibility, adaptive platform UI,
+responsive layouts, Material 3 Expressive, motion, design tokens, iconography, visual QA,
+UI sound design and finished-screen galleries.
 
 No external runtime dependency is automatically admitted into an app merely because
 it is catalogued here. Dependency Admission, license checks and per-app Product Bible
 constraints still apply.
+
+
+## COPY_READY development
+
+Design-App keeps a separate execution roadmap for the Motion Pack,
+Semantic Sound Pack, Icon Adapter Pack and Visual QA Kit:
+`packs/ROADMAP_COPY_READY.md`.
+
+These packs are not yet COPY_READY. Their implementations must pass package-level
+validation and carry provenance before promotion. Discovery is not certification.

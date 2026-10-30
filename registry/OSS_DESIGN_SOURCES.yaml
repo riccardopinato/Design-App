@@ -11,6 +11,12 @@ curated_research:
   new_sources: 37
   note: "Curated for mobile app design, motion, design systems, visual QA, iconography and sound."
 
+additional_research:
+  batch_id: CURATED_2026_10_30
+  observed_at: "2026-10-30"
+  factory_baseline: "riccardopinato/App-Factory-Core@e9507056601c4a6751510da4c5d1f61601a5dc25"
+  new_sources: 22
+  focus: "Design app galleries, Material 3 Expressive, Liquid Glass, responsive, micro-interactions, gesture UX and web UI patterns."
 sources:
   - {repo: "fyne-io/fyne", utility: 96, ease: 62, deepen: true}
   - {repo: "penpot/penpot", utility: 88, ease: 46, deepen: true, role: "canvas interaction and design-token reference"}
@@ -458,3 +464,290 @@ sources:
     priority: B
     role: "Advanced synthesis, processing and analysis for Apple platforms."
     copy_policy: "USE_ONLY_FOR_ADVANCED_AUDIO_REQUIREMENTS"
+
+  # Discovery batch 2026-10-30: add to external references, not vendored code.
+  - repo: "iampawan/Flutter-UI-Kit"
+    batch: CURATED_2026_10_30
+    domain: UI-gallery
+    stack: "Flutter / Dart"
+    license: "Apache-2.0"
+    source_ref: "04dc321f7a6e909904cfeb7f9782ac9afbae0078"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: B
+    last_commit_activity_date: "2022-06-13"
+    role: "Historical Flutter screen composition gallery; refresh obsolete APIs before reuse."
+    copy_policy: "REFERENCE_ONLY"
+
+  - repo: "nathansdev/ContraFlutterKit"
+    batch: CURATED_2026_10_30
+    domain: UI-gallery
+    stack: "Flutter / Dart"
+    license: "Apache-2.0"
+    source_ref: "f45c33500f2f80258b68846e8e77267d532d1071"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: B
+    last_commit_activity_date: "2024-06-14"
+    role: "50+ cohesive Flutter screens for learning layout hierarchy and onboarding patterns."
+    copy_policy: "REFERENCE_ONLY"
+
+  - repo: "Codelessly/ResponsiveFramework"
+    batch: CURATED_2026_10_30
+    domain: responsive
+    stack: "Flutter / Dart"
+    license: "MIT"
+    source_ref: "dcb6ce8f2f893b4cdf66b25020e9209538cff9ce"
+    classification: CODE_OR_PATTERN_DONOR
+    maturity: REFERENCE
+    priority: A
+    last_commit_activity_date: "2025-06-09"
+    role: "Adaptive responsive breakpoints and multi-size layouts; compare with Factory native responsive shell."
+    copy_policy: "REFERENCE_OR_DEPENDENCY"
+
+  - repo: "letsar/flutter_staggered_grid_view"
+    batch: CURATED_2026_10_30
+    domain: layout
+    stack: "Flutter / Dart"
+    license: "MIT"
+    source_ref: "0bfd05f285a6ecf390a8927e6ad4e67f7a39979b"
+    classification: CODE_OR_PATTERN_DONOR
+    maturity: REFERENCE
+    priority: B
+    last_commit_activity_date: "2024-06-05"
+    role: "Pinterest/masonry/staggered grid reference for photographic/editorial galleries."
+    copy_policy: "DEPENDENCY_OR_ADAPT"
+
+  - repo: "canopas/animated_reorderable_list"
+    batch: CURATED_2026_10_30
+    domain: gesture-motion
+    stack: "Flutter / Dart"
+    license: "BSD-3-Clause"
+    source_ref: "8371ad65501e4c6976c73513e2a98b6036ab2fe7"
+    classification: CODE_OR_PATTERN_DONOR
+    maturity: REFERENCE
+    priority: A
+    last_commit_activity_date: "2025-11-04"
+    role: "Animated reordering for lists, tasks, categories and drag-and-drop UIs."
+    copy_policy: "DEPENDENCY_OR_ADAPT"
+
+  - repo: "ricardodalarme/flutter_card_swiper"
+    batch: CURATED_2026_10_30
+    domain: gesture-motion
+    stack: "Flutter / Dart"
+    license: "MIT"
+    source_ref: "846a47dc148a80a43ca330e30d4c3d2e139039f9"
+    classification: CODE_OR_PATTERN_DONOR
+    maturity: REFERENCE
+    priority: B
+    last_commit_activity_date: "2026-08-20"
+    role: "Swipeable card-deck interactions and directional action patterns."
+    copy_policy: "DEPENDENCY_OR_ADAPT"
+
+  - repo: "sdegenaar/liquid_glass_widgets"
+    batch: CURATED_2026_10_30
+    domain: visual-effects
+    stack: "Flutter / Dart"
+    license: "MIT"
+    source_ref: "59118973c0d01b154d35cfc6700b02ff038f7494"
+    classification: CODE_OR_PATTERN_DONOR
+    maturity: REFERENCE
+    priority: A
+    last_commit_activity_date: "2026-10-29"
+    role: "iOS 26/27-style glass effects, shaders and physics; verify render/performance/fallbacks."
+    copy_policy: "REFERENCE_OR_DEPENDENCY"
+
+  - repo: "berkaycatak/adaptive_platform_ui"
+    batch: CURATED_2026_10_30
+    domain: adaptive-ui
+    stack: "Flutter / Dart"
+    license: "MIT"
+    source_ref: "61df7b8742f51a5a4a0f4a937e995c1aa1b23453"
+    classification: CODE_OR_PATTERN_DONOR
+    maturity: REFERENCE
+    priority: A
+    last_commit_activity_date: "2026-10-10"
+    role: "Platform-adaptive Cupertino/Material UI and iOS 26+ native visual conventions."
+    copy_policy: "REFERENCE_OR_DEPENDENCY"
+
+  - repo: "CRED-CLUB/neopop-flutter"
+    batch: CURATED_2026_10_30
+    domain: visual-style
+    stack: "Flutter / Dart"
+    license: "Apache-2.0"
+    source_ref: "adf5e9c7ef228257d44294ce34f660f01fb41fbc"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: B
+    last_commit_activity_date: "2024-03-31"
+    role: "Bold NeoPOP visual style and tactile button treatment; not a global default."
+    copy_policy: "REFERENCE_ONLY"
+
+  - repo: "Idean/Flutter-Neumorphic"
+    batch: CURATED_2026_10_30
+    domain: visual-style
+    stack: "Flutter / Dart"
+    license: "Apache-2.0"
+    source_ref: "57f2b1f54f52fb9cb8bfa22eca812ebb69af086d"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: C
+    last_commit_activity_date: "2024-05-18"
+    role: "Neumorphic light/dark surfaces as a historic visual reference; contrast risk."
+    copy_policy: "REFERENCE_ONLY"
+
+  - repo: "SimformSolutionsPvtLtd/SSComposeCookBook"
+    batch: CURATED_2026_10_30
+    domain: UI-gallery
+    stack: "Kotlin / Jetpack Compose"
+    license: "MIT"
+    source_ref: "1f2780aa73d59c32bc086c1143c94ba89d862492"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: B
+    last_commit_activity_date: "2025-05-09"
+    role: "Compose components cookbook; reviewed branch is feature/integrate_sonar_qube."
+    copy_policy: "REFERENCE_ONLY"
+
+  - repo: "meticha/material-3-expressive-catalog"
+    batch: CURATED_2026_10_30
+    domain: expressive-design
+    stack: "Kotlin / Jetpack Compose"
+    license: "Apache-2.0"
+    source_ref: "d62dfcca3b833e7a0e658c3c2283865b663cf133"
+    classification: CODE_OR_PATTERN_DONOR
+    maturity: REFERENCE
+    priority: A
+    last_commit_activity_date: "2026-10-13"
+    role: "Material 3 Expressive component catalog with modern native Android interaction patterns."
+    copy_policy: "REFERENCE_OR_ADAPT"
+
+  - repo: "canopas/compose-animations-examples"
+    batch: CURATED_2026_10_30
+    domain: motion-gallery
+    stack: "Kotlin / Jetpack Compose"
+    license: "NOT_FOUND"
+    source_ref: "67da54a12ef3a341701f287930d7743a0aae4add"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: B
+    last_commit_activity_date: "2024-12-26"
+    role: "Compose animation gallery; no clear repository LICENSE verified, ideas only."
+    copy_policy: "REFERENCE_ONLY"
+
+  - repo: "amosgyamfi/open-swiftui-animations"
+    batch: CURATED_2026_10_30
+    domain: motion-gallery
+    stack: "Swift / SwiftUI"
+    license: "Unlicense"
+    source_ref: "abc1d4ce7abce391a60fa2c8a2b87d48e83d8ec1"
+    classification: CODE_OR_PATTERN_DONOR
+    maturity: REFERENCE
+    priority: A
+    last_commit_activity_date: "2026-08-14"
+    role: "Large library of pure SwiftUI spring, keyframe and symbol animation examples."
+    copy_policy: "REFERENCE_OR_ADAPT"
+
+  - repo: "swiftui-lab/swiftui-hero-animations"
+    batch: CURATED_2026_10_30
+    domain: motion-gallery
+    stack: "Swift / SwiftUI"
+    license: "MIT"
+    source_ref: "1e519e43ff83a6d1c5b993e4c5a0596671f6444f"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: B
+    last_commit_activity_date: "2020-07-06"
+    role: "Matched-geometry hero transitions; older reference, check platform changes."
+    copy_policy: "REFERENCE_ONLY"
+
+  - repo: "GetStream/accessible-inclusive-ios-animations"
+    batch: CURATED_2026_10_30
+    domain: accessibility-motion
+    stack: "Swift / SwiftUI"
+    license: "NOT_FOUND"
+    source_ref: "29ea61c5596c9cfde5fabe2fc9a3c3b998288d74"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: A
+    last_commit_activity_date: "2023-10-02"
+    role: "Examples of accessible, reduced-motion-aware SwiftUI animation; reference only."
+    copy_policy: "REFERENCE_ONLY"
+
+  - repo: "pixiv/charcoal-ios"
+    batch: CURATED_2026_10_30
+    domain: design-system
+    stack: "Swift / SwiftUI"
+    license: "Apache-2.0"
+    source_ref: "8d96f2cef5be9e7983898e13cf45e0222f1aadda"
+    classification: CODE_OR_PATTERN_DONOR
+    maturity: REFERENCE
+    priority: B
+    last_commit_activity_date: "2026-07-24"
+    role: "Real-world reusable SwiftUI design-system reference by pixiv."
+    copy_policy: "REFERENCE_OR_ADAPT"
+
+  - repo: "shadcn-ui/ui"
+    batch: CURATED_2026_10_30
+    domain: design-system
+    stack: "React / TypeScript"
+    license: "MIT"
+    source_ref: "b8d7baa15b1dca5716f13153e63795fc3d741f6b"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: A
+    last_commit_activity_date: "2026-10-30"
+    role: "Accessible component recipes and thoughtful customizable visual defaults."
+    copy_policy: "REFERENCE_ONLY"
+
+  - repo: "radix-ui/primitives"
+    batch: CURATED_2026_10_30
+    domain: interaction-primitives
+    stack: "React / TypeScript"
+    license: "MIT"
+    source_ref: "eb3a2b7091293e27df8f9ba906632d8daa3d81a3"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: A
+    last_commit_activity_date: "2026-10-14"
+    role: "Accessible unstyled interaction primitives for dialogs, menus, popovers and overlays."
+    copy_policy: "REFERENCE_ONLY"
+
+  - repo: "motiondivision/motion"
+    batch: CURATED_2026_10_30
+    domain: web-motion
+    stack: "React / JavaScript"
+    license: "MIT"
+    source_ref: "df0308a80dcc829bfc1d201953e3483cbf389882"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: A
+    last_commit_activity_date: "2026-10-30"
+    role: "Modern web motion/gesture choreography; translate patterns to Flutter/Compose."
+    copy_policy: "REFERENCE_ONLY"
+
+  - repo: "magicuidesign/magicui"
+    batch: CURATED_2026_10_30
+    domain: visual-effects
+    stack: "React / TypeScript"
+    license: "MIT"
+    source_ref: "efe76fc5755eca1142dd4f74c1d6f0ace2887e3c"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: B
+    last_commit_activity_date: "2026-10-17"
+    role: "Polished animated components and web visual effects; avoid unbounded decorative motion."
+    copy_policy: "REFERENCE_ONLY"
+
+  - repo: "ant-design/ant-design"
+    batch: CURATED_2026_10_30
+    domain: design-system
+    stack: "React / TypeScript"
+    license: "MIT"
+    source_ref: "db7fb1c660b92daa5bb4e441db41b460f81ce284"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: B
+    last_commit_activity_date: "2026-10-30"
+    role: "Dense enterprise dashboard/form/table design patterns, only when app density requires."
+    copy_policy: "REFERENCE_ONLY"

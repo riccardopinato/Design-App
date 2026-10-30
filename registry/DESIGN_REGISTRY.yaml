@@ -1,5 +1,5 @@
 schema_version: 1
-updated_at: "2026-10-27"
+updated_at: "2026-10-30"
 
 factory_baseline:
   repository: riccardopinato/App-Factory-Core
@@ -256,6 +256,62 @@ patterns:
     maturity: REFERENCE
     reuse_mode: ADAPT
     tags: [icons, svg, material-symbols, lucide, tabler, consistency]
+
+  - id: DS-031
+    name: App UI gallery and screen composition
+    category: ui-gallery
+    sources: [iampawan/Flutter-UI-Kit, nathansdev/ContraFlutterKit]
+    maturity: REFERENCE
+    reuse_mode: ADAPT
+    tags: [screens, onboarding, visual-hierarchy, flutter]
+
+  - id: DS-032
+    name: Platform-adaptive glass treatment with performance fallback
+    category: visual-effects
+    sources: [sdegenaar/liquid_glass_widgets, berkaycatak/adaptive_platform_ui]
+    maturity: REFERENCE
+    reuse_mode: ADAPT
+    tags: [liquid-glass, ios, shaders, accessibility, fallback]
+
+  - id: DS-033
+    name: Responsive editorial and staggered grid
+    category: layout
+    sources: [Codelessly/ResponsiveFramework, letsar/flutter_staggered_grid_view]
+    maturity: REFERENCE
+    reuse_mode: ADAPT
+    tags: [responsive, masonry, editorial, tablet, flutter]
+
+  - id: DS-034
+    name: Animated reorderable list and swipe card deck
+    category: gesture-motion
+    sources: [canopas/animated_reorderable_list, ricardodalarme/flutter_card_swiper]
+    maturity: REFERENCE
+    reuse_mode: ADAPT
+    tags: [drag-drop, reorder, swipe, gesture, undo]
+
+  - id: DS-035
+    name: Material 3 Expressive components
+    category: design-system
+    sources: [meticha/material-3-expressive-catalog, SimformSolutionsPvtLtd/SSComposeCookBook]
+    maturity: REFERENCE
+    reuse_mode: ADAPT
+    tags: [compose, expressive, material3, android]
+
+  - id: DS-036
+    name: Native SwiftUI animation with accessibility gates
+    category: motion
+    sources: [amosgyamfi/open-swiftui-animations, swiftui-lab/swiftui-hero-animations, GetStream/accessible-inclusive-ios-animations]
+    maturity: REFERENCE
+    reuse_mode: ADAPT
+    tags: [swiftui, hero, reduced-motion, motion]
+
+  - id: DS-037
+    name: Accessible unstyled UI primitives and deliberate web motion
+    category: web-design-system
+    sources: [shadcn-ui/ui, radix-ui/primitives, motiondivision/motion, magicuidesign/magicui]
+    maturity: REFERENCE
+    reuse_mode: ADAPT
+    tags: [web, react, dialog, popover, motion, accessibility]
 
 styles:
   - id: STYLE-A
