@@ -1,0 +1,44 @@
+name: Motion Pack Flutter
+
+on:
+  pull_request:
+    paths:
+      - "packs/motion/flutter/**"
+      - ".github/workflows/motion-pack-flutter.yml"
+      - "packs/ROADMAP_COPY_READY.md"
+  push:
+    branches: ["main"]
+    paths:
+      - "packs/motion/flutter/**"
+      - ".github/workflows/motion-pack-flutter.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  motion-flutter:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    defaults:
+      run:
+        working-directory: packs/motion/flutter
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2
+        with:
+          channel: stable
+          cache: true
+      - name: Flutter and Dart versions
+        run: flutter --version
+      - name: Resolve package
+        run: flutter pub get
+      - name: Analyze package
+        run: flutter analyze lib test
+      - name: Widget test suite
+        run: flutter test --reporter expanded
+      - name: Resolve example package
+        run: flutter pub get
+        working-directory: packs/motion/flutter/example
+      - name: Analyze interactive showcase
+        run: flutter analyze lib
+        working-directory: packs/motion/flutter/example
