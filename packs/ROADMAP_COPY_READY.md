@@ -84,6 +84,12 @@ on-device timing/volume acceptance for the product using it.
 
 ## Step 3 — Icon Adapter Pack
 
+The first 24-key semantic manifest, generated Flutter/Compose adapters, Flutter
+widget tests, Compose JVM test harness and deterministic drift validation are
+implemented under `packs/icons/`. Await exact-head CI before maturity
+promotion, and preserve per-app device/visual acceptance.
+
+
 Proposed paths:
 - `packs/icons/manifest/`
 - `packs/icons/flutter/`
