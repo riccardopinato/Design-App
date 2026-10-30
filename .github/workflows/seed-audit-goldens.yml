@@ -43,3 +43,4 @@ jobs:
           test "$(git diff --cached --name-only | wc -l)" -eq 4
           git commit -m "test(visual-qa): fix Material icon and real-font PNG baselines"
           git push origin HEAD:fix/audit-hardening-v27
+# Retry after Flutter analyzer feedback on real-font loader.
