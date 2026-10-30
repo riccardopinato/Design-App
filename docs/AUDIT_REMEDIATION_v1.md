@@ -21,3 +21,26 @@ Audit date: 2026-10-30
 Not proven by test-only CI: physical-device runtime, APK size change,
 Android accessibility service output or Play distribution. Do not mark
 these PASS without the appropriate evidence.
+
+## Recorded execution outcome
+
+- Main corrective PR: https://github.com/riccardopinato/Design-App/pull/9
+- Merged SHA: d06bb62ca6430ecc1819eb41bafed38cf6d25819
+- Postmerge validator: https://github.com/riccardopinato/Design-App/actions/runs/41079329328
+- Postmerge Motion: https://github.com/riccardopinato/Design-App/actions/runs/41079329975
+- Postmerge Sound: https://github.com/riccardopinato/Design-App/actions/runs/41079329339
+- Postmerge Icon (3 checks): https://github.com/riccardopinato/Design-App/actions/runs/41079329463
+- Postmerge Visual QA: https://github.com/riccardopinato/Design-App/actions/runs/41079329435
+- Historical code review: **8/8 threads resolved** with individual evidence-backed replies
+  on PR #1, #4, #5, #6 and #7.
+- Main ruleset: **ADMIN_BLOCKED**, issue
+  https://github.com/riccardopinato/Design-App/issues/8
+- Pilot: https://github.com/riccardopinato/World-Days/pull/34
+  isolated 9 real-component tests GREEN:
+  https://github.com/riccardopinato/World-Days/actions/runs/41078364765
+- World-Days baseline CI: **FAIL**, no merge, tracked at
+  https://github.com/riccardopinato/World-Days/issues/35
+- Physical devices and exact release APK sizes: **NOT VERIFIED**.
+
+Overall: all repository-scoped code remediation done. Two administrative /
+external repository gates and hardware acceptance remain open.

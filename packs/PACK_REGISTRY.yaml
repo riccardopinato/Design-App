@@ -15,6 +15,8 @@ packs:
     provenance_path: packs/motion/flutter/PROVENANCE.md
     external_runtime_dependencies: 0
     library_ci: ".github/workflows/motion-pack-flutter.yml"
+    audit_fixed_main_sha: "d06bb62ca6430ecc1819eb41bafed38cf6d25819"
+    audit_ci: "https://github.com/riccardopinato/Design-App/actions/runs/41079329975"
     verified_at: "2026-10-30"
     source_sha: "ed3382fc82d25065b15712be2d243e32cf20ef1d"
     evidence:
@@ -38,6 +40,7 @@ packs:
     audio_assets_count: 6
     audio_assets_bytes: 346574
     library_ci: .github/workflows/semantic-sound-pack.yml
+    audit_ci: "https://github.com/riccardopinato/Design-App/actions/runs/41079329339"
     verified_at: "2026-10-30"
     source_head_sha: "ce88581ef70dd08c61c6c4a0c2a6f02405b28612"
     evidence:
@@ -66,6 +69,8 @@ packs:
     compose_extended_icon_dependency: false
     compose_core_icon_dependency: org.jetbrains.compose.material:material-icons-core:1.7.3
     ci: .github/workflows/icon-adapter-pack.yml
+    audit_fixed_main_sha: "d06bb62ca6430ecc1819eb41bafed38cf6d25819"
+    audit_ci: "https://github.com/riccardopinato/Design-App/actions/runs/41079329463"
     verified_at: "2026-10-30"
     source_head_sha: "c817f3843320fc170cd1cd66d80ca8694b140150"
     evidence:
@@ -94,6 +99,10 @@ packs:
     compose_status: PLANNED
     swiftui_status: PLANNED
     ci: .github/workflows/visual-qa-flutter.yml
+    audit_fixed_main_sha: "d06bb62ca6430ecc1819eb41bafed38cf6d25819"
+    audit_ci: "https://github.com/riccardopinato/Design-App/actions/runs/41079329435"
+    real_app_pilot_pr: "https://github.com/riccardopinato/World-Days/pull/34"
+    real_app_pilot_status: "TEST_GREEN_MERGE_BLOCKED"
     verified_at: "2026-10-30"
     source_head_sha: "32350363e8b82fc5dad94c2a5b1e94787794cc27"
     evidence:

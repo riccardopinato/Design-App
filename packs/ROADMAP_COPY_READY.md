@@ -1,6 +1,6 @@
 # Design-App — COPY_READY Pack Roadmap (approved direction)
 
-Status: APPROVED_DIRECTION / AUDIT_HARDENING_IN_PROGRESS
+Status: FOUR_PACKS_IMPLEMENTED / AUDIT_CODE_HARDENED / ADMIN_AND_DEVICE_GATES_OPEN
 Updated: 2026-10-30
 Factory baseline: App-Factory-Core@e9507056601c4a6751510da4c5d1f61601a5dc25 (v27 ACTIVE).
 Scope: library modules for future reuse; **no automatic app-repo changes**.
@@ -147,3 +147,16 @@ on screenshot CI alone.
   dependency policy and provenance.
 - Integration into any specific app remains governed by that app's Product Bible
   and roadmap.
+
+## 2026-10-30 audit remediation closeout
+
+- P1/P2 code repairs merged in PR #9 at
+  `d06bb62ca6430ecc1819eb41bafed38cf6d25819`.
+- All seven exact-merge checks GREEN on main: validate; Motion; Sound;
+  Icon manifest/Flutter/Compose; Flutter Visual QA.
+- The 8 historical review threads were individually answered and resolved.
+- `main` ruleset **NOT YET ENFORCED**; admin gate #8 is open.
+- World-Days real component pilot #34 has isolated test PASS, but its general
+  CI is blocked by existing lockfile inconsistency (#35). No pilot merge.
+- Physical-device and APK delta evidence still NOT VERIFIED; do not upgrade
+  Visual QA maturity beyond LIBRARY_VERIFIED from this pilot alone.

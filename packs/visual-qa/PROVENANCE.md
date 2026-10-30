@@ -15,7 +15,7 @@ flutterTestDependencies: flutter_test (Flutter SDK)
 format: Linux Flutter golden pixel snapshots plus layout/semantics assertions
 visualFontPolicy: DejaVu Sans mapped to Roboto during Linux golden tests; MaterialIcons bundled by uses-material-design
 previousGoldenStatus: invalid due to absent MaterialIcons and placeholder Ahem font
-newGoldenEvidence: https://github.com/riccardopinato/Design-App/actions/runs/41077569440 (4 actual icon/text baselines regenerated; post-PR pixel comparison required)
+newGoldenEvidence: https://github.com/riccardopinato/Design-App/actions/runs/41077569440 (4 actual icon/text baselines regenerated) and https://github.com/riccardopinato/Design-App/actions/runs/41079329435 (postmerge pixel comparison PASS)
 flutterVersion: 3.47.9
 dartVersion: 3.13.7
 goldenInitialCommit: 8388e31f5cdce514bcf4492f1f45b5bc3b62ada3
@@ -24,7 +24,7 @@ goldenBaselineFiles: 4 (under packs/visual-qa/flutter/test/goldens/)
 targetsImplemented: Flutter test harness, 9 form-factor scenarios, 5 states
 targetsPlanned: Compose Paparazzi / SwiftUI snapshot harness
 physicalDeviceEvidence: NOT VERIFIED
-consumerAppIntegration: NOT VERIFIED
+consumerAppIntegration: Pilot World-Days PR #34 has isolated test PASS, but is NOT MERGED due unrelated lockfile CI failure; NOT VERIFIED as completed app integration
 status: LIBRARY_VERIFIED
 verifiedAt: 2026-10-30
 testedSourceSha: 32350363e8b82fc5dad94c2a5b1e94787794cc27
