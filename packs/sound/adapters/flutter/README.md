@@ -2,8 +2,10 @@
 
 Opt-in UI SFX playback adapter for the App Factory Semantic Sound Pack.
 
-Status: **implementation candidate**, pending exact-head CI and physical
-playback validation. See the parent `packs/sound/semantic/README.md`.
+Status: **LIBRARY_VERIFIED** (exact-head Flutter analyzer, controller tests,
+asset-bundle tests and demo analyzer passed). Native playback/volume/latency
+remain NOT VERIFIED on hardware; not COPY_READY.
+See `packs/sound/semantic/PROVENANCE.md` for CI evidence.
 
 ## Integration
 
