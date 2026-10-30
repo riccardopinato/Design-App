@@ -106,5 +106,8 @@ Design-App keeps a separate execution roadmap for the Motion Pack,
 Semantic Sound Pack, Icon Adapter Pack and Visual QA Kit:
 `packs/ROADMAP_COPY_READY.md`.
 
-These packs are not yet COPY_READY. Their implementations must pass package-level
-validation and carry provenance before promotion. Discovery is not certification.
+The Flutter Motion Pack v0.1.0 is **COPY_READY at library level** with
+Flutter analyzer/widget-test/example CI evidence, documented in
+`packs/motion/flutter/PROVENANCE.md`. It is not cross-app certified.
+Check `packs/PACK_REGISTRY.yaml` for the per-pack status.
+Semantic Sound, Icon Adapter and Visual QA are still planned.
