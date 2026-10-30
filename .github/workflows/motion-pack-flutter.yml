@@ -2,10 +2,6 @@ name: Motion Pack Flutter
 
 on:
   pull_request:
-    paths:
-      - "packs/motion/flutter/**"
-      - ".github/workflows/motion-pack-flutter.yml"
-      - "packs/ROADMAP_COPY_READY.md"
   push:
     branches: ["main"]
     paths:
