@@ -82,6 +82,19 @@ required = [
     ROOT / "packs" / "motion" / "flutter" / "example" / "lib" / "main.dart",
     ROOT / "packs" / "motion" / "flutter" / "PROVENANCE.md",
     ROOT / ".github" / "workflows" / "motion-pack-flutter.yml",
+    ROOT / "packs" / "sound" / "semantic" / "manifest.json",
+    ROOT / "packs" / "sound" / "semantic" / "LICENSE-CC0.txt",
+    ROOT / "packs" / "sound" / "semantic" / "validate_assets.py",
+    ROOT / "packs" / "sound" / "semantic" / "README.md",
+    ROOT / "packs" / "sound" / "semantic" / "PROVENANCE.md",
+    ROOT / "packs" / "sound" / "adapters" / "flutter" / "pubspec.yaml",
+    ROOT / "packs" / "sound" / "adapters" / "flutter" / "lib" / "factory_sound_flutter.dart",
+    ROOT / "packs" / "sound" / "adapters" / "flutter" / "lib" / "src" / "semantic_sound.dart",
+    ROOT / "packs" / "sound" / "adapters" / "flutter" / "lib" / "src" / "audio_backend.dart",
+    ROOT / "packs" / "sound" / "adapters" / "flutter" / "lib" / "src" / "sound_controller.dart",
+    ROOT / "packs" / "sound" / "adapters" / "flutter" / "test" / "semantic_sound_test.dart",
+    ROOT / "packs" / "sound" / "adapters" / "flutter" / "example" / "lib" / "main.dart",
+    ROOT / ".github" / "workflows" / "semantic-sound-pack.yml",
 ]
 for path in required:
     if not path.is_file():
