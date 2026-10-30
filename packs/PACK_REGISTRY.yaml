@@ -5,7 +5,7 @@ packs:
   - id: PACK-MOTION-FLUTTER
     name: Factory Motion Flutter
     version: 0.1.0
-    status: IMPLEMENTED_PENDING_VALIDATION
+    status: COPY_READY
     stack: Flutter
     package: factory_motion
     path: packs/motion/flutter
@@ -15,12 +15,14 @@ packs:
     provenance_path: packs/motion/flutter/PROVENANCE.md
     external_runtime_dependencies: 0
     library_ci: ".github/workflows/motion-pack-flutter.yml"
-    verified_at: null
-    source_sha: null
-    evidence: []
+    verified_at: "2026-10-30"
+    source_sha: "ed3382fc82d25065b15712be2d243e32cf20ef1d"
+    evidence:
+      - "https://github.com/riccardopinato/Design-App/actions/runs/41044887710"
+      - "https://github.com/riccardopinato/Design-App/actions/runs/41044887705"
     caveats:
-      - "No shipped app/physical-device integration is yet verified."
-      - "COPY_READY requires exact-head CI and documented verification."
+      - "No shipped app/physical-device integration is yet verified; not cross-app CERTIFIED."
+      - "Source package analyzed, widget-tested, example-analyzed and metadata validated on documented source SHA."
   - id: PACK-SOUND-SEMANTIC
     name: Semantic Sound Pack
     status: PLANNED
