@@ -110,6 +110,14 @@
     "pixel_diff_artifact_on_failure": true,
     "flutter_version": "3.47.9",
     "initial_baseline_commit": "8388e31f5cdce514bcf4492f1f45b5bc3b62ada3",
-    "first_comparison_run": "https://github.com/riccardopinato/Design-App/actions/runs/41059634636"
+    "first_comparison_run": "https://github.com/riccardopinato/Design-App/actions/runs/41059634636",
+    "corrected_baseline_workflow": "https://github.com/riccardopinato/Design-App/actions/runs/41077569440",
+    "corrected_baseline_font": "DejaVu Sans (Linux / mapped to Roboto) and Flutter SDK MaterialIcons",
+    "corrected_baseline_sha": {
+      "phone-light-content": "cc95fa3fb0b11f30b9e5fe2becd0b588a2dd4f93",
+      "phone-dark-empty": "e6574a08997b418f992d2ce5506c7876b5d5017a",
+      "tablet-content": "eea2701f88f621f49711e2029e7bdffce7893354",
+      "large-text-error": "565879946b81a54ecfe730d50e3e0aea8677e35c"
+    }
   }
 }
