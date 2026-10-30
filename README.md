@@ -114,6 +114,8 @@ The Semantic Sound Pack has six pinned CC0 WAVs, a checksum validator and
 an optional Flutter adapter at `packs/sound/adapters/flutter/`.
 It passed independent static/Flutter CI and is LIBRARY_VERIFIED.
 Physical-device playback acceptance is still pending, so it is not COPY_READY.
-The Icon Adapter Pack now has 24 semantic IDs with generated Flutter and Compose
-adapters under `packs/icons/`; maturity depends on its own exact-head CI.
+The Icon Adapter Pack has 24 canonical semantic IDs with verified generated
+Flutter and Compose adapters under `packs/icons/`.
+Flutter is COPY_READY at library level; Compose is LIBRARY_VERIFIED
+pending physical Android UI validation. Pack overall is LIBRARY_VERIFIED.
 Only Visual QA remains entirely planned.
