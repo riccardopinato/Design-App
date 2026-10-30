@@ -118,4 +118,7 @@ The Icon Adapter Pack has 24 canonical semantic IDs with verified generated
 Flutter and Compose adapters under `packs/icons/`.
 Flutter is COPY_READY at library level; Compose is LIBRARY_VERIFIED
 pending physical Android UI validation. Pack overall is LIBRARY_VERIFIED.
-Only Visual QA remains entirely planned.
+The Flutter Visual QA Kit under `packs/visual-qa/flutter/` has passed its
+45-case layout matrix and four committed screenshot pixel comparisons:
+LIBRARY_VERIFIED, still awaiting real-app integration before COPY_READY.
+Compose/SwiftUI extensions remain planned.

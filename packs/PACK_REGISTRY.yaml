@@ -78,5 +78,29 @@ packs:
       - "No consuming-app, physical-device or visual screenshot certification."
   - id: PACK-VISUAL-QA
     name: Visual QA Kit
-    status: PLANNED
+    version: 0.1.0
+    status: LIBRARY_VERIFIED
+    flutter_maturity: LIBRARY_VERIFIED
     path: packs/visual-qa
+    flutter_package: packs/visual-qa/flutter
+    scenario_manifest: packs/visual-qa/manifest/visual_matrix.json
+    scenario_count: 9
+    ui_state_count: 5
+    matrix_test_cases: 45
+    committed_golden_baselines_required: 4
+    baseline_flutter_sdk: "3.47.9"
+    baseline_source_commit: "8388e31f5cdce514bcf4492f1f45b5bc3b62ada3"
+    flutter_external_runtime_dependencies: 0
+    compose_status: PLANNED
+    swiftui_status: PLANNED
+    ci: .github/workflows/visual-qa-flutter.yml
+    verified_at: "2026-10-30"
+    source_head_sha: "32350363e8b82fc5dad94c2a5b1e94787794cc27"
+    evidence:
+      - "https://github.com/riccardopinato/Design-App/actions/runs/41059634636"
+      - "https://github.com/riccardopinato/Design-App/actions/runs/41059634257"
+      - "https://github.com/riccardopinato/Design-App/actions/runs/41059220975"
+    caveats:
+      - "Only demonstration fixture has been tested; no consuming-app pilot or physical-device proof."
+      - "Golden PNGs are immutable in CI; Flutter SDK pinned to 3.47.9."
+      - "Promotion to COPY_READY requires integration in one real app under responsive Golden."

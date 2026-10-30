@@ -112,6 +112,20 @@ required = [
     ROOT / "packs" / "icons" / "compose" / "src" / "main" / "kotlin" / "factory" / "icons" / "FactoryIconWidgets.kt",
     ROOT / "packs" / "icons" / "compose" / "src" / "test" / "kotlin" / "factory" / "icons" / "FactoryIconMappingTest.kt",
     ROOT / ".github" / "workflows" / "icon-adapter-pack.yml",
+    ROOT / "packs" / "visual-qa" / "manifest" / "visual_matrix.json",
+    ROOT / "packs" / "visual-qa" / "manifest" / "validate_matrix.py",
+    ROOT / "packs" / "visual-qa" / "PROVENANCE.md",
+    ROOT / "packs" / "visual-qa" / "flutter" / "pubspec.yaml",
+    ROOT / "packs" / "visual-qa" / "flutter" / "README.md",
+    ROOT / "packs" / "visual-qa" / "flutter" / "lib" / "factory_visual_qa.dart",
+    ROOT / "packs" / "visual-qa" / "flutter" / "lib" / "src" / "qa_fixture.dart",
+    ROOT / "packs" / "visual-qa" / "flutter" / "test" / "support" / "visual_matrix.dart",
+    ROOT / "packs" / "visual-qa" / "flutter" / "test" / "visual_matrix_test.dart",
+    ROOT / "packs" / "visual-qa" / "flutter" / "test" / "visual_golden_test.dart",
+    ROOT / "packs" / "visual-qa" / "flutter" / "example" / "lib" / "main.dart",
+    ROOT / "packs" / "visual-qa" / "compose" / "README.md",
+    ROOT / "packs" / "visual-qa" / "swiftui" / "README.md",
+    ROOT / ".github" / "workflows" / "visual-qa-flutter.yml",
 ]
 for path in required:
     if not path.is_file():

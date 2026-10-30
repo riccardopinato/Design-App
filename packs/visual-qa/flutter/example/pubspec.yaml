@@ -1,0 +1,13 @@
+name: factory_visual_qa_showcase
+description: Responsive light/dark and state fixture preview.
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  factory_visual_qa:
+    path: ../
