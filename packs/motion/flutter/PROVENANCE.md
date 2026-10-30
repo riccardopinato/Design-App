@@ -7,7 +7,7 @@ owner: riccardopinato / App Factory
 factoryBaseline: riccardopinato/App-Factory-Core@e9507056601c4a6751510da4c5d1f61601a5dc25
 sourceRepo: riccardopinato/Design-App
 sourcePath: packs/motion/flutter
-sourceRef: this PR's merge commit when available
+sourceRef: ed3382fc82d25065b15712be2d243e32cf20ef1d (package-tested PR head)
 sourceLicense: first-party original code; Design-App repository license not asserted
 externalCodeCopied: false
 reuseScope: Flutter Android/iOS/Web presentation widgets
@@ -15,10 +15,10 @@ adaptationSummary: Native framework state transitions with shared timing and OS 
 dependenciesAdded: Flutter SDK only; flutter_test for test
 securityNotes: No I/O, telemetry, permissions, network, assets or persisted data
 licenseNotes: MIT/BSD external donors were *consulted*, not imported or vendored
-testsExecuted: To be filled from exact-head CI evidence
-evidenceRefs: To be filled after validation
-status: IMPLEMENTED_PENDING_VALIDATION
-verifiedAt: null
+testsExecuted: flutter pub get; flutter analyze lib test; flutter test --reporter expanded; example flutter pub get; example flutter analyze lib; Design-App registry validation
+evidenceRefs: https://github.com/riccardopinato/Design-App/actions/runs/41044887710 ; https://github.com/riccardopinato/Design-App/actions/runs/41044887705
+status: COPY_READY
+verifiedAt: 2026-10-30
 
 ## Design lineage (ideas only)
 
@@ -35,11 +35,12 @@ verifiedAt: null
 
 ## Open verification
 
-- Flutter analyze of package.
-- Flutter widget tests of effect variants, reduced motion, accessibility,
+- [PASS CI] Flutter analyze of package.
+- [PASS CI] Flutter widget tests of effect variants, reduced motion, accessibility,
   selection minimum touch size, completion badge, skeleton and dark mode.
-- Example package analysis.
-- CI exact-head PASS, followed by main post-merge PASS.
-- Physical-device and consuming-app size certification: NOT VERIFIED.
+- [PASS CI] Example package analysis.
+- [PASS CI] Exact initial package head ed3382fc82d25065b15712be2d243e32cf20ef1d.
+- [REQUIRED] Final metadata-head PR CI and merged-main CI must also pass.
+- [NOT VERIFIED] Physical-device and consuming-app size certification.
 
 A green source-app test is **not** evidence for this separately extracted package.
