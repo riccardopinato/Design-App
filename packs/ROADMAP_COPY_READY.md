@@ -1,6 +1,6 @@
 # Design-App — COPY_READY Pack Roadmap (approved direction)
 
-Status: APPROVED_DIRECTION / MOTION_FLUTTER_IMPLEMENTED_PENDING_VALIDATION
+Status: APPROVED_DIRECTION / MOTION_FLUTTER_COPY_READY_LIBRARY_LEVEL
 Updated: 2026-10-30
 Factory baseline: App-Factory-Core@e9507056601c4a6751510da4c5d1f61601a5dc25 (v27 ACTIVE).
 Scope: library modules for future reuse; **no automatic app-repo changes**.
@@ -29,9 +29,10 @@ is required before promoting to certified golden status.
 
 ## Step 1 — Motion Pack (highest priority)
 
-Flutter v0.1.0 implementation exists at `packs/motion/flutter/` with its own
-widget tests, interactive example and GitHub Actions workflow. It remains
-`IMPLEMENTED_PENDING_VALIDATION` until the exact-head package checks pass.
+Flutter v0.1.0 implementation is at `packs/motion/flutter/` with widget tests,
+an interactive example and dedicated GitHub Actions. Its library-level
+`COPY_READY` status is backed by exact-source package/registry CI; check
+`packs/PACK_REGISTRY.yaml` and the provenance ledger for evidence.
 Compose and SwiftUI adapters are not yet implemented.
 
 
