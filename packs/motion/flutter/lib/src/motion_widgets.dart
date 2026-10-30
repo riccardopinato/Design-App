@@ -169,7 +169,7 @@ class MotionSelectionTile extends StatelessWidget {
       child: AnimatedContainer(
         duration: FactoryMotionPolicy.duration(context, duration),
         curve: FactoryMotionTokens.enter,
-        constraints: const BoxConstraints(minHeight: 48),
+        constraints: const BoxConstraints(minWidth: 48, minHeight: 48),
         decoration: BoxDecoration(
           color: selected ? scheme.secondaryContainer : scheme.surfaceContainerLow,
           borderRadius: BorderRadius.circular(16),
