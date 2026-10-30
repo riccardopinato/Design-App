@@ -1,0 +1,27 @@
+# Factory Visual QA Kit — provenance
+
+componentId: PACK-VISUAL-QA
+componentVersion: 0.1.0
+originType: NEW_IMPLEMENTATION
+factoryBaseline: riccardopinato/App-Factory-Core@e9507056601c4a6751510da4c5d1f61601a5dc25 (Master v27 ACTIVE)
+goldenReference: golden/ui/GOLDEN_APP_SHELL_RESPONSIVE_VISUAL_QA_FLUTTER_v1_DRAFT.txt
+goldenStatus: DRAFT (not certified)
+sourceProjectOrRepo: riccardopinato/Design-App
+externalSourcesConsulted: cashapp/paparazzi; pointfreeco/swift-snapshot-testing; widgetbook/widgetbook
+externalCodeCopied: false
+externalAssetFilesCopied: false
+flutterRuntimeExternalDependencies: 0
+flutterTestDependencies: flutter_test (Flutter SDK)
+format: Linux Flutter golden pixel snapshots plus layout/semantics assertions
+targetsImplemented: Flutter test harness, 9 form-factor scenarios, 5 states
+targetsPlanned: Compose Paparazzi / SwiftUI snapshot harness
+physicalDeviceEvidence: NOT VERIFIED
+consumerAppIntegration: NOT VERIFIED
+status: IMPLEMENTED_PENDING_VALIDATION
+evidence: To be recorded after exact-head PR CI and committed baselines
+
+Use this pack to verify screen behavior, not to claim a design was approved.
+To become COPY_READY, the 4 reference PNGs must be committed, and the exact
+head must pass matrix tests and real comparison against unchanged PNGs.
+A subsequent consumer-app pilot and physical/device verification remain
+separate levels under the App Factory evidence ladder.
