@@ -25,8 +25,28 @@ packs:
       - "Source package analyzed, widget-tested, example-analyzed and metadata validated on documented source SHA."
   - id: PACK-SOUND-SEMANTIC
     name: Semantic Sound Pack
-    status: PLANNED
+    version: 0.1.0
+    status: LIBRARY_VERIFIED
     path: packs/sound/semantic
+    manifest: packs/sound/semantic/manifest.json
+    provenance: packs/sound/semantic/PROVENANCE.md
+    validation_script: packs/sound/semantic/validate_assets.py
+    flutter_adapter: packs/sound/adapters/flutter
+    audio_source: wyzowl/sfx-kit
+    source_ref: "92780e7ab0cdfb557497a988089c47f46e8c7412"
+    audio_license: CC0-1.0
+    audio_assets_count: 6
+    audio_assets_bytes: 346574
+    library_ci: .github/workflows/semantic-sound-pack.yml
+    verified_at: "2026-10-30"
+    source_head_sha: "ce88581ef70dd08c61c6c4a0c2a6f02405b28612"
+    evidence:
+      - "https://github.com/riccardopinato/Design-App/actions/runs/41049437359"
+      - "https://github.com/riccardopinato/Design-App/actions/runs/41049437240"
+      - "https://github.com/riccardopinato/Design-App/actions/runs/41049437304"
+    caveats:
+      - "Native decoding, latency, perceived volume and focus need physical-device acceptance before COPY_READY."
+      - "This pack is not a critical alarm or notification reliability subsystem."
   - id: PACK-ICONS-ADAPTER
     name: Icon Adapter Pack
     status: PLANNED

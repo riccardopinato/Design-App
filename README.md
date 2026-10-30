@@ -110,4 +110,8 @@ The Flutter Motion Pack v0.1.0 is **COPY_READY at library level** with
 Flutter analyzer/widget-test/example CI evidence, documented in
 `packs/motion/flutter/PROVENANCE.md`. It is not cross-app certified.
 Check `packs/PACK_REGISTRY.yaml` for the per-pack status.
-Semantic Sound, Icon Adapter and Visual QA are still planned.
+The Semantic Sound Pack has six pinned CC0 WAVs, a checksum validator and
+an optional Flutter adapter at `packs/sound/adapters/flutter/`.
+It passed independent static/Flutter CI and is LIBRARY_VERIFIED.
+Physical-device playback acceptance is still pending, so it is not COPY_READY.
+Icon Adapter and Visual QA are still planned.

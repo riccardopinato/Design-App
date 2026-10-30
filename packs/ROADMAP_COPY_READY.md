@@ -58,6 +58,13 @@ reduced motion; demo and bundle/dependency measurements.
 
 ## Step 2 — Semantic Sound Pack
 
+The six CC0 WAV files, pinned manifest, integrity validator, optional Flutter
+adapter, controller tests and preview are implemented and independently
+LIBRARY_VERIFIED under `packs/sound/`. **Physical-device playback QA remains
+required** before promoting this pack to COPY_READY.
+See `packs/PACK_REGISTRY.yaml` for CI evidence.
+
+
 Proposed paths:
 - `packs/sound/semantic/`
 - `packs/sound/adapters/flutter/`

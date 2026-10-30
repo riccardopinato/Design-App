@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "version": "0.1.0",
+  "source_repo": "wyzowl/sfx-kit",
+  "source_commit": "92780e7ab0cdfb557497a988089c47f46e8c7412",
+  "license": "CC0-1.0",
+  "license_path": "packs/sound/semantic/LICENSE-CC0.txt",
+  "audio_format": {
+    "container": "WAVE",
+    "encoding": "PCM",
+    "channels": 1,
+    "sample_rate_hz": 48000,
+    "bits_per_sample": 24
+  },
+  "distribution": {
+    "default_enabled": false,
+    "critical_alarm": false,
+    "files_bundled": 6,
+    "total_bytes": 346574
+  },
+  "assets": [
+    {
+      "id": "selection",
+      "source_path": "sounds/interface/click-tap-soft.wav",
+      "source_blob_sha": "47a99f81783e469402f95b3ef5bb551402a4eec3",
+      "asset_path": "packs/sound/adapters/flutter/assets/selection.wav",
+      "sha256": "e870f882b03aed3036011235a06350e626ae69a92dd5c138eb370d87194c6784",
+      "size_bytes": 2498,
+      "duration_seconds": 0.016,
+      "source_filename": "click-tap-soft.wav"
+    },
+    {
+      "id": "success",
+      "source_path": "sounds/notifications/notification-success-soft.wav",
+      "source_blob_sha": "0b3e4ce853491bf449d4631738883fb6c7289493",
+      "asset_path": "packs/sound/adapters/flutter/assets/success.wav",
+      "sha256": "49fa865e894e26a59dea81144844270d532fa899d7eb94f2ac0687af4a66ebc1",
+      "size_bytes": 76532,
+      "duration_seconds": 0.53,
+      "source_filename": "notification-success-soft.wav"
+    },
+    {
+      "id": "warning",
+      "source_path": "sounds/notifications/notification-attention-soft.wav",
+      "source_blob_sha": "6b1d6f45542698312f0fddb0867efcf03e1df927",
+      "asset_path": "packs/sound/adapters/flutter/assets/warning.wav",
+      "sha256": "f4d75e08bdcfa6dc9f939cee8a973e2b9a7c96c6ef33d07ffebd20854dbde44a",
+      "size_bytes": 47374,
+      "duration_seconds": 0.3275,
+      "source_filename": "notification-attention-soft.wav"
+    },
+    {
+      "id": "error",
+      "source_path": "sounds/notifications/notification-error-soft.wav",
+      "source_blob_sha": "fd9d4847e5b474b08d241f343040ba6795d432ee",
+      "asset_path": "packs/sound/adapters/flutter/assets/error.wav",
+      "sha256": "a4fbba71503798c6c3f375b41e69d2f4dcf43866a1a29273eaa54a0280c8f339",
+      "size_bytes": 81786,
+      "duration_seconds": 0.5665,
+      "source_filename": "notification-error-soft.wav"
+    },
+    {
+      "id": "completion",
+      "source_path": "sounds/notifications/notification-success-flourish.wav",
+      "source_blob_sha": "c4a9dee163160d504f225f16fcf3cb26792f0bcc",
+      "asset_path": "packs/sound/adapters/flutter/assets/completion.wav",
+      "sha256": "fdac4beb48e56713c6ad3e98c68da34165796b1a38cba584cb6bd23eda1695ae",
+      "size_bytes": 77256,
+      "duration_seconds": 0.535,
+      "source_filename": "notification-success-flourish.wav"
+    },
+    {
+      "id": "notification_soft",
+      "source_path": "sounds/notifications/notification-message-in-soft.wav",
+      "source_blob_sha": "75a576c962ee39dee1e830b7dcefce68aa8bab21",
+      "asset_path": "packs/sound/adapters/flutter/assets/notification_soft.wav",
+      "sha256": "1ded331dcb7a44c658f4f56692ec33eea5820f1c4d0442574e7cd6aea50ed460",
+      "size_bytes": 61128,
+      "duration_seconds": 0.423,
+      "source_filename": "notification-message-in-soft.wav"
+    }
+  ]
+}
