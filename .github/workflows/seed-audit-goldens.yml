@@ -44,3 +44,4 @@ jobs:
           git commit -m "test(visual-qa): fix Material icon and real-font PNG baselines"
           git push origin HEAD:fix/audit-hardening-v27
 # Retry after Flutter analyzer feedback on real-font loader.
+# Regenerate after explicit MaterialIcons font loading in widget test.
