@@ -36,7 +36,7 @@ def validate() -> None:
         assert len(raw) < 128_000, f"oversized UI sound: {path}"
         digest = hashlib.sha256(raw).hexdigest()
         assert digest == item["sha256"], f"SHA256 mismatch: {path}"
-        git_blob = hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\\0" + raw).hexdigest()
+        git_blob = hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + bytes((0,)) + raw).hexdigest()
         assert git_blob == item["source_blob_sha"], f"source byte mismatch: {path}"
 
         assert raw[:4] == b"RIFF" and raw[8:12] == b"WAVE", path
@@ -47,7 +47,9 @@ def validate() -> None:
         bits = struct.unpack_from("<H", raw, 34)[0]
         assert (encoding, channels, sample_rate, bits) == (1, 1, 48_000, 24), path
         data_size = struct.unpack_from("<I", raw, 40)[0]
-        assert len(raw) == 44 + data_size, f"WAV length mismatch: {path}"
+        assert struct.unpack_from("<I", raw, 4)[0] == len(raw) - 8, f"RIFF size mismatch: {path}"
+        # Upstream WAVs may include trailing metadata chunks after the audio payload.
+        assert 44 + data_size <= len(raw), f"WAV data exceeds file: {path}"
         duration = data_size / (sample_rate * channels * (bits // 8))
         assert abs(duration - item["duration_seconds"]) < 0.001, path
         total += len(raw)
