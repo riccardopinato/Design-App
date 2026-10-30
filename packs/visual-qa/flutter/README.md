@@ -48,7 +48,12 @@ flutter test test/visual_golden_test.dart
 flutter test
 ```
 
-The four PNG baselines under `test/goldens/` **must be committed**. Normal
+The four PNG baselines under `test/goldens/` **are committed**.
+They were created on Linux with Flutter **3.47.9** (Dart 3.13.7);
+standard CI is pinned to this SDK. A Flutter engine upgrade requires deliberate
+review and separate baseline approval.
+
+The baselines Normal
 CI never runs `--update-goldens`. A real pixel change fails with diff assets
 in `test/failures`. Review the diff and justify any update in the PR.
 
