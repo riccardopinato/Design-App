@@ -1,5 +1,4 @@
 import 'dart:io';
-import 'dart:typed_data';
 import 'package:flutter/services.dart';
 
 /// The Flutter test Ahem font makes fake block text. Load a real system
