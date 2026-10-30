@@ -13,8 +13,8 @@ Compose. This is an *adapter*, not a third-party icon library.
 - One default family: **Material Icons Filled (core)**.
 - No copied SVGs, image files or custom font binaries.
 - Flutter uses icons from the Flutter SDK.
-- Compose uses `material-icons-core` through Compose Material.
-- No `material-icons-extended` dependency.
+- Compose uses explicit `material-icons-core` (small core set, 1.7.3 in JVM harness).
+- No `material-icons-extended` dependency; apps must include core icons explicitly when not already present.
 - IDs are stable API identifiers: do not rename or recycle them.
 
 Semantic IDs: add, back, calendar, call, check, close, delete, edit,
