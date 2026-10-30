@@ -18,9 +18,12 @@ composeEntrypoint: packs/icons/compose/src/main/kotlin/factory/icons/FactoryIcon
 externalRuntimeDependenciesFlutter: 0
 newStandaloneIconDependenciesCompose: material-icons-core:1.7.3 (explicit because Compose MPP stopped pulling it transitively)
 sizeImpact: No bundled files; actual app icon-font/SDK footprint not measured
-validation: PR workflow pending; GitHub Actions icon-manifest, icon-flutter, icon-compose
+validation: exact-source Flutter analyze/widget tests/showcase; Compose JVM compilation/mapping tests; generated parity; registry validator; Motion Pack regression
+evidence: https://github.com/riccardopinato/Design-App/actions/runs/41056913754 ; https://github.com/riccardopinato/Design-App/actions/runs/41056913763
+verifiedAt: 2026-10-30
+sourceVerifiedSha: c817f3843320fc170cd1cd66d80ca8694b140150
 knownLimitations: Android physical rendering, RTL gestures and consuming-app integration NOT VERIFIED
-status: IMPLEMENTED_PENDING_VALIDATION
+status: LIBRARY_VERIFIED (Flutter adapter: COPY_READY; Compose adapter: LIBRARY_VERIFIED)
 
 Design decisions:
 - semantic key is the stable cross-stack contract;
