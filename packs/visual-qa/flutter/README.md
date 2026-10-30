@@ -54,13 +54,16 @@ flutter test
 ```
 
 The four PNG baselines under `test/goldens/` **are committed**.
-They were created on Linux with Flutter **3.47.9** (Dart 3.13.7);
+They were corrected on Linux with Flutter **3.47.9** (Dart 3.13.7), explicit Flutter SDK MaterialIcons and DejaVu Sans test-only font mapped to Roboto;
 standard CI is pinned to this SDK. A Flutter engine upgrade requires deliberate
 review and separate baseline approval.
 
 The baselines Normal
 CI never runs `--update-goldens`. A real pixel change fails with diff assets
 in `test/failures`. Review the diff and justify any update in the PR.
+
+The corrected PNG byte identities are pinned in the visual matrix manifest.
+The old Ahem/block-glyph PNGs are superseded and should not be used.
 
 Only when an intentional design change is approved:
 
