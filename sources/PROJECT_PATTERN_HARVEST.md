@@ -55,12 +55,12 @@ accents for Today, Calendar, Memories, People, Shared, Workout, Vault and Ecosys
 Phone Guard separates accent, warning and danger. World Days maps content categories
 to visual keys and gradient families.
 
-### DS-009 — Consumer-first information architecture
+### Additional design guidance — Consumer-first information architecture
 Avoid exposing architecture as navigation. Consolidate related views into one
 product concept (for example Month + Week -> Calendar) and give first-class space to
 the user's primary outcome.
 
-### DS-010 — Ethical premium presentation
+### Additional design guidance — Ethical premium presentation
 Premium surfaces use the same design system with a restrained accent and clear value.
 No dark patterns; price, periodicity, restore and legal information remain readable.
 
