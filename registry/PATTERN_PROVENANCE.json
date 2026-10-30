@@ -536,7 +536,7 @@
     },
     {
       "id": "DS-023",
-      "maturity": "SOURCE_VERIFIED",
+      "maturity": "REFERENCE",
       "donors": [
         "Easy-Debloat"
       ],
