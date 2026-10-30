@@ -49,8 +49,25 @@ packs:
       - "This pack is not a critical alarm or notification reliability subsystem."
   - id: PACK-ICONS-ADAPTER
     name: Icon Adapter Pack
-    status: PLANNED
+    version: 0.1.0
+    status: IMPLEMENTED_PENDING_VALIDATION
     path: packs/icons
+    manifest: packs/icons/manifest/icons.json
+    generator: packs/icons/manifest/generate.py
+    flutter_adapter: packs/icons/flutter
+    compose_adapter: packs/icons/compose
+    provenance: packs/icons/PROVENANCE.md
+    semantic_icon_count: 24
+    icon_family: Material-Icons-Filled-Core
+    icon_assets_vendored: 0
+    flutter_external_runtime_dependencies: 0
+    compose_extended_icon_dependency: false
+    ci: .github/workflows/icon-adapter-pack.yml
+    verified_at: null
+    evidence: []
+    caveats:
+      - "Standalone Flutter and Compose harness validation is pending."
+      - "No consuming app or physical-device certification."
   - id: PACK-VISUAL-QA
     name: Visual QA Kit
     status: PLANNED
