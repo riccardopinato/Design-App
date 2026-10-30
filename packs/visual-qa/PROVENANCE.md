@@ -13,6 +13,9 @@ externalAssetFilesCopied: false
 flutterRuntimeExternalDependencies: 0
 flutterTestDependencies: flutter_test (Flutter SDK)
 format: Linux Flutter golden pixel snapshots plus layout/semantics assertions
+visualFontPolicy: DejaVu Sans mapped to Roboto during Linux golden tests; MaterialIcons bundled by uses-material-design
+previousGoldenStatus: invalid due to absent MaterialIcons and placeholder Ahem font
+newGoldenEvidence: awaiting exact-head CI
 flutterVersion: 3.47.9
 dartVersion: 3.13.7
 goldenInitialCommit: 8388e31f5cdce514bcf4492f1f45b5bc3b62ada3
@@ -29,7 +32,6 @@ testsExecuted: flutter pub get; flutter analyze lib test; 45-state matrix; 4 PNG
 evidence:
   - https://github.com/riccardopinato/Design-App/actions/runs/41059634636
   - https://github.com/riccardopinato/Design-App/actions/runs/41059634257
-evidence: To be recorded after exact-head PR CI and committed baselines
 
 Use this pack to verify screen behavior, not to claim a design was approved.
 To become COPY_READY, the 4 reference PNGs must be committed, and the exact
