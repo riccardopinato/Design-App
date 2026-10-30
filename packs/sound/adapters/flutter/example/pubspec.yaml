@@ -1,0 +1,13 @@
+name: factory_sound_showcase
+description: Manual sound preview and mute/volume controls for App Factory.
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  factory_sound_flutter:
+    path: ../
