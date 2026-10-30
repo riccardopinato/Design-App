@@ -73,6 +73,15 @@ required = [
     ROOT / "sources" / "SOUND_DESIGN_GUIDE.md",
     ROOT / "sources" / "GITHUB_DESIGN_RESEARCH_2026-10-30.md",
     ROOT / "packs" / "ROADMAP_COPY_READY.md",
+    ROOT / "packs" / "PACK_REGISTRY.yaml",
+    ROOT / "packs" / "motion" / "flutter" / "pubspec.yaml",
+    ROOT / "packs" / "motion" / "flutter" / "lib" / "factory_motion.dart",
+    ROOT / "packs" / "motion" / "flutter" / "lib" / "src" / "motion_policy.dart",
+    ROOT / "packs" / "motion" / "flutter" / "lib" / "src" / "motion_widgets.dart",
+    ROOT / "packs" / "motion" / "flutter" / "test" / "factory_motion_test.dart",
+    ROOT / "packs" / "motion" / "flutter" / "example" / "lib" / "main.dart",
+    ROOT / "packs" / "motion" / "flutter" / "PROVENANCE.md",
+    ROOT / ".github" / "workflows" / "motion-pack-flutter.yml",
 ]
 for path in required:
     if not path.is_file():
