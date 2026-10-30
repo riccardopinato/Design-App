@@ -112,5 +112,6 @@ Flutter analyzer/widget-test/example CI evidence, documented in
 Check `packs/PACK_REGISTRY.yaml` for the per-pack status.
 The Semantic Sound Pack has six pinned CC0 WAVs, a checksum validator and
 an optional Flutter adapter at `packs/sound/adapters/flutter/`.
-It is pending independent CI and physical-device playback acceptance.
+It passed independent static/Flutter CI and is LIBRARY_VERIFIED.
+Physical-device playback acceptance is still pending, so it is not COPY_READY.
 Icon Adapter and Visual QA are still planned.
