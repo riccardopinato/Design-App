@@ -8,7 +8,7 @@
     "license": "Apache-2.0",
     "ecosystem_note": "No raw icons vendored; Flutter SDK and AndroidX material-icons-core supply the runtime glyphs",
     "flutter": "Flutter Material Icons from Flutter SDK",
-    "compose": "androidx.compose.material:material-icons-core via existing Compose material dependency",
+    "compose": "androidx.compose.material:material-icons-core on Android; explicit org.jetbrains.compose.material:material-icons-core:1.7.3 in JVM harness",
     "observed_commit": "10ecc14790612ca8fd164e3f4ffe9c16fc50d5b7",
     "catalog_url": "https://github.com/google/material-design-icons"
   },
