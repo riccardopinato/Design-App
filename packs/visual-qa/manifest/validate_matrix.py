@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Check visual QA matrix policy and 4 committed PNG baselines."""
 import json
+import hashlib
 import re
 from pathlib import Path
 
@@ -32,6 +33,9 @@ for stem in expected_png:
     raw = path.read_bytes()
     assert raw[:8] == b"\x89PNG\r\n\x1a\n", "Invalid PNG signature: " + str(path)
     assert len(raw) > 500, "Suspiciously tiny golden baseline: " + str(path)
+    git_hash = hashlib.sha1(b'blob ' + str(len(raw)).encode() + bytes((0,)) + raw).hexdigest()
+    expected_hash = data['snapshot_policy']['corrected_baseline_sha'][stem]
+    assert git_hash == expected_hash, 'Golden PNG differs from pinned review baseline: ' + str(path)
     assert not re.search(r"[^a-z0-9-]", stem)
 extras = sorted(p.name for p in baseline_dir.glob("*.png")
                if p.stem not in expected_png)
