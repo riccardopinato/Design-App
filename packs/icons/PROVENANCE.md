@@ -16,7 +16,7 @@ generator: packs/icons/manifest/generate.py
 flutterEntrypoint: packs/icons/flutter/lib/factory_icons.dart
 composeEntrypoint: packs/icons/compose/src/main/kotlin/factory/icons/FactoryIconWidgets.kt
 externalRuntimeDependenciesFlutter: 0
-newStandaloneIconDependenciesCompose: 0
+newStandaloneIconDependenciesCompose: material-icons-core:1.7.3 (explicit because Compose MPP stopped pulling it transitively)
 sizeImpact: No bundled files; actual app icon-font/SDK footprint not measured
 validation: PR workflow pending; GitHub Actions icon-manifest, icon-flutter, icon-compose
 knownLimitations: Android physical rendering, RTL gestures and consuming-app integration NOT VERIFIED
