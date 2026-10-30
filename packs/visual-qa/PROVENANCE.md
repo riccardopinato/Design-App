@@ -22,7 +22,13 @@ targetsImplemented: Flutter test harness, 9 form-factor scenarios, 5 states
 targetsPlanned: Compose Paparazzi / SwiftUI snapshot harness
 physicalDeviceEvidence: NOT VERIFIED
 consumerAppIntegration: NOT VERIFIED
-status: IMPLEMENTED_PENDING_VALIDATION
+status: LIBRARY_VERIFIED
+verifiedAt: 2026-10-30
+testedSourceSha: 32350363e8b82fc5dad94c2a5b1e94787794cc27
+testsExecuted: flutter pub get; flutter analyze lib test; 45-state matrix; 4 PNG golden pixel comparisons; full flutter test; example analyze; repository structural validation
+evidence:
+  - https://github.com/riccardopinato/Design-App/actions/runs/41059634636
+  - https://github.com/riccardopinato/Design-App/actions/runs/41059634257
 evidence: To be recorded after exact-head PR CI and committed baselines
 
 Use this pack to verify screen behavior, not to claim a design was approved.
