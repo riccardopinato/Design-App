@@ -1,6 +1,6 @@
 # Design-App — COPY_READY Pack Roadmap (approved direction)
 
-Status: APPROVED_DIRECTION / MOTION_FLUTTER_COPY_READY_LIBRARY_LEVEL
+Status: APPROVED_DIRECTION / AUDIT_HARDENING_IN_PROGRESS
 Updated: 2026-10-30
 Factory baseline: App-Factory-Core@e9507056601c4a6751510da4c5d1f61601a5dc25 (v27 ACTIVE).
 Scope: library modules for future reuse; **no automatic app-repo changes**.

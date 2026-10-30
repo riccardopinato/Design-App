@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(const VisualQaShowcase());
 
+/// Full-window QA demo. Settings use an overlay menu, never a stacked column
+/// that shrinks the actual screen under test on short landscape devices.
 class VisualQaShowcase extends StatefulWidget {
   const VisualQaShowcase({super.key});
 
@@ -29,43 +31,67 @@ class _VisualQaShowcaseState extends State<VisualQaShowcase> {
           ),
         ),
         themeMode: dark ? ThemeMode.dark : ThemeMode.light,
-        home: Scaffold(
-          appBar: AppBar(title: const Text('QA scenario controls')),
-          body: Column(
-            children: [
-              SwitchListTile(
-                title: const Text('Dark'),
-                value: dark,
-                onChanged: (value) => setState(() => dark = value),
-              ),
-              SwitchListTile(
-                title: const Text('Reserved banner'),
-                value: adSlot,
-                onChanged: (value) => setState(() => adSlot = value),
-              ),
-              SwitchListTile(
-                title: const Text('Long localization'),
-                value: longLocale,
-                onChanged: (value) => setState(() => longLocale = value),
-              ),
-              DropdownButton<QaUiState>(
-                value: state,
-                items: [
-                  for (final option in QaUiState.values)
-                    DropdownMenuItem(value: option, child: Text(option.name)),
-                ],
-                onChanged: (value) =>
-                    setState(() => state = value ?? QaUiState.content),
-              ),
-              Expanded(
-                child: QaFixture(
-                  state: state,
-                  withAdSlot: adSlot,
-                  longLocale: longLocale,
+        home: Stack(
+          children: [
+            QaFixture(
+              state: state,
+              withAdSlot: adSlot,
+              longLocale: longLocale,
+            ),
+            Positioned(
+              top: 2,
+              right: 8,
+              child: SafeArea(
+                child: Material(
+                  color: Colors.transparent,
+                  child: PopupMenuButton<String>(
+                    tooltip: 'QA preview options',
+                    icon: const Icon(Icons.tune),
+                    onSelected: (choice) => setState(() {
+                      switch (choice) {
+                        case 'dark':
+                          dark = !dark;
+                        case 'banner':
+                          adSlot = !adSlot;
+                        case 'locale':
+                          longLocale = !longLocale;
+                        default:
+                          if (choice.startsWith('state:')) {
+                            state = QaUiState.values.byName(
+                              choice.substring('state:'.length),
+                            );
+                          }
+                      }
+                    }),
+                    itemBuilder: (context) => [
+                      CheckedPopupMenuItem(
+                        value: 'dark',
+                        checked: dark,
+                        child: const Text('Dark theme'),
+                      ),
+                      CheckedPopupMenuItem(
+                        value: 'banner',
+                        checked: adSlot,
+                        child: const Text('Banner slot'),
+                      ),
+                      CheckedPopupMenuItem(
+                        value: 'locale',
+                        checked: longLocale,
+                        child: const Text('Long localization'),
+                      ),
+                      const PopupMenuDivider(),
+                      for (final option in QaUiState.values)
+                        CheckedPopupMenuItem(
+                          value: 'state:${option.name}',
+                          checked: option == state,
+                          child: Text(option.name),
+                        ),
+                    ],
+                  ),
                 ),
               ),
-            ],
-          ),
+            ),
+          ],
         ),
       );
 }

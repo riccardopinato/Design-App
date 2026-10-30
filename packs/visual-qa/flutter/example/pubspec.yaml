@@ -11,3 +11,10 @@ dependencies:
     sdk: flutter
   factory_visual_qa:
     path: ../
+
+flutter:
+  uses-material-design: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

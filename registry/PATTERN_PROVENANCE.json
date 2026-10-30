@@ -1,0 +1,786 @@
+{
+  "schema_version": 1,
+  "factory_baseline": "riccardopinato/App-Factory-Core@e9507056601c4a6751510da4c5d1f61601a5dc25",
+  "purpose": "Retriever evidence pointers, not proof that each linked snapshot implements the entire named pattern",
+  "patterns": [
+    {
+      "id": "DS-001",
+      "maturity": "SOURCE_VERIFIED",
+      "donors": [
+        "Agenda-per-Anna",
+        "Wonderlog",
+        "Notes-Ecosistema",
+        "FrameLab"
+      ],
+      "donor_snapshots": [
+        {
+          "repo": "riccardopinato/Agenda-per-Anna",
+          "snapshot_path": "tested/source_snapshots/flutter/anna_theme_semantics.dart.txt",
+          "source_path": "lib/src/theme_semantics.dart",
+          "git_blob_sha": "db3440827b915babf7589a596fbb8192b4593940",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        },
+        {
+          "repo": "riccardopinato/Wonderlog",
+          "snapshot_path": "tested/source_snapshots/flutter/wonderlog_theme.dart.txt",
+          "source_path": "flutter/lib/app/theme/wonderlog_theme.dart",
+          "git_blob_sha": "2cd7b015f7629a5835aa608e03cc64c318401b56",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        },
+        {
+          "repo": "riccardopinato/Notes-Ecosistema",
+          "snapshot_path": "tested/source_snapshots/flutter/notes_theme.dart.txt",
+          "source_path": "flutter_app/lib/src/theme/notes_theme.dart",
+          "git_blob_sha": "537e466f85b2bc7db9d22404ac60c0d89885817b",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        }
+      ],
+      "unverified_donors": [
+        "FrameLab"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-002",
+      "maturity": "SOURCE_VERIFIED",
+      "donors": [
+        "Wonderlog",
+        "Battery_Guard",
+        "Notes-Ecosistema",
+        "World-Days",
+        "CamperBoss",
+        "Phone-Guard"
+      ],
+      "donor_snapshots": [
+        {
+          "repo": "riccardopinato/Wonderlog",
+          "snapshot_path": "tested/source_snapshots/flutter/wonderlog_theme.dart.txt",
+          "source_path": "flutter/lib/app/theme/wonderlog_theme.dart",
+          "git_blob_sha": "2cd7b015f7629a5835aa608e03cc64c318401b56",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        },
+        {
+          "repo": "riccardopinato/Battery_Guard",
+          "snapshot_path": "tested/source_snapshots/flutter/battery_guard_app_theme.dart.txt",
+          "source_path": "lib/theme/app_theme.dart",
+          "git_blob_sha": "673182eaa967151904dce8c8f55a19ad5601abd4",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        },
+        {
+          "repo": "riccardopinato/Notes-Ecosistema",
+          "snapshot_path": "tested/source_snapshots/flutter/notes_theme.dart.txt",
+          "source_path": "flutter_app/lib/src/theme/notes_theme.dart",
+          "git_blob_sha": "537e466f85b2bc7db9d22404ac60c0d89885817b",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        },
+        {
+          "repo": "riccardopinato/World-Days",
+          "snapshot_path": "tested/source_snapshots/flutter/world_days_app_theme.dart.txt",
+          "source_path": "lib/core/theme/app_theme.dart",
+          "git_blob_sha": "ade25f1759cbc12f40aa335b4e61ddc67d28317c",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        },
+        {
+          "repo": "riccardopinato/CamperBoss",
+          "snapshot_path": "tested/source_snapshots/flutter/camperboss_app_theme.dart.txt",
+          "source_path": "lib/core/theme/app_theme.dart",
+          "git_blob_sha": "b666c2b1d59b5d866dd763d264d37b762fcf8fdb",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        },
+        {
+          "repo": "riccardopinato/Phone-Guard",
+          "snapshot_path": "tested/source_snapshots/compose/phone_guard_theme.kt.txt",
+          "source_path": "app/src/main/java/com/riccardopinato/phoneguard/ui/theme/Theme.kt",
+          "git_blob_sha": "767cf73ecff690b8006ea2ff15d0bda53cb1c4f4",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        }
+      ],
+      "unverified_donors": [],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-003",
+      "maturity": "SOURCE_VERIFIED",
+      "donors": [
+        "Agenda-per-Anna",
+        "Wonderlog",
+        "FrameLab",
+        "World-Days"
+      ],
+      "donor_snapshots": [
+        {
+          "repo": "riccardopinato/Agenda-per-Anna",
+          "snapshot_path": "tested/source_snapshots/flutter/anna_theme_semantics.dart.txt",
+          "source_path": "lib/src/theme_semantics.dart",
+          "git_blob_sha": "db3440827b915babf7589a596fbb8192b4593940",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        },
+        {
+          "repo": "riccardopinato/Wonderlog",
+          "snapshot_path": "tested/source_snapshots/flutter/wonderlog_theme.dart.txt",
+          "source_path": "flutter/lib/app/theme/wonderlog_theme.dart",
+          "git_blob_sha": "2cd7b015f7629a5835aa608e03cc64c318401b56",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        },
+        {
+          "repo": "riccardopinato/World-Days",
+          "snapshot_path": "tested/source_snapshots/flutter/world_days_app_theme.dart.txt",
+          "source_path": "lib/core/theme/app_theme.dart",
+          "git_blob_sha": "ade25f1759cbc12f40aa335b4e61ddc67d28317c",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        }
+      ],
+      "unverified_donors": [
+        "FrameLab"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-004",
+      "maturity": "SOURCE_VERIFIED",
+      "donors": [
+        "Agenda-per-Anna"
+      ],
+      "donor_snapshots": [
+        {
+          "repo": "riccardopinato/Agenda-per-Anna",
+          "snapshot_path": "tested/source_snapshots/flutter/anna_theme_semantics.dart.txt",
+          "source_path": "lib/src/theme_semantics.dart",
+          "git_blob_sha": "db3440827b915babf7589a596fbb8192b4593940",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        }
+      ],
+      "unverified_donors": [],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-005",
+      "maturity": "SOURCE_VERIFIED",
+      "donors": [
+        "Agenda-per-Anna",
+        "FrameLab"
+      ],
+      "donor_snapshots": [
+        {
+          "repo": "riccardopinato/Agenda-per-Anna",
+          "snapshot_path": "tested/source_snapshots/flutter/anna_theme_semantics.dart.txt",
+          "source_path": "lib/src/theme_semantics.dart",
+          "git_blob_sha": "db3440827b915babf7589a596fbb8192b4593940",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        }
+      ],
+      "unverified_donors": [
+        "FrameLab"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-006",
+      "maturity": "REFERENCE",
+      "donors": [
+        "FrameLab",
+        "App-Factory-design-guidance"
+      ],
+      "donor_snapshots": [],
+      "unverified_donors": [
+        "FrameLab",
+        "App-Factory-design-guidance"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-007",
+      "maturity": "SOURCE_VERIFIED",
+      "donors": [
+        "Wonderlog",
+        "Notes-Ecosistema",
+        "World-Days",
+        "Phone-Guard"
+      ],
+      "donor_snapshots": [
+        {
+          "repo": "riccardopinato/Wonderlog",
+          "snapshot_path": "tested/source_snapshots/flutter/wonderlog_theme.dart.txt",
+          "source_path": "flutter/lib/app/theme/wonderlog_theme.dart",
+          "git_blob_sha": "2cd7b015f7629a5835aa608e03cc64c318401b56",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        },
+        {
+          "repo": "riccardopinato/Notes-Ecosistema",
+          "snapshot_path": "tested/source_snapshots/flutter/notes_theme.dart.txt",
+          "source_path": "flutter_app/lib/src/theme/notes_theme.dart",
+          "git_blob_sha": "537e466f85b2bc7db9d22404ac60c0d89885817b",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        },
+        {
+          "repo": "riccardopinato/World-Days",
+          "snapshot_path": "tested/source_snapshots/flutter/world_days_app_theme.dart.txt",
+          "source_path": "lib/core/theme/app_theme.dart",
+          "git_blob_sha": "ade25f1759cbc12f40aa335b4e61ddc67d28317c",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        },
+        {
+          "repo": "riccardopinato/Phone-Guard",
+          "snapshot_path": "tested/source_snapshots/compose/phone_guard_theme.kt.txt",
+          "source_path": "app/src/main/java/com/riccardopinato/phoneguard/ui/theme/Theme.kt",
+          "git_blob_sha": "767cf73ecff690b8006ea2ff15d0bda53cb1c4f4",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        }
+      ],
+      "unverified_donors": [],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-008",
+      "maturity": "SOURCE_VERIFIED",
+      "donors": [
+        "Agenda-per-Anna",
+        "Phone-Guard",
+        "World-Days"
+      ],
+      "donor_snapshots": [
+        {
+          "repo": "riccardopinato/Agenda-per-Anna",
+          "snapshot_path": "tested/source_snapshots/flutter/anna_theme_semantics.dart.txt",
+          "source_path": "lib/src/theme_semantics.dart",
+          "git_blob_sha": "db3440827b915babf7589a596fbb8192b4593940",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        },
+        {
+          "repo": "riccardopinato/Phone-Guard",
+          "snapshot_path": "tested/source_snapshots/compose/phone_guard_theme.kt.txt",
+          "source_path": "app/src/main/java/com/riccardopinato/phoneguard/ui/theme/Theme.kt",
+          "git_blob_sha": "767cf73ecff690b8006ea2ff15d0bda53cb1c4f4",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        },
+        {
+          "repo": "riccardopinato/World-Days",
+          "snapshot_path": "tested/source_snapshots/flutter/world_days_app_theme.dart.txt",
+          "source_path": "lib/core/theme/app_theme.dart",
+          "git_blob_sha": "ade25f1759cbc12f40aa335b4e61ddc67d28317c",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        }
+      ],
+      "unverified_donors": [],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-009",
+      "maturity": "SOURCE_VERIFIED",
+      "donors": [
+        "Notes-Ecosistema",
+        "FrameLab"
+      ],
+      "donor_snapshots": [
+        {
+          "repo": "riccardopinato/Notes-Ecosistema",
+          "snapshot_path": "tested/source_snapshots/flutter/notes_theme.dart.txt",
+          "source_path": "flutter_app/lib/src/theme/notes_theme.dart",
+          "git_blob_sha": "537e466f85b2bc7db9d22404ac60c0d89885817b",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        }
+      ],
+      "unverified_donors": [
+        "FrameLab"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-010",
+      "maturity": "SOURCE_VERIFIED",
+      "donors": [
+        "Agenda-per-Anna"
+      ],
+      "donor_snapshots": [
+        {
+          "repo": "riccardopinato/Agenda-per-Anna",
+          "snapshot_path": "tested/source_snapshots/flutter/anna_theme_semantics.dart.txt",
+          "source_path": "lib/src/theme_semantics.dart",
+          "git_blob_sha": "db3440827b915babf7589a596fbb8192b4593940",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        }
+      ],
+      "unverified_donors": [],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-011",
+      "maturity": "SOURCE_VERIFIED",
+      "donors": [
+        "World-Days"
+      ],
+      "donor_snapshots": [
+        {
+          "repo": "riccardopinato/World-Days",
+          "snapshot_path": "tested/source_snapshots/flutter/world_days_app_theme.dart.txt",
+          "source_path": "lib/core/theme/app_theme.dart",
+          "git_blob_sha": "ade25f1759cbc12f40aa335b4e61ddc67d28317c",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        }
+      ],
+      "unverified_donors": [],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-012",
+      "maturity": "REFERENCE",
+      "donors": [
+        "FrameLab"
+      ],
+      "donor_snapshots": [],
+      "unverified_donors": [
+        "FrameLab"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-013",
+      "maturity": "SOURCE_VERIFIED",
+      "donors": [
+        "FocuSense"
+      ],
+      "donor_snapshots": [
+        {
+          "repo": "riccardopinato/FocuSense",
+          "snapshot_path": "tested/source_snapshots/compose/focussense_neon_ui.kt.txt",
+          "source_path": "app/src/main/java/com/utilitylab/focussense/ui/components/NeonUi.kt",
+          "git_blob_sha": "a086c0915a6f1efc3c1003b640261317f1bfecab",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        }
+      ],
+      "unverified_donors": [],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-014",
+      "maturity": "SOURCE_VERIFIED",
+      "donors": [
+        "FocuSense"
+      ],
+      "donor_snapshots": [
+        {
+          "repo": "riccardopinato/FocuSense",
+          "snapshot_path": "tested/source_snapshots/compose/focussense_neon_ui.kt.txt",
+          "source_path": "app/src/main/java/com/utilitylab/focussense/ui/components/NeonUi.kt",
+          "git_blob_sha": "a086c0915a6f1efc3c1003b640261317f1bfecab",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        }
+      ],
+      "unverified_donors": [],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-015",
+      "maturity": "SOURCE_VERIFIED",
+      "donors": [
+        "Phone-Guard",
+        "Battery_Guard"
+      ],
+      "donor_snapshots": [
+        {
+          "repo": "riccardopinato/Phone-Guard",
+          "snapshot_path": "tested/source_snapshots/compose/phone_guard_theme.kt.txt",
+          "source_path": "app/src/main/java/com/riccardopinato/phoneguard/ui/theme/Theme.kt",
+          "git_blob_sha": "767cf73ecff690b8006ea2ff15d0bda53cb1c4f4",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        },
+        {
+          "repo": "riccardopinato/Battery_Guard",
+          "snapshot_path": "tested/source_snapshots/flutter/battery_guard_app_theme.dart.txt",
+          "source_path": "lib/theme/app_theme.dart",
+          "git_blob_sha": "673182eaa967151904dce8c8f55a19ad5601abd4",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        }
+      ],
+      "unverified_donors": [],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-016",
+      "maturity": "SOURCE_VERIFIED",
+      "donors": [
+        "Phone-Guard",
+        "Pocket-Guard",
+        "Tabletop-Motion-Alarm"
+      ],
+      "donor_snapshots": [
+        {
+          "repo": "riccardopinato/Phone-Guard",
+          "snapshot_path": "tested/source_snapshots/compose/phone_guard_theme.kt.txt",
+          "source_path": "app/src/main/java/com/riccardopinato/phoneguard/ui/theme/Theme.kt",
+          "git_blob_sha": "767cf73ecff690b8006ea2ff15d0bda53cb1c4f4",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        }
+      ],
+      "unverified_donors": [
+        "Pocket-Guard",
+        "Tabletop-Motion-Alarm"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-017",
+      "maturity": "SOURCE_VERIFIED",
+      "donors": [
+        "Wonderlog",
+        "Notes-Ecosistema"
+      ],
+      "donor_snapshots": [
+        {
+          "repo": "riccardopinato/Wonderlog",
+          "snapshot_path": "tested/source_snapshots/flutter/wonderlog_theme.dart.txt",
+          "source_path": "flutter/lib/app/theme/wonderlog_theme.dart",
+          "git_blob_sha": "2cd7b015f7629a5835aa608e03cc64c318401b56",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        },
+        {
+          "repo": "riccardopinato/Notes-Ecosistema",
+          "snapshot_path": "tested/source_snapshots/flutter/notes_theme.dart.txt",
+          "source_path": "flutter_app/lib/src/theme/notes_theme.dart",
+          "git_blob_sha": "537e466f85b2bc7db9d22404ac60c0d89885817b",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        }
+      ],
+      "unverified_donors": [],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-018",
+      "maturity": "SOURCE_VERIFIED",
+      "donors": [
+        "Notes-Ecosistema"
+      ],
+      "donor_snapshots": [
+        {
+          "repo": "riccardopinato/Notes-Ecosistema",
+          "snapshot_path": "tested/source_snapshots/flutter/notes_theme.dart.txt",
+          "source_path": "flutter_app/lib/src/theme/notes_theme.dart",
+          "git_blob_sha": "537e466f85b2bc7db9d22404ac60c0d89885817b",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        }
+      ],
+      "unverified_donors": [],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-019",
+      "maturity": "REFERENCE",
+      "donors": [
+        "FrameLab"
+      ],
+      "donor_snapshots": [],
+      "unverified_donors": [
+        "FrameLab"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-020",
+      "maturity": "REFERENCE",
+      "donors": [
+        "Notes-Ecosistema",
+        "penpot/penpot"
+      ],
+      "donor_snapshots": [
+        {
+          "repo": "riccardopinato/Notes-Ecosistema",
+          "snapshot_path": "tested/source_snapshots/flutter/notes_theme.dart.txt",
+          "source_path": "flutter_app/lib/src/theme/notes_theme.dart",
+          "git_blob_sha": "537e466f85b2bc7db9d22404ac60c0d89885817b",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        }
+      ],
+      "unverified_donors": [
+        "penpot/penpot"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-021",
+      "maturity": "SOURCE_VERIFIED",
+      "donors": [
+        "Easy-Debloat",
+        "Phone-Guard"
+      ],
+      "donor_snapshots": [
+        {
+          "repo": "riccardopinato/Phone-Guard",
+          "snapshot_path": "tested/source_snapshots/compose/phone_guard_theme.kt.txt",
+          "source_path": "app/src/main/java/com/riccardopinato/phoneguard/ui/theme/Theme.kt",
+          "git_blob_sha": "767cf73ecff690b8006ea2ff15d0bda53cb1c4f4",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        }
+      ],
+      "unverified_donors": [
+        "Easy-Debloat"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-022",
+      "maturity": "SOURCE_VERIFIED",
+      "donors": [
+        "In-Cucina-con-gli-Anime"
+      ],
+      "donor_snapshots": [
+        {
+          "repo": "riccardopinato/In-Cucina-con-gli-Anime",
+          "snapshot_path": "tested/source_snapshots/flutter/anime_kitchen_responsive_shell.dart.txt",
+          "source_path": "lib/core/widgets/responsive_destination_shell.dart",
+          "git_blob_sha": "11d47e58a52b90d12ad8dfe6c3e7825003349cd1",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        }
+      ],
+      "unverified_donors": [],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-023",
+      "maturity": "REFERENCE",
+      "donors": [
+        "Easy-Debloat"
+      ],
+      "donor_snapshots": [],
+      "unverified_donors": [
+        "Easy-Debloat"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-024",
+      "maturity": "REFERENCE",
+      "donors": [
+        "Luminous-Infinite-Circle"
+      ],
+      "donor_snapshots": [],
+      "unverified_donors": [
+        "Luminous-Infinite-Circle"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-025",
+      "maturity": "SOURCE_VERIFIED",
+      "donors": [
+        "In-Cucina-con-gli-Anime",
+        "Agenda-per-Anna",
+        "Wonderlog"
+      ],
+      "donor_snapshots": [
+        {
+          "repo": "riccardopinato/In-Cucina-con-gli-Anime",
+          "snapshot_path": "tested/source_snapshots/flutter/anime_kitchen_responsive_shell.dart.txt",
+          "source_path": "lib/core/widgets/responsive_destination_shell.dart",
+          "git_blob_sha": "11d47e58a52b90d12ad8dfe6c3e7825003349cd1",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        },
+        {
+          "repo": "riccardopinato/Agenda-per-Anna",
+          "snapshot_path": "tested/source_snapshots/flutter/anna_theme_semantics.dart.txt",
+          "source_path": "lib/src/theme_semantics.dart",
+          "git_blob_sha": "db3440827b915babf7589a596fbb8192b4593940",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        },
+        {
+          "repo": "riccardopinato/Wonderlog",
+          "snapshot_path": "tested/source_snapshots/flutter/wonderlog_theme.dart.txt",
+          "source_path": "flutter/lib/app/theme/wonderlog_theme.dart",
+          "git_blob_sha": "2cd7b015f7629a5835aa608e03cc64c318401b56",
+          "evidence_scope": "FIRST_PARTY_SNAPSHOT_LEAD_NOT_PER_PATTERN_VALIDATION"
+        }
+      ],
+      "unverified_donors": [],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-026",
+      "maturity": "REFERENCE",
+      "donors": [
+        "style-dictionary/style-dictionary",
+        "tokens-studio/figma-plugin",
+        "tokens-studio/sd-transforms"
+      ],
+      "donor_snapshots": [],
+      "unverified_donors": [
+        "style-dictionary/style-dictionary",
+        "tokens-studio/figma-plugin",
+        "tokens-studio/sd-transforms"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-027",
+      "maturity": "REFERENCE",
+      "donors": [
+        "widgetbook/widgetbook",
+        "cashapp/paparazzi",
+        "pointfreeco/swift-snapshot-testing"
+      ],
+      "donor_snapshots": [],
+      "unverified_donors": [
+        "widgetbook/widgetbook",
+        "cashapp/paparazzi",
+        "pointfreeco/swift-snapshot-testing"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-028",
+      "maturity": "REFERENCE",
+      "donors": [
+        "gskinner/flutter_animate",
+        "xvrh/lottie-flutter",
+        "LottieFiles/dotlottie-flutter",
+        "rive-app/rive-flutter"
+      ],
+      "donor_snapshots": [],
+      "unverified_donors": [
+        "gskinner/flutter_animate",
+        "xvrh/lottie-flutter",
+        "LottieFiles/dotlottie-flutter",
+        "rive-app/rive-flutter"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-029",
+      "maturity": "REFERENCE",
+      "donors": [
+        "wyzowl/sfx-kit",
+        "Calinou/kenney-ui-audio",
+        "bluefireteam/audioplayers"
+      ],
+      "donor_snapshots": [],
+      "unverified_donors": [
+        "wyzowl/sfx-kit",
+        "Calinou/kenney-ui-audio",
+        "bluefireteam/audioplayers"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-030",
+      "maturity": "REFERENCE",
+      "donors": [
+        "google/material-design-icons",
+        "lucide-icons/lucide",
+        "tabler/tabler-icons",
+        "ionic-team/ionicons",
+        "Remix-Design/RemixIcon"
+      ],
+      "donor_snapshots": [],
+      "unverified_donors": [
+        "google/material-design-icons",
+        "lucide-icons/lucide",
+        "tabler/tabler-icons",
+        "ionic-team/ionicons",
+        "Remix-Design/RemixIcon"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-031",
+      "maturity": "REFERENCE",
+      "donors": [
+        "iampawan/Flutter-UI-Kit",
+        "nathansdev/ContraFlutterKit"
+      ],
+      "donor_snapshots": [],
+      "unverified_donors": [
+        "iampawan/Flutter-UI-Kit",
+        "nathansdev/ContraFlutterKit"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-032",
+      "maturity": "REFERENCE",
+      "donors": [
+        "sdegenaar/liquid_glass_widgets",
+        "berkaycatak/adaptive_platform_ui"
+      ],
+      "donor_snapshots": [],
+      "unverified_donors": [
+        "sdegenaar/liquid_glass_widgets",
+        "berkaycatak/adaptive_platform_ui"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-033",
+      "maturity": "REFERENCE",
+      "donors": [
+        "Codelessly/ResponsiveFramework",
+        "letsar/flutter_staggered_grid_view"
+      ],
+      "donor_snapshots": [],
+      "unverified_donors": [
+        "Codelessly/ResponsiveFramework",
+        "letsar/flutter_staggered_grid_view"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-034",
+      "maturity": "REFERENCE",
+      "donors": [
+        "canopas/animated_reorderable_list",
+        "ricardodalarme/flutter_card_swiper"
+      ],
+      "donor_snapshots": [],
+      "unverified_donors": [
+        "canopas/animated_reorderable_list",
+        "ricardodalarme/flutter_card_swiper"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-035",
+      "maturity": "REFERENCE",
+      "donors": [
+        "meticha/material-3-expressive-catalog",
+        "SimformSolutionsPvtLtd/SSComposeCookBook"
+      ],
+      "donor_snapshots": [],
+      "unverified_donors": [
+        "meticha/material-3-expressive-catalog",
+        "SimformSolutionsPvtLtd/SSComposeCookBook"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-036",
+      "maturity": "REFERENCE",
+      "donors": [
+        "amosgyamfi/open-swiftui-animations",
+        "swiftui-lab/swiftui-hero-animations",
+        "GetStream/accessible-inclusive-ios-animations"
+      ],
+      "donor_snapshots": [],
+      "unverified_donors": [
+        "amosgyamfi/open-swiftui-animations",
+        "swiftui-lab/swiftui-hero-animations",
+        "GetStream/accessible-inclusive-ios-animations"
+      ],
+      "direct_pattern_implementation_verified": false
+    },
+    {
+      "id": "DS-037",
+      "maturity": "REFERENCE",
+      "donors": [
+        "shadcn-ui/ui",
+        "radix-ui/primitives",
+        "motiondivision/motion",
+        "magicuidesign/magicui"
+      ],
+      "donor_snapshots": [],
+      "unverified_donors": [
+        "shadcn-ui/ui",
+        "radix-ui/primitives",
+        "motiondivision/motion",
+        "magicuidesign/magicui"
+      ],
+      "direct_pattern_implementation_verified": false
+    }
+  ]
+}

@@ -2,8 +2,10 @@ import 'package:factory_visual_qa/factory_visual_qa.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'support/visual_matrix.dart';
+import 'support/real_fonts.dart';
 
 void main() {
+  setUpAll(loadLinuxVisualQaFonts);
   final snapshots = [
     (
       id: 'phone-light-content',

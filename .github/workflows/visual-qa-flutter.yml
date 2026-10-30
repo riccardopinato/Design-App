@@ -2,10 +2,6 @@ name: Flutter Visual QA
 
 on:
   pull_request:
-    paths:
-      - "packs/visual-qa/**"
-      - ".github/workflows/visual-qa-flutter.yml"
-      - "packs/ROADMAP_COPY_READY.md"
   push:
     branches: ["main"]
     paths:
@@ -40,6 +36,8 @@ jobs:
           flutter analyze lib test
       - name: Layout, text, insets, states and overlays matrix
         run: flutter test test/visual_matrix_test.dart --reporter expanded
+      - name: Verify real test font is available
+        run: test -f /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
       - name: Pixel regression against COMMITTED baselines
         run: flutter test test/visual_golden_test.dart --reporter expanded
       - name: Full Flutter test suite
@@ -48,7 +46,8 @@ jobs:
         working-directory: packs/visual-qa/flutter/example
         run: |
           flutter pub get
-          flutter analyze lib
+          flutter analyze lib test
+          flutter test --reporter expanded
       - name: Archive pixel mismatch/diff evidence
         if: failure()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from pathlib import Path
+import json
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -130,6 +131,81 @@ required = [
 for path in required:
     if not path.is_file():
         fail(f"required file missing: {path.relative_to(ROOT)}")
+
+
+# Audit hardening: fail closed on stale Factory baselines, identity collisions
+# and provenance locators that silently lose their source file or blob hash.
+if not re.search(r"commit: e9507056601c4a6751510da4c5d1f61601a5dc25", registry):
+    fail("design registry Factory baseline does not match pinned v27")
+if not re.search(r'master: "27"', registry):
+    fail("design registry Master must be v27")
+
+harvest = (ROOT / "sources" / "PROJECT_PATTERN_HARVEST.md").read_text(encoding="utf-8")
+for conflicting in ("### DS-009 — Consumer-first", "### DS-010 — Ethical premium"):
+    if conflicting in harvest:
+        fail(f"harvest stable ID conflicts with canonical registry: {conflicting}")
+
+ledger = json.loads((ROOT / "registry" / "PATTERN_PROVENANCE.json").read_text(encoding="utf-8"))
+if ledger.get("schema_version") != 1:
+    fail("unsupported pattern provenance schema")
+items = ledger.get("patterns", [])
+if [x.get("id") for x in items] != pattern_ids:
+    fail("pattern provenance IDs/order do not match canonical DS registry")
+
+for item in items:
+    pid = item["id"]
+    if item["maturity"] == "SOURCE_VERIFIED" and not item["donor_snapshots"]:
+        fail(f"{pid} claims SOURCE_VERIFIED without any immutable snapshot lead")
+    if not item["donor_snapshots"] and not item["unverified_donors"]:
+        fail(f"{pid} lacks all donor information")
+    for source in item["donor_snapshots"]:
+        path = ROOT / source["snapshot_path"]
+        if not path.is_file() or not path.resolve().is_relative_to((ROOT / "tested" / "source_snapshots").resolve()):
+            fail(f"{pid} has invalid snapshot path {path}")
+        payload = path.read_text(encoding="utf-8")
+        expected_fields = {
+            "source_path": source["source_path"],
+            "source_blob": source["git_blob_sha"],
+            "source_repo": source["repo"],
+        }
+        if len(source["git_blob_sha"]) != 40 or not re.fullmatch(r"[0-9a-f]{40}", source["git_blob_sha"]):
+            fail(f"{pid}: invalid immutable source blob")
+        for field, value in expected_fields.items():
+            if f"{field}: {value}\n" not in payload:
+                fail(f"{pid} source provenance not supported by {source['snapshot_path']}")
+
+# Every check intended for branch rulesets must exist on every PR;
+# path-filtered pack workflows cannot safely be mandatory branch checks.
+workflows = [
+    ".github/workflows/validate.yml",
+    ".github/workflows/motion-pack-flutter.yml",
+    ".github/workflows/semantic-sound-pack.yml",
+    ".github/workflows/icon-adapter-pack.yml",
+    ".github/workflows/visual-qa-flutter.yml",
+]
+for rel in workflows:
+    body = (ROOT / rel).read_text(encoding="utf-8")
+    if "  pull_request:" not in body:
+        fail(f"mandatory workflow does not run on every PR: {rel}")
+    if re.search(r"  pull_request:\n    paths:", body):
+        fail(f"path-filtered required workflow: {rel}")
+    for use in re.findall(r"^\s*- uses:\s*([^\s#]+)", body, re.MULTILINE):
+        if "@" not in use or not re.fullmatch(r"[0-9a-f]{40}", use.rsplit("@", 1)[-1]):
+            fail(f"un-pinned action in {rel}: {use}")
+
+for rel in (
+    "docs/GITHUB_BRANCH_PROTECTION.md",
+    "docs/LICENSE_POLICY.md",
+    "docs/AUDIT_REMEDIATION_v1.md",
+    "registry/PATTERN_PROVENANCE.json",
+):
+    if not (ROOT / rel).is_file():
+        fail(f"audit hardening document missing: {rel}")
+
+# Provenance files must not contain contradictory duplicate evidence scalars.
+visual_provenance = (ROOT / "packs/visual-qa/PROVENANCE.md").read_text(encoding="utf-8")
+if visual_provenance.count("evidence:") != 1:
+    fail("visual QA provenance has duplicate or missing evidence metadata")
 
 print(
     f"Design-App validation PASS: {len(pattern_ids)} patterns, "

@@ -128,6 +128,24 @@ void main() {
     expect(selected, isTrue);
   });
 
+  testWidgets('selection tile has minimum 48dp width with a tiny child',
+      (tester) async {
+    await tester.pumpWidget(_host(
+      const Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          MotionSelectionTile(
+            selected: false,
+            child: SizedBox(width: 0, height: 0),
+          ),
+        ],
+      ),
+    ));
+    final hitSize = tester.getSize(find.byType(MotionSelectionTile));
+    expect(hitSize.width, greaterThanOrEqualTo(48));
+    expect(hitSize.height, greaterThanOrEqualTo(48));
+  });
+
   testWidgets('skeleton respects dimensions and optional semantics',
       (tester) async {
     final handle = tester.ensureSemantics();

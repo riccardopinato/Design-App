@@ -37,7 +37,9 @@ class _MotionShowcaseAppState extends State<MotionShowcaseApp> {
       ),
       themeMode: dark ? ThemeMode.dark : ThemeMode.light,
       builder: (context, child) => MediaQuery(
-        data: MediaQuery.of(context).copyWith(disableAnimations: reduced),
+        data: MediaQuery.of(context).copyWith(
+          disableAnimations: reduced || MediaQuery.of(context).disableAnimations,
+        ),
         child: child!,
       ),
       home: Scaffold(
