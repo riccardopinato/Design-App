@@ -1,0 +1,35 @@
+schema_version: 1
+updated_at: "2026-10-30"
+
+packs:
+  - id: PACK-MOTION-FLUTTER
+    name: Factory Motion Flutter
+    version: 0.1.0
+    status: IMPLEMENTED_PENDING_VALIDATION
+    stack: Flutter
+    package: factory_motion
+    path: packs/motion/flutter
+    entrypoint: packs/motion/flutter/lib/factory_motion.dart
+    test_path: packs/motion/flutter/test/factory_motion_test.dart
+    example_path: packs/motion/flutter/example/lib/main.dart
+    provenance_path: packs/motion/flutter/PROVENANCE.md
+    external_runtime_dependencies: 0
+    library_ci: ".github/workflows/motion-pack-flutter.yml"
+    verified_at: null
+    source_sha: null
+    evidence: []
+    caveats:
+      - "No shipped app/physical-device integration is yet verified."
+      - "COPY_READY requires exact-head CI and documented verification."
+  - id: PACK-SOUND-SEMANTIC
+    name: Semantic Sound Pack
+    status: PLANNED
+    path: packs/sound/semantic
+  - id: PACK-ICONS-ADAPTER
+    name: Icon Adapter Pack
+    status: PLANNED
+    path: packs/icons
+  - id: PACK-VISUAL-QA
+    name: Visual QA Kit
+    status: PLANNED
+    path: packs/visual-qa
