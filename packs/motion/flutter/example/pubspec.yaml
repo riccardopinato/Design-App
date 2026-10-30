@@ -1,0 +1,13 @@
+name: factory_motion_showcase
+description: Interactive showcase of App Factory's lightweight Flutter motion primitives.
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  factory_motion:
+    path: ../
