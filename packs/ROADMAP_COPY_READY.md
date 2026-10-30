@@ -110,11 +110,12 @@ minimum touch target where interactive, icon-level license inventory.
 
 ## Step 4 — Visual QA Kit
 
-Flutter v0.1 is implemented under `packs/visual-qa/flutter/` with a 9 × 5
-responsive/state test matrix, four pinned baseline image comparisons, and
-failure artifacts. Status remains `IMPLEMENTED_PENDING_VALIDATION` until
-baseline images are committed and the exact PR head passes comparison CI.
-The Compose/Paparazzi and SwiftUI snapshot lanes remain PLANNED.
+Flutter v0.1 under `packs/visual-qa/flutter/` passed its 9 × 5 layout/state
+matrix, four **committed PNG** pixel-baseline comparisons and the full
+Flutter/analyzer/example CI. Status: **LIBRARY_VERIFIED**. The relevant
+responsive Golden is still DRAFT and requires a real-app integration and
+visual-matrix acceptance before COPY_READY; no such pilot has yet run.
+Compose/Paparazzi and SwiftUI snapshot lanes remain PLANNED.
 
 
 Proposed paths:
