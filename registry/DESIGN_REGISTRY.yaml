@@ -3,8 +3,8 @@ updated_at: "2026-10-30"
 
 factory_baseline:
   repository: riccardopinato/App-Factory-Core
-  commit: 7b84e33df715cf2a48bda7c7495d0690819bff0f
-  master: "26.6"
+  commit: e9507056601c4a6751510da4c5d1f61601a5dc25
+  master: "27"
   golden_index: 23
 
 maturity:
@@ -196,7 +196,7 @@ patterns:
     name: Guided prerequisite onboarding
     category: onboarding
     sources: [Easy-Debloat]
-    maturity: SOURCE_VERIFIED
+    maturity: REFERENCE
     reuse_mode: ADAPT
     tags: [onboarding, permission, shizuku, setup, diagnostics]
 
