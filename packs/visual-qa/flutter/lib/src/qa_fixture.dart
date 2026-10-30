@@ -33,17 +33,38 @@ class QaFixture extends StatelessWidget {
             Expanded(
               child: LayoutBuilder(
                 builder: (context, constraints) {
+                  final extremeText =
+                      MediaQuery.textScalerOf(context).scale(1.0) >= 1.8;
                   final body = Padding(
                     padding: const EdgeInsets.all(16),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(headline,
-                            style: Theme.of(context).textTheme.headlineSmall),
-                        const SizedBox(height: 16),
-                        Expanded(child: _content(context)),
-                      ],
-                    ),
+                    child: extremeText
+                        // Under 200% font scaling, the editorial headline can
+                        // occupy most of a small screen. Scroll the content
+                        // rather than constraining it to a fixed-height Column.
+                        ? ListView(
+                            children: [
+                              Text(
+                                headline,
+                                style: Theme.of(context).textTheme.headlineSmall,
+                              ),
+                              const SizedBox(height: 16),
+                              SizedBox(
+                                height: 360,
+                                child: _content(context),
+                              ),
+                            ],
+                          )
+                        : Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                headline,
+                                style: Theme.of(context).textTheme.headlineSmall,
+                              ),
+                              const SizedBox(height: 16),
+                              Expanded(child: _content(context)),
+                            ],
+                          ),
                   );
                   if (!large) return body;
                   return Center(
