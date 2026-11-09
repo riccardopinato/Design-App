@@ -130,3 +130,8 @@ See `docs/AUDIT_REMEDIATION_v1.md` for the five-step corrective program,
 `docs/GITHUB_BRANCH_PROTECTION.md` for the outstanding repository-admin gate.
 The first-party design code has no blanket external reuse license; see
 `docs/LICENSE_POLICY.md`.
+
+
+## Template Notion — catalogo di ricerca
+
+[Apri Template Notion](docs/TEMPLATE_NOTION/README.md). Catalogazione di pattern, senza importare template commerciali in un'app.
