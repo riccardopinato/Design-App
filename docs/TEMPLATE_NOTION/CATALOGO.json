@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "application": "Design-App (libreria design, non app consumer)",
+  "repository": "riccardopinato/Design-App",
+  "catalogue_type": "specialized_design_research_library",
+  "updated_at": "2026-11-09",
+  "master_reference": "riccardopinato/Idee-app-Archivi-riferimenti/17-RICERCA-TEMPLATE-UX",
+  "entries": [
+    {
+      "id": "TN-DESIGNAPP-0001",
+      "master_ref": "TPLUX-REF-0010",
+      "title": "Design Brief",
+      "app_fit": "PRIMARY_DESIGN_REFERENCE",
+      "note": "Brief creativo con scopo, audience, linee di brand e milestone; usare come pattern di documentazione/design, non come prova di codice.",
+      "evidence_level": "E2_EXPORT_STRUCTURE_VERIFIED",
+      "product_status": "RESEARCH_ONLY",
+      "implementation_status": "NOT_IMPLEMENTED_FROM_THIS_SOURCE",
+      "reuse_mode": "ORIGINAL_PATTERN_ONLY",
+      "source_audit_url": "https://github.com/riccardopinato/Idee-app-Archivi-riferimenti/blob/main/17-RICERCA-TEMPLATE-UX/LOTTO_NOTION_2026_11_09_12_ZIP.md"
+    },
+    {
+      "id": "TN-DESIGNAPP-0002",
+      "master_ref": "TPLUX-REF-0016",
+      "title": "Social Media Content Calendar",
+      "app_fit": "SECONDARY_DESIGN_REFERENCE",
+      "note": "Calendario creativo dei contenuti; tenere distinta la pianificazione da metriche social e account autentici.",
+      "evidence_level": "E2_EXPORT_STRUCTURE_VERIFIED",
+      "product_status": "RESEARCH_ONLY",
+      "implementation_status": "NOT_IMPLEMENTED_FROM_THIS_SOURCE",
+      "reuse_mode": "ORIGINAL_PATTERN_ONLY",
+      "source_audit_url": "https://github.com/riccardopinato/Idee-app-Archivi-riferimenti/blob/main/17-RICERCA-TEMPLATE-UX/LOTTO_NOTION_2026_11_09_12_ZIP.md"
+    },
+    {
+      "id": "TN-DESIGNAPP-0003",
+      "master_ref": "TPLUX-REF-0017",
+      "title": "Ideas OS",
+      "app_fit": "SECONDARY_DESIGN_REFERENCE",
+      "note": "Riferimento alla raccolta di idee visive, senza duplicare il registro App Factory delle idee.",
+      "evidence_level": "E2_EXPORT_STRUCTURE_VERIFIED",
+      "product_status": "RESEARCH_ONLY",
+      "implementation_status": "NOT_IMPLEMENTED_FROM_THIS_SOURCE",
+      "reuse_mode": "ORIGINAL_PATTERN_ONLY",
+      "source_audit_url": "https://github.com/riccardopinato/Idee-app-Archivi-riferimenti/blob/main/17-RICERCA-TEMPLATE-UX/LOTTO_NOTION_2026_11_09_12_ZIP.md"
+    }
+  ]
+}
