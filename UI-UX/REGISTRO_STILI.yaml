@@ -223,3 +223,268 @@ styles:
         fit: MEDIUM
         status: "PROPOSED_ONLY"
         use: "Stato protezione e quick actions; priorità alla sicurezza."
+  - id: UIX-STYLE-010
+    directory: "RETRO DESKTOP"
+    name: "RETRO DESKTOP"
+    status: "REFERENCE"
+    implementation: "PROPOSED_ONLY"
+    batch: "2026-11-12"
+    suggested_apps:
+      - name: "180FlipCharge"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "Cooking Anime"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "Notes-Ecosistema"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+  - id: UIX-STYLE-011
+    directory: "TOGGLE & SWITCH"
+    name: "TOGGLE & SWITCH"
+    status: "REFERENCE"
+    implementation: "PROPOSED_ONLY"
+    batch: "2026-11-12"
+    suggested_apps:
+      - name: "180FlipCharge"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "Anna's Diary"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "Battery Guard"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "CamperBoss"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "CashMate AI"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "Easy Debloat"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "FocusSense"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "Pocket Guard"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "SleepMax Coach"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "Tabletop Motion Alarm"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "The Luminous Infinite Circle"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "TrailPath"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "Wonderlog"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+  - id: UIX-STYLE-012
+    directory: "EDITORIAL UI"
+    name: "EDITORIAL UI"
+    status: "REFERENCE"
+    implementation: "PROPOSED_ONLY"
+    batch: "2026-11-12"
+    suggested_apps:
+      - name: "CamperBoss"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "FocusSense"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "FrameLab"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "TrailPath"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "Wonderlog"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "World Days"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+  - id: UIX-STYLE-013
+    directory: "DESIGN SYSTEM"
+    name: "DESIGN SYSTEM"
+    status: "REFERENCE"
+    implementation: "PROPOSED_ONLY"
+    batch: "2026-11-12"
+    suggested_apps:
+      - name: "180FlipCharge"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "Anna's Diary"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "App Factory Dashboard"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "Battery Guard"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "CashMate AI"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "Cooking Anime"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "Easy Debloat"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "FocusSense"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "FrameLab"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "Notes-Ecosistema"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "SleepMax Coach"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "The Luminous Infinite Circle"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "Wonderlog"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "World Days"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+  - id: UIX-STYLE-014
+    directory: "ILLUSTRATED CONTROLS"
+    name: "ILLUSTRATED CONTROLS"
+    status: "REFERENCE"
+    implementation: "PROPOSED_ONLY"
+    batch: "2026-11-12"
+    suggested_apps:
+      - name: "180FlipCharge"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "Anna's Diary"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "CamperBoss"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "SleepMax Coach"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "Wonderlog"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+  - id: UIX-STYLE-015
+    directory: "NAVIGATION UI"
+    name: "NAVIGATION UI"
+    status: "REFERENCE"
+    implementation: "PROPOSED_ONLY"
+    batch: "2026-11-12"
+    suggested_apps:
+      - name: "Anna's Diary"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "App Factory Dashboard"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "Notes-Ecosistema"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "Wonderlog"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+  - id: UIX-STYLE-016
+    directory: "SKEUOMORPHISM"
+    name: "SKEUOMORPHISM"
+    status: "REFERENCE"
+    implementation: "PROPOSED_ONLY"
+    batch: "2026-11-12"
+    suggested_apps:
+      - name: "Anna's Diary"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "CamperBoss"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "CashMate AI"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "Cooking Anime"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "Deskland Android"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "FocusSense"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "The Luminous Infinite Circle"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "TrailPath"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
+      - name: "Wonderlog"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Reference visiva; verificare il componente specifico e Product Bible."
