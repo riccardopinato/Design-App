@@ -1,0 +1,120 @@
+schema_version: 1
+updated_at: "2026-11-12"
+source_of_truth: "Design-App/MOCKUP ESTETICI"
+relation_to_design_registry: "reference taxonomy; does not replace DS-* / STYLE-*"
+workflow_status: STRUCTURE_READY_NO_IMAGES
+styles:
+  - id: MOCK-STYLE-001
+    directory: "AESTHETIC"
+    name: "Aesthetic"
+    aliases: ["AESTETHIC"]
+    maturity: REFERENCE
+    implementation_status: PROPOSED_ONLY
+    app_suggestions:
+      - name: "Anna's Diary"
+        fit: HIGH
+        status: PROPOSAL
+      - name: "Notes-Ecosistema"
+        fit: HIGH
+        status: PROPOSAL
+      - name: "Wonderlog"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "World Days"
+        fit: MEDIUM
+        status: PROPOSAL
+  - id: MOCK-STYLE-002
+    directory: "NEON"
+    name: "Neon"
+    aliases: ["Neon"]
+    maturity: REFERENCE
+    implementation_status: PROPOSED_ONLY
+    app_suggestions:
+      - name: "FocusSense"
+        fit: HIGH
+        status: PROPOSAL
+      - name: "The Luminous Infinite Circle"
+        fit: HIGH
+        status: PROPOSAL
+      - name: "180FlipCharge"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "CashMate AI"
+        fit: MEDIUM
+        status: PROPOSAL
+  - id: MOCK-STYLE-003
+    directory: "VINTAGE"
+    name: "Vintage"
+    aliases: ["Vintage"]
+    maturity: REFERENCE
+    implementation_status: PROPOSED_ONLY
+    app_suggestions:
+      - name: "Anna's Diary"
+        fit: HIGH
+        status: PROPOSAL
+      - name: "FrameLab"
+        fit: HIGH
+        status: PROPOSAL
+      - name: "Notes-Ecosistema"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "World Days"
+        fit: MEDIUM
+        status: PROPOSAL
+  - id: MOCK-STYLE-004
+    directory: "PIXEL ART"
+    name: "Pixel Art"
+    aliases: ["Pixel Art"]
+    maturity: REFERENCE
+    implementation_status: PROPOSED_ONLY
+    app_suggestions:
+      - name: "180FlipCharge"
+        fit: HIGH
+        status: PROPOSAL
+      - name: "Deskland Android"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "World Days"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "Cooking Anime"
+        fit: MEDIUM
+        status: PROPOSAL
+  - id: MOCK-STYLE-005
+    directory: "POLAROID"
+    name: "Polaroid"
+    aliases: ["Polaroid"]
+    maturity: REFERENCE
+    implementation_status: PROPOSED_ONLY
+    app_suggestions:
+      - name: "Anna's Diary"
+        fit: HIGH
+        status: PROPOSAL
+      - name: "Wonderlog"
+        fit: HIGH
+        status: PROPOSAL
+      - name: "FrameLab"
+        fit: HIGH
+        status: PROPOSAL
+      - name: "Notes-Ecosistema"
+        fit: MEDIUM
+        status: PROPOSAL
+  - id: MOCK-STYLE-006
+    directory: "ANIME"
+    name: "Anime"
+    aliases: ["Anime"]
+    maturity: REFERENCE
+    implementation_status: PROPOSED_ONLY
+    app_suggestions:
+      - name: "Cooking Anime"
+        fit: HIGH
+        status: PROPOSAL
+      - name: "Anna's Diary"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "Wonderlog"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "Deskland Android"
+        fit: LOW
+        status: PROPOSAL

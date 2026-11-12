@@ -1,0 +1,5 @@
+schema_version: 1
+updated_at: "2026-11-12"
+next_id: "MOCK-0001"
+asset_policy: "Do not vendor third-party copyrighted images into public repository without verified permission/license"
+images: []

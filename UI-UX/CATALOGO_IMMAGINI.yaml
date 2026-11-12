@@ -1,0 +1,6 @@
+schema_version: 1
+updated_at: "2026-11-12"
+next_id: "UIX-0001"
+third_party_assets_require_verified_redistribution_rights: true
+no_duplicate_binary_across_style_catalogs: true
+images: []

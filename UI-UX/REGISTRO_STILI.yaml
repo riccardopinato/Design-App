@@ -1,0 +1,225 @@
+schema_version: 1
+updated_at: "2026-11-12"
+catalog: "UI-UX"
+factory_baseline:
+  repository: "riccardopinato/App-Factory-Core"
+  commit: "c5adc147046beb7024629466d10eeb799c3c2619"
+  master_version: "27"
+  golden_index: 29
+mode: "reference_only_until_app_review"
+styles:
+  - id: UIX-STYLE-001
+    directory: "NEUMORPHISM"
+    name: "Neumorphism"
+    status: "REFERENCE"
+    implementation: "PROPOSED_ONLY"
+    patterns: ["DS-007", "DS-015"]
+    suggested_apps:
+      - name: "FocusSense"
+        fit: HIGH
+        status: "PROPOSED_ONLY"
+        use: "Pannelli sensori, Focus Score e pulsanti delle sessioni; testare contrasto dei valori."
+      - name: "Battery Guard"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Stati di ricarica e controlli secondari; nessuna ambiguità su avvisi critici."
+      - name: "SleepMax Coach"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Timer, routine e selettori; non abusare delle ombre."
+      - name: "180FlipCharge"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Comandi rapidi e impostazioni di rotazione."
+  - id: UIX-STYLE-002
+    directory: "SOFT 3D"
+    name: "Soft 3D / Claymorphism"
+    status: "REFERENCE"
+    implementation: "PROPOSED_ONLY"
+    patterns: ["DS-001", "DS-007"]
+    suggested_apps:
+      - name: "World Days"
+        fit: HIGH
+        status: "PROPOSED_ONLY"
+        use: "Card celebrative, grafica di condivisione ed elementi 3D leggeri."
+      - name: "Anna's Diary"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Micro-componenti e empty state opzionali; mantenere il linguaggio iOS editoriale approvato."
+      - name: "BeerClass AI"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Indicatori divertenti per gusto o valutazione, evitando controlli poco precisi."
+      - name: "Cooking Anime"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Schede ricette e icone giocose originali."
+  - id: UIX-STYLE-003
+    directory: "GLASSMORPHISM"
+    name: "Glassmorphism"
+    status: "REFERENCE"
+    implementation: "PROPOSED_ONLY"
+    patterns: ["DS-032", "DS-005"]
+    suggested_apps:
+      - name: "Wonderlog"
+        fit: HIGH
+        status: "PROPOSED_ONLY"
+        use: "Schede riassuntive sopra foto di viaggio e gallery."
+      - name: "Anna's Diary"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Barre e overlay circoscritti, senza trasformare tutto il diario in vetro."
+      - name: "FrameLab"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Controlli fotografici sovrapposti, rispettando la prevalenza delle immagini."
+      - name: "Deskland Android"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Overlay launcher con limiti severi a FPS e consumi."
+  - id: UIX-STYLE-004
+    directory: "NEO-APPLE"
+    name: "Neo-Apple / Liquid Glass"
+    status: "REFERENCE"
+    implementation: "PROPOSED_ONLY"
+    patterns: ["DS-032", "DS-025", "DS-005"]
+    suggested_apps:
+      - name: "Anna's Diary"
+        fit: HIGH
+        status: "PROPOSED_ONLY"
+        use: "Navigazione e dialoghi del redesign iOS moderno, nel perimetro delle scelte già approvate."
+      - name: "Wonderlog"
+        fit: HIGH
+        status: "PROPOSED_ONLY"
+        use: "Schede viaggio e transizioni leggere iPhone-like."
+      - name: "Notes-Ecosistema"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Barre contestuali e strumenti del canvas, senza disturbare la lettura."
+      - name: "World Days"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Cards editoriali di dettaglio e transizioni se accessibili."
+  - id: UIX-STYLE-005
+    directory: "NATURE-TECH"
+    name: "Nature-Tech / Organic UI"
+    status: "REFERENCE"
+    implementation: "PROPOSED_ONLY"
+    patterns: ["DS-008", "DS-012", "DS-032"]
+    suggested_apps:
+      - name: "CamperBoss"
+        fit: HIGH
+        status: "PROPOSED_ONLY"
+        use: "Schede destinazioni, attività outdoor e guida."
+      - name: "TrailPath"
+        fit: HIGH
+        status: "PROPOSED_ONLY"
+        use: "Itinerari ed escursioni nelle schermate introduttive; mappa sempre prioritaria."
+      - name: "Wonderlog"
+        fit: HIGH
+        status: "PROPOSED_ONLY"
+        use: "Destinazioni, album e storytelling di viaggio."
+      - name: "FrameLab"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Portfoli e pagine di presentazione, non editing fotografico intensivo."
+  - id: UIX-STYLE-006
+    directory: "BENTO UI"
+    name: "Bento UI / Modular Dashboard"
+    status: "REFERENCE"
+    implementation: "PROPOSED_ONLY"
+    patterns: ["DS-025", "DS-033", "DS-007"]
+    suggested_apps:
+      - name: "Notes-Ecosistema"
+        fit: HIGH
+        status: "PROPOSED_ONLY"
+        use: "Dashboard workspace, progetti, ricerca e strumenti."
+      - name: "FocusSense"
+        fit: HIGH
+        status: "PROPOSED_ONLY"
+        use: "Punteggi, trend, suggerimenti e sessioni."
+      - name: "Anna's Diary"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Solo Il tuo spazio/Altro e moduli preferiti; non appesantire Oggi."
+      - name: "World Days"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Esplora contenuti e filtri visuali."
+      - name: "App Factory Dashboard"
+        fit: HIGH
+        status: "PROPOSED_ONLY"
+        use: "Pannelli progetti, blocker, donor e roadmap."
+  - id: UIX-STYLE-007
+    directory: "PASTEL UI"
+    name: "Pastel / Soft Gradients"
+    status: "REFERENCE"
+    implementation: "PROPOSED_ONLY"
+    patterns: ["DS-008", "DS-010"]
+    suggested_apps:
+      - name: "Anna's Diary"
+        fit: HIGH
+        status: "PROPOSED_ONLY"
+        use: "Palette personalizzabili e Ricordi, restando coerenti con rose/Manrope/Lora."
+      - name: "Wonderlog"
+        fit: HIGH
+        status: "PROPOSED_ONLY"
+        use: "Schede viaggio, ricordi ed esperienze."
+      - name: "World Days"
+        fit: HIGH
+        status: "PROPOSED_ONLY"
+        use: "Artwork per categoria e pagine giornaliere."
+      - name: "BeerClass AI"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Onboarding e piccole illustrazioni della scheda degustazione."
+  - id: UIX-STYLE-008
+    directory: "SPATIAL 3D"
+    name: "Spatial 3D / Floating UI"
+    status: "REFERENCE"
+    implementation: "PROPOSED_ONLY"
+    patterns: ["DS-005", "DS-028"]
+    suggested_apps:
+      - name: "Deskland Android"
+        fit: HIGH
+        status: "PROPOSED_ONLY"
+        use: "Motore live e scene interattive, ma soltanto dopo performance/launcher QA."
+      - name: "FrameLab"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Presentazione premium dei lavori, non nell'editor principale."
+      - name: "Cooking Anime"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Hero di ricetta con composizioni illustrate originali."
+      - name: "World Days"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Anteprime interattive e landing, se sostenibili in dimensione APK."
+  - id: UIX-STYLE-009
+    directory: "MINIMAL CONTROLS"
+    name: "Minimal Controls / Control Center"
+    status: "REFERENCE"
+    implementation: "PROPOSED_ONLY"
+    patterns: ["DS-015", "DS-016", "DS-025"]
+    suggested_apps:
+      - name: "Battery Guard"
+        fit: HIGH
+        status: "PROPOSED_ONLY"
+        use: "Pannelli batteria e diagnostica."
+      - name: "180FlipCharge"
+        fit: HIGH
+        status: "PROPOSED_ONLY"
+        use: "Rotazione, tile e controlli di sistema."
+      - name: "FocusSense"
+        fit: HIGH
+        status: "PROPOSED_ONLY"
+        use: "Controlli sessioni e sensori."
+      - name: "SleepMax Coach"
+        fit: HIGH
+        status: "PROPOSED_ONLY"
+        use: "Timer, routine e toggle notifiche."
+      - name: "Pocket Guard"
+        fit: MEDIUM
+        status: "PROPOSED_ONLY"
+        use: "Stato protezione e quick actions; priorità alla sicurezza."
