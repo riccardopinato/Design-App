@@ -10,3 +10,15 @@
 | Notes-Ecosistema | Media | Vision board e canvas di immagini, senza trasformare tutte le note in fotografie. | PROPOSTA |
 
 Il fit è qualitativo e può cambiare dopo aver esaminato le immagini specifiche. Non modifica codice, Product Bible, design system o roadmap di queste app.
+
+## Associazioni del batch 12/11/2026
+
+Queste sono proposte estetiche, non design approvati o implementati. I JPG originali restano nella galleria HTML privata.
+
+| App | ID riferimenti |
+|---|---|
+| FrameLab | UIR-0033 |
+| Wonderlog | UIR-0033 |
+| World Days | UIR-0033 |
+
+[Catalogo estetico](../../RIFERIMENTI_UTENTE_2026-11-12.md) · [Matrice inversa app](../../../UI-UX/MATRICE_APP_RIFERIMENTI_2026-11-12.md).
