@@ -135,3 +135,7 @@ The first-party design code has no blanket external reuse license; see
 ## Template Notion — catalogo di ricerca
 
 [Apri Template Notion](docs/TEMPLATE_NOTION/README.md). Catalogazione di pattern, senza importare template commerciali in un'app.
+
+## Archivio mock-up estetici
+
+È disponibile [MOCKUP ESTETICI](./MOCKUP%20ESTETICI/README.md): cartelle per AESTHETIC, NEON, VINTAGE, PIXEL ART, POLAROID e ANIME; per ogni stile, immagini, app suggerite e classificazioni incrociate. Include [matrice app ⇄ stili](./MOCKUP%20ESTETICI/MATRICE_APP_STILI.md) e catalogo per il futuro caricamento degli asset. Le reference non modificano automaticamente Product Bible e roadmap.

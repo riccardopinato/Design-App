@@ -1,0 +1,29 @@
+# MOCKUP ESTETICI — Design-App
+
+Archivio visivo per le reference estetiche selezionate dall'utente. **La classificazione non equivale all'approvazione o all'implementazione in un'app.** La sezione integra — non sostituisce — i pattern `DS-*` e le famiglie di stile `STYLE-*` già presenti in `registry/DESIGN_REGISTRY.yaml`.
+
+## Categorie iniziali
+
+| Categoria | ID | Orientamento | App candidate |
+|---|---|---|---:|
+| [AESTHETIC](./AESTHETIC/README.md) | MOCK-STYLE-001 | Atmosfere morbide, palette armoniche, composizioni editoriali e spaziature ariose | 4 |
+| [NEON](./NEON/README.md) | MOCK-STYLE-002 | Superfici scure con accenti luminosi, bagliori contenuti e gerarchia ad alto contrasto | 4 |
+| [VINTAGE](./VINTAGE/README.md) | MOCK-STYLE-003 | Carta, grana fotografica, tipografia d'epoca e dettagli analogici | 4 |
+| [PIXEL ART](./PIXEL%20ART/README.md) | MOCK-STYLE-004 | Grafica a pixel leggibili, silhouette nette, animazioni a frame e icone modulari | 4 |
+| [POLAROID](./POLAROID/README.md) | MOCK-STYLE-005 | Foto con cornici analogiche, didascalie, data/luogo e composizioni collage | 4 |
+| [ANIME](./ANIME/README.md) | MOCK-STYLE-006 | Illustrazione e storytelling ispirati al linguaggio anime: espressività, composizioni, palette e dettaglio illustrato | 4 |
+
+Per le associazioni aggregate consultare [MATRICE_APP_STILI.md](./MATRICE_APP_STILI.md); per i dati strutturati [REGISTRO_STILI.yaml](./REGISTRO_STILI.yaml) e [CATALOGO_IMMAGINI.yaml](./CATALOGO_IMMAGINI.yaml).
+
+## Regole di ingestione delle prossime immagini
+
+1. Quando arriva un'immagine, valutarne estetica, palette, tipografia, layout, interazioni e tipo di app.
+2. Assegnare **uno stile primario e zero o più stili secondari**; se non basta, creare una nuova categoria, senza forzature.
+3. Salvare il file una sola volta in `<STILE_PRIMARIO>/IMMAGINI/` con identificativo stabile (`MOCK-0001` ecc.). Nelle altre categorie inserire un riferimento relativo nel file `RIFERIMENTI_INCROCIATI.md` per evitare duplicazioni di binari.
+4. Registrare origine, URL, autore se conosciuto, data di acquisizione, titolarità/licenza o stato non verificato, ID, percorso, tag e app suggerite in `CATALOGO_IMMAGINI.yaml`.
+5. **Diritti:** repository pubblico. Caricare asset terzi solo con base di utilizzo/redistribuzione verificata o esplicita autorizzazione; in caso contrario conservare esclusivamente link, metadati o note descrittive. La presenza su Pinterest NON costituisce licenza.
+6. Per ogni app proposta indicare area di applicazione, compatibilità, limiti e stato `PROPOSTA`. Validare sempre Product Bible, roadmap, accessibilità, performance e brand prima dell'implementazione.
+7. Gli stili non sono mutuamente esclusivi; anche un'app può comparire in più categorie. Le immagini non sono un Golden o un donor di codice.
+8. Quando pertinente, distinguere uso di una reference estetica dalla riutilizzabilità di un asset (COPY/ADAPT/REFERENCE_ONLY).
+
+**Stato iniziale (12/11/2026):** struttura e proposte create, **zero immagini importate**. Fonte Pinterest segnalata per successive consegne: https://it.pinterest.com/rikyjaypinaz/stili-grafici-per-app/ (non ancora acquisita).
