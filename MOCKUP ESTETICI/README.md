@@ -35,3 +35,7 @@ Per componenti, layout, gerarchie, effetti, controlli e interazioni consulta [UI
 ## Nuovo lotto estetico — 12/11/2026
 
 Consulta la [matrice estetica di 33 riferimenti unici](./RIFERIMENTI_UTENTE_2026-11-12.md); nuove famiglie Y2K RETRO, ORGANIC, CINEMATIC, ILLUSTRATED. Le immagini sono conservate solo nell'allegato-galleria privata della conversazione fino a prova di licenza/permesso.
+
+## Nuove reference estetiche — 13/11/2026
+
+[Indice estetico dei 66 riferimenti](./RIFERIMENTI_UTENTE_2026-11-13.md) con catalogo canonico, file e hash in [UI/UX](../UI-UX/REGISTRO_RIFERIMENTI_UTENTE_2026-11-13.json). Focus: palette editoriali, paper cut, ambient landscape e illustrazione giapponese/cinese. Diritti immagini non verificati: riferimenti solo testuali, nessun originale pubblicato; compatibilità per app in stato PROPOSTA.
