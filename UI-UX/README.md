@@ -40,3 +40,7 @@ Indici: [matrice app ⇄ stili](./MATRICE_APP_STILI.md), [registro stili](./REGI
 7. Una proposta non significa `APPROVED`, `IMPLEMENTED`, `SOURCE_VERIFIED` o `COPY_READY`. Nessuna app viene modificata dalla catalogazione.
 
 **Prima fonte:** screenshot UI/UX del 12/11/2026 (bacheca con 25 Pin, soltanto 11 esempi visibili/parziali classificati). **Zero immagini copiate nel repo**.
+
+## Nuovi riferimenti forniti dall'utente — 12/11/2026
+
+Sono classificati [35 file, 33 immagini distinte](./RIFERIMENTI_UTENTE_2026-11-12.md) in entrambe le tassonomie, con [registro JSON](./REGISTRO_RIFERIMENTI_UTENTE_2026-11-12.json), [matrice inversa per app](./MATRICE_APP_RIFERIMENTI_2026-11-12.md) e indici per categoria. Aggiunte famiglie RETRO DESKTOP, TOGGLE & SWITCH, EDITORIAL UI, DESIGN SYSTEM, ILLUSTRATED CONTROLS, NAVIGATION UI, SKEUOMORPHISM. Originali JPG non importati nel repository pubblico senza verificare i diritti di redistribuzione.

@@ -143,3 +143,7 @@ The first-party design code has no blanket external reuse license; see
 ## Archivio UI/UX
 
 Nuova sezione [UI/UX](./UI-UX/README.md) per catalogare tecniche visive, pattern e componenti: Neumorphism, Soft 3D, Glassmorphism, Neo-Apple, Nature-Tech, Bento UI, Pastel UI, Spatial 3D e Minimal Controls. Comprende [matrice molti-a-molti app ⇄ stili](./UI-UX/MATRICE_APP_STILI.md) e [classificazione degli esempi visibili nello screenshot](./UI-UX/RIFERIMENTI_DALLO_SCREENSHOT.md). Nessun asset di terzi è stato copiato.
+
+## Riferimenti visuali forniti dall'utente — novembre 2026
+
+[Catalogo UI/UX completo](./UI-UX/RIFERIMENTI_UTENTE_2026-11-12.md) · [Matrice per app](./UI-UX/MATRICE_APP_RIFERIMENTI_2026-11-12.md) · [Catalogo estetico](./MOCKUP%20ESTETICI/RIFERIMENTI_UTENTE_2026-11-12.md). 35 upload, 33 unici. Originali non pubblicati senza licenze/diritti verificati; nessuna app modificata.
