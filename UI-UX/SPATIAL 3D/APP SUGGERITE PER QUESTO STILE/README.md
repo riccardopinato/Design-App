@@ -10,3 +10,13 @@ Valutazione iniziale, **non feature approvata e non sviluppo eseguito**. Lo stil
 | World Days | MEDIUM | Anteprime interattive e landing, se sostenibili in dimensione APK. | PROPOSTA |
 
 I giudizi si aggiornano dopo l'arrivo di mock-up concreti e le verifiche della Product Bible. App e stili hanno rapporto molti-a-molti: vedere [matrice complessiva](../../MATRICE_APP_STILI.md).
+
+## Riferimenti classificati — batch 12/11/2026
+
+Proposte da approvare per ogni singola app: non sono design implementati. I file JPG originali sono allegati alla galleria HTML privata e non copiati nel repository GitHub pubblico.
+
+| App | ID riferimenti |
+|---|---|
+
+
+[Catalogo approfondito](../../RIFERIMENTI_UTENTE_2026-11-12.md).

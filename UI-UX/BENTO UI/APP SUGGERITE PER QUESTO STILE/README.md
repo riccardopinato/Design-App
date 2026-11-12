@@ -11,3 +11,24 @@ Valutazione iniziale, **non feature approvata e non sviluppo eseguito**. Lo stil
 | App Factory Dashboard | HIGH | Pannelli progetti, blocker, donor e roadmap. | PROPOSTA |
 
 I giudizi si aggiornano dopo l'arrivo di mock-up concreti e le verifiche della Product Bible. App e stili hanno rapporto molti-a-molti: vedere [matrice complessiva](../../MATRICE_APP_STILI.md).
+
+## Riferimenti classificati — batch 12/11/2026
+
+Proposte da approvare per ogni singola app: non sono design implementati. I file JPG originali sono allegati alla galleria HTML privata e non copiati nel repository GitHub pubblico.
+
+| App | ID riferimenti |
+|---|---|
+| 180FlipCharge | UIR-0001 |
+| Anna's Diary | UIR-0003, UIR-0014, UIR-0019, UIR-0029 |
+| App Factory Dashboard | UIR-0019 |
+| Battery Guard | UIR-0005, UIR-0008, UIR-0027, UIR-0029 |
+| CamperBoss | UIR-0006 |
+| Cooking Anime | UIR-0001 |
+| FocusSense | UIR-0006, UIR-0008 |
+| Notes-Ecosistema | UIR-0001, UIR-0003, UIR-0014, UIR-0019 |
+| Pocket Guard | UIR-0005, UIR-0008, UIR-0027 |
+| SleepMax Coach | UIR-0005, UIR-0027, UIR-0029 |
+| TrailPath | UIR-0006 |
+| Wonderlog | UIR-0003, UIR-0014 |
+
+[Catalogo approfondito](../../RIFERIMENTI_UTENTE_2026-11-12.md).

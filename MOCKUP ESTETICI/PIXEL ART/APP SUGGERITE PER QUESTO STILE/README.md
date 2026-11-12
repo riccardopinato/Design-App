@@ -10,3 +10,15 @@
 | Cooking Anime | Media | Eventuale variante grafica 8/16-bit per elementi illustrati, non sostituzione automatica dell'anime. | PROPOSTA |
 
 Il fit è qualitativo e può cambiare dopo aver esaminato le immagini specifiche. Non modifica codice, Product Bible, design system o roadmap di queste app.
+
+## Associazioni del batch 12/11/2026
+
+Queste sono proposte estetiche, non design approvati o implementati. I JPG originali restano nella galleria HTML privata.
+
+| App | ID riferimenti |
+|---|---|
+| 180FlipCharge | UIR-0001, UIR-0012 |
+| Cooking Anime | UIR-0001, UIR-0012 |
+| Notes-Ecosistema | UIR-0001, UIR-0012 |
+
+[Catalogo estetico](../../RIFERIMENTI_UTENTE_2026-11-12.md) · [Matrice inversa app](../../../UI-UX/MATRICE_APP_RIFERIMENTI_2026-11-12.md).

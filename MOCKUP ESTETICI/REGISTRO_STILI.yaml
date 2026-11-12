@@ -118,3 +118,109 @@ styles:
       - name: "Deskland Android"
         fit: LOW
         status: PROPOSAL
+  - id: MOCK-STYLE-007
+    directory: "Y2K RETRO"
+    name: "Y2K RETRO"
+    maturity: REFERENCE
+    implementation_status: PROPOSED_ONLY
+    batch: "2026-11-12"
+    app_suggestions:
+      - name: "180FlipCharge"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "Cooking Anime"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "Notes-Ecosistema"
+        fit: MEDIUM
+        status: PROPOSAL
+  - id: MOCK-STYLE-008
+    directory: "ORGANIC"
+    name: "ORGANIC"
+    maturity: REFERENCE
+    implementation_status: PROPOSED_ONLY
+    batch: "2026-11-12"
+    app_suggestions:
+      - name: "Anna's Diary"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "Battery Guard"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "CamperBoss"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "FocusSense"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "Notes-Ecosistema"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "TrailPath"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "Wonderlog"
+        fit: MEDIUM
+        status: PROPOSAL
+  - id: MOCK-STYLE-009
+    directory: "CINEMATIC"
+    name: "CINEMATIC"
+    maturity: REFERENCE
+    implementation_status: PROPOSED_ONLY
+    batch: "2026-11-12"
+    app_suggestions:
+      - name: "180FlipCharge"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "Anna's Diary"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "CamperBoss"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "FocusSense"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "FrameLab"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "SleepMax Coach"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "TrailPath"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "Wonderlog"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "World Days"
+        fit: MEDIUM
+        status: PROPOSAL
+  - id: MOCK-STYLE-010
+    directory: "ILLUSTRATED"
+    name: "ILLUSTRATED"
+    maturity: REFERENCE
+    implementation_status: PROPOSED_ONLY
+    batch: "2026-11-12"
+    app_suggestions:
+      - name: "180FlipCharge"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "Anna's Diary"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "CamperBoss"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "FrameLab"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "SleepMax Coach"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "Wonderlog"
+        fit: MEDIUM
+        status: PROPOSAL
+      - name: "World Days"
+        fit: MEDIUM
+        status: PROPOSAL

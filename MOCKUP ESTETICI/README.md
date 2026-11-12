@@ -31,3 +31,7 @@ Per le associazioni aggregate consultare [MATRICE_APP_STILI.md](./MATRICE_APP_ST
 ## Collegamento al catalogo UI/UX
 
 Per componenti, layout, gerarchie, effetti, controlli e interazioni consulta [UI/UX](../UI-UX/README.md). Una reference può appartenere sia a uno stile estetico sia a più stili UI/UX; registrare sempre un solo file canonico e associare gli ID senza duplicare binari.
+
+## Nuovo lotto estetico — 12/11/2026
+
+Consulta la [matrice estetica di 33 riferimenti unici](./RIFERIMENTI_UTENTE_2026-11-12.md); nuove famiglie Y2K RETRO, ORGANIC, CINEMATIC, ILLUSTRATED. Le immagini sono conservate solo nell'allegato-galleria privata della conversazione fino a prova di licenza/permesso.
