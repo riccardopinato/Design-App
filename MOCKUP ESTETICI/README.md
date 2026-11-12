@@ -27,3 +27,7 @@ Per le associazioni aggregate consultare [MATRICE_APP_STILI.md](./MATRICE_APP_ST
 8. Quando pertinente, distinguere uso di una reference estetica dalla riutilizzabilità di un asset (COPY/ADAPT/REFERENCE_ONLY).
 
 **Stato iniziale (12/11/2026):** struttura e proposte create, **zero immagini importate**. Fonte Pinterest segnalata per successive consegne: https://it.pinterest.com/rikyjaypinaz/stili-grafici-per-app/ (non ancora acquisita).
+
+## Collegamento al catalogo UI/UX
+
+Per componenti, layout, gerarchie, effetti, controlli e interazioni consulta [UI/UX](../UI-UX/README.md). Una reference può appartenere sia a uno stile estetico sia a più stili UI/UX; registrare sempre un solo file canonico e associare gli ID senza duplicare binari.
