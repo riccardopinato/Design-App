@@ -1,0 +1,2987 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-13",
+  "kind": "MANY_TO_MANY_APP_STYLE_REFERENCE",
+  "status": "PROPOSED_ONLY",
+  "source_registries": [
+    "UI-UX/REGISTRO_RIFERIMENTI_UTENTE_2026-11-12.json",
+    "UI-UX/REGISTRO_RIFERIMENTI_UTENTE_2026-11-13.json"
+  ],
+  "summary": {
+    "reference_count": 99,
+    "ui_family_count": 18,
+    "aesthetic_family_count": 10,
+    "app_count": 19,
+    "unique_style_app_pairs": 254,
+    "reference_style_app_links": 771
+  },
+  "styles": [
+    {
+      "key": "ESTETICA::AESTHETIC",
+      "name": "AESTHETIC",
+      "domain": "ESTETICA"
+    },
+    {
+      "key": "ESTETICA::ANIME",
+      "name": "ANIME",
+      "domain": "ESTETICA"
+    },
+    {
+      "key": "ESTETICA::CINEMATIC",
+      "name": "CINEMATIC",
+      "domain": "ESTETICA"
+    },
+    {
+      "key": "ESTETICA::ILLUSTRATED",
+      "name": "ILLUSTRATED",
+      "domain": "ESTETICA"
+    },
+    {
+      "key": "ESTETICA::NEON",
+      "name": "NEON",
+      "domain": "ESTETICA"
+    },
+    {
+      "key": "ESTETICA::ORGANIC",
+      "name": "ORGANIC",
+      "domain": "ESTETICA"
+    },
+    {
+      "key": "ESTETICA::PIXEL ART",
+      "name": "PIXEL ART",
+      "domain": "ESTETICA"
+    },
+    {
+      "key": "ESTETICA::POLAROID",
+      "name": "POLAROID",
+      "domain": "ESTETICA"
+    },
+    {
+      "key": "ESTETICA::VINTAGE",
+      "name": "VINTAGE",
+      "domain": "ESTETICA"
+    },
+    {
+      "key": "ESTETICA::Y2K RETRO",
+      "name": "Y2K RETRO",
+      "domain": "ESTETICA"
+    },
+    {
+      "key": "UI::BENTO UI",
+      "name": "BENTO UI",
+      "domain": "UI"
+    },
+    {
+      "key": "UI::DESIGN SYSTEM",
+      "name": "DESIGN SYSTEM",
+      "domain": "UI"
+    },
+    {
+      "key": "UI::EDITORIAL UI",
+      "name": "EDITORIAL UI",
+      "domain": "UI"
+    },
+    {
+      "key": "UI::GLASSMORPHISM",
+      "name": "GLASSMORPHISM",
+      "domain": "UI"
+    },
+    {
+      "key": "UI::ILLUSTRATED CONTROLS",
+      "name": "ILLUSTRATED CONTROLS",
+      "domain": "UI"
+    },
+    {
+      "key": "UI::MINIMAL CONTROLS",
+      "name": "MINIMAL CONTROLS",
+      "domain": "UI"
+    },
+    {
+      "key": "UI::NATURE-TECH",
+      "name": "NATURE-TECH",
+      "domain": "UI"
+    },
+    {
+      "key": "UI::NAVIGATION UI",
+      "name": "NAVIGATION UI",
+      "domain": "UI"
+    },
+    {
+      "key": "UI::NEO-APPLE",
+      "name": "NEO-APPLE",
+      "domain": "UI"
+    },
+    {
+      "key": "UI::NEUMORPHISM",
+      "name": "NEUMORPHISM",
+      "domain": "UI"
+    },
+    {
+      "key": "UI::PALETTE",
+      "name": "PALETTE",
+      "domain": "UI"
+    },
+    {
+      "key": "UI::PASTEL UI",
+      "name": "PASTEL UI",
+      "domain": "UI"
+    },
+    {
+      "key": "UI::RETRO DESKTOP",
+      "name": "RETRO DESKTOP",
+      "domain": "UI"
+    },
+    {
+      "key": "UI::SCENIC BACKGROUND",
+      "name": "SCENIC BACKGROUND",
+      "domain": "UI"
+    },
+    {
+      "key": "UI::SCENIC ILLUSTRATION",
+      "name": "SCENIC ILLUSTRATION",
+      "domain": "UI"
+    },
+    {
+      "key": "UI::SKEUOMORPHISM",
+      "name": "SKEUOMORPHISM",
+      "domain": "UI"
+    },
+    {
+      "key": "UI::SOFT 3D",
+      "name": "SOFT 3D",
+      "domain": "UI"
+    },
+    {
+      "key": "UI::TOGGLE & SWITCH",
+      "name": "TOGGLE & SWITCH",
+      "domain": "UI"
+    }
+  ],
+  "apps": [
+    "180FlipCharge",
+    "Anna's Diary",
+    "App Factory Dashboard",
+    "Battery Guard",
+    "CamperBoss",
+    "CashMate AI",
+    "Cooking Anime",
+    "Deskland Android",
+    "Easy Debloat",
+    "FocusSense",
+    "FrameLab",
+    "Notes-Ecosistema",
+    "Pocket Guard",
+    "SleepMax Coach",
+    "Tabletop Motion Alarm",
+    "The Luminous Infinite Circle",
+    "TrailPath",
+    "Wonderlog",
+    "World Days"
+  ],
+  "relations": [
+    {
+      "style_key": "ESTETICA::AESTHETIC",
+      "style_name": "AESTHETIC",
+      "style_domain": "ESTETICA",
+      "app": "180FlipCharge",
+      "reference_ids": [
+        "UIR-0001",
+        "UIR-0012",
+        "UIR-0035"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::AESTHETIC",
+      "style_name": "AESTHETIC",
+      "style_domain": "ESTETICA",
+      "app": "Anna's Diary",
+      "reference_ids": [
+        "UIR-0003",
+        "UIR-0011",
+        "UIR-0013",
+        "UIR-0014",
+        "UIR-0019",
+        "UIR-0020",
+        "UIR-0021",
+        "UIR-0022",
+        "UIR-0023",
+        "UIR-0029",
+        "UIR-0034",
+        "UIR-0036",
+        "UIR-0042",
+        "UIR-0044",
+        "UIR-0063",
+        "UIR-0064",
+        "UIR-0086",
+        "UIR-0093"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::AESTHETIC",
+      "style_name": "AESTHETIC",
+      "style_domain": "ESTETICA",
+      "app": "App Factory Dashboard",
+      "reference_ids": [
+        "UIR-0019",
+        "UIR-0049",
+        "UIR-0063",
+        "UIR-0065",
+        "UIR-0070",
+        "UIR-0085",
+        "UIR-0087"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::AESTHETIC",
+      "style_name": "AESTHETIC",
+      "style_domain": "ESTETICA",
+      "app": "Battery Guard",
+      "reference_ids": [
+        "UIR-0002",
+        "UIR-0005",
+        "UIR-0007",
+        "UIR-0008",
+        "UIR-0011",
+        "UIR-0017",
+        "UIR-0025",
+        "UIR-0027",
+        "UIR-0029",
+        "UIR-0030",
+        "UIR-0035",
+        "UIR-0040",
+        "UIR-0057",
+        "UIR-0065",
+        "UIR-0069",
+        "UIR-0070",
+        "UIR-0085"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::AESTHETIC",
+      "style_name": "AESTHETIC",
+      "style_domain": "ESTETICA",
+      "app": "CamperBoss",
+      "reference_ids": [
+        "UIR-0021",
+        "UIR-0032"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::AESTHETIC",
+      "style_name": "AESTHETIC",
+      "style_domain": "ESTETICA",
+      "app": "CashMate AI",
+      "reference_ids": [
+        "UIR-0015",
+        "UIR-0017",
+        "UIR-0024",
+        "UIR-0025",
+        "UIR-0026",
+        "UIR-0040",
+        "UIR-0042",
+        "UIR-0049",
+        "UIR-0065"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::AESTHETIC",
+      "style_name": "AESTHETIC",
+      "style_domain": "ESTETICA",
+      "app": "Cooking Anime",
+      "reference_ids": [
+        "UIR-0001",
+        "UIR-0012",
+        "UIR-0023"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::AESTHETIC",
+      "style_name": "AESTHETIC",
+      "style_domain": "ESTETICA",
+      "app": "Deskland Android",
+      "reference_ids": [
+        "UIR-0023",
+        "UIR-0050",
+        "UIR-0057",
+        "UIR-0066",
+        "UIR-0069"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::AESTHETIC",
+      "style_name": "AESTHETIC",
+      "style_domain": "ESTETICA",
+      "app": "Easy Debloat",
+      "reference_ids": [
+        "UIR-0002",
+        "UIR-0025",
+        "UIR-0030",
+        "UIR-0035"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::AESTHETIC",
+      "style_name": "AESTHETIC",
+      "style_domain": "ESTETICA",
+      "app": "FocusSense",
+      "reference_ids": [
+        "UIR-0008",
+        "UIR-0015",
+        "UIR-0017",
+        "UIR-0022",
+        "UIR-0024",
+        "UIR-0026",
+        "UIR-0040",
+        "UIR-0050",
+        "UIR-0061",
+        "UIR-0064",
+        "UIR-0066"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::AESTHETIC",
+      "style_name": "AESTHETIC",
+      "style_domain": "ESTETICA",
+      "app": "FrameLab",
+      "reference_ids": [
+        "UIR-0013",
+        "UIR-0020"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::AESTHETIC",
+      "style_name": "AESTHETIC",
+      "style_domain": "ESTETICA",
+      "app": "Notes-Ecosistema",
+      "reference_ids": [
+        "UIR-0001",
+        "UIR-0003",
+        "UIR-0007",
+        "UIR-0011",
+        "UIR-0012",
+        "UIR-0014",
+        "UIR-0019",
+        "UIR-0034",
+        "UIR-0036",
+        "UIR-0042",
+        "UIR-0044",
+        "UIR-0049",
+        "UIR-0061",
+        "UIR-0066",
+        "UIR-0086",
+        "UIR-0087",
+        "UIR-0093"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::AESTHETIC",
+      "style_name": "AESTHETIC",
+      "style_domain": "ESTETICA",
+      "app": "Pocket Guard",
+      "reference_ids": [
+        "UIR-0002",
+        "UIR-0005",
+        "UIR-0008",
+        "UIR-0027",
+        "UIR-0030"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::AESTHETIC",
+      "style_name": "AESTHETIC",
+      "style_domain": "ESTETICA",
+      "app": "SleepMax Coach",
+      "reference_ids": [
+        "UIR-0005",
+        "UIR-0007",
+        "UIR-0020",
+        "UIR-0022",
+        "UIR-0027",
+        "UIR-0029",
+        "UIR-0064"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::AESTHETIC",
+      "style_name": "AESTHETIC",
+      "style_domain": "ESTETICA",
+      "app": "The Luminous Infinite Circle",
+      "reference_ids": [
+        "UIR-0015",
+        "UIR-0024",
+        "UIR-0026"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::AESTHETIC",
+      "style_name": "AESTHETIC",
+      "style_domain": "ESTETICA",
+      "app": "TrailPath",
+      "reference_ids": [
+        "UIR-0032"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::AESTHETIC",
+      "style_name": "AESTHETIC",
+      "style_domain": "ESTETICA",
+      "app": "Wonderlog",
+      "reference_ids": [
+        "UIR-0003",
+        "UIR-0014",
+        "UIR-0021",
+        "UIR-0032",
+        "UIR-0034"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::AESTHETIC",
+      "style_name": "AESTHETIC",
+      "style_domain": "ESTETICA",
+      "app": "World Days",
+      "reference_ids": [
+        "UIR-0013"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ANIME",
+      "style_name": "ANIME",
+      "style_domain": "ESTETICA",
+      "app": "Anna's Diary",
+      "reference_ids": [
+        "UIR-0023"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ANIME",
+      "style_name": "ANIME",
+      "style_domain": "ESTETICA",
+      "app": "Cooking Anime",
+      "reference_ids": [
+        "UIR-0023",
+        "UIR-0096",
+        "UIR-0098"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ANIME",
+      "style_name": "ANIME",
+      "style_domain": "ESTETICA",
+      "app": "Deskland Android",
+      "reference_ids": [
+        "UIR-0023",
+        "UIR-0096",
+        "UIR-0098"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ANIME",
+      "style_name": "ANIME",
+      "style_domain": "ESTETICA",
+      "app": "Wonderlog",
+      "reference_ids": [
+        "UIR-0096"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::CINEMATIC",
+      "style_name": "CINEMATIC",
+      "style_domain": "ESTETICA",
+      "app": "180FlipCharge",
+      "reference_ids": [
+        "UIR-0009"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::CINEMATIC",
+      "style_name": "CINEMATIC",
+      "style_domain": "ESTETICA",
+      "app": "Anna's Diary",
+      "reference_ids": [
+        "UIR-0009",
+        "UIR-0013",
+        "UIR-0020",
+        "UIR-0092"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::CINEMATIC",
+      "style_name": "CINEMATIC",
+      "style_domain": "ESTETICA",
+      "app": "CamperBoss",
+      "reference_ids": [
+        "UIR-0006",
+        "UIR-0010",
+        "UIR-0038"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::CINEMATIC",
+      "style_name": "CINEMATIC",
+      "style_domain": "ESTETICA",
+      "app": "Deskland Android",
+      "reference_ids": [
+        "UIR-0081"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::CINEMATIC",
+      "style_name": "CINEMATIC",
+      "style_domain": "ESTETICA",
+      "app": "FocusSense",
+      "reference_ids": [
+        "UIR-0006"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::CINEMATIC",
+      "style_name": "CINEMATIC",
+      "style_domain": "ESTETICA",
+      "app": "FrameLab",
+      "reference_ids": [
+        "UIR-0013",
+        "UIR-0020",
+        "UIR-0033"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::CINEMATIC",
+      "style_name": "CINEMATIC",
+      "style_domain": "ESTETICA",
+      "app": "SleepMax Coach",
+      "reference_ids": [
+        "UIR-0009",
+        "UIR-0010",
+        "UIR-0020"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::CINEMATIC",
+      "style_name": "CINEMATIC",
+      "style_domain": "ESTETICA",
+      "app": "TrailPath",
+      "reference_ids": [
+        "UIR-0006",
+        "UIR-0038",
+        "UIR-0046",
+        "UIR-0074"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::CINEMATIC",
+      "style_name": "CINEMATIC",
+      "style_domain": "ESTETICA",
+      "app": "Wonderlog",
+      "reference_ids": [
+        "UIR-0010",
+        "UIR-0033",
+        "UIR-0038",
+        "UIR-0045",
+        "UIR-0046",
+        "UIR-0074",
+        "UIR-0081",
+        "UIR-0092"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::CINEMATIC",
+      "style_name": "CINEMATIC",
+      "style_domain": "ESTETICA",
+      "app": "World Days",
+      "reference_ids": [
+        "UIR-0013",
+        "UIR-0033",
+        "UIR-0045"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ILLUSTRATED",
+      "style_name": "ILLUSTRATED",
+      "style_domain": "ESTETICA",
+      "app": "180FlipCharge",
+      "reference_ids": [
+        "UIR-0009"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ILLUSTRATED",
+      "style_name": "ILLUSTRATED",
+      "style_domain": "ESTETICA",
+      "app": "Anna's Diary",
+      "reference_ids": [
+        "UIR-0009",
+        "UIR-0094",
+        "UIR-0097",
+        "UIR-0099"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ILLUSTRATED",
+      "style_name": "ILLUSTRATED",
+      "style_domain": "ESTETICA",
+      "app": "CamperBoss",
+      "reference_ids": [
+        "UIR-0010"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ILLUSTRATED",
+      "style_name": "ILLUSTRATED",
+      "style_domain": "ESTETICA",
+      "app": "Cooking Anime",
+      "reference_ids": [
+        "UIR-0094",
+        "UIR-0097",
+        "UIR-0100"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ILLUSTRATED",
+      "style_name": "ILLUSTRATED",
+      "style_domain": "ESTETICA",
+      "app": "Deskland Android",
+      "reference_ids": [
+        "UIR-0075",
+        "UIR-0095",
+        "UIR-0099",
+        "UIR-0100"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ILLUSTRATED",
+      "style_name": "ILLUSTRATED",
+      "style_domain": "ESTETICA",
+      "app": "FrameLab",
+      "reference_ids": [
+        "UIR-0033"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ILLUSTRATED",
+      "style_name": "ILLUSTRATED",
+      "style_domain": "ESTETICA",
+      "app": "SleepMax Coach",
+      "reference_ids": [
+        "UIR-0009",
+        "UIR-0010"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ILLUSTRATED",
+      "style_name": "ILLUSTRATED",
+      "style_domain": "ESTETICA",
+      "app": "Wonderlog",
+      "reference_ids": [
+        "UIR-0010",
+        "UIR-0033",
+        "UIR-0075",
+        "UIR-0094",
+        "UIR-0095",
+        "UIR-0097",
+        "UIR-0099"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ILLUSTRATED",
+      "style_name": "ILLUSTRATED",
+      "style_domain": "ESTETICA",
+      "app": "World Days",
+      "reference_ids": [
+        "UIR-0033",
+        "UIR-0095"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::NEON",
+      "style_name": "NEON",
+      "style_domain": "ESTETICA",
+      "app": "Anna's Diary",
+      "reference_ids": [
+        "UIR-0020",
+        "UIR-0022"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::NEON",
+      "style_name": "NEON",
+      "style_domain": "ESTETICA",
+      "app": "App Factory Dashboard",
+      "reference_ids": [
+        "UIR-0016"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::NEON",
+      "style_name": "NEON",
+      "style_domain": "ESTETICA",
+      "app": "Battery Guard",
+      "reference_ids": [
+        "UIR-0017",
+        "UIR-0067"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::NEON",
+      "style_name": "NEON",
+      "style_domain": "ESTETICA",
+      "app": "CamperBoss",
+      "reference_ids": [
+        "UIR-0006",
+        "UIR-0077"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::NEON",
+      "style_name": "NEON",
+      "style_domain": "ESTETICA",
+      "app": "CashMate AI",
+      "reference_ids": [
+        "UIR-0015",
+        "UIR-0016",
+        "UIR-0017",
+        "UIR-0024",
+        "UIR-0026",
+        "UIR-0031"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::NEON",
+      "style_name": "NEON",
+      "style_domain": "ESTETICA",
+      "app": "Cooking Anime",
+      "reference_ids": [
+        "UIR-0088"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::NEON",
+      "style_name": "NEON",
+      "style_domain": "ESTETICA",
+      "app": "Deskland Android",
+      "reference_ids": [
+        "UIR-0048",
+        "UIR-0054",
+        "UIR-0067",
+        "UIR-0077"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::NEON",
+      "style_name": "NEON",
+      "style_domain": "ESTETICA",
+      "app": "FocusSense",
+      "reference_ids": [
+        "UIR-0006",
+        "UIR-0015",
+        "UIR-0017",
+        "UIR-0022",
+        "UIR-0024",
+        "UIR-0026",
+        "UIR-0031",
+        "UIR-0048",
+        "UIR-0054",
+        "UIR-0068",
+        "UIR-0088"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::NEON",
+      "style_name": "NEON",
+      "style_domain": "ESTETICA",
+      "app": "FrameLab",
+      "reference_ids": [
+        "UIR-0020"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::NEON",
+      "style_name": "NEON",
+      "style_domain": "ESTETICA",
+      "app": "Notes-Ecosistema",
+      "reference_ids": [
+        "UIR-0016"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::NEON",
+      "style_name": "NEON",
+      "style_domain": "ESTETICA",
+      "app": "Pocket Guard",
+      "reference_ids": [
+        "UIR-0018"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::NEON",
+      "style_name": "NEON",
+      "style_domain": "ESTETICA",
+      "app": "SleepMax Coach",
+      "reference_ids": [
+        "UIR-0020",
+        "UIR-0022",
+        "UIR-0054",
+        "UIR-0068"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::NEON",
+      "style_name": "NEON",
+      "style_domain": "ESTETICA",
+      "app": "Tabletop Motion Alarm",
+      "reference_ids": [
+        "UIR-0018"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::NEON",
+      "style_name": "NEON",
+      "style_domain": "ESTETICA",
+      "app": "The Luminous Infinite Circle",
+      "reference_ids": [
+        "UIR-0015",
+        "UIR-0018",
+        "UIR-0024",
+        "UIR-0026",
+        "UIR-0031"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::NEON",
+      "style_name": "NEON",
+      "style_domain": "ESTETICA",
+      "app": "TrailPath",
+      "reference_ids": [
+        "UIR-0006"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ORGANIC",
+      "style_name": "ORGANIC",
+      "style_domain": "ESTETICA",
+      "app": "Anna's Diary",
+      "reference_ids": [
+        "UIR-0003",
+        "UIR-0011",
+        "UIR-0014",
+        "UIR-0021",
+        "UIR-0051",
+        "UIR-0079"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ORGANIC",
+      "style_name": "ORGANIC",
+      "style_domain": "ESTETICA",
+      "app": "App Factory Dashboard",
+      "reference_ids": [
+        "UIR-0052",
+        "UIR-0076"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ORGANIC",
+      "style_name": "ORGANIC",
+      "style_domain": "ESTETICA",
+      "app": "Battery Guard",
+      "reference_ids": [
+        "UIR-0011"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ORGANIC",
+      "style_name": "ORGANIC",
+      "style_domain": "ESTETICA",
+      "app": "CamperBoss",
+      "reference_ids": [
+        "UIR-0006",
+        "UIR-0021",
+        "UIR-0032",
+        "UIR-0072",
+        "UIR-0089"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ORGANIC",
+      "style_name": "ORGANIC",
+      "style_domain": "ESTETICA",
+      "app": "CashMate AI",
+      "reference_ids": [
+        "UIR-0052"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ORGANIC",
+      "style_name": "ORGANIC",
+      "style_domain": "ESTETICA",
+      "app": "Deskland Android",
+      "reference_ids": [
+        "UIR-0084"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ORGANIC",
+      "style_name": "ORGANIC",
+      "style_domain": "ESTETICA",
+      "app": "FocusSense",
+      "reference_ids": [
+        "UIR-0006",
+        "UIR-0051",
+        "UIR-0052",
+        "UIR-0076"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ORGANIC",
+      "style_name": "ORGANIC",
+      "style_domain": "ESTETICA",
+      "app": "Notes-Ecosistema",
+      "reference_ids": [
+        "UIR-0003",
+        "UIR-0011",
+        "UIR-0014",
+        "UIR-0051",
+        "UIR-0078",
+        "UIR-0082"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ORGANIC",
+      "style_name": "ORGANIC",
+      "style_domain": "ESTETICA",
+      "app": "SleepMax Coach",
+      "reference_ids": [
+        "UIR-0078"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ORGANIC",
+      "style_name": "ORGANIC",
+      "style_domain": "ESTETICA",
+      "app": "TrailPath",
+      "reference_ids": [
+        "UIR-0006",
+        "UIR-0032",
+        "UIR-0072",
+        "UIR-0089"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ORGANIC",
+      "style_name": "ORGANIC",
+      "style_domain": "ESTETICA",
+      "app": "Wonderlog",
+      "reference_ids": [
+        "UIR-0003",
+        "UIR-0014",
+        "UIR-0021",
+        "UIR-0032",
+        "UIR-0072",
+        "UIR-0084"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::ORGANIC",
+      "style_name": "ORGANIC",
+      "style_domain": "ESTETICA",
+      "app": "World Days",
+      "reference_ids": [
+        "UIR-0079",
+        "UIR-0082"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::PIXEL ART",
+      "style_name": "PIXEL ART",
+      "style_domain": "ESTETICA",
+      "app": "180FlipCharge",
+      "reference_ids": [
+        "UIR-0001",
+        "UIR-0012"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::PIXEL ART",
+      "style_name": "PIXEL ART",
+      "style_domain": "ESTETICA",
+      "app": "Cooking Anime",
+      "reference_ids": [
+        "UIR-0001",
+        "UIR-0012"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::PIXEL ART",
+      "style_name": "PIXEL ART",
+      "style_domain": "ESTETICA",
+      "app": "Notes-Ecosistema",
+      "reference_ids": [
+        "UIR-0001",
+        "UIR-0012"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::POLAROID",
+      "style_name": "POLAROID",
+      "style_domain": "ESTETICA",
+      "app": "FrameLab",
+      "reference_ids": [
+        "UIR-0033"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::POLAROID",
+      "style_name": "POLAROID",
+      "style_domain": "ESTETICA",
+      "app": "Wonderlog",
+      "reference_ids": [
+        "UIR-0033"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::POLAROID",
+      "style_name": "POLAROID",
+      "style_domain": "ESTETICA",
+      "app": "World Days",
+      "reference_ids": [
+        "UIR-0033"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::VINTAGE",
+      "style_name": "VINTAGE",
+      "style_domain": "ESTETICA",
+      "app": "Anna's Diary",
+      "reference_ids": [
+        "UIR-0013",
+        "UIR-0029",
+        "UIR-0037",
+        "UIR-0062",
+        "UIR-0073",
+        "UIR-0101"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::VINTAGE",
+      "style_name": "VINTAGE",
+      "style_domain": "ESTETICA",
+      "app": "App Factory Dashboard",
+      "reference_ids": [
+        "UIR-0016",
+        "UIR-0043"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::VINTAGE",
+      "style_name": "VINTAGE",
+      "style_domain": "ESTETICA",
+      "app": "Battery Guard",
+      "reference_ids": [
+        "UIR-0025",
+        "UIR-0029",
+        "UIR-0053",
+        "UIR-0059"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::VINTAGE",
+      "style_name": "VINTAGE",
+      "style_domain": "ESTETICA",
+      "app": "CamperBoss",
+      "reference_ids": [
+        "UIR-0047"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::VINTAGE",
+      "style_name": "VINTAGE",
+      "style_domain": "ESTETICA",
+      "app": "CashMate AI",
+      "reference_ids": [
+        "UIR-0016",
+        "UIR-0025",
+        "UIR-0043"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::VINTAGE",
+      "style_name": "VINTAGE",
+      "style_domain": "ESTETICA",
+      "app": "Cooking Anime",
+      "reference_ids": [
+        "UIR-0039",
+        "UIR-0041",
+        "UIR-0071",
+        "UIR-0080",
+        "UIR-0090",
+        "UIR-0091"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::VINTAGE",
+      "style_name": "VINTAGE",
+      "style_domain": "ESTETICA",
+      "app": "Deskland Android",
+      "reference_ids": [
+        "UIR-0053",
+        "UIR-0055",
+        "UIR-0058",
+        "UIR-0059",
+        "UIR-0083"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::VINTAGE",
+      "style_name": "VINTAGE",
+      "style_domain": "ESTETICA",
+      "app": "Easy Debloat",
+      "reference_ids": [
+        "UIR-0025"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::VINTAGE",
+      "style_name": "VINTAGE",
+      "style_domain": "ESTETICA",
+      "app": "FocusSense",
+      "reference_ids": [
+        "UIR-0053",
+        "UIR-0055",
+        "UIR-0056",
+        "UIR-0058",
+        "UIR-0060"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::VINTAGE",
+      "style_name": "VINTAGE",
+      "style_domain": "ESTETICA",
+      "app": "FrameLab",
+      "reference_ids": [
+        "UIR-0013"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::VINTAGE",
+      "style_name": "VINTAGE",
+      "style_domain": "ESTETICA",
+      "app": "Notes-Ecosistema",
+      "reference_ids": [
+        "UIR-0016",
+        "UIR-0062",
+        "UIR-0090",
+        "UIR-0101"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::VINTAGE",
+      "style_name": "VINTAGE",
+      "style_domain": "ESTETICA",
+      "app": "SleepMax Coach",
+      "reference_ids": [
+        "UIR-0029",
+        "UIR-0056",
+        "UIR-0060"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::VINTAGE",
+      "style_name": "VINTAGE",
+      "style_domain": "ESTETICA",
+      "app": "TrailPath",
+      "reference_ids": [
+        "UIR-0047"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::VINTAGE",
+      "style_name": "VINTAGE",
+      "style_domain": "ESTETICA",
+      "app": "Wonderlog",
+      "reference_ids": [
+        "UIR-0039",
+        "UIR-0080",
+        "UIR-0101"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::VINTAGE",
+      "style_name": "VINTAGE",
+      "style_domain": "ESTETICA",
+      "app": "World Days",
+      "reference_ids": [
+        "UIR-0013",
+        "UIR-0037",
+        "UIR-0041",
+        "UIR-0071",
+        "UIR-0073",
+        "UIR-0083",
+        "UIR-0091"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::Y2K RETRO",
+      "style_name": "Y2K RETRO",
+      "style_domain": "ESTETICA",
+      "app": "180FlipCharge",
+      "reference_ids": [
+        "UIR-0001",
+        "UIR-0012"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::Y2K RETRO",
+      "style_name": "Y2K RETRO",
+      "style_domain": "ESTETICA",
+      "app": "Cooking Anime",
+      "reference_ids": [
+        "UIR-0001",
+        "UIR-0012"
+      ]
+    },
+    {
+      "style_key": "ESTETICA::Y2K RETRO",
+      "style_name": "Y2K RETRO",
+      "style_domain": "ESTETICA",
+      "app": "Notes-Ecosistema",
+      "reference_ids": [
+        "UIR-0001",
+        "UIR-0012"
+      ]
+    },
+    {
+      "style_key": "UI::BENTO UI",
+      "style_name": "BENTO UI",
+      "style_domain": "UI",
+      "app": "180FlipCharge",
+      "reference_ids": [
+        "UIR-0001"
+      ]
+    },
+    {
+      "style_key": "UI::BENTO UI",
+      "style_name": "BENTO UI",
+      "style_domain": "UI",
+      "app": "Anna's Diary",
+      "reference_ids": [
+        "UIR-0003",
+        "UIR-0014",
+        "UIR-0019",
+        "UIR-0029",
+        "UIR-0063"
+      ]
+    },
+    {
+      "style_key": "UI::BENTO UI",
+      "style_name": "BENTO UI",
+      "style_domain": "UI",
+      "app": "App Factory Dashboard",
+      "reference_ids": [
+        "UIR-0019",
+        "UIR-0063"
+      ]
+    },
+    {
+      "style_key": "UI::BENTO UI",
+      "style_name": "BENTO UI",
+      "style_domain": "UI",
+      "app": "Battery Guard",
+      "reference_ids": [
+        "UIR-0005",
+        "UIR-0008",
+        "UIR-0027",
+        "UIR-0029"
+      ]
+    },
+    {
+      "style_key": "UI::BENTO UI",
+      "style_name": "BENTO UI",
+      "style_domain": "UI",
+      "app": "CamperBoss",
+      "reference_ids": [
+        "UIR-0006"
+      ]
+    },
+    {
+      "style_key": "UI::BENTO UI",
+      "style_name": "BENTO UI",
+      "style_domain": "UI",
+      "app": "Cooking Anime",
+      "reference_ids": [
+        "UIR-0001"
+      ]
+    },
+    {
+      "style_key": "UI::BENTO UI",
+      "style_name": "BENTO UI",
+      "style_domain": "UI",
+      "app": "FocusSense",
+      "reference_ids": [
+        "UIR-0006",
+        "UIR-0008"
+      ]
+    },
+    {
+      "style_key": "UI::BENTO UI",
+      "style_name": "BENTO UI",
+      "style_domain": "UI",
+      "app": "Notes-Ecosistema",
+      "reference_ids": [
+        "UIR-0001",
+        "UIR-0003",
+        "UIR-0014",
+        "UIR-0019"
+      ]
+    },
+    {
+      "style_key": "UI::BENTO UI",
+      "style_name": "BENTO UI",
+      "style_domain": "UI",
+      "app": "Pocket Guard",
+      "reference_ids": [
+        "UIR-0005",
+        "UIR-0008",
+        "UIR-0027"
+      ]
+    },
+    {
+      "style_key": "UI::BENTO UI",
+      "style_name": "BENTO UI",
+      "style_domain": "UI",
+      "app": "SleepMax Coach",
+      "reference_ids": [
+        "UIR-0005",
+        "UIR-0027",
+        "UIR-0029"
+      ]
+    },
+    {
+      "style_key": "UI::BENTO UI",
+      "style_name": "BENTO UI",
+      "style_domain": "UI",
+      "app": "TrailPath",
+      "reference_ids": [
+        "UIR-0006"
+      ]
+    },
+    {
+      "style_key": "UI::BENTO UI",
+      "style_name": "BENTO UI",
+      "style_domain": "UI",
+      "app": "Wonderlog",
+      "reference_ids": [
+        "UIR-0003",
+        "UIR-0014"
+      ]
+    },
+    {
+      "style_key": "UI::DESIGN SYSTEM",
+      "style_name": "DESIGN SYSTEM",
+      "style_domain": "UI",
+      "app": "180FlipCharge",
+      "reference_ids": [
+        "UIR-0012"
+      ]
+    },
+    {
+      "style_key": "UI::DESIGN SYSTEM",
+      "style_name": "DESIGN SYSTEM",
+      "style_domain": "UI",
+      "app": "Anna's Diary",
+      "reference_ids": [
+        "UIR-0011",
+        "UIR-0013",
+        "UIR-0019",
+        "UIR-0020",
+        "UIR-0022",
+        "UIR-0034",
+        "UIR-0064",
+        "UIR-0086"
+      ]
+    },
+    {
+      "style_key": "UI::DESIGN SYSTEM",
+      "style_name": "DESIGN SYSTEM",
+      "style_domain": "UI",
+      "app": "App Factory Dashboard",
+      "reference_ids": [
+        "UIR-0016",
+        "UIR-0019",
+        "UIR-0043",
+        "UIR-0049",
+        "UIR-0065",
+        "UIR-0070",
+        "UIR-0085",
+        "UIR-0087"
+      ]
+    },
+    {
+      "style_key": "UI::DESIGN SYSTEM",
+      "style_name": "DESIGN SYSTEM",
+      "style_domain": "UI",
+      "app": "Battery Guard",
+      "reference_ids": [
+        "UIR-0007",
+        "UIR-0011",
+        "UIR-0017",
+        "UIR-0025",
+        "UIR-0065",
+        "UIR-0070",
+        "UIR-0085"
+      ]
+    },
+    {
+      "style_key": "UI::DESIGN SYSTEM",
+      "style_name": "DESIGN SYSTEM",
+      "style_domain": "UI",
+      "app": "CamperBoss",
+      "reference_ids": [
+        "UIR-0072"
+      ]
+    },
+    {
+      "style_key": "UI::DESIGN SYSTEM",
+      "style_name": "DESIGN SYSTEM",
+      "style_domain": "UI",
+      "app": "CashMate AI",
+      "reference_ids": [
+        "UIR-0015",
+        "UIR-0016",
+        "UIR-0017",
+        "UIR-0025",
+        "UIR-0043",
+        "UIR-0049",
+        "UIR-0065"
+      ]
+    },
+    {
+      "style_key": "UI::DESIGN SYSTEM",
+      "style_name": "DESIGN SYSTEM",
+      "style_domain": "UI",
+      "app": "Cooking Anime",
+      "reference_ids": [
+        "UIR-0012",
+        "UIR-0071",
+        "UIR-0088"
+      ]
+    },
+    {
+      "style_key": "UI::DESIGN SYSTEM",
+      "style_name": "DESIGN SYSTEM",
+      "style_domain": "UI",
+      "app": "Deskland Android",
+      "reference_ids": [
+        "UIR-0050"
+      ]
+    },
+    {
+      "style_key": "UI::DESIGN SYSTEM",
+      "style_name": "DESIGN SYSTEM",
+      "style_domain": "UI",
+      "app": "Easy Debloat",
+      "reference_ids": [
+        "UIR-0025"
+      ]
+    },
+    {
+      "style_key": "UI::DESIGN SYSTEM",
+      "style_name": "DESIGN SYSTEM",
+      "style_domain": "UI",
+      "app": "FocusSense",
+      "reference_ids": [
+        "UIR-0015",
+        "UIR-0017",
+        "UIR-0022",
+        "UIR-0050",
+        "UIR-0064",
+        "UIR-0088"
+      ]
+    },
+    {
+      "style_key": "UI::DESIGN SYSTEM",
+      "style_name": "DESIGN SYSTEM",
+      "style_domain": "UI",
+      "app": "FrameLab",
+      "reference_ids": [
+        "UIR-0013",
+        "UIR-0020"
+      ]
+    },
+    {
+      "style_key": "UI::DESIGN SYSTEM",
+      "style_name": "DESIGN SYSTEM",
+      "style_domain": "UI",
+      "app": "Notes-Ecosistema",
+      "reference_ids": [
+        "UIR-0007",
+        "UIR-0011",
+        "UIR-0012",
+        "UIR-0016",
+        "UIR-0019",
+        "UIR-0034",
+        "UIR-0049",
+        "UIR-0086",
+        "UIR-0087"
+      ]
+    },
+    {
+      "style_key": "UI::DESIGN SYSTEM",
+      "style_name": "DESIGN SYSTEM",
+      "style_domain": "UI",
+      "app": "SleepMax Coach",
+      "reference_ids": [
+        "UIR-0007",
+        "UIR-0020",
+        "UIR-0022",
+        "UIR-0064"
+      ]
+    },
+    {
+      "style_key": "UI::DESIGN SYSTEM",
+      "style_name": "DESIGN SYSTEM",
+      "style_domain": "UI",
+      "app": "The Luminous Infinite Circle",
+      "reference_ids": [
+        "UIR-0015"
+      ]
+    },
+    {
+      "style_key": "UI::DESIGN SYSTEM",
+      "style_name": "DESIGN SYSTEM",
+      "style_domain": "UI",
+      "app": "TrailPath",
+      "reference_ids": [
+        "UIR-0072"
+      ]
+    },
+    {
+      "style_key": "UI::DESIGN SYSTEM",
+      "style_name": "DESIGN SYSTEM",
+      "style_domain": "UI",
+      "app": "Wonderlog",
+      "reference_ids": [
+        "UIR-0034",
+        "UIR-0072"
+      ]
+    },
+    {
+      "style_key": "UI::DESIGN SYSTEM",
+      "style_name": "DESIGN SYSTEM",
+      "style_domain": "UI",
+      "app": "World Days",
+      "reference_ids": [
+        "UIR-0013",
+        "UIR-0071"
+      ]
+    },
+    {
+      "style_key": "UI::EDITORIAL UI",
+      "style_name": "EDITORIAL UI",
+      "style_domain": "UI",
+      "app": "Anna's Diary",
+      "reference_ids": [
+        "UIR-0062"
+      ]
+    },
+    {
+      "style_key": "UI::EDITORIAL UI",
+      "style_name": "EDITORIAL UI",
+      "style_domain": "UI",
+      "app": "CamperBoss",
+      "reference_ids": [
+        "UIR-0006"
+      ]
+    },
+    {
+      "style_key": "UI::EDITORIAL UI",
+      "style_name": "EDITORIAL UI",
+      "style_domain": "UI",
+      "app": "FocusSense",
+      "reference_ids": [
+        "UIR-0006"
+      ]
+    },
+    {
+      "style_key": "UI::EDITORIAL UI",
+      "style_name": "EDITORIAL UI",
+      "style_domain": "UI",
+      "app": "FrameLab",
+      "reference_ids": [
+        "UIR-0033"
+      ]
+    },
+    {
+      "style_key": "UI::EDITORIAL UI",
+      "style_name": "EDITORIAL UI",
+      "style_domain": "UI",
+      "app": "Notes-Ecosistema",
+      "reference_ids": [
+        "UIR-0062"
+      ]
+    },
+    {
+      "style_key": "UI::EDITORIAL UI",
+      "style_name": "EDITORIAL UI",
+      "style_domain": "UI",
+      "app": "TrailPath",
+      "reference_ids": [
+        "UIR-0006"
+      ]
+    },
+    {
+      "style_key": "UI::EDITORIAL UI",
+      "style_name": "EDITORIAL UI",
+      "style_domain": "UI",
+      "app": "Wonderlog",
+      "reference_ids": [
+        "UIR-0033"
+      ]
+    },
+    {
+      "style_key": "UI::EDITORIAL UI",
+      "style_name": "EDITORIAL UI",
+      "style_domain": "UI",
+      "app": "World Days",
+      "reference_ids": [
+        "UIR-0033"
+      ]
+    },
+    {
+      "style_key": "UI::GLASSMORPHISM",
+      "style_name": "GLASSMORPHISM",
+      "style_domain": "UI",
+      "app": "Battery Guard",
+      "reference_ids": [
+        "UIR-0017"
+      ]
+    },
+    {
+      "style_key": "UI::GLASSMORPHISM",
+      "style_name": "GLASSMORPHISM",
+      "style_domain": "UI",
+      "app": "CamperBoss",
+      "reference_ids": [
+        "UIR-0077"
+      ]
+    },
+    {
+      "style_key": "UI::GLASSMORPHISM",
+      "style_name": "GLASSMORPHISM",
+      "style_domain": "UI",
+      "app": "CashMate AI",
+      "reference_ids": [
+        "UIR-0015",
+        "UIR-0017",
+        "UIR-0024",
+        "UIR-0026",
+        "UIR-0031"
+      ]
+    },
+    {
+      "style_key": "UI::GLASSMORPHISM",
+      "style_name": "GLASSMORPHISM",
+      "style_domain": "UI",
+      "app": "Deskland Android",
+      "reference_ids": [
+        "UIR-0077"
+      ]
+    },
+    {
+      "style_key": "UI::GLASSMORPHISM",
+      "style_name": "GLASSMORPHISM",
+      "style_domain": "UI",
+      "app": "FocusSense",
+      "reference_ids": [
+        "UIR-0015",
+        "UIR-0017",
+        "UIR-0024",
+        "UIR-0026",
+        "UIR-0031"
+      ]
+    },
+    {
+      "style_key": "UI::GLASSMORPHISM",
+      "style_name": "GLASSMORPHISM",
+      "style_domain": "UI",
+      "app": "The Luminous Infinite Circle",
+      "reference_ids": [
+        "UIR-0015",
+        "UIR-0024",
+        "UIR-0026",
+        "UIR-0031"
+      ]
+    },
+    {
+      "style_key": "UI::ILLUSTRATED CONTROLS",
+      "style_name": "ILLUSTRATED CONTROLS",
+      "style_domain": "UI",
+      "app": "180FlipCharge",
+      "reference_ids": [
+        "UIR-0009"
+      ]
+    },
+    {
+      "style_key": "UI::ILLUSTRATED CONTROLS",
+      "style_name": "ILLUSTRATED CONTROLS",
+      "style_domain": "UI",
+      "app": "Anna's Diary",
+      "reference_ids": [
+        "UIR-0009"
+      ]
+    },
+    {
+      "style_key": "UI::ILLUSTRATED CONTROLS",
+      "style_name": "ILLUSTRATED CONTROLS",
+      "style_domain": "UI",
+      "app": "CamperBoss",
+      "reference_ids": [
+        "UIR-0010"
+      ]
+    },
+    {
+      "style_key": "UI::ILLUSTRATED CONTROLS",
+      "style_name": "ILLUSTRATED CONTROLS",
+      "style_domain": "UI",
+      "app": "SleepMax Coach",
+      "reference_ids": [
+        "UIR-0009",
+        "UIR-0010"
+      ]
+    },
+    {
+      "style_key": "UI::ILLUSTRATED CONTROLS",
+      "style_name": "ILLUSTRATED CONTROLS",
+      "style_domain": "UI",
+      "app": "Wonderlog",
+      "reference_ids": [
+        "UIR-0010"
+      ]
+    },
+    {
+      "style_key": "UI::MINIMAL CONTROLS",
+      "style_name": "MINIMAL CONTROLS",
+      "style_domain": "UI",
+      "app": "180FlipCharge",
+      "reference_ids": [
+        "UIR-0001",
+        "UIR-0012",
+        "UIR-0035"
+      ]
+    },
+    {
+      "style_key": "UI::MINIMAL CONTROLS",
+      "style_name": "MINIMAL CONTROLS",
+      "style_domain": "UI",
+      "app": "Anna's Diary",
+      "reference_ids": [
+        "UIR-0011",
+        "UIR-0023",
+        "UIR-0029",
+        "UIR-0034",
+        "UIR-0073"
+      ]
+    },
+    {
+      "style_key": "UI::MINIMAL CONTROLS",
+      "style_name": "MINIMAL CONTROLS",
+      "style_domain": "UI",
+      "app": "App Factory Dashboard",
+      "reference_ids": [
+        "UIR-0016"
+      ]
+    },
+    {
+      "style_key": "UI::MINIMAL CONTROLS",
+      "style_name": "MINIMAL CONTROLS",
+      "style_domain": "UI",
+      "app": "Battery Guard",
+      "reference_ids": [
+        "UIR-0002",
+        "UIR-0005",
+        "UIR-0007",
+        "UIR-0008",
+        "UIR-0011",
+        "UIR-0025",
+        "UIR-0027",
+        "UIR-0029",
+        "UIR-0030",
+        "UIR-0035",
+        "UIR-0057",
+        "UIR-0059",
+        "UIR-0067"
+      ]
+    },
+    {
+      "style_key": "UI::MINIMAL CONTROLS",
+      "style_name": "MINIMAL CONTROLS",
+      "style_domain": "UI",
+      "app": "CashMate AI",
+      "reference_ids": [
+        "UIR-0016",
+        "UIR-0024",
+        "UIR-0025",
+        "UIR-0026"
+      ]
+    },
+    {
+      "style_key": "UI::MINIMAL CONTROLS",
+      "style_name": "MINIMAL CONTROLS",
+      "style_domain": "UI",
+      "app": "Cooking Anime",
+      "reference_ids": [
+        "UIR-0001",
+        "UIR-0012",
+        "UIR-0023"
+      ]
+    },
+    {
+      "style_key": "UI::MINIMAL CONTROLS",
+      "style_name": "MINIMAL CONTROLS",
+      "style_domain": "UI",
+      "app": "Deskland Android",
+      "reference_ids": [
+        "UIR-0023",
+        "UIR-0057",
+        "UIR-0058",
+        "UIR-0059",
+        "UIR-0067"
+      ]
+    },
+    {
+      "style_key": "UI::MINIMAL CONTROLS",
+      "style_name": "MINIMAL CONTROLS",
+      "style_domain": "UI",
+      "app": "Easy Debloat",
+      "reference_ids": [
+        "UIR-0002",
+        "UIR-0025",
+        "UIR-0030",
+        "UIR-0035"
+      ]
+    },
+    {
+      "style_key": "UI::MINIMAL CONTROLS",
+      "style_name": "MINIMAL CONTROLS",
+      "style_domain": "UI",
+      "app": "FocusSense",
+      "reference_ids": [
+        "UIR-0008",
+        "UIR-0024",
+        "UIR-0026",
+        "UIR-0056",
+        "UIR-0058",
+        "UIR-0060",
+        "UIR-0061"
+      ]
+    },
+    {
+      "style_key": "UI::MINIMAL CONTROLS",
+      "style_name": "MINIMAL CONTROLS",
+      "style_domain": "UI",
+      "app": "FrameLab",
+      "reference_ids": [
+        "UIR-0033"
+      ]
+    },
+    {
+      "style_key": "UI::MINIMAL CONTROLS",
+      "style_name": "MINIMAL CONTROLS",
+      "style_domain": "UI",
+      "app": "Notes-Ecosistema",
+      "reference_ids": [
+        "UIR-0001",
+        "UIR-0007",
+        "UIR-0011",
+        "UIR-0012",
+        "UIR-0016",
+        "UIR-0034",
+        "UIR-0061"
+      ]
+    },
+    {
+      "style_key": "UI::MINIMAL CONTROLS",
+      "style_name": "MINIMAL CONTROLS",
+      "style_domain": "UI",
+      "app": "Pocket Guard",
+      "reference_ids": [
+        "UIR-0002",
+        "UIR-0005",
+        "UIR-0008",
+        "UIR-0018",
+        "UIR-0027",
+        "UIR-0030"
+      ]
+    },
+    {
+      "style_key": "UI::MINIMAL CONTROLS",
+      "style_name": "MINIMAL CONTROLS",
+      "style_domain": "UI",
+      "app": "SleepMax Coach",
+      "reference_ids": [
+        "UIR-0005",
+        "UIR-0007",
+        "UIR-0027",
+        "UIR-0029",
+        "UIR-0056",
+        "UIR-0060"
+      ]
+    },
+    {
+      "style_key": "UI::MINIMAL CONTROLS",
+      "style_name": "MINIMAL CONTROLS",
+      "style_domain": "UI",
+      "app": "Tabletop Motion Alarm",
+      "reference_ids": [
+        "UIR-0018"
+      ]
+    },
+    {
+      "style_key": "UI::MINIMAL CONTROLS",
+      "style_name": "MINIMAL CONTROLS",
+      "style_domain": "UI",
+      "app": "The Luminous Infinite Circle",
+      "reference_ids": [
+        "UIR-0018",
+        "UIR-0024",
+        "UIR-0026"
+      ]
+    },
+    {
+      "style_key": "UI::MINIMAL CONTROLS",
+      "style_name": "MINIMAL CONTROLS",
+      "style_domain": "UI",
+      "app": "Wonderlog",
+      "reference_ids": [
+        "UIR-0033",
+        "UIR-0034"
+      ]
+    },
+    {
+      "style_key": "UI::MINIMAL CONTROLS",
+      "style_name": "MINIMAL CONTROLS",
+      "style_domain": "UI",
+      "app": "World Days",
+      "reference_ids": [
+        "UIR-0033",
+        "UIR-0073"
+      ]
+    },
+    {
+      "style_key": "UI::NATURE-TECH",
+      "style_name": "NATURE-TECH",
+      "style_domain": "UI",
+      "app": "Anna's Diary",
+      "reference_ids": [
+        "UIR-0021"
+      ]
+    },
+    {
+      "style_key": "UI::NATURE-TECH",
+      "style_name": "NATURE-TECH",
+      "style_domain": "UI",
+      "app": "CamperBoss",
+      "reference_ids": [
+        "UIR-0006",
+        "UIR-0010",
+        "UIR-0021",
+        "UIR-0032"
+      ]
+    },
+    {
+      "style_key": "UI::NATURE-TECH",
+      "style_name": "NATURE-TECH",
+      "style_domain": "UI",
+      "app": "Deskland Android",
+      "reference_ids": [
+        "UIR-0075"
+      ]
+    },
+    {
+      "style_key": "UI::NATURE-TECH",
+      "style_name": "NATURE-TECH",
+      "style_domain": "UI",
+      "app": "FocusSense",
+      "reference_ids": [
+        "UIR-0006"
+      ]
+    },
+    {
+      "style_key": "UI::NATURE-TECH",
+      "style_name": "NATURE-TECH",
+      "style_domain": "UI",
+      "app": "SleepMax Coach",
+      "reference_ids": [
+        "UIR-0010"
+      ]
+    },
+    {
+      "style_key": "UI::NATURE-TECH",
+      "style_name": "NATURE-TECH",
+      "style_domain": "UI",
+      "app": "TrailPath",
+      "reference_ids": [
+        "UIR-0006",
+        "UIR-0032",
+        "UIR-0074"
+      ]
+    },
+    {
+      "style_key": "UI::NATURE-TECH",
+      "style_name": "NATURE-TECH",
+      "style_domain": "UI",
+      "app": "Wonderlog",
+      "reference_ids": [
+        "UIR-0010",
+        "UIR-0021",
+        "UIR-0032",
+        "UIR-0074",
+        "UIR-0075"
+      ]
+    },
+    {
+      "style_key": "UI::NAVIGATION UI",
+      "style_name": "NAVIGATION UI",
+      "style_domain": "UI",
+      "app": "Anna's Diary",
+      "reference_ids": [
+        "UIR-0019",
+        "UIR-0034"
+      ]
+    },
+    {
+      "style_key": "UI::NAVIGATION UI",
+      "style_name": "NAVIGATION UI",
+      "style_domain": "UI",
+      "app": "App Factory Dashboard",
+      "reference_ids": [
+        "UIR-0019"
+      ]
+    },
+    {
+      "style_key": "UI::NAVIGATION UI",
+      "style_name": "NAVIGATION UI",
+      "style_domain": "UI",
+      "app": "Notes-Ecosistema",
+      "reference_ids": [
+        "UIR-0019",
+        "UIR-0034"
+      ]
+    },
+    {
+      "style_key": "UI::NAVIGATION UI",
+      "style_name": "NAVIGATION UI",
+      "style_domain": "UI",
+      "app": "Wonderlog",
+      "reference_ids": [
+        "UIR-0034"
+      ]
+    },
+    {
+      "style_key": "UI::NEO-APPLE",
+      "style_name": "NEO-APPLE",
+      "style_domain": "UI",
+      "app": "App Factory Dashboard",
+      "reference_ids": [
+        "UIR-0016"
+      ]
+    },
+    {
+      "style_key": "UI::NEO-APPLE",
+      "style_name": "NEO-APPLE",
+      "style_domain": "UI",
+      "app": "CashMate AI",
+      "reference_ids": [
+        "UIR-0015",
+        "UIR-0016",
+        "UIR-0026",
+        "UIR-0031"
+      ]
+    },
+    {
+      "style_key": "UI::NEO-APPLE",
+      "style_name": "NEO-APPLE",
+      "style_domain": "UI",
+      "app": "FocusSense",
+      "reference_ids": [
+        "UIR-0015",
+        "UIR-0026",
+        "UIR-0031"
+      ]
+    },
+    {
+      "style_key": "UI::NEO-APPLE",
+      "style_name": "NEO-APPLE",
+      "style_domain": "UI",
+      "app": "Notes-Ecosistema",
+      "reference_ids": [
+        "UIR-0016"
+      ]
+    },
+    {
+      "style_key": "UI::NEO-APPLE",
+      "style_name": "NEO-APPLE",
+      "style_domain": "UI",
+      "app": "The Luminous Infinite Circle",
+      "reference_ids": [
+        "UIR-0015",
+        "UIR-0026",
+        "UIR-0031"
+      ]
+    },
+    {
+      "style_key": "UI::NEUMORPHISM",
+      "style_name": "NEUMORPHISM",
+      "style_domain": "UI",
+      "app": "180FlipCharge",
+      "reference_ids": [
+        "UIR-0035"
+      ]
+    },
+    {
+      "style_key": "UI::NEUMORPHISM",
+      "style_name": "NEUMORPHISM",
+      "style_domain": "UI",
+      "app": "Anna's Diary",
+      "reference_ids": [
+        "UIR-0011",
+        "UIR-0029"
+      ]
+    },
+    {
+      "style_key": "UI::NEUMORPHISM",
+      "style_name": "NEUMORPHISM",
+      "style_domain": "UI",
+      "app": "Battery Guard",
+      "reference_ids": [
+        "UIR-0002",
+        "UIR-0005",
+        "UIR-0007",
+        "UIR-0008",
+        "UIR-0011",
+        "UIR-0017",
+        "UIR-0025",
+        "UIR-0027",
+        "UIR-0029",
+        "UIR-0030",
+        "UIR-0035",
+        "UIR-0069"
+      ]
+    },
+    {
+      "style_key": "UI::NEUMORPHISM",
+      "style_name": "NEUMORPHISM",
+      "style_domain": "UI",
+      "app": "CashMate AI",
+      "reference_ids": [
+        "UIR-0017",
+        "UIR-0025"
+      ]
+    },
+    {
+      "style_key": "UI::NEUMORPHISM",
+      "style_name": "NEUMORPHISM",
+      "style_domain": "UI",
+      "app": "Deskland Android",
+      "reference_ids": [
+        "UIR-0066",
+        "UIR-0069"
+      ]
+    },
+    {
+      "style_key": "UI::NEUMORPHISM",
+      "style_name": "NEUMORPHISM",
+      "style_domain": "UI",
+      "app": "Easy Debloat",
+      "reference_ids": [
+        "UIR-0002",
+        "UIR-0025",
+        "UIR-0030",
+        "UIR-0035"
+      ]
+    },
+    {
+      "style_key": "UI::NEUMORPHISM",
+      "style_name": "NEUMORPHISM",
+      "style_domain": "UI",
+      "app": "FocusSense",
+      "reference_ids": [
+        "UIR-0008",
+        "UIR-0017",
+        "UIR-0066",
+        "UIR-0068"
+      ]
+    },
+    {
+      "style_key": "UI::NEUMORPHISM",
+      "style_name": "NEUMORPHISM",
+      "style_domain": "UI",
+      "app": "Notes-Ecosistema",
+      "reference_ids": [
+        "UIR-0007",
+        "UIR-0011",
+        "UIR-0066"
+      ]
+    },
+    {
+      "style_key": "UI::NEUMORPHISM",
+      "style_name": "NEUMORPHISM",
+      "style_domain": "UI",
+      "app": "Pocket Guard",
+      "reference_ids": [
+        "UIR-0002",
+        "UIR-0005",
+        "UIR-0008",
+        "UIR-0018",
+        "UIR-0027",
+        "UIR-0030"
+      ]
+    },
+    {
+      "style_key": "UI::NEUMORPHISM",
+      "style_name": "NEUMORPHISM",
+      "style_domain": "UI",
+      "app": "SleepMax Coach",
+      "reference_ids": [
+        "UIR-0005",
+        "UIR-0007",
+        "UIR-0027",
+        "UIR-0029",
+        "UIR-0068"
+      ]
+    },
+    {
+      "style_key": "UI::NEUMORPHISM",
+      "style_name": "NEUMORPHISM",
+      "style_domain": "UI",
+      "app": "Tabletop Motion Alarm",
+      "reference_ids": [
+        "UIR-0018"
+      ]
+    },
+    {
+      "style_key": "UI::NEUMORPHISM",
+      "style_name": "NEUMORPHISM",
+      "style_domain": "UI",
+      "app": "The Luminous Infinite Circle",
+      "reference_ids": [
+        "UIR-0018"
+      ]
+    },
+    {
+      "style_key": "UI::PALETTE",
+      "style_name": "PALETTE",
+      "style_domain": "UI",
+      "app": "Anna's Diary",
+      "reference_ids": [
+        "UIR-0036",
+        "UIR-0037",
+        "UIR-0042",
+        "UIR-0044",
+        "UIR-0092",
+        "UIR-0093"
+      ]
+    },
+    {
+      "style_key": "UI::PALETTE",
+      "style_name": "PALETTE",
+      "style_domain": "UI",
+      "app": "Battery Guard",
+      "reference_ids": [
+        "UIR-0040"
+      ]
+    },
+    {
+      "style_key": "UI::PALETTE",
+      "style_name": "PALETTE",
+      "style_domain": "UI",
+      "app": "CamperBoss",
+      "reference_ids": [
+        "UIR-0038",
+        "UIR-0047",
+        "UIR-0089"
+      ]
+    },
+    {
+      "style_key": "UI::PALETTE",
+      "style_name": "PALETTE",
+      "style_domain": "UI",
+      "app": "CashMate AI",
+      "reference_ids": [
+        "UIR-0040",
+        "UIR-0042"
+      ]
+    },
+    {
+      "style_key": "UI::PALETTE",
+      "style_name": "PALETTE",
+      "style_domain": "UI",
+      "app": "Cooking Anime",
+      "reference_ids": [
+        "UIR-0039",
+        "UIR-0041",
+        "UIR-0090",
+        "UIR-0091"
+      ]
+    },
+    {
+      "style_key": "UI::PALETTE",
+      "style_name": "PALETTE",
+      "style_domain": "UI",
+      "app": "Deskland Android",
+      "reference_ids": [
+        "UIR-0048"
+      ]
+    },
+    {
+      "style_key": "UI::PALETTE",
+      "style_name": "PALETTE",
+      "style_domain": "UI",
+      "app": "FocusSense",
+      "reference_ids": [
+        "UIR-0040",
+        "UIR-0048"
+      ]
+    },
+    {
+      "style_key": "UI::PALETTE",
+      "style_name": "PALETTE",
+      "style_domain": "UI",
+      "app": "Notes-Ecosistema",
+      "reference_ids": [
+        "UIR-0036",
+        "UIR-0042",
+        "UIR-0044",
+        "UIR-0090",
+        "UIR-0093"
+      ]
+    },
+    {
+      "style_key": "UI::PALETTE",
+      "style_name": "PALETTE",
+      "style_domain": "UI",
+      "app": "TrailPath",
+      "reference_ids": [
+        "UIR-0038",
+        "UIR-0046",
+        "UIR-0047",
+        "UIR-0089"
+      ]
+    },
+    {
+      "style_key": "UI::PALETTE",
+      "style_name": "PALETTE",
+      "style_domain": "UI",
+      "app": "Wonderlog",
+      "reference_ids": [
+        "UIR-0038",
+        "UIR-0039",
+        "UIR-0045",
+        "UIR-0046",
+        "UIR-0092"
+      ]
+    },
+    {
+      "style_key": "UI::PALETTE",
+      "style_name": "PALETTE",
+      "style_domain": "UI",
+      "app": "World Days",
+      "reference_ids": [
+        "UIR-0037",
+        "UIR-0041",
+        "UIR-0045",
+        "UIR-0091"
+      ]
+    },
+    {
+      "style_key": "UI::PASTEL UI",
+      "style_name": "PASTEL UI",
+      "style_domain": "UI",
+      "app": "180FlipCharge",
+      "reference_ids": [
+        "UIR-0009"
+      ]
+    },
+    {
+      "style_key": "UI::PASTEL UI",
+      "style_name": "PASTEL UI",
+      "style_domain": "UI",
+      "app": "Anna's Diary",
+      "reference_ids": [
+        "UIR-0003",
+        "UIR-0009",
+        "UIR-0013",
+        "UIR-0014",
+        "UIR-0020",
+        "UIR-0021",
+        "UIR-0022"
+      ]
+    },
+    {
+      "style_key": "UI::PASTEL UI",
+      "style_name": "PASTEL UI",
+      "style_domain": "UI",
+      "app": "CamperBoss",
+      "reference_ids": [
+        "UIR-0021"
+      ]
+    },
+    {
+      "style_key": "UI::PASTEL UI",
+      "style_name": "PASTEL UI",
+      "style_domain": "UI",
+      "app": "FocusSense",
+      "reference_ids": [
+        "UIR-0022"
+      ]
+    },
+    {
+      "style_key": "UI::PASTEL UI",
+      "style_name": "PASTEL UI",
+      "style_domain": "UI",
+      "app": "FrameLab",
+      "reference_ids": [
+        "UIR-0013",
+        "UIR-0020",
+        "UIR-0033"
+      ]
+    },
+    {
+      "style_key": "UI::PASTEL UI",
+      "style_name": "PASTEL UI",
+      "style_domain": "UI",
+      "app": "Notes-Ecosistema",
+      "reference_ids": [
+        "UIR-0003",
+        "UIR-0014"
+      ]
+    },
+    {
+      "style_key": "UI::PASTEL UI",
+      "style_name": "PASTEL UI",
+      "style_domain": "UI",
+      "app": "SleepMax Coach",
+      "reference_ids": [
+        "UIR-0009",
+        "UIR-0020",
+        "UIR-0022"
+      ]
+    },
+    {
+      "style_key": "UI::PASTEL UI",
+      "style_name": "PASTEL UI",
+      "style_domain": "UI",
+      "app": "Wonderlog",
+      "reference_ids": [
+        "UIR-0003",
+        "UIR-0014",
+        "UIR-0021",
+        "UIR-0033"
+      ]
+    },
+    {
+      "style_key": "UI::PASTEL UI",
+      "style_name": "PASTEL UI",
+      "style_domain": "UI",
+      "app": "World Days",
+      "reference_ids": [
+        "UIR-0013",
+        "UIR-0033"
+      ]
+    },
+    {
+      "style_key": "UI::RETRO DESKTOP",
+      "style_name": "RETRO DESKTOP",
+      "style_domain": "UI",
+      "app": "180FlipCharge",
+      "reference_ids": [
+        "UIR-0001",
+        "UIR-0012"
+      ]
+    },
+    {
+      "style_key": "UI::RETRO DESKTOP",
+      "style_name": "RETRO DESKTOP",
+      "style_domain": "UI",
+      "app": "Cooking Anime",
+      "reference_ids": [
+        "UIR-0001",
+        "UIR-0012"
+      ]
+    },
+    {
+      "style_key": "UI::RETRO DESKTOP",
+      "style_name": "RETRO DESKTOP",
+      "style_domain": "UI",
+      "app": "Notes-Ecosistema",
+      "reference_ids": [
+        "UIR-0001",
+        "UIR-0012"
+      ]
+    },
+    {
+      "style_key": "UI::SCENIC BACKGROUND",
+      "style_name": "SCENIC BACKGROUND",
+      "style_domain": "UI",
+      "app": "Anna's Diary",
+      "reference_ids": [
+        "UIR-0079"
+      ]
+    },
+    {
+      "style_key": "UI::SCENIC BACKGROUND",
+      "style_name": "SCENIC BACKGROUND",
+      "style_domain": "UI",
+      "app": "Cooking Anime",
+      "reference_ids": [
+        "UIR-0080"
+      ]
+    },
+    {
+      "style_key": "UI::SCENIC BACKGROUND",
+      "style_name": "SCENIC BACKGROUND",
+      "style_domain": "UI",
+      "app": "Deskland Android",
+      "reference_ids": [
+        "UIR-0081",
+        "UIR-0083",
+        "UIR-0084"
+      ]
+    },
+    {
+      "style_key": "UI::SCENIC BACKGROUND",
+      "style_name": "SCENIC BACKGROUND",
+      "style_domain": "UI",
+      "app": "Notes-Ecosistema",
+      "reference_ids": [
+        "UIR-0078",
+        "UIR-0082"
+      ]
+    },
+    {
+      "style_key": "UI::SCENIC BACKGROUND",
+      "style_name": "SCENIC BACKGROUND",
+      "style_domain": "UI",
+      "app": "SleepMax Coach",
+      "reference_ids": [
+        "UIR-0078"
+      ]
+    },
+    {
+      "style_key": "UI::SCENIC BACKGROUND",
+      "style_name": "SCENIC BACKGROUND",
+      "style_domain": "UI",
+      "app": "Wonderlog",
+      "reference_ids": [
+        "UIR-0080",
+        "UIR-0081",
+        "UIR-0084"
+      ]
+    },
+    {
+      "style_key": "UI::SCENIC BACKGROUND",
+      "style_name": "SCENIC BACKGROUND",
+      "style_domain": "UI",
+      "app": "World Days",
+      "reference_ids": [
+        "UIR-0079",
+        "UIR-0082",
+        "UIR-0083"
+      ]
+    },
+    {
+      "style_key": "UI::SCENIC ILLUSTRATION",
+      "style_name": "SCENIC ILLUSTRATION",
+      "style_domain": "UI",
+      "app": "Anna's Diary",
+      "reference_ids": [
+        "UIR-0094",
+        "UIR-0097",
+        "UIR-0099",
+        "UIR-0101"
+      ]
+    },
+    {
+      "style_key": "UI::SCENIC ILLUSTRATION",
+      "style_name": "SCENIC ILLUSTRATION",
+      "style_domain": "UI",
+      "app": "Cooking Anime",
+      "reference_ids": [
+        "UIR-0094",
+        "UIR-0096",
+        "UIR-0097",
+        "UIR-0098",
+        "UIR-0100"
+      ]
+    },
+    {
+      "style_key": "UI::SCENIC ILLUSTRATION",
+      "style_name": "SCENIC ILLUSTRATION",
+      "style_domain": "UI",
+      "app": "Deskland Android",
+      "reference_ids": [
+        "UIR-0095",
+        "UIR-0096",
+        "UIR-0098",
+        "UIR-0099",
+        "UIR-0100"
+      ]
+    },
+    {
+      "style_key": "UI::SCENIC ILLUSTRATION",
+      "style_name": "SCENIC ILLUSTRATION",
+      "style_domain": "UI",
+      "app": "Notes-Ecosistema",
+      "reference_ids": [
+        "UIR-0101"
+      ]
+    },
+    {
+      "style_key": "UI::SCENIC ILLUSTRATION",
+      "style_name": "SCENIC ILLUSTRATION",
+      "style_domain": "UI",
+      "app": "Wonderlog",
+      "reference_ids": [
+        "UIR-0094",
+        "UIR-0095",
+        "UIR-0096",
+        "UIR-0097",
+        "UIR-0099",
+        "UIR-0101"
+      ]
+    },
+    {
+      "style_key": "UI::SCENIC ILLUSTRATION",
+      "style_name": "SCENIC ILLUSTRATION",
+      "style_domain": "UI",
+      "app": "World Days",
+      "reference_ids": [
+        "UIR-0095"
+      ]
+    },
+    {
+      "style_key": "UI::SKEUOMORPHISM",
+      "style_name": "SKEUOMORPHISM",
+      "style_domain": "UI",
+      "app": "Anna's Diary",
+      "reference_ids": [
+        "UIR-0023"
+      ]
+    },
+    {
+      "style_key": "UI::SKEUOMORPHISM",
+      "style_name": "SKEUOMORPHISM",
+      "style_domain": "UI",
+      "app": "Battery Guard",
+      "reference_ids": [
+        "UIR-0053"
+      ]
+    },
+    {
+      "style_key": "UI::SKEUOMORPHISM",
+      "style_name": "SKEUOMORPHISM",
+      "style_domain": "UI",
+      "app": "CamperBoss",
+      "reference_ids": [
+        "UIR-0032"
+      ]
+    },
+    {
+      "style_key": "UI::SKEUOMORPHISM",
+      "style_name": "SKEUOMORPHISM",
+      "style_domain": "UI",
+      "app": "CashMate AI",
+      "reference_ids": [
+        "UIR-0024"
+      ]
+    },
+    {
+      "style_key": "UI::SKEUOMORPHISM",
+      "style_name": "SKEUOMORPHISM",
+      "style_domain": "UI",
+      "app": "Cooking Anime",
+      "reference_ids": [
+        "UIR-0023"
+      ]
+    },
+    {
+      "style_key": "UI::SKEUOMORPHISM",
+      "style_name": "SKEUOMORPHISM",
+      "style_domain": "UI",
+      "app": "Deskland Android",
+      "reference_ids": [
+        "UIR-0023",
+        "UIR-0053",
+        "UIR-0054",
+        "UIR-0055"
+      ]
+    },
+    {
+      "style_key": "UI::SKEUOMORPHISM",
+      "style_name": "SKEUOMORPHISM",
+      "style_domain": "UI",
+      "app": "FocusSense",
+      "reference_ids": [
+        "UIR-0024",
+        "UIR-0053",
+        "UIR-0054",
+        "UIR-0055"
+      ]
+    },
+    {
+      "style_key": "UI::SKEUOMORPHISM",
+      "style_name": "SKEUOMORPHISM",
+      "style_domain": "UI",
+      "app": "SleepMax Coach",
+      "reference_ids": [
+        "UIR-0054"
+      ]
+    },
+    {
+      "style_key": "UI::SKEUOMORPHISM",
+      "style_name": "SKEUOMORPHISM",
+      "style_domain": "UI",
+      "app": "The Luminous Infinite Circle",
+      "reference_ids": [
+        "UIR-0024"
+      ]
+    },
+    {
+      "style_key": "UI::SKEUOMORPHISM",
+      "style_name": "SKEUOMORPHISM",
+      "style_domain": "UI",
+      "app": "TrailPath",
+      "reference_ids": [
+        "UIR-0032"
+      ]
+    },
+    {
+      "style_key": "UI::SKEUOMORPHISM",
+      "style_name": "SKEUOMORPHISM",
+      "style_domain": "UI",
+      "app": "Wonderlog",
+      "reference_ids": [
+        "UIR-0032"
+      ]
+    },
+    {
+      "style_key": "UI::SOFT 3D",
+      "style_name": "SOFT 3D",
+      "style_domain": "UI",
+      "app": "Anna's Diary",
+      "reference_ids": [
+        "UIR-0003",
+        "UIR-0014",
+        "UIR-0021",
+        "UIR-0023",
+        "UIR-0051"
+      ]
+    },
+    {
+      "style_key": "UI::SOFT 3D",
+      "style_name": "SOFT 3D",
+      "style_domain": "UI",
+      "app": "App Factory Dashboard",
+      "reference_ids": [
+        "UIR-0052",
+        "UIR-0076"
+      ]
+    },
+    {
+      "style_key": "UI::SOFT 3D",
+      "style_name": "SOFT 3D",
+      "style_domain": "UI",
+      "app": "CamperBoss",
+      "reference_ids": [
+        "UIR-0021"
+      ]
+    },
+    {
+      "style_key": "UI::SOFT 3D",
+      "style_name": "SOFT 3D",
+      "style_domain": "UI",
+      "app": "CashMate AI",
+      "reference_ids": [
+        "UIR-0052"
+      ]
+    },
+    {
+      "style_key": "UI::SOFT 3D",
+      "style_name": "SOFT 3D",
+      "style_domain": "UI",
+      "app": "Cooking Anime",
+      "reference_ids": [
+        "UIR-0023"
+      ]
+    },
+    {
+      "style_key": "UI::SOFT 3D",
+      "style_name": "SOFT 3D",
+      "style_domain": "UI",
+      "app": "Deskland Android",
+      "reference_ids": [
+        "UIR-0023"
+      ]
+    },
+    {
+      "style_key": "UI::SOFT 3D",
+      "style_name": "SOFT 3D",
+      "style_domain": "UI",
+      "app": "FocusSense",
+      "reference_ids": [
+        "UIR-0051",
+        "UIR-0052",
+        "UIR-0076"
+      ]
+    },
+    {
+      "style_key": "UI::SOFT 3D",
+      "style_name": "SOFT 3D",
+      "style_domain": "UI",
+      "app": "Notes-Ecosistema",
+      "reference_ids": [
+        "UIR-0003",
+        "UIR-0014",
+        "UIR-0051"
+      ]
+    },
+    {
+      "style_key": "UI::SOFT 3D",
+      "style_name": "SOFT 3D",
+      "style_domain": "UI",
+      "app": "Wonderlog",
+      "reference_ids": [
+        "UIR-0003",
+        "UIR-0014",
+        "UIR-0021"
+      ]
+    },
+    {
+      "style_key": "UI::TOGGLE & SWITCH",
+      "style_name": "TOGGLE & SWITCH",
+      "style_domain": "UI",
+      "app": "180FlipCharge",
+      "reference_ids": [
+        "UIR-0009",
+        "UIR-0035"
+      ]
+    },
+    {
+      "style_key": "UI::TOGGLE & SWITCH",
+      "style_name": "TOGGLE & SWITCH",
+      "style_domain": "UI",
+      "app": "Anna's Diary",
+      "reference_ids": [
+        "UIR-0009"
+      ]
+    },
+    {
+      "style_key": "UI::TOGGLE & SWITCH",
+      "style_name": "TOGGLE & SWITCH",
+      "style_domain": "UI",
+      "app": "Battery Guard",
+      "reference_ids": [
+        "UIR-0002",
+        "UIR-0030",
+        "UIR-0035"
+      ]
+    },
+    {
+      "style_key": "UI::TOGGLE & SWITCH",
+      "style_name": "TOGGLE & SWITCH",
+      "style_domain": "UI",
+      "app": "CamperBoss",
+      "reference_ids": [
+        "UIR-0010",
+        "UIR-0032"
+      ]
+    },
+    {
+      "style_key": "UI::TOGGLE & SWITCH",
+      "style_name": "TOGGLE & SWITCH",
+      "style_domain": "UI",
+      "app": "CashMate AI",
+      "reference_ids": [
+        "UIR-0031"
+      ]
+    },
+    {
+      "style_key": "UI::TOGGLE & SWITCH",
+      "style_name": "TOGGLE & SWITCH",
+      "style_domain": "UI",
+      "app": "Easy Debloat",
+      "reference_ids": [
+        "UIR-0002",
+        "UIR-0030",
+        "UIR-0035"
+      ]
+    },
+    {
+      "style_key": "UI::TOGGLE & SWITCH",
+      "style_name": "TOGGLE & SWITCH",
+      "style_domain": "UI",
+      "app": "FocusSense",
+      "reference_ids": [
+        "UIR-0031"
+      ]
+    },
+    {
+      "style_key": "UI::TOGGLE & SWITCH",
+      "style_name": "TOGGLE & SWITCH",
+      "style_domain": "UI",
+      "app": "Pocket Guard",
+      "reference_ids": [
+        "UIR-0002",
+        "UIR-0018",
+        "UIR-0030"
+      ]
+    },
+    {
+      "style_key": "UI::TOGGLE & SWITCH",
+      "style_name": "TOGGLE & SWITCH",
+      "style_domain": "UI",
+      "app": "SleepMax Coach",
+      "reference_ids": [
+        "UIR-0009",
+        "UIR-0010"
+      ]
+    },
+    {
+      "style_key": "UI::TOGGLE & SWITCH",
+      "style_name": "TOGGLE & SWITCH",
+      "style_domain": "UI",
+      "app": "Tabletop Motion Alarm",
+      "reference_ids": [
+        "UIR-0018"
+      ]
+    },
+    {
+      "style_key": "UI::TOGGLE & SWITCH",
+      "style_name": "TOGGLE & SWITCH",
+      "style_domain": "UI",
+      "app": "The Luminous Infinite Circle",
+      "reference_ids": [
+        "UIR-0018",
+        "UIR-0031"
+      ]
+    },
+    {
+      "style_key": "UI::TOGGLE & SWITCH",
+      "style_name": "TOGGLE & SWITCH",
+      "style_domain": "UI",
+      "app": "TrailPath",
+      "reference_ids": [
+        "UIR-0032"
+      ]
+    },
+    {
+      "style_key": "UI::TOGGLE & SWITCH",
+      "style_name": "TOGGLE & SWITCH",
+      "style_domain": "UI",
+      "app": "Wonderlog",
+      "reference_ids": [
+        "UIR-0010",
+        "UIR-0032"
+      ]
+    }
+  ],
+  "rights_note": "Publicly visible image does not imply redistribution license. Reference metadata is catalogued; third-party image binaries are not uploaded without license/permission."
+}
