@@ -44,3 +44,7 @@ Indici: [matrice app ⇄ stili](./MATRICE_APP_STILI.md), [registro stili](./REGI
 ## Nuovi riferimenti forniti dall'utente — 12/11/2026
 
 Sono classificati [35 file, 33 immagini distinte](./RIFERIMENTI_UTENTE_2026-11-12.md) in entrambe le tassonomie, con [registro JSON](./REGISTRO_RIFERIMENTI_UTENTE_2026-11-12.json), [matrice inversa per app](./MATRICE_APP_RIFERIMENTI_2026-11-12.md) e indici per categoria. Aggiunte famiglie RETRO DESKTOP, TOGGLE & SWITCH, EDITORIAL UI, DESIGN SYSTEM, ILLUSTRATED CONTROLS, NAVIGATION UI, SKEUOMORPHISM. Originali JPG non importati nel repository pubblico senza verificare i diritti di redistribuzione.
+
+## Intake grafico consolidato — 13/11/2026
+
+[Catalogo 66 riferimenti](./RIFERIMENTI_UTENTE_2026-11-13.md), [registro sorgente/hashes](./REGISTRO_RIFERIMENTI_UTENTE_2026-11-13.json), [matrice app](./MATRICE_APP_RIFERIMENTI_2026-11-13.md). 77 upload, 11 duplicati SHA-256 esatti; 66 nuovi rispetto ai 33 distinti del 12/11. Le nuove etichette in tabella sono tag descrittivi, non nuove famiglie canoniche in REGISTRO_STILI.yaml. Nessun codice app/test/Golden importato.
