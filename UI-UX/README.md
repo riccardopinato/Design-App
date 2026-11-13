@@ -61,3 +61,7 @@ L'utente dichiara una **licenza personale** per tutte le immagini dei lotti 12�
 ## Anteprime UIR cliccabili
 
 Le 99 schede possono aprire l'immagine direttamente cliccando l'ID `UIR-xxxx` nelle matrici; è inoltre disponibile la [galleria GitHub con anteprime espandibili](./ANTEPRIME_99.md). Il [visualizzatore HTML](../docs/index.html) permette una vera sovrimpressione con filtro per app e stile, dopo attivazione di GitHub Pages sul ramo `main` e cartella `/docs`. Le immagini della PR #17 rimangono identificate come **non ancora su main**.
+
+## Fonte componenti interattivi — Ruixen UI
+
+Oltre ai riferimenti immagine UIR, la libreria include un [catalogo Ruixen UI](../sources/RUIXEN_UI_DESIGN_MOTION_AUDIT_2026-11-13.md): 277 sorgenti TSX verificate per esistenza (SHA fissati), 41 pattern curati per 18 app e mappatura [app → componenti](../sources/RUIXEN_UI_CURATED_APP_MAP_2026-11-13.json). Ruixen è soprattutto React/shadcn; per Flutter il riuso è concettuale, non `COPY_READY`.
