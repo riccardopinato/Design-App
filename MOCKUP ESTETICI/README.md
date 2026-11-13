@@ -39,3 +39,7 @@ Consulta la [matrice estetica di 33 riferimenti unici](./RIFERIMENTI_UTENTE_2026
 ## Nuove reference estetiche — 13/11/2026
 
 [Indice estetico dei 66 riferimenti](./RIFERIMENTI_UTENTE_2026-11-13.md) con catalogo canonico, file e hash in [UI/UX](../UI-UX/REGISTRO_RIFERIMENTI_UTENTE_2026-11-13.json). Focus: palette editoriali, paper cut, ambient landscape e illustrazione giapponese/cinese. Diritti immagini non verificati: riferimenti solo testuali, nessun originale pubblicato; compatibilità per app in stato PROPOSTA.
+
+## Ricerca per app e per famiglia estetica
+
+La [matrice inversa App → Stili](../UI-UX/PER_APP_STILI_2026-11-13.md) e la [matrice diretta Stile → App](../UI-UX/PER_STILE_APP_2026-11-13.md) integrano il catalogo estetico con quello UI/UX. Un'immagine può avere stili estetici e UI complementari; uno stile appartiene a più app, un'app a più stili. L'indice usa lo stesso [JSON canonico relazionale](../UI-UX/MATRICE_BIDIREZIONALE_APP_STILI_2026-11-13.json), senza copiare i file originali delle opere terze.
