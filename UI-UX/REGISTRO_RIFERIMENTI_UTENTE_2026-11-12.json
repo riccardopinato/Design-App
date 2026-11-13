@@ -30,12 +30,15 @@
       "reuse": "Shell opzionale o tema; mantenere navigazione accessibile.",
       "sha256": "7522e51cdba0400d581a0989460f7296db6faae2047b362ce450bc63bd827ab5",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg",
+      "lightbox_fragment": "#UIR-0001",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0001"
     },
     {
       "id": "UIR-0002",
@@ -58,12 +61,15 @@
       "reuse": "Usare affiancando semantica ON/OFF e accessibilità.",
       "sha256": "e41efa438b211b98eba520b0ee024081762e80fa9600fc433fc881e332e8b76a",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0002.jpg",
+      "lightbox_fragment": "#UIR-0002",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0002"
     },
     {
       "id": "UIR-0003",
@@ -87,12 +93,15 @@
       "reuse": "Prendere griglia e atmosfera, non intere immagini.",
       "sha256": "ea54030c46506741530073daa657d745060945922a2f007a3f242610b8c93124",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg",
+      "lightbox_fragment": "#UIR-0003",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0003"
     },
     {
       "id": "UIR-0004",
@@ -116,12 +125,15 @@
       "reuse": "Non creare una nuova scheda canonica.",
       "sha256": "ea54030c46506741530073daa657d745060945922a2f007a3f242610b8c93124",
       "duplicate_of": "UIR-0003",
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "DUPLICATE_LINKED_TO_ORIGINAL",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg",
+      "lightbox_fragment": "#UIR-0003",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0003"
     },
     {
       "id": "UIR-0005",
@@ -144,12 +156,15 @@
       "reuse": "Convertire elementi in card ad alto contrasto.",
       "sha256": "b641c4db86360e891292382eeccbdaab62068205c7ca1d942cedf994a94897e9",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0005.jpg",
+      "lightbox_fragment": "#UIR-0005",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0005"
     },
     {
       "id": "UIR-0006",
@@ -174,12 +189,15 @@
       "reuse": "Evita schermi densi; lascia mappa e dati primari leggibili.",
       "sha256": "4707da220f59d71488a9c7dd55a1536995ec2e5cca3daa382fa69aebfd17c67f",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg",
+      "lightbox_fragment": "#UIR-0006",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0006"
     },
     {
       "id": "UIR-0007",
@@ -202,12 +220,15 @@
       "reuse": "Riutilizzare come checklist di ombre/tokens, non come palette obbligatoria.",
       "sha256": "637a8cd67542ccc6cc522b009d676866ef4b4ad05224bfe524584e1134e46b88",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0007.jpg",
+      "lightbox_fragment": "#UIR-0007",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0007"
     },
     {
       "id": "UIR-0008",
@@ -230,12 +251,15 @@
       "reuse": "Misurare contrasto di testo e stato.",
       "sha256": "1c198c4eb7539fafa68d9162b565ce9905a4f80ad1a545e4fc216aa372067dea",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0008.jpg",
+      "lightbox_fragment": "#UIR-0008",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0008"
     },
     {
       "id": "UIR-0009",
@@ -259,12 +283,15 @@
       "reuse": "Usare illustrazioni proprie ed esporre stato testuale.",
       "sha256": "43cd2a7036db5e187bf5d5ceb653f9728ba99ce74ab29655aa8a66fd3d39cd10",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0009.jpg",
+      "lightbox_fragment": "#UIR-0009",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0009"
     },
     {
       "id": "UIR-0010",
@@ -288,12 +315,15 @@
       "reuse": "Illustrazioni originali, preferenze reduced motion.",
       "sha256": "31c9d6ba45110be782d7892061b3291612cf16edc35a2b9ff754e2651d775b4c",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0010.jpg",
+      "lightbox_fragment": "#UIR-0010",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0010"
     },
     {
       "id": "UIR-0011",
@@ -317,12 +347,15 @@
       "reuse": "Stati hover/active/disabled e contrasto verificati.",
       "sha256": "42562b3f9059d145d9db477a0e2e1b06e685c2e46595f57b7a99bbcae96350a9",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0011.jpg",
+      "lightbox_fragment": "#UIR-0011",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0011"
     },
     {
       "id": "UIR-0012",
@@ -347,12 +380,15 @@
       "reuse": "La dicitura FREE sul poster non prova licenza dei file.",
       "sha256": "28e87a9a1afc49755c203c8e5d068dbfead841f3b2dab4fe2e389d5ea2811255",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0012.jpg",
+      "lightbox_fragment": "#UIR-0012",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0012"
     },
     {
       "id": "UIR-0013",
@@ -376,12 +412,15 @@
       "reuse": "Palettes come indicazioni, estrarre token e verificare contrasto.",
       "sha256": "6e652be17a29426bec7fe46b51926041310e42f2df7bbf354e1fda2f94f05273",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg",
+      "lightbox_fragment": "#UIR-0013",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0013"
     },
     {
       "id": "UIR-0014",
@@ -405,12 +444,15 @@
       "reuse": "Ricreare con componenti Flutter leggeri, non asset raster obbligatori.",
       "sha256": "b3acca5a23ea8bf80ff3131ed5f2151e1a19feb4ee9e06e6318844c3625ee6c9",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg",
+      "lightbox_fragment": "#UIR-0014",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0014"
     },
     {
       "id": "UIR-0015",
@@ -434,12 +476,15 @@
       "reuse": "Provare fallback solido, GPU e accessibilità.",
       "sha256": "0ba720ccbc3d04f6fc0e7612c3c72cf1152c7c29f6badae67b5306008515a48a",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0015.jpg",
+      "lightbox_fragment": "#UIR-0015",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0015"
     },
     {
       "id": "UIR-0016",
@@ -463,12 +508,15 @@
       "reuse": "Materiale schematico, numeri e testi vanno riprogettati/validati.",
       "sha256": "07b4e742a5a3da7ccc7f875e195323e3c6e3841bfe2e890f97915793a3cc69ef",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg",
+      "lightbox_fragment": "#UIR-0016",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0016"
     },
     {
       "id": "UIR-0017",
@@ -492,12 +540,15 @@
       "reuse": "UI da reinterpretare; evitare glow come unico feedback.",
       "sha256": "5e71bcb2907e4bbc574392ecb0a155047a0ac6eff463bf9eed37368c6746cded",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0017.jpg",
+      "lightbox_fragment": "#UIR-0017",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0017"
     },
     {
       "id": "UIR-0018",
@@ -520,12 +571,15 @@
       "reuse": "Stato allarme leggibile anche senza colore.",
       "sha256": "712d55732a2b237348209d5bad832ac7180f690eb53135726fd3e4404eb5684a",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0018.jpg",
+      "lightbox_fragment": "#UIR-0018",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0018"
     },
     {
       "id": "UIR-0019",
@@ -548,12 +602,15 @@
       "reuse": "Usare per valutazione critica: non trattare come benchmark verificato.",
       "sha256": "61ab9c0e8f2614cb362e244c38ba925742c3683b7aa7f1ac9f42446cd09c47d2",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0019.jpg",
+      "lightbox_fragment": "#UIR-0019",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0019"
     },
     {
       "id": "UIR-0020",
@@ -577,12 +634,15 @@
       "reuse": "Fonte per proposte di tema, non colori di produzione senza test.",
       "sha256": "7d97ffcd605fb9053f6f8b3288d24122892144f886680054acb11ce0c9eaef88",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0020.jpg",
+      "lightbox_fragment": "#UIR-0020",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0020"
     },
     {
       "id": "UIR-0021",
@@ -606,12 +666,15 @@
       "reuse": "Buono per sezioni soft, non per schermate ad alta densità dati.",
       "sha256": "472e710857baa1162ffb0cf7db7bd82eebaef082d811baf9a69502b3d7e1d7b7",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg",
+      "lightbox_fragment": "#UIR-0021",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0021"
     },
     {
       "id": "UIR-0022",
@@ -634,12 +697,15 @@
       "reuse": "Tema dark soft; contrasto da verificare.",
       "sha256": "5edd9093068e0b2b973828c72699a1e3c98667abbac15bcc5c3254e72cd43d61",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0022.jpg",
+      "lightbox_fragment": "#UIR-0022",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0022"
     },
     {
       "id": "UIR-0023",
@@ -663,12 +729,15 @@
       "reuse": "Riferimento solo tattile; marchi, personaggi e loghi da non copiare.",
       "sha256": "3b5ce1b898be33522258fafeff397117a43a18ad072279ab7b4d9e36c169d1c8",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SKEUOMORPHISM/IMMAGINI/UIR-0023.jpg",
+      "lightbox_fragment": "#UIR-0023",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0023"
     },
     {
       "id": "UIR-0024",
@@ -692,12 +761,15 @@
       "reuse": "Studiare materiali e forme, non riutilizzare brand di terzi.",
       "sha256": "b208447ce362f23f3dd0c3f9c9f3f30351831effb81361af6396844f930d1a5d",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0024.jpg",
+      "lightbox_fragment": "#UIR-0024",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0024"
     },
     {
       "id": "UIR-0025",
@@ -721,12 +793,15 @@
       "reuse": "Migliore reference di component inventory; verificare target 48dp e states.",
       "sha256": "a54eb201341e75337ce580ca825253e7b4368ea77245c7c2b9cc7f17b2b5934d",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0025.jpg",
+      "lightbox_fragment": "#UIR-0025",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0025"
     },
     {
       "id": "UIR-0026",
@@ -750,12 +825,15 @@
       "reuse": "Reinterpretare, non copia pixel-per-pixel.",
       "sha256": "e4b13782a90c8a4e9fb666acae727efa09efdd39004cc73fcad50205d1436ba7",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0026.jpg",
+      "lightbox_fragment": "#UIR-0026",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0026"
     },
     {
       "id": "UIR-0027",
@@ -778,12 +856,15 @@
       "reuse": "Adattare a contrasto e icone leggibili.",
       "sha256": "e92c0e6bd97ee125471ed0d463160445785920a9b194f3a6e9ebb00443a7fa8d",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0027.jpg",
+      "lightbox_fragment": "#UIR-0027",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0027"
     },
     {
       "id": "UIR-0028",
@@ -806,12 +887,15 @@
       "reuse": "Nessun nuovo asset o scheda canonica.",
       "sha256": "e92c0e6bd97ee125471ed0d463160445785920a9b194f3a6e9ebb00443a7fa8d",
       "duplicate_of": "UIR-0027",
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "DUPLICATE_LINKED_TO_ORIGINAL",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0027.jpg",
+      "lightbox_fragment": "#UIR-0027",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0027"
     },
     {
       "id": "UIR-0029",
@@ -835,12 +919,15 @@
       "reuse": "Consigliabile per home soft, verificare leggibilità.",
       "sha256": "9e4fdba0b7821794cbdac4a39b6478284b80ab2f72620f758e26e62629237bfa",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0029.jpg",
+      "lightbox_fragment": "#UIR-0029",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0029"
     },
     {
       "id": "UIR-0030",
@@ -863,12 +950,15 @@
       "reuse": "Usare states marcati e label.",
       "sha256": "e76772f2bfd83b23c8f256b3d60618d51459e98d6e5b6277e05af70a765bb0d3",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0030.jpg",
+      "lightbox_fragment": "#UIR-0030",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0030"
     },
     {
       "id": "UIR-0031",
@@ -891,12 +981,15 @@
       "reuse": "Preferire componenti più sobri per interazione ripetuta.",
       "sha256": "0dff253592761dfad7cf97f1a26c86d728614463ba98094b36cdb4c5cd245c81",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0031.jpg",
+      "lightbox_fragment": "#UIR-0031",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0031"
     },
     {
       "id": "UIR-0032",
@@ -920,12 +1013,15 @@
       "reuse": "Da ricreare come illustrazione originale, evitare scene dettagliate runtime.",
       "sha256": "6cd8f78c719ab5063d95244cc65202288ba3e12af5af3da13885c8623133829e",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0032.jpg",
+      "lightbox_fragment": "#UIR-0032",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0032"
     },
     {
       "id": "UIR-0033",
@@ -950,12 +1046,15 @@
       "reuse": "Ideale per composizione e gerarchia, non per schermate tecniche.",
       "sha256": "910404cb18dcc811d2aa07c8f1bfb92b70f35670fb1850bed860391b759af763",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg",
+      "lightbox_fragment": "#UIR-0033",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0033"
     },
     {
       "id": "UIR-0034",
@@ -978,12 +1077,15 @@
       "reuse": "Confrontare navigazione per app, max 5 voci e indicatori chiari.",
       "sha256": "d6c4a95b2c5aa037f79b35632f760e11af32de01e3be8042c7b4121199115b39",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NAVIGATION%20UI/IMMAGINI/UIR-0034.jpg",
+      "lightbox_fragment": "#UIR-0034",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0034"
     },
     {
       "id": "UIR-0035",
@@ -1006,12 +1108,15 @@
       "reuse": "Separare micro-texture decorativa dal feedback accessibile.",
       "sha256": "2f41cbd2d8075f1182d31363bd5f20829f0d2da36d98830fbe7de3c794a6f34e",
       "duplicate_of": null,
-      "asset_status": "LOCAL_ONLY",
+      "asset_status": "IN_PR_17_BRANCH_NOT_MAIN",
       "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "rights_attestation": "USER_STATEMENT_2026-11-13",
       "license_scope_reported": "PERSONAL",
-      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE",
+      "github_image_url": "https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0035.jpg",
+      "lightbox_fragment": "#UIR-0035",
+      "lightbox_url_after_pages_enable": "https://riccardopinato.github.io/Design-App/#UIR-0035"
     }
   ],
   "license_declaration": {

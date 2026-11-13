@@ -56,3 +56,8 @@ Sono classificati [35 file, 33 immagini distinte](./RIFERIMENTI_UTENTE_2026-11-1
 ## Dichiarazione personale sulla licenza dei riferimenti — 13 novembre 2026
 
 L'utente dichiara una **licenza personale** per tutte le immagini dei lotti 12–13/11/2026 (99 JPG distinti). La [dichiarazione e il perimetro](./DICHIARAZIONE_LICENZA_PERSONALE_2026-11-13.md) sono registrati nei due cataloghi JSON. Stato: `USER_DECLARED_PERSONAL_LICENSE`, non prova indipendente della licenza o di un permesso di redistribuzione pubblica. Le classificazioni e le associazioni molti-a-molti rimangono invariate.
+
+
+## Anteprime UIR cliccabili
+
+Le 99 schede possono aprire l'immagine direttamente cliccando l'ID `UIR-xxxx` nelle matrici; è inoltre disponibile la [galleria GitHub con anteprime espandibili](./ANTEPRIME_99.md). Il [visualizzatore HTML](../docs/index.html) permette una vera sovrimpressione con filtro per app e stile, dopo attivazione di GitHub Pages sul ramo `main` e cartella `/docs`. Le immagini della PR #17 rimangono identificate come **non ancora su main**.
