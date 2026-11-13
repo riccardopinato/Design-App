@@ -4,10 +4,10 @@
 
 | ID | Titolo | Ruolo | App candidate |
 |---|---|---|---|
-| UIR-0013 | 50 palette cromatiche | Secondario | FrameLab, World Days, Anna's Diary |
-| UIR-0016 | Design system coral-teal scuro | Secondario | CashMate AI, Notes-Ecosistema, App Factory Dashboard |
-| UIR-0025 | Design system beige/teal completo | Secondario | CashMate AI, Battery Guard, Easy Debloat |
-| UIR-0029 | Hello March dashboard grigio | Secondario | SleepMax Coach, Anna's Diary, Battery Guard |
+| [UIR-0013](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg) | 50 palette cromatiche | Secondario | FrameLab, World Days, Anna's Diary |
+| [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg) | Design system coral-teal scuro | Secondario | CashMate AI, Notes-Ecosistema, App Factory Dashboard |
+| [UIR-0025](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0025.jpg) | Design system beige/teal completo | Secondario | CashMate AI, Battery Guard, Easy Debloat |
+| [UIR-0029](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0029.jpg) | Hello March dashboard grigio | Secondario | SleepMax Coach, Anna's Diary, Battery Guard |
 
 La specifica visuale estesa è nel [catalogo generale](../RIFERIMENTI_UTENTE_2026-11-12.md).
 
