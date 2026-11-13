@@ -36,10 +36,13 @@
       ],
       "hex_status": "TRANSCRIBED_FROM_REFERENCE_UNVALIDATED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0037",
@@ -65,10 +68,13 @@
       ],
       "hex_status": "TRANSCRIBED_FROM_REFERENCE_UNVALIDATED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0038",
@@ -95,10 +101,13 @@
       ],
       "hex_status": "TRANSCRIBED_FROM_REFERENCE_UNVALIDATED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0039",
@@ -124,10 +133,13 @@
       ],
       "hex_status": "TRANSCRIBED_FROM_REFERENCE_UNVALIDATED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0040",
@@ -155,10 +167,13 @@
       ],
       "hex_status": "TRANSCRIBED_FROM_REFERENCE_UNVALIDATED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0041",
@@ -183,10 +198,13 @@
       ],
       "hex_status": "TRANSCRIBED_FROM_REFERENCE_UNVALIDATED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0042",
@@ -212,10 +230,13 @@
       ],
       "hex_status": "TRANSCRIBED_FROM_REFERENCE_UNVALIDATED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0043",
@@ -234,10 +255,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0044",
@@ -261,10 +285,13 @@
       ],
       "hex_status": "TRANSCRIBED_FROM_REFERENCE_UNVALIDATED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0045",
@@ -290,10 +317,13 @@
       ],
       "hex_status": "TRANSCRIBED_FROM_REFERENCE_UNVALIDATED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0046",
@@ -318,10 +348,13 @@
       ],
       "hex_status": "TRANSCRIBED_FROM_REFERENCE_UNVALIDATED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0047",
@@ -340,10 +373,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0048",
@@ -362,10 +398,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0049",
@@ -385,10 +424,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0050",
@@ -407,10 +449,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Anti-pattern example, do not blindly implement"
+      "notes": "Anti-pattern example, do not blindly implement",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0051",
@@ -430,10 +475,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0052",
@@ -453,10 +501,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0053",
@@ -476,10 +527,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0054",
@@ -499,10 +553,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0055",
@@ -521,10 +578,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0056",
@@ -543,10 +603,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0057",
@@ -565,10 +628,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0058",
@@ -587,10 +653,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0059",
@@ -609,10 +678,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0060",
@@ -631,10 +703,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0061",
@@ -653,10 +728,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0062",
@@ -675,10 +753,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0063",
@@ -697,10 +778,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0064",
@@ -720,10 +804,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0065",
@@ -743,10 +830,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0066",
@@ -766,10 +856,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0067",
@@ -788,10 +881,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0068",
@@ -810,10 +906,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0069",
@@ -832,10 +931,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0070",
@@ -854,10 +956,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0071",
@@ -883,10 +988,13 @@
       ],
       "hex_status": "TRANSCRIBED_FROM_REFERENCE_UNVALIDATED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0072",
@@ -912,10 +1020,13 @@
       ],
       "hex_status": "TRANSCRIBED_FROM_REFERENCE_UNVALIDATED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0073",
@@ -934,10 +1045,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0074",
@@ -956,10 +1070,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0075",
@@ -978,10 +1095,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0076",
@@ -1000,10 +1120,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0077",
@@ -1022,10 +1145,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0078",
@@ -1044,10 +1170,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0079",
@@ -1066,10 +1195,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0080",
@@ -1088,10 +1220,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0081",
@@ -1110,10 +1245,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0082",
@@ -1132,10 +1270,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0083",
@@ -1154,10 +1295,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0084",
@@ -1176,10 +1320,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0085",
@@ -1198,10 +1345,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0086",
@@ -1225,10 +1375,13 @@
       ],
       "hex_status": "TRANSCRIBED_FROM_REFERENCE_UNVALIDATED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0087",
@@ -1247,10 +1400,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Methodology only, not runtime donor"
+      "notes": "Methodology only, not runtime donor",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0088",
@@ -1275,10 +1431,13 @@
       ],
       "hex_status": "TRANSCRIBED_FROM_REFERENCE_UNVALIDATED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0089",
@@ -1302,10 +1461,13 @@
       ],
       "hex_status": "TRANSCRIBED_FROM_REFERENCE_UNVALIDATED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0090",
@@ -1329,10 +1491,13 @@
       ],
       "hex_status": "TRANSCRIBED_FROM_REFERENCE_UNVALIDATED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0091",
@@ -1357,10 +1522,13 @@
       ],
       "hex_status": "TRANSCRIBED_FROM_REFERENCE_UNVALIDATED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0092",
@@ -1384,10 +1552,13 @@
       ],
       "hex_status": "TRANSCRIBED_FROM_REFERENCE_UNVALIDATED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0093",
@@ -1412,10 +1583,13 @@
       ],
       "hex_status": "TRANSCRIBED_FROM_REFERENCE_UNVALIDATED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Independent UI implementation only; screen-level approval required"
+      "notes": "Independent UI implementation only; screen-level approval required",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0094",
@@ -1435,10 +1609,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Check geographic/cultural accuracy of Asian motifs; no permission to distribute illustration"
+      "notes": "Check geographic/cultural accuracy of Asian motifs; no permission to distribute illustration",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0095",
@@ -1458,10 +1635,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Check geographic/cultural accuracy of Asian motifs; no permission to distribute illustration"
+      "notes": "Check geographic/cultural accuracy of Asian motifs; no permission to distribute illustration",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0096",
@@ -1481,10 +1661,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Check geographic/cultural accuracy of Asian motifs; no permission to distribute illustration"
+      "notes": "Check geographic/cultural accuracy of Asian motifs; no permission to distribute illustration",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0097",
@@ -1504,10 +1687,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Check geographic/cultural accuracy of Asian motifs; no permission to distribute illustration"
+      "notes": "Check geographic/cultural accuracy of Asian motifs; no permission to distribute illustration",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0098",
@@ -1526,10 +1712,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Check geographic/cultural accuracy of Asian motifs; no permission to distribute illustration"
+      "notes": "Check geographic/cultural accuracy of Asian motifs; no permission to distribute illustration",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0099",
@@ -1549,10 +1738,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Check geographic/cultural accuracy of Asian motifs; no permission to distribute illustration"
+      "notes": "Check geographic/cultural accuracy of Asian motifs; no permission to distribute illustration",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0100",
@@ -1571,10 +1763,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Check geographic/cultural accuracy of Asian motifs; no permission to distribute illustration"
+      "notes": "Check geographic/cultural accuracy of Asian motifs; no permission to distribute illustration",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     },
     {
       "id": "UIR-0101",
@@ -1594,10 +1789,13 @@
       "hex_codes_visible_candidate": [],
       "hex_status": "NOT_EXTRACTED",
       "validation": "REFERENCE",
-      "rights": "UNVERIFIED",
+      "rights": "USER_DECLARED_PERSONAL_LICENSE",
       "reuse_mode": "REFERENCE_ONLY",
       "original_in_repository": false,
-      "notes": "Check geographic/cultural accuracy of Asian motifs; no permission to distribute illustration"
+      "notes": "Check geographic/cultural accuracy of Asian motifs; no permission to distribute illustration",
+      "rights_attestation": "USER_STATEMENT_2026-11-13",
+      "license_scope_reported": "PERSONAL",
+      "public_redistribution_permission": "NOT_ESTABLISHED_BY_PERSONAL_LICENSE_ALONE"
     }
   ],
   "duplicates": [
@@ -1667,5 +1865,13 @@
       "batch": 5,
       "duplicate_type": "SHA256_EXACT"
     }
-  ]
+  ],
+  "license_declaration": {
+    "attested_by": "USER",
+    "attested_on": "2026-11-13",
+    "declaration": "All submitted images are covered by the user's personal license.",
+    "scope_reported": "PERSONAL",
+    "public_redistribution_rights": "NOT_ESTABLISHED",
+    "note": "The user has declared a personal license for all uploaded images. This is recorded as a user statement, not as independently reviewed licensing or a grant of public redistribution rights."
+  }
 }
