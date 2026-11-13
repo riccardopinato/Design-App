@@ -48,3 +48,7 @@ Sono classificati [35 file, 33 immagini distinte](./RIFERIMENTI_UTENTE_2026-11-1
 ## Intake grafico consolidato — 13/11/2026
 
 [Catalogo 66 riferimenti](./RIFERIMENTI_UTENTE_2026-11-13.md), [registro sorgente/hashes](./REGISTRO_RIFERIMENTI_UTENTE_2026-11-13.json), [matrice app](./MATRICE_APP_RIFERIMENTI_2026-11-13.md). 77 upload, 11 duplicati SHA-256 esatti; 66 nuovi rispetto ai 33 distinti del 12/11. Le nuove etichette in tabella sono tag descrittivi, non nuove famiglie canoniche in REGISTRO_STILI.yaml. Nessun codice app/test/Golden importato.
+
+## Matrici bidirezionali per app e stile
+
+[App → Stili](./PER_APP_STILI_2026-11-13.md) · [Stile → App](./PER_STILE_APP_2026-11-13.md) · [JSON normalizzato di associazioni](./MATRICE_BIDIREZIONALE_APP_STILI_2026-11-13.json). Copertura: 99 riferimenti unici dei lotti 12/11 e 13/11; 18 famiglie tecniche, 10 famiglie estetiche, 19 app, 254 coppie distinte. Ogni coppia può avere più immagini. Non ci sono vincoli uno-a-uno e non si creano binari duplicati. Stili e app candidati sono PROPOSTA, non componenti approvati.
