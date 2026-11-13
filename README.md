@@ -155,3 +155,7 @@ Nuova sezione [UI/UX](./UI-UX/README.md) per catalogare tecniche visive, pattern
 ## Matrice molti-a-molti App ↔ Stili (12–13/11/2026)
 
 La classificazione trasversale dei **99 riferimenti unici** è consultabile [per app](./UI-UX/PER_APP_STILI_2026-11-13.md) oppure [per stile](./UI-UX/PER_STILE_APP_2026-11-13.md). Il [registro relazionale JSON](./UI-UX/MATRICE_BIDIREZIONALE_APP_STILI_2026-11-13.json) contiene **254 coppie stile–app** e **771 link stile–app–reference**, con viste coerenti derivate dalle stesse associazioni. Gli originali restano fuori dal repository pubblico fino a verifica dei diritti di redistribuzione.
+
+## Dichiarazione personale sulla licenza dei riferimenti — 13 novembre 2026
+
+L'utente dichiara una **licenza personale** per tutte le immagini dei lotti 12–13/11/2026 (99 JPG distinti). La [dichiarazione e il perimetro](./UI-UX/DICHIARAZIONE_LICENZA_PERSONALE_2026-11-13.md) sono registrati nei due cataloghi JSON. Stato: `USER_DECLARED_PERSONAL_LICENSE`, non prova indipendente della licenza o di un permesso di redistribuzione pubblica. Le classificazioni e le associazioni molti-a-molti rimangono invariate.
