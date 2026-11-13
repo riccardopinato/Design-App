@@ -39,395 +39,395 @@ Ogni stile può essere associato a più app, ogni app può utilizzare molteplici
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| 180FlipCharge | UIR-0001, UIR-0012, UIR-0035 | PROPOSTA |
-| Anna's Diary | UIR-0003, UIR-0011, UIR-0013, UIR-0014, UIR-0019, UIR-0020, UIR-0021, UIR-0022, UIR-0023, UIR-0029, UIR-0034, UIR-0036, UIR-0042, UIR-0044, UIR-0063, UIR-0064, UIR-0086, UIR-0093 | PROPOSTA |
-| App Factory Dashboard | UIR-0019, UIR-0049, UIR-0063, UIR-0065, UIR-0070, UIR-0085, UIR-0087 | PROPOSTA |
-| Battery Guard | UIR-0002, UIR-0005, UIR-0007, UIR-0008, UIR-0011, UIR-0017, UIR-0025, UIR-0027, UIR-0029, UIR-0030, UIR-0035, UIR-0040, UIR-0057, UIR-0065, UIR-0069, UIR-0070, UIR-0085 | PROPOSTA |
-| CamperBoss | UIR-0021, UIR-0032 | PROPOSTA |
-| CashMate AI | UIR-0015, UIR-0017, UIR-0024, UIR-0025, UIR-0026, UIR-0040, UIR-0042, UIR-0049, UIR-0065 | PROPOSTA |
-| Cooking Anime | UIR-0001, UIR-0012, UIR-0023 | PROPOSTA |
-| Deskland Android | UIR-0023, UIR-0050, UIR-0057, UIR-0066, UIR-0069 | PROPOSTA |
-| Easy Debloat | UIR-0002, UIR-0025, UIR-0030, UIR-0035 | PROPOSTA |
-| FocusSense | UIR-0008, UIR-0015, UIR-0017, UIR-0022, UIR-0024, UIR-0026, UIR-0040, UIR-0050, UIR-0061, UIR-0064, UIR-0066 | PROPOSTA |
-| FrameLab | UIR-0013, UIR-0020 | PROPOSTA |
-| Notes-Ecosistema | UIR-0001, UIR-0003, UIR-0007, UIR-0011, UIR-0012, UIR-0014, UIR-0019, UIR-0034, UIR-0036, UIR-0042, UIR-0044, UIR-0049, UIR-0061, UIR-0066, UIR-0086, UIR-0087, UIR-0093 | PROPOSTA |
-| Pocket Guard | UIR-0002, UIR-0005, UIR-0008, UIR-0027, UIR-0030 | PROPOSTA |
-| SleepMax Coach | UIR-0005, UIR-0007, UIR-0020, UIR-0022, UIR-0027, UIR-0029, UIR-0064 | PROPOSTA |
-| The Luminous Infinite Circle | UIR-0015, UIR-0024, UIR-0026 | PROPOSTA |
-| TrailPath | UIR-0032 | PROPOSTA |
-| Wonderlog | UIR-0003, UIR-0014, UIR-0021, UIR-0032, UIR-0034 | PROPOSTA |
-| World Days | UIR-0013 | PROPOSTA |
+| 180FlipCharge | [UIR-0001](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg), [UIR-0012](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0012.jpg), [UIR-0035](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0035.jpg) | PROPOSTA |
+| Anna's Diary | [UIR-0003](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg), [UIR-0011](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0011.jpg), [UIR-0013](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg), [UIR-0014](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg), [UIR-0019](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0019.jpg), [UIR-0020](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0020.jpg), [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg), [UIR-0022](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0022.jpg), [UIR-0023](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SKEUOMORPHISM/IMMAGINI/UIR-0023.jpg), [UIR-0029](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0029.jpg), [UIR-0034](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NAVIGATION%20UI/IMMAGINI/UIR-0034.jpg), [UIR-0036](./PALETTE/IMMAGINI/UIR-0036.jpg), [UIR-0042](./PALETTE/IMMAGINI/UIR-0042.jpg), [UIR-0044](./PALETTE/IMMAGINI/UIR-0044.jpg), [UIR-0063](./BENTO%20UI/IMMAGINI/UIR-0063.jpg), [UIR-0064](./DESIGN%20SYSTEM/IMMAGINI/UIR-0064.jpg), [UIR-0086](./DESIGN%20SYSTEM/IMMAGINI/UIR-0086.jpg), [UIR-0093](./PALETTE/IMMAGINI/UIR-0093.jpg) | PROPOSTA |
+| App Factory Dashboard | [UIR-0019](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0019.jpg), [UIR-0049](./DESIGN%20SYSTEM/IMMAGINI/UIR-0049.jpg), [UIR-0063](./BENTO%20UI/IMMAGINI/UIR-0063.jpg), [UIR-0065](./DESIGN%20SYSTEM/IMMAGINI/UIR-0065.jpg), [UIR-0070](./DESIGN%20SYSTEM/IMMAGINI/UIR-0070.jpg), [UIR-0085](./DESIGN%20SYSTEM/IMMAGINI/UIR-0085.jpg), [UIR-0087](./DESIGN%20SYSTEM/IMMAGINI/UIR-0087.jpg) | PROPOSTA |
+| Battery Guard | [UIR-0002](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0002.jpg), [UIR-0005](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0005.jpg), [UIR-0007](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0007.jpg), [UIR-0008](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0008.jpg), [UIR-0011](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0011.jpg), [UIR-0017](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0017.jpg), [UIR-0025](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0025.jpg), [UIR-0027](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0027.jpg), [UIR-0029](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0029.jpg), [UIR-0030](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0030.jpg), [UIR-0035](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0035.jpg), [UIR-0040](./PALETTE/IMMAGINI/UIR-0040.jpg), [UIR-0057](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0057.jpg), [UIR-0065](./DESIGN%20SYSTEM/IMMAGINI/UIR-0065.jpg), [UIR-0069](./NEUMORPHISM/IMMAGINI/UIR-0069.jpg), [UIR-0070](./DESIGN%20SYSTEM/IMMAGINI/UIR-0070.jpg), [UIR-0085](./DESIGN%20SYSTEM/IMMAGINI/UIR-0085.jpg) | PROPOSTA |
+| CamperBoss | [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg), [UIR-0032](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0032.jpg) | PROPOSTA |
+| CashMate AI | [UIR-0015](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0015.jpg), [UIR-0017](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0017.jpg), [UIR-0024](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0024.jpg), [UIR-0025](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0025.jpg), [UIR-0026](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0026.jpg), [UIR-0040](./PALETTE/IMMAGINI/UIR-0040.jpg), [UIR-0042](./PALETTE/IMMAGINI/UIR-0042.jpg), [UIR-0049](./DESIGN%20SYSTEM/IMMAGINI/UIR-0049.jpg), [UIR-0065](./DESIGN%20SYSTEM/IMMAGINI/UIR-0065.jpg) | PROPOSTA |
+| Cooking Anime | [UIR-0001](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg), [UIR-0012](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0012.jpg), [UIR-0023](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SKEUOMORPHISM/IMMAGINI/UIR-0023.jpg) | PROPOSTA |
+| Deskland Android | [UIR-0023](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SKEUOMORPHISM/IMMAGINI/UIR-0023.jpg), [UIR-0050](./DESIGN%20SYSTEM/IMMAGINI/UIR-0050.jpg), [UIR-0057](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0057.jpg), [UIR-0066](./NEUMORPHISM/IMMAGINI/UIR-0066.jpg), [UIR-0069](./NEUMORPHISM/IMMAGINI/UIR-0069.jpg) | PROPOSTA |
+| Easy Debloat | [UIR-0002](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0002.jpg), [UIR-0025](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0025.jpg), [UIR-0030](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0030.jpg), [UIR-0035](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0035.jpg) | PROPOSTA |
+| FocusSense | [UIR-0008](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0008.jpg), [UIR-0015](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0015.jpg), [UIR-0017](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0017.jpg), [UIR-0022](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0022.jpg), [UIR-0024](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0024.jpg), [UIR-0026](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0026.jpg), [UIR-0040](./PALETTE/IMMAGINI/UIR-0040.jpg), [UIR-0050](./DESIGN%20SYSTEM/IMMAGINI/UIR-0050.jpg), [UIR-0061](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0061.jpg), [UIR-0064](./DESIGN%20SYSTEM/IMMAGINI/UIR-0064.jpg), [UIR-0066](./NEUMORPHISM/IMMAGINI/UIR-0066.jpg) | PROPOSTA |
+| FrameLab | [UIR-0013](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg), [UIR-0020](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0020.jpg) | PROPOSTA |
+| Notes-Ecosistema | [UIR-0001](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg), [UIR-0003](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg), [UIR-0007](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0007.jpg), [UIR-0011](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0011.jpg), [UIR-0012](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0012.jpg), [UIR-0014](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg), [UIR-0019](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0019.jpg), [UIR-0034](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NAVIGATION%20UI/IMMAGINI/UIR-0034.jpg), [UIR-0036](./PALETTE/IMMAGINI/UIR-0036.jpg), [UIR-0042](./PALETTE/IMMAGINI/UIR-0042.jpg), [UIR-0044](./PALETTE/IMMAGINI/UIR-0044.jpg), [UIR-0049](./DESIGN%20SYSTEM/IMMAGINI/UIR-0049.jpg), [UIR-0061](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0061.jpg), [UIR-0066](./NEUMORPHISM/IMMAGINI/UIR-0066.jpg), [UIR-0086](./DESIGN%20SYSTEM/IMMAGINI/UIR-0086.jpg), [UIR-0087](./DESIGN%20SYSTEM/IMMAGINI/UIR-0087.jpg), [UIR-0093](./PALETTE/IMMAGINI/UIR-0093.jpg) | PROPOSTA |
+| Pocket Guard | [UIR-0002](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0002.jpg), [UIR-0005](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0005.jpg), [UIR-0008](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0008.jpg), [UIR-0027](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0027.jpg), [UIR-0030](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0030.jpg) | PROPOSTA |
+| SleepMax Coach | [UIR-0005](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0005.jpg), [UIR-0007](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0007.jpg), [UIR-0020](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0020.jpg), [UIR-0022](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0022.jpg), [UIR-0027](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0027.jpg), [UIR-0029](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0029.jpg), [UIR-0064](./DESIGN%20SYSTEM/IMMAGINI/UIR-0064.jpg) | PROPOSTA |
+| The Luminous Infinite Circle | [UIR-0015](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0015.jpg), [UIR-0024](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0024.jpg), [UIR-0026](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0026.jpg) | PROPOSTA |
+| TrailPath | [UIR-0032](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0032.jpg) | PROPOSTA |
+| Wonderlog | [UIR-0003](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg), [UIR-0014](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg), [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg), [UIR-0032](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0032.jpg), [UIR-0034](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NAVIGATION%20UI/IMMAGINI/UIR-0034.jpg) | PROPOSTA |
+| World Days | [UIR-0013](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg) | PROPOSTA |
 
 ### ANIME (ESTETICA)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| Anna's Diary | UIR-0023 | PROPOSTA |
-| Cooking Anime | UIR-0023, UIR-0096, UIR-0098 | PROPOSTA |
-| Deskland Android | UIR-0023, UIR-0096, UIR-0098 | PROPOSTA |
-| Wonderlog | UIR-0096 | PROPOSTA |
+| Anna's Diary | [UIR-0023](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SKEUOMORPHISM/IMMAGINI/UIR-0023.jpg) | PROPOSTA |
+| Cooking Anime | [UIR-0023](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SKEUOMORPHISM/IMMAGINI/UIR-0023.jpg), [UIR-0096](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0096.jpg), [UIR-0098](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0098.jpg) | PROPOSTA |
+| Deskland Android | [UIR-0023](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SKEUOMORPHISM/IMMAGINI/UIR-0023.jpg), [UIR-0096](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0096.jpg), [UIR-0098](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0098.jpg) | PROPOSTA |
+| Wonderlog | [UIR-0096](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0096.jpg) | PROPOSTA |
 
 ### CINEMATIC (ESTETICA)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| 180FlipCharge | UIR-0009 | PROPOSTA |
-| Anna's Diary | UIR-0009, UIR-0013, UIR-0020, UIR-0092 | PROPOSTA |
-| CamperBoss | UIR-0006, UIR-0010, UIR-0038 | PROPOSTA |
-| Deskland Android | UIR-0081 | PROPOSTA |
-| FocusSense | UIR-0006 | PROPOSTA |
-| FrameLab | UIR-0013, UIR-0020, UIR-0033 | PROPOSTA |
-| SleepMax Coach | UIR-0009, UIR-0010, UIR-0020 | PROPOSTA |
-| TrailPath | UIR-0006, UIR-0038, UIR-0046, UIR-0074 | PROPOSTA |
-| Wonderlog | UIR-0010, UIR-0033, UIR-0038, UIR-0045, UIR-0046, UIR-0074, UIR-0081, UIR-0092 | PROPOSTA |
-| World Days | UIR-0013, UIR-0033, UIR-0045 | PROPOSTA |
+| 180FlipCharge | [UIR-0009](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0009.jpg) | PROPOSTA |
+| Anna's Diary | [UIR-0009](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0009.jpg), [UIR-0013](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg), [UIR-0020](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0020.jpg), [UIR-0092](./PALETTE/IMMAGINI/UIR-0092.jpg) | PROPOSTA |
+| CamperBoss | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg), [UIR-0010](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0010.jpg), [UIR-0038](./PALETTE/IMMAGINI/UIR-0038.jpg) | PROPOSTA |
+| Deskland Android | [UIR-0081](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0081.jpg) | PROPOSTA |
+| FocusSense | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg) | PROPOSTA |
+| FrameLab | [UIR-0013](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg), [UIR-0020](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0020.jpg), [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg) | PROPOSTA |
+| SleepMax Coach | [UIR-0009](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0009.jpg), [UIR-0010](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0010.jpg), [UIR-0020](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0020.jpg) | PROPOSTA |
+| TrailPath | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg), [UIR-0038](./PALETTE/IMMAGINI/UIR-0038.jpg), [UIR-0046](./PALETTE/IMMAGINI/UIR-0046.jpg), [UIR-0074](./NATURE-TECH/IMMAGINI/UIR-0074.jpg) | PROPOSTA |
+| Wonderlog | [UIR-0010](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0010.jpg), [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg), [UIR-0038](./PALETTE/IMMAGINI/UIR-0038.jpg), [UIR-0045](./PALETTE/IMMAGINI/UIR-0045.jpg), [UIR-0046](./PALETTE/IMMAGINI/UIR-0046.jpg), [UIR-0074](./NATURE-TECH/IMMAGINI/UIR-0074.jpg), [UIR-0081](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0081.jpg), [UIR-0092](./PALETTE/IMMAGINI/UIR-0092.jpg) | PROPOSTA |
+| World Days | [UIR-0013](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg), [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg), [UIR-0045](./PALETTE/IMMAGINI/UIR-0045.jpg) | PROPOSTA |
 
 ### ILLUSTRATED (ESTETICA)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| 180FlipCharge | UIR-0009 | PROPOSTA |
-| Anna's Diary | UIR-0009, UIR-0094, UIR-0097, UIR-0099 | PROPOSTA |
-| CamperBoss | UIR-0010 | PROPOSTA |
-| Cooking Anime | UIR-0094, UIR-0097, UIR-0100 | PROPOSTA |
-| Deskland Android | UIR-0075, UIR-0095, UIR-0099, UIR-0100 | PROPOSTA |
-| FrameLab | UIR-0033 | PROPOSTA |
-| SleepMax Coach | UIR-0009, UIR-0010 | PROPOSTA |
-| Wonderlog | UIR-0010, UIR-0033, UIR-0075, UIR-0094, UIR-0095, UIR-0097, UIR-0099 | PROPOSTA |
-| World Days | UIR-0033, UIR-0095 | PROPOSTA |
+| 180FlipCharge | [UIR-0009](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0009.jpg) | PROPOSTA |
+| Anna's Diary | [UIR-0009](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0009.jpg), [UIR-0094](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0094.jpg), [UIR-0097](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0097.jpg), [UIR-0099](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0099.jpg) | PROPOSTA |
+| CamperBoss | [UIR-0010](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0010.jpg) | PROPOSTA |
+| Cooking Anime | [UIR-0094](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0094.jpg), [UIR-0097](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0097.jpg), [UIR-0100](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0100.jpg) | PROPOSTA |
+| Deskland Android | [UIR-0075](./NATURE-TECH/IMMAGINI/UIR-0075.jpg), [UIR-0095](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0095.jpg), [UIR-0099](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0099.jpg), [UIR-0100](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0100.jpg) | PROPOSTA |
+| FrameLab | [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg) | PROPOSTA |
+| SleepMax Coach | [UIR-0009](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0009.jpg), [UIR-0010](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0010.jpg) | PROPOSTA |
+| Wonderlog | [UIR-0010](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0010.jpg), [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg), [UIR-0075](./NATURE-TECH/IMMAGINI/UIR-0075.jpg), [UIR-0094](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0094.jpg), [UIR-0095](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0095.jpg), [UIR-0097](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0097.jpg), [UIR-0099](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0099.jpg) | PROPOSTA |
+| World Days | [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg), [UIR-0095](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0095.jpg) | PROPOSTA |
 
 ### NEON (ESTETICA)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| Anna's Diary | UIR-0020, UIR-0022 | PROPOSTA |
-| App Factory Dashboard | UIR-0016 | PROPOSTA |
-| Battery Guard | UIR-0017, UIR-0067 | PROPOSTA |
-| CamperBoss | UIR-0006, UIR-0077 | PROPOSTA |
-| CashMate AI | UIR-0015, UIR-0016, UIR-0017, UIR-0024, UIR-0026, UIR-0031 | PROPOSTA |
-| Cooking Anime | UIR-0088 | PROPOSTA |
-| Deskland Android | UIR-0048, UIR-0054, UIR-0067, UIR-0077 | PROPOSTA |
-| FocusSense | UIR-0006, UIR-0015, UIR-0017, UIR-0022, UIR-0024, UIR-0026, UIR-0031, UIR-0048, UIR-0054, UIR-0068, UIR-0088 | PROPOSTA |
-| FrameLab | UIR-0020 | PROPOSTA |
-| Notes-Ecosistema | UIR-0016 | PROPOSTA |
-| Pocket Guard | UIR-0018 | PROPOSTA |
-| SleepMax Coach | UIR-0020, UIR-0022, UIR-0054, UIR-0068 | PROPOSTA |
-| Tabletop Motion Alarm | UIR-0018 | PROPOSTA |
-| The Luminous Infinite Circle | UIR-0015, UIR-0018, UIR-0024, UIR-0026, UIR-0031 | PROPOSTA |
-| TrailPath | UIR-0006 | PROPOSTA |
+| Anna's Diary | [UIR-0020](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0020.jpg), [UIR-0022](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0022.jpg) | PROPOSTA |
+| App Factory Dashboard | [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg) | PROPOSTA |
+| Battery Guard | [UIR-0017](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0017.jpg), [UIR-0067](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0067.jpg) | PROPOSTA |
+| CamperBoss | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg), [UIR-0077](./GLASSMORPHISM/IMMAGINI/UIR-0077.jpg) | PROPOSTA |
+| CashMate AI | [UIR-0015](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0015.jpg), [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg), [UIR-0017](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0017.jpg), [UIR-0024](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0024.jpg), [UIR-0026](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0026.jpg), [UIR-0031](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0031.jpg) | PROPOSTA |
+| Cooking Anime | [UIR-0088](./DESIGN%20SYSTEM/IMMAGINI/UIR-0088.jpg) | PROPOSTA |
+| Deskland Android | [UIR-0048](./PALETTE/IMMAGINI/UIR-0048.jpg), [UIR-0054](./SKEUOMORPHISM/IMMAGINI/UIR-0054.jpg), [UIR-0067](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0067.jpg), [UIR-0077](./GLASSMORPHISM/IMMAGINI/UIR-0077.jpg) | PROPOSTA |
+| FocusSense | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg), [UIR-0015](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0015.jpg), [UIR-0017](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0017.jpg), [UIR-0022](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0022.jpg), [UIR-0024](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0024.jpg), [UIR-0026](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0026.jpg), [UIR-0031](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0031.jpg), [UIR-0048](./PALETTE/IMMAGINI/UIR-0048.jpg), [UIR-0054](./SKEUOMORPHISM/IMMAGINI/UIR-0054.jpg), [UIR-0068](./NEUMORPHISM/IMMAGINI/UIR-0068.jpg), [UIR-0088](./DESIGN%20SYSTEM/IMMAGINI/UIR-0088.jpg) | PROPOSTA |
+| FrameLab | [UIR-0020](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0020.jpg) | PROPOSTA |
+| Notes-Ecosistema | [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg) | PROPOSTA |
+| Pocket Guard | [UIR-0018](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0018.jpg) | PROPOSTA |
+| SleepMax Coach | [UIR-0020](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0020.jpg), [UIR-0022](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0022.jpg), [UIR-0054](./SKEUOMORPHISM/IMMAGINI/UIR-0054.jpg), [UIR-0068](./NEUMORPHISM/IMMAGINI/UIR-0068.jpg) | PROPOSTA |
+| Tabletop Motion Alarm | [UIR-0018](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0018.jpg) | PROPOSTA |
+| The Luminous Infinite Circle | [UIR-0015](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0015.jpg), [UIR-0018](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0018.jpg), [UIR-0024](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0024.jpg), [UIR-0026](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0026.jpg), [UIR-0031](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0031.jpg) | PROPOSTA |
+| TrailPath | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg) | PROPOSTA |
 
 ### ORGANIC (ESTETICA)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| Anna's Diary | UIR-0003, UIR-0011, UIR-0014, UIR-0021, UIR-0051, UIR-0079 | PROPOSTA |
-| App Factory Dashboard | UIR-0052, UIR-0076 | PROPOSTA |
-| Battery Guard | UIR-0011 | PROPOSTA |
-| CamperBoss | UIR-0006, UIR-0021, UIR-0032, UIR-0072, UIR-0089 | PROPOSTA |
-| CashMate AI | UIR-0052 | PROPOSTA |
-| Deskland Android | UIR-0084 | PROPOSTA |
-| FocusSense | UIR-0006, UIR-0051, UIR-0052, UIR-0076 | PROPOSTA |
-| Notes-Ecosistema | UIR-0003, UIR-0011, UIR-0014, UIR-0051, UIR-0078, UIR-0082 | PROPOSTA |
-| SleepMax Coach | UIR-0078 | PROPOSTA |
-| TrailPath | UIR-0006, UIR-0032, UIR-0072, UIR-0089 | PROPOSTA |
-| Wonderlog | UIR-0003, UIR-0014, UIR-0021, UIR-0032, UIR-0072, UIR-0084 | PROPOSTA |
-| World Days | UIR-0079, UIR-0082 | PROPOSTA |
+| Anna's Diary | [UIR-0003](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg), [UIR-0011](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0011.jpg), [UIR-0014](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg), [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg), [UIR-0051](./SOFT%203D/IMMAGINI/UIR-0051.jpg), [UIR-0079](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0079.jpg) | PROPOSTA |
+| App Factory Dashboard | [UIR-0052](./SOFT%203D/IMMAGINI/UIR-0052.jpg), [UIR-0076](./SOFT%203D/IMMAGINI/UIR-0076.jpg) | PROPOSTA |
+| Battery Guard | [UIR-0011](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0011.jpg) | PROPOSTA |
+| CamperBoss | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg), [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg), [UIR-0032](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0032.jpg), [UIR-0072](./DESIGN%20SYSTEM/IMMAGINI/UIR-0072.jpg), [UIR-0089](./PALETTE/IMMAGINI/UIR-0089.jpg) | PROPOSTA |
+| CashMate AI | [UIR-0052](./SOFT%203D/IMMAGINI/UIR-0052.jpg) | PROPOSTA |
+| Deskland Android | [UIR-0084](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0084.jpg) | PROPOSTA |
+| FocusSense | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg), [UIR-0051](./SOFT%203D/IMMAGINI/UIR-0051.jpg), [UIR-0052](./SOFT%203D/IMMAGINI/UIR-0052.jpg), [UIR-0076](./SOFT%203D/IMMAGINI/UIR-0076.jpg) | PROPOSTA |
+| Notes-Ecosistema | [UIR-0003](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg), [UIR-0011](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0011.jpg), [UIR-0014](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg), [UIR-0051](./SOFT%203D/IMMAGINI/UIR-0051.jpg), [UIR-0078](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0078.jpg), [UIR-0082](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0082.jpg) | PROPOSTA |
+| SleepMax Coach | [UIR-0078](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0078.jpg) | PROPOSTA |
+| TrailPath | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg), [UIR-0032](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0032.jpg), [UIR-0072](./DESIGN%20SYSTEM/IMMAGINI/UIR-0072.jpg), [UIR-0089](./PALETTE/IMMAGINI/UIR-0089.jpg) | PROPOSTA |
+| Wonderlog | [UIR-0003](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg), [UIR-0014](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg), [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg), [UIR-0032](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0032.jpg), [UIR-0072](./DESIGN%20SYSTEM/IMMAGINI/UIR-0072.jpg), [UIR-0084](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0084.jpg) | PROPOSTA |
+| World Days | [UIR-0079](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0079.jpg), [UIR-0082](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0082.jpg) | PROPOSTA |
 
 ### PIXEL ART (ESTETICA)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| 180FlipCharge | UIR-0001, UIR-0012 | PROPOSTA |
-| Cooking Anime | UIR-0001, UIR-0012 | PROPOSTA |
-| Notes-Ecosistema | UIR-0001, UIR-0012 | PROPOSTA |
+| 180FlipCharge | [UIR-0001](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg), [UIR-0012](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0012.jpg) | PROPOSTA |
+| Cooking Anime | [UIR-0001](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg), [UIR-0012](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0012.jpg) | PROPOSTA |
+| Notes-Ecosistema | [UIR-0001](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg), [UIR-0012](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0012.jpg) | PROPOSTA |
 
 ### POLAROID (ESTETICA)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| FrameLab | UIR-0033 | PROPOSTA |
-| Wonderlog | UIR-0033 | PROPOSTA |
-| World Days | UIR-0033 | PROPOSTA |
+| FrameLab | [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg) | PROPOSTA |
+| Wonderlog | [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg) | PROPOSTA |
+| World Days | [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg) | PROPOSTA |
 
 ### VINTAGE (ESTETICA)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| Anna's Diary | UIR-0013, UIR-0029, UIR-0037, UIR-0062, UIR-0073, UIR-0101 | PROPOSTA |
-| App Factory Dashboard | UIR-0016, UIR-0043 | PROPOSTA |
-| Battery Guard | UIR-0025, UIR-0029, UIR-0053, UIR-0059 | PROPOSTA |
-| CamperBoss | UIR-0047 | PROPOSTA |
-| CashMate AI | UIR-0016, UIR-0025, UIR-0043 | PROPOSTA |
-| Cooking Anime | UIR-0039, UIR-0041, UIR-0071, UIR-0080, UIR-0090, UIR-0091 | PROPOSTA |
-| Deskland Android | UIR-0053, UIR-0055, UIR-0058, UIR-0059, UIR-0083 | PROPOSTA |
-| Easy Debloat | UIR-0025 | PROPOSTA |
-| FocusSense | UIR-0053, UIR-0055, UIR-0056, UIR-0058, UIR-0060 | PROPOSTA |
-| FrameLab | UIR-0013 | PROPOSTA |
-| Notes-Ecosistema | UIR-0016, UIR-0062, UIR-0090, UIR-0101 | PROPOSTA |
-| SleepMax Coach | UIR-0029, UIR-0056, UIR-0060 | PROPOSTA |
-| TrailPath | UIR-0047 | PROPOSTA |
-| Wonderlog | UIR-0039, UIR-0080, UIR-0101 | PROPOSTA |
-| World Days | UIR-0013, UIR-0037, UIR-0041, UIR-0071, UIR-0073, UIR-0083, UIR-0091 | PROPOSTA |
+| Anna's Diary | [UIR-0013](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg), [UIR-0029](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0029.jpg), [UIR-0037](./PALETTE/IMMAGINI/UIR-0037.jpg), [UIR-0062](./EDITORIAL%20UI/IMMAGINI/UIR-0062.jpg), [UIR-0073](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0073.jpg), [UIR-0101](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0101.jpg) | PROPOSTA |
+| App Factory Dashboard | [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg), [UIR-0043](./DESIGN%20SYSTEM/IMMAGINI/UIR-0043.jpg) | PROPOSTA |
+| Battery Guard | [UIR-0025](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0025.jpg), [UIR-0029](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0029.jpg), [UIR-0053](./SKEUOMORPHISM/IMMAGINI/UIR-0053.jpg), [UIR-0059](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0059.jpg) | PROPOSTA |
+| CamperBoss | [UIR-0047](./PALETTE/IMMAGINI/UIR-0047.jpg) | PROPOSTA |
+| CashMate AI | [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg), [UIR-0025](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0025.jpg), [UIR-0043](./DESIGN%20SYSTEM/IMMAGINI/UIR-0043.jpg) | PROPOSTA |
+| Cooking Anime | [UIR-0039](./PALETTE/IMMAGINI/UIR-0039.jpg), [UIR-0041](./PALETTE/IMMAGINI/UIR-0041.jpg), [UIR-0071](./DESIGN%20SYSTEM/IMMAGINI/UIR-0071.jpg), [UIR-0080](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0080.jpg), [UIR-0090](./PALETTE/IMMAGINI/UIR-0090.jpg), [UIR-0091](./PALETTE/IMMAGINI/UIR-0091.jpg) | PROPOSTA |
+| Deskland Android | [UIR-0053](./SKEUOMORPHISM/IMMAGINI/UIR-0053.jpg), [UIR-0055](./SKEUOMORPHISM/IMMAGINI/UIR-0055.jpg), [UIR-0058](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0058.jpg), [UIR-0059](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0059.jpg), [UIR-0083](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0083.jpg) | PROPOSTA |
+| Easy Debloat | [UIR-0025](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0025.jpg) | PROPOSTA |
+| FocusSense | [UIR-0053](./SKEUOMORPHISM/IMMAGINI/UIR-0053.jpg), [UIR-0055](./SKEUOMORPHISM/IMMAGINI/UIR-0055.jpg), [UIR-0056](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0056.jpg), [UIR-0058](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0058.jpg), [UIR-0060](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0060.jpg) | PROPOSTA |
+| FrameLab | [UIR-0013](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg) | PROPOSTA |
+| Notes-Ecosistema | [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg), [UIR-0062](./EDITORIAL%20UI/IMMAGINI/UIR-0062.jpg), [UIR-0090](./PALETTE/IMMAGINI/UIR-0090.jpg), [UIR-0101](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0101.jpg) | PROPOSTA |
+| SleepMax Coach | [UIR-0029](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0029.jpg), [UIR-0056](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0056.jpg), [UIR-0060](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0060.jpg) | PROPOSTA |
+| TrailPath | [UIR-0047](./PALETTE/IMMAGINI/UIR-0047.jpg) | PROPOSTA |
+| Wonderlog | [UIR-0039](./PALETTE/IMMAGINI/UIR-0039.jpg), [UIR-0080](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0080.jpg), [UIR-0101](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0101.jpg) | PROPOSTA |
+| World Days | [UIR-0013](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg), [UIR-0037](./PALETTE/IMMAGINI/UIR-0037.jpg), [UIR-0041](./PALETTE/IMMAGINI/UIR-0041.jpg), [UIR-0071](./DESIGN%20SYSTEM/IMMAGINI/UIR-0071.jpg), [UIR-0073](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0073.jpg), [UIR-0083](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0083.jpg), [UIR-0091](./PALETTE/IMMAGINI/UIR-0091.jpg) | PROPOSTA |
 
 ### Y2K RETRO (ESTETICA)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| 180FlipCharge | UIR-0001, UIR-0012 | PROPOSTA |
-| Cooking Anime | UIR-0001, UIR-0012 | PROPOSTA |
-| Notes-Ecosistema | UIR-0001, UIR-0012 | PROPOSTA |
+| 180FlipCharge | [UIR-0001](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg), [UIR-0012](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0012.jpg) | PROPOSTA |
+| Cooking Anime | [UIR-0001](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg), [UIR-0012](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0012.jpg) | PROPOSTA |
+| Notes-Ecosistema | [UIR-0001](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg), [UIR-0012](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0012.jpg) | PROPOSTA |
 
 ### BENTO UI (UI)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| 180FlipCharge | UIR-0001 | PROPOSTA |
-| Anna's Diary | UIR-0003, UIR-0014, UIR-0019, UIR-0029, UIR-0063 | PROPOSTA |
-| App Factory Dashboard | UIR-0019, UIR-0063 | PROPOSTA |
-| Battery Guard | UIR-0005, UIR-0008, UIR-0027, UIR-0029 | PROPOSTA |
-| CamperBoss | UIR-0006 | PROPOSTA |
-| Cooking Anime | UIR-0001 | PROPOSTA |
-| FocusSense | UIR-0006, UIR-0008 | PROPOSTA |
-| Notes-Ecosistema | UIR-0001, UIR-0003, UIR-0014, UIR-0019 | PROPOSTA |
-| Pocket Guard | UIR-0005, UIR-0008, UIR-0027 | PROPOSTA |
-| SleepMax Coach | UIR-0005, UIR-0027, UIR-0029 | PROPOSTA |
-| TrailPath | UIR-0006 | PROPOSTA |
-| Wonderlog | UIR-0003, UIR-0014 | PROPOSTA |
+| 180FlipCharge | [UIR-0001](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg) | PROPOSTA |
+| Anna's Diary | [UIR-0003](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg), [UIR-0014](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg), [UIR-0019](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0019.jpg), [UIR-0029](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0029.jpg), [UIR-0063](./BENTO%20UI/IMMAGINI/UIR-0063.jpg) | PROPOSTA |
+| App Factory Dashboard | [UIR-0019](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0019.jpg), [UIR-0063](./BENTO%20UI/IMMAGINI/UIR-0063.jpg) | PROPOSTA |
+| Battery Guard | [UIR-0005](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0005.jpg), [UIR-0008](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0008.jpg), [UIR-0027](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0027.jpg), [UIR-0029](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0029.jpg) | PROPOSTA |
+| CamperBoss | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg) | PROPOSTA |
+| Cooking Anime | [UIR-0001](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg) | PROPOSTA |
+| FocusSense | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg), [UIR-0008](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0008.jpg) | PROPOSTA |
+| Notes-Ecosistema | [UIR-0001](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg), [UIR-0003](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg), [UIR-0014](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg), [UIR-0019](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0019.jpg) | PROPOSTA |
+| Pocket Guard | [UIR-0005](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0005.jpg), [UIR-0008](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0008.jpg), [UIR-0027](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0027.jpg) | PROPOSTA |
+| SleepMax Coach | [UIR-0005](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0005.jpg), [UIR-0027](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0027.jpg), [UIR-0029](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0029.jpg) | PROPOSTA |
+| TrailPath | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg) | PROPOSTA |
+| Wonderlog | [UIR-0003](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg), [UIR-0014](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg) | PROPOSTA |
 
 ### DESIGN SYSTEM (UI)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| 180FlipCharge | UIR-0012 | PROPOSTA |
-| Anna's Diary | UIR-0011, UIR-0013, UIR-0019, UIR-0020, UIR-0022, UIR-0034, UIR-0064, UIR-0086 | PROPOSTA |
-| App Factory Dashboard | UIR-0016, UIR-0019, UIR-0043, UIR-0049, UIR-0065, UIR-0070, UIR-0085, UIR-0087 | PROPOSTA |
-| Battery Guard | UIR-0007, UIR-0011, UIR-0017, UIR-0025, UIR-0065, UIR-0070, UIR-0085 | PROPOSTA |
-| CamperBoss | UIR-0072 | PROPOSTA |
-| CashMate AI | UIR-0015, UIR-0016, UIR-0017, UIR-0025, UIR-0043, UIR-0049, UIR-0065 | PROPOSTA |
-| Cooking Anime | UIR-0012, UIR-0071, UIR-0088 | PROPOSTA |
-| Deskland Android | UIR-0050 | PROPOSTA |
-| Easy Debloat | UIR-0025 | PROPOSTA |
-| FocusSense | UIR-0015, UIR-0017, UIR-0022, UIR-0050, UIR-0064, UIR-0088 | PROPOSTA |
-| FrameLab | UIR-0013, UIR-0020 | PROPOSTA |
-| Notes-Ecosistema | UIR-0007, UIR-0011, UIR-0012, UIR-0016, UIR-0019, UIR-0034, UIR-0049, UIR-0086, UIR-0087 | PROPOSTA |
-| SleepMax Coach | UIR-0007, UIR-0020, UIR-0022, UIR-0064 | PROPOSTA |
-| The Luminous Infinite Circle | UIR-0015 | PROPOSTA |
-| TrailPath | UIR-0072 | PROPOSTA |
-| Wonderlog | UIR-0034, UIR-0072 | PROPOSTA |
-| World Days | UIR-0013, UIR-0071 | PROPOSTA |
+| 180FlipCharge | [UIR-0012](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0012.jpg) | PROPOSTA |
+| Anna's Diary | [UIR-0011](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0011.jpg), [UIR-0013](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg), [UIR-0019](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0019.jpg), [UIR-0020](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0020.jpg), [UIR-0022](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0022.jpg), [UIR-0034](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NAVIGATION%20UI/IMMAGINI/UIR-0034.jpg), [UIR-0064](./DESIGN%20SYSTEM/IMMAGINI/UIR-0064.jpg), [UIR-0086](./DESIGN%20SYSTEM/IMMAGINI/UIR-0086.jpg) | PROPOSTA |
+| App Factory Dashboard | [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg), [UIR-0019](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0019.jpg), [UIR-0043](./DESIGN%20SYSTEM/IMMAGINI/UIR-0043.jpg), [UIR-0049](./DESIGN%20SYSTEM/IMMAGINI/UIR-0049.jpg), [UIR-0065](./DESIGN%20SYSTEM/IMMAGINI/UIR-0065.jpg), [UIR-0070](./DESIGN%20SYSTEM/IMMAGINI/UIR-0070.jpg), [UIR-0085](./DESIGN%20SYSTEM/IMMAGINI/UIR-0085.jpg), [UIR-0087](./DESIGN%20SYSTEM/IMMAGINI/UIR-0087.jpg) | PROPOSTA |
+| Battery Guard | [UIR-0007](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0007.jpg), [UIR-0011](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0011.jpg), [UIR-0017](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0017.jpg), [UIR-0025](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0025.jpg), [UIR-0065](./DESIGN%20SYSTEM/IMMAGINI/UIR-0065.jpg), [UIR-0070](./DESIGN%20SYSTEM/IMMAGINI/UIR-0070.jpg), [UIR-0085](./DESIGN%20SYSTEM/IMMAGINI/UIR-0085.jpg) | PROPOSTA |
+| CamperBoss | [UIR-0072](./DESIGN%20SYSTEM/IMMAGINI/UIR-0072.jpg) | PROPOSTA |
+| CashMate AI | [UIR-0015](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0015.jpg), [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg), [UIR-0017](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0017.jpg), [UIR-0025](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0025.jpg), [UIR-0043](./DESIGN%20SYSTEM/IMMAGINI/UIR-0043.jpg), [UIR-0049](./DESIGN%20SYSTEM/IMMAGINI/UIR-0049.jpg), [UIR-0065](./DESIGN%20SYSTEM/IMMAGINI/UIR-0065.jpg) | PROPOSTA |
+| Cooking Anime | [UIR-0012](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0012.jpg), [UIR-0071](./DESIGN%20SYSTEM/IMMAGINI/UIR-0071.jpg), [UIR-0088](./DESIGN%20SYSTEM/IMMAGINI/UIR-0088.jpg) | PROPOSTA |
+| Deskland Android | [UIR-0050](./DESIGN%20SYSTEM/IMMAGINI/UIR-0050.jpg) | PROPOSTA |
+| Easy Debloat | [UIR-0025](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0025.jpg) | PROPOSTA |
+| FocusSense | [UIR-0015](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0015.jpg), [UIR-0017](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0017.jpg), [UIR-0022](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0022.jpg), [UIR-0050](./DESIGN%20SYSTEM/IMMAGINI/UIR-0050.jpg), [UIR-0064](./DESIGN%20SYSTEM/IMMAGINI/UIR-0064.jpg), [UIR-0088](./DESIGN%20SYSTEM/IMMAGINI/UIR-0088.jpg) | PROPOSTA |
+| FrameLab | [UIR-0013](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg), [UIR-0020](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0020.jpg) | PROPOSTA |
+| Notes-Ecosistema | [UIR-0007](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0007.jpg), [UIR-0011](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0011.jpg), [UIR-0012](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0012.jpg), [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg), [UIR-0019](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0019.jpg), [UIR-0034](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NAVIGATION%20UI/IMMAGINI/UIR-0034.jpg), [UIR-0049](./DESIGN%20SYSTEM/IMMAGINI/UIR-0049.jpg), [UIR-0086](./DESIGN%20SYSTEM/IMMAGINI/UIR-0086.jpg), [UIR-0087](./DESIGN%20SYSTEM/IMMAGINI/UIR-0087.jpg) | PROPOSTA |
+| SleepMax Coach | [UIR-0007](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0007.jpg), [UIR-0020](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0020.jpg), [UIR-0022](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0022.jpg), [UIR-0064](./DESIGN%20SYSTEM/IMMAGINI/UIR-0064.jpg) | PROPOSTA |
+| The Luminous Infinite Circle | [UIR-0015](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0015.jpg) | PROPOSTA |
+| TrailPath | [UIR-0072](./DESIGN%20SYSTEM/IMMAGINI/UIR-0072.jpg) | PROPOSTA |
+| Wonderlog | [UIR-0034](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NAVIGATION%20UI/IMMAGINI/UIR-0034.jpg), [UIR-0072](./DESIGN%20SYSTEM/IMMAGINI/UIR-0072.jpg) | PROPOSTA |
+| World Days | [UIR-0013](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg), [UIR-0071](./DESIGN%20SYSTEM/IMMAGINI/UIR-0071.jpg) | PROPOSTA |
 
 ### EDITORIAL UI (UI)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| Anna's Diary | UIR-0062 | PROPOSTA |
-| CamperBoss | UIR-0006 | PROPOSTA |
-| FocusSense | UIR-0006 | PROPOSTA |
-| FrameLab | UIR-0033 | PROPOSTA |
-| Notes-Ecosistema | UIR-0062 | PROPOSTA |
-| TrailPath | UIR-0006 | PROPOSTA |
-| Wonderlog | UIR-0033 | PROPOSTA |
-| World Days | UIR-0033 | PROPOSTA |
+| Anna's Diary | [UIR-0062](./EDITORIAL%20UI/IMMAGINI/UIR-0062.jpg) | PROPOSTA |
+| CamperBoss | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg) | PROPOSTA |
+| FocusSense | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg) | PROPOSTA |
+| FrameLab | [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg) | PROPOSTA |
+| Notes-Ecosistema | [UIR-0062](./EDITORIAL%20UI/IMMAGINI/UIR-0062.jpg) | PROPOSTA |
+| TrailPath | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg) | PROPOSTA |
+| Wonderlog | [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg) | PROPOSTA |
+| World Days | [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg) | PROPOSTA |
 
 ### GLASSMORPHISM (UI)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| Battery Guard | UIR-0017 | PROPOSTA |
-| CamperBoss | UIR-0077 | PROPOSTA |
-| CashMate AI | UIR-0015, UIR-0017, UIR-0024, UIR-0026, UIR-0031 | PROPOSTA |
-| Deskland Android | UIR-0077 | PROPOSTA |
-| FocusSense | UIR-0015, UIR-0017, UIR-0024, UIR-0026, UIR-0031 | PROPOSTA |
-| The Luminous Infinite Circle | UIR-0015, UIR-0024, UIR-0026, UIR-0031 | PROPOSTA |
+| Battery Guard | [UIR-0017](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0017.jpg) | PROPOSTA |
+| CamperBoss | [UIR-0077](./GLASSMORPHISM/IMMAGINI/UIR-0077.jpg) | PROPOSTA |
+| CashMate AI | [UIR-0015](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0015.jpg), [UIR-0017](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0017.jpg), [UIR-0024](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0024.jpg), [UIR-0026](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0026.jpg), [UIR-0031](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0031.jpg) | PROPOSTA |
+| Deskland Android | [UIR-0077](./GLASSMORPHISM/IMMAGINI/UIR-0077.jpg) | PROPOSTA |
+| FocusSense | [UIR-0015](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0015.jpg), [UIR-0017](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0017.jpg), [UIR-0024](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0024.jpg), [UIR-0026](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0026.jpg), [UIR-0031](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0031.jpg) | PROPOSTA |
+| The Luminous Infinite Circle | [UIR-0015](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0015.jpg), [UIR-0024](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0024.jpg), [UIR-0026](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0026.jpg), [UIR-0031](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0031.jpg) | PROPOSTA |
 
 ### ILLUSTRATED CONTROLS (UI)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| 180FlipCharge | UIR-0009 | PROPOSTA |
-| Anna's Diary | UIR-0009 | PROPOSTA |
-| CamperBoss | UIR-0010 | PROPOSTA |
-| SleepMax Coach | UIR-0009, UIR-0010 | PROPOSTA |
-| Wonderlog | UIR-0010 | PROPOSTA |
+| 180FlipCharge | [UIR-0009](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0009.jpg) | PROPOSTA |
+| Anna's Diary | [UIR-0009](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0009.jpg) | PROPOSTA |
+| CamperBoss | [UIR-0010](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0010.jpg) | PROPOSTA |
+| SleepMax Coach | [UIR-0009](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0009.jpg), [UIR-0010](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0010.jpg) | PROPOSTA |
+| Wonderlog | [UIR-0010](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0010.jpg) | PROPOSTA |
 
 ### MINIMAL CONTROLS (UI)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| 180FlipCharge | UIR-0001, UIR-0012, UIR-0035 | PROPOSTA |
-| Anna's Diary | UIR-0011, UIR-0023, UIR-0029, UIR-0034, UIR-0073 | PROPOSTA |
-| App Factory Dashboard | UIR-0016 | PROPOSTA |
-| Battery Guard | UIR-0002, UIR-0005, UIR-0007, UIR-0008, UIR-0011, UIR-0025, UIR-0027, UIR-0029, UIR-0030, UIR-0035, UIR-0057, UIR-0059, UIR-0067 | PROPOSTA |
-| CashMate AI | UIR-0016, UIR-0024, UIR-0025, UIR-0026 | PROPOSTA |
-| Cooking Anime | UIR-0001, UIR-0012, UIR-0023 | PROPOSTA |
-| Deskland Android | UIR-0023, UIR-0057, UIR-0058, UIR-0059, UIR-0067 | PROPOSTA |
-| Easy Debloat | UIR-0002, UIR-0025, UIR-0030, UIR-0035 | PROPOSTA |
-| FocusSense | UIR-0008, UIR-0024, UIR-0026, UIR-0056, UIR-0058, UIR-0060, UIR-0061 | PROPOSTA |
-| FrameLab | UIR-0033 | PROPOSTA |
-| Notes-Ecosistema | UIR-0001, UIR-0007, UIR-0011, UIR-0012, UIR-0016, UIR-0034, UIR-0061 | PROPOSTA |
-| Pocket Guard | UIR-0002, UIR-0005, UIR-0008, UIR-0018, UIR-0027, UIR-0030 | PROPOSTA |
-| SleepMax Coach | UIR-0005, UIR-0007, UIR-0027, UIR-0029, UIR-0056, UIR-0060 | PROPOSTA |
-| Tabletop Motion Alarm | UIR-0018 | PROPOSTA |
-| The Luminous Infinite Circle | UIR-0018, UIR-0024, UIR-0026 | PROPOSTA |
-| Wonderlog | UIR-0033, UIR-0034 | PROPOSTA |
-| World Days | UIR-0033, UIR-0073 | PROPOSTA |
+| 180FlipCharge | [UIR-0001](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg), [UIR-0012](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0012.jpg), [UIR-0035](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0035.jpg) | PROPOSTA |
+| Anna's Diary | [UIR-0011](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0011.jpg), [UIR-0023](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SKEUOMORPHISM/IMMAGINI/UIR-0023.jpg), [UIR-0029](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0029.jpg), [UIR-0034](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NAVIGATION%20UI/IMMAGINI/UIR-0034.jpg), [UIR-0073](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0073.jpg) | PROPOSTA |
+| App Factory Dashboard | [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg) | PROPOSTA |
+| Battery Guard | [UIR-0002](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0002.jpg), [UIR-0005](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0005.jpg), [UIR-0007](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0007.jpg), [UIR-0008](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0008.jpg), [UIR-0011](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0011.jpg), [UIR-0025](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0025.jpg), [UIR-0027](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0027.jpg), [UIR-0029](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0029.jpg), [UIR-0030](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0030.jpg), [UIR-0035](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0035.jpg), [UIR-0057](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0057.jpg), [UIR-0059](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0059.jpg), [UIR-0067](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0067.jpg) | PROPOSTA |
+| CashMate AI | [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg), [UIR-0024](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0024.jpg), [UIR-0025](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0025.jpg), [UIR-0026](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0026.jpg) | PROPOSTA |
+| Cooking Anime | [UIR-0001](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg), [UIR-0012](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0012.jpg), [UIR-0023](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SKEUOMORPHISM/IMMAGINI/UIR-0023.jpg) | PROPOSTA |
+| Deskland Android | [UIR-0023](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SKEUOMORPHISM/IMMAGINI/UIR-0023.jpg), [UIR-0057](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0057.jpg), [UIR-0058](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0058.jpg), [UIR-0059](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0059.jpg), [UIR-0067](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0067.jpg) | PROPOSTA |
+| Easy Debloat | [UIR-0002](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0002.jpg), [UIR-0025](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0025.jpg), [UIR-0030](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0030.jpg), [UIR-0035](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0035.jpg) | PROPOSTA |
+| FocusSense | [UIR-0008](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0008.jpg), [UIR-0024](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0024.jpg), [UIR-0026](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0026.jpg), [UIR-0056](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0056.jpg), [UIR-0058](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0058.jpg), [UIR-0060](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0060.jpg), [UIR-0061](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0061.jpg) | PROPOSTA |
+| FrameLab | [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg) | PROPOSTA |
+| Notes-Ecosistema | [UIR-0001](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg), [UIR-0007](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0007.jpg), [UIR-0011](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0011.jpg), [UIR-0012](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0012.jpg), [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg), [UIR-0034](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NAVIGATION%20UI/IMMAGINI/UIR-0034.jpg), [UIR-0061](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0061.jpg) | PROPOSTA |
+| Pocket Guard | [UIR-0002](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0002.jpg), [UIR-0005](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0005.jpg), [UIR-0008](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0008.jpg), [UIR-0018](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0018.jpg), [UIR-0027](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0027.jpg), [UIR-0030](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0030.jpg) | PROPOSTA |
+| SleepMax Coach | [UIR-0005](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0005.jpg), [UIR-0007](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0007.jpg), [UIR-0027](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0027.jpg), [UIR-0029](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0029.jpg), [UIR-0056](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0056.jpg), [UIR-0060](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0060.jpg) | PROPOSTA |
+| Tabletop Motion Alarm | [UIR-0018](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0018.jpg) | PROPOSTA |
+| The Luminous Infinite Circle | [UIR-0018](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0018.jpg), [UIR-0024](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0024.jpg), [UIR-0026](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0026.jpg) | PROPOSTA |
+| Wonderlog | [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg), [UIR-0034](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NAVIGATION%20UI/IMMAGINI/UIR-0034.jpg) | PROPOSTA |
+| World Days | [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg), [UIR-0073](./MINIMAL%20CONTROLS/IMMAGINI/UIR-0073.jpg) | PROPOSTA |
 
 ### NATURE-TECH (UI)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| Anna's Diary | UIR-0021 | PROPOSTA |
-| CamperBoss | UIR-0006, UIR-0010, UIR-0021, UIR-0032 | PROPOSTA |
-| Deskland Android | UIR-0075 | PROPOSTA |
-| FocusSense | UIR-0006 | PROPOSTA |
-| SleepMax Coach | UIR-0010 | PROPOSTA |
-| TrailPath | UIR-0006, UIR-0032, UIR-0074 | PROPOSTA |
-| Wonderlog | UIR-0010, UIR-0021, UIR-0032, UIR-0074, UIR-0075 | PROPOSTA |
+| Anna's Diary | [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg) | PROPOSTA |
+| CamperBoss | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg), [UIR-0010](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0010.jpg), [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg), [UIR-0032](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0032.jpg) | PROPOSTA |
+| Deskland Android | [UIR-0075](./NATURE-TECH/IMMAGINI/UIR-0075.jpg) | PROPOSTA |
+| FocusSense | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg) | PROPOSTA |
+| SleepMax Coach | [UIR-0010](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0010.jpg) | PROPOSTA |
+| TrailPath | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg), [UIR-0032](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0032.jpg), [UIR-0074](./NATURE-TECH/IMMAGINI/UIR-0074.jpg) | PROPOSTA |
+| Wonderlog | [UIR-0010](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0010.jpg), [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg), [UIR-0032](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0032.jpg), [UIR-0074](./NATURE-TECH/IMMAGINI/UIR-0074.jpg), [UIR-0075](./NATURE-TECH/IMMAGINI/UIR-0075.jpg) | PROPOSTA |
 
 ### NAVIGATION UI (UI)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| Anna's Diary | UIR-0019, UIR-0034 | PROPOSTA |
-| App Factory Dashboard | UIR-0019 | PROPOSTA |
-| Notes-Ecosistema | UIR-0019, UIR-0034 | PROPOSTA |
-| Wonderlog | UIR-0034 | PROPOSTA |
+| Anna's Diary | [UIR-0019](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0019.jpg), [UIR-0034](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NAVIGATION%20UI/IMMAGINI/UIR-0034.jpg) | PROPOSTA |
+| App Factory Dashboard | [UIR-0019](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0019.jpg) | PROPOSTA |
+| Notes-Ecosistema | [UIR-0019](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0019.jpg), [UIR-0034](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NAVIGATION%20UI/IMMAGINI/UIR-0034.jpg) | PROPOSTA |
+| Wonderlog | [UIR-0034](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NAVIGATION%20UI/IMMAGINI/UIR-0034.jpg) | PROPOSTA |
 
 ### NEO-APPLE (UI)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| App Factory Dashboard | UIR-0016 | PROPOSTA |
-| CashMate AI | UIR-0015, UIR-0016, UIR-0026, UIR-0031 | PROPOSTA |
-| FocusSense | UIR-0015, UIR-0026, UIR-0031 | PROPOSTA |
-| Notes-Ecosistema | UIR-0016 | PROPOSTA |
-| The Luminous Infinite Circle | UIR-0015, UIR-0026, UIR-0031 | PROPOSTA |
+| App Factory Dashboard | [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg) | PROPOSTA |
+| CashMate AI | [UIR-0015](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0015.jpg), [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg), [UIR-0026](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0026.jpg), [UIR-0031](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0031.jpg) | PROPOSTA |
+| FocusSense | [UIR-0015](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0015.jpg), [UIR-0026](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0026.jpg), [UIR-0031](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0031.jpg) | PROPOSTA |
+| Notes-Ecosistema | [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg) | PROPOSTA |
+| The Luminous Infinite Circle | [UIR-0015](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0015.jpg), [UIR-0026](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0026.jpg), [UIR-0031](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0031.jpg) | PROPOSTA |
 
 ### NEUMORPHISM (UI)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| 180FlipCharge | UIR-0035 | PROPOSTA |
-| Anna's Diary | UIR-0011, UIR-0029 | PROPOSTA |
-| Battery Guard | UIR-0002, UIR-0005, UIR-0007, UIR-0008, UIR-0011, UIR-0017, UIR-0025, UIR-0027, UIR-0029, UIR-0030, UIR-0035, UIR-0069 | PROPOSTA |
-| CashMate AI | UIR-0017, UIR-0025 | PROPOSTA |
-| Deskland Android | UIR-0066, UIR-0069 | PROPOSTA |
-| Easy Debloat | UIR-0002, UIR-0025, UIR-0030, UIR-0035 | PROPOSTA |
-| FocusSense | UIR-0008, UIR-0017, UIR-0066, UIR-0068 | PROPOSTA |
-| Notes-Ecosistema | UIR-0007, UIR-0011, UIR-0066 | PROPOSTA |
-| Pocket Guard | UIR-0002, UIR-0005, UIR-0008, UIR-0018, UIR-0027, UIR-0030 | PROPOSTA |
-| SleepMax Coach | UIR-0005, UIR-0007, UIR-0027, UIR-0029, UIR-0068 | PROPOSTA |
-| Tabletop Motion Alarm | UIR-0018 | PROPOSTA |
-| The Luminous Infinite Circle | UIR-0018 | PROPOSTA |
+| 180FlipCharge | [UIR-0035](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0035.jpg) | PROPOSTA |
+| Anna's Diary | [UIR-0011](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0011.jpg), [UIR-0029](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0029.jpg) | PROPOSTA |
+| Battery Guard | [UIR-0002](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0002.jpg), [UIR-0005](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0005.jpg), [UIR-0007](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0007.jpg), [UIR-0008](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0008.jpg), [UIR-0011](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0011.jpg), [UIR-0017](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0017.jpg), [UIR-0025](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0025.jpg), [UIR-0027](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0027.jpg), [UIR-0029](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0029.jpg), [UIR-0030](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0030.jpg), [UIR-0035](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0035.jpg), [UIR-0069](./NEUMORPHISM/IMMAGINI/UIR-0069.jpg) | PROPOSTA |
+| CashMate AI | [UIR-0017](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0017.jpg), [UIR-0025](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0025.jpg) | PROPOSTA |
+| Deskland Android | [UIR-0066](./NEUMORPHISM/IMMAGINI/UIR-0066.jpg), [UIR-0069](./NEUMORPHISM/IMMAGINI/UIR-0069.jpg) | PROPOSTA |
+| Easy Debloat | [UIR-0002](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0002.jpg), [UIR-0025](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0025.jpg), [UIR-0030](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0030.jpg), [UIR-0035](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0035.jpg) | PROPOSTA |
+| FocusSense | [UIR-0008](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0008.jpg), [UIR-0017](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0017.jpg), [UIR-0066](./NEUMORPHISM/IMMAGINI/UIR-0066.jpg), [UIR-0068](./NEUMORPHISM/IMMAGINI/UIR-0068.jpg) | PROPOSTA |
+| Notes-Ecosistema | [UIR-0007](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0007.jpg), [UIR-0011](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0011.jpg), [UIR-0066](./NEUMORPHISM/IMMAGINI/UIR-0066.jpg) | PROPOSTA |
+| Pocket Guard | [UIR-0002](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0002.jpg), [UIR-0005](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0005.jpg), [UIR-0008](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0008.jpg), [UIR-0018](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0018.jpg), [UIR-0027](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0027.jpg), [UIR-0030](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0030.jpg) | PROPOSTA |
+| SleepMax Coach | [UIR-0005](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0005.jpg), [UIR-0007](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0007.jpg), [UIR-0027](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0027.jpg), [UIR-0029](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0029.jpg), [UIR-0068](./NEUMORPHISM/IMMAGINI/UIR-0068.jpg) | PROPOSTA |
+| Tabletop Motion Alarm | [UIR-0018](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0018.jpg) | PROPOSTA |
+| The Luminous Infinite Circle | [UIR-0018](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0018.jpg) | PROPOSTA |
 
 ### PALETTE (UI)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| Anna's Diary | UIR-0036, UIR-0037, UIR-0042, UIR-0044, UIR-0092, UIR-0093 | PROPOSTA |
-| Battery Guard | UIR-0040 | PROPOSTA |
-| CamperBoss | UIR-0038, UIR-0047, UIR-0089 | PROPOSTA |
-| CashMate AI | UIR-0040, UIR-0042 | PROPOSTA |
-| Cooking Anime | UIR-0039, UIR-0041, UIR-0090, UIR-0091 | PROPOSTA |
-| Deskland Android | UIR-0048 | PROPOSTA |
-| FocusSense | UIR-0040, UIR-0048 | PROPOSTA |
-| Notes-Ecosistema | UIR-0036, UIR-0042, UIR-0044, UIR-0090, UIR-0093 | PROPOSTA |
-| TrailPath | UIR-0038, UIR-0046, UIR-0047, UIR-0089 | PROPOSTA |
-| Wonderlog | UIR-0038, UIR-0039, UIR-0045, UIR-0046, UIR-0092 | PROPOSTA |
-| World Days | UIR-0037, UIR-0041, UIR-0045, UIR-0091 | PROPOSTA |
+| Anna's Diary | [UIR-0036](./PALETTE/IMMAGINI/UIR-0036.jpg), [UIR-0037](./PALETTE/IMMAGINI/UIR-0037.jpg), [UIR-0042](./PALETTE/IMMAGINI/UIR-0042.jpg), [UIR-0044](./PALETTE/IMMAGINI/UIR-0044.jpg), [UIR-0092](./PALETTE/IMMAGINI/UIR-0092.jpg), [UIR-0093](./PALETTE/IMMAGINI/UIR-0093.jpg) | PROPOSTA |
+| Battery Guard | [UIR-0040](./PALETTE/IMMAGINI/UIR-0040.jpg) | PROPOSTA |
+| CamperBoss | [UIR-0038](./PALETTE/IMMAGINI/UIR-0038.jpg), [UIR-0047](./PALETTE/IMMAGINI/UIR-0047.jpg), [UIR-0089](./PALETTE/IMMAGINI/UIR-0089.jpg) | PROPOSTA |
+| CashMate AI | [UIR-0040](./PALETTE/IMMAGINI/UIR-0040.jpg), [UIR-0042](./PALETTE/IMMAGINI/UIR-0042.jpg) | PROPOSTA |
+| Cooking Anime | [UIR-0039](./PALETTE/IMMAGINI/UIR-0039.jpg), [UIR-0041](./PALETTE/IMMAGINI/UIR-0041.jpg), [UIR-0090](./PALETTE/IMMAGINI/UIR-0090.jpg), [UIR-0091](./PALETTE/IMMAGINI/UIR-0091.jpg) | PROPOSTA |
+| Deskland Android | [UIR-0048](./PALETTE/IMMAGINI/UIR-0048.jpg) | PROPOSTA |
+| FocusSense | [UIR-0040](./PALETTE/IMMAGINI/UIR-0040.jpg), [UIR-0048](./PALETTE/IMMAGINI/UIR-0048.jpg) | PROPOSTA |
+| Notes-Ecosistema | [UIR-0036](./PALETTE/IMMAGINI/UIR-0036.jpg), [UIR-0042](./PALETTE/IMMAGINI/UIR-0042.jpg), [UIR-0044](./PALETTE/IMMAGINI/UIR-0044.jpg), [UIR-0090](./PALETTE/IMMAGINI/UIR-0090.jpg), [UIR-0093](./PALETTE/IMMAGINI/UIR-0093.jpg) | PROPOSTA |
+| TrailPath | [UIR-0038](./PALETTE/IMMAGINI/UIR-0038.jpg), [UIR-0046](./PALETTE/IMMAGINI/UIR-0046.jpg), [UIR-0047](./PALETTE/IMMAGINI/UIR-0047.jpg), [UIR-0089](./PALETTE/IMMAGINI/UIR-0089.jpg) | PROPOSTA |
+| Wonderlog | [UIR-0038](./PALETTE/IMMAGINI/UIR-0038.jpg), [UIR-0039](./PALETTE/IMMAGINI/UIR-0039.jpg), [UIR-0045](./PALETTE/IMMAGINI/UIR-0045.jpg), [UIR-0046](./PALETTE/IMMAGINI/UIR-0046.jpg), [UIR-0092](./PALETTE/IMMAGINI/UIR-0092.jpg) | PROPOSTA |
+| World Days | [UIR-0037](./PALETTE/IMMAGINI/UIR-0037.jpg), [UIR-0041](./PALETTE/IMMAGINI/UIR-0041.jpg), [UIR-0045](./PALETTE/IMMAGINI/UIR-0045.jpg), [UIR-0091](./PALETTE/IMMAGINI/UIR-0091.jpg) | PROPOSTA |
 
 ### PASTEL UI (UI)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| 180FlipCharge | UIR-0009 | PROPOSTA |
-| Anna's Diary | UIR-0003, UIR-0009, UIR-0013, UIR-0014, UIR-0020, UIR-0021, UIR-0022 | PROPOSTA |
-| CamperBoss | UIR-0021 | PROPOSTA |
-| FocusSense | UIR-0022 | PROPOSTA |
-| FrameLab | UIR-0013, UIR-0020, UIR-0033 | PROPOSTA |
-| Notes-Ecosistema | UIR-0003, UIR-0014 | PROPOSTA |
-| SleepMax Coach | UIR-0009, UIR-0020, UIR-0022 | PROPOSTA |
-| Wonderlog | UIR-0003, UIR-0014, UIR-0021, UIR-0033 | PROPOSTA |
-| World Days | UIR-0013, UIR-0033 | PROPOSTA |
+| 180FlipCharge | [UIR-0009](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0009.jpg) | PROPOSTA |
+| Anna's Diary | [UIR-0003](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg), [UIR-0009](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0009.jpg), [UIR-0013](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg), [UIR-0014](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg), [UIR-0020](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0020.jpg), [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg), [UIR-0022](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0022.jpg) | PROPOSTA |
+| CamperBoss | [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg) | PROPOSTA |
+| FocusSense | [UIR-0022](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0022.jpg) | PROPOSTA |
+| FrameLab | [UIR-0013](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg), [UIR-0020](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0020.jpg), [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg) | PROPOSTA |
+| Notes-Ecosistema | [UIR-0003](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg), [UIR-0014](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg) | PROPOSTA |
+| SleepMax Coach | [UIR-0009](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0009.jpg), [UIR-0020](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0020.jpg), [UIR-0022](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0022.jpg) | PROPOSTA |
+| Wonderlog | [UIR-0003](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg), [UIR-0014](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg), [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg), [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg) | PROPOSTA |
+| World Days | [UIR-0013](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg), [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg) | PROPOSTA |
 
 ### RETRO DESKTOP (UI)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| 180FlipCharge | UIR-0001, UIR-0012 | PROPOSTA |
-| Cooking Anime | UIR-0001, UIR-0012 | PROPOSTA |
-| Notes-Ecosistema | UIR-0001, UIR-0012 | PROPOSTA |
+| 180FlipCharge | [UIR-0001](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg), [UIR-0012](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0012.jpg) | PROPOSTA |
+| Cooking Anime | [UIR-0001](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg), [UIR-0012](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0012.jpg) | PROPOSTA |
+| Notes-Ecosistema | [UIR-0001](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg), [UIR-0012](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0012.jpg) | PROPOSTA |
 
 ### SCENIC BACKGROUND (UI)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| Anna's Diary | UIR-0079 | PROPOSTA |
-| Cooking Anime | UIR-0080 | PROPOSTA |
-| Deskland Android | UIR-0081, UIR-0083, UIR-0084 | PROPOSTA |
-| Notes-Ecosistema | UIR-0078, UIR-0082 | PROPOSTA |
-| SleepMax Coach | UIR-0078 | PROPOSTA |
-| Wonderlog | UIR-0080, UIR-0081, UIR-0084 | PROPOSTA |
-| World Days | UIR-0079, UIR-0082, UIR-0083 | PROPOSTA |
+| Anna's Diary | [UIR-0079](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0079.jpg) | PROPOSTA |
+| Cooking Anime | [UIR-0080](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0080.jpg) | PROPOSTA |
+| Deskland Android | [UIR-0081](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0081.jpg), [UIR-0083](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0083.jpg), [UIR-0084](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0084.jpg) | PROPOSTA |
+| Notes-Ecosistema | [UIR-0078](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0078.jpg), [UIR-0082](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0082.jpg) | PROPOSTA |
+| SleepMax Coach | [UIR-0078](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0078.jpg) | PROPOSTA |
+| Wonderlog | [UIR-0080](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0080.jpg), [UIR-0081](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0081.jpg), [UIR-0084](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0084.jpg) | PROPOSTA |
+| World Days | [UIR-0079](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0079.jpg), [UIR-0082](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0082.jpg), [UIR-0083](./SCENIC%20BACKGROUND/IMMAGINI/UIR-0083.jpg) | PROPOSTA |
 
 ### SCENIC ILLUSTRATION (UI)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| Anna's Diary | UIR-0094, UIR-0097, UIR-0099, UIR-0101 | PROPOSTA |
-| Cooking Anime | UIR-0094, UIR-0096, UIR-0097, UIR-0098, UIR-0100 | PROPOSTA |
-| Deskland Android | UIR-0095, UIR-0096, UIR-0098, UIR-0099, UIR-0100 | PROPOSTA |
-| Notes-Ecosistema | UIR-0101 | PROPOSTA |
-| Wonderlog | UIR-0094, UIR-0095, UIR-0096, UIR-0097, UIR-0099, UIR-0101 | PROPOSTA |
-| World Days | UIR-0095 | PROPOSTA |
+| Anna's Diary | [UIR-0094](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0094.jpg), [UIR-0097](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0097.jpg), [UIR-0099](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0099.jpg), [UIR-0101](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0101.jpg) | PROPOSTA |
+| Cooking Anime | [UIR-0094](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0094.jpg), [UIR-0096](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0096.jpg), [UIR-0097](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0097.jpg), [UIR-0098](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0098.jpg), [UIR-0100](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0100.jpg) | PROPOSTA |
+| Deskland Android | [UIR-0095](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0095.jpg), [UIR-0096](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0096.jpg), [UIR-0098](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0098.jpg), [UIR-0099](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0099.jpg), [UIR-0100](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0100.jpg) | PROPOSTA |
+| Notes-Ecosistema | [UIR-0101](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0101.jpg) | PROPOSTA |
+| Wonderlog | [UIR-0094](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0094.jpg), [UIR-0095](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0095.jpg), [UIR-0096](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0096.jpg), [UIR-0097](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0097.jpg), [UIR-0099](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0099.jpg), [UIR-0101](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0101.jpg) | PROPOSTA |
+| World Days | [UIR-0095](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0095.jpg) | PROPOSTA |
 
 ### SKEUOMORPHISM (UI)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| Anna's Diary | UIR-0023 | PROPOSTA |
-| Battery Guard | UIR-0053 | PROPOSTA |
-| CamperBoss | UIR-0032 | PROPOSTA |
-| CashMate AI | UIR-0024 | PROPOSTA |
-| Cooking Anime | UIR-0023 | PROPOSTA |
-| Deskland Android | UIR-0023, UIR-0053, UIR-0054, UIR-0055 | PROPOSTA |
-| FocusSense | UIR-0024, UIR-0053, UIR-0054, UIR-0055 | PROPOSTA |
-| SleepMax Coach | UIR-0054 | PROPOSTA |
-| The Luminous Infinite Circle | UIR-0024 | PROPOSTA |
-| TrailPath | UIR-0032 | PROPOSTA |
-| Wonderlog | UIR-0032 | PROPOSTA |
+| Anna's Diary | [UIR-0023](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SKEUOMORPHISM/IMMAGINI/UIR-0023.jpg) | PROPOSTA |
+| Battery Guard | [UIR-0053](./SKEUOMORPHISM/IMMAGINI/UIR-0053.jpg) | PROPOSTA |
+| CamperBoss | [UIR-0032](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0032.jpg) | PROPOSTA |
+| CashMate AI | [UIR-0024](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0024.jpg) | PROPOSTA |
+| Cooking Anime | [UIR-0023](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SKEUOMORPHISM/IMMAGINI/UIR-0023.jpg) | PROPOSTA |
+| Deskland Android | [UIR-0023](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SKEUOMORPHISM/IMMAGINI/UIR-0023.jpg), [UIR-0053](./SKEUOMORPHISM/IMMAGINI/UIR-0053.jpg), [UIR-0054](./SKEUOMORPHISM/IMMAGINI/UIR-0054.jpg), [UIR-0055](./SKEUOMORPHISM/IMMAGINI/UIR-0055.jpg) | PROPOSTA |
+| FocusSense | [UIR-0024](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0024.jpg), [UIR-0053](./SKEUOMORPHISM/IMMAGINI/UIR-0053.jpg), [UIR-0054](./SKEUOMORPHISM/IMMAGINI/UIR-0054.jpg), [UIR-0055](./SKEUOMORPHISM/IMMAGINI/UIR-0055.jpg) | PROPOSTA |
+| SleepMax Coach | [UIR-0054](./SKEUOMORPHISM/IMMAGINI/UIR-0054.jpg) | PROPOSTA |
+| The Luminous Infinite Circle | [UIR-0024](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0024.jpg) | PROPOSTA |
+| TrailPath | [UIR-0032](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0032.jpg) | PROPOSTA |
+| Wonderlog | [UIR-0032](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0032.jpg) | PROPOSTA |
 
 ### SOFT 3D (UI)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| Anna's Diary | UIR-0003, UIR-0014, UIR-0021, UIR-0023, UIR-0051 | PROPOSTA |
-| App Factory Dashboard | UIR-0052, UIR-0076 | PROPOSTA |
-| CamperBoss | UIR-0021 | PROPOSTA |
-| CashMate AI | UIR-0052 | PROPOSTA |
-| Cooking Anime | UIR-0023 | PROPOSTA |
-| Deskland Android | UIR-0023 | PROPOSTA |
-| FocusSense | UIR-0051, UIR-0052, UIR-0076 | PROPOSTA |
-| Notes-Ecosistema | UIR-0003, UIR-0014, UIR-0051 | PROPOSTA |
-| Wonderlog | UIR-0003, UIR-0014, UIR-0021 | PROPOSTA |
+| Anna's Diary | [UIR-0003](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg), [UIR-0014](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg), [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg), [UIR-0023](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SKEUOMORPHISM/IMMAGINI/UIR-0023.jpg), [UIR-0051](./SOFT%203D/IMMAGINI/UIR-0051.jpg) | PROPOSTA |
+| App Factory Dashboard | [UIR-0052](./SOFT%203D/IMMAGINI/UIR-0052.jpg), [UIR-0076](./SOFT%203D/IMMAGINI/UIR-0076.jpg) | PROPOSTA |
+| CamperBoss | [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg) | PROPOSTA |
+| CashMate AI | [UIR-0052](./SOFT%203D/IMMAGINI/UIR-0052.jpg) | PROPOSTA |
+| Cooking Anime | [UIR-0023](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SKEUOMORPHISM/IMMAGINI/UIR-0023.jpg) | PROPOSTA |
+| Deskland Android | [UIR-0023](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SKEUOMORPHISM/IMMAGINI/UIR-0023.jpg) | PROPOSTA |
+| FocusSense | [UIR-0051](./SOFT%203D/IMMAGINI/UIR-0051.jpg), [UIR-0052](./SOFT%203D/IMMAGINI/UIR-0052.jpg), [UIR-0076](./SOFT%203D/IMMAGINI/UIR-0076.jpg) | PROPOSTA |
+| Notes-Ecosistema | [UIR-0003](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg), [UIR-0014](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg), [UIR-0051](./SOFT%203D/IMMAGINI/UIR-0051.jpg) | PROPOSTA |
+| Wonderlog | [UIR-0003](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg), [UIR-0014](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg), [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg) | PROPOSTA |
 
 ### TOGGLE & SWITCH (UI)
 
 | App candidate | Riferimenti | Stato |
 |---|---|---|
-| 180FlipCharge | UIR-0009, UIR-0035 | PROPOSTA |
-| Anna's Diary | UIR-0009 | PROPOSTA |
-| Battery Guard | UIR-0002, UIR-0030, UIR-0035 | PROPOSTA |
-| CamperBoss | UIR-0010, UIR-0032 | PROPOSTA |
-| CashMate AI | UIR-0031 | PROPOSTA |
-| Easy Debloat | UIR-0002, UIR-0030, UIR-0035 | PROPOSTA |
-| FocusSense | UIR-0031 | PROPOSTA |
-| Pocket Guard | UIR-0002, UIR-0018, UIR-0030 | PROPOSTA |
-| SleepMax Coach | UIR-0009, UIR-0010 | PROPOSTA |
-| Tabletop Motion Alarm | UIR-0018 | PROPOSTA |
-| The Luminous Infinite Circle | UIR-0018, UIR-0031 | PROPOSTA |
-| TrailPath | UIR-0032 | PROPOSTA |
-| Wonderlog | UIR-0010, UIR-0032 | PROPOSTA |
+| 180FlipCharge | [UIR-0009](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0009.jpg), [UIR-0035](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0035.jpg) | PROPOSTA |
+| Anna's Diary | [UIR-0009](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0009.jpg) | PROPOSTA |
+| Battery Guard | [UIR-0002](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0002.jpg), [UIR-0030](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0030.jpg), [UIR-0035](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0035.jpg) | PROPOSTA |
+| CamperBoss | [UIR-0010](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0010.jpg), [UIR-0032](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0032.jpg) | PROPOSTA |
+| CashMate AI | [UIR-0031](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0031.jpg) | PROPOSTA |
+| Easy Debloat | [UIR-0002](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0002.jpg), [UIR-0030](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0030.jpg), [UIR-0035](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0035.jpg) | PROPOSTA |
+| FocusSense | [UIR-0031](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0031.jpg) | PROPOSTA |
+| Pocket Guard | [UIR-0002](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0002.jpg), [UIR-0018](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0018.jpg), [UIR-0030](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0030.jpg) | PROPOSTA |
+| SleepMax Coach | [UIR-0009](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0009.jpg), [UIR-0010](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0010.jpg) | PROPOSTA |
+| Tabletop Motion Alarm | [UIR-0018](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0018.jpg) | PROPOSTA |
+| The Luminous Infinite Circle | [UIR-0018](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0018.jpg), [UIR-0031](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0031.jpg) | PROPOSTA |
+| TrailPath | [UIR-0032](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0032.jpg) | PROPOSTA |
+| Wonderlog | [UIR-0010](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0010.jpg), [UIR-0032](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0032.jpg) | PROPOSTA |
 
 
 **Importante**: `PROPOSTA` indica affinità estetica, non approvazione del design, componente installato, Golden o donor. Le opere originarie potrebbero essere pubblicamente visibili ma avere copyright; nessun binario ripubblicato senza autorizzazione verificata.

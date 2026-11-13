@@ -159,3 +159,12 @@ La classificazione trasversale dei **99 riferimenti unici** è consultabile [per
 ## Dichiarazione personale sulla licenza dei riferimenti — 13 novembre 2026
 
 L'utente dichiara una **licenza personale** per tutte le immagini dei lotti 12–13/11/2026 (99 JPG distinti). La [dichiarazione e il perimetro](./UI-UX/DICHIARAZIONE_LICENZA_PERSONALE_2026-11-13.md) sono registrati nei due cataloghi JSON. Stato: `USER_DECLARED_PERSONAL_LICENSE`, non prova indipendente della licenza o di un permesso di redistribuzione pubblica. Le classificazioni e le associazioni molti-a-molti rimangono invariate.
+
+
+## Anteprime immediate dei riferimenti UIR
+
+- Ogni identificativo `UIR-xxxx` nelle matrici e nelle schede è un collegamento diretto alla rispettiva immagine JPEG. Per i 66 file nuovi il link è relativo a `main`; per i 33 originali della [PR #17](https://github.com/riccardopinato/Design-App/pull/17), ancora non integrati, il collegamento usa il commit che contiene gli asset.
+- [Anteprime espandibili direttamente in GitHub](./UI-UX/ANTEPRIME_99.md): cliccare il nome UIR per mostrare/nascondere l'immagine senza lasciare la pagina.
+- [Visualizzatore HTML con sovrimpressione](./docs/index.html): ricerca, filtri app/stile, tastiera, collegamento condivisibile `#UIR-0036`. **Il file HTML su github.com viene mostrato come codice**; per usarlo come sito va attivato GitHub Pages su `main /docs` (vedi [istruzioni](./docs/README.md)).
+
+La classificazione resta molti-a-molti, con un solo file JPG per riferimento; la visualizzazione non trasforma automaticamente una reference in una capability implementata.

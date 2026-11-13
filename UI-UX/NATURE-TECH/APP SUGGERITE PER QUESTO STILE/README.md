@@ -17,11 +17,11 @@ Ulteriori proposte dopo la classificazione delle immagini, non approvazione del 
 
 | App | Riferimenti (ID) |
 |---|---|
-| Anna's Diary | UIR-0021 |
-| CamperBoss | UIR-0006, UIR-0010, UIR-0021, UIR-0032 |
-| FocusSense | UIR-0006 |
-| SleepMax Coach | UIR-0010 |
-| TrailPath | UIR-0006, UIR-0032 |
-| Wonderlog | UIR-0010, UIR-0021, UIR-0032 |
+| Anna's Diary | [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg) |
+| CamperBoss | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg), [UIR-0010](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0010.jpg), [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg), [UIR-0032](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0032.jpg) |
+| FocusSense | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg) |
+| SleepMax Coach | [UIR-0010](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0010.jpg) |
+| TrailPath | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg), [UIR-0032](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0032.jpg) |
+| Wonderlog | [UIR-0010](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0010.jpg), [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg), [UIR-0032](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0032.jpg) |
 
 [Specifiche dei riferimenti](../../RIFERIMENTI_UTENTE_2026-11-12.md) · [Matrice app complessiva](../../MATRICE_APP_RIFERIMENTI_2026-11-12.md).

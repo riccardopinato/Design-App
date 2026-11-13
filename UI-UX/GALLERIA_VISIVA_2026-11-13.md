@@ -402,3 +402,5 @@ Path: `UI-UX/SCENIC ILLUSTRATION/IMMAGINI/UIR-0100.jpg` · SHA-256 `da3cbc5d464d
 ![UIR-0101](./SCENIC%20ILLUSTRATION/IMMAGINI/UIR-0101.jpg)
 
 Path: `UI-UX/SCENIC ILLUSTRATION/IMMAGINI/UIR-0101.jpg` · SHA-256 `36bb354d78f97316650b920b253a9ef55a53061dd0e376715cd13d4bd66934a2`
+
+Per aprire le stesse reference come anteprime espandibili consulta [Anteprime UIR 99](./ANTEPRIME_99.md); per la sovrimpressione HTML vedi [docs](../docs/README.md).

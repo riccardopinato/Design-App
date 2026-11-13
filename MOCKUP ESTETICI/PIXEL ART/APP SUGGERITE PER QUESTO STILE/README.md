@@ -17,8 +17,8 @@ Queste sono proposte estetiche, non design approvati o implementati. I JPG origi
 
 | App | ID riferimenti |
 |---|---|
-| 180FlipCharge | UIR-0001, UIR-0012 |
-| Cooking Anime | UIR-0001, UIR-0012 |
-| Notes-Ecosistema | UIR-0001, UIR-0012 |
+| 180FlipCharge | [UIR-0001](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg), [UIR-0012](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0012.jpg) |
+| Cooking Anime | [UIR-0001](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg), [UIR-0012](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0012.jpg) |
+| Notes-Ecosistema | [UIR-0001](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg), [UIR-0012](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0012.jpg) |
 
 [Catalogo estetico](../../RIFERIMENTI_UTENTE_2026-11-12.md) · [Matrice inversa app](../../../UI-UX/MATRICE_APP_RIFERIMENTI_2026-11-12.md).

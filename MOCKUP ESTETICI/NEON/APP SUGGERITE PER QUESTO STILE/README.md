@@ -17,18 +17,18 @@ Queste sono proposte estetiche, non design approvati o implementati. I JPG origi
 
 | App | ID riferimenti |
 |---|---|
-| Anna's Diary | UIR-0020, UIR-0022 |
-| App Factory Dashboard | UIR-0016 |
-| Battery Guard | UIR-0017 |
-| CamperBoss | UIR-0006 |
-| CashMate AI | UIR-0015, UIR-0016, UIR-0017, UIR-0024, UIR-0026, UIR-0031 |
-| FocusSense | UIR-0006, UIR-0015, UIR-0017, UIR-0022, UIR-0024, UIR-0026, UIR-0031 |
-| FrameLab | UIR-0020 |
-| Notes-Ecosistema | UIR-0016 |
-| Pocket Guard | UIR-0018 |
-| SleepMax Coach | UIR-0020, UIR-0022 |
-| Tabletop Motion Alarm | UIR-0018 |
-| The Luminous Infinite Circle | UIR-0015, UIR-0018, UIR-0024, UIR-0026, UIR-0031 |
-| TrailPath | UIR-0006 |
+| Anna's Diary | [UIR-0020](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0020.jpg), [UIR-0022](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0022.jpg) |
+| App Factory Dashboard | [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg) |
+| Battery Guard | [UIR-0017](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0017.jpg) |
+| CamperBoss | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg) |
+| CashMate AI | [UIR-0015](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0015.jpg), [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg), [UIR-0017](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0017.jpg), [UIR-0024](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0024.jpg), [UIR-0026](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0026.jpg), [UIR-0031](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0031.jpg) |
+| FocusSense | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg), [UIR-0015](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0015.jpg), [UIR-0017](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0017.jpg), [UIR-0022](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0022.jpg), [UIR-0024](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0024.jpg), [UIR-0026](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0026.jpg), [UIR-0031](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0031.jpg) |
+| FrameLab | [UIR-0020](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0020.jpg) |
+| Notes-Ecosistema | [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg) |
+| Pocket Guard | [UIR-0018](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0018.jpg) |
+| SleepMax Coach | [UIR-0020](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0020.jpg), [UIR-0022](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0022.jpg) |
+| Tabletop Motion Alarm | [UIR-0018](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0018.jpg) |
+| The Luminous Infinite Circle | [UIR-0015](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0015.jpg), [UIR-0018](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0018.jpg), [UIR-0024](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0024.jpg), [UIR-0026](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0026.jpg), [UIR-0031](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0031.jpg) |
+| TrailPath | [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg) |
 
 [Catalogo estetico](../../RIFERIMENTI_UTENTE_2026-11-12.md) · [Matrice inversa app](../../../UI-UX/MATRICE_APP_RIFERIMENTI_2026-11-12.md).
