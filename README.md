@@ -147,3 +147,11 @@ Nuova sezione [UI/UX](./UI-UX/README.md) per catalogare tecniche visive, pattern
 ## Riferimenti visuali forniti dall'utente — novembre 2026
 
 [Catalogo UI/UX completo](./UI-UX/RIFERIMENTI_UTENTE_2026-11-12.md) · [Matrice per app](./UI-UX/MATRICE_APP_RIFERIMENTI_2026-11-12.md) · [Catalogo estetico](./MOCKUP%20ESTETICI/RIFERIMENTI_UTENTE_2026-11-12.md). 35 upload, 33 unici. Originali non pubblicati senza licenze/diritti verificati; nessuna app modificata.
+
+## Riferimenti visuali forniti dall'utente — 13 novembre 2026
+
+[Nuovo catalogo UI/UX 66 riferimenti](./UI-UX/RIFERIMENTI_UTENTE_2026-11-13.md) · [Registro JSON con SHA-256 e duplicati](./UI-UX/REGISTRO_RIFERIMENTI_UTENTE_2026-11-13.json) · [Matrice app](./UI-UX/MATRICE_APP_RIFERIMENTI_2026-11-13.md) · [Indice estetico](./MOCKUP%20ESTETICI/RIFERIMENTI_UTENTE_2026-11-13.md). 77 upload, 66 nuovi unici, 11 duplicati esatti. Il precedente lotto del 12/11 resta invariato (33 unici); totale due lotti: 99 unici. Materiale REFERENCE_ONLY: i file di terzi non sono stati ripubblicati e nessuna app è stata modificata.
+
+## Matrice molti-a-molti App ↔ Stili (12–13/11/2026)
+
+La classificazione trasversale dei **99 riferimenti unici** è consultabile [per app](./UI-UX/PER_APP_STILI_2026-11-13.md) oppure [per stile](./UI-UX/PER_STILE_APP_2026-11-13.md). Il [registro relazionale JSON](./UI-UX/MATRICE_BIDIREZIONALE_APP_STILI_2026-11-13.json) contiene **254 coppie stile–app** e **771 link stile–app–reference**, con viste coerenti derivate dalle stesse associazioni. Gli originali restano fuori dal repository pubblico fino a verifica dei diritti di redistribuzione.
