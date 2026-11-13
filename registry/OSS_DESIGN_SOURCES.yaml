@@ -17,6 +17,21 @@ additional_research:
   factory_baseline: "riccardopinato/App-Factory-Core@e9507056601c4a6751510da4c5d1f61601a5dc25"
   new_sources: 22
   focus: "Design app galleries, Material 3 Expressive, Liquid Glass, responsive, micro-interactions, gesture UX and web UI patterns."
+targeted_intakes:
+  - batch_id: RUIXEN_UI_2026_11_13
+    observed_at: "2026-11-13"
+    new_sources: 1
+    source_repository: "ruixenui/ruixen.com"
+    source_ref: "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
+    source_dir: "registry/ruixenui"
+    source_files_indexed: 277
+    hand_curated_candidates: 41
+    sampled_source_files_read: 8
+    status: REFERENCE
+    role: "React/shadcn marketing and app-UI component reference, motion and visual generators; Flutter native implementation only."
+    inventory_path: "sources/RUIXEN_UI_REGISTRY_INVENTORY_2026-11-13.json"
+    audit_path: "sources/RUIXEN_UI_DESIGN_MOTION_AUDIT_2026-11-13.md"
+
 sources:
   - {repo: "fyne-io/fyne", utility: 96, ease: 62, deepen: true}
   - {repo: "penpot/penpot", utility: 88, ease: 46, deepen: true, role: "canvas interaction and design-token reference"}
@@ -751,3 +766,19 @@ sources:
     last_commit_activity_date: "2026-10-30"
     role: "Dense enterprise dashboard/form/table design patterns, only when app density requires."
     copy_policy: "REFERENCE_ONLY"
+  
+  - repo: "ruixenui/ruixen.com"
+    batch: RUIXEN_UI_2026_11_13
+    domain: "ui-components; motion; design generators"
+    stack: "React / TypeScript / Tailwind v3-v4 / shadcn / Radix or Base UI / motion"
+    license: "MIT (free repository LICENSE.md only; Ruixen Pro separate commercial license)"
+    source_ref: "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
+    source_path: "registry/ruixenui"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: A
+    last_commit_activity_date: "2026-09-12"
+    role: "277 source TSX file references pinned and 41 curated App Factory patterns; web reuse after dependency review, native Flutter/Compose conceptual adaptation."
+    copy_policy: "REFERENCE_ONLY_FOR_NATIVE; MIT_CODE_REUSE_FOR_WEB_AFTER_AUDIT"
+    catalogue_path: "sources/RUIXEN_UI_CURATED_APP_MAP_2026-11-13.json"
+    note: "Source files catalogued, 8 sampled; neither tests nor runtime integration proven. No Ruixen Pro content imported."

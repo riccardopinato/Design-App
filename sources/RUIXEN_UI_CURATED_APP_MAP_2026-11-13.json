@@ -1,0 +1,1042 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-11-13",
+  "source_id": "RUIXEN_UI_2026_11_13",
+  "source_repository": "ruixenui/ruixen.com",
+  "immutable_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941",
+  "source_inventory": "RUIXEN_UI_REGISTRY_INVENTORY_2026-11-13.json",
+  "curated_count": 41,
+  "status": "REFERENCE",
+  "reuse_rule": "MIT code may be adopted for a compatible web app after dependency/asset-level review; Flutter/Compose require native implementation, not direct React copy.",
+  "items": [
+    {
+      "id": "RUX-001",
+      "slug": "calendar-planner",
+      "label": "Calendar Planner",
+      "category": "calendari",
+      "priority": "A",
+      "apps": [
+        "Anna's Diary",
+        "World Days",
+        "Wonderlog"
+      ],
+      "idea": "Timeline editoriale verticale per eventi e ricordi; preservare viste approvate",
+      "risks": "Non sostituire il calendario core; ridurre movimento",
+      "related_existing_design_patterns": [
+        "DS-005",
+        "DS-009"
+      ],
+      "pinned_code_path": "registry/ruixenui/calendar-planner.tsx",
+      "pinned_code_sha": "89404451efffe574af5d66d2728b3d2316fde963",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/calendar-planner.tsx",
+      "source_read_sampled": true,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-002",
+      "slug": "three-dwall-calendar",
+      "label": "Three Dwall Calendar",
+      "category": "calendari",
+      "priority": "B",
+      "apps": [
+        "Anna's Diary",
+        "World Days",
+        "Deskland Android"
+      ],
+      "idea": "Calendario cartaceo 3D a profondità e cambio mese",
+      "risks": "Hover non disponibile su mobile; CPU/suono opzionale",
+      "related_existing_design_patterns": [
+        "DS-005",
+        "DS-032"
+      ],
+      "pinned_code_path": "registry/ruixenui/three-dwall-calendar.tsx",
+      "pinned_code_sha": "8e231bdccd635d5a65da0348d515815e100e56be",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/three-dwall-calendar.tsx",
+      "source_read_sampled": true,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-003",
+      "slug": "calendar-wave",
+      "label": "Calendar Wave",
+      "category": "calendari",
+      "priority": "A",
+      "apps": [
+        "Anna's Diary",
+        "World Days"
+      ],
+      "idea": "Animazione calendario e transizioni di selezione giorno",
+      "risks": "Controllare riduzione movimento e contrasto",
+      "related_existing_design_patterns": [
+        "DS-005",
+        "DS-025"
+      ],
+      "pinned_code_path": "registry/ruixenui/calendar-wave.tsx",
+      "pinned_code_sha": "b3ecab2acd5d59f728aed9d6de7124a7960a8454",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/calendar-wave.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-004",
+      "slug": "calendar-lume",
+      "label": "Calendar Lume",
+      "category": "calendari",
+      "priority": "B",
+      "apps": [
+        "Anna's Diary",
+        "World Days"
+      ],
+      "idea": "Calendario di tipo visual-editorial con gerarchia giorno",
+      "risks": "Non alterare la palette rose/colore attuale",
+      "related_existing_design_patterns": [
+        "DS-009",
+        "DS-025"
+      ],
+      "pinned_code_path": "registry/ruixenui/calendar-lume.tsx",
+      "pinned_code_sha": "66d7ddc893df7f1bc9c9d21595190c2fd80b71b5",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/calendar-lume.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-005",
+      "slug": "calendar-scheduler",
+      "label": "Calendar Scheduler",
+      "category": "calendari",
+      "priority": "A",
+      "apps": [
+        "Anna's Diary",
+        "CamperBoss",
+        "Wonderlog"
+      ],
+      "idea": "Slot temporali e planning contestuale",
+      "risks": "Fusi orari DST, sovrapposizione eventi, scalabilità",
+      "related_existing_design_patterns": [
+        "DS-006",
+        "DS-017"
+      ],
+      "pinned_code_path": "registry/ruixenui/calendar-scheduler.tsx",
+      "pinned_code_sha": "3f2772e5e80b9fb22897995a661a839ca34e06b9",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/calendar-scheduler.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-006",
+      "slug": "event-scheduler",
+      "label": "Event Scheduler",
+      "category": "calendari",
+      "priority": "A",
+      "apps": [
+        "Anna's Diary",
+        "World Days",
+        "CamperBoss"
+      ],
+      "idea": "Gestione eventi/programma e dettagli contestuali",
+      "risks": "Preferire engine dati esistente; nessuna sostituzione sync",
+      "related_existing_design_patterns": [
+        "DS-006",
+        "DS-017"
+      ],
+      "pinned_code_path": "registry/ruixenui/event-scheduler.tsx",
+      "pinned_code_sha": "41f429f2ad55c99149c1ba43a37258e0ce1f3e72",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/event-scheduler.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-007",
+      "slug": "range-calendar",
+      "label": "Range Calendar",
+      "category": "calendari",
+      "priority": "A",
+      "apps": [
+        "Anna's Diary",
+        "Wonderlog",
+        "CamperBoss",
+        "TrailPath"
+      ],
+      "idea": "Selezione intervalli date per viaggio o ricordi",
+      "risks": "Test selezione inclusiva, fusi orari, tastiera",
+      "related_existing_design_patterns": [
+        "DS-004",
+        "DS-025"
+      ],
+      "pinned_code_path": "registry/ruixenui/range-calendar.tsx",
+      "pinned_code_sha": "728856e1c4f952d13817f95350ffdae03cc65bb2",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/range-calendar.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-008",
+      "slug": "drum-picker",
+      "label": "Drum Picker",
+      "category": "controlli",
+      "priority": "B",
+      "apps": [
+        "Anna's Diary",
+        "SleepMax Coach",
+        "Cooking Anime"
+      ],
+      "idea": "Picker a tamburo tattile per data/ora o dosi",
+      "risks": "Evitare componenti critici troppo decorativi",
+      "related_existing_design_patterns": [
+        "DS-005",
+        "DS-015"
+      ],
+      "pinned_code_path": "registry/ruixenui/drum-picker.tsx",
+      "pinned_code_sha": "21f50c0f5802e3167b833751e85a8c883e167251",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/drum-picker.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-009",
+      "slug": "scrub-datetime",
+      "label": "Scrub Datetime",
+      "category": "controlli",
+      "priority": "B",
+      "apps": [
+        "Anna's Diary",
+        "Wonderlog",
+        "SleepMax Coach"
+      ],
+      "idea": "Modifica rapida di date e ore con scrub",
+      "risks": "Alternative accessibili a input manuale e swipe",
+      "related_existing_design_patterns": [
+        "DS-005",
+        "DS-015"
+      ],
+      "pinned_code_path": "registry/ruixenui/scrub-datetime.tsx",
+      "pinned_code_sha": "6d3722a39a5c956c6b00a75440fbba52f5cf55af",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scrub-datetime.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-010",
+      "slug": "color-picker-input",
+      "label": "Color Picker Input",
+      "category": "palette",
+      "priority": "A",
+      "apps": [
+        "Anna's Diary",
+        "Notes-Ecosistema",
+        "Deskland Android",
+        "World Days"
+      ],
+      "idea": "Swatch HEX e alpha; confronto con picker HSV già deciso",
+      "risks": "Non sostituire HSV 2D+Hue senza test; normalizzare HSL/HSV/HEX",
+      "related_existing_design_patterns": [
+        "DS-001",
+        "DS-008"
+      ],
+      "pinned_code_path": "registry/ruixenui/color-picker-input.tsx",
+      "pinned_code_sha": "596397fc3b35f267303e47f370fae89c78c701a1",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/color-picker-input.tsx",
+      "source_read_sampled": true,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-011",
+      "slug": "color-emotion-select",
+      "label": "Color Emotion Select",
+      "category": "palette",
+      "priority": "B",
+      "apps": [
+        "Anna's Diary",
+        "Notes-Ecosistema",
+        "FocusSense"
+      ],
+      "idea": "Selettore di colori con significato emotivo contestuale",
+      "risks": "Accessibilità e label indipendenti dal colore",
+      "related_existing_design_patterns": [
+        "DS-008",
+        "DS-010"
+      ],
+      "pinned_code_path": "registry/ruixenui/color-emotion-select.tsx",
+      "pinned_code_sha": "0a5472165cc75683e33fee2395a1cb02c0cfb66c",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/color-emotion-select.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-012",
+      "slug": "magic-tree",
+      "label": "Magic Tree",
+      "category": "workspace",
+      "priority": "A",
+      "apps": [
+        "Notes-Ecosistema",
+        "App Factory Dashboard",
+        "Deskland Android"
+      ],
+      "idea": "Albero di cartelle/nodi, espansione animata, selezione",
+      "risks": "Virtualizzare liste grandi, comportamento tastiera",
+      "related_existing_design_patterns": [
+        "DS-020",
+        "DS-005"
+      ],
+      "pinned_code_path": "registry/ruixenui/magic-tree.tsx",
+      "pinned_code_sha": "49a2a0d8da893755c1beae6f682020f15a0662d5",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/magic-tree.tsx",
+      "source_read_sampled": true,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-013",
+      "slug": "motion-file-tree",
+      "label": "Motion File Tree",
+      "category": "workspace",
+      "priority": "A",
+      "apps": [
+        "Notes-Ecosistema",
+        "App Factory Dashboard",
+        "Send-to-PC"
+      ],
+      "idea": "Albero file con transizioni e selezione progressiva",
+      "risks": "Separare file-system reale da visual tree",
+      "related_existing_design_patterns": [
+        "DS-020",
+        "DS-005"
+      ],
+      "pinned_code_path": "registry/ruixenui/motion-file-tree.tsx",
+      "pinned_code_sha": "dc2e80a69f71d31bfcc5ecc0e64e7e277cd0dfaf",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/motion-file-tree.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-014",
+      "slug": "nested-dashboard-menu",
+      "label": "Nested Dashboard Menu",
+      "category": "navigazione",
+      "priority": "A",
+      "apps": [
+        "App Factory Dashboard",
+        "Notes-Ecosistema",
+        "Deskland Android"
+      ],
+      "idea": "Navigazione nidificata per moduli, donor, capability",
+      "risks": "Ciclo focus, profondità massima, mobile fallback",
+      "related_existing_design_patterns": [
+        "DS-025",
+        "DS-004"
+      ],
+      "pinned_code_path": "registry/ruixenui/nested-dashboard-menu.tsx",
+      "pinned_code_sha": "a60cf1c81c5be7d4433176a4f5f59dd13a3540b1",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/nested-dashboard-menu.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-015",
+      "slug": "toolbar-dock",
+      "label": "Toolbar Dock",
+      "category": "navigazione",
+      "priority": "A",
+      "apps": [
+        "Notes-Ecosistema",
+        "Deskland Android",
+        "App Factory Dashboard"
+      ],
+      "idea": "Barra utensili/dock contestuale per canvas o launcher",
+      "risks": "Non oscurare canvas e aree touch",
+      "related_existing_design_patterns": [
+        "DS-017",
+        "DS-020"
+      ],
+      "pinned_code_path": "registry/ruixenui/toolbar-dock.tsx",
+      "pinned_code_sha": "51d8ddef6e21cbb5800da8687f9a122aa009d444",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/toolbar-dock.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-016",
+      "slug": "floating-toolbar",
+      "label": "Floating Toolbar",
+      "category": "navigazione",
+      "priority": "A",
+      "apps": [
+        "Notes-Ecosistema",
+        "FrameLab",
+        "Deskland Android"
+      ],
+      "idea": "Comandi contestuali sul documento/media",
+      "risks": "Tasti hit target, no overlay persistenti invasivi",
+      "related_existing_design_patterns": [
+        "DS-017",
+        "DS-025"
+      ],
+      "pinned_code_path": "registry/ruixenui/floating-toolbar.tsx",
+      "pinned_code_sha": "0645a04a4bcc3e85ba4d4d1b58cb3e41865492e3",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/floating-toolbar.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-017",
+      "slug": "gooey-dock",
+      "label": "Gooey Dock",
+      "category": "motion",
+      "priority": "B",
+      "apps": [
+        "Deskland Android",
+        "Notes-Ecosistema",
+        "App Factory Dashboard"
+      ],
+      "idea": "Dock a ingrandimento spring e prossimità",
+      "risks": "Touch e hover divergono; costi animazione; audio off",
+      "related_existing_design_patterns": [
+        "DS-005",
+        "DS-025"
+      ],
+      "pinned_code_path": "registry/ruixenui/gooey-dock.tsx",
+      "pinned_code_sha": "ab86ff693c8f66855322b607d540ee291d7b8027",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/gooey-dock.tsx",
+      "source_read_sampled": true,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-018",
+      "slug": "morphing-expandable-menu",
+      "label": "Morphing Expandable Menu",
+      "category": "motion",
+      "priority": "B",
+      "apps": [
+        "Deskland Android",
+        "Notes-Ecosistema",
+        "FocusSense"
+      ],
+      "idea": "Menu espandibile con morph e focus contestuale",
+      "risks": "Non nascondere navigazione principale, reduced motion",
+      "related_existing_design_patterns": [
+        "DS-005",
+        "DS-025"
+      ],
+      "pinned_code_path": "registry/ruixenui/morphing-expandable-menu.tsx",
+      "pinned_code_sha": "6520b27bbbfe1784702b0ad632e9baf46f172de1",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/morphing-expandable-menu.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-019",
+      "slug": "magnetic-tabs",
+      "label": "Magnetic Tabs",
+      "category": "motion",
+      "priority": "B",
+      "apps": [
+        "Anna's Diary",
+        "Deskland Android",
+        "Notes-Ecosistema"
+      ],
+      "idea": "Tab con indicatore magnetico e spring",
+      "risks": "Tab accessibili; non introdurre audio di default",
+      "related_existing_design_patterns": [
+        "DS-005",
+        "DS-025"
+      ],
+      "pinned_code_path": "registry/ruixenui/magnetic-tabs.tsx",
+      "pinned_code_sha": "ab1e54591418cb45e50480ed5fd7eb7c75e5dc22",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/magnetic-tabs.tsx",
+      "source_read_sampled": true,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-020",
+      "slug": "badge-morph",
+      "label": "Badge Morph",
+      "category": "status",
+      "priority": "A",
+      "apps": [
+        "App Factory Dashboard",
+        "CashMate AI",
+        "FocusSense",
+        "Battery Guard"
+      ],
+      "idea": "Badge che cambia fra idle/loading/success/error",
+      "risks": "Stato espresso in testo e colore; niente animazione perenne",
+      "related_existing_design_patterns": [
+        "DS-006",
+        "DS-005"
+      ],
+      "pinned_code_path": "registry/ruixenui/badge-morph.tsx",
+      "pinned_code_sha": "7edabbf44ffadbe94ee3a967164308711b454f3c",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/badge-morph.tsx",
+      "source_read_sampled": true,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-021",
+      "slug": "notification-inbox-popover",
+      "label": "Notification Inbox Popover",
+      "category": "status",
+      "priority": "A",
+      "apps": [
+        "App Factory Dashboard",
+        "World Days",
+        "CashMate AI"
+      ],
+      "idea": "Inbox notifiche raggruppate e azioni rapide",
+      "risks": "Non creare notifiche non richieste, svuotamento e accessibilità",
+      "related_existing_design_patterns": [
+        "DS-004",
+        "DS-006"
+      ],
+      "pinned_code_path": "registry/ruixenui/notification-inbox-popover.tsx",
+      "pinned_code_sha": "5b2843342a52b269e6b62cb532869d9d8f9b123c",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/notification-inbox-popover.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-022",
+      "slug": "notifications-filter",
+      "label": "Notifications Filter",
+      "category": "status",
+      "priority": "B",
+      "apps": [
+        "World Days",
+        "App Factory Dashboard",
+        "CashMate AI"
+      ],
+      "idea": "Filtro e raggruppamento per notifiche",
+      "risks": "Tracciare stato letto/non letto senza ambiguità",
+      "related_existing_design_patterns": [
+        "DS-004",
+        "DS-006"
+      ],
+      "pinned_code_path": "registry/ruixenui/notifications-filter.tsx",
+      "pinned_code_sha": "82572e455bf8e3f5f6cc427fb6deae489b657132",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/notifications-filter.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-023",
+      "slug": "add-task-sheet",
+      "label": "Add Task Sheet",
+      "category": "workflow",
+      "priority": "A",
+      "apps": [
+        "Notes-Ecosistema",
+        "Anna's Diary",
+        "App Factory Dashboard"
+      ],
+      "idea": "Creazione task da bottom sheet e campi rapidi",
+      "risks": "Persistenza reale, salvataggio e perdita stato",
+      "related_existing_design_patterns": [
+        "DS-017",
+        "DS-006"
+      ],
+      "pinned_code_path": "registry/ruixenui/add-task-sheet.tsx",
+      "pinned_code_sha": "edeb5fb7d4cf3b74fea6048ad720493e9e949378",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/add-task-sheet.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-024",
+      "slug": "wizard-stepper",
+      "label": "Wizard Stepper",
+      "category": "workflow",
+      "priority": "B",
+      "apps": [
+        "Cooking Anime",
+        "World Days",
+        "Easy Debloat"
+      ],
+      "idea": "Wizard progressivo per onboarding o procedure",
+      "risks": "Validazione step e ripresa, ridurre animazioni",
+      "related_existing_design_patterns": [
+        "DS-023",
+        "DS-004"
+      ],
+      "pinned_code_path": "registry/ruixenui/wizard-stepper.tsx",
+      "pinned_code_sha": "1a0618193b15195ab268b7d6850391050a463e8d",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/wizard-stepper.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-025",
+      "slug": "slide-to-delete-button",
+      "label": "Slide To Delete Button",
+      "category": "workflow",
+      "priority": "B",
+      "apps": [
+        "Notes-Ecosistema",
+        "BeerClass AI",
+        "CashMate AI"
+      ],
+      "idea": "Swipe con affordance di cancellazione",
+      "risks": "UNDO/conferma per dati importanti",
+      "related_existing_design_patterns": [
+        "DS-005",
+        "DS-006"
+      ],
+      "pinned_code_path": "registry/ruixenui/slide-to-delete-button.tsx",
+      "pinned_code_sha": "71f509556a651e7031205128fff763e11d768960",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/slide-to-delete-button.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-026",
+      "slug": "fine-tune-slider",
+      "label": "Fine Tune Slider",
+      "category": "controlli",
+      "priority": "A",
+      "apps": [
+        "FocusSense",
+        "BeerClass AI",
+        "SleepMax Coach",
+        "Battery Guard"
+      ],
+      "idea": "Slider fine per parametri e valutazioni",
+      "risks": "Accoppiamento valore numerico e input accessibile",
+      "related_existing_design_patterns": [
+        "DS-015",
+        "DS-005"
+      ],
+      "pinned_code_path": "registry/ruixenui/fine-tune-slider.tsx",
+      "pinned_code_sha": "00686ec74449d8e559c6904ef104ebb83c1c6a4b",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/fine-tune-slider.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-027",
+      "slug": "circular-stepper-input",
+      "label": "Circular Stepper Input",
+      "category": "controlli",
+      "priority": "B",
+      "apps": [
+        "FocusSense",
+        "Cooking Anime",
+        "SleepMax Coach"
+      ],
+      "idea": "Stepper circolare per quantità e punteggi",
+      "risks": "Non imporre precisione tramite gesture unica",
+      "related_existing_design_patterns": [
+        "DS-015",
+        "DS-005"
+      ],
+      "pinned_code_path": "registry/ruixenui/circular-stepper-input.tsx",
+      "pinned_code_sha": "f8e87178542ac3b29438027c37c0510c866d6723",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/circular-stepper-input.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-028",
+      "slug": "spark-chart",
+      "label": "Spark Chart",
+      "category": "dati",
+      "priority": "A",
+      "apps": [
+        "FocusSense",
+        "CashMate AI",
+        "Battery Guard",
+        "App Factory Dashboard"
+      ],
+      "idea": "Micrografici inline e trend quantitativi",
+      "risks": "Asse/scala, fallback testuale, dati reali",
+      "related_existing_design_patterns": [
+        "DS-014",
+        "DS-007"
+      ],
+      "pinned_code_path": "registry/ruixenui/spark-chart.tsx",
+      "pinned_code_sha": "248c631d495b2810bdb7b57c841d629cb60e57d8",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/spark-chart.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-029",
+      "slug": "animated-number-flip",
+      "label": "Animated Number Flip",
+      "category": "dati",
+      "priority": "B",
+      "apps": [
+        "App Factory Dashboard",
+        "CashMate AI",
+        "FocusSense"
+      ],
+      "idea": "Transizione cifra KPI e contatori",
+      "risks": "Rispettare prefers-reduced-motion, stabilità cifra",
+      "related_existing_design_patterns": [
+        "DS-005",
+        "DS-014"
+      ],
+      "pinned_code_path": "registry/ruixenui/animated-number-flip.tsx",
+      "pinned_code_sha": "4bbaf22235615e0e6365c46b3a985510751b69d9",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-number-flip.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-030",
+      "slug": "card-stack",
+      "label": "Card Stack",
+      "category": "media",
+      "priority": "A",
+      "apps": [
+        "Anna's Diary",
+        "Notes-Ecosistema",
+        "Wonderlog",
+        "World Days"
+      ],
+      "idea": "Impilamento schede e swipe di contenuti",
+      "risks": "Gerarchia, indicatori, undo e navigazione accessibile",
+      "related_existing_design_patterns": [
+        "DS-034",
+        "DS-007"
+      ],
+      "pinned_code_path": "registry/ruixenui/card-stack.tsx",
+      "pinned_code_sha": "3335397435a30439d1d60eb5b8b114210b7e9488",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/card-stack.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-031",
+      "slug": "image-card-fan",
+      "label": "Image Card Fan",
+      "category": "media",
+      "priority": "A",
+      "apps": [
+        "Anna's Diary",
+        "Wonderlog",
+        "FrameLab",
+        "Notes-Ecosistema"
+      ],
+      "idea": "Ventaglio fotografico per ricordi/album",
+      "risks": "Non duplicare immagini originali, hit target e prestazioni",
+      "related_existing_design_patterns": [
+        "DS-022",
+        "DS-033"
+      ],
+      "pinned_code_path": "registry/ruixenui/image-card-fan.tsx",
+      "pinned_code_sha": "57debf090c10e541f60b5085d4f04cd8057ac4db",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/image-card-fan.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-032",
+      "slug": "glass-image-compare",
+      "label": "Glass Image Compare",
+      "category": "media",
+      "priority": "A",
+      "apps": [
+        "FrameLab",
+        "Wonderlog",
+        "Notes-Ecosistema"
+      ],
+      "idea": "Confronto immagini affiancato con reveal slider",
+      "risks": "Performance su immagini grandi e descrizioni alternative",
+      "related_existing_design_patterns": [
+        "DS-032",
+        "DS-022"
+      ],
+      "pinned_code_path": "registry/ruixenui/glass-image-compare.tsx",
+      "pinned_code_sha": "75d6eccb6c3979b974e9c19352820ba5cb1e1ea0",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/glass-image-compare.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-033",
+      "slug": "glass-image-editor",
+      "label": "Glass Image Editor",
+      "category": "media",
+      "priority": "B",
+      "apps": [
+        "FrameLab",
+        "Notes-Ecosistema"
+      ],
+      "idea": "Pannello editing su immagine con effetto vetro",
+      "risks": "Usare tool editing nativo già presente, non sostituirlo",
+      "related_existing_design_patterns": [
+        "DS-032",
+        "DS-020"
+      ],
+      "pinned_code_path": "registry/ruixenui/glass-image-editor.tsx",
+      "pinned_code_sha": "e39b694653182f00ac8b60ea0c74c86809c5c256",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/glass-image-editor.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-034",
+      "slug": "coverflow-carousel",
+      "label": "Coverflow Carousel",
+      "category": "media",
+      "priority": "B",
+      "apps": [
+        "Wonderlog",
+        "Anna's Diary",
+        "World Days"
+      ],
+      "idea": "Carousel galleria coverflow a profondità",
+      "risks": "Disabilitare prospettiva per riduzione movimento",
+      "related_existing_design_patterns": [
+        "DS-034",
+        "DS-005"
+      ],
+      "pinned_code_path": "registry/ruixenui/coverflow-carousel.tsx",
+      "pinned_code_sha": "92df732b4c72d63ec3b50025b57da59b40ad171e",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/coverflow-carousel.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-035",
+      "slug": "scroll-portrait-wall",
+      "label": "Scroll Portrait Wall",
+      "category": "media",
+      "priority": "B",
+      "apps": [
+        "Wonderlog",
+        "FrameLab",
+        "Notes-Ecosistema"
+      ],
+      "idea": "Masonry fotorealistica con scroll e movimento",
+      "risks": "Non forzare scroll-jacking; lazy loading",
+      "related_existing_design_patterns": [
+        "DS-033",
+        "DS-005"
+      ],
+      "pinned_code_path": "registry/ruixenui/scroll-portrait-wall.tsx",
+      "pinned_code_sha": "b73b2d94582258db198d2d478b30f6f18009944f",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scroll-portrait-wall.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-036",
+      "slug": "banner-countdown",
+      "label": "Banner Countdown",
+      "category": "marketing",
+      "priority": "B",
+      "apps": [
+        "World Days",
+        "App Factory Dashboard",
+        "Cooking Anime"
+      ],
+      "idea": "Countdown ricorrenze e timer/promozioni",
+      "risks": "Non invadente; timezone e frame budget",
+      "related_existing_design_patterns": [
+        "DS-006",
+        "DS-005"
+      ],
+      "pinned_code_path": "registry/ruixenui/banner-countdown.tsx",
+      "pinned_code_sha": "dd66a8f010ba8e6749e75d3e31f1711e7fa218e5",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/banner-countdown.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-037",
+      "slug": "confetti-button",
+      "label": "Confetti Button",
+      "category": "feedback",
+      "priority": "B",
+      "apps": [
+        "World Days",
+        "Cooking Anime",
+        "FocusSense"
+      ],
+      "idea": "Microcelebrazione di successo/achievement",
+      "risks": "Solo eventi significativi; riduzione movimento",
+      "related_existing_design_patterns": [
+        "DS-005",
+        "DS-008"
+      ],
+      "pinned_code_path": "registry/ruixenui/confetti-button.tsx",
+      "pinned_code_sha": "b1f25fa045c6bc5874f10a25498b31ac77b54238",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/confetti-button.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-038",
+      "slug": "load-ripple",
+      "label": "Load Ripple",
+      "category": "feedback",
+      "priority": "B",
+      "apps": [
+        "FocusSense",
+        "Battery Guard",
+        "SleepMax Coach"
+      ],
+      "idea": "Ripple animato per stato di attesa",
+      "risks": "Mai sostituire testo di caricamento, limiti cicli",
+      "related_existing_design_patterns": [
+        "DS-006",
+        "DS-005"
+      ],
+      "pinned_code_path": "registry/ruixenui/load-ripple.tsx",
+      "pinned_code_sha": "47ad4ce8d4b8f7da9dce7b198fd043e1cc1201cc",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/load-ripple.tsx",
+      "source_read_sampled": true,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-039",
+      "slug": "live-waveform",
+      "label": "Live Waveform",
+      "category": "media",
+      "priority": "B",
+      "apps": [
+        "FocusSense",
+        "The Luminous Infinite Circle",
+        "Deskland Android"
+      ],
+      "idea": "Visualizzazione forma d'onda per audio/stati",
+      "risks": "Solo con segnale reale, permessi e basso consumo",
+      "related_existing_design_patterns": [
+        "DS-013",
+        "DS-005"
+      ],
+      "pinned_code_path": "registry/ruixenui/live-waveform.tsx",
+      "pinned_code_sha": "8f402ea6981c7fce92ecb730324091297ca7bf8c",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/live-waveform.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-040",
+      "slug": "glow-link-button",
+      "label": "Glow Link Button",
+      "category": "marketing",
+      "priority": "B",
+      "apps": [
+        "App Factory Dashboard",
+        "World Days",
+        "Cooking Anime"
+      ],
+      "idea": "CTA con microglow per landing web",
+      "risks": "Non trasformare utility in landing pubblicitaria",
+      "related_existing_design_patterns": [
+        "DS-005",
+        "DS-010"
+      ],
+      "pinned_code_path": "registry/ruixenui/glow-link-button.tsx",
+      "pinned_code_sha": "46dc112349666c14170cae3007468d005d2a1134",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/glow-link-button.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    },
+    {
+      "id": "RUX-041",
+      "slug": "gradient-hero-showcase",
+      "label": "Gradient Hero Showcase",
+      "category": "marketing",
+      "priority": "B",
+      "apps": [
+        "App Factory Dashboard",
+        "World Days",
+        "Cooking Anime"
+      ],
+      "idea": "Hero di presentazione per siti/landing",
+      "risks": "Solo pagine web, non UI funzionale mobile",
+      "related_existing_design_patterns": [
+        "DS-009",
+        "DS-010"
+      ],
+      "pinned_code_path": "registry/ruixenui/gradient-hero-showcase.tsx",
+      "pinned_code_sha": "08714b62d8d04456dc90c7d5b4c4a0fd5068dff0",
+      "pinned_code_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/gradient-hero-showcase.tsx",
+      "source_read_sampled": false,
+      "status": "REFERENCE_NOT_ADOPTED",
+      "code_imported": false,
+      "flutter_native_reimplementation_required": true
+    }
+  ]
+}

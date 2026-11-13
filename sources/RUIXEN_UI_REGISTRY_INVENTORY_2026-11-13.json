@@ -1,0 +1,2787 @@
+{
+  "schema_version": 1,
+  "source_id": "RUIXEN_UI_2026_11_13",
+  "captured_at": "2026-11-13",
+  "source_repository": "ruixenui/ruixen.com",
+  "immutable_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941",
+  "license_repo": "MIT",
+  "license_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/LICENSE.md",
+  "scope": "Registry source filenames and Git blob ids only; source code not copied or executed.",
+  "source_directory": "registry/ruixenui",
+  "registry_file_count": 277,
+  "source_file_inventory_status": "VERIFIED_DIRECTORY_LISTING",
+  "category_inference": "HEURISTIC_FROM_FILENAME_NOT_VALIDATED",
+  "implementation_status": "DISCOVERY_REFERENCE_ONLY",
+  "files": [
+    {
+      "slug": "accordion-editorial",
+      "path": "registry/ruixenui/accordion-editorial.tsx",
+      "blob_sha": "4cb06c9f9e429d7f85af7af0984d9be67f0596ee",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/accordion-editorial.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "accordion-indexed",
+      "path": "registry/ruixenui/accordion-indexed.tsx",
+      "blob_sha": "d9b0b804653f8730c64472d6eed91424f951350d",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/accordion-indexed.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "account-menu",
+      "path": "registry/ruixenui/account-menu.tsx",
+      "blob_sha": "fc61861c7d9f025b3e04b1f749419a7ad0eb156b",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/account-menu.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "action-toolbar",
+      "path": "registry/ruixenui/action-toolbar.tsx",
+      "blob_sha": "e503979ca6744abafb8e040e4b0c01bb9b47ea35",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/action-toolbar.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "add-task-sheet",
+      "path": "registry/ruixenui/add-task-sheet.tsx",
+      "blob_sha": "edeb5fb7d4cf3b74fea6048ad720493e9e949378",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/add-task-sheet.tsx",
+      "category_candidate": "data-workflow",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "add-to-cart-button",
+      "path": "registry/ruixenui/add-to-cart-button.tsx",
+      "blob_sha": "8e286a8e122936956c92ad0e498b721028715455",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/add-to-cart-button.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "ai-chat-input",
+      "path": "registry/ruixenui/ai-chat-input.tsx",
+      "blob_sha": "5d0c916ebb95021b7cff075d267c79e46c224e95",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/ai-chat-input.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "animated-beam",
+      "path": "registry/ruixenui/animated-beam.tsx",
+      "blob_sha": "4dd04a7083c0f01797fc2ca6a095e00b2162bbc0",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-beam.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "animated-circular-progress-bar",
+      "path": "registry/ruixenui/animated-circular-progress-bar.tsx",
+      "blob_sha": "5a633477c432e5a04a23a597c2254e0180550210",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-circular-progress-bar.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "animated-gradient-text",
+      "path": "registry/ruixenui/animated-gradient-text.tsx",
+      "blob_sha": "22a756980b2811ef65ab6926472e4e2067228d0a",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-gradient-text.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "animated-grid-pattern",
+      "path": "registry/ruixenui/animated-grid-pattern.tsx",
+      "blob_sha": "14cf70d08dc25a13542a08f06f06447958b6aff5",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-grid-pattern.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "animated-highlight-text",
+      "path": "registry/ruixenui/animated-highlight-text.tsx",
+      "blob_sha": "6302857f5285005d6a0e355dbe183221c312223c",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-highlight-text.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "animated-link",
+      "path": "registry/ruixenui/animated-link.tsx",
+      "blob_sha": "e03b409e521994be8d76a52a8ba705f4c29d41d2",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-link.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "animated-list",
+      "path": "registry/ruixenui/animated-list.tsx",
+      "blob_sha": "872365ba2638254747c867dbd08386c0cdefa1d4",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-list.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "animated-number-flip",
+      "path": "registry/ruixenui/animated-number-flip.tsx",
+      "blob_sha": "4bbaf22235615e0e6365c46b3a985510751b69d9",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-number-flip.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "animated-shiny-text",
+      "path": "registry/ruixenui/animated-shiny-text.tsx",
+      "blob_sha": "7a8506bae78e0e013182b41eba7b67f5356f869c",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-shiny-text.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "animated-subscribe-button",
+      "path": "registry/ruixenui/animated-subscribe-button.tsx",
+      "blob_sha": "7f41a095ad3588cb5a85d8b811148db84194b0af",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-subscribe-button.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "animated-theme-toggler",
+      "path": "registry/ruixenui/animated-theme-toggler.tsx",
+      "blob_sha": "75d45c3f7ec6d1496efe5d8bd71bede3d26822ef",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-theme-toggler.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "app-menu-bar",
+      "path": "registry/ruixenui/app-menu-bar.tsx",
+      "blob_sha": "804cae3b18728c634eb6796b60f655c0d6ce3cbb",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/app-menu-bar.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "arc-reveal-hero",
+      "path": "registry/ruixenui/arc-reveal-hero.tsx",
+      "blob_sha": "cc3ca747db136070f34b516465dbeb49deb3ccc9",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/arc-reveal-hero.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "arc-timeline",
+      "path": "registry/ruixenui/arc-timeline.tsx",
+      "blob_sha": "a7ca958a55c19643df39d1e66fd694979b02a6df",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/arc-timeline.tsx",
+      "category_candidate": "data-workflow",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "aurora-text",
+      "path": "registry/ruixenui/aurora-text.tsx",
+      "blob_sha": "4b379636e20219c43d035d56b05fdca526a5e872",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/aurora-text.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "auto-scrolling-client-carousel",
+      "path": "registry/ruixenui/auto-scrolling-client-carousel.tsx",
+      "blob_sha": "8526779860719d2d60ed5f1735b005865b9db8b6",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/auto-scrolling-client-carousel.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "automated-tasks-panel",
+      "path": "registry/ruixenui/automated-tasks-panel.tsx",
+      "blob_sha": "fdaad0904d45ef79e0e6c0a54697493f1661b349",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/automated-tasks-panel.tsx",
+      "category_candidate": "data-workflow",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "avatar-circles",
+      "path": "registry/ruixenui/avatar-circles.tsx",
+      "blob_sha": "ac1da3537b4a02aef385ce76ba6b42b2057ea4cc",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/avatar-circles.tsx",
+      "category_candidate": "media-gallery",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "avatar-hover-card",
+      "path": "registry/ruixenui/avatar-hover-card.tsx",
+      "blob_sha": "dc284b92d010fd4a3a88a19aad890e3825b4ceaf",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/avatar-hover-card.tsx",
+      "category_candidate": "media-gallery",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "avatar-quick-actions",
+      "path": "registry/ruixenui/avatar-quick-actions.tsx",
+      "blob_sha": "e8989111eaa4ce8b2f9f82f2f7fb9faa1c7c8419",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/avatar-quick-actions.tsx",
+      "category_candidate": "media-gallery",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "avatar-spring-stack",
+      "path": "registry/ruixenui/avatar-spring-stack.tsx",
+      "blob_sha": "bec1e0b907e055643bac762ae0a098fa6f979e2c",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/avatar-spring-stack.tsx",
+      "category_candidate": "media-gallery",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "badge-button-combo",
+      "path": "registry/ruixenui/badge-button-combo.tsx",
+      "blob_sha": "6519f8fa176a422bf5a09ff9a825d2c72a58f070",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/badge-button-combo.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "badge-morph",
+      "path": "registry/ruixenui/badge-morph.tsx",
+      "blob_sha": "7edabbf44ffadbe94ee3a967164308711b454f3c",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/badge-morph.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "banner-announcement",
+      "path": "registry/ruixenui/banner-announcement.tsx",
+      "blob_sha": "54b9e0f37f675784bb7c895deab263bfe60303ef",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/banner-announcement.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "banner-cookie",
+      "path": "registry/ruixenui/banner-cookie.tsx",
+      "blob_sha": "2531e938b1834d39616321f061e39b0ebe058c40",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/banner-cookie.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "banner-countdown",
+      "path": "registry/ruixenui/banner-countdown.tsx",
+      "blob_sha": "dd66a8f010ba8e6749e75d3e31f1711e7fa218e5",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/banner-countdown.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "banner-newsletter",
+      "path": "registry/ruixenui/banner-newsletter.tsx",
+      "blob_sha": "649fa21073c9817f83f5bc00e35ed9c30a2fb0b1",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/banner-newsletter.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "behavioral-history-select",
+      "path": "registry/ruixenui/behavioral-history-select.tsx",
+      "blob_sha": "47460a058d4906c45e5d96ef0567c31b8c186037",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/behavioral-history-select.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "better-time-picker",
+      "path": "registry/ruixenui/better-time-picker.tsx",
+      "blob_sha": "400f40a987e35dcd3b039380cf752ba32a1d5836",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/better-time-picker.tsx",
+      "category_candidate": "calendar-date",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "blur-fade",
+      "path": "registry/ruixenui/blur-fade.tsx",
+      "blob_sha": "5f83fc5b60d2e2541956da96f10639f739e734d3",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/blur-fade.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "bordered-clients-grid",
+      "path": "registry/ruixenui/bordered-clients-grid.tsx",
+      "blob_sha": "a9475b0d273be0b2421f35f53ce4059f1ede02aa",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/bordered-clients-grid.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "bottom-drawers",
+      "path": "registry/ruixenui/bottom-drawers.tsx",
+      "blob_sha": "4378f98670bbb5da31098c1677f49e399b24b0e6",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/bottom-drawers.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "box-reveal",
+      "path": "registry/ruixenui/box-reveal.tsx",
+      "blob_sha": "9f9bcdee474fcf34aff97710910db6cad9467922",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/box-reveal.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "breadcrumb-dropdown",
+      "path": "registry/ruixenui/breadcrumb-dropdown.tsx",
+      "blob_sha": "81ac6b0470493a18c04580cea9d7fe8a161fc094",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/breadcrumb-dropdown.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "breadcrumb-icon",
+      "path": "registry/ruixenui/breadcrumb-icon.tsx",
+      "blob_sha": "e7172405b2384c43acdfe6741c170bb0ed3f13d2",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/breadcrumb-icon.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "breadcrumb-separator",
+      "path": "registry/ruixenui/breadcrumb-separator.tsx",
+      "blob_sha": "2b1c524c0327109cad64beebedef81bdda6c3934",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/breadcrumb-separator.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "button-badge",
+      "path": "registry/ruixenui/button-badge.tsx",
+      "blob_sha": "7c89dc26d4c08c2455adcddab918a8882be7dbbe",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/button-badge.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "button-copy",
+      "path": "registry/ruixenui/button-copy.tsx",
+      "blob_sha": "c0c864a7eb407866d545bba55e4e2f6ea43c34b4",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/button-copy.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "button-dropdown",
+      "path": "registry/ruixenui/button-dropdown.tsx",
+      "blob_sha": "5949d3790813068f34bd0d15e7cac191c650f196",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/button-dropdown.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "button-split",
+      "path": "registry/ruixenui/button-split.tsx",
+      "blob_sha": "14b2754bdaabb8130d4bce46a2e6862c18494429",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/button-split.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "calendar-crest",
+      "path": "registry/ruixenui/calendar-crest.tsx",
+      "blob_sha": "0fa173edfd4eff529c502e697e04cbe3ccc3c8ee",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/calendar-crest.tsx",
+      "category_candidate": "calendar-date",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "calendar-lume",
+      "path": "registry/ruixenui/calendar-lume.tsx",
+      "blob_sha": "66d7ddc893df7f1bc9c9d21595190c2fd80b71b5",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/calendar-lume.tsx",
+      "category_candidate": "calendar-date",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "calendar-planner",
+      "path": "registry/ruixenui/calendar-planner.tsx",
+      "blob_sha": "89404451efffe574af5d66d2728b3d2316fde963",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/calendar-planner.tsx",
+      "category_candidate": "calendar-date",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "calendar-scheduler",
+      "path": "registry/ruixenui/calendar-scheduler.tsx",
+      "blob_sha": "3f2772e5e80b9fb22897995a661a839ca34e06b9",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/calendar-scheduler.tsx",
+      "category_candidate": "calendar-date",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "calendar-twin",
+      "path": "registry/ruixenui/calendar-twin.tsx",
+      "blob_sha": "d49fb9f9845a368c90b9983e7a7fc9759940288e",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/calendar-twin.tsx",
+      "category_candidate": "calendar-date",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "calendar-wave",
+      "path": "registry/ruixenui/calendar-wave.tsx",
+      "blob_sha": "b3ecab2acd5d59f728aed9d6de7124a7960a8454",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/calendar-wave.tsx",
+      "category_candidate": "calendar-date",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "card-carousel-hero",
+      "path": "registry/ruixenui/card-carousel-hero.tsx",
+      "blob_sha": "367ee1210ae7dc28b0db59bd32d638033d09d896",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/card-carousel-hero.tsx",
+      "category_candidate": "media-gallery",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "card-stack",
+      "path": "registry/ruixenui/card-stack.tsx",
+      "blob_sha": "3335397435a30439d1d60eb5b8b114210b7e9488",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/card-stack.tsx",
+      "category_candidate": "media-gallery",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "carousel-3d-select",
+      "path": "registry/ruixenui/carousel-3d-select.tsx",
+      "blob_sha": "c7763457ef5c2216435a98b912282b6ebf93092c",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/carousel-3d-select.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "case-study-tabs",
+      "path": "registry/ruixenui/case-study-tabs.tsx",
+      "blob_sha": "bdbcd8336baa770afa6965a0d1ad5280c16c9754",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/case-study-tabs.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "centered-feedback-drawer",
+      "path": "registry/ruixenui/centered-feedback-drawer.tsx",
+      "blob_sha": "220e2e0b7dad46881a2477df7030248a4dbc7bd1",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/centered-feedback-drawer.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "chapter-scrubber",
+      "path": "registry/ruixenui/chapter-scrubber.tsx",
+      "blob_sha": "93db51ec0ec37f57203efd1acaabc3b144dd9243",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/chapter-scrubber.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "checkbox-colored",
+      "path": "registry/ruixenui/checkbox-colored.tsx",
+      "blob_sha": "844314cff3f3742bae204f4015b9e9da172b1ccd",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/checkbox-colored.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "checkbox-group",
+      "path": "registry/ruixenui/checkbox-group.tsx",
+      "blob_sha": "a7e08082995b5a7ba6875cf725a12e526eb5af93",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/checkbox-group.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "checkbox-indeterminate",
+      "path": "registry/ruixenui/checkbox-indeterminate.tsx",
+      "blob_sha": "0b728266ed2671f7a21aa2ea5bef4703f376b10d",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/checkbox-indeterminate.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "checkbox-simple",
+      "path": "registry/ruixenui/checkbox-simple.tsx",
+      "blob_sha": "62ac535f7389ee978a8f6ffaa5360e2b01d67e83",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/checkbox-simple.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "checkbox-terms",
+      "path": "registry/ruixenui/checkbox-terms.tsx",
+      "blob_sha": "e6af8fd73170515b4a47a7510cee5752eb2680b4",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/checkbox-terms.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "checkbox-todo",
+      "path": "registry/ruixenui/checkbox-todo.tsx",
+      "blob_sha": "73370cc38be54da3fef0ae729821c0cda518453a",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/checkbox-todo.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "checkbox-tree",
+      "path": "registry/ruixenui/checkbox-tree.tsx",
+      "blob_sha": "c1a8290a40f183b234a44614a60ffcc477dc4bd1",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/checkbox-tree.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "chrono-select",
+      "path": "registry/ruixenui/chrono-select.tsx",
+      "blob_sha": "f3dc210ad68e531a61f2a6be3ebe78d074686251",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/chrono-select.tsx",
+      "category_candidate": "calendar-date",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "circular-stepper-input",
+      "path": "registry/ruixenui/circular-stepper-input.tsx",
+      "blob_sha": "f8e87178542ac3b29438027c37c0510c866d6723",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/circular-stepper-input.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "claude-chat-input",
+      "path": "registry/ruixenui/claude-chat-input.tsx",
+      "blob_sha": "eea4022165c25b06375fedd02c1d25ac178ade02",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/claude-chat-input.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "clean-tag-input",
+      "path": "registry/ruixenui/clean-tag-input.tsx",
+      "blob_sha": "64b0c9cae223ed91154c1e2e82cd4de498fb061b",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/clean-tag-input.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "client-carousel-showcase",
+      "path": "registry/ruixenui/client-carousel-showcase.tsx",
+      "blob_sha": "cd6716efc636aca3d78369b04e69a28cc1825306",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/client-carousel-showcase.tsx",
+      "category_candidate": "media-gallery",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "cloud-background",
+      "path": "registry/ruixenui/cloud-background.tsx",
+      "blob_sha": "fbcc312a4dbb293e650a08c5547b29fcd22a74f8",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/cloud-background.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "code-comparison",
+      "path": "registry/ruixenui/code-comparison.tsx",
+      "blob_sha": "138c96bc910ca6d1925ed6b1886a28bcaffc386d",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/code-comparison.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "color-emotion-select",
+      "path": "registry/ruixenui/color-emotion-select.tsx",
+      "blob_sha": "0a5472165cc75683e33fee2395a1cb02c0cfb66c",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/color-emotion-select.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "color-picker-input",
+      "path": "registry/ruixenui/color-picker-input.tsx",
+      "blob_sha": "596397fc3b35f267303e47f370fae89c78c701a1",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/color-picker-input.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "comic-text",
+      "path": "registry/ruixenui/comic-text.tsx",
+      "blob_sha": "01e4554c45ed476673a3304dd3e0e52ba273c8a5",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/comic-text.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "command-deck",
+      "path": "registry/ruixenui/command-deck.tsx",
+      "blob_sha": "cde89df48878c8b0e4371598d863fb08d869d9c2",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/command-deck.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "comment-thread",
+      "path": "registry/ruixenui/comment-thread.tsx",
+      "blob_sha": "d5159c33efbe68af9f56a35130261b71ba0f058b",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/comment-thread.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "confetti-button",
+      "path": "registry/ruixenui/confetti-button.tsx",
+      "blob_sha": "b1f25fa045c6bc5874f10a25498b31ac77b54238",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/confetti-button.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "container-text-scroll",
+      "path": "registry/ruixenui/container-text-scroll.tsx",
+      "blob_sha": "148eb6f64acb0c6d95ddc62dcbefabe92f26d1fd",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/container-text-scroll.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "cool-mode",
+      "path": "registry/ruixenui/cool-mode.tsx",
+      "blob_sha": "53eb117b692504b75501c3afd0f37207d0c7bd97",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/cool-mode.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "corporate-footer",
+      "path": "registry/ruixenui/corporate-footer.tsx",
+      "blob_sha": "642d844a420b40990d4e71f5daf53f43427aad50",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/corporate-footer.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "correct-number-input",
+      "path": "registry/ruixenui/correct-number-input.tsx",
+      "blob_sha": "619dfb8400d30cfc4b719994d5834a988865b106",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/correct-number-input.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "coverflow-carousel",
+      "path": "registry/ruixenui/coverflow-carousel.tsx",
+      "blob_sha": "92df732b4c72d63ec3b50025b57da59b40ad171e",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/coverflow-carousel.tsx",
+      "category_candidate": "media-gallery",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "credit-card-dialog",
+      "path": "registry/ruixenui/credit-card-dialog.tsx",
+      "blob_sha": "3f2332bc8182e3b8f2c54db4cb963b8e1e834533",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/credit-card-dialog.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "customer-story-stack",
+      "path": "registry/ruixenui/customer-story-stack.tsx",
+      "blob_sha": "fc9f42e02dbd60151f49bbd736df1cd023b0ac5d",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/customer-story-stack.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "deploy-region-globe",
+      "path": "registry/ruixenui/deploy-region-globe.tsx",
+      "blob_sha": "e79b9402bbd60c40407a469b39e9d8e977beabe3",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/deploy-region-globe.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "dot-pattern",
+      "path": "registry/ruixenui/dot-pattern.tsx",
+      "blob_sha": "f115a134017a8cbb29bd6c4cab9548bd688932d5",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/dot-pattern.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "drag-and-drop-tabs",
+      "path": "registry/ruixenui/drag-and-drop-tabs.tsx",
+      "blob_sha": "709f96c0451a14f56ee6371a0b4c92fdcbc9b2af",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/drag-and-drop-tabs.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "drawer-inner-content",
+      "path": "registry/ruixenui/drawer-inner-content.tsx",
+      "blob_sha": "af6c05c0277d545599b00696df9ea49e479bf9a1",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/drawer-inner-content.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "drilldown-menu",
+      "path": "registry/ruixenui/drilldown-menu.tsx",
+      "blob_sha": "17ffaa5ab4506e88a09320445db5bb8ac8f58e8b",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/drilldown-menu.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "drum-picker",
+      "path": "registry/ruixenui/drum-picker.tsx",
+      "blob_sha": "21f50c0f5802e3167b833751e85a8c883e167251",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/drum-picker.tsx",
+      "category_candidate": "calendar-date",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "dual-tone-rain-background",
+      "path": "registry/ruixenui/dual-tone-rain-background.tsx",
+      "blob_sha": "86270663ce099709ee87916a89135f513a514c8e",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/dual-tone-rain-background.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "event-scheduler",
+      "path": "registry/ruixenui/event-scheduler.tsx",
+      "blob_sha": "41f429f2ad55c99149c1ba43a37258e0ce1f3e72",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/event-scheduler.tsx",
+      "category_candidate": "calendar-date",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "expandable-menu-navbar",
+      "path": "registry/ruixenui/expandable-menu-navbar.tsx",
+      "blob_sha": "c31e5d60b04925ee397ff6048dfd31a5d4abfc6d",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/expandable-menu-navbar.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "faq-auto-accordion",
+      "path": "registry/ruixenui/faq-auto-accordion.tsx",
+      "blob_sha": "0a5bf042a61722a05f8d00d771115c954b091b38",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/faq-auto-accordion.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "faq-chat-accordion",
+      "path": "registry/ruixenui/faq-chat-accordion.tsx",
+      "blob_sha": "67da1b569a1c4d041b1812007405732bcd95c85e",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/faq-chat-accordion.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "faq-scroll-accordion",
+      "path": "registry/ruixenui/faq-scroll-accordion.tsx",
+      "blob_sha": "d39ab38062332824b4458e2bed33cfa6250303ea",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/faq-scroll-accordion.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "feature-highlights",
+      "path": "registry/ruixenui/feature-highlights.tsx",
+      "blob_sha": "6a64d85bd52372b8ae520669899110189c428457",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/feature-highlights.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "featured-portrait-testimonial",
+      "path": "registry/ruixenui/featured-portrait-testimonial.tsx",
+      "blob_sha": "be43edd657561cf85fae86a40615bfd8db61a17d",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/featured-portrait-testimonial.tsx",
+      "category_candidate": "media-gallery",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "file-tree",
+      "path": "registry/ruixenui/file-tree.tsx",
+      "blob_sha": "a6fe3bf54e53be4170352023385e49863d8b4b74",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/file-tree.tsx",
+      "category_candidate": "data-workflow",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "fine-tune-slider",
+      "path": "registry/ruixenui/fine-tune-slider.tsx",
+      "blob_sha": "00686ec74449d8e559c6904ef104ebb83c1c6a4b",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/fine-tune-slider.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "flash-sale-banner",
+      "path": "registry/ruixenui/flash-sale-banner.tsx",
+      "blob_sha": "31ad921595967ad5fd4c54b13b6a456bdd2f8515",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/flash-sale-banner.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "flickering-grid",
+      "path": "registry/ruixenui/flickering-grid.tsx",
+      "blob_sha": "f303d4d48284b4327264640e40cf9b0e9fc3d85f",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/flickering-grid.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "flip-text",
+      "path": "registry/ruixenui/flip-text.tsx",
+      "blob_sha": "d701c73dc7fbec5ef41729fdd51767c8c2600993",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/flip-text.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "floating-cards-hero",
+      "path": "registry/ruixenui/floating-cards-hero.tsx",
+      "blob_sha": "a8cbb7a8a98770880fa62ddb26012cedb476b25d",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/floating-cards-hero.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "floating-navbar",
+      "path": "registry/ruixenui/floating-navbar.tsx",
+      "blob_sha": "00a0c4e32aec92e24dcd2185294690c07d56fb4d",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/floating-navbar.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "floating-toolbar",
+      "path": "registry/ruixenui/floating-toolbar.tsx",
+      "blob_sha": "0645a04a4bcc3e85ba4d4d1b58cb3e41865492e3",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/floating-toolbar.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "footer-enterprise",
+      "path": "registry/ruixenui/footer-enterprise.tsx",
+      "blob_sha": "3765509827ab4b0b074789b773dfdc6a6d6d7c7d",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/footer-enterprise.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "footer-pro",
+      "path": "registry/ruixenui/footer-pro.tsx",
+      "blob_sha": "9b8ef42dc547f7e09094823db19489be54cc9549",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/footer-pro.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "glass-ai-card",
+      "path": "registry/ruixenui/glass-ai-card.tsx",
+      "blob_sha": "8685f6dbcf8c295da7960d579cbfcedf02e4874c",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/glass-ai-card.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "glass-form",
+      "path": "registry/ruixenui/glass-form.tsx",
+      "blob_sha": "659ca584dc4093d0ee3461515d0de07561d90422",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/glass-form.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "glass-image-compare",
+      "path": "registry/ruixenui/glass-image-compare.tsx",
+      "blob_sha": "75d6eccb6c3979b974e9c19352820ba5cb1e1ea0",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/glass-image-compare.tsx",
+      "category_candidate": "media-gallery",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "glass-image-editor",
+      "path": "registry/ruixenui/glass-image-editor.tsx",
+      "blob_sha": "e39b694653182f00ac8b60ea0c74c86809c5c256",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/glass-image-editor.tsx",
+      "category_candidate": "media-gallery",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "glass-shipment-flow",
+      "path": "registry/ruixenui/glass-shipment-flow.tsx",
+      "blob_sha": "6a265d168182ca86bc771253aba9cb4210c01588",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/glass-shipment-flow.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "glow-link-button",
+      "path": "registry/ruixenui/glow-link-button.tsx",
+      "blob_sha": "46dc112349666c14170cae3007468d005d2a1134",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/glow-link-button.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "glow-tree",
+      "path": "registry/ruixenui/glow-tree.tsx",
+      "blob_sha": "d0bfa85e8e91e70867e8b4ef8970af4a39cefd23",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/glow-tree.tsx",
+      "category_candidate": "data-workflow",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "glowing-send-input",
+      "path": "registry/ruixenui/glowing-send-input.tsx",
+      "blob_sha": "a7a0d3dd2785d9a708a5d8a654637547af2fa235",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/glowing-send-input.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "gooey-dock",
+      "path": "registry/ruixenui/gooey-dock.tsx",
+      "blob_sha": "ab86ff693c8f66855322b607d540ee291d7b8027",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/gooey-dock.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "gooey-pagination",
+      "path": "registry/ruixenui/gooey-pagination.tsx",
+      "blob_sha": "30f9b4c108d4b32febd8a99480ea41bc60306e79",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/gooey-pagination.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "gradient-chat-input",
+      "path": "registry/ruixenui/gradient-chat-input.tsx",
+      "blob_sha": "475ed68e9e37a6d4ad7debf97eaa59e55476d9af",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/gradient-chat-input.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "gradient-hero-showcase",
+      "path": "registry/ruixenui/gradient-hero-showcase.tsx",
+      "blob_sha": "08714b62d8d04456dc90c7d5b4c4a0fd5068dff0",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/gradient-hero-showcase.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "gradient-reveal-text",
+      "path": "registry/ruixenui/gradient-reveal-text.tsx",
+      "blob_sha": "c3363afd8a603d0a702e8556404db118fd234c2f",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/gradient-reveal-text.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "grain-gradient-bg",
+      "path": "registry/ruixenui/grain-gradient-bg.tsx",
+      "blob_sha": "bca0135b4e28e489039efcd9f9c94a5ef96deec2",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/grain-gradient-bg.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "gravatar-email-input",
+      "path": "registry/ruixenui/gravatar-email-input.tsx",
+      "blob_sha": "1f4b8d3aa6774b2f3b1d251b0d175a0bc887a954",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/gravatar-email-input.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "grid-frame-hero",
+      "path": "registry/ruixenui/grid-frame-hero.tsx",
+      "blob_sha": "d7caa06ac9c8bbe08bc87931dda4d906677ac5e6",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/grid-frame-hero.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "grid-pattern",
+      "path": "registry/ruixenui/grid-pattern.tsx",
+      "blob_sha": "6840f45f8054195c42ded157ca0658c27909d213",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/grid-pattern.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "grouped-faq-section",
+      "path": "registry/ruixenui/grouped-faq-section.tsx",
+      "blob_sha": "e78c5af876473c4192b4abda35aa5b87d7fc9300",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/grouped-faq-section.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "halo-reel",
+      "path": "registry/ruixenui/halo-reel.tsx",
+      "blob_sha": "aba9b35f5dfd403a9f39afab96052df47cac7471",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/halo-reel.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "hero-title-animation",
+      "path": "registry/ruixenui/hero-title-animation.tsx",
+      "blob_sha": "ecd8bedaea766101eb16961a6aa9d96329113d97",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/hero-title-animation.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "hover-gradient-navbar",
+      "path": "registry/ruixenui/hover-gradient-navbar.tsx",
+      "blob_sha": "4a5553d724c38d98a7f341616bef8f8b69f735c5",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/hover-gradient-navbar.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "hover-preview-button",
+      "path": "registry/ruixenui/hover-preview-button.tsx",
+      "blob_sha": "ca635af863934497d58e619f0f7d9a6f7ad6bd93",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/hover-preview-button.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "hyper-text",
+      "path": "registry/ruixenui/hyper-text.tsx",
+      "blob_sha": "0b4ee73e847718a282e7cf4a8268277695ecab59",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/hyper-text.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "icon-cloud",
+      "path": "registry/ruixenui/icon-cloud.tsx",
+      "blob_sha": "1e9ffc2e503e43aac8632af73199198ddd5eb8d5",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/icon-cloud.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "icon-label-subtext-button",
+      "path": "registry/ruixenui/icon-label-subtext-button.tsx",
+      "blob_sha": "033133693bc37ce98d4e2fdcecb7b73a13e6c6f3",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/icon-label-subtext-button.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "icon-pagination",
+      "path": "registry/ruixenui/icon-pagination.tsx",
+      "blob_sha": "eb48fca354a9d56c34c1168567a9ce7f2db39ca3",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/icon-pagination.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "image-card-fan",
+      "path": "registry/ruixenui/image-card-fan.tsx",
+      "blob_sha": "57debf090c10e541f60b5085d4f04cd8057ac4db",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/image-card-fan.tsx",
+      "category_candidate": "media-gallery",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "image-stream-hero",
+      "path": "registry/ruixenui/image-stream-hero.tsx",
+      "blob_sha": "3f5e6c0dc2d545521ce2830be27c8c6b50cfac17",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/image-stream-hero.tsx",
+      "category_candidate": "media-gallery",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "inline-copy-input",
+      "path": "registry/ruixenui/inline-copy-input.tsx",
+      "blob_sha": "86d540c49554d6b1b3387671fcf28dabf9467c1d",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/inline-copy-input.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "input-with-select",
+      "path": "registry/ruixenui/input-with-select.tsx",
+      "blob_sha": "d0be9d0b1387f8373d4a184ef6b768f94dee11cc",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/input-with-select.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "integration-and-stats-section",
+      "path": "registry/ruixenui/integration-and-stats-section.tsx",
+      "blob_sha": "9b49f6223b2ba51e92d3a15bc25e16776600c464",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/integration-and-stats-section.tsx",
+      "category_candidate": "data-workflow",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "interactive-grid-pattern",
+      "path": "registry/ruixenui/interactive-grid-pattern.tsx",
+      "blob_sha": "bab1ce94f32e44db42842972ae98672b5c92bce6",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/interactive-grid-pattern.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "interactive-hover-button",
+      "path": "registry/ruixenui/interactive-hover-button.tsx",
+      "blob_sha": "e43ccbbe0f01781cf837e3f643a1a7bb39076e95",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/interactive-hover-button.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "invert-tabs",
+      "path": "registry/ruixenui/invert-tabs.tsx",
+      "blob_sha": "4c1d08a507e680c868612f71285d38ac66f49f96",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/invert-tabs.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "iphone-15-pro",
+      "path": "registry/ruixenui/iphone-15-pro.tsx",
+      "blob_sha": "a552215c26ed3fba66a33aacfb7030cc1cfc7560",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/iphone-15-pro.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "line-shadow-text",
+      "path": "registry/ruixenui/line-shadow-text.tsx",
+      "blob_sha": "179d805e13b26576122e1361bcc69dd078c0c3ff",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/line-shadow-text.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "linear-mask",
+      "path": "registry/ruixenui/linear-mask.tsx",
+      "blob_sha": "8f3906ab29b9e8e97c92e58d9727b971ed23a35c",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/linear-mask.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "live-waveform",
+      "path": "registry/ruixenui/live-waveform.tsx",
+      "blob_sha": "8f402ea6981c7fce92ecb730324091297ca7bf8c",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/live-waveform.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "load-ripple",
+      "path": "registry/ruixenui/load-ripple.tsx",
+      "blob_sha": "47ad4ce8d4b8f7da9dce7b198fd043e1cc1201cc",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/load-ripple.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "loading-circle",
+      "path": "registry/ruixenui/loading-circle.tsx",
+      "blob_sha": "59a1106f773ec33c1eb3e9e685d6adcd3955ea6d",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/loading-circle.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "luma-bar",
+      "path": "registry/ruixenui/luma-bar.tsx",
+      "blob_sha": "c8eaa73257e22482428da419e8f0471b606030df",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/luma-bar.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "magic-tree",
+      "path": "registry/ruixenui/magic-tree.tsx",
+      "blob_sha": "49a2a0d8da893755c1beae6f682020f15a0662d5",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/magic-tree.tsx",
+      "category_candidate": "data-workflow",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "magnetic-tabs",
+      "path": "registry/ruixenui/magnetic-tabs.tsx",
+      "blob_sha": "ab1e54591418cb45e50480ed5fd7eb7c75e5dc22",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/magnetic-tabs.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "milestone-stepper",
+      "path": "registry/ruixenui/milestone-stepper.tsx",
+      "blob_sha": "891959ea0411168d2df8e535a46be31eaaf641e7",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/milestone-stepper.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "mode-toggle",
+      "path": "registry/ruixenui/mode-toggle.tsx",
+      "blob_sha": "13eac5d1e79df64acf3ad8a39675ae14c632c2bc",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/mode-toggle.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "morphing-expandable-menu",
+      "path": "registry/ruixenui/morphing-expandable-menu.tsx",
+      "blob_sha": "6520b27bbbfe1784702b0ad632e9baf46f172de1",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/morphing-expandable-menu.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "morphing-page-dots",
+      "path": "registry/ruixenui/morphing-page-dots.tsx",
+      "blob_sha": "342a1112448e2e9d7262659013ee102fde1472a6",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/morphing-page-dots.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "morphing-text",
+      "path": "registry/ruixenui/morphing-text.tsx",
+      "blob_sha": "00c657b50edd067f40a2ce59cfa6afa930528e6c",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/morphing-text.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "motion-file-tree",
+      "path": "registry/ruixenui/motion-file-tree.tsx",
+      "blob_sha": "dc2e80a69f71d31bfcc5ecc0e64e7e277cd0dfaf",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/motion-file-tree.tsx",
+      "category_candidate": "data-workflow",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "mouse-spark",
+      "path": "registry/ruixenui/mouse-spark.tsx",
+      "blob_sha": "5e02b6cf97067d3de2759fa61e04e1aa99131190",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/mouse-spark.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "multi-media-testimonial",
+      "path": "registry/ruixenui/multi-media-testimonial.tsx",
+      "blob_sha": "c31189b60248b661f3e476354098c44cf901c8e5",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/multi-media-testimonial.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "music-player-card",
+      "path": "registry/ruixenui/music-player-card.tsx",
+      "blob_sha": "ac77bdf411b4e1f193b8af313d45a67efa9eb20e",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/music-player-card.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "navbar-breadcrumb",
+      "path": "registry/ruixenui/navbar-breadcrumb.tsx",
+      "blob_sha": "3b928bcc0a5dda76aa3d2673ef8ff9aad4207fb6",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/navbar-breadcrumb.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "navbar-centered",
+      "path": "registry/ruixenui/navbar-centered.tsx",
+      "blob_sha": "163840b67c2cf44a2db34b4257d1cbfe1f7288fe",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/navbar-centered.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "navbar-floating",
+      "path": "registry/ruixenui/navbar-floating.tsx",
+      "blob_sha": "506e0d57594d33dbf2013520b509e69352e719ff",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/navbar-floating.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "navbar-icon-links",
+      "path": "registry/ruixenui/navbar-icon-links.tsx",
+      "blob_sha": "41fc9cf07e79566f98289d399571c9dd064d5bda",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/navbar-icon-links.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "navbar-minimal",
+      "path": "registry/ruixenui/navbar-minimal.tsx",
+      "blob_sha": "85297de0fb278eb54bd5290bda4ed676c1634ff2",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/navbar-minimal.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "navbar-simple",
+      "path": "registry/ruixenui/navbar-simple.tsx",
+      "blob_sha": "19eec2a06c67e8f249058e5a1550fa3467c83073",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/navbar-simple.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "navbar-split",
+      "path": "registry/ruixenui/navbar-split.tsx",
+      "blob_sha": "b380c1c7461200b4f1c472bd8edba2c03c607ff2",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/navbar-split.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "navbar-status",
+      "path": "registry/ruixenui/navbar-status.tsx",
+      "blob_sha": "47303c4c7ba5755296fbcf005b54fc71e5a864df",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/navbar-status.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "navbar-tabs",
+      "path": "registry/ruixenui/navbar-tabs.tsx",
+      "blob_sha": "0571919e46530ab4dba3348cdd4372398b9d7718",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/navbar-tabs.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "navbar-user-menu",
+      "path": "registry/ruixenui/navbar-user-menu.tsx",
+      "blob_sha": "8c0ffa4b87ab5cf94574ae9bba8da996611f3a39",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/navbar-user-menu.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "navbar-with-search",
+      "path": "registry/ruixenui/navbar-with-search.tsx",
+      "blob_sha": "779e98a166eb931a6cd844a55f5dcd4056ef3747",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/navbar-with-search.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "neon-circle-grid",
+      "path": "registry/ruixenui/neon-circle-grid.tsx",
+      "blob_sha": "0dcc7a24cb6a8d24bd667d3e4a152aea9cfffd3f",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/neon-circle-grid.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "neon-gradient-card",
+      "path": "registry/ruixenui/neon-gradient-card.tsx",
+      "blob_sha": "1a2a76b046319c0b267cdea014f9fea975931c7b",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/neon-gradient-card.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "nested-dashboard-menu",
+      "path": "registry/ruixenui/nested-dashboard-menu.tsx",
+      "blob_sha": "a60cf1c81c5be7d4433176a4f5f59dd13a3540b1",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/nested-dashboard-menu.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "notification-inbox-popover",
+      "path": "registry/ruixenui/notification-inbox-popover.tsx",
+      "blob_sha": "5b2843342a52b269e6b62cb532869d9d8f9b123c",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/notification-inbox-popover.tsx",
+      "category_candidate": "data-workflow",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "notification",
+      "path": "registry/ruixenui/notification.tsx",
+      "blob_sha": "fe99f82ca322d3e9f182cf50d879e87a21349769",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/notification.tsx",
+      "category_candidate": "data-workflow",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "notifications-carousel",
+      "path": "registry/ruixenui/notifications-carousel.tsx",
+      "blob_sha": "f8b25920345d946625dad39e3aa064db6addec22",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/notifications-carousel.tsx",
+      "category_candidate": "data-workflow",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "notifications-filter",
+      "path": "registry/ruixenui/notifications-filter.tsx",
+      "blob_sha": "82572e455bf8e3f5f6cc427fb6deae489b657132",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/notifications-filter.tsx",
+      "category_candidate": "data-workflow",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "number-ticker",
+      "path": "registry/ruixenui/number-ticker.tsx",
+      "blob_sha": "1b9bf39bfb523ca512e0db3161bcd03dfe2c5202",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/number-ticker.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "orbiting-circles",
+      "path": "registry/ruixenui/orbiting-circles.tsx",
+      "blob_sha": "3365c58b9ad6a50b3b0d46430410192975ae9072",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/orbiting-circles.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "package-installer-tabs",
+      "path": "registry/ruixenui/package-installer-tabs.tsx",
+      "blob_sha": "b224af2bfe0b114de32adf9baa993c2ab297688d",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/package-installer-tabs.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "particle-text-dots",
+      "path": "registry/ruixenui/particle-text-dots.tsx",
+      "blob_sha": "d942970c674a980cec3ca59392381cf6f30e8364",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/particle-text-dots.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "password-field",
+      "path": "registry/ruixenui/password-field.tsx",
+      "blob_sha": "c311485be91a8cea704a4ec6f7a1faaa28a95570",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/password-field.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "perspective-text",
+      "path": "registry/ruixenui/perspective-text.tsx",
+      "blob_sha": "49c21bf6e4141b9f94d427eefd54fecc156e7c30",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/perspective-text.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "phone-mockup-card",
+      "path": "registry/ruixenui/phone-mockup-card.tsx",
+      "blob_sha": "1cf3d3c0874e329187ef71f5d40a78c68553a270",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/phone-mockup-card.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "phone-scroll-hero",
+      "path": "registry/ruixenui/phone-scroll-hero.tsx",
+      "blob_sha": "91b59baad69acbb714f7e73047de9743a2fe6728",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/phone-scroll-hero.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "pixel-image",
+      "path": "registry/ruixenui/pixel-image.tsx",
+      "blob_sha": "d65c9c88b068c3005c0bb036212a485ef677f35a",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/pixel-image.tsx",
+      "category_candidate": "media-gallery",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "preview-switch-hero",
+      "path": "registry/ruixenui/preview-switch-hero.tsx",
+      "blob_sha": "cd563a2e9e1d76539035d631157df7de3d319f5b",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/preview-switch-hero.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "pricing-cards-tooltip",
+      "path": "registry/ruixenui/pricing-cards-tooltip.tsx",
+      "blob_sha": "3b7465c6836736968fe2d59b694548dee44d0fea",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/pricing-cards-tooltip.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "pricing-comparison",
+      "path": "registry/ruixenui/pricing-comparison.tsx",
+      "blob_sha": "7e6b3b58dace2fb994eecb3fd134f5e9f08ba368",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/pricing-comparison.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "pricing-feature-matrix",
+      "path": "registry/ruixenui/pricing-feature-matrix.tsx",
+      "blob_sha": "f339cc7527d12594d8099007dd9798d1dee19ea4",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/pricing-feature-matrix.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "pricing-flow",
+      "path": "registry/ruixenui/pricing-flow.tsx",
+      "blob_sha": "8c896c2173e57a2cb018503e5f8782b2c9caaf13",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/pricing-flow.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "pricing-landing-hero",
+      "path": "registry/ruixenui/pricing-landing-hero.tsx",
+      "blob_sha": "c678aea43cd0ed37468896c080984093aa7d9bdb",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/pricing-landing-hero.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "pricing-plans",
+      "path": "registry/ruixenui/pricing-plans.tsx",
+      "blob_sha": "8fa69ca14ec05b3300538e811b0f49fbdf0b9996",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/pricing-plans.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "pricing-section-vertical",
+      "path": "registry/ruixenui/pricing-section-vertical.tsx",
+      "blob_sha": "39ede97f1d54d9d9f8df53637f12840e2882c916",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/pricing-section-vertical.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "pricing-tiers",
+      "path": "registry/ruixenui/pricing-tiers.tsx",
+      "blob_sha": "59c393c4fe23be49a60dc5ad8ec340a91534e0e7",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/pricing-tiers.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "pricing-with-user-scaling",
+      "path": "registry/ruixenui/pricing-with-user-scaling.tsx",
+      "blob_sha": "bf91bf429c0c6a0bb0635294da6ee6468ab1fcd1",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/pricing-with-user-scaling.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "product-card-hero",
+      "path": "registry/ruixenui/product-card-hero.tsx",
+      "blob_sha": "23a0ab4f54ad84a1acbe847901c9cb4d0c560125",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/product-card-hero.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "product-feature-hero",
+      "path": "registry/ruixenui/product-feature-hero.tsx",
+      "blob_sha": "b2356c49c139dfbcf5c0e860d5537814f00603ad",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/product-feature-hero.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "profile-card",
+      "path": "registry/ruixenui/profile-card.tsx",
+      "blob_sha": "f47437c9890bdd25dfd31be6ba291619216f5d75",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/profile-card.tsx",
+      "category_candidate": "data-workflow",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "progress-button",
+      "path": "registry/ruixenui/progress-button.tsx",
+      "blob_sha": "76c7162489e832283e688f767fc4577ee12d60de",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/progress-button.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "progressive-blur",
+      "path": "registry/ruixenui/progressive-blur.tsx",
+      "blob_sha": "a4af58f50768c55f0635a58d563d847c1c9532d8",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/progressive-blur.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "progressive-flux-loader",
+      "path": "registry/ruixenui/progressive-flux-loader.tsx",
+      "blob_sha": "a00c8c41b7c15e220e6de4202c9253b2bd1235f6",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/progressive-flux-loader.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "promote-header",
+      "path": "registry/ruixenui/promote-header.tsx",
+      "blob_sha": "527cd17607ed0da42da5cb461602af5b3ad693d0",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/promote-header.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "pulsating-button",
+      "path": "registry/ruixenui/pulsating-button.tsx",
+      "blob_sha": "78d36ade7b7bd51b040f1c0ed6a5fb5737f0103a",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/pulsating-button.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "rainbow-button",
+      "path": "registry/ruixenui/rainbow-button.tsx",
+      "blob_sha": "1a3f673c22c4b16cc6cdb9d56e0bee27f19e0761",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/rainbow-button.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "range-calendar",
+      "path": "registry/ruixenui/range-calendar.tsx",
+      "blob_sha": "728856e1c4f952d13817f95350ffdae03cc65bb2",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/range-calendar.tsx",
+      "category_candidate": "calendar-date",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "receding-text-plane",
+      "path": "registry/ruixenui/receding-text-plane.tsx",
+      "blob_sha": "3239c6ebb301a7ddf7919f1aae6b76ef3d54479f",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/receding-text-plane.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "retro-grid",
+      "path": "registry/ruixenui/retro-grid.tsx",
+      "blob_sha": "9a72d43527ea11c208123c98ea50a32df3ae3127",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/retro-grid.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "ripple-circles",
+      "path": "registry/ruixenui/ripple-circles.tsx",
+      "blob_sha": "fb54e5d4430977652fc9fa2f94ac10c54e02bb29",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/ripple-circles.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "ripple-distortion",
+      "path": "registry/ruixenui/ripple-distortion.tsx",
+      "blob_sha": "ecd3a6de2518fa78a6ece6216e4846aade000345",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/ripple-distortion.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "rising-glow",
+      "path": "registry/ruixenui/rising-glow.tsx",
+      "blob_sha": "15699b38c076f591148ab3eb3c0c1ae647538318",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/rising-glow.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "rotating-gradient-right",
+      "path": "registry/ruixenui/rotating-gradient-right.tsx",
+      "blob_sha": "f66e1184152cf34c895aa0e2781af88e1a7bc737",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/rotating-gradient-right.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "ruixen-featured-message-card",
+      "path": "registry/ruixenui/ruixen-featured-message-card.tsx",
+      "blob_sha": "d92300b2053062b28d3287efe7d427e6368b71c2",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/ruixen-featured-message-card.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "ruixen-gradient-footer",
+      "path": "registry/ruixenui/ruixen-gradient-footer.tsx",
+      "blob_sha": "229e19d14891d38fe75342b02694f6a56564e0c8",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/ruixen-gradient-footer.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "ruixen-prompt-box",
+      "path": "registry/ruixenui/ruixen-prompt-box.tsx",
+      "blob_sha": "66536d96ccae4720761621b47a4a770db2f1a89a",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/ruixen-prompt-box.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "ruixen-query-box",
+      "path": "registry/ruixenui/ruixen-query-box.tsx",
+      "blob_sha": "2888b79793654557661c7d45efa7a3ff6c5ac36e",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/ruixen-query-box.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "sales-ai-hero",
+      "path": "registry/ruixenui/sales-ai-hero.tsx",
+      "blob_sha": "6260b2cc732538cde1738bb74d1922b978bb951d",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/sales-ai-hero.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "scramble-text",
+      "path": "registry/ruixenui/scramble-text.tsx",
+      "blob_sha": "1d7fcce09edf1ed771541b3c6969e66a0eb36895",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scramble-text.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "scratch-to-reveal",
+      "path": "registry/ruixenui/scratch-to-reveal.tsx",
+      "blob_sha": "072199580de98d0582ef83899c1afd9dd8f9dc98",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scratch-to-reveal.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "script-copy-btn",
+      "path": "registry/ruixenui/script-copy-btn.tsx",
+      "blob_sha": "da83ded7ab6dd43d4712741e2f0f170dd7a9bd2e",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/script-copy-btn.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "scroll-based-velocity",
+      "path": "registry/ruixenui/scroll-based-velocity.tsx",
+      "blob_sha": "6ca8c10a93044fa23c04af7e01706461c0c047c5",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scroll-based-velocity.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "scroll-burn-text",
+      "path": "registry/ruixenui/scroll-burn-text.tsx",
+      "blob_sha": "af947224678e6ea1e7f005ecf017c7fc03506947",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scroll-burn-text.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "scroll-image-tunnel",
+      "path": "registry/ruixenui/scroll-image-tunnel.tsx",
+      "blob_sha": "f689969baca48248eff0e3bee42f41833e038b60",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scroll-image-tunnel.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "scroll-over-hero",
+      "path": "registry/ruixenui/scroll-over-hero.tsx",
+      "blob_sha": "e798200456ceb472636248bdb970b19f34b79999",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scroll-over-hero.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "scroll-pagination",
+      "path": "registry/ruixenui/scroll-pagination.tsx",
+      "blob_sha": "c35e0a73195f289f72fee62749af26802439b11d",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scroll-pagination.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "scroll-portrait-wall",
+      "path": "registry/ruixenui/scroll-portrait-wall.tsx",
+      "blob_sha": "b73b2d94582258db198d2d478b30f6f18009944f",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scroll-portrait-wall.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "scroll-progress",
+      "path": "registry/ruixenui/scroll-progress.tsx",
+      "blob_sha": "3edfe6fb87fff8b296a20ac56356ef39c6ffb0dd",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scroll-progress.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "scroll-ruler",
+      "path": "registry/ruixenui/scroll-ruler.tsx",
+      "blob_sha": "415c9dc6b318c02f24dbf57c140394a4e00ebe23",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scroll-ruler.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "scroll-text-rise",
+      "path": "registry/ruixenui/scroll-text-rise.tsx",
+      "blob_sha": "2aab65f1303c4036cf7347c953aed9de7213dc0f",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scroll-text-rise.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "scroll-tilted-grid",
+      "path": "registry/ruixenui/scroll-tilted-grid.tsx",
+      "blob_sha": "7dae7857fc82ae243a645d157b9509ad39a17b6d",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scroll-tilted-grid.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "scrub-datetime",
+      "path": "registry/ruixenui/scrub-datetime.tsx",
+      "blob_sha": "6d3722a39a5c956c6b00a75440fbba52f5cf55af",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scrub-datetime.tsx",
+      "category_candidate": "calendar-date",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "service-ledger",
+      "path": "registry/ruixenui/service-ledger.tsx",
+      "blob_sha": "3d1f7be944d61b037b361cca85e1aa31e69c4a47",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/service-ledger.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "share-button",
+      "path": "registry/ruixenui/share-button.tsx",
+      "blob_sha": "46001d2803f328eb9e660b85a0ef4cc072e014cd",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/share-button.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "shimmer-button",
+      "path": "registry/ruixenui/shimmer-button.tsx",
+      "blob_sha": "c217800cbc2bbd779b2473637c0d9405a519c66c",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/shimmer-button.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "shine-border",
+      "path": "registry/ruixenui/shine-border.tsx",
+      "blob_sha": "45b1c411eff8b323871648d104d748546e7b266b",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/shine-border.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "shiny-button",
+      "path": "registry/ruixenui/shiny-button.tsx",
+      "blob_sha": "ea2dacde13778f6cd71b174e4cce568c73c1c929",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/shiny-button.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "slide-to-delete-button",
+      "path": "registry/ruixenui/slide-to-delete-button.tsx",
+      "blob_sha": "71f509556a651e7031205128fff763e11d768960",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/slide-to-delete-button.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "sliding-pagination",
+      "path": "registry/ruixenui/sliding-pagination.tsx",
+      "blob_sha": "105e0bb7fadf2ca7691c213885ddfe4cf1941e68",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/sliding-pagination.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "smart-breadcrumb",
+      "path": "registry/ruixenui/smart-breadcrumb.tsx",
+      "blob_sha": "cdf493d4db6c6ab7b9fd43f45c81c0da5a799dd3",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/smart-breadcrumb.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "smart-paste-input",
+      "path": "registry/ruixenui/smart-paste-input.tsx",
+      "blob_sha": "da21b723d7a9d89526a88810a2783e928e509610",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/smart-paste-input.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "smooth-cursor",
+      "path": "registry/ruixenui/smooth-cursor.tsx",
+      "blob_sha": "6e71c800e18204846bad22494d3874c44f12efb0",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/smooth-cursor.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "social-preview-dock",
+      "path": "registry/ruixenui/social-preview-dock.tsx",
+      "blob_sha": "09ffd6a7ce6cf74ba3808cbd43d42f2d9b5f0edf",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/social-preview-dock.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "solar-loader",
+      "path": "registry/ruixenui/solar-loader.tsx",
+      "blob_sha": "a5c45816910880c8dfb99798cf12fbd3d0f0715d",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/solar-loader.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "spark-chart",
+      "path": "registry/ruixenui/spark-chart.tsx",
+      "blob_sha": "248c631d495b2810bdb7b57c841d629cb60e57d8",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/spark-chart.tsx",
+      "category_candidate": "data-workflow",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "sparkles-text",
+      "path": "registry/ruixenui/sparkles-text.tsx",
+      "blob_sha": "17b3a364163a0460dc0967f5a922090cad2da21f",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/sparkles-text.tsx",
+      "category_candidate": "motion-effects",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "spinning-text",
+      "path": "registry/ruixenui/spinning-text.tsx",
+      "blob_sha": "42b19a89e2a8ebcfeb2862ea3681ea784eccda44",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/spinning-text.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "split-feature-showcase",
+      "path": "registry/ruixenui/split-feature-showcase.tsx",
+      "blob_sha": "206f1bdf88e110ac223a7500b1343917971c123d",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/split-feature-showcase.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "split-hero-section",
+      "path": "registry/ruixenui/split-hero-section.tsx",
+      "blob_sha": "abc95be65a6796ced8807334908ac5186bb54875",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/split-hero-section.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "stack-pagination",
+      "path": "registry/ruixenui/stack-pagination.tsx",
+      "blob_sha": "6b69e9c9a93aca90471f261785c892add51e79f0",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/stack-pagination.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "staged-pricing",
+      "path": "registry/ruixenui/staged-pricing.tsx",
+      "blob_sha": "4a3be5186c81f5d2e48320001299a776a951aa3b",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/staged-pricing.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "staggered-faq-section",
+      "path": "registry/ruixenui/staggered-faq-section.tsx",
+      "blob_sha": "56c5306ae3bc9958e138b598926272debcec4fe7",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/staggered-faq-section.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "structured-hero-section",
+      "path": "registry/ruixenui/structured-hero-section.tsx",
+      "blob_sha": "2a81713f71718af5a2edab73e705f39e7fe1b938",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/structured-hero-section.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "subscription-plans",
+      "path": "registry/ruixenui/subscription-plans.tsx",
+      "blob_sha": "17b53870475763002af0ed39e86ea3fe6a924b0c",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/subscription-plans.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "tabbed-hero-section",
+      "path": "registry/ruixenui/tabbed-hero-section.tsx",
+      "blob_sha": "cbcf8c1d35c9d2f2d6d63630cffcd074953c5faf",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/tabbed-hero-section.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "tag-cloud-select",
+      "path": "registry/ruixenui/tag-cloud-select.tsx",
+      "blob_sha": "3c0fb9efea85fc49b056122b960d8280bd428bdc",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/tag-cloud-select.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "text-animate",
+      "path": "registry/ruixenui/text-animate.tsx",
+      "blob_sha": "dc988dddb75a608280601d624080cda188c64e69",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/text-animate.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "text-reveal",
+      "path": "registry/ruixenui/text-reveal.tsx",
+      "blob_sha": "31127b6046f991697f3652c7706b5cad5d82e3a1",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/text-reveal.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "three-dwall-calendar",
+      "path": "registry/ruixenui/three-dwall-calendar.tsx",
+      "blob_sha": "8e231bdccd635d5a65da0348d515815e100e56be",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/three-dwall-calendar.tsx",
+      "category_candidate": "calendar-date",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "toolbar-dock",
+      "path": "registry/ruixenui/toolbar-dock.tsx",
+      "blob_sha": "51d8ddef6e21cbb5800da8687f9a122aa009d444",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/toolbar-dock.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "tree-node-tooltip",
+      "path": "registry/ruixenui/tree-node-tooltip.tsx",
+      "blob_sha": "d05b7442c69ff6eeb425ce648302618e4a7d4bf5",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/tree-node-tooltip.tsx",
+      "category_candidate": "data-workflow",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "trusted-clients-showcase",
+      "path": "registry/ruixenui/trusted-clients-showcase.tsx",
+      "blob_sha": "e90fb2aa81289e3af263942a0d3daca68270b830",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/trusted-clients-showcase.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "typing-animation",
+      "path": "registry/ruixenui/typing-animation.tsx",
+      "blob_sha": "1ad55c5ef42fb5acc2caf5e732e2895b07e9f6ba",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/typing-animation.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "url-input",
+      "path": "registry/ruixenui/url-input.tsx",
+      "blob_sha": "1db5cf05086ce34fcd4149fe1a6880f3b2d580a7",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/url-input.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "variable-text",
+      "path": "registry/ruixenui/variable-text.tsx",
+      "blob_sha": "6c193aa67fc2149991261982c81e54b0d741fc3b",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/variable-text.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "verification-input",
+      "path": "registry/ruixenui/verification-input.tsx",
+      "blob_sha": "982c4c0126569796bf9460d748ef311e29f407a6",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/verification-input.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "video-hero-showcase",
+      "path": "registry/ruixenui/video-hero-showcase.tsx",
+      "blob_sha": "0b7180354ee6d4451e88b8da86b81d19a08087e6",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/video-hero-showcase.tsx",
+      "category_candidate": "media-gallery",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "video-player-pro",
+      "path": "registry/ruixenui/video-player-pro.tsx",
+      "blob_sha": "8c99559215d633ab38fa2c38ffc4d8d5c89b10d9",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/video-player-pro.tsx",
+      "category_candidate": "media-gallery",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "video-text",
+      "path": "registry/ruixenui/video-text.tsx",
+      "blob_sha": "d30946003124c154a04f065b73a8e64f2d70d720",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/video-text.tsx",
+      "category_candidate": "media-gallery",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "visualizer-button",
+      "path": "registry/ruixenui/visualizer-button.tsx",
+      "blob_sha": "424184d8b72bbe6dca3115211a7d847c002bf87f",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/visualizer-button.tsx",
+      "category_candidate": "surface-control",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "warp-background",
+      "path": "registry/ruixenui/warp-background.tsx",
+      "blob_sha": "e9e0dacecec6d0c032c4b179c2f51ab691c06a83",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/warp-background.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "wheel-pagination",
+      "path": "registry/ruixenui/wheel-pagination.tsx",
+      "blob_sha": "b0d1843b3f8306475cb13fee489185ae46ea207a",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/wheel-pagination.tsx",
+      "category_candidate": "navigation",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "wizard-stepper",
+      "path": "registry/ruixenui/wizard-stepper.tsx",
+      "blob_sha": "1a0618193b15195ab268b7d6850391050a463e8d",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/wizard-stepper.tsx",
+      "category_candidate": "form-input",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "word-rotate",
+      "path": "registry/ruixenui/word-rotate.tsx",
+      "blob_sha": "17be594e804c831ac73a26803eb7f07a7c0b9441",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/word-rotate.tsx",
+      "category_candidate": "misc",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    },
+    {
+      "slug": "wordmark-footer",
+      "path": "registry/ruixenui/wordmark-footer.tsx",
+      "blob_sha": "279f87f66efda943f4644fc8d5e54de57bcebcf8",
+      "github_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/wordmark-footer.tsx",
+      "category_candidate": "marketing",
+      "source_verified": "FILE_EXISTS_AT_PINNED_COMMIT",
+      "runtime_verified": false,
+      "flutter_ready": false
+    }
+  ]
+}
