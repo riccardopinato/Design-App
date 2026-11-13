@@ -168,3 +168,7 @@ L'utente dichiara una **licenza personale** per tutte le immagini dei lotti 12�
 - [Visualizzatore HTML con sovrimpressione](./docs/index.html): ricerca, filtri app/stile, tastiera, collegamento condivisibile `#UIR-0036`. **Il file HTML su github.com viene mostrato come codice**; per usarlo come sito va attivato GitHub Pages su `main /docs` (vedi [istruzioni](./docs/README.md)).
 
 La classificazione resta molti-a-molti, con un solo file JPG per riferimento; la visualizzazione non trasforma automaticamente una reference in una capability implementata.
+
+## Nuova fonte esterna: Ruixen UI (2026-11-13)
+
+[**Ruixen UI**](https://ruixen.com/) è stata integrata come riferimento per componenti UI, microinterazioni, generatori visivi e motion. Registrati [277 file sorgente React con SHA Git](sources/RUIXEN_UI_REGISTRY_INVENTORY_2026-11-13.json) e [41 pattern selezionati per 18 app](sources/RUIXEN_UI_CURATED_APP_MAP_2026-11-13.json), con [audit, licenze, casi d'uso e roadmap](sources/RUIXEN_UI_DESIGN_MOTION_AUDIT_2026-11-13.md). Voce inserita nel [registro OSS](registry/OSS_DESIGN_SOURCES.yaml). **Stato: REFERENCE, non implementazione né Golden**. Per Flutter mantenere reimplementazione nativa e QA, per web codice MIT soggetto a dependency/asset audit; Pro separato.
