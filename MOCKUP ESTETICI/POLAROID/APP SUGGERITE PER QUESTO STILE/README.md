@@ -17,8 +17,8 @@ Queste sono proposte estetiche, non design approvati o implementati. I JPG origi
 
 | App | ID riferimenti |
 |---|---|
-| FrameLab | UIR-0033 |
-| Wonderlog | UIR-0033 |
-| World Days | UIR-0033 |
+| FrameLab | [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg) |
+| Wonderlog | [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg) |
+| World Days | [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg) |
 
 [Catalogo estetico](../../RIFERIMENTI_UTENTE_2026-11-12.md) · [Matrice inversa app](../../../UI-UX/MATRICE_APP_RIFERIMENTI_2026-11-12.md).

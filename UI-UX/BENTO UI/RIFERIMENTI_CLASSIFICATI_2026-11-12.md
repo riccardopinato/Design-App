@@ -4,15 +4,15 @@
 
 | ID | Titolo | Ruolo | App candidate |
 |---|---|---|---|
-| UIR-0001 | Retro student planner a finestre | Secondario | Notes-Ecosistema, 180FlipCharge, Cooking Anime |
-| UIR-0003 | Collage mint/pink Soft 3D | Secondario | Anna's Diary, Notes-Ecosistema, Wonderlog |
-| UIR-0005 | Widget Home Neumorphism | Secondario | Battery Guard, SleepMax Coach, Pocket Guard |
-| UIR-0006 | Dashboard paesaggistica dark | Primario | TrailPath, CamperBoss, FocusSense |
-| UIR-0008 | Smart home neumorfica monocromatica | Secondario | Battery Guard, FocusSense, Pocket Guard |
-| UIR-0014 | UI Kit Claymorphism peach/blue | Secondario | Anna's Diary, Notes-Ecosistema, Wonderlog |
-| UIR-0019 | Confronto UI esteticamente ricca ma poco usabile | Secondario | Notes-Ecosistema, Anna's Diary, App Factory Dashboard |
-| UIR-0027 | Home soft bianco | Secondario | Battery Guard, Pocket Guard, SleepMax Coach |
-| UIR-0029 | Hello March dashboard grigio | Secondario | SleepMax Coach, Anna's Diary, Battery Guard |
+| [UIR-0001](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/RETRO%20DESKTOP/IMMAGINI/UIR-0001.jpg) | Retro student planner a finestre | Secondario | Notes-Ecosistema, 180FlipCharge, Cooking Anime |
+| [UIR-0003](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg) | Collage mint/pink Soft 3D | Secondario | Anna's Diary, Notes-Ecosistema, Wonderlog |
+| [UIR-0005](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0005.jpg) | Widget Home Neumorphism | Secondario | Battery Guard, SleepMax Coach, Pocket Guard |
+| [UIR-0006](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/BENTO%20UI/IMMAGINI/UIR-0006.jpg) | Dashboard paesaggistica dark | Primario | TrailPath, CamperBoss, FocusSense |
+| [UIR-0008](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0008.jpg) | Smart home neumorfica monocromatica | Secondario | Battery Guard, FocusSense, Pocket Guard |
+| [UIR-0014](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg) | UI Kit Claymorphism peach/blue | Secondario | Anna's Diary, Notes-Ecosistema, Wonderlog |
+| [UIR-0019](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0019.jpg) | Confronto UI esteticamente ricca ma poco usabile | Secondario | Notes-Ecosistema, Anna's Diary, App Factory Dashboard |
+| [UIR-0027](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0027.jpg) | Home soft bianco | Secondario | Battery Guard, Pocket Guard, SleepMax Coach |
+| [UIR-0029](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0029.jpg) | Hello March dashboard grigio | Secondario | SleepMax Coach, Anna's Diary, Battery Guard |
 
 La specifica visuale estesa è nel [catalogo generale](../RIFERIMENTI_UTENTE_2026-11-12.md).
 

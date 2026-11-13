@@ -17,14 +17,14 @@ Proposte da approvare per ogni singola app: non sono design implementati. I file
 
 | App | ID riferimenti |
 |---|---|
-| 180FlipCharge | UIR-0009 |
-| Anna's Diary | UIR-0003, UIR-0009, UIR-0013, UIR-0014, UIR-0020, UIR-0021, UIR-0022 |
-| CamperBoss | UIR-0021 |
-| FocusSense | UIR-0022 |
-| FrameLab | UIR-0013, UIR-0020, UIR-0033 |
-| Notes-Ecosistema | UIR-0003, UIR-0014 |
-| SleepMax Coach | UIR-0009, UIR-0020, UIR-0022 |
-| Wonderlog | UIR-0003, UIR-0014, UIR-0021, UIR-0033 |
-| World Days | UIR-0013, UIR-0033 |
+| 180FlipCharge | [UIR-0009](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0009.jpg) |
+| Anna's Diary | [UIR-0003](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg), [UIR-0009](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0009.jpg), [UIR-0013](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg), [UIR-0014](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg), [UIR-0020](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0020.jpg), [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg), [UIR-0022](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0022.jpg) |
+| CamperBoss | [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg) |
+| FocusSense | [UIR-0022](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0022.jpg) |
+| FrameLab | [UIR-0013](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg), [UIR-0020](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0020.jpg), [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg) |
+| Notes-Ecosistema | [UIR-0003](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg), [UIR-0014](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg) |
+| SleepMax Coach | [UIR-0009](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0009.jpg), [UIR-0020](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0020.jpg), [UIR-0022](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0022.jpg) |
+| Wonderlog | [UIR-0003](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg), [UIR-0014](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg), [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg), [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg) |
+| World Days | [UIR-0013](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg), [UIR-0033](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/EDITORIAL%20UI/IMMAGINI/UIR-0033.jpg) |
 
 [Catalogo approfondito](../../RIFERIMENTI_UTENTE_2026-11-12.md).

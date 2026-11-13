@@ -17,11 +17,11 @@ Ulteriori proposte dopo la classificazione delle immagini, non approvazione del 
 
 | App | Riferimenti (ID) |
 |---|---|
-| Anna's Diary | UIR-0003, UIR-0014, UIR-0021, UIR-0023 |
-| CamperBoss | UIR-0021 |
-| Cooking Anime | UIR-0023 |
-| Deskland Android | UIR-0023 |
-| Notes-Ecosistema | UIR-0003, UIR-0014 |
-| Wonderlog | UIR-0003, UIR-0014, UIR-0021 |
+| Anna's Diary | [UIR-0003](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg), [UIR-0014](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg), [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg), [UIR-0023](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SKEUOMORPHISM/IMMAGINI/UIR-0023.jpg) |
+| CamperBoss | [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg) |
+| Cooking Anime | [UIR-0023](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SKEUOMORPHISM/IMMAGINI/UIR-0023.jpg) |
+| Deskland Android | [UIR-0023](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SKEUOMORPHISM/IMMAGINI/UIR-0023.jpg) |
+| Notes-Ecosistema | [UIR-0003](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg), [UIR-0014](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg) |
+| Wonderlog | [UIR-0003](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0003.jpg), [UIR-0014](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0014.jpg), [UIR-0021](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SOFT%203D/IMMAGINI/UIR-0021.jpg) |
 
 [Specifiche dei riferimenti](../../RIFERIMENTI_UTENTE_2026-11-12.md) · [Matrice app complessiva](../../MATRICE_APP_RIFERIMENTI_2026-11-12.md).

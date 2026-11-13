@@ -17,10 +17,10 @@ Ulteriori proposte dopo la classificazione delle immagini, non approvazione del 
 
 | App | Riferimenti (ID) |
 |---|---|
-| App Factory Dashboard | UIR-0016 |
-| CashMate AI | UIR-0015, UIR-0016, UIR-0026, UIR-0031 |
-| FocusSense | UIR-0015, UIR-0026, UIR-0031 |
-| Notes-Ecosistema | UIR-0016 |
-| The Luminous Infinite Circle | UIR-0015, UIR-0026, UIR-0031 |
+| App Factory Dashboard | [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg) |
+| CashMate AI | [UIR-0015](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0015.jpg), [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg), [UIR-0026](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0026.jpg), [UIR-0031](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0031.jpg) |
+| FocusSense | [UIR-0015](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0015.jpg), [UIR-0026](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0026.jpg), [UIR-0031](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0031.jpg) |
+| Notes-Ecosistema | [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg) |
+| The Luminous Infinite Circle | [UIR-0015](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0015.jpg), [UIR-0026](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/GLASSMORPHISM/IMMAGINI/UIR-0026.jpg), [UIR-0031](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/TOGGLE%20%26%20SWITCH/IMMAGINI/UIR-0031.jpg) |
 
 [Specifiche dei riferimenti](../../RIFERIMENTI_UTENTE_2026-11-12.md) · [Matrice app complessiva](../../MATRICE_APP_RIFERIMENTI_2026-11-12.md).

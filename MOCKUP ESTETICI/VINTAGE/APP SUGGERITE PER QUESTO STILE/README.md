@@ -17,14 +17,14 @@ Queste sono proposte estetiche, non design approvati o implementati. I JPG origi
 
 | App | ID riferimenti |
 |---|---|
-| Anna's Diary | UIR-0013, UIR-0029 |
-| App Factory Dashboard | UIR-0016 |
-| Battery Guard | UIR-0025, UIR-0029 |
-| CashMate AI | UIR-0016, UIR-0025 |
-| Easy Debloat | UIR-0025 |
-| FrameLab | UIR-0013 |
-| Notes-Ecosistema | UIR-0016 |
-| SleepMax Coach | UIR-0029 |
-| World Days | UIR-0013 |
+| Anna's Diary | [UIR-0013](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg), [UIR-0029](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0029.jpg) |
+| App Factory Dashboard | [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg) |
+| Battery Guard | [UIR-0025](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0025.jpg), [UIR-0029](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0029.jpg) |
+| CashMate AI | [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg), [UIR-0025](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0025.jpg) |
+| Easy Debloat | [UIR-0025](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0025.jpg) |
+| FrameLab | [UIR-0013](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg) |
+| Notes-Ecosistema | [UIR-0016](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0016.jpg) |
+| SleepMax Coach | [UIR-0029](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/NEUMORPHISM/IMMAGINI/UIR-0029.jpg) |
+| World Days | [UIR-0013](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/DESIGN%20SYSTEM/IMMAGINI/UIR-0013.jpg) |
 
 [Catalogo estetico](../../RIFERIMENTI_UTENTE_2026-11-12.md) · [Matrice inversa app](../../../UI-UX/MATRICE_APP_RIFERIMENTI_2026-11-12.md).

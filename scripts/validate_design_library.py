@@ -30,8 +30,36 @@ if style_ids != expected_styles:
     fail(f"style IDs are not the canonical STYLE-A..STYLE-P sequence: {style_ids}")
 
 repos = re.findall(r'repo:\s*"([^"]+)"', oss)
-if len(repos) != 95 or len(set(repos)) != 95:
-    fail(f"expected 95 unique OSS design sources, found {len(repos)} / {len(set(repos))} unique")
+# Preserve the 95-source historical baseline, and audit explicit new intake batches.
+ruixen_intake = len(re.findall(r"^\s+batch:\s+RUIXEN_UI_2026_11_13\s*$", oss, re.MULTILINE))
+if ruixen_intake != 1:
+    fail(f"expected exactly one Ruixen external intake, found {ruixen_intake}")
+expected_source_count = 95 + ruixen_intake
+if len(repos) != expected_source_count or len(set(repos)) != expected_source_count:
+    fail(f"expected {expected_source_count} unique OSS design sources, found {len(repos)} / {len(set(repos))} unique")
+if repos.count("ruixenui/ruixen.com") != 1:
+    fail("Ruixen source missing or duplicated")
+ruixen_index = json.loads((ROOT / "sources" / "RUIXEN_UI_REGISTRY_INVENTORY_2026-11-13.json").read_text(encoding="utf-8"))
+ruixen_curated = json.loads((ROOT / "sources" / "RUIXEN_UI_CURATED_APP_MAP_2026-11-13.json").read_text(encoding="utf-8"))
+files = ruixen_index.get("files", [])
+candidates = ruixen_curated.get("items", [])
+if len(files) != 277 or len({f.get("slug") for f in files}) != 277:
+    fail("Ruixen inventory must contain exactly 277 distinct TSX references")
+if len(candidates) != 41 or len({c.get("id") for c in candidates}) != 41:
+    fail("Ruixen curated map must contain exactly 41 distinct references")
+if len({app for c in candidates for app in c.get("apps", [])}) != 18:
+    fail("Ruixen app crosswalk must cover 18 apps")
+file_by_slug = {f["slug"]: f for f in files}
+for candidate in candidates:
+    source = file_by_slug.get(candidate.get("slug"))
+    if not source or source.get("blob_sha") != candidate.get("pinned_code_sha"):
+        fail(f"Ruixen source mismatch for {candidate.get('id')}")
+    if candidate.get("code_imported") or candidate.get("status") != "REFERENCE_NOT_ADOPTED":
+        fail(f"Ruixen {candidate.get('id')} prematurely marked as adopted")
+if ruixen_index.get("immutable_commit") != ruixen_curated.get("immutable_commit"):
+    fail("Ruixen source commit mismatch across catalogues")
+if not (ROOT / "sources" / "RUIXEN_UI_DESIGN_MOTION_AUDIT_2026-11-13.md").is_file():
+    fail("Ruixen design motion audit missing")
 
 curated_count = len(re.findall(r"^\s+batch:\s+CURATED_2026_10_27\s*$", oss, re.MULTILINE))
 if curated_count != 37:

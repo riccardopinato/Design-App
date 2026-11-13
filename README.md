@@ -147,3 +147,28 @@ Nuova sezione [UI/UX](./UI-UX/README.md) per catalogare tecniche visive, pattern
 ## Riferimenti visuali forniti dall'utente — novembre 2026
 
 [Catalogo UI/UX completo](./UI-UX/RIFERIMENTI_UTENTE_2026-11-12.md) · [Matrice per app](./UI-UX/MATRICE_APP_RIFERIMENTI_2026-11-12.md) · [Catalogo estetico](./MOCKUP%20ESTETICI/RIFERIMENTI_UTENTE_2026-11-12.md). 35 upload, 33 unici. Originali non pubblicati senza licenze/diritti verificati; nessuna app modificata.
+
+## Riferimenti visuali forniti dall'utente — 13 novembre 2026
+
+[Nuovo catalogo UI/UX 66 riferimenti](./UI-UX/RIFERIMENTI_UTENTE_2026-11-13.md) · [Registro JSON con SHA-256 e duplicati](./UI-UX/REGISTRO_RIFERIMENTI_UTENTE_2026-11-13.json) · [Matrice app](./UI-UX/MATRICE_APP_RIFERIMENTI_2026-11-13.md) · [Indice estetico](./MOCKUP%20ESTETICI/RIFERIMENTI_UTENTE_2026-11-13.md). 77 upload, 66 nuovi unici, 11 duplicati esatti. Il precedente lotto del 12/11 resta invariato (33 unici); totale due lotti: 99 unici. Materiale REFERENCE_ONLY: i file di terzi non sono stati ripubblicati e nessuna app è stata modificata.
+
+## Matrice molti-a-molti App ↔ Stili (12–13/11/2026)
+
+La classificazione trasversale dei **99 riferimenti unici** è consultabile [per app](./UI-UX/PER_APP_STILI_2026-11-13.md) oppure [per stile](./UI-UX/PER_STILE_APP_2026-11-13.md). Il [registro relazionale JSON](./UI-UX/MATRICE_BIDIREZIONALE_APP_STILI_2026-11-13.json) contiene **254 coppie stile–app** e **771 link stile–app–reference**, con viste coerenti derivate dalle stesse associazioni. Gli originali restano fuori dal repository pubblico fino a verifica dei diritti di redistribuzione.
+
+## Dichiarazione personale sulla licenza dei riferimenti — 13 novembre 2026
+
+L'utente dichiara una **licenza personale** per tutte le immagini dei lotti 12–13/11/2026 (99 JPG distinti). La [dichiarazione e il perimetro](./UI-UX/DICHIARAZIONE_LICENZA_PERSONALE_2026-11-13.md) sono registrati nei due cataloghi JSON. Stato: `USER_DECLARED_PERSONAL_LICENSE`, non prova indipendente della licenza o di un permesso di redistribuzione pubblica. Le classificazioni e le associazioni molti-a-molti rimangono invariate.
+
+
+## Anteprime immediate dei riferimenti UIR
+
+- Ogni identificativo `UIR-xxxx` nelle matrici e nelle schede è un collegamento diretto alla rispettiva immagine JPEG. Per i 66 file nuovi il link è relativo a `main`; per i 33 originali della [PR #17](https://github.com/riccardopinato/Design-App/pull/17), ancora non integrati, il collegamento usa il commit che contiene gli asset.
+- [Anteprime espandibili direttamente in GitHub](./UI-UX/ANTEPRIME_99.md): cliccare il nome UIR per mostrare/nascondere l'immagine senza lasciare la pagina.
+- [Visualizzatore HTML con sovrimpressione](./docs/index.html): ricerca, filtri app/stile, tastiera, collegamento condivisibile `#UIR-0036`. **Il file HTML su github.com viene mostrato come codice**; per usarlo come sito va attivato GitHub Pages su `main /docs` (vedi [istruzioni](./docs/README.md)).
+
+La classificazione resta molti-a-molti, con un solo file JPG per riferimento; la visualizzazione non trasforma automaticamente una reference in una capability implementata.
+
+## Nuova fonte esterna: Ruixen UI (2026-11-13)
+
+[**Ruixen UI**](https://ruixen.com/) è stata integrata come riferimento per componenti UI, microinterazioni, generatori visivi e motion. Registrati [277 file sorgente React con SHA Git](sources/RUIXEN_UI_REGISTRY_INVENTORY_2026-11-13.json) e [41 pattern selezionati per 18 app](sources/RUIXEN_UI_CURATED_APP_MAP_2026-11-13.json), con [audit, licenze, casi d'uso e roadmap](sources/RUIXEN_UI_DESIGN_MOTION_AUDIT_2026-11-13.md). Voce inserita nel [registro OSS](registry/OSS_DESIGN_SOURCES.yaml). **Stato: REFERENCE, non implementazione né Golden**. Per Flutter mantenere reimplementazione nativa e QA, per web codice MIT soggetto a dependency/asset audit; Pro separato.

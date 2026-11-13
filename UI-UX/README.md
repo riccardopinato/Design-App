@@ -44,3 +44,24 @@ Indici: [matrice app ⇄ stili](./MATRICE_APP_STILI.md), [registro stili](./REGI
 ## Nuovi riferimenti forniti dall'utente — 12/11/2026
 
 Sono classificati [35 file, 33 immagini distinte](./RIFERIMENTI_UTENTE_2026-11-12.md) in entrambe le tassonomie, con [registro JSON](./REGISTRO_RIFERIMENTI_UTENTE_2026-11-12.json), [matrice inversa per app](./MATRICE_APP_RIFERIMENTI_2026-11-12.md) e indici per categoria. Aggiunte famiglie RETRO DESKTOP, TOGGLE & SWITCH, EDITORIAL UI, DESIGN SYSTEM, ILLUSTRATED CONTROLS, NAVIGATION UI, SKEUOMORPHISM. Originali JPG non importati nel repository pubblico senza verificare i diritti di redistribuzione.
+
+## Intake grafico consolidato — 13/11/2026
+
+[Catalogo 66 riferimenti](./RIFERIMENTI_UTENTE_2026-11-13.md), [registro sorgente/hashes](./REGISTRO_RIFERIMENTI_UTENTE_2026-11-13.json), [matrice app](./MATRICE_APP_RIFERIMENTI_2026-11-13.md). 77 upload, 11 duplicati SHA-256 esatti; 66 nuovi rispetto ai 33 distinti del 12/11. Le nuove etichette in tabella sono tag descrittivi, non nuove famiglie canoniche in REGISTRO_STILI.yaml. Nessun codice app/test/Golden importato.
+
+## Matrici bidirezionali per app e stile
+
+[App → Stili](./PER_APP_STILI_2026-11-13.md) · [Stile → App](./PER_STILE_APP_2026-11-13.md) · [JSON normalizzato di associazioni](./MATRICE_BIDIREZIONALE_APP_STILI_2026-11-13.json). Copertura: 99 riferimenti unici dei lotti 12/11 e 13/11; 18 famiglie tecniche, 10 famiglie estetiche, 19 app, 254 coppie distinte. Ogni coppia può avere più immagini. Non ci sono vincoli uno-a-uno e non si creano binari duplicati. Stili e app candidati sono PROPOSTA, non componenti approvati.
+
+## Dichiarazione personale sulla licenza dei riferimenti — 13 novembre 2026
+
+L'utente dichiara una **licenza personale** per tutte le immagini dei lotti 12–13/11/2026 (99 JPG distinti). La [dichiarazione e il perimetro](./DICHIARAZIONE_LICENZA_PERSONALE_2026-11-13.md) sono registrati nei due cataloghi JSON. Stato: `USER_DECLARED_PERSONAL_LICENSE`, non prova indipendente della licenza o di un permesso di redistribuzione pubblica. Le classificazioni e le associazioni molti-a-molti rimangono invariate.
+
+
+## Anteprime UIR cliccabili
+
+Le 99 schede possono aprire l'immagine direttamente cliccando l'ID `UIR-xxxx` nelle matrici; è inoltre disponibile la [galleria GitHub con anteprime espandibili](./ANTEPRIME_99.md). Il [visualizzatore HTML](../docs/index.html) permette una vera sovrimpressione con filtro per app e stile, dopo attivazione di GitHub Pages sul ramo `main` e cartella `/docs`. Le immagini della PR #17 rimangono identificate come **non ancora su main**.
+
+## Fonte componenti interattivi — Ruixen UI
+
+Oltre ai riferimenti immagine UIR, la libreria include un [catalogo Ruixen UI](../sources/RUIXEN_UI_DESIGN_MOTION_AUDIT_2026-11-13.md): 277 sorgenti TSX verificate per esistenza (SHA fissati), 41 pattern curati per 18 app e mappatura [app → componenti](../sources/RUIXEN_UI_CURATED_APP_MAP_2026-11-13.json). Ruixen è soprattutto React/shadcn; per Flutter il riuso è concettuale, non `COPY_READY`.

@@ -17,8 +17,8 @@ Queste sono proposte estetiche, non design approvati o implementati. I JPG origi
 
 | App | ID riferimenti |
 |---|---|
-| Anna's Diary | UIR-0023 |
-| Cooking Anime | UIR-0023 |
-| Deskland Android | UIR-0023 |
+| Anna's Diary | [UIR-0023](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SKEUOMORPHISM/IMMAGINI/UIR-0023.jpg) |
+| Cooking Anime | [UIR-0023](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SKEUOMORPHISM/IMMAGINI/UIR-0023.jpg) |
+| Deskland Android | [UIR-0023](https://github.com/riccardopinato/Design-App/blob/c064da7b5389938c1ea9825c573596fcd935e73d/UI-UX/SKEUOMORPHISM/IMMAGINI/UIR-0023.jpg) |
 
 [Catalogo estetico](../../RIFERIMENTI_UTENTE_2026-11-12.md) · [Matrice inversa app](../../../UI-UX/MATRICE_APP_RIFERIMENTI_2026-11-12.md).
