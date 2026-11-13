@@ -52,3 +52,7 @@ Sono classificati [35 file, 33 immagini distinte](./RIFERIMENTI_UTENTE_2026-11-1
 ## Matrici bidirezionali per app e stile
 
 [App → Stili](./PER_APP_STILI_2026-11-13.md) · [Stile → App](./PER_STILE_APP_2026-11-13.md) · [JSON normalizzato di associazioni](./MATRICE_BIDIREZIONALE_APP_STILI_2026-11-13.json). Copertura: 99 riferimenti unici dei lotti 12/11 e 13/11; 18 famiglie tecniche, 10 famiglie estetiche, 19 app, 254 coppie distinte. Ogni coppia può avere più immagini. Non ci sono vincoli uno-a-uno e non si creano binari duplicati. Stili e app candidati sono PROPOSTA, non componenti approvati.
+
+## Dichiarazione personale sulla licenza dei riferimenti — 13 novembre 2026
+
+L'utente dichiara una **licenza personale** per tutte le immagini dei lotti 12–13/11/2026 (99 JPG distinti). La [dichiarazione e il perimetro](./DICHIARAZIONE_LICENZA_PERSONALE_2026-11-13.md) sono registrati nei due cataloghi JSON. Stato: `USER_DECLARED_PERSONAL_LICENSE`, non prova indipendente della licenza o di un permesso di redistribuzione pubblica. Le classificazioni e le associazioni molti-a-molti rimangono invariate.
