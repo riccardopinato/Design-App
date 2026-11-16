@@ -32,6 +32,14 @@ targeted_intakes:
     inventory_path: "sources/RUIXEN_UI_REGISTRY_INVENTORY_2026-11-13.json"
     audit_path: "sources/RUIXEN_UI_DESIGN_MOTION_AUDIT_2026-11-13.md"
 
+  - batch_id: DOCK_WIDGET_2026_11_16
+    observed_at: "2026-11-16"
+    new_sources: 2
+    audit_path: "sources/GITHUB_DOCK_WIDGET_REFERENCE_2026-11-16.md"
+    factory_baseline: "c5adc147046beb7024629466d10eeb799c3c2619"
+    status: REFERENCE
+    note: "One MIT Windows WPF code donor candidate plus one proprietary closed-source UX reference; user-curated URLs, star state unverified."
+
 sources:
   - {repo: "fyne-io/fyne", utility: 96, ease: 62, deepen: true}
   - {repo: "penpot/penpot", utility: 88, ease: 46, deepen: true, role: "canvas interaction and design-token reference"}
@@ -782,3 +790,33 @@ sources:
     copy_policy: "REFERENCE_ONLY_FOR_NATIVE; MIT_CODE_REUSE_FOR_WEB_AFTER_AUDIT"
     catalogue_path: "sources/RUIXEN_UI_CURATED_APP_MAP_2026-11-13.json"
     note: "Source files catalogued, 8 sampled; neither tests nor runtime integration proven. No Ruixen Pro content imported."
+
+  - repo: "alztrk/opentaskbar"
+    batch: DOCK_WIDGET_2026_11_16
+    domain: "desktop dock; motion; navigation; recoverability"
+    stack: "C# / .NET 10 / WPF / Win32"
+    license: "MIT (repository LICENSE; file/dependency checks required for copy)"
+    source_ref: "6348d7519f83e032c31a065d72ad3b327906da15"
+    source_path: "Design/README.md"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: A
+    last_commit_activity_date: "2026-11-15"
+    role: "IntelliHide, fisheye, floating glass, live window previews, taskbar restore journal; Windows-only implementation."
+    copy_policy: "MIT_WINDOWS_CODE_CANDIDATE_AFTER_PER_FILE_AUDIT; REFERENCE_ONLY_FOR_ANDROID"
+    audit_path: "sources/GITHUB_DOCK_WIDGET_REFERENCE_2026-11-16.md"
+
+  - repo: "Acadbek/lumabar"
+    batch: DOCK_WIDGET_2026_11_16
+    domain: "widget docks; glass; glanceable productivity"
+    stack: "Windows commercial app, no public code"
+    license: "PROPRIETARY / NO_OSS_LICENSE"
+    source_ref: "5929d128d617b7d86165f74fa74bfc3fbcfbed32"
+    source_path: "README.md"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: B
+    last_commit_activity_date: "2026-11-12"
+    role: "Dock widgets, themes, picker, draggable layout, system/AI/productivity glance surfaces; docs-only."
+    copy_policy: "REFERENCE_ONLY; NO_CODE_OR_ASSET_COPY"
+    audit_path: "sources/GITHUB_DOCK_WIDGET_REFERENCE_2026-11-16.md"
