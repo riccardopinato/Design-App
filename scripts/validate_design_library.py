@@ -34,11 +34,26 @@ repos = re.findall(r'repo:\s*"([^"]+)"', oss)
 ruixen_intake = len(re.findall(r"^\s+batch:\s+RUIXEN_UI_2026_11_13\s*$", oss, re.MULTILINE))
 if ruixen_intake != 1:
     fail(f"expected exactly one Ruixen external intake, found {ruixen_intake}")
-expected_source_count = 95 + ruixen_intake
+dock_intake = len(re.findall(r"^  - batch_id: DOCK_WIDGET_2026_11_16$", oss, re.MULTILINE))
+if dock_intake != 1:
+    fail(f"expected one 2026-11-16 dock intake, found {dock_intake}")
+visual_intake = len(re.findall(r"^  - batch_id: STAR_VISUAL_2026_11_16$", oss, re.MULTILINE))
+if visual_intake != 1:
+    fail(f"expected exactly one 2026-11-16 visual stars intake, found {visual_intake}")
+expected_source_count = 95 + ruixen_intake + 2 * dock_intake + 7 * visual_intake
 if len(repos) != expected_source_count or len(set(repos)) != expected_source_count:
     fail(f"expected {expected_source_count} unique OSS design sources, found {len(repos)} / {len(set(repos))} unique")
-if repos.count("ruixenui/ruixen.com") != 1:
-    fail("Ruixen source missing or duplicated")
+for required in ("ruixenui/ruixen.com", "alztrk/opentaskbar", "Acadbek/lumabar"):
+    if repos.count(required) != 1:
+        fail(f"external source missing or duplicated: {required}")
+if not (ROOT / "sources" / "GITHUB_DOCK_WIDGET_REFERENCE_2026-11-16.md").is_file():
+    fail("dock reference audit document is missing")
+for required in ("tldraw/tldraw", "excalidraw/excalidraw", "xyflow/xyflow", "markmap/markmap",
+                 "alztrk/OpenWidget", "AppFlowy-IO/appflowy-editor", "sorenwacker/nodus"):
+    if repos.count(required) != 1:
+        fail(f"new visual source missing or duplicated: {required}")
+if not (ROOT / "sources" / "STARS_750_VISUAL_INTAKE_2026-11-16.md").is_file():
+    fail("2026-11-16 visual stars audit documentation missing")
 ruixen_index = json.loads((ROOT / "sources" / "RUIXEN_UI_REGISTRY_INVENTORY_2026-11-13.json").read_text(encoding="utf-8"))
 ruixen_curated = json.loads((ROOT / "sources" / "RUIXEN_UI_CURATED_APP_MAP_2026-11-13.json").read_text(encoding="utf-8"))
 files = ruixen_index.get("files", [])

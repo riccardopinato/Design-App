@@ -2,6 +2,14 @@
 
 Questa directory contiene studi di sorgenti esterne e donatori candidati, non necessariamente componenti già approvati per l'integrazione nelle app. La fonte autoritativa delle registrazioni resta [`registry/OSS_DESIGN_SOURCES.yaml`](../registry/OSS_DESIGN_SOURCES.yaml).
 
+## Nuove stelle GitHub — canvas, workflow, editor e widget · 16 novembre 2026
+
+- [7 nuove fonti visive con commit, licenza e crosswalk app](./STARS_750_VISUAL_INTAKE_2026-11-16.md): tldraw, Excalidraw, xyflow, Markmap, OpenWidget, AppFlowy Editor, Nodus. Maturità REFERENCE; non COPIA PRONTA. Indice canonico: `registry/OSS_DESIGN_SOURCES.yaml`.
+
+## Dock e widget Windows · 16 novembre 2026
+
+- [OpenTaskbar MIT e lumabar proprietario: crosswalk visuale e di riuso](./GITHUB_DOCK_WIDGET_REFERENCE_2026-11-16.md). Registrati in `registry/OSS_DESIGN_SOURCES.yaml` come REFERENCE, non COPY_READY.
+
 ## Ruixen UI · 13 novembre 2026
 
 - **[Audit completo e mappa app → pattern](./RUIXEN_UI_DESIGN_MOTION_AUDIT_2026-11-13.md):** fonte, licenze, analisi di motion e 41 pattern per 18 app, con 5 maxi-step operativi.

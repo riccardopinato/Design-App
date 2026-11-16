@@ -32,6 +32,22 @@ targeted_intakes:
     inventory_path: "sources/RUIXEN_UI_REGISTRY_INVENTORY_2026-11-13.json"
     audit_path: "sources/RUIXEN_UI_DESIGN_MOTION_AUDIT_2026-11-13.md"
 
+  - batch_id: DOCK_WIDGET_2026_11_16
+    observed_at: "2026-11-16"
+    new_sources: 2
+    audit_path: "sources/GITHUB_DOCK_WIDGET_REFERENCE_2026-11-16.md"
+    factory_baseline: "c5adc147046beb7024629466d10eeb799c3c2619"
+    status: REFERENCE
+    note: "One MIT Windows WPF code donor candidate plus one proprietary closed-source UX reference; user-curated URLs, star state unverified."
+
+  - batch_id: STAR_VISUAL_2026_11_16
+    observed_at: "2026-11-16"
+    new_sources: 7
+    status: REFERENCE
+    audit_path: "sources/STARS_750_VISUAL_INTAKE_2026-11-16.md"
+    factory_baseline: "c5adc147046beb7024629466d10eeb799c3c2619"
+    note: "Seven external visual/UX references found in the 737 public GitHub Stars census; product and per-file license gates remain open."
+
 sources:
   - {repo: "fyne-io/fyne", utility: 96, ease: 62, deepen: true}
   - {repo: "penpot/penpot", utility: 88, ease: 46, deepen: true, role: "canvas interaction and design-token reference"}
@@ -782,3 +798,138 @@ sources:
     copy_policy: "REFERENCE_ONLY_FOR_NATIVE; MIT_CODE_REUSE_FOR_WEB_AFTER_AUDIT"
     catalogue_path: "sources/RUIXEN_UI_CURATED_APP_MAP_2026-11-13.json"
     note: "Source files catalogued, 8 sampled; neither tests nor runtime integration proven. No Ruixen Pro content imported."
+
+  - repo: "alztrk/opentaskbar"
+    batch: DOCK_WIDGET_2026_11_16
+    domain: "desktop dock; motion; navigation; recoverability"
+    stack: "C# / .NET 10 / WPF / Win32"
+    license: "MIT (repository LICENSE; file/dependency checks required for copy)"
+    source_ref: "6348d7519f83e032c31a065d72ad3b327906da15"
+    source_path: "Design/README.md"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: A
+    last_commit_activity_date: "2026-11-15"
+    role: "IntelliHide, fisheye, floating glass, live window previews, taskbar restore journal; Windows-only implementation."
+    copy_policy: "MIT_WINDOWS_CODE_CANDIDATE_AFTER_PER_FILE_AUDIT; REFERENCE_ONLY_FOR_ANDROID"
+    audit_path: "sources/GITHUB_DOCK_WIDGET_REFERENCE_2026-11-16.md"
+
+  - repo: "Acadbek/lumabar"
+    batch: DOCK_WIDGET_2026_11_16
+    domain: "widget docks; glass; glanceable productivity"
+    stack: "Windows commercial app, no public code"
+    license: "PROPRIETARY / NO_OSS_LICENSE"
+    source_ref: "5929d128d617b7d86165f74fa74bfc3fbcfbed32"
+    source_path: "README.md"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: B
+    last_commit_activity_date: "2026-11-12"
+    role: "Dock widgets, themes, picker, draggable layout, system/AI/productivity glance surfaces; docs-only."
+    copy_policy: "REFERENCE_ONLY; NO_CODE_OR_ASSET_COPY"
+    audit_path: "sources/GITHUB_DOCK_WIDGET_REFERENCE_2026-11-16.md"
+
+  - repo: "tldraw/tldraw"
+    batch: STAR_VISUAL_2026_11_16
+    domain: "canvas-primitives"
+    stack: "TypeScript/React"
+    license: "NOASSERTION / SDK licensing gate"
+    source_ref: "9751764b0f69aa8cd22d5e2021b778132a6f7ed5"
+    source_path: "README.md"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: A
+    last_commit_activity_date: "2026-11-16"
+    role: "Extensible infinite canvas, shapes, gestures and collaborative drawing"
+    copy_policy: "REFERENCE_ONLY"
+    audit_path: "sources/STARS_750_VISUAL_INTAKE_2026-11-16.md"
+
+  - repo: "excalidraw/excalidraw"
+    batch: STAR_VISUAL_2026_11_16
+    domain: "whiteboard"
+    stack: "TypeScript/React"
+    license: "MIT (metadata; per-file required)"
+    source_ref: "82190fb28f58070b34b4017e70c0e2e83701a8e3"
+    source_path: "README.md"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: A
+    last_commit_activity_date: "2026-11-16"
+    role: "Hand-drawn canvas, shape libraries and interactive zoom"
+    copy_policy: "REFERENCE_ONLY_FOR_FLUTTER"
+    audit_path: "sources/STARS_750_VISUAL_INTAKE_2026-11-16.md"
+
+  - repo: "xyflow/xyflow"
+    batch: STAR_VISUAL_2026_11_16
+    domain: "workflow-graphs"
+    stack: "React/Svelte/Vue"
+    license: "MIT (metadata; per-file required)"
+    source_ref: "0814ffa1b23bb29048b329c03c211f335bdd6571"
+    source_path: "README.md"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: A
+    last_commit_activity_date: "2026-11-16"
+    role: "Node-edge interaction for developer dashboard and agent workflow graphs"
+    copy_policy: "REFERENCE_ONLY_FOR_FLUTTER"
+    audit_path: "sources/STARS_750_VISUAL_INTAKE_2026-11-16.md"
+
+  - repo: "markmap/markmap"
+    batch: STAR_VISUAL_2026_11_16
+    domain: "mind-map"
+    stack: "TypeScript/SVG/Canvas"
+    license: "MIT (metadata; per-file required)"
+    source_ref: "c09e4837c0ee5428c02e65cc728c1daf28ee1ec0"
+    source_path: "README.md"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: A
+    last_commit_activity_date: "2026-11-16"
+    role: "Markdown mindmap renderer, folding layouts and export"
+    copy_policy: "REFERENCE_ONLY_FOR_FLUTTER"
+    audit_path: "sources/STARS_750_VISUAL_INTAKE_2026-11-16.md"
+
+  - repo: "alztrk/OpenWidget"
+    batch: STAR_VISUAL_2026_11_16
+    domain: "desktop-widgets"
+    stack: "C#/WPF/Windows"
+    license: "MIT (metadata; per-file required)"
+    source_ref: "7c8ff5aad7a77b34c952c9c66d4077039754dbb1"
+    source_path: "README.md"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: A
+    last_commit_activity_date: "2026-11-16"
+    role: "Floating widget, responsive HUD, multi-monitor and focus policies"
+    copy_policy: "REFERENCE_ONLY_FOR_ANDROID"
+    audit_path: "sources/STARS_750_VISUAL_INTAKE_2026-11-16.md"
+
+  - repo: "AppFlowy-IO/appflowy-editor"
+    batch: STAR_VISUAL_2026_11_16
+    domain: "flutter-editor"
+    stack: "Dart/Flutter"
+    license: "Dual AGPL-3.0/MPL-2.0 per README"
+    source_ref: "01eccc6ee36bd07698bd80915289fe7070478cd2"
+    source_path: "README.md"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: A
+    last_commit_activity_date: "2026-11-16"
+    role: "Block editor, toolbar, shortcuts and custom component schema"
+    copy_policy: "REFERENCE_ONLY_PENDING_LICENSE_GATE"
+    audit_path: "sources/STARS_750_VISUAL_INTAKE_2026-11-16.md"
+
+  - repo: "sorenwacker/nodus"
+    batch: STAR_VISUAL_2026_11_16
+    domain: "canvas-document"
+    stack: "Web/desktop"
+    license: "NOASSERTION (no code reuse approval)"
+    source_ref: "14f1ff6e43a95d9a29eec8eb3fb718af4049b56c"
+    source_path: "README.md"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: A
+    last_commit_activity_date: "2026-11-16"
+    role: "Canvas and document surface with PDF highlights and citations"
+    copy_policy: "REFERENCE_ONLY"
+    audit_path: "sources/STARS_750_VISUAL_INTAKE_2026-11-16.md"
