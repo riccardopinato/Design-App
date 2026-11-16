@@ -34,7 +34,7 @@ repos = re.findall(r'repo:\s*"([^"]+)"', oss)
 ruixen_intake = len(re.findall(r"^\s+batch:\s+RUIXEN_UI_2026_11_13\s*$", oss, re.MULTILINE))
 if ruixen_intake != 1:
     fail(f"expected exactly one Ruixen external intake, found {ruixen_intake}")
-dock_intake = len(re.findall(r"^  - batch_id: DOCK_WIDGET_2026_11_16\\s*$", oss, re.MULTILINE))
+dock_intake = len(re.findall(r"^  - batch_id: DOCK_WIDGET_2026_11_16$", oss, re.MULTILINE))
 if dock_intake != 1:
     fail(f"expected one 2026-11-16 dock intake, found {dock_intake}")
 expected_source_count = 95 + ruixen_intake + 2 * dock_intake
