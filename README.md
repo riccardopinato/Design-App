@@ -84,6 +84,10 @@ useful. Third-party code must pass license/provenance checks before being copied
 See AGENTS.md for the operating contract.
 
 
+## Intake visuale da 750 stelle GitHub (16 novembre 2026)
+
+Il registro esterno include ora **105 fonti uniche**, delle quali 7 nuove dal censimento recente: tldraw, Excalidraw, xyflow, Markmap, OpenWidget, AppFlowy Editor, Nodus. [Audit source-pinned e crosswalk per app](sources/STARS_750_VISUAL_INTAKE_2026-11-16.md). Sono tutte REFERENCE, non COPY_READY; il perimetro commerciale/OSS dei file resta un gate indipendente.
+
 ## External design-source coverage
 
 The external discovery pool now contains 95 unique repositories:
