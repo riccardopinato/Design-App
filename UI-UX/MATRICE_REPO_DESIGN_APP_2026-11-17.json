@@ -1,0 +1,2125 @@
+{
+  "schema_version": 1,
+  "batch_id": "ANTI_SLOP_DESIGN_SKILLS_2026_11_17",
+  "observed_at": "2026-11-17",
+  "source_of_truth": "riccardopinato/Design-App",
+  "factory_baseline": "riccardopinato/App-Factory-Core@c5adc147046beb7024629466d10eeb799c3c2619",
+  "star_state": "USER_REPORTED; not verified through authenticated starred endpoint",
+  "status": "REFERENCE",
+  "execution_status": "NO_APP_IMPLEMENTATION",
+  "license_gate": "PER_FILE_AND_ASSET_CHECK_BEFORE_COPY",
+  "counts": {
+    "sources": 10,
+    "apps": 21,
+    "associations": 96,
+    "high": 68,
+    "medium": 28
+  },
+  "sources": [
+    {
+      "id": "DSK-001",
+      "repo": "uizze/uizze",
+      "ref": "fc401e9e654cbafe427b0c98142fc8bccd0c4e7e",
+      "title": "Anti UI Slop / Uizze",
+      "kind": "DESIGN_INTELLIGENCE",
+      "license": "MIXED: root MIT; anti-ui-slop Apache-2.0; service/assets separately licensed",
+      "path": "skills/anti-ui-slop/SKILL.md",
+      "license_path": "LICENSING.md",
+      "tier": "A",
+      "styles": [
+        "NEO-APPLE",
+        "PASTEL UI",
+        "DESIGN SYSTEM"
+      ],
+      "extract": "Design contract, product-specific references, required UI states and finish gate; image-to-UI and UI Radar as separate optional workflows",
+      "caveat": "Primarily web/iOS instructions, not a native Flutter package. Hosted MCP is paid and reference images are not automatically redistributable.",
+      "url": "https://github.com/uizze/uizze/tree/fc401e9e654cbafe427b0c98142fc8bccd0c4e7e",
+      "maturity": "REFERENCE",
+      "reuse_mode": "REFERENCE_ONLY_PENDING_CONSUMER_GATE"
+    },
+    {
+      "id": "DSK-002",
+      "repo": "pbakaus/impeccable",
+      "ref": "d41d9860b0094dcb68030657da63461212835aaa",
+      "title": "Impeccable",
+      "kind": "UI_UX_QA",
+      "license": "Apache-2.0 (root); per-file/engine assets still require checking",
+      "path": ".agents/skills/impeccable/SKILL.md",
+      "license_path": "LICENSE",
+      "tier": "A",
+      "styles": [
+        "DESIGN SYSTEM",
+        "MINIMAL CONTROLS",
+        "EDITORIAL UI"
+      ],
+      "extract": "Structured critique/audit, layout, typography, visual polish, accessibility, responsive and resilient UI states; deterministic anti-slop detector",
+      "caveat": "UX rules transfer conceptually to native apps; its own engine and browser instrumentation do not run as Flutter widgets.",
+      "url": "https://github.com/pbakaus/impeccable/tree/d41d9860b0094dcb68030657da63461212835aaa",
+      "maturity": "REFERENCE",
+      "reuse_mode": "REFERENCE_ONLY_PENDING_CONSUMER_GATE"
+    },
+    {
+      "id": "DSK-003",
+      "repo": "Leonxlnx/taste-skill",
+      "ref": "f6b76575f949707b4e3c37cd86cb44b0b98643e8",
+      "title": "Taste Skill",
+      "kind": "WEB_DESIGN_TOOLING",
+      "license": "MIT (root); photo/icon asset-level licenses and credits must be checked",
+      "path": "skills/taste-skill/SKILL.md",
+      "license_path": "LICENSE",
+      "tier": "B",
+      "styles": [
+        "EDITORIAL UI",
+        "BENTO UI",
+        "DESIGN SYSTEM"
+      ],
+      "extract": "Web art direction, palette/font selection, hero layouts, copy checks and real-browser consistency/performance gate at multiple viewport widths",
+      "caveat": "Web-first HTML/CSS/React/Vue/Svelte/Astro workflow; not suitable as a runtime Flutter donor. Preserve existing approved app brand.",
+      "url": "https://github.com/Leonxlnx/taste-skill/tree/f6b76575f949707b4e3c37cd86cb44b0b98643e8",
+      "maturity": "REFERENCE",
+      "reuse_mode": "REFERENCE_ONLY_PENDING_CONSUMER_GATE"
+    },
+    {
+      "id": "DSK-004",
+      "repo": "emilkowalski/skills",
+      "ref": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "title": "Emil Design Engineering",
+      "kind": "MOTION_ENGINEERING",
+      "license": "MIT (root)",
+      "path": "skills/emil-design-eng/SKILL.md",
+      "license_path": "LICENSE",
+      "tier": "A",
+      "styles": [
+        "MINIMAL CONTROLS",
+        "NEO-APPLE",
+        "NAVIGATION UI"
+      ],
+      "extract": "Interaction motion, gesture physics, meaningful easing/duration, animation performance and break-ui stress checks; includes native-adjacent guidance",
+      "caveat": "Examples skew web/React/Expo; implement with Flutter Animation/Compose native primitives and respect reduced-motion/performance.",
+      "url": "https://github.com/emilkowalski/skills/tree/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "maturity": "REFERENCE",
+      "reuse_mode": "REFERENCE_ONLY_PENDING_CONSUMER_GATE"
+    },
+    {
+      "id": "DSK-005",
+      "repo": "vercel-labs/agent-skills",
+      "ref": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "title": "Vercel Web Design Guidelines",
+      "kind": "WEB_UX_QA",
+      "license": "NOASSERTION at repository root; inspect each file and upstream live guidelines",
+      "path": "skills/web-design-guidelines/SKILL.md",
+      "license_path": "NOT_PRESENT_AT_ROOT",
+      "tier": "A_WEB",
+      "styles": [
+        "DESIGN SYSTEM",
+        "NAVIGATION UI",
+        "MINIMAL CONTROLS"
+      ],
+      "extract": "Web accessibility, keyboard/focus, form validation, responsive typography, image performance, URL-driven state and localization; skills fetch external guideline version",
+      "caveat": "Rule source is fetched live from vercel-labs/web-interface-guidelines, not pinned by this skill; do not treat web DOM rules as Android APIs.",
+      "url": "https://github.com/vercel-labs/agent-skills/tree/1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "maturity": "REFERENCE",
+      "reuse_mode": "REFERENCE_ONLY_PENDING_CONSUMER_GATE"
+    },
+    {
+      "id": "DSK-006",
+      "repo": "anthropics/skills",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "title": "Anthropic Frontend Design",
+      "kind": "VISUAL_ART_DIRECTION",
+      "license": "Apache-2.0 for skills/frontend-design (per-skill); other skill assets separate",
+      "path": "skills/frontend-design/SKILL.md",
+      "license_path": "skills/frontend-design/LICENSE.txt",
+      "tier": "A",
+      "styles": [
+        "EDITORIAL UI",
+        "PASTEL UI",
+        "BENTO UI"
+      ],
+      "extract": "Distinctive subject-grounded visual direction, typography, palette, layout narrative and self-critique; avoid templated frontend patterns",
+      "caveat": "Creative frontend design guidance, not a finished mobile component; native UI must preserve Product Bible and platform behavior.",
+      "url": "https://github.com/anthropics/skills/tree/e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "maturity": "REFERENCE",
+      "reuse_mode": "REFERENCE_ONLY_PENDING_CONSUMER_GATE"
+    },
+    {
+      "id": "DSK-007",
+      "repo": "Nutlope/hallmark",
+      "ref": "04977e15f3dfd6ee4b74c887dac3eb52665d6c92",
+      "title": "Hallmark",
+      "kind": "WEB_MARKETING_DESIGN",
+      "license": "MIT root and skills/hallmark/LICENSE; photo/theme assets require per-file checks",
+      "path": "skills/hallmark/SKILL.md",
+      "license_path": "skills/hallmark/LICENSE",
+      "tier": "B",
+      "styles": [
+        "BENTO UI",
+        "EDITORIAL UI",
+        "SPATIAL 3D"
+      ],
+      "extract": "50 web themes, functional marketing page composition, redesign and render audit, real photographed assets with credits, custom page direction",
+      "caveat": "Do not replace in-app native layouts with its website themes or reuse third-party brand/photos without license review.",
+      "url": "https://github.com/Nutlope/hallmark/tree/04977e15f3dfd6ee4b74c887dac3eb52665d6c92",
+      "maturity": "REFERENCE",
+      "reuse_mode": "REFERENCE_ONLY_PENDING_CONSUMER_GATE"
+    },
+    {
+      "id": "DSK-008",
+      "repo": "jakubkrehel/skills",
+      "ref": "6c2120103600407a1a9986afd834e73144ef8998",
+      "title": "Better Interfaces (Jakub Krehel)",
+      "kind": "UI_UX_QA",
+      "license": "MIT (root)",
+      "path": "skills/better-interface/SKILL.md",
+      "license_path": "LICENSE",
+      "tier": "A",
+      "styles": [
+        "DESIGN SYSTEM",
+        "MINIMAL CONTROLS",
+        "NAVIGATION UI"
+      ],
+      "extract": "Evidence-based design review across accessibility, copy, spacing, typography, color, interactive states; separate change-scoped interface review and stress scenarios",
+      "caveat": "Web-specific ARIA/focus rules are references only for native mobile semantics; do not claim a review without exact source and rendered evidence.",
+      "url": "https://github.com/jakubkrehel/skills/tree/6c2120103600407a1a9986afd834e73144ef8998",
+      "maturity": "REFERENCE",
+      "reuse_mode": "REFERENCE_ONLY_PENDING_CONSUMER_GATE"
+    },
+    {
+      "id": "DSK-009",
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "ref": "e59ff376a41f7ca47b7541ad5c116495cbade3ee",
+      "title": "UI UX Pro Max",
+      "kind": "CROSS_PLATFORM_DESIGN_INTELLIGENCE",
+      "license": "MIT (root); premium assets/features excluded; font/icon assets separately",
+      "path": ".claude/skills/ui-ux-pro-max/SKILL.md",
+      "license_path": "LICENSE",
+      "tier": "A",
+      "styles": [
+        "DESIGN SYSTEM",
+        "NEO-APPLE",
+        "BENTO UI",
+        "PASTEL UI",
+        "NATURE-TECH",
+        "MINIMAL CONTROLS"
+      ],
+      "extract": "Searchable local palettes, font pairings, style taxonomy, UX rules, design system token output; explicit Flutter and Jetpack Compose stack guidance",
+      "caveat": "Generated suggestions are options, not certified standards. Compare to existing design tokens/approved identity; benchmark Flutter impact before use.",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/e59ff376a41f7ca47b7541ad5c116495cbade3ee",
+      "maturity": "REFERENCE",
+      "reuse_mode": "REFERENCE_ONLY_PENDING_CONSUMER_GATE"
+    },
+    {
+      "id": "DSK-010",
+      "repo": "benjitaylor/skills",
+      "ref": "299140fafd08df55a9c234e610c3f64af3f45531",
+      "title": "Stageshow",
+      "kind": "PRODUCT_MARKETING_VISUAL",
+      "license": "MIT for stageshow/ (not blanket repo); bundled third-party brand assets carry separate notices",
+      "path": "stageshow/SKILL.md",
+      "license_path": "stageshow/LICENSE",
+      "tier": "A_MARKETING",
+      "styles": [
+        "BENTO UI",
+        "SPATIAL 3D",
+        "EDITORIAL UI"
+      ],
+      "extract": "Believable product UI stills, bento feature cards, framed screenshots, animated cursor walkthroughs and recorded product demos",
+      "caveat": "Marketing mockups do not prove app features or runtime QA. Avoid fabricated product claims and unlicensed third-party marks.",
+      "url": "https://github.com/benjitaylor/skills/tree/299140fafd08df55a9c234e610c3f64af3f45531",
+      "maturity": "REFERENCE",
+      "reuse_mode": "REFERENCE_ONLY_PENDING_CONSUMER_GATE"
+    }
+  ],
+  "associations": [
+    {
+      "source_id": "DSK-001",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "surface": "iOS Journal and pastel identity quality checks",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-001",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "surface": "editor and responsive workflow refinement",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-001",
+      "app": "Wonderlog",
+      "fit": "HIGH",
+      "surface": "travel visual language and image-led views",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-001",
+      "app": "FrameLab",
+      "fit": "HIGH",
+      "surface": "photo and visual hierarchy",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-001",
+      "app": "World Days",
+      "fit": "HIGH",
+      "surface": "daily content cards and empty-state polish",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-001",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "surface": "consistent design language and preview QA",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-001",
+      "app": "Omni Cleaner",
+      "fit": "MEDIUM",
+      "surface": "less generic utility UI and state feedback",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-001",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "surface": "image-first editorial cards",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-002",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "surface": "reduce card overload while preserving diary identity",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-002",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "surface": "editor density, hierarchy and responsive review",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-002",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "surface": "dedicated feature screens and gallery/video UX checks",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-002",
+      "app": "World Days",
+      "fit": "HIGH",
+      "surface": "content density, long-copy and reader flow",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-002",
+      "app": "Battery Guard",
+      "fit": "HIGH",
+      "surface": "readable metrics and actionable status",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-002",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "surface": "cross-app visual acceptance gate",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-002",
+      "app": "FrameLab",
+      "fit": "HIGH",
+      "surface": "premium photo-editor controls",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-002",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "surface": "travel cards and map overlay polish",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-002",
+      "app": "CashMate AI",
+      "fit": "MEDIUM",
+      "surface": "financial data visual hierarchy",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-002",
+      "app": "Deskland Android",
+      "fit": "MEDIUM",
+      "surface": "launcher accessibility and touch-state review",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-003",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "surface": "web landing and narrative hero",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-003",
+      "app": "Web Utility Factory",
+      "fit": "HIGH",
+      "surface": "SEO utility site landing and conversion flows",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-003",
+      "app": "Cooking Anime",
+      "fit": "HIGH",
+      "surface": "product/store marketing website",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-003",
+      "app": "FrameLab",
+      "fit": "MEDIUM",
+      "surface": "editorial product landing",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-003",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "surface": "web product landing, not the native editor",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-003",
+      "app": "Anna's Diary",
+      "fit": "MEDIUM",
+      "surface": "PWA marketing entry, not diary calendar UI",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-003",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "surface": "content discovery pages where web-native",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-004",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "surface": "calendar gestures, Capture sheet and memory transitions",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-004",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "surface": "canvas/drag/selection and feedback",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-004",
+      "app": "Deskland Android",
+      "fit": "HIGH",
+      "surface": "long-press drag, icon motion and frame pacing",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-004",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "surface": "smooth transitions between function screens",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-004",
+      "app": "Wonderlog",
+      "fit": "HIGH",
+      "surface": "map and journal transitions",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-004",
+      "app": "FrameLab",
+      "fit": "HIGH",
+      "surface": "photo controls and gesture responsiveness",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-004",
+      "app": "TrailPath",
+      "fit": "HIGH",
+      "surface": "map control and route-state transitions",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-004",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "surface": "subtle content-card transitions",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-004",
+      "app": "FocusSense",
+      "fit": "MEDIUM",
+      "surface": "score motion without decorative loops",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-005",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "surface": "keyboard navigation, responsive dashboards and forms",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-005",
+      "app": "Web Utility Factory",
+      "fit": "HIGH",
+      "surface": "SEO-first accessible utility web UI",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-005",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "surface": "web editor/desktop accessibility",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-005",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "surface": "PWA accessibility and layout; native separately",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-005",
+      "app": "World Days",
+      "fit": "HIGH",
+      "surface": "content-heavy web views and navigation",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-005",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "surface": "marketing and public site only",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-006",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "surface": "coherent editorial diary personality",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-006",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "surface": "knowledge-workspace information hierarchy",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-006",
+      "app": "Wonderlog",
+      "fit": "HIGH",
+      "surface": "colourful travel narrative",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-006",
+      "app": "FrameLab",
+      "fit": "HIGH",
+      "surface": "photographic editorial premium direction",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-006",
+      "app": "World Days",
+      "fit": "HIGH",
+      "surface": "recognizable day-story cards",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-006",
+      "app": "Cooking Anime",
+      "fit": "HIGH",
+      "surface": "image-first culinary identity",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-006",
+      "app": "Omni Cleaner",
+      "fit": "MEDIUM",
+      "surface": "distinctive but restrained utility aesthetic",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-006",
+      "app": "App Factory Dashboard",
+      "fit": "MEDIUM",
+      "surface": "non-generic web dashboard identity",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-007",
+      "app": "Cooking Anime",
+      "fit": "HIGH",
+      "surface": "public product marketing and themed campaign",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-007",
+      "app": "FrameLab",
+      "fit": "HIGH",
+      "surface": "editorial product showcase",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-007",
+      "app": "App Factory Dashboard",
+      "fit": "MEDIUM",
+      "surface": "public project showcase, not operations UI",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-007",
+      "app": "Anna's Diary",
+      "fit": "MEDIUM",
+      "surface": "marketing site and app feature pages",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-007",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "surface": "landing feature stories",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-007",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "surface": "public promotional pages",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-007",
+      "app": "Web Utility Factory",
+      "fit": "MEDIUM",
+      "surface": "landing experiments; prioritize SEO and speed",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-008",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "surface": "readable diary and navigation review",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-008",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "surface": "complex editor and long-text states",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-008",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "surface": "feature navigation, gallery and media controls",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-008",
+      "app": "World Days",
+      "fit": "HIGH",
+      "surface": "long story and multilingual layouts",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-008",
+      "app": "Battery Guard",
+      "fit": "HIGH",
+      "surface": "information clarity and warning states",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-008",
+      "app": "CashMate AI",
+      "fit": "HIGH",
+      "surface": "money formatting, disclosure and graphs",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-008",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "surface": "responsive dashboard QA",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-008",
+      "app": "TrailPath",
+      "fit": "HIGH",
+      "surface": "map touch targets and offline states",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-008",
+      "app": "FocusSense",
+      "fit": "HIGH",
+      "surface": "data viz semantics and contrast",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-008",
+      "app": "CamperBoss",
+      "fit": "MEDIUM",
+      "surface": "offline guide accessibility",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-008",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "surface": "image/locale overflow checks",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-009",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "surface": "rose editorial token system and calendar polish",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-009",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "surface": "editor/canvas design-token consistency",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-009",
+      "app": "World Days",
+      "fit": "HIGH",
+      "surface": "information-card design and locale-aware typography",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-009",
+      "app": "Wonderlog",
+      "fit": "HIGH",
+      "surface": "travel journal palette and components",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-009",
+      "app": "FrameLab",
+      "fit": "HIGH",
+      "surface": "photo UI token and contrast reference",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-009",
+      "app": "Battery Guard",
+      "fit": "HIGH",
+      "surface": "clean battery analytics theme",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-009",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "surface": "utility redesign with component variants",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-009",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "surface": "cross-product visual catalog",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-009",
+      "app": "Deskland Android",
+      "fit": "HIGH",
+      "surface": "launcher spatial controls, only after functional stability",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-009",
+      "app": "CamperBoss",
+      "fit": "HIGH",
+      "surface": "outdoor readability and maps",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-009",
+      "app": "TrailPath",
+      "fit": "HIGH",
+      "surface": "map utility and nature-tech",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-009",
+      "app": "FocusSense",
+      "fit": "HIGH",
+      "surface": "neon analytics vs legibility balance",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-009",
+      "app": "CashMate AI",
+      "fit": "HIGH",
+      "surface": "semantic finance palettes",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-009",
+      "app": "Cooking Anime",
+      "fit": "HIGH",
+      "surface": "image-first catalogue design",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-009",
+      "app": "Easy Debloat",
+      "fit": "HIGH",
+      "surface": "severity-safe utility tokens",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-009",
+      "app": "Pocket Guard",
+      "fit": "HIGH",
+      "surface": "protection state UI",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-009",
+      "app": "SleepMax Coach",
+      "fit": "MEDIUM",
+      "surface": "calm routine controls",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-009",
+      "app": "BeerClass AI",
+      "fit": "MEDIUM",
+      "surface": "tasting cards and theme",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-009",
+      "app": "180FlipCharge",
+      "fit": "MEDIUM",
+      "surface": "minimal control panel",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-009",
+      "app": "The Luminous Infinite Circle",
+      "fit": "MEDIUM",
+      "surface": "accessible visual-alert semantics",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-010",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "surface": "feature showcase and app-store creative",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-010",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "surface": "workspace feature illustrations and demo",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-010",
+      "app": "Cooking Anime",
+      "fit": "HIGH",
+      "surface": "app store promotional cards",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-010",
+      "app": "World Days",
+      "fit": "HIGH",
+      "surface": "new rich-story feature preview",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-010",
+      "app": "FrameLab",
+      "fit": "HIGH",
+      "surface": "visual editor demonstrations",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-010",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "surface": "portfolio project teasers",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-010",
+      "app": "Wonderlog",
+      "fit": "HIGH",
+      "surface": "travel journey product highlights",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-010",
+      "app": "Omni Cleaner",
+      "fit": "MEDIUM",
+      "surface": "feature-page visuals using actual app flows",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-010",
+      "app": "Battery Guard",
+      "fit": "MEDIUM",
+      "surface": "clean metrics app-store screenshots",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "source_id": "DSK-010",
+      "app": "Web Utility Factory",
+      "fit": "MEDIUM",
+      "surface": "service landing feature illustrations",
+      "status": "PROPOSED_ONLY"
+    }
+  ],
+  "by_app": {
+    "180FlipCharge": [
+      {
+        "source_id": "DSK-009",
+        "fit": "MEDIUM",
+        "surface": "minimal control panel",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Anna's Diary": [
+      {
+        "source_id": "DSK-001",
+        "fit": "HIGH",
+        "surface": "iOS Journal and pastel identity quality checks",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-002",
+        "fit": "HIGH",
+        "surface": "reduce card overload while preserving diary identity",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-003",
+        "fit": "MEDIUM",
+        "surface": "PWA marketing entry, not diary calendar UI",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-004",
+        "fit": "HIGH",
+        "surface": "calendar gestures, Capture sheet and memory transitions",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-005",
+        "fit": "HIGH",
+        "surface": "PWA accessibility and layout; native separately",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-006",
+        "fit": "HIGH",
+        "surface": "coherent editorial diary personality",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-007",
+        "fit": "MEDIUM",
+        "surface": "marketing site and app feature pages",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-008",
+        "fit": "HIGH",
+        "surface": "readable diary and navigation review",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-009",
+        "fit": "HIGH",
+        "surface": "rose editorial token system and calendar polish",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-010",
+        "fit": "HIGH",
+        "surface": "feature showcase and app-store creative",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "App Factory Dashboard": [
+      {
+        "source_id": "DSK-001",
+        "fit": "HIGH",
+        "surface": "consistent design language and preview QA",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-002",
+        "fit": "HIGH",
+        "surface": "cross-app visual acceptance gate",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-003",
+        "fit": "HIGH",
+        "surface": "web landing and narrative hero",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-005",
+        "fit": "HIGH",
+        "surface": "keyboard navigation, responsive dashboards and forms",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-006",
+        "fit": "MEDIUM",
+        "surface": "non-generic web dashboard identity",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-007",
+        "fit": "MEDIUM",
+        "surface": "public project showcase, not operations UI",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-008",
+        "fit": "HIGH",
+        "surface": "responsive dashboard QA",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-009",
+        "fit": "HIGH",
+        "surface": "cross-product visual catalog",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-010",
+        "fit": "HIGH",
+        "surface": "portfolio project teasers",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Battery Guard": [
+      {
+        "source_id": "DSK-002",
+        "fit": "HIGH",
+        "surface": "readable metrics and actionable status",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-008",
+        "fit": "HIGH",
+        "surface": "information clarity and warning states",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-009",
+        "fit": "HIGH",
+        "surface": "clean battery analytics theme",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-010",
+        "fit": "MEDIUM",
+        "surface": "clean metrics app-store screenshots",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "BeerClass AI": [
+      {
+        "source_id": "DSK-009",
+        "fit": "MEDIUM",
+        "surface": "tasting cards and theme",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "CamperBoss": [
+      {
+        "source_id": "DSK-008",
+        "fit": "MEDIUM",
+        "surface": "offline guide accessibility",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-009",
+        "fit": "HIGH",
+        "surface": "outdoor readability and maps",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "CashMate AI": [
+      {
+        "source_id": "DSK-002",
+        "fit": "MEDIUM",
+        "surface": "financial data visual hierarchy",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-008",
+        "fit": "HIGH",
+        "surface": "money formatting, disclosure and graphs",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-009",
+        "fit": "HIGH",
+        "surface": "semantic finance palettes",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Cooking Anime": [
+      {
+        "source_id": "DSK-001",
+        "fit": "MEDIUM",
+        "surface": "image-first editorial cards",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-003",
+        "fit": "HIGH",
+        "surface": "product/store marketing website",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-005",
+        "fit": "MEDIUM",
+        "surface": "marketing and public site only",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-006",
+        "fit": "HIGH",
+        "surface": "image-first culinary identity",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-007",
+        "fit": "HIGH",
+        "surface": "public product marketing and themed campaign",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-009",
+        "fit": "HIGH",
+        "surface": "image-first catalogue design",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-010",
+        "fit": "HIGH",
+        "surface": "app store promotional cards",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Deskland Android": [
+      {
+        "source_id": "DSK-002",
+        "fit": "MEDIUM",
+        "surface": "launcher accessibility and touch-state review",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-004",
+        "fit": "HIGH",
+        "surface": "long-press drag, icon motion and frame pacing",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-009",
+        "fit": "HIGH",
+        "surface": "launcher spatial controls, only after functional stability",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Easy Debloat": [
+      {
+        "source_id": "DSK-009",
+        "fit": "HIGH",
+        "surface": "severity-safe utility tokens",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "FocusSense": [
+      {
+        "source_id": "DSK-004",
+        "fit": "MEDIUM",
+        "surface": "score motion without decorative loops",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-008",
+        "fit": "HIGH",
+        "surface": "data viz semantics and contrast",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-009",
+        "fit": "HIGH",
+        "surface": "neon analytics vs legibility balance",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "FrameLab": [
+      {
+        "source_id": "DSK-001",
+        "fit": "HIGH",
+        "surface": "photo and visual hierarchy",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-002",
+        "fit": "HIGH",
+        "surface": "premium photo-editor controls",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-003",
+        "fit": "MEDIUM",
+        "surface": "editorial product landing",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-004",
+        "fit": "HIGH",
+        "surface": "photo controls and gesture responsiveness",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-006",
+        "fit": "HIGH",
+        "surface": "photographic editorial premium direction",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-007",
+        "fit": "HIGH",
+        "surface": "editorial product showcase",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-009",
+        "fit": "HIGH",
+        "surface": "photo UI token and contrast reference",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-010",
+        "fit": "HIGH",
+        "surface": "visual editor demonstrations",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Notes-Ecosistema": [
+      {
+        "source_id": "DSK-001",
+        "fit": "HIGH",
+        "surface": "editor and responsive workflow refinement",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-002",
+        "fit": "HIGH",
+        "surface": "editor density, hierarchy and responsive review",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-003",
+        "fit": "MEDIUM",
+        "surface": "web product landing, not the native editor",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-004",
+        "fit": "HIGH",
+        "surface": "canvas/drag/selection and feedback",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-005",
+        "fit": "HIGH",
+        "surface": "web editor/desktop accessibility",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-006",
+        "fit": "HIGH",
+        "surface": "knowledge-workspace information hierarchy",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-007",
+        "fit": "MEDIUM",
+        "surface": "landing feature stories",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-008",
+        "fit": "HIGH",
+        "surface": "complex editor and long-text states",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-009",
+        "fit": "HIGH",
+        "surface": "editor/canvas design-token consistency",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-010",
+        "fit": "HIGH",
+        "surface": "workspace feature illustrations and demo",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Omni Cleaner": [
+      {
+        "source_id": "DSK-001",
+        "fit": "MEDIUM",
+        "surface": "less generic utility UI and state feedback",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-002",
+        "fit": "HIGH",
+        "surface": "dedicated feature screens and gallery/video UX checks",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-004",
+        "fit": "HIGH",
+        "surface": "smooth transitions between function screens",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-006",
+        "fit": "MEDIUM",
+        "surface": "distinctive but restrained utility aesthetic",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-008",
+        "fit": "HIGH",
+        "surface": "feature navigation, gallery and media controls",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-009",
+        "fit": "HIGH",
+        "surface": "utility redesign with component variants",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-010",
+        "fit": "MEDIUM",
+        "surface": "feature-page visuals using actual app flows",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Pocket Guard": [
+      {
+        "source_id": "DSK-009",
+        "fit": "HIGH",
+        "surface": "protection state UI",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "SleepMax Coach": [
+      {
+        "source_id": "DSK-009",
+        "fit": "MEDIUM",
+        "surface": "calm routine controls",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "The Luminous Infinite Circle": [
+      {
+        "source_id": "DSK-009",
+        "fit": "MEDIUM",
+        "surface": "accessible visual-alert semantics",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "TrailPath": [
+      {
+        "source_id": "DSK-004",
+        "fit": "HIGH",
+        "surface": "map control and route-state transitions",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-008",
+        "fit": "HIGH",
+        "surface": "map touch targets and offline states",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-009",
+        "fit": "HIGH",
+        "surface": "map utility and nature-tech",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Web Utility Factory": [
+      {
+        "source_id": "DSK-003",
+        "fit": "HIGH",
+        "surface": "SEO utility site landing and conversion flows",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-005",
+        "fit": "HIGH",
+        "surface": "SEO-first accessible utility web UI",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-007",
+        "fit": "MEDIUM",
+        "surface": "landing experiments; prioritize SEO and speed",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-010",
+        "fit": "MEDIUM",
+        "surface": "service landing feature illustrations",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Wonderlog": [
+      {
+        "source_id": "DSK-001",
+        "fit": "HIGH",
+        "surface": "travel visual language and image-led views",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-002",
+        "fit": "MEDIUM",
+        "surface": "travel cards and map overlay polish",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-004",
+        "fit": "HIGH",
+        "surface": "map and journal transitions",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-006",
+        "fit": "HIGH",
+        "surface": "colourful travel narrative",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-008",
+        "fit": "MEDIUM",
+        "surface": "image/locale overflow checks",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-009",
+        "fit": "HIGH",
+        "surface": "travel journal palette and components",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-010",
+        "fit": "HIGH",
+        "surface": "travel journey product highlights",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "World Days": [
+      {
+        "source_id": "DSK-001",
+        "fit": "HIGH",
+        "surface": "daily content cards and empty-state polish",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-002",
+        "fit": "HIGH",
+        "surface": "content density, long-copy and reader flow",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-003",
+        "fit": "MEDIUM",
+        "surface": "content discovery pages where web-native",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-004",
+        "fit": "MEDIUM",
+        "surface": "subtle content-card transitions",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-005",
+        "fit": "HIGH",
+        "surface": "content-heavy web views and navigation",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-006",
+        "fit": "HIGH",
+        "surface": "recognizable day-story cards",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-007",
+        "fit": "MEDIUM",
+        "surface": "public promotional pages",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-008",
+        "fit": "HIGH",
+        "surface": "long story and multilingual layouts",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-009",
+        "fit": "HIGH",
+        "surface": "information-card design and locale-aware typography",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "source_id": "DSK-010",
+        "fit": "HIGH",
+        "surface": "new rich-story feature preview",
+        "status": "PROPOSED_ONLY"
+      }
+    ]
+  },
+  "by_source": {
+    "DSK-001": [
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "surface": "iOS Journal and pastel identity quality checks",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "surface": "editor and responsive workflow refinement",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "HIGH",
+        "surface": "travel visual language and image-led views",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "HIGH",
+        "surface": "photo and visual hierarchy",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "HIGH",
+        "surface": "daily content cards and empty-state polish",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "surface": "consistent design language and preview QA",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "MEDIUM",
+        "surface": "less generic utility UI and state feedback",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "surface": "image-first editorial cards",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DSK-002": [
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "surface": "reduce card overload while preserving diary identity",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "surface": "editor density, hierarchy and responsive review",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "surface": "dedicated feature screens and gallery/video UX checks",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "HIGH",
+        "surface": "content density, long-copy and reader flow",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Battery Guard",
+        "fit": "HIGH",
+        "surface": "readable metrics and actionable status",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "surface": "cross-app visual acceptance gate",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "HIGH",
+        "surface": "premium photo-editor controls",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "surface": "travel cards and map overlay polish",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "CashMate AI",
+        "fit": "MEDIUM",
+        "surface": "financial data visual hierarchy",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Deskland Android",
+        "fit": "MEDIUM",
+        "surface": "launcher accessibility and touch-state review",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DSK-003": [
+      {
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "surface": "web landing and narrative hero",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Web Utility Factory",
+        "fit": "HIGH",
+        "surface": "SEO utility site landing and conversion flows",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "HIGH",
+        "surface": "product/store marketing website",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "MEDIUM",
+        "surface": "editorial product landing",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "surface": "web product landing, not the native editor",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Anna's Diary",
+        "fit": "MEDIUM",
+        "surface": "PWA marketing entry, not diary calendar UI",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "surface": "content discovery pages where web-native",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DSK-004": [
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "surface": "calendar gestures, Capture sheet and memory transitions",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "surface": "canvas/drag/selection and feedback",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Deskland Android",
+        "fit": "HIGH",
+        "surface": "long-press drag, icon motion and frame pacing",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "surface": "smooth transitions between function screens",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "HIGH",
+        "surface": "map and journal transitions",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "HIGH",
+        "surface": "photo controls and gesture responsiveness",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "TrailPath",
+        "fit": "HIGH",
+        "surface": "map control and route-state transitions",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "surface": "subtle content-card transitions",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FocusSense",
+        "fit": "MEDIUM",
+        "surface": "score motion without decorative loops",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DSK-005": [
+      {
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "surface": "keyboard navigation, responsive dashboards and forms",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Web Utility Factory",
+        "fit": "HIGH",
+        "surface": "SEO-first accessible utility web UI",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "surface": "web editor/desktop accessibility",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "surface": "PWA accessibility and layout; native separately",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "HIGH",
+        "surface": "content-heavy web views and navigation",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "surface": "marketing and public site only",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DSK-006": [
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "surface": "coherent editorial diary personality",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "surface": "knowledge-workspace information hierarchy",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "HIGH",
+        "surface": "colourful travel narrative",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "HIGH",
+        "surface": "photographic editorial premium direction",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "HIGH",
+        "surface": "recognizable day-story cards",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "HIGH",
+        "surface": "image-first culinary identity",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "MEDIUM",
+        "surface": "distinctive but restrained utility aesthetic",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "MEDIUM",
+        "surface": "non-generic web dashboard identity",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DSK-007": [
+      {
+        "app": "Cooking Anime",
+        "fit": "HIGH",
+        "surface": "public product marketing and themed campaign",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "HIGH",
+        "surface": "editorial product showcase",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "MEDIUM",
+        "surface": "public project showcase, not operations UI",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Anna's Diary",
+        "fit": "MEDIUM",
+        "surface": "marketing site and app feature pages",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "surface": "landing feature stories",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "surface": "public promotional pages",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Web Utility Factory",
+        "fit": "MEDIUM",
+        "surface": "landing experiments; prioritize SEO and speed",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DSK-008": [
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "surface": "readable diary and navigation review",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "surface": "complex editor and long-text states",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "surface": "feature navigation, gallery and media controls",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "HIGH",
+        "surface": "long story and multilingual layouts",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Battery Guard",
+        "fit": "HIGH",
+        "surface": "information clarity and warning states",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "CashMate AI",
+        "fit": "HIGH",
+        "surface": "money formatting, disclosure and graphs",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "surface": "responsive dashboard QA",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "TrailPath",
+        "fit": "HIGH",
+        "surface": "map touch targets and offline states",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FocusSense",
+        "fit": "HIGH",
+        "surface": "data viz semantics and contrast",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "CamperBoss",
+        "fit": "MEDIUM",
+        "surface": "offline guide accessibility",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "surface": "image/locale overflow checks",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DSK-009": [
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "surface": "rose editorial token system and calendar polish",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "surface": "editor/canvas design-token consistency",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "HIGH",
+        "surface": "information-card design and locale-aware typography",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "HIGH",
+        "surface": "travel journal palette and components",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "HIGH",
+        "surface": "photo UI token and contrast reference",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Battery Guard",
+        "fit": "HIGH",
+        "surface": "clean battery analytics theme",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "surface": "utility redesign with component variants",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "surface": "cross-product visual catalog",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Deskland Android",
+        "fit": "HIGH",
+        "surface": "launcher spatial controls, only after functional stability",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "CamperBoss",
+        "fit": "HIGH",
+        "surface": "outdoor readability and maps",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "TrailPath",
+        "fit": "HIGH",
+        "surface": "map utility and nature-tech",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FocusSense",
+        "fit": "HIGH",
+        "surface": "neon analytics vs legibility balance",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "CashMate AI",
+        "fit": "HIGH",
+        "surface": "semantic finance palettes",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "HIGH",
+        "surface": "image-first catalogue design",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Easy Debloat",
+        "fit": "HIGH",
+        "surface": "severity-safe utility tokens",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Pocket Guard",
+        "fit": "HIGH",
+        "surface": "protection state UI",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "SleepMax Coach",
+        "fit": "MEDIUM",
+        "surface": "calm routine controls",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "BeerClass AI",
+        "fit": "MEDIUM",
+        "surface": "tasting cards and theme",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "180FlipCharge",
+        "fit": "MEDIUM",
+        "surface": "minimal control panel",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "The Luminous Infinite Circle",
+        "fit": "MEDIUM",
+        "surface": "accessible visual-alert semantics",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DSK-010": [
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "surface": "feature showcase and app-store creative",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "surface": "workspace feature illustrations and demo",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "HIGH",
+        "surface": "app store promotional cards",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "HIGH",
+        "surface": "new rich-story feature preview",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "HIGH",
+        "surface": "visual editor demonstrations",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "surface": "portfolio project teasers",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "HIGH",
+        "surface": "travel journey product highlights",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "MEDIUM",
+        "surface": "feature-page visuals using actual app flows",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Battery Guard",
+        "fit": "MEDIUM",
+        "surface": "clean metrics app-store screenshots",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Web Utility Factory",
+        "fit": "MEDIUM",
+        "surface": "service landing feature illustrations",
+        "status": "PROPOSED_ONLY"
+      }
+    ]
+  }
+}
