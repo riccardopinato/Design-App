@@ -114,3 +114,42 @@ Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze
 **Decisione:** proposte di design, non implementazioni né approvazioni della Product Bible. Solo 4 dei 6 componenti dispongono di un file con nome/implementazione corrispondente esaminato. Per Perspective Flip e Spatial Door Portal si conserva il link come idea, senza inventare codice. Il loader Accordion è indeterminato: nessuna percentuale senza lavoro realmente misurato. Evitare animazioni continue fuori schermata e rispettare reduced-motion, performance e testo accessibile.
 
 **Storico 17/11/2026:** nuova mappatura registrata in `PER_APP/REGISTRO_APP_DESIGN.json` campo `amicro_six_candidates`; rettificata la provenienza dei precedenti quattro effetti Amicro dove presenti.
+
+## Watermelon UI — 9 riferimenti (17/11/2026)
+
+[Audit sorgente e licenza](../sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md) · [Matrice app-componenti](../UI-UX/WATERMELON_NINE_APP_MAP_2026-11-17.md). Questa sezione contiene **proposte**; nessuna libreria installata, nessuna feature consumer confermata dal solo catalogo.
+
+- **WML-001 · [Carousel Slider](https://devlibraries.com/libraries/watermelon/carousel-slider) (HIGH)** — Swipe raccolta Ricordi, apri foto originale, non sostituire navigazione calendario. *Evidenza:* `SOURCE_FILE_READ`; stato `PROPOSED_ONLY`.
+- **WML-002 · [Fractional Picker](https://devlibraries.com/libraries/watermelon/fractional-picker) (HIGH)** — Selezione giorno in un mese già fissato o rotella valori nelle Impostazioni, data completa deve restare accessibile. *Evidenza:* `SOURCE_FILE_READ`; stato `PROPOSED_ONLY`.
+- **WML-003 · [Scrub Slider (base)](https://devlibraries.com/libraries/watermelon/scrub-slider-base) (MEDIUM)** — Scorrimento anno/mese di Ricordi solo se utile e non sostituisce calendario. *Evidenza:* `SOURCE_FILE_READ`; stato `PROPOSED_ONLY`.
+- **WML-004 · [Range Selection Slider](https://devlibraries.com/libraries/watermelon/range-selection-slider) (HIGH)** — Filtra Ricordi per intervallo date o definisci fascia oraria appuntamento solo dopo definizione UX. *Evidenza:* `SOURCE_FILE_READ`; stato `PROPOSED_ONLY`.
+- **WML-005 · [Swap Form](https://devlibraries.com/libraries/watermelon/swap-form) (MEDIUM)** — Accesso/account opzionale solo dove previsto, mai obbligare login per diario locale. *Evidenza:* `SOURCE_FILE_READ`; stato `PROPOSED_ONLY`.
+- **WML-006 · [Text Gradient](https://devlibraries.com/libraries/watermelon/text-gradient) (MEDIUM)** — Titoli editoriali secondari mantenendo palette rose/Manrope/Lora. *Evidenza:* `EXACT_SOURCE_NOT_LOCATED`; stato `PROPOSED_ONLY`.
+- **WML-007 · [Dialog Stack (base)](https://devlibraries.com/libraries/watermelon/dialog-stack-base) (HIGH)** — Invita persona/spazio condiviso con codice se già previsto; conferma server reale, nessun invito simulato. *Evidenza:* `SOURCE_FILE_READ`; stato `PROPOSED_ONLY`.
+- **WML-008 · [Notification List](https://devlibraries.com/libraries/watermelon/notification-list) (HIGH)** — Home Oggi — riepilogo impegni del giorno in alto, prima apertura giornaliera e/o orario scelto, deduplicato per data/account. *Evidenza:* `EXACT_SOURCE_NOT_LOCATED`; stato `PROPOSED_ONLY`.
+- **WML-009 · [Flip Clock](https://devlibraries.com/libraries/watermelon/flip-clock) (MEDIUM)** — Conto alla rovescia a un evento importante scelto, non rendere ogni appuntamento un timer. *Evidenza:* `EXACT_SOURCE_NOT_LOCATED`; stato `PROPOSED_ONLY`.
+
+
+### Proposta prioritaria — riepilogo «I tuoi impegni di oggi»
+
+**Origine diretta: richiesta dell'utente 17/11/2026.** All'inizio della Home **Oggi**, piccolo riquadro editoriale con impegni del giorno ordinati per orario, ciascuno apribile. Trigger **prima apertura del giorno** oppure **orario prestabilito configurato**: sono due modalità alternative o combinabili solo dopo scelta prodotto, senza assumere funzionalità già operative. Non sovrascrive la pagina Oggi, la palette rose, Manrope/Lora o la navigazione esistente.
+
+- **Prima apertura:** banner riepilogativo in-app, al massimo una comparsa non richiesta per profilo/data locale; l'utente può ritrovare gli impegni nella sezione anche dopo la chiusura del banner.
+- **Orario configurato:** il riquadro può aggiornarsi quando l'app è aperta, ma **non è una notifica di sistema**. Un avviso quando l'app è chiusa richiede un'ulteriore feature con consenso e scheduling nativo Android/iOS.
+- **Dati e privacy:** utilizzare esclusivamente eventi del calendario reale, gestire appuntamenti condivisi, account switch, sincronizzazione, modifiche, eventi cancellati, offline/errore e privacy su lockscreen; evitare duplicati quando si cambia scheda o si ritorna in Home.
+- **Tempo:** rispettare fuso del dispositivo, cambio giorno, ora legale, quiet hours e preferenze esplicite. Se non ci sono impegni, mostrare uno stato sobrio, non una notifica falsa.
+- **Interazione:** raggiungere il dettaglio evento esistente, conservare accessibilità, swipe/tap, font scale e reduced motion. La UI può usare l'idea di Notification List, ma la sua implementazione sorgente esatta **non è stata trovata** nel repo Watermelon.
+
+### Proposta Ricordi — Carousel Slider
+
+Carosello con swipe fra ricordi/immagini; immagini nel loro **formato originale senza ritagli forzati**, fullscreen al tap, indicatori e azioni precedente/successivo accessibili. Riutilizzare la navigazione esistente del diario. **Non cambiare la vista Calendario in una ruota numerica:** Fractional Picker è solo un suggerimento alternativo per scegliere un giorno all'interno del mese valido o un valore nelle Impostazioni, senza sacrificare il date-picker standard.
+
+### Form e condivisione
+
+Dialog Stack può rendere più chiaro **il flusso di invito allo spazio condiviso a codice**; il demo non crea inviti né gestisce utenti. Swap Form è solo una transizione di interfaccia, non motivo per introdurre login obbligatorio o toccare il Google login opzionale.
+
+**Nota tecnica:** nessuna di queste proposte autorizza modifiche a backend, permessi push, eventi o cronologia dell'app. Verificare HEAD e Product Bible prima dello sviluppo.
+
+**Gate comune:** rispettare Product Bible, accessibilità, controlli di input alternativi, riduzione movimento, performance, colore e lingua; Flutter/Compose richiedono adattamento nativo dei componenti React. I riferimenti `Text Gradient`, `Notification List` e `Flip Clock` non hanno un file componente esatto verificato alla baseline e restano `REFERENCE`.
+
+**Storico 17/11/2026:** proposte inserite in `PER_APP/REGISTRO_APP_DESIGN.json` come `watermelon_ui_candidates`, con provenienza e stato `PROPOSED_ONLY`.
