@@ -54,8 +54,8 @@
     "amicro": 23,
     "watermelon": 3,
     "unverified_provider": 4,
-    "source_path_pinned": 23,
-    "unverified_source": 7
+    "source_path_pinned": 25,
+    "unverified_source": 5
   },
   "items": [
     {
@@ -493,11 +493,11 @@
       "screenshot_sha256": "02fec6c7687269d39e94c602dff62ce446add4967820310605b8847cc641555b",
       "screenshot_caption": "Feedback",
       "provider": "Watermelon UI",
-      "source_repo": null,
-      "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_evidence": "USER_SCREENSHOT_ONLY",
+      "source_repo": "WatermelonCorp/watermelon-platform",
+      "source_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "source_path": "src/data/contents/animated-components/range-selection-slider/base.tsx",
+      "source_blob_sha": "c9d73a57572b4c6928f27ce9e2ed2b60e8edc67f",
+      "source_evidence": "SOURCE_FILE_PREVIOUSLY_READ",
       "existing_design_ref": "WML-004",
       "existing_record_already_cataloged": true,
       "design_intent": "Già censito; componente Watermelon verificato.",
@@ -505,7 +505,7 @@
       "status": "REFERENCE",
       "asset_status": "SCREENSHOT_NOT_COMMITTED",
       "implementation_status": "NOT_IMPLEMENTED",
-      "license": "LICENSE_NOT_VERIFIED",
+      "license": "MIT repository confirmed; component asset/dependency rights checked separately",
       "user_source_url": "https://devlibraries.com/libraries/watermelon/range-selection-slider"
     },
     {
@@ -568,11 +568,11 @@
       "screenshot_sha256": "aabe4abc2d2b16bd6d237095b18dd918c3440a0b91ba11a917012bacf6aedb4e",
       "screenshot_caption": "Feedback",
       "provider": "Watermelon UI",
-      "source_repo": null,
-      "source_commit": null,
+      "source_repo": "WatermelonCorp/watermelon-platform",
+      "source_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
       "source_path": null,
       "source_blob_sha": null,
-      "source_evidence": "USER_SCREENSHOT_ONLY",
+      "source_evidence": "EXACT_SOURCE_NOT_LOCATED",
       "existing_design_ref": "WML-008",
       "existing_record_already_cataloged": true,
       "design_intent": "Nome e anteprima visibili nello screenshot; non trovato source file esatto originale; non è una notifica di sistema.",
@@ -580,7 +580,7 @@
       "status": "REFERENCE",
       "asset_status": "SCREENSHOT_NOT_COMMITTED",
       "implementation_status": "NOT_IMPLEMENTED",
-      "license": "LICENSE_NOT_VERIFIED",
+      "license": "MIT repository confirmed; component asset/dependency rights checked separately",
       "user_source_url": "https://devlibraries.com/libraries/watermelon/notification-list"
     },
     {
@@ -643,11 +643,11 @@
       "screenshot_sha256": "aabe4abc2d2b16bd6d237095b18dd918c3440a0b91ba11a917012bacf6aedb4e",
       "screenshot_caption": "Feedback",
       "provider": "Watermelon UI",
-      "source_repo": null,
-      "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_evidence": "USER_SCREENSHOT_ONLY",
+      "source_repo": "WatermelonCorp/watermelon-platform",
+      "source_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "source_path": "src/data/contents/animated-components/view-on-map/base.tsx",
+      "source_blob_sha": "c097731af49aa75b07fb11cb45ab40f794ffa5c9",
+      "source_evidence": "SOURCE_FILE_READ",
       "existing_design_ref": null,
       "existing_record_already_cataloged": false,
       "design_intent": "Sorgente React usa Google Maps embed di esempio, non navigazione offline né motore OSM; verificare privacy, API e provider.",
@@ -655,7 +655,7 @@
       "status": "REFERENCE",
       "asset_status": "SCREENSHOT_NOT_COMMITTED",
       "implementation_status": "NOT_IMPLEMENTED",
-      "license": "LICENSE_NOT_VERIFIED",
+      "license": "MIT repository confirmed; component asset/dependency rights checked separately",
       "user_source_url": null
     },
     {
