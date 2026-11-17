@@ -96,3 +96,11 @@ For motion, prefer the smallest tier that solves the problem:
 
 For short UI audio, prefer a small semantic sound set and ordinary platform/player
 APIs. Oboe/AudioKit-level engines require a product-level reason.
+
+## Persistenza delle idee di design per ogni app
+
+Quando l'utente fornisce una fonte di design esterna, registrare il **sito di scoperta** (es. `sources/DESIGN_RESEARCH_SITES.json`) separatamente dall'**origine del codice** (es. `registry/OSS_DESIGN_SOURCES.yaml`). Ogni componente/asset mantiene URL originale, commit/blob se reperibile, licenza, limiti di riuso e status. Un aggregatore non concede la licenza di tutti i contenuti indicizzati.
+
+Quando una reference è pertinente alle app, aggiornare `PER_APP/REGISTRO_APP_DESIGN.json`, il dossier Markdown delle app interessate e la matrice molti-a-molti nella stessa PR, con changelog e fonte. Lasciare `PROPOSED_ONLY` finché Product Bible e repo consumer non approvano/confermano la feature. Non sovrascrivere informazioni storiche; appendere decisioni e motivazioni.
+
+Per componenti vocali: l'effetto audio-reattivo non gestisce automaticamente microfono, salvataggio, trascrizione, permessi o privacy. Bloccare stati di registrazione senza segnale reale e prevedere fallback statico/reduced-motion; per Flutter minimizzare peso APK e dipendenze GPU.
