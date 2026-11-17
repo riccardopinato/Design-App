@@ -1,0 +1,53 @@
+# 180FlipCharge — Dossier Design-App
+
+**Registro permanente:** `PER_APP/180flipcharge.md` · [Indice](./README.md) · [Profilo JSON](./REGISTRO_APP_DESIGN.json) · [Matrice icone](../ICONE/MATRICE_APP_ICONE.md) · [Fonti di design](../UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.md)
+
+**Stato delle proposte:** `PROPOSAL_ONLY` — non sono stati ispezionati il codice HEAD o la Product Bible della singola app in questo lavoro. Le scelte visive già approvate nei repository delle app prevalgono; nessun asset copiato, nessun test consumer, nessuna integrazione.
+
+## Identità e direzione visiva
+
+Utility compatta, leggibilità immediata, branding pixel-utility solo come dettaglio; Material 3 senza sovraccarico.
+
+**Categorie da studiare:** orientamento 180° · alimentazione/ricarica · tile rapido.
+
+## Superfici consigliate (proposte condizionate all'esistenza della funzione)
+
+1. toggle di rotazione con stato on/off.
+2. stato carica se realmente disponibile.
+3. tile Impostazioni rapide.
+
+## Riferimenti di icone da catalogo Gentleface
+
+| Icona ufficiale | Fit | Impiego proposto | Evidenza animazione |
+|---|---|---|---|
+| [ICO-003 · battery-charging](https://gentleface.com/icons/battery-charging) | MEDIUM | carica e orientamento | VERIFIED_DETAIL |
+
+**Concetti da cercare o disegnare, senza fornitore assegnato:** `rotazione`, `controlli essenziali`.
+
+## Animazioni e feedback proposti
+
+- rotazione di 180° solo dopo azione riuscita.
+- breve transizione enable/disable.
+
+## Cosa evitare
+
+- girare un'icona senza ruotare realmente lo schermo.
+- animazioni persistenti del tile.
+
+## Skill / fonti di design associate
+
+| Fonte | Fit | Utilizzo |
+|---|---|---|
+| DSK-009 — UI UX Pro Max | MEDIUM | minimal control panel |
+
+## Stato, provenance e aggiornamenti
+
+- **Per la app:** implementazione non verificata; Product Bible non confrontata; solo catalogo Design-App.
+- **Per le fonti:** Gentleface = reference; skill = reference; altre icone tematiche = idea non ancora reperita.
+- **Contenuti da conservare:** direzione visiva, categorie, placement, trigger, do-not, app↔icone e app↔skill. Non sostituire la precedente evidenza quando cambia lo stato: aggiungere una voce al changelog.
+- **Fonti interne:** [Cover Design Harvest](../sources/COVERAGE.md) · [UI/UX app↔stili](../UI-UX/MATRICE_APP_STILI.md) · [Icon Adapter Pack](../packs/icons/README.md).
+- **17/11/2026:** scheda creata dal catalogo e dalle proposte correnti; nessuna app alterata.
+
+## Prossima verifica per arrivare a un'implementazione
+
+Confrontare HEAD, Product Bible e schermate reali; confermare i pattern da implementare, licenza file/asset, fallback statico e a11y; pilot con 2–3 icone al massimo, prove visive e test runtime prima di aggiornare lo stato da `PROPOSAL_ONLY`.
