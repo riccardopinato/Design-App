@@ -48,6 +48,16 @@ targeted_intakes:
     factory_baseline: "c5adc147046beb7024629466d10eeb799c3c2619"
     note: "Seven external visual/UX references found in the 737 public GitHub Stars census; product and per-file license gates remain open."
 
+  - batch_id: BEUI_VOICE_ORB_2026_11_17
+    observed_at: "2026-11-17"
+    new_sources: 2
+    factory_baseline: "c5adc147046beb7024629466d10eeb799c3c2619"
+    source_directory: "https://devlibraries.com/"
+    candidate_url: "https://devlibraries.com/libraries/beui/voice-orb"
+    audit_path: "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
+    status: REFERENCE
+    note: "Two official MIT beUI repositories pinned as voice-visual references; DevLibraries is a separate discovery website with no blanket source license."
+
   - batch_id: ANTI_SLOP_DESIGN_SKILLS_2026_11_17
     observed_at: "2026-11-17"
     new_sources: 10
@@ -1095,3 +1105,32 @@ sources:
     copy_policy: REFERENCE_ONLY_PENDING_PER_FILE_AND_CONSUMER_GATE
     audit_path: "sources/ANTI_SLOP_DESIGN_SKILLS_AUDIT_2026-11-17.md"
     app_map_path: "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+
+# Official beUI source of Voice Orb (discovered through DevLibraries): REFERENCE ONLY.
+  - repo: "starc007/ui-components"
+    batch: BEUI_VOICE_ORB_2026_11_17
+    domain: "AUDIO_REACTIVE_VISUAL_REFERENCE_WEB"
+    license: "MIT; original repository LICENSE, retain notice if copied; Pro excluded"
+    source_ref: "498eaba3a046181e4da7d867aac6b226e89f8ce9"
+    source_path: "components/agents/voice-orb.tsx"
+    renderer_path: "components/agents/voice-orb/renderer.ts"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    role: "React/Motion/WebGL voice-level visualization without microphone acquisition, recording or transcription"
+    copy_policy: REFERENCE_ONLY_PENDING_PER_FILE_AND_CONSUMER_GATE
+    audit_path: "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
+    app_map_path: "UI-UX/VOICE_ORB_APP_MAP_2026-11-17.json"
+
+  - repo: "starc007/beui-native"
+    batch: BEUI_VOICE_ORB_2026_11_17
+    domain: "AUDIO_REACTIVE_VISUAL_REFERENCE_REACT_NATIVE"
+    license: "MIT; original repository LICENSE, retain notice if copied; Pro excluded"
+    source_ref: "ab3e58aa751bffccb725208db2c3740eb2bf643b"
+    source_path: "src/components/voice-orb/voice-orb.tsx"
+    docs_path: "src/components/voice-orb/README.md"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    role: "React Native Skia/Reanimated implementation reference; not a Flutter widget or recording engine"
+    copy_policy: REFERENCE_ONLY_PENDING_PER_FILE_AND_CONSUMER_GATE
+    audit_path: "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
+    app_map_path: "UI-UX/VOICE_ORB_APP_MAP_2026-11-17.json"
