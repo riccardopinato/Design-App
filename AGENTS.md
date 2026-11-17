@@ -32,11 +32,13 @@ Definitions:
 Never label an item COPY_READY solely because the source repository works.
 
 ## Reuse hierarchy
-1. Design-App COPY_READY / LIBRARY_VERIFIED item.
-2. App-Factory-Core Golden or certified internal donor when applicable.
-3. Design-App SOURCE_VERIFIED first-party pattern.
-4. Design-App REFERENCE / external OSS source.
-5. New implementation.
+1. App-Factory-Core CERTIFIED GOLDEN / COPY-READY GOLDEN and its binding technical contracts.
+2. App-Factory-Core CERTIFIED DONOR / applicable candidate Golden with explicit consumer audit.
+3. Design-App COPY_READY / LIBRARY_VERIFIED visual asset or implementation compatible with the above.
+4. Design-App SOURCE_VERIFIED first-party pattern, when source/version matches consumer requirements.
+5. Design-App REFERENCE / external OSS source; new implementation only when gaps remain.
+
+This hierarchy is for technical admission. The target app Product Bible and approved design direction retain visual/product ownership. A visual reference never overrides a Golden's accessibility, lifecycle or release requirements. Do not interpret the old specialized Design-App selection order as permission to replace Core technical rules.
 
 ## Provenance
 Every significant item must record:
@@ -130,3 +132,7 @@ Quando l'utente condivide screenshot con card design, trascrivere solo nomi, ord
 La guida https://impeccable.style/designing/ è **un'estensione documentale della fonte già catalogata `DSK-002`**: non aggiungere un secondo OSS repo o donor per ogni sottopagina. Per ogni app usa la Product Bible come source of truth del prodotto, tokens/Golden corrente e decisioni estetiche registrate; `DESIGN.md` può essere una rappresentazione derivata e verificata, mai un database parallelo del product scope.
 
 Operativamente distinguere `critique` (analisi estetica), `audit` (controllo tecnico), `harden` (stati e recupero), `polish` (finitura), `document/extract` (riuso coerente); documentare screenshot, screen size, state, expected vs observed, evidence e severità prima di un claim `VERIFIED`. `npx impeccable detect` e gli hook CSS/HTML/JS sono **Web-only**, non collaudano Flutter/Compose/Android. In app native usare matrice Golden App Shell e vere prove su device (dark/light, font grande, keyboard, safe-area, VoiceOver/TalkBack, empty/loading/error/offline). Evitare competizione fra più skill di design e promozione implicita di un Golden DRAFT. Non introdurre animazioni decorative senza segnali di stato reali.
+
+## Cross-app visual review evidence (2026-11-17)
+
+Follow the canonical App-Factory-Core `contracts/DESIGN_VISUAL_QA_PROCESS_v1.md` and existing Golden App Shell (DRAFT), Theme M3 (COPY-READY), and AppLab QA boundaries. For Impeccable `DSK-002` apply IWC-01..IWC-08 without installing Web-only hooks in native apps. Register pilot plans in `UI-UX/DESIGN_QA_PILOTS_2026-11-17.json` and validate via `scripts/validate_visual_qa_evidence.py`. Screenshots, physical tests, app changes and design approval must remain explicitly NOT_VERIFIED unless backed by exact-head evidence. Never mark a guideline source as COPY_READY or CERTIFIED solely because a documentation validation passes.
