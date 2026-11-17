@@ -49,7 +49,10 @@ if voice_intake != 1:
 motion_intake = len(re.findall(r"^  - batch_id: EASEUI_AMICRO_DESIGN_2026_11_17$", oss, re.MULTILINE))
 if motion_intake != 1:
     fail(f"Expected exactly one EaseUI/Amicro intake, got {motion_intake}")
-expected_source_count = 95 + ruixen_intake + 2 * dock_intake + 7 * visual_intake + 10 * skills_intake + 2 * voice_intake + 2 * motion_intake
+watermelon_intake = len(re.findall(r"^  - batch_id: WATERMELON_NINE_2026_11_17$", oss, re.MULTILINE))
+if watermelon_intake != 1:
+    fail(f"Watermelon intake must be present exactly once: {watermelon_intake}")
+expected_source_count = 95 + ruixen_intake + 2 * dock_intake + 7 * visual_intake + 10 * skills_intake + 2 * voice_intake + 2 * motion_intake + watermelon_intake
 if len(repos) != expected_source_count or len(set(repos)) != expected_source_count:
     fail(f"expected {expected_source_count} unique OSS design sources, found {len(repos)} / {len(set(repos))} unique")
 for required in ("ruixenui/ruixen.com", "alztrk/opentaskbar", "Acadbek/lumabar"):
@@ -681,6 +684,116 @@ for prior in pattern_list:
     if prior.get("code") in ("DSP-002","DSP-003","DSP-004","DSP-005"):
         if prior.get("evidence") != "SOURCE_FILE_READ" or not prior.get("source_path"):
             fail(f"stale Amicro original intake source: {prior.get('code')}")
+
+# Watermelon UI: exact source confidence, source repo dedupe, and per-app dossier consistency.
+if repos.count("WatermelonCorp/watermelon-platform") != 1:
+    fail("Watermelon source repository must be registered once")
+wm_sites = [s for s in site_items if s.get("id") == "DESIGN-SITE-007"]
+if len(wm_sites) != 1 or wm_sites[0].get("url") != "https://ui.watermelon.sh/" or wm_sites[0].get("status") != "REFERENCE":
+    fail("Watermelon UI source site registration missing or promoted")
+wm_files = (
+    ROOT / "UI-UX" / "WATERMELON_NINE_APP_MAP_2026-11-17.json",
+    ROOT / "UI-UX" / "WATERMELON_NINE_APP_MAP_2026-11-17.md",
+    ROOT / "sources" / "WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
+)
+if not all(p.is_file() for p in wm_files):
+    fail("Watermelon required registry/audit documents missing")
+wm = json.loads(wm_files[0].read_text(encoding="utf-8"))
+wm_components = wm.get("components", [])
+wm_edges = wm.get("associations", [])
+wm_counts = wm.get("counts", {})
+if wm.get("batch") != "WATERMELON_NINE_2026_11_17":
+    fail("Watermelon intake batch identity mismatch")
+if wm.get("status") != "REFERENCE_ONLY" or wm.get("consumer_implementation") != "NONE":
+    fail("Watermelon proposals prematurely promoted or claimed implemented")
+if wm.get("source_repository") != "WatermelonCorp/watermelon-platform":
+    fail("Watermelon repo identity mismatch")
+if not re.fullmatch(r"[0-9a-f]{40}", str(wm.get("source_commit", ""))):
+    fail("Watermelon origin SHA must be immutable")
+if len(wm_components) != 9 or len({c.get("id") for c in wm_components}) != 9:
+    fail("Watermelon requires nine unique component IDs")
+if len({c.get("source_user_url") for c in wm_components}) != 9:
+    fail("Watermelon duplicate source URL")
+if len(wm_edges) != wm_counts.get("associations") or len(wm_edges) != 73:
+    fail("Watermelon mapping expected 73 unique associations")
+if len({(e.get("component_id"),e.get("app")) for e in wm_edges}) != len(wm_edges):
+    fail("Watermelon duplicated component-app edge")
+if any(e.get("status") != "PROPOSED_ONLY" or e.get("consumer_implementation") != "NONE"
+       or e.get("fit") not in ("HIGH","MEDIUM") for e in wm_edges):
+    fail("Watermelon association wrongly claims app implementation")
+if any(e.get("app") not in dossier_names for e in wm_edges):
+    fail("Watermelon candidate app has no dossier")
+if len({e["app"] for e in wm_edges}) != wm_counts.get("apps"):
+    fail("Watermelon mapped app count differs")
+if sum(e["fit"] == "HIGH" for e in wm_edges) != wm_counts.get("high"):
+    fail("Watermelon HIGH count differs")
+if sum(e["fit"] == "MEDIUM" for e in wm_edges) != wm_counts.get("medium"):
+    fail("Watermelon MEDIUM count differs")
+verified = [comp for comp in wm_components if comp.get("evidence") == "SOURCE_FILE_READ"]
+unlocated = [comp for comp in wm_components if comp.get("evidence") == "EXACT_SOURCE_NOT_LOCATED"]
+if len(verified) != 6 or len(unlocated) != 3:
+    fail("Watermelon source-confidence invariant changed")
+if {x["slug"] for x in unlocated} != {"text-gradient","notification-list","flip-clock"}:
+    fail("Watermelon three unlocated exact names mislabeled")
+for comp in verified:
+    if not comp.get("source_path") or not re.fullmatch(r"[0-9a-f]{40}", str(comp.get("source_blob_sha", ""))):
+        fail(f"Watermelon named source evidence missing: {comp.get('id')}")
+    if not comp.get("metadata_path") or not re.fullmatch(r"[0-9a-f]{40}", str(comp.get("metadata_blob_sha", ""))):
+        fail(f"Watermelon component metadata missing: {comp.get('id')}")
+for comp in unlocated:
+    if any(comp.get(key) is not None for key in ("source_path","source_blob_sha","metadata_path","metadata_blob_sha")):
+        fail(f"Unlocated Watermelon component given invented source: {comp.get('id')}")
+if any(comp.get("adoption") != "REFERENCE" or comp.get("consumer_implementation") != "NONE" for comp in wm_components):
+    fail("Watermelon source maturity overclaimed")
+if set(wm.get("by_component", {})) != {c["id"] for c in wm_components}:
+    fail("Watermelon inverse component map incomplete")
+if set(wm.get("by_app", {})) != {e["app"] for e in wm_edges}:
+    fail("Watermelon inverse per-app map incomplete")
+for comp in wm_components:
+    expected = {(e["app"],e["fit"],e["use_case"]) for e in wm_edges if e["component_id"] == comp["id"]}
+    actual = {(e["app"],e["fit"],e["use_case"]) for e in wm["by_component"][comp["id"]]}
+    if expected != actual:
+        fail(f"Watermelon component associations mismatch: {comp['id']}")
+for app, incoming in wm["by_app"].items():
+    expected = {(e["component_id"],e["fit"],e["use_case"]) for e in wm_edges if e["app"] == app}
+    actual = {(e["component_id"],e["fit"],e["use_case"]) for e in incoming}
+    if expected != actual:
+        fail(f"Watermelon per-app inverse mapping differs: {app}")
+if profile_counts.get("watermelon_ui_candidate_apps") != wm_counts.get("apps"):
+    fail("Watermelon profile app coverage count mismatch")
+if profile_counts.get("watermelon_ui_candidate_links") != len(wm_edges):
+    fail("Watermelon profile edge count mismatch")
+for prof in profiles:
+    relations = prof.get("watermelon_ui_candidates", [])
+    expected = {(e["component_id"],e["fit"],e["use_case"]) for e in wm_edges if e["app"] == prof["name"]}
+    actual = {(e["component_id"],e["fit"],e["use_case"]) for e in relations}
+    if actual != expected or len(relations) != len(actual):
+        fail(f"Watermelon per-app dossier relation drift: {prof['name']}")
+    if relations:
+        human = (per_app_dir / (prof["id"] + ".md")).read_text(encoding="utf-8")
+        if "Watermelon UI — 9 riferimenti" not in human:
+            fail(f"Watermelon dossier not updated: {prof['name']}")
+        for link in relations:
+            if link["component_id"] not in human:
+                fail(f"Watermelon idea missing from dossier: {prof['name']}")
+anna_p = next((p for p in profiles if p.get("name") == "Anna's Diary"), None)
+if not anna_p:
+    fail("Watermelon lacks Anna's Diary baseline")
+anna_today = anna_p.get("anna_today_daily_agenda_proposal", {})
+if anna_today.get("status") != "PROPOSED_ONLY" or anna_today.get("implementation_scope") != "NOT_APPROVED_OR_IMPLEMENTED":
+    fail("Anna daily brief was treated as approved/implemented")
+if set(anna_today.get("user_requested_trigger_modes", [])) != {"first_app_open_each_local_day","user_configured_time"}:
+    fail("Anna daily brief must preserve both user timing requirements")
+if anna_today.get("source_component_id") != "WML-008" or anna_today.get("source_evidence") != "EXACT_SOURCE_NOT_LOCATED":
+    fail("Anna daily brief must not assert unsupported Notification List source")
+anna_carousel = anna_p.get("anna_memories_carousel_proposal", {})
+if anna_carousel.get("component_id") != "WML-001" or anna_carousel.get("status") != "PROPOSED_ONLY":
+    fail("Anna Memories Carousel recommendation missing")
+anna_human = (per_app_dir / (anna_p["id"] + ".md")).read_text(encoding="utf-8")
+for phrase in ("prima apertura", "orario", "Ricordi", "notifica di sistema", "Carousel Slider"):
+    if phrase not in anna_human:
+        fail(f"Anna's Diary missing user's daily brief requirement: {phrase}")
+
 
 print(
     f"Design-App validation PASS: {len(pattern_ids)} patterns, "
