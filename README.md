@@ -181,7 +181,7 @@ La classificazione resta molti-a-molti, con un solo file JPG per riferimento; la
 
 Analizzati e registrati **10 repository di design-agent skills**, verificando README, entrypoint, licenze principali e HEAD immutabili. [Audit approfondito](sources/ANTI_SLOP_DESIGN_SKILLS_AUDIT_2026-11-17.md) · [Matrice repository ⇄ app](UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.md) · [Registro bidirezionale JSON](UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json).
 
-Totale sorgenti esterne nel registro OSS Design-App: **115 uniche** (105 precedenti + 10). Le nuove fonti sono **REFERENCE**, le associazioni sono `PROPOSED_ONLY`: nessuna libreria installata nelle app, nessuna copia di asset esterni, nessuna modifica a Golden o Product Bible. Gli abbinamenti coprono UI/UX audit, design intelligence cross-platform, motion, qualità Web/PWA e marketing visivo (ambiti distinti). Le stelle sono dichiarate dall'utente, non confermate con enumerazione API autenticata.
+Totale sorgenti esterne nel registro OSS Design-App: **117 uniche** (105 precedenti + 10 skill + 2 beUI). Le nuove fonti sono **REFERENCE**, le associazioni sono `PROPOSED_ONLY`: nessuna libreria installata nelle app, nessuna copia di asset esterni, nessuna modifica a Golden o Product Bible. Gli abbinamenti coprono UI/UX audit, design intelligence cross-platform, motion, qualità Web/PWA e marketing visivo (ambiti distinti). Le stelle sono dichiarate dall'utente, non confermate con enumerazione API autenticata.
 
 ## ICONE — raccolta statica e animata (17 novembre 2026)
 
@@ -194,3 +194,9 @@ Nuova sezione autonoma [**ICONE**](./ICONE/README.md) che collega fonti, licenze
 La sezione [**PER_APP**](./PER_APP/README.md) conserva una scheda dedicata per **25 app e piattaforme**: identità visiva, posizioni consigliate delle icone, categorie tematiche, trigger animazioni, limiti, fonti, stato e storico delle proposte. [Registro centrale JSON](./PER_APP/REGISTRO_APP_DESIGN.json) con **114 riferimenti a icone Gentleface** e **96 abbinamenti a skill di design** (dati di matrice, non funzionalità implementate).
 
 La scheda [Cooking Anime](./PER_APP/cooking-anime.md) conserva **36 idee iconografiche** tra gattini kawaii, sushi, ramen, onigiri, bento, cibo cinese, motivi stagionali e comandi standard. **Quelle icone tematiche sono idee da reperire o disegnare, non file Gentleface verificati.** La sezione include regole per aggiornare le proposte in una PR senza perdere lo storico. Tutte le idee restano `PROPOSAL_ONLY`, subordinate alle Product Bible e ai repository reali delle app.
+
+## Nuova fonte di design e componente Voice Orb — 17 novembre 2026
+
+[**DevLibraries**](https://devlibraries.com/) è censito come portale di ricerca di componenti, UI, animazioni e skill: [registrazione e regole di intake](./sources/DEVLIBRARIES_DISCOVERY_2026-11-17.md) · [directory sorgenti](./sources/DESIGN_RESEARCH_SITES.json). Un portale non attribuisce automaticamente licenze di riuso alle librerie indicizzate.
+
+Da [Voice Orb su DevLibraries](https://devlibraries.com/libraries/beui/voice-orb) sono stati individuati e fissati i due repository originali MIT di beUI (Web e React Native): [audit](./sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md) · [mappa a 10 app](./UI-UX/VOICE_ORB_APP_MAP_2026-11-17.md). Per le future note vocali la sfera reagirà al microfono soltanto dopo l'implementazione di un recorder reale e di tutti gli stati e permessi. [Dossier per-app](./PER_APP/README.md) aggiornati. **Stato REFERENCE/PROPOSED_ONLY: nessun audio recorder, libreria o feature consumer implementati**.
