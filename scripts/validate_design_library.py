@@ -848,8 +848,8 @@ if len(paths) != 25 or len(unresolved) != 5:
 if bm_counts.get("source_path_pinned") != len(paths) or bm_counts.get("unverified_source") != len(unresolved):
     fail("DevLibraries source evidence stats invalid")
 for i in paths:
-    if not re.fullmatch(r"[0-9a-f]{40}", str(i.get("source_blob_sha",""))) or
-       not re.fullmatch(r"[0-9a-f]{40}", str(i.get("source_commit",""))):
+    if (not re.fullmatch(r"[0-9a-f]{40}", str(i.get("source_blob_sha",""))) or
+        not re.fullmatch(r"[0-9a-f]{40}", str(i.get("source_commit","")))):
         fail(f"DevLibraries missing source SHA or commit: {i.get('id')}")
     if i.get("source_evidence") not in ("SOURCE_FILE_READ","SOURCE_FILE_PREVIOUSLY_READ","SOURCE_PATH_PINNED"):
         fail(f"DevLibraries unsupported source evidence: {i.get('id')}")
