@@ -6,7 +6,7 @@
 
 La pagina esatta `https://devlibraries.com/bookmarks` è stata tentata tramite navigazione web il 17/11/2026, ma ha restituito **Cache miss**. Nessuna lista personale, nessun titolo di preferito, nessuna scheda e nessuna opzione di esportazione sono stati accessibili o verificati. Non possiamo dedurre che un elenco sia pubblico o disponibile per terzi dal semplice link alla pagina.
 
-**Stato di questo registro:** `INTAKE_WORKFLOW_ONLY` (zero bookmark importati e zero connessioni DevLibraries autorizzate). È una procedura, non un catalogo dei preferiti dell'utente.
+**Stato della procedura:** `VISUAL_BATCH_INTAKE_REGISTERED`. Dal solo URL non si è letto alcun bookmark personale; successivamente l'utente ha condiviso **3 screenshot con 30 card** catalogate nell'inventario separato. Nessuna connessione DevLibraries autorizzata. Questo file resta la procedura, non l'elenco canonico.
 
 ## Flusso di raccolta — solo se i dati vengono condivisi
 
@@ -27,6 +27,18 @@ La pagina esatta `https://devlibraries.com/bookmarks` è stata tentata tramite n
 
 ## Obiettivo
 
-Consentire un futuro **intake batch** dei preferiti DevLibraries senza perdere le relazioni app↔design o creare duplicati nei registri esistenti. Questo file non importa né conserva contenuti personali non condivisi.
+Consentire un futuro **intake batch** dei preferiti DevLibraries senza perdere le relazioni app↔design o creare duplicati nei registri esistenti. Gli elementi ora registrati provengono esclusivamente dagli screenshot condivisi esplicitamente dall'utente; non sono stati letti dati dell'account DevLibraries.
 
 **Riferimenti interni:** [Fonte DevLibraries](./DEVLIBRARIES_DISCOVERY_2026-11-17.md) · [Siti di ricerca](./DESIGN_RESEARCH_SITES.json) · [Dossier per app](../PER_APP/README.md) · [Audit sorgenti](./README.md).
+
+## Aggiornamento — screenshot ricevuti il 17/11/2026
+
+- **30 card visibili** nei tre screenshot allegati in chat, 23 Amicro / 3 Watermelon UI / 4 provider non identificati.
+- **3 riferimenti già presenti in Design-App**, riconciliati tramite ID canonico: Accordion Loader `AMX-006`, Range Selection Slider `WML-004`, Notification List `WML-008`.
+- **27 nuovi riferimenti curati**, 25/30 con percorso sorgente originale pin-nato (i percorsi Amicro sono stati verificati nell'albero GitHub; non sono stati tutti analizzati o eseguiti).
+- **120 associazioni proposte per 20 app**, mantenute nei dossier `PER_APP` e nel JSON centrale. Nessuna funzionalità consumer implementata.
+- **Tre screenshot non archiviati come PNG nel repository**: metadati, ordine, dimensioni e SHA-256 sono salvati nell'inventario per futura acquisizione del binario, senza dichiararlo presente.
+
+[Inventario completo e provenance](./DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md) · [Registro dei 30 componenti e crosswalk](./DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.json) · [Matrice per app](../UI-UX/DEVLIBRARIES_BOOKMARKS_APP_MAP_2026-11-17.md).
+
+**Distinzione:** screenshot inviato dall'utente = evidenza del titolo e dell'anteprima, NON prova dell'esistenza di un'implementazione Flutter, di una licenza o dell'appartenenza pubblicamente verificabile ai suoi Bookmarks.
