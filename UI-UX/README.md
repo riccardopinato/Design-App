@@ -89,3 +89,7 @@ La sezione [**PER_APP**](../PER_APP/README.md) conserva le proposte visuali per 
 ## Nuove animazioni Amicro — curtain, cursor, flip, scroll, portal e loader
 
 [Sei reference](./AMICRO_SIX_COMPONENTS_APP_MAP_2026-11-17.md) · [registro molti-a-molti](./AMICRO_SIX_COMPONENTS_APP_MAP_2026-11-17.json) · [audit](../sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md). **CurtainReveal, Cursor Trail, Scroll Reveal e Accordion Loader** sono stati verificati nel codice sorgente; **Perspective Flip e Spatial Door Portal** restano da verificare nell'implementazione esatta. Cursor Trail solo su pointer desktop; Accordion Loader è un caricamento indeterminato, da non confondere con Accordion Blind Pull. Le proposte restano reference/PROPOSED_ONLY.
+
+## Watermelon — carosello Ricordi, picker e Home Oggi
+
+[Catalogo Watermelon](./WATERMELON_NINE_APP_MAP_2026-11-17.md) · [JSON molti-a-molti](./WATERMELON_NINE_APP_MAP_2026-11-17.json) · [Audit](../sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md). Include carousel-slider, fractional-picker, scrub-slider-base, range-selection-slider, swap-form, text-gradient, dialog-stack-base, notification-list, flip-clock. Sei file sorgente originali letti e tre denominazioni non individuate. [Anna's Diary](../PER_APP/annas-diary.md): swipe dei Ricordi e riepilogo degli impegni in Home Oggi **alla prima apertura giornaliera o all'orario scelto**, con permessi/stati di backend distinti dalla sola animazione.
