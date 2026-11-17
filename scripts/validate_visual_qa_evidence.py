@@ -57,9 +57,6 @@ def validate(document: dict) -> list[str]:
         if not all(isinstance(x, list) for x in (captures, runtime, physical)):
             errors.append(f"{label}: evidence collections must be arrays")
             continue
-        if pilot.get("overall_status") in {"PASS", "REVIEWED"}:
-            if not captures or not pilot.get("reviewer_approval"):
-                errors.append(f"{label}: cannot mark visually approved without captures and reviewer")
         if pilot.get("overall_status") == "CAPTURED" and not captures:
             errors.append(f"{label}: CAPTURED requires screenshots")
         for j, item in enumerate(captures):
@@ -74,10 +71,29 @@ def validate(document: dict) -> list[str]:
                 errors.append(f"{label}: screenshot[{j}] unknown screen")
             if item.get("status") not in VALID_STATES:
                 errors.append(f"{label}: screenshot[{j}] invalid status")
-            if item.get("status") in {"REVIEWED", "PASS"} and not all(
-                item.get(k) for k in ("before_image", "after_image", "reviewer", "reviewed_at")
-            ):
-                errors.append(f"{label}: screenshot[{j}] lacks reviewed before/after evidence")
+            if item.get("status") in {"REVIEWED", "PASS"}:
+                if not all(item.get(k) for k in (
+                    "before_image", "after_image", "reviewer", "reviewed_at", "test_run_url",
+                )):
+                    errors.append(f"{label}: screenshot[{j}] lacks reviewed before/after evidence")
+                if not SHA40.fullmatch(str(item.get("source_sha", ""))) or (
+                    item.get("source_sha") != pilot.get("source_sha")
+                ):
+                    errors.append(f"{label}: screenshot[{j}] source SHA mismatches pilot")
+                before_sha = item.get("before_source_sha")
+                if before_sha is not None and not SHA40.fullmatch(str(before_sha)):
+                    errors.append(f"{label}: screenshot[{j}] invalid before_source_sha")
+        if pilot.get("overall_status") in {"PASS", "REVIEWED"}:
+            complete = {
+                item.get("screen_id") for item in captures if isinstance(item, dict)
+                and item.get("status") in {"REVIEWED", "PASS"}
+                and item.get("source_sha") == pilot.get("source_sha")
+                and all(item.get(k) for k in (
+                    "before_image", "after_image", "reviewer", "reviewed_at", "test_run_url",
+                ))
+            }
+            if not pilot.get("reviewer_approval") or complete != set(screens):
+                errors.append(f"{label}: cannot mark visually approved without reviewed captures for every screen and reviewer")
         if (runtime or physical) and not captures:
             errors.append(f"{label}: runtime/physical reference with no visual capture")
     reuse = document.get("reuse_candidates", [])
@@ -101,10 +117,32 @@ def main() -> int:
         import copy
         promoted = copy.deepcopy(doc)
         promoted["pilots"][0]["overall_status"] = "PASS"
+        promoted["pilots"][0]["screenshots"] = []
+        promoted["pilots"][0]["reviewer_approval"] = None
         assert any("cannot mark visually approved" in x for x in validate(promoted))
         reused = copy.deepcopy(doc)
         reused["reuse_candidates"][0]["maturity"] = "COPY_READY"
+        reused["reuse_candidates"][0]["consumer_evidence"] = []
         assert any("promotion without consumer evidence" in x for x in validate(reused))
+        mismatch = copy.deepcopy(doc)
+        mismatch["pilots"][0]["screenshots"] = [{
+            "screen_id": mismatch["pilots"][0]["screens"][0],
+            "source_sha": "f" * 40,
+            "platform": "Flutter",
+            "fixture_id": "synthetic",
+            "viewport": "390x844",
+            "locale": "it",
+            "theme": "light",
+            "font_scale": "1.0",
+            "state": "populated",
+            "status": "PASS",
+            "before_image": "before.png",
+            "after_image": "after.png",
+            "reviewer": "test",
+            "reviewed_at": "2026-11-17",
+            "test_run_url": "https://github.com/example/test/actions/runs/1",
+        }]
+        assert any("source SHA mismatches pilot" in x for x in validate(mismatch))
         missing = copy.deepcopy(doc)
         missing["gates"] = missing["gates"][:-1]
         assert any("IWC-01" in x for x in validate(missing))
