@@ -44,3 +44,7 @@ Un dossier per ciascuna app o piattaforma della App Factory catalogata in Design
 6. Preferisci modifiche incrementali con PR e CI; lascia documentati gli elementi esclusi o rinviati, senza cancellarli.
 
 **Perimetro:** catalogazione di raccomandazioni Design-App. Non è stato verificato il codice consumer; nessun nuovo asset importato o funzionalità implementata. La vera autorità rimane Product Bible/roadmap/code dei repo app.
+
+## Proposte di interazione vocale — Voice Orb
+
+Per il componente [beUI Voice Orb indicizzato da DevLibraries](https://devlibraries.com/libraries/beui/voice-orb) sono state salvate **10 candidature condizionate** nei rispettivi dossier e nel JSON sotto `voice_ui_candidates`. [Mappa completa](../UI-UX/VOICE_ORB_APP_MAP_2026-11-17.md). La disponibilità del microfono, la trascrizione e la registrazione effettiva rimangono fuori perimetro. Ogni futura evoluzione preserva lo storico senza sovrascrivere le precedenti scelte.
