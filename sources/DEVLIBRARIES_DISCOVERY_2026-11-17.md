@@ -15,3 +15,7 @@ Uso della fonte:
 **Registri:** [directory dei siti](./DESIGN_RESEARCH_SITES.json) · [Voice Orb beUI](./BEUI_VOICE_ORB_AUDIT_2026-11-17.md) · [mappa app](../UI-UX/VOICE_ORB_APP_MAP_2026-11-17.md).
 
 **Stato:** REFERENCE. Nessun codice, contenuto o asset di terzi importato.
+
+## Raccolte Bookmarks utente
+
+Il link [DevLibraries Bookmarks](https://devlibraries.com/bookmarks) è stato ricevuto il 17/11/2026; la pagina non è stata accessibile da questa sessione e **non sono stati letti/importati i preferiti personali**. Per la procedura di acquisizione in batch, deduplica, verifica licenze e collegamento ai dossier molti-a-molti consultare [DEVLIBRARIES_BOOKMARKS_INTAKE.md](./DEVLIBRARIES_BOOKMARKS_INTAKE.md).
