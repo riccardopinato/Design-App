@@ -12,8 +12,8 @@
     "links": 76,
     "high": 36,
     "medium": 40,
-    "verified_code": 1,
-    "catalog_descriptions": 4,
+    "verified_code": 5,
+    "catalog_descriptions": 0,
     "user_visual_reference": 1
   },
   "patterns": [
@@ -49,9 +49,9 @@
       "name": "Card Stack Peel",
       "category": "SECTION_CARD_TRANSITION",
       "source": "AMICRO",
-      "evidence": "DESCRIPTIVE_CATALOG_ONLY",
-      "source_path": "src/data/cssAnimationsData.ts",
-      "blob": "396fda2c071064e4dce29290ac088f35f8bdab3a",
+      "evidence": "SOURCE_FILE_READ",
+      "source_path": "src/components/css-animations/physics/MechanicalPhysicsTrios.tsx",
+      "blob": "012685b393beaa846136e155b38016c63cd4f122",
       "url": "https://devlibraries.com/libraries/amicro/card-stack-peel",
       "catalog_id": "anim-card-peel",
       "intent": "Carta sovrapposta che si solleva/ripiega per mostrare la successiva; NON navigazione universale",
@@ -60,7 +60,7 @@
         "repo": "Subhan-code/Amicro--Micro-transitions-",
         "sha": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
         "license": "MIT root",
-        "stack": "React / Motion; 4 cited named entries are catalogue descriptors only"
+        "stack": "React/CSS demo component; source file read but no build/Flutter runtime validation"
       },
       "status": "REFERENCE",
       "app_implementation": "NONE",
@@ -70,16 +70,17 @@
         "Reduced motion, keyboard and assistive technology, correct focus",
         "No false success/loading indicators and no continuous background loops"
       ],
-      "source_catalog_note": "Exact named item is in cssAnimationsData.ts; matching implementation not located in repository tree"
+      "source_catalog_note": "The catalog record is matched to export CardStackPeel in src/components/css-animations/physics/MechanicalPhysicsTrios.tsx; this is source inspection, not runtime validation.",
+      "named_export": "CardStackPeel"
     },
     {
       "code": "DSP-003",
       "name": "Accordion Blind Pull",
       "category": "EXPANDABLE_PANEL_TRANSITION",
       "source": "AMICRO",
-      "evidence": "DESCRIPTIVE_CATALOG_ONLY",
-      "source_path": "src/data/cssAnimationsData.ts",
-      "blob": "396fda2c071064e4dce29290ac088f35f8bdab3a",
+      "evidence": "SOURCE_FILE_READ",
+      "source_path": "src/components/css-animations/physics/ElasticVariations.tsx",
+      "blob": "18e083c97e6ef82f49b86e7538623a4d347b79b8",
       "url": "https://devlibraries.com/libraries/amicro",
       "catalog_id": "anim-blind-pull",
       "intent": "Tendina a lamelle che si espande verticalmente (utente ha corretto la prima associazione)",
@@ -88,7 +89,7 @@
         "repo": "Subhan-code/Amicro--Micro-transitions-",
         "sha": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
         "license": "MIT root",
-        "stack": "React / Motion; 4 cited named entries are catalogue descriptors only"
+        "stack": "React/CSS demo component; source file read but no build/Flutter runtime validation"
       },
       "status": "REFERENCE",
       "app_implementation": "NONE",
@@ -98,16 +99,17 @@
         "Reduced motion, keyboard and assistive technology, correct focus",
         "No false success/loading indicators and no continuous background loops"
       ],
-      "source_catalog_note": "Exact named item is in cssAnimationsData.ts; matching implementation not located in repository tree"
+      "source_catalog_note": "The catalog record is matched to export BlindPull in src/components/css-animations/physics/ElasticVariations.tsx; this is source inspection, not runtime validation.",
+      "named_export": "BlindPull"
     },
     {
       "code": "DSP-004",
       "name": "Interlocking Gear Step",
       "category": "REAL_PROCESS_LOADING",
       "source": "AMICRO",
-      "evidence": "DESCRIPTIVE_CATALOG_ONLY",
-      "source_path": "src/data/cssAnimationsData.ts",
-      "blob": "396fda2c071064e4dce29290ac088f35f8bdab3a",
+      "evidence": "SOURCE_FILE_READ",
+      "source_path": "src/components/css-animations/physics/ElasticDeformTrios.tsx",
+      "blob": "6c93dcbb1857d3b7e0579c9ea96eaa1f5af92bc6",
       "url": "https://devlibraries.com/libraries/amicro",
       "catalog_id": "anim-gear-step",
       "intent": "Ingranaggi controrotanti come segnale di elaborazione reale",
@@ -116,7 +118,7 @@
         "repo": "Subhan-code/Amicro--Micro-transitions-",
         "sha": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
         "license": "MIT root",
-        "stack": "React / Motion; 4 cited named entries are catalogue descriptors only"
+        "stack": "React/CSS demo component; source file read but no build/Flutter runtime validation"
       },
       "status": "REFERENCE",
       "app_implementation": "NONE",
@@ -126,16 +128,17 @@
         "Reduced motion, keyboard and assistive technology, correct focus",
         "No false success/loading indicators and no continuous background loops"
       ],
-      "source_catalog_note": "Exact named item is in cssAnimationsData.ts; matching implementation not located in repository tree"
+      "source_catalog_note": "The catalog record is matched to export GearToothStep in src/components/css-animations/physics/ElasticDeformTrios.tsx; this is source inspection, not runtime validation.",
+      "named_export": "GearToothStep"
     },
     {
       "code": "DSP-005",
       "name": "Shutter Step Slices",
       "category": "STAGGERED_REVEAL",
       "source": "AMICRO",
-      "evidence": "DESCRIPTIVE_CATALOG_ONLY",
-      "source_path": "src/data/cssAnimationsData.ts",
-      "blob": "396fda2c071064e4dce29290ac088f35f8bdab3a",
+      "evidence": "SOURCE_FILE_READ",
+      "source_path": "src/components/css-animations/physics/InertiaPhysicsExperiments.tsx",
+      "blob": "a266bc0021a4c9f400f81328356cc6f5a2a18812",
       "url": "https://devlibraries.com/libraries/amicro",
       "catalog_id": "anim-shutter-blocks",
       "intent": "Comparsa progressiva a sottili bande orizzontali; non è l'accordion stesso",
@@ -144,7 +147,7 @@
         "repo": "Subhan-code/Amicro--Micro-transitions-",
         "sha": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
         "license": "MIT root",
-        "stack": "React / Motion; 4 cited named entries are catalogue descriptors only"
+        "stack": "React/CSS demo component; source file read but no build/Flutter runtime validation"
       },
       "status": "REFERENCE",
       "app_implementation": "NONE",
@@ -154,7 +157,8 @@
         "Reduced motion, keyboard and assistive technology, correct focus",
         "No false success/loading indicators and no continuous background loops"
       ],
-      "source_catalog_note": "Exact named item is in cssAnimationsData.ts; matching implementation not located in repository tree"
+      "source_catalog_note": "The catalog record is matched to export ShutterStepBlocks in src/components/css-animations/physics/InertiaPhysicsExperiments.tsx; this is source inspection, not runtime validation.",
+      "named_export": "ShutterStepBlocks"
     },
     {
       "code": "DSP-006",
@@ -1685,5 +1689,16 @@
       }
     ]
   },
-  "consumer_implementation": "NONE"
+  "consumer_implementation": "NONE",
+  "research_correction": {
+    "date": "2026-11-17",
+    "reason": "Source files were identified after broader inspection of the original Amicro code tree",
+    "affected_patterns": [
+      "DSP-002",
+      "DSP-003",
+      "DSP-004",
+      "DSP-005"
+    ],
+    "boundary": "SOURCE_FILE_READ proves file existence/read, not tested quality or Flutter code"
+  }
 }
