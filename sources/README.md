@@ -52,3 +52,7 @@ Questa directory contiene studi di sorgenti esterne e donatori candidati, non ne
 ## Bookmarks DevLibraries — inventario dai tre screenshot
 
 [30 elementi identificati](./DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md) e [JSON originale con 3 impronte SHA-256](./DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.json), dopo la [procedura Bookmarks](./DEVLIBRARIES_BOOKMARKS_INTAKE.md). Dati derivati da immagini condivise dall'utente, non da accesso al suo account. [20 app × 120 relazioni](../UI-UX/DEVLIBRARIES_BOOKMARKS_APP_MAP_2026-11-17.md); 23 path di Amicro e 2 Watermelon verificati, 5 source esatti sconosciuti, 3 componenti già censiti. **Le immagini originali non sono state copiate nel repo.** Non attribuire automaticamente licenze o compatibilità Flutter.
+
+## Impeccable Designing — nuova guida operativa sulla fonte DSK-002
+
+[Analisi verificata della pagina](./IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md) · [pagina originale](https://impeccable.style/designing/) · [schede 10 app](../UI-UX/IMPECCABLE_DESIGNING_APP_MATRIX_2026-11-17.json). Il valore è il metodo Start → Improve → Check → Maintain e l'anti-slop contestuale, non una seconda libreria. Le istruzioni `detect`/hooks riguardano source e pagine Web, **non il codice Android/Flutter**. Nessun eseguibile installato, nessuna certificazione di app svolta.

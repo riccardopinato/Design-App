@@ -97,3 +97,7 @@ La sezione [**PER_APP**](../PER_APP/README.md) conserva le proposte visuali per 
 ## Bookmarks visivi DevLibraries — loader e selettori
 
 [Nuova matrice](./DEVLIBRARIES_BOOKMARKS_APP_MAP_2026-11-17.md) · [Inventario 30 card](../sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md). Screenshot utente con spinner, skeleton, barre, riconoscimento facciale *solamente grafico*, selettore intervallo e Notification List (già censiti), anteprima mappe e quattro proposte senza fornitore confermato. Le associazioni sono `PROPOSED_ONLY`; gli stati di caricamento non devono mai simulare progresso. **Infinite Spiral** è un effetto Media, non un loader. App diverse possono adottare famiglie coerenti, senza mescolare indiscriminatamente ogni animazione.
+
+## Impeccable — 8 controlli di design qualità su 10 app già collegate
+
+[Playbook per app e gate](./IMPECCABLE_DESIGNING_APP_MATRIX_2026-11-17.json) · [audit della guida Designing](../sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md). Riusare la stessa identità `DSK-002` già presente nella [matrice design skill](./MATRICE_REPO_DESIGN_APP_2026-11-17.md). Critique/audit/harden/polish con evidenza screenshot e QA nativo, non solo check PASS GitHub; il detector CSS/HTML e i hooks Impeccable sono ammessi **solo Web/PWA**. Non creare una seconda Product Bible o dichiarare copy-ready il Golden App Shell DRAFT.
