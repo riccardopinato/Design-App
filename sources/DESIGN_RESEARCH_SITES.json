@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-17",
+  "purpose": "Curated web directories and visual sources for design research; no entitlement to third-party assets",
+  "sites": [
+    {
+      "id": "DESIGN-SITE-001",
+      "name": "DevLibraries",
+      "url": "https://devlibraries.com/",
+      "kind": "MULTI_LIBRARY_UI_AGGREGATOR",
+      "status": "REFERENCE",
+      "direct_page_fetch": "UNAVAILABLE_INDEXED_SEARCH_VERIFIED",
+      "recommended_for": [
+        "component_discovery",
+        "motion",
+        "UI/UX",
+        "voice_recording_visuals",
+        "web_ui",
+        "agent_skills"
+      ],
+      "use": "Compare concepts, frameworks, previews and per-library licenses. Drill down to ORIGINAL maintainer before selecting donor; never treat aggregate site as one OSS repo.",
+      "source_content_summary": "Indexed UI library/component directory; counts are dynamic and not a guaranteed inventory.",
+      "license": "AGGREGATOR_HAS_NO_SINGLE_COMPONENT_LICENSE",
+      "notes": [
+        "No copying of code/assets from directory until original author/source license confirmed",
+        "React/Next.js examples are design references, not ready-to-use Flutter implementations"
+      ],
+      "related_intake": "sources/DEVLIBRARIES_DISCOVERY_2026-11-17.md"
+    },
+    {
+      "id": "DESIGN-SITE-002",
+      "name": "Ruixen UI",
+      "url": "https://ruixen.com/",
+      "kind": "COMPONENT_LIBRARY",
+      "status": "REFERENCE",
+      "direct_page_fetch": "PREVIOUSLY_VERIFIED_IN_DESIGN_APP",
+      "recommended_for": [
+        "React UI",
+        "motion",
+        "microinteractions",
+        "Flutter native adaptation"
+      ],
+      "use": "Reuse source-pinned research already tracked by Design-App; React code is not directly Flutter ready.",
+      "source_content_summary": "Existing source catalog 277 TSX references and 41 curated candidates, prior audit.",
+      "license": "CHECK_FREE_VS_PRO_AND_ASSET_LICENSE",
+      "related_intake": "sources/RUIXEN_UI_DESIGN_MOTION_AUDIT_2026-11-13.md"
+    },
+    {
+      "id": "DESIGN-SITE-003",
+      "name": "Gentleface",
+      "url": "https://gentleface.com/categories/animated",
+      "kind": "ICON_LIBRARY",
+      "status": "REFERENCE",
+      "direct_page_fetch": "PREVIOUSLY_VERIFIED_IN_DESIGN_APP",
+      "recommended_for": [
+        "icons",
+        "animated icons",
+        "web vector iconography"
+      ],
+      "use": "See existing 28 reference icons and app matrix; no vendored asset without license gate.",
+      "source_content_summary": "Previously documented Gentleface animated icon source.",
+      "license": "MIT_CLAIM_PER_SITE_PENDING_ASSET_CHECK",
+      "related_intake": "ICONE/GENTLEFACE_AUDIT_2026-11-17.md"
+    },
+    {
+      "id": "DESIGN-SITE-004",
+      "name": "beUI",
+      "url": "https://beui.dev/",
+      "kind": "ORIGINAL_COMPONENT_LIBRARY",
+      "status": "REFERENCE",
+      "direct_page_fetch": "SOURCE_REPOSITORY_PINNED",
+      "recommended_for": [
+        "React motion",
+        "React Native motion",
+        "agent UI",
+        "voice interaction"
+      ],
+      "use": "Original source of Voice Orb surfaced by DevLibraries. Reference-only for Flutter and Compose.",
+      "source_content_summary": "Public original library with web and React Native implementations.",
+      "license": "MIT_FOR_PUBLIC_ORIGINAL_COMPONENTS_PRO_SEPARATE",
+      "related_intake": "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
+    }
+  ]
+}
