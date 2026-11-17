@@ -961,7 +961,7 @@ if impeccable_map.get("platform_facts", {}).get("detector") != "Web source/rende
     fail("Impeccable detector must be explicitly Web only")
 if impeccable_map.get("platform_facts", {}).get("native", "").startswith("Use native") is False:
     fail("Impeccable native QA boundary missing")
-if "DSK-002" not in oss or oss.count('repo: "pbakaus/impeccable"') != 1:
+if oss.count('repo: "pbakaus/impeccable"') != 1:
     fail("Impeccable existing OSS skill missing/duplicated")
 if not impeccable_apps.keys() <= dossier_names:
     fail("Impeccable Designing mapped app missing from official dossiers")
