@@ -939,6 +939,63 @@ if set(brief.get("user_requested_trigger_modes",[])) != {"first_app_open_each_lo
     fail("DevLibraries screenshot must preserve Anna Home Oggi trigger choices")
 
 
+# Impeccable Designing design-quality extension validation (reference only).
+impeccable_doc = ROOT / "sources" / "IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
+impeccable_map_path = ROOT / "UI-UX" / "IMPECCABLE_DESIGNING_APP_MATRIX_2026-11-17.json"
+if not impeccable_doc.is_file() or not impeccable_map_path.is_file():
+    fail("Impeccable Designing documentation or app matrix missing")
+impeccable_map = json.loads(impeccable_map_path.read_text(encoding="utf-8"))
+impeccable_apps = impeccable_map.get("by_app", {})
+impeccable_workflow = impeccable_map.get("workflow", [])
+if impeccable_map.get("batch_id") != "IMPECCABLE_DESIGNING_EXPANSION_2026_11_17":
+    fail("Impeccable Designing batch ID changed")
+if impeccable_map.get("canonical_source_id") != "DSK-002" or impeccable_map.get("canonical_repo") != "pbakaus/impeccable":
+    fail("Impeccable Designing must use existing source reference")
+if impeccable_map.get("counts", {}).get("new_source_repos") != 0:
+    fail("Impeccable Designing may not duplicate source repositories")
+if len(impeccable_apps) != 10 or len(impeccable_workflow) != 8:
+    fail("Impeccable Designing acceptance baseline requires 10 apps and 8 gates")
+if len({w.get("id") for w in impeccable_workflow}) != len(impeccable_workflow):
+    fail("Impeccable Designing duplicate quality gate")
+if impeccable_map.get("platform_facts", {}).get("detector") != "Web source/rendered HTML/CSS only":
+    fail("Impeccable detector must be explicitly Web only")
+if impeccable_map.get("platform_facts", {}).get("native", "").startswith("Use native") is False:
+    fail("Impeccable native QA boundary missing")
+if "DSK-002" not in oss or oss.count('repo: "pbakaus/impeccable"') != 1:
+    fail("Impeccable existing OSS skill missing/duplicated")
+if not impeccable_apps.keys() <= dossier_names:
+    fail("Impeccable Designing mapped app missing from official dossiers")
+original_skills = json.loads((ROOT / "UI-UX" / "MATRICE_REPO_DESIGN_APP_2026-11-17.json").read_text(encoding="utf-8"))
+old_impeccable = {e["app"] for e in original_skills.get("associations", []) if e.get("source_id") == "DSK-002"}
+if set(impeccable_apps) != old_impeccable:
+    fail("Impeccable Designing must not invent new per-app relations")
+if profile_counts.get("impeccable_designing_quality_candidate_apps") != len(impeccable_apps):
+    fail("Impeccable Designing per-app quality count drift")
+if profile_counts.get("impeccable_designing_workflow_gates") != len(impeccable_workflow):
+    fail("Impeccable Designing quality gate count drift")
+for profile in profiles:
+    mapped = impeccable_apps.get(profile["name"])
+    local = profile.get("impeccable_designing_quality")
+    if mapped is None and local is not None:
+        fail(f"Impeccable non-candidate profile unexpectedly modified: {profile['name']}")
+    if mapped is None:
+        continue
+    if not local or local.get("canonical_skill_id") != "DSK-002" or local.get("reference_status") != "REFERENCE_ONLY":
+        fail(f"Impeccable profile provenance missing: {profile['name']}")
+    if local.get("consumer_qa_state") != "NOT_EXECUTED" or local.get("dependency_added") is not False:
+        fail(f"Impeccable profile prematurely claims QA execution or dependencies: {profile['name']}")
+    for k in ("source_id","fit","priority","mode","surface","objective","acceptance_checks","status","implementation"):
+        if local.get(k) != mapped.get(k):
+            fail(f"Impeccable per-app quality drift: {profile['name']} / {k}")
+    if len(local.get("acceptance_checks", [])) < 3:
+        fail(f"Impeccable acceptance list under-specified: {profile['name']}")
+    dossier = (per_app_dir / (profile["id"] + ".md")).read_text(encoding="utf-8")
+    if "Impeccable — metodologia Designing" not in dossier:
+        fail(f"Impeccable quality checklist missing in app dossier: {profile['name']}")
+    for check in local["acceptance_checks"]:
+        if check not in dossier:
+            fail(f"Impeccable app dossier missing specific acceptance check: {profile['name']}")
+
 print(
     f"Design-App validation PASS: {len(pattern_ids)} patterns, "
     f"{len(style_ids)} styles, {len(repos)} OSS sources "
