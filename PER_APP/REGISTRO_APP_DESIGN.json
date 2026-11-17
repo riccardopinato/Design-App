@@ -11,7 +11,8 @@
     "app_profiles": 25,
     "icon_links": 114,
     "skill_links": 96,
-    "cooking_icon_concepts": 36
+    "cooking_icon_concepts": 36,
+    "voice_orb_candidate_apps": 10
   },
   "profiles": [
     {
@@ -110,7 +111,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "diario e ricordi",
@@ -335,6 +337,27 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_REFERENCE",
+          "status": "PROPOSED_ONLY",
+          "origin": "User provided DevLibraries beUI Voice Orb link",
+          "detail": "Future voice-notes UI suggestion; no recorder, speech feature or app implementation claimed."
+        }
+      ],
+      "voice_ui_candidates": [
+        {
+          "source_id": "VOICE-UI-001",
+          "association_id": "VOA-002",
+          "fit": "HIGH",
+          "purpose": "Ricordi e diario con eventuali note vocali",
+          "surface": "Editor Ricordi o acquisizione evento",
+          "brand_fit": "rosa, Manrope/Lora approvati",
+          "status": "PROPOSED_ONLY",
+          "feature_state": "NOT_IMPLEMENTED",
+          "kind": "AUDIO_LEVEL_VISUAL_ONLY",
+          "origin": "USER_DESIGN_REFERENCE_DEVLIBRARIES_2026_11_17"
         }
       ]
     },
@@ -354,7 +377,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "repository e branch",
@@ -497,6 +521,27 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_REFERENCE",
+          "status": "PROPOSED_ONLY",
+          "origin": "User provided DevLibraries beUI Voice Orb link",
+          "detail": "Future voice-notes UI suggestion; no recorder, speech feature or app implementation claimed."
+        }
+      ],
+      "voice_ui_candidates": [
+        {
+          "source_id": "VOICE-UI-001",
+          "association_id": "VOA-008",
+          "fit": "MEDIUM",
+          "purpose": "Cattura vocale di idee o note di progetto",
+          "surface": "Composer idea/nota",
+          "brand_fit": "UI tecnica e leggibile",
+          "status": "PROPOSED_ONLY",
+          "feature_state": "NOT_IMPLEMENTED",
+          "kind": "AUDIO_LEVEL_VISUAL_ONLY",
+          "origin": "USER_DESIGN_REFERENCE_DEVLIBRARIES_2026_11_17"
         }
       ]
     },
@@ -652,7 +697,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "bicchiere/beer mug",
@@ -713,6 +759,27 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_REFERENCE",
+          "status": "PROPOSED_ONLY",
+          "origin": "User provided DevLibraries beUI Voice Orb link",
+          "detail": "Future voice-notes UI suggestion; no recorder, speech feature or app implementation claimed."
+        }
+      ],
+      "voice_ui_candidates": [
+        {
+          "source_id": "VOICE-UI-001",
+          "association_id": "VOA-004",
+          "fit": "MEDIUM",
+          "purpose": "Diario degustazione con voce nel Rapid Log",
+          "surface": "Rapid Log o scheda birra",
+          "brand_fit": "identità calda",
+          "status": "PROPOSED_ONLY",
+          "feature_state": "NOT_IMPLEMENTED",
+          "kind": "AUDIO_LEVEL_VISUAL_ONLY",
+          "origin": "USER_DESIGN_REFERENCE_DEVLIBRARIES_2026_11_17"
         }
       ]
     },
@@ -732,7 +799,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "camper/van",
@@ -835,6 +903,27 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_REFERENCE",
+          "status": "PROPOSED_ONLY",
+          "origin": "User provided DevLibraries beUI Voice Orb link",
+          "detail": "Future voice-notes UI suggestion; no recorder, speech feature or app implementation claimed."
+        }
+      ],
+      "voice_ui_candidates": [
+        {
+          "source_id": "VOICE-UI-001",
+          "association_id": "VOA-006",
+          "fit": "MEDIUM",
+          "purpose": "Memo di tappa camper solo in condizioni di utilizzo sicuro",
+          "surface": "Diario tappa",
+          "brand_fit": "verde/bosco oro",
+          "status": "PROPOSED_ONLY",
+          "feature_state": "NOT_IMPLEMENTED",
+          "kind": "AUDIO_LEVEL_VISUAL_ONLY",
+          "origin": "USER_DESIGN_REFERENCE_DEVLIBRARIES_2026_11_17"
         }
       ]
     },
@@ -957,7 +1046,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "kawaii-gattini",
@@ -1681,6 +1771,27 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "User request about kawaii cats, food, China/Japan and sushi plus prior assistant recommendations"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_REFERENCE",
+          "status": "PROPOSED_ONLY",
+          "origin": "User provided DevLibraries beUI Voice Orb link",
+          "detail": "Future voice-notes UI suggestion; no recorder, speech feature or app implementation claimed."
+        }
+      ],
+      "voice_ui_candidates": [
+        {
+          "source_id": "VOICE-UI-001",
+          "association_id": "VOA-005",
+          "fit": "MEDIUM",
+          "purpose": "Appunti vocali personali durante una ricetta",
+          "surface": "Dettaglio ricetta, non overlay costante",
+          "brand_fit": "anime/kawaii senza distrarre dalla ricetta",
+          "status": "PROPOSED_ONLY",
+          "feature_state": "NOT_IMPLEMENTED",
+          "kind": "AUDIO_LEVEL_VISUAL_ONLY",
+          "origin": "USER_DESIGN_REFERENCE_DEVLIBRARIES_2026_11_17"
         }
       ]
     },
@@ -1700,7 +1811,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "desktop",
@@ -1802,6 +1914,27 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_REFERENCE",
+          "status": "PROPOSED_ONLY",
+          "origin": "User provided DevLibraries beUI Voice Orb link",
+          "detail": "Future voice-notes UI suggestion; no recorder, speech feature or app implementation claimed."
+        }
+      ],
+      "voice_ui_candidates": [
+        {
+          "source_id": "VOICE-UI-001",
+          "association_id": "VOA-009",
+          "fit": "MEDIUM",
+          "purpose": "Overlay per futuro agente o note vocali solo se previsti",
+          "surface": "Pannello vocale separato dal launcher",
+          "brand_fit": "effetto launcher leggero",
+          "status": "PROPOSED_ONLY",
+          "feature_state": "NOT_IMPLEMENTED",
+          "kind": "AUDIO_LEVEL_VISUAL_ONLY",
+          "origin": "USER_DESIGN_REFERENCE_DEVLIBRARIES_2026_11_17"
         }
       ]
     },
@@ -2084,7 +2217,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "fotografia",
@@ -2230,6 +2364,27 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_REFERENCE",
+          "status": "PROPOSED_ONLY",
+          "origin": "User provided DevLibraries beUI Voice Orb link",
+          "detail": "Future voice-notes UI suggestion; no recorder, speech feature or app implementation claimed."
+        }
+      ],
+      "voice_ui_candidates": [
+        {
+          "source_id": "VOICE-UI-001",
+          "association_id": "VOA-010",
+          "fit": "MEDIUM",
+          "purpose": "Annotazione vocale di un progetto media se prevista",
+          "surface": "Pannello note del progetto",
+          "brand_fit": "non sovrapporre alla foto",
+          "status": "PROPOSED_ONLY",
+          "feature_state": "NOT_IMPLEMENTED",
+          "kind": "AUDIO_LEVEL_VISUAL_ONLY",
+          "origin": "USER_DESIGN_REFERENCE_DEVLIBRARIES_2026_11_17"
         }
       ]
     },
@@ -2249,7 +2404,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "nota",
@@ -2503,6 +2659,27 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_REFERENCE",
+          "status": "PROPOSED_ONLY",
+          "origin": "User provided DevLibraries beUI Voice Orb link",
+          "detail": "Future voice-notes UI suggestion; no recorder, speech feature or app implementation claimed."
+        }
+      ],
+      "voice_ui_candidates": [
+        {
+          "source_id": "VOICE-UI-001",
+          "association_id": "VOA-001",
+          "fit": "HIGH",
+          "purpose": "Note vocali e dettatura nell'editor",
+          "surface": "Composer note/canvas",
+          "brand_fit": "palette editoriale attuale",
+          "status": "PROPOSED_ONLY",
+          "feature_state": "NOT_IMPLEMENTED",
+          "kind": "AUDIO_LEVEL_VISUAL_ONLY",
+          "origin": "USER_DESIGN_REFERENCE_DEVLIBRARIES_2026_11_17"
         }
       ]
     },
@@ -3428,7 +3605,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "viaggio",
@@ -3639,6 +3817,27 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_REFERENCE",
+          "status": "PROPOSED_ONLY",
+          "origin": "User provided DevLibraries beUI Voice Orb link",
+          "detail": "Future voice-notes UI suggestion; no recorder, speech feature or app implementation claimed."
+        }
+      ],
+      "voice_ui_candidates": [
+        {
+          "source_id": "VOICE-UI-001",
+          "association_id": "VOA-003",
+          "fit": "HIGH",
+          "purpose": "Audio-diario delle tappe e dei viaggi",
+          "surface": "Dettaglio tappa/ricordo",
+          "brand_fit": "colori viaggio esistenti",
+          "status": "PROPOSED_ONLY",
+          "feature_state": "NOT_IMPLEMENTED",
+          "kind": "AUDIO_LEVEL_VISUAL_ONLY",
+          "origin": "USER_DESIGN_REFERENCE_DEVLIBRARIES_2026_11_17"
         }
       ]
     },
@@ -3658,7 +3857,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "calendario",
@@ -3893,6 +4093,27 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_REFERENCE",
+          "status": "PROPOSED_ONLY",
+          "origin": "User provided DevLibraries beUI Voice Orb link",
+          "detail": "Future voice-notes UI suggestion; no recorder, speech feature or app implementation claimed."
+        }
+      ],
+      "voice_ui_candidates": [
+        {
+          "source_id": "VOICE-UI-001",
+          "association_id": "VOA-007",
+          "fit": "MEDIUM",
+          "purpose": "Memo personali su una ricorrenza solo se la funzione verrà prevista",
+          "surface": "Spazio note utente separato dal contenuto editoriale",
+          "brand_fit": "palette attuale invariata",
+          "status": "PROPOSED_ONLY",
+          "feature_state": "NOT_IMPLEMENTED",
+          "kind": "AUDIO_LEVEL_VISUAL_ONLY",
+          "origin": "USER_DESIGN_REFERENCE_DEVLIBRARIES_2026_11_17"
         }
       ]
     }
