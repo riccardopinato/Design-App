@@ -176,3 +176,9 @@ La classificazione resta molti-a-molti, con un solo file JPG per riferimento; la
 ## Nuova fonte esterna: Ruixen UI (2026-11-13)
 
 [**Ruixen UI**](https://ruixen.com/) è stata integrata come riferimento per componenti UI, microinterazioni, generatori visivi e motion. Registrati [277 file sorgente React con SHA Git](sources/RUIXEN_UI_REGISTRY_INVENTORY_2026-11-13.json) e [41 pattern selezionati per 18 app](sources/RUIXEN_UI_CURATED_APP_MAP_2026-11-13.json), con [audit, licenze, casi d'uso e roadmap](sources/RUIXEN_UI_DESIGN_MOTION_AUDIT_2026-11-13.md). Voce inserita nel [registro OSS](registry/OSS_DESIGN_SOURCES.yaml). **Stato: REFERENCE, non implementazione né Golden**. Per Flutter mantenere reimplementazione nativa e QA, per web codice MIT soggetto a dependency/asset audit; Pro separato.
+
+## 10 nuovi repository anti-slop / design skills — 17 novembre 2026
+
+Analizzati e registrati **10 repository di design-agent skills**, verificando README, entrypoint, licenze principali e HEAD immutabili. [Audit approfondito](sources/ANTI_SLOP_DESIGN_SKILLS_AUDIT_2026-11-17.md) · [Matrice repository ⇄ app](UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.md) · [Registro bidirezionale JSON](UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json).
+
+Totale sorgenti esterne nel registro OSS Design-App: **115 uniche** (105 precedenti + 10). Le nuove fonti sono **REFERENCE**, le associazioni sono `PROPOSED_ONLY`: nessuna libreria installata nelle app, nessuna copia di asset esterni, nessuna modifica a Golden o Product Bible. Gli abbinamenti coprono UI/UX audit, design intelligence cross-platform, motion, qualità Web/PWA e marketing visivo (ambiti distinti). Le stelle sono dichiarate dall'utente, non confermate con enumerazione API autenticata.

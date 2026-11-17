@@ -65,3 +65,7 @@ Le 99 schede possono aprire l'immagine direttamente cliccando l'ID `UIR-xxxx` ne
 ## Fonte componenti interattivi — Ruixen UI
 
 Oltre ai riferimenti immagine UIR, la libreria include un [catalogo Ruixen UI](../sources/RUIXEN_UI_DESIGN_MOTION_AUDIT_2026-11-13.md): 277 sorgenti TSX verificate per esistenza (SHA fissati), 41 pattern curati per 18 app e mappatura [app → componenti](../sources/RUIXEN_UI_CURATED_APP_MAP_2026-11-13.json). Ruixen è soprattutto React/shadcn; per Flutter il riuso è concettuale, non `COPY_READY`.
+
+## Skill e tool esterni anti UI slop — 17/11/2026
+
+[**10 fonti source-pinned**](../sources/ANTI_SLOP_DESIGN_SKILLS_AUDIT_2026-11-17.md) con [**matrice bidirezionale repo ↔ app**](./MATRICE_REPO_DESIGN_APP_2026-11-17.md) e [**JSON interrogabile**](./MATRICE_REPO_DESIGN_APP_2026-11-17.json). Non costituiscono nuove categorie `UIX-STYLE`: sono skill, linee guida, tooling o kit marketing. I tag corrispondono a famiglie già esistenti, gli abbinamenti restano `PROPOSED_ONLY` e non autorizzano l'installazione automatica delle skill nel runtime Flutter.
