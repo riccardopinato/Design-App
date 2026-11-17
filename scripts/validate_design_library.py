@@ -795,6 +795,150 @@ for phrase in ("prima apertura", "orario", "Ricordi", "notifica di sistema", "Ca
         fail(f"Anna's Diary missing user's daily brief requirement: {phrase}")
 
 
+# User-supplied DevLibraries screenshot intake: 30 references, no claim of logged-in account access.
+bookmarks_file = ROOT / "sources" / "DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.json"
+bookmarks_md = ROOT / "sources" / "DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
+bookmarks_matrix = ROOT / "UI-UX" / "DEVLIBRARIES_BOOKMARKS_APP_MAP_2026-11-17.md"
+bookmarks_workflow = ROOT / "sources" / "DEVLIBRARIES_BOOKMARKS_INTAKE.md"
+if not all(f.is_file() for f in (bookmarks_file,bookmarks_md,bookmarks_matrix,bookmarks_workflow)):
+    fail("DevLibraries screenshot bookmarks registry/docs missing")
+bm = json.loads(bookmarks_file.read_text(encoding="utf-8"))
+bm_items = bm.get("items", [])
+bm_edges = bm.get("associations", [])
+bm_counts = bm.get("counts", {})
+screens = bm.get("screenshot_files", [])
+if bm.get("batch") != "DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026_11_17":
+    fail("DevLibraries screenshot batch mismatch")
+if bm.get("status") != "VISUAL_INTAKE_REGISTERED" or bm.get("repo_impact") != "DOCUMENTATION_ONLY":
+    fail("DevLibraries screenshot batch has incorrect completion status")
+if bm.get("user_account_read") is not False or bm.get("source_repo_new") != 0:
+    fail("DevLibraries screenshots cannot claim account access or new source repos")
+if len(screens) != 3 or sum(s.get("items", 0) for s in screens) != 30:
+    fail("DevLibraries screenshot provenance/observed rows mismatch")
+if [s.get("items") for s in screens] != [18, 8, 4]:
+    fail("DevLibraries source screenshot batch row counts changed")
+if any(not re.fullmatch(r"[0-9a-f]{64}", str(s.get("sha256",""))) or
+       s.get("asset_in_repo") is not False for s in screens):
+    fail("DevLibraries screenshot SHA-256 format or binary asset boundary invalid")
+if len(bm_items) != 30 or len({i.get("id") for i in bm_items}) != 30:
+    fail("DevLibraries screenshot expected 30 unique item IDs")
+if len({(i.get("screenshot_number"),i.get("screenshot_order")) for i in bm_items}) != 30:
+    fail("DevLibraries screenshot item positions not unique")
+if any(i.get("id") != f"DBM-{n:03d}" for n,i in enumerate(bm_items, 1)):
+    fail("DevLibraries screenshot items out of canonical ID order")
+if any(i.get("screenshot_number") not in (1,2,3) or
+       i.get("screenshot_sha256") != screens[i["screenshot_number"]-1]["sha256"]
+       for i in bm_items):
+    fail("DevLibraries item screenshot hash provenance mismatch")
+if any(i.get("status") != "REFERENCE" or i.get("implementation_status") != "NOT_IMPLEMENTED"
+       or i.get("asset_status") != "SCREENSHOT_NOT_COMMITTED" for i in bm_items):
+    fail("DevLibraries screenshots falsely marked implemented or screenshot archived")
+if bm_counts.get("screenshot_cards") != len(bm_items) or bm_counts.get("screenshots") != len(screens):
+    fail("DevLibraries total counts inconsistent")
+provider_count = {x:sum(i.get("provider")==x for i in bm_items)
+                  for x in ("Amicro","Watermelon UI","UNVERIFIED_PROVIDER")}
+if (provider_count["Amicro"],provider_count["Watermelon UI"],provider_count["UNVERIFIED_PROVIDER"]) != (23,3,4):
+    fail("DevLibraries screenshot provider classification drift")
+if bm_counts.get("amicro") != 23 or bm_counts.get("watermelon") != 3 or bm_counts.get("unverified_provider") != 4:
+    fail("DevLibraries reported provider counts drift")
+paths = [i for i in bm_items if i.get("source_path")]
+unresolved = [i for i in bm_items if not i.get("source_path")]
+if len(paths) != 25 or len(unresolved) != 5:
+    fail("DevLibraries source-path confidence boundary must be 25/5")
+if bm_counts.get("source_path_pinned") != len(paths) or bm_counts.get("unverified_source") != len(unresolved):
+    fail("DevLibraries source evidence stats invalid")
+for i in paths:
+    if (not re.fullmatch(r"[0-9a-f]{40}", str(i.get("source_blob_sha",""))) or
+        not re.fullmatch(r"[0-9a-f]{40}", str(i.get("source_commit","")))):
+        fail(f"DevLibraries missing source SHA or commit: {i.get('id')}")
+    if i.get("source_evidence") not in ("SOURCE_FILE_READ","SOURCE_FILE_PREVIOUSLY_READ","SOURCE_PATH_PINNED"):
+        fail(f"DevLibraries unsupported source evidence: {i.get('id')}")
+for i in unresolved:
+    if i.get("source_evidence") not in ("USER_SCREENSHOT_ONLY","EXACT_SOURCE_NOT_LOCATED"):
+        fail(f"DevLibraries unresolved item misclassified: {i.get('id')}")
+if any(i.get("provider") == "UNVERIFIED_PROVIDER" and
+       any(i.get(key) is not None for key in ("source_path","source_repo","source_commit","source_blob_sha"))
+       for i in bm_items):
+    fail("DevLibraries unidentified visual attributed to guessed provider")
+if any(i.get("provider") == "Amicro" and
+       (i.get("source_repo") != "Subhan-code/Amicro--Micro-transitions-" or
+        i.get("source_path") != "registry/ui/loading/" + i.get("slug","") + ".tsx")
+       for i in bm_items):
+    fail("DevLibraries Amicro pinned source path/provider mismatch")
+if any(i.get("provider") == "Watermelon UI" and
+       i.get("source_repo") != "WatermelonCorp/watermelon-platform" for i in bm_items):
+    fail("DevLibraries Watermelon source attribution mismatch")
+duplicate_refs = {i.get("title"):i.get("existing_design_ref") for i in bm_items
+                  if i.get("existing_design_ref")}
+if duplicate_refs != {"Accordion Loader":"AMX-006",
+                      "Range Selection Slider":"WML-004",
+                      "Notification List":"WML-008"}:
+    fail("DevLibraries previously cataloged component dedupe links drift")
+if bm_counts.get("existing_deduped") != 3 or bm_counts.get("new_curation_items") != 27:
+    fail("DevLibraries deduplicated source count drift")
+notification = next((i for i in bm_items if i.get("title") == "Notification List"),None)
+if not notification or notification.get("source_evidence") != "EXACT_SOURCE_NOT_LOCATED" or notification.get("source_path"):
+    fail("DevLibraries Notification List source may not be inferred from user screenshot")
+by_name = {i["title"]:i for i in bm_items}
+if by_name["Infinite Spiral"]["category"] != "UNVERIFIED_MEDIA_VISUAL":
+    fail("DevLibraries Infinite Spiral must not be reported as loader")
+if by_name["Face Id Scan"]["category"] != "BIOMETRIC_STATUS_VISUAL_ONLY":
+    fail("DevLibraries Face ID UI may not be misrepresented as security engine")
+if len(bm_edges) != 120 or len(bm_edges) != bm_counts.get("associations"):
+    fail("DevLibraries screenshot edge count not 120")
+if len({(e.get("bookmark_id"),e.get("app")) for e in bm_edges}) != len(bm_edges):
+    fail("DevLibraries duplicate screenshot app association")
+if any(e.get("bookmark_id") not in {i["id"] for i in bm_items}
+       or e.get("app") not in dossier_names
+       or e.get("fit") not in ("HIGH","MEDIUM")
+       or e.get("status") != "PROPOSED_ONLY" for e in bm_edges):
+    fail("DevLibraries screenshot edge foreign key/status invalid")
+bm_apps = {e.get("app") for e in bm_edges}
+if len(bm_apps) != bm_counts.get("apps") or len(bm_apps) != 20:
+    fail("DevLibraries screenshot app count drift")
+if set(bm.get("by_app",{})) != bm_apps:
+    fail("DevLibraries screenshot inverse app keys mismatch")
+if set(bm.get("by_item",{})) != {i["id"] for i in bm_items}:
+    fail("DevLibraries screenshot inverse item keys mismatch")
+for app, refs in bm.get("by_app",{}).items():
+    expected={(e["bookmark_id"],e["fit"],e["use_case"]) for e in bm_edges if e["app"]==app}
+    actual={(e["bookmark_id"],e["fit"],e["use_case"]) for e in refs}
+    if actual != expected:
+        fail(f"DevLibraries screenshot by_app mismatch: {app}")
+for identifier, refs in bm.get("by_item",{}).items():
+    expected={(e["app"],e["fit"],e["use_case"]) for e in bm_edges if e["bookmark_id"]==identifier}
+    actual={(e["app"],e["fit"],e["use_case"]) for e in refs}
+    if actual != expected:
+        fail(f"DevLibraries screenshot by_item mismatch: {identifier}")
+if (profile_counts.get("bookmarks_screenshot_profiles") != 20 or
+    profile_counts.get("bookmarks_screenshot_edges") != 120 or
+    profile_counts.get("bookmarks_screenshot_cards") != 30):
+    fail("DevLibraries screenshot aggregate profile stats mismatch")
+for profile in profiles:
+    refs=profile.get("bookmarked_visual_references",[])
+    expected={(e["bookmark_id"],e["fit"],e["use_case"]) for e in bm_edges if e["app"]==profile["name"]}
+    observed={(e["bookmark_id"],e["fit"],e["use_case"]) for e in refs}
+    if observed != expected or len(refs) != len(observed):
+        fail(f"DevLibraries screenshot per-app profile drift: {profile['name']}")
+    if refs:
+        doc=(per_app_dir / (profile["id"] + ".md")).read_text(encoding="utf-8")
+        if "DevLibraries Bookmarks — screenshot 17/11/2026" not in doc:
+            fail(f"DevLibraries screenshot dossier missing: {profile['name']}")
+        if any(e["bookmark_id"] not in doc for e in refs):
+            fail(f"DevLibraries screenshot mapping not visible in dossier: {profile['name']}")
+        if any(e.get("status") != "PROPOSED_ONLY" or e.get("implementation") != "NOT_IMPLEMENTED"
+               or e.get("image_binary_in_repo") is not False for e in refs):
+            fail(f"DevLibraries screenshot dossier promoted without consumer evidence: {profile['name']}")
+anna_bm = next(p for p in profiles if p["name"] == "Anna's Diary")
+brief = anna_bm.get("anna_today_daily_agenda_proposal",{})
+if (brief.get("visual_preview_seen_in_user_screenshot") is not True or
+    brief.get("source_code_evidence") != "EXACT_SOURCE_NOT_LOCATED" or
+    brief.get("approval_unchanged") != "PROPOSED_ONLY"):
+    fail("DevLibraries screenshot cannot promote Anna Notification List implementation")
+if set(brief.get("user_requested_trigger_modes",[])) != {"first_app_open_each_local_day","user_configured_time"}:
+    fail("DevLibraries screenshot must preserve Anna Home Oggi trigger choices")
+
+
 print(
     f"Design-App validation PASS: {len(pattern_ids)} patterns, "
     f"{len(style_ids)} styles, {len(repos)} OSS sources "

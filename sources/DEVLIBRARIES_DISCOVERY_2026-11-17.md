@@ -19,3 +19,7 @@ Uso della fonte:
 ## Raccolte Bookmarks utente
 
 Il link [DevLibraries Bookmarks](https://devlibraries.com/bookmarks) è stato ricevuto il 17/11/2026; la pagina non è stata accessibile da questa sessione e **non sono stati letti/importati i preferiti personali**. Per la procedura di acquisizione in batch, deduplica, verifica licenze e collegamento ai dossier molti-a-molti consultare [DEVLIBRARIES_BOOKMARKS_INTAKE.md](./DEVLIBRARIES_BOOKMARKS_INTAKE.md).
+
+## Screenshot di una raccolta di componenti — 17/11/2026
+
+In seguito al link Bookmarks sono stati condivisi tre screenshot e catalogate [30 card con nome, fonte e SHA di evidenza](./DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md), con [mappa molti-a-molti](../UI-UX/DEVLIBRARIES_BOOKMARKS_APP_MAP_2026-11-17.md). Il contenuto dell'account DevLibraries non è stato letto tramite API/sessione; **nessun file PNG è stato inserito nel repo**. L'archivio distingue le voci Amicro/Watermelon con source path pin-nati dai quattro provider non identificati e da Notification List senza sorgente esatto.
