@@ -114,3 +114,9 @@ Per tema usare Golden/ThemeMode e token del prodotto, animando al massimo la tra
 ## Provenienza verificabile delle microinterazioni
 
 Per ogni link a un componente di DevLibraries/Amicro distinguere **nome e URL forniti dall'utente** dalla disponibilità di un export omonimo nel repository originale: registrare SHA completo, file, blob ed eventuale `SOURCE_FILE_READ`; se il nome esatto non è localizzabile, conservare `EXACT_SOURCE_NOT_LOCATED` e NON inventare file, comando CLI, implementazione Flutter o licenze specifiche non verificate. Quando una ricognizione corregge un audit precedente, aggiornare i registri esistenti e documentare l'errata attribuzione nello storico, senza scambiare lettura sorgenti per test runtime.
+
+## Catalogazione Watermelon / UI di agenda e notifiche
+
+Per ogni nuovo componente di un portale (es. DevLibraries) tentare URL esatto, poi verificare repository originale. Registrare separatamente: sorgente React letta con SHA/blob, item con solo metadata, e nome non localizzabile. Mai supporre che uno slug 'base' sia un widget Flutter già pronto; verificare il file reale e le dipendenze prima di estrarre. I file demomedia e immagini stock non sono automaticamente licenziati per riuso.
+
+Se un'idea proposta riguarda un riepilogo giornaliero appuntamenti (Anna's Diary), mantenere nel dossier `PER_APP/annas-diary.md` il requisito di **prima apertura giornaliera oppure orario configurato**, senza presumere notifiche push, permessi di sistema, job in background o database. Distinguere visuale in-app da scheduling Android/iOS; richiedere Product Bible, privacy, fuso/DST, deduplica per account/data, gestione sync, errori e verifica su device. Le proposte in Design-App restano PROPOSED_ONLY finché implementazione e test non sono dimostrati.

@@ -56,3 +56,7 @@ Per il componente [beUI Voice Orb indicizzato da DevLibraries](https://devlibrar
 ## Sei componenti Amicro aggiuntivi — 17/11/2026
 
 [Nuovo catalogo Amicro](../UI-UX/AMICRO_SIX_COMPONENTS_APP_MAP_2026-11-17.md): sei link utente, 19 dossier pertinenti aggiornati, 60 nuove associazioni proposte (18 HIGH, 42 MEDIUM). Il [registro canonico](./REGISTRO_APP_DESIGN.json) conserva gli ID `AMX-...`, la collocazione, i limiti di accessibilità e la distinzione codice verificato/concetto non verificato. La ricerca ha inoltre rettificato l'evidenza dei quattro precedenti effetti Amicro (ora file esistenti individuati, sempre senza test di integrazione).
+
+## Nuove proposte Watermelon UI — 17/11/2026
+
+[Watermelon, matrice delle nove reference](../UI-UX/WATERMELON_NINE_APP_MAP_2026-11-17.md) · [registro relazionale](../UI-UX/WATERMELON_NINE_APP_MAP_2026-11-17.json). **17 app e 73 collegamenti** aggiunti ai dossier e alla fonte canonica JSON. La [scheda Anna's Diary](./annas-diary.md) contiene requisiti non implementati per **riepilogo eventi Home Oggi** alla prima apertura del giorno oppure a un orario definito, **Carousel Slider** per Ricordi, picker, invito spazio condiviso e opzionale countdown. La presentazione in-app non implica notifiche di sistema, autenticazione o salvataggio già funzionanti.

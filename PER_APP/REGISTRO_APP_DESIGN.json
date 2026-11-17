@@ -16,7 +16,9 @@
     "motion_design_candidate_apps": 19,
     "motion_design_candidate_relations": 76,
     "amicro_six_candidate_apps": 19,
-    "amicro_six_candidate_links": 60
+    "amicro_six_candidate_links": 60,
+    "watermelon_ui_candidate_apps": 17,
+    "watermelon_ui_candidate_links": 73
   },
   "profiles": [
     {
@@ -118,7 +120,8 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
-        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md"
+        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "diario e ricordi",
@@ -364,6 +367,13 @@
           "origin": "Six user-provided DevLibraries/Amicro links",
           "status": "PROPOSED_ONLY",
           "detail": "5 reference(s) mapped: source files read where available; two exact names unverified; no consumer modifications."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "WATERMELON_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
+          "detail": "9 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
         }
       ],
       "voice_ui_candidates": [
@@ -493,7 +503,134 @@
           "origin": "USER_LINK_AMICRO_2026_11_17",
           "product_scope": "NOT_APPROVED"
         }
-      ]
+      ],
+      "watermelon_ui_candidates": [
+        {
+          "component_id": "WML-001",
+          "fit": "HIGH",
+          "use_case": "Swipe raccolta Ricordi, apri foto originale, non sostituire navigazione calendario",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/carousel-slider",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-002",
+          "fit": "HIGH",
+          "use_case": "Selezione giorno in un mese già fissato o rotella valori nelle Impostazioni, data completa deve restare accessibile",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/fractional-picker",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-003",
+          "fit": "MEDIUM",
+          "use_case": "Scorrimento anno/mese di Ricordi solo se utile e non sostituisce calendario",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/scrub-slider-base",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-004",
+          "fit": "HIGH",
+          "use_case": "Filtra Ricordi per intervallo date o definisci fascia oraria appuntamento solo dopo definizione UX",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/range-selection-slider",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-005",
+          "fit": "MEDIUM",
+          "use_case": "Accesso/account opzionale solo dove previsto, mai obbligare login per diario locale",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/swap-form",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-006",
+          "fit": "MEDIUM",
+          "use_case": "Titoli editoriali secondari mantenendo palette rose/Manrope/Lora",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/text-gradient",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-007",
+          "fit": "HIGH",
+          "use_case": "Invita persona/spazio condiviso con codice se già previsto; conferma server reale, nessun invito simulato",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/dialog-stack-base",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-008",
+          "fit": "HIGH",
+          "use_case": "Home Oggi — riepilogo impegni del giorno in alto, prima apertura giornaliera e/o orario scelto, deduplicato per data/account",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/notification-list",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-009",
+          "fit": "MEDIUM",
+          "use_case": "Conto alla rovescia a un evento importante scelto, non rendere ogni appuntamento un timer",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/flip-clock",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        }
+      ],
+      "anna_today_daily_agenda_proposal": {
+        "status": "PROPOSED_ONLY",
+        "origin": "USER_REQUEST_2026_11_17",
+        "priority": "HIGH",
+        "source_component_id": "WML-008",
+        "source_evidence": "EXACT_SOURCE_NOT_LOCATED",
+        "location": "Home Oggi - in alto, senza sostituire attuale contenuto",
+        "user_requested_trigger_modes": [
+          "first_app_open_each_local_day",
+          "user_configured_time"
+        ],
+        "design_goal": "Elenco impegni odierni ordinati e cliccabili con ora/titolo; mostrare solo dati reali e permessi",
+        "implementation_scope": "NOT_APPROVED_OR_IMPLEMENTED",
+        "distinctions": [
+          "in-app banner on app open is not an OS scheduled notification",
+          "background OS notification requires separate permissions and scheduling",
+          "first open daily key and configured time are distinct timing semantics"
+        ],
+        "constraints": [
+          "idempotent by account + device-local date + event source/revision",
+          "respect sync/account switch and event privacy including shared calendars",
+          "re-evaluate today on midnight/timezone/DST and after edits",
+          "include empty state, quiet-hours preference, dismiss controls only if approved",
+          "no unverified events or false notification state",
+          "keep existing Home Oggi rose editorial visual language"
+        ]
+      },
+      "anna_memories_carousel_proposal": {
+        "status": "PROPOSED_ONLY",
+        "component_id": "WML-001",
+        "media_behavior": "images visible at original aspect ratio with full-size viewer; no forced crop",
+        "interaction": "swipe with visible position and buttons, accessible previous/next, preserve memory detail navigation",
+        "brand": "iOS Journal rose/Manrope/Lora approved",
+        "feature_scope": "Visual redesign suggestion only"
+      }
     },
     {
       "id": "app-factory-dashboard",
@@ -514,7 +651,8 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
-        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md"
+        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "repository e branch",
@@ -678,6 +816,13 @@
           "origin": "Six user-provided DevLibraries/Amicro links",
           "status": "PROPOSED_ONLY",
           "detail": "6 reference(s) mapped: source files read where available; two exact names unverified; no consumer modifications."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "WATERMELON_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
+          "detail": "4 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
         }
       ],
       "voice_ui_candidates": [
@@ -829,6 +974,48 @@
           "origin": "USER_LINK_AMICRO_2026_11_17",
           "product_scope": "NOT_APPROVED"
         }
+      ],
+      "watermelon_ui_candidates": [
+        {
+          "component_id": "WML-005",
+          "fit": "HIGH",
+          "use_case": "Accesso dashboard web solo se auth reale esiste",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/swap-form",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-006",
+          "fit": "MEDIUM",
+          "use_case": "Header promozionale soltanto, non badge CI",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/text-gradient",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-007",
+          "fit": "HIGH",
+          "use_case": "Invita teammate ai workspace solo con backend permessi e ruoli",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/dialog-stack-base",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-008",
+          "fit": "MEDIUM",
+          "use_case": "Bloccanti operativi del giorno se derivati da stati reali",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/notification-list",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        }
       ]
     },
     {
@@ -849,7 +1036,8 @@
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
-        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md"
+        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "batteria",
@@ -980,6 +1168,13 @@
           "origin": "Six user-provided DevLibraries/Amicro links",
           "status": "PROPOSED_ONLY",
           "detail": "2 reference(s) mapped: source files read where available; two exact names unverified; no consumer modifications."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "WATERMELON_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
+          "detail": "2 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
         }
       ],
       "motion_design_candidates": [
@@ -1049,6 +1244,28 @@
           "origin": "USER_LINK_AMICRO_2026_11_17",
           "product_scope": "NOT_APPROVED"
         }
+      ],
+      "watermelon_ui_candidates": [
+        {
+          "component_id": "WML-002",
+          "fit": "MEDIUM",
+          "use_case": "Regola soglie con limiti reali",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/fractional-picker",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-004",
+          "fit": "MEDIUM",
+          "use_case": "Soglia batteria solo con modalità intervallo reale",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/range-selection-slider",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        }
       ]
     },
     {
@@ -1070,7 +1287,8 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
-        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md"
+        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "bicchiere/beer mug",
@@ -1152,6 +1370,13 @@
           "origin": "Six user-provided DevLibraries/Amicro links",
           "status": "PROPOSED_ONLY",
           "detail": "2 reference(s) mapped: source files read where available; two exact names unverified; no consumer modifications."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "WATERMELON_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
+          "detail": "3 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
         }
       ],
       "voice_ui_candidates": [
@@ -1225,6 +1450,38 @@
           "origin": "USER_LINK_AMICRO_2026_11_17",
           "product_scope": "NOT_APPROVED"
         }
+      ],
+      "watermelon_ui_candidates": [
+        {
+          "component_id": "WML-001",
+          "fit": "MEDIUM",
+          "use_case": "Collezione degustazioni",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/carousel-slider",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-002",
+          "fit": "MEDIUM",
+          "use_case": "Valutazione numerica discreta, non forzare scala nuova",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/fractional-picker",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-003",
+          "fit": "MEDIUM",
+          "use_case": "Regolazione voto continua solo se scala prevista",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/scrub-slider-base",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        }
       ]
     },
     {
@@ -1246,7 +1503,8 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
-        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md"
+        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "camper/van",
@@ -1370,6 +1628,13 @@
           "origin": "Six user-provided DevLibraries/Amicro links",
           "status": "PROPOSED_ONLY",
           "detail": "2 reference(s) mapped: source files read where available; two exact names unverified; no consumer modifications."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "WATERMELON_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
+          "detail": "6 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
         }
       ],
       "voice_ui_candidates": [
@@ -1453,6 +1718,68 @@
           "origin": "USER_LINK_AMICRO_2026_11_17",
           "product_scope": "NOT_APPROVED"
         }
+      ],
+      "watermelon_ui_candidates": [
+        {
+          "component_id": "WML-001",
+          "fit": "MEDIUM",
+          "use_case": "Album di tappe",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/carousel-slider",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-002",
+          "fit": "MEDIUM",
+          "use_case": "Soglie risorse o durata tappa",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/fractional-picker",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-004",
+          "fit": "MEDIUM",
+          "use_case": "Filtro date disponibilità/capacità solo se feature presente",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/range-selection-slider",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-007",
+          "fit": "MEDIUM",
+          "use_case": "Organizza viaggio condiviso solo se supportato",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/dialog-stack-base",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-008",
+          "fit": "MEDIUM",
+          "use_case": "Check-list tappa o partenza solo quando programmata",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/notification-list",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-009",
+          "fit": "MEDIUM",
+          "use_case": "Tempo alla partenza concordata",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/flip-clock",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        }
       ]
     },
     {
@@ -1473,7 +1800,8 @@
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
-        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md"
+        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "portafoglio",
@@ -1571,6 +1899,13 @@
           "origin": "Six user-provided DevLibraries/Amicro links",
           "status": "PROPOSED_ONLY",
           "detail": "1 reference(s) mapped: source files read where available; two exact names unverified; no consumer modifications."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "WATERMELON_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
+          "detail": "4 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
         }
       ],
       "motion_design_candidates": [
@@ -1618,6 +1953,48 @@
           "origin": "USER_LINK_AMICRO_2026_11_17",
           "product_scope": "NOT_APPROVED"
         }
+      ],
+      "watermelon_ui_candidates": [
+        {
+          "component_id": "WML-004",
+          "fit": "HIGH",
+          "use_case": "Filtri somme e periodi spese",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/range-selection-slider",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-005",
+          "fit": "HIGH",
+          "use_case": "Registrazione/login dove backend supportato",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/swap-form",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-007",
+          "fit": "MEDIUM",
+          "use_case": "Flusso onboarding importazione controllato, non accesso condiviso implicito",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/dialog-stack-base",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-008",
+          "fit": "MEDIUM",
+          "use_case": "Scadenze spese solo se dati registrati realmente",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/notification-list",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        }
       ]
     },
     {
@@ -1639,7 +2016,8 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
-        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md"
+        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "kawaii-gattini",
@@ -2384,6 +2762,13 @@
           "origin": "Six user-provided DevLibraries/Amicro links",
           "status": "PROPOSED_ONLY",
           "detail": "5 reference(s) mapped: source files read where available; two exact names unverified; no consumer modifications."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "WATERMELON_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
+          "detail": "7 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
         }
       ],
       "voice_ui_candidates": [
@@ -2512,6 +2897,78 @@
           "source_status": "SOURCE_FILE_READ",
           "origin": "USER_LINK_AMICRO_2026_11_17",
           "product_scope": "NOT_APPROVED"
+        }
+      ],
+      "watermelon_ui_candidates": [
+        {
+          "component_id": "WML-001",
+          "fit": "MEDIUM",
+          "use_case": "Ricette suggerite con foto",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/carousel-slider",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-002",
+          "fit": "MEDIUM",
+          "use_case": "Quantità porzioni/tempo cottura se configurabili",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/fractional-picker",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-003",
+          "fit": "MEDIUM",
+          "use_case": "Timer ricetta, con input numerico alternativo",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/scrub-slider-base",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-005",
+          "fit": "MEDIUM",
+          "use_case": "Account volontario solo se previsto dal prodotto",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/swap-form",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-006",
+          "fit": "HIGH",
+          "use_case": "Titolo identità ricette/kawaii se il branding lo consente",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/text-gradient",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-007",
+          "fit": "MEDIUM",
+          "use_case": "Condivisione raccolte ricette se supportata",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/dialog-stack-base",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-009",
+          "fit": "HIGH",
+          "use_case": "Timer cottura ricetta solo con vera gestione background/avvisi",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/flip-clock",
+          "batch": "WATERMELON_NINE_2026_11_17"
         }
       ]
     },
@@ -3038,7 +3495,8 @@
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
-        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md"
+        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "attenzione",
@@ -3138,6 +3596,13 @@
           "origin": "Six user-provided DevLibraries/Amicro links",
           "status": "PROPOSED_ONLY",
           "detail": "1 reference(s) mapped: source files read where available; two exact names unverified; no consumer modifications."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "WATERMELON_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
+          "detail": "4 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
         }
       ],
       "motion_design_candidates": [
@@ -3185,6 +3650,48 @@
           "origin": "USER_LINK_AMICRO_2026_11_17",
           "product_scope": "NOT_APPROVED"
         }
+      ],
+      "watermelon_ui_candidates": [
+        {
+          "component_id": "WML-002",
+          "fit": "MEDIUM",
+          "use_case": "Durata sessione focus configurabile",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/fractional-picker",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-003",
+          "fit": "MEDIUM",
+          "use_case": "Durata timer o limite rumore solo se configurabile",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/scrub-slider-base",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-004",
+          "fit": "HIGH",
+          "use_case": "Intervallo di report Focus Score e metriche",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/range-selection-slider",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-009",
+          "fit": "MEDIUM",
+          "use_case": "Timer sessione focus reale",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/flip-clock",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        }
       ]
     },
     {
@@ -3206,7 +3713,8 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
-        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md"
+        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "fotografia",
@@ -3373,6 +3881,13 @@
           "origin": "Six user-provided DevLibraries/Amicro links",
           "status": "PROPOSED_ONLY",
           "detail": "5 reference(s) mapped: source files read where available; two exact names unverified; no consumer modifications."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "WATERMELON_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
+          "detail": "4 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
         }
       ],
       "voice_ui_candidates": [
@@ -3502,6 +4017,48 @@
           "origin": "USER_LINK_AMICRO_2026_11_17",
           "product_scope": "NOT_APPROVED"
         }
+      ],
+      "watermelon_ui_candidates": [
+        {
+          "component_id": "WML-001",
+          "fit": "HIGH",
+          "use_case": "Selezione album/gallery in preview, no image crop",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/carousel-slider",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-003",
+          "fit": "HIGH",
+          "use_case": "Scrubbing foto/video/parametri con valori reali",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/scrub-slider-base",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-004",
+          "fit": "HIGH",
+          "use_case": "Regola parametri con bound reali se doppia soglia prevista",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/range-selection-slider",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-006",
+          "fit": "MEDIUM",
+          "use_case": "Landing grafica, non etichette strumenti",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/text-gradient",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        }
       ]
     },
     {
@@ -3523,7 +4080,8 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
-        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md"
+        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "nota",
@@ -3798,6 +4356,13 @@
           "origin": "Six user-provided DevLibraries/Amicro links",
           "status": "PROPOSED_ONLY",
           "detail": "6 reference(s) mapped: source files read where available; two exact names unverified; no consumer modifications."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "WATERMELON_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
+          "detail": "6 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
         }
       ],
       "voice_ui_candidates": [
@@ -3949,6 +4514,68 @@
           "origin": "USER_LINK_AMICRO_2026_11_17",
           "product_scope": "NOT_APPROVED"
         }
+      ],
+      "watermelon_ui_candidates": [
+        {
+          "component_id": "WML-001",
+          "fit": "MEDIUM",
+          "use_case": "Bacheca raccolta visuale, non l'editor principale",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/carousel-slider",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-003",
+          "fit": "MEDIUM",
+          "use_case": "Timeline registrazione vocale futura o revisioni",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/scrub-slider-base",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-004",
+          "fit": "MEDIUM",
+          "use_case": "Filtri data modifica o dimensione contenuti",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/range-selection-slider",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-005",
+          "fit": "MEDIUM",
+          "use_case": "Login opzionale di sync se introdotto",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/swap-form",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-007",
+          "fit": "HIGH",
+          "use_case": "Invita collaboratore per spazio condiviso solo se autorizzato",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/dialog-stack-base",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-008",
+          "fit": "MEDIUM",
+          "use_case": "Task del giorno se la feature task è presente",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/notification-list",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        }
       ]
     },
     {
@@ -3969,7 +4596,8 @@
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
-        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md"
+        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "galleria",
@@ -4170,6 +4798,13 @@
           "origin": "Six user-provided DevLibraries/Amicro links",
           "status": "PROPOSED_ONLY",
           "detail": "2 reference(s) mapped: source files read where available; two exact names unverified; no consumer modifications."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "WATERMELON_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
+          "detail": "3 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
         }
       ],
       "motion_design_candidates": [
@@ -4258,6 +4893,38 @@
           "source_status": "SOURCE_FILE_READ",
           "origin": "USER_LINK_AMICRO_2026_11_17",
           "product_scope": "NOT_APPROVED"
+        }
+      ],
+      "watermelon_ui_candidates": [
+        {
+          "component_id": "WML-001",
+          "fit": "MEDIUM",
+          "use_case": "Anteprima di una selezione limitata, non galleria di eliminazione massiva",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/carousel-slider",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-003",
+          "fit": "HIGH",
+          "use_case": "Seek timeline video in player",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/scrub-slider-base",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-004",
+          "fit": "HIGH",
+          "use_case": "Filtra media per durata/dimensione/periodo non sostituisce anteprima",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/range-selection-slider",
+          "batch": "WATERMELON_NINE_2026_11_17"
         }
       ]
     },
@@ -4579,7 +5246,8 @@
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
-        "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
+        "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "sonno",
@@ -4673,6 +5341,13 @@
           "origin": "User requested EaseUI light/dark, Amicro card/accordion/gears/shutter and loading screenshot",
           "status": "PROPOSED_ONLY",
           "detail": "1 patterns as candidates only; no user approval, app code or plugin installed."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "WATERMELON_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
+          "detail": "3 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
         }
       ],
       "motion_design_candidates": [
@@ -4685,6 +5360,38 @@
           "app_implementation": "NONE",
           "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
           "evidence": "SOURCE_FILE_READ"
+        }
+      ],
+      "watermelon_ui_candidates": [
+        {
+          "component_id": "WML-002",
+          "fit": "HIGH",
+          "use_case": "Durata routine e promemoria a intervalli",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/fractional-picker",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-008",
+          "fit": "HIGH",
+          "use_case": "Riepilogo routine sonno soltanto all'orario/avvio previsto",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/notification-list",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-009",
+          "fit": "MEDIUM",
+          "use_case": "Timer preparazione al riposo o routine reale",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/flip-clock",
+          "batch": "WATERMELON_NINE_2026_11_17"
         }
       ]
     },
@@ -4704,7 +5411,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "allarme",
@@ -4764,6 +5472,25 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "WATERMELON_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
+          "detail": "1 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
+        }
+      ],
+      "watermelon_ui_candidates": [
+        {
+          "component_id": "WML-009",
+          "fit": "MEDIUM",
+          "use_case": "Countdown armamento 5 secondi con leggibilità e controllo Disarma prioritari",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/flip-clock",
+          "batch": "WATERMELON_NINE_2026_11_17"
         }
       ]
     },
@@ -4864,7 +5591,8 @@
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
-        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md"
+        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "mappa",
@@ -4955,6 +5683,13 @@
           "origin": "Six user-provided DevLibraries/Amicro links",
           "status": "PROPOSED_ONLY",
           "detail": "1 reference(s) mapped: source files read where available; two exact names unverified; no consumer modifications."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "WATERMELON_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
+          "detail": "1 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
         }
       ],
       "motion_design_candidates": [
@@ -5002,6 +5737,18 @@
           "origin": "USER_LINK_AMICRO_2026_11_17",
           "product_scope": "NOT_APPROVED"
         }
+      ],
+      "watermelon_ui_candidates": [
+        {
+          "component_id": "WML-003",
+          "fit": "MEDIUM",
+          "use_case": "Timeline percorso registrato solo se disponibile",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/scrub-slider-base",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        }
       ]
     },
     {
@@ -5022,7 +5769,8 @@
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
-        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md"
+        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "strumenti",
@@ -5108,6 +5856,13 @@
           "origin": "Six user-provided DevLibraries/Amicro links",
           "status": "PROPOSED_ONLY",
           "detail": "4 reference(s) mapped: source files read where available; two exact names unverified; no consumer modifications."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "WATERMELON_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
+          "detail": "1 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
         }
       ],
       "motion_design_candidates": [
@@ -5181,6 +5936,18 @@
           "origin": "USER_LINK_AMICRO_2026_11_17",
           "product_scope": "NOT_APPROVED"
         }
+      ],
+      "watermelon_ui_candidates": [
+        {
+          "component_id": "WML-006",
+          "fit": "HIGH",
+          "use_case": "Hero web/pagina prodotto",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/text-gradient",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        }
       ]
     },
     {
@@ -5202,7 +5969,8 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
-        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md"
+        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "viaggio",
@@ -5434,6 +6202,13 @@
           "origin": "Six user-provided DevLibraries/Amicro links",
           "status": "PROPOSED_ONLY",
           "detail": "5 reference(s) mapped: source files read where available; two exact names unverified; no consumer modifications."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "WATERMELON_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
+          "detail": "8 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
         }
       ],
       "voice_ui_candidates": [
@@ -5563,6 +6338,88 @@
           "origin": "USER_LINK_AMICRO_2026_11_17",
           "product_scope": "NOT_APPROVED"
         }
+      ],
+      "watermelon_ui_candidates": [
+        {
+          "component_id": "WML-001",
+          "fit": "HIGH",
+          "use_case": "Foto e memorie viaggio a card",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/carousel-slider",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-003",
+          "fit": "HIGH",
+          "use_case": "Timeline di tappe o media con data collegata",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/scrub-slider-base",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-004",
+          "fit": "HIGH",
+          "use_case": "Filtra tappe per intervallo date",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/range-selection-slider",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-005",
+          "fit": "MEDIUM",
+          "use_case": "Condivisione viaggi se autenticazione approvata",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/swap-form",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-006",
+          "fit": "MEDIUM",
+          "use_case": "Titolo editoriale raccolte viaggio",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/text-gradient",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-007",
+          "fit": "MEDIUM",
+          "use_case": "Condivisione diario viaggio con conferma reale",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/dialog-stack-base",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-008",
+          "fit": "MEDIUM",
+          "use_case": "Impegni di viaggio oggi solo se dati pianificati",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/notification-list",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-009",
+          "fit": "MEDIUM",
+          "use_case": "Tempo alla tappa/evento di viaggio",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/flip-clock",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        }
       ]
     },
     {
@@ -5584,7 +6441,8 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
-        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md"
+        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "calendario",
@@ -5840,6 +6698,13 @@
           "origin": "Six user-provided DevLibraries/Amicro links",
           "status": "PROPOSED_ONLY",
           "detail": "5 reference(s) mapped: source files read where available; two exact names unverified; no consumer modifications."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "WATERMELON_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
+          "detail": "7 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
         }
       ],
       "voice_ui_candidates": [
@@ -5978,6 +6843,78 @@
           "source_status": "SOURCE_FILE_READ",
           "origin": "USER_LINK_AMICRO_2026_11_17",
           "product_scope": "NOT_APPROVED"
+        }
+      ],
+      "watermelon_ui_candidates": [
+        {
+          "component_id": "WML-001",
+          "fit": "MEDIUM",
+          "use_case": "Esplora giornate in evidenza senza perdere ricerca",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/carousel-slider",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-002",
+          "fit": "MEDIUM",
+          "use_case": "Selezione giorno opzionale con supporto date reali",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/fractional-picker",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-004",
+          "fit": "MEDIUM",
+          "use_case": "Filtra ricorrenze per intervallo del calendario",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/range-selection-slider",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-005",
+          "fit": "MEDIUM",
+          "use_case": "Account volontario, non bloccare lettura del catalogo",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "SOURCE_FILE_READ",
+          "source_url": "https://devlibraries.com/libraries/watermelon/swap-form",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-006",
+          "fit": "MEDIUM",
+          "use_case": "Accento su heading senza cambiare colori approvati",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/text-gradient",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-008",
+          "fit": "MEDIUM",
+          "use_case": "Una ricorrenza del giorno nel riepilogo, non cancellare contenuti editoriali",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/notification-list",
+          "batch": "WATERMELON_NINE_2026_11_17"
+        },
+        {
+          "component_id": "WML-009",
+          "fit": "MEDIUM",
+          "use_case": "Conto alla rovescia fino alla prossima giornata selezionata",
+          "status": "PROPOSED_ONLY",
+          "consumer_implementation": "NONE",
+          "source_status": "EXACT_SOURCE_NOT_LOCATED",
+          "source_url": "https://devlibraries.com/libraries/watermelon/flip-clock",
+          "batch": "WATERMELON_NINE_2026_11_17"
         }
       ]
     }
