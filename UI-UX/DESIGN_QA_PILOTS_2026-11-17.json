@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-17",
+  "status": "PROCESS_CANDIDATE",
+  "factory_baseline": "c5adc147046beb7024629466d10eeb799c3c2619",
+  "design_source_id": "DSK-002",
+  "design_source_merge": "ae190d5bed59a37bebf7189d7a26b6647a797440",
+  "core_contract": "contracts/DESIGN_VISUAL_QA_PROCESS_v1.md",
+  "golden": "golden/ui/GOLDEN_APP_SHELL_RESPONSIVE_VISUAL_QA_FLUTTER_v1_DRAFT.txt",
+  "gates": [
+    "IWC-01",
+    "IWC-02",
+    "IWC-03",
+    "IWC-04",
+    "IWC-05",
+    "IWC-06",
+    "IWC-07",
+    "IWC-08"
+  ],
+  "candidate_only": true,
+  "pilots": [
+    {
+      "app": "Anna's Diary",
+      "repository": "riccardopinato/Agenda-per-Anna",
+      "source_sha": "e769b2173e9e391615b26c872a7e691f621f9dd7",
+      "priority": "P1",
+      "design_direction": "Organic iOS Journal / rose HSV / Manrope + Lora",
+      "open_design_prs": [
+        333,
+        254
+      ],
+      "owner_issue_url": "https://github.com/riccardopinato/Agenda-per-Anna/issues/327",
+      "product_authority": "docs/PRODUCT_BIBLE.md",
+      "scope": "Design review only, no data or Vault changes",
+      "screens": [
+        "Today",
+        "Calendar month",
+        "Calendar week",
+        "Memories",
+        "Settings"
+      ],
+      "test_matrix": [
+        "light",
+        "dark",
+        "large_font",
+        "long_locale",
+        "empty",
+        "populated",
+        "offline_sync",
+        "small_phone",
+        "large_phone",
+        "keyboard_insets"
+      ],
+      "overall_status": "NOT_VERIFIED",
+      "screenshots": [],
+      "runtime_evidence": [],
+      "physical_evidence": [],
+      "reviewer_approval": null
+    },
+    {
+      "app": "Android Omni Cleaner",
+      "repository": "riccardopinato/Android-Omni-Cleaner",
+      "source_sha": "984474d9af62d8b7e17b975a31332161f24f2df7",
+      "priority": "P1",
+      "design_direction": "Blue/purple/mint Compose Material 3; functional dedicated screens",
+      "open_design_prs": [],
+      "product_authority": "PRODUCT_BIBLE.md",
+      "scope": "Design review only, safe trash/media mutation unchanged",
+      "screens": [
+        "Home",
+        "Clean",
+        "Gallery photos",
+        "Gallery videos",
+        "Video preview/player",
+        "Privacy"
+      ],
+      "test_matrix": [
+        "light",
+        "dark",
+        "large_font",
+        "long_locale",
+        "empty",
+        "populated",
+        "permission_denied",
+        "small_phone",
+        "large_phone",
+        "system_insets"
+      ],
+      "overall_status": "NOT_VERIFIED",
+      "screenshots": [],
+      "runtime_evidence": [],
+      "physical_evidence": [],
+      "reviewer_approval": null
+    }
+  ],
+  "reuse_candidates": [
+    {
+      "id": "DES-REUSE-001",
+      "name": "Status-aware empty and error surfaces",
+      "origin": "App Shell DRAFT + DSK-002",
+      "mode": "REFERENCE_ONLY",
+      "app_targets": [
+        "Anna's Diary",
+        "Android Omni Cleaner"
+      ],
+      "maturity": "REFERENCE",
+      "consumer_evidence": []
+    },
+    {
+      "id": "DES-REUSE-002",
+      "name": "Image aspect-ratio-safe media viewing",
+      "origin": "DSK-002 critique + Gallery requirements",
+      "mode": "REFERENCE_ONLY",
+      "app_targets": [
+        "Anna's Diary",
+        "Android Omni Cleaner"
+      ],
+      "maturity": "REFERENCE",
+      "consumer_evidence": []
+    },
+    {
+      "id": "DES-REUSE-003",
+      "name": "Purposeful motion and reduced-motion checks",
+      "origin": "DSK-002 + relevant motion references",
+      "mode": "REFERENCE_ONLY",
+      "app_targets": [
+        "Anna's Diary",
+        "Android Omni Cleaner"
+      ],
+      "maturity": "REFERENCE",
+      "consumer_evidence": []
+    }
+  ]
+}

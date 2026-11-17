@@ -24,3 +24,35 @@ Questa directory contiene studi di sorgenti esterne e donatori candidati, non ne
 - [GitHub UI/UX — 27 ottobre 2026](./GITHUB_DESIGN_RESEARCH_2026-10-27.md)
 - [GitHub UI/UX — 30 ottobre 2026](./GITHUB_DESIGN_RESEARCH_2026-10-30.md)
 - [Harvest dei pattern App Factory](./PROJECT_PATTERN_HARVEST.md)
+
+## DevLibraries e beUI Voice Orb — 17/11/2026
+
+- [DevLibraries — portale di design e discovery](./DEVLIBRARIES_DISCOVERY_2026-11-17.md), [registro dei siti con ruolo/licenza](./DESIGN_RESEARCH_SITES.json): cercare componenti, librerie e skill e poi verificare i sorgenti originali.
+- [beUI Voice Orb — audit con commit sorgente e licenze MIT](./BEUI_VOICE_ORB_AUDIT_2026-11-17.md): sfera reattiva al livello audio; non è un recorder o STT; WebGL/React e Skia/React Native, non Flutter pronto.
+- [Matrice Voice Orb → 10 app candidate](../UI-UX/VOICE_ORB_APP_MAP_2026-11-17.md) e [dossier PER_APP](../PER_APP/README.md). Stati REFERENCE/PROPOSED_ONLY, nessuna modifica consumer.
+
+## EaseUI e Amicro — temi, transizioni, tendine e caricamenti · 17/11/2026
+
+- [Audit dei cinque pattern nominati e uno screenshot di caricamenti](./EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md): sorgenti MIT con commit; uno script EaseUI verificato, quattro implementazioni Amicro successivamente individuate nei sorgenti originali, una proposta visuale non vendorizzata.
+- [Matrice pattern ↔ 19 app](../UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.md), [registro bidirezionale JSON](../UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json), [dossier singole app](../PER_APP/README.md).
+- [Directory fonti](./DESIGN_RESEARCH_SITES.json) ampliata con EaseUI/Amicro; licenze dei singoli asset da verificare prima del riuso.
+
+## Amicro — sei componenti, verifica sorgenti ampliata
+
+[Audit del nuovo gruppo](./AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md) · [matrice per 19 app](../UI-UX/AMICRO_SIX_COMPONENTS_APP_MAP_2026-11-17.md). Quattro nuovi effetti (CurtainReveal, Cursor Trail, Scroll Reveal, Accordion Loader) hanno file sorgente individuati; per Perspective Flip e Spatial Door Portal i **nomi esatti non sono verificati** nel codice originale. Il [precedente audit](./EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md) è stato aggiornato: quattro effetti prima classificati soltanto come descrizioni hanno invece file implementativi nominati. Provenienza letta, nessun runtime Flutter né Copy-Ready convalidato.
+
+## Watermelon UI — nove componenti con focus Anna's Diary
+
+[Audit tecnico e diritti](./WATERMELON_UI_NINE_AUDIT_2026-11-17.md) · [matrice per app](../UI-UX/WATERMELON_NINE_APP_MAP_2026-11-17.md) · [repository sorgente](https://github.com/WatermelonCorp/watermelon-platform). Sei componenti dispongono di codice React verificato; Text Gradient, Notification List e Flip Clock non hanno un file esatto nel commit consultato. Per l'idea del riepilogo Home Oggi conservare il requisito utente, ma **non trattare una UI di notifica come un servizio di scheduling o come una notifica OS**.
+
+## DevLibraries Bookmarks — raccolta di riferimenti utente
+
+[Procedura di intake dei link salvati](./DEVLIBRARIES_BOOKMARKS_INTAKE.md) · [Pagina di ingresso](https://devlibraries.com/bookmarks). La pagina non ha restituito il suo contenuto. Successivamente **30 card sono state registrate dagli screenshot dell'utente**, non dalla sessione personale DevLibraries. Le associazioni ai dossier saranno create solo dai link o da altri dati condivisi esplicitamente, con deduplica e provenance; non supporre che i precedenti componenti siano nell'elenco personale.
+
+## Bookmarks DevLibraries — inventario dai tre screenshot
+
+[30 elementi identificati](./DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md) e [JSON originale con 3 impronte SHA-256](./DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.json), dopo la [procedura Bookmarks](./DEVLIBRARIES_BOOKMARKS_INTAKE.md). Dati derivati da immagini condivise dall'utente, non da accesso al suo account. [20 app × 120 relazioni](../UI-UX/DEVLIBRARIES_BOOKMARKS_APP_MAP_2026-11-17.md); 23 path di Amicro e 2 Watermelon verificati, 5 source esatti sconosciuti, 3 componenti già censiti. **Le immagini originali non sono state copiate nel repo.** Non attribuire automaticamente licenze o compatibilità Flutter.
+
+## Impeccable Designing — nuova guida operativa sulla fonte DSK-002
+
+[Analisi verificata della pagina](./IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md) · [pagina originale](https://impeccable.style/designing/) · [schede 10 app](../UI-UX/IMPECCABLE_DESIGNING_APP_MATRIX_2026-11-17.json). Il valore è il metodo Start → Improve → Check → Maintain e l'anti-slop contestuale, non una seconda libreria. Le istruzioni `detect`/hooks riguardano source e pagine Web, **non il codice Android/Flutter**. Nessun eseguibile installato, nessuna certificazione di app svolta.

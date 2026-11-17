@@ -176,3 +176,47 @@ La classificazione resta molti-a-molti, con un solo file JPG per riferimento; la
 ## Nuova fonte esterna: Ruixen UI (2026-11-13)
 
 [**Ruixen UI**](https://ruixen.com/) è stata integrata come riferimento per componenti UI, microinterazioni, generatori visivi e motion. Registrati [277 file sorgente React con SHA Git](sources/RUIXEN_UI_REGISTRY_INVENTORY_2026-11-13.json) e [41 pattern selezionati per 18 app](sources/RUIXEN_UI_CURATED_APP_MAP_2026-11-13.json), con [audit, licenze, casi d'uso e roadmap](sources/RUIXEN_UI_DESIGN_MOTION_AUDIT_2026-11-13.md). Voce inserita nel [registro OSS](registry/OSS_DESIGN_SOURCES.yaml). **Stato: REFERENCE, non implementazione né Golden**. Per Flutter mantenere reimplementazione nativa e QA, per web codice MIT soggetto a dependency/asset audit; Pro separato.
+
+## 10 nuovi repository anti-slop / design skills — 17 novembre 2026
+
+Analizzati e registrati **10 repository di design-agent skills**, verificando README, entrypoint, licenze principali e HEAD immutabili. [Audit approfondito](sources/ANTI_SLOP_DESIGN_SKILLS_AUDIT_2026-11-17.md) · [Matrice repository ⇄ app](UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.md) · [Registro bidirezionale JSON](UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json).
+
+Totale sorgenti esterne nel registro OSS Design-App: **119 uniche** (105 precedenti + 10 skill + 2 beUI + 2 EaseUI/Amicro). Le nuove fonti sono **REFERENCE**, le associazioni sono `PROPOSED_ONLY`: nessuna libreria installata nelle app, nessuna copia di asset esterni, nessuna modifica a Golden o Product Bible. Gli abbinamenti coprono UI/UX audit, design intelligence cross-platform, motion, qualità Web/PWA e marketing visivo (ambiti distinti). Le stelle sono dichiarate dall'utente, non confermate con enumerazione API autenticata.
+
+## ICONE — raccolta statica e animata (17 novembre 2026)
+
+Nuova sezione autonoma [**ICONE**](./ICONE/README.md) che collega fonti, licenze, anteprime e possibili usi nelle app. La prima fonte è [Gentleface Animated Icons](https://gentleface.com/categories/animated), con [28 icone candidate](./ICONE/ANTEPRIME.md) e [114 proposte molti-a-molti su 24 destinazioni](./ICONE/MATRICE_APP_ICONE.md). Il [registro relazionale JSON](./ICONE/REGISTRO_ICONE.json) conserva il collegamento app ↔ icona, lo stato dell'animazione e i semantic ID già esistenti. [Audit tecnico/licenza](./ICONE/GENTLEFACE_AUDIT_2026-11-17.md) · [Protocollo per Flutter, Compose e Web](./ICONE/GUIDA_INTEGRAZIONE.md).
+
+**Stato:** REFERENCE / PROPOSED_ONLY. Zero SVG importati, zero app modificate, zero nuove librerie runtime e nessun nuovo Golden. Le animazioni Gentleface sono SVG native per Web; per Flutter e Compose serve verifica o adattamento nativo. Non sostituisce il pacchetto semantico esistente `packs/icons`.
+
+## Dossier di design permanenti per ogni app — 17 novembre 2026
+
+La sezione [**PER_APP**](./PER_APP/README.md) conserva una scheda dedicata per **25 app e piattaforme**: identità visiva, posizioni consigliate delle icone, categorie tematiche, trigger animazioni, limiti, fonti, stato e storico delle proposte. [Registro centrale JSON](./PER_APP/REGISTRO_APP_DESIGN.json) con **114 riferimenti a icone Gentleface** e **96 abbinamenti a skill di design** (dati di matrice, non funzionalità implementate).
+
+La scheda [Cooking Anime](./PER_APP/cooking-anime.md) conserva **36 idee iconografiche** tra gattini kawaii, sushi, ramen, onigiri, bento, cibo cinese, motivi stagionali e comandi standard. **Quelle icone tematiche sono idee da reperire o disegnare, non file Gentleface verificati.** La sezione include regole per aggiornare le proposte in una PR senza perdere lo storico. Tutte le idee restano `PROPOSAL_ONLY`, subordinate alle Product Bible e ai repository reali delle app.
+
+## Nuova fonte di design e componente Voice Orb — 17 novembre 2026
+
+[**DevLibraries**](https://devlibraries.com/) è censito come portale di ricerca di componenti, UI, animazioni e skill: [registrazione e regole di intake](./sources/DEVLIBRARIES_DISCOVERY_2026-11-17.md) · [directory sorgenti](./sources/DESIGN_RESEARCH_SITES.json). Un portale non attribuisce automaticamente licenze di riuso alle librerie indicizzate.
+
+Da [Voice Orb su DevLibraries](https://devlibraries.com/libraries/beui/voice-orb) sono stati individuati e fissati i due repository originali MIT di beUI (Web e React Native): [audit](./sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md) · [mappa a 10 app](./UI-UX/VOICE_ORB_APP_MAP_2026-11-17.md). Per le future note vocali la sfera reagirà al microfono soltanto dopo l'implementazione di un recorder reale e di tutti gli stati e permessi. [Dossier per-app](./PER_APP/README.md) aggiornati. **Stato REFERENCE/PROPOSED_ONLY: nessun audio recorder, libreria o feature consumer implementati**.
+
+## Temi, tendine, passaggi e caricamenti (17 novembre 2026)
+
+Registrate [**EaseUI**](https://devlibraries.com/libraries/easeui) e [**Amicro**](https://devlibraries.com/libraries/amicro/card-stack-peel) nelle [fonti di design](./sources/DESIGN_RESEARCH_SITES.json), con [audit delle licenze e sorgenti](./sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md) e [matrice molti-a-molti](./UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.md): **5 pattern nominati e un ulteriore riferimento da screenshot** sui tempi di attesa, **19 app e 76 associazioni**. Tutte le proposte sono conservate nei [dossier per app](./PER_APP/README.md) e nel JSON canonico. Le quattro animazioni Amicro della prima selezione sono state successivamente individuate nei file implementativi originali; nessuna risulta collaudata in Flutter. Anche il file EaseUI Theme Toggle è stato esaminato. Zero modifiche ai consumer, zero pacchetti/asset importati, nessun Golden promosso.
+
+## Amicro — sei nuovi componenti mappati per app (17/11/2026)
+
+Sono archiviati [CurtainReveal, Cursor Trail, Perspective Flip, Scroll Reveal, Spatial Door Portal e Accordion Loader](./UI-UX/AMICRO_SIX_COMPONENTS_APP_MAP_2026-11-17.md), con [registro JSON](./UI-UX/AMICRO_SIX_COMPONENTS_APP_MAP_2026-11-17.json), [audit sorgente](./sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md) e [dossier PER_APP aggiornati](./PER_APP/README.md). **6 riferimenti, 19 app, 60 associazioni**, 4 file originali letti, 2 componenti il cui nome esatto non ha trovato riscontro nel repository al commit fissato. L'intake precedente Amicro è stato rettificato con percorsi ed export realmente presenti. Nessuna app o dipendenza modificata; tutte le assegnazioni restano `PROPOSED_ONLY`.
+
+## Watermelon UI — Ricordi, selettori, modali e promemoria (17 novembre 2026)
+
+Nuovo intake [**Watermelon UI**](https://ui.watermelon.sh/) tramite [DevLibraries](https://devlibraries.com/libraries/watermelon): [audit dei 9 componenti](./sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md), [matrice molti-a-molti](./UI-UX/WATERMELON_NINE_APP_MAP_2026-11-17.md) e [registro JSON](./UI-UX/WATERMELON_NINE_APP_MAP_2026-11-17.json). **17 app, 73 associazioni**, sei sorgenti React/Motion originali letti e tre nomi esatti non rintracciati nella baseline. Il riferimento originale è MIT, ma asset/dipendenze vanno verificati singolarmente. [Anna's Diary](./PER_APP/annas-diary.md) contiene proposte dettagliate per Ricordi (carousel), giornata (riepilogo impegni) e selettori; i dossier delle app sono stati sincronizzati. **REFERENCE/PROPOSED_ONLY**: nessuna funzionalità mobile, notifiche OS, OAuth, codice o asset importati.
+
+## DevLibraries Bookmarks — 30 riferimenti da screenshot (17/11/2026)
+
+Dopo l'intake iniziale della pagina Bookmarks, sono stati ricevuti **3 screenshot utente** e registrati [**30 componenti**](./sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md) (23 Amicro, 3 Watermelon, 4 senza provider certo). [Registro JSON machine-readable](./sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.json) con link GitHub originali, SHA, stato e [**matrice 120 abbinamenti su 20 app**](./UI-UX/DEVLIBRARIES_BOOKMARKS_APP_MAP_2026-11-17.md); [procedura di intake aggiornata](./sources/DEVLIBRARIES_BOOKMARKS_INTAKE.md). Tre voci erano già censite (nessuna duplicazione dei source repo). **I PNG originali restano nella conversazione**: il repo conserva metadati/hash e inventario testuale ma non contiene i file immagine. Tutto `REFERENCE/PROPOSED_ONLY`; non ci sono nuove implementazioni consumer.
+
+## Impeccable Designing — qualità estetica e UX trasversale (17/11/2026)
+
+La [guida ufficiale](https://impeccable.style/designing/) è stata approfondita e collegata all'**Impeccable già censito come `DSK-002`**, senza duplicare donor, sorgenti o capacità. [Analisi incrementale](./sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md) · [8 controlli e 10 app già collegate](./UI-UX/IMPECCABLE_DESIGNING_APP_MATRIX_2026-11-17.json) · [dossier per-app](./PER_APP/README.md). Metodo: Start/Improve/Check/Maintain, mockup-first o code-first, critique + harden + polish, `DESIGN.md` come documento derivato dalle scelte della Product Bible. **Detector e hooks automatici analizzano Web, non Flutter nativo**. Tutti i criteri sono `PROPOSED_ONLY`, non QA già eseguiti o promozioni Golden.

@@ -18,3 +18,5 @@ jobs:
           python-version: "3.12"
       - name: Validate registry and snapshots
         run: python scripts/validate_design_library.py
+      - name: Verify visual review manifest and negative gates
+        run: python scripts/validate_visual_qa_evidence.py --self-test

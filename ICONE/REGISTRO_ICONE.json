@@ -1,0 +1,3155 @@
+{
+  "schema_version": 1,
+  "section": "ICONE",
+  "batch": "GENTLEFACE_2026_11_17",
+  "observed_at": "2026-11-17",
+  "source_reference": "https://gentleface.com/categories/animated",
+  "canonical_preview": "https://gentleface.com/animated-icons",
+  "metadata_reference": "https://gentleface.com/motion/index.json",
+  "source_license_claim": "MIT (Gentleface public website; preserve LICENSE/attribution on actual vendoring)",
+  "source_type": "EXTERNAL_WEB_ICON_LIBRARY",
+  "maturity": "REFERENCE",
+  "runtime_implementation": "NOT_IMPLEMENTED",
+  "asset_imports": 0,
+  "factory_baseline": "riccardopinato/App-Factory-Core@c5adc147046beb7024629466d10eeb799c3c2619",
+  "existing_adapter": "packs/icons/manifest/icons.json",
+  "notes": [
+    "Images/animation bytes not fetched or vendored; pages and public site descriptions reviewed.",
+    "Website animated counts differ between indexed pages; do not pin unstable total.",
+    "Specific animated asset/times and trigger behavior must be verified per icon before shipping.",
+    "Two safety icons are not confirmed animated and must stay static unless verified."
+  ],
+  "counts": {
+    "icon_candidates": 28,
+    "apps": 24,
+    "associations": 114,
+    "high": 52,
+    "medium": 62,
+    "animation_listed": 26,
+    "animation_not_verified": 2
+  },
+  "icons": [
+    {
+      "id": "ICO-001",
+      "source_id": "GENTLEFACE",
+      "slug": "bell-ring",
+      "title": "Icona notifica / promemoria",
+      "category": "action-or-status",
+      "trigger": "ON_EVENT",
+      "trigger_guidance": "Una sola volta dopo interazione o azione riuscita",
+      "animation_evidence": "VERIFIED_SITE",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/bell-ring",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/bell-ring.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": "notifications",
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-002",
+      "source_id": "GENTLEFACE",
+      "slug": "calendar",
+      "title": "Vista calendario",
+      "category": "action-or-status",
+      "trigger": "ON_EVENT",
+      "trigger_guidance": "Una sola volta dopo interazione o azione riuscita",
+      "animation_evidence": "VERIFIED_SITE",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/calendar",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/calendar.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": "calendar",
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-003",
+      "source_id": "GENTLEFACE",
+      "slug": "battery-charging",
+      "title": "Batteria in carica",
+      "category": "action-or-status",
+      "trigger": "STATE_WHILE_VISIBLE",
+      "trigger_guidance": "Loop solo durante stato vero e componente visibile",
+      "animation_evidence": "VERIFIED_DETAIL",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/battery-charging",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/battery-charging.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": null,
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-004",
+      "source_id": "GENTLEFACE",
+      "slug": "battery-low",
+      "title": "Batteria scarica",
+      "category": "action-or-status",
+      "trigger": "ON_EVENT",
+      "trigger_guidance": "Una sola volta dopo interazione o azione riuscita",
+      "animation_evidence": "VERIFIED_DETAIL",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/battery-low",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/battery-low.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": null,
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-005",
+      "source_id": "GENTLEFACE",
+      "slug": "download",
+      "title": "Download dati / file",
+      "category": "action-or-status",
+      "trigger": "ON_EVENT",
+      "trigger_guidance": "Una sola volta dopo interazione o azione riuscita",
+      "animation_evidence": "VERIFIED_DETAIL",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/download",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/download.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": null,
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-006",
+      "source_id": "GENTLEFACE",
+      "slug": "export",
+      "title": "Esporta",
+      "category": "action-or-status",
+      "trigger": "ON_EVENT",
+      "trigger_guidance": "Una sola volta dopo interazione o azione riuscita",
+      "animation_evidence": "VERIFIED_DETAIL",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/export",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/export.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": null,
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-007",
+      "source_id": "GENTLEFACE",
+      "slug": "import",
+      "title": "Importa",
+      "category": "action-or-status",
+      "trigger": "ON_EVENT",
+      "trigger_guidance": "Una sola volta dopo interazione o azione riuscita",
+      "animation_evidence": "VERIFIED_DETAIL",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/import",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/import.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": null,
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-008",
+      "source_id": "GENTLEFACE",
+      "slug": "images",
+      "title": "Galleria immagini",
+      "category": "action-or-status",
+      "trigger": "ON_EVENT",
+      "trigger_guidance": "Una sola volta dopo interazione o azione riuscita",
+      "animation_evidence": "VERIFIED_DETAIL",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/images",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/images.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": null,
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-009",
+      "source_id": "GENTLEFACE",
+      "slug": "video",
+      "title": "Video / media",
+      "category": "action-or-status",
+      "trigger": "ON_EVENT",
+      "trigger_guidance": "Una sola volta dopo interazione o azione riuscita",
+      "animation_evidence": "VERIFIED_DETAIL",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/video",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/video.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": null,
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-010",
+      "source_id": "GENTLEFACE",
+      "slug": "bookmark",
+      "title": "Salva nei preferiti",
+      "category": "action-or-status",
+      "trigger": "ON_TOGGLE",
+      "trigger_guidance": "Transizione tra due stati con riposo stabile",
+      "animation_evidence": "VERIFIED_DETAIL",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/bookmark",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/bookmark.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": null,
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-011",
+      "source_id": "GENTLEFACE",
+      "slug": "search",
+      "title": "Ricerca",
+      "category": "action-or-status",
+      "trigger": "ON_EVENT",
+      "trigger_guidance": "Una sola volta dopo interazione o azione riuscita",
+      "animation_evidence": "VERIFIED_DETAIL",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/search",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/search.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": "search",
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-012",
+      "source_id": "GENTLEFACE",
+      "slug": "apps-sparkle",
+      "title": "App / nuove funzionalità",
+      "category": "action-or-status",
+      "trigger": "ON_EVENT",
+      "trigger_guidance": "Una sola volta dopo interazione o azione riuscita",
+      "animation_evidence": "VERIFIED_DETAIL",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/apps-sparkle",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/apps-sparkle.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": null,
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-013",
+      "source_id": "GENTLEFACE",
+      "slug": "loader",
+      "title": "Attività in corso",
+      "category": "progress",
+      "trigger": "VISIBLE_WHEN_LOADING",
+      "trigger_guidance": "Loop solo finché l'operazione reale è in corso e visibile",
+      "animation_evidence": "VERIFIED_DETAIL",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/loader",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/loader.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": null,
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-014",
+      "source_id": "GENTLEFACE",
+      "slug": "check",
+      "title": "Completato",
+      "category": "action-or-status",
+      "trigger": "ON_EVENT",
+      "trigger_guidance": "Una sola volta dopo interazione o azione riuscita",
+      "animation_evidence": "VERIFIED_SITE",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/check",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/check.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": "check",
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-015",
+      "source_id": "GENTLEFACE",
+      "slug": "heart-pulse",
+      "title": "Salute / frequenza o vitalità",
+      "category": "action-or-status",
+      "trigger": "STATE_WHILE_VISIBLE",
+      "trigger_guidance": "Loop solo durante stato vero e componente visibile",
+      "animation_evidence": "VERIFIED_DETAIL",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/heart-pulse",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/heart-pulse.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": null,
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-016",
+      "source_id": "GENTLEFACE",
+      "slug": "map-pin",
+      "title": "Punto mappa",
+      "category": "action-or-status",
+      "trigger": "ON_EVENT",
+      "trigger_guidance": "Una sola volta dopo interazione o azione riuscita",
+      "animation_evidence": "VERIFIED_SITE",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/map-pin",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/map-pin.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": "location",
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-017",
+      "source_id": "GENTLEFACE",
+      "slug": "cloud",
+      "title": "Stato cloud/sync",
+      "category": "action-or-status",
+      "trigger": "ON_STATUS_CHANGE",
+      "trigger_guidance": "Solo dopo transizione di stato confermata",
+      "animation_evidence": "VERIFIED_SITE",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/cloud",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/cloud.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": null,
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-018",
+      "source_id": "GENTLEFACE",
+      "slug": "gauge",
+      "title": "Indicatore / metriche",
+      "category": "action-or-status",
+      "trigger": "ON_EVENT",
+      "trigger_guidance": "Una sola volta dopo interazione o azione riuscita",
+      "animation_evidence": "VERIFIED_SITE",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/gauge",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/gauge.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": null,
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-019",
+      "source_id": "GENTLEFACE",
+      "slug": "star",
+      "title": "Valutazione / preferito",
+      "category": "action-or-status",
+      "trigger": "ON_TOGGLE",
+      "trigger_guidance": "Transizione tra due stati con riposo stabile",
+      "animation_evidence": "VERIFIED_SITE",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/star",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/star.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": "star",
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-020",
+      "source_id": "GENTLEFACE",
+      "slug": "play",
+      "title": "Riproduci",
+      "category": "action-or-status",
+      "trigger": "ON_TOGGLE",
+      "trigger_guidance": "Transizione tra due stati con riposo stabile",
+      "animation_evidence": "VERIFIED_SITE",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/play",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/play.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": null,
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-021",
+      "source_id": "GENTLEFACE",
+      "slug": "pause",
+      "title": "Pausa",
+      "category": "action-or-status",
+      "trigger": "ON_TOGGLE",
+      "trigger_guidance": "Transizione tra due stati con riposo stabile",
+      "animation_evidence": "VERIFIED_SITE",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/pause",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/pause.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": null,
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-022",
+      "source_id": "GENTLEFACE",
+      "slug": "repeat",
+      "title": "Ripeti / loop",
+      "category": "action-or-status",
+      "trigger": "ON_TOGGLE",
+      "trigger_guidance": "Transizione tra due stati con riposo stabile",
+      "animation_evidence": "VERIFIED_DETAIL",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/repeat",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/repeat.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": null,
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-023",
+      "source_id": "GENTLEFACE",
+      "slug": "eye",
+      "title": "Visibilità / anteprima",
+      "category": "action-or-status",
+      "trigger": "ON_TOGGLE",
+      "trigger_guidance": "Transizione tra due stati con riposo stabile",
+      "animation_evidence": "VERIFIED_SITE",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/eye",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/eye.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": null,
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-024",
+      "source_id": "GENTLEFACE",
+      "slug": "archive",
+      "title": "Archiviazione",
+      "category": "action-or-status",
+      "trigger": "ON_EVENT",
+      "trigger_guidance": "Una sola volta dopo interazione o azione riuscita",
+      "animation_evidence": "VERIFIED_SITE",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/archive",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/archive.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": null,
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-025",
+      "source_id": "GENTLEFACE",
+      "slug": "messages",
+      "title": "Messaggi / conversazioni",
+      "category": "action-or-status",
+      "trigger": "ON_EVENT",
+      "trigger_guidance": "Una sola volta dopo interazione o azione riuscita",
+      "animation_evidence": "VERIFIED_DETAIL",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/messages",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/messages.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": null,
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-026",
+      "source_id": "GENTLEFACE",
+      "slug": "home",
+      "title": "Pagina iniziale",
+      "category": "action-or-status",
+      "trigger": "ON_EVENT",
+      "trigger_guidance": "Una sola volta dopo interazione o azione riuscita",
+      "animation_evidence": "VERIFIED_SITE",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/home",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/home.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": "home",
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-027",
+      "source_id": "GENTLEFACE",
+      "slug": "shield-check",
+      "title": "Protezione attiva verificata",
+      "category": "action-or-status",
+      "trigger": "ON_STATUS_CHANGE",
+      "trigger_guidance": "Solo dopo transizione di stato confermata",
+      "animation_evidence": "ANIMATION_UNVERIFIED",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/shield-check",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/shield-check.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": null,
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    },
+    {
+      "id": "ICO-028",
+      "source_id": "GENTLEFACE",
+      "slug": "lock",
+      "title": "Blocco / riservatezza",
+      "category": "action-or-status",
+      "trigger": "ON_STATUS_CHANGE",
+      "trigger_guidance": "Solo dopo transizione di stato confermata",
+      "animation_evidence": "ANIMATION_UNVERIFIED",
+      "asset_bytes_verified": false,
+      "source_page": "https://gentleface.com/icons/lock",
+      "static_svg_pattern": "https://gentleface.com/svg/line-round/16/lock.svg",
+      "motion_asset": "RESOLVE_FROM_OFFICIAL_ICON_PAGE_OR_MOTION_INDEX",
+      "existing_factory_semantic_id": "lock",
+      "icon_family": "line-round",
+      "maturity": "REFERENCE",
+      "adoption": "PROPOSED_ONLY"
+    }
+  ],
+  "associations": [
+    {
+      "icon_id": "ICO-001",
+      "slug": "bell-ring",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "surface": "promemoria confermato",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-001",
+      "slug": "bell-ring",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "surface": "avviso contenuto disponibile",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-001",
+      "slug": "bell-ring",
+      "app": "SleepMax Coach",
+      "fit": "HIGH",
+      "surface": "promemoria routine",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-001",
+      "slug": "bell-ring",
+      "app": "Battery Guard",
+      "fit": "MEDIUM",
+      "surface": "avviso batteria non critico",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-001",
+      "slug": "bell-ring",
+      "app": "The Luminous Infinite Circle",
+      "fit": "MEDIUM",
+      "surface": "feedback notifica senza sostituire allarme",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-002",
+      "slug": "calendar",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "surface": "apertura calendario e selezione data",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-002",
+      "slug": "calendar",
+      "app": "World Days",
+      "fit": "HIGH",
+      "surface": "navigazione giorni",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-002",
+      "slug": "calendar",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "surface": "itinerario giornaliero",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-002",
+      "slug": "calendar",
+      "app": "CamperBoss",
+      "fit": "MEDIUM",
+      "surface": "tappe e pianificazione",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-002",
+      "slug": "calendar",
+      "app": "SleepMax Coach",
+      "fit": "MEDIUM",
+      "surface": "programma routine",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-003",
+      "slug": "battery-charging",
+      "app": "Battery Guard",
+      "fit": "HIGH",
+      "surface": "stato carica reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-003",
+      "slug": "battery-charging",
+      "app": "180FlipCharge",
+      "fit": "MEDIUM",
+      "surface": "carica e orientamento",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-003",
+      "slug": "battery-charging",
+      "app": "Deskland Android",
+      "fit": "MEDIUM",
+      "surface": "widget stato batteria reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-004",
+      "slug": "battery-low",
+      "app": "Battery Guard",
+      "fit": "HIGH",
+      "surface": "soglia batteria realmente rilevata",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-004",
+      "slug": "battery-low",
+      "app": "Pocket Guard",
+      "fit": "MEDIUM",
+      "surface": "avviso stato batteria dispositivo",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-005",
+      "slug": "download",
+      "app": "World Days",
+      "fit": "HIGH",
+      "surface": "contenuti offline",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-005",
+      "slug": "download",
+      "app": "CamperBoss",
+      "fit": "HIGH",
+      "surface": "pacchetti offline",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-005",
+      "slug": "download",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "surface": "download esportazioni",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-005",
+      "slug": "download",
+      "app": "Omni Cleaner",
+      "fit": "MEDIUM",
+      "surface": "download solo se esiste funzione",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-005",
+      "slug": "download",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "surface": "guide o file offline",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-006",
+      "slug": "export",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "surface": "esportazione note",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-006",
+      "slug": "export",
+      "app": "FrameLab",
+      "fit": "HIGH",
+      "surface": "export media",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-006",
+      "slug": "export",
+      "app": "Wonderlog",
+      "fit": "HIGH",
+      "surface": "export diario",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-006",
+      "slug": "export",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "surface": "condivisione/export soltanto se implementato",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-007",
+      "slug": "import",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "surface": "import note",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-007",
+      "slug": "import",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "surface": "import itinerario",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-007",
+      "slug": "import",
+      "app": "Anna's Diary",
+      "fit": "MEDIUM",
+      "surface": "recupero backup dove implementato",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-007",
+      "slug": "import",
+      "app": "CamperBoss",
+      "fit": "MEDIUM",
+      "surface": "import dati offline",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-008",
+      "slug": "images",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "surface": "apertura galleria a dimensione intera",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-008",
+      "slug": "images",
+      "app": "FrameLab",
+      "fit": "HIGH",
+      "surface": "raccolta fotografie",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-008",
+      "slug": "images",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "surface": "ricordi e media",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-008",
+      "slug": "images",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "surface": "immagini nelle note",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-008",
+      "slug": "images",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "surface": "galleria viaggio",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-009",
+      "slug": "video",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "surface": "player video in galleria",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-009",
+      "slug": "video",
+      "app": "FrameLab",
+      "fit": "MEDIUM",
+      "surface": "selezione e anteprima video",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-009",
+      "slug": "video",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "surface": "contenuti video dove disponibili",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-009",
+      "slug": "video",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "surface": "clip e ricordi del viaggio",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-010",
+      "slug": "bookmark",
+      "app": "World Days",
+      "fit": "HIGH",
+      "surface": "salva ricorrenze",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-010",
+      "slug": "bookmark",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "surface": "segnalibri note",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-010",
+      "slug": "bookmark",
+      "app": "Anna's Diary",
+      "fit": "MEDIUM",
+      "surface": "ricordi in evidenza",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-010",
+      "slug": "bookmark",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "surface": "luoghi e tappe preferite",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-011",
+      "slug": "search",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "surface": "ricerca note e canvas",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-011",
+      "slug": "search",
+      "app": "World Days",
+      "fit": "HIGH",
+      "surface": "ricerca giornate",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-011",
+      "slug": "search",
+      "app": "Wonderlog",
+      "fit": "HIGH",
+      "surface": "ricerca viaggi e luoghi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-011",
+      "slug": "search",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "surface": "ricerca repository e capability",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-011",
+      "slug": "search",
+      "app": "Omni Cleaner",
+      "fit": "MEDIUM",
+      "surface": "filtri media e file",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-012",
+      "slug": "apps-sparkle",
+      "app": "App Factory Dashboard",
+      "fit": "MEDIUM",
+      "surface": "scoperta capability",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-012",
+      "slug": "apps-sparkle",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "surface": "novità editoriali senza claim AI",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-012",
+      "slug": "apps-sparkle",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "surface": "strumenti visuali opzionali",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-013",
+      "slug": "loader",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "surface": "scansione in corso, mai fingere progressi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-013",
+      "slug": "loader",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "surface": "import o indicizzazione reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-013",
+      "slug": "loader",
+      "app": "World Days",
+      "fit": "HIGH",
+      "surface": "download e caricamento reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-013",
+      "slug": "loader",
+      "app": "Battery Guard",
+      "fit": "MEDIUM",
+      "surface": "analisi dati in corso",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-013",
+      "slug": "loader",
+      "app": "Send-to-PC",
+      "fit": "HIGH",
+      "surface": "trasferimento in corso",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-014",
+      "slug": "check",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "surface": "operazione completata con successo",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-014",
+      "slug": "check",
+      "app": "World Days",
+      "fit": "HIGH",
+      "surface": "download verificato",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-014",
+      "slug": "check",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "surface": "salvataggio evento riuscito",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-014",
+      "slug": "check",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "surface": "modifica salvata",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-014",
+      "slug": "check",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "surface": "job realmente verificato",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-015",
+      "slug": "heart-pulse",
+      "app": "SleepMax Coach",
+      "fit": "MEDIUM",
+      "surface": "benessere non medico con disclaimer",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-015",
+      "slug": "heart-pulse",
+      "app": "FocusSense",
+      "fit": "MEDIUM",
+      "surface": "feedback biologico solo se misurato",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-015",
+      "slug": "heart-pulse",
+      "app": "Edu_01 Corpo Umano",
+      "fit": "HIGH",
+      "surface": "contenuti educativi anatomici",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-016",
+      "slug": "map-pin",
+      "app": "Wonderlog",
+      "fit": "HIGH",
+      "surface": "selezione luogo",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-016",
+      "slug": "map-pin",
+      "app": "TrailPath",
+      "fit": "HIGH",
+      "surface": "waypoint e posizione",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-016",
+      "slug": "map-pin",
+      "app": "CamperBoss",
+      "fit": "HIGH",
+      "surface": "aree sosta o tappe",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-016",
+      "slug": "map-pin",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "surface": "localizzazione evento solo se presente",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-017",
+      "slug": "cloud",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "surface": "sincronizzazione reale con ricevuta",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-017",
+      "slug": "cloud",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "surface": "sync solo se backend attivo",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-017",
+      "slug": "cloud",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "surface": "download contenuti reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-017",
+      "slug": "cloud",
+      "app": "CashMate AI",
+      "fit": "MEDIUM",
+      "surface": "backup o cloud solo se implementato",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-018",
+      "slug": "gauge",
+      "app": "Battery Guard",
+      "fit": "HIGH",
+      "surface": "stato batteria",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-018",
+      "slug": "gauge",
+      "app": "FocusSense",
+      "fit": "HIGH",
+      "surface": "Focus Score",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-018",
+      "slug": "gauge",
+      "app": "CashMate AI",
+      "fit": "MEDIUM",
+      "surface": "indicatori finanziari",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-018",
+      "slug": "gauge",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "surface": "stato CI/portfolio",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-018",
+      "slug": "gauge",
+      "app": "CamperBoss",
+      "fit": "MEDIUM",
+      "surface": "indicatori risorse camper",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-019",
+      "slug": "star",
+      "app": "BeerClass AI",
+      "fit": "HIGH",
+      "surface": "valutazione birre",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-019",
+      "slug": "star",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "surface": "giornate preferite",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-019",
+      "slug": "star",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "surface": "luoghi preferiti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-019",
+      "slug": "star",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "surface": "ricette favorite",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-020",
+      "slug": "play",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "surface": "riproduzione video reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-020",
+      "slug": "play",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "surface": "riproduzione video ricetta",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-020",
+      "slug": "play",
+      "app": "FrameLab",
+      "fit": "MEDIUM",
+      "surface": "anteprima multimediale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-020",
+      "slug": "play",
+      "app": "Deskland Android",
+      "fit": "MEDIUM",
+      "surface": "avvio animazione o elemento interattivo",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-021",
+      "slug": "pause",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "surface": "pausa player video",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-021",
+      "slug": "pause",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "surface": "pausa tutorial",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-021",
+      "slug": "pause",
+      "app": "FrameLab",
+      "fit": "MEDIUM",
+      "surface": "pausa anteprima",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-021",
+      "slug": "pause",
+      "app": "Deskland Android",
+      "fit": "MEDIUM",
+      "surface": "pausa effetti quando previsto",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-022",
+      "slug": "repeat",
+      "app": "SleepMax Coach",
+      "fit": "MEDIUM",
+      "surface": "ripeti routine",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-022",
+      "slug": "repeat",
+      "app": "Omni Cleaner",
+      "fit": "MEDIUM",
+      "surface": "loop player video se presente",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-022",
+      "slug": "repeat",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "surface": "ripeti azione solo se reversibile",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-022",
+      "slug": "repeat",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "surface": "ricorrenza in pianificazione dove implementata",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-023",
+      "slug": "eye",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "surface": "mostra/nascondi pannello o contenuto",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-023",
+      "slug": "eye",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "surface": "visibilità campi privati senza mostrare dati per errore",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-023",
+      "slug": "eye",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "surface": "anteprima contenuti multimediali",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-023",
+      "slug": "eye",
+      "app": "Easy Debloat",
+      "fit": "MEDIUM",
+      "surface": "espandi dettagli app",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-024",
+      "slug": "archive",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "surface": "archivio note con restore",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-024",
+      "slug": "archive",
+      "app": "Anna's Diary",
+      "fit": "MEDIUM",
+      "surface": "ricordi archiviati se supportati",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-024",
+      "slug": "archive",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "surface": "collezioni archiviate se supportate",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-025",
+      "slug": "messages",
+      "app": "Anna's Diary",
+      "fit": "MEDIUM",
+      "surface": "spazio condiviso solo per feature reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-025",
+      "slug": "messages",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "surface": "commenti collaborativi solo dove supportati",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-025",
+      "slug": "messages",
+      "app": "Send-to-PC",
+      "fit": "MEDIUM",
+      "surface": "stati trasferimento con etichette testuali",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-025",
+      "slug": "messages",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "surface": "note condivise",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-026",
+      "slug": "home",
+      "app": "Anna's Diary",
+      "fit": "MEDIUM",
+      "surface": "torna alla schermata Oggi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-026",
+      "slug": "home",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "surface": "home viaggi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-026",
+      "slug": "home",
+      "app": "Deskland Android",
+      "fit": "MEDIUM",
+      "surface": "launcher home senza costi animazioni",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-026",
+      "slug": "home",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "surface": "home delle ricorrenze",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-027",
+      "slug": "shield-check",
+      "app": "Pocket Guard",
+      "fit": "HIGH",
+      "surface": "protezione effettivamente attiva e sana",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-027",
+      "slug": "shield-check",
+      "app": "Tabletop Motion Alarm",
+      "fit": "HIGH",
+      "surface": "allarme armato confermato",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-027",
+      "slug": "shield-check",
+      "app": "Easy Debloat",
+      "fit": "MEDIUM",
+      "surface": "operazione sicura ma mai garanzia assoluta",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-027",
+      "slug": "shield-check",
+      "app": "Phone Guard",
+      "fit": "HIGH",
+      "surface": "stato protezione confermato",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-028",
+      "slug": "lock",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "surface": "Vault blocco/sblocco realmente completato",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-028",
+      "slug": "lock",
+      "app": "Pocket Guard",
+      "fit": "HIGH",
+      "surface": "PIN o biometria con stato reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-028",
+      "slug": "lock",
+      "app": "Tabletop Motion Alarm",
+      "fit": "HIGH",
+      "surface": "stato antifurto verificato",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "icon_id": "ICO-028",
+      "slug": "lock",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "surface": "sezioni protette solo se presenti",
+      "status": "PROPOSED_ONLY"
+    }
+  ],
+  "by_app": {
+    "180FlipCharge": [
+      {
+        "icon_id": "ICO-003",
+        "slug": "battery-charging",
+        "fit": "MEDIUM",
+        "surface": "carica e orientamento",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Anna's Diary": [
+      {
+        "icon_id": "ICO-001",
+        "slug": "bell-ring",
+        "fit": "HIGH",
+        "surface": "promemoria confermato",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-002",
+        "slug": "calendar",
+        "fit": "HIGH",
+        "surface": "apertura calendario e selezione data",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-007",
+        "slug": "import",
+        "fit": "MEDIUM",
+        "surface": "recupero backup dove implementato",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-008",
+        "slug": "images",
+        "fit": "HIGH",
+        "surface": "ricordi e media",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-010",
+        "slug": "bookmark",
+        "fit": "MEDIUM",
+        "surface": "ricordi in evidenza",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-014",
+        "slug": "check",
+        "fit": "HIGH",
+        "surface": "salvataggio evento riuscito",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-017",
+        "slug": "cloud",
+        "fit": "HIGH",
+        "surface": "sincronizzazione reale con ricevuta",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-023",
+        "slug": "eye",
+        "fit": "HIGH",
+        "surface": "visibilità campi privati senza mostrare dati per errore",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-024",
+        "slug": "archive",
+        "fit": "MEDIUM",
+        "surface": "ricordi archiviati se supportati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-025",
+        "slug": "messages",
+        "fit": "MEDIUM",
+        "surface": "spazio condiviso solo per feature reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-026",
+        "slug": "home",
+        "fit": "MEDIUM",
+        "surface": "torna alla schermata Oggi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-028",
+        "slug": "lock",
+        "fit": "HIGH",
+        "surface": "Vault blocco/sblocco realmente completato",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "App Factory Dashboard": [
+      {
+        "icon_id": "ICO-011",
+        "slug": "search",
+        "fit": "HIGH",
+        "surface": "ricerca repository e capability",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-012",
+        "slug": "apps-sparkle",
+        "fit": "MEDIUM",
+        "surface": "scoperta capability",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-014",
+        "slug": "check",
+        "fit": "HIGH",
+        "surface": "job realmente verificato",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-018",
+        "slug": "gauge",
+        "fit": "HIGH",
+        "surface": "stato CI/portfolio",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Battery Guard": [
+      {
+        "icon_id": "ICO-001",
+        "slug": "bell-ring",
+        "fit": "MEDIUM",
+        "surface": "avviso batteria non critico",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-003",
+        "slug": "battery-charging",
+        "fit": "HIGH",
+        "surface": "stato carica reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-004",
+        "slug": "battery-low",
+        "fit": "HIGH",
+        "surface": "soglia batteria realmente rilevata",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-013",
+        "slug": "loader",
+        "fit": "MEDIUM",
+        "surface": "analisi dati in corso",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-018",
+        "slug": "gauge",
+        "fit": "HIGH",
+        "surface": "stato batteria",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "BeerClass AI": [
+      {
+        "icon_id": "ICO-019",
+        "slug": "star",
+        "fit": "HIGH",
+        "surface": "valutazione birre",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "CamperBoss": [
+      {
+        "icon_id": "ICO-002",
+        "slug": "calendar",
+        "fit": "MEDIUM",
+        "surface": "tappe e pianificazione",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-005",
+        "slug": "download",
+        "fit": "HIGH",
+        "surface": "pacchetti offline",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-007",
+        "slug": "import",
+        "fit": "MEDIUM",
+        "surface": "import dati offline",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-016",
+        "slug": "map-pin",
+        "fit": "HIGH",
+        "surface": "aree sosta o tappe",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-018",
+        "slug": "gauge",
+        "fit": "MEDIUM",
+        "surface": "indicatori risorse camper",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "CashMate AI": [
+      {
+        "icon_id": "ICO-017",
+        "slug": "cloud",
+        "fit": "MEDIUM",
+        "surface": "backup o cloud solo se implementato",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-018",
+        "slug": "gauge",
+        "fit": "MEDIUM",
+        "surface": "indicatori finanziari",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Cooking Anime": [
+      {
+        "icon_id": "ICO-009",
+        "slug": "video",
+        "fit": "MEDIUM",
+        "surface": "contenuti video dove disponibili",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-012",
+        "slug": "apps-sparkle",
+        "fit": "MEDIUM",
+        "surface": "novità editoriali senza claim AI",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-019",
+        "slug": "star",
+        "fit": "MEDIUM",
+        "surface": "ricette favorite",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-020",
+        "slug": "play",
+        "fit": "MEDIUM",
+        "surface": "riproduzione video ricetta",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-021",
+        "slug": "pause",
+        "fit": "MEDIUM",
+        "surface": "pausa tutorial",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Deskland Android": [
+      {
+        "icon_id": "ICO-003",
+        "slug": "battery-charging",
+        "fit": "MEDIUM",
+        "surface": "widget stato batteria reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-020",
+        "slug": "play",
+        "fit": "MEDIUM",
+        "surface": "avvio animazione o elemento interattivo",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-021",
+        "slug": "pause",
+        "fit": "MEDIUM",
+        "surface": "pausa effetti quando previsto",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-026",
+        "slug": "home",
+        "fit": "MEDIUM",
+        "surface": "launcher home senza costi animazioni",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Easy Debloat": [
+      {
+        "icon_id": "ICO-023",
+        "slug": "eye",
+        "fit": "MEDIUM",
+        "surface": "espandi dettagli app",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-027",
+        "slug": "shield-check",
+        "fit": "MEDIUM",
+        "surface": "operazione sicura ma mai garanzia assoluta",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Edu_01 Corpo Umano": [
+      {
+        "icon_id": "ICO-015",
+        "slug": "heart-pulse",
+        "fit": "HIGH",
+        "surface": "contenuti educativi anatomici",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "FocusSense": [
+      {
+        "icon_id": "ICO-015",
+        "slug": "heart-pulse",
+        "fit": "MEDIUM",
+        "surface": "feedback biologico solo se misurato",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-018",
+        "slug": "gauge",
+        "fit": "HIGH",
+        "surface": "Focus Score",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "FrameLab": [
+      {
+        "icon_id": "ICO-006",
+        "slug": "export",
+        "fit": "HIGH",
+        "surface": "export media",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-008",
+        "slug": "images",
+        "fit": "HIGH",
+        "surface": "raccolta fotografie",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-009",
+        "slug": "video",
+        "fit": "MEDIUM",
+        "surface": "selezione e anteprima video",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-020",
+        "slug": "play",
+        "fit": "MEDIUM",
+        "surface": "anteprima multimediale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-021",
+        "slug": "pause",
+        "fit": "MEDIUM",
+        "surface": "pausa anteprima",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Notes-Ecosistema": [
+      {
+        "icon_id": "ICO-005",
+        "slug": "download",
+        "fit": "HIGH",
+        "surface": "download esportazioni",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-006",
+        "slug": "export",
+        "fit": "HIGH",
+        "surface": "esportazione note",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-007",
+        "slug": "import",
+        "fit": "HIGH",
+        "surface": "import note",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-008",
+        "slug": "images",
+        "fit": "MEDIUM",
+        "surface": "immagini nelle note",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-010",
+        "slug": "bookmark",
+        "fit": "HIGH",
+        "surface": "segnalibri note",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-011",
+        "slug": "search",
+        "fit": "HIGH",
+        "surface": "ricerca note e canvas",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-012",
+        "slug": "apps-sparkle",
+        "fit": "MEDIUM",
+        "surface": "strumenti visuali opzionali",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-013",
+        "slug": "loader",
+        "fit": "MEDIUM",
+        "surface": "import o indicizzazione reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-014",
+        "slug": "check",
+        "fit": "HIGH",
+        "surface": "modifica salvata",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-017",
+        "slug": "cloud",
+        "fit": "MEDIUM",
+        "surface": "sync solo se backend attivo",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-022",
+        "slug": "repeat",
+        "fit": "MEDIUM",
+        "surface": "ripeti azione solo se reversibile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-023",
+        "slug": "eye",
+        "fit": "HIGH",
+        "surface": "mostra/nascondi pannello o contenuto",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-024",
+        "slug": "archive",
+        "fit": "HIGH",
+        "surface": "archivio note con restore",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-025",
+        "slug": "messages",
+        "fit": "MEDIUM",
+        "surface": "commenti collaborativi solo dove supportati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-028",
+        "slug": "lock",
+        "fit": "MEDIUM",
+        "surface": "sezioni protette solo se presenti",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Omni Cleaner": [
+      {
+        "icon_id": "ICO-005",
+        "slug": "download",
+        "fit": "MEDIUM",
+        "surface": "download solo se esiste funzione",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-008",
+        "slug": "images",
+        "fit": "HIGH",
+        "surface": "apertura galleria a dimensione intera",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-009",
+        "slug": "video",
+        "fit": "HIGH",
+        "surface": "player video in galleria",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-011",
+        "slug": "search",
+        "fit": "MEDIUM",
+        "surface": "filtri media e file",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-013",
+        "slug": "loader",
+        "fit": "HIGH",
+        "surface": "scansione in corso, mai fingere progressi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-014",
+        "slug": "check",
+        "fit": "HIGH",
+        "surface": "operazione completata con successo",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-020",
+        "slug": "play",
+        "fit": "HIGH",
+        "surface": "riproduzione video reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-021",
+        "slug": "pause",
+        "fit": "HIGH",
+        "surface": "pausa player video",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-022",
+        "slug": "repeat",
+        "fit": "MEDIUM",
+        "surface": "loop player video se presente",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-023",
+        "slug": "eye",
+        "fit": "HIGH",
+        "surface": "anteprima contenuti multimediali",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Phone Guard": [
+      {
+        "icon_id": "ICO-027",
+        "slug": "shield-check",
+        "fit": "HIGH",
+        "surface": "stato protezione confermato",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Pocket Guard": [
+      {
+        "icon_id": "ICO-004",
+        "slug": "battery-low",
+        "fit": "MEDIUM",
+        "surface": "avviso stato batteria dispositivo",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-027",
+        "slug": "shield-check",
+        "fit": "HIGH",
+        "surface": "protezione effettivamente attiva e sana",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-028",
+        "slug": "lock",
+        "fit": "HIGH",
+        "surface": "PIN o biometria con stato reale",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Send-to-PC": [
+      {
+        "icon_id": "ICO-013",
+        "slug": "loader",
+        "fit": "HIGH",
+        "surface": "trasferimento in corso",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-025",
+        "slug": "messages",
+        "fit": "MEDIUM",
+        "surface": "stati trasferimento con etichette testuali",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "SleepMax Coach": [
+      {
+        "icon_id": "ICO-001",
+        "slug": "bell-ring",
+        "fit": "HIGH",
+        "surface": "promemoria routine",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-002",
+        "slug": "calendar",
+        "fit": "MEDIUM",
+        "surface": "programma routine",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-015",
+        "slug": "heart-pulse",
+        "fit": "MEDIUM",
+        "surface": "benessere non medico con disclaimer",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-022",
+        "slug": "repeat",
+        "fit": "MEDIUM",
+        "surface": "ripeti routine",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Tabletop Motion Alarm": [
+      {
+        "icon_id": "ICO-027",
+        "slug": "shield-check",
+        "fit": "HIGH",
+        "surface": "allarme armato confermato",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-028",
+        "slug": "lock",
+        "fit": "HIGH",
+        "surface": "stato antifurto verificato",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "The Luminous Infinite Circle": [
+      {
+        "icon_id": "ICO-001",
+        "slug": "bell-ring",
+        "fit": "MEDIUM",
+        "surface": "feedback notifica senza sostituire allarme",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "TrailPath": [
+      {
+        "icon_id": "ICO-016",
+        "slug": "map-pin",
+        "fit": "HIGH",
+        "surface": "waypoint e posizione",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Wonderlog": [
+      {
+        "icon_id": "ICO-002",
+        "slug": "calendar",
+        "fit": "MEDIUM",
+        "surface": "itinerario giornaliero",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-005",
+        "slug": "download",
+        "fit": "MEDIUM",
+        "surface": "guide o file offline",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-006",
+        "slug": "export",
+        "fit": "HIGH",
+        "surface": "export diario",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-007",
+        "slug": "import",
+        "fit": "MEDIUM",
+        "surface": "import itinerario",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-008",
+        "slug": "images",
+        "fit": "MEDIUM",
+        "surface": "galleria viaggio",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-009",
+        "slug": "video",
+        "fit": "MEDIUM",
+        "surface": "clip e ricordi del viaggio",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-010",
+        "slug": "bookmark",
+        "fit": "MEDIUM",
+        "surface": "luoghi e tappe preferite",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-011",
+        "slug": "search",
+        "fit": "HIGH",
+        "surface": "ricerca viaggi e luoghi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-016",
+        "slug": "map-pin",
+        "fit": "HIGH",
+        "surface": "selezione luogo",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-019",
+        "slug": "star",
+        "fit": "MEDIUM",
+        "surface": "luoghi preferiti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-022",
+        "slug": "repeat",
+        "fit": "MEDIUM",
+        "surface": "ricorrenza in pianificazione dove implementata",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-025",
+        "slug": "messages",
+        "fit": "MEDIUM",
+        "surface": "note condivise",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-026",
+        "slug": "home",
+        "fit": "MEDIUM",
+        "surface": "home viaggi",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "World Days": [
+      {
+        "icon_id": "ICO-001",
+        "slug": "bell-ring",
+        "fit": "MEDIUM",
+        "surface": "avviso contenuto disponibile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-002",
+        "slug": "calendar",
+        "fit": "HIGH",
+        "surface": "navigazione giorni",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-005",
+        "slug": "download",
+        "fit": "HIGH",
+        "surface": "contenuti offline",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-006",
+        "slug": "export",
+        "fit": "MEDIUM",
+        "surface": "condivisione/export soltanto se implementato",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-010",
+        "slug": "bookmark",
+        "fit": "HIGH",
+        "surface": "salva ricorrenze",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-011",
+        "slug": "search",
+        "fit": "HIGH",
+        "surface": "ricerca giornate",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-013",
+        "slug": "loader",
+        "fit": "HIGH",
+        "surface": "download e caricamento reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-014",
+        "slug": "check",
+        "fit": "HIGH",
+        "surface": "download verificato",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-016",
+        "slug": "map-pin",
+        "fit": "MEDIUM",
+        "surface": "localizzazione evento solo se presente",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-017",
+        "slug": "cloud",
+        "fit": "MEDIUM",
+        "surface": "download contenuti reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-019",
+        "slug": "star",
+        "fit": "MEDIUM",
+        "surface": "giornate preferite",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-024",
+        "slug": "archive",
+        "fit": "MEDIUM",
+        "surface": "collezioni archiviate se supportate",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "icon_id": "ICO-026",
+        "slug": "home",
+        "fit": "MEDIUM",
+        "surface": "home delle ricorrenze",
+        "status": "PROPOSED_ONLY"
+      }
+    ]
+  },
+  "by_icon": {
+    "ICO-001": [
+      {
+        "slug": "bell-ring",
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "surface": "promemoria confermato",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "bell-ring",
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "surface": "avviso contenuto disponibile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "bell-ring",
+        "app": "SleepMax Coach",
+        "fit": "HIGH",
+        "surface": "promemoria routine",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "bell-ring",
+        "app": "Battery Guard",
+        "fit": "MEDIUM",
+        "surface": "avviso batteria non critico",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "bell-ring",
+        "app": "The Luminous Infinite Circle",
+        "fit": "MEDIUM",
+        "surface": "feedback notifica senza sostituire allarme",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-002": [
+      {
+        "slug": "calendar",
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "surface": "apertura calendario e selezione data",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "calendar",
+        "app": "World Days",
+        "fit": "HIGH",
+        "surface": "navigazione giorni",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "calendar",
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "surface": "itinerario giornaliero",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "calendar",
+        "app": "CamperBoss",
+        "fit": "MEDIUM",
+        "surface": "tappe e pianificazione",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "calendar",
+        "app": "SleepMax Coach",
+        "fit": "MEDIUM",
+        "surface": "programma routine",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-003": [
+      {
+        "slug": "battery-charging",
+        "app": "Battery Guard",
+        "fit": "HIGH",
+        "surface": "stato carica reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "battery-charging",
+        "app": "180FlipCharge",
+        "fit": "MEDIUM",
+        "surface": "carica e orientamento",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "battery-charging",
+        "app": "Deskland Android",
+        "fit": "MEDIUM",
+        "surface": "widget stato batteria reale",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-004": [
+      {
+        "slug": "battery-low",
+        "app": "Battery Guard",
+        "fit": "HIGH",
+        "surface": "soglia batteria realmente rilevata",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "battery-low",
+        "app": "Pocket Guard",
+        "fit": "MEDIUM",
+        "surface": "avviso stato batteria dispositivo",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-005": [
+      {
+        "slug": "download",
+        "app": "World Days",
+        "fit": "HIGH",
+        "surface": "contenuti offline",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "download",
+        "app": "CamperBoss",
+        "fit": "HIGH",
+        "surface": "pacchetti offline",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "download",
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "surface": "download esportazioni",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "download",
+        "app": "Omni Cleaner",
+        "fit": "MEDIUM",
+        "surface": "download solo se esiste funzione",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "download",
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "surface": "guide o file offline",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-006": [
+      {
+        "slug": "export",
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "surface": "esportazione note",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "export",
+        "app": "FrameLab",
+        "fit": "HIGH",
+        "surface": "export media",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "export",
+        "app": "Wonderlog",
+        "fit": "HIGH",
+        "surface": "export diario",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "export",
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "surface": "condivisione/export soltanto se implementato",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-007": [
+      {
+        "slug": "import",
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "surface": "import note",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "import",
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "surface": "import itinerario",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "import",
+        "app": "Anna's Diary",
+        "fit": "MEDIUM",
+        "surface": "recupero backup dove implementato",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "import",
+        "app": "CamperBoss",
+        "fit": "MEDIUM",
+        "surface": "import dati offline",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-008": [
+      {
+        "slug": "images",
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "surface": "apertura galleria a dimensione intera",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "images",
+        "app": "FrameLab",
+        "fit": "HIGH",
+        "surface": "raccolta fotografie",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "images",
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "surface": "ricordi e media",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "images",
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "surface": "immagini nelle note",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "images",
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "surface": "galleria viaggio",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-009": [
+      {
+        "slug": "video",
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "surface": "player video in galleria",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "video",
+        "app": "FrameLab",
+        "fit": "MEDIUM",
+        "surface": "selezione e anteprima video",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "video",
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "surface": "contenuti video dove disponibili",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "video",
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "surface": "clip e ricordi del viaggio",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-010": [
+      {
+        "slug": "bookmark",
+        "app": "World Days",
+        "fit": "HIGH",
+        "surface": "salva ricorrenze",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "bookmark",
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "surface": "segnalibri note",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "bookmark",
+        "app": "Anna's Diary",
+        "fit": "MEDIUM",
+        "surface": "ricordi in evidenza",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "bookmark",
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "surface": "luoghi e tappe preferite",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-011": [
+      {
+        "slug": "search",
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "surface": "ricerca note e canvas",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "search",
+        "app": "World Days",
+        "fit": "HIGH",
+        "surface": "ricerca giornate",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "search",
+        "app": "Wonderlog",
+        "fit": "HIGH",
+        "surface": "ricerca viaggi e luoghi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "search",
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "surface": "ricerca repository e capability",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "search",
+        "app": "Omni Cleaner",
+        "fit": "MEDIUM",
+        "surface": "filtri media e file",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-012": [
+      {
+        "slug": "apps-sparkle",
+        "app": "App Factory Dashboard",
+        "fit": "MEDIUM",
+        "surface": "scoperta capability",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "apps-sparkle",
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "surface": "novità editoriali senza claim AI",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "apps-sparkle",
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "surface": "strumenti visuali opzionali",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-013": [
+      {
+        "slug": "loader",
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "surface": "scansione in corso, mai fingere progressi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "loader",
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "surface": "import o indicizzazione reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "loader",
+        "app": "World Days",
+        "fit": "HIGH",
+        "surface": "download e caricamento reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "loader",
+        "app": "Battery Guard",
+        "fit": "MEDIUM",
+        "surface": "analisi dati in corso",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "loader",
+        "app": "Send-to-PC",
+        "fit": "HIGH",
+        "surface": "trasferimento in corso",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-014": [
+      {
+        "slug": "check",
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "surface": "operazione completata con successo",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "check",
+        "app": "World Days",
+        "fit": "HIGH",
+        "surface": "download verificato",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "check",
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "surface": "salvataggio evento riuscito",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "check",
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "surface": "modifica salvata",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "check",
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "surface": "job realmente verificato",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-015": [
+      {
+        "slug": "heart-pulse",
+        "app": "SleepMax Coach",
+        "fit": "MEDIUM",
+        "surface": "benessere non medico con disclaimer",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "heart-pulse",
+        "app": "FocusSense",
+        "fit": "MEDIUM",
+        "surface": "feedback biologico solo se misurato",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "heart-pulse",
+        "app": "Edu_01 Corpo Umano",
+        "fit": "HIGH",
+        "surface": "contenuti educativi anatomici",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-016": [
+      {
+        "slug": "map-pin",
+        "app": "Wonderlog",
+        "fit": "HIGH",
+        "surface": "selezione luogo",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "map-pin",
+        "app": "TrailPath",
+        "fit": "HIGH",
+        "surface": "waypoint e posizione",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "map-pin",
+        "app": "CamperBoss",
+        "fit": "HIGH",
+        "surface": "aree sosta o tappe",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "map-pin",
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "surface": "localizzazione evento solo se presente",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-017": [
+      {
+        "slug": "cloud",
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "surface": "sincronizzazione reale con ricevuta",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "cloud",
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "surface": "sync solo se backend attivo",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "cloud",
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "surface": "download contenuti reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "cloud",
+        "app": "CashMate AI",
+        "fit": "MEDIUM",
+        "surface": "backup o cloud solo se implementato",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-018": [
+      {
+        "slug": "gauge",
+        "app": "Battery Guard",
+        "fit": "HIGH",
+        "surface": "stato batteria",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "gauge",
+        "app": "FocusSense",
+        "fit": "HIGH",
+        "surface": "Focus Score",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "gauge",
+        "app": "CashMate AI",
+        "fit": "MEDIUM",
+        "surface": "indicatori finanziari",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "gauge",
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "surface": "stato CI/portfolio",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "gauge",
+        "app": "CamperBoss",
+        "fit": "MEDIUM",
+        "surface": "indicatori risorse camper",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-019": [
+      {
+        "slug": "star",
+        "app": "BeerClass AI",
+        "fit": "HIGH",
+        "surface": "valutazione birre",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "star",
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "surface": "giornate preferite",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "star",
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "surface": "luoghi preferiti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "star",
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "surface": "ricette favorite",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-020": [
+      {
+        "slug": "play",
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "surface": "riproduzione video reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "play",
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "surface": "riproduzione video ricetta",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "play",
+        "app": "FrameLab",
+        "fit": "MEDIUM",
+        "surface": "anteprima multimediale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "play",
+        "app": "Deskland Android",
+        "fit": "MEDIUM",
+        "surface": "avvio animazione o elemento interattivo",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-021": [
+      {
+        "slug": "pause",
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "surface": "pausa player video",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "pause",
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "surface": "pausa tutorial",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "pause",
+        "app": "FrameLab",
+        "fit": "MEDIUM",
+        "surface": "pausa anteprima",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "pause",
+        "app": "Deskland Android",
+        "fit": "MEDIUM",
+        "surface": "pausa effetti quando previsto",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-022": [
+      {
+        "slug": "repeat",
+        "app": "SleepMax Coach",
+        "fit": "MEDIUM",
+        "surface": "ripeti routine",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "repeat",
+        "app": "Omni Cleaner",
+        "fit": "MEDIUM",
+        "surface": "loop player video se presente",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "repeat",
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "surface": "ripeti azione solo se reversibile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "repeat",
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "surface": "ricorrenza in pianificazione dove implementata",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-023": [
+      {
+        "slug": "eye",
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "surface": "mostra/nascondi pannello o contenuto",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "eye",
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "surface": "visibilità campi privati senza mostrare dati per errore",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "eye",
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "surface": "anteprima contenuti multimediali",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "eye",
+        "app": "Easy Debloat",
+        "fit": "MEDIUM",
+        "surface": "espandi dettagli app",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-024": [
+      {
+        "slug": "archive",
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "surface": "archivio note con restore",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "archive",
+        "app": "Anna's Diary",
+        "fit": "MEDIUM",
+        "surface": "ricordi archiviati se supportati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "archive",
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "surface": "collezioni archiviate se supportate",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-025": [
+      {
+        "slug": "messages",
+        "app": "Anna's Diary",
+        "fit": "MEDIUM",
+        "surface": "spazio condiviso solo per feature reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "messages",
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "surface": "commenti collaborativi solo dove supportati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "messages",
+        "app": "Send-to-PC",
+        "fit": "MEDIUM",
+        "surface": "stati trasferimento con etichette testuali",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "messages",
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "surface": "note condivise",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-026": [
+      {
+        "slug": "home",
+        "app": "Anna's Diary",
+        "fit": "MEDIUM",
+        "surface": "torna alla schermata Oggi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "home",
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "surface": "home viaggi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "home",
+        "app": "Deskland Android",
+        "fit": "MEDIUM",
+        "surface": "launcher home senza costi animazioni",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "home",
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "surface": "home delle ricorrenze",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-027": [
+      {
+        "slug": "shield-check",
+        "app": "Pocket Guard",
+        "fit": "HIGH",
+        "surface": "protezione effettivamente attiva e sana",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "shield-check",
+        "app": "Tabletop Motion Alarm",
+        "fit": "HIGH",
+        "surface": "allarme armato confermato",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "shield-check",
+        "app": "Easy Debloat",
+        "fit": "MEDIUM",
+        "surface": "operazione sicura ma mai garanzia assoluta",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "shield-check",
+        "app": "Phone Guard",
+        "fit": "HIGH",
+        "surface": "stato protezione confermato",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "ICO-028": [
+      {
+        "slug": "lock",
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "surface": "Vault blocco/sblocco realmente completato",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "lock",
+        "app": "Pocket Guard",
+        "fit": "HIGH",
+        "surface": "PIN o biometria con stato reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "lock",
+        "app": "Tabletop Motion Alarm",
+        "fit": "HIGH",
+        "surface": "stato antifurto verificato",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "slug": "lock",
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "surface": "sezioni protette solo se presenti",
+        "status": "PROPOSED_ONLY"
+      }
+    ]
+  }
+}

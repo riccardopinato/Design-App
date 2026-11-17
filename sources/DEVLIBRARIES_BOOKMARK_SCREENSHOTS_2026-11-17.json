@@ -1,0 +1,3198 @@
+{
+  "schema_version": 1,
+  "batch": "DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026_11_17",
+  "captured_at": "2026-11-17",
+  "scope": "Screenshots user-provided following DevLibraries Bookmarks link; exact personal account membership not independently verified.",
+  "source_page": "https://devlibraries.com/bookmarks",
+  "screenshot_files": [
+    {
+      "filename": "image(20261117-142705).png",
+      "sha256": "02fec6c7687269d39e94c602dff62ce446add4967820310605b8847cc641555b",
+      "dimensions": [
+        994,
+        376
+      ],
+      "items": 18,
+      "location": "USER_CHAT_ATTACHMENT_1",
+      "asset_in_repo": false
+    },
+    {
+      "filename": "image(20261117-142711).png",
+      "sha256": "aabe4abc2d2b16bd6d237095b18dd918c3440a0b91ba11a917012bacf6aedb4e",
+      "dimensions": [
+        945,
+        191
+      ],
+      "items": 8,
+      "location": "USER_CHAT_ATTACHMENT_2",
+      "asset_in_repo": false
+    },
+    {
+      "filename": "image(20261117-142804).png",
+      "sha256": "c1469357f55c5d73d059e64c41393a1d7fdbae71738469016324d24885d5c29f",
+      "dimensions": [
+        1294,
+        223
+      ],
+      "items": 4,
+      "location": "USER_CHAT_ATTACHMENT_3",
+      "asset_in_repo": false
+    }
+  ],
+  "source_reuse_license": "Individual component source/libraries to be independently licensed, screenshot itself not published as asset.",
+  "status": "VISUAL_INTAKE_REGISTERED",
+  "repo_impact": "DOCUMENTATION_ONLY",
+  "user_account_read": false,
+  "source_repo_new": 0,
+  "counts": {
+    "screenshot_cards": 30,
+    "screenshots": 3,
+    "apps": 20,
+    "associations": 120,
+    "existing_deduped": 3,
+    "new_curation_items": 27,
+    "amicro": 23,
+    "watermelon": 3,
+    "unverified_provider": 4,
+    "source_path_pinned": 25,
+    "unverified_source": 5
+  },
+  "items": [
+    {
+      "id": "DBM-001",
+      "title": "Accordion Loader",
+      "slug": "accordion-loader",
+      "category": "LOADER_INDETERMINATE",
+      "screenshot_number": 1,
+      "screenshot_order": 1,
+      "screenshot_sha256": "02fec6c7687269d39e94c602dff62ce446add4967820310605b8847cc641555b",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/accordion-loader.tsx",
+      "source_blob_sha": "de8a6b9ded9d668daf5da92e8eee829f4c18e1f3",
+      "source_evidence": "SOURCE_FILE_PREVIOUSLY_READ",
+      "existing_design_ref": "AMX-006",
+      "existing_record_already_cataloged": true,
+      "design_intent": "Già censito; non creare componente duplicato.",
+      "trigger": "ACTIVE_VISIBLE_REAL_TASK",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": "https://devlibraries.com/libraries/amicro/accordion-loader"
+    },
+    {
+      "id": "DBM-002",
+      "title": "Classic Spinner",
+      "slug": "classic-spinner",
+      "category": "LOADER_INDETERMINATE",
+      "screenshot_number": 1,
+      "screenshot_order": 2,
+      "screenshot_sha256": "02fec6c7687269d39e94c602dff62ce446add4967820310605b8847cc641555b",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/classic-spinner.tsx",
+      "source_blob_sha": "e221a9d1e1a52df3435e35d846f119fe96974a47",
+      "source_evidence": "SOURCE_PATH_PINNED",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": null,
+      "trigger": "ACTIVE_VISIBLE_REAL_TASK",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-003",
+      "title": "Pulsating Dots",
+      "slug": "pulsating-dots",
+      "category": "LOADER_SUBTLE",
+      "screenshot_number": 1,
+      "screenshot_order": 3,
+      "screenshot_sha256": "02fec6c7687269d39e94c602dff62ce446add4967820310605b8847cc641555b",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/pulsating-dots.tsx",
+      "source_blob_sha": "12624c06f50b2c7d7f4c8e4a1add7b21b310d6cc",
+      "source_evidence": "SOURCE_PATH_PINNED",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": null,
+      "trigger": "ACTIVE_VISIBLE_REAL_TASK",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-004",
+      "title": "App Icon Load",
+      "slug": "app-icon-load",
+      "category": "APP_STARTUP_LOADING",
+      "screenshot_number": 1,
+      "screenshot_order": 4,
+      "screenshot_sha256": "02fec6c7687269d39e94c602dff62ce446add4967820310605b8847cc641555b",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/app-icon-load.tsx",
+      "source_blob_sha": "d1cb3a70580816ba6f577a69d0e0b701fa559d93",
+      "source_evidence": "SOURCE_PATH_PINNED",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": null,
+      "trigger": "ACTIVE_VISIBLE_REAL_TASK",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-005",
+      "title": "Face Id Scan",
+      "slug": "face-id-scan",
+      "category": "BIOMETRIC_STATUS_VISUAL_ONLY",
+      "screenshot_number": 1,
+      "screenshot_order": 5,
+      "screenshot_sha256": "02fec6c7687269d39e94c602dff62ce446add4967820310605b8847cc641555b",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/face-id-scan.tsx",
+      "source_blob_sha": "904a6fa68f1e2c25de55678d1fd6239b8eac79f7",
+      "source_evidence": "SOURCE_PATH_PINNED",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": "Solo animazione; non autentica, non può simulare scansione effettiva.",
+      "trigger": "REAL_AUTH_STATUS_ONLY",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-006",
+      "title": "Stacked Bar Pulse",
+      "slug": "stacked-bar-pulse",
+      "category": "LOADER_SCAN",
+      "screenshot_number": 1,
+      "screenshot_order": 6,
+      "screenshot_sha256": "02fec6c7687269d39e94c602dff62ce446add4967820310605b8847cc641555b",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/stacked-bar-pulse.tsx",
+      "source_blob_sha": "5875051493813d1b81036b37030f0efa74e76380",
+      "source_evidence": "SOURCE_PATH_PINNED",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": null,
+      "trigger": "ACTIVE_VISIBLE_REAL_TASK",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-007",
+      "title": "Apple Breathe",
+      "slug": "apple-breathe",
+      "category": "LOADER_CALM",
+      "screenshot_number": 1,
+      "screenshot_order": 7,
+      "screenshot_sha256": "02fec6c7687269d39e94c602dff62ce446add4967820310605b8847cc641555b",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/apple-breathe.tsx",
+      "source_blob_sha": "d9cebebcccdb9c6d6964d73021016c4d5931d239",
+      "source_evidence": "SOURCE_PATH_PINNED",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": null,
+      "trigger": "ACTIVE_VISIBLE_REAL_TASK",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-008",
+      "title": "Fade Arc",
+      "slug": "fade-arc",
+      "category": "LOADER_MINIMAL",
+      "screenshot_number": 1,
+      "screenshot_order": 8,
+      "screenshot_sha256": "02fec6c7687269d39e94c602dff62ce446add4967820310605b8847cc641555b",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/fade-arc.tsx",
+      "source_blob_sha": "4af5bd75a18e26285cc66b1679219c1ddec44391",
+      "source_evidence": "SOURCE_PATH_PINNED",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": null,
+      "trigger": "ACTIVE_VISIBLE_REAL_TASK",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-009",
+      "title": "Terminal Loader",
+      "slug": "terminal-loader",
+      "category": "LOADER_TECHNICAL",
+      "screenshot_number": 1,
+      "screenshot_order": 9,
+      "screenshot_sha256": "02fec6c7687269d39e94c602dff62ce446add4967820310605b8847cc641555b",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/terminal-loader.tsx",
+      "source_blob_sha": "af52c21353ab5e535301f4ac5aad523c0e4ebc2b",
+      "source_evidence": "SOURCE_PATH_PINNED",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": null,
+      "trigger": "ACTIVE_VISIBLE_REAL_TASK",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-010",
+      "title": "Apple Pulse Dots",
+      "slug": "apple-pulse-dots",
+      "category": "LOADER_SUBTLE",
+      "screenshot_number": 1,
+      "screenshot_order": 10,
+      "screenshot_sha256": "02fec6c7687269d39e94c602dff62ce446add4967820310605b8847cc641555b",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/apple-pulse-dots.tsx",
+      "source_blob_sha": "d3be31f88d039b28d5105cb4c8770b3672792eb8",
+      "source_evidence": "SOURCE_PATH_PINNED",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": null,
+      "trigger": "ACTIVE_VISIBLE_REAL_TASK",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-011",
+      "title": "Morph Loader",
+      "slug": "morph-loader",
+      "category": "LOADER_PLAYFUL",
+      "screenshot_number": 1,
+      "screenshot_order": 11,
+      "screenshot_sha256": "02fec6c7687269d39e94c602dff62ce446add4967820310605b8847cc641555b",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/morph-loader.tsx",
+      "source_blob_sha": "d03e38b668a9a9d74e8ee73b4ba29c6adfa79d45",
+      "source_evidence": "SOURCE_PATH_PINNED",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": null,
+      "trigger": "ACTIVE_VISIBLE_REAL_TASK",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-012",
+      "title": "Grid Dots",
+      "slug": "grid-dots",
+      "category": "LOADER_TECHNICAL",
+      "screenshot_number": 1,
+      "screenshot_order": 12,
+      "screenshot_sha256": "02fec6c7687269d39e94c602dff62ce446add4967820310605b8847cc641555b",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/grid-dots.tsx",
+      "source_blob_sha": "43bce304cf8fb4806d5bf159550faa0c1c081084",
+      "source_evidence": "SOURCE_PATH_PINNED",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": null,
+      "trigger": "ACTIVE_VISIBLE_REAL_TASK",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-013",
+      "title": "Clock Spinner",
+      "slug": "clock-spinner",
+      "category": "LOADER_TIME_RELATED",
+      "screenshot_number": 1,
+      "screenshot_order": 13,
+      "screenshot_sha256": "02fec6c7687269d39e94c602dff62ce446add4967820310605b8847cc641555b",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/clock-spinner.tsx",
+      "source_blob_sha": "e8f77893a5b31a0430fd194ff1647301f083f428",
+      "source_evidence": "SOURCE_PATH_PINNED",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": null,
+      "trigger": "ACTIVE_VISIBLE_REAL_TASK",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-014",
+      "title": "Circular Bars",
+      "slug": "circular-bars",
+      "category": "LOADER_DIAGNOSTICS",
+      "screenshot_number": 1,
+      "screenshot_order": 14,
+      "screenshot_sha256": "02fec6c7687269d39e94c602dff62ce446add4967820310605b8847cc641555b",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/circular-bars.tsx",
+      "source_blob_sha": "d23075b3e2eb76062aae1ee19bae0849675d6f7a",
+      "source_evidence": "SOURCE_PATH_PINNED",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": null,
+      "trigger": "ACTIVE_VISIBLE_REAL_TASK",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-015",
+      "title": "Intersecting Rings",
+      "slug": "intersecting-rings",
+      "category": "LOADER_SYNC",
+      "screenshot_number": 1,
+      "screenshot_order": 15,
+      "screenshot_sha256": "02fec6c7687269d39e94c602dff62ce446add4967820310605b8847cc641555b",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/intersecting-rings.tsx",
+      "source_blob_sha": "e0f2653579c356c8e2643ead34ac11f43604fac6",
+      "source_evidence": "SOURCE_PATH_PINNED",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": null,
+      "trigger": "ACTIVE_VISIBLE_REAL_TASK",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-016",
+      "title": "Skeleton",
+      "slug": "skeleton",
+      "category": "CONTENT_PLACEHOLDER",
+      "screenshot_number": 1,
+      "screenshot_order": 16,
+      "screenshot_sha256": "02fec6c7687269d39e94c602dff62ce446add4967820310605b8847cc641555b",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/skeleton.tsx",
+      "source_blob_sha": "30c7693ad4c7234d7ce1fdcebac4befdc3dc69a6",
+      "source_evidence": "SOURCE_PATH_PINNED",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": null,
+      "trigger": "WHILE_CONTENT_PENDING",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-017",
+      "title": "Concentric Ring",
+      "slug": "concentric-ring",
+      "category": "LOADER_RINGS",
+      "screenshot_number": 1,
+      "screenshot_order": 17,
+      "screenshot_sha256": "02fec6c7687269d39e94c602dff62ce446add4967820310605b8847cc641555b",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/concentric-ring.tsx",
+      "source_blob_sha": "7f393e97566e1652c8ffe636bbd17d60126414ad",
+      "source_evidence": "SOURCE_PATH_PINNED",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": null,
+      "trigger": "ACTIVE_VISIBLE_REAL_TASK",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-018",
+      "title": "Range Selection Slider",
+      "slug": "range-selection-slider",
+      "category": "RANGE_INPUT",
+      "screenshot_number": 1,
+      "screenshot_order": 18,
+      "screenshot_sha256": "02fec6c7687269d39e94c602dff62ce446add4967820310605b8847cc641555b",
+      "screenshot_caption": "Feedback",
+      "provider": "Watermelon UI",
+      "source_repo": "WatermelonCorp/watermelon-platform",
+      "source_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "source_path": "src/data/contents/animated-components/range-selection-slider/base.tsx",
+      "source_blob_sha": "c9d73a57572b4c6928f27ce9e2ed2b60e8edc67f",
+      "source_evidence": "SOURCE_FILE_PREVIOUSLY_READ",
+      "existing_design_ref": "WML-004",
+      "existing_record_already_cataloged": true,
+      "design_intent": "Già censito; componente Watermelon verificato.",
+      "trigger": "ON_VALUE_CHANGE",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repository confirmed; component asset/dependency rights checked separately",
+      "user_source_url": "https://devlibraries.com/libraries/watermelon/range-selection-slider"
+    },
+    {
+      "id": "DBM-019",
+      "title": "Bar Cascade",
+      "slug": "bar-cascade",
+      "category": "LOADER_BAR",
+      "screenshot_number": 2,
+      "screenshot_order": 1,
+      "screenshot_sha256": "aabe4abc2d2b16bd6d237095b18dd918c3440a0b91ba11a917012bacf6aedb4e",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/bar-cascade.tsx",
+      "source_blob_sha": "f18c04d313156c04dbda494683a73d9f63fca1fc",
+      "source_evidence": "SOURCE_PATH_PINNED",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": null,
+      "trigger": "ACTIVE_VISIBLE_REAL_TASK",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-020",
+      "title": "Concentric Squares",
+      "slug": "concentric-squares",
+      "category": "LOADER_GEOMETRIC",
+      "screenshot_number": 2,
+      "screenshot_order": 2,
+      "screenshot_sha256": "aabe4abc2d2b16bd6d237095b18dd918c3440a0b91ba11a917012bacf6aedb4e",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/concentric-squares.tsx",
+      "source_blob_sha": "52325442177fb21feeec6ab6fa2b056ada917531",
+      "source_evidence": "SOURCE_PATH_PINNED",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": null,
+      "trigger": "ACTIVE_VISIBLE_REAL_TASK",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-021",
+      "title": "Notification List",
+      "slug": "notification-list",
+      "category": "TODAY_IN_APP_REMINDERS",
+      "screenshot_number": 2,
+      "screenshot_order": 3,
+      "screenshot_sha256": "aabe4abc2d2b16bd6d237095b18dd918c3440a0b91ba11a917012bacf6aedb4e",
+      "screenshot_caption": "Feedback",
+      "provider": "Watermelon UI",
+      "source_repo": "WatermelonCorp/watermelon-platform",
+      "source_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "source_path": null,
+      "source_blob_sha": null,
+      "source_evidence": "EXACT_SOURCE_NOT_LOCATED",
+      "existing_design_ref": "WML-008",
+      "existing_record_already_cataloged": true,
+      "design_intent": "Nome e anteprima visibili nello screenshot; non trovato source file esatto originale; non è una notifica di sistema.",
+      "trigger": "ON_FIRST_OPEN_OR_CONFIGURED_TIME",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repository confirmed; component asset/dependency rights checked separately",
+      "user_source_url": "https://devlibraries.com/libraries/watermelon/notification-list"
+    },
+    {
+      "id": "DBM-022",
+      "title": "Bar Sweep",
+      "slug": "bar-sweep",
+      "category": "LOADER_BAR",
+      "screenshot_number": 2,
+      "screenshot_order": 4,
+      "screenshot_sha256": "aabe4abc2d2b16bd6d237095b18dd918c3440a0b91ba11a917012bacf6aedb4e",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/bar-sweep.tsx",
+      "source_blob_sha": "3240f06f5f78963504408e8122de5daf3096f34b",
+      "source_evidence": "SOURCE_PATH_PINNED",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": null,
+      "trigger": "ACTIVE_VISIBLE_REAL_TASK",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-023",
+      "title": "Conveyor Loop",
+      "slug": "conveyor-loop",
+      "category": "LOADER_TRANSFER",
+      "screenshot_number": 2,
+      "screenshot_order": 5,
+      "screenshot_sha256": "aabe4abc2d2b16bd6d237095b18dd918c3440a0b91ba11a917012bacf6aedb4e",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/conveyor-loop.tsx",
+      "source_blob_sha": "417e9ed63b821da609ed812d313ea855a6026a55",
+      "source_evidence": "SOURCE_PATH_PINNED",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": null,
+      "trigger": "ACTIVE_VISIBLE_REAL_TASK",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-024",
+      "title": "View On Map",
+      "slug": "view-on-map",
+      "category": "MAP_PREVIEW_OVERLAY",
+      "screenshot_number": 2,
+      "screenshot_order": 6,
+      "screenshot_sha256": "aabe4abc2d2b16bd6d237095b18dd918c3440a0b91ba11a917012bacf6aedb4e",
+      "screenshot_caption": "Feedback",
+      "provider": "Watermelon UI",
+      "source_repo": "WatermelonCorp/watermelon-platform",
+      "source_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "source_path": "src/data/contents/animated-components/view-on-map/base.tsx",
+      "source_blob_sha": "c097731af49aa75b07fb11cb45ab40f794ffa5c9",
+      "source_evidence": "SOURCE_FILE_READ",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": "Sorgente React usa Google Maps embed di esempio, non navigazione offline né motore OSM; verificare privacy, API e provider.",
+      "trigger": "ON_REQUESTED_MAP_OPEN",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repository confirmed; component asset/dependency rights checked separately",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-025",
+      "title": "Bouncing Lines",
+      "slug": "bouncing-lines",
+      "category": "LOADER_PLAYFUL",
+      "screenshot_number": 2,
+      "screenshot_order": 7,
+      "screenshot_sha256": "aabe4abc2d2b16bd6d237095b18dd918c3440a0b91ba11a917012bacf6aedb4e",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/bouncing-lines.tsx",
+      "source_blob_sha": "59e67b5c5e974ab882a02eab34213508809519a4",
+      "source_evidence": "SOURCE_PATH_PINNED",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": null,
+      "trigger": "ACTIVE_VISIBLE_REAL_TASK",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-026",
+      "title": "Newtons Cradle",
+      "slug": "newtons-cradle",
+      "category": "LOADER_PHYSICS",
+      "screenshot_number": 2,
+      "screenshot_order": 8,
+      "screenshot_sha256": "aabe4abc2d2b16bd6d237095b18dd918c3440a0b91ba11a917012bacf6aedb4e",
+      "screenshot_caption": "Amicro Micro Transitions – Feedback",
+      "provider": "Amicro",
+      "source_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/newtons-cradle.tsx",
+      "source_blob_sha": "4b17e79706d48a4792098cf922f6628c8e5ed114",
+      "source_evidence": "SOURCE_PATH_PINNED",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": null,
+      "trigger": "ACTIVE_VISIBLE_REAL_TASK",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "MIT repo checked; individual assets/dependencies not accepted",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-027",
+      "title": "Helix Spinner",
+      "slug": null,
+      "category": "UNVERIFIED_LOADER_VISUAL",
+      "screenshot_number": 3,
+      "screenshot_order": 1,
+      "screenshot_sha256": "c1469357f55c5d73d059e64c41393a1d7fdbae71738469016324d24885d5c29f",
+      "screenshot_caption": "Feedback",
+      "provider": "UNVERIFIED_PROVIDER",
+      "source_repo": null,
+      "source_commit": null,
+      "source_path": null,
+      "source_blob_sha": null,
+      "source_evidence": "USER_SCREENSHOT_ONLY",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": "Senza URL/progetto originale verificato; solo screenshot.",
+      "trigger": "ACTIVE_VISIBLE_REAL_TASK",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "LICENSE_NOT_VERIFIED",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-028",
+      "title": "Loader",
+      "slug": null,
+      "category": "UNVERIFIED_LOADER_COLLECTION",
+      "screenshot_number": 3,
+      "screenshot_order": 2,
+      "screenshot_sha256": "c1469357f55c5d73d059e64c41393a1d7fdbae71738469016324d24885d5c29f",
+      "screenshot_caption": "Feedback",
+      "provider": "UNVERIFIED_PROVIDER",
+      "source_repo": null,
+      "source_commit": null,
+      "source_path": null,
+      "source_blob_sha": null,
+      "source_evidence": "USER_SCREENSHOT_ONLY",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": "È una galleria di varianti, non un singolo componente installabile; visibili Spinner, Dots, Bars, Dot Matrix, Dither, Morph e altri.",
+      "trigger": "REFERENCE_GALLERY_NOT_SINGLE_WIDGET",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "LICENSE_NOT_VERIFIED",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-029",
+      "title": "Particle Shape Morph",
+      "slug": null,
+      "category": "UNVERIFIED_PARTICLE_VISUAL",
+      "screenshot_number": 3,
+      "screenshot_order": 3,
+      "screenshot_sha256": "c1469357f55c5d73d059e64c41393a1d7fdbae71738469016324d24885d5c29f",
+      "screenshot_caption": "Feedback",
+      "provider": "UNVERIFIED_PROVIDER",
+      "source_repo": null,
+      "source_commit": null,
+      "source_path": null,
+      "source_blob_sha": null,
+      "source_evidence": "USER_SCREENSHOT_ONLY",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": "Effetto particellare potenzialmente costoso; non usarlo come indicatore affidabile di progresso.",
+      "trigger": "DECORATIVE_ONLY_IF_APPROVED",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "LICENSE_NOT_VERIFIED",
+      "user_source_url": null
+    },
+    {
+      "id": "DBM-030",
+      "title": "Infinite Spiral",
+      "slug": null,
+      "category": "UNVERIFIED_MEDIA_VISUAL",
+      "screenshot_number": 3,
+      "screenshot_order": 4,
+      "screenshot_sha256": "c1469357f55c5d73d059e64c41393a1d7fdbae71738469016324d24885d5c29f",
+      "screenshot_caption": "Media",
+      "provider": "UNVERIFIED_PROVIDER",
+      "source_repo": null,
+      "source_commit": null,
+      "source_path": null,
+      "source_blob_sha": null,
+      "source_evidence": "USER_SCREENSHOT_ONLY",
+      "existing_design_ref": null,
+      "existing_record_already_cataloged": false,
+      "design_intent": "Screenshot lo classifica Media, NON caricamento; sorgente non attribuita.",
+      "trigger": "MEDIA_PRESENTATION_ONLY",
+      "status": "REFERENCE",
+      "asset_status": "SCREENSHOT_NOT_COMMITTED",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "license": "LICENSE_NOT_VERIFIED",
+      "user_source_url": null
+    }
+  ],
+  "associations": [
+    {
+      "bookmark_id": "DBM-001",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "use_case": "Attesa indicizzazione o import effettiva",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-001",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "use_case": "Analisi file in corso",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-001",
+      "app": "World Days",
+      "fit": "HIGH",
+      "use_case": "Caricamento contenuto attivo",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-001",
+      "app": "Send-to-PC",
+      "fit": "HIGH",
+      "use_case": "Negoziazione collegamento",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-001",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "use_case": "Fetch stato CI",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-002",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "use_case": "Task breve con stato di attesa",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-002",
+      "app": "World Days",
+      "fit": "HIGH",
+      "use_case": "Caricamento dettagli giornata",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-002",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "use_case": "Apertura file o nota durante I/O",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-002",
+      "app": "Anna's Diary",
+      "fit": "MEDIUM",
+      "use_case": "Sync visibile solo se reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-002",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "use_case": "Caricamento ricette",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-003",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "use_case": "Salvataggio o recupero breve",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-003",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "use_case": "Piccolo feedback non intrusivo per sincronizzazione",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-003",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "use_case": "Caricamento tappa",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-003",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "use_case": "Consultazione dettagli",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-004",
+      "app": "Deskland Android",
+      "fit": "HIGH",
+      "use_case": "Avvio launcher con inizializzazione effettiva",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-004",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "use_case": "Splash di brand durante dati iniziali",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-004",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "use_case": "Prima lettura database offline",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-004",
+      "app": "Omni Cleaner",
+      "fit": "MEDIUM",
+      "use_case": "Preparazione galleria media",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-005",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "use_case": "Sblocco Vault dopo risposta biometrica reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-005",
+      "app": "Pocket Guard",
+      "fit": "HIGH",
+      "use_case": "Conferma sblocco sicurezza solo dopo API OS",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-005",
+      "app": "Tabletop Motion Alarm",
+      "fit": "MEDIUM",
+      "use_case": "Interfaccia disarmo dove esiste supporto biometrico",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-006",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "use_case": "Scansione media in corso",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-006",
+      "app": "Send-to-PC",
+      "fit": "HIGH",
+      "use_case": "Trasferimento in attesa di progresso misurabile",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-006",
+      "app": "App Factory Dashboard",
+      "fit": "MEDIUM",
+      "use_case": "Elaborazione stato progetto",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-006",
+      "app": "Battery Guard",
+      "fit": "MEDIUM",
+      "use_case": "Raccolta diagnostica reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-007",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "use_case": "Feedback delicato nella Home Ricordi solo durante attesa vera",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-007",
+      "app": "SleepMax Coach",
+      "fit": "HIGH",
+      "use_case": "Preparazione routine non disturbante",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-007",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "use_case": "Salvataggio breve",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-007",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "use_case": "Apertura diario viaggio",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-008",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "use_case": "Attesa breve con palette rose",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-008",
+      "app": "Cooking Anime",
+      "fit": "HIGH",
+      "use_case": "Apertura ricetta o media",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-008",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "use_case": "Caricamento storia",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-008",
+      "app": "Battery Guard",
+      "fit": "MEDIUM",
+      "use_case": "Aggiornamento misure",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-009",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "use_case": "Task di pipeline CI con output reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-009",
+      "app": "Easy Debloat",
+      "fit": "MEDIUM",
+      "use_case": "Operazione ADB/Shizuku effettiva",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-009",
+      "app": "Send-to-PC",
+      "fit": "MEDIUM",
+      "use_case": "Connessione peer con log",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-009",
+      "app": "Deskland Android",
+      "fit": "MEDIUM",
+      "use_case": "Diagnostica developer opzionale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-010",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "use_case": "Attesa contenuti Ricordi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-010",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "use_case": "Indicatore salvataggio dati",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-010",
+      "app": "SleepMax Coach",
+      "fit": "MEDIUM",
+      "use_case": "Riepilogo routine",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-010",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "use_case": "Recupero scheda offline",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-011",
+      "app": "Cooking Anime",
+      "fit": "HIGH",
+      "use_case": "Caricamento ricetta brandizzato senza bloccare comandi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-011",
+      "app": "FrameLab",
+      "fit": "HIGH",
+      "use_case": "Anteprima media in elaborazione",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-011",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "use_case": "Passaggio tra ricordi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-011",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "use_case": "Caricamento bacheca",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-012",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "use_case": "Caricamento repository/capability",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-012",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "use_case": "Scansione batch media",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-012",
+      "app": "Deskland Android",
+      "fit": "MEDIUM",
+      "use_case": "Preparazione pannello app",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-013",
+      "app": "SleepMax Coach",
+      "fit": "HIGH",
+      "use_case": "Aggiornamento timer/pianificazione",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-013",
+      "app": "Tabletop Motion Alarm",
+      "fit": "MEDIUM",
+      "use_case": "Preparazione allarme, countdown reale separato",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-013",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "use_case": "Inizializzazione timer ricetta",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-014",
+      "app": "Battery Guard",
+      "fit": "HIGH",
+      "use_case": "Analisi batteria con campionamento attivo",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-014",
+      "app": "FocusSense",
+      "fit": "HIGH",
+      "use_case": "Calcolo Focus Score reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-014",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "use_case": "Scansione e analisi effettiva",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-014",
+      "app": "App Factory Dashboard",
+      "fit": "MEDIUM",
+      "use_case": "Elaborazione metrica",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-015",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "use_case": "Sync reale note",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-015",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "use_case": "Sync eventi e Ricordi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-015",
+      "app": "Send-to-PC",
+      "fit": "MEDIUM",
+      "use_case": "Connessione tra dispositivi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-015",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "use_case": "Sync contenuti scaricabili",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-016",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "use_case": "Blocchi editoriali durante I/O, con layout stabile",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-016",
+      "app": "World Days",
+      "fit": "HIGH",
+      "use_case": "Schede ricorrenze in attesa dati",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-016",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "use_case": "Dashboard con placeholder stabili",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-016",
+      "app": "Cooking Anime",
+      "fit": "HIGH",
+      "use_case": "Card ricette con layout foto",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-016",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "use_case": "Sezione Ricordi quando serve davvero il caricamento",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-017",
+      "app": "Battery Guard",
+      "fit": "MEDIUM",
+      "use_case": "Attesa elaborazione diagnostica",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-017",
+      "app": "FocusSense",
+      "fit": "HIGH",
+      "use_case": "Calcolo metrica",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-017",
+      "app": "The Luminous Infinite Circle",
+      "fit": "MEDIUM",
+      "use_case": "Anteprima effetti separata da notifica reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-017",
+      "app": "Deskland Android",
+      "fit": "MEDIUM",
+      "use_case": "Caricamento pannello widget",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-018",
+      "app": "Anna's Diary",
+      "fit": "MEDIUM",
+      "use_case": "Selezione intervallo per Ricordi o calendario se realmente supportata",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-018",
+      "app": "Wonderlog",
+      "fit": "HIGH",
+      "use_case": "Filtro date viaggio",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-018",
+      "app": "CashMate AI",
+      "fit": "HIGH",
+      "use_case": "Range importo e periodo",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-018",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "use_case": "Filtro dimensione/durata media",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-019",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "use_case": "Analisi galleria in corso",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-019",
+      "app": "Send-to-PC",
+      "fit": "MEDIUM",
+      "use_case": "Preparazione pacchetto trasferimento",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-019",
+      "app": "App Factory Dashboard",
+      "fit": "MEDIUM",
+      "use_case": "Elaborazione batch",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-019",
+      "app": "FocusSense",
+      "fit": "MEDIUM",
+      "use_case": "Aggiornamento dei report",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-020",
+      "app": "Deskland Android",
+      "fit": "MEDIUM",
+      "use_case": "Caricamento launcher con modalità risparmio movimento",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-020",
+      "app": "App Factory Dashboard",
+      "fit": "MEDIUM",
+      "use_case": "Inizializzazione vista dati",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-020",
+      "app": "Omni Cleaner",
+      "fit": "MEDIUM",
+      "use_case": "Analisi contenuti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-020",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "use_case": "Brand loading opzionale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-021",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "use_case": "Home Oggi elenco impegni reali alla prima apertura del giorno o orario configurato",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-021",
+      "app": "SleepMax Coach",
+      "fit": "HIGH",
+      "use_case": "Riepilogo routine effettive",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-021",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "use_case": "Ricorrenze del giorno",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-021",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "use_case": "Scadenze se feature presente",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-021",
+      "app": "App Factory Dashboard",
+      "fit": "MEDIUM",
+      "use_case": "Attività operative se pianificate",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-022",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "use_case": "Scansione file reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-022",
+      "app": "Send-to-PC",
+      "fit": "MEDIUM",
+      "use_case": "Attesa trasferimento",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-022",
+      "app": "Battery Guard",
+      "fit": "MEDIUM",
+      "use_case": "Diagnostica in corso",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-022",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "use_case": "Caricamento catalogo",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-023",
+      "app": "Send-to-PC",
+      "fit": "HIGH",
+      "use_case": "Preparazione del trasferimento reale, non progresso byte fittizio",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-023",
+      "app": "Omni Cleaner",
+      "fit": "MEDIUM",
+      "use_case": "Elaborazione batch",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-023",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "use_case": "Coda job effettiva",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-023",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "use_case": "Import note reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-024",
+      "app": "Wonderlog",
+      "fit": "HIGH",
+      "use_case": "Anteprima mappa dei luoghi, mantenendo OSM se previsto",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-024",
+      "app": "TrailPath",
+      "fit": "HIGH",
+      "use_case": "Dettaglio waypoint senza sostituire routing attuale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-024",
+      "app": "CamperBoss",
+      "fit": "HIGH",
+      "use_case": "Visualizzazione area sosta o tappa",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-024",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "use_case": "Luogo evento soltanto se dato disponibile",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-024",
+      "app": "Anna's Diary",
+      "fit": "MEDIUM",
+      "use_case": "Luogo appuntamento opzionale e con privacy",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-025",
+      "app": "Cooking Anime",
+      "fit": "HIGH",
+      "use_case": "Caricamento ricetta con movimento contenuto",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-025",
+      "app": "Anna's Diary",
+      "fit": "MEDIUM",
+      "use_case": "Attesa breve dopo salvataggio",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-025",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "use_case": "Caricamento storia",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-025",
+      "app": "SleepMax Coach",
+      "fit": "MEDIUM",
+      "use_case": "Caricamento routine",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-026",
+      "app": "App Factory Dashboard",
+      "fit": "MEDIUM",
+      "use_case": "Task pipeline in attesa",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-026",
+      "app": "FocusSense",
+      "fit": "MEDIUM",
+      "use_case": "Analisi score",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-026",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "use_case": "Attesa durante elaborazione non critica",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-026",
+      "app": "Omni Cleaner",
+      "fit": "MEDIUM",
+      "use_case": "Scansione, solo se non rallenta UI",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-027",
+      "app": "Omni Cleaner",
+      "fit": "MEDIUM",
+      "use_case": "Loader sperimentale solo se costo grafico sostenibile",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-027",
+      "app": "FrameLab",
+      "fit": "MEDIUM",
+      "use_case": "Anteprima render in corso",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-027",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "use_case": "Variazione visuale di caricamento",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-028",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "use_case": "Reference comparativa tra spinner, dots, bars e varianti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-028",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "use_case": "Studio semantica di caricamento",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-028",
+      "app": "Omni Cleaner",
+      "fit": "MEDIUM",
+      "use_case": "Selezione futura del loader coerente",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-029",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "use_case": "Hero di sezione o transizione celebrativa non continua",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-029",
+      "app": "Deskland Android",
+      "fit": "MEDIUM",
+      "use_case": "Effetto visivo accessorio dopo stabilità launcher",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-029",
+      "app": "FrameLab",
+      "fit": "MEDIUM",
+      "use_case": "Presentazione media, non sopra editor",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-029",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "use_case": "Vision board su web con riduzione movimento",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-030",
+      "app": "FrameLab",
+      "fit": "MEDIUM",
+      "use_case": "Presentazione media a spirale se coerente con editor",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-030",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "use_case": "Showcase foto viaggio, non galleria principale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-030",
+      "app": "Deskland Android",
+      "fit": "MEDIUM",
+      "use_case": "Esperimento visuale dopo collaudo FPS",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "bookmark_id": "DBM-030",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "use_case": "Galleria promozionale tematica",
+      "status": "PROPOSED_ONLY"
+    }
+  ],
+  "by_app": {
+    "Anna's Diary": [
+      {
+        "bookmark_id": "DBM-002",
+        "fit": "MEDIUM",
+        "use_case": "Sync visibile solo se reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-003",
+        "fit": "HIGH",
+        "use_case": "Piccolo feedback non intrusivo per sincronizzazione",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-005",
+        "fit": "HIGH",
+        "use_case": "Sblocco Vault dopo risposta biometrica reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-007",
+        "fit": "HIGH",
+        "use_case": "Feedback delicato nella Home Ricordi solo durante attesa vera",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-008",
+        "fit": "HIGH",
+        "use_case": "Attesa breve con palette rose",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-010",
+        "fit": "HIGH",
+        "use_case": "Attesa contenuti Ricordi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-015",
+        "fit": "HIGH",
+        "use_case": "Sync eventi e Ricordi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-016",
+        "fit": "HIGH",
+        "use_case": "Sezione Ricordi quando serve davvero il caricamento",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-018",
+        "fit": "MEDIUM",
+        "use_case": "Selezione intervallo per Ricordi o calendario se realmente supportata",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-021",
+        "fit": "HIGH",
+        "use_case": "Home Oggi elenco impegni reali alla prima apertura del giorno o orario configurato",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-024",
+        "fit": "MEDIUM",
+        "use_case": "Luogo appuntamento opzionale e con privacy",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-025",
+        "fit": "MEDIUM",
+        "use_case": "Attesa breve dopo salvataggio",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "App Factory Dashboard": [
+      {
+        "bookmark_id": "DBM-001",
+        "fit": "HIGH",
+        "use_case": "Fetch stato CI",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-006",
+        "fit": "MEDIUM",
+        "use_case": "Elaborazione stato progetto",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-009",
+        "fit": "HIGH",
+        "use_case": "Task di pipeline CI con output reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-012",
+        "fit": "HIGH",
+        "use_case": "Caricamento repository/capability",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-014",
+        "fit": "MEDIUM",
+        "use_case": "Elaborazione metrica",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-016",
+        "fit": "HIGH",
+        "use_case": "Dashboard con placeholder stabili",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-019",
+        "fit": "MEDIUM",
+        "use_case": "Elaborazione batch",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-020",
+        "fit": "MEDIUM",
+        "use_case": "Inizializzazione vista dati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-021",
+        "fit": "MEDIUM",
+        "use_case": "Attività operative se pianificate",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-023",
+        "fit": "HIGH",
+        "use_case": "Coda job effettiva",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-026",
+        "fit": "MEDIUM",
+        "use_case": "Task pipeline in attesa",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-028",
+        "fit": "HIGH",
+        "use_case": "Reference comparativa tra spinner, dots, bars e varianti",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Battery Guard": [
+      {
+        "bookmark_id": "DBM-006",
+        "fit": "MEDIUM",
+        "use_case": "Raccolta diagnostica reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-008",
+        "fit": "MEDIUM",
+        "use_case": "Aggiornamento misure",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-014",
+        "fit": "HIGH",
+        "use_case": "Analisi batteria con campionamento attivo",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-017",
+        "fit": "MEDIUM",
+        "use_case": "Attesa elaborazione diagnostica",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-022",
+        "fit": "MEDIUM",
+        "use_case": "Diagnostica in corso",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "CamperBoss": [
+      {
+        "bookmark_id": "DBM-024",
+        "fit": "HIGH",
+        "use_case": "Visualizzazione area sosta o tappa",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "CashMate AI": [
+      {
+        "bookmark_id": "DBM-018",
+        "fit": "HIGH",
+        "use_case": "Range importo e periodo",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Cooking Anime": [
+      {
+        "bookmark_id": "DBM-002",
+        "fit": "MEDIUM",
+        "use_case": "Caricamento ricette",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-004",
+        "fit": "MEDIUM",
+        "use_case": "Splash di brand durante dati iniziali",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-008",
+        "fit": "HIGH",
+        "use_case": "Apertura ricetta o media",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-011",
+        "fit": "HIGH",
+        "use_case": "Caricamento ricetta brandizzato senza bloccare comandi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-013",
+        "fit": "MEDIUM",
+        "use_case": "Inizializzazione timer ricetta",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-016",
+        "fit": "HIGH",
+        "use_case": "Card ricette con layout foto",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-020",
+        "fit": "MEDIUM",
+        "use_case": "Brand loading opzionale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-025",
+        "fit": "HIGH",
+        "use_case": "Caricamento ricetta con movimento contenuto",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-026",
+        "fit": "MEDIUM",
+        "use_case": "Attesa durante elaborazione non critica",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-027",
+        "fit": "MEDIUM",
+        "use_case": "Variazione visuale di caricamento",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-029",
+        "fit": "MEDIUM",
+        "use_case": "Hero di sezione o transizione celebrativa non continua",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-030",
+        "fit": "MEDIUM",
+        "use_case": "Galleria promozionale tematica",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Deskland Android": [
+      {
+        "bookmark_id": "DBM-004",
+        "fit": "HIGH",
+        "use_case": "Avvio launcher con inizializzazione effettiva",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-009",
+        "fit": "MEDIUM",
+        "use_case": "Diagnostica developer opzionale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-012",
+        "fit": "MEDIUM",
+        "use_case": "Preparazione pannello app",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-017",
+        "fit": "MEDIUM",
+        "use_case": "Caricamento pannello widget",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-020",
+        "fit": "MEDIUM",
+        "use_case": "Caricamento launcher con modalità risparmio movimento",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-029",
+        "fit": "MEDIUM",
+        "use_case": "Effetto visivo accessorio dopo stabilità launcher",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-030",
+        "fit": "MEDIUM",
+        "use_case": "Esperimento visuale dopo collaudo FPS",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Easy Debloat": [
+      {
+        "bookmark_id": "DBM-009",
+        "fit": "MEDIUM",
+        "use_case": "Operazione ADB/Shizuku effettiva",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "FocusSense": [
+      {
+        "bookmark_id": "DBM-014",
+        "fit": "HIGH",
+        "use_case": "Calcolo Focus Score reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-017",
+        "fit": "HIGH",
+        "use_case": "Calcolo metrica",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-019",
+        "fit": "MEDIUM",
+        "use_case": "Aggiornamento dei report",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-026",
+        "fit": "MEDIUM",
+        "use_case": "Analisi score",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "FrameLab": [
+      {
+        "bookmark_id": "DBM-011",
+        "fit": "HIGH",
+        "use_case": "Anteprima media in elaborazione",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-027",
+        "fit": "MEDIUM",
+        "use_case": "Anteprima render in corso",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-029",
+        "fit": "MEDIUM",
+        "use_case": "Presentazione media, non sopra editor",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-030",
+        "fit": "MEDIUM",
+        "use_case": "Presentazione media a spirale se coerente con editor",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Notes-Ecosistema": [
+      {
+        "bookmark_id": "DBM-001",
+        "fit": "HIGH",
+        "use_case": "Attesa indicizzazione o import effettiva",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-002",
+        "fit": "HIGH",
+        "use_case": "Apertura file o nota durante I/O",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-003",
+        "fit": "HIGH",
+        "use_case": "Salvataggio o recupero breve",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-007",
+        "fit": "MEDIUM",
+        "use_case": "Salvataggio breve",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-010",
+        "fit": "HIGH",
+        "use_case": "Indicatore salvataggio dati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-011",
+        "fit": "MEDIUM",
+        "use_case": "Caricamento bacheca",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-015",
+        "fit": "HIGH",
+        "use_case": "Sync reale note",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-016",
+        "fit": "HIGH",
+        "use_case": "Blocchi editoriali durante I/O, con layout stabile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-021",
+        "fit": "MEDIUM",
+        "use_case": "Scadenze se feature presente",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-023",
+        "fit": "MEDIUM",
+        "use_case": "Import note reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-028",
+        "fit": "MEDIUM",
+        "use_case": "Studio semantica di caricamento",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-029",
+        "fit": "MEDIUM",
+        "use_case": "Vision board su web con riduzione movimento",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Omni Cleaner": [
+      {
+        "bookmark_id": "DBM-001",
+        "fit": "HIGH",
+        "use_case": "Analisi file in corso",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-002",
+        "fit": "HIGH",
+        "use_case": "Task breve con stato di attesa",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-004",
+        "fit": "MEDIUM",
+        "use_case": "Preparazione galleria media",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-006",
+        "fit": "HIGH",
+        "use_case": "Scansione media in corso",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-012",
+        "fit": "HIGH",
+        "use_case": "Scansione batch media",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-014",
+        "fit": "HIGH",
+        "use_case": "Scansione e analisi effettiva",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-018",
+        "fit": "HIGH",
+        "use_case": "Filtro dimensione/durata media",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-019",
+        "fit": "HIGH",
+        "use_case": "Analisi galleria in corso",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-020",
+        "fit": "MEDIUM",
+        "use_case": "Analisi contenuti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-022",
+        "fit": "HIGH",
+        "use_case": "Scansione file reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-023",
+        "fit": "MEDIUM",
+        "use_case": "Elaborazione batch",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-026",
+        "fit": "MEDIUM",
+        "use_case": "Scansione, solo se non rallenta UI",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-027",
+        "fit": "MEDIUM",
+        "use_case": "Loader sperimentale solo se costo grafico sostenibile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-028",
+        "fit": "MEDIUM",
+        "use_case": "Selezione futura del loader coerente",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Pocket Guard": [
+      {
+        "bookmark_id": "DBM-005",
+        "fit": "HIGH",
+        "use_case": "Conferma sblocco sicurezza solo dopo API OS",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Send-to-PC": [
+      {
+        "bookmark_id": "DBM-001",
+        "fit": "HIGH",
+        "use_case": "Negoziazione collegamento",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-006",
+        "fit": "HIGH",
+        "use_case": "Trasferimento in attesa di progresso misurabile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-009",
+        "fit": "MEDIUM",
+        "use_case": "Connessione peer con log",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-015",
+        "fit": "MEDIUM",
+        "use_case": "Connessione tra dispositivi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-019",
+        "fit": "MEDIUM",
+        "use_case": "Preparazione pacchetto trasferimento",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-022",
+        "fit": "MEDIUM",
+        "use_case": "Attesa trasferimento",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-023",
+        "fit": "HIGH",
+        "use_case": "Preparazione del trasferimento reale, non progresso byte fittizio",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "SleepMax Coach": [
+      {
+        "bookmark_id": "DBM-007",
+        "fit": "HIGH",
+        "use_case": "Preparazione routine non disturbante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-010",
+        "fit": "MEDIUM",
+        "use_case": "Riepilogo routine",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-013",
+        "fit": "HIGH",
+        "use_case": "Aggiornamento timer/pianificazione",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-021",
+        "fit": "HIGH",
+        "use_case": "Riepilogo routine effettive",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-025",
+        "fit": "MEDIUM",
+        "use_case": "Caricamento routine",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Tabletop Motion Alarm": [
+      {
+        "bookmark_id": "DBM-005",
+        "fit": "MEDIUM",
+        "use_case": "Interfaccia disarmo dove esiste supporto biometrico",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-013",
+        "fit": "MEDIUM",
+        "use_case": "Preparazione allarme, countdown reale separato",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "The Luminous Infinite Circle": [
+      {
+        "bookmark_id": "DBM-017",
+        "fit": "MEDIUM",
+        "use_case": "Anteprima effetti separata da notifica reale",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "TrailPath": [
+      {
+        "bookmark_id": "DBM-024",
+        "fit": "HIGH",
+        "use_case": "Dettaglio waypoint senza sostituire routing attuale",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Wonderlog": [
+      {
+        "bookmark_id": "DBM-003",
+        "fit": "MEDIUM",
+        "use_case": "Caricamento tappa",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-007",
+        "fit": "MEDIUM",
+        "use_case": "Apertura diario viaggio",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-011",
+        "fit": "MEDIUM",
+        "use_case": "Passaggio tra ricordi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-018",
+        "fit": "HIGH",
+        "use_case": "Filtro date viaggio",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-024",
+        "fit": "HIGH",
+        "use_case": "Anteprima mappa dei luoghi, mantenendo OSM se previsto",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-030",
+        "fit": "MEDIUM",
+        "use_case": "Showcase foto viaggio, non galleria principale",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "World Days": [
+      {
+        "bookmark_id": "DBM-001",
+        "fit": "HIGH",
+        "use_case": "Caricamento contenuto attivo",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-002",
+        "fit": "HIGH",
+        "use_case": "Caricamento dettagli giornata",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-003",
+        "fit": "MEDIUM",
+        "use_case": "Consultazione dettagli",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-004",
+        "fit": "MEDIUM",
+        "use_case": "Prima lettura database offline",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-008",
+        "fit": "MEDIUM",
+        "use_case": "Caricamento storia",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-010",
+        "fit": "MEDIUM",
+        "use_case": "Recupero scheda offline",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-015",
+        "fit": "MEDIUM",
+        "use_case": "Sync contenuti scaricabili",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-016",
+        "fit": "HIGH",
+        "use_case": "Schede ricorrenze in attesa dati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-021",
+        "fit": "MEDIUM",
+        "use_case": "Ricorrenze del giorno",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-022",
+        "fit": "MEDIUM",
+        "use_case": "Caricamento catalogo",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-024",
+        "fit": "MEDIUM",
+        "use_case": "Luogo evento soltanto se dato disponibile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "bookmark_id": "DBM-025",
+        "fit": "MEDIUM",
+        "use_case": "Caricamento storia",
+        "status": "PROPOSED_ONLY"
+      }
+    ]
+  },
+  "by_item": {
+    "DBM-001": [
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "use_case": "Attesa indicizzazione o import effettiva",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "use_case": "Analisi file in corso",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "HIGH",
+        "use_case": "Caricamento contenuto attivo",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Send-to-PC",
+        "fit": "HIGH",
+        "use_case": "Negoziazione collegamento",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "use_case": "Fetch stato CI",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-002": [
+      {
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "use_case": "Task breve con stato di attesa",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "HIGH",
+        "use_case": "Caricamento dettagli giornata",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "use_case": "Apertura file o nota durante I/O",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Anna's Diary",
+        "fit": "MEDIUM",
+        "use_case": "Sync visibile solo se reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "use_case": "Caricamento ricette",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-003": [
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "use_case": "Salvataggio o recupero breve",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "use_case": "Piccolo feedback non intrusivo per sincronizzazione",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "use_case": "Caricamento tappa",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "use_case": "Consultazione dettagli",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-004": [
+      {
+        "app": "Deskland Android",
+        "fit": "HIGH",
+        "use_case": "Avvio launcher con inizializzazione effettiva",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "use_case": "Splash di brand durante dati iniziali",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "use_case": "Prima lettura database offline",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "MEDIUM",
+        "use_case": "Preparazione galleria media",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-005": [
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "use_case": "Sblocco Vault dopo risposta biometrica reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Pocket Guard",
+        "fit": "HIGH",
+        "use_case": "Conferma sblocco sicurezza solo dopo API OS",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Tabletop Motion Alarm",
+        "fit": "MEDIUM",
+        "use_case": "Interfaccia disarmo dove esiste supporto biometrico",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-006": [
+      {
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "use_case": "Scansione media in corso",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Send-to-PC",
+        "fit": "HIGH",
+        "use_case": "Trasferimento in attesa di progresso misurabile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "MEDIUM",
+        "use_case": "Elaborazione stato progetto",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Battery Guard",
+        "fit": "MEDIUM",
+        "use_case": "Raccolta diagnostica reale",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-007": [
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "use_case": "Feedback delicato nella Home Ricordi solo durante attesa vera",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "SleepMax Coach",
+        "fit": "HIGH",
+        "use_case": "Preparazione routine non disturbante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "use_case": "Salvataggio breve",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "use_case": "Apertura diario viaggio",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-008": [
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "use_case": "Attesa breve con palette rose",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "HIGH",
+        "use_case": "Apertura ricetta o media",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "use_case": "Caricamento storia",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Battery Guard",
+        "fit": "MEDIUM",
+        "use_case": "Aggiornamento misure",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-009": [
+      {
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "use_case": "Task di pipeline CI con output reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Easy Debloat",
+        "fit": "MEDIUM",
+        "use_case": "Operazione ADB/Shizuku effettiva",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Send-to-PC",
+        "fit": "MEDIUM",
+        "use_case": "Connessione peer con log",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Deskland Android",
+        "fit": "MEDIUM",
+        "use_case": "Diagnostica developer opzionale",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-010": [
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "use_case": "Attesa contenuti Ricordi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "use_case": "Indicatore salvataggio dati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "SleepMax Coach",
+        "fit": "MEDIUM",
+        "use_case": "Riepilogo routine",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "use_case": "Recupero scheda offline",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-011": [
+      {
+        "app": "Cooking Anime",
+        "fit": "HIGH",
+        "use_case": "Caricamento ricetta brandizzato senza bloccare comandi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "HIGH",
+        "use_case": "Anteprima media in elaborazione",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "use_case": "Passaggio tra ricordi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "use_case": "Caricamento bacheca",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-012": [
+      {
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "use_case": "Caricamento repository/capability",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "use_case": "Scansione batch media",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Deskland Android",
+        "fit": "MEDIUM",
+        "use_case": "Preparazione pannello app",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-013": [
+      {
+        "app": "SleepMax Coach",
+        "fit": "HIGH",
+        "use_case": "Aggiornamento timer/pianificazione",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Tabletop Motion Alarm",
+        "fit": "MEDIUM",
+        "use_case": "Preparazione allarme, countdown reale separato",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "use_case": "Inizializzazione timer ricetta",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-014": [
+      {
+        "app": "Battery Guard",
+        "fit": "HIGH",
+        "use_case": "Analisi batteria con campionamento attivo",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FocusSense",
+        "fit": "HIGH",
+        "use_case": "Calcolo Focus Score reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "use_case": "Scansione e analisi effettiva",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "MEDIUM",
+        "use_case": "Elaborazione metrica",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-015": [
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "use_case": "Sync reale note",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "use_case": "Sync eventi e Ricordi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Send-to-PC",
+        "fit": "MEDIUM",
+        "use_case": "Connessione tra dispositivi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "use_case": "Sync contenuti scaricabili",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-016": [
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "use_case": "Blocchi editoriali durante I/O, con layout stabile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "HIGH",
+        "use_case": "Schede ricorrenze in attesa dati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "use_case": "Dashboard con placeholder stabili",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "HIGH",
+        "use_case": "Card ricette con layout foto",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "use_case": "Sezione Ricordi quando serve davvero il caricamento",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-017": [
+      {
+        "app": "Battery Guard",
+        "fit": "MEDIUM",
+        "use_case": "Attesa elaborazione diagnostica",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FocusSense",
+        "fit": "HIGH",
+        "use_case": "Calcolo metrica",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "The Luminous Infinite Circle",
+        "fit": "MEDIUM",
+        "use_case": "Anteprima effetti separata da notifica reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Deskland Android",
+        "fit": "MEDIUM",
+        "use_case": "Caricamento pannello widget",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-018": [
+      {
+        "app": "Anna's Diary",
+        "fit": "MEDIUM",
+        "use_case": "Selezione intervallo per Ricordi o calendario se realmente supportata",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "HIGH",
+        "use_case": "Filtro date viaggio",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "CashMate AI",
+        "fit": "HIGH",
+        "use_case": "Range importo e periodo",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "use_case": "Filtro dimensione/durata media",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-019": [
+      {
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "use_case": "Analisi galleria in corso",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Send-to-PC",
+        "fit": "MEDIUM",
+        "use_case": "Preparazione pacchetto trasferimento",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "MEDIUM",
+        "use_case": "Elaborazione batch",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FocusSense",
+        "fit": "MEDIUM",
+        "use_case": "Aggiornamento dei report",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-020": [
+      {
+        "app": "Deskland Android",
+        "fit": "MEDIUM",
+        "use_case": "Caricamento launcher con modalità risparmio movimento",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "MEDIUM",
+        "use_case": "Inizializzazione vista dati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "MEDIUM",
+        "use_case": "Analisi contenuti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "use_case": "Brand loading opzionale",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-021": [
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "use_case": "Home Oggi elenco impegni reali alla prima apertura del giorno o orario configurato",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "SleepMax Coach",
+        "fit": "HIGH",
+        "use_case": "Riepilogo routine effettive",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "use_case": "Ricorrenze del giorno",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "use_case": "Scadenze se feature presente",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "MEDIUM",
+        "use_case": "Attività operative se pianificate",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-022": [
+      {
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "use_case": "Scansione file reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Send-to-PC",
+        "fit": "MEDIUM",
+        "use_case": "Attesa trasferimento",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Battery Guard",
+        "fit": "MEDIUM",
+        "use_case": "Diagnostica in corso",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "use_case": "Caricamento catalogo",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-023": [
+      {
+        "app": "Send-to-PC",
+        "fit": "HIGH",
+        "use_case": "Preparazione del trasferimento reale, non progresso byte fittizio",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "MEDIUM",
+        "use_case": "Elaborazione batch",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "use_case": "Coda job effettiva",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "use_case": "Import note reale",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-024": [
+      {
+        "app": "Wonderlog",
+        "fit": "HIGH",
+        "use_case": "Anteprima mappa dei luoghi, mantenendo OSM se previsto",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "TrailPath",
+        "fit": "HIGH",
+        "use_case": "Dettaglio waypoint senza sostituire routing attuale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "CamperBoss",
+        "fit": "HIGH",
+        "use_case": "Visualizzazione area sosta o tappa",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "use_case": "Luogo evento soltanto se dato disponibile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Anna's Diary",
+        "fit": "MEDIUM",
+        "use_case": "Luogo appuntamento opzionale e con privacy",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-025": [
+      {
+        "app": "Cooking Anime",
+        "fit": "HIGH",
+        "use_case": "Caricamento ricetta con movimento contenuto",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Anna's Diary",
+        "fit": "MEDIUM",
+        "use_case": "Attesa breve dopo salvataggio",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "use_case": "Caricamento storia",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "SleepMax Coach",
+        "fit": "MEDIUM",
+        "use_case": "Caricamento routine",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-026": [
+      {
+        "app": "App Factory Dashboard",
+        "fit": "MEDIUM",
+        "use_case": "Task pipeline in attesa",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FocusSense",
+        "fit": "MEDIUM",
+        "use_case": "Analisi score",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "use_case": "Attesa durante elaborazione non critica",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "MEDIUM",
+        "use_case": "Scansione, solo se non rallenta UI",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-027": [
+      {
+        "app": "Omni Cleaner",
+        "fit": "MEDIUM",
+        "use_case": "Loader sperimentale solo se costo grafico sostenibile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "MEDIUM",
+        "use_case": "Anteprima render in corso",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "use_case": "Variazione visuale di caricamento",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-028": [
+      {
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "use_case": "Reference comparativa tra spinner, dots, bars e varianti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "use_case": "Studio semantica di caricamento",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "MEDIUM",
+        "use_case": "Selezione futura del loader coerente",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-029": [
+      {
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "use_case": "Hero di sezione o transizione celebrativa non continua",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Deskland Android",
+        "fit": "MEDIUM",
+        "use_case": "Effetto visivo accessorio dopo stabilità launcher",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "MEDIUM",
+        "use_case": "Presentazione media, non sopra editor",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "use_case": "Vision board su web con riduzione movimento",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DBM-030": [
+      {
+        "app": "FrameLab",
+        "fit": "MEDIUM",
+        "use_case": "Presentazione media a spirale se coerente con editor",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "use_case": "Showcase foto viaggio, non galleria principale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Deskland Android",
+        "fit": "MEDIUM",
+        "use_case": "Esperimento visuale dopo collaudo FPS",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "use_case": "Galleria promozionale tematica",
+        "status": "PROPOSED_ONLY"
+      }
+    ]
+  }
+}

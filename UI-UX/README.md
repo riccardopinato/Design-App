@@ -65,3 +65,39 @@ Le 99 schede possono aprire l'immagine direttamente cliccando l'ID `UIR-xxxx` ne
 ## Fonte componenti interattivi — Ruixen UI
 
 Oltre ai riferimenti immagine UIR, la libreria include un [catalogo Ruixen UI](../sources/RUIXEN_UI_DESIGN_MOTION_AUDIT_2026-11-13.md): 277 sorgenti TSX verificate per esistenza (SHA fissati), 41 pattern curati per 18 app e mappatura [app → componenti](../sources/RUIXEN_UI_CURATED_APP_MAP_2026-11-13.json). Ruixen è soprattutto React/shadcn; per Flutter il riuso è concettuale, non `COPY_READY`.
+
+## Skill e tool esterni anti UI slop — 17/11/2026
+
+[**10 fonti source-pinned**](../sources/ANTI_SLOP_DESIGN_SKILLS_AUDIT_2026-11-17.md) con [**matrice bidirezionale repo ↔ app**](./MATRICE_REPO_DESIGN_APP_2026-11-17.md) e [**JSON interrogabile**](./MATRICE_REPO_DESIGN_APP_2026-11-17.json). Non costituiscono nuove categorie `UIX-STYLE`: sono skill, linee guida, tooling o kit marketing. I tag corrispondono a famiglie già esistenti, gli abbinamenti restano `PROPOSED_ONLY` e non autorizzano l'installazione automatica delle skill nel runtime Flutter.
+
+## Icone statiche e animate
+
+La tassonomia UI/UX resta distinta dalla [sezione ICONE](../ICONE/README.md). Quest'ultima gestisce il nuovo inventario Gentleface, [anteprime](../ICONE/ANTEPRIME.md) e una [matrice icona ↔ app](../ICONE/MATRICE_APP_ICONE.md). Non sono stati creati nuovi stili UIX né importati asset SVG.
+
+## Schede permanenti per app
+
+La sezione [**PER_APP**](../PER_APP/README.md) conserva le proposte visuali per ciascuna app, compresi posizionamenti, motion, cosa evitare e riferimenti a skill. La matrice esistente app↔stili e le fonti UX restano gli archivi di riferimento e non sono sostituiti dai dossier.
+
+## Feedback visuale per future note vocali (beUI Voice Orb)
+
+[Voice Orb](https://devlibraries.com/libraries/beui/voice-orb) è un candidato **visuale** per i futuri flussi di registrazione: [audit stack e licenza](../sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md), [matrice molti-a-molti su 10 app](./VOICE_ORB_APP_MAP_2026-11-17.md), [JSON relazionale](./VOICE_ORB_APP_MAP_2026-11-17.json). Una visualizzazione dell'audio non equivale a un registratore, a dettatura, a permessi concessi o a una feature già implementata.
+
+## Theme Toggle, Card Stack Peel, Accordion Blind Pull, Interlocking Gear Step, Shutter Step Slices
+
+[Catalogo ragionato e app candidate](./EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.md) · [JSON consultabile per pattern e app](./EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json) · [Audit originale](../sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md). Aggiunto il riferimento utente a ulteriori loader nello screenshot come **idea ancora da identificare**, non come asset. Light/Dark/System resta governato dai token e dal Golden M3; Accordions espandono pannelli, Shutter ne anima la comparsa. Non sono pacchetti Flutter già integrati.
+
+## Nuove animazioni Amicro — curtain, cursor, flip, scroll, portal e loader
+
+[Sei reference](./AMICRO_SIX_COMPONENTS_APP_MAP_2026-11-17.md) · [registro molti-a-molti](./AMICRO_SIX_COMPONENTS_APP_MAP_2026-11-17.json) · [audit](../sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md). **CurtainReveal, Cursor Trail, Scroll Reveal e Accordion Loader** sono stati verificati nel codice sorgente; **Perspective Flip e Spatial Door Portal** restano da verificare nell'implementazione esatta. Cursor Trail solo su pointer desktop; Accordion Loader è un caricamento indeterminato, da non confondere con Accordion Blind Pull. Le proposte restano reference/PROPOSED_ONLY.
+
+## Watermelon — carosello Ricordi, picker e Home Oggi
+
+[Catalogo Watermelon](./WATERMELON_NINE_APP_MAP_2026-11-17.md) · [JSON molti-a-molti](./WATERMELON_NINE_APP_MAP_2026-11-17.json) · [Audit](../sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md). Include carousel-slider, fractional-picker, scrub-slider-base, range-selection-slider, swap-form, text-gradient, dialog-stack-base, notification-list, flip-clock. Sei file sorgente originali letti e tre denominazioni non individuate. [Anna's Diary](../PER_APP/annas-diary.md): swipe dei Ricordi e riepilogo degli impegni in Home Oggi **alla prima apertura giornaliera o all'orario scelto**, con permessi/stati di backend distinti dalla sola animazione.
+
+## Bookmarks visivi DevLibraries — loader e selettori
+
+[Nuova matrice](./DEVLIBRARIES_BOOKMARKS_APP_MAP_2026-11-17.md) · [Inventario 30 card](../sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md). Screenshot utente con spinner, skeleton, barre, riconoscimento facciale *solamente grafico*, selettore intervallo e Notification List (già censiti), anteprima mappe e quattro proposte senza fornitore confermato. Le associazioni sono `PROPOSED_ONLY`; gli stati di caricamento non devono mai simulare progresso. **Infinite Spiral** è un effetto Media, non un loader. App diverse possono adottare famiglie coerenti, senza mescolare indiscriminatamente ogni animazione.
+
+## Impeccable — 8 controlli di design qualità su 10 app già collegate
+
+[Playbook per app e gate](./IMPECCABLE_DESIGNING_APP_MATRIX_2026-11-17.json) · [audit della guida Designing](../sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md). Riusare la stessa identità `DSK-002` già presente nella [matrice design skill](./MATRICE_REPO_DESIGN_APP_2026-11-17.md). Critique/audit/harden/polish con evidenza screenshot e QA nativo, non solo check PASS GitHub; il detector CSS/HTML e i hooks Impeccable sono ammessi **solo Web/PWA**. Non creare una seconda Product Bible o dichiarare copy-ready il Golden App Shell DRAFT.

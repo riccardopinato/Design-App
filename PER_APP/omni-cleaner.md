@@ -1,0 +1,149 @@
+# Omni Cleaner — Dossier Design-App
+
+**Registro permanente:** `PER_APP/omni-cleaner.md` · [Indice](./README.md) · [Profilo JSON](./REGISTRO_APP_DESIGN.json) · [Matrice icone](../ICONE/MATRICE_APP_ICONE.md) · [Fonti di design](../UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.md)
+
+**Stato delle proposte:** `PROPOSAL_ONLY` — non sono stati ispezionati il codice HEAD o la Product Bible della singola app in questo lavoro. Le scelte visive già approvate nei repository delle app prevalgono; nessun asset copiato, nessun test consumer, nessuna integrazione.
+
+## Identità e direzione visiva
+
+Utility di pulizia con schermate separate e UI fluida: galleria foto/video a formato originale e player reale.
+
+**Categorie da studiare:** galleria · video · eliminazione sicura · scansione · archivio.
+
+## Superfici consigliate (proposte condizionate all'esistenza della funzione)
+
+1. pulsanti per accedere alle singole funzioni.
+2. galleria foto senza ritagli.
+3. video player con play/pause e decisione prima dell'eliminazione.
+4. scansione e progresso reale.
+5. conferma eliminazione con reversibilità ove disponibile.
+
+## Riferimenti di icone da catalogo Gentleface
+
+| Icona ufficiale | Fit | Impiego proposto | Evidenza animazione |
+|---|---|---|---|
+| [ICO-005 · download](https://gentleface.com/icons/download) | MEDIUM | download solo se esiste funzione | VERIFIED_DETAIL |
+| [ICO-008 · images](https://gentleface.com/icons/images) | HIGH | apertura galleria a dimensione intera | VERIFIED_DETAIL |
+| [ICO-009 · video](https://gentleface.com/icons/video) | HIGH | player video in galleria | VERIFIED_DETAIL |
+| [ICO-011 · search](https://gentleface.com/icons/search) | MEDIUM | filtri media e file | VERIFIED_DETAIL |
+| [ICO-013 · loader](https://gentleface.com/icons/loader) | HIGH | scansione in corso, mai fingere progressi | VERIFIED_DETAIL |
+| [ICO-014 · check](https://gentleface.com/icons/check) | HIGH | operazione completata con successo | VERIFIED_SITE |
+| [ICO-020 · play](https://gentleface.com/icons/play) | HIGH | riproduzione video reale | VERIFIED_SITE |
+| [ICO-021 · pause](https://gentleface.com/icons/pause) | HIGH | pausa player video | VERIFIED_SITE |
+| [ICO-022 · repeat](https://gentleface.com/icons/repeat) | MEDIUM | loop player video se presente | VERIFIED_DETAIL |
+| [ICO-023 · eye](https://gentleface.com/icons/eye) | HIGH | anteprima contenuti multimediali | VERIFIED_SITE |
+
+**Concetti da cercare o disegnare, senza fornitore assegnato:** `images`, `video`, `play`, `pause`, `check`.
+
+## Animazioni e feedback proposti
+
+- transizione apertura galleria o player una sola volta.
+- play/pause con stato leggibile.
+- loader solo su scansione reale.
+
+## Cosa evitare
+
+- simulare la liberazione di spazio prima di terminarla.
+- autoeliminare asset o presentare anteprime ritagliate.
+- inseguire il design sacrificando frame rate.
+
+## Skill / fonti di design associate
+
+| Fonte | Fit | Utilizzo |
+|---|---|---|
+| DSK-001 — Anti UI Slop / Uizze | MEDIUM | less generic utility UI and state feedback |
+| DSK-002 — Impeccable | HIGH | dedicated feature screens and gallery/video UX checks |
+| DSK-004 — Emil Design Engineering | HIGH | smooth transitions between function screens |
+| DSK-006 — Anthropic Frontend Design | MEDIUM | distinctive but restrained utility aesthetic |
+| DSK-008 — Better Interfaces (Jakub Krehel) | HIGH | feature navigation, gallery and media controls |
+| DSK-009 — UI UX Pro Max | HIGH | utility redesign with component variants |
+| DSK-010 — Stageshow | MEDIUM | feature-page visuals using actual app flows |
+
+## Stato, provenance e aggiornamenti
+
+- **Per la app:** implementazione non verificata; Product Bible non confrontata; solo catalogo Design-App.
+- **Per le fonti:** Gentleface = reference; skill = reference; altre icone tematiche = idea non ancora reperita.
+- **Contenuti da conservare:** direzione visiva, categorie, placement, trigger, do-not, app↔icone e app↔skill. Non sostituire la precedente evidenza quando cambia lo stato: aggiungere una voce al changelog.
+- **Fonti interne:** [Cover Design Harvest](../sources/COVERAGE.md) · [UI/UX app↔stili](../UI-UX/MATRICE_APP_STILI.md) · [Icon Adapter Pack](../packs/icons/README.md).
+- **17/11/2026:** scheda creata dal catalogo e dalle proposte correnti; nessuna app alterata.
+
+## Prossima verifica per arrivare a un'implementazione
+
+Confrontare HEAD, Product Bible e schermate reali; confermare i pattern da implementare, licenza file/asset, fallback statico e a11y; pilot con 2–3 icone al massimo, prove visive e test runtime prima di aggiornare lo stato da `PROPOSAL_ONLY`.
+
+## Tema, transizioni, tendine e loader — intake 17/11/2026
+
+[Audit EaseUI/Amicro](../sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md) · [Matrice molti-a-molti](../UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.md). **Reference esterne, nessuna implementazione o approvazione di feature nella presente app.**
+
+- **DSP-001 · EaseUI Theme Toggle (HIGH)** — Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti. *Evidenza:* SOURCE_FILE_READ; status PROPOSED_ONLY.
+- **DSP-002 · Card Stack Peel (MEDIUM)** — Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati. *Evidenza:* SOURCE_FILE_READ (rettifica ricerca 17/11/2026); status PROPOSED_ONLY.
+- **DSP-003 · Accordion Blind Pull (HIGH)** — Accordion e pannelli espandibili, non un widget picker/menu funzionante. *Evidenza:* SOURCE_FILE_READ (rettifica ricerca 17/11/2026); status PROPOSED_ONLY.
+- **DSP-004 · Interlocking Gear Step (HIGH)** — Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili. *Evidenza:* SOURCE_FILE_READ (rettifica ricerca 17/11/2026); status PROPOSED_ONLY.
+- **DSP-005 · Shutter Step Slices (MEDIUM)** — Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti. *Evidenza:* SOURCE_FILE_READ (rettifica ricerca 17/11/2026); status PROPOSED_ONLY.
+- **DSP-006 · Loading & Waiting Visual References (user screenshot) (HIGH)** — Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi. *Evidenza:* USER_IMAGE_NOT_ARCHIVED_AS_BINARY; status PROPOSED_ONLY.
+
+Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze, Golden, palette e accessibilità; per le tendine distinguere Accordion Blind Pull (espansione) da Shutter Step Slices (comparsa). Per loading usare sempre lo stato reale, fallback statico/reduced motion, retry/errori e nessuna GPU persistente in background. Lo screenshot dell'utente è documentato come **riferimento non vendorizzato**; non sono stati importati asset o file eseguibili.
+
+**Storico 17/11/2026:** nuove proposte registrate anche in `PER_APP/REGISTRO_APP_DESIGN.json` nel campo `motion_design_candidates`; non cancellare i riferimenti e le decisioni precedenti.
+
+## Nuove microinterazioni Amicro — 6 references (17/11/2026)
+
+- **AMX-004 · [Scroll Reveal](https://devlibraries.com/libraries/amicro/scroll-reveal) (MEDIUM):** Media galleries only when not virtualized. *Sorgente:* `SOURCE_FILE_READ`; `PROPOSED_ONLY`.
+- **AMX-006 · [Accordion Loader](https://devlibraries.com/libraries/amicro/accordion-loader) (HIGH):** Media scanning and file analysis only while truly active. *Sorgente:* `SOURCE_FILE_READ`; `PROPOSED_ONLY`.
+
+[Audit sorgenti, licenze ed evidenze](../sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md) · [Matrice molti-a-molti](../UI-UX/AMICRO_SIX_COMPONENTS_APP_MAP_2026-11-17.md).
+
+**Decisione:** proposte di design, non implementazioni né approvazioni della Product Bible. Solo 4 dei 6 componenti dispongono di un file con nome/implementazione corrispondente esaminato. Per Perspective Flip e Spatial Door Portal si conserva il link come idea, senza inventare codice. Il loader Accordion è indeterminato: nessuna percentuale senza lavoro realmente misurato. Evitare animazioni continue fuori schermata e rispettare reduced-motion, performance e testo accessibile.
+
+**Storico 17/11/2026:** nuova mappatura registrata in `PER_APP/REGISTRO_APP_DESIGN.json` campo `amicro_six_candidates`; rettificata la provenienza dei precedenti quattro effetti Amicro dove presenti.
+
+## Watermelon UI — 9 riferimenti (17/11/2026)
+
+[Audit sorgente e licenza](../sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md) · [Matrice app-componenti](../UI-UX/WATERMELON_NINE_APP_MAP_2026-11-17.md). Queste sono **proposte**; nessuna nuova feature o libreria implementata.
+
+- **WML-001 · [Carousel Slider](https://devlibraries.com/libraries/watermelon/carousel-slider) (MEDIUM)** — Anteprima di una selezione limitata, non galleria di eliminazione massiva. *Evidenza:* `SOURCE_FILE_READ`; stato `PROPOSED_ONLY`.
+- **WML-003 · [Scrub Slider (base)](https://devlibraries.com/libraries/watermelon/scrub-slider-base) (HIGH)** — Seek timeline video in player. *Evidenza:* `SOURCE_FILE_READ`; stato `PROPOSED_ONLY`.
+- **WML-004 · [Range Selection Slider](https://devlibraries.com/libraries/watermelon/range-selection-slider) (HIGH)** — Filtra media per durata/dimensione/periodo non sostituisce anteprima. *Evidenza:* `SOURCE_FILE_READ`; stato `PROPOSED_ONLY`.
+
+**Gate comune:** Product Bible e HEAD consumer, accessibilità, input alternativi, reduced-motion, performance, palette e lingua. Flutter/Compose richiedono adattamento nativo dei riferimenti React. `Text Gradient`, `Notification List` e `Flip Clock` restano nomi senza sorgente esatta verificata nel repo a commit fissato.
+
+**Storico 17/11/2026:** collegamenti persistiti in `PER_APP/REGISTRO_APP_DESIGN.json` come `watermelon_ui_candidates`, stato `PROPOSED_ONLY`.
+
+## DevLibraries Bookmarks — screenshot 17/11/2026
+
+[Inventario user-supplied e fonte](../sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md) · [Matrice molti-a-molti](../UI-UX/DEVLIBRARIES_BOOKMARKS_APP_MAP_2026-11-17.md). **Proposte di compatibilità, nessun consumer implementato e nessuna Product Bible modificata.**
+
+- **DBM-001 · Accordion Loader (HIGH)** — Analisi file in corso. Evidenza: `SOURCE_FILE_PREVIOUSLY_READ`; [file originale](https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/registry/ui/loading/accordion-loader.tsx); già censito: `AMX-006`. Stato: `PROPOSED_ONLY`.
+- **DBM-002 · Classic Spinner (HIGH)** — Task breve con stato di attesa. Evidenza: `SOURCE_PATH_PINNED`; [file originale](https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/registry/ui/loading/classic-spinner.tsx). Stato: `PROPOSED_ONLY`.
+- **DBM-004 · App Icon Load (MEDIUM)** — Preparazione galleria media. Evidenza: `SOURCE_PATH_PINNED`; [file originale](https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/registry/ui/loading/app-icon-load.tsx). Stato: `PROPOSED_ONLY`.
+- **DBM-006 · Stacked Bar Pulse (HIGH)** — Scansione media in corso. Evidenza: `SOURCE_PATH_PINNED`; [file originale](https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/registry/ui/loading/stacked-bar-pulse.tsx). Stato: `PROPOSED_ONLY`.
+- **DBM-012 · Grid Dots (HIGH)** — Scansione batch media. Evidenza: `SOURCE_PATH_PINNED`; [file originale](https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/registry/ui/loading/grid-dots.tsx). Stato: `PROPOSED_ONLY`.
+- **DBM-014 · Circular Bars (HIGH)** — Scansione e analisi effettiva. Evidenza: `SOURCE_PATH_PINNED`; [file originale](https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/registry/ui/loading/circular-bars.tsx). Stato: `PROPOSED_ONLY`.
+- **DBM-018 · Range Selection Slider (HIGH)** — Filtro dimensione/durata media. Evidenza: `SOURCE_FILE_PREVIOUSLY_READ`; [file originale](https://github.com/WatermelonCorp/watermelon-platform/blob/9d6defcf89880d0a00fbccad773c046bb51d7afb/src/data/contents/animated-components/range-selection-slider/base.tsx); già censito: `WML-004`. Stato: `PROPOSED_ONLY`.
+- **DBM-019 · Bar Cascade (HIGH)** — Analisi galleria in corso. Evidenza: `SOURCE_PATH_PINNED`; [file originale](https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/registry/ui/loading/bar-cascade.tsx). Stato: `PROPOSED_ONLY`.
+- **DBM-020 · Concentric Squares (MEDIUM)** — Analisi contenuti. Evidenza: `SOURCE_PATH_PINNED`; [file originale](https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/registry/ui/loading/concentric-squares.tsx). Stato: `PROPOSED_ONLY`.
+- **DBM-022 · Bar Sweep (HIGH)** — Scansione file reale. Evidenza: `SOURCE_PATH_PINNED`; [file originale](https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/registry/ui/loading/bar-sweep.tsx). Stato: `PROPOSED_ONLY`.
+- **DBM-023 · Conveyor Loop (MEDIUM)** — Elaborazione batch. Evidenza: `SOURCE_PATH_PINNED`; [file originale](https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/registry/ui/loading/conveyor-loop.tsx). Stato: `PROPOSED_ONLY`.
+- **DBM-026 · Newtons Cradle (MEDIUM)** — Scansione, solo se non rallenta UI. Evidenza: `SOURCE_PATH_PINNED`; [file originale](https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/registry/ui/loading/newtons-cradle.tsx). Stato: `PROPOSED_ONLY`.
+- **DBM-027 · Helix Spinner (MEDIUM)** — Loader sperimentale solo se costo grafico sostenibile. Evidenza: `USER_SCREENSHOT_ONLY`; sorgente esatto da identificare. Stato: `PROPOSED_ONLY`.
+- **DBM-028 · Loader (MEDIUM)** — Selezione futura del loader coerente. Evidenza: `USER_SCREENSHOT_ONLY`; sorgente esatto da identificare. Stato: `PROPOSED_ONLY`.
+
+**Controlli obbligatori:** loader solo mentre esiste un'operazione reale; usare avanzamento determinato se misurabile; prevedere timeout/error/retry, accessibilità, reduced-motion, stop fuori viewport e budget FPS/APK. Face Id Scan non conferma autenticazione biometrica, View On Map richiede controllo privacy/provider, Infinite Spiral è un effetto media non un loader. Screenshot forniti in chat ma **file PNG non archiviati nel repo**: nomi/ordine/hash sono nel JSON canonico. Per Flutter/Compose, il codice React è soltanto riferimento e richiede adattamento/test.
+
+**Storico 17/11/2026:** 14 relazioni registrate anche in `PER_APP/REGISTRO_APP_DESIGN.json` sotto `bookmarked_visual_references`, senza duplicare gli ID già esistenti.
+
+## Impeccable — metodologia Designing (17/11/2026)
+
+**Fonte ufficiale:** [Designing with Impeccable](https://impeccable.style/designing/) · [Audit incrementale](../sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md) · riferimento già catalogato `DSK-002` (non creare un nuovo OSS source). **Priorità proposta P1**, modalità `OPERATE`, fit HIGH. Nessun intervento nell'app eseguito.
+
+- **Schermate interessate:** Home, schede funzione dedicate, galleria, player.
+- **Miglioramento proposto:** Limitare la complessità della Home; trasformare azioni in schermate dedicate con stato esplicito; mostrare foto/video senza crop e con riproduzione verificata.
+- **Verifiche da eseguire quando autorizzato:**
+  - [ ] Galleria originale fit-contain e controlli video raggiungibili
+  - [ ] Conferma distruttiva chiara e reversibilità quando possibile
+  - [ ] Skeleton e spinner solo durante scansioni effettive
+  - [ ] Navigazione e controlli senza ritagli su schermi stretti
+
+**Pipeline futura:** brief e decisioni Product Bible → verifica screenshot e gerarchia `critique` → controllo funzionale/semantico `audit` → stati di errore e vuoto `harden` → rifinitura `polish` → aggiornamento token e decisioni visive. Impeccable CLI/hook sono **Web-only**, non un passaggio di build o QA Flutter. Conservare colori, font, navigazione e caratteristiche già approvate; matrice responsive e App Shell Golden DRAFT si applicano senza dichiararne la certificazione.
+
+**Storico:** aggiunta una checklist di design nel campo `impeccable_designing_quality` del registro per-app; stato `PROPOSED_ONLY` / `NOT_EXECUTED`.
