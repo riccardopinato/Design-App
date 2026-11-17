@@ -21,7 +21,9 @@
     "watermelon_ui_candidate_links": 73,
     "bookmarks_screenshot_profiles": 20,
     "bookmarks_screenshot_edges": 120,
-    "bookmarks_screenshot_cards": 30
+    "bookmarks_screenshot_cards": 30,
+    "impeccable_designing_quality_candidate_apps": 10,
+    "impeccable_designing_workflow_gates": 8
   },
   "profiles": [
     {
@@ -125,7 +127,8 @@
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
-        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
+        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "diario e ricordi",
@@ -385,6 +388,13 @@
           "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
           "status": "PROPOSED_ONLY",
           "detail": "12 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_QA_METHODOLOGY",
+          "status": "PROPOSED_ONLY",
+          "source": "Impeccable Designing official page, same canonical DSK-002",
+          "detail": "Added checklist and 4 targeted acceptance questions; no actual UI audit, screenshot, code change, new source or Golden certification."
         }
       ],
       "voice_ui_candidates": [
@@ -793,7 +803,30 @@
           "implementation": "NOT_IMPLEMENTED",
           "image_binary_in_repo": false
         }
-      ]
+      ],
+      "impeccable_designing_quality": {
+        "source_id": "DSK-002",
+        "fit": "HIGH",
+        "priority": "P1",
+        "mode": "OPERATE+EXPERIENCE",
+        "surface": "Oggi, Calendario, Ricordi, Impostazioni",
+        "objective": "Ridurre l'affollamento di card senza perdere gli appuntamenti; mantenere palette rose, Manrope/Lora e navigazione aderente; dare priorità agli impegni giornalieri e agli stati di sincronizzazione.",
+        "acceptance_checks": [
+          "Oggi: primo contenuto significativo visibile e impegno raggiungibile senza scorciatoie simulate",
+          "Calendario: 31 giorni/indicatori e font grande senza overflow, evento apribile",
+          "Ricordi: galleria a proporzioni originali, testo lungo e fallback immagini",
+          "Shared: offline/retry/account switch senza falsi stati di salvataggio"
+        ],
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE",
+        "reference_doc": "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
+        "origin": "https://impeccable.style/designing/",
+        "canonical_skill_id": "DSK-002",
+        "reference_status": "REFERENCE_ONLY",
+        "consumer_qa_state": "NOT_EXECUTED",
+        "dependency_added": false,
+        "product_bible_approved": false
+      }
     },
     {
       "id": "app-factory-dashboard",
@@ -816,7 +849,8 @@
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
-        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
+        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "repository e branch",
@@ -994,6 +1028,13 @@
           "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
           "status": "PROPOSED_ONLY",
           "detail": "12 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_QA_METHODOLOGY",
+          "status": "PROPOSED_ONLY",
+          "source": "Impeccable Designing official page, same canonical DSK-002",
+          "detail": "Added checklist and 4 targeted acceptance questions; no actual UI audit, screenshot, code change, new source or Golden certification."
         }
       ],
       "voice_ui_candidates": [
@@ -1333,7 +1374,30 @@
           "implementation": "NOT_IMPLEMENTED",
           "image_binary_in_repo": false
         }
-      ]
+      ],
+      "impeccable_designing_quality": {
+        "source_id": "DSK-002",
+        "fit": "HIGH",
+        "priority": "P1",
+        "mode": "OPERATE",
+        "surface": "Progetti, Golden, donor, blocchi, roadmap",
+        "objective": "Distinguere implementato/verificato e PR aperte/merge; ridurre duplicazioni di card e far emergere decisioni e blocchi.",
+        "acceptance_checks": [
+          "Stato mostrato con evidenza e ultima verifica, non solo colore",
+          "Filtri efficienti e gestione empty/error",
+          "Keyboard focus e responsive table/list",
+          "Non confondere progressi proposti con certificati"
+        ],
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE",
+        "reference_doc": "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
+        "origin": "https://impeccable.style/designing/",
+        "canonical_skill_id": "DSK-002",
+        "reference_status": "REFERENCE_ONLY",
+        "consumer_qa_state": "NOT_EXECUTED",
+        "dependency_added": false,
+        "product_bible_approved": false
+      }
     },
     {
       "id": "battery-guard",
@@ -1355,7 +1419,8 @@
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
-        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
+        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "batteria",
@@ -1500,6 +1565,13 @@
           "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
           "status": "PROPOSED_ONLY",
           "detail": "5 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_QA_METHODOLOGY",
+          "status": "PROPOSED_ONLY",
+          "source": "Impeccable Designing official page, same canonical DSK-002",
+          "detail": "Added checklist and 4 targeted acceptance questions; no actual UI audit, screenshot, code change, new source or Golden certification."
         }
       ],
       "motion_design_candidates": [
@@ -1653,7 +1725,30 @@
           "implementation": "NOT_IMPLEMENTED",
           "image_binary_in_repo": false
         }
-      ]
+      ],
+      "impeccable_designing_quality": {
+        "source_id": "DSK-002",
+        "fit": "HIGH",
+        "priority": "P2",
+        "mode": "OPERATE",
+        "surface": "Dashboard batteria e diagnostica",
+        "objective": "Portare percentuale, stato, limite e prossima azione in evidenza, evitando metriche decorative e gerarchia piatta.",
+        "acceptance_checks": [
+          "Numeri con unità e segnalazione di dato non disponibile",
+          "Contrasto light/dark con font grande",
+          "Nessuna pseudo-misura di precisione o azione inesistente",
+          "Layout safe-area e badge AdMob non invasivi"
+        ],
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE",
+        "reference_doc": "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
+        "origin": "https://impeccable.style/designing/",
+        "canonical_skill_id": "DSK-002",
+        "reference_status": "REFERENCE_ONLY",
+        "consumer_qa_state": "NOT_EXECUTED",
+        "dependency_added": false,
+        "product_bible_approved": false
+      }
     },
     {
       "id": "beerclass-ai",
@@ -2211,7 +2306,8 @@
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
-        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
+        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "portafoglio",
@@ -2323,6 +2419,13 @@
           "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
           "status": "PROPOSED_ONLY",
           "detail": "1 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_QA_METHODOLOGY",
+          "status": "PROPOSED_ONLY",
+          "source": "Impeccable Designing official page, same canonical DSK-002",
+          "detail": "Added checklist and 4 targeted acceptance questions; no actual UI audit, screenshot, code change, new source or Golden certification."
         }
       ],
       "motion_design_candidates": [
@@ -2426,7 +2529,30 @@
           "implementation": "NOT_IMPLEMENTED",
           "image_binary_in_repo": false
         }
-      ]
+      ],
+      "impeccable_designing_quality": {
+        "source_id": "DSK-002",
+        "fit": "MEDIUM",
+        "priority": "P2",
+        "mode": "OPERATE",
+        "surface": "Transazioni, grafici, filtri e budget",
+        "objective": "Dati economici e movimenti confrontabili, meno elementi decorativi, feedback esplicito di salvataggio/import.",
+        "acceptance_checks": [
+          "Valori monetari precisi e unità non ambigue",
+          "Contrasto leggibile per stato negativo/positivo, anche senza colori",
+          "Filtri/intervalli con range valido",
+          "Error/empty/retry e login opzionale chiari"
+        ],
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE",
+        "reference_doc": "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
+        "origin": "https://impeccable.style/designing/",
+        "canonical_skill_id": "DSK-002",
+        "reference_status": "REFERENCE_ONLY",
+        "consumer_qa_state": "NOT_EXECUTED",
+        "dependency_added": false,
+        "product_bible_approved": false
+      }
     },
     {
       "id": "cooking-anime",
@@ -3577,7 +3703,8 @@
         "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
-        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
+        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "desktop",
@@ -3707,6 +3834,13 @@
           "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
           "status": "PROPOSED_ONLY",
           "detail": "7 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_QA_METHODOLOGY",
+          "status": "PROPOSED_ONLY",
+          "source": "Impeccable Designing official page, same canonical DSK-002",
+          "detail": "Added checklist and 4 targeted acceptance questions; no actual UI audit, screenshot, code change, new source or Golden certification."
         }
       ],
       "voice_ui_candidates": [
@@ -3890,7 +4024,30 @@
           "implementation": "NOT_IMPLEMENTED",
           "image_binary_in_repo": false
         }
-      ]
+      ],
+      "impeccable_designing_quality": {
+        "source_id": "DSK-002",
+        "fit": "MEDIUM",
+        "priority": "P2",
+        "mode": "OPERATE+EXPERIENCE",
+        "surface": "Launcher, scene e overlay",
+        "objective": "Conservare l'impatto immersivo senza perdere usabilità del launcher o performance Android; motion solo quando utile.",
+        "acceptance_checks": [
+          "FPS e rendering scenico misurati su device",
+          "Overlay e controlli accessibili, nessun bottone fuori schermo",
+          "Animazioni sospese in background/riduzione movimento",
+          "Home avviabile anche quando asset dinamici non caricano"
+        ],
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE",
+        "reference_doc": "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
+        "origin": "https://impeccable.style/designing/",
+        "canonical_skill_id": "DSK-002",
+        "reference_status": "REFERENCE_ONLY",
+        "consumer_qa_state": "NOT_EXECUTED",
+        "dependency_added": false,
+        "product_bible_approved": false
+      }
     },
     {
       "id": "easy-debloat",
@@ -4474,7 +4631,8 @@
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
-        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
+        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "fotografia",
@@ -4655,6 +4813,13 @@
           "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
           "status": "PROPOSED_ONLY",
           "detail": "4 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_QA_METHODOLOGY",
+          "status": "PROPOSED_ONLY",
+          "source": "Impeccable Designing official page, same canonical DSK-002",
+          "detail": "Added checklist and 4 targeted acceptance questions; no actual UI audit, screenshot, code change, new source or Golden certification."
         }
       ],
       "voice_ui_candidates": [
@@ -4876,7 +5041,30 @@
           "implementation": "NOT_IMPLEMENTED",
           "image_binary_in_repo": false
         }
-      ]
+      ],
+      "impeccable_designing_quality": {
+        "source_id": "DSK-002",
+        "fit": "HIGH",
+        "priority": "P2",
+        "mode": "OPERATE+EXPERIENCE",
+        "surface": "Editor media, galleria, pannelli di controllo",
+        "objective": "Rendere il contenuto foto centrale, strumenti secondari sobri e controlli riutilizzabili senza alterare il materiale originale.",
+        "acceptance_checks": [
+          "Controlli e immagini non sovrapposti sui piccoli schermi",
+          "Colori/superfici dell'editor coerenti in light/dark",
+          "Modalità panoramica senza perdita funzionale",
+          "Operazioni export con feedback reale, progressi e ripristino"
+        ],
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE",
+        "reference_doc": "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
+        "origin": "https://impeccable.style/designing/",
+        "canonical_skill_id": "DSK-002",
+        "reference_status": "REFERENCE_ONLY",
+        "consumer_qa_state": "NOT_EXECUTED",
+        "dependency_added": false,
+        "product_bible_approved": false
+      }
     },
     {
       "id": "notes-ecosistema",
@@ -4899,7 +5087,8 @@
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
-        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
+        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "nota",
@@ -5188,6 +5377,13 @@
           "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
           "status": "PROPOSED_ONLY",
           "detail": "12 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_QA_METHODOLOGY",
+          "status": "PROPOSED_ONLY",
+          "source": "Impeccable Designing official page, same canonical DSK-002",
+          "detail": "Added checklist and 4 targeted acceptance questions; no actual UI audit, screenshot, code change, new source or Golden certification."
         }
       ],
       "voice_ui_candidates": [
@@ -5547,7 +5743,30 @@
           "implementation": "NOT_IMPLEMENTED",
           "image_binary_in_repo": false
         }
-      ]
+      ],
+      "impeccable_designing_quality": {
+        "source_id": "DSK-002",
+        "fit": "HIGH",
+        "priority": "P1",
+        "mode": "OPERATE",
+        "surface": "Editor, canvas, ricerca, Smart Inbox",
+        "objective": "Usare una gerarchia di comandi leggibile per il canvas e limitare la cascata di toolbar; distinguere cattura, modifica, sync e ricerca da decorazioni.",
+        "acceptance_checks": [
+          "Canvas fruibile con tastiera/zoom e senza overlay sui controlli",
+          "Ricerca e filtri chiari con zero-result, loading ed errore",
+          "Valori e impostazioni conservano lo stato quando si cambia sezione",
+          "App non presenta salvataggio riuscito se non confermato"
+        ],
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE",
+        "reference_doc": "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
+        "origin": "https://impeccable.style/designing/",
+        "canonical_skill_id": "DSK-002",
+        "reference_status": "REFERENCE_ONLY",
+        "consumer_qa_state": "NOT_EXECUTED",
+        "dependency_added": false,
+        "product_bible_approved": false
+      }
     },
     {
       "id": "omni-cleaner",
@@ -5569,7 +5788,8 @@
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
-        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
+        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "galleria",
@@ -5784,6 +6004,13 @@
           "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
           "status": "PROPOSED_ONLY",
           "detail": "14 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_QA_METHODOLOGY",
+          "status": "PROPOSED_ONLY",
+          "source": "Impeccable Designing official page, same canonical DSK-002",
+          "detail": "Added checklist and 4 targeted acceptance questions; no actual UI audit, screenshot, code change, new source or Golden certification."
         }
       ],
       "motion_design_candidates": [
@@ -6075,7 +6302,30 @@
           "implementation": "NOT_IMPLEMENTED",
           "image_binary_in_repo": false
         }
-      ]
+      ],
+      "impeccable_designing_quality": {
+        "source_id": "DSK-002",
+        "fit": "HIGH",
+        "priority": "P1",
+        "mode": "OPERATE",
+        "surface": "Home, schede funzione dedicate, galleria, player",
+        "objective": "Limitare la complessità della Home; trasformare azioni in schermate dedicate con stato esplicito; mostrare foto/video senza crop e con riproduzione verificata.",
+        "acceptance_checks": [
+          "Galleria originale fit-contain e controlli video raggiungibili",
+          "Conferma distruttiva chiara e reversibilità quando possibile",
+          "Skeleton e spinner solo durante scansioni effettive",
+          "Navigazione e controlli senza ritagli su schermi stretti"
+        ],
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE",
+        "reference_doc": "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
+        "origin": "https://impeccable.style/designing/",
+        "canonical_skill_id": "DSK-002",
+        "reference_status": "REFERENCE_ONLY",
+        "consumer_qa_state": "NOT_EXECUTED",
+        "dependency_added": false,
+        "product_bible_approved": false
+      }
     },
     {
       "id": "phone-guard",
@@ -7384,7 +7634,8 @@
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
-        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
+        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "viaggio",
@@ -7630,6 +7881,13 @@
           "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
           "status": "PROPOSED_ONLY",
           "detail": "6 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_QA_METHODOLOGY",
+          "status": "PROPOSED_ONLY",
+          "source": "Impeccable Designing official page, same canonical DSK-002",
+          "detail": "Added checklist and 4 targeted acceptance questions; no actual UI audit, screenshot, code change, new source or Golden certification."
         }
       ],
       "voice_ui_candidates": [
@@ -7915,7 +8173,30 @@
           "implementation": "NOT_IMPLEMENTED",
           "image_binary_in_repo": false
         }
-      ]
+      ],
+      "impeccable_designing_quality": {
+        "source_id": "DSK-002",
+        "fit": "MEDIUM",
+        "priority": "P2",
+        "mode": "EXPERIENCE+OPERATE",
+        "surface": "Diario viaggio, luoghi, mappa",
+        "objective": "Foto e ricordi protagonisti senza appesantire navigazione o routing; evitare scroll con layout disomogeneo.",
+        "acceptance_checks": [
+          "Mappa/overlay non coprono CTA o contenuto",
+          "Fotografie nel loro formato originale",
+          "Schede lunghe e offline leggibili",
+          "Accesso a tappe e mappa senza route inventate"
+        ],
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE",
+        "reference_doc": "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
+        "origin": "https://impeccable.style/designing/",
+        "canonical_skill_id": "DSK-002",
+        "reference_status": "REFERENCE_ONLY",
+        "consumer_qa_state": "NOT_EXECUTED",
+        "dependency_added": false,
+        "product_bible_approved": false
+      }
     },
     {
       "id": "world-days",
@@ -7938,7 +8219,8 @@
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
-        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
+        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "calendario",
@@ -8208,6 +8490,13 @@
           "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
           "status": "PROPOSED_ONLY",
           "detail": "12 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_QA_METHODOLOGY",
+          "status": "PROPOSED_ONLY",
+          "source": "Impeccable Designing official page, same canonical DSK-002",
+          "detail": "Added checklist and 4 targeted acceptance questions; no actual UI audit, screenshot, code change, new source or Golden certification."
         }
       ],
       "voice_ui_candidates": [
@@ -8565,7 +8854,30 @@
           "implementation": "NOT_IMPLEMENTED",
           "image_binary_in_repo": false
         }
-      ]
+      ],
+      "impeccable_designing_quality": {
+        "source_id": "DSK-002",
+        "fit": "HIGH",
+        "priority": "P1",
+        "mode": "READ+OPERATE",
+        "surface": "Elenco ricorrenze, dettaglio storia, ricerca",
+        "objective": "Gerarchia editoriale che renda leggibili periodi, anno di introduzione, storia e informazioni varie senza introdurre più card annidate.",
+        "acceptance_checks": [
+          "Storie lunghe e sei lingue senza troncare contenuti importanti",
+          "Fonte e anno ignoto non mascherati da fatti certi",
+          "Stati offline/errore leggibili, non spinner infinito",
+          "Palette esistente conservata e tipografia uniforme"
+        ],
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE",
+        "reference_doc": "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
+        "origin": "https://impeccable.style/designing/",
+        "canonical_skill_id": "DSK-002",
+        "reference_status": "REFERENCE_ONLY",
+        "consumer_qa_state": "NOT_EXECUTED",
+        "dependency_added": false,
+        "product_bible_approved": false
+      }
     }
   ],
   "by_app": {
