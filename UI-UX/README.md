@@ -93,3 +93,7 @@ La sezione [**PER_APP**](../PER_APP/README.md) conserva le proposte visuali per 
 ## Watermelon — carosello Ricordi, picker e Home Oggi
 
 [Catalogo Watermelon](./WATERMELON_NINE_APP_MAP_2026-11-17.md) · [JSON molti-a-molti](./WATERMELON_NINE_APP_MAP_2026-11-17.json) · [Audit](../sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md). Include carousel-slider, fractional-picker, scrub-slider-base, range-selection-slider, swap-form, text-gradient, dialog-stack-base, notification-list, flip-clock. Sei file sorgente originali letti e tre denominazioni non individuate. [Anna's Diary](../PER_APP/annas-diary.md): swipe dei Ricordi e riepilogo degli impegni in Home Oggi **alla prima apertura giornaliera o all'orario scelto**, con permessi/stati di backend distinti dalla sola animazione.
+
+## Bookmarks visivi DevLibraries — loader e selettori
+
+[Nuova matrice](./DEVLIBRARIES_BOOKMARKS_APP_MAP_2026-11-17.md) · [Inventario 30 card](../sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md). Screenshot utente con spinner, skeleton, barre, riconoscimento facciale *solamente grafico*, selettore intervallo e Notification List (già censiti), anteprima mappe e quattro proposte senza fornitore confermato. Le associazioni sono `PROPOSED_ONLY`; gli stati di caricamento non devono mai simulare progresso. **Infinite Spiral** è un effetto Media, non un loader. App diverse possono adottare famiglie coerenti, senza mescolare indiscriminatamente ogni animazione.
