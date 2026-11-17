@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "batch_id": "IMPECCABLE_DESIGNING_EXPANSION_2026_11_17",
+  "created_at": "2026-11-17",
+  "user_url": "https://impeccable.style/designing/",
+  "secondary_docs": [
+    "https://impeccable.style/docs/",
+    "https://impeccable.style/slop/",
+    "https://impeccable.style/docs/detector/",
+    "https://impeccable.style/docs/hooks/"
+  ],
+  "canonical_source_id": "DSK-002",
+  "canonical_repo": "pbakaus/impeccable",
+  "repo_ref": "d41d9860b0094dcb68030657da63461212835aaa",
+  "factory_baseline": "c5adc147046beb7024629466d10eeb799c3c2619",
+  "design_baseline": "575e92310eccd3400630e436f680b6fec3875a56",
+  "status": "DOCUMENTED_WORKFLOW_REFERENCE",
+  "scope": "Advice and process only; no consumer code, no dependency/hook installer, no app audit executed",
+  "counts": {
+    "existing_canonical_source_refs": 1,
+    "new_source_repos": 0,
+    "apps": 10,
+    "workflow_gates": 8
+  },
+  "provenance": "User supplied the exact official webpage; official site read, public repo baseline already pinned. Do not infer local CLI installed or browser scanner run.",
+  "platform_facts": {
+    "detector": "Web source/rendered HTML/CSS only",
+    "hooks": "Web UI edits only, including Codex after explicit setup and approval",
+    "native": "Use native skill audit reasoning, Flutter tests, screenshots, device accessibility and Golden acceptance",
+    "license": "Apache-2.0 root source in prior Design-App audit; verify per-file/assets before copying"
+  },
+  "design_modes": [
+    "PERSUADE",
+    "OPERATE",
+    "READ",
+    "EXPERIENCE"
+  ],
+  "workflow": [
+    {
+      "id": "IWC-01",
+      "name": "Product & design context",
+      "source_tool": "init/document",
+      "gates": "Product Bible canonica, snapshot DESIGN.md derivato e versionato, font/colore/token; mai secondo proprietario dei requisiti"
+    },
+    {
+      "id": "IWC-02",
+      "name": "Direction before code",
+      "source_tool": "shape + mockup-first vs code-first",
+      "gates": "Obiettivo, target utenti, modo Operate/Read/Experience, confronto massimo 2-3 alternative se serve; nessun design implementato per implicazione"
+    },
+    {
+      "id": "IWC-03",
+      "name": "Human critique",
+      "source_tool": "critique",
+      "gates": "Revisione gerarchia, densità, leggibilità, omogeneità e flussi con screenshot aggiornati: report e priorità, nessuna mutazione automatica senza approvazione"
+    },
+    {
+      "id": "IWC-04",
+      "name": "Technical audit",
+      "source_tool": "audit",
+      "gates": "Focus/semantics, touch 48dp, font scale, responsive, insets, dark/light/system, performance e overlay"
+    },
+    {
+      "id": "IWC-05",
+      "name": "Resilient states",
+      "source_tool": "clarify + harden",
+      "gates": "Loading/empty/error/offline/timeout/sync/account switch, testo UI e recupero da errore, date/locale, senza inventare stati"
+    },
+    {
+      "id": "IWC-06",
+      "name": "Visual finishing",
+      "source_tool": "layout + typeset + colorize + polish",
+      "gates": "Spaziatura e gerarchia, font e palette già approvati, componenti non ripetuti inutilmente, motion solo semanticamente utile"
+    },
+    {
+      "id": "IWC-07",
+      "name": "Design-token reuse",
+      "source_tool": "extract + document",
+      "gates": "Donor/Golden esistenti prima della nuova libreria; consolidare comportamenti identici, non solo superfici esteticamente simili"
+    },
+    {
+      "id": "IWC-08",
+      "name": "Automated checks with platform split",
+      "source_tool": "detect/hooks",
+      "gates": "CLI/hook solo HTML/CSS/Web e CI Web; Flutter/Android richiedono screenshot, device, TalkBack, test e report separati"
+    }
+  ],
+  "by_app": {
+    "Anna's Diary": {
+      "source_id": "DSK-002",
+      "fit": "HIGH",
+      "priority": "P1",
+      "mode": "OPERATE+EXPERIENCE",
+      "surface": "Oggi, Calendario, Ricordi, Impostazioni",
+      "objective": "Ridurre l'affollamento di card senza perdere gli appuntamenti; mantenere palette rose, Manrope/Lora e navigazione aderente; dare priorità agli impegni giornalieri e agli stati di sincronizzazione.",
+      "acceptance_checks": [
+        "Oggi: primo contenuto significativo visibile e impegno raggiungibile senza scorciatoie simulate",
+        "Calendario: 31 giorni/indicatori e font grande senza overflow, evento apribile",
+        "Ricordi: galleria a proporzioni originali, testo lungo e fallback immagini",
+        "Shared: offline/retry/account switch senza falsi stati di salvataggio"
+      ],
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE",
+      "reference_doc": "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
+    },
+    "Notes-Ecosistema": {
+      "source_id": "DSK-002",
+      "fit": "HIGH",
+      "priority": "P1",
+      "mode": "OPERATE",
+      "surface": "Editor, canvas, ricerca, Smart Inbox",
+      "objective": "Usare una gerarchia di comandi leggibile per il canvas e limitare la cascata di toolbar; distinguere cattura, modifica, sync e ricerca da decorazioni.",
+      "acceptance_checks": [
+        "Canvas fruibile con tastiera/zoom e senza overlay sui controlli",
+        "Ricerca e filtri chiari con zero-result, loading ed errore",
+        "Valori e impostazioni conservano lo stato quando si cambia sezione",
+        "App non presenta salvataggio riuscito se non confermato"
+      ],
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE",
+      "reference_doc": "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
+    },
+    "Omni Cleaner": {
+      "source_id": "DSK-002",
+      "fit": "HIGH",
+      "priority": "P1",
+      "mode": "OPERATE",
+      "surface": "Home, schede funzione dedicate, galleria, player",
+      "objective": "Limitare la complessità della Home; trasformare azioni in schermate dedicate con stato esplicito; mostrare foto/video senza crop e con riproduzione verificata.",
+      "acceptance_checks": [
+        "Galleria originale fit-contain e controlli video raggiungibili",
+        "Conferma distruttiva chiara e reversibilità quando possibile",
+        "Skeleton e spinner solo durante scansioni effettive",
+        "Navigazione e controlli senza ritagli su schermi stretti"
+      ],
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE",
+      "reference_doc": "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
+    },
+    "World Days": {
+      "source_id": "DSK-002",
+      "fit": "HIGH",
+      "priority": "P1",
+      "mode": "READ+OPERATE",
+      "surface": "Elenco ricorrenze, dettaglio storia, ricerca",
+      "objective": "Gerarchia editoriale che renda leggibili periodi, anno di introduzione, storia e informazioni varie senza introdurre più card annidate.",
+      "acceptance_checks": [
+        "Storie lunghe e sei lingue senza troncare contenuti importanti",
+        "Fonte e anno ignoto non mascherati da fatti certi",
+        "Stati offline/errore leggibili, non spinner infinito",
+        "Palette esistente conservata e tipografia uniforme"
+      ],
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE",
+      "reference_doc": "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
+    },
+    "Battery Guard": {
+      "source_id": "DSK-002",
+      "fit": "HIGH",
+      "priority": "P2",
+      "mode": "OPERATE",
+      "surface": "Dashboard batteria e diagnostica",
+      "objective": "Portare percentuale, stato, limite e prossima azione in evidenza, evitando metriche decorative e gerarchia piatta.",
+      "acceptance_checks": [
+        "Numeri con unità e segnalazione di dato non disponibile",
+        "Contrasto light/dark con font grande",
+        "Nessuna pseudo-misura di precisione o azione inesistente",
+        "Layout safe-area e badge AdMob non invasivi"
+      ],
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE",
+      "reference_doc": "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
+    },
+    "App Factory Dashboard": {
+      "source_id": "DSK-002",
+      "fit": "HIGH",
+      "priority": "P1",
+      "mode": "OPERATE",
+      "surface": "Progetti, Golden, donor, blocchi, roadmap",
+      "objective": "Distinguere implementato/verificato e PR aperte/merge; ridurre duplicazioni di card e far emergere decisioni e blocchi.",
+      "acceptance_checks": [
+        "Stato mostrato con evidenza e ultima verifica, non solo colore",
+        "Filtri efficienti e gestione empty/error",
+        "Keyboard focus e responsive table/list",
+        "Non confondere progressi proposti con certificati"
+      ],
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE",
+      "reference_doc": "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
+    },
+    "FrameLab": {
+      "source_id": "DSK-002",
+      "fit": "HIGH",
+      "priority": "P2",
+      "mode": "OPERATE+EXPERIENCE",
+      "surface": "Editor media, galleria, pannelli di controllo",
+      "objective": "Rendere il contenuto foto centrale, strumenti secondari sobri e controlli riutilizzabili senza alterare il materiale originale.",
+      "acceptance_checks": [
+        "Controlli e immagini non sovrapposti sui piccoli schermi",
+        "Colori/superfici dell'editor coerenti in light/dark",
+        "Modalità panoramica senza perdita funzionale",
+        "Operazioni export con feedback reale, progressi e ripristino"
+      ],
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE",
+      "reference_doc": "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
+    },
+    "Wonderlog": {
+      "source_id": "DSK-002",
+      "fit": "MEDIUM",
+      "priority": "P2",
+      "mode": "EXPERIENCE+OPERATE",
+      "surface": "Diario viaggio, luoghi, mappa",
+      "objective": "Foto e ricordi protagonisti senza appesantire navigazione o routing; evitare scroll con layout disomogeneo.",
+      "acceptance_checks": [
+        "Mappa/overlay non coprono CTA o contenuto",
+        "Fotografie nel loro formato originale",
+        "Schede lunghe e offline leggibili",
+        "Accesso a tappe e mappa senza route inventate"
+      ],
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE",
+      "reference_doc": "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
+    },
+    "CashMate AI": {
+      "source_id": "DSK-002",
+      "fit": "MEDIUM",
+      "priority": "P2",
+      "mode": "OPERATE",
+      "surface": "Transazioni, grafici, filtri e budget",
+      "objective": "Dati economici e movimenti confrontabili, meno elementi decorativi, feedback esplicito di salvataggio/import.",
+      "acceptance_checks": [
+        "Valori monetari precisi e unità non ambigue",
+        "Contrasto leggibile per stato negativo/positivo, anche senza colori",
+        "Filtri/intervalli con range valido",
+        "Error/empty/retry e login opzionale chiari"
+      ],
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE",
+      "reference_doc": "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
+    },
+    "Deskland Android": {
+      "source_id": "DSK-002",
+      "fit": "MEDIUM",
+      "priority": "P2",
+      "mode": "OPERATE+EXPERIENCE",
+      "surface": "Launcher, scene e overlay",
+      "objective": "Conservare l'impatto immersivo senza perdere usabilità del launcher o performance Android; motion solo quando utile.",
+      "acceptance_checks": [
+        "FPS e rendering scenico misurati su device",
+        "Overlay e controlli accessibili, nessun bottone fuori schermo",
+        "Animazioni sospese in background/riduzione movimento",
+        "Home avviabile anche quando asset dinamici non caricano"
+      ],
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE",
+      "reference_doc": "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
+    }
+  }
+}
