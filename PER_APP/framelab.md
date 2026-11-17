@@ -129,3 +129,19 @@ Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze
 **Controlli obbligatori:** loader solo mentre esiste un'operazione reale; usare avanzamento determinato se misurabile; prevedere timeout/error/retry, accessibilità, reduced-motion, stop fuori viewport e budget FPS/APK. Face Id Scan non conferma autenticazione biometrica, View On Map richiede controllo privacy/provider, Infinite Spiral è un effetto media non un loader. Screenshot forniti in chat ma **file PNG non archiviati nel repo**: nomi/ordine/hash sono nel JSON canonico. Per Flutter/Compose, il codice React è soltanto riferimento e richiede adattamento/test.
 
 **Storico 17/11/2026:** 4 relazioni registrate anche in `PER_APP/REGISTRO_APP_DESIGN.json` sotto `bookmarked_visual_references`, senza duplicare gli ID già esistenti.
+
+## Impeccable — metodologia Designing (17/11/2026)
+
+**Fonte ufficiale:** [Designing with Impeccable](https://impeccable.style/designing/) · [Audit incrementale](../sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md) · riferimento già catalogato `DSK-002` (non creare un nuovo OSS source). **Priorità proposta P2**, modalità `OPERATE+EXPERIENCE`, fit HIGH. Nessun intervento nell'app eseguito.
+
+- **Schermate interessate:** Editor media, galleria, pannelli di controllo.
+- **Miglioramento proposto:** Rendere il contenuto foto centrale, strumenti secondari sobri e controlli riutilizzabili senza alterare il materiale originale.
+- **Verifiche da eseguire quando autorizzato:**
+  - [ ] Controlli e immagini non sovrapposti sui piccoli schermi
+  - [ ] Colori/superfici dell'editor coerenti in light/dark
+  - [ ] Modalità panoramica senza perdita funzionale
+  - [ ] Operazioni export con feedback reale, progressi e ripristino
+
+**Pipeline futura:** brief e decisioni Product Bible → verifica screenshot e gerarchia `critique` → controllo funzionale/semantico `audit` → stati di errore e vuoto `harden` → rifinitura `polish` → aggiornamento token e decisioni visive. Impeccable CLI/hook sono **Web-only**, non un passaggio di build o QA Flutter. Conservare colori, font, navigazione e caratteristiche già approvate; matrice responsive e App Shell Golden DRAFT si applicano senza dichiararne la certificazione.
+
+**Storico:** aggiunta una checklist di design nel campo `impeccable_designing_quality` del registro per-app; stato `PROPOSED_ONLY` / `NOT_EXECUTED`.
