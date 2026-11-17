@@ -1,0 +1,1891 @@
+{
+  "schema_version": 1,
+  "batch": "WATERMELON_NINE_2026_11_17",
+  "recorded_at": "2026-11-17",
+  "factory_baseline": "c5adc147046beb7024629466d10eeb799c3c2619",
+  "design_base": "b3c3c3a6e847920a82b8340e5a6b1f1d87f634a2",
+  "source_directory": "https://devlibraries.com/",
+  "source_repository": "WatermelonCorp/watermelon-platform",
+  "source_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+  "source_license": "MIT repository; verify external assets and original sources before runtime copying",
+  "status": "REFERENCE_ONLY",
+  "consumer_implementation": "NONE",
+  "counts": {
+    "components": 9,
+    "apps": 17,
+    "associations": 73,
+    "high": 24,
+    "medium": 49,
+    "verified_source_files": 6,
+    "unlocated_named_source": 3
+  },
+  "components": [
+    {
+      "id": "WML-001",
+      "name": "Carousel Slider",
+      "slug": "carousel-slider",
+      "source_user_url": "https://devlibraries.com/libraries/watermelon/carousel-slider",
+      "category": "CAROUSEL_GESTURE",
+      "evidence": "SOURCE_FILE_READ",
+      "source_path": "src/data/contents/animated-components/carousel-slider/base.tsx",
+      "source_blob_sha": "ccd0d565f1cd15ea44bf449ef7bdbfbc7cd0c25b",
+      "metadata_path": "src/data/contents/registry/carousel-slider.mdx",
+      "metadata_blob_sha": "c2d97b984497066d1c503b55bb03c86f95de24bb",
+      "implementation_repo": "WatermelonCorp/watermelon-platform",
+      "implementation_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "tech_observation": "React Motion gesture/velocity, rotation, scale, stack; sample external stock imagery is demo only",
+      "design_use": "Ricordi foto/card swipe, single card focus with dots and open-detail route; do not hide or crop original media",
+      "adoption": "REFERENCE",
+      "consumer_implementation": "NONE",
+      "reuse": "REFERENCE_ONLY",
+      "license": "Watermelon platform MIT; per-file/third-party deps/assets to verify prior to copying",
+      "source_page_status": "DEVLIBRARIES_EXACT_PAGE_UNAVAILABLE",
+      "flags": []
+    },
+    {
+      "id": "WML-002",
+      "name": "Fractional Picker",
+      "slug": "fractional-picker",
+      "source_user_url": "https://devlibraries.com/libraries/watermelon/fractional-picker",
+      "category": "RULER_PICKER",
+      "evidence": "SOURCE_FILE_READ",
+      "source_path": "src/data/contents/animated-components/fractional-picker/base.tsx",
+      "source_blob_sha": "b967c1465f20eca5d16034c97dcda180bc76def8",
+      "metadata_path": "src/data/contents/registry/fractional-picker.mdx",
+      "metadata_blob_sha": "12afa4535174ae3c672dddd6f55f80dbb6daaa6f",
+      "implementation_repo": "WatermelonCorp/watermelon-platform",
+      "implementation_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "tech_observation": "React/framer-motion draggable number ruler with spring snapping, numeric bounded input",
+      "design_use": "Selettore valori discreti giorno/minuti/soglia; non sostituisce date-picker completo senza anno/mese/vincoli",
+      "adoption": "REFERENCE",
+      "consumer_implementation": "NONE",
+      "reuse": "REFERENCE_ONLY",
+      "license": "Watermelon platform MIT; per-file/third-party deps/assets to verify prior to copying",
+      "source_page_status": "DEVLIBRARIES_EXACT_PAGE_UNAVAILABLE",
+      "flags": []
+    },
+    {
+      "id": "WML-003",
+      "name": "Scrub Slider (base)",
+      "slug": "scrub-slider-base",
+      "source_user_url": "https://devlibraries.com/libraries/watermelon/scrub-slider-base",
+      "category": "SCRUB_PRECISION",
+      "evidence": "SOURCE_FILE_READ",
+      "source_path": "src/data/contents/animated-components/scrub-slider/base.tsx",
+      "source_blob_sha": "50dd8724adec082588cb4970463a37e65702f2d2",
+      "metadata_path": "src/data/contents/registry/scrub-slider.mdx",
+      "metadata_blob_sha": "21c32fa56b0d8c9317d16cf3223ad86ad819cc9e",
+      "implementation_repo": "WatermelonCorp/watermelon-platform",
+      "implementation_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "tech_observation": "React Motion pointer/touch drag with tick marks, numeric feedback, bounded value",
+      "design_use": "Regolazione continua o timeline, con precisione a trascinamento e supporto accessibile alternativo",
+      "adoption": "REFERENCE",
+      "consumer_implementation": "NONE",
+      "reuse": "REFERENCE_ONLY",
+      "license": "Watermelon platform MIT; per-file/third-party deps/assets to verify prior to copying",
+      "source_page_status": "DEVLIBRARIES_EXACT_PAGE_UNAVAILABLE",
+      "flags": []
+    },
+    {
+      "id": "WML-004",
+      "name": "Range Selection Slider",
+      "slug": "range-selection-slider",
+      "source_user_url": "https://devlibraries.com/libraries/watermelon/range-selection-slider",
+      "category": "TWO_HANDLE_RANGE",
+      "evidence": "SOURCE_FILE_READ",
+      "source_path": "src/data/contents/animated-components/range-selection-slider/base.tsx",
+      "source_blob_sha": "c9d73a57572b4c6928f27ce9e2ed2b60e8edc67f",
+      "metadata_path": "src/data/contents/registry/range-selection-slider.mdx",
+      "metadata_blob_sha": "751fee6942df1c55e15cd4848d4ebf361a8d2753",
+      "implementation_repo": "WatermelonCorp/watermelon-platform",
+      "implementation_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "tech_observation": "React Motion two handles with inclusive min/max, onChange and apply; demo framed as PriceRangeCard",
+      "design_use": "Selettore intervallo valido con min <= max, indici/limiti espliciti, input manuale e date/time conversion",
+      "adoption": "REFERENCE",
+      "consumer_implementation": "NONE",
+      "reuse": "REFERENCE_ONLY",
+      "license": "Watermelon platform MIT; per-file/third-party deps/assets to verify prior to copying",
+      "source_page_status": "DEVLIBRARIES_EXACT_PAGE_UNAVAILABLE",
+      "flags": [
+        "Registry MDX body says notification pulse while title/description/code show range slider; metadata inconsistency noted"
+      ]
+    },
+    {
+      "id": "WML-005",
+      "name": "Swap Form",
+      "slug": "swap-form",
+      "source_user_url": "https://devlibraries.com/libraries/watermelon/swap-form",
+      "category": "AUTH_FORM_TRANSITION",
+      "evidence": "SOURCE_FILE_READ",
+      "source_path": "src/data/contents/animated-components/swap-form/base.tsx",
+      "source_blob_sha": "2b64bfab4cca53260b4d4ccd6364b0c856d00768",
+      "metadata_path": "src/data/contents/registry/swap-form.mdx",
+      "metadata_blob_sha": "d4585596b2b04bf67c40dffec0f03b5c29847a05",
+      "implementation_repo": "WatermelonCorp/watermelon-platform",
+      "implementation_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "tech_observation": "React Motion AnimatePresence switch login/sign-up; form UI only, Google/Apple button visuals not OAuth implementation",
+      "design_use": "Solo interfaccia Login/Registrazione quando realmente prevista da Product Bible, supporto guest e sicurezza",
+      "adoption": "REFERENCE",
+      "consumer_implementation": "NONE",
+      "reuse": "REFERENCE_ONLY",
+      "license": "Watermelon platform MIT; per-file/third-party deps/assets to verify prior to copying",
+      "source_page_status": "DEVLIBRARIES_EXACT_PAGE_UNAVAILABLE",
+      "flags": []
+    },
+    {
+      "id": "WML-006",
+      "name": "Text Gradient",
+      "slug": "text-gradient",
+      "source_user_url": "https://devlibraries.com/libraries/watermelon/text-gradient",
+      "category": "TYPOGRAPHY_DECORATION",
+      "evidence": "EXACT_SOURCE_NOT_LOCATED",
+      "source_path": null,
+      "source_blob_sha": null,
+      "metadata_path": null,
+      "metadata_blob_sha": null,
+      "implementation_repo": "WatermelonCorp/watermelon-platform",
+      "implementation_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "tech_observation": "Component by supplied DevLibraries slug; no exact source or metadata at pinned original repo. Concept of gradient headline only, not a verified drop-in module.",
+      "design_use": "Accento tipografico ridotto, contrasto e leggibilità; non modificare brand/theme senza consenso",
+      "adoption": "REFERENCE",
+      "consumer_implementation": "NONE",
+      "reuse": "REFERENCE_ONLY",
+      "license": "Watermelon platform MIT; per-file/third-party deps/assets to verify prior to copying",
+      "source_page_status": "DEVLIBRARIES_EXACT_PAGE_UNAVAILABLE",
+      "flags": []
+    },
+    {
+      "id": "WML-007",
+      "name": "Dialog Stack (base)",
+      "slug": "dialog-stack-base",
+      "source_user_url": "https://devlibraries.com/libraries/watermelon/dialog-stack-base",
+      "category": "MULTISTEP_MODAL",
+      "evidence": "SOURCE_FILE_READ",
+      "source_path": "src/data/contents/animated-components/dialog-stack/base.tsx",
+      "source_blob_sha": "0b0e401dc9ca5957bc048885bf8b29449cf24932",
+      "metadata_path": "src/data/contents/registry/dialog-stack.mdx",
+      "metadata_blob_sha": "e1a37012bb035a5d12822764f9b32b4b2eff477d",
+      "implementation_repo": "WatermelonCorp/watermelon-platform",
+      "implementation_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "tech_observation": "React Motion stack of multi-step modal cards, forward/back; demo with form/steps not collaborative-invite backend",
+      "design_use": "Guided invite teammate/shared space flow if feature authorized; preserve auth, secure invite code, revoke, back/close",
+      "adoption": "REFERENCE",
+      "consumer_implementation": "NONE",
+      "reuse": "REFERENCE_ONLY",
+      "license": "Watermelon platform MIT; per-file/third-party deps/assets to verify prior to copying",
+      "source_page_status": "DEVLIBRARIES_EXACT_PAGE_UNAVAILABLE",
+      "flags": []
+    },
+    {
+      "id": "WML-008",
+      "name": "Notification List",
+      "slug": "notification-list",
+      "source_user_url": "https://devlibraries.com/libraries/watermelon/notification-list",
+      "category": "TODAY_IN_APP_REMINDER_SUMMARY",
+      "evidence": "EXACT_SOURCE_NOT_LOCATED",
+      "source_path": null,
+      "source_blob_sha": null,
+      "metadata_path": null,
+      "metadata_blob_sha": null,
+      "implementation_repo": "WatermelonCorp/watermelon-platform",
+      "implementation_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "tech_observation": "Exact DevLibraries URL supplied; named source not located in pinned Watermelon repository. Related, DISTINCT verified component: event-reminders/base.tsx for editing reminder timings; not a notification list.",
+      "design_use": "Riepilogo Home Oggi alla prima apertura del giorno oppure ad orario configurato. Deve essere coerente con dati reali e sicuro, non push OS implicita.",
+      "adoption": "REFERENCE",
+      "consumer_implementation": "NONE",
+      "reuse": "REFERENCE_ONLY",
+      "license": "Watermelon platform MIT; per-file/third-party deps/assets to verify prior to copying",
+      "source_page_status": "DEVLIBRARIES_EXACT_PAGE_UNAVAILABLE",
+      "flags": [
+        "Related verified component event-reminders is a distinct reminder editor, not a proven Notification List source",
+        "Anna Home Oggi schedule/notification behavior requires separate Product Bible approval"
+      ]
+    },
+    {
+      "id": "WML-009",
+      "name": "Flip Clock",
+      "slug": "flip-clock",
+      "source_user_url": "https://devlibraries.com/libraries/watermelon/flip-clock",
+      "category": "COUNTDOWN_CLOCK_VISUAL",
+      "evidence": "EXACT_SOURCE_NOT_LOCATED",
+      "source_path": null,
+      "source_blob_sha": null,
+      "metadata_path": null,
+      "metadata_blob_sha": null,
+      "implementation_repo": "WatermelonCorp/watermelon-platform",
+      "implementation_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "tech_observation": "Exact slug present in user's source URL but no matching named component in pinned original repository; countdown UX reference, not proven code.",
+      "design_use": "Countdown a data/ora target reale, clock-zone aware, pause/resume semantics and accessibility; avoid decorative loops without timer.",
+      "adoption": "REFERENCE",
+      "consumer_implementation": "NONE",
+      "reuse": "REFERENCE_ONLY",
+      "license": "Watermelon platform MIT; per-file/third-party deps/assets to verify prior to copying",
+      "source_page_status": "DEVLIBRARIES_EXACT_PAGE_UNAVAILABLE",
+      "flags": []
+    }
+  ],
+  "associations": [
+    {
+      "component_id": "WML-001",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "use_case": "Swipe raccolta Ricordi, apri foto originale, non sostituire navigazione calendario",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-001",
+      "app": "Wonderlog",
+      "fit": "HIGH",
+      "use_case": "Foto e memorie viaggio a card",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-001",
+      "app": "FrameLab",
+      "fit": "HIGH",
+      "use_case": "Selezione album/gallery in preview, no image crop",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-001",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "use_case": "Ricette suggerite con foto",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-001",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "use_case": "Esplora giornate in evidenza senza perdere ricerca",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-001",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "use_case": "Bacheca raccolta visuale, non l'editor principale",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-001",
+      "app": "Omni Cleaner",
+      "fit": "MEDIUM",
+      "use_case": "Anteprima di una selezione limitata, non galleria di eliminazione massiva",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-001",
+      "app": "BeerClass AI",
+      "fit": "MEDIUM",
+      "use_case": "Collezione degustazioni",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-001",
+      "app": "CamperBoss",
+      "fit": "MEDIUM",
+      "use_case": "Album di tappe",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-002",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "use_case": "Selezione giorno in un mese già fissato o rotella valori nelle Impostazioni, data completa deve restare accessibile",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-002",
+      "app": "SleepMax Coach",
+      "fit": "HIGH",
+      "use_case": "Durata routine e promemoria a intervalli",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-002",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "use_case": "Selezione giorno opzionale con supporto date reali",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-002",
+      "app": "BeerClass AI",
+      "fit": "MEDIUM",
+      "use_case": "Valutazione numerica discreta, non forzare scala nuova",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-002",
+      "app": "Battery Guard",
+      "fit": "MEDIUM",
+      "use_case": "Regola soglie con limiti reali",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-002",
+      "app": "FocusSense",
+      "fit": "MEDIUM",
+      "use_case": "Durata sessione focus configurabile",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-002",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "use_case": "Quantità porzioni/tempo cottura se configurabili",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-002",
+      "app": "CamperBoss",
+      "fit": "MEDIUM",
+      "use_case": "Soglie risorse o durata tappa",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-003",
+      "app": "Anna's Diary",
+      "fit": "MEDIUM",
+      "use_case": "Scorrimento anno/mese di Ricordi solo se utile e non sostituisce calendario",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-003",
+      "app": "FrameLab",
+      "fit": "HIGH",
+      "use_case": "Scrubbing foto/video/parametri con valori reali",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-003",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "use_case": "Seek timeline video in player",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-003",
+      "app": "Wonderlog",
+      "fit": "HIGH",
+      "use_case": "Timeline di tappe o media con data collegata",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-003",
+      "app": "BeerClass AI",
+      "fit": "MEDIUM",
+      "use_case": "Regolazione voto continua solo se scala prevista",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-003",
+      "app": "FocusSense",
+      "fit": "MEDIUM",
+      "use_case": "Durata timer o limite rumore solo se configurabile",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-003",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "use_case": "Timeline registrazione vocale futura o revisioni",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-003",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "use_case": "Timer ricetta, con input numerico alternativo",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-003",
+      "app": "TrailPath",
+      "fit": "MEDIUM",
+      "use_case": "Timeline percorso registrato solo se disponibile",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-004",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "use_case": "Filtra Ricordi per intervallo date o definisci fascia oraria appuntamento solo dopo definizione UX",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-004",
+      "app": "Wonderlog",
+      "fit": "HIGH",
+      "use_case": "Filtra tappe per intervallo date",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-004",
+      "app": "CashMate AI",
+      "fit": "HIGH",
+      "use_case": "Filtri somme e periodi spese",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-004",
+      "app": "FocusSense",
+      "fit": "HIGH",
+      "use_case": "Intervallo di report Focus Score e metriche",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-004",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "use_case": "Filtra media per durata/dimensione/periodo non sostituisce anteprima",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-004",
+      "app": "FrameLab",
+      "fit": "HIGH",
+      "use_case": "Regola parametri con bound reali se doppia soglia prevista",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-004",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "use_case": "Filtra ricorrenze per intervallo del calendario",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-004",
+      "app": "Battery Guard",
+      "fit": "MEDIUM",
+      "use_case": "Soglia batteria solo con modalità intervallo reale",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-004",
+      "app": "CamperBoss",
+      "fit": "MEDIUM",
+      "use_case": "Filtro date disponibilità/capacità solo se feature presente",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-004",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "use_case": "Filtri data modifica o dimensione contenuti",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-005",
+      "app": "Anna's Diary",
+      "fit": "MEDIUM",
+      "use_case": "Accesso/account opzionale solo dove previsto, mai obbligare login per diario locale",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-005",
+      "app": "CashMate AI",
+      "fit": "HIGH",
+      "use_case": "Registrazione/login dove backend supportato",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-005",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "use_case": "Login opzionale di sync se introdotto",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-005",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "use_case": "Accesso dashboard web solo se auth reale esiste",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-005",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "use_case": "Account volontario, non bloccare lettura del catalogo",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-005",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "use_case": "Account volontario solo se previsto dal prodotto",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-005",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "use_case": "Condivisione viaggi se autenticazione approvata",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-006",
+      "app": "Cooking Anime",
+      "fit": "HIGH",
+      "use_case": "Titolo identità ricette/kawaii se il branding lo consente",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-006",
+      "app": "Web Utility Factory",
+      "fit": "HIGH",
+      "use_case": "Hero web/pagina prodotto",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-006",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "use_case": "Titolo editoriale raccolte viaggio",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-006",
+      "app": "Anna's Diary",
+      "fit": "MEDIUM",
+      "use_case": "Titoli editoriali secondari mantenendo palette rose/Manrope/Lora",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-006",
+      "app": "FrameLab",
+      "fit": "MEDIUM",
+      "use_case": "Landing grafica, non etichette strumenti",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-006",
+      "app": "App Factory Dashboard",
+      "fit": "MEDIUM",
+      "use_case": "Header promozionale soltanto, non badge CI",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-006",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "use_case": "Accento su heading senza cambiare colori approvati",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-007",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "use_case": "Invita persona/spazio condiviso con codice se già previsto; conferma server reale, nessun invito simulato",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-007",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "use_case": "Invita collaboratore per spazio condiviso solo se autorizzato",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-007",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "use_case": "Invita teammate ai workspace solo con backend permessi e ruoli",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-007",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "use_case": "Condivisione diario viaggio con conferma reale",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-007",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "use_case": "Condivisione raccolte ricette se supportata",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-007",
+      "app": "CashMate AI",
+      "fit": "MEDIUM",
+      "use_case": "Flusso onboarding importazione controllato, non accesso condiviso implicito",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-007",
+      "app": "CamperBoss",
+      "fit": "MEDIUM",
+      "use_case": "Organizza viaggio condiviso solo se supportato",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-008",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "use_case": "Home Oggi — riepilogo impegni del giorno in alto, prima apertura giornaliera e/o orario scelto, deduplicato per data/account",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-008",
+      "app": "SleepMax Coach",
+      "fit": "HIGH",
+      "use_case": "Riepilogo routine sonno soltanto all'orario/avvio previsto",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-008",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "use_case": "Impegni di viaggio oggi solo se dati pianificati",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-008",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "use_case": "Una ricorrenza del giorno nel riepilogo, non cancellare contenuti editoriali",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-008",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "use_case": "Task del giorno se la feature task è presente",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-008",
+      "app": "CamperBoss",
+      "fit": "MEDIUM",
+      "use_case": "Check-list tappa o partenza solo quando programmata",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-008",
+      "app": "CashMate AI",
+      "fit": "MEDIUM",
+      "use_case": "Scadenze spese solo se dati registrati realmente",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-008",
+      "app": "App Factory Dashboard",
+      "fit": "MEDIUM",
+      "use_case": "Bloccanti operativi del giorno se derivati da stati reali",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-009",
+      "app": "Anna's Diary",
+      "fit": "MEDIUM",
+      "use_case": "Conto alla rovescia a un evento importante scelto, non rendere ogni appuntamento un timer",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-009",
+      "app": "Cooking Anime",
+      "fit": "HIGH",
+      "use_case": "Timer cottura ricetta solo con vera gestione background/avvisi",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-009",
+      "app": "SleepMax Coach",
+      "fit": "MEDIUM",
+      "use_case": "Timer preparazione al riposo o routine reale",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-009",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "use_case": "Conto alla rovescia fino alla prossima giornata selezionata",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-009",
+      "app": "CamperBoss",
+      "fit": "MEDIUM",
+      "use_case": "Tempo alla partenza concordata",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-009",
+      "app": "FocusSense",
+      "fit": "MEDIUM",
+      "use_case": "Timer sessione focus reale",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-009",
+      "app": "Tabletop Motion Alarm",
+      "fit": "MEDIUM",
+      "use_case": "Countdown armamento 5 secondi con leggibilità e controllo Disarma prioritari",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    },
+    {
+      "component_id": "WML-009",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "use_case": "Tempo alla tappa/evento di viaggio",
+      "status": "PROPOSED_ONLY",
+      "consumer_implementation": "NONE"
+    }
+  ],
+  "by_app": {
+    "Anna's Diary": [
+      {
+        "component_id": "WML-001",
+        "fit": "HIGH",
+        "use_case": "Swipe raccolta Ricordi, apri foto originale, non sostituire navigazione calendario",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-002",
+        "fit": "HIGH",
+        "use_case": "Selezione giorno in un mese già fissato o rotella valori nelle Impostazioni, data completa deve restare accessibile",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-003",
+        "fit": "MEDIUM",
+        "use_case": "Scorrimento anno/mese di Ricordi solo se utile e non sostituisce calendario",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-004",
+        "fit": "HIGH",
+        "use_case": "Filtra Ricordi per intervallo date o definisci fascia oraria appuntamento solo dopo definizione UX",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-005",
+        "fit": "MEDIUM",
+        "use_case": "Accesso/account opzionale solo dove previsto, mai obbligare login per diario locale",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-006",
+        "fit": "MEDIUM",
+        "use_case": "Titoli editoriali secondari mantenendo palette rose/Manrope/Lora",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-007",
+        "fit": "HIGH",
+        "use_case": "Invita persona/spazio condiviso con codice se già previsto; conferma server reale, nessun invito simulato",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-008",
+        "fit": "HIGH",
+        "use_case": "Home Oggi — riepilogo impegni del giorno in alto, prima apertura giornaliera e/o orario scelto, deduplicato per data/account",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-009",
+        "fit": "MEDIUM",
+        "use_case": "Conto alla rovescia a un evento importante scelto, non rendere ogni appuntamento un timer",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "App Factory Dashboard": [
+      {
+        "component_id": "WML-005",
+        "fit": "HIGH",
+        "use_case": "Accesso dashboard web solo se auth reale esiste",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-006",
+        "fit": "MEDIUM",
+        "use_case": "Header promozionale soltanto, non badge CI",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-007",
+        "fit": "HIGH",
+        "use_case": "Invita teammate ai workspace solo con backend permessi e ruoli",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-008",
+        "fit": "MEDIUM",
+        "use_case": "Bloccanti operativi del giorno se derivati da stati reali",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "Battery Guard": [
+      {
+        "component_id": "WML-002",
+        "fit": "MEDIUM",
+        "use_case": "Regola soglie con limiti reali",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-004",
+        "fit": "MEDIUM",
+        "use_case": "Soglia batteria solo con modalità intervallo reale",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "BeerClass AI": [
+      {
+        "component_id": "WML-001",
+        "fit": "MEDIUM",
+        "use_case": "Collezione degustazioni",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-002",
+        "fit": "MEDIUM",
+        "use_case": "Valutazione numerica discreta, non forzare scala nuova",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-003",
+        "fit": "MEDIUM",
+        "use_case": "Regolazione voto continua solo se scala prevista",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "CamperBoss": [
+      {
+        "component_id": "WML-001",
+        "fit": "MEDIUM",
+        "use_case": "Album di tappe",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-002",
+        "fit": "MEDIUM",
+        "use_case": "Soglie risorse o durata tappa",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-004",
+        "fit": "MEDIUM",
+        "use_case": "Filtro date disponibilità/capacità solo se feature presente",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-007",
+        "fit": "MEDIUM",
+        "use_case": "Organizza viaggio condiviso solo se supportato",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-008",
+        "fit": "MEDIUM",
+        "use_case": "Check-list tappa o partenza solo quando programmata",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-009",
+        "fit": "MEDIUM",
+        "use_case": "Tempo alla partenza concordata",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "CashMate AI": [
+      {
+        "component_id": "WML-004",
+        "fit": "HIGH",
+        "use_case": "Filtri somme e periodi spese",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-005",
+        "fit": "HIGH",
+        "use_case": "Registrazione/login dove backend supportato",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-007",
+        "fit": "MEDIUM",
+        "use_case": "Flusso onboarding importazione controllato, non accesso condiviso implicito",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-008",
+        "fit": "MEDIUM",
+        "use_case": "Scadenze spese solo se dati registrati realmente",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "Cooking Anime": [
+      {
+        "component_id": "WML-001",
+        "fit": "MEDIUM",
+        "use_case": "Ricette suggerite con foto",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-002",
+        "fit": "MEDIUM",
+        "use_case": "Quantità porzioni/tempo cottura se configurabili",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-003",
+        "fit": "MEDIUM",
+        "use_case": "Timer ricetta, con input numerico alternativo",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-005",
+        "fit": "MEDIUM",
+        "use_case": "Account volontario solo se previsto dal prodotto",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-006",
+        "fit": "HIGH",
+        "use_case": "Titolo identità ricette/kawaii se il branding lo consente",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-007",
+        "fit": "MEDIUM",
+        "use_case": "Condivisione raccolte ricette se supportata",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-009",
+        "fit": "HIGH",
+        "use_case": "Timer cottura ricetta solo con vera gestione background/avvisi",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "FocusSense": [
+      {
+        "component_id": "WML-002",
+        "fit": "MEDIUM",
+        "use_case": "Durata sessione focus configurabile",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-003",
+        "fit": "MEDIUM",
+        "use_case": "Durata timer o limite rumore solo se configurabile",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-004",
+        "fit": "HIGH",
+        "use_case": "Intervallo di report Focus Score e metriche",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-009",
+        "fit": "MEDIUM",
+        "use_case": "Timer sessione focus reale",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "FrameLab": [
+      {
+        "component_id": "WML-001",
+        "fit": "HIGH",
+        "use_case": "Selezione album/gallery in preview, no image crop",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-003",
+        "fit": "HIGH",
+        "use_case": "Scrubbing foto/video/parametri con valori reali",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-004",
+        "fit": "HIGH",
+        "use_case": "Regola parametri con bound reali se doppia soglia prevista",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-006",
+        "fit": "MEDIUM",
+        "use_case": "Landing grafica, non etichette strumenti",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "Notes-Ecosistema": [
+      {
+        "component_id": "WML-001",
+        "fit": "MEDIUM",
+        "use_case": "Bacheca raccolta visuale, non l'editor principale",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-003",
+        "fit": "MEDIUM",
+        "use_case": "Timeline registrazione vocale futura o revisioni",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-004",
+        "fit": "MEDIUM",
+        "use_case": "Filtri data modifica o dimensione contenuti",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-005",
+        "fit": "MEDIUM",
+        "use_case": "Login opzionale di sync se introdotto",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-007",
+        "fit": "HIGH",
+        "use_case": "Invita collaboratore per spazio condiviso solo se autorizzato",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-008",
+        "fit": "MEDIUM",
+        "use_case": "Task del giorno se la feature task è presente",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "Omni Cleaner": [
+      {
+        "component_id": "WML-001",
+        "fit": "MEDIUM",
+        "use_case": "Anteprima di una selezione limitata, non galleria di eliminazione massiva",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-003",
+        "fit": "HIGH",
+        "use_case": "Seek timeline video in player",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-004",
+        "fit": "HIGH",
+        "use_case": "Filtra media per durata/dimensione/periodo non sostituisce anteprima",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "SleepMax Coach": [
+      {
+        "component_id": "WML-002",
+        "fit": "HIGH",
+        "use_case": "Durata routine e promemoria a intervalli",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-008",
+        "fit": "HIGH",
+        "use_case": "Riepilogo routine sonno soltanto all'orario/avvio previsto",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-009",
+        "fit": "MEDIUM",
+        "use_case": "Timer preparazione al riposo o routine reale",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "Tabletop Motion Alarm": [
+      {
+        "component_id": "WML-009",
+        "fit": "MEDIUM",
+        "use_case": "Countdown armamento 5 secondi con leggibilità e controllo Disarma prioritari",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "TrailPath": [
+      {
+        "component_id": "WML-003",
+        "fit": "MEDIUM",
+        "use_case": "Timeline percorso registrato solo se disponibile",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "Web Utility Factory": [
+      {
+        "component_id": "WML-006",
+        "fit": "HIGH",
+        "use_case": "Hero web/pagina prodotto",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "Wonderlog": [
+      {
+        "component_id": "WML-001",
+        "fit": "HIGH",
+        "use_case": "Foto e memorie viaggio a card",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-003",
+        "fit": "HIGH",
+        "use_case": "Timeline di tappe o media con data collegata",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-004",
+        "fit": "HIGH",
+        "use_case": "Filtra tappe per intervallo date",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-005",
+        "fit": "MEDIUM",
+        "use_case": "Condivisione viaggi se autenticazione approvata",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-006",
+        "fit": "MEDIUM",
+        "use_case": "Titolo editoriale raccolte viaggio",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-007",
+        "fit": "MEDIUM",
+        "use_case": "Condivisione diario viaggio con conferma reale",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-008",
+        "fit": "MEDIUM",
+        "use_case": "Impegni di viaggio oggi solo se dati pianificati",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-009",
+        "fit": "MEDIUM",
+        "use_case": "Tempo alla tappa/evento di viaggio",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "World Days": [
+      {
+        "component_id": "WML-001",
+        "fit": "MEDIUM",
+        "use_case": "Esplora giornate in evidenza senza perdere ricerca",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-002",
+        "fit": "MEDIUM",
+        "use_case": "Selezione giorno opzionale con supporto date reali",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-004",
+        "fit": "MEDIUM",
+        "use_case": "Filtra ricorrenze per intervallo del calendario",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-005",
+        "fit": "MEDIUM",
+        "use_case": "Account volontario, non bloccare lettura del catalogo",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-006",
+        "fit": "MEDIUM",
+        "use_case": "Accento su heading senza cambiare colori approvati",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-008",
+        "fit": "MEDIUM",
+        "use_case": "Una ricorrenza del giorno nel riepilogo, non cancellare contenuti editoriali",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "component_id": "WML-009",
+        "fit": "MEDIUM",
+        "use_case": "Conto alla rovescia fino alla prossima giornata selezionata",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ]
+  },
+  "by_component": {
+    "WML-001": [
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "use_case": "Swipe raccolta Ricordi, apri foto originale, non sostituire navigazione calendario",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "HIGH",
+        "use_case": "Foto e memorie viaggio a card",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "HIGH",
+        "use_case": "Selezione album/gallery in preview, no image crop",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "use_case": "Ricette suggerite con foto",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "use_case": "Esplora giornate in evidenza senza perdere ricerca",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "use_case": "Bacheca raccolta visuale, non l'editor principale",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "MEDIUM",
+        "use_case": "Anteprima di una selezione limitata, non galleria di eliminazione massiva",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "BeerClass AI",
+        "fit": "MEDIUM",
+        "use_case": "Collezione degustazioni",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "CamperBoss",
+        "fit": "MEDIUM",
+        "use_case": "Album di tappe",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "WML-002": [
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "use_case": "Selezione giorno in un mese già fissato o rotella valori nelle Impostazioni, data completa deve restare accessibile",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "SleepMax Coach",
+        "fit": "HIGH",
+        "use_case": "Durata routine e promemoria a intervalli",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "use_case": "Selezione giorno opzionale con supporto date reali",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "BeerClass AI",
+        "fit": "MEDIUM",
+        "use_case": "Valutazione numerica discreta, non forzare scala nuova",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Battery Guard",
+        "fit": "MEDIUM",
+        "use_case": "Regola soglie con limiti reali",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "FocusSense",
+        "fit": "MEDIUM",
+        "use_case": "Durata sessione focus configurabile",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "use_case": "Quantità porzioni/tempo cottura se configurabili",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "CamperBoss",
+        "fit": "MEDIUM",
+        "use_case": "Soglie risorse o durata tappa",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "WML-003": [
+      {
+        "app": "Anna's Diary",
+        "fit": "MEDIUM",
+        "use_case": "Scorrimento anno/mese di Ricordi solo se utile e non sostituisce calendario",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "HIGH",
+        "use_case": "Scrubbing foto/video/parametri con valori reali",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "use_case": "Seek timeline video in player",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "HIGH",
+        "use_case": "Timeline di tappe o media con data collegata",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "BeerClass AI",
+        "fit": "MEDIUM",
+        "use_case": "Regolazione voto continua solo se scala prevista",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "FocusSense",
+        "fit": "MEDIUM",
+        "use_case": "Durata timer o limite rumore solo se configurabile",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "use_case": "Timeline registrazione vocale futura o revisioni",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "use_case": "Timer ricetta, con input numerico alternativo",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "TrailPath",
+        "fit": "MEDIUM",
+        "use_case": "Timeline percorso registrato solo se disponibile",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "WML-004": [
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "use_case": "Filtra Ricordi per intervallo date o definisci fascia oraria appuntamento solo dopo definizione UX",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "HIGH",
+        "use_case": "Filtra tappe per intervallo date",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "CashMate AI",
+        "fit": "HIGH",
+        "use_case": "Filtri somme e periodi spese",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "FocusSense",
+        "fit": "HIGH",
+        "use_case": "Intervallo di report Focus Score e metriche",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "use_case": "Filtra media per durata/dimensione/periodo non sostituisce anteprima",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "HIGH",
+        "use_case": "Regola parametri con bound reali se doppia soglia prevista",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "use_case": "Filtra ricorrenze per intervallo del calendario",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Battery Guard",
+        "fit": "MEDIUM",
+        "use_case": "Soglia batteria solo con modalità intervallo reale",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "CamperBoss",
+        "fit": "MEDIUM",
+        "use_case": "Filtro date disponibilità/capacità solo se feature presente",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "use_case": "Filtri data modifica o dimensione contenuti",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "WML-005": [
+      {
+        "app": "Anna's Diary",
+        "fit": "MEDIUM",
+        "use_case": "Accesso/account opzionale solo dove previsto, mai obbligare login per diario locale",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "CashMate AI",
+        "fit": "HIGH",
+        "use_case": "Registrazione/login dove backend supportato",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "use_case": "Login opzionale di sync se introdotto",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "use_case": "Accesso dashboard web solo se auth reale esiste",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "use_case": "Account volontario, non bloccare lettura del catalogo",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "use_case": "Account volontario solo se previsto dal prodotto",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "use_case": "Condivisione viaggi se autenticazione approvata",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "WML-006": [
+      {
+        "app": "Cooking Anime",
+        "fit": "HIGH",
+        "use_case": "Titolo identità ricette/kawaii se il branding lo consente",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Web Utility Factory",
+        "fit": "HIGH",
+        "use_case": "Hero web/pagina prodotto",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "use_case": "Titolo editoriale raccolte viaggio",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Anna's Diary",
+        "fit": "MEDIUM",
+        "use_case": "Titoli editoriali secondari mantenendo palette rose/Manrope/Lora",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "MEDIUM",
+        "use_case": "Landing grafica, non etichette strumenti",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "MEDIUM",
+        "use_case": "Header promozionale soltanto, non badge CI",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "use_case": "Accento su heading senza cambiare colori approvati",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "WML-007": [
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "use_case": "Invita persona/spazio condiviso con codice se già previsto; conferma server reale, nessun invito simulato",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "use_case": "Invita collaboratore per spazio condiviso solo se autorizzato",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "use_case": "Invita teammate ai workspace solo con backend permessi e ruoli",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "use_case": "Condivisione diario viaggio con conferma reale",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "use_case": "Condivisione raccolte ricette se supportata",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "CashMate AI",
+        "fit": "MEDIUM",
+        "use_case": "Flusso onboarding importazione controllato, non accesso condiviso implicito",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "CamperBoss",
+        "fit": "MEDIUM",
+        "use_case": "Organizza viaggio condiviso solo se supportato",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "WML-008": [
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "use_case": "Home Oggi — riepilogo impegni del giorno in alto, prima apertura giornaliera e/o orario scelto, deduplicato per data/account",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "SleepMax Coach",
+        "fit": "HIGH",
+        "use_case": "Riepilogo routine sonno soltanto all'orario/avvio previsto",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "use_case": "Impegni di viaggio oggi solo se dati pianificati",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "use_case": "Una ricorrenza del giorno nel riepilogo, non cancellare contenuti editoriali",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "use_case": "Task del giorno se la feature task è presente",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "CamperBoss",
+        "fit": "MEDIUM",
+        "use_case": "Check-list tappa o partenza solo quando programmata",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "CashMate AI",
+        "fit": "MEDIUM",
+        "use_case": "Scadenze spese solo se dati registrati realmente",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "MEDIUM",
+        "use_case": "Bloccanti operativi del giorno se derivati da stati reali",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ],
+    "WML-009": [
+      {
+        "app": "Anna's Diary",
+        "fit": "MEDIUM",
+        "use_case": "Conto alla rovescia a un evento importante scelto, non rendere ogni appuntamento un timer",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "HIGH",
+        "use_case": "Timer cottura ricetta solo con vera gestione background/avvisi",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "SleepMax Coach",
+        "fit": "MEDIUM",
+        "use_case": "Timer preparazione al riposo o routine reale",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "use_case": "Conto alla rovescia fino alla prossima giornata selezionata",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "CamperBoss",
+        "fit": "MEDIUM",
+        "use_case": "Tempo alla partenza concordata",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "FocusSense",
+        "fit": "MEDIUM",
+        "use_case": "Timer sessione focus reale",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Tabletop Motion Alarm",
+        "fit": "MEDIUM",
+        "use_case": "Countdown armamento 5 secondi con leggibilità e controllo Disarma prioritari",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "use_case": "Tempo alla tappa/evento di viaggio",
+        "status": "PROPOSED_ONLY",
+        "consumer_implementation": "NONE"
+      }
+    ]
+  }
+}
