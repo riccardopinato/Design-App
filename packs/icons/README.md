@@ -105,3 +105,9 @@ already declared by each consumer. See `PROVENANCE.md`.
   behavior; native device verification is still required for certification.
 - Current implementation is the **filled** family only, not per-icon outline
   alternates, icon packs, colors or icon artwork creation.
+
+## Fonti grafiche e motion da valutare
+
+La sezione [**ICONE**](../../ICONE/README.md) è il catalogo esterno di iconografia statica/animata della Factory. Contiene [Gentleface](../../ICONE/GENTLEFACE_AUDIT_2026-11-17.md), [28 candidati](../../ICONE/ANTEPRIME.md) e [114 associazioni app ↔ icone](../../ICONE/MATRICE_APP_ICONE.md). L'eventuale futura scelta di una famiglia visiva differente non modifica automaticamente i 24 semantic IDs di questo Pack, le sue API, la licenza degli assets o lo status COPY_READY/LIBRARY_VERIFIED esistente.
+
+Gentleface SVG animation non è parte di `factory_icons` v0.1.0: la resa mobile richiede adapter e verifica autonoma; mantieni fallback statico, reduced motion e prove su device.

@@ -69,3 +69,7 @@ Oltre ai riferimenti immagine UIR, la libreria include un [catalogo Ruixen UI](.
 ## Skill e tool esterni anti UI slop — 17/11/2026
 
 [**10 fonti source-pinned**](../sources/ANTI_SLOP_DESIGN_SKILLS_AUDIT_2026-11-17.md) con [**matrice bidirezionale repo ↔ app**](./MATRICE_REPO_DESIGN_APP_2026-11-17.md) e [**JSON interrogabile**](./MATRICE_REPO_DESIGN_APP_2026-11-17.json). Non costituiscono nuove categorie `UIX-STYLE`: sono skill, linee guida, tooling o kit marketing. I tag corrispondono a famiglie già esistenti, gli abbinamenti restano `PROPOSED_ONLY` e non autorizzano l'installazione automatica delle skill nel runtime Flutter.
+
+## Icone statiche e animate
+
+La tassonomia UI/UX resta distinta dalla [sezione ICONE](../ICONE/README.md). Quest'ultima gestisce il nuovo inventario Gentleface, [anteprime](../ICONE/ANTEPRIME.md) e una [matrice icona ↔ app](../ICONE/MATRICE_APP_ICONE.md). Non sono stati creati nuovi stili UIX né importati asset SVG.

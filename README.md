@@ -182,3 +182,9 @@ La classificazione resta molti-a-molti, con un solo file JPG per riferimento; la
 Analizzati e registrati **10 repository di design-agent skills**, verificando README, entrypoint, licenze principali e HEAD immutabili. [Audit approfondito](sources/ANTI_SLOP_DESIGN_SKILLS_AUDIT_2026-11-17.md) · [Matrice repository ⇄ app](UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.md) · [Registro bidirezionale JSON](UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json).
 
 Totale sorgenti esterne nel registro OSS Design-App: **115 uniche** (105 precedenti + 10). Le nuove fonti sono **REFERENCE**, le associazioni sono `PROPOSED_ONLY`: nessuna libreria installata nelle app, nessuna copia di asset esterni, nessuna modifica a Golden o Product Bible. Gli abbinamenti coprono UI/UX audit, design intelligence cross-platform, motion, qualità Web/PWA e marketing visivo (ambiti distinti). Le stelle sono dichiarate dall'utente, non confermate con enumerazione API autenticata.
+
+## ICONE — raccolta statica e animata (17 novembre 2026)
+
+Nuova sezione autonoma [**ICONE**](./ICONE/README.md) che collega fonti, licenze, anteprime e possibili usi nelle app. La prima fonte è [Gentleface Animated Icons](https://gentleface.com/categories/animated), con [28 icone candidate](./ICONE/ANTEPRIME.md) e [114 proposte molti-a-molti su 24 destinazioni](./ICONE/MATRICE_APP_ICONE.md). Il [registro relazionale JSON](./ICONE/REGISTRO_ICONE.json) conserva il collegamento app ↔ icona, lo stato dell'animazione e i semantic ID già esistenti. [Audit tecnico/licenza](./ICONE/GENTLEFACE_AUDIT_2026-11-17.md) · [Protocollo per Flutter, Compose e Web](./ICONE/GUIDA_INTEGRAZIONE.md).
+
+**Stato:** REFERENCE / PROPOSED_ONLY. Zero SVG importati, zero app modificate, zero nuove librerie runtime e nessun nuovo Golden. Le animazioni Gentleface sono SVG native per Web; per Flutter e Compose serve verifica o adattamento nativo. Non sostituisce il pacchetto semantico esistente `packs/icons`.
