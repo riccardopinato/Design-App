@@ -48,3 +48,7 @@ Un dossier per ciascuna app o piattaforma della App Factory catalogata in Design
 ## Proposte di interazione vocale — Voice Orb
 
 Per il componente [beUI Voice Orb indicizzato da DevLibraries](https://devlibraries.com/libraries/beui/voice-orb) sono state salvate **10 candidature condizionate** nei rispettivi dossier e nel JSON sotto `voice_ui_candidates`. [Mappa completa](../UI-UX/VOICE_ORB_APP_MAP_2026-11-17.md). La disponibilità del microfono, la trascrizione e la registrazione effettiva rimangono fuori perimetro. Ogni futura evoluzione preserva lo storico senza sovrascrivere le precedenti scelte.
+
+## Pattern di tema, movimento e attesa — intake 17/11/2026
+
+[EaseUI/Amicro: matrice su 19 app](../UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.md), con **76 associazioni PROPOSED_ONLY**: Theme Toggle chiaro/scuro, Card Stack Peel, Accordion Blind Pull, Interlocking Gear Step, Shutter Step Slices e riferimento screenshot a caricamenti/tempi d'attesa. Ogni dossier pertinente e il [registro JSON canonico](./REGISTRO_APP_DESIGN.json) conservano i collegamenti nello storico. Le quattro voci Amicro sono descrizioni di catalogo da validare prima di un qualsiasi uso in app.
