@@ -299,6 +299,71 @@ visual_provenance = (ROOT / "packs/visual-qa/PROVENANCE.md").read_text(encoding=
 if visual_provenance.count("evidence:") != 1:
     fail("visual QA provenance has duplicate or missing evidence metadata")
 
+# External iconography intake remains independent from the tested Icon Adapter Pack.
+icons_dir = ROOT / "ICONE"
+required_icon_docs = (
+    "README.md", "REGISTRO_ICONE.json", "MATRICE_APP_ICONE.md",
+    "ANTEPRIME.md", "GENTLEFACE_AUDIT_2026-11-17.md", "GUIDA_INTEGRAZIONE.md",
+)
+if not all((icons_dir / filename).is_file() for filename in required_icon_docs):
+    fail("ICONE required catalog/documentation missing")
+icon_data = json.loads((icons_dir / "REGISTRO_ICONE.json").read_text(encoding="utf-8"))
+icon_items = icon_data.get("icons", [])
+icon_links = icon_data.get("associations", [])
+icon_counts = icon_data.get("counts", {})
+if icon_data.get("batch") != "GENTLEFACE_2026_11_17" or icon_data.get("maturity") != "REFERENCE":
+    fail("ICONE batch/level invalid")
+if icon_data.get("runtime_implementation") != "NOT_IMPLEMENTED" or icon_data.get("asset_imports") != 0:
+    fail("ICONE claims unsupported implementation or asset import")
+if len(icon_items) != 28 or len({i.get("id") for i in icon_items}) != len(icon_items):
+    fail("ICONE expected 28 unique candidates")
+if len({i.get("slug") for i in icon_items}) != len(icon_items):
+    fail("ICONE duplicate icon slug")
+if len(icon_items) != icon_counts.get("icon_candidates"):
+    fail("ICONE candidate count out of sync")
+if any(i.get("maturity") != "REFERENCE" or i.get("adoption") != "PROPOSED_ONLY"
+       for i in icon_items):
+    fail("ICONE proposed source prematurely promoted")
+if any(i.get("asset_bytes_verified") is not False for i in icon_items):
+    fail("ICONE claims unverifiable downloaded icon asset")
+if any(i.get("animation_evidence") not in
+       ("VERIFIED_SITE", "VERIFIED_DETAIL", "ANIMATION_UNVERIFIED") for i in icon_items):
+    fail("ICONE unexpected animation evidence state")
+if sum(i["animation_evidence"] == "ANIMATION_UNVERIFIED" for i in icon_items) != icon_counts.get("animation_not_verified"):
+    fail("ICONE animation status count mismatch")
+semantic_manifest = json.loads((ROOT / "packs/icons/manifest/icons.json").read_text(encoding="utf-8"))
+semantic_ids = {i["id"] for i in semantic_manifest.get("icons", [])}
+if any(i.get("existing_factory_semantic_id") not in semantic_ids | {None} for i in icon_items):
+    fail("ICONE references unknown existing semantic key")
+icon_ids = {i["id"] for i in icon_items}
+icon_pairs = {(e.get("icon_id"), e.get("app")) for e in icon_links}
+if len(icon_pairs) != len(icon_links) or len(icon_links) != icon_counts.get("associations"):
+    fail("ICONE associations count or unique pair invariant failed")
+if any(e.get("icon_id") not in icon_ids or e.get("status") != "PROPOSED_ONLY"
+       or e.get("fit") not in ("HIGH", "MEDIUM") for e in icon_links):
+    fail("ICONE invalid proposal foreign key/state")
+if sum(e["fit"] == "HIGH" for e in icon_links) != icon_counts.get("high"):
+    fail("ICONE HIGH count mismatch")
+if sum(e["fit"] == "MEDIUM" for e in icon_links) != icon_counts.get("medium"):
+    fail("ICONE MEDIUM count mismatch")
+apps_in_icons = {e["app"] for e in icon_links}
+if len(apps_in_icons) != icon_counts.get("apps"):
+    fail("ICONE app coverage count mismatch")
+for app, assoc in icon_data.get("by_app", {}).items():
+    expected = {(e["icon_id"], e["fit"], e["surface"]) for e in icon_links if e["app"] == app}
+    observed = {(e["icon_id"], e["fit"], e["surface"]) for e in assoc}
+    if observed != expected:
+        fail(f"ICONE by_app mismatch: {app}")
+if set(icon_data.get("by_app", {})) != apps_in_icons:
+    fail("ICONE by_app key coverage mismatch")
+for icon_id, assoc in icon_data.get("by_icon", {}).items():
+    expected = {(e["app"], e["fit"], e["surface"]) for e in icon_links if e["icon_id"] == icon_id}
+    observed = {(e["app"], e["fit"], e["surface"]) for e in assoc}
+    if observed != expected:
+        fail(f"ICONE by_icon mismatch: {icon_id}")
+if set(icon_data.get("by_icon", {})) != icon_ids:
+    fail("ICONE by_icon key coverage mismatch")
+
 print(
     f"Design-App validation PASS: {len(pattern_ids)} patterns, "
     f"{len(style_ids)} styles, {len(repos)} OSS sources "
