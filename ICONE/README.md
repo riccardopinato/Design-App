@@ -26,3 +26,7 @@ Questa sezione distingue le **famiglie di icone**, le **animazioni d'interazione
 `source 1 → N icone → N app`, con record singolo per coppia `(icon_id, app)`, fit HIGH/MEDIUM, superficie suggerita e stato. La stessa app può usare icone statiche di altri fornitori: questo catalogo non prende decisioni di branding al posto del Product Bible.
 
 **Stato ad oggi:** 28 icone candidate, 24 app/piattaforme, 114 associazioni. 2 icone richiedono ancora una verifica specifica della disponibilità dell'animazione. Nessun SVG animato importato; nessuna app modificata.
+
+## Dossier permanenti per app (17 novembre 2026)
+
+Le raccomandazioni complete di iconografia per ogni app sono in [**PER_APP**](../PER_APP/README.md). Sono presenti **25 dossier**, inclusa [Cooking Anime](../PER_APP/cooking-anime.md) con categorie kawaii, cucina giapponese e cinese, usi per schermata, animazioni e vincoli. Il [registro per app](../PER_APP/REGISTRO_APP_DESIGN.json) mantiene riferimenti agli ID `ICO-...` senza duplicare il catalogo sorgente. Le icone tematiche `CAI-...` sono concetti da cercare/disegnare: non si deve supporre che esistano in Gentleface.
