@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-11-17",
-  "status": "PROCESS_CANDIDATE",
+  "status": "PILOTS_SOURCE_MERGED_VISUAL_APPROVAL_PENDING",
   "factory_baseline": "c5adc147046beb7024629466d10eeb799c3c2619",
   "design_source_id": "DSK-002",
   "design_source_merge": "ae190d5bed59a37bebf7189d7a26b6647a797440",
@@ -22,7 +22,7 @@
     {
       "app": "Anna's Diary",
       "repository": "riccardopinato/Agenda-per-Anna",
-      "source_sha": "e769b2173e9e391615b26c872a7e691f621f9dd7",
+      "source_sha": "cdd94fbf67cfe281aa61be3b13d402ba24e595cb",
       "priority": "P1",
       "design_direction": "Organic iOS Journal / rose HSV / Manrope + Lora",
       "open_design_prs": [
@@ -55,12 +55,44 @@
       "screenshots": [],
       "runtime_evidence": [],
       "physical_evidence": [],
-      "reviewer_approval": null
+      "reviewer_approval": null,
+      "baseline_source_sha": "e769b2173e9e391615b26c872a7e691f621f9dd7",
+      "merged_main_sha": "f1e63c06703d80c66908e97a251cbfe72f652bc8",
+      "source_ci_url": "https://github.com/riccardopinato/Agenda-per-Anna/actions/runs/44125713758",
+      "capture_artifacts": [
+        {
+          "type": "Calendar Notebook synthetic Flutter screenshots",
+          "count": 12,
+          "source_sha": "cdd94fbf67cfe281aa61be3b13d402ba24e595cb",
+          "workflow_run_url": "https://github.com/riccardopinato/Agenda-per-Anna/actions/runs/44125713889",
+          "artifact_id": 14347795940,
+          "status": "CAPTURED"
+        },
+        {
+          "type": "Organic Journal synthetic Flutter screenshots",
+          "count": 7,
+          "source_sha": "cdd94fbf67cfe281aa61be3b13d402ba24e595cb",
+          "workflow_run_url": "https://github.com/riccardopinato/Agenda-per-Anna/actions/runs/44125713697",
+          "artifact_id": 14346319713,
+          "status": "CAPTURED"
+        }
+      ],
+      "preliminary_visual_review": {
+        "status": "REVIEWED_WITH_FINDINGS_NOT_APPROVED",
+        "source_sha": "cdd94fbf67cfe281aa61be3b13d402ba24e595cb",
+        "findings": [
+          "Calendar month: Capture FAB visually overlaps lower daily-context content in one 390dp empty screenshot; hit testing not proved",
+          "Week seven-day empty/populated screenshots may be near-equivalent despite separate source fixtures; investigate",
+          "Journal fixture uses Sage while Calendar uses Rose; approved Rose cross-screen baseline not yet demonstrated"
+        ],
+        "review_comment": "https://github.com/riccardopinato/Agenda-per-Anna/pull/350",
+        "user_approval": "NOT_VERIFIED"
+      }
     },
     {
       "app": "Android Omni Cleaner",
       "repository": "riccardopinato/Android-Omni-Cleaner",
-      "source_sha": "984474d9af62d8b7e17b975a31332161f24f2df7",
+      "source_sha": "0790bb30a922f661a9cd0a6341aa6fd78164eb2e",
       "priority": "P1",
       "design_direction": "Blue/purple/mint Compose Material 3; functional dedicated screens",
       "open_design_prs": [],
@@ -90,7 +122,11 @@
       "screenshots": [],
       "runtime_evidence": [],
       "physical_evidence": [],
-      "reviewer_approval": null
+      "reviewer_approval": null,
+      "baseline_source_sha": "984474d9af62d8b7e17b975a31332161f24f2df7",
+      "merged_main_sha": "bc1b9227dfcd1636ec53c061c8eafa72614ff749",
+      "source_ci_url": "https://github.com/riccardopinato/Android-Omni-Cleaner/actions/runs/44126023030",
+      "implementation_note": "ContentScale.Fit source viewer, bounded sampled portrait/landscape previews, native VideoView, EXIF orientation, revoked URI fallback, EN/IT/ES/FR/PT, aspect-ratio JVM tests; build CI PASS; device/video playback QA NOT_VERIFIED"
     }
   ],
   "reuse_candidates": [
@@ -116,7 +152,17 @@
         "Android Omni Cleaner"
       ],
       "maturity": "REFERENCE",
-      "consumer_evidence": []
+      "consumer_evidence": [
+        {
+          "app": "Android Omni Cleaner",
+          "consumer_sha": "0790bb30a922f661a9cd0a6341aa6fd78164eb2e",
+          "merged_main_sha": "bc1b9227dfcd1636ec53c061c8eafa72614ff749",
+          "ci_url": "https://github.com/riccardopinato/Android-Omni-Cleaner/actions/runs/44126023030",
+          "scope": "aspect-ratio-aware sampled preview + source tests",
+          "evidence_level": "SOURCE_TESTED_CI_PASS_NOT_NATIVE",
+          "physical_review": "NOT_VERIFIED"
+        }
+      ]
     },
     {
       "id": "DES-REUSE-003",
