@@ -48,6 +48,19 @@ targeted_intakes:
     factory_baseline: "c5adc147046beb7024629466d10eeb799c3c2619"
     note: "Seven external visual/UX references found in the 737 public GitHub Stars census; product and per-file license gates remain open."
 
+  - batch_id: AMICRO_SIX_COMPONENTS_2026_11_17
+    observed_at: "2026-11-17"
+    new_sources: 0
+    new_pattern_references: 6
+    new_source_files_verified: 4
+    origin_repository: "Subhan-code/Amicro--Micro-transitions-"
+    source_ref: "fa5f8ffbe39537a8db191806066b8773c47c82e9"
+    license: "MIT root, check individual assets and dependencies before copying"
+    maturity: REFERENCE
+    audit_path: "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md"
+    app_map_path: "UI-UX/AMICRO_SIX_COMPONENTS_APP_MAP_2026-11-17.json"
+    note: "Six curated DevLibraries Amicro links: four named source files read, two names not located. Zero new repositories and no consumer implementation."
+
   - batch_id: EASEUI_AMICRO_DESIGN_2026_11_17
     observed_at: "2026-11-17"
     new_sources: 2
@@ -56,7 +69,7 @@ targeted_intakes:
     discovery: "https://devlibraries.com/"
     audit_path: "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
     app_map_path: "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json"
-    note: "EaseUI theme toggle source verified; four named Amicro animation ideas catalog-only; user screenshot loading idea recorded without image asset."
+    note: "EaseUI theme toggle and all four previously named Amicro effects have now been located in source files; source inspection only, no runtime certification; user screenshot loader idea remains without imported binary."
 
   - batch_id: BEUI_VOICE_ORB_2026_11_17
     observed_at: "2026-11-17"
@@ -1167,9 +1180,11 @@ sources:
     source_ref: "fa5f8ffbe39537a8db191806066b8773c47c82e9"
     source_path: "src/data/cssAnimationsData.ts"
     source_blob: "396fda2c071064e4dce29290ac088f35f8bdab3a"
+    verified_components_audit: "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
+    new_components_audit: "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md"
     classification: UI_UX_REFERENCE
     maturity: REFERENCE
-    role: "Four named CSS animation concepts: Card Stack Peel, Accordion Blind Pull, Interlocking Gear Step, Shutter Step Slices; executable source for these exact names not located"
-    copy_policy: REFERENCE_ONLY_METADATA_NO_PINNED_IMPLEMENTATIONS
+    role: "Four CSS animation concepts Card Stack Peel, Accordion Blind Pull, Interlocking Gear Step, Shutter Step Slices, with named implementations located in original source; plus six new user-curated references, two exact names unverified"
+    copy_policy: REFERENCE_ONLY_SOURCE_READ_PENDING_TESTS_AND_FLUTTER_ADAPTATION
     audit_path: "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
     app_map_path: "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json"
