@@ -48,6 +48,17 @@ targeted_intakes:
     factory_baseline: "c5adc147046beb7024629466d10eeb799c3c2619"
     note: "Seven external visual/UX references found in the 737 public GitHub Stars census; product and per-file license gates remain open."
 
+  - batch_id: ANTI_SLOP_DESIGN_SKILLS_2026_11_17
+    observed_at: "2026-11-17"
+    new_sources: 10
+    source_kind: "DESIGN_SKILL_AND_TOOLING_REFERENCES"
+    factory_baseline: "c5adc147046beb7024629466d10eeb799c3c2619"
+    status: REFERENCE
+    star_evidence: USER_REPORTED_NOT_API_VERIFIED
+    audit_path: "sources/ANTI_SLOP_DESIGN_SKILLS_AUDIT_2026-11-17.md"
+    app_map_path: "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+    note: "Ten pinned public OSS skill repos; no app integration, Golden promotion, copied assets or executable dependencies."
+
 sources:
   - {repo: "fyne-io/fyne", utility: 96, ease: 62, deepen: true}
   - {repo: "penpot/penpot", utility: 88, ease: 46, deepen: true, role: "canvas interaction and design-token reference"}
@@ -933,3 +944,154 @@ sources:
     role: "Canvas and document surface with PDF highlights and citations"
     copy_policy: "REFERENCE_ONLY"
     audit_path: "sources/STARS_750_VISUAL_INTAKE_2026-11-16.md"
+
+# User-curated ten anti-slop / design-skill repository references, 2026-11-17.
+  - repo: "uizze/uizze"
+    batch: ANTI_SLOP_DESIGN_SKILLS_2026_11_17
+    domain: "DESIGN_INTELLIGENCE"
+    license: "MIXED: root MIT; anti-ui-slop Apache-2.0; service/assets separately licensed"
+    source_ref: "fc401e9e654cbafe427b0c98142fc8bccd0c4e7e"
+    source_path: "skills/anti-ui-slop/SKILL.md"
+    license_path: "LICENSING.md"
+    classification: TOOLING_REFERENCE
+    maturity: REFERENCE
+    priority: "A"
+    role: "Design contract, product-specific references, required UI states and finish gate; image-to-UI and UI Radar as separate optional workflows"
+    copy_policy: REFERENCE_ONLY_PENDING_PER_FILE_AND_CONSUMER_GATE
+    audit_path: "sources/ANTI_SLOP_DESIGN_SKILLS_AUDIT_2026-11-17.md"
+    app_map_path: "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+
+  - repo: "pbakaus/impeccable"
+    batch: ANTI_SLOP_DESIGN_SKILLS_2026_11_17
+    domain: "UI_UX_QA"
+    license: "Apache-2.0 (root); per-file/engine assets still require checking"
+    source_ref: "d41d9860b0094dcb68030657da63461212835aaa"
+    source_path: ".agents/skills/impeccable/SKILL.md"
+    license_path: "LICENSE"
+    classification: TOOLING_REFERENCE
+    maturity: REFERENCE
+    priority: "A"
+    role: "Structured critique/audit, layout, typography, visual polish, accessibility, responsive and resilient UI states; deterministic anti-slop detector"
+    copy_policy: REFERENCE_ONLY_PENDING_PER_FILE_AND_CONSUMER_GATE
+    audit_path: "sources/ANTI_SLOP_DESIGN_SKILLS_AUDIT_2026-11-17.md"
+    app_map_path: "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+
+  - repo: "Leonxlnx/taste-skill"
+    batch: ANTI_SLOP_DESIGN_SKILLS_2026_11_17
+    domain: "WEB_DESIGN_TOOLING"
+    license: "MIT (root); photo/icon asset-level licenses and credits must be checked"
+    source_ref: "f6b76575f949707b4e3c37cd86cb44b0b98643e8"
+    source_path: "skills/taste-skill/SKILL.md"
+    license_path: "LICENSE"
+    classification: TOOLING_REFERENCE
+    maturity: REFERENCE
+    priority: "B"
+    role: "Web art direction, palette/font selection, hero layouts, copy checks and real-browser consistency/performance gate at multiple viewport widths"
+    copy_policy: REFERENCE_ONLY_PENDING_PER_FILE_AND_CONSUMER_GATE
+    audit_path: "sources/ANTI_SLOP_DESIGN_SKILLS_AUDIT_2026-11-17.md"
+    app_map_path: "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+
+  - repo: "emilkowalski/skills"
+    batch: ANTI_SLOP_DESIGN_SKILLS_2026_11_17
+    domain: "MOTION_ENGINEERING"
+    license: "MIT (root)"
+    source_ref: "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c"
+    source_path: "skills/emil-design-eng/SKILL.md"
+    license_path: "LICENSE"
+    classification: TOOLING_REFERENCE
+    maturity: REFERENCE
+    priority: "A"
+    role: "Interaction motion, gesture physics, meaningful easing/duration, animation performance and break-ui stress checks; includes native-adjacent guidance"
+    copy_policy: REFERENCE_ONLY_PENDING_PER_FILE_AND_CONSUMER_GATE
+    audit_path: "sources/ANTI_SLOP_DESIGN_SKILLS_AUDIT_2026-11-17.md"
+    app_map_path: "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+
+  - repo: "vercel-labs/agent-skills"
+    batch: ANTI_SLOP_DESIGN_SKILLS_2026_11_17
+    domain: "WEB_UX_QA"
+    license: "NOASSERTION at repository root; inspect each file and upstream live guidelines"
+    source_ref: "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62"
+    source_path: "skills/web-design-guidelines/SKILL.md"
+    license_path: "NOT_PRESENT_AT_ROOT"
+    classification: TOOLING_REFERENCE
+    maturity: REFERENCE
+    priority: "A_WEB"
+    role: "Web accessibility, keyboard/focus, form validation, responsive typography, image performance, URL-driven state and localization; skills fetch external guideline version"
+    copy_policy: REFERENCE_ONLY_PENDING_PER_FILE_AND_CONSUMER_GATE
+    audit_path: "sources/ANTI_SLOP_DESIGN_SKILLS_AUDIT_2026-11-17.md"
+    app_map_path: "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+
+  - repo: "anthropics/skills"
+    batch: ANTI_SLOP_DESIGN_SKILLS_2026_11_17
+    domain: "VISUAL_ART_DIRECTION"
+    license: "Apache-2.0 for skills/frontend-design (per-skill); other skill assets separate"
+    source_ref: "e4bb5d960d87126ff3b3a8af1a104b7db67560ba"
+    source_path: "skills/frontend-design/SKILL.md"
+    license_path: "skills/frontend-design/LICENSE.txt"
+    classification: TOOLING_REFERENCE
+    maturity: REFERENCE
+    priority: "A"
+    role: "Distinctive subject-grounded visual direction, typography, palette, layout narrative and self-critique; avoid templated frontend patterns"
+    copy_policy: REFERENCE_ONLY_PENDING_PER_FILE_AND_CONSUMER_GATE
+    audit_path: "sources/ANTI_SLOP_DESIGN_SKILLS_AUDIT_2026-11-17.md"
+    app_map_path: "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+
+  - repo: "Nutlope/hallmark"
+    batch: ANTI_SLOP_DESIGN_SKILLS_2026_11_17
+    domain: "WEB_MARKETING_DESIGN"
+    license: "MIT root and skills/hallmark/LICENSE; photo/theme assets require per-file checks"
+    source_ref: "04977e15f3dfd6ee4b74c887dac3eb52665d6c92"
+    source_path: "skills/hallmark/SKILL.md"
+    license_path: "skills/hallmark/LICENSE"
+    classification: TOOLING_REFERENCE
+    maturity: REFERENCE
+    priority: "B"
+    role: "50 web themes, functional marketing page composition, redesign and render audit, real photographed assets with credits, custom page direction"
+    copy_policy: REFERENCE_ONLY_PENDING_PER_FILE_AND_CONSUMER_GATE
+    audit_path: "sources/ANTI_SLOP_DESIGN_SKILLS_AUDIT_2026-11-17.md"
+    app_map_path: "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+
+  - repo: "jakubkrehel/skills"
+    batch: ANTI_SLOP_DESIGN_SKILLS_2026_11_17
+    domain: "UI_UX_QA"
+    license: "MIT (root)"
+    source_ref: "6c2120103600407a1a9986afd834e73144ef8998"
+    source_path: "skills/better-interface/SKILL.md"
+    license_path: "LICENSE"
+    classification: TOOLING_REFERENCE
+    maturity: REFERENCE
+    priority: "A"
+    role: "Evidence-based design review across accessibility, copy, spacing, typography, color, interactive states; separate change-scoped interface review and stress scenarios"
+    copy_policy: REFERENCE_ONLY_PENDING_PER_FILE_AND_CONSUMER_GATE
+    audit_path: "sources/ANTI_SLOP_DESIGN_SKILLS_AUDIT_2026-11-17.md"
+    app_map_path: "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+
+  - repo: "nextlevelbuilder/ui-ux-pro-max-skill"
+    batch: ANTI_SLOP_DESIGN_SKILLS_2026_11_17
+    domain: "CROSS_PLATFORM_DESIGN_INTELLIGENCE"
+    license: "MIT (root); premium assets/features excluded; font/icon assets separately"
+    source_ref: "e59ff376a41f7ca47b7541ad5c116495cbade3ee"
+    source_path: ".claude/skills/ui-ux-pro-max/SKILL.md"
+    license_path: "LICENSE"
+    classification: TOOLING_REFERENCE
+    maturity: REFERENCE
+    priority: "A"
+    role: "Searchable local palettes, font pairings, style taxonomy, UX rules, design system token output; explicit Flutter and Jetpack Compose stack guidance"
+    copy_policy: REFERENCE_ONLY_PENDING_PER_FILE_AND_CONSUMER_GATE
+    audit_path: "sources/ANTI_SLOP_DESIGN_SKILLS_AUDIT_2026-11-17.md"
+    app_map_path: "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+
+  - repo: "benjitaylor/skills"
+    batch: ANTI_SLOP_DESIGN_SKILLS_2026_11_17
+    domain: "PRODUCT_MARKETING_VISUAL"
+    license: "MIT for stageshow/ (not blanket repo); bundled third-party brand assets carry separate notices"
+    source_ref: "299140fafd08df55a9c234e610c3f64af3f45531"
+    source_path: "stageshow/SKILL.md"
+    license_path: "stageshow/LICENSE"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    priority: "A_MARKETING"
+    role: "Believable product UI stills, bento feature cards, framed screenshots, animated cursor walkthroughs and recorded product demos"
+    copy_policy: REFERENCE_ONLY_PENDING_PER_FILE_AND_CONSUMER_GATE
+    audit_path: "sources/ANTI_SLOP_DESIGN_SKILLS_AUDIT_2026-11-17.md"
+    app_map_path: "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
