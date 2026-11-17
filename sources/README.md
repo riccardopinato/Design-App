@@ -30,3 +30,9 @@ Questa directory contiene studi di sorgenti esterne e donatori candidati, non ne
 - [DevLibraries — portale di design e discovery](./DEVLIBRARIES_DISCOVERY_2026-11-17.md), [registro dei siti con ruolo/licenza](./DESIGN_RESEARCH_SITES.json): cercare componenti, librerie e skill e poi verificare i sorgenti originali.
 - [beUI Voice Orb — audit con commit sorgente e licenze MIT](./BEUI_VOICE_ORB_AUDIT_2026-11-17.md): sfera reattiva al livello audio; non è un recorder o STT; WebGL/React e Skia/React Native, non Flutter pronto.
 - [Matrice Voice Orb → 10 app candidate](../UI-UX/VOICE_ORB_APP_MAP_2026-11-17.md) e [dossier PER_APP](../PER_APP/README.md). Stati REFERENCE/PROPOSED_ONLY, nessuna modifica consumer.
+
+## EaseUI e Amicro — temi, transizioni, tendine e caricamenti · 17/11/2026
+
+- [Audit dei cinque pattern nominati e uno screenshot di caricamenti](./EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md): sorgenti MIT con commit; uno script EaseUI verificato, quattro voci Amicro metadata-only, una proposta visuale non vendorizzata.
+- [Matrice pattern ↔ 19 app](../UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.md), [registro bidirezionale JSON](../UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json), [dossier singole app](../PER_APP/README.md).
+- [Directory fonti](./DESIGN_RESEARCH_SITES.json) ampliata con EaseUI/Amicro; licenze dei singoli asset da verificare prima del riuso.
