@@ -44,3 +44,7 @@ Questa directory contiene studi di sorgenti esterne e donatori candidati, non ne
 ## Watermelon UI — nove componenti con focus Anna's Diary
 
 [Audit tecnico e diritti](./WATERMELON_UI_NINE_AUDIT_2026-11-17.md) · [matrice per app](../UI-UX/WATERMELON_NINE_APP_MAP_2026-11-17.md) · [repository sorgente](https://github.com/WatermelonCorp/watermelon-platform). Sei componenti dispongono di codice React verificato; Text Gradient, Notification List e Flip Clock non hanno un file esatto nel commit consultato. Per l'idea del riepilogo Home Oggi conservare il requisito utente, ma **non trattare una UI di notifica come un servizio di scheduling o come una notifica OS**.
+
+## DevLibraries Bookmarks — raccolta di riferimenti utente
+
+[Procedura di intake dei link salvati](./DEVLIBRARIES_BOOKMARKS_INTAKE.md) · [Pagina di ingresso](https://devlibraries.com/bookmarks). La pagina non ha restituito il suo contenuto: **0 preferiti importati**. Le associazioni ai dossier saranno create solo dai link o da altri dati condivisi esplicitamente, con deduplica e provenance; non supporre che i precedenti componenti siano nell'elenco personale.
