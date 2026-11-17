@@ -81,3 +81,7 @@ La sezione [**PER_APP**](../PER_APP/README.md) conserva le proposte visuali per 
 ## Feedback visuale per future note vocali (beUI Voice Orb)
 
 [Voice Orb](https://devlibraries.com/libraries/beui/voice-orb) è un candidato **visuale** per i futuri flussi di registrazione: [audit stack e licenza](../sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md), [matrice molti-a-molti su 10 app](./VOICE_ORB_APP_MAP_2026-11-17.md), [JSON relazionale](./VOICE_ORB_APP_MAP_2026-11-17.json). Una visualizzazione dell'audio non equivale a un registratore, a dettatura, a permessi concessi o a una feature già implementata.
+
+## Theme Toggle, Card Stack Peel, Accordion Blind Pull, Interlocking Gear Step, Shutter Step Slices
+
+[Catalogo ragionato e app candidate](./EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.md) · [JSON consultabile per pattern e app](./EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json) · [Audit originale](../sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md). Aggiunto il riferimento utente a ulteriori loader nello screenshot come **idea ancora da identificare**, non come asset. Light/Dark/System resta governato dai token e dal Golden M3; Accordions espandono pannelli, Shutter ne anima la comparsa. Non sono pacchetti Flutter già integrati.

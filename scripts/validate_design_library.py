@@ -46,7 +46,10 @@ if skills_intake != 1:
 voice_intake = len(re.findall(r"^  - batch_id: BEUI_VOICE_ORB_2026_11_17$", oss, re.MULTILINE))
 if voice_intake != 1:
     fail(f"expected one beUI Voice Orb intake, found {voice_intake}")
-expected_source_count = 95 + ruixen_intake + 2 * dock_intake + 7 * visual_intake + 10 * skills_intake + 2 * voice_intake
+motion_intake = len(re.findall(r"^  - batch_id: EASEUI_AMICRO_DESIGN_2026_11_17$", oss, re.MULTILINE))
+if motion_intake != 1:
+    fail(f"Expected exactly one EaseUI/Amicro intake, got {motion_intake}")
+expected_source_count = 95 + ruixen_intake + 2 * dock_intake + 7 * visual_intake + 10 * skills_intake + 2 * voice_intake + 2 * motion_intake
 if len(repos) != expected_source_count or len(set(repos)) != expected_source_count:
     fail(f"expected {expected_source_count} unique OSS design sources, found {len(repos)} / {len(set(repos))} unique")
 for required in ("ruixenui/ruixen.com", "alztrk/opentaskbar", "Acadbek/lumabar"):
@@ -511,6 +514,79 @@ for e in voice_links:
         fail(f"PER_APP human-readable voice proposal missing: {e['app']}")
 if any(p.get("voice_ui_candidates") for p in profiles if p.get("name") not in voice_map["by_app"]):
     fail("PER_APP voice proposal exists outside the canonical voice map")
+
+# EaseUI/Amicro pattern references and the user-provided loader visual are design-only.
+for required_repo in ("rjcuff/easeui", "Subhan-code/Amicro--Micro-transitions-"):
+    if repos.count(required_repo) != 1:
+        fail(f"missing/duplicated motion source: {required_repo}")
+for site_id, expected_url in (
+        ("DESIGN-SITE-005", "https://easeui.dev/"),
+        ("DESIGN-SITE-006", "https://amicro.vercel.app/")):
+    match = [s for s in site_items if s.get("id") == site_id]
+    if len(match) != 1 or match[0].get("url") != expected_url or match[0].get("status") != "REFERENCE":
+        fail(f"invalid design research site: {site_id}")
+pattern_paths = (
+    ROOT / "UI-UX" / "EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+    ROOT / "UI-UX" / "EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.md",
+    ROOT / "sources" / "EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
+)
+if not all(path.is_file() for path in pattern_paths):
+    fail("EaseUI/Amicro motion audit or map absent")
+pattern_map = json.loads(pattern_paths[0].read_text(encoding="utf-8"))
+pattern_list = pattern_map.get("patterns", [])
+pattern_links = pattern_map.get("associations", [])
+pattern_counts = pattern_map.get("counts", {})
+if pattern_map.get("batch") != "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17":
+    fail("EaseUI/Amicro batch identity incorrect")
+if pattern_map.get("status") != "REFERENCE_ONLY" or pattern_map.get("consumer_implementation") != "NONE":
+    fail("motion references incorrectly promoted or claimed implemented")
+if len(pattern_list) != 6 or len({x.get("code") for x in pattern_list}) != 6:
+    fail("six unique theme/motion/loading patterns expected")
+if len(pattern_links) != pattern_counts.get("links"):
+    fail("motion crosswalk count mismatch")
+if len({(e.get("pattern_id"),e.get("app")) for e in pattern_links}) != len(pattern_links):
+    fail("duplicate motion app pattern pairing")
+if any(e.get("fit") not in ("HIGH","MEDIUM") or e.get("status") != "PROPOSED_ONLY" for e in pattern_links):
+    fail("motion association has invalid state/fit")
+if any(p.get("status") != "REFERENCE" or p.get("app_implementation") != "NONE" for p in pattern_list):
+    fail("motion source prematurely promoted")
+if sum(p.get("evidence") == "SOURCE_FILE_READ" for p in pattern_list) != 1:
+    fail("only one theme source implementation is verified")
+if sum(p.get("evidence") == "DESCRIPTIVE_CATALOG_ONLY" for p in pattern_list) != 4:
+    fail("the Amicro catalog-only boundary is not preserved")
+user_screenshot = [p for p in pattern_list if p.get("evidence") == "USER_IMAGE_NOT_ARCHIVED_AS_BINARY"]
+if len(user_screenshot) != 1 or user_screenshot[0].get("source") != "USER_IMAGE":
+    fail("user screenshot was misrepresented as executable or persisted file")
+if pattern_counts.get("apps") != len({e.get("app") for e in pattern_links}):
+    fail("motion mapped app count incorrect")
+if any(e.get("app") not in dossier_names for e in pattern_links):
+    fail("motion mapping names an app without a dossier")
+if set(pattern_map.get("by_app", {})) != {e["app"] for e in pattern_links}:
+    fail("motion by-app inverse mapping incomplete")
+if set(pattern_map.get("by_pattern", {})) != {p["code"] for p in pattern_list}:
+    fail("motion by-pattern inverse mapping incomplete")
+for pattern in pattern_list:
+    expected = {(e["app"],e["fit"],e["application"]) for e in pattern_links if e["pattern_id"]==pattern["code"]}
+    actual = {(e["app"],e["fit"],e["application"]) for e in pattern_map["by_pattern"][pattern["code"]]}
+    if expected != actual:
+        fail(f"motion by-pattern mapping drift for {pattern['code']}")
+if profile_counts.get("motion_design_candidate_apps") != pattern_counts.get("apps"):
+    fail("motion per-app profile count mismatch")
+if profile_counts.get("motion_design_candidate_relations") != len(pattern_links):
+    fail("motion per-app relation count mismatch")
+for p in profiles:
+    links = p.get("motion_design_candidates", [])
+    expected = {(e["pattern_id"],e["fit"],e["application"]) for e in pattern_links if e["app"] == p["name"]}
+    actual = {(e["pattern_id"],e["fit"],e["application"]) for e in links}
+    if expected != actual or len(actual) != len(links):
+        fail(f"motion per-app mapping drift for {p['name']}")
+    if links:
+        doc = (per_app_dir / (p["id"] + ".md")).read_text(encoding="utf-8")
+        if "Tema, transizioni, tendine e loader" not in doc:
+            fail(f"motion ideas not documented in {p['name']} dossier")
+        for link in links:
+            if link["pattern_id"] not in doc:
+                fail(f"pattern {link['pattern_id']} missing in {p['name']} dossier")
 
 print(
     f"Design-App validation PASS: {len(pattern_ids)} patterns, "

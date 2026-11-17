@@ -1,0 +1,1689 @@
+{
+  "schema_version": 1,
+  "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+  "observed_at": "2026-11-17",
+  "factory_commit": "c5adc147046beb7024629466d10eeb799c3c2619",
+  "design_baseline": "be1b65fd335c93483bcad7a29b324ceff3574cee",
+  "status": "REFERENCE_ONLY",
+  "voice_orb_unchanged": true,
+  "counts": {
+    "patterns": 6,
+    "apps": 19,
+    "links": 76,
+    "high": 36,
+    "medium": 40,
+    "verified_code": 1,
+    "catalog_descriptions": 4,
+    "user_visual_reference": 1
+  },
+  "patterns": [
+    {
+      "code": "DSP-001",
+      "name": "EaseUI Theme Toggle",
+      "category": "THEME_LIGHT_DARK",
+      "source": "EASEUI",
+      "evidence": "SOURCE_FILE_READ",
+      "source_path": "components/motion/theme-toggle.tsx",
+      "blob": "69d6711aa860b3784fa5a27f3dcad925baa333ed",
+      "url": "https://devlibraries.com/libraries/easeui",
+      "intent": "Transizione a reveal circolare/ripple fra tema chiaro e scuro; non sostituisce ThemeMode o Golden Theme M3",
+      "use": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+      "origin": {
+        "repo": "rjcuff/easeui",
+        "sha": "8292b45cc31d17b824d1caed6867b8f60428822a",
+        "license": "MIT root; premium Pro separate",
+        "stack": "React + motion/react + next-themes + View Transitions"
+      },
+      "status": "REFERENCE",
+      "app_implementation": "NONE",
+      "consumer_approval": "NOT_GRANTED",
+      "constraints": [
+        "Adapt using existing Flutter/Compose primitives before adding packages",
+        "Reduced motion, keyboard and assistive technology, correct focus",
+        "No false success/loading indicators and no continuous background loops"
+      ],
+      "source_catalog_note": null
+    },
+    {
+      "code": "DSP-002",
+      "name": "Card Stack Peel",
+      "category": "SECTION_CARD_TRANSITION",
+      "source": "AMICRO",
+      "evidence": "DESCRIPTIVE_CATALOG_ONLY",
+      "source_path": "src/data/cssAnimationsData.ts",
+      "blob": "396fda2c071064e4dce29290ac088f35f8bdab3a",
+      "url": "https://devlibraries.com/libraries/amicro/card-stack-peel",
+      "catalog_id": "anim-card-peel",
+      "intent": "Carta sovrapposta che si solleva/ripiega per mostrare la successiva; NON navigazione universale",
+      "use": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+      "origin": {
+        "repo": "Subhan-code/Amicro--Micro-transitions-",
+        "sha": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+        "license": "MIT root",
+        "stack": "React / Motion; 4 cited named entries are catalogue descriptors only"
+      },
+      "status": "REFERENCE",
+      "app_implementation": "NONE",
+      "consumer_approval": "NOT_GRANTED",
+      "constraints": [
+        "Adapt using existing Flutter/Compose primitives before adding packages",
+        "Reduced motion, keyboard and assistive technology, correct focus",
+        "No false success/loading indicators and no continuous background loops"
+      ],
+      "source_catalog_note": "Exact named item is in cssAnimationsData.ts; matching implementation not located in repository tree"
+    },
+    {
+      "code": "DSP-003",
+      "name": "Accordion Blind Pull",
+      "category": "EXPANDABLE_PANEL_TRANSITION",
+      "source": "AMICRO",
+      "evidence": "DESCRIPTIVE_CATALOG_ONLY",
+      "source_path": "src/data/cssAnimationsData.ts",
+      "blob": "396fda2c071064e4dce29290ac088f35f8bdab3a",
+      "url": "https://devlibraries.com/libraries/amicro",
+      "catalog_id": "anim-blind-pull",
+      "intent": "Tendina a lamelle che si espande verticalmente (utente ha corretto la prima associazione)",
+      "use": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+      "origin": {
+        "repo": "Subhan-code/Amicro--Micro-transitions-",
+        "sha": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+        "license": "MIT root",
+        "stack": "React / Motion; 4 cited named entries are catalogue descriptors only"
+      },
+      "status": "REFERENCE",
+      "app_implementation": "NONE",
+      "consumer_approval": "NOT_GRANTED",
+      "constraints": [
+        "Adapt using existing Flutter/Compose primitives before adding packages",
+        "Reduced motion, keyboard and assistive technology, correct focus",
+        "No false success/loading indicators and no continuous background loops"
+      ],
+      "source_catalog_note": "Exact named item is in cssAnimationsData.ts; matching implementation not located in repository tree"
+    },
+    {
+      "code": "DSP-004",
+      "name": "Interlocking Gear Step",
+      "category": "REAL_PROCESS_LOADING",
+      "source": "AMICRO",
+      "evidence": "DESCRIPTIVE_CATALOG_ONLY",
+      "source_path": "src/data/cssAnimationsData.ts",
+      "blob": "396fda2c071064e4dce29290ac088f35f8bdab3a",
+      "url": "https://devlibraries.com/libraries/amicro",
+      "catalog_id": "anim-gear-step",
+      "intent": "Ingranaggi controrotanti come segnale di elaborazione reale",
+      "use": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+      "origin": {
+        "repo": "Subhan-code/Amicro--Micro-transitions-",
+        "sha": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+        "license": "MIT root",
+        "stack": "React / Motion; 4 cited named entries are catalogue descriptors only"
+      },
+      "status": "REFERENCE",
+      "app_implementation": "NONE",
+      "consumer_approval": "NOT_GRANTED",
+      "constraints": [
+        "Adapt using existing Flutter/Compose primitives before adding packages",
+        "Reduced motion, keyboard and assistive technology, correct focus",
+        "No false success/loading indicators and no continuous background loops"
+      ],
+      "source_catalog_note": "Exact named item is in cssAnimationsData.ts; matching implementation not located in repository tree"
+    },
+    {
+      "code": "DSP-005",
+      "name": "Shutter Step Slices",
+      "category": "STAGGERED_REVEAL",
+      "source": "AMICRO",
+      "evidence": "DESCRIPTIVE_CATALOG_ONLY",
+      "source_path": "src/data/cssAnimationsData.ts",
+      "blob": "396fda2c071064e4dce29290ac088f35f8bdab3a",
+      "url": "https://devlibraries.com/libraries/amicro",
+      "catalog_id": "anim-shutter-blocks",
+      "intent": "Comparsa progressiva a sottili bande orizzontali; non è l'accordion stesso",
+      "use": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+      "origin": {
+        "repo": "Subhan-code/Amicro--Micro-transitions-",
+        "sha": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+        "license": "MIT root",
+        "stack": "React / Motion; 4 cited named entries are catalogue descriptors only"
+      },
+      "status": "REFERENCE",
+      "app_implementation": "NONE",
+      "consumer_approval": "NOT_GRANTED",
+      "constraints": [
+        "Adapt using existing Flutter/Compose primitives before adding packages",
+        "Reduced motion, keyboard and assistive technology, correct focus",
+        "No false success/loading indicators and no continuous background loops"
+      ],
+      "source_catalog_note": "Exact named item is in cssAnimationsData.ts; matching implementation not located in repository tree"
+    },
+    {
+      "code": "DSP-006",
+      "name": "Loading & Waiting Visual References (user screenshot)",
+      "category": "LOADING_WAIT_STATE_REFERENCE",
+      "source": "USER_IMAGE",
+      "evidence": "USER_IMAGE_NOT_ARCHIVED_AS_BINARY",
+      "source_path": null,
+      "blob": null,
+      "url": null,
+      "catalog_id": null,
+      "intent": "Ulteriori animazioni mostrate nello screenshot dell'utente, da classificare per attese brevi/lunghe e progressi effettivi; identità/nome degli asset non verificati",
+      "use": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+      "origin": {
+        "repo": null,
+        "sha": null,
+        "license": "User-provided screenshot as reference; binary unavailable for repo import",
+        "stack": "Visual concept only; no chosen engine"
+      },
+      "status": "REFERENCE",
+      "app_implementation": "NONE",
+      "consumer_approval": "NOT_GRANTED",
+      "constraints": [
+        "Adapt using existing Flutter/Compose primitives before adding packages",
+        "Reduced motion, keyboard and assistive technology, correct focus",
+        "No false success/loading indicators and no continuous background loops"
+      ],
+      "source_catalog_note": "Image in current chat; no externally verified asset or reproducible snapshot"
+    }
+  ],
+  "associations": [
+    {
+      "pattern_id": "DSP-001",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-001",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-001",
+      "app": "World Days",
+      "fit": "HIGH",
+      "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-001",
+      "app": "Wonderlog",
+      "fit": "HIGH",
+      "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-001",
+      "app": "Cooking Anime",
+      "fit": "HIGH",
+      "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-001",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-001",
+      "app": "FrameLab",
+      "fit": "HIGH",
+      "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-001",
+      "app": "Battery Guard",
+      "fit": "HIGH",
+      "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-001",
+      "app": "CamperBoss",
+      "fit": "MEDIUM",
+      "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-001",
+      "app": "CashMate AI",
+      "fit": "HIGH",
+      "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-001",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-001",
+      "app": "FocusSense",
+      "fit": "MEDIUM",
+      "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-001",
+      "app": "SleepMax Coach",
+      "fit": "HIGH",
+      "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-001",
+      "app": "BeerClass AI",
+      "fit": "MEDIUM",
+      "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-001",
+      "app": "TrailPath",
+      "fit": "MEDIUM",
+      "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-001",
+      "app": "Easy Debloat",
+      "fit": "MEDIUM",
+      "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-001",
+      "app": "Web Utility Factory",
+      "fit": "HIGH",
+      "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-001",
+      "app": "Deskland Android",
+      "fit": "MEDIUM",
+      "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-002",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-002",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-002",
+      "app": "Wonderlog",
+      "fit": "HIGH",
+      "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-002",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-002",
+      "app": "Cooking Anime",
+      "fit": "HIGH",
+      "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-002",
+      "app": "FrameLab",
+      "fit": "HIGH",
+      "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-002",
+      "app": "Omni Cleaner",
+      "fit": "MEDIUM",
+      "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-002",
+      "app": "App Factory Dashboard",
+      "fit": "MEDIUM",
+      "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-002",
+      "app": "BeerClass AI",
+      "fit": "MEDIUM",
+      "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-003",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-003",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-003",
+      "app": "World Days",
+      "fit": "HIGH",
+      "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-003",
+      "app": "Cooking Anime",
+      "fit": "HIGH",
+      "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-003",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-003",
+      "app": "Battery Guard",
+      "fit": "MEDIUM",
+      "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-003",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-003",
+      "app": "CashMate AI",
+      "fit": "MEDIUM",
+      "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-003",
+      "app": "CamperBoss",
+      "fit": "HIGH",
+      "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-003",
+      "app": "BeerClass AI",
+      "fit": "MEDIUM",
+      "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-003",
+      "app": "Easy Debloat",
+      "fit": "MEDIUM",
+      "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-003",
+      "app": "Wonderlog",
+      "fit": "HIGH",
+      "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-003",
+      "app": "TrailPath",
+      "fit": "MEDIUM",
+      "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-004",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-004",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-004",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-004",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-004",
+      "app": "Send-to-PC",
+      "fit": "HIGH",
+      "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-004",
+      "app": "FrameLab",
+      "fit": "MEDIUM",
+      "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-004",
+      "app": "Battery Guard",
+      "fit": "MEDIUM",
+      "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-004",
+      "app": "Easy Debloat",
+      "fit": "MEDIUM",
+      "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-004",
+      "app": "FocusSense",
+      "fit": "MEDIUM",
+      "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-005",
+      "app": "Anna's Diary",
+      "fit": "MEDIUM",
+      "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-005",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-005",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-005",
+      "app": "Cooking Anime",
+      "fit": "HIGH",
+      "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-005",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-005",
+      "app": "Omni Cleaner",
+      "fit": "MEDIUM",
+      "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-005",
+      "app": "FrameLab",
+      "fit": "MEDIUM",
+      "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-005",
+      "app": "App Factory Dashboard",
+      "fit": "MEDIUM",
+      "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-005",
+      "app": "Deskland Android",
+      "fit": "MEDIUM",
+      "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-005",
+      "app": "CamperBoss",
+      "fit": "MEDIUM",
+      "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-006",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-006",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-006",
+      "app": "World Days",
+      "fit": "HIGH",
+      "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-006",
+      "app": "Anna's Diary",
+      "fit": "MEDIUM",
+      "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-006",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-006",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-006",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-006",
+      "app": "FrameLab",
+      "fit": "HIGH",
+      "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-006",
+      "app": "Battery Guard",
+      "fit": "MEDIUM",
+      "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-006",
+      "app": "CamperBoss",
+      "fit": "MEDIUM",
+      "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-006",
+      "app": "CashMate AI",
+      "fit": "MEDIUM",
+      "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-006",
+      "app": "Send-to-PC",
+      "fit": "HIGH",
+      "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-006",
+      "app": "Easy Debloat",
+      "fit": "MEDIUM",
+      "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-006",
+      "app": "FocusSense",
+      "fit": "MEDIUM",
+      "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-006",
+      "app": "TrailPath",
+      "fit": "MEDIUM",
+      "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-006",
+      "app": "Deskland Android",
+      "fit": "MEDIUM",
+      "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "pattern_id": "DSP-006",
+      "app": "Web Utility Factory",
+      "fit": "HIGH",
+      "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+      "status": "PROPOSED_ONLY"
+    }
+  ],
+  "by_app": {
+    "Anna's Diary": [
+      {
+        "pattern_id": "DSP-001",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-002",
+        "fit": "HIGH",
+        "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-003",
+        "fit": "HIGH",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-005",
+        "fit": "MEDIUM",
+        "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-006",
+        "fit": "MEDIUM",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "App Factory Dashboard": [
+      {
+        "pattern_id": "DSP-001",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-002",
+        "fit": "MEDIUM",
+        "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-003",
+        "fit": "HIGH",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-004",
+        "fit": "HIGH",
+        "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-005",
+        "fit": "MEDIUM",
+        "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-006",
+        "fit": "HIGH",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Battery Guard": [
+      {
+        "pattern_id": "DSP-001",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-003",
+        "fit": "MEDIUM",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-004",
+        "fit": "MEDIUM",
+        "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-006",
+        "fit": "MEDIUM",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "BeerClass AI": [
+      {
+        "pattern_id": "DSP-001",
+        "fit": "MEDIUM",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-002",
+        "fit": "MEDIUM",
+        "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-003",
+        "fit": "MEDIUM",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "CamperBoss": [
+      {
+        "pattern_id": "DSP-001",
+        "fit": "MEDIUM",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-003",
+        "fit": "HIGH",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-005",
+        "fit": "MEDIUM",
+        "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-006",
+        "fit": "MEDIUM",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "CashMate AI": [
+      {
+        "pattern_id": "DSP-001",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-003",
+        "fit": "MEDIUM",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-006",
+        "fit": "MEDIUM",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Cooking Anime": [
+      {
+        "pattern_id": "DSP-001",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-002",
+        "fit": "HIGH",
+        "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-003",
+        "fit": "HIGH",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-005",
+        "fit": "HIGH",
+        "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-006",
+        "fit": "MEDIUM",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Deskland Android": [
+      {
+        "pattern_id": "DSP-001",
+        "fit": "MEDIUM",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-005",
+        "fit": "MEDIUM",
+        "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-006",
+        "fit": "MEDIUM",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Easy Debloat": [
+      {
+        "pattern_id": "DSP-001",
+        "fit": "MEDIUM",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-003",
+        "fit": "MEDIUM",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-004",
+        "fit": "MEDIUM",
+        "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-006",
+        "fit": "MEDIUM",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "FocusSense": [
+      {
+        "pattern_id": "DSP-001",
+        "fit": "MEDIUM",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-004",
+        "fit": "MEDIUM",
+        "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-006",
+        "fit": "MEDIUM",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "FrameLab": [
+      {
+        "pattern_id": "DSP-001",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-002",
+        "fit": "HIGH",
+        "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-004",
+        "fit": "MEDIUM",
+        "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-005",
+        "fit": "MEDIUM",
+        "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-006",
+        "fit": "HIGH",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Notes-Ecosistema": [
+      {
+        "pattern_id": "DSP-001",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-002",
+        "fit": "HIGH",
+        "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-003",
+        "fit": "HIGH",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-004",
+        "fit": "MEDIUM",
+        "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-005",
+        "fit": "MEDIUM",
+        "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-006",
+        "fit": "HIGH",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Omni Cleaner": [
+      {
+        "pattern_id": "DSP-001",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-002",
+        "fit": "MEDIUM",
+        "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-003",
+        "fit": "HIGH",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-004",
+        "fit": "HIGH",
+        "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-005",
+        "fit": "MEDIUM",
+        "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-006",
+        "fit": "HIGH",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Send-to-PC": [
+      {
+        "pattern_id": "DSP-004",
+        "fit": "HIGH",
+        "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-006",
+        "fit": "HIGH",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "SleepMax Coach": [
+      {
+        "pattern_id": "DSP-001",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "TrailPath": [
+      {
+        "pattern_id": "DSP-001",
+        "fit": "MEDIUM",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-003",
+        "fit": "MEDIUM",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-006",
+        "fit": "MEDIUM",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Web Utility Factory": [
+      {
+        "pattern_id": "DSP-001",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-006",
+        "fit": "HIGH",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "Wonderlog": [
+      {
+        "pattern_id": "DSP-001",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-002",
+        "fit": "HIGH",
+        "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-003",
+        "fit": "HIGH",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-005",
+        "fit": "MEDIUM",
+        "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-006",
+        "fit": "MEDIUM",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "World Days": [
+      {
+        "pattern_id": "DSP-001",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-002",
+        "fit": "MEDIUM",
+        "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-003",
+        "fit": "HIGH",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-004",
+        "fit": "MEDIUM",
+        "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-005",
+        "fit": "MEDIUM",
+        "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "pattern_id": "DSP-006",
+        "fit": "HIGH",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      }
+    ]
+  },
+  "by_pattern": {
+    "DSP-001": [
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Battery Guard",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "CamperBoss",
+        "fit": "MEDIUM",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "CashMate AI",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FocusSense",
+        "fit": "MEDIUM",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "SleepMax Coach",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "BeerClass AI",
+        "fit": "MEDIUM",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "TrailPath",
+        "fit": "MEDIUM",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Easy Debloat",
+        "fit": "MEDIUM",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Web Utility Factory",
+        "fit": "HIGH",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Deskland Android",
+        "fit": "MEDIUM",
+        "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DSP-002": [
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "HIGH",
+        "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "HIGH",
+        "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "HIGH",
+        "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "MEDIUM",
+        "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "MEDIUM",
+        "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "BeerClass AI",
+        "fit": "MEDIUM",
+        "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DSP-003": [
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "HIGH",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "HIGH",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Battery Guard",
+        "fit": "MEDIUM",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "CashMate AI",
+        "fit": "MEDIUM",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "CamperBoss",
+        "fit": "HIGH",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "BeerClass AI",
+        "fit": "MEDIUM",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Easy Debloat",
+        "fit": "MEDIUM",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "HIGH",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "TrailPath",
+        "fit": "MEDIUM",
+        "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DSP-004": [
+      {
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Send-to-PC",
+        "fit": "HIGH",
+        "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "MEDIUM",
+        "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Battery Guard",
+        "fit": "MEDIUM",
+        "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Easy Debloat",
+        "fit": "MEDIUM",
+        "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FocusSense",
+        "fit": "MEDIUM",
+        "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DSP-005": [
+      {
+        "app": "Anna's Diary",
+        "fit": "MEDIUM",
+        "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "HIGH",
+        "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "MEDIUM",
+        "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "MEDIUM",
+        "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "MEDIUM",
+        "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Deskland Android",
+        "fit": "MEDIUM",
+        "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "CamperBoss",
+        "fit": "MEDIUM",
+        "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "DSP-006": [
+      {
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "World Days",
+        "fit": "HIGH",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Anna's Diary",
+        "fit": "MEDIUM",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "HIGH",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Battery Guard",
+        "fit": "MEDIUM",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "CamperBoss",
+        "fit": "MEDIUM",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "CashMate AI",
+        "fit": "MEDIUM",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Send-to-PC",
+        "fit": "HIGH",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Easy Debloat",
+        "fit": "MEDIUM",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "FocusSense",
+        "fit": "MEDIUM",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "TrailPath",
+        "fit": "MEDIUM",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Deskland Android",
+        "fit": "MEDIUM",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "app": "Web Utility Factory",
+        "fit": "HIGH",
+        "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+        "status": "PROPOSED_ONLY"
+      }
+    ]
+  },
+  "consumer_implementation": "NONE"
+}

@@ -79,6 +79,37 @@
       "source_content_summary": "Public original library with web and React Native implementations.",
       "license": "MIT_FOR_PUBLIC_ORIGINAL_COMPONENTS_PRO_SEPARATE",
       "related_intake": "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
+    },
+    {
+      "id": "DESIGN-SITE-005",
+      "name": "easeUI",
+      "url": "https://easeui.dev/",
+      "kind": "MOTION_COMPONENT_LIBRARY_WEB",
+      "status": "REFERENCE",
+      "recommended_for": [
+        "theme toggle light/dark",
+        "reduced motion",
+        "buttons/drawers/menus"
+      ],
+      "use": "Refer to source-pinned public MIT component for animation design, not as a replacement for Theme M3 or Flutter code.",
+      "license": "MIT source in rjcuff/easeui; easeUI Pro separate",
+      "related_intake": "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
+    },
+    {
+      "id": "DESIGN-SITE-006",
+      "name": "Amicro",
+      "url": "https://amicro.vercel.app/",
+      "kind": "MICROINTERACTIONS_DISCOVERY_AND_WEB_LIBRARY",
+      "status": "REFERENCE",
+      "recommended_for": [
+        "card motion",
+        "accordion-inspired reveal",
+        "loaders",
+        "shutter reveal"
+      ],
+      "use": "Confirm executable source files and dependencies for each specific item; four current names are metadata-only.",
+      "license": "MIT source root in Subhan-code/Amicro--Micro-transitions-; asset-specific gate",
+      "related_intake": "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
     }
   ]
 }

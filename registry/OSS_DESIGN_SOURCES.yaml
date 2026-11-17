@@ -48,6 +48,16 @@ targeted_intakes:
     factory_baseline: "c5adc147046beb7024629466d10eeb799c3c2619"
     note: "Seven external visual/UX references found in the 737 public GitHub Stars census; product and per-file license gates remain open."
 
+  - batch_id: EASEUI_AMICRO_DESIGN_2026_11_17
+    observed_at: "2026-11-17"
+    new_sources: 2
+    status: REFERENCE
+    factory_baseline: "c5adc147046beb7024629466d10eeb799c3c2619"
+    discovery: "https://devlibraries.com/"
+    audit_path: "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
+    app_map_path: "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json"
+    note: "EaseUI theme toggle source verified; four named Amicro animation ideas catalog-only; user screenshot loading idea recorded without image asset."
+
   - batch_id: BEUI_VOICE_ORB_2026_11_17
     observed_at: "2026-11-17"
     new_sources: 2
@@ -1134,3 +1144,32 @@ sources:
     copy_policy: REFERENCE_ONLY_PENDING_PER_FILE_AND_CONSUMER_GATE
     audit_path: "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
     app_map_path: "UI-UX/VOICE_ORB_APP_MAP_2026-11-17.json"
+
+# New reference candidates; per-app Product Bible gates remain pending.
+  - repo: "rjcuff/easeui"
+    batch: EASEUI_AMICRO_DESIGN_2026_11_17
+    domain: "THEME_TRANSITION_UI"
+    license: "MIT original repository; notice includes Saurabh Chauhan contribution; Pro excluded"
+    source_ref: "8292b45cc31d17b824d1caed6867b8f60428822a"
+    source_path: "components/motion/theme-toggle.tsx"
+    source_blob: "69d6711aa860b3784fa5a27f3dcad925baa333ed"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    role: "Circle/ripple light-dark visual theme reveal, not theme engine, source React/Web"
+    copy_policy: REFERENCE_ONLY_PENDING_FLUTTER_ADAPTATION_AND_CONSUMER_GATE
+    audit_path: "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
+    app_map_path: "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json"
+
+  - repo: "Subhan-code/Amicro--Micro-transitions-"
+    batch: EASEUI_AMICRO_DESIGN_2026_11_17
+    domain: "MOTION_AND_LOADING_CATALOG"
+    license: "MIT original repository, per-file and asset check before reuse"
+    source_ref: "fa5f8ffbe39537a8db191806066b8773c47c82e9"
+    source_path: "src/data/cssAnimationsData.ts"
+    source_blob: "396fda2c071064e4dce29290ac088f35f8bdab3a"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    role: "Four named CSS animation concepts: Card Stack Peel, Accordion Blind Pull, Interlocking Gear Step, Shutter Step Slices; executable source for these exact names not located"
+    copy_policy: REFERENCE_ONLY_METADATA_NO_PINNED_IMPLEMENTATIONS
+    audit_path: "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
+    app_map_path: "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json"
