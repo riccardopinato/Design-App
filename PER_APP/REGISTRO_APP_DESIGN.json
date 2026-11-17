@@ -1,0 +1,3927 @@
+{
+  "schema_version": 1,
+  "section": "PER_APP",
+  "created_at": "2026-11-17",
+  "baseline_design_app": "bdfddebe0c3be17e5c65345439306ee368c4b033",
+  "baseline_factory": "c5adc147046beb7024629466d10eeb799c3c2619",
+  "source_of_truth": "PER_APP/REGISTRO_APP_DESIGN.json",
+  "status": "CANDIDATE_DESIGN_GUIDANCE_ONLY",
+  "type": "APP_DESIGN_KNOWLEDGE_NOT_PRODUCT_SCOPE",
+  "counts": {
+    "app_profiles": 25,
+    "icon_links": 114,
+    "skill_links": 96,
+    "cooking_icon_concepts": 36
+  },
+  "profiles": [
+    {
+      "id": "180flipcharge",
+      "name": "180FlipCharge",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Utility compatta, leggibilità immediata, branding pixel-utility solo come dettaglio; Material 3 senza sovraccarico.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "orientamento 180°",
+        "alimentazione/ricarica",
+        "tile rapido"
+      ],
+      "priority_surfaces": [
+        "toggle di rotazione con stato on/off",
+        "stato carica se realmente disponibile",
+        "tile Impostazioni rapide"
+      ],
+      "motion_recommendations": [
+        "rotazione di 180° solo dopo azione riuscita",
+        "breve transizione enable/disable"
+      ],
+      "avoid": [
+        "girare un'icona senza ruotare realmente lo schermo",
+        "animazioni persistenti del tile"
+      ],
+      "prioritized_icon_concepts": [
+        "rotazione",
+        "controlli essenziali"
+      ],
+      "existing_uiux_style_suggestions": {
+        "high": "MINIMAL CONTROLS",
+        "medium": "NEUMORPHISM"
+      },
+      "source_icons": [
+        {
+          "id": "ICO-003",
+          "slug": "battery-charging",
+          "fit": "MEDIUM",
+          "surface": "carica e orientamento",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [
+        {
+          "id": "DSK-009",
+          "name": "UI UX Pro Max",
+          "fit": "MEDIUM",
+          "surface": "minimal control panel",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_variants_needed": [
+        "rotazione",
+        "controlli essenziali"
+      ],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "annas-diary",
+      "name": "Anna's Diary",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Diario iOS contemporaneo con rosa tenue, tipografia Manrope/Lora e ritmo editoriale approvato; non cambiare l'identità senza nuova decisione.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "diario e ricordi",
+        "calendario",
+        "affetti e condivisione",
+        "privacy"
+      ],
+      "priority_surfaces": [
+        "calendario Mese/Settimana/Oggi",
+        "schede Ricordi e inserimento eventi",
+        "successo salvataggio evento",
+        "Vault e contenuti protetti"
+      ],
+      "motion_recommendations": [
+        "micro-feedback di salvataggio verificato",
+        "transizione di selezione giorno contenuta",
+        "blocco Vault solo dopo esito reale"
+      ],
+      "avoid": [
+        "icone kawaii indiscriminate nel diario maturo",
+        "animazione del cloud senza ricevuta sync",
+        "modificare picker HSV o palette concordata"
+      ],
+      "prioritized_icon_concepts": [
+        "calendar",
+        "check",
+        "lock"
+      ],
+      "existing_uiux_style_suggestions": {
+        "high": "NEO-APPLE, PASTEL UI",
+        "medium": "SOFT 3D, GLASSMORPHISM, BENTO UI"
+      },
+      "source_icons": [
+        {
+          "id": "ICO-001",
+          "slug": "bell-ring",
+          "fit": "HIGH",
+          "surface": "promemoria confermato",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-002",
+          "slug": "calendar",
+          "fit": "HIGH",
+          "surface": "apertura calendario e selezione data",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-007",
+          "slug": "import",
+          "fit": "MEDIUM",
+          "surface": "recupero backup dove implementato",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-008",
+          "slug": "images",
+          "fit": "HIGH",
+          "surface": "ricordi e media",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-010",
+          "slug": "bookmark",
+          "fit": "MEDIUM",
+          "surface": "ricordi in evidenza",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-014",
+          "slug": "check",
+          "fit": "HIGH",
+          "surface": "salvataggio evento riuscito",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-017",
+          "slug": "cloud",
+          "fit": "HIGH",
+          "surface": "sincronizzazione reale con ricevuta",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-023",
+          "slug": "eye",
+          "fit": "HIGH",
+          "surface": "visibilità campi privati senza mostrare dati per errore",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-024",
+          "slug": "archive",
+          "fit": "MEDIUM",
+          "surface": "ricordi archiviati se supportati",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-025",
+          "slug": "messages",
+          "fit": "MEDIUM",
+          "surface": "spazio condiviso solo per feature reale",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-026",
+          "slug": "home",
+          "fit": "MEDIUM",
+          "surface": "torna alla schermata Oggi",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-028",
+          "slug": "lock",
+          "fit": "HIGH",
+          "surface": "Vault blocco/sblocco realmente completato",
+          "source": "GENTLEFACE",
+          "evidence": "ANIMATION_UNVERIFIED",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [
+        {
+          "id": "DSK-001",
+          "name": "Anti UI Slop / Uizze",
+          "fit": "HIGH",
+          "surface": "iOS Journal and pastel identity quality checks",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-002",
+          "name": "Impeccable",
+          "fit": "HIGH",
+          "surface": "reduce card overload while preserving diary identity",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-003",
+          "name": "Taste Skill",
+          "fit": "MEDIUM",
+          "surface": "PWA marketing entry, not diary calendar UI",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-004",
+          "name": "Emil Design Engineering",
+          "fit": "HIGH",
+          "surface": "calendar gestures, Capture sheet and memory transitions",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-005",
+          "name": "Vercel Web Design Guidelines",
+          "fit": "HIGH",
+          "surface": "PWA accessibility and layout; native separately",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-006",
+          "name": "Anthropic Frontend Design",
+          "fit": "HIGH",
+          "surface": "coherent editorial diary personality",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-007",
+          "name": "Hallmark",
+          "fit": "MEDIUM",
+          "surface": "marketing site and app feature pages",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-008",
+          "name": "Better Interfaces (Jakub Krehel)",
+          "fit": "HIGH",
+          "surface": "readable diary and navigation review",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-009",
+          "name": "UI UX Pro Max",
+          "fit": "HIGH",
+          "surface": "rose editorial token system and calendar polish",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-010",
+          "name": "Stageshow",
+          "fit": "HIGH",
+          "surface": "feature showcase and app-store creative",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_variants_needed": [],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "app-factory-dashboard",
+      "name": "App Factory Dashboard",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Pannello operativo tecnico: densità controllata, bento strutturato, badge semantici e qualità visiva verificabile.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "repository e branch",
+        "capability/Golden",
+        "CI e build",
+        "priorità"
+      ],
+      "priority_surfaces": [
+        "stato CI/PR/merge",
+        "ricerca repository e capability",
+        "schede progetti e dipendenze"
+      ],
+      "motion_recommendations": [
+        "conferma job solo dopo risposta GitHub",
+        "caricamento soltanto durante richieste effettive"
+      ],
+      "avoid": [
+        "animazioni che fanno apparire eseguiti task non avvenuti",
+        "mini-illustrazioni che nascondono lo stato"
+      ],
+      "prioritized_icon_concepts": [
+        "check",
+        "search",
+        "gauge"
+      ],
+      "existing_uiux_style_suggestions": {
+        "high": "BENTO UI",
+        "medium": "—"
+      },
+      "source_icons": [
+        {
+          "id": "ICO-011",
+          "slug": "search",
+          "fit": "HIGH",
+          "surface": "ricerca repository e capability",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-012",
+          "slug": "apps-sparkle",
+          "fit": "MEDIUM",
+          "surface": "scoperta capability",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-014",
+          "slug": "check",
+          "fit": "HIGH",
+          "surface": "job realmente verificato",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-018",
+          "slug": "gauge",
+          "fit": "HIGH",
+          "surface": "stato CI/portfolio",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [
+        {
+          "id": "DSK-001",
+          "name": "Anti UI Slop / Uizze",
+          "fit": "HIGH",
+          "surface": "consistent design language and preview QA",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-002",
+          "name": "Impeccable",
+          "fit": "HIGH",
+          "surface": "cross-app visual acceptance gate",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-003",
+          "name": "Taste Skill",
+          "fit": "HIGH",
+          "surface": "web landing and narrative hero",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-005",
+          "name": "Vercel Web Design Guidelines",
+          "fit": "HIGH",
+          "surface": "keyboard navigation, responsive dashboards and forms",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-006",
+          "name": "Anthropic Frontend Design",
+          "fit": "MEDIUM",
+          "surface": "non-generic web dashboard identity",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-007",
+          "name": "Hallmark",
+          "fit": "MEDIUM",
+          "surface": "public project showcase, not operations UI",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-008",
+          "name": "Better Interfaces (Jakub Krehel)",
+          "fit": "HIGH",
+          "surface": "responsive dashboard QA",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-009",
+          "name": "UI UX Pro Max",
+          "fit": "HIGH",
+          "surface": "cross-product visual catalog",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-010",
+          "name": "Stageshow",
+          "fit": "HIGH",
+          "surface": "portfolio project teasers",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_variants_needed": [],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "battery-guard",
+      "name": "Battery Guard",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Utility verde e pulita; l'informazione sulla batteria deve rimanere prioritaria rispetto all'estetica.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "batteria",
+        "ricarica",
+        "risparmio energetico",
+        "allerta"
+      ],
+      "priority_surfaces": [
+        "stato batteria reale e gauge",
+        "indicatore di carica",
+        "avvisi soglia batteria"
+      ],
+      "motion_recommendations": [
+        "carica pulsante solo mentre la ricarica è effettiva e schermata visibile",
+        "successo cambio impostazione dopo conferma"
+      ],
+      "avoid": [
+        "fake animation che implica protezione attiva",
+        "consumo energetico dell'animazione superiore al suo valore"
+      ],
+      "prioritized_icon_concepts": [
+        "battery-charging",
+        "battery-low",
+        "gauge"
+      ],
+      "existing_uiux_style_suggestions": {
+        "high": "MINIMAL CONTROLS",
+        "medium": "NEUMORPHISM"
+      },
+      "source_icons": [
+        {
+          "id": "ICO-001",
+          "slug": "bell-ring",
+          "fit": "MEDIUM",
+          "surface": "avviso batteria non critico",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-003",
+          "slug": "battery-charging",
+          "fit": "HIGH",
+          "surface": "stato carica reale",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-004",
+          "slug": "battery-low",
+          "fit": "HIGH",
+          "surface": "soglia batteria realmente rilevata",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-013",
+          "slug": "loader",
+          "fit": "MEDIUM",
+          "surface": "analisi dati in corso",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-018",
+          "slug": "gauge",
+          "fit": "HIGH",
+          "surface": "stato batteria",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [
+        {
+          "id": "DSK-002",
+          "name": "Impeccable",
+          "fit": "HIGH",
+          "surface": "readable metrics and actionable status",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-008",
+          "name": "Better Interfaces (Jakub Krehel)",
+          "fit": "HIGH",
+          "surface": "information clarity and warning states",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-009",
+          "name": "UI UX Pro Max",
+          "fit": "HIGH",
+          "surface": "clean battery analytics theme",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-010",
+          "name": "Stageshow",
+          "fit": "MEDIUM",
+          "surface": "clean metrics app-store screenshots",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_variants_needed": [],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "beerclass-ai",
+      "name": "BeerClass AI",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Diario degustazione leggero, caldo e riconoscibile; tema birra senza scimmiottare un marketplace generico.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "bicchiere/beer mug",
+        "luppolo",
+        "valutazioni",
+        "profilo gusto"
+      ],
+      "priority_surfaces": [
+        "Rapid Log e giudizi",
+        "scheda birra e valutazione",
+        "preferiti o collezioni soltanto se disponibili"
+      ],
+      "motion_recommendations": [
+        "riempimento stella su valutazione realmente salvata",
+        "breve conferma del diario"
+      ],
+      "avoid": [
+        "icona birra come sostituto di ricerca/azione standard",
+        "finti progressi della scansione"
+      ],
+      "prioritized_icon_concepts": [
+        "star",
+        "check"
+      ],
+      "existing_uiux_style_suggestions": {
+        "high": "—",
+        "medium": "SOFT 3D, PASTEL UI"
+      },
+      "source_icons": [
+        {
+          "id": "ICO-019",
+          "slug": "star",
+          "fit": "HIGH",
+          "surface": "valutazione birre",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [
+        {
+          "id": "DSK-009",
+          "name": "UI UX Pro Max",
+          "fit": "MEDIUM",
+          "surface": "tasting cards and theme",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_variants_needed": [
+        "check"
+      ],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "camperboss",
+      "name": "CamperBoss",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Utility camper outdoor verde/bosco e oro; uso in viaggio e offline con controlli facili da leggere.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "camper/van",
+        "acqua ed energia",
+        "aree sosta",
+        "tracciati"
+      ],
+      "priority_surfaces": [
+        "download pacchetti offline",
+        "tap e aree sosta",
+        "stati risorse e checklist"
+      ],
+      "motion_recommendations": [
+        "download soltanto durante trasferimento reale",
+        "microconferma dopo salvataggio tappa"
+      ],
+      "avoid": [
+        "animazioni pesanti durante navigazione e GPS",
+        "simboli che confondono risorsa critica e stato estetico"
+      ],
+      "prioritized_icon_concepts": [
+        "download",
+        "map-pin",
+        "calendar"
+      ],
+      "existing_uiux_style_suggestions": {
+        "high": "NATURE-TECH",
+        "medium": "—"
+      },
+      "source_icons": [
+        {
+          "id": "ICO-002",
+          "slug": "calendar",
+          "fit": "MEDIUM",
+          "surface": "tappe e pianificazione",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-005",
+          "slug": "download",
+          "fit": "HIGH",
+          "surface": "pacchetti offline",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-007",
+          "slug": "import",
+          "fit": "MEDIUM",
+          "surface": "import dati offline",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-016",
+          "slug": "map-pin",
+          "fit": "HIGH",
+          "surface": "aree sosta o tappe",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-018",
+          "slug": "gauge",
+          "fit": "MEDIUM",
+          "surface": "indicatori risorse camper",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [
+        {
+          "id": "DSK-008",
+          "name": "Better Interfaces (Jakub Krehel)",
+          "fit": "MEDIUM",
+          "surface": "offline guide accessibility",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-009",
+          "name": "UI UX Pro Max",
+          "fit": "HIGH",
+          "surface": "outdoor readability and maps",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_variants_needed": [],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "cashmate-ai",
+      "name": "CashMate AI",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Blocchi finanziari verde/nero, gerarchia monetaria rigorosa; icone discrete, contrasto e semantica prioritarie.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "portafoglio",
+        "spese e incassi",
+        "grafici",
+        "sicurezza"
+      ],
+      "priority_surfaces": [
+        "dashboard saldi",
+        "categorie transazione",
+        "grafici trend",
+        "backup soltanto se realmente disponibile"
+      ],
+      "motion_recommendations": [
+        "feedback transazione salvata realmente",
+        "grafici stabili senza movimento che cambia lettura dei dati"
+      ],
+      "avoid": [
+        "icone decorative accanto a ogni importo",
+        "usare colore solo per significato positivo/negativo"
+      ],
+      "prioritized_icon_concepts": [
+        "gauge",
+        "check",
+        "lock"
+      ],
+      "existing_uiux_style_suggestions": null,
+      "source_icons": [
+        {
+          "id": "ICO-017",
+          "slug": "cloud",
+          "fit": "MEDIUM",
+          "surface": "backup o cloud solo se implementato",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-018",
+          "slug": "gauge",
+          "fit": "MEDIUM",
+          "surface": "indicatori finanziari",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [
+        {
+          "id": "DSK-002",
+          "name": "Impeccable",
+          "fit": "MEDIUM",
+          "surface": "financial data visual hierarchy",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-008",
+          "name": "Better Interfaces (Jakub Krehel)",
+          "fit": "HIGH",
+          "surface": "money formatting, disclosure and graphs",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-009",
+          "name": "UI UX Pro Max",
+          "fit": "HIGH",
+          "surface": "semantic finance palettes",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_variants_needed": [
+        "check",
+        "lock"
+      ],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "cooking-anime",
+      "name": "Cooking Anime",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Identità image-first culinaria anime, con accenti kawaii controllati. Core UI leggibile, motivi illustrati per categorie e stati speciali. Distinguere coerentemente cucina giapponese, cinese e altri contesti senza stereotipi.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "kawaii-gattini",
+        "food-japan",
+        "food-china",
+        "anime-seasonal",
+        "ui-standard"
+      ],
+      "priority_surfaces": [
+        "Home con motivo brand (mascotte, ciotola o sakura)",
+        "Ricette con icona ricettario/bento e fotografia prioritaria",
+        "Categorie con sushi, ramen, onigiri, dumpling o bao coerenti con ricetta",
+        "Preferiti con cuore o stella leggibile",
+        "Profilo con avatar gatto opzionale",
+        "Sfide/collezioni/achievement soltanto se le funzioni esistono",
+        "Empty state di ricerca o raccolta con gattino chef",
+        "Loading con vapore della ciotola, solo durante vera attesa",
+        "Salvataggio e ricetta completata con sparkle/check dopo conferma"
+      ],
+      "motion_recommendations": [
+        "cuore o stella con transizione discreta alla conferma preferito",
+        "vapore ramen o ciotola solo in caricamento visibile",
+        "gattino chef felice dopo completamento ricetta confermato",
+        "nessun loop perpetuo su listati ricette"
+      ],
+      "avoid": [
+        "sostituire Cerca, Modifica, Elimina, Condividi o Impostazioni con simboli difficili da capire",
+        "mescolare emoji, outline, 3D, flat e pixel art senza un'unica grammatica",
+        "associare cibo cinese a simboli giapponesi o viceversa indiscriminatamente",
+        "usare bandiere o torii come sinonimo generico di 'Asia'",
+        "replicare personaggi o loghi anime protetti"
+      ],
+      "prioritized_icon_concepts": [
+        "kawaii-cat-chef",
+        "sushi",
+        "ramen",
+        "onigiri",
+        "bento",
+        "chopsticks",
+        "sakura"
+      ],
+      "existing_uiux_style_suggestions": {
+        "high": "—",
+        "medium": "SOFT 3D, SPATIAL 3D"
+      },
+      "source_icons": [
+        {
+          "id": "ICO-009",
+          "slug": "video",
+          "fit": "MEDIUM",
+          "surface": "contenuti video dove disponibili",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-012",
+          "slug": "apps-sparkle",
+          "fit": "MEDIUM",
+          "surface": "novità editoriali senza claim AI",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-019",
+          "slug": "star",
+          "fit": "MEDIUM",
+          "surface": "ricette favorite",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-020",
+          "slug": "play",
+          "fit": "MEDIUM",
+          "surface": "riproduzione video ricetta",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-021",
+          "slug": "pause",
+          "fit": "MEDIUM",
+          "surface": "pausa tutorial",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [
+        {
+          "id": "DSK-001",
+          "name": "Anti UI Slop / Uizze",
+          "fit": "MEDIUM",
+          "surface": "image-first editorial cards",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-003",
+          "name": "Taste Skill",
+          "fit": "HIGH",
+          "surface": "product/store marketing website",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-005",
+          "name": "Vercel Web Design Guidelines",
+          "fit": "MEDIUM",
+          "surface": "marketing and public site only",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-006",
+          "name": "Anthropic Frontend Design",
+          "fit": "HIGH",
+          "surface": "image-first culinary identity",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-007",
+          "name": "Hallmark",
+          "fit": "HIGH",
+          "surface": "public product marketing and themed campaign",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-009",
+          "name": "UI UX Pro Max",
+          "fit": "HIGH",
+          "surface": "image-first catalogue design",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-010",
+          "name": "Stageshow",
+          "fit": "HIGH",
+          "surface": "app store promotional cards",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_variants_needed": [
+        "kawaii-cat-chef",
+        "sushi",
+        "ramen",
+        "onigiri",
+        "bento",
+        "chopsticks",
+        "sakura"
+      ],
+      "thematic_icons": [
+        {
+          "id": "CAI-gattino-chef",
+          "category": "kawaii-gattini",
+          "label": "Mascotte gattino con cappello da chef",
+          "placement": [
+            "home",
+            "empty-state",
+            "onboarding"
+          ],
+          "role": "ILLUSTRATION",
+          "motion": "STATIC_OR_BRIEF_ON_CONFIRMED_EVENT",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-testolina-gatto",
+          "category": "kawaii-gattini",
+          "label": "Testolina di gattino",
+          "placement": [
+            "profilo",
+            "stato-personalizzato"
+          ],
+          "role": "SMALL_BRAND_ICON",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-zampetta",
+          "category": "kawaii-gattini",
+          "label": "Zampetta",
+          "placement": [
+            "badge",
+            "collezione",
+            "progresso"
+          ],
+          "role": "BADGE",
+          "motion": "ON_CONFIRMED_EVENT",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-faccina-kawaii",
+          "category": "kawaii-gattini",
+          "label": "Faccina kawaii",
+          "placement": [
+            "feedback",
+            "empty-state"
+          ],
+          "role": "BRAND_SPOT",
+          "motion": "ON_CONFIRMED_EVENT",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-gattino-avatar",
+          "category": "kawaii-gattini",
+          "label": "Avatar gattino",
+          "placement": [
+            "profilo",
+            "personalizzazione"
+          ],
+          "role": "ILLUSTRATION",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-sushi",
+          "category": "food-japan",
+          "label": "Sushi",
+          "placement": [
+            "categorie",
+            "suggerimenti"
+          ],
+          "role": "CATEGORY_ICON",
+          "motion": "ON_SELECT",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-ramen",
+          "category": "food-japan",
+          "label": "Ciotola di ramen con vapore",
+          "placement": [
+            "categorie",
+            "loading"
+          ],
+          "role": "CATEGORY_ICON",
+          "motion": "ONLY_LOADING_VISIBLE",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-onigiri",
+          "category": "food-japan",
+          "label": "Onigiri",
+          "placement": [
+            "categorie",
+            "tag"
+          ],
+          "role": "CATEGORY_ICON",
+          "motion": "ON_SELECT",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-bento",
+          "category": "food-japan",
+          "label": "Bento box",
+          "placement": [
+            "ricette",
+            "categorie"
+          ],
+          "role": "CATEGORY_ICON",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-bacchette",
+          "category": "food-japan",
+          "label": "Bacchette",
+          "placement": [
+            "categoria",
+            "ricetta"
+          ],
+          "role": "CATEGORY_ICON",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-teiera",
+          "category": "food-japan",
+          "label": "Teiera",
+          "placement": [
+            "bevande",
+            "categorie"
+          ],
+          "role": "CATEGORY_ICON",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-riso",
+          "category": "food-japan",
+          "label": "Ciotola di riso",
+          "placement": [
+            "ingredienti",
+            "tag"
+          ],
+          "role": "CATEGORY_ICON",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-pesce",
+          "category": "food-japan",
+          "label": "Pesce",
+          "placement": [
+            "ingredienti",
+            "tag"
+          ],
+          "role": "CATEGORY_ICON",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-mochi-dessert",
+          "category": "food-japan",
+          "label": "Dolcetto/mochi",
+          "placement": [
+            "dessert",
+            "categorie"
+          ],
+          "role": "CATEGORY_ICON",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-jiaozi-dumplings",
+          "category": "food-china",
+          "label": "Ravioli cinesi jiaozi",
+          "placement": [
+            "categoria-cucina-cinese"
+          ],
+          "role": "CATEGORY_ICON",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-bao",
+          "category": "food-china",
+          "label": "Bao al vapore",
+          "placement": [
+            "categoria-cucina-cinese"
+          ],
+          "role": "CATEGORY_ICON",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-wok",
+          "category": "food-china",
+          "label": "Wok",
+          "placement": [
+            "preparazioni-cinesi"
+          ],
+          "role": "CATEGORY_ICON",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-cestello-bambu",
+          "category": "food-china",
+          "label": "Cestello a vapore in bambù",
+          "placement": [
+            "tecniche-cottura"
+          ],
+          "role": "CATEGORY_ICON",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-te-cinese",
+          "category": "food-china",
+          "label": "Tazza da tè cinese",
+          "placement": [
+            "bevande"
+          ],
+          "role": "CATEGORY_ICON",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-sakura",
+          "category": "anime-seasonal",
+          "label": "Fiore di sakura",
+          "placement": [
+            "sezioni",
+            "ricorrenze-stagionali"
+          ],
+          "role": "DECORATIVE_ICON",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-torii",
+          "category": "anime-seasonal",
+          "label": "Torii",
+          "placement": [
+            "contenuti-situati-in-giappone"
+          ],
+          "role": "CONTEXTUAL_CULTURAL",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-lanterna",
+          "category": "anime-seasonal",
+          "label": "Lanterna",
+          "placement": [
+            "contenuti-culturali-coerenti"
+          ],
+          "role": "CONTEXTUAL_CULTURAL",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-ventaglio",
+          "category": "anime-seasonal",
+          "label": "Ventaglio",
+          "placement": [
+            "decorazione-contestuale"
+          ],
+          "role": "DECORATIVE_ICON",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-nuvola-stilizzata",
+          "category": "anime-seasonal",
+          "label": "Nuvola stilizzata",
+          "placement": [
+            "header",
+            "empty-state"
+          ],
+          "role": "DECORATIVE_ICON",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-sparkle",
+          "category": "anime-seasonal",
+          "label": "Stellina/sparkle",
+          "placement": [
+            "successo",
+            "badge",
+            "preferiti"
+          ],
+          "role": "FEEDBACK_ICON",
+          "motion": "ON_CONFIRMED_EVENT",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-home",
+          "category": "ui-standard",
+          "label": "Casetta semplice",
+          "placement": [
+            "navigazione-principale"
+          ],
+          "role": "STANDARD_UI",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-ricettario",
+          "category": "ui-standard",
+          "label": "Libro ricette",
+          "placement": [
+            "navigazione-ricette"
+          ],
+          "role": "STANDARD_UI",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-categorie",
+          "category": "ui-standard",
+          "label": "Griglia categorie",
+          "placement": [
+            "navigazione-categorie"
+          ],
+          "role": "STANDARD_UI",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-cuore",
+          "category": "ui-standard",
+          "label": "Cuore preferito",
+          "placement": [
+            "preferiti"
+          ],
+          "role": "STANDARD_UI",
+          "motion": "ON_CONFIRMED_TOGGLE",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-search",
+          "category": "ui-standard",
+          "label": "Lente ricerca",
+          "placement": [
+            "ricerca"
+          ],
+          "role": "STANDARD_UI",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-settings",
+          "category": "ui-standard",
+          "label": "Ingranaggio impostazioni",
+          "placement": [
+            "impostazioni"
+          ],
+          "role": "STANDARD_UI",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-share",
+          "category": "ui-standard",
+          "label": "Condividi",
+          "placement": [
+            "condivisione"
+          ],
+          "role": "STANDARD_UI",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-edit",
+          "category": "ui-standard",
+          "label": "Modifica",
+          "placement": [
+            "editor-ricette-se-presente"
+          ],
+          "role": "STANDARD_UI",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-delete",
+          "category": "ui-standard",
+          "label": "Elimina",
+          "placement": [
+            "rimozione-con-conferma"
+          ],
+          "role": "STANDARD_UI",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-profile",
+          "category": "ui-standard",
+          "label": "Profilo",
+          "placement": [
+            "profilo"
+          ],
+          "role": "STANDARD_UI",
+          "motion": "STATIC",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "id": "CAI-check",
+          "category": "ui-standard",
+          "label": "Conferma",
+          "placement": [
+            "salvataggio",
+            "reazione"
+          ],
+          "role": "STANDARD_UI",
+          "motion": "ON_CONFIRMED_EVENT",
+          "provider": "NOT_SELECTED",
+          "asset_exist_verified": false,
+          "status": "DESIGN_IDEA",
+          "origin": "USER_AND_ASSISTANT_CURRENT_CONVERSATION_2026_11_17",
+          "implementation": "NOT_VERIFIED"
+        }
+      ],
+      "user_request": "Gattini, cibo, Cina/Giappone, sushi e atmosfera kawaii/anime (richiesta esplicita in chat 2026-11-17).",
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "User request about kawaii cats, food, China/Japan and sushi plus prior assistant recommendations"
+        }
+      ]
+    },
+    {
+      "id": "deskland-android",
+      "name": "Deskland Android",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Launcher Android interattivo con accenti desktop/spatial 3D; gesti e leggibilità prime, effetti visivi dopo stabilità.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "desktop",
+        "launcher",
+        "batteria/widget",
+        "meteo se reale"
+      ],
+      "priority_surfaces": [
+        "icone app nella home launcher",
+        "drag/drop e selezione tile",
+        "controlli player/effetti dove realmente presenti"
+      ],
+      "motion_recommendations": [
+        "risposta drag a 60 fps e rilascio leggibile",
+        "transizione selezione/long-press sobria"
+      ],
+      "avoid": [
+        "animazioni continue che rallentano il launcher",
+        "finti indicatori batteria o meteo",
+        "effetti sofisticati prima di eliminare i glitch"
+      ],
+      "prioritized_icon_concepts": [
+        "home",
+        "play",
+        "battery-charging"
+      ],
+      "existing_uiux_style_suggestions": {
+        "high": "SPATIAL 3D",
+        "medium": "GLASSMORPHISM"
+      },
+      "source_icons": [
+        {
+          "id": "ICO-003",
+          "slug": "battery-charging",
+          "fit": "MEDIUM",
+          "surface": "widget stato batteria reale",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-020",
+          "slug": "play",
+          "fit": "MEDIUM",
+          "surface": "avvio animazione o elemento interattivo",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-021",
+          "slug": "pause",
+          "fit": "MEDIUM",
+          "surface": "pausa effetti quando previsto",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-026",
+          "slug": "home",
+          "fit": "MEDIUM",
+          "surface": "launcher home senza costi animazioni",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [
+        {
+          "id": "DSK-002",
+          "name": "Impeccable",
+          "fit": "MEDIUM",
+          "surface": "launcher accessibility and touch-state review",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-004",
+          "name": "Emil Design Engineering",
+          "fit": "HIGH",
+          "surface": "long-press drag, icon motion and frame pacing",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-009",
+          "name": "UI UX Pro Max",
+          "fit": "HIGH",
+          "surface": "launcher spatial controls, only after functional stability",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_variants_needed": [],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "easy-debloat",
+      "name": "Easy Debloat",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Utility sicurezza minimale premium: SAFE/CAUTION/DANGEROUS sempre espliciti e accessibili.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "package app",
+        "rimozione controllata",
+        "severità rischio",
+        "diagnostica"
+      ],
+      "priority_surfaces": [
+        "lista applicazioni e dettagli",
+        "flusso disattivazione/disinstallazione con conferma",
+        "esiti Shizuku/ADB e prerequisiti"
+      ],
+      "motion_recommendations": [
+        "conferma azione solo dopo esito comando reale",
+        "breve espansione dettagli senza movimento eccessivo"
+      ],
+      "avoid": [
+        "scudo o check che implica protezione automatica",
+        "rosso/verde come unico canale informativo"
+      ],
+      "prioritized_icon_concepts": [
+        "eye",
+        "check",
+        "shield-check"
+      ],
+      "existing_uiux_style_suggestions": null,
+      "source_icons": [
+        {
+          "id": "ICO-023",
+          "slug": "eye",
+          "fit": "MEDIUM",
+          "surface": "espandi dettagli app",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-027",
+          "slug": "shield-check",
+          "fit": "MEDIUM",
+          "surface": "operazione sicura ma mai garanzia assoluta",
+          "source": "GENTLEFACE",
+          "evidence": "ANIMATION_UNVERIFIED",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [
+        {
+          "id": "DSK-009",
+          "name": "UI UX Pro Max",
+          "fit": "HIGH",
+          "surface": "severity-safe utility tokens",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_variants_needed": [
+        "check"
+      ],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "edu-01-corpo-umano",
+      "name": "Edu_01 Corpo Umano",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Atlante anatomico educativo: iconografia illustrativa utile all'apprendimento, non claim clinici.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "organi",
+        "scheletro",
+        "sistemi corporei",
+        "quiz"
+      ],
+      "priority_surfaces": [
+        "navigazione atlante",
+        "schede ossa/organi",
+        "risposta quiz confermata"
+      ],
+      "motion_recommendations": [
+        "evidenziazione organo o zona selezionata",
+        "feedback quiz senza ricompensa eccessiva"
+      ],
+      "avoid": [
+        "illustrazioni anatomiche errate",
+        "icone mediche decorative che suggeriscono diagnosi"
+      ],
+      "prioritized_icon_concepts": [
+        "heart-pulse",
+        "check",
+        "search"
+      ],
+      "existing_uiux_style_suggestions": null,
+      "source_icons": [
+        {
+          "id": "ICO-015",
+          "slug": "heart-pulse",
+          "fit": "HIGH",
+          "surface": "contenuti educativi anatomici",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [],
+      "source_variants_needed": [
+        "check",
+        "search"
+      ],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "focussense",
+      "name": "FocusSense",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Analytics focus neon controllata, suoni/luce/movimento solo se sensori disponibili e misurati.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "attenzione",
+        "suono",
+        "luce",
+        "Focus Score"
+      ],
+      "priority_surfaces": [
+        "Focus Score e gauge",
+        "stati sensori e permessi",
+        "dashboard dati e timeline"
+      ],
+      "motion_recommendations": [
+        "ring animato soltanto su nuovo campione reale",
+        "transizione score senza distorcere valori"
+      ],
+      "avoid": [
+        "HUD che mostra score inventati",
+        "effetti neon illeggibili in luce intensa"
+      ],
+      "prioritized_icon_concepts": [
+        "gauge",
+        "check",
+        "loader"
+      ],
+      "existing_uiux_style_suggestions": {
+        "high": "NEUMORPHISM, BENTO UI, MINIMAL CONTROLS",
+        "medium": "—"
+      },
+      "source_icons": [
+        {
+          "id": "ICO-015",
+          "slug": "heart-pulse",
+          "fit": "MEDIUM",
+          "surface": "feedback biologico solo se misurato",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-018",
+          "slug": "gauge",
+          "fit": "HIGH",
+          "surface": "Focus Score",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [
+        {
+          "id": "DSK-004",
+          "name": "Emil Design Engineering",
+          "fit": "MEDIUM",
+          "surface": "score motion without decorative loops",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-008",
+          "name": "Better Interfaces (Jakub Krehel)",
+          "fit": "HIGH",
+          "surface": "data viz semantics and contrast",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-009",
+          "name": "UI UX Pro Max",
+          "fit": "HIGH",
+          "surface": "neon analytics vs legibility balance",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_variants_needed": [
+        "check",
+        "loader"
+      ],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "framelab",
+      "name": "FrameLab",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Editor fotografico premium editoriale: visuali originali grandi, gesti precisi, icone essenziali.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "fotografia",
+        "editing",
+        "export",
+        "media"
+      ],
+      "priority_surfaces": [
+        "barra strumenti editing",
+        "galleria e anteprime",
+        "salvataggio/export reale",
+        "supporti media"
+      ],
+      "motion_recommendations": [
+        "toggle strumento con stato evidente",
+        "micro-feedback export dopo completamento reale"
+      ],
+      "avoid": [
+        "icone decorative sul contenuto fotografico",
+        "animazioni pesanti durante gesture di editing"
+      ],
+      "prioritized_icon_concepts": [
+        "images",
+        "export",
+        "video"
+      ],
+      "existing_uiux_style_suggestions": {
+        "high": "—",
+        "medium": "GLASSMORPHISM, NATURE-TECH, SPATIAL 3D"
+      },
+      "source_icons": [
+        {
+          "id": "ICO-006",
+          "slug": "export",
+          "fit": "HIGH",
+          "surface": "export media",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-008",
+          "slug": "images",
+          "fit": "HIGH",
+          "surface": "raccolta fotografie",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-009",
+          "slug": "video",
+          "fit": "MEDIUM",
+          "surface": "selezione e anteprima video",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-020",
+          "slug": "play",
+          "fit": "MEDIUM",
+          "surface": "anteprima multimediale",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-021",
+          "slug": "pause",
+          "fit": "MEDIUM",
+          "surface": "pausa anteprima",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [
+        {
+          "id": "DSK-001",
+          "name": "Anti UI Slop / Uizze",
+          "fit": "HIGH",
+          "surface": "photo and visual hierarchy",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-002",
+          "name": "Impeccable",
+          "fit": "HIGH",
+          "surface": "premium photo-editor controls",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-003",
+          "name": "Taste Skill",
+          "fit": "MEDIUM",
+          "surface": "editorial product landing",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-004",
+          "name": "Emil Design Engineering",
+          "fit": "HIGH",
+          "surface": "photo controls and gesture responsiveness",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-006",
+          "name": "Anthropic Frontend Design",
+          "fit": "HIGH",
+          "surface": "photographic editorial premium direction",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-007",
+          "name": "Hallmark",
+          "fit": "HIGH",
+          "surface": "editorial product showcase",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-009",
+          "name": "UI UX Pro Max",
+          "fit": "HIGH",
+          "surface": "photo UI token and contrast reference",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-010",
+          "name": "Stageshow",
+          "fit": "HIGH",
+          "surface": "visual editor demonstrations",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_variants_needed": [],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "notes-ecosistema",
+      "name": "Notes-Ecosistema",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Workspace editoriale note/canvas, gerarchia leggibile, comandi semantici in equilibrio con UI bento.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "nota",
+        "cartelle",
+        "canvas",
+        "tag/bookmark",
+        "import/export"
+      ],
+      "priority_surfaces": [
+        "editor note e barra formattazione",
+        "canvas e selezione strumenti",
+        "ricerca e bookmark",
+        "import/export",
+        "stati protetti se disponibili"
+      ],
+      "motion_recommendations": [
+        "focus visivo del tool attivo",
+        "conferma salvataggio e sync solo se completati",
+        "minimo motion durante disegno a mano libera"
+      ],
+      "avoid": [
+        "animazione nel tracciato ink che compromette precisione",
+        "toolbar troppo ricche",
+        "stati di sync non verificati"
+      ],
+      "prioritized_icon_concepts": [
+        "search",
+        "bookmark",
+        "export"
+      ],
+      "existing_uiux_style_suggestions": {
+        "high": "BENTO UI",
+        "medium": "NEO-APPLE"
+      },
+      "source_icons": [
+        {
+          "id": "ICO-005",
+          "slug": "download",
+          "fit": "HIGH",
+          "surface": "download esportazioni",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-006",
+          "slug": "export",
+          "fit": "HIGH",
+          "surface": "esportazione note",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-007",
+          "slug": "import",
+          "fit": "HIGH",
+          "surface": "import note",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-008",
+          "slug": "images",
+          "fit": "MEDIUM",
+          "surface": "immagini nelle note",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-010",
+          "slug": "bookmark",
+          "fit": "HIGH",
+          "surface": "segnalibri note",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-011",
+          "slug": "search",
+          "fit": "HIGH",
+          "surface": "ricerca note e canvas",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-012",
+          "slug": "apps-sparkle",
+          "fit": "MEDIUM",
+          "surface": "strumenti visuali opzionali",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-013",
+          "slug": "loader",
+          "fit": "MEDIUM",
+          "surface": "import o indicizzazione reale",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-014",
+          "slug": "check",
+          "fit": "HIGH",
+          "surface": "modifica salvata",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-017",
+          "slug": "cloud",
+          "fit": "MEDIUM",
+          "surface": "sync solo se backend attivo",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-022",
+          "slug": "repeat",
+          "fit": "MEDIUM",
+          "surface": "ripeti azione solo se reversibile",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-023",
+          "slug": "eye",
+          "fit": "HIGH",
+          "surface": "mostra/nascondi pannello o contenuto",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-024",
+          "slug": "archive",
+          "fit": "HIGH",
+          "surface": "archivio note con restore",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-025",
+          "slug": "messages",
+          "fit": "MEDIUM",
+          "surface": "commenti collaborativi solo dove supportati",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-028",
+          "slug": "lock",
+          "fit": "MEDIUM",
+          "surface": "sezioni protette solo se presenti",
+          "source": "GENTLEFACE",
+          "evidence": "ANIMATION_UNVERIFIED",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [
+        {
+          "id": "DSK-001",
+          "name": "Anti UI Slop / Uizze",
+          "fit": "HIGH",
+          "surface": "editor and responsive workflow refinement",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-002",
+          "name": "Impeccable",
+          "fit": "HIGH",
+          "surface": "editor density, hierarchy and responsive review",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-003",
+          "name": "Taste Skill",
+          "fit": "MEDIUM",
+          "surface": "web product landing, not the native editor",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-004",
+          "name": "Emil Design Engineering",
+          "fit": "HIGH",
+          "surface": "canvas/drag/selection and feedback",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-005",
+          "name": "Vercel Web Design Guidelines",
+          "fit": "HIGH",
+          "surface": "web editor/desktop accessibility",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-006",
+          "name": "Anthropic Frontend Design",
+          "fit": "HIGH",
+          "surface": "knowledge-workspace information hierarchy",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-007",
+          "name": "Hallmark",
+          "fit": "MEDIUM",
+          "surface": "landing feature stories",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-008",
+          "name": "Better Interfaces (Jakub Krehel)",
+          "fit": "HIGH",
+          "surface": "complex editor and long-text states",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-009",
+          "name": "UI UX Pro Max",
+          "fit": "HIGH",
+          "surface": "editor/canvas design-token consistency",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-010",
+          "name": "Stageshow",
+          "fit": "HIGH",
+          "surface": "workspace feature illustrations and demo",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_variants_needed": [],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "omni-cleaner",
+      "name": "Omni Cleaner",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Utility di pulizia con schermate separate e UI fluida: galleria foto/video a formato originale e player reale.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "galleria",
+        "video",
+        "eliminazione sicura",
+        "scansione",
+        "archivio"
+      ],
+      "priority_surfaces": [
+        "pulsanti per accedere alle singole funzioni",
+        "galleria foto senza ritagli",
+        "video player con play/pause e decisione prima dell'eliminazione",
+        "scansione e progresso reale",
+        "conferma eliminazione con reversibilità ove disponibile"
+      ],
+      "motion_recommendations": [
+        "transizione apertura galleria o player una sola volta",
+        "play/pause con stato leggibile",
+        "loader solo su scansione reale"
+      ],
+      "avoid": [
+        "simulare la liberazione di spazio prima di terminarla",
+        "autoeliminare asset o presentare anteprime ritagliate",
+        "inseguire il design sacrificando frame rate"
+      ],
+      "prioritized_icon_concepts": [
+        "images",
+        "video",
+        "play",
+        "pause",
+        "check"
+      ],
+      "existing_uiux_style_suggestions": null,
+      "source_icons": [
+        {
+          "id": "ICO-005",
+          "slug": "download",
+          "fit": "MEDIUM",
+          "surface": "download solo se esiste funzione",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-008",
+          "slug": "images",
+          "fit": "HIGH",
+          "surface": "apertura galleria a dimensione intera",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-009",
+          "slug": "video",
+          "fit": "HIGH",
+          "surface": "player video in galleria",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-011",
+          "slug": "search",
+          "fit": "MEDIUM",
+          "surface": "filtri media e file",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-013",
+          "slug": "loader",
+          "fit": "HIGH",
+          "surface": "scansione in corso, mai fingere progressi",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-014",
+          "slug": "check",
+          "fit": "HIGH",
+          "surface": "operazione completata con successo",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-020",
+          "slug": "play",
+          "fit": "HIGH",
+          "surface": "riproduzione video reale",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-021",
+          "slug": "pause",
+          "fit": "HIGH",
+          "surface": "pausa player video",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-022",
+          "slug": "repeat",
+          "fit": "MEDIUM",
+          "surface": "loop player video se presente",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-023",
+          "slug": "eye",
+          "fit": "HIGH",
+          "surface": "anteprima contenuti multimediali",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [
+        {
+          "id": "DSK-001",
+          "name": "Anti UI Slop / Uizze",
+          "fit": "MEDIUM",
+          "surface": "less generic utility UI and state feedback",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-002",
+          "name": "Impeccable",
+          "fit": "HIGH",
+          "surface": "dedicated feature screens and gallery/video UX checks",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-004",
+          "name": "Emil Design Engineering",
+          "fit": "HIGH",
+          "surface": "smooth transitions between function screens",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-006",
+          "name": "Anthropic Frontend Design",
+          "fit": "MEDIUM",
+          "surface": "distinctive but restrained utility aesthetic",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-008",
+          "name": "Better Interfaces (Jakub Krehel)",
+          "fit": "HIGH",
+          "surface": "feature navigation, gallery and media controls",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-009",
+          "name": "UI UX Pro Max",
+          "fit": "HIGH",
+          "surface": "utility redesign with component variants",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-010",
+          "name": "Stageshow",
+          "fit": "MEDIUM",
+          "surface": "feature-page visuals using actual app flows",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_variants_needed": [],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "phone-guard",
+      "name": "Phone Guard",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Utility protezione affidabile; etichette di rischio, gravità e stato servizio verificabili.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "protezione",
+        "avvisi",
+        "dispositivo",
+        "diagnostica"
+      ],
+      "priority_surfaces": [
+        "stato protezione corrente",
+        "warning e allarme solo se veri",
+        "impostazioni permessi e servizio"
+      ],
+      "motion_recommendations": [
+        "attivazione solo dopo conferma stato servizio",
+        "warning breve con alternativa accessibile"
+      ],
+      "avoid": [
+        "scudo sempre animato anche con servizio inattivo",
+        "tocco che sembra un 'PASS' senza diagnosi"
+      ],
+      "prioritized_icon_concepts": [
+        "shield-check",
+        "check",
+        "bell-ring"
+      ],
+      "existing_uiux_style_suggestions": null,
+      "source_icons": [
+        {
+          "id": "ICO-027",
+          "slug": "shield-check",
+          "fit": "HIGH",
+          "surface": "stato protezione confermato",
+          "source": "GENTLEFACE",
+          "evidence": "ANIMATION_UNVERIFIED",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [],
+      "source_variants_needed": [
+        "check",
+        "bell-ring"
+      ],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "pocket-guard",
+      "name": "Pocket Guard",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Protezione tasca/borsa, pannelli di stato sensori e viaggio; priorità sicurezza e risparmio batteria.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "borsa",
+        "sensori",
+        "scudo",
+        "PIN",
+        "viaggio"
+      ],
+      "priority_surfaces": [
+        "attivazione protezione e diagnostica",
+        "Journey Guard",
+        "sblocco PIN/biometria"
+      ],
+      "motion_recommendations": [
+        "microconferma armamento soltanto dopo avvenuto",
+        "stop animazioni durante monitoraggio in background"
+      ],
+      "avoid": [
+        "falso scudo verde quando permessi o sensori sono disattivati",
+        "lavoro continuo GPU mentre sorveglia"
+      ],
+      "prioritized_icon_concepts": [
+        "shield-check",
+        "lock",
+        "battery-low"
+      ],
+      "existing_uiux_style_suggestions": {
+        "high": "—",
+        "medium": "MINIMAL CONTROLS"
+      },
+      "source_icons": [
+        {
+          "id": "ICO-004",
+          "slug": "battery-low",
+          "fit": "MEDIUM",
+          "surface": "avviso stato batteria dispositivo",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-027",
+          "slug": "shield-check",
+          "fit": "HIGH",
+          "surface": "protezione effettivamente attiva e sana",
+          "source": "GENTLEFACE",
+          "evidence": "ANIMATION_UNVERIFIED",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-028",
+          "slug": "lock",
+          "fit": "HIGH",
+          "surface": "PIN o biometria con stato reale",
+          "source": "GENTLEFACE",
+          "evidence": "ANIMATION_UNVERIFIED",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [
+        {
+          "id": "DSK-009",
+          "name": "UI UX Pro Max",
+          "fit": "HIGH",
+          "surface": "protection state UI",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_variants_needed": [],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "send-to-pc",
+      "name": "Send-to-PC",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Trasferimento file LAN QR/Wi-Fi, feedback immediato sulla consegna e stato di connessione.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "PC",
+        "file",
+        "Wi-Fi",
+        "QR",
+        "trasferimento"
+      ],
+      "priority_surfaces": [
+        "selezione file e dispositivo",
+        "progresso upload realmente tracciato",
+        "conferma ricezione e errori"
+      ],
+      "motion_recommendations": [
+        "progress loop solo quando byte trasferiti",
+        "check solo con ricevuta endpoint"
+      ],
+      "avoid": [
+        "successo prima di completare il trasferimento",
+        "icone oscillanti durante ricerca in background"
+      ],
+      "prioritized_icon_concepts": [
+        "loader",
+        "check",
+        "messages"
+      ],
+      "existing_uiux_style_suggestions": null,
+      "source_icons": [
+        {
+          "id": "ICO-013",
+          "slug": "loader",
+          "fit": "HIGH",
+          "surface": "trasferimento in corso",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-025",
+          "slug": "messages",
+          "fit": "MEDIUM",
+          "surface": "stati trasferimento con etichette testuali",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [],
+      "source_variants_needed": [
+        "check"
+      ],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "sleepmax-coach",
+      "name": "SleepMax Coach",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Routine serale sobria e calma; meno luminosità/movimento, accessibilità notturna.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "sonno",
+        "luna",
+        "sveglia",
+        "routine"
+      ],
+      "priority_surfaces": [
+        "routine prima del sonno",
+        "promemoria e sveglie",
+        "ripetizione di appuntamenti"
+      ],
+      "motion_recommendations": [
+        "fade molto lento per un cambio di stato, non per ogni tap",
+        "conferma notifica pianificata dopo esito reale"
+      ],
+      "avoid": [
+        "loop luminosi che disturbano l'utente",
+        "icone che suggeriscono misurazione clinica senza sensori"
+      ],
+      "prioritized_icon_concepts": [
+        "bell-ring",
+        "repeat",
+        "calendar"
+      ],
+      "existing_uiux_style_suggestions": {
+        "high": "MINIMAL CONTROLS",
+        "medium": "NEUMORPHISM"
+      },
+      "source_icons": [
+        {
+          "id": "ICO-001",
+          "slug": "bell-ring",
+          "fit": "HIGH",
+          "surface": "promemoria routine",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-002",
+          "slug": "calendar",
+          "fit": "MEDIUM",
+          "surface": "programma routine",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-015",
+          "slug": "heart-pulse",
+          "fit": "MEDIUM",
+          "surface": "benessere non medico con disclaimer",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-022",
+          "slug": "repeat",
+          "fit": "MEDIUM",
+          "surface": "ripeti routine",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [
+        {
+          "id": "DSK-009",
+          "name": "UI UX Pro Max",
+          "fit": "MEDIUM",
+          "surface": "calm routine controls",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_variants_needed": [],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "tabletop-motion-alarm",
+      "name": "Tabletop Motion Alarm",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Antifurto tavolo: conto alla rovescia, sirena e stato armamento sempre chiari e robusti.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "allarme",
+        "movimento",
+        "PIN",
+        "dispositivo"
+      ],
+      "priority_surfaces": [
+        "countdown prima di armamento",
+        "stato sensori/arma",
+        "sblocco PIN e segnalazione intruso"
+      ],
+      "motion_recommendations": [
+        "transizione solo dopo armamento reale",
+        "no motion estetico durante sirena/controlli critici"
+      ],
+      "avoid": [
+        "allarme armato visualizzato prematuramente",
+        "animazioni che impediscono accesso a Disarma"
+      ],
+      "prioritized_icon_concepts": [
+        "shield-check",
+        "lock",
+        "bell-ring"
+      ],
+      "existing_uiux_style_suggestions": null,
+      "source_icons": [
+        {
+          "id": "ICO-027",
+          "slug": "shield-check",
+          "fit": "HIGH",
+          "surface": "allarme armato confermato",
+          "source": "GENTLEFACE",
+          "evidence": "ANIMATION_UNVERIFIED",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-028",
+          "slug": "lock",
+          "fit": "HIGH",
+          "surface": "stato antifurto verificato",
+          "source": "GENTLEFACE",
+          "evidence": "ANIMATION_UNVERIFIED",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [],
+      "source_variants_needed": [
+        "bell-ring"
+      ],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "the-luminous-infinite-circle",
+      "name": "The Luminous Infinite Circle",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Notifiche visive e AOD accessibili, priorità utenti con esigenze di accessibilità; animazione come segnale, non decorazione.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "cerchio luminoso",
+        "LED flash",
+        "notifica",
+        "accessibilità"
+      ],
+      "priority_surfaces": [
+        "anteprima effetti AOD",
+        "selezione modalità di avviso",
+        "stato notifiche ricevute"
+      ],
+      "motion_recommendations": [
+        "anello solo per evento notificato e quando consentito",
+        "interrompi su silenzioso/risparmio secondo requisiti prodotto"
+      ],
+      "avoid": [
+        "animazione persistente che consuma batteria",
+        "colore come unico canale di identificazione"
+      ],
+      "prioritized_icon_concepts": [
+        "bell-ring",
+        "check",
+        "gauge"
+      ],
+      "existing_uiux_style_suggestions": null,
+      "source_icons": [
+        {
+          "id": "ICO-001",
+          "slug": "bell-ring",
+          "fit": "MEDIUM",
+          "surface": "feedback notifica senza sostituire allarme",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [
+        {
+          "id": "DSK-009",
+          "name": "UI UX Pro Max",
+          "fit": "MEDIUM",
+          "surface": "accessible visual-alert semantics",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_variants_needed": [
+        "check",
+        "gauge"
+      ],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "trailpath",
+      "name": "TrailPath",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Mappe outdoor forest/moss con controlli robusti e alto contrasto sul percorso.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "mappa",
+        "traccia",
+        "waypoint",
+        "offline"
+      ],
+      "priority_surfaces": [
+        "selezione waypoint",
+        "routing e stato GPS reale",
+        "download GPX/mappe solo se funzione attiva"
+      ],
+      "motion_recommendations": [
+        "pulse waypoint solo dopo selezione",
+        "nessun motion che copra la rotta o i controlli"
+      ],
+      "avoid": [
+        "UI decorativa che oscura la cartografia",
+        "presentare routing non funzionante come confermato"
+      ],
+      "prioritized_icon_concepts": [
+        "map-pin",
+        "download",
+        "check"
+      ],
+      "existing_uiux_style_suggestions": {
+        "high": "NATURE-TECH",
+        "medium": "—"
+      },
+      "source_icons": [
+        {
+          "id": "ICO-016",
+          "slug": "map-pin",
+          "fit": "HIGH",
+          "surface": "waypoint e posizione",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [
+        {
+          "id": "DSK-004",
+          "name": "Emil Design Engineering",
+          "fit": "HIGH",
+          "surface": "map control and route-state transitions",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-008",
+          "name": "Better Interfaces (Jakub Krehel)",
+          "fit": "HIGH",
+          "surface": "map touch targets and offline states",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-009",
+          "name": "UI UX Pro Max",
+          "fit": "HIGH",
+          "surface": "map utility and nature-tech",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_variants_needed": [
+        "download",
+        "check"
+      ],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "web-utility-factory",
+      "name": "Web Utility Factory",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Landing e strumenti web SEO-first con UX sobria, interazioni leggere, accessibilità e tempi di caricamento prioritari.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "strumenti",
+        "browser",
+        "SEO/ricerca",
+        "conferma"
+      ],
+      "priority_surfaces": [
+        "lista tool e ricerca",
+        "stati vuoti/input/form",
+        "download risultato soltanto se pronto"
+      ],
+      "motion_recommendations": [
+        "hover e feedback tastiera/mouse con prefers-reduced-motion",
+        "nessun loop decorativo sopra la form principale"
+      ],
+      "avoid": [
+        "JS/icon-pack pesanti per aggiungere una semplice decorazione",
+        "sovraccarico bento che riduce conversione e SEO"
+      ],
+      "prioritized_icon_concepts": [
+        "search",
+        "check",
+        "download"
+      ],
+      "existing_uiux_style_suggestions": null,
+      "source_icons": [],
+      "source_design_skills": [
+        {
+          "id": "DSK-003",
+          "name": "Taste Skill",
+          "fit": "HIGH",
+          "surface": "SEO utility site landing and conversion flows",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-005",
+          "name": "Vercel Web Design Guidelines",
+          "fit": "HIGH",
+          "surface": "SEO-first accessible utility web UI",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-007",
+          "name": "Hallmark",
+          "fit": "MEDIUM",
+          "surface": "landing experiments; prioritize SEO and speed",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-010",
+          "name": "Stageshow",
+          "fit": "MEDIUM",
+          "surface": "service landing feature illustrations",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_variants_needed": [
+        "search",
+        "check",
+        "download"
+      ],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "wonderlog",
+      "name": "Wonderlog",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Diario viaggi colorato, foto originali, punti mappa e timeline con microinterazioni naturali.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "viaggio",
+        "mappa",
+        "tappe",
+        "foto e ricordi"
+      ],
+      "priority_surfaces": [
+        "selezione luoghi in mappa",
+        "galleria viaggio",
+        "salvataggio preferiti/tappe",
+        "diario e date itinerario"
+      ],
+      "motion_recommendations": [
+        "feedback selezione waypoint con easing breve",
+        "transizione pagina foto senza tagli"
+      ],
+      "avoid": [
+        "icone turistiche stereotipate",
+        "animazioni che peggiorano tracking GPS o map scroll"
+      ],
+      "prioritized_icon_concepts": [
+        "map-pin",
+        "images",
+        "star"
+      ],
+      "existing_uiux_style_suggestions": {
+        "high": "GLASSMORPHISM, NEO-APPLE, NATURE-TECH, PASTEL UI",
+        "medium": "—"
+      },
+      "source_icons": [
+        {
+          "id": "ICO-002",
+          "slug": "calendar",
+          "fit": "MEDIUM",
+          "surface": "itinerario giornaliero",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-005",
+          "slug": "download",
+          "fit": "MEDIUM",
+          "surface": "guide o file offline",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-006",
+          "slug": "export",
+          "fit": "HIGH",
+          "surface": "export diario",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-007",
+          "slug": "import",
+          "fit": "MEDIUM",
+          "surface": "import itinerario",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-008",
+          "slug": "images",
+          "fit": "MEDIUM",
+          "surface": "galleria viaggio",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-009",
+          "slug": "video",
+          "fit": "MEDIUM",
+          "surface": "clip e ricordi del viaggio",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-010",
+          "slug": "bookmark",
+          "fit": "MEDIUM",
+          "surface": "luoghi e tappe preferite",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-011",
+          "slug": "search",
+          "fit": "HIGH",
+          "surface": "ricerca viaggi e luoghi",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-016",
+          "slug": "map-pin",
+          "fit": "HIGH",
+          "surface": "selezione luogo",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-019",
+          "slug": "star",
+          "fit": "MEDIUM",
+          "surface": "luoghi preferiti",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-022",
+          "slug": "repeat",
+          "fit": "MEDIUM",
+          "surface": "ricorrenza in pianificazione dove implementata",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-025",
+          "slug": "messages",
+          "fit": "MEDIUM",
+          "surface": "note condivise",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-026",
+          "slug": "home",
+          "fit": "MEDIUM",
+          "surface": "home viaggi",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [
+        {
+          "id": "DSK-001",
+          "name": "Anti UI Slop / Uizze",
+          "fit": "HIGH",
+          "surface": "travel visual language and image-led views",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-002",
+          "name": "Impeccable",
+          "fit": "MEDIUM",
+          "surface": "travel cards and map overlay polish",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-004",
+          "name": "Emil Design Engineering",
+          "fit": "HIGH",
+          "surface": "map and journal transitions",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-006",
+          "name": "Anthropic Frontend Design",
+          "fit": "HIGH",
+          "surface": "colourful travel narrative",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-008",
+          "name": "Better Interfaces (Jakub Krehel)",
+          "fit": "MEDIUM",
+          "surface": "image/locale overflow checks",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-009",
+          "name": "UI UX Pro Max",
+          "fit": "HIGH",
+          "surface": "travel journal palette and components",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-010",
+          "name": "Stageshow",
+          "fit": "HIGH",
+          "surface": "travel journey product highlights",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_variants_needed": [],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    },
+    {
+      "id": "world-days",
+      "name": "World Days",
+      "section": "PER_APP",
+      "created_at": "2026-11-17",
+      "updated_at": "2026-11-17",
+      "product_bible_checked": false,
+      "app_code_checked": false,
+      "implementation_state": "NOT_VERIFIED",
+      "decision_state": "PROPOSAL_ONLY",
+      "direction": "Giornate del mondo: schede editoriali colorate, densità informativa elevata e palette esistente da mantenere.",
+      "design_source_refs": [
+        "sources/COVERAGE.md",
+        "README.md",
+        "UI-UX/MATRICE_APP_STILI.md",
+        "ICONE/REGISTRO_ICONE.json",
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+      ],
+      "category_ideas": [
+        "calendario",
+        "ricorrenza",
+        "storia",
+        "preferiti",
+        "offline"
+      ],
+      "priority_surfaces": [
+        "scheda giornata e informazioni varie",
+        "salvataggio preferiti",
+        "navigazione calendario e download contenuti",
+        "sezioni storiche multilingue"
+      ],
+      "motion_recommendations": [
+        "bookmark breve dopo salvataggio reale",
+        "download solo durante trasferimento",
+        "microtransizione giorno senza variare i colori"
+      ],
+      "avoid": [
+        "spostare informazioni in icone senza testo",
+        "cambiare la palette che l'utente ha già approvato",
+        "celebrare un contenuto ancora non certificato"
+      ],
+      "prioritized_icon_concepts": [
+        "calendar",
+        "bookmark",
+        "download"
+      ],
+      "existing_uiux_style_suggestions": {
+        "high": "SOFT 3D, PASTEL UI",
+        "medium": "NEO-APPLE, BENTO UI, SPATIAL 3D"
+      },
+      "source_icons": [
+        {
+          "id": "ICO-001",
+          "slug": "bell-ring",
+          "fit": "MEDIUM",
+          "surface": "avviso contenuto disponibile",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-002",
+          "slug": "calendar",
+          "fit": "HIGH",
+          "surface": "navigazione giorni",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-005",
+          "slug": "download",
+          "fit": "HIGH",
+          "surface": "contenuti offline",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-006",
+          "slug": "export",
+          "fit": "MEDIUM",
+          "surface": "condivisione/export soltanto se implementato",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-010",
+          "slug": "bookmark",
+          "fit": "HIGH",
+          "surface": "salva ricorrenze",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-011",
+          "slug": "search",
+          "fit": "HIGH",
+          "surface": "ricerca giornate",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-013",
+          "slug": "loader",
+          "fit": "HIGH",
+          "surface": "download e caricamento reale",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_DETAIL",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-014",
+          "slug": "check",
+          "fit": "HIGH",
+          "surface": "download verificato",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-016",
+          "slug": "map-pin",
+          "fit": "MEDIUM",
+          "surface": "localizzazione evento solo se presente",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-017",
+          "slug": "cloud",
+          "fit": "MEDIUM",
+          "surface": "download contenuti reale",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-019",
+          "slug": "star",
+          "fit": "MEDIUM",
+          "surface": "giornate preferite",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-024",
+          "slug": "archive",
+          "fit": "MEDIUM",
+          "surface": "collezioni archiviate se supportate",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "ICO-026",
+          "slug": "home",
+          "fit": "MEDIUM",
+          "surface": "home delle ricorrenze",
+          "source": "GENTLEFACE",
+          "evidence": "VERIFIED_SITE",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_design_skills": [
+        {
+          "id": "DSK-001",
+          "name": "Anti UI Slop / Uizze",
+          "fit": "HIGH",
+          "surface": "daily content cards and empty-state polish",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-002",
+          "name": "Impeccable",
+          "fit": "HIGH",
+          "surface": "content density, long-copy and reader flow",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-003",
+          "name": "Taste Skill",
+          "fit": "MEDIUM",
+          "surface": "content discovery pages where web-native",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-004",
+          "name": "Emil Design Engineering",
+          "fit": "MEDIUM",
+          "surface": "subtle content-card transitions",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-005",
+          "name": "Vercel Web Design Guidelines",
+          "fit": "HIGH",
+          "surface": "content-heavy web views and navigation",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-006",
+          "name": "Anthropic Frontend Design",
+          "fit": "HIGH",
+          "surface": "recognizable day-story cards",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-007",
+          "name": "Hallmark",
+          "fit": "MEDIUM",
+          "surface": "public promotional pages",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-008",
+          "name": "Better Interfaces (Jakub Krehel)",
+          "fit": "HIGH",
+          "surface": "long story and multilingual layouts",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-009",
+          "name": "UI UX Pro Max",
+          "fit": "HIGH",
+          "surface": "information-card design and locale-aware typography",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-010",
+          "name": "Stageshow",
+          "fit": "HIGH",
+          "surface": "new rich-story feature preview",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_variants_needed": [],
+      "thematic_icons": [],
+      "user_request": null,
+      "next_action": "Validate actual Product Bible, target screen, license and runtime feasibility before any app edit; select 2–3 icons for isolated QA pilot.",
+      "changelog": [
+        {
+          "date": "2026-11-17",
+          "type": "DESIGN_CATALOG_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        }
+      ]
+    }
+  ],
+  "by_app": {
+    "180FlipCharge": "180flipcharge",
+    "Anna's Diary": "annas-diary",
+    "App Factory Dashboard": "app-factory-dashboard",
+    "Battery Guard": "battery-guard",
+    "BeerClass AI": "beerclass-ai",
+    "CamperBoss": "camperboss",
+    "CashMate AI": "cashmate-ai",
+    "Cooking Anime": "cooking-anime",
+    "Deskland Android": "deskland-android",
+    "Easy Debloat": "easy-debloat",
+    "Edu_01 Corpo Umano": "edu-01-corpo-umano",
+    "FocusSense": "focussense",
+    "FrameLab": "framelab",
+    "Notes-Ecosistema": "notes-ecosistema",
+    "Omni Cleaner": "omni-cleaner",
+    "Phone Guard": "phone-guard",
+    "Pocket Guard": "pocket-guard",
+    "Send-to-PC": "send-to-pc",
+    "SleepMax Coach": "sleepmax-coach",
+    "Tabletop Motion Alarm": "tabletop-motion-alarm",
+    "The Luminous Infinite Circle": "the-luminous-infinite-circle",
+    "TrailPath": "trailpath",
+    "Web Utility Factory": "web-utility-factory",
+    "Wonderlog": "wonderlog",
+    "World Days": "world-days"
+  }
+}

@@ -364,6 +364,93 @@ for icon_id, assoc in icon_data.get("by_icon", {}).items():
 if set(icon_data.get("by_icon", {})) != icon_ids:
     fail("ICONE by_icon key coverage mismatch")
 
+# Per-app design dossiers are a persistent read model for icon and skill discovery.
+per_app_dir = ROOT / "PER_APP"
+profiles_path = per_app_dir / "REGISTRO_APP_DESIGN.json"
+profiles_index = per_app_dir / "README.md"
+if not profiles_path.is_file() or not profiles_index.is_file():
+    fail("PER_APP dossier registry or index missing")
+per_app = json.loads(profiles_path.read_text(encoding="utf-8"))
+profiles = per_app.get("profiles", [])
+profile_counts = per_app.get("counts", {})
+if per_app.get("schema_version") != 1 or per_app.get("status") != "CANDIDATE_DESIGN_GUIDANCE_ONLY":
+    fail("PER_APP schema/status invalid")
+if len(profiles) < 25 or len(profiles) != profile_counts.get("app_profiles"):
+    fail("PER_APP profile baseline/count inconsistent")
+if len({p.get("name") for p in profiles}) != len(profiles):
+    fail("PER_APP duplicate app name")
+if len({p.get("id") for p in profiles}) != len(profiles):
+    fail("PER_APP duplicate dossier path slug")
+if any(not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", str(p.get("id", ""))) for p in profiles):
+    fail("PER_APP invalid slug")
+if per_app.get("source_of_truth") != "PER_APP/REGISTRO_APP_DESIGN.json":
+    fail("PER_APP canonical path mismatch")
+if any(p.get("decision_state") != "PROPOSAL_ONLY" or p.get("implementation_state") != "NOT_VERIFIED"
+       or p.get("product_bible_checked") is not False or p.get("app_code_checked") is not False
+       for p in profiles):
+    fail("PER_APP falsely asserts approval or consumer evidence")
+if any(not p.get("changelog") or not p.get("direction") or not p.get("priority_surfaces")
+       or not p.get("avoid") or not p.get("motion_recommendations") for p in profiles):
+    fail("PER_APP dossier missing direction, use, anti-patterns, motion or history")
+dossier_names = {p["name"] for p in profiles}
+if set(icon_data.get("by_app", {})) - dossier_names:
+    fail("PER_APP missing app in icon catalog")
+if set(skills_map.get("by_app", {})) - dossier_names:
+    fail("PER_APP missing app in design skill catalog")
+for profile in profiles:
+    name = profile["name"]
+    actual_icons = {(x["id"], x["fit"], x["surface"]) for x in profile.get("source_icons", [])}
+    expected_icons = {(x["icon_id"], x["fit"], x["surface"])
+                      for x in icon_data.get("by_app", {}).get(name, [])}
+    if actual_icons != expected_icons or len(actual_icons) != len(profile.get("source_icons", [])):
+        fail(f"PER_APP icon mapping drift: {name}")
+    actual_skills = {(x["id"], x["fit"], x["surface"]) for x in profile.get("source_design_skills", [])}
+    expected_skills = {(x["source_id"], x["fit"], x["surface"])
+                       for x in skills_map.get("by_app", {}).get(name, [])}
+    if actual_skills != expected_skills or len(actual_skills) != len(profile.get("source_design_skills", [])):
+        fail(f"PER_APP skill mapping drift: {name}")
+    doc_path = per_app_dir / (profile["id"] + ".md")
+    if not doc_path.is_file():
+        fail(f"PER_APP missing dossier: {name}")
+    doc_text = doc_path.read_text(encoding="utf-8")
+    if not doc_text.startswith("# " + name + " — Dossier Design-App") or profile["direction"] not in doc_text:
+        fail(f"PER_APP dossier title/direction mismatch: {name}")
+    if "PROPOSAL_ONLY" not in doc_text:
+        fail(f"PER_APP dossier lacks unverified-state disclaimer: {name}")
+    for mapping in profile.get("source_icons", []):
+        if mapping["id"] not in doc_text or mapping["slug"] not in doc_text:
+            fail(f"PER_APP icon not visible in dossier: {name}/{mapping['id']}")
+    for mapping in profile.get("source_design_skills", []):
+        if mapping["id"] not in doc_text:
+            fail(f"PER_APP skill not visible in dossier: {name}/{mapping['id']}")
+    for change in profile.get("changelog", []):
+        if not change.get("date") or not change.get("origin") or not change.get("status"):
+            fail(f"PER_APP changelog entry missing provenance: {name}")
+if sum(len(p.get("source_icons", [])) for p in profiles) != profile_counts.get("icon_links"):
+    fail("PER_APP icon link count mismatch")
+if sum(len(p.get("source_design_skills", [])) for p in profiles) != profile_counts.get("skill_links"):
+    fail("PER_APP skills link count mismatch")
+cooking = next((p for p in profiles if p.get("name") == "Cooking Anime"), None)
+if not cooking:
+    fail("PER_APP missing Cooking Anime")
+concepts = cooking.get("thematic_icons", [])
+if len(concepts) < 30 or len(concepts) != profile_counts.get("cooking_icon_concepts"):
+    fail("PER_APP Cooking Anime concept count incomplete")
+if len({x.get("id") for x in concepts}) != len(concepts):
+    fail("PER_APP duplicate Cooking Anime concept IDs")
+if not {"kawaii-gattini", "food-japan", "food-china", "anime-seasonal", "ui-standard"}.issubset(
+       {x.get("category") for x in concepts}):
+    fail("PER_APP Cooking Anime thematic categories incomplete")
+if any(x.get("provider") != "NOT_SELECTED" or x.get("asset_exist_verified") is not False
+       or x.get("status") != "DESIGN_IDEA" for x in concepts):
+    fail("PER_APP Cooking Anime concept was misrepresented as licensed asset")
+cooking_doc = (per_app_dir / "cooking-anime.md").read_text(encoding="utf-8")
+if any(x["id"] not in cooking_doc for x in concepts):
+    fail("PER_APP Cooking Anime concept not in human-readable dossier")
+profiles_index_content = profiles_index.read_text(encoding="utf-8")
+if any(("./" + p["id"] + ".md") not in profiles_index_content for p in profiles):
+    fail("PER_APP missing dossier index link")
+
 print(
     f"Design-App validation PASS: {len(pattern_ids)} patterns, "
     f"{len(style_ids)} styles, {len(repos)} OSS sources "
