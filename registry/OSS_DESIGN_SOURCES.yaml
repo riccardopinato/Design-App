@@ -48,6 +48,19 @@ targeted_intakes:
     factory_baseline: "c5adc147046beb7024629466d10eeb799c3c2619"
     note: "Seven external visual/UX references found in the 737 public GitHub Stars census; product and per-file license gates remain open."
 
+  - batch_id: WATERMELON_NINE_2026_11_17
+    observed_at: "2026-11-17"
+    new_sources: 1
+    component_references: 9
+    source_files_read: 6
+    exact_sources_unverified: 3
+    source_repository: "WatermelonCorp/watermelon-platform"
+    source_ref: "9d6defcf89880d0a00fbccad773c046bb51d7afb"
+    status: REFERENCE
+    audit_path: "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
+    app_map_path: "UI-UX/WATERMELON_NINE_APP_MAP_2026-11-17.json"
+    note: "Nine user-supplied Watermelon links; six source files inspected, three names unlocated, no consumer or auth/notification backend implemented."
+
   - batch_id: AMICRO_SIX_COMPONENTS_2026_11_17
     observed_at: "2026-11-17"
     new_sources: 0
@@ -1188,3 +1201,18 @@ sources:
     copy_policy: REFERENCE_ONLY_SOURCE_READ_PENDING_TESTS_AND_FLUTTER_ADAPTATION
     audit_path: "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
     app_map_path: "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json"
+
+  - repo: "WatermelonCorp/watermelon-platform"
+    batch: WATERMELON_NINE_2026_11_17
+    domain: "INTERACTIVE_MOTION_CONTROLS"
+    license: "MIT original public repository; dependency and asset licenses require independent checks"
+    source_ref: "9d6defcf89880d0a00fbccad773c046bb51d7afb"
+    license_blob: "c76bf56983389c53194eecc9d088ac8de34debe1"
+    metadata_path: "src/data/contents/registry"
+    source_path: "src/data/contents/animated-components"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    role: "Carousel, number ruler, scrub/range, auth form, dialog UI source references. Notification List, Text Gradient and Flip Clock exact code unlocated."
+    copy_policy: REFERENCE_ONLY_PENDING_ASSET_SECURITY_DEPENDENCY_AND_CONSUMER_GATE
+    audit_path: "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
+    app_map_path: "UI-UX/WATERMELON_NINE_APP_MAP_2026-11-17.json"
