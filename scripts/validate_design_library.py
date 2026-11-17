@@ -43,7 +43,10 @@ if visual_intake != 1:
 skills_intake = len(re.findall(r"^  - batch_id: ANTI_SLOP_DESIGN_SKILLS_2026_11_17$", oss, re.MULTILINE))
 if skills_intake != 1:
     fail(f"expected one 2026-11-17 design skill intake, found {skills_intake}")
-expected_source_count = 95 + ruixen_intake + 2 * dock_intake + 7 * visual_intake + 10 * skills_intake
+voice_intake = len(re.findall(r"^  - batch_id: BEUI_VOICE_ORB_2026_11_17$", oss, re.MULTILINE))
+if voice_intake != 1:
+    fail(f"expected one beUI Voice Orb intake, found {voice_intake}")
+expected_source_count = 95 + ruixen_intake + 2 * dock_intake + 7 * visual_intake + 10 * skills_intake + 2 * voice_intake
 if len(repos) != expected_source_count or len(set(repos)) != expected_source_count:
     fail(f"expected {expected_source_count} unique OSS design sources, found {len(repos)} / {len(set(repos))} unique")
 for required in ("ruixenui/ruixen.com", "alztrk/opentaskbar", "Acadbek/lumabar"):
@@ -450,6 +453,64 @@ if any(x["id"] not in cooking_doc for x in concepts):
 profiles_index_content = profiles_index.read_text(encoding="utf-8")
 if any(("./" + p["id"] + ".md") not in profiles_index_content for p in profiles):
     fail("PER_APP missing dossier index link")
+
+# Dynamic design directory sources are not GitHub repositories and must not be counted as OSS repo records.
+sites_path = ROOT / "sources" / "DESIGN_RESEARCH_SITES.json"
+sites_data = json.loads(sites_path.read_text(encoding="utf-8"))
+site_items = sites_data.get("sites", [])
+if len({s.get("id") for s in site_items}) != len(site_items):
+    fail("duplicate design discovery site ID")
+if len({s.get("url") for s in site_items}) != len(site_items):
+    fail("duplicate design discovery URL")
+devlibraries = next((s for s in site_items if s.get("id") == "DESIGN-SITE-001"), None)
+if not devlibraries or devlibraries.get("url") != "https://devlibraries.com/":
+    fail("DevLibraries not registered as design discovery directory")
+if devlibraries.get("kind") != "MULTI_LIBRARY_UI_AGGREGATOR" or devlibraries.get("status") != "REFERENCE":
+    fail("DevLibraries was promoted or misclassified")
+for required in ("starc007/ui-components", "starc007/beui-native"):
+    if repos.count(required) != 1:
+        fail(f"official beUI source missing/duplicated: {required}")
+for relative in ("sources/DEVLIBRARIES_DISCOVERY_2026-11-17.md",
+                 "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
+                 "UI-UX/VOICE_ORB_APP_MAP_2026-11-17.md"):
+    if not (ROOT / relative).is_file():
+        fail(f"voice/design source document missing: {relative}")
+voice_map = json.loads((ROOT / "UI-UX/VOICE_ORB_APP_MAP_2026-11-17.json").read_text(encoding="utf-8"))
+if voice_map.get("source_id") != "VOICE-UI-001" or voice_map.get("status") != "REFERENCE":
+    fail("Voice Orb source promotion or mismatched source ID")
+if voice_map.get("app_implementation") != "NONE":
+    fail("Voice Orb claims implementation without evidence")
+voice_links = voice_map.get("associations", [])
+if len(voice_links) != voice_map.get("counts", {}).get("apps") or len(voice_links) != 10:
+    fail("Voice Orb map baseline must have ten proposed applications")
+if len({(e.get("source_id"), e.get("app")) for e in voice_links}) != len(voice_links):
+    fail("Voice Orb duplicated app relation")
+if any(e.get("status") != "PROPOSED_ONLY" or e.get("feature_state") != "NOT_IMPLEMENTED"
+       or e.get("fit") not in ("HIGH", "MEDIUM") for e in voice_links):
+    fail("Voice Orb incorrectly claims approved/implemented voice")
+if any(e.get("app") not in dossier_names for e in voice_links):
+    fail("Voice Orb app not cataloged in PER_APP")
+if sum(e.get("fit") == "HIGH" for e in voice_links) != voice_map["counts"].get("high"):
+    fail("Voice Orb high-fit count mismatch")
+if sum(e.get("fit") == "MEDIUM" for e in voice_links) != voice_map["counts"].get("medium"):
+    fail("Voice Orb medium-fit count mismatch")
+if set(voice_map.get("by_app", {})) != {e.get("app") for e in voice_links}:
+    fail("Voice Orb inverse map out of sync")
+if profile_counts.get("voice_orb_candidate_apps") != len(voice_links):
+    fail("PER_APP voice proposal count out of sync")
+for e in voice_links:
+    p = next((p for p in profiles if p.get("name") == e["app"]), None)
+    if p is None or len(p.get("voice_ui_candidates", [])) != 1:
+        fail(f"PER_APP missing voice proposal for {e['app']}")
+    proposal = p["voice_ui_candidates"][0]
+    for key in ("association_id", "source_id", "fit", "purpose", "surface", "status", "feature_state"):
+        if proposal.get(key) != e.get(key):
+            fail(f"PER_APP voice proposal drift: {e['app']}/{key}")
+    doc = (per_app_dir / (p["id"] + ".md")).read_text(encoding="utf-8")
+    if "Voice Orb — proposta futura" not in doc or e["purpose"] not in doc:
+        fail(f"PER_APP human-readable voice proposal missing: {e['app']}")
+if any(p.get("voice_ui_candidates") for p in profiles if p.get("name") not in voice_map["by_app"]):
+    fail("PER_APP voice proposal exists outside the canonical voice map")
 
 print(
     f"Design-App validation PASS: {len(pattern_ids)} patterns, "
