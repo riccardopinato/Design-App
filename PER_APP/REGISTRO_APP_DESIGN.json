@@ -18,7 +18,10 @@
     "amicro_six_candidate_apps": 19,
     "amicro_six_candidate_links": 60,
     "watermelon_ui_candidate_apps": 17,
-    "watermelon_ui_candidate_links": 73
+    "watermelon_ui_candidate_links": 73,
+    "bookmarks_screenshot_profiles": 20,
+    "bookmarks_screenshot_edges": 120,
+    "bookmarks_screenshot_cards": 30
   },
   "profiles": [
     {
@@ -121,7 +124,8 @@
         "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
-        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
       ],
       "category_ideas": [
         "diario e ricordi",
@@ -374,6 +378,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
           "detail": "9 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DEVLIBRARIES_BOOKMARK_SCREENSHOT_INTAKE",
+          "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
+          "status": "PROPOSED_ONLY",
+          "detail": "12 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
         }
       ],
       "voice_ui_candidates": [
@@ -621,7 +632,13 @@
           "include empty state, quiet-hours preference, dismiss controls only if approved",
           "no unverified events or false notification state",
           "keep existing Home Oggi rose editorial visual language"
-        ]
+        ],
+        "visual_preview_seen_in_user_screenshot": true,
+        "visual_preview_name": "Notification List",
+        "source_code_evidence": "EXACT_SOURCE_NOT_LOCATED",
+        "screenshot_sha256": "aabe4abc2d2b16bd6d237095b18dd918c3440a0b91ba11a917012bacf6aedb4e",
+        "approval_unchanged": "PROPOSED_ONLY",
+        "new_evidence_note": "Preview visually confirmed from user's DevLibraries screenshot; not proof of notification scheduling or app integration."
       },
       "anna_memories_carousel_proposal": {
         "status": "PROPOSED_ONLY",
@@ -630,7 +647,153 @@
         "interaction": "swipe with visible position and buttons, accessible previous/next, preserve memory detail navigation",
         "brand": "iOS Journal rose/Manrope/Lora approved",
         "feature_scope": "Visual redesign suggestion only"
-      }
+      },
+      "bookmarked_visual_references": [
+        {
+          "bookmark_id": "DBM-002",
+          "name": "Classic Spinner",
+          "fit": "MEDIUM",
+          "use_case": "Sync visibile solo se reale",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-003",
+          "name": "Pulsating Dots",
+          "fit": "HIGH",
+          "use_case": "Piccolo feedback non intrusivo per sincronizzazione",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-005",
+          "name": "Face Id Scan",
+          "fit": "HIGH",
+          "use_case": "Sblocco Vault dopo risposta biometrica reale",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-007",
+          "name": "Apple Breathe",
+          "fit": "HIGH",
+          "use_case": "Feedback delicato nella Home Ricordi solo durante attesa vera",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-008",
+          "name": "Fade Arc",
+          "fit": "HIGH",
+          "use_case": "Attesa breve con palette rose",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-010",
+          "name": "Apple Pulse Dots",
+          "fit": "HIGH",
+          "use_case": "Attesa contenuti Ricordi",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-015",
+          "name": "Intersecting Rings",
+          "fit": "HIGH",
+          "use_case": "Sync eventi e Ricordi",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-016",
+          "name": "Skeleton",
+          "fit": "HIGH",
+          "use_case": "Sezione Ricordi quando serve davvero il caricamento",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-018",
+          "name": "Range Selection Slider",
+          "fit": "MEDIUM",
+          "use_case": "Selezione intervallo per Ricordi o calendario se realmente supportata",
+          "source_evidence": "SOURCE_FILE_PREVIOUSLY_READ",
+          "existing_design_ref": "WML-004",
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-021",
+          "name": "Notification List",
+          "fit": "HIGH",
+          "use_case": "Home Oggi elenco impegni reali alla prima apertura del giorno o orario configurato",
+          "source_evidence": "EXACT_SOURCE_NOT_LOCATED",
+          "existing_design_ref": "WML-008",
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-024",
+          "name": "View On Map",
+          "fit": "MEDIUM",
+          "use_case": "Luogo appuntamento opzionale e con privacy",
+          "source_evidence": "SOURCE_FILE_READ",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-025",
+          "name": "Bouncing Lines",
+          "fit": "MEDIUM",
+          "use_case": "Attesa breve dopo salvataggio",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        }
+      ]
     },
     {
       "id": "app-factory-dashboard",
@@ -652,7 +815,8 @@
         "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
-        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
       ],
       "category_ideas": [
         "repository e branch",
@@ -823,6 +987,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
           "detail": "4 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DEVLIBRARIES_BOOKMARK_SCREENSHOT_INTAKE",
+          "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
+          "status": "PROPOSED_ONLY",
+          "detail": "12 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
         }
       ],
       "voice_ui_candidates": [
@@ -1016,6 +1187,152 @@
           "source_url": "https://devlibraries.com/libraries/watermelon/notification-list",
           "batch": "WATERMELON_NINE_2026_11_17"
         }
+      ],
+      "bookmarked_visual_references": [
+        {
+          "bookmark_id": "DBM-001",
+          "name": "Accordion Loader",
+          "fit": "HIGH",
+          "use_case": "Fetch stato CI",
+          "source_evidence": "SOURCE_FILE_PREVIOUSLY_READ",
+          "existing_design_ref": "AMX-006",
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-006",
+          "name": "Stacked Bar Pulse",
+          "fit": "MEDIUM",
+          "use_case": "Elaborazione stato progetto",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-009",
+          "name": "Terminal Loader",
+          "fit": "HIGH",
+          "use_case": "Task di pipeline CI con output reale",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-012",
+          "name": "Grid Dots",
+          "fit": "HIGH",
+          "use_case": "Caricamento repository/capability",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-014",
+          "name": "Circular Bars",
+          "fit": "MEDIUM",
+          "use_case": "Elaborazione metrica",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-016",
+          "name": "Skeleton",
+          "fit": "HIGH",
+          "use_case": "Dashboard con placeholder stabili",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-019",
+          "name": "Bar Cascade",
+          "fit": "MEDIUM",
+          "use_case": "Elaborazione batch",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-020",
+          "name": "Concentric Squares",
+          "fit": "MEDIUM",
+          "use_case": "Inizializzazione vista dati",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-021",
+          "name": "Notification List",
+          "fit": "MEDIUM",
+          "use_case": "Attività operative se pianificate",
+          "source_evidence": "EXACT_SOURCE_NOT_LOCATED",
+          "existing_design_ref": "WML-008",
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-023",
+          "name": "Conveyor Loop",
+          "fit": "HIGH",
+          "use_case": "Coda job effettiva",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-026",
+          "name": "Newtons Cradle",
+          "fit": "MEDIUM",
+          "use_case": "Task pipeline in attesa",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-028",
+          "name": "Loader",
+          "fit": "HIGH",
+          "use_case": "Reference comparativa tra spinner, dots, bars e varianti",
+          "source_evidence": "USER_SCREENSHOT_ONLY",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        }
       ]
     },
     {
@@ -1037,7 +1354,8 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
-        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
       ],
       "category_ideas": [
         "batteria",
@@ -1175,6 +1493,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
           "detail": "2 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DEVLIBRARIES_BOOKMARK_SCREENSHOT_INTAKE",
+          "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
+          "status": "PROPOSED_ONLY",
+          "detail": "5 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
         }
       ],
       "motion_design_candidates": [
@@ -1265,6 +1590,68 @@
           "source_status": "SOURCE_FILE_READ",
           "source_url": "https://devlibraries.com/libraries/watermelon/range-selection-slider",
           "batch": "WATERMELON_NINE_2026_11_17"
+        }
+      ],
+      "bookmarked_visual_references": [
+        {
+          "bookmark_id": "DBM-006",
+          "name": "Stacked Bar Pulse",
+          "fit": "MEDIUM",
+          "use_case": "Raccolta diagnostica reale",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-008",
+          "name": "Fade Arc",
+          "fit": "MEDIUM",
+          "use_case": "Aggiornamento misure",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-014",
+          "name": "Circular Bars",
+          "fit": "HIGH",
+          "use_case": "Analisi batteria con campionamento attivo",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-017",
+          "name": "Concentric Ring",
+          "fit": "MEDIUM",
+          "use_case": "Attesa elaborazione diagnostica",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-022",
+          "name": "Bar Sweep",
+          "fit": "MEDIUM",
+          "use_case": "Diagnostica in corso",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
         }
       ]
     },
@@ -1504,7 +1891,8 @@
         "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
-        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
       ],
       "category_ideas": [
         "camper/van",
@@ -1635,6 +2023,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
           "detail": "6 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DEVLIBRARIES_BOOKMARK_SCREENSHOT_INTAKE",
+          "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
+          "status": "PROPOSED_ONLY",
+          "detail": "1 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
         }
       ],
       "voice_ui_candidates": [
@@ -1780,6 +2175,20 @@
           "source_url": "https://devlibraries.com/libraries/watermelon/flip-clock",
           "batch": "WATERMELON_NINE_2026_11_17"
         }
+      ],
+      "bookmarked_visual_references": [
+        {
+          "bookmark_id": "DBM-024",
+          "name": "View On Map",
+          "fit": "HIGH",
+          "use_case": "Visualizzazione area sosta o tappa",
+          "source_evidence": "SOURCE_FILE_READ",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        }
       ]
     },
     {
@@ -1801,7 +2210,8 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
-        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
       ],
       "category_ideas": [
         "portafoglio",
@@ -1906,6 +2316,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
           "detail": "4 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DEVLIBRARIES_BOOKMARK_SCREENSHOT_INTAKE",
+          "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
+          "status": "PROPOSED_ONLY",
+          "detail": "1 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
         }
       ],
       "motion_design_candidates": [
@@ -1995,6 +2412,20 @@
           "source_url": "https://devlibraries.com/libraries/watermelon/notification-list",
           "batch": "WATERMELON_NINE_2026_11_17"
         }
+      ],
+      "bookmarked_visual_references": [
+        {
+          "bookmark_id": "DBM-018",
+          "name": "Range Selection Slider",
+          "fit": "HIGH",
+          "use_case": "Range importo e periodo",
+          "source_evidence": "SOURCE_FILE_PREVIOUSLY_READ",
+          "existing_design_ref": "WML-004",
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        }
       ]
     },
     {
@@ -2017,7 +2448,8 @@
         "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
-        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
       ],
       "category_ideas": [
         "kawaii-gattini",
@@ -2769,6 +3201,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
           "detail": "7 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DEVLIBRARIES_BOOKMARK_SCREENSHOT_INTAKE",
+          "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
+          "status": "PROPOSED_ONLY",
+          "detail": "12 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
         }
       ],
       "voice_ui_candidates": [
@@ -2970,6 +3409,152 @@
           "source_url": "https://devlibraries.com/libraries/watermelon/flip-clock",
           "batch": "WATERMELON_NINE_2026_11_17"
         }
+      ],
+      "bookmarked_visual_references": [
+        {
+          "bookmark_id": "DBM-002",
+          "name": "Classic Spinner",
+          "fit": "MEDIUM",
+          "use_case": "Caricamento ricette",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-004",
+          "name": "App Icon Load",
+          "fit": "MEDIUM",
+          "use_case": "Splash di brand durante dati iniziali",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-008",
+          "name": "Fade Arc",
+          "fit": "HIGH",
+          "use_case": "Apertura ricetta o media",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-011",
+          "name": "Morph Loader",
+          "fit": "HIGH",
+          "use_case": "Caricamento ricetta brandizzato senza bloccare comandi",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-013",
+          "name": "Clock Spinner",
+          "fit": "MEDIUM",
+          "use_case": "Inizializzazione timer ricetta",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-016",
+          "name": "Skeleton",
+          "fit": "HIGH",
+          "use_case": "Card ricette con layout foto",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-020",
+          "name": "Concentric Squares",
+          "fit": "MEDIUM",
+          "use_case": "Brand loading opzionale",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-025",
+          "name": "Bouncing Lines",
+          "fit": "HIGH",
+          "use_case": "Caricamento ricetta con movimento contenuto",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-026",
+          "name": "Newtons Cradle",
+          "fit": "MEDIUM",
+          "use_case": "Attesa durante elaborazione non critica",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-027",
+          "name": "Helix Spinner",
+          "fit": "MEDIUM",
+          "use_case": "Variazione visuale di caricamento",
+          "source_evidence": "USER_SCREENSHOT_ONLY",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-029",
+          "name": "Particle Shape Morph",
+          "fit": "MEDIUM",
+          "use_case": "Hero di sezione o transizione celebrativa non continua",
+          "source_evidence": "USER_SCREENSHOT_ONLY",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-030",
+          "name": "Infinite Spiral",
+          "fit": "MEDIUM",
+          "use_case": "Galleria promozionale tematica",
+          "source_evidence": "USER_SCREENSHOT_ONLY",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        }
       ]
     },
     {
@@ -2991,7 +3576,8 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
-        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md"
+        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
       ],
       "category_ideas": [
         "desktop",
@@ -3114,6 +3700,13 @@
           "origin": "Six user-provided DevLibraries/Amicro links",
           "status": "PROPOSED_ONLY",
           "detail": "4 reference(s) mapped: source files read where available; two exact names unverified; no consumer modifications."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DEVLIBRARIES_BOOKMARK_SCREENSHOT_INTAKE",
+          "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
+          "status": "PROPOSED_ONLY",
+          "detail": "7 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
         }
       ],
       "voice_ui_candidates": [
@@ -3211,6 +3804,92 @@
           "origin": "USER_LINK_AMICRO_2026_11_17",
           "product_scope": "NOT_APPROVED"
         }
+      ],
+      "bookmarked_visual_references": [
+        {
+          "bookmark_id": "DBM-004",
+          "name": "App Icon Load",
+          "fit": "HIGH",
+          "use_case": "Avvio launcher con inizializzazione effettiva",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-009",
+          "name": "Terminal Loader",
+          "fit": "MEDIUM",
+          "use_case": "Diagnostica developer opzionale",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-012",
+          "name": "Grid Dots",
+          "fit": "MEDIUM",
+          "use_case": "Preparazione pannello app",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-017",
+          "name": "Concentric Ring",
+          "fit": "MEDIUM",
+          "use_case": "Caricamento pannello widget",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-020",
+          "name": "Concentric Squares",
+          "fit": "MEDIUM",
+          "use_case": "Caricamento launcher con modalità risparmio movimento",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-029",
+          "name": "Particle Shape Morph",
+          "fit": "MEDIUM",
+          "use_case": "Effetto visivo accessorio dopo stabilità launcher",
+          "source_evidence": "USER_SCREENSHOT_ONLY",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-030",
+          "name": "Infinite Spiral",
+          "fit": "MEDIUM",
+          "use_case": "Esperimento visuale dopo collaudo FPS",
+          "source_evidence": "USER_SCREENSHOT_ONLY",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        }
       ]
     },
     {
@@ -3231,7 +3910,8 @@
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
-        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md"
+        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
       ],
       "category_ideas": [
         "package app",
@@ -3313,6 +3993,13 @@
           "origin": "Six user-provided DevLibraries/Amicro links",
           "status": "PROPOSED_ONLY",
           "detail": "1 reference(s) mapped: source files read where available; two exact names unverified; no consumer modifications."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DEVLIBRARIES_BOOKMARK_SCREENSHOT_INTAKE",
+          "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
+          "status": "PROPOSED_ONLY",
+          "detail": "1 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
         }
       ],
       "motion_design_candidates": [
@@ -3369,6 +4056,20 @@
           "source_status": "SOURCE_FILE_READ",
           "origin": "USER_LINK_AMICRO_2026_11_17",
           "product_scope": "NOT_APPROVED"
+        }
+      ],
+      "bookmarked_visual_references": [
+        {
+          "bookmark_id": "DBM-009",
+          "name": "Terminal Loader",
+          "fit": "MEDIUM",
+          "use_case": "Operazione ADB/Shizuku effettiva",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
         }
       ]
     },
@@ -3496,7 +4197,8 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
-        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
       ],
       "category_ideas": [
         "attenzione",
@@ -3603,6 +4305,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
           "detail": "4 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DEVLIBRARIES_BOOKMARK_SCREENSHOT_INTAKE",
+          "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
+          "status": "PROPOSED_ONLY",
+          "detail": "4 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
         }
       ],
       "motion_design_candidates": [
@@ -3692,6 +4401,56 @@
           "source_url": "https://devlibraries.com/libraries/watermelon/flip-clock",
           "batch": "WATERMELON_NINE_2026_11_17"
         }
+      ],
+      "bookmarked_visual_references": [
+        {
+          "bookmark_id": "DBM-014",
+          "name": "Circular Bars",
+          "fit": "HIGH",
+          "use_case": "Calcolo Focus Score reale",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-017",
+          "name": "Concentric Ring",
+          "fit": "HIGH",
+          "use_case": "Calcolo metrica",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-019",
+          "name": "Bar Cascade",
+          "fit": "MEDIUM",
+          "use_case": "Aggiornamento dei report",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-026",
+          "name": "Newtons Cradle",
+          "fit": "MEDIUM",
+          "use_case": "Analisi score",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        }
       ]
     },
     {
@@ -3714,7 +4473,8 @@
         "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
-        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
       ],
       "category_ideas": [
         "fotografia",
@@ -3888,6 +4648,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
           "detail": "4 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DEVLIBRARIES_BOOKMARK_SCREENSHOT_INTAKE",
+          "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
+          "status": "PROPOSED_ONLY",
+          "detail": "4 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
         }
       ],
       "voice_ui_candidates": [
@@ -4059,6 +4826,56 @@
           "source_url": "https://devlibraries.com/libraries/watermelon/text-gradient",
           "batch": "WATERMELON_NINE_2026_11_17"
         }
+      ],
+      "bookmarked_visual_references": [
+        {
+          "bookmark_id": "DBM-011",
+          "name": "Morph Loader",
+          "fit": "HIGH",
+          "use_case": "Anteprima media in elaborazione",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-027",
+          "name": "Helix Spinner",
+          "fit": "MEDIUM",
+          "use_case": "Anteprima render in corso",
+          "source_evidence": "USER_SCREENSHOT_ONLY",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-029",
+          "name": "Particle Shape Morph",
+          "fit": "MEDIUM",
+          "use_case": "Presentazione media, non sopra editor",
+          "source_evidence": "USER_SCREENSHOT_ONLY",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-030",
+          "name": "Infinite Spiral",
+          "fit": "MEDIUM",
+          "use_case": "Presentazione media a spirale se coerente con editor",
+          "source_evidence": "USER_SCREENSHOT_ONLY",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        }
       ]
     },
     {
@@ -4081,7 +4898,8 @@
         "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
-        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
       ],
       "category_ideas": [
         "nota",
@@ -4363,6 +5181,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
           "detail": "6 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DEVLIBRARIES_BOOKMARK_SCREENSHOT_INTAKE",
+          "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
+          "status": "PROPOSED_ONLY",
+          "detail": "12 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
         }
       ],
       "voice_ui_candidates": [
@@ -4576,6 +5401,152 @@
           "source_url": "https://devlibraries.com/libraries/watermelon/notification-list",
           "batch": "WATERMELON_NINE_2026_11_17"
         }
+      ],
+      "bookmarked_visual_references": [
+        {
+          "bookmark_id": "DBM-001",
+          "name": "Accordion Loader",
+          "fit": "HIGH",
+          "use_case": "Attesa indicizzazione o import effettiva",
+          "source_evidence": "SOURCE_FILE_PREVIOUSLY_READ",
+          "existing_design_ref": "AMX-006",
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-002",
+          "name": "Classic Spinner",
+          "fit": "HIGH",
+          "use_case": "Apertura file o nota durante I/O",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-003",
+          "name": "Pulsating Dots",
+          "fit": "HIGH",
+          "use_case": "Salvataggio o recupero breve",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-007",
+          "name": "Apple Breathe",
+          "fit": "MEDIUM",
+          "use_case": "Salvataggio breve",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-010",
+          "name": "Apple Pulse Dots",
+          "fit": "HIGH",
+          "use_case": "Indicatore salvataggio dati",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-011",
+          "name": "Morph Loader",
+          "fit": "MEDIUM",
+          "use_case": "Caricamento bacheca",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-015",
+          "name": "Intersecting Rings",
+          "fit": "HIGH",
+          "use_case": "Sync reale note",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-016",
+          "name": "Skeleton",
+          "fit": "HIGH",
+          "use_case": "Blocchi editoriali durante I/O, con layout stabile",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-021",
+          "name": "Notification List",
+          "fit": "MEDIUM",
+          "use_case": "Scadenze se feature presente",
+          "source_evidence": "EXACT_SOURCE_NOT_LOCATED",
+          "existing_design_ref": "WML-008",
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-023",
+          "name": "Conveyor Loop",
+          "fit": "MEDIUM",
+          "use_case": "Import note reale",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-028",
+          "name": "Loader",
+          "fit": "MEDIUM",
+          "use_case": "Studio semantica di caricamento",
+          "source_evidence": "USER_SCREENSHOT_ONLY",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-029",
+          "name": "Particle Shape Morph",
+          "fit": "MEDIUM",
+          "use_case": "Vision board su web con riduzione movimento",
+          "source_evidence": "USER_SCREENSHOT_ONLY",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        }
       ]
     },
     {
@@ -4597,7 +5568,8 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
-        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
       ],
       "category_ideas": [
         "galleria",
@@ -4805,6 +5777,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
           "detail": "3 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DEVLIBRARIES_BOOKMARK_SCREENSHOT_INTAKE",
+          "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
+          "status": "PROPOSED_ONLY",
+          "detail": "14 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
         }
       ],
       "motion_design_candidates": [
@@ -4926,6 +5905,176 @@
           "source_url": "https://devlibraries.com/libraries/watermelon/range-selection-slider",
           "batch": "WATERMELON_NINE_2026_11_17"
         }
+      ],
+      "bookmarked_visual_references": [
+        {
+          "bookmark_id": "DBM-001",
+          "name": "Accordion Loader",
+          "fit": "HIGH",
+          "use_case": "Analisi file in corso",
+          "source_evidence": "SOURCE_FILE_PREVIOUSLY_READ",
+          "existing_design_ref": "AMX-006",
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-002",
+          "name": "Classic Spinner",
+          "fit": "HIGH",
+          "use_case": "Task breve con stato di attesa",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-004",
+          "name": "App Icon Load",
+          "fit": "MEDIUM",
+          "use_case": "Preparazione galleria media",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-006",
+          "name": "Stacked Bar Pulse",
+          "fit": "HIGH",
+          "use_case": "Scansione media in corso",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-012",
+          "name": "Grid Dots",
+          "fit": "HIGH",
+          "use_case": "Scansione batch media",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-014",
+          "name": "Circular Bars",
+          "fit": "HIGH",
+          "use_case": "Scansione e analisi effettiva",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-018",
+          "name": "Range Selection Slider",
+          "fit": "HIGH",
+          "use_case": "Filtro dimensione/durata media",
+          "source_evidence": "SOURCE_FILE_PREVIOUSLY_READ",
+          "existing_design_ref": "WML-004",
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-019",
+          "name": "Bar Cascade",
+          "fit": "HIGH",
+          "use_case": "Analisi galleria in corso",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-020",
+          "name": "Concentric Squares",
+          "fit": "MEDIUM",
+          "use_case": "Analisi contenuti",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-022",
+          "name": "Bar Sweep",
+          "fit": "HIGH",
+          "use_case": "Scansione file reale",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-023",
+          "name": "Conveyor Loop",
+          "fit": "MEDIUM",
+          "use_case": "Elaborazione batch",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-026",
+          "name": "Newtons Cradle",
+          "fit": "MEDIUM",
+          "use_case": "Scansione, solo se non rallenta UI",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-027",
+          "name": "Helix Spinner",
+          "fit": "MEDIUM",
+          "use_case": "Loader sperimentale solo se costo grafico sostenibile",
+          "source_evidence": "USER_SCREENSHOT_ONLY",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-028",
+          "name": "Loader",
+          "fit": "MEDIUM",
+          "use_case": "Selezione futura del loader coerente",
+          "source_evidence": "USER_SCREENSHOT_ONLY",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        }
       ]
     },
     {
@@ -5015,7 +6164,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
       ],
       "category_ideas": [
         "borsa",
@@ -5094,6 +6244,27 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DEVLIBRARIES_BOOKMARK_SCREENSHOT_INTAKE",
+          "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
+          "status": "PROPOSED_ONLY",
+          "detail": "1 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
+        }
+      ],
+      "bookmarked_visual_references": [
+        {
+          "bookmark_id": "DBM-005",
+          "name": "Face Id Scan",
+          "fit": "HIGH",
+          "use_case": "Conferma sblocco sicurezza solo dopo API OS",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
         }
       ]
     },
@@ -5115,7 +6286,8 @@
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
-        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md"
+        "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
       ],
       "category_ideas": [
         "PC",
@@ -5190,6 +6362,13 @@
           "origin": "Six user-provided DevLibraries/Amicro links",
           "status": "PROPOSED_ONLY",
           "detail": "1 reference(s) mapped: source files read where available; two exact names unverified; no consumer modifications."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DEVLIBRARIES_BOOKMARK_SCREENSHOT_INTAKE",
+          "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
+          "status": "PROPOSED_ONLY",
+          "detail": "7 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
         }
       ],
       "motion_design_candidates": [
@@ -5227,6 +6406,92 @@
           "origin": "USER_LINK_AMICRO_2026_11_17",
           "product_scope": "NOT_APPROVED"
         }
+      ],
+      "bookmarked_visual_references": [
+        {
+          "bookmark_id": "DBM-001",
+          "name": "Accordion Loader",
+          "fit": "HIGH",
+          "use_case": "Negoziazione collegamento",
+          "source_evidence": "SOURCE_FILE_PREVIOUSLY_READ",
+          "existing_design_ref": "AMX-006",
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-006",
+          "name": "Stacked Bar Pulse",
+          "fit": "HIGH",
+          "use_case": "Trasferimento in attesa di progresso misurabile",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-009",
+          "name": "Terminal Loader",
+          "fit": "MEDIUM",
+          "use_case": "Connessione peer con log",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-015",
+          "name": "Intersecting Rings",
+          "fit": "MEDIUM",
+          "use_case": "Connessione tra dispositivi",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-019",
+          "name": "Bar Cascade",
+          "fit": "MEDIUM",
+          "use_case": "Preparazione pacchetto trasferimento",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-022",
+          "name": "Bar Sweep",
+          "fit": "MEDIUM",
+          "use_case": "Attesa trasferimento",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-023",
+          "name": "Conveyor Loop",
+          "fit": "HIGH",
+          "use_case": "Preparazione del trasferimento reale, non progresso byte fittizio",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        }
       ]
     },
     {
@@ -5247,7 +6512,8 @@
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
-        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
       ],
       "category_ideas": [
         "sonno",
@@ -5348,6 +6614,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
           "detail": "3 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DEVLIBRARIES_BOOKMARK_SCREENSHOT_INTAKE",
+          "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
+          "status": "PROPOSED_ONLY",
+          "detail": "5 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
         }
       ],
       "motion_design_candidates": [
@@ -5393,6 +6666,68 @@
           "source_url": "https://devlibraries.com/libraries/watermelon/flip-clock",
           "batch": "WATERMELON_NINE_2026_11_17"
         }
+      ],
+      "bookmarked_visual_references": [
+        {
+          "bookmark_id": "DBM-007",
+          "name": "Apple Breathe",
+          "fit": "HIGH",
+          "use_case": "Preparazione routine non disturbante",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-010",
+          "name": "Apple Pulse Dots",
+          "fit": "MEDIUM",
+          "use_case": "Riepilogo routine",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-013",
+          "name": "Clock Spinner",
+          "fit": "HIGH",
+          "use_case": "Aggiornamento timer/pianificazione",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-021",
+          "name": "Notification List",
+          "fit": "HIGH",
+          "use_case": "Riepilogo routine effettive",
+          "source_evidence": "EXACT_SOURCE_NOT_LOCATED",
+          "existing_design_ref": "WML-008",
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-025",
+          "name": "Bouncing Lines",
+          "fit": "MEDIUM",
+          "use_case": "Caricamento routine",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        }
       ]
     },
     {
@@ -5412,7 +6747,8 @@
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
-        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
       ],
       "category_ideas": [
         "allarme",
@@ -5479,6 +6815,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
           "detail": "1 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DEVLIBRARIES_BOOKMARK_SCREENSHOT_INTAKE",
+          "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
+          "status": "PROPOSED_ONLY",
+          "detail": "2 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
         }
       ],
       "watermelon_ui_candidates": [
@@ -5491,6 +6834,32 @@
           "source_status": "EXACT_SOURCE_NOT_LOCATED",
           "source_url": "https://devlibraries.com/libraries/watermelon/flip-clock",
           "batch": "WATERMELON_NINE_2026_11_17"
+        }
+      ],
+      "bookmarked_visual_references": [
+        {
+          "bookmark_id": "DBM-005",
+          "name": "Face Id Scan",
+          "fit": "MEDIUM",
+          "use_case": "Interfaccia disarmo dove esiste supporto biometrico",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-013",
+          "name": "Clock Spinner",
+          "fit": "MEDIUM",
+          "use_case": "Preparazione allarme, countdown reale separato",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
         }
       ]
     },
@@ -5510,7 +6879,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
       ],
       "category_ideas": [
         "cerchio luminoso",
@@ -5570,6 +6940,27 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DEVLIBRARIES_BOOKMARK_SCREENSHOT_INTAKE",
+          "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
+          "status": "PROPOSED_ONLY",
+          "detail": "1 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
+        }
+      ],
+      "bookmarked_visual_references": [
+        {
+          "bookmark_id": "DBM-017",
+          "name": "Concentric Ring",
+          "fit": "MEDIUM",
+          "use_case": "Anteprima effetti separata da notifica reale",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
         }
       ]
     },
@@ -5592,7 +6983,8 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
-        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
       ],
       "category_ideas": [
         "mappa",
@@ -5690,6 +7082,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
           "detail": "1 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DEVLIBRARIES_BOOKMARK_SCREENSHOT_INTAKE",
+          "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
+          "status": "PROPOSED_ONLY",
+          "detail": "1 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
         }
       ],
       "motion_design_candidates": [
@@ -5748,6 +7147,20 @@
           "source_status": "SOURCE_FILE_READ",
           "source_url": "https://devlibraries.com/libraries/watermelon/scrub-slider-base",
           "batch": "WATERMELON_NINE_2026_11_17"
+        }
+      ],
+      "bookmarked_visual_references": [
+        {
+          "bookmark_id": "DBM-024",
+          "name": "View On Map",
+          "fit": "HIGH",
+          "use_case": "Dettaglio waypoint senza sostituire routing attuale",
+          "source_evidence": "SOURCE_FILE_READ",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
         }
       ]
     },
@@ -5970,7 +7383,8 @@
         "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
-        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
       ],
       "category_ideas": [
         "viaggio",
@@ -6209,6 +7623,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
           "detail": "8 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DEVLIBRARIES_BOOKMARK_SCREENSHOT_INTAKE",
+          "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
+          "status": "PROPOSED_ONLY",
+          "detail": "6 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
         }
       ],
       "voice_ui_candidates": [
@@ -6420,6 +7841,80 @@
           "source_url": "https://devlibraries.com/libraries/watermelon/flip-clock",
           "batch": "WATERMELON_NINE_2026_11_17"
         }
+      ],
+      "bookmarked_visual_references": [
+        {
+          "bookmark_id": "DBM-003",
+          "name": "Pulsating Dots",
+          "fit": "MEDIUM",
+          "use_case": "Caricamento tappa",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-007",
+          "name": "Apple Breathe",
+          "fit": "MEDIUM",
+          "use_case": "Apertura diario viaggio",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-011",
+          "name": "Morph Loader",
+          "fit": "MEDIUM",
+          "use_case": "Passaggio tra ricordi",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-018",
+          "name": "Range Selection Slider",
+          "fit": "HIGH",
+          "use_case": "Filtro date viaggio",
+          "source_evidence": "SOURCE_FILE_PREVIOUSLY_READ",
+          "existing_design_ref": "WML-004",
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-024",
+          "name": "View On Map",
+          "fit": "HIGH",
+          "use_case": "Anteprima mappa dei luoghi, mantenendo OSM se previsto",
+          "source_evidence": "SOURCE_FILE_READ",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-030",
+          "name": "Infinite Spiral",
+          "fit": "MEDIUM",
+          "use_case": "Showcase foto viaggio, non galleria principale",
+          "source_evidence": "USER_SCREENSHOT_ONLY",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        }
       ]
     },
     {
@@ -6442,7 +7937,8 @@
         "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
-        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
       ],
       "category_ideas": [
         "calendario",
@@ -6705,6 +8201,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
           "detail": "7 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "DEVLIBRARIES_BOOKMARK_SCREENSHOT_INTAKE",
+          "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
+          "status": "PROPOSED_ONLY",
+          "detail": "12 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
         }
       ],
       "voice_ui_candidates": [
@@ -6915,6 +8418,152 @@
           "source_status": "EXACT_SOURCE_NOT_LOCATED",
           "source_url": "https://devlibraries.com/libraries/watermelon/flip-clock",
           "batch": "WATERMELON_NINE_2026_11_17"
+        }
+      ],
+      "bookmarked_visual_references": [
+        {
+          "bookmark_id": "DBM-001",
+          "name": "Accordion Loader",
+          "fit": "HIGH",
+          "use_case": "Caricamento contenuto attivo",
+          "source_evidence": "SOURCE_FILE_PREVIOUSLY_READ",
+          "existing_design_ref": "AMX-006",
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-002",
+          "name": "Classic Spinner",
+          "fit": "HIGH",
+          "use_case": "Caricamento dettagli giornata",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-003",
+          "name": "Pulsating Dots",
+          "fit": "MEDIUM",
+          "use_case": "Consultazione dettagli",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-004",
+          "name": "App Icon Load",
+          "fit": "MEDIUM",
+          "use_case": "Prima lettura database offline",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-008",
+          "name": "Fade Arc",
+          "fit": "MEDIUM",
+          "use_case": "Caricamento storia",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-010",
+          "name": "Apple Pulse Dots",
+          "fit": "MEDIUM",
+          "use_case": "Recupero scheda offline",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-015",
+          "name": "Intersecting Rings",
+          "fit": "MEDIUM",
+          "use_case": "Sync contenuti scaricabili",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-016",
+          "name": "Skeleton",
+          "fit": "HIGH",
+          "use_case": "Schede ricorrenze in attesa dati",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-021",
+          "name": "Notification List",
+          "fit": "MEDIUM",
+          "use_case": "Ricorrenze del giorno",
+          "source_evidence": "EXACT_SOURCE_NOT_LOCATED",
+          "existing_design_ref": "WML-008",
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-022",
+          "name": "Bar Sweep",
+          "fit": "MEDIUM",
+          "use_case": "Caricamento catalogo",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-024",
+          "name": "View On Map",
+          "fit": "MEDIUM",
+          "use_case": "Luogo evento soltanto se dato disponibile",
+          "source_evidence": "SOURCE_FILE_READ",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
+        },
+        {
+          "bookmark_id": "DBM-025",
+          "name": "Bouncing Lines",
+          "fit": "MEDIUM",
+          "use_case": "Caricamento storia",
+          "source_evidence": "SOURCE_PATH_PINNED",
+          "existing_design_ref": null,
+          "origin": "USER_SCREENSHOT_2026_11_17",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_IMPLEMENTED",
+          "image_binary_in_repo": false
         }
       ]
     }
