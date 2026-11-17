@@ -1684,5 +1684,6 @@
         "status": "PROPOSED_ONLY"
       }
     ]
-  }
+  },
+  "consumer_implementation": "NONE"
 }
