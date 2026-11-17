@@ -910,9 +910,9 @@ for identifier, refs in bm.get("by_item",{}).items():
     actual={(e["app"],e["fit"],e["use_case"]) for e in refs}
     if actual != expected:
         fail(f"DevLibraries screenshot by_item mismatch: {identifier}")
-if profile_counts.get("bookmarks_screenshot_profiles") != 20 or
-   profile_counts.get("bookmarks_screenshot_edges") != 120 or
-   profile_counts.get("bookmarks_screenshot_cards") != 30:
+if (profile_counts.get("bookmarks_screenshot_profiles") != 20 or
+    profile_counts.get("bookmarks_screenshot_edges") != 120 or
+    profile_counts.get("bookmarks_screenshot_cards") != 30):
     fail("DevLibraries screenshot aggregate profile stats mismatch")
 for profile in profiles:
     refs=profile.get("bookmarked_visual_references",[])
@@ -931,9 +931,9 @@ for profile in profiles:
             fail(f"DevLibraries screenshot dossier promoted without consumer evidence: {profile['name']}")
 anna_bm = next(p for p in profiles if p["name"] == "Anna's Diary")
 brief = anna_bm.get("anna_today_daily_agenda_proposal",{})
-if brief.get("visual_preview_seen_in_user_screenshot") is not True or
-   brief.get("source_code_evidence") != "EXACT_SOURCE_NOT_LOCATED" or
-   brief.get("approval_unchanged") != "PROPOSED_ONLY":
+if (brief.get("visual_preview_seen_in_user_screenshot") is not True or
+    brief.get("source_code_evidence") != "EXACT_SOURCE_NOT_LOCATED" or
+    brief.get("approval_unchanged") != "PROPOSED_ONLY"):
     fail("DevLibraries screenshot cannot promote Anna Notification List implementation")
 if set(brief.get("user_requested_trigger_modes",[])) != {"first_app_open_each_local_day","user_configured_time"}:
     fail("DevLibraries screenshot must preserve Anna Home Oggi trigger choices")
