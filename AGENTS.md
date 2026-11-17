@@ -104,3 +104,9 @@ Quando l'utente fornisce una fonte di design esterna, registrare il **sito di sc
 Quando una reference è pertinente alle app, aggiornare `PER_APP/REGISTRO_APP_DESIGN.json`, il dossier Markdown delle app interessate e la matrice molti-a-molti nella stessa PR, con changelog e fonte. Lasciare `PROPOSED_ONLY` finché Product Bible e repo consumer non approvano/confermano la feature. Non sovrascrivere informazioni storiche; appendere decisioni e motivazioni.
 
 Per componenti vocali: l'effetto audio-reattivo non gestisce automaticamente microfono, salvataggio, trascrizione, permessi o privacy. Bloccare stati di registrazione senza segnale reale e prevedere fallback statico/reduced-motion; per Flutter minimizzare peso APK e dipendenze GPU.
+
+## Fonti di motion e stati di attesa
+
+Per una proposta di animazione distinguere sorgente implementativa letta, sola descrizione di catalogo, immagine chat non persistita ed esito di test. Non etichettare un comando CLI citato in una scheda come componente funzionante se il relativo file non è individuato. Registrare tema/stack/accordion/stagger/loader come pattern diversi e mappare le app in `PER_APP` senza alterare Product Bible.
+
+Per tema usare Golden/ThemeMode e token del prodotto, animando al massimo la transizione. Loader e progressi devono corrispondere a lavoro reale, con timeout/error/retry, reduced-motion e stop in background. Gli screenshot di chat senza backing file esplicito sono **reference testuali**, non asset visuali caricati su GitHub.
