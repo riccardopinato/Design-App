@@ -47,4 +47,8 @@ Questa directory contiene studi di sorgenti esterne e donatori candidati, non ne
 
 ## DevLibraries Bookmarks — raccolta di riferimenti utente
 
-[Procedura di intake dei link salvati](./DEVLIBRARIES_BOOKMARKS_INTAKE.md) · [Pagina di ingresso](https://devlibraries.com/bookmarks). La pagina non ha restituito il suo contenuto: **0 preferiti importati**. Le associazioni ai dossier saranno create solo dai link o da altri dati condivisi esplicitamente, con deduplica e provenance; non supporre che i precedenti componenti siano nell'elenco personale.
+[Procedura di intake dei link salvati](./DEVLIBRARIES_BOOKMARKS_INTAKE.md) · [Pagina di ingresso](https://devlibraries.com/bookmarks). La pagina non ha restituito il suo contenuto. Successivamente **30 card sono state registrate dagli screenshot dell'utente**, non dalla sessione personale DevLibraries. Le associazioni ai dossier saranno create solo dai link o da altri dati condivisi esplicitamente, con deduplica e provenance; non supporre che i precedenti componenti siano nell'elenco personale.
+
+## Bookmarks DevLibraries — inventario dai tre screenshot
+
+[30 elementi identificati](./DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md) e [JSON originale con 3 impronte SHA-256](./DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.json), dopo la [procedura Bookmarks](./DEVLIBRARIES_BOOKMARKS_INTAKE.md). Dati derivati da immagini condivise dall'utente, non da accesso al suo account. [20 app × 120 relazioni](../UI-UX/DEVLIBRARIES_BOOKMARKS_APP_MAP_2026-11-17.md); 23 path di Amicro e 2 Watermelon verificati, 5 source esatti sconosciuti, 3 componenti già censiti. **Le immagini originali non sono state copiate nel repo.** Non attribuire automaticamente licenze o compatibilità Flutter.
