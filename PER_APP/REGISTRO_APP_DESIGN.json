@@ -12,7 +12,9 @@
     "icon_links": 114,
     "skill_links": 96,
     "cooking_icon_concepts": 36,
-    "voice_orb_candidate_apps": 10
+    "voice_orb_candidate_apps": 10,
+    "motion_design_candidate_apps": 19,
+    "motion_design_candidate_relations": 76
   },
   "profiles": [
     {
@@ -112,7 +114,8 @@
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
-        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
+        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
+        "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "diario e ricordi",
@@ -344,6 +347,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "User provided DevLibraries beUI Voice Orb link",
           "detail": "Future voice-notes UI suggestion; no recorder, speech feature or app implementation claimed."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "MOTION_DESIGN_REFERENCE",
+          "origin": "User requested EaseUI light/dark, Amicro card/accordion/gears/shutter and loading screenshot",
+          "status": "PROPOSED_ONLY",
+          "detail": "5 patterns as candidates only; no user approval, app code or plugin installed."
         }
       ],
       "voice_ui_candidates": [
@@ -358,6 +368,58 @@
           "feature_state": "NOT_IMPLEMENTED",
           "kind": "AUDIO_LEVEL_VISUAL_ONLY",
           "origin": "USER_DESIGN_REFERENCE_DEVLIBRARIES_2026_11_17"
+        }
+      ],
+      "motion_design_candidates": [
+        {
+          "pattern_id": "DSP-001",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "SOURCE_FILE_READ"
+        },
+        {
+          "pattern_id": "DSP-002",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-003",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-005",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-006",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "USER_IMAGE_NOT_ARCHIVED_AS_BINARY"
         }
       ]
     },
@@ -378,7 +440,8 @@
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
-        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
+        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
+        "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "repository e branch",
@@ -528,6 +591,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "User provided DevLibraries beUI Voice Orb link",
           "detail": "Future voice-notes UI suggestion; no recorder, speech feature or app implementation claimed."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "MOTION_DESIGN_REFERENCE",
+          "origin": "User requested EaseUI light/dark, Amicro card/accordion/gears/shutter and loading screenshot",
+          "status": "PROPOSED_ONLY",
+          "detail": "6 patterns as candidates only; no user approval, app code or plugin installed."
         }
       ],
       "voice_ui_candidates": [
@@ -542,6 +612,68 @@
           "feature_state": "NOT_IMPLEMENTED",
           "kind": "AUDIO_LEVEL_VISUAL_ONLY",
           "origin": "USER_DESIGN_REFERENCE_DEVLIBRARIES_2026_11_17"
+        }
+      ],
+      "motion_design_candidates": [
+        {
+          "pattern_id": "DSP-001",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "SOURCE_FILE_READ"
+        },
+        {
+          "pattern_id": "DSP-002",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-003",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-004",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-005",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-006",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "USER_IMAGE_NOT_ARCHIVED_AS_BINARY"
         }
       ]
     },
@@ -561,7 +693,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "batteria",
@@ -678,6 +811,55 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "MOTION_DESIGN_REFERENCE",
+          "origin": "User requested EaseUI light/dark, Amicro card/accordion/gears/shutter and loading screenshot",
+          "status": "PROPOSED_ONLY",
+          "detail": "4 patterns as candidates only; no user approval, app code or plugin installed."
+        }
+      ],
+      "motion_design_candidates": [
+        {
+          "pattern_id": "DSP-001",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "SOURCE_FILE_READ"
+        },
+        {
+          "pattern_id": "DSP-003",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-004",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-006",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "USER_IMAGE_NOT_ARCHIVED_AS_BINARY"
         }
       ]
     },
@@ -698,7 +880,8 @@
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
-        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
+        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
+        "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "bicchiere/beer mug",
@@ -766,6 +949,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "User provided DevLibraries beUI Voice Orb link",
           "detail": "Future voice-notes UI suggestion; no recorder, speech feature or app implementation claimed."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "MOTION_DESIGN_REFERENCE",
+          "origin": "User requested EaseUI light/dark, Amicro card/accordion/gears/shutter and loading screenshot",
+          "status": "PROPOSED_ONLY",
+          "detail": "3 patterns as candidates only; no user approval, app code or plugin installed."
         }
       ],
       "voice_ui_candidates": [
@@ -780,6 +970,38 @@
           "feature_state": "NOT_IMPLEMENTED",
           "kind": "AUDIO_LEVEL_VISUAL_ONLY",
           "origin": "USER_DESIGN_REFERENCE_DEVLIBRARIES_2026_11_17"
+        }
+      ],
+      "motion_design_candidates": [
+        {
+          "pattern_id": "DSP-001",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "SOURCE_FILE_READ"
+        },
+        {
+          "pattern_id": "DSP-002",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-003",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
         }
       ]
     },
@@ -800,7 +1022,8 @@
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
-        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
+        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
+        "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "camper/van",
@@ -910,6 +1133,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "User provided DevLibraries beUI Voice Orb link",
           "detail": "Future voice-notes UI suggestion; no recorder, speech feature or app implementation claimed."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "MOTION_DESIGN_REFERENCE",
+          "origin": "User requested EaseUI light/dark, Amicro card/accordion/gears/shutter and loading screenshot",
+          "status": "PROPOSED_ONLY",
+          "detail": "4 patterns as candidates only; no user approval, app code or plugin installed."
         }
       ],
       "voice_ui_candidates": [
@@ -924,6 +1154,48 @@
           "feature_state": "NOT_IMPLEMENTED",
           "kind": "AUDIO_LEVEL_VISUAL_ONLY",
           "origin": "USER_DESIGN_REFERENCE_DEVLIBRARIES_2026_11_17"
+        }
+      ],
+      "motion_design_candidates": [
+        {
+          "pattern_id": "DSP-001",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "SOURCE_FILE_READ"
+        },
+        {
+          "pattern_id": "DSP-003",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-005",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-006",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "USER_IMAGE_NOT_ARCHIVED_AS_BINARY"
         }
       ]
     },
@@ -943,7 +1215,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "portafoglio",
@@ -1027,6 +1300,45 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "MOTION_DESIGN_REFERENCE",
+          "origin": "User requested EaseUI light/dark, Amicro card/accordion/gears/shutter and loading screenshot",
+          "status": "PROPOSED_ONLY",
+          "detail": "3 patterns as candidates only; no user approval, app code or plugin installed."
+        }
+      ],
+      "motion_design_candidates": [
+        {
+          "pattern_id": "DSP-001",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "SOURCE_FILE_READ"
+        },
+        {
+          "pattern_id": "DSP-003",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-006",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "USER_IMAGE_NOT_ARCHIVED_AS_BINARY"
         }
       ]
     },
@@ -1047,7 +1359,8 @@
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
-        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
+        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
+        "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "kawaii-gattini",
@@ -1778,6 +2091,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "User provided DevLibraries beUI Voice Orb link",
           "detail": "Future voice-notes UI suggestion; no recorder, speech feature or app implementation claimed."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "MOTION_DESIGN_REFERENCE",
+          "origin": "User requested EaseUI light/dark, Amicro card/accordion/gears/shutter and loading screenshot",
+          "status": "PROPOSED_ONLY",
+          "detail": "5 patterns as candidates only; no user approval, app code or plugin installed."
         }
       ],
       "voice_ui_candidates": [
@@ -1792,6 +2112,58 @@
           "feature_state": "NOT_IMPLEMENTED",
           "kind": "AUDIO_LEVEL_VISUAL_ONLY",
           "origin": "USER_DESIGN_REFERENCE_DEVLIBRARIES_2026_11_17"
+        }
+      ],
+      "motion_design_candidates": [
+        {
+          "pattern_id": "DSP-001",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "SOURCE_FILE_READ"
+        },
+        {
+          "pattern_id": "DSP-002",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-003",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-005",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-006",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "USER_IMAGE_NOT_ARCHIVED_AS_BINARY"
         }
       ]
     },
@@ -1812,7 +2184,8 @@
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
-        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
+        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
+        "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "desktop",
@@ -1921,6 +2294,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "User provided DevLibraries beUI Voice Orb link",
           "detail": "Future voice-notes UI suggestion; no recorder, speech feature or app implementation claimed."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "MOTION_DESIGN_REFERENCE",
+          "origin": "User requested EaseUI light/dark, Amicro card/accordion/gears/shutter and loading screenshot",
+          "status": "PROPOSED_ONLY",
+          "detail": "3 patterns as candidates only; no user approval, app code or plugin installed."
         }
       ],
       "voice_ui_candidates": [
@@ -1935,6 +2315,38 @@
           "feature_state": "NOT_IMPLEMENTED",
           "kind": "AUDIO_LEVEL_VISUAL_ONLY",
           "origin": "USER_DESIGN_REFERENCE_DEVLIBRARIES_2026_11_17"
+        }
+      ],
+      "motion_design_candidates": [
+        {
+          "pattern_id": "DSP-001",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "SOURCE_FILE_READ"
+        },
+        {
+          "pattern_id": "DSP-005",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-006",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "USER_IMAGE_NOT_ARCHIVED_AS_BINARY"
         }
       ]
     },
@@ -1954,7 +2366,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "package app",
@@ -2022,6 +2435,55 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "MOTION_DESIGN_REFERENCE",
+          "origin": "User requested EaseUI light/dark, Amicro card/accordion/gears/shutter and loading screenshot",
+          "status": "PROPOSED_ONLY",
+          "detail": "4 patterns as candidates only; no user approval, app code or plugin installed."
+        }
+      ],
+      "motion_design_candidates": [
+        {
+          "pattern_id": "DSP-001",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "SOURCE_FILE_READ"
+        },
+        {
+          "pattern_id": "DSP-003",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-004",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-006",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "USER_IMAGE_NOT_ARCHIVED_AS_BINARY"
         }
       ]
     },
@@ -2112,7 +2574,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "attenzione",
@@ -2198,6 +2661,45 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "MOTION_DESIGN_REFERENCE",
+          "origin": "User requested EaseUI light/dark, Amicro card/accordion/gears/shutter and loading screenshot",
+          "status": "PROPOSED_ONLY",
+          "detail": "3 patterns as candidates only; no user approval, app code or plugin installed."
+        }
+      ],
+      "motion_design_candidates": [
+        {
+          "pattern_id": "DSP-001",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "SOURCE_FILE_READ"
+        },
+        {
+          "pattern_id": "DSP-004",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-006",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "USER_IMAGE_NOT_ARCHIVED_AS_BINARY"
         }
       ]
     },
@@ -2218,7 +2720,8 @@
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
-        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
+        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
+        "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "fotografia",
@@ -2371,6 +2874,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "User provided DevLibraries beUI Voice Orb link",
           "detail": "Future voice-notes UI suggestion; no recorder, speech feature or app implementation claimed."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "MOTION_DESIGN_REFERENCE",
+          "origin": "User requested EaseUI light/dark, Amicro card/accordion/gears/shutter and loading screenshot",
+          "status": "PROPOSED_ONLY",
+          "detail": "5 patterns as candidates only; no user approval, app code or plugin installed."
         }
       ],
       "voice_ui_candidates": [
@@ -2385,6 +2895,58 @@
           "feature_state": "NOT_IMPLEMENTED",
           "kind": "AUDIO_LEVEL_VISUAL_ONLY",
           "origin": "USER_DESIGN_REFERENCE_DEVLIBRARIES_2026_11_17"
+        }
+      ],
+      "motion_design_candidates": [
+        {
+          "pattern_id": "DSP-001",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "SOURCE_FILE_READ"
+        },
+        {
+          "pattern_id": "DSP-002",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-004",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-005",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-006",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "USER_IMAGE_NOT_ARCHIVED_AS_BINARY"
         }
       ]
     },
@@ -2405,7 +2967,8 @@
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
-        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
+        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
+        "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "nota",
@@ -2666,6 +3229,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "User provided DevLibraries beUI Voice Orb link",
           "detail": "Future voice-notes UI suggestion; no recorder, speech feature or app implementation claimed."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "MOTION_DESIGN_REFERENCE",
+          "origin": "User requested EaseUI light/dark, Amicro card/accordion/gears/shutter and loading screenshot",
+          "status": "PROPOSED_ONLY",
+          "detail": "6 patterns as candidates only; no user approval, app code or plugin installed."
         }
       ],
       "voice_ui_candidates": [
@@ -2680,6 +3250,68 @@
           "feature_state": "NOT_IMPLEMENTED",
           "kind": "AUDIO_LEVEL_VISUAL_ONLY",
           "origin": "USER_DESIGN_REFERENCE_DEVLIBRARIES_2026_11_17"
+        }
+      ],
+      "motion_design_candidates": [
+        {
+          "pattern_id": "DSP-001",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "SOURCE_FILE_READ"
+        },
+        {
+          "pattern_id": "DSP-002",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-003",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-004",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-005",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-006",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "USER_IMAGE_NOT_ARCHIVED_AS_BINARY"
         }
       ]
     },
@@ -2699,7 +3331,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "galleria",
@@ -2886,6 +3519,75 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "MOTION_DESIGN_REFERENCE",
+          "origin": "User requested EaseUI light/dark, Amicro card/accordion/gears/shutter and loading screenshot",
+          "status": "PROPOSED_ONLY",
+          "detail": "6 patterns as candidates only; no user approval, app code or plugin installed."
+        }
+      ],
+      "motion_design_candidates": [
+        {
+          "pattern_id": "DSP-001",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "SOURCE_FILE_READ"
+        },
+        {
+          "pattern_id": "DSP-002",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-003",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-004",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-005",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-006",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "USER_IMAGE_NOT_ARCHIVED_AS_BINARY"
         }
       ]
     },
@@ -3074,7 +3776,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "PC",
@@ -3135,6 +3838,35 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "MOTION_DESIGN_REFERENCE",
+          "origin": "User requested EaseUI light/dark, Amicro card/accordion/gears/shutter and loading screenshot",
+          "status": "PROPOSED_ONLY",
+          "detail": "2 patterns as candidates only; no user approval, app code or plugin installed."
+        }
+      ],
+      "motion_design_candidates": [
+        {
+          "pattern_id": "DSP-004",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-006",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "USER_IMAGE_NOT_ARCHIVED_AS_BINARY"
         }
       ]
     },
@@ -3154,7 +3886,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "sonno",
@@ -3241,6 +3974,25 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "MOTION_DESIGN_REFERENCE",
+          "origin": "User requested EaseUI light/dark, Amicro card/accordion/gears/shutter and loading screenshot",
+          "status": "PROPOSED_ONLY",
+          "detail": "1 patterns as candidates only; no user approval, app code or plugin installed."
+        }
+      ],
+      "motion_design_candidates": [
+        {
+          "pattern_id": "DSP-001",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "SOURCE_FILE_READ"
         }
       ]
     },
@@ -3418,7 +4170,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "mappa",
@@ -3495,6 +4248,45 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "MOTION_DESIGN_REFERENCE",
+          "origin": "User requested EaseUI light/dark, Amicro card/accordion/gears/shutter and loading screenshot",
+          "status": "PROPOSED_ONLY",
+          "detail": "3 patterns as candidates only; no user approval, app code or plugin installed."
+        }
+      ],
+      "motion_design_candidates": [
+        {
+          "pattern_id": "DSP-001",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "SOURCE_FILE_READ"
+        },
+        {
+          "pattern_id": "DSP-003",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-006",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "USER_IMAGE_NOT_ARCHIVED_AS_BINARY"
         }
       ]
     },
@@ -3514,7 +4306,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "strumenti",
@@ -3586,6 +4379,35 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-17",
+          "type": "MOTION_DESIGN_REFERENCE",
+          "origin": "User requested EaseUI light/dark, Amicro card/accordion/gears/shutter and loading screenshot",
+          "status": "PROPOSED_ONLY",
+          "detail": "2 patterns as candidates only; no user approval, app code or plugin installed."
+        }
+      ],
+      "motion_design_candidates": [
+        {
+          "pattern_id": "DSP-001",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "SOURCE_FILE_READ"
+        },
+        {
+          "pattern_id": "DSP-006",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "USER_IMAGE_NOT_ARCHIVED_AS_BINARY"
         }
       ]
     },
@@ -3606,7 +4428,8 @@
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
-        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
+        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
+        "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "viaggio",
@@ -3824,6 +4647,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "User provided DevLibraries beUI Voice Orb link",
           "detail": "Future voice-notes UI suggestion; no recorder, speech feature or app implementation claimed."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "MOTION_DESIGN_REFERENCE",
+          "origin": "User requested EaseUI light/dark, Amicro card/accordion/gears/shutter and loading screenshot",
+          "status": "PROPOSED_ONLY",
+          "detail": "5 patterns as candidates only; no user approval, app code or plugin installed."
         }
       ],
       "voice_ui_candidates": [
@@ -3838,6 +4668,58 @@
           "feature_state": "NOT_IMPLEMENTED",
           "kind": "AUDIO_LEVEL_VISUAL_ONLY",
           "origin": "USER_DESIGN_REFERENCE_DEVLIBRARIES_2026_11_17"
+        }
+      ],
+      "motion_design_candidates": [
+        {
+          "pattern_id": "DSP-001",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "SOURCE_FILE_READ"
+        },
+        {
+          "pattern_id": "DSP-002",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-003",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-005",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-006",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "USER_IMAGE_NOT_ARCHIVED_AS_BINARY"
         }
       ]
     },
@@ -3858,7 +4740,8 @@
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
-        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md"
+        "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
+        "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
       ],
       "category_ideas": [
         "calendario",
@@ -4100,6 +4983,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "User provided DevLibraries beUI Voice Orb link",
           "detail": "Future voice-notes UI suggestion; no recorder, speech feature or app implementation claimed."
+        },
+        {
+          "date": "2026-11-17",
+          "type": "MOTION_DESIGN_REFERENCE",
+          "origin": "User requested EaseUI light/dark, Amicro card/accordion/gears/shutter and loading screenshot",
+          "status": "PROPOSED_ONLY",
+          "detail": "6 patterns as candidates only; no user approval, app code or plugin installed."
         }
       ],
       "voice_ui_candidates": [
@@ -4114,6 +5004,68 @@
           "feature_state": "NOT_IMPLEMENTED",
           "kind": "AUDIO_LEVEL_VISUAL_ONLY",
           "origin": "USER_DESIGN_REFERENCE_DEVLIBRARIES_2026_11_17"
+        }
+      ],
+      "motion_design_candidates": [
+        {
+          "pattern_id": "DSP-001",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Preferenze tema Light/Dark/System, palette, tokens, focus/accessibilità persistenti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "SOURCE_FILE_READ"
+        },
+        {
+          "pattern_id": "DSP-002",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Transizioni fra card, album e raccolte in una stessa schermata; stato e back invariati",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-003",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Accordion e pannelli espandibili, non un widget picker/menu funzionante",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-004",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Operazioni realmente attive, pausa fuori schermo, stop al termine, progress bar determinate quando disponibili",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-005",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "MEDIUM",
+          "application": "Comparsa di dettagli/pannelli secondari, senza ritagliare il contenuto e senza flash ripetuti",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "DESCRIPTIVE_CATALOG_ONLY"
+        },
+        {
+          "pattern_id": "DSP-006",
+          "batch": "EASEUI_AMICRO_LOADER_REFERENCES_2026_11_17",
+          "fit": "HIGH",
+          "application": "Loader brevi solo quando necessari; skeleton per contenuti; indicatore %/byte se misurabile; timeout/error/retry nei tempi lunghi",
+          "status": "PROPOSED_ONLY",
+          "app_implementation": "NONE",
+          "source_link": "UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json",
+          "evidence": "USER_IMAGE_NOT_ARCHIVED_AS_BINARY"
         }
       ]
     }
