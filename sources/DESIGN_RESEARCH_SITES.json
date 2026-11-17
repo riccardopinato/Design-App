@@ -110,6 +110,28 @@
       "use": "Confirm executable source files and dependencies for each specific item; four current names are metadata-only.",
       "license": "MIT source root in Subhan-code/Amicro--Micro-transitions-; asset-specific gate",
       "related_intake": "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md"
+    },
+    {
+      "id": "DESIGN-SITE-007",
+      "name": "Watermelon UI",
+      "url": "https://ui.watermelon.sh/",
+      "kind": "REACT_ANIMATED_COMPONENT_LIBRARY",
+      "status": "REFERENCE",
+      "discovery_site": "https://devlibraries.com/libraries/watermelon",
+      "recommended_for": [
+        "carousel and gallery",
+        "date/number pickers",
+        "range and scrub controls",
+        "auth form transitions",
+        "multi-step dialogs",
+        "home-day summary",
+        "countdown concepts"
+      ],
+      "source_repository": "WatermelonCorp/watermelon-platform",
+      "source_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "license": "MIT original platform repository; asset/dependency rights separate; no Flutter runtime verified",
+      "use": "Use component repo source as concept and integrate only after Product Bible and framework/QA gate; three exact names are unlocated.",
+      "related_intake": "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
     }
   ]
 }
