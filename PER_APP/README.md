@@ -60,3 +60,7 @@ Per il componente [beUI Voice Orb indicizzato da DevLibraries](https://devlibrar
 ## Nuove proposte Watermelon UI — 17/11/2026
 
 [Watermelon, matrice delle nove reference](../UI-UX/WATERMELON_NINE_APP_MAP_2026-11-17.md) · [registro relazionale](../UI-UX/WATERMELON_NINE_APP_MAP_2026-11-17.json). **17 app e 73 collegamenti** aggiunti ai dossier e alla fonte canonica JSON. La [scheda Anna's Diary](./annas-diary.md) contiene requisiti non implementati per **riepilogo eventi Home Oggi** alla prima apertura del giorno oppure a un orario definito, **Carousel Slider** per Ricordi, picker, invito spazio condiviso e opzionale countdown. La presentazione in-app non implica notifiche di sistema, autenticazione o salvataggio già funzionanti.
+
+## Nuova raccolta DevLibraries Bookmarks — 17/11/2026
+
+Tre screenshot condivisi dall'utente sono stati convertiti in [30 voci verificabili come nomi e anteprime](../sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md) e [120 abbinamenti su 20 app](../UI-UX/DEVLIBRARIES_BOOKMARKS_APP_MAP_2026-11-17.md). Ogni dossier interessato e il [registro JSON](./REGISTRO_APP_DESIGN.json) conservano i riferimenti e lo storico. Per [Anna's Diary](./annas-diary.md) la preview di Notification List ora risulta confermata **visivamente**, ma l'implementazione del componente e del riepilogo quotidiano in Home Oggi resta **non verificata e non approvata**. I PNG sono allegati alla chat, non presenti nel repository.
