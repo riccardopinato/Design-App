@@ -550,10 +550,10 @@ if any(e.get("fit") not in ("HIGH","MEDIUM") or e.get("status") != "PROPOSED_ONL
     fail("motion association has invalid state/fit")
 if any(p.get("status") != "REFERENCE" or p.get("app_implementation") != "NONE" for p in pattern_list):
     fail("motion source prematurely promoted")
-if sum(p.get("evidence") == "SOURCE_FILE_READ" for p in pattern_list) != 1:
-    fail("only one theme source implementation is verified")
-if sum(p.get("evidence") == "DESCRIPTIVE_CATALOG_ONLY" for p in pattern_list) != 4:
-    fail("the Amicro catalog-only boundary is not preserved")
+if sum(p.get("evidence") == "SOURCE_FILE_READ" for p in pattern_list) != 5:
+    fail("five source files have now been read across EaseUI/Amicro initial intake")
+if sum(p.get("evidence") == "DESCRIPTIVE_CATALOG_ONLY" for p in pattern_list) != 0:
+    fail("initial four Amicro descriptions have verified source files and must not be left stale")
 user_screenshot = [p for p in pattern_list if p.get("evidence") == "USER_IMAGE_NOT_ARCHIVED_AS_BINARY"]
 if len(user_screenshot) != 1 or user_screenshot[0].get("source") != "USER_IMAGE":
     fail("user screenshot was misrepresented as executable or persisted file")
@@ -587,6 +587,100 @@ for p in profiles:
         for link in links:
             if link["pattern_id"] not in doc:
                 fail(f"pattern {link['pattern_id']} missing in {p['name']} dossier")
+
+# Six additional Amicro components: provenance and 19-app bidirectional catalogue.
+if len(re.findall(r"^  - batch_id: AMICRO_SIX_COMPONENTS_2026_11_17$", oss, re.MULTILINE)) != 1:
+    fail("Amicro six-component intake not registered exactly once")
+amicro_path = ROOT / "UI-UX" / "AMICRO_SIX_COMPONENTS_APP_MAP_2026-11-17.json"
+amicro_docs = (
+    amicro_path,
+    ROOT / "UI-UX" / "AMICRO_SIX_COMPONENTS_APP_MAP_2026-11-17.md",
+    ROOT / "sources" / "AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
+)
+if not all(p.is_file() for p in amicro_docs):
+    fail("Amicro six-component catalogue/docs missing")
+amicro = json.loads(amicro_path.read_text(encoding="utf-8"))
+new_patterns = amicro.get("patterns", [])
+new_links = amicro.get("associations", [])
+new_counts = amicro.get("counts", {})
+if amicro.get("batch") != "AMICRO_SIX_COMPONENTS_2026_11_17":
+    fail("Amicro six-component batch mismatch")
+if amicro.get("status") != "REFERENCE" or amicro.get("consumer_implementation") != "NONE":
+    fail("Amicro six-component intake incorrectly promoted or marked implemented")
+if amicro.get("origin_repository") != "Subhan-code/Amicro--Micro-transitions-":
+    fail("Amicro six-component origin mismatch")
+if not re.fullmatch(r"[0-9a-f]{40}", str(amicro.get("origin_ref", ""))):
+    fail("Amicro six-component source not commit-pinned")
+if len(new_patterns) != 6 or len({p.get("id") for p in new_patterns}) != 6:
+    fail("Amicro six-component unique ID invariant failed")
+if len({p.get("url") for p in new_patterns}) != 6:
+    fail("Amicro six-component duplicate source link")
+if len(new_links) != new_counts.get("associations"):
+    fail("Amicro six-component edge count drift")
+if len(new_links) != 60:
+    fail("Amicro six-component expected 60 proposed associations")
+if len({(e.get("pattern_id"), e.get("app")) for e in new_links}) != len(new_links):
+    fail("Amicro six-component duplicate app association")
+if any(e.get("status") != "PROPOSED_ONLY" or e.get("implementation") != "NONE"
+       or e.get("fit") not in ("HIGH", "MEDIUM") for e in new_links):
+    fail("Amicro six-component app relation incorrectly promoted")
+if any(e.get("app") not in dossier_names for e in new_links):
+    fail("Amicro six-component orphan destination")
+if len({e["app"] for e in new_links}) != new_counts.get("apps"):
+    fail("Amicro six-component app count drift")
+if sum(e["fit"] == "HIGH" for e in new_links) != new_counts.get("high"):
+    fail("Amicro six-component HIGH count mismatch")
+if sum(e["fit"] == "MEDIUM" for e in new_links) != new_counts.get("medium"):
+    fail("Amicro six-component MEDIUM count mismatch")
+source_read = [p for p in new_patterns if p.get("source_status") == "SOURCE_FILE_READ"]
+not_located = [p for p in new_patterns if p.get("source_status") == "EXACT_SOURCE_NOT_LOCATED"]
+if len(source_read) != 4 or len(not_located) != 2:
+    fail("Amicro six-component verified/unverified source boundary drift")
+for p in source_read:
+    if not p.get("file") or not re.fullmatch(r"[0-9a-f]{40}", str(p.get("blob", ""))) or not p.get("export"):
+        fail(f"Amicro source file/sha/export missing: {p.get('id')}")
+for p in not_located:
+    if p.get("file") is not None or p.get("blob") is not None or p.get("export") is not None:
+        fail(f"Amicro unidentified component given invented executable source: {p.get('id')}")
+if any(p.get("consumer_status") != "NOT_IMPLEMENTED" or p.get("design_maturity") != "REFERENCE"
+       for p in new_patterns):
+    fail("Amicro pattern consumer implementation or maturity overclaimed")
+if set(amicro.get("by_pattern", {})) != {p["id"] for p in new_patterns}:
+    fail("Amicro inverse pattern-key coverage mismatch")
+if set(amicro.get("by_app", {})) != {e["app"] for e in new_links}:
+    fail("Amicro inverse app-key coverage mismatch")
+for p in new_patterns:
+    expected = {(e["app"],e["fit"],e["usage"]) for e in new_links if e["pattern_id"]==p["id"]}
+    actual = {(e["app"],e["fit"],e["usage"]) for e in amicro["by_pattern"][p["id"]]}
+    if expected != actual:
+        fail(f"Amicro by-pattern relation drift: {p['id']}")
+for app, relations in amicro["by_app"].items():
+    expected = {(e["pattern_id"],e["fit"],e["usage"]) for e in new_links if e["app"]==app}
+    actual = {(e["pattern_id"],e["fit"],e["usage"]) for e in relations}
+    if expected != actual:
+        fail(f"Amicro by-app relation drift: {app}")
+if profile_counts.get("amicro_six_candidate_apps") != new_counts.get("apps"):
+    fail("Amicro per-app coverage count drift")
+if profile_counts.get("amicro_six_candidate_links") != len(new_links):
+    fail("Amicro per-app association count drift")
+for profile in profiles:
+    relations = profile.get("amicro_six_candidates", [])
+    expected = {(e["pattern_id"],e["fit"],e["usage"]) for e in new_links
+                if e["app"]==profile["name"]}
+    actual = {(e["pattern_id"],e["fit"],e["usage"]) for e in relations}
+    if actual != expected or len(relations) != len(actual):
+        fail(f"Amicro per-app profile relation drift: {profile['name']}")
+    if relations:
+        text_doc = (per_app_dir / (profile["id"] + ".md")).read_text(encoding="utf-8")
+        if "Nuove microinterazioni Amicro — 6 references" not in text_doc:
+            fail(f"Amicro missing human dossier: {profile['name']}")
+        if any(link["pattern_id"] not in text_doc for link in relations):
+            fail(f"Amicro missing pattern in dossier: {profile['name']}")
+# Initial intake source correction is still REFERENCE, not COPY_READY.
+for prior in pattern_list:
+    if prior.get("code") in ("DSP-002","DSP-003","DSP-004","DSP-005"):
+        if prior.get("evidence") != "SOURCE_FILE_READ" or not prior.get("source_path"):
+            fail(f"stale Amicro original intake source: {prior.get('code')}")
 
 print(
     f"Design-App validation PASS: {len(pattern_ids)} patterns, "

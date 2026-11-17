@@ -110,3 +110,7 @@ Per componenti vocali: l'effetto audio-reattivo non gestisce automaticamente mic
 Per una proposta di animazione distinguere sorgente implementativa letta, sola descrizione di catalogo, immagine chat non persistita ed esito di test. Non etichettare un comando CLI citato in una scheda come componente funzionante se il relativo file non è individuato. Registrare tema/stack/accordion/stagger/loader come pattern diversi e mappare le app in `PER_APP` senza alterare Product Bible.
 
 Per tema usare Golden/ThemeMode e token del prodotto, animando al massimo la transizione. Loader e progressi devono corrispondere a lavoro reale, con timeout/error/retry, reduced-motion e stop in background. Gli screenshot di chat senza backing file esplicito sono **reference testuali**, non asset visuali caricati su GitHub.
+
+## Provenienza verificabile delle microinterazioni
+
+Per ogni link a un componente di DevLibraries/Amicro distinguere **nome e URL forniti dall'utente** dalla disponibilità di un export omonimo nel repository originale: registrare SHA completo, file, blob ed eventuale `SOURCE_FILE_READ`; se il nome esatto non è localizzabile, conservare `EXACT_SOURCE_NOT_LOCATED` e NON inventare file, comando CLI, implementazione Flutter o licenze specifiche non verificate. Quando una ricognizione corregge un audit precedente, aggiornare i registri esistenti e documentare l'errata attribuzione nello storico, senza scambiare lettura sorgenti per test runtime.

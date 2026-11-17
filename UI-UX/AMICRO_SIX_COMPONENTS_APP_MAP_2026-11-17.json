@@ -1,0 +1,1520 @@
+{
+  "schema_version": 1,
+  "batch": "AMICRO_SIX_COMPONENTS_2026_11_17",
+  "observed_at": "2026-11-17",
+  "factory_baseline": "c5adc147046beb7024629466d10eeb799c3c2619",
+  "design_baseline": "c29d0b046b3b47baa78a1ca9ca0bf6127fe41bcd",
+  "origin_repository": "Subhan-code/Amicro--Micro-transitions-",
+  "origin_ref": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+  "discovery_site": "https://devlibraries.com/",
+  "source_license": "MIT root; per asset/dependency re-check before copying",
+  "status": "REFERENCE",
+  "consumer_implementation": "NONE",
+  "counts": {
+    "patterns": 6,
+    "apps": 19,
+    "associations": 60,
+    "high": 18,
+    "medium": 42,
+    "source_files_read": 4,
+    "exact_source_unverified": 2
+  },
+  "patterns": [
+    {
+      "id": "AMX-001",
+      "name": "CurtainReveal",
+      "url": "https://devlibraries.com/libraries/amicro/CurtainReveal",
+      "domain": "CONTEXTUAL_CONTENT_REVEAL",
+      "source_status": "SOURCE_FILE_READ",
+      "file": "src/components/css-animations/physics/CurtainReveal.tsx",
+      "blob": "60ec9f5d9b996301899fc75be9ed4d029fc5ac80",
+      "export": "Curtain",
+      "engine": "React hooks + CSS keyframes / simulated fabric curtain",
+      "description": "Visual opening of a curtain-like panel triggered by hover/click or showcase loop, not a route manager or an accordion.",
+      "caveat": "Do not use to conceal controls or delay important content; source defaults loop=true and must be adapted to single-shot native semantics.",
+      "origin_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "origin_sha": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "license": "MIT at source repository; verify any copied assets/dependencies",
+      "design_maturity": "REFERENCE",
+      "source_reuse": "REFERENCE_ONLY",
+      "consumer_status": "NOT_IMPLEMENTED",
+      "file_url": "https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/src/components/css-animations/physics/CurtainReveal.tsx"
+    },
+    {
+      "id": "AMX-002",
+      "name": "Cursor Trail",
+      "url": "https://devlibraries.com/libraries/amicro/cursor-trail",
+      "domain": "POINTER_FEEDBACK",
+      "source_status": "SOURCE_FILE_READ",
+      "file": "registry/ui/cursor/cursor-trail.tsx",
+      "blob": "df9715526996a0ae36731125e12a69807627ad93",
+      "export": "CursorTrail",
+      "engine": "React + framer-motion, mousemove listeners and following spring dots",
+      "description": "Mouse/trackpad cursor trail for desktop or web pointer context.",
+      "caveat": "Do not put on touch-first screens. Respect reduced motion, pointer coarse vs fine, focus and CPU budgets; do not assume Android touch pointer events.",
+      "origin_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "origin_sha": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "license": "MIT at source repository; verify any copied assets/dependencies",
+      "design_maturity": "REFERENCE",
+      "source_reuse": "REFERENCE_ONLY",
+      "consumer_status": "NOT_IMPLEMENTED",
+      "file_url": "https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/registry/ui/cursor/cursor-trail.tsx"
+    },
+    {
+      "id": "AMX-003",
+      "name": "Perspective Flip",
+      "url": "https://devlibraries.com/libraries/amicro/perspective-flip",
+      "domain": "UNVERIFIED_CARD_3D_FLIP",
+      "source_status": "EXACT_SOURCE_NOT_LOCATED",
+      "file": null,
+      "blob": null,
+      "export": null,
+      "engine": "Not verified as named Amicro component; 3D flip is a separate conceptual UX pattern",
+      "description": "Potential 3D face-to-face flip to reveal secondary info; placement is inferred from the user-supplied name, not verified DevLibraries page text.",
+      "caveat": "Do not claim a published implementation, CLI command, or license for the specific named component until source matched; avoid hiding accessible content on backfaces.",
+      "origin_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "origin_sha": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "license": "MIT at source repository; verify any copied assets/dependencies",
+      "design_maturity": "REFERENCE",
+      "source_reuse": "REFERENCE_ONLY",
+      "consumer_status": "NOT_IMPLEMENTED",
+      "file_url": null
+    },
+    {
+      "id": "AMX-004",
+      "name": "Scroll Reveal",
+      "url": "https://devlibraries.com/libraries/amicro/scroll-reveal",
+      "domain": "SCROLL_TRIGGERED_ENTRANCE",
+      "source_status": "SOURCE_FILE_READ",
+      "file": "registry/ui/scroll/scroll-reveal.tsx",
+      "blob": "548a9ddff684ed94574f537a24820d5871e419d8",
+      "export": "ScrollReveal",
+      "engine": "React + framer-motion whileInView, once:true, opacity/position/scale easing",
+      "description": "Single first-viewport-entrance reveal for long content and editorial cards; default duration 0.6 s, yOffset 30, scale 0.95.",
+      "caveat": "Avoid delaying critical text, repeated animation in virtualized lists, layout shifts or scroll-jank; reduced-motion must be added by the consumer.",
+      "origin_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "origin_sha": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "license": "MIT at source repository; verify any copied assets/dependencies",
+      "design_maturity": "REFERENCE",
+      "source_reuse": "REFERENCE_ONLY",
+      "consumer_status": "NOT_IMPLEMENTED",
+      "file_url": "https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/registry/ui/scroll/scroll-reveal.tsx"
+    },
+    {
+      "id": "AMX-005",
+      "name": "Spatial Door Portal",
+      "url": "https://devlibraries.com/libraries/amicro/spatial-door-portal",
+      "domain": "UNVERIFIED_SPATIAL_PAGE_TRANSITION",
+      "source_status": "EXACT_SOURCE_NOT_LOCATED",
+      "file": null,
+      "blob": null,
+      "export": null,
+      "engine": "Unverified named component; conceptual spatial entrance transition",
+      "description": "Potential depth-based opening to another module or space, inferred from the supplied title, not a source-verified animation.",
+      "caveat": "No source pinned for this exact name. Avoid disorienting full-screen transitions and use only after native navigation, focus, back gestures and reduced motion are tested.",
+      "origin_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "origin_sha": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "license": "MIT at source repository; verify any copied assets/dependencies",
+      "design_maturity": "REFERENCE",
+      "source_reuse": "REFERENCE_ONLY",
+      "consumer_status": "NOT_IMPLEMENTED",
+      "file_url": null
+    },
+    {
+      "id": "AMX-006",
+      "name": "Accordion Loader",
+      "url": "https://devlibraries.com/libraries/amicro/accordion-loader",
+      "domain": "INDETERMINATE_LOADING",
+      "source_status": "SOURCE_FILE_READ",
+      "file": "registry/ui/loading/accordion-loader.tsx",
+      "blob": "de8a6b9ded9d668daf5da92e8eee829f4c18e1f3",
+      "export": "AccordionLoader",
+      "engine": "React + framer-motion; 4 horizontal bars, repeating scaleX [1,.2,1], 1.5s with stagger",
+      "description": "Indeterminate loader with four bars; displays activity without measured completion percentage.",
+      "caveat": "Render only during real work that is visible; prefer actual byte/% progress when measured, stop on success/error/background and respect reduced-motion.",
+      "origin_repo": "Subhan-code/Amicro--Micro-transitions-",
+      "origin_sha": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "license": "MIT at source repository; verify any copied assets/dependencies",
+      "design_maturity": "REFERENCE",
+      "source_reuse": "REFERENCE_ONLY",
+      "consumer_status": "NOT_IMPLEMENTED",
+      "file_url": "https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/registry/ui/loading/accordion-loader.tsx"
+    }
+  ],
+  "associations": [
+    {
+      "pattern_id": "AMX-001",
+      "app": "Cooking Anime",
+      "fit": "HIGH",
+      "usage": "Reveal recipe collections or seasonal illustrated cover",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-001",
+      "app": "Wonderlog",
+      "fit": "HIGH",
+      "usage": "Open photographic travel memory cover",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-001",
+      "app": "Anna's Diary",
+      "fit": "MEDIUM",
+      "usage": "Reveal special memory cover only",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-001",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "usage": "Optional cover of a story, never gating text",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-001",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "usage": "Reveal visual board cover, not editor controls",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-001",
+      "app": "FrameLab",
+      "fit": "MEDIUM",
+      "usage": "Marketing/gallery showcase only",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-001",
+      "app": "Deskland Android",
+      "fit": "MEDIUM",
+      "usage": "Launcher side panel after stabilization",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-001",
+      "app": "App Factory Dashboard",
+      "fit": "MEDIUM",
+      "usage": "Optional visual feature showcase",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-001",
+      "app": "Web Utility Factory",
+      "fit": "MEDIUM",
+      "usage": "Optional landing hero, never search results",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-002",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "usage": "Desktop web navigation experimentation",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-002",
+      "app": "Web Utility Factory",
+      "fit": "MEDIUM",
+      "usage": "Desktop marketing hero only, not utility workflow",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-002",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "usage": "Desktop web canvas hover option when drawing disabled",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-002",
+      "app": "FrameLab",
+      "fit": "MEDIUM",
+      "usage": "Desktop editor hover mode only, not photo retouch controls",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-002",
+      "app": "Deskland Android",
+      "fit": "MEDIUM",
+      "usage": "Only with proven mouse/trackpad connected, avoid launcher CPU impact",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-003",
+      "app": "Edu_01 Corpo Umano",
+      "fit": "HIGH",
+      "usage": "Flashcard front/back quiz answer if approved",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-003",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "usage": "Recipe card front/back only for compact information",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-003",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "usage": "Historical fact card front/back, keep full text accessible",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-003",
+      "app": "Anna's Diary",
+      "fit": "MEDIUM",
+      "usage": "Memory card reveal without hiding data",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-003",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "usage": "Travel-card secondary metadata",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-003",
+      "app": "BeerClass AI",
+      "fit": "MEDIUM",
+      "usage": "Tasting card compact summary",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-003",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "usage": "Flashcard-style note study mode only if feature exists",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-003",
+      "app": "App Factory Dashboard",
+      "fit": "MEDIUM",
+      "usage": "Portfolio project front/back preview only",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-004",
+      "app": "World Days",
+      "fit": "HIGH",
+      "usage": "Long editorial history and day cards without hiding accessibility text",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-004",
+      "app": "Anna's Diary",
+      "fit": "HIGH",
+      "usage": "Memories and month/annual recap editorial cards",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-004",
+      "app": "Wonderlog",
+      "fit": "HIGH",
+      "usage": "Travel diary and image-led lists",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-004",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "usage": "Long web notes and knowledge collections",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-004",
+      "app": "Cooking Anime",
+      "fit": "HIGH",
+      "usage": "Recipe collections and long article sections",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-004",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "usage": "Long dashboard sections on desktop web",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-004",
+      "app": "Web Utility Factory",
+      "fit": "HIGH",
+      "usage": "Marketing sections with text still indexable",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-004",
+      "app": "FrameLab",
+      "fit": "MEDIUM",
+      "usage": "Photo gallery non-editing view",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-004",
+      "app": "CamperBoss",
+      "fit": "MEDIUM",
+      "usage": "Travel stop information and offline guide",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-004",
+      "app": "Omni Cleaner",
+      "fit": "MEDIUM",
+      "usage": "Media galleries only when not virtualized",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-004",
+      "app": "Edu_01 Corpo Umano",
+      "fit": "MEDIUM",
+      "usage": "Long educational reading pages",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-004",
+      "app": "CashMate AI",
+      "fit": "MEDIUM",
+      "usage": "Financial report sections, never animate values misleadingly",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-004",
+      "app": "Battery Guard",
+      "fit": "MEDIUM",
+      "usage": "Long battery diagnostics explanations",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-004",
+      "app": "BeerClass AI",
+      "fit": "MEDIUM",
+      "usage": "Tasting archive lists",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-004",
+      "app": "TrailPath",
+      "fit": "MEDIUM",
+      "usage": "Route notes, never GPS map overlay",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-005",
+      "app": "Deskland Android",
+      "fit": "HIGH",
+      "usage": "Enter a launcher room/panel only after launcher stabilizes",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-005",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "usage": "Switch to a travel memory scene",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-005",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "usage": "Enter themed category, not every navigation",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-005",
+      "app": "FrameLab",
+      "fit": "MEDIUM",
+      "usage": "Open media album showcase, not destructive dialogs",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-005",
+      "app": "App Factory Dashboard",
+      "fit": "MEDIUM",
+      "usage": "Workspace section showcase with stable route",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-005",
+      "app": "Anna's Diary",
+      "fit": "MEDIUM",
+      "usage": "Optional memories section, not Vault security transition",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-005",
+      "app": "Notes-Ecosistema",
+      "fit": "MEDIUM",
+      "usage": "Switch workspaces when navigation is approved",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-005",
+      "app": "World Days",
+      "fit": "MEDIUM",
+      "usage": "Special day detail entrance only if subtle",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-006",
+      "app": "Omni Cleaner",
+      "fit": "HIGH",
+      "usage": "Media scanning and file analysis only while truly active",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-006",
+      "app": "Notes-Ecosistema",
+      "fit": "HIGH",
+      "usage": "Real indexing/import/synchronization and pending note tasks",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-006",
+      "app": "World Days",
+      "fit": "HIGH",
+      "usage": "Content download or parsing while active",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-006",
+      "app": "App Factory Dashboard",
+      "fit": "HIGH",
+      "usage": "Fetching CI/repository statuses, not fake build progress",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-006",
+      "app": "Send-to-PC",
+      "fit": "HIGH",
+      "usage": "Connecting/initial negotiation; byte progress preferred after transfer starts",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-006",
+      "app": "CamperBoss",
+      "fit": "HIGH",
+      "usage": "Offline package preparation, show measured progress when possible",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-006",
+      "app": "FrameLab",
+      "fit": "MEDIUM",
+      "usage": "Export initialization only if determinate progress unavailable",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-006",
+      "app": "Anna's Diary",
+      "fit": "MEDIUM",
+      "usage": "Real sync progress with reconciliation states",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-006",
+      "app": "Wonderlog",
+      "fit": "MEDIUM",
+      "usage": "Map/diary offline loading",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-006",
+      "app": "Cooking Anime",
+      "fit": "MEDIUM",
+      "usage": "Recipe content retrieval only while active",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-006",
+      "app": "Battery Guard",
+      "fit": "MEDIUM",
+      "usage": "Diagnostics computation if measured",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-006",
+      "app": "Easy Debloat",
+      "fit": "MEDIUM",
+      "usage": "ADB/Shizuku operation pending real acknowledgment",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-006",
+      "app": "Deskland Android",
+      "fit": "MEDIUM",
+      "usage": "First launcher data loading only, never on every home action",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-006",
+      "app": "Web Utility Factory",
+      "fit": "MEDIUM",
+      "usage": "Real conversion/form request pending",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    },
+    {
+      "pattern_id": "AMX-006",
+      "app": "FocusSense",
+      "fit": "MEDIUM",
+      "usage": "Computing real score, not live sensor idle",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NONE"
+    }
+  ],
+  "by_app": {
+    "Anna's Diary": [
+      {
+        "pattern_id": "AMX-001",
+        "fit": "MEDIUM",
+        "usage": "Reveal special memory cover only",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-003",
+        "fit": "MEDIUM",
+        "usage": "Memory card reveal without hiding data",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-004",
+        "fit": "HIGH",
+        "usage": "Memories and month/annual recap editorial cards",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-005",
+        "fit": "MEDIUM",
+        "usage": "Optional memories section, not Vault security transition",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-006",
+        "fit": "MEDIUM",
+        "usage": "Real sync progress with reconciliation states",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "App Factory Dashboard": [
+      {
+        "pattern_id": "AMX-001",
+        "fit": "MEDIUM",
+        "usage": "Optional visual feature showcase",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-002",
+        "fit": "HIGH",
+        "usage": "Desktop web navigation experimentation",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-003",
+        "fit": "MEDIUM",
+        "usage": "Portfolio project front/back preview only",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-004",
+        "fit": "HIGH",
+        "usage": "Long dashboard sections on desktop web",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-005",
+        "fit": "MEDIUM",
+        "usage": "Workspace section showcase with stable route",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-006",
+        "fit": "HIGH",
+        "usage": "Fetching CI/repository statuses, not fake build progress",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "Battery Guard": [
+      {
+        "pattern_id": "AMX-004",
+        "fit": "MEDIUM",
+        "usage": "Long battery diagnostics explanations",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-006",
+        "fit": "MEDIUM",
+        "usage": "Diagnostics computation if measured",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "BeerClass AI": [
+      {
+        "pattern_id": "AMX-003",
+        "fit": "MEDIUM",
+        "usage": "Tasting card compact summary",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-004",
+        "fit": "MEDIUM",
+        "usage": "Tasting archive lists",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "CamperBoss": [
+      {
+        "pattern_id": "AMX-004",
+        "fit": "MEDIUM",
+        "usage": "Travel stop information and offline guide",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-006",
+        "fit": "HIGH",
+        "usage": "Offline package preparation, show measured progress when possible",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "CashMate AI": [
+      {
+        "pattern_id": "AMX-004",
+        "fit": "MEDIUM",
+        "usage": "Financial report sections, never animate values misleadingly",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "Cooking Anime": [
+      {
+        "pattern_id": "AMX-001",
+        "fit": "HIGH",
+        "usage": "Reveal recipe collections or seasonal illustrated cover",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-003",
+        "fit": "MEDIUM",
+        "usage": "Recipe card front/back only for compact information",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-004",
+        "fit": "HIGH",
+        "usage": "Recipe collections and long article sections",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-005",
+        "fit": "MEDIUM",
+        "usage": "Enter themed category, not every navigation",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-006",
+        "fit": "MEDIUM",
+        "usage": "Recipe content retrieval only while active",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "Deskland Android": [
+      {
+        "pattern_id": "AMX-001",
+        "fit": "MEDIUM",
+        "usage": "Launcher side panel after stabilization",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-002",
+        "fit": "MEDIUM",
+        "usage": "Only with proven mouse/trackpad connected, avoid launcher CPU impact",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-005",
+        "fit": "HIGH",
+        "usage": "Enter a launcher room/panel only after launcher stabilizes",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-006",
+        "fit": "MEDIUM",
+        "usage": "First launcher data loading only, never on every home action",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "Easy Debloat": [
+      {
+        "pattern_id": "AMX-006",
+        "fit": "MEDIUM",
+        "usage": "ADB/Shizuku operation pending real acknowledgment",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "Edu_01 Corpo Umano": [
+      {
+        "pattern_id": "AMX-003",
+        "fit": "HIGH",
+        "usage": "Flashcard front/back quiz answer if approved",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-004",
+        "fit": "MEDIUM",
+        "usage": "Long educational reading pages",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "FocusSense": [
+      {
+        "pattern_id": "AMX-006",
+        "fit": "MEDIUM",
+        "usage": "Computing real score, not live sensor idle",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "FrameLab": [
+      {
+        "pattern_id": "AMX-001",
+        "fit": "MEDIUM",
+        "usage": "Marketing/gallery showcase only",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-002",
+        "fit": "MEDIUM",
+        "usage": "Desktop editor hover mode only, not photo retouch controls",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-004",
+        "fit": "MEDIUM",
+        "usage": "Photo gallery non-editing view",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-005",
+        "fit": "MEDIUM",
+        "usage": "Open media album showcase, not destructive dialogs",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-006",
+        "fit": "MEDIUM",
+        "usage": "Export initialization only if determinate progress unavailable",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "Notes-Ecosistema": [
+      {
+        "pattern_id": "AMX-001",
+        "fit": "MEDIUM",
+        "usage": "Reveal visual board cover, not editor controls",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-002",
+        "fit": "MEDIUM",
+        "usage": "Desktop web canvas hover option when drawing disabled",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-003",
+        "fit": "MEDIUM",
+        "usage": "Flashcard-style note study mode only if feature exists",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-004",
+        "fit": "HIGH",
+        "usage": "Long web notes and knowledge collections",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-005",
+        "fit": "MEDIUM",
+        "usage": "Switch workspaces when navigation is approved",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-006",
+        "fit": "HIGH",
+        "usage": "Real indexing/import/synchronization and pending note tasks",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "Omni Cleaner": [
+      {
+        "pattern_id": "AMX-004",
+        "fit": "MEDIUM",
+        "usage": "Media galleries only when not virtualized",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-006",
+        "fit": "HIGH",
+        "usage": "Media scanning and file analysis only while truly active",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "Send-to-PC": [
+      {
+        "pattern_id": "AMX-006",
+        "fit": "HIGH",
+        "usage": "Connecting/initial negotiation; byte progress preferred after transfer starts",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "TrailPath": [
+      {
+        "pattern_id": "AMX-004",
+        "fit": "MEDIUM",
+        "usage": "Route notes, never GPS map overlay",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "Web Utility Factory": [
+      {
+        "pattern_id": "AMX-001",
+        "fit": "MEDIUM",
+        "usage": "Optional landing hero, never search results",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-002",
+        "fit": "MEDIUM",
+        "usage": "Desktop marketing hero only, not utility workflow",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-004",
+        "fit": "HIGH",
+        "usage": "Marketing sections with text still indexable",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-006",
+        "fit": "MEDIUM",
+        "usage": "Real conversion/form request pending",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "Wonderlog": [
+      {
+        "pattern_id": "AMX-001",
+        "fit": "HIGH",
+        "usage": "Open photographic travel memory cover",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-003",
+        "fit": "MEDIUM",
+        "usage": "Travel-card secondary metadata",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-004",
+        "fit": "HIGH",
+        "usage": "Travel diary and image-led lists",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-005",
+        "fit": "MEDIUM",
+        "usage": "Switch to a travel memory scene",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-006",
+        "fit": "MEDIUM",
+        "usage": "Map/diary offline loading",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "World Days": [
+      {
+        "pattern_id": "AMX-001",
+        "fit": "MEDIUM",
+        "usage": "Optional cover of a story, never gating text",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-003",
+        "fit": "MEDIUM",
+        "usage": "Historical fact card front/back, keep full text accessible",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-004",
+        "fit": "HIGH",
+        "usage": "Long editorial history and day cards without hiding accessibility text",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-005",
+        "fit": "MEDIUM",
+        "usage": "Special day detail entrance only if subtle",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "pattern_id": "AMX-006",
+        "fit": "HIGH",
+        "usage": "Content download or parsing while active",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ]
+  },
+  "by_pattern": {
+    "AMX-001": [
+      {
+        "app": "Cooking Anime",
+        "fit": "HIGH",
+        "usage": "Reveal recipe collections or seasonal illustrated cover",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "HIGH",
+        "usage": "Open photographic travel memory cover",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Anna's Diary",
+        "fit": "MEDIUM",
+        "usage": "Reveal special memory cover only",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "usage": "Optional cover of a story, never gating text",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "usage": "Reveal visual board cover, not editor controls",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "MEDIUM",
+        "usage": "Marketing/gallery showcase only",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Deskland Android",
+        "fit": "MEDIUM",
+        "usage": "Launcher side panel after stabilization",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "MEDIUM",
+        "usage": "Optional visual feature showcase",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Web Utility Factory",
+        "fit": "MEDIUM",
+        "usage": "Optional landing hero, never search results",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "AMX-002": [
+      {
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "usage": "Desktop web navigation experimentation",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Web Utility Factory",
+        "fit": "MEDIUM",
+        "usage": "Desktop marketing hero only, not utility workflow",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "usage": "Desktop web canvas hover option when drawing disabled",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "MEDIUM",
+        "usage": "Desktop editor hover mode only, not photo retouch controls",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Deskland Android",
+        "fit": "MEDIUM",
+        "usage": "Only with proven mouse/trackpad connected, avoid launcher CPU impact",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "AMX-003": [
+      {
+        "app": "Edu_01 Corpo Umano",
+        "fit": "HIGH",
+        "usage": "Flashcard front/back quiz answer if approved",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "usage": "Recipe card front/back only for compact information",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "usage": "Historical fact card front/back, keep full text accessible",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Anna's Diary",
+        "fit": "MEDIUM",
+        "usage": "Memory card reveal without hiding data",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "usage": "Travel-card secondary metadata",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "BeerClass AI",
+        "fit": "MEDIUM",
+        "usage": "Tasting card compact summary",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "usage": "Flashcard-style note study mode only if feature exists",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "MEDIUM",
+        "usage": "Portfolio project front/back preview only",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "AMX-004": [
+      {
+        "app": "World Days",
+        "fit": "HIGH",
+        "usage": "Long editorial history and day cards without hiding accessibility text",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Anna's Diary",
+        "fit": "HIGH",
+        "usage": "Memories and month/annual recap editorial cards",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "HIGH",
+        "usage": "Travel diary and image-led lists",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "usage": "Long web notes and knowledge collections",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "HIGH",
+        "usage": "Recipe collections and long article sections",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "usage": "Long dashboard sections on desktop web",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Web Utility Factory",
+        "fit": "HIGH",
+        "usage": "Marketing sections with text still indexable",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "MEDIUM",
+        "usage": "Photo gallery non-editing view",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "CamperBoss",
+        "fit": "MEDIUM",
+        "usage": "Travel stop information and offline guide",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Omni Cleaner",
+        "fit": "MEDIUM",
+        "usage": "Media galleries only when not virtualized",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Edu_01 Corpo Umano",
+        "fit": "MEDIUM",
+        "usage": "Long educational reading pages",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "CashMate AI",
+        "fit": "MEDIUM",
+        "usage": "Financial report sections, never animate values misleadingly",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Battery Guard",
+        "fit": "MEDIUM",
+        "usage": "Long battery diagnostics explanations",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "BeerClass AI",
+        "fit": "MEDIUM",
+        "usage": "Tasting archive lists",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "TrailPath",
+        "fit": "MEDIUM",
+        "usage": "Route notes, never GPS map overlay",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "AMX-005": [
+      {
+        "app": "Deskland Android",
+        "fit": "HIGH",
+        "usage": "Enter a launcher room/panel only after launcher stabilizes",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "usage": "Switch to a travel memory scene",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "usage": "Enter themed category, not every navigation",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "MEDIUM",
+        "usage": "Open media album showcase, not destructive dialogs",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "MEDIUM",
+        "usage": "Workspace section showcase with stable route",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Anna's Diary",
+        "fit": "MEDIUM",
+        "usage": "Optional memories section, not Vault security transition",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "MEDIUM",
+        "usage": "Switch workspaces when navigation is approved",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "World Days",
+        "fit": "MEDIUM",
+        "usage": "Special day detail entrance only if subtle",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ],
+    "AMX-006": [
+      {
+        "app": "Omni Cleaner",
+        "fit": "HIGH",
+        "usage": "Media scanning and file analysis only while truly active",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Notes-Ecosistema",
+        "fit": "HIGH",
+        "usage": "Real indexing/import/synchronization and pending note tasks",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "World Days",
+        "fit": "HIGH",
+        "usage": "Content download or parsing while active",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "App Factory Dashboard",
+        "fit": "HIGH",
+        "usage": "Fetching CI/repository statuses, not fake build progress",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Send-to-PC",
+        "fit": "HIGH",
+        "usage": "Connecting/initial negotiation; byte progress preferred after transfer starts",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "CamperBoss",
+        "fit": "HIGH",
+        "usage": "Offline package preparation, show measured progress when possible",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "FrameLab",
+        "fit": "MEDIUM",
+        "usage": "Export initialization only if determinate progress unavailable",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Anna's Diary",
+        "fit": "MEDIUM",
+        "usage": "Real sync progress with reconciliation states",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Wonderlog",
+        "fit": "MEDIUM",
+        "usage": "Map/diary offline loading",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Cooking Anime",
+        "fit": "MEDIUM",
+        "usage": "Recipe content retrieval only while active",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Battery Guard",
+        "fit": "MEDIUM",
+        "usage": "Diagnostics computation if measured",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Easy Debloat",
+        "fit": "MEDIUM",
+        "usage": "ADB/Shizuku operation pending real acknowledgment",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Deskland Android",
+        "fit": "MEDIUM",
+        "usage": "First launcher data loading only, never on every home action",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "Web Utility Factory",
+        "fit": "MEDIUM",
+        "usage": "Real conversion/form request pending",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      },
+      {
+        "app": "FocusSense",
+        "fit": "MEDIUM",
+        "usage": "Computing real score, not live sensor idle",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NONE"
+      }
+    ]
+  }
+}

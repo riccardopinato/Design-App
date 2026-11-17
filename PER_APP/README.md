@@ -51,4 +51,8 @@ Per il componente [beUI Voice Orb indicizzato da DevLibraries](https://devlibrar
 
 ## Pattern di tema, movimento e attesa — intake 17/11/2026
 
-[EaseUI/Amicro: matrice su 19 app](../UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.md), con **76 associazioni PROPOSED_ONLY**: Theme Toggle chiaro/scuro, Card Stack Peel, Accordion Blind Pull, Interlocking Gear Step, Shutter Step Slices e riferimento screenshot a caricamenti/tempi d'attesa. Ogni dossier pertinente e il [registro JSON canonico](./REGISTRO_APP_DESIGN.json) conservano i collegamenti nello storico. Le quattro voci Amicro sono descrizioni di catalogo da validare prima di un qualsiasi uso in app.
+[EaseUI/Amicro: matrice su 19 app](../UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.md), con **76 associazioni PROPOSED_ONLY**: Theme Toggle chiaro/scuro, Card Stack Peel, Accordion Blind Pull, Interlocking Gear Step, Shutter Step Slices e riferimento screenshot a caricamenti/tempi d'attesa. Ogni dossier pertinente e il [registro JSON canonico](./REGISTRO_APP_DESIGN.json) conservano i collegamenti nello storico. Per i quattro effetti del primo intake Amicro è stata individuata l'implementazione originale dopo una seconda ricognizione; resta indispensabile validarli prima del riuso.
+
+## Sei componenti Amicro aggiuntivi — 17/11/2026
+
+[Nuovo catalogo Amicro](../UI-UX/AMICRO_SIX_COMPONENTS_APP_MAP_2026-11-17.md): sei link utente, 19 dossier pertinenti aggiornati, 60 nuove associazioni proposte (18 HIGH, 42 MEDIUM). Il [registro canonico](./REGISTRO_APP_DESIGN.json) conserva gli ID `AMX-...`, la collocazione, i limiti di accessibilità e la distinzione codice verificato/concetto non verificato. La ricerca ha inoltre rettificato l'evidenza dei quattro precedenti effetti Amicro (ora file esistenti individuati, sempre senza test di integrazione).

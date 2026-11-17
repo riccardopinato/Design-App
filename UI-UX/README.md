@@ -85,3 +85,7 @@ La sezione [**PER_APP**](../PER_APP/README.md) conserva le proposte visuali per 
 ## Theme Toggle, Card Stack Peel, Accordion Blind Pull, Interlocking Gear Step, Shutter Step Slices
 
 [Catalogo ragionato e app candidate](./EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.md) · [JSON consultabile per pattern e app](./EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json) · [Audit originale](../sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md). Aggiunto il riferimento utente a ulteriori loader nello screenshot come **idea ancora da identificare**, non come asset. Light/Dark/System resta governato dai token e dal Golden M3; Accordions espandono pannelli, Shutter ne anima la comparsa. Non sono pacchetti Flutter già integrati.
+
+## Nuove animazioni Amicro — curtain, cursor, flip, scroll, portal e loader
+
+[Sei reference](./AMICRO_SIX_COMPONENTS_APP_MAP_2026-11-17.md) · [registro molti-a-molti](./AMICRO_SIX_COMPONENTS_APP_MAP_2026-11-17.json) · [audit](../sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md). **CurtainReveal, Cursor Trail, Scroll Reveal e Accordion Loader** sono stati verificati nel codice sorgente; **Perspective Flip e Spatial Door Portal** restano da verificare nell'implementazione esatta. Cursor Trail solo su pointer desktop; Accordion Loader è un caricamento indeterminato, da non confondere con Accordion Blind Pull. Le proposte restano reference/PROPOSED_ONLY.

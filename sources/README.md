@@ -33,6 +33,10 @@ Questa directory contiene studi di sorgenti esterne e donatori candidati, non ne
 
 ## EaseUI e Amicro — temi, transizioni, tendine e caricamenti · 17/11/2026
 
-- [Audit dei cinque pattern nominati e uno screenshot di caricamenti](./EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md): sorgenti MIT con commit; uno script EaseUI verificato, quattro voci Amicro metadata-only, una proposta visuale non vendorizzata.
+- [Audit dei cinque pattern nominati e uno screenshot di caricamenti](./EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md): sorgenti MIT con commit; uno script EaseUI verificato, quattro implementazioni Amicro successivamente individuate nei sorgenti originali, una proposta visuale non vendorizzata.
 - [Matrice pattern ↔ 19 app](../UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.md), [registro bidirezionale JSON](../UI-UX/EASEUI_AMICRO_LOADING_APP_MAP_2026-11-17.json), [dossier singole app](../PER_APP/README.md).
 - [Directory fonti](./DESIGN_RESEARCH_SITES.json) ampliata con EaseUI/Amicro; licenze dei singoli asset da verificare prima del riuso.
+
+## Amicro — sei componenti, verifica sorgenti ampliata
+
+[Audit del nuovo gruppo](./AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md) · [matrice per 19 app](../UI-UX/AMICRO_SIX_COMPONENTS_APP_MAP_2026-11-17.md). Quattro nuovi effetti (CurtainReveal, Cursor Trail, Scroll Reveal, Accordion Loader) hanno file sorgente individuati; per Perspective Flip e Spatial Door Portal i **nomi esatti non sono verificati** nel codice originale. Il [precedente audit](./EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md) è stato aggiornato: quattro effetti prima classificati soltanto come descrizioni hanno invece file implementativi nominati. Provenienza letta, nessun runtime Flutter né Copy-Ready convalidato.
