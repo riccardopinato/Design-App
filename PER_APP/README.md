@@ -64,3 +64,7 @@ Per il componente [beUI Voice Orb indicizzato da DevLibraries](https://devlibrar
 ## Nuova raccolta DevLibraries Bookmarks — 17/11/2026
 
 Tre screenshot condivisi dall'utente sono stati convertiti in [30 voci verificabili come nomi e anteprime](../sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md) e [120 abbinamenti su 20 app](../UI-UX/DEVLIBRARIES_BOOKMARKS_APP_MAP_2026-11-17.md). Ogni dossier interessato e il [registro JSON](./REGISTRO_APP_DESIGN.json) conservano i riferimenti e lo storico. Per [Anna's Diary](./annas-diary.md) la preview di Notification List ora risulta confermata **visivamente**, ma l'implementazione del componente e del riepilogo quotidiano in Home Oggi resta **non verificata e non approvata**. I PNG sono allegati alla chat, non presenti nel repository.
+
+## Impeccable Designing — raccomandazioni UX e QA per 10 app
+
+Le 10 app già associate a Impeccable (`DSK-002`) nella [matrice originaria](../UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.md) ora hanno **8 quality gates** e controlli contestuali aggiunti nei rispettivi dossier e nel [registro JSON per app](./REGISTRO_APP_DESIGN.json). [Analisi completa](../sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md). Stato `PROPOSED_ONLY/NOT_EXECUTED`, nessuna app collaudata o modificata, nessuna nuova libreria o donor duplicato.
