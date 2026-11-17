@@ -17,10 +17,10 @@
 
 | Nome | ID catalogo | CLI dichiarata | Stato effettivo |
 |---|---|---|---|
-| Card Stack Peel | `anim-card-peel` | `card-stack-peel` | Descrizione 3D peel, file source specifico non trovato |
-| Accordion Blind Pull | `anim-blind-pull` | `accordion-blind` | Lamelle a tendina, file source specifico non trovato |
-| Interlocking Gear Step | `anim-gear-step` | `gear-tooth-step` | Ingranaggi sincronizzati, file source specifico non trovato |
-| Shutter Step Slices | `anim-shutter-blocks` | `shutter-step-slices` | Lamelle orizzontali in sequenza, file source specifico non trovato |
+| Card Stack Peel | `anim-card-peel` | `card-stack-peel` | Descrizione 3D peel, SOURCE_FILE_READ: `src/components/css-animations/physics/MechanicalPhysicsTrios.tsx` · export `CardStackPeel` · blob `012685b393beaa846136e155b38016c63cd4f122` |
+| Accordion Blind Pull | `anim-blind-pull` | `accordion-blind` | Lamelle a tendina, SOURCE_FILE_READ: `src/components/css-animations/physics/ElasticVariations.tsx` · export `BlindPull` · blob `18e083c97e6ef82f49b86e7538623a4d347b79b8` |
+| Interlocking Gear Step | `anim-gear-step` | `gear-tooth-step` | Ingranaggi sincronizzati, SOURCE_FILE_READ: `src/components/css-animations/physics/ElasticDeformTrios.tsx` · export `GearToothStep` · blob `6c93dcbb1857d3b7e0579c9ea96eaa1f5af92bc6` |
+| Shutter Step Slices | `anim-shutter-blocks` | `shutter-step-slices` | Lamelle orizzontali in sequenza, SOURCE_FILE_READ: `src/components/css-animations/physics/InertiaPhysicsExperiments.tsx` · export `ShutterStepBlocks` · blob `a266bc0021a4c9f400f81328356cc6f5a2a18812` |
 
 Il repo contiene **un diverso** componente `registry/ui/loading/gears.tsx` (blob `6cd0bcd36518813d9a3910c1d20a76ab3e99df7f`), ma **non è prova** che Interlocking Gear Step sia già disponibile con quel nome o qualità. Non eseguire CLI senza validare output e dipendenze.
 
@@ -32,4 +32,8 @@ Il repo contiene **un diverso** componente `registry/ui/loading/gears.tsx` (blob
 - Accessibilità: label, focus, 48 dp, riduzione movimento, contrasto scuro/chiaro, orientamento e font scaling; non occultare contenuti o rompere touch/gesture.
 - Performance: loop solo in foreground/visibile e con lavoro reale; evitare GPU costosa, benchmark peso APK e FPS su device prima dell'adozione.
 
-**Esito:** uno script EaseUI realmente letto e 4 voci Amicro metadata-only; un nuovo riferimento grafico dall'immagine dell'utente. Nessuna integrazione, Golden, asset o licenza extra automatica.
+**Esito aggiornato:** cinque sorgenti implementative lette (EaseUI + quattro Amicro) e un riferimento grafico dall'immagine dell'utente. Nessuna integrazione, Golden, asset o licenza extra automatica.
+
+## Rettifica di provenienza — seconda verifica 17/11/2026
+
+La prima ricognizione aveva registrato erroneamente i quattro effetti come soli record di catalogo. L'analisi ampliata del repository **al medesimo commit** ha individuato i file e le funzioni indicati nella tabella. La precedente valutazione è conservata qui come storico di una verifica incompleta, ma non rappresenta più lo stato tecnico corrente. **`SOURCE_FILE_READ` non equivale a compilazione, test, disponibilità Flutter o `COPY_READY`.** Nessun componente è stato importato nelle app. [Dettaglio successivo e nuovi pattern Amicro](./AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md).
