@@ -40,7 +40,10 @@ if dock_intake != 1:
 visual_intake = len(re.findall(r"^  - batch_id: STAR_VISUAL_2026_11_16$", oss, re.MULTILINE))
 if visual_intake != 1:
     fail(f"expected exactly one 2026-11-16 visual stars intake, found {visual_intake}")
-expected_source_count = 95 + ruixen_intake + 2 * dock_intake + 7 * visual_intake
+skills_intake = len(re.findall(r"^  - batch_id: ANTI_SLOP_DESIGN_SKILLS_2026_11_17$", oss, re.MULTILINE))
+if skills_intake != 1:
+    fail(f"expected one 2026-11-17 design skill intake, found {skills_intake}")
+expected_source_count = 95 + ruixen_intake + 2 * dock_intake + 7 * visual_intake + 10 * skills_intake
 if len(repos) != expected_source_count or len(set(repos)) != expected_source_count:
     fail(f"expected {expected_source_count} unique OSS design sources, found {len(repos)} / {len(set(repos))} unique")
 for required in ("ruixenui/ruixen.com", "alztrk/opentaskbar", "Acadbek/lumabar"):
@@ -54,6 +57,52 @@ for required in ("tldraw/tldraw", "excalidraw/excalidraw", "xyflow/xyflow", "mar
         fail(f"new visual source missing or duplicated: {required}")
 if not (ROOT / "sources" / "STARS_750_VISUAL_INTAKE_2026-11-16.md").is_file():
     fail("2026-11-16 visual stars audit documentation missing")
+# 2026-11-17 agent design skills must be registered source-pinned with a bidirectional proposed-only app map.
+for required in ("uizze/uizze", "pbakaus/impeccable", "Leonxlnx/taste-skill",
+                 "emilkowalski/skills", "vercel-labs/agent-skills", "anthropics/skills",
+                 "Nutlope/hallmark", "jakubkrehel/skills",
+                 "nextlevelbuilder/ui-ux-pro-max-skill", "benjitaylor/skills"):
+    if repos.count(required) != 1:
+        fail(f"design skills intake missing or duplicated: {required}")
+skills_audit = ROOT / "sources" / "ANTI_SLOP_DESIGN_SKILLS_AUDIT_2026-11-17.md"
+skills_map_path = ROOT / "UI-UX" / "MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+skills_view = ROOT / "UI-UX" / "MATRICE_REPO_DESIGN_APP_2026-11-17.md"
+if not all(p.is_file() for p in (skills_audit, skills_map_path, skills_view)):
+    fail("design skill intake audit/map/view missing")
+skills_map = json.loads(skills_map_path.read_text(encoding="utf-8"))
+skills_sources = skills_map.get("sources", [])
+skills_links = skills_map.get("associations", [])
+skills_counts = skills_map.get("counts", {})
+if skills_map.get("batch_id") != "ANTI_SLOP_DESIGN_SKILLS_2026_11_17":
+    fail("design skills map wrong batch id")
+if len(skills_sources) != 10 or len({x.get("id") for x in skills_sources}) != 10:
+    fail("design skills must have ten unique source IDs")
+if {x.get("repo") for x in skills_sources} - set(repos):
+    fail("design skill map contains sources absent in OSS registry")
+if any(not re.fullmatch(r"[0-9a-f]{40}", str(x.get("ref", ""))) for x in skills_sources):
+    fail("design skill source HEAD not pinned to 40-char SHA")
+if any(x.get("maturity") != "REFERENCE" for x in skills_sources):
+    fail("unverified design skill was prematurely promoted")
+if len(skills_links) != skills_counts.get("associations"):
+    fail("design skill association count mismatch")
+if any(e.get("status") != "PROPOSED_ONLY" or e.get("fit") not in ("HIGH", "MEDIUM")
+       for e in skills_links):
+    fail("design skill app association promoted without consumer evidence")
+if len({(e.get("source_id"), e.get("app")) for e in skills_links}) != len(skills_links):
+    fail("duplicate design skill app association")
+if {e.get("source_id") for e in skills_links} - {s.get("id") for s in skills_sources}:
+    fail("design skill association links to unknown source")
+if len(skills_map.get("by_app", {})) != skills_counts.get("apps"):
+    fail("design skill by-app view count mismatch")
+for app, linked in skills_map.get("by_app", {}).items():
+    if {(x.get("source_id"), x.get("fit")) for x in linked} != {
+         (e.get("source_id"), e.get("fit")) for e in skills_links if e.get("app") == app}:
+        fail(f"design skill by-app links out of sync: {app}")
+for source_id, linked in skills_map.get("by_source", {}).items():
+    if {(x.get("app"), x.get("fit")) for x in linked} != {
+         (e.get("app"), e.get("fit")) for e in skills_links if e.get("source_id") == source_id}:
+        fail(f"design skill by-source links out of sync: {source_id}")
+
 ruixen_index = json.loads((ROOT / "sources" / "RUIXEN_UI_REGISTRY_INVENTORY_2026-11-13.json").read_text(encoding="utf-8"))
 ruixen_curated = json.loads((ROOT / "sources" / "RUIXEN_UI_CURATED_APP_MAP_2026-11-13.json").read_text(encoding="utf-8"))
 files = ruixen_index.get("files", [])
