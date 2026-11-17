@@ -73,3 +73,7 @@ Oltre ai riferimenti immagine UIR, la libreria include un [catalogo Ruixen UI](.
 ## Icone statiche e animate
 
 La tassonomia UI/UX resta distinta dalla [sezione ICONE](../ICONE/README.md). Quest'ultima gestisce il nuovo inventario Gentleface, [anteprime](../ICONE/ANTEPRIME.md) e una [matrice icona ↔ app](../ICONE/MATRICE_APP_ICONE.md). Non sono stati creati nuovi stili UIX né importati asset SVG.
+
+## Schede permanenti per app
+
+La sezione [**PER_APP**](../PER_APP/README.md) conserva le proposte visuali per ciascuna app, compresi posizionamenti, motion, cosa evitare e riferimenti a skill. La matrice esistente app↔stili e le fonti UX restano gli archivi di riferimento e non sono sostituiti dai dossier.
