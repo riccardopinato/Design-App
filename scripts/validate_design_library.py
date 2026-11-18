@@ -2,6 +2,7 @@
 from pathlib import Path
 import json
 import re
+import hashlib
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -70,39 +71,89 @@ uiverse_map = json.loads(uiverse_map_path.read_text(encoding="utf-8"))
 uiverse_items = uiverse_reg.get("components", [])
 uiverse_links = uiverse_reg.get("relations", [])
 uiverse_app_ids = {e.get("app_id") for e in uiverse_links}
-if len(uiverse_items) != 9 or len({x.get("id") for x in uiverse_items}) != 9:
-    fail("Uiverse must contain exactly nine unique components")
-if len(uiverse_links) != 64 or len({(e.get("component_id"), e.get("app_id")) for e in uiverse_links}) != 64 or len(uiverse_app_ids) != 20:
-    fail("Uiverse expected 64 unique app-component links across 20 apps")
-if {(e["component_id"], e["app_id"]) for e in uiverse_map.get("relations", [])} != {(e["component_id"], e["app_id"]) for e in uiverse_links}:
-    fail("Uiverse bidirectional relation set inconsistent")
-if any(e.get("status") != "PROPOSED_ONLY" for e in uiverse_links):
-    fail("Uiverse links must remain PROPOSED_ONLY")
+# 2026-11-18 Uiverse Favorites: enforce exact provenance, archive integrity,
+# deduplication and synchronized many-to-many views. Accept future growing
+# batches without hardcoding the historic 9/64 snapshot as final forever.
+uiverse_count = uiverse_reg.get("counts", {})
 item_ids = {x.get("id") for x in uiverse_items}
-if any(e.get("component_id") not in item_ids for e in uiverse_links):
-    fail("Uiverse links to unknown component")
+if len(uiverse_items) < 100 or len(item_ids) != len(uiverse_items) or uiverse_count.get("links") != len(uiverse_items):
+    fail("Uiverse 100-item catalog regression or duplicate component IDs")
+if len(uiverse_links) < 657 or len({(e.get("component_id"), e.get("app_id")) for e in uiverse_links}) != len(uiverse_links):
+    fail("Uiverse multi-app relations regression/duplication")
+if uiverse_count.get("app_component_relations") != len(uiverse_links) or uiverse_count.get("apps") != len(uiverse_app_ids):
+    fail("Uiverse counts do not match many-to-many links")
+if any(e.get("component_id") not in item_ids or e.get("status") != "PROPOSED_ONLY" for e in uiverse_links):
+    fail("Uiverse relation refers to unknown component or is not a proposal")
+if {(e["component_id"], e["app_id"]) for e in uiverse_map.get("relations", [])} != {(e["component_id"], e["app_id"]) for e in uiverse_links}:
+    fail("Uiverse canonical relations vs matrix disagree")
+if set(uiverse_map.get("by_app", {})) != uiverse_app_ids or set(uiverse_map.get("by_component", {})) != item_ids:
+    fail("Uiverse reverse-mapping keys missing")
+for a in uiverse_app_ids:
+    expected = {(e["component_id"], e["app_id"]) for e in uiverse_links if e["app_id"] == a}
+    actual = {(e["component_id"], e["app_id"]) for e in uiverse_map["by_app"].get(a, [])}
+    if expected != actual:
+        fail(f"Uiverse by-app links do not match: {a}")
+for component_id in item_ids:
+    expected = {(e["component_id"], e["app_id"]) for e in uiverse_links if e["component_id"] == component_id}
+    actual = {(e["component_id"], e["app_id"]) for e in uiverse_map["by_component"].get(component_id, [])}
+    if expected != actual:
+        fail(f"Uiverse by-component links do not match: {component_id}")
+
 code_count = 0
 for item in uiverse_items:
-    p = item.get("source_snapshot")
-    if p:
+    snap = item.get("source_snapshot")
+    if snap:
         code_count += 1
-        if not (ROOT / p).is_file() or not re.fullmatch(r"[0-9a-f]{40}", str(item.get("source_blob_sha", ""))):
-            fail(f"Uiverse source snapshot missing or unpinned: {item.get('id')}")
-    elif item.get("evidence") != "SOURCE_CODE_NOT_LOCATED":
-        fail(f"Uiverse missing source wrongly labelled: {item.get('id')}")
-if code_count != 6:
-    fail("Uiverse expected six exact source snapshots")
+        codepath = ROOT / snap
+        sha = item.get("source_blob_sha")
+        if not codepath.is_file() or not re.fullmatch(r"[0-9a-f]{40}", str(sha)):
+            fail(f"Uiverse source missing or unpinned: {item.get('id')}")
+        data = codepath.read_bytes()
+        actual_sha = hashlib.sha1(b"blob " + str(len(data)).encode("ascii") + b"\\0" + data).hexdigest()
+        if sha != actual_sha:
+            fail(f"Uiverse source blob mismatch: {item.get('id')}")
+    elif item.get("source_blob_sha") or not str(item.get("evidence", "")).endswith(
+        ("SOURCE_CODE_NOT_LOCATED", "SOURCE_CODE_MISSING", "CATEGORY_NOT_VERIFIED")
+    ):
+        fail(f"Uiverse unavailable source misreported: {item.get('id')}")
+    if item.get("consumer_implemented") is not False:
+        fail(f"Uiverse reference incorrectly claims consumer implementation: {item.get('id')}")
+if code_count < 57 or uiverse_count.get("original_source_files") != code_count:
+    fail("Uiverse original-code source inventory inconsistent")
 if not (uiverse_dir / "CODICE_SORGENTE" / "LICENSE-Uiverse-Galaxy-MIT.txt").is_file():
-    fail("Uiverse MIT license notice missing")
+    fail("Uiverse MIT notice missing")
+
+favorites_path = uiverse_dir / "FAVORITES" / "REGISTRO_PREFERITI_2026-11-18.json"
+if not favorites_path.is_file():
+    fail("Uiverse Favorites export register missing")
+favorites = json.loads(favorites_path.read_text(encoding="utf-8"))
+favorited = favorites.get("items", [])
+fav_urls = {x.get("url") for x in favorited}
+if len(favorited) < 97 or len(fav_urls) != len(favorited) or favorites.get("unique_count") != len(favorited):
+    fail("Uiverse Favorites declared/unique count mismatch")
+if favorites.get("completeness") != "REQUIRES_USER_COUNT_VERIFICATION":
+    fail("Uiverse Favorites incorrectly claim independent account completeness")
+by_id = {c["id"]: c for c in uiverse_items}
+for fav in favorited:
+    item = by_id.get(fav.get("id"))
+    if not item or item.get("uiverse_url") != fav.get("url") or item.get("user_favorite") is not True:
+        fail(f"Uiverse favorite lost from master registry: {fav.get('id')}")
+    if bool(item.get("source_snapshot")) != bool(fav.get("code_snapshot")):
+        fail(f"Uiverse favorite original-code evidence mismatch: {fav.get('id')}")
+if uiverse_count.get("favorite_links") != len(favorited):
+    fail("Uiverse favorite count not reflected in master registry")
 per_app_uiverse = json.loads((ROOT / "PER_APP" / "REGISTRO_APP_DESIGN.json").read_text(encoding="utf-8"))
 for app_id in uiverse_app_ids:
     profile = next((p for p in per_app_uiverse.get("profiles", []) if p.get("id") == app_id), None)
     if profile is None:
         fail(f"Uiverse app profile missing: {app_id}")
-    actual = {e.get("component_id") for e in profile.get("uiverse_candidates", [])}
-    expected = {e["component_id"] for e in uiverse_links if e["app_id"] == app_id}
-    if actual != expected or not (ROOT / "PER_APP" / f"{app_id}.md").is_file():
-        fail(f"Uiverse per-app catalogue mismatch: {app_id}")
+    actual = {(e.get("component_id"), e.get("surface")) for e in profile.get("uiverse_candidates", [])}
+    expected = {(e["component_id"], e["surface"]) for e in uiverse_links if e["app_id"] == app_id}
+    dossier = ROOT / "PER_APP" / f"{app_id}.md"
+    if actual != expected or not dossier.is_file() or "## Uiverse Favorites — archivio incrociato 18/11/2026" not in dossier.read_text(encoding="utf-8"):
+        fail(f"Uiverse per-app dossier/relations inconsistent: {app_id}")
+if per_app_uiverse.get("counts", {}).get("uiverse_app_links") != len(uiverse_links):
+    fail("Uiverse per-app counts mismatch")
 for required in ("ruixenui/ruixen.com", "alztrk/opentaskbar", "Acadbek/lumabar"):
     if repos.count(required) != 1:
         fail(f"external source missing or duplicated: {required}")
