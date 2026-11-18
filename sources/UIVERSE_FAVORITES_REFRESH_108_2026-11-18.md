@@ -27,3 +27,13 @@ Nuovo export: `UI-UX/UIVERSE/FAVORITES/EXPORT_2026-11-18T16-40-39Z.json`; file d
 - Nessun consumer modificato e nessuna promozione Golden.
 
 Factory baseline: `63c3ecba07dafdf46e27e175bd973ee05107fecb` (CURRENT v27, Golden Index v29).
+
+## Esito finale verificato — 18/11/2026
+
+- Recupero pubblico GitHub Actions: **11/11 PASS**.
+- Catalogo Uiverse dopo refresh: **111 componenti** con 111 originali HTML/CSS, **0 mancanti**.
+- Preferiti importati: **108**, tutti con codice; **+11 nuovi, 0 rimossi** rispetto all'export delle 10:08 UTC.
+- Provenienza del codice live: [registro cumulativo](../UI-UX/UIVERSE/FAVORITES/RECUPERO_API_2026_11_18.json), con **54** record (43 recuperi precedenti + 11 nuovi), post UUID, SHA-256 e file originali.
+- Categorie dei nuovi 11: **FORM 8, LOADER 2, TOOLTIP 1**. **79** candidati di riuso registrati su **19** app, totale **736** collegamenti su 25 app.
+- UIV-108: asset/character IP review richiesto prima di qualsiasi codice consumer, benché il CSS sia archiviato.
+- Nessun runtime nativo, APK, screenshot consumer o Golden certificato.

@@ -1,6 +1,6 @@
 # Uiverse — archivio HTML/CSS originale (recupero rapido)
 
-**100 componenti con codice originale conservato**. I primi **57 snapshot HTML/CSS** derivano dall'archivio storico [uiverse-io/galaxy](https://github.com/uiverse-io/galaxy) al commit `adbd2adde0a299a3956ea288fb444ec01891ca41` (54 sono Favorites, 3 non lo sono). Gli altri **43** sono stati recuperati dalle pagine pubbliche Uiverse tramite endpoint dati Remix, con **file HTML e CSS separati**, UUID del post e SHA-256; questi ultimi **non hanno un commit sorgente Galaxy**. [Evidenze recupero](../FAVORITES/RECUPERO_API_2026_11_18.json).
+**111 componenti con sorgente originale conservato**. I primi **57 snapshot HTML/CSS** derivano dall'archivio storico [uiverse-io/galaxy](https://github.com/uiverse-io/galaxy) al commit `adbd2adde0a299a3956ea288fb444ec01891ca41` (54 sono Favorites, 3 non lo sono). Gli altri **54** (43 + 11 nuovi) sono stati recuperati da endpoint pubblici Uiverse, come coppie HTML/CSS separate con UUID del post e checksum SHA-256. **Tutti i 108 preferiti sono coperti**. I 54 recuperati live non sono attribuiti a un inesistente commit Galaxy; [prove d'origine](../FAVORITES/RECUPERO_API_2026_11_18.json). [Evidenze recupero](../FAVORITES/RECUPERO_API_2026_11_18.json).
 
 Ogni codice è **una copia originale HTML/CSS con blob Git verificabile**: non è una conversione Flutter/Compose, né una garanzia di funzionamento/accessibilità nell'app. La [licenza MIT](./LICENSE-Uiverse-Galaxy-MIT.txt) va preservata in caso di riuso, verificando anche eventuali asset terzi inclusi.
 

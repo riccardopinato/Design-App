@@ -1,6 +1,14 @@
 # Uiverse Favorites — importazione da pagina autenticata
 
-## Risultato dell'importazione del 18 novembre 2026
+## Stato attuale — 18 novembre 2026, export ore 16:40:39 UTC
+
+- **108 link unici**, di cui **11 nuovi, 97 già presenti e 0 rimossi**; [confronto machine-readable](./CONFRONTO_108_VS_97_2026-11-18.json), [export originale](./EXPORT_2026-11-18T16-40-39Z.json).
+- **108/108 HTML/CSS acquisiti**: 54 preferiti dall'archivio Galaxy e 54 dall'endpoint pubblico Uiverse (43 precedenti + 11 nuovi); [prove](./RECUPERO_API_2026_11_18.json).
+- **79 proposte nuove su 19 app**; matrice complessiva **736 relazioni su 25 app**. Nessun codice consumer modificato.
+- Le 8 form sono concetti visivi per flussi già previsti, **non autorizzazioni ad aggiungere login**. Il componente UIV-108 ha rischio IP Nintendo e resta solo reference.
+- Il totale dell'account resta da confrontare con l'indicatore mostrato da Uiverse; il browser export conserva il flag di verifica.
+
+## Storico: prima importazione dei 97 URL (10:08 UTC)
 
 - [Registro dei 97 collegamenti](./REGISTRO_PREFERITI_2026-11-18.json), acquisiti dall'export locale con 67 passaggi di scansione e deduplicati: 97 URL unici.
 - Sei URL esistevano già; 91 sono nuovi nel registro di Design-App. Catalogo Uiverse complessivo: **100 componenti**.
