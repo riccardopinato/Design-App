@@ -723,3 +723,6 @@
 
 [Report dettagliato](../UI-UX/UIVERSE/FAVORITES/ANALISI_TECNICA_57.md). Sorgenti letti e verificati contro blob Git; 35 con keyframes e 16 con hover. Questo non equivale a esecuzione/QA su dispositivo. Ogni segnalazione statica rimane un rischio da verificare.
 
+## Aggiornamento recupero pubblico (2026-11-18)
+
+Originali HTML/CSS aggiunti: **43**; catalogo **100/100**; Favorites **97/97**; codice non recuperato **0**. Provenienza e checksum in [RECUPERO_API](../UI-UX/UIVERSE/FAVORITES/RECUPERO_API_2026_11_18.json). Le cifre precedenti documentano lo stato storico prima di questo recupero. Nessuna adozione o test su app consumer.

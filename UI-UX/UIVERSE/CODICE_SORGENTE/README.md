@@ -1,6 +1,6 @@
 # Uiverse — archivio HTML/CSS originale (recupero rapido)
 
-**57 sorgenti originali** provenienti dal repository pubblico [uiverse-io/galaxy](https://github.com/uiverse-io/galaxy) al commit `adbd2adde0a299a3956ea288fb444ec01891ca41`. Di questi 54 appartengono ai 97 Favorites esportati, 3 al precedente lotto ma non risultano nei Favorites.
+**100 componenti con codice originale conservato**. I primi **57 snapshot HTML/CSS** derivano dall'archivio storico [uiverse-io/galaxy](https://github.com/uiverse-io/galaxy) al commit `adbd2adde0a299a3956ea288fb444ec01891ca41` (54 sono Favorites, 3 non lo sono). Gli altri **43** sono stati recuperati dalle pagine pubbliche Uiverse tramite endpoint dati Remix, con **file HTML e CSS separati**, UUID del post e SHA-256; questi ultimi **non hanno un commit sorgente Galaxy**. [Evidenze recupero](../FAVORITES/RECUPERO_API_2026_11_18.json).
 
 Ogni codice è **una copia originale HTML/CSS con blob Git verificabile**: non è una conversione Flutter/Compose, né una garanzia di funzionamento/accessibilità nell'app. La [licenza MIT](./LICENSE-Uiverse-Galaxy-MIT.txt) va preservata in caso di riuso, verificando anche eventuali asset terzi inclusi.
 
@@ -64,9 +64,9 @@ Ogni codice è **una copia originale HTML/CSS con blob Git verificabile**: non �
 | UIV-099 | [xXJollyHAKERXx/lucky-falcon-75](https://uiverse.io/xXJollyHAKERXx/lucky-falcon-75) | [Apri](./UIV-099_original.html) | [Originale](https://github.com/uiverse-io/galaxy/blob/adbd2adde0a299a3956ea288fb444ec01891ca41/loaders/xXJollyHAKERXx_lucky-falcon-75.html) | `7251e090e8398d62610a883e70c0426780631557` |
 | UIV-100 | [zanina-yassine/afraid-eel-50](https://uiverse.io/zanina-yassine/afraid-eel-50) | [Apri](./UIV-100_original.html) | [Originale](https://github.com/uiverse-io/galaxy/blob/adbd2adde0a299a3956ea288fb444ec01891ca41/Toggle-switches/zanina-yassine_afraid-eel-50.html) | `0912f31f0eff6995ef91fc5e6c8fa5103db93b60` |
 
-## Codice mancante
+## Stato codice mancante (checkpoint precedente)
 
-**43 dei 97 Favorites** non hanno codice recuperato dall'archivio Galaxy 2024. [Elenco puntuale dei link e categorie](../FAVORITES/CODICE_NON_REPERITO.md). Non creare snippet inventati o dichiarare COPY_READY.
+**Storicamente 43 dei 97 Favorites** non erano nell'archivio Galaxy 2024; ora **tutti e 43 sono stati recuperati** direttamente dalle pagine Uiverse. [Registro mancanti aggiornato: zero](../FAVORITES/CODICE_NON_REPERITO.md). [Elenco puntuale dei link e categorie](../FAVORITES/CODICE_NON_REPERITO.md). Non creare snippet inventati o dichiarare COPY_READY.
 
 ## Protocollo per l'adattamento
 
@@ -80,3 +80,50 @@ Ogni codice è **una copia originale HTML/CSS con blob Git verificabile**: non �
 
 [Analisi tecnica dei 57 originali](../FAVORITES/ANALISI_TECNICA_57.md): tag CSS, SVG, keyframes, stati hover, animazioni, gradiente e rischi di riuso rilevati staticamente. Le segnalazioni devono essere confermate in una prova consumer reale.
 
+## Recupero diretto dal sito Uiverse
+
+**43 originali aggiuntivi** in coppie HTML/CSS, non presenti nel vecchio archivio Galaxy. [SHA/post ID/provenienza](../FAVORITES/RECUPERO_API_2026_11_18.json). MIT per post Uiverse; originale Web non testato.
+
+- UIV-005: [HTML](./UIV-005_original.html), [CSS](./UIV-005_original.css), [pagina](https://uiverse.io/amir_6539/red-duck-82).
+- UIV-006: [HTML](./UIV-006_original.html), [CSS](./UIV-006_original.css), [pagina](https://uiverse.io/JustCode14/red-dingo-61).
+- UIV-007: [HTML](./UIV-007_original.html), [CSS](./UIV-007_original.css), [pagina](https://uiverse.io/arthur_6104/orange-walrus-50).
+- UIV-010: [HTML](./UIV-010_original.html), [CSS](./UIV-010_original.css), [pagina](https://uiverse.io/00Kubi/fluffy-jellyfish-87).
+- UIV-015: [HTML](./UIV-015_original.html), [CSS](./UIV-015_original.css), [pagina](https://uiverse.io/FColombati/spotty-snake-82).
+- UIV-016: [HTML](./UIV-016_original.html), [CSS](./UIV-016_original.css), [pagina](https://uiverse.io/Gidarx/clever-panther-6).
+- UIV-017: [HTML](./UIV-017_original.html), [CSS](./UIV-017_original.css), [pagina](https://uiverse.io/Gidarx/moody-falcon-73).
+- UIV-031: [HTML](./UIV-031_original.html), [CSS](./UIV-031_original.css), [pagina](https://uiverse.io/Novaxlo/rotten-lionfish-4).
+- UIV-038: [HTML](./UIV-038_original.html), [CSS](./UIV-038_original.css), [pagina](https://uiverse.io/Priyanshu02020/popular-puma-87).
+- UIV-043: [HTML](./UIV-043_original.html), [CSS](./UIV-043_original.css), [pagina](https://uiverse.io/Stavros2410/wet-duck-69).
+- UIV-045: [HTML](./UIV-045_original.html), [CSS](./UIV-045_original.css), [pagina](https://uiverse.io/Uncannypotato69/honest-starfish-32).
+- UIV-046: [HTML](./UIV-046_original.html), [CSS](./UIV-046_original.css), [pagina](https://uiverse.io/Uncannypotato69/rotten-wasp-10).
+- UIV-050: [HTML](./UIV-050_original.html), [CSS](./UIV-050_original.css), [pagina](https://uiverse.io/andrew-manzyk/fast-vampirebat-53).
+- UIV-051: [HTML](./UIV-051_original.html), [CSS](./UIV-051_original.css), [pagina](https://uiverse.io/andrew-manzyk/young-walrus-64).
+- UIV-052: [HTML](./UIV-052_original.html), [CSS](./UIV-052_original.css), [pagina](https://uiverse.io/ashif_6672/rare-bat-68).
+- UIV-054: [HTML](./UIV-054_original.html), [CSS](./UIV-054_original.css), [pagina](https://uiverse.io/byllzz/great-wombat-13).
+- UIV-055: [HTML](./UIV-055_original.html), [CSS](./UIV-055_original.css), [pagina](https://uiverse.io/chase2k25/modern-stingray-54).
+- UIV-056: [HTML](./UIV-056_original.html), [CSS](./UIV-056_original.css), [pagina](https://uiverse.io/chase2k25/warm-chicken-23).
+- UIV-060: [HTML](./UIV-060_original.html), [CSS](./UIV-060_original.css), [pagina](https://uiverse.io/dexter-st/breezy-zebra-94).
+- UIV-061: [HTML](./UIV-061_original.html), [CSS](./UIV-061_original.css), [pagina](https://uiverse.io/dexter-st/bright-lizard-8).
+- UIV-062: [HTML](./UIV-062_original.html), [CSS](./UIV-062_original.css), [pagina](https://uiverse.io/dexter-st/spicy-otter-30).
+- UIV-063: [HTML](./UIV-063_original.html), [CSS](./UIV-063_original.css), [pagina](https://uiverse.io/dexter-st/tough-falcon-78).
+- UIV-064: [HTML](./UIV-064_original.html), [CSS](./UIV-064_original.css), [pagina](https://uiverse.io/dopekid_9309/tiny-dog-80).
+- UIV-065: [HTML](./UIV-065_original.html), [CSS](./UIV-065_original.css), [pagina](https://uiverse.io/dovatgabriel/massive-vampirebat-17).
+- UIV-066: [HTML](./UIV-066_original.html), [CSS](./UIV-066_original.css), [pagina](https://uiverse.io/elijahgummer/polite-earwig-72).
+- UIV-067: [HTML](./UIV-067_original.html), [CSS](./UIV-067_original.css), [pagina](https://uiverse.io/elijahgummer/young-horse-7).
+- UIV-068: [HTML](./UIV-068_original.html), [CSS](./UIV-068_original.css), [pagina](https://uiverse.io/esraaabdel-kareem/bad-dragonfly-54).
+- UIV-069: [HTML](./UIV-069_original.html), [CSS](./UIV-069_original.css), [pagina](https://uiverse.io/fthisilak/bitter-termite-36).
+- UIV-073: [HTML](./UIV-073_original.html), [CSS](./UIV-073_original.css), [pagina](https://uiverse.io/ilkhoeri/thin-bobcat-83).
+- UIV-074: [HTML](./UIV-074_original.html), [CSS](./UIV-074_original.css), [pagina](https://uiverse.io/jeremy_4982/massive-falcon-52).
+- UIV-076: [HTML](./UIV-076_original.html), [CSS](./UIV-076_original.css), [pagina](https://uiverse.io/kat_2522/rude-robin-51).
+- UIV-078: [HTML](./UIV-078_original.html), [CSS](./UIV-078_original.css), [pagina](https://uiverse.io/kennyotsu/giant-sloth-18).
+- UIV-079: [HTML](./UIV-079_original.html), [CSS](./UIV-079_original.css), [pagina](https://uiverse.io/kennyotsu/selfish-bear-69).
+- UIV-081: [HTML](./UIV-081_original.html), [CSS](./UIV-081_original.css), [pagina](https://uiverse.io/kennyotsu/tender-badger-21).
+- UIV-083: [HTML](./UIV-083_original.html), [CSS](./UIV-083_original.css), [pagina](https://uiverse.io/kennyotsu/wonderful-firefox-31).
+- UIV-085: [HTML](./UIV-085_original.html), [CSS](./UIV-085_original.css), [pagina](https://uiverse.io/m1her/odd-fireant-56).
+- UIV-086: [HTML](./UIV-086_original.html), [CSS](./UIV-086_original.css), [pagina](https://uiverse.io/mamyapro123/cuddly-warthog-66).
+- UIV-091: [HTML](./UIV-091_original.html), [CSS](./UIV-091_original.css), [pagina](https://uiverse.io/monkey_8812/curly-moth-56).
+- UIV-092: [HTML](./UIV-092_original.html), [CSS](./UIV-092_original.css), [pagina](https://uiverse.io/mymiamo/quiet-dragon-5).
+- UIV-093: [HTML](./UIV-093_original.html), [CSS](./UIV-093_original.css), [pagina](https://uiverse.io/preet_7613/new-cougar-63).
+- UIV-095: [HTML](./UIV-095_original.html), [CSS](./UIV-095_original.css), [pagina](https://uiverse.io/seoulchik/funny-seahorse-89).
+- UIV-096: [HTML](./UIV-096_original.html), [CSS](./UIV-096_original.css), [pagina](https://uiverse.io/solowzrd/wet-lionfish-63).
+- UIV-098: [HTML](./UIV-098_original.html), [CSS](./UIV-098_original.css), [pagina](https://uiverse.io/whoisyourdeadie/foolish-rabbit-13).

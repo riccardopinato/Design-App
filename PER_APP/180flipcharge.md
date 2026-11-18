@@ -64,7 +64,7 @@ Confrontare HEAD, Product Bible e schermate reali; confermare i pattern da imple
 
 | ID / Uiverse | Famiglia | Schermata o ruolo proposto | Fit | Codice nel Design-App |
 |---|---|---|---|---|
-| [UIV-006](https://uiverse.io/JustCode14/red-dingo-61) | SWITCH | Toggle semantico legato a impostazione reale | MEDIUM | Codice non recuperato |
+| [UIV-006](https://uiverse.io/JustCode14/red-dingo-61) | SWITCH | Toggle semantico legato a impostazione reale | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-006_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-006_original.css) |
 | [UIV-027](https://uiverse.io/Nawsome/empty-snail-69) | SWITCH | Preferenza on/off persistita | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-027_original.html) |
 | [UIV-049](https://uiverse.io/andrew-demchenk0/honest-stingray-90) | SWITCH | Preferenza on/off persistita | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-049_original.html) |
 | [UIV-088](https://uiverse.io/mobinkakei/great-skunk-8) | SWITCH | Preferenza on/off persistita | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-088_original.html) |

@@ -11,8 +11,8 @@
   "completeness": "REQUIRES_USER_COUNT_VERIFICATION",
   "already_catalogued": 6,
   "new_catalogued": 91,
-  "code_available": 54,
-  "source_missing": 43,
+  "code_available": 97,
+  "source_missing": 0,
   "source_repo_ref": "adbd2adde0a299a3956ea288fb444ec01891ca41",
   "privacy": "URLS_ONLY_NO_CREDENTIALS",
   "items": [
@@ -23,8 +23,12 @@
       "author": "00Kubi",
       "slug": "fluffy-jellyfish-87",
       "category": "CARD",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-010_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-010_original.css",
+      "source_post_id": "072967fd-6ec4-4b64-8d72-c1498a4c1264",
+      "source_html_sha256": "d40ae2ef56486e8a482734e8469084a38b1b7d7652e314d2f5d03c61a05be11a",
+      "source_css_sha256": "2ae3a31b65cd1269d2f62f0b2f7c28d50d92467106c38b0c7d25a835cb3a1013"
     },
     {
       "id": "UIV-011",
@@ -73,8 +77,12 @@
       "author": "FColombati",
       "slug": "spotty-snake-82",
       "category": "BUTTON",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-015_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-015_original.css",
+      "source_post_id": "05b6737d-d29b-40c7-83db-25c482aedb5f",
+      "source_html_sha256": "af49e5e71b3e76337f430fe4c4006750bdf08827a9e2efce20ffd23baeb4a328",
+      "source_css_sha256": "971f11adaf594c098dc56def2f80a85ecfe9ed8c97f633a4035cb213cf711f87"
     },
     {
       "id": "UIV-016",
@@ -83,8 +91,12 @@
       "author": "Gidarx",
       "slug": "clever-panther-6",
       "category": "CARD",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-016_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-016_original.css",
+      "source_post_id": "cfec525a-84c8-4670-a56a-bf22bb0ff717",
+      "source_html_sha256": "f1bad2f0a77af9d76754c9762eb18fa6c00041a6874fb414ea154f2af46a075e",
+      "source_css_sha256": "3915365c11ecafe659b56b972d8be7806bc5e7e8d3817f0f46200b7e8daa9137"
     },
     {
       "id": "UIV-017",
@@ -93,8 +105,12 @@
       "author": "Gidarx",
       "slug": "moody-falcon-73",
       "category": "CARD",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-017_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-017_original.css",
+      "source_post_id": "6f1b9297-85a8-4203-9232-0a727630ef1a",
+      "source_html_sha256": "71b15c217a5f1cfdfd29d55540eaddd28c83c1d196d0fff1e9b76c89c56de1a9",
+      "source_css_sha256": "cbaa16f51f57bb871e287b9bb07281a684a1d494414ddf9dfc1b6e26d9645f5f"
     },
     {
       "id": "UIV-018",
@@ -153,8 +169,12 @@
       "author": "JustCode14",
       "slug": "red-dingo-61",
       "category": "SWITCH",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-006_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-006_original.css",
+      "source_post_id": "0f86e0a2-d834-48ac-925f-7e761ab31929",
+      "source_html_sha256": "c8eccee2edf80ba77651504997070107a29a5e87017005ab8667f727f0607292",
+      "source_css_sha256": "9aa580e75dfcfbee6d86729e7fb86e34195cdde0ab0b6ebc36a203048e8890a2"
     },
     {
       "id": "UIV-022",
@@ -253,8 +273,12 @@
       "author": "Novaxlo",
       "slug": "rotten-lionfish-4",
       "category": "LOADER",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-031_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-031_original.css",
+      "source_post_id": "66416642-f298-46ef-b74d-4261b70c7976",
+      "source_html_sha256": "07dd650d4ffd6c81a17047ebf39bc5f14ef4080acb56997eb591c62e9b1715bf",
+      "source_css_sha256": "1cdbd20dfcaf2ac9f28732494e812916ad25e2d2bcd52b448fea1f053edebf43"
     },
     {
       "id": "UIV-032",
@@ -323,8 +347,12 @@
       "author": "Priyanshu02020",
       "slug": "popular-puma-87",
       "category": "BUTTON",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-038_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-038_original.css",
+      "source_post_id": "859ba32c-cda8-471b-8c7a-186145e4844f",
+      "source_html_sha256": "57ac3097921d1068a8e9856c850ed72f4d2e80c264f5b7f6360419b6d586d671",
+      "source_css_sha256": "05fbc98ddba090c1c074b6bb0ec2ec671efd3906f83788207645f9d3997fc678"
     },
     {
       "id": "UIV-039",
@@ -372,9 +400,13 @@
       "original_export_position": 36,
       "author": "Stavros2410",
       "slug": "wet-duck-69",
-      "category": "UNKNOWN",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "category": "INPUT",
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-043_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-043_original.css",
+      "source_post_id": "bef2cd88-8c0a-4769-ab35-72b1b33c7950",
+      "source_html_sha256": "6c103f9714b2d26236dfa62bd2c76b1215201fb5bc2c78daffc1b6a472cf6054",
+      "source_css_sha256": "ed185721941a85890e71c680dcc16aec56253fb7ae3efb015dc3f2b42c291f31"
     },
     {
       "id": "UIV-044",
@@ -392,9 +424,13 @@
       "original_export_position": 38,
       "author": "Uncannypotato69",
       "slug": "honest-starfish-32",
-      "category": "UNKNOWN",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "category": "CHECKBOX",
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-045_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-045_original.css",
+      "source_post_id": "0dc76fc0-5fb3-4a79-a039-dd3f7c21d8ae",
+      "source_html_sha256": "bcb539d7c8d2eb669a6faf27b72f21341ce9bb3fc1a157f19620c01e124ded3d",
+      "source_css_sha256": "90db01f97d281986f19c83c5adeabb766346dcc1e7cac7b38b53354e27a431cb"
     },
     {
       "id": "UIV-046",
@@ -403,8 +439,12 @@
       "author": "Uncannypotato69",
       "slug": "rotten-wasp-10",
       "category": "CHECKBOX",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-046_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-046_original.css",
+      "source_post_id": "ba996ac1-45d9-4635-9676-769d232c35f0",
+      "source_html_sha256": "dbcf28d90acf8ed7be8a142b3cf9060d06413f951bd0f4e382f7147f7738eacb",
+      "source_css_sha256": "8535a06138ac15a97926d98df90812903f53827ede77128e5be258c3047dd522"
     },
     {
       "id": "UIV-047",
@@ -443,8 +483,12 @@
       "author": "amir_6539",
       "slug": "red-duck-82",
       "category": "CARD_BACKGROUND",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-005_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-005_original.css",
+      "source_post_id": "8d05cb6e-73ab-43bc-bd9d-96c88816d3ef",
+      "source_html_sha256": "6b4d1c9e6eff54e6b7ce644fc455ebd61190df60ec2d40f58132114156c09ce3",
+      "source_css_sha256": "0f21e764cfed3620bdc5f0be69abfc8ffc81ff57138b78103d3558ef3139e03b"
     },
     {
       "id": "UIV-049",
@@ -463,8 +507,12 @@
       "author": "andrew-manzyk",
       "slug": "fast-vampirebat-53",
       "category": "LOADER",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-050_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-050_original.css",
+      "source_post_id": "c9c056af-62a1-44d7-ac23-3ddcf37abda0",
+      "source_html_sha256": "e4ecd5b73fa3e0dd183b67ab71c6a6021ad8d6cc7645fc7ff112f7be3314c91f",
+      "source_css_sha256": "8030fe9627d62a9355fee1b3bdd6b70fd4b66d4ee8184461f927bd95c1d6dc74"
     },
     {
       "id": "UIV-051",
@@ -473,8 +521,12 @@
       "author": "andrew-manzyk",
       "slug": "young-walrus-64",
       "category": "LOADER",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-051_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-051_original.css",
+      "source_post_id": "9586df71-131e-4f54-a37c-f2995255503a",
+      "source_html_sha256": "1a098167b2f1703a538edfea127247697fbc2a944f5bb3e23e7d799e83afb2b5",
+      "source_css_sha256": "a7ed8c203879ca1d028d387440b55ec271b9a595f48d388cff1074a5b342e629"
     },
     {
       "id": "UIV-007",
@@ -483,8 +535,12 @@
       "author": "arthur_6104",
       "slug": "orange-walrus-50",
       "category": "LOADER",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-007_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-007_original.css",
+      "source_post_id": "bcdccebf-af70-4a4c-b26c-d23adfb3f1c3",
+      "source_html_sha256": "71ec8fa2108323ea613be965ed7881f475548c1bd26bb24c0ce6dc42d3d8fc62",
+      "source_css_sha256": "821aac844fda8002d54ffc8a21e04f1281f4ed54ca2f0d3353a5fc2381ddb8cf"
     },
     {
       "id": "UIV-052",
@@ -492,9 +548,13 @@
       "original_export_position": 48,
       "author": "ashif_6672",
       "slug": "rare-bat-68",
-      "category": "UNKNOWN",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "category": "CARD",
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-052_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-052_original.css",
+      "source_post_id": "35c8b9c8-a3f4-4cc7-a130-af4772d66508",
+      "source_html_sha256": "7f0a94023aba1b6f4f2cff56c1c7f158e1cc34ddb7f0ca8964671ccfdc1e10a3",
+      "source_css_sha256": "fdf442099f168abee3d16da335ea7ce571cc723b389a58e1f185604d19887791"
     },
     {
       "id": "UIV-053",
@@ -513,8 +573,12 @@
       "author": "byllzz",
       "slug": "great-wombat-13",
       "category": "CARD",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-054_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-054_original.css",
+      "source_post_id": "6a92bd93-998b-425d-8075-9b906c321a6d",
+      "source_html_sha256": "fcda3bf08d557107bc275e025e263f579bcddb01c51c44fd06810cf95573aef8",
+      "source_css_sha256": "ec7d29a46acf5d68be93aea675a44af367eaa2fa1a472c4ad91ab71508f73347"
     },
     {
       "id": "UIV-055",
@@ -523,8 +587,12 @@
       "author": "chase2k25",
       "slug": "modern-stingray-54",
       "category": "LOADER",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-055_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-055_original.css",
+      "source_post_id": "c33fd7dc-aaca-419e-8a3d-996f8fc7a639",
+      "source_html_sha256": "042453378267923103b654d3e99a0e2f197ad42eeed6b625ef56a2e7a97fde8d",
+      "source_css_sha256": "c66a1dac5a5b7dd818820d3a7ec81d1f37c304077f2c46fceb4bf2d6e765d143"
     },
     {
       "id": "UIV-056",
@@ -533,8 +601,12 @@
       "author": "chase2k25",
       "slug": "warm-chicken-23",
       "category": "CARD",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-056_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-056_original.css",
+      "source_post_id": "54deb48a-f1b8-45c2-a53b-6b5eff6bb4fd",
+      "source_html_sha256": "f80e35ba95eaccb07889b2f3af91ae989d1a4eeb2648f7cfc1776a4934b599ed",
+      "source_css_sha256": "1c5fbebbcb81e89a8f2fd9961fe01841b17160cf8c1fa66f840a7536cabfe04d"
     },
     {
       "id": "UIV-057",
@@ -573,8 +645,12 @@
       "author": "dexter-st",
       "slug": "breezy-zebra-94",
       "category": "BUTTON",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-060_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-060_original.css",
+      "source_post_id": "0abef0c8-952a-48ad-aada-68b0d566770a",
+      "source_html_sha256": "76d2d575562e51ff0f2352b91a53a44902fa4fd07125449e4e4bb7331396c9f3",
+      "source_css_sha256": "31969163e281cf72c7d037ced237e955afee7fc41e7cb0ac52198c03078a1245"
     },
     {
       "id": "UIV-061",
@@ -583,8 +659,12 @@
       "author": "dexter-st",
       "slug": "bright-lizard-8",
       "category": "LOADER",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-061_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-061_original.css",
+      "source_post_id": "214fcf63-946b-4419-a752-5d04819cbba6",
+      "source_html_sha256": "fc815a1301da403fd61d84b0bb2137b3e7913b2f89b0cd388985b57a550cffcb",
+      "source_css_sha256": "cf7ff4a3bab7f3b11459d70668c84a0d322fad57f75101a6c752382c54b790d6"
     },
     {
       "id": "UIV-062",
@@ -593,8 +673,12 @@
       "author": "dexter-st",
       "slug": "spicy-otter-30",
       "category": "LOADER",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-062_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-062_original.css",
+      "source_post_id": "40f3bb24-3b2c-4e80-8d2a-a4e249616eec",
+      "source_html_sha256": "70efb0c8c6a33bd6344d722cc94b914c4de1a1195531e2ce39eef8a127f496e4",
+      "source_css_sha256": "b0d900b3bbf40cbd8bcbf21ec545861a0b3f4469b07bf0b08807be875a2a92d9"
     },
     {
       "id": "UIV-063",
@@ -603,8 +687,12 @@
       "author": "dexter-st",
       "slug": "tough-falcon-78",
       "category": "CARD",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-063_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-063_original.css",
+      "source_post_id": "572dabf2-c062-4d83-91ca-d251d2dae665",
+      "source_html_sha256": "d56af959f30463ba3c51a2a0fb5751e692361a3105800453d556826de4373095",
+      "source_css_sha256": "aad3351172cbec3921797a4dce819234cf50a6e0483fa66f55d72937f6a48992"
     },
     {
       "id": "UIV-064",
@@ -612,9 +700,13 @@
       "original_export_position": 60,
       "author": "dopekid_9309",
       "slug": "tiny-dog-80",
-      "category": "UNKNOWN",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "category": "BUTTON",
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-064_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-064_original.css",
+      "source_post_id": "4dccb04c-dbfe-473d-91f0-4502f5050f53",
+      "source_html_sha256": "3a4e69c517ffa57e863c16a00bf5efa75431a7dd4b1cef8e8a5c9c1608fd1c61",
+      "source_css_sha256": "bcf64d81ce5207076e4e26640090e603a0c2668975a631eaf2e458be19182646"
     },
     {
       "id": "UIV-065",
@@ -623,8 +715,12 @@
       "author": "dovatgabriel",
       "slug": "massive-vampirebat-17",
       "category": "LOADER",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-065_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-065_original.css",
+      "source_post_id": "5f4c0533-75f5-44b3-957c-047df43ad94a",
+      "source_html_sha256": "8ff4cecbd734434d069b213a471ababc0f03064e6d3fc5785f311475c7f83de2",
+      "source_css_sha256": "df378d86d951aa2aa68ee12331b010e1786a89bed363a098271862a76186ccca"
     },
     {
       "id": "UIV-066",
@@ -633,8 +729,12 @@
       "author": "elijahgummer",
       "slug": "polite-earwig-72",
       "category": "LOADER",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-066_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-066_original.css",
+      "source_post_id": "8a9d240b-70fb-4529-a1e2-6c3f6b6da539",
+      "source_html_sha256": "417043c0cc4d44301c3099e34368b093fa1951c53e87865eb6d9cde9925725c6",
+      "source_css_sha256": "c42ae5c44a3807b8d61d4657f9a5398fa7d043875cc252a7da1d385f4e20bb17"
     },
     {
       "id": "UIV-067",
@@ -643,8 +743,12 @@
       "author": "elijahgummer",
       "slug": "young-horse-7",
       "category": "RADIO",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-067_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-067_original.css",
+      "source_post_id": "8c786420-4d6c-4784-adfc-75113fc2ce7c",
+      "source_html_sha256": "2b17ee62551af36954224f0e0a30f1fe7a3fe142089a982a02c260223c188259",
+      "source_css_sha256": "187e86e3d901b76b236f03094efdf925fa78ac16942a36646e6bbbbfcf30a19d"
     },
     {
       "id": "UIV-009",
@@ -663,8 +767,12 @@
       "author": "esraaabdel-kareem",
       "slug": "bad-dragonfly-54",
       "category": "LOADER",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-068_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-068_original.css",
+      "source_post_id": "6b8b2f3e-5ab3-4c85-b1a3-369c46528e43",
+      "source_html_sha256": "02966a2994c8c3812a3739ed6c443d979f58de63133ba87831e84300f470c9da",
+      "source_css_sha256": "a5ba1bdea1b794f18f0822449f462f73265d42403ab6ffcaec755f108d7a623b"
     },
     {
       "id": "UIV-069",
@@ -673,8 +781,12 @@
       "author": "fthisilak",
       "slug": "bitter-termite-36",
       "category": "BUTTON",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-069_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-069_original.css",
+      "source_post_id": "0758a19b-eeff-407d-9f29-0d49b585cb4e",
+      "source_html_sha256": "f202476715dcdee8e79141cec1e7ae6a9a01c5de572490fbe049294f09bca0a7",
+      "source_css_sha256": "fef4f113cea8df7a87e6e0fb09d282618fc69224e000c0fe28fc846552c62056"
     },
     {
       "id": "UIV-070",
@@ -713,8 +825,12 @@
       "author": "ilkhoeri",
       "slug": "thin-bobcat-83",
       "category": "CARD",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-073_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-073_original.css",
+      "source_post_id": "d5f77912-4be5-429e-a1fe-6ee405b3af4e",
+      "source_html_sha256": "08f06c6a4da853a794745b6bc761291284a41af5522c0dd2a43de16d9837feb8",
+      "source_css_sha256": "2d7751c6aa718a7095a1b89d304e007d3154cce7a5099b9c6478a61cd4081618"
     },
     {
       "id": "UIV-074",
@@ -723,8 +839,12 @@
       "author": "jeremy_4982",
       "slug": "massive-falcon-52",
       "category": "LOADER",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-074_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-074_original.css",
+      "source_post_id": "57d97668-339f-4d79-a5bf-aeaf9e71262e",
+      "source_html_sha256": "242a11e3f0ddddcdfa4cdbeb981aef79726d61e7ef371cc4ae63269e04890d6d",
+      "source_css_sha256": "96061b5575199e6e447bf38cb64d24bbcd20ad0bb177230b6742e6e9fcdbcebc"
     },
     {
       "id": "UIV-075",
@@ -743,8 +863,12 @@
       "author": "kat_2522",
       "slug": "rude-robin-51",
       "category": "LOADER",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-076_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-076_original.css",
+      "source_post_id": "a3e3ca84-95bb-4f8f-bc92-fc965f73fb6b",
+      "source_html_sha256": "8e68cb21c4f04b32ef4dd0eec193d279b9fabc70a3c350bd69b34d0cce4509ed",
+      "source_css_sha256": "4f1aff35c8cc243dbdba11b02b4dfe13ed656102956a6c964326c7a013c07c87"
     },
     {
       "id": "UIV-077",
@@ -763,8 +887,12 @@
       "author": "kennyotsu",
       "slug": "giant-sloth-18",
       "category": "CARD",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-078_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-078_original.css",
+      "source_post_id": "cf968391-171a-4a89-9269-2da07449dbb5",
+      "source_html_sha256": "c1503bb71a787b0180dae3c50af9c65945414a9f088a362fd6eb5aae20bbcf88",
+      "source_css_sha256": "8d6d5901b031256611981991e055a285a70585dc7d469e585e42107001faf669"
     },
     {
       "id": "UIV-079",
@@ -772,9 +900,13 @@
       "original_export_position": 76,
       "author": "kennyotsu",
       "slug": "selfish-bear-69",
-      "category": "UNKNOWN",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "category": "CARD",
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-079_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-079_original.css",
+      "source_post_id": "70d76de9-1387-4e1c-af2b-d8fa3ba2a4c6",
+      "source_html_sha256": "a4d0309a422013ef4cb66cecd02a36d0eaf83c940b3c1629b606ae61c68f4054",
+      "source_css_sha256": "0b7fc3cb23ca33925c860db5d8f64d48892819cdf452048c92c69d9385a79370"
     },
     {
       "id": "UIV-080",
@@ -793,8 +925,12 @@
       "author": "kennyotsu",
       "slug": "tender-badger-21",
       "category": "CARD",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-081_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-081_original.css",
+      "source_post_id": "06c20316-b047-4720-95a9-bf81f5df14b4",
+      "source_html_sha256": "c8a179e4629472a2924e1756d69a96673eafd22b6dcf9b940e3c4f3b512fe2e0",
+      "source_css_sha256": "1e06c6b83d864a9bc6882e30aa29b3a32cc7ea0a6c0bb6c0851c207d533e6229"
     },
     {
       "id": "UIV-082",
@@ -812,9 +948,13 @@
       "original_export_position": 80,
       "author": "kennyotsu",
       "slug": "wonderful-firefox-31",
-      "category": "UNKNOWN",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "category": "CARD",
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-083_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-083_original.css",
+      "source_post_id": "5e7721fe-34a8-4f3f-95f8-f8d47dcaf82e",
+      "source_html_sha256": "91a6896c6060236bf319f90ff9db7270e2614cbd358afc5feb759c356891d581",
+      "source_css_sha256": "9f4b8ed24792791d2ddbb5621e99c296108bfdae1808613c8205bbda431dedf1"
     },
     {
       "id": "UIV-084",
@@ -833,8 +973,12 @@
       "author": "m1her",
       "slug": "odd-fireant-56",
       "category": "SWITCH",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-085_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-085_original.css",
+      "source_post_id": "beb9e46e-d923-46fb-a075-a209986f962f",
+      "source_html_sha256": "db3bd1b682afd9a1e1c883ee5ee0506e61e34b7700ccd464b993d62d09b9257e",
+      "source_css_sha256": "9e5862e84ddc15a498fbd576be374a5f98f91ff18365cb1b1c22caa2cb77a12d"
     },
     {
       "id": "UIV-086",
@@ -843,8 +987,12 @@
       "author": "mamyapro123",
       "slug": "cuddly-warthog-66",
       "category": "SWITCH",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-086_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-086_original.css",
+      "source_post_id": "cf7b488d-0479-4daa-a264-46d221aaaa64",
+      "source_html_sha256": "83d49250b3b1c88ef2e891f1019524bb7e20de4c7c5c0f452043eafc668fb85d",
+      "source_css_sha256": "aa4bec81a8fb5542b57dbf76f7e148c5b8ca6a4dc9eca21d266ec10e813e7937"
     },
     {
       "id": "UIV-087",
@@ -893,8 +1041,12 @@
       "author": "monkey_8812",
       "slug": "curly-moth-56",
       "category": "CARD",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-091_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-091_original.css",
+      "source_post_id": "4f75c356-f168-43f3-bcb6-9e0576a1012d",
+      "source_html_sha256": "98746956c94cd28ac3884456cf8b6e4fcaa564825fa71b6021b3983ec7b56b52",
+      "source_css_sha256": "88076b458eca6a7f468e7b8e96ec9243b1e9b3b886954192f3bffdaad3037a63"
     },
     {
       "id": "UIV-092",
@@ -903,8 +1055,12 @@
       "author": "mymiamo",
       "slug": "quiet-dragon-5",
       "category": "CARD",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-092_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-092_original.css",
+      "source_post_id": "857147cf-d7de-4e53-8368-fe615f807df9",
+      "source_html_sha256": "c451848eb209a415446f2eb6ce250d77c487c28916ee2f9d60d3c43a2a299495",
+      "source_css_sha256": "b417aa938d63540305dca356ede42213bf2750c97f240ad67d6fb5477dea4fe9"
     },
     {
       "id": "UIV-093",
@@ -912,9 +1068,13 @@
       "original_export_position": 90,
       "author": "preet_7613",
       "slug": "new-cougar-63",
-      "category": "UNKNOWN",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "category": "CARD",
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-093_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-093_original.css",
+      "source_post_id": "555d5a2c-941e-4b62-b283-8e9f4656fa19",
+      "source_html_sha256": "648c8603540f053da927a17c13232e82938bed29b8bb57e5a4668d6ff5bfa3ee",
+      "source_css_sha256": "16053e63077a6b350dcc603153470fbc6cb5af91feae569f770757fed8cd84cf"
     },
     {
       "id": "UIV-094",
@@ -933,8 +1093,12 @@
       "author": "seoulchik",
       "slug": "funny-seahorse-89",
       "category": "CARD",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-095_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-095_original.css",
+      "source_post_id": "1530c020-b1cb-41a9-877e-b05030453c70",
+      "source_html_sha256": "a13b8a769dc5f3282df8f522c5e6a84463ff351b1f7b9ccee89be60d39690d8e",
+      "source_css_sha256": "d0870ab62e267de1a5f8162a5dbd6d9acd585c8f2701ea1e2af0d6d9556897e5"
     },
     {
       "id": "UIV-096",
@@ -943,8 +1107,12 @@
       "author": "solowzrd",
       "slug": "wet-lionfish-63",
       "category": "PATTERN",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-096_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-096_original.css",
+      "source_post_id": "5f31ed4f-5a14-4d04-9d01-926910c13758",
+      "source_html_sha256": "414bbf2bde377e654cbe8621a1530bf6b4b12b6da5862b62c7202159cea084ad",
+      "source_css_sha256": "406be5961d4e346ceb352814dbf6a0f684701f0a23a9d09d3c87520d418e40e4"
     },
     {
       "id": "UIV-097",
@@ -963,8 +1131,12 @@
       "author": "whoisyourdeadie",
       "slug": "foolish-rabbit-13",
       "category": "PATTERN",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-098_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-098_original.css",
+      "source_post_id": "37e5fea4-4c19-4b76-b4b0-7cf3bbca08ba",
+      "source_html_sha256": "16350797e3c7f7767ba5345ff92513bf1fd755d06540e1172cec0a63c9041a81",
+      "source_css_sha256": "572eba224d2a2ee7cfd8d525ab6602ae22d69bcd05cc2226170e9048696f3fcb"
     },
     {
       "id": "UIV-099",
@@ -988,16 +1160,16 @@
     }
   ],
   "categories": {
-    "BUTTON": 7,
-    "CARD": 24,
+    "BUTTON": 8,
+    "CARD": 28,
     "CARD_BACKGROUND": 1,
-    "CHECKBOX": 2,
-    "INPUT": 1,
+    "CHECKBOX": 3,
+    "INPUT": 2,
     "LOADER": 36,
     "PATTERN": 2,
     "RADIO": 3,
     "SWITCH": 13,
-    "TOOLTIP": 1,
-    "UNKNOWN": 7
-  }
+    "TOOLTIP": 1
+  },
+  "last_code_recovery_at": "2026-11-18T11:09:18.470856+00:00"
 }

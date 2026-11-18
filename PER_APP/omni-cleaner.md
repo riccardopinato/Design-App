@@ -173,9 +173,9 @@ Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze
 | ID / Uiverse | Famiglia | Schermata o ruolo proposto | Fit | Codice nel Design-App |
 |---|---|---|---|---|
 | [UIV-001](https://uiverse.io/alexruix/tame-fly-42) | LOADER | Caricamento effettivo durante elaborazione | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-001_original.html) |
-| [UIV-005](https://uiverse.io/amir_6539/red-duck-82) | CARD_BACKGROUND | Sfondo decorativo valutabile solo dopo lettura del codice | MEDIUM | Codice non recuperato |
-| [UIV-006](https://uiverse.io/JustCode14/red-dingo-61) | SWITCH | Toggle semantico legato a impostazione reale | MEDIUM | Codice non recuperato |
-| [UIV-007](https://uiverse.io/arthur_6104/orange-walrus-50) | LOADER | Stato attesa job reale; frase personalizzata quando appropriata | MEDIUM | Codice non recuperato |
+| [UIV-005](https://uiverse.io/amir_6539/red-duck-82) | CARD_BACKGROUND | Sfondo decorativo valutabile solo dopo lettura del codice | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-005_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-005_original.css) |
+| [UIV-006](https://uiverse.io/JustCode14/red-dingo-61) | SWITCH | Toggle semantico legato a impostazione reale | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-006_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-006_original.css) |
+| [UIV-007](https://uiverse.io/arthur_6104/orange-walrus-50) | LOADER | Stato attesa job reale; frase personalizzata quando appropriata | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-007_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-007_original.css) |
 | [UIV-011](https://uiverse.io/Admin12121/black-sheep-17) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-011_original.html) |
 | [UIV-013](https://uiverse.io/AqFox/young-dragon-29) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-013_original.html) |
 | [UIV-018](https://uiverse.io/JaydipPrajapati1910/average-shrimp-57) | SWITCH | Impostazioni scansione persistite | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-018_original.html) |
@@ -187,7 +187,7 @@ Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze
 | [UIV-028](https://uiverse.io/Nawsome/kind-mole-87) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-028_original.html) |
 | [UIV-029](https://uiverse.io/Nawsome/wet-mayfly-23) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-029_original.html) |
 | [UIV-030](https://uiverse.io/Nawsome/young-goat-78) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-030_original.html) |
-| [UIV-031](https://uiverse.io/Novaxlo/rotten-lionfish-4) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | Codice non recuperato |
+| [UIV-031](https://uiverse.io/Novaxlo/rotten-lionfish-4) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-031_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-031_original.css) |
 | [UIV-032](https://uiverse.io/Praashoo7/lucky-hound-44) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-032_original.html) |
 | [UIV-034](https://uiverse.io/Pradeepsaranbishnoi/fast-cobra-20) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-034_original.html) |
 | [UIV-036](https://uiverse.io/Pradeepsaranbishnoi/tall-fish-38) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-036_original.html) |
@@ -195,32 +195,32 @@ Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze
 | [UIV-040](https://uiverse.io/Shoh2008/curvy-bulldog-27) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-040_original.html) |
 | [UIV-041](https://uiverse.io/Shoh2008/ugly-elephant-80) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-041_original.html) |
 | [UIV-042](https://uiverse.io/Shoh2008/yellow-dolphin-16) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-042_original.html) |
-| [UIV-043](https://uiverse.io/Stavros2410/wet-duck-69) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | Codice non recuperato |
+| [UIV-043](https://uiverse.io/Stavros2410/wet-duck-69) | INPUT | Ricerca file per nome con feedback chiaro | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-043_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-043_original.css) |
 | [UIV-044](https://uiverse.io/Subaashbala/average-horse-18) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-044_original.html) |
-| [UIV-045](https://uiverse.io/Uncannypotato69/honest-starfish-32) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | Codice non recuperato |
-| [UIV-050](https://uiverse.io/andrew-manzyk/fast-vampirebat-53) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | Codice non recuperato |
-| [UIV-051](https://uiverse.io/andrew-manzyk/young-walrus-64) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | Codice non recuperato |
-| [UIV-052](https://uiverse.io/ashif_6672/rare-bat-68) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | Codice non recuperato |
+| [UIV-045](https://uiverse.io/Uncannypotato69/honest-starfish-32) | CHECKBOX | Selezione media prima di ogni eliminazione | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-045_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-045_original.css) |
+| [UIV-050](https://uiverse.io/andrew-manzyk/fast-vampirebat-53) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-050_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-050_original.css) |
+| [UIV-051](https://uiverse.io/andrew-manzyk/young-walrus-64) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-051_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-051_original.css) |
+| [UIV-052](https://uiverse.io/ashif_6672/rare-bat-68) | CARD | Card di riepilogo risultati | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-052_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-052_original.css) |
 | [UIV-053](https://uiverse.io/barisdogansutcu/plastic-dolphin-67) | TOOLTIP | Aiuto contestuale non solo hover | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-053_original.html) |
-| [UIV-055](https://uiverse.io/chase2k25/modern-stingray-54) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | Codice non recuperato |
-| [UIV-061](https://uiverse.io/dexter-st/bright-lizard-8) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | Codice non recuperato |
-| [UIV-062](https://uiverse.io/dexter-st/spicy-otter-30) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | Codice non recuperato |
-| [UIV-064](https://uiverse.io/dopekid_9309/tiny-dog-80) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | Codice non recuperato |
-| [UIV-065](https://uiverse.io/dovatgabriel/massive-vampirebat-17) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | Codice non recuperato |
-| [UIV-066](https://uiverse.io/elijahgummer/polite-earwig-72) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | Codice non recuperato |
-| [UIV-068](https://uiverse.io/esraaabdel-kareem/bad-dragonfly-54) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | Codice non recuperato |
+| [UIV-055](https://uiverse.io/chase2k25/modern-stingray-54) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-055_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-055_original.css) |
+| [UIV-061](https://uiverse.io/dexter-st/bright-lizard-8) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-061_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-061_original.css) |
+| [UIV-062](https://uiverse.io/dexter-st/spicy-otter-30) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-062_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-062_original.css) |
+| [UIV-064](https://uiverse.io/dopekid_9309/tiny-dog-80) | BUTTON | CTA per avviare scansione o aprire i risultati | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-064_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-064_original.css) |
+| [UIV-065](https://uiverse.io/dovatgabriel/massive-vampirebat-17) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-065_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-065_original.css) |
+| [UIV-066](https://uiverse.io/elijahgummer/polite-earwig-72) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-066_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-066_original.css) |
+| [UIV-068](https://uiverse.io/esraaabdel-kareem/bad-dragonfly-54) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-068_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-068_original.css) |
 | [UIV-070](https://uiverse.io/gagan-gv/unlucky-yak-4) | CHECKBOX | Selezione duplicati con preview/undo | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-070_original.html) |
 | [UIV-072](https://uiverse.io/gsperandio/shaggy-kangaroo-12) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-072_original.html) |
-| [UIV-074](https://uiverse.io/jeremy_4982/massive-falcon-52) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | Codice non recuperato |
-| [UIV-076](https://uiverse.io/kat_2522/rude-robin-51) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | Codice non recuperato |
-| [UIV-079](https://uiverse.io/kennyotsu/selfish-bear-69) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | Codice non recuperato |
-| [UIV-083](https://uiverse.io/kennyotsu/wonderful-firefox-31) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | Codice non recuperato |
+| [UIV-074](https://uiverse.io/jeremy_4982/massive-falcon-52) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-074_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-074_original.css) |
+| [UIV-076](https://uiverse.io/kat_2522/rude-robin-51) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-076_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-076_original.css) |
+| [UIV-079](https://uiverse.io/kennyotsu/selfish-bear-69) | CARD | Card per gruppo di duplicati | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-079_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-079_original.css) |
+| [UIV-083](https://uiverse.io/kennyotsu/wonderful-firefox-31) | CARD | Card risultato di scansione | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-083_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-083_original.css) |
 | [UIV-084](https://uiverse.io/lukepadiachy/funny-moose-89) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-084_original.html) |
 | [UIV-088](https://uiverse.io/mobinkakei/great-skunk-8) | SWITCH | Impostazioni scansione persistite | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-088_original.html) |
 | [UIV-089](https://uiverse.io/mobinkakei/grumpy-turtle-41) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-089_original.html) |
-| [UIV-093](https://uiverse.io/preet_7613/new-cougar-63) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | Codice non recuperato |
+| [UIV-093](https://uiverse.io/preet_7613/new-cougar-63) | CARD | Card riepilogo archiviazione | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-093_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-093_original.css) |
 | [UIV-094](https://uiverse.io/satyamchaudharydev/splendid-husky-54) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-094_original.html) |
-| [UIV-096](https://uiverse.io/solowzrd/wet-lionfish-63) | PATTERN | Texture background con gate contrasto/FPS | MEDIUM | Codice non recuperato |
+| [UIV-096](https://uiverse.io/solowzrd/wet-lionfish-63) | PATTERN | Texture background con gate contrasto/FPS | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-096_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-096_original.css) |
 | [UIV-099](https://uiverse.io/xXJollyHAKERXx/lucky-falcon-75) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-099_original.html) |
 
 [Registro 97 Favorites](../UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json) · [Matrice complessiva 25 app](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md) · [Archivio codice](../UI-UX/UIVERSE/CODICE_SORGENTE/README.md). Stato: **PROPOSED_ONLY**.

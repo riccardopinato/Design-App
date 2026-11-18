@@ -105,12 +105,12 @@ Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze
 | [UIV-034](https://uiverse.io/Pradeepsaranbishnoi/fast-cobra-20) | LOADER | Preparazione trasferimento reale | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-034_original.html) |
 | [UIV-039](https://uiverse.io/SelfMadeSystem/pretty-treefrog-77) | LOADER | Preparazione trasferimento reale | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-039_original.html) |
 | [UIV-044](https://uiverse.io/Subaashbala/average-horse-18) | LOADER | Preparazione trasferimento reale | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-044_original.html) |
-| [UIV-051](https://uiverse.io/andrew-manzyk/young-walrus-64) | LOADER | Preparazione trasferimento reale | MEDIUM | Codice non recuperato |
-| [UIV-055](https://uiverse.io/chase2k25/modern-stingray-54) | LOADER | Preparazione trasferimento reale | MEDIUM | Codice non recuperato |
-| [UIV-061](https://uiverse.io/dexter-st/bright-lizard-8) | LOADER | Preparazione trasferimento reale | MEDIUM | Codice non recuperato |
-| [UIV-065](https://uiverse.io/dovatgabriel/massive-vampirebat-17) | LOADER | Preparazione trasferimento reale | MEDIUM | Codice non recuperato |
-| [UIV-066](https://uiverse.io/elijahgummer/polite-earwig-72) | LOADER | Preparazione trasferimento reale | MEDIUM | Codice non recuperato |
-| [UIV-074](https://uiverse.io/jeremy_4982/massive-falcon-52) | LOADER | Preparazione trasferimento reale | MEDIUM | Codice non recuperato |
+| [UIV-051](https://uiverse.io/andrew-manzyk/young-walrus-64) | LOADER | Preparazione trasferimento reale | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-051_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-051_original.css) |
+| [UIV-055](https://uiverse.io/chase2k25/modern-stingray-54) | LOADER | Preparazione trasferimento reale | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-055_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-055_original.css) |
+| [UIV-061](https://uiverse.io/dexter-st/bright-lizard-8) | LOADER | Preparazione trasferimento reale | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-061_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-061_original.css) |
+| [UIV-065](https://uiverse.io/dovatgabriel/massive-vampirebat-17) | LOADER | Preparazione trasferimento reale | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-065_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-065_original.css) |
+| [UIV-066](https://uiverse.io/elijahgummer/polite-earwig-72) | LOADER | Preparazione trasferimento reale | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-066_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-066_original.css) |
+| [UIV-074](https://uiverse.io/jeremy_4982/massive-falcon-52) | LOADER | Preparazione trasferimento reale | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-074_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-074_original.css) |
 | [UIV-084](https://uiverse.io/lukepadiachy/funny-moose-89) | LOADER | Preparazione trasferimento reale | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-084_original.html) |
 | [UIV-089](https://uiverse.io/mobinkakei/grumpy-turtle-41) | LOADER | Preparazione trasferimento reale | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-089_original.html) |
 | [UIV-094](https://uiverse.io/satyamchaudharydev/splendid-husky-54) | LOADER | Preparazione trasferimento reale | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-094_original.html) |

@@ -1,0 +1,29 @@
+name: Uiverse Public Code Recovery — manual read-only
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  recovery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: "3.12"
+      - name: Install public HTTP client
+        run: python -m pip install "curl_cffi>=0.7,<1"
+      - name: Read public Uiverse originals for any remaining missing entries
+        run: python scripts/uiverse_recover_public.py --limit 43 --output-dir out/uiverse
+      - name: Upload source evidence — no automated Git commits
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: uiverse-public-recovery-manual
+          path: out/uiverse/
+          if-no-files-found: warn
+          retention-days: 7

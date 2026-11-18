@@ -112,13 +112,33 @@ for item in uiverse_items:
         actual_sha = hashlib.sha1(b"blob " + str(len(data)).encode("ascii") + b"\0" + data).hexdigest()
         if sha != actual_sha:
             fail(f"Uiverse source blob mismatch: {item.get('id')}")
+        # Newer Uiverse items are captured as exact HTML + CSS pairs, not
+        # repackaged Galaxy HTML. Both files, blob SHAs and source SHA-256
+        # must match the archived original HTTP response.
+        css_rel = item.get("source_css_snapshot")
+        if css_rel:
+            css_file = (ROOT / css_rel).resolve()
+            allowed_dir = (uiverse_dir / "CODICE_SORGENTE").resolve()
+            if not css_file.is_relative_to(allowed_dir) or not css_file.is_file():
+                fail(f"Uiverse CSS source missing or unsafe: {item.get('id')}")
+            css_bytes = css_file.read_bytes()
+            css_sha = hashlib.sha1(b"blob " + str(len(css_bytes)).encode("ascii") + b"\0" + css_bytes).hexdigest()
+            if item.get("source_css_blob_sha") != css_sha:
+                fail(f"Uiverse CSS blob mismatch: {item.get('id')}")
+            if item.get("source_html_sha256") != hashlib.sha256(data).hexdigest():
+                fail(f"Uiverse original HTML SHA-256 mismatch: {item.get('id')}")
+            if item.get("source_css_sha256") != hashlib.sha256(css_bytes).hexdigest():
+                fail(f"Uiverse original CSS SHA-256 mismatch: {item.get('id')}")
+            if not re.fullmatch(r"[a-f0-9-]{30,40}", str(item.get("source_post_id", "")), re.I):
+                fail(f"Uiverse public post provenance missing: {item.get('id')}")
+
     elif item.get("source_blob_sha") or not str(item.get("evidence", "")).endswith(
         ("SOURCE_CODE_NOT_LOCATED", "SOURCE_CODE_MISSING", "CATEGORY_NOT_VERIFIED")
     ):
         fail(f"Uiverse unavailable source misreported: {item.get('id')}")
     if item.get("consumer_implemented") is not False:
         fail(f"Uiverse reference incorrectly claims consumer implementation: {item.get('id')}")
-if code_count < 57 or uiverse_count.get("original_source_files") != code_count:
+if code_count < 100 or uiverse_count.get("original_source_files") != code_count:
     fail("Uiverse original-code source inventory inconsistent")
 if not (uiverse_dir / "CODICE_SORGENTE" / "LICENSE-Uiverse-Galaxy-MIT.txt").is_file():
     fail("Uiverse MIT notice missing")
@@ -142,6 +162,12 @@ for fav in favorited:
         fail(f"Uiverse favorite original-code evidence mismatch: {fav.get('id')}")
 if uiverse_count.get("favorite_links") != len(favorited):
     fail("Uiverse favorite count not reflected in master registry")
+favorite_originals = sum(bool(by_id.get(f["id"], {}).get("source_snapshot")) for f in favorited)
+if (uiverse_count.get("favorite_source_available") != favorite_originals
+    or uiverse_count.get("favorite_source_unlocated") != len(favorited) - favorite_originals):
+    fail("Uiverse favorite original-code counts inconsistent")
+if favorite_originals < 97:
+    fail("Uiverse original source inventory regressed below 97 verified Favorites")
 per_app_uiverse = json.loads((ROOT / "PER_APP" / "REGISTRO_APP_DESIGN.json").read_text(encoding="utf-8"))
 for app_id in uiverse_app_ids:
     profile = next((p for p in per_app_uiverse.get("profiles", []) if p.get("id") == app_id), None)

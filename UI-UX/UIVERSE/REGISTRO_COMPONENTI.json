@@ -8,13 +8,13 @@
   "source_commit": "adbd2adde0a299a3956ea288fb444ec01891ca41",
   "counts": {
     "links": 100,
-    "original_source_files": 57,
-    "code_unavailable": 43,
+    "original_source_files": 100,
+    "code_unavailable": 0,
     "apps": 25,
     "app_component_relations": 657,
     "favorite_links": 97,
-    "favorite_source_available": 54,
-    "favorite_source_unlocated": 43,
+    "favorite_source_available": 97,
+    "favorite_source_unlocated": 0,
     "new_from_favorites": 91,
     "preexisting_favorite_links": 6
   },
@@ -319,14 +319,14 @@
       "slug": "red-duck-82",
       "category": "CARD_BACKGROUND",
       "uiverse_url": "https://uiverse.io/amir_6539/red-duck-82",
-      "source_path": null,
-      "source_blob_sha": null,
+      "source_path": "https://uiverse.io/amir_6539/red-duck-82",
+      "source_blob_sha": "73a8aaf5f229c8b69ff590a07e19e734a5ab6db8",
       "description": "Card proposta dall'utente come sfondo decorativo per varie app; effetto esatto non verificato",
-      "source_repository": "uiverse-io/galaxy",
-      "source_commit": "adbd2adde0a299a3956ea288fb444ec01891ca41",
-      "source_snapshot": null,
-      "evidence": "SOURCE_CODE_NOT_LOCATED",
-      "license": "MIT_UIVERSE_PAGE_CLAIM_ONLY",
+      "source_repository": null,
+      "source_commit": null,
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-005_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_APP_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -375,7 +375,31 @@
       ],
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 43
+      "favorite_export_position": 43,
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-005_original.css",
+      "source_css_blob_sha": "369524a343a39ede4f1ed25274532055295f77a5",
+      "source_html_sha256": "6b4d1c9e6eff54e6b7ce644fc455ebd61190df60ec2d40f58132114156c09ce3",
+      "source_css_sha256": "0f21e764cfed3620bdc5f0be69abfc8ffc81ff57138b78103d3558ef3139e03b",
+      "source_post_id": "8d05cb6e-73ab-43bc-bd9d-96c88816d3ef",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "consumer_tested": false,
+      "upstream_category": "card",
+      "upstream_tags": [
+        "card"
+      ],
+      "source_code_analysis": {
+        "html_chars": 122,
+        "css_chars": 47454,
+        "css_keyframes": 2,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "gradient": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-006",
@@ -383,14 +407,14 @@
       "slug": "red-dingo-61",
       "category": "SWITCH",
       "uiverse_url": "https://uiverse.io/JustCode14/red-dingo-61",
-      "source_path": null,
-      "source_blob_sha": null,
+      "source_path": "https://uiverse.io/JustCode14/red-dingo-61",
+      "source_blob_sha": "09beca88c83487e0231d22000b7deae2635f8654",
       "description": "Switch interattivo Uiverse, sorgente HTML/CSS non individuato",
-      "source_repository": "uiverse-io/galaxy",
-      "source_commit": "adbd2adde0a299a3956ea288fb444ec01891ca41",
-      "source_snapshot": null,
-      "evidence": "SOURCE_CODE_NOT_LOCATED",
-      "license": "MIT_UIVERSE_PAGE_CLAIM_ONLY",
+      "source_repository": null,
+      "source_commit": null,
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-006_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_APP_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -439,7 +463,37 @@
       ],
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 14
+      "favorite_export_position": 14,
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-006_original.css",
+      "source_css_blob_sha": "7d9864e45aeda26e7c834fc92904cb3c1d879b10",
+      "source_html_sha256": "c8eccee2edf80ba77651504997070107a29a5e87017005ab8667f727f0607292",
+      "source_css_sha256": "9aa580e75dfcfbee6d86729e7fb86e34195cdde0ab0b6ebc36a203048e8890a2",
+      "source_post_id": "0f86e0a2-d834-48ac-925f-7e761ab31929",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "consumer_tested": false,
+      "upstream_category": "switch",
+      "upstream_tags": [
+        "switch",
+        "blue",
+        "modern",
+        "sun",
+        "toggle",
+        "darkmode",
+        "cloud",
+        "contrast",
+        "day"
+      ],
+      "source_code_analysis": {
+        "html_chars": 732,
+        "css_chars": 1500,
+        "css_keyframes": 0,
+        "hover_selectors": 0,
+        "contains_svg": true,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-007",
@@ -447,14 +501,14 @@
       "slug": "orange-walrus-50",
       "category": "LOADER",
       "uiverse_url": "https://uiverse.io/arthur_6104/orange-walrus-50",
-      "source_path": null,
-      "source_blob_sha": null,
+      "source_path": "https://uiverse.io/arthur_6104/orange-walrus-50",
+      "source_blob_sha": "a0a3ea6aa95243fa94e015df59f31ba70120a33b",
       "description": "Loader per processi reali, testo UX proposto: Stiamo facendo la magia; animazione specifica non verificata",
-      "source_repository": "uiverse-io/galaxy",
-      "source_commit": "adbd2adde0a299a3956ea288fb444ec01891ca41",
-      "source_snapshot": null,
-      "evidence": "SOURCE_CODE_NOT_LOCATED",
-      "license": "MIT_UIVERSE_PAGE_CLAIM_ONLY",
+      "source_repository": null,
+      "source_commit": null,
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-007_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_APP_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -503,7 +557,43 @@
       ],
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 47
+      "favorite_export_position": 47,
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-007_original.css",
+      "source_css_blob_sha": "1263028594101795964acd957d7ac1cfc55b9943",
+      "source_html_sha256": "71ec8fa2108323ea613be965ed7881f475548c1bd26bb24c0ce6dc42d3d8fc62",
+      "source_css_sha256": "821aac844fda8002d54ffc8a21e04f1281f4ed54ca2f0d3353a5fc2381ddb8cf",
+      "source_post_id": "bcdccebf-af70-4a4c-b26c-d23adfb3f1c3",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "consumer_tested": false,
+      "upstream_category": "loader",
+      "upstream_tags": [
+        "loader",
+        "screen",
+        "computer",
+        "glass",
+        "animated",
+        "loader",
+        "black",
+        "minimalist",
+        "gray",
+        "white",
+        "progress",
+        "box",
+        "monitor"
+      ],
+      "source_code_analysis": {
+        "html_chars": 330,
+        "css_chars": 1757,
+        "css_keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "gradient": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-008",
@@ -659,11 +749,11 @@
       "category": "CARD",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/00Kubi/fluffy-jellyfish-87",
+      "source_blob_sha": "bcd5805b3aa9d5ca15b755a12611d4dc9861e25c",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-010_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -717,7 +807,45 @@
           "surface": "Card di anteprima/collezione",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-010_original.css",
+      "source_css_blob_sha": "70f6260759860924989003b38ed33cef3fce94e6",
+      "source_html_sha256": "d40ae2ef56486e8a482734e8469084a38b1b7d7652e314d2f5d03c61a05be11a",
+      "source_css_sha256": "2ae3a31b65cd1269d2f62f0b2f7c28d50d92467106c38b0c7d25a835cb3a1013",
+      "source_post_id": "072967fd-6ec4-4b64-8d72-c1498a4c1264",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "card",
+      "upstream_tags": [
+        "simple",
+        "material design",
+        "alert",
+        "notification",
+        "success",
+        "card",
+        "rounded",
+        "light",
+        "green",
+        "card",
+        "order",
+        "confirmation",
+        "notification",
+        "dialog",
+        "humorous",
+        "actionable"
+      ],
+      "source_code_analysis": {
+        "html_chars": 1324,
+        "css_chars": 2580,
+        "css_keyframes": 3,
+        "hover_selectors": 3,
+        "contains_svg": true,
+        "gradient": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-011",
@@ -1072,11 +1200,11 @@
       "category": "BUTTON",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/FColombati/spotty-snake-82",
+      "source_blob_sha": "83a1ec75dce6617418814ae24fac6caa712e70d4",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-015_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -1124,7 +1252,36 @@
           "surface": "CTA con azione verificata e focus",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-015_original.css",
+      "source_css_blob_sha": "88b14e032f60f3b7c7ddff5f1385327245cec222",
+      "source_html_sha256": "af49e5e71b3e76337f430fe4c4006750bdf08827a9e2efce20ffd23baeb4a328",
+      "source_css_sha256": "971f11adaf594c098dc56def2f80a85ecfe9ed8c97f633a4035cb213cf711f87",
+      "source_post_id": "05b6737d-d29b-40c7-83db-25c482aedb5f",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "button",
+      "upstream_tags": [
+        "button",
+        "shadow",
+        "3D",
+        "simple",
+        "gray",
+        "minimal",
+        "oval",
+        "round",
+        "click"
+      ],
+      "source_code_analysis": {
+        "html_chars": 142,
+        "css_chars": 3393,
+        "css_keyframes": 0,
+        "hover_selectors": 3,
+        "contains_svg": false,
+        "gradient": true,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-016",
@@ -1135,11 +1292,11 @@
       "category": "CARD",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/Gidarx/clever-panther-6",
+      "source_blob_sha": "dc4c9e700452b69b292594e7f95b8bb650ffa501",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-016_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -1193,7 +1350,40 @@
           "surface": "Scheda nota o lavagna",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-016_original.css",
+      "source_css_blob_sha": "ba26a2854342b27e0727081a74f37066e3a92fc8",
+      "source_html_sha256": "f1bad2f0a77af9d76754c9762eb18fa6c00041a6874fb414ea154f2af46a075e",
+      "source_css_sha256": "3915365c11ecafe659b56b972d8be7806bc5e7e8d3817f0f46200b7e8daa9137",
+      "source_post_id": "cfec525a-84c8-4670-a56a-bf22bb0ff717",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "card",
+      "upstream_tags": [
+        "card",
+        "dark",
+        "button",
+        "green",
+        "modern",
+        "minimal",
+        "interactive",
+        "dashboard",
+        "contrast",
+        "summary",
+        "financial",
+        "balance",
+        "graph"
+      ],
+      "source_code_analysis": {
+        "html_chars": 3634,
+        "css_chars": 7454,
+        "css_keyframes": 0,
+        "hover_selectors": 3,
+        "contains_svg": true,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-017",
@@ -1204,11 +1394,11 @@
       "category": "CARD",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/Gidarx/moody-falcon-73",
+      "source_blob_sha": "7840def02a998cd4fe72b2a224de80d56cc5a069",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-017_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -1262,7 +1452,40 @@
           "surface": "Tappa o diario viaggio",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-017_original.css",
+      "source_css_blob_sha": "5d0946f4442b2669df938aaafd5696aa586c1f81",
+      "source_html_sha256": "71b15c217a5f1cfdfd29d55540eaddd28c83c1d196d0fff1e9b76c89c56de1a9",
+      "source_css_sha256": "cbaa16f51f57bb871e287b9bb07281a684a1d494414ddf9dfc1b6e26d9645f5f",
+      "source_post_id": "6f1b9297-85a8-4203-9232-0a727630ef1a",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "card",
+      "upstream_tags": [
+        "card",
+        "green",
+        "status",
+        "futuristic",
+        "retro",
+        "date",
+        "clock",
+        "device",
+        "display",
+        "digital",
+        "panel"
+      ],
+      "source_code_analysis": {
+        "html_chars": 3517,
+        "css_chars": 12745,
+        "css_keyframes": 11,
+        "hover_selectors": 2,
+        "contains_svg": false,
+        "gradient": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-018",
@@ -2375,11 +2598,11 @@
       "category": "LOADER",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/Novaxlo/rotten-lionfish-4",
+      "source_blob_sha": "71f932764ba834fd1e0e18d341595f784ba9c296",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-031_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -2433,7 +2656,44 @@
           "surface": "Scansione memoria/duplicati con stato reale",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-031_original.css",
+      "source_css_blob_sha": "592a67f1a1c6d2ecebc91ee2ca84414031d222df",
+      "source_html_sha256": "07dd650d4ffd6c81a17047ebf39bc5f14ef4080acb56997eb591c62e9b1715bf",
+      "source_css_sha256": "1cdbd20dfcaf2ac9f28732494e812916ad25e2d2bcd52b448fea1f053edebf43",
+      "source_post_id": "66416642-f298-46ef-b74d-4261b70c7976",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "loader",
+      "upstream_tags": [
+        "green",
+        "blue",
+        "loader",
+        "wifi",
+        "connect",
+        "planet",
+        "earth",
+        "animated",
+        "loader",
+        "blue",
+        "circle",
+        "yellow",
+        "planet",
+        "internet",
+        "connecting"
+      ],
+      "source_code_analysis": {
+        "html_chars": 2135,
+        "css_chars": 2616,
+        "css_keyframes": 3,
+        "hover_selectors": 0,
+        "contains_svg": true,
+        "gradient": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-032",
@@ -2947,11 +3207,11 @@
       "category": "BUTTON",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/Priyanshu02020/popular-puma-87",
+      "source_blob_sha": "cf12876e7cd979f1d640885b77bdac765781125b",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-038_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -2999,7 +3259,35 @@
           "surface": "CTA con azione verificata e focus",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-038_original.css",
+      "source_css_blob_sha": "5f043e5a9aaf68b7ac6bba061c85b34a28085614",
+      "source_html_sha256": "57ac3097921d1068a8e9856c850ed72f4d2e80c264f5b7f6360419b6d586d671",
+      "source_css_sha256": "05fbc98ddba090c1c074b6bb0ec2ec671efd3906f83788207645f9d3997fc678",
+      "source_post_id": "859ba32c-cda8-471b-8c7a-186145e4844f",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "button",
+      "upstream_tags": [
+        "button",
+        "rounded",
+        "black",
+        "icon",
+        "minimal",
+        "heart",
+        "count",
+        "likes"
+      ],
+      "source_code_analysis": {
+        "html_chars": 819,
+        "css_chars": 1403,
+        "css_keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": true,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-039",
@@ -3351,21 +3639,21 @@
       "author": "Stavros2410",
       "slug": "wet-duck-69",
       "uiverse_url": "https://uiverse.io/Stavros2410/wet-duck-69",
-      "category": "UNKNOWN",
+      "category": "INPUT",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PAGE_LINK_FROM_AUTH_EXPORT_CATEGORY_NOT_VERIFIED",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/Stavros2410/wet-duck-69",
+      "source_blob_sha": "57832bbfe4a4d1248212fe9f0b5e5174ff6f1569",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-043_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
       "consumer_implemented": false,
       "consumer_tested": false,
-      "description": "URL presente nell'export dei preferiti autenticati, codice non disponibile e categoria non confermata.",
-      "guardrails": "Usare solo dopo verifica visuale, a11y e codice",
+      "description": "Categoria INPUT confermata dall'endpoint pubblico Uiverse. Abbinamenti UI/UX proposti, non collaudati sui consumer.",
+      "guardrails": "Label, focus, keyboard/IME e contrasto",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
       "favorite_export_position": 36,
@@ -3373,22 +3661,51 @@
         {
           "slug": "notes-ecosistema",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Ricerca e filtri delle note con label accessibile",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "world-days",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Ricerca per parola chiave delle ricorrenze",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "omni-cleaner",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Ricerca file per nome con feedback chiaro",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-043_original.css",
+      "source_css_blob_sha": "e86d1512eb1d1d48e6a3c9c057833629233ac94b",
+      "source_html_sha256": "6c103f9714b2d26236dfa62bd2c76b1215201fb5bc2c78daffc1b6a472cf6054",
+      "source_css_sha256": "ed185721941a85890e71c680dcc16aec56253fb7ae3efb015dc3f2b42c291f31",
+      "source_post_id": "bef2cd88-8c0a-4769-ab35-72b1b33c7950",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "input",
+      "upstream_tags": [
+        "input",
+        "green",
+        "orange",
+        "blue",
+        "colorful",
+        "metallic",
+        "slider",
+        "horizontal",
+        "adjust"
+      ],
+      "source_code_analysis": {
+        "html_chars": 529,
+        "css_chars": 2412,
+        "css_keyframes": 0,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "gradient": true,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-044",
@@ -3482,21 +3799,21 @@
       "author": "Uncannypotato69",
       "slug": "honest-starfish-32",
       "uiverse_url": "https://uiverse.io/Uncannypotato69/honest-starfish-32",
-      "category": "UNKNOWN",
+      "category": "CHECKBOX",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PAGE_LINK_FROM_AUTH_EXPORT_CATEGORY_NOT_VERIFIED",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/Uncannypotato69/honest-starfish-32",
+      "source_blob_sha": "d333a4d183048c99a07e045cb4c0d2e78af2a39a",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-045_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
       "consumer_implemented": false,
       "consumer_tested": false,
-      "description": "URL presente nell'export dei preferiti autenticati, codice non disponibile e categoria non confermata.",
-      "guardrails": "Usare solo dopo verifica visuale, a11y e codice",
+      "description": "Categoria CHECKBOX confermata dall'endpoint pubblico Uiverse. Abbinamenti UI/UX proposti, non collaudati sui consumer.",
+      "guardrails": "Stato reale, touch target e feedback",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
       "favorite_export_position": 38,
@@ -3504,22 +3821,58 @@
         {
           "slug": "omni-cleaner",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Selezione media prima di ogni eliminazione",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "app-factory-dashboard",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Checklist dei controlli di verifica",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "notes-ecosistema",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Checklist note o attività con stato reale",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-045_original.css",
+      "source_css_blob_sha": "033e969844ed05db4d321ad2afbd3482e966688a",
+      "source_html_sha256": "bcb539d7c8d2eb669a6faf27b72f21341ce9bb3fc1a157f19620c01e124ded3d",
+      "source_css_sha256": "90db01f97d281986f19c83c5adeabb766346dcc1e7cac7b38b53354e27a431cb",
+      "source_post_id": "0dc76fc0-5fb3-4a79-a039-dd3f7c21d8ae",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "checkbox",
+      "upstream_tags": [
+        "simple",
+        "minimalist",
+        "checkbox",
+        "cool checkbox",
+        "tailwind",
+        "tailwindcss",
+        "dark",
+        "black",
+        "green",
+        "checkbox",
+        "neon",
+        "label",
+        "checkmark",
+        "box",
+        "funny",
+        "purposeful"
+      ],
+      "source_code_analysis": {
+        "html_chars": 1373,
+        "css_chars": 1707,
+        "css_keyframes": 0,
+        "hover_selectors": 0,
+        "contains_svg": true,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-046",
@@ -3530,11 +3883,11 @@
       "category": "CHECKBOX",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/Uncannypotato69/rotten-wasp-10",
+      "source_blob_sha": "d1b6f6242d1f4fe24c9e553ae5b7fcfff9afc4b7",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-046_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -3582,7 +3935,42 @@
           "surface": "Selezione con semantica e feedback",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-046_original.css",
+      "source_css_blob_sha": "f672d9b7f7a480363ca95d95271b1995234a7635",
+      "source_html_sha256": "dbcf28d90acf8ed7be8a142b3cf9060d06413f951bd0f4e382f7147f7738eacb",
+      "source_css_sha256": "8535a06138ac15a97926d98df90812903f53827ede77128e5be258c3047dd522",
+      "source_post_id": "ba996ac1-45d9-4635-9676-769d232c35f0",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "checkbox",
+      "upstream_tags": [
+        "simple",
+        "minimalist",
+        "checkbox",
+        "cool checkbox",
+        "tailwind",
+        "tailwindcss",
+        "square",
+        "blue",
+        "checkbox",
+        "label",
+        "interactive",
+        "outlined",
+        "instructional",
+        "humor",
+        "lightblue"
+      ],
+      "source_code_analysis": {
+        "html_chars": 1069,
+        "css_chars": 1703,
+        "css_keyframes": 0,
+        "hover_selectors": 0,
+        "contains_svg": true,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-047",
@@ -3843,11 +4231,11 @@
       "category": "LOADER",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/andrew-manzyk/fast-vampirebat-53",
+      "source_blob_sha": "184499a64a3d22474e9aea5181627df63e4a0173",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-050_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -3901,7 +4289,42 @@
           "surface": "Caricamento delle storie locali",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-050_original.css",
+      "source_css_blob_sha": "4fc37b433d7a7e5b68b5651d85648356480ba9ad",
+      "source_html_sha256": "e4ecd5b73fa3e0dd183b67ab71c6a6021ad8d6cc7645fc7ff112f7be3314c91f",
+      "source_css_sha256": "8030fe9627d62a9355fee1b3bdd6b70fd4b66d4ee8184461f927bd95c1d6dc74",
+      "source_post_id": "c9c056af-62a1-44d7-ac23-3ddcf37abda0",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "loader",
+      "upstream_tags": [
+        "loader",
+        "spinner",
+        "download",
+        "generate",
+        "spinning",
+        "animated",
+        "loader",
+        "minimalist",
+        "purple",
+        "stars",
+        "fidget",
+        "pegtop",
+        "rotator"
+      ],
+      "source_code_analysis": {
+        "html_chars": 10572,
+        "css_chars": 2238,
+        "css_keyframes": 3,
+        "hover_selectors": 0,
+        "contains_svg": true,
+        "gradient": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-051",
@@ -3912,11 +4335,11 @@
       "category": "LOADER",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/andrew-manzyk/young-walrus-64",
+      "source_blob_sha": "f37c4c34f6ba33d1de42b6011f72ac59f082f8fd",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-051_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -3970,7 +4393,45 @@
           "surface": "Attesa attività reale e risoluzione errore",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-051_original.css",
+      "source_css_blob_sha": "bd8b2e9c6d2925989abec2294c4e9e14b7e332e0",
+      "source_html_sha256": "1a098167b2f1703a538edfea127247697fbc2a944f5bb3e23e7d799e83afb2b5",
+      "source_css_sha256": "a7ed8c203879ca1d028d387440b55ec271b9a595f48d388cff1074a5b342e629",
+      "source_post_id": "9586df71-131e-4f54-a37c-f2995255503a",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "loader",
+      "upstream_tags": [
+        "animation",
+        "gradient",
+        "loader",
+        "blur",
+        "wiggle",
+        "dark",
+        "animated",
+        "loader",
+        "red",
+        "orange",
+        "gradient",
+        "glow",
+        "sphere",
+        "lava",
+        "spherical",
+        "bubbling"
+      ],
+      "source_code_analysis": {
+        "html_chars": 664,
+        "css_chars": 2998,
+        "css_keyframes": 3,
+        "hover_selectors": 0,
+        "contains_svg": true,
+        "gradient": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-052",
@@ -3978,21 +4439,21 @@
       "author": "ashif_6672",
       "slug": "rare-bat-68",
       "uiverse_url": "https://uiverse.io/ashif_6672/rare-bat-68",
-      "category": "UNKNOWN",
+      "category": "CARD",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PAGE_LINK_FROM_AUTH_EXPORT_CATEGORY_NOT_VERIFIED",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/ashif_6672/rare-bat-68",
+      "source_blob_sha": "5ea2bf27152076873fabc375ed198ba9208e55fd",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-052_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
       "consumer_implemented": false,
       "consumer_tested": false,
-      "description": "URL presente nell'export dei preferiti autenticati, codice non disponibile e categoria non confermata.",
-      "guardrails": "Usare solo dopo verifica visuale, a11y e codice",
+      "description": "Categoria CARD confermata dall'endpoint pubblico Uiverse. Abbinamenti UI/UX proposti, non collaudati sui consumer.",
+      "guardrails": "Contenuto accessibile senza hover e con fallback reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
       "favorite_export_position": 48,
@@ -4000,22 +4461,53 @@
         {
           "slug": "notes-ecosistema",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card di raccolta e workspace",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "world-days",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card anteprima della giornata",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "omni-cleaner",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card di riepilogo risultati",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-052_original.css",
+      "source_css_blob_sha": "01837c4446414a29ee1f557842aec896bf7aaf24",
+      "source_html_sha256": "7f0a94023aba1b6f4f2cff56c1c7f158e1cc34ddb7f0ca8964671ccfdc1e10a3",
+      "source_css_sha256": "fdf442099f168abee3d16da335ea7ce571cc723b389a58e1f185604d19887791",
+      "source_post_id": "35c8b9c8-a3f4-4cc7-a130-af4772d66508",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "card",
+      "upstream_tags": [
+        "card",
+        "message",
+        "bold",
+        "gradient",
+        "pink",
+        "modern",
+        "minimal",
+        "contrast",
+        "design",
+        "typography",
+        "inspirational"
+      ],
+      "source_code_analysis": {
+        "html_chars": 668,
+        "css_chars": 1758,
+        "css_keyframes": 0,
+        "hover_selectors": 2,
+        "contains_svg": true,
+        "gradient": true,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-053",
@@ -4107,11 +4599,11 @@
       "category": "CARD",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/byllzz/great-wombat-13",
+      "source_blob_sha": "c81fb894ea340534868b072054476afba33c98b3",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-054_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -4165,7 +4657,30 @@
           "surface": "Scheda nota o lavagna",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-054_original.css",
+      "source_css_blob_sha": "09020023066a3163d13b461fc8ca6e7b3227581d",
+      "source_html_sha256": "fcda3bf08d557107bc275e025e263f579bcddb01c51c44fd06810cf95573aef8",
+      "source_css_sha256": "ec7d29a46acf5d68be93aea675a44af367eaa2fa1a472c4ad91ab71508f73347",
+      "source_post_id": "6a92bd93-998b-425d-8075-9b906c321a6d",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "card",
+      "upstream_tags": [
+        "card"
+      ],
+      "source_code_analysis": {
+        "html_chars": 4441,
+        "css_chars": 8742,
+        "css_keyframes": 2,
+        "hover_selectors": 9,
+        "contains_svg": true,
+        "gradient": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-055",
@@ -4176,11 +4691,11 @@
       "category": "LOADER",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/chase2k25/modern-stingray-54",
+      "source_blob_sha": "dfed339ea9985a67b2c039a9a729919effe5b2d4",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-055_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -4234,7 +4749,39 @@
           "surface": "Attesa attività reale e risoluzione errore",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-055_original.css",
+      "source_css_blob_sha": "d45087e3d9cc5ddbdd3915fef5e9b05e000fb7e9",
+      "source_html_sha256": "042453378267923103b654d3e99a0e2f197ad42eeed6b625ef56a2e7a97fde8d",
+      "source_css_sha256": "c66a1dac5a5b7dd818820d3a7ec81d1f37c304077f2c46fceb4bf2d6e765d143",
+      "source_post_id": "c33fd7dc-aaca-419e-8a3d-996f8fc7a639",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "loader",
+      "upstream_tags": [
+        "loader",
+        "animated",
+        "loader",
+        "red",
+        "3D",
+        "minimalist",
+        "orange",
+        "yellow",
+        "geometric",
+        "squares"
+      ],
+      "source_code_analysis": {
+        "html_chars": 27,
+        "css_chars": 1582,
+        "css_keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "gradient": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-056",
@@ -4245,11 +4792,11 @@
       "category": "CARD",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/chase2k25/warm-chicken-23",
+      "source_blob_sha": "66e85b58f96eaada0dc0a7ec3af0d457ae051bad",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-056_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -4303,7 +4850,42 @@
           "surface": "Tappa o diario viaggio",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-056_original.css",
+      "source_css_blob_sha": "210a2d2f848671fa3947e0eb2ad0ebe7ddd1c43c",
+      "source_html_sha256": "f80e35ba95eaccb07889b2f3af91ae989d1a4eeb2648f7cfc1776a4934b599ed",
+      "source_css_sha256": "1c5fbebbcb81e89a8f2fd9961fe01841b17160cf8c1fa66f840a7536cabfe04d",
+      "source_post_id": "54deb48a-f1b8-45c2-a53b-6b5eff6bb4fd",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "card",
+      "upstream_tags": [
+        "card",
+        "bold",
+        "yellow",
+        "modern",
+        "white",
+        "minimal",
+        "temperature",
+        "navigation",
+        "fitness",
+        "digital",
+        "energy",
+        "smartwatch",
+        "training"
+      ],
+      "source_code_analysis": {
+        "html_chars": 12799,
+        "css_chars": 9192,
+        "css_keyframes": 1,
+        "hover_selectors": 1,
+        "contains_svg": true,
+        "gradient": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-057",
@@ -4568,11 +5150,11 @@
       "category": "BUTTON",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/dexter-st/breezy-zebra-94",
+      "source_blob_sha": "06faafd200ca95fc7b90ae464bae0affbfd46a8a",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-060_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -4620,7 +5202,34 @@
           "surface": "CTA con azione verificata e focus",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-060_original.css",
+      "source_css_blob_sha": "c026adc3337c57bf40dd57a4714d74bb6eeac4e4",
+      "source_html_sha256": "76d2d575562e51ff0f2352b91a53a44902fa4fd07125449e4e4bb7331396c9f3",
+      "source_css_sha256": "31969163e281cf72c7d037ced237e955afee7fc41e7cb0ac52198c03078a1245",
+      "source_post_id": "0abef0c8-952a-48ad-aada-68b0d566770a",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "button",
+      "upstream_tags": [
+        "button",
+        "neon",
+        "liquid",
+        "glass",
+        "molten"
+      ],
+      "source_code_analysis": {
+        "html_chars": 888,
+        "css_chars": 3460,
+        "css_keyframes": 3,
+        "hover_selectors": 1,
+        "contains_svg": false,
+        "gradient": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-061",
@@ -4631,11 +5240,11 @@
       "category": "LOADER",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/dexter-st/bright-lizard-8",
+      "source_blob_sha": "c4f38e56b7c84a6ff5c4c29d497e7df491a685ee",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-061_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -4689,7 +5298,43 @@
           "surface": "Scansione memoria/duplicati con stato reale",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-061_original.css",
+      "source_css_blob_sha": "119cdef7ce5db91dbae3a0e28efccf297b3f2c2c",
+      "source_html_sha256": "fc815a1301da403fd61d84b0bb2137b3e7913b2f89b0cd388985b57a550cffcb",
+      "source_css_sha256": "cf7ff4a3bab7f3b11459d70668c84a0d322fad57f75101a6c752382c54b790d6",
+      "source_post_id": "214fcf63-946b-4419-a752-5d04819cbba6",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "loader",
+      "upstream_tags": [
+        "loader",
+        "shadow",
+        "glow",
+        "dark",
+        "animated",
+        "loader",
+        "black",
+        "gradient",
+        "pink",
+        "purple",
+        "sphere",
+        "ai",
+        "generating",
+        "orb"
+      ],
+      "source_code_analysis": {
+        "html_chars": 456,
+        "css_chars": 2007,
+        "css_keyframes": 2,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "gradient": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-062",
@@ -4700,11 +5345,11 @@
       "category": "LOADER",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/dexter-st/spicy-otter-30",
+      "source_blob_sha": "44c08e464e7b50b7a6ddc4b9ed1d50ec87893ba1",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-062_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -4758,7 +5403,43 @@
           "surface": "Scansione memoria/duplicati con stato reale",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-062_original.css",
+      "source_css_blob_sha": "1643a7c4370253776bea7387f4166b793e8cd0e6",
+      "source_html_sha256": "70efb0c8c6a33bd6344d722cc94b914c4de1a1195531e2ce39eef8a127f496e4",
+      "source_css_sha256": "b0d900b3bbf40cbd8bcbf21ec545861a0b3f4469b07bf0b08807be875a2a92d9",
+      "source_post_id": "40f3bb24-3b2c-4e80-8d2a-a4e249616eec",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "loader",
+      "upstream_tags": [
+        "3d",
+        "loader",
+        "cube",
+        "glow",
+        "perspective",
+        "animated",
+        "loader",
+        "green",
+        "block",
+        "glow",
+        "loop",
+        "letters",
+        "transition",
+        "fade"
+      ],
+      "source_code_analysis": {
+        "html_chars": 1916,
+        "css_chars": 3277,
+        "css_keyframes": 4,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "gradient": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-063",
@@ -4769,11 +5450,11 @@
       "category": "CARD",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/dexter-st/tough-falcon-78",
+      "source_blob_sha": "b5b29151d5dc25a62511d71d873b204277c1854f",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-063_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -4827,7 +5508,42 @@
           "surface": "Scheda nota o lavagna",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-063_original.css",
+      "source_css_blob_sha": "44a9af7828eb425a7b4ba2cb24afaa3efff972d0",
+      "source_html_sha256": "d56af959f30463ba3c51a2a0fb5751e692361a3105800453d556826de4373095",
+      "source_css_sha256": "aad3351172cbec3921797a4dce819234cf50a6e0483fa66f55d72937f6a48992",
+      "source_post_id": "572dabf2-c062-4d83-91ca-d251d2dae665",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "card",
+      "upstream_tags": [
+        "3d",
+        "card",
+        "realistic",
+        "lock",
+        "password",
+        "silver",
+        "rounded",
+        "3D",
+        "interactive",
+        "metallic",
+        "lock",
+        "numeric",
+        "secure",
+        "combination",
+        "protection"
+      ],
+      "source_code_analysis": {
+        "html_chars": 4394,
+        "css_chars": 3570,
+        "css_keyframes": 0,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "gradient": true,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-064",
@@ -4835,21 +5551,21 @@
       "author": "dopekid_9309",
       "slug": "tiny-dog-80",
       "uiverse_url": "https://uiverse.io/dopekid_9309/tiny-dog-80",
-      "category": "UNKNOWN",
+      "category": "BUTTON",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PAGE_LINK_FROM_AUTH_EXPORT_CATEGORY_NOT_VERIFIED",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/dopekid_9309/tiny-dog-80",
+      "source_blob_sha": "7ca169e9d63dfd9f49a0c32b0c5490601297fd6f",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-064_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
       "consumer_implemented": false,
       "consumer_tested": false,
-      "description": "URL presente nell'export dei preferiti autenticati, codice non disponibile e categoria non confermata.",
-      "guardrails": "Usare solo dopo verifica visuale, a11y e codice",
+      "description": "Categoria BUTTON confermata dall'endpoint pubblico Uiverse. Abbinamenti UI/UX proposti, non collaudati sui consumer.",
+      "guardrails": "Tap/focus, azione reale, stato disabled/loading",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
       "favorite_export_position": 60,
@@ -4857,22 +5573,53 @@
         {
           "slug": "notes-ecosistema",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "CTA aggiunta o apertura nota",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "world-days",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "CTA apertura dell'approfondimento",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "omni-cleaner",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "CTA per avviare scansione o aprire i risultati",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-064_original.css",
+      "source_css_blob_sha": "d9ca8e8cdf1b9c61e1de171180f28a8b072ddf3c",
+      "source_html_sha256": "3a4e69c517ffa57e863c16a00bf5efa75431a7dd4b1cef8e8a5c9c1608fd1c61",
+      "source_css_sha256": "bcf64d81ce5207076e4e26640090e603a0c2668975a631eaf2e458be19182646",
+      "source_post_id": "4dccb04c-dbfe-473d-91f0-4502f5050f53",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "button",
+      "upstream_tags": [
+        "button",
+        "red",
+        "bold",
+        "yellow",
+        "rectangular",
+        "graphic",
+        "exclamation",
+        "textured",
+        "comic"
+      ],
+      "source_code_analysis": {
+        "html_chars": 345,
+        "css_chars": 5694,
+        "css_keyframes": 3,
+        "hover_selectors": 6,
+        "contains_svg": false,
+        "gradient": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-065",
@@ -4883,11 +5630,11 @@
       "category": "LOADER",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/dovatgabriel/massive-vampirebat-17",
+      "source_blob_sha": "ce18e76038050c4012ace0151387e3e1cc5f9faa",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-065_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -4941,7 +5688,42 @@
           "surface": "Attesa attività reale e risoluzione errore",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-065_original.css",
+      "source_css_blob_sha": "48decea9b42273962dad6e9eae655cae659d8a5e",
+      "source_html_sha256": "8ff4cecbd734434d069b213a471ababc0f03064e6d3fc5785f311475c7f83de2",
+      "source_css_sha256": "df378d86d951aa2aa68ee12331b010e1786a89bed363a098271862a76186ccca",
+      "source_post_id": "5f4c0533-75f5-44b3-957c-047df43ad94a",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "loader",
+      "upstream_tags": [
+        "loader",
+        "ball",
+        "dark",
+        "animated",
+        "loader",
+        "beige",
+        "circle",
+        "white",
+        "minimal",
+        "waiting",
+        "bar",
+        "spin",
+        "motion"
+      ],
+      "source_code_analysis": {
+        "html_chars": 53,
+        "css_chars": 832,
+        "css_keyframes": 2,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "gradient": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-066",
@@ -4952,11 +5734,11 @@
       "category": "LOADER",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/elijahgummer/polite-earwig-72",
+      "source_blob_sha": "1dfba769680a5fccea56b9ea438e943dbf0f4c39",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-066_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -5010,7 +5792,39 @@
           "surface": "Scansione memoria/duplicati con stato reale",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-066_original.css",
+      "source_css_blob_sha": "d739d406858af60a0e3c5943a48804480ff8c49c",
+      "source_html_sha256": "417043c0cc4d44301c3099e34368b093fa1951c53e87865eb6d9cde9925725c6",
+      "source_css_sha256": "c42ae5c44a3807b8d61d4657f9a5398fa7d043875cc252a7da1d385f4e20bb17",
+      "source_post_id": "8a9d240b-70fb-4529-a1e2-6c3f6b6da539",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "loader",
+      "upstream_tags": [
+        "loader",
+        "dark",
+        "animated",
+        "loader",
+        "black",
+        "simple",
+        "minimalist",
+        "gradient",
+        "circular",
+        "modern"
+      ],
+      "source_code_analysis": {
+        "html_chars": 126,
+        "css_chars": 1158,
+        "css_keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "gradient": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-067",
@@ -5021,11 +5835,11 @@
       "category": "RADIO",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/elijahgummer/young-horse-7",
+      "source_blob_sha": "c662635399a9d93cd5d8051b7eb5ae60716ce41a",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-067_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -5073,7 +5887,37 @@
           "surface": "Scelta esclusiva accessibile",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-067_original.css",
+      "source_css_blob_sha": "9e56fcdc8ec92fa75465c11912d5c0a40a4393cc",
+      "source_html_sha256": "2b17ee62551af36954224f0e0a30f1fe7a3fe142089a982a02c260223c188259",
+      "source_css_sha256": "187e86e3d901b76b236f03094efdf925fa78ac16942a36646e6bbbbfcf30a19d",
+      "source_post_id": "8c786420-4d6c-4784-adfc-75113fc2ce7c",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "radio",
+      "upstream_tags": [
+        "radio",
+        "dark",
+        "gray",
+        "interactive",
+        "horizontal",
+        "stars",
+        "rating",
+        "feedback"
+      ],
+      "source_code_analysis": {
+        "html_chars": 2930,
+        "css_chars": 2238,
+        "css_keyframes": 3,
+        "hover_selectors": 8,
+        "contains_svg": true,
+        "gradient": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-068",
@@ -5084,11 +5928,11 @@
       "category": "LOADER",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/esraaabdel-kareem/bad-dragonfly-54",
+      "source_blob_sha": "3a2881fc63387d732388fa59477821d14078ce6d",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-068_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -5142,7 +5986,43 @@
           "surface": "Caricamento delle storie locali",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-068_original.css",
+      "source_css_blob_sha": "da49d9c2eac218bbd8ff75c3231d16638af30721",
+      "source_html_sha256": "02966a2994c8c3812a3739ed6c443d979f58de63133ba87831e84300f470c9da",
+      "source_css_sha256": "a5ba1bdea1b794f18f0822449f462f73265d42403ab6ffcaec755f108d7a623b",
+      "source_post_id": "6b8b2f3e-5ab3-4c85-b1a3-369c46528e43",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "loader",
+      "upstream_tags": [
+        "animation",
+        "loader",
+        "coffee",
+        "cup",
+        "animated",
+        "loader",
+        "minimal",
+        "waiting",
+        "brown",
+        "coffee",
+        "cup",
+        "fade",
+        "css-only",
+        "steam"
+      ],
+      "source_code_analysis": {
+        "html_chars": 249,
+        "css_chars": 2114,
+        "css_keyframes": 2,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "gradient": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-069",
@@ -5153,11 +6033,11 @@
       "category": "BUTTON",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/fthisilak/bitter-termite-36",
+      "source_blob_sha": "19b6eed735fac817069611f8d2bea08de58918eb",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-069_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -5205,7 +6085,37 @@
           "surface": "CTA con azione verificata e focus",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-069_original.css",
+      "source_css_blob_sha": "08df33e64dcf6926fa7e0c905e1f0142578ca08c",
+      "source_html_sha256": "f202476715dcdee8e79141cec1e7ae6a9a01c5de572490fbe049294f09bca0a7",
+      "source_css_sha256": "fef4f113cea8df7a87e6e0fb09d282618fc69224e000c0fe28fc846552c62056",
+      "source_post_id": "0758a19b-eeff-407d-9f29-0d49b585cb4e",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "button",
+      "upstream_tags": [
+        "button",
+        "rounded",
+        "black",
+        "bold",
+        "green",
+        "icon",
+        "payment",
+        "pay"
+      ],
+      "source_code_analysis": {
+        "html_chars": 1656,
+        "css_chars": 2233,
+        "css_keyframes": 2,
+        "hover_selectors": 7,
+        "contains_svg": true,
+        "gradient": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-070",
@@ -5464,11 +6374,11 @@
       "category": "CARD",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/ilkhoeri/thin-bobcat-83",
+      "source_blob_sha": "3ed52a8725be4c042a52e0a88d7f9d201eae8eb0",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-073_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -5522,7 +6432,37 @@
           "surface": "Scheda nota o lavagna",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-073_original.css",
+      "source_css_blob_sha": "09af542970b00ebd59aba1b60f468e9daf53e2f0",
+      "source_html_sha256": "08f06c6a4da853a794745b6bc761291284a41af5522c0dd2a43de16d9837feb8",
+      "source_css_sha256": "2d7751c6aa718a7095a1b89d304e007d3154cce7a5099b9c6478a61cd4081618",
+      "source_post_id": "d5f77912-4be5-429e-a1fe-6ee405b3af4e",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "card",
+      "upstream_tags": [
+        "card",
+        "gray",
+        "white",
+        "information",
+        "illustration",
+        "notification",
+        "cookie",
+        "policy",
+        "banner",
+        "privacy"
+      ],
+      "source_code_analysis": {
+        "html_chars": 5437,
+        "css_chars": 2584,
+        "css_keyframes": 0,
+        "hover_selectors": 4,
+        "contains_svg": true,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-074",
@@ -5533,11 +6473,11 @@
       "category": "LOADER",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/jeremy_4982/massive-falcon-52",
+      "source_blob_sha": "b65293aae870ac84e153f290d703cfbe9fb2a24e",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-074_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -5591,7 +6531,37 @@
           "surface": "Attesa attività reale e risoluzione errore",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-074_original.css",
+      "source_css_blob_sha": "99d22db468bb0e8bdb999ae16b2d36676f80d8d6",
+      "source_html_sha256": "242a11e3f0ddddcdfa4cdbeb981aef79726d61e7ef371cc4ae63269e04890d6d",
+      "source_css_sha256": "96061b5575199e6e447bf38cb64d24bbcd20ad0bb177230b6742e6e9fcdbcebc",
+      "source_post_id": "57d97668-339f-4d79-a5bf-aeaf9e71262e",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "loader",
+      "upstream_tags": [
+        "loader",
+        "animated",
+        "loader",
+        "black",
+        "circular",
+        "minimalistic",
+        "modern",
+        "colorful"
+      ],
+      "source_code_analysis": {
+        "html_chars": 221,
+        "css_chars": 2374,
+        "css_keyframes": 2,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "gradient": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-075",
@@ -5688,11 +6658,11 @@
       "category": "LOADER",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/kat_2522/rude-robin-51",
+      "source_blob_sha": "620c9deed6ae4f1e4a9702fd5423267f5d1557fe",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-076_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -5746,7 +6716,36 @@
           "surface": "Scansione memoria/duplicati con stato reale",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-076_original.css",
+      "source_css_blob_sha": "275cbfe88e611a2829c24f07bd656c694a5c121c",
+      "source_html_sha256": "8e68cb21c4f04b32ef4dd0eec193d279b9fabc70a3c350bd69b34d0cce4509ed",
+      "source_css_sha256": "4f1aff35c8cc243dbdba11b02b4dfe13ed656102956a6c964326c7a013c07c87",
+      "source_post_id": "a3e3ca84-95bb-4f8f-bc92-fc965f73fb6b",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "loader",
+      "upstream_tags": [
+        "loader",
+        "animated",
+        "loader",
+        "minimalist",
+        "pink",
+        "glowing",
+        "horizontal"
+      ],
+      "source_code_analysis": {
+        "html_chars": 40,
+        "css_chars": 1209,
+        "css_keyframes": 2,
+        "hover_selectors": 1,
+        "contains_svg": false,
+        "gradient": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-077",
@@ -5843,11 +6842,11 @@
       "category": "CARD",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/kennyotsu/giant-sloth-18",
+      "source_blob_sha": "bf01d6b272adbf3fe1df6e85d3143640a5e1714a",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-078_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -5901,7 +6900,46 @@
           "surface": "Scheda nota o lavagna",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-078_original.css",
+      "source_css_blob_sha": "6e0592163baf04cd55ae1119533268433cba46d4",
+      "source_html_sha256": "c1503bb71a787b0180dae3c50af9c65945414a9f088a362fd6eb5aae20bbcf88",
+      "source_css_sha256": "8d6d5901b031256611981991e055a285a70585dc7d469e585e42107001faf669",
+      "source_post_id": "cf968391-171a-4a89-9269-2da07449dbb5",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "card",
+      "upstream_tags": [
+        "simple",
+        "material design",
+        "alert",
+        "notification",
+        "success",
+        "card",
+        "message",
+        "light",
+        "green",
+        "card",
+        "question",
+        "clickable",
+        "round",
+        "notification",
+        "success",
+        "dismiss",
+        "funny",
+        "joke",
+        "answer"
+      ],
+      "source_code_analysis": {
+        "html_chars": 1024,
+        "css_chars": 1402,
+        "css_keyframes": 0,
+        "hover_selectors": 1,
+        "contains_svg": true,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-079",
@@ -5909,21 +6947,21 @@
       "author": "kennyotsu",
       "slug": "selfish-bear-69",
       "uiverse_url": "https://uiverse.io/kennyotsu/selfish-bear-69",
-      "category": "UNKNOWN",
+      "category": "CARD",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PAGE_LINK_FROM_AUTH_EXPORT_CATEGORY_NOT_VERIFIED",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/kennyotsu/selfish-bear-69",
+      "source_blob_sha": "724ba1b5627831c5b2e8303ca5b270d86f4a6083",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-079_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
       "consumer_implemented": false,
       "consumer_tested": false,
-      "description": "URL presente nell'export dei preferiti autenticati, codice non disponibile e categoria non confermata.",
-      "guardrails": "Usare solo dopo verifica visuale, a11y e codice",
+      "description": "Categoria CARD confermata dall'endpoint pubblico Uiverse. Abbinamenti UI/UX proposti, non collaudati sui consumer.",
+      "guardrails": "Contenuto accessibile senza hover e con fallback reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
       "favorite_export_position": 76,
@@ -5931,22 +6969,62 @@
         {
           "slug": "notes-ecosistema",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card anteprima nota",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "world-days",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card editoriale della storia",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "omni-cleaner",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card per gruppo di duplicati",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-079_original.css",
+      "source_css_blob_sha": "b708c9df6addeb6316464193a8f341a80cb1227b",
+      "source_html_sha256": "a4d0309a422013ef4cb66cecd02a36d0eaf83c940b3c1629b606ae61c68f4054",
+      "source_css_sha256": "0b7fc3cb23ca33925c860db5d8f64d48892819cdf452048c92c69d9385a79370",
+      "source_post_id": "70d76de9-1387-4e1c-af2b-d8fa3ba2a4c6",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "card",
+      "upstream_tags": [
+        "simple",
+        "material design",
+        "alert",
+        "notification",
+        "success",
+        "card",
+        "button",
+        "red",
+        "black",
+        "yellow",
+        "card",
+        "rectangle",
+        "notification",
+        "alert",
+        "humor",
+        "joke",
+        "dad",
+        "scientists",
+        "atoms",
+        "stop"
+      ],
+      "source_code_analysis": {
+        "html_chars": 955,
+        "css_chars": 1108,
+        "css_keyframes": 0,
+        "hover_selectors": 1,
+        "contains_svg": true,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-080",
@@ -6043,11 +7121,11 @@
       "category": "CARD",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/kennyotsu/tender-badger-21",
+      "source_blob_sha": "ee4a013780f947e5a394a6ff341c78d2ec5105fd",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-081_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -6101,7 +7179,42 @@
           "surface": "Card di anteprima/collezione",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-081_original.css",
+      "source_css_blob_sha": "72f557be178ba78d62d1926781ab4e0a628e335c",
+      "source_html_sha256": "c8a179e4629472a2924e1756d69a96673eafd22b6dcf9b940e3c4f3b512fe2e0",
+      "source_css_sha256": "1e06c6b83d864a9bc6882e30aa29b3a32cc7ea0a6c0bb6c0851c207d533e6229",
+      "source_post_id": "06c20316-b047-4720-95a9-bf81f5df14b4",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "card",
+      "upstream_tags": [
+        "simple",
+        "material design",
+        "alert",
+        "notification",
+        "warning",
+        "card",
+        "info",
+        "rounded",
+        "light",
+        "blue",
+        "background",
+        "link",
+        "darkmode",
+        "informational",
+        "humorous"
+      ],
+      "source_code_analysis": {
+        "html_chars": 715,
+        "css_chars": 674,
+        "css_keyframes": 0,
+        "hover_selectors": 1,
+        "contains_svg": true,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-082",
@@ -6193,21 +7306,21 @@
       "author": "kennyotsu",
       "slug": "wonderful-firefox-31",
       "uiverse_url": "https://uiverse.io/kennyotsu/wonderful-firefox-31",
-      "category": "UNKNOWN",
+      "category": "CARD",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PAGE_LINK_FROM_AUTH_EXPORT_CATEGORY_NOT_VERIFIED",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/kennyotsu/wonderful-firefox-31",
+      "source_blob_sha": "8b9a2526638403042cd31926c3e207b91e48103b",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-083_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
       "consumer_implemented": false,
       "consumer_tested": false,
-      "description": "URL presente nell'export dei preferiti autenticati, codice non disponibile e categoria non confermata.",
-      "guardrails": "Usare solo dopo verifica visuale, a11y e codice",
+      "description": "Categoria CARD confermata dall'endpoint pubblico Uiverse. Abbinamenti UI/UX proposti, non collaudati sui consumer.",
+      "guardrails": "Contenuto accessibile senza hover e con fallback reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
       "favorite_export_position": 80,
@@ -6215,22 +7328,60 @@
         {
           "slug": "notes-ecosistema",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card anteprima collezione",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "world-days",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card tematica della ricorrenza",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "omni-cleaner",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card risultato di scansione",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-083_original.css",
+      "source_css_blob_sha": "8e76fe769fa233d78aeffa8b59875bebd7018d62",
+      "source_html_sha256": "91a6896c6060236bf319f90ff9db7270e2614cbd358afc5feb759c356891d581",
+      "source_css_sha256": "9f4b8ed24792791d2ddbb5621e99c296108bfdae1808613c8205bbda431dedf1",
+      "source_post_id": "5e7721fe-34a8-4f3f-95f8-f8d47dcaf82e",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "card",
+      "upstream_tags": [
+        "simple",
+        "material design",
+        "alert",
+        "notification",
+        "success",
+        "card",
+        "message",
+        "light",
+        "green",
+        "card",
+        "minimal",
+        "question",
+        "buttons",
+        "notification",
+        "dismiss",
+        "funny",
+        "joke",
+        "answer"
+      ],
+      "source_code_analysis": {
+        "html_chars": 1042,
+        "css_chars": 1401,
+        "css_keyframes": 0,
+        "hover_selectors": 1,
+        "contains_svg": true,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-084",
@@ -6327,11 +7478,11 @@
       "category": "SWITCH",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/m1her/odd-fireant-56",
+      "source_blob_sha": "59f8a846bbf70cd3be130cf5de47ea7c97824c97",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-085_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -6385,7 +7536,37 @@
           "surface": "Stato avviso realmente attivo",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-085_original.css",
+      "source_css_blob_sha": "a81c4a893b630e762d0ba546016268ebd9dd1251",
+      "source_html_sha256": "db3bd1b682afd9a1e1c883ee5ee0506e61e34b7700ccd464b993d62d09b9257e",
+      "source_css_sha256": "9e5862e84ddc15a498fbd576be374a5f98f91ff18365cb1b1c22caa2cb77a12d",
+      "source_post_id": "beb9e46e-d923-46fb-a075-a209986f962f",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "switch",
+      "upstream_tags": [
+        "switch",
+        "orange",
+        "control",
+        "icon",
+        "interactive",
+        "toggle",
+        "switch",
+        "outline",
+        "rectangle",
+        "colored"
+      ],
+      "source_code_analysis": {
+        "html_chars": 1377,
+        "css_chars": 3531,
+        "css_keyframes": 0,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-086",
@@ -6396,11 +7577,11 @@
       "category": "SWITCH",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/mamyapro123/cuddly-warthog-66",
+      "source_blob_sha": "7ce6f7bf56a21cd089029859a23c50db58301e8f",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-086_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -6454,7 +7635,38 @@
           "surface": "Stato avviso realmente attivo",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-086_original.css",
+      "source_css_blob_sha": "34bb58f39be7f74f089d5399ede8337959443b8c",
+      "source_html_sha256": "83d49250b3b1c88ef2e891f1019524bb7e20de4c7c5c0f452043eafc668fb85d",
+      "source_css_sha256": "aa4bec81a8fb5542b57dbf76f7e148c5b8ca6a4dc9eca21d266ec10e813e7937",
+      "source_post_id": "cf7b488d-0479-4daa-a264-46d221aaaa64",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "switch",
+      "upstream_tags": [
+        "switch",
+        "rounded",
+        "minimalist",
+        "blue",
+        "yellow",
+        "toggle",
+        "switch",
+        "rectangle",
+        "active"
+      ],
+      "source_code_analysis": {
+        "html_chars": 5296,
+        "css_chars": 12707,
+        "css_keyframes": 6,
+        "hover_selectors": 7,
+        "contains_svg": true,
+        "gradient": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-087",
@@ -6799,11 +8011,11 @@
       "category": "CARD",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/monkey_8812/curly-moth-56",
+      "source_blob_sha": "6cf8fa8e6c01321cbad6882405909de3103a780c",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-091_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -6857,7 +8069,40 @@
           "surface": "Tappa o diario viaggio",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-091_original.css",
+      "source_css_blob_sha": "e7267a7469db9ae1d87e4a3ce9493e946c5b5cd0",
+      "source_html_sha256": "98746956c94cd28ac3884456cf8b6e4fcaa564825fa71b6021b3983ec7b56b52",
+      "source_css_sha256": "88076b458eca6a7f468e7b8e96ec9243b1e9b3b886954192f3bffdaad3037a63",
+      "source_post_id": "4f75c356-f168-43f3-bcb6-9e0576a1012d",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "card",
+      "upstream_tags": [
+        "card",
+        "dark",
+        "rounded",
+        "gradient",
+        "minimalistic",
+        "modern",
+        "purple",
+        "futuristic",
+        "glow",
+        "transparent",
+        "spherical"
+      ],
+      "source_code_analysis": {
+        "html_chars": 1988,
+        "css_chars": 5782,
+        "css_keyframes": 1,
+        "hover_selectors": 1,
+        "contains_svg": true,
+        "gradient": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-092",
@@ -6868,11 +8113,11 @@
       "category": "CARD",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/mymiamo/quiet-dragon-5",
+      "source_blob_sha": "27b680a88e015e2b1dd9aa645ac01e67964aa0c7",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-092_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -6926,7 +8171,37 @@
           "surface": "Card di anteprima/collezione",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-092_original.css",
+      "source_css_blob_sha": "46f99bd5cfa6ef61bef48d03b4e5a303dc19ca89",
+      "source_html_sha256": "c451848eb209a415446f2eb6ce250d77c487c28916ee2f9d60d3c43a2a299495",
+      "source_css_sha256": "b417aa938d63540305dca356ede42213bf2750c97f240ad67d6fb5477dea4fe9",
+      "source_post_id": "857147cf-d7de-4e53-8368-fe615f807df9",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "card",
+      "upstream_tags": [
+        "card",
+        "dark",
+        "minimal",
+        "colorful",
+        "window",
+        "code",
+        "header",
+        "preview",
+        "mac",
+        "javascript"
+      ],
+      "source_code_analysis": {
+        "html_chars": 505,
+        "css_chars": 1854,
+        "css_keyframes": 0,
+        "hover_selectors": 1,
+        "contains_svg": false,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-093",
@@ -6934,21 +8209,21 @@
       "author": "preet_7613",
       "slug": "new-cougar-63",
       "uiverse_url": "https://uiverse.io/preet_7613/new-cougar-63",
-      "category": "UNKNOWN",
+      "category": "CARD",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PAGE_LINK_FROM_AUTH_EXPORT_CATEGORY_NOT_VERIFIED",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/preet_7613/new-cougar-63",
+      "source_blob_sha": "9ed1f3edd5d108729bb770fdc377e5cdb6cc55bb",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-093_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
       "consumer_implemented": false,
       "consumer_tested": false,
-      "description": "URL presente nell'export dei preferiti autenticati, codice non disponibile e categoria non confermata.",
-      "guardrails": "Usare solo dopo verifica visuale, a11y e codice",
+      "description": "Categoria CARD confermata dall'endpoint pubblico Uiverse. Abbinamenti UI/UX proposti, non collaudati sui consumer.",
+      "guardrails": "Contenuto accessibile senza hover e con fallback reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
       "favorite_export_position": 90,
@@ -6956,22 +8231,50 @@
         {
           "slug": "omni-cleaner",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card riepilogo archiviazione",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "app-factory-dashboard",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card progetto o capability",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "notes-ecosistema",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card nota o collezione",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-093_original.css",
+      "source_css_blob_sha": "a593e06db74ecc00ae17e122c5eda7c9703ee4ce",
+      "source_html_sha256": "648c8603540f053da927a17c13232e82938bed29b8bb57e5a4668d6ff5bfa3ee",
+      "source_css_sha256": "16053e63077a6b350dcc603153470fbc6cb5af91feae569f770757fed8cd84cf",
+      "source_post_id": "555d5a2c-941e-4b62-b283-8e9f4656fa19",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "card",
+      "upstream_tags": [
+        "card",
+        "minimal",
+        "centered",
+        "monochrome",
+        "error",
+        "404"
+      ],
+      "source_code_analysis": {
+        "html_chars": 1279,
+        "css_chars": 1914,
+        "css_keyframes": 6,
+        "hover_selectors": 0,
+        "contains_svg": true,
+        "gradient": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-094",
@@ -7068,11 +8371,11 @@
       "category": "CARD",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/seoulchik/funny-seahorse-89",
+      "source_blob_sha": "ef515d7905c7bed68f285fa11feb86157b360889",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-095_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -7126,7 +8429,40 @@
           "surface": "Tappa o diario viaggio",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-095_original.css",
+      "source_css_blob_sha": "f0ce7820eea3f1b5056544042aa46af9a0dac79a",
+      "source_html_sha256": "a13b8a769dc5f3282df8f522c5e6a84463ff351b1f7b9ccee89be60d39690d8e",
+      "source_css_sha256": "d0870ab62e267de1a5f8162a5dbd6d9acd585c8f2701ea1e2af0d6d9556897e5",
+      "source_post_id": "1530c020-b1cb-41a9-877e-b05030453c70",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "card",
+      "upstream_tags": [
+        "card",
+        "button",
+        "orange",
+        "blue",
+        "price",
+        "services",
+        "project",
+        "premium",
+        "creative",
+        "grid",
+        "star",
+        "design",
+        "studio"
+      ],
+      "source_code_analysis": {
+        "html_chars": 4128,
+        "css_chars": 7329,
+        "css_keyframes": 0,
+        "hover_selectors": 9,
+        "contains_svg": true,
+        "gradient": true,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-096",
@@ -7137,11 +8473,11 @@
       "category": "PATTERN",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/solowzrd/wet-lionfish-63",
+      "source_blob_sha": "f2d71ec537755843ca25472119ab3b3bb575a987",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-096_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -7189,7 +8525,43 @@
           "surface": "Texture background con gate contrasto/FPS",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-096_original.css",
+      "source_css_blob_sha": "a43b53bf2913a67059c4fe318c71d6986a02f673",
+      "source_html_sha256": "414bbf2bde377e654cbe8621a1530bf6b4b12b6da5862b62c7202159cea084ad",
+      "source_css_sha256": "406be5961d4e346ceb352814dbf6a0f684701f0a23a9d09d3c87520d418e40e4",
+      "source_post_id": "5f31ed4f-5a14-4d04-9d01-926910c13758",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "pattern",
+      "upstream_tags": [
+        "animation",
+        "matrix",
+        "pattern",
+        "background",
+        "synthwave",
+        "blue",
+        "background",
+        "neon",
+        "futuristic",
+        "glow",
+        "letters",
+        "pattern",
+        "Japanese",
+        "katakana"
+      ],
+      "source_code_analysis": {
+        "html_chars": 16262,
+        "css_chars": 2329,
+        "css_keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "gradient": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-097",
@@ -7286,11 +8658,11 @@
       "category": "PATTERN",
       "source_repository": null,
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "source_snapshot": null,
-      "evidence": "PUBLIC_UIVERSE_CATEGORY_VERIFIED_SOURCE_CODE_MISSING",
-      "license": "MIT_UIVERSE_SITE_CLAIM_CODE_NOT_INSPECTED",
+      "source_path": "https://uiverse.io/whoisyourdeadie/foolish-rabbit-13",
+      "source_blob_sha": "ebb75491a058ac374e579513213cb646d16effa9",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-098_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
       "maturity": "REFERENCE",
       "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
       "consumer_status": "PROPOSED_ONLY",
@@ -7338,7 +8710,31 @@
           "surface": "Texture background con gate contrasto/FPS",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-098_original.css",
+      "source_css_blob_sha": "929ae3c60095fbea24eaa6decfd1d9c6f4d9cddf",
+      "source_html_sha256": "16350797e3c7f7767ba5345ff92513bf1fd755d06540e1172cec0a63c9041a81",
+      "source_css_sha256": "572eba224d2a2ee7cfd8d525ab6602ae22d69bcd05cc2226170e9048696f3fcb",
+      "source_post_id": "37e5fea4-4c19-4b76-b4b0-7cf3bbca08ba",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T11:09:18.470856+00:00",
+      "upstream_category": "pattern",
+      "upstream_tags": [
+        "matrix",
+        "pattern"
+      ],
+      "source_code_analysis": {
+        "html_chars": 7838,
+        "css_chars": 6107,
+        "css_keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "gradient": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-099",
@@ -9764,7 +11160,7 @@
       "component_id": "UIV-043",
       "app_id": "notes-ecosistema",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Ricerca e filtri delle note con label accessibile",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -9772,7 +11168,7 @@
       "component_id": "UIV-043",
       "app_id": "world-days",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Ricerca per parola chiave delle ricorrenze",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -9780,7 +11176,7 @@
       "component_id": "UIV-043",
       "app_id": "omni-cleaner",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Ricerca file per nome con feedback chiaro",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -9844,7 +11240,7 @@
       "component_id": "UIV-045",
       "app_id": "omni-cleaner",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Selezione media prima di ogni eliminazione",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -9852,7 +11248,7 @@
       "component_id": "UIV-045",
       "app_id": "app-factory-dashboard",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Checklist dei controlli di verifica",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -9860,7 +11256,7 @@
       "component_id": "UIV-045",
       "app_id": "notes-ecosistema",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Checklist note o attività con stato reale",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -10188,7 +11584,7 @@
       "component_id": "UIV-052",
       "app_id": "notes-ecosistema",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card di raccolta e workspace",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -10196,7 +11592,7 @@
       "component_id": "UIV-052",
       "app_id": "world-days",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card anteprima della giornata",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -10204,7 +11600,7 @@
       "component_id": "UIV-052",
       "app_id": "omni-cleaner",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card di riepilogo risultati",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -10812,7 +12208,7 @@
       "component_id": "UIV-064",
       "app_id": "notes-ecosistema",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "CTA aggiunta o apertura nota",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -10820,7 +12216,7 @@
       "component_id": "UIV-064",
       "app_id": "world-days",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "CTA apertura dell'approfondimento",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -10828,7 +12224,7 @@
       "component_id": "UIV-064",
       "app_id": "omni-cleaner",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "CTA per avviare scansione o aprire i risultati",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -11596,7 +12992,7 @@
       "component_id": "UIV-079",
       "app_id": "notes-ecosistema",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card anteprima nota",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -11604,7 +13000,7 @@
       "component_id": "UIV-079",
       "app_id": "world-days",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card editoriale della storia",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -11612,7 +13008,7 @@
       "component_id": "UIV-079",
       "app_id": "omni-cleaner",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card per gruppo di duplicati",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -11788,7 +13184,7 @@
       "component_id": "UIV-083",
       "app_id": "notes-ecosistema",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card anteprima collezione",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -11796,7 +13192,7 @@
       "component_id": "UIV-083",
       "app_id": "world-days",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card tematica della ricorrenza",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -11804,7 +13200,7 @@
       "component_id": "UIV-083",
       "app_id": "omni-cleaner",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card risultato di scansione",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -12308,7 +13704,7 @@
       "component_id": "UIV-093",
       "app_id": "omni-cleaner",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card riepilogo archiviazione",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -12316,7 +13712,7 @@
       "component_id": "UIV-093",
       "app_id": "app-factory-dashboard",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card progetto o capability",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -12324,7 +13720,7 @@
       "component_id": "UIV-093",
       "app_id": "notes-ecosistema",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card nota o collezione",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
