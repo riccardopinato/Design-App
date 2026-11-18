@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-17",
+  "updated_at": "2026-11-18",
   "purpose": "Curated web directories and visual sources for design research; no entitlement to third-party assets",
   "sites": [
     {
@@ -132,6 +132,42 @@
       "license": "MIT original platform repository; asset/dependency rights separate; no Flutter runtime verified",
       "use": "Use component repo source as concept and integrate only after Product Bible and framework/QA gate; three exact names are unlocated.",
       "related_intake": "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
+    },
+    {
+      "id": "DESIGN-SITE-008",
+      "name": "Dribbble",
+      "url": "https://dribbble.com/",
+      "kind": "DESIGN_PORTFOLIO_DISCOVERY",
+      "status": "REFERENCE",
+      "direct_page_fetch": "VERIFIED_2026_11_18",
+      "recommended_for": [
+        "mobile_editorial_UI",
+        "bento_dashboards",
+        "photographic_cards",
+        "visual_hierarchy"
+      ],
+      "use": "Inspect exact shot URL and author, extract general UI patterns; build original Flutter/Compose components. Never copy screenshot/artwork/code without separately documented permission.",
+      "source_content_summary": "Four individually inspected public shots linked in research audit, plus mobile design discovery.",
+      "license": "PER_SHOT_RIGHTS_NOT_ESTABLISHED_REFERENCE_ONLY",
+      "related_intake": "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md"
+    },
+    {
+      "id": "DESIGN-SITE-009",
+      "name": "Collect UI",
+      "url": "https://collectui.com/",
+      "kind": "CURATED_UI_DISCOVERY",
+      "status": "REFERENCE",
+      "direct_page_fetch": "CATEGORY_PAGES_VERIFIED_DYNAMIC_ITEMS_PARTIAL_2026_11_18",
+      "recommended_for": [
+        "onboarding",
+        "functional_scroll_motion",
+        "infographic",
+        "UI_patterns"
+      ],
+      "use": "Use curated category pages as inspiration, verify individual post and source before precise attribution or reuse. Several categories are empty/dynamic.",
+      "source_content_summary": "Verified sign-up, scroll-animation, infographic categories and trending; no assumed author-specific asset license.",
+      "license": "PER_ITEM_RIGHTS_NOT_ESTABLISHED_REFERENCE_ONLY",
+      "related_intake": "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md"
     }
   ]
 }
