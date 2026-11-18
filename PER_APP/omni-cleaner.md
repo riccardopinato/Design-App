@@ -4,6 +4,22 @@
 
 **Stato delle proposte:** `PROPOSAL_ONLY` — non sono stati ispezionati il codice HEAD o la Product Bible della singola app in questo lavoro. Le scelte visive già approvate nei repository delle app prevalgono; nessun asset copiato, nessun test consumer, nessuna integrazione.
 
+## Riconciliazione consumer — PR #35 e P1/P2 · 18/11/2026
+
+**Evidenza consumer verificata:** Android Omni Cleaner PR #35 **merged** su main, commit `b2bd4381ddd6e7e880eebb3a25b6bee03d9aafec`, CI Android e screenshot API 35 PASS sul source head `3ae3487a164bb4eedb9cb0b4068477e074c22a31`; 20 screenshot sottoposti ad audit visivo. Il testo storico `PROPOSAL_ONLY` di questo dossier si riferisce esclusivamente all'intake del catalogo del 17 novembre, **non allo stato attuale del consumer**.
+
+**Pattern adattati nel consumer (non import di codice di terzi):**
+- `UIX-STYLE-006` / `DCL-002`: raggruppamento delle nove funzioni Clean, status `SOURCE_IMPLEMENTED / CI_TESTED`.
+- `UIX-STYLE-009` / `DCL-007`: schede navigazione Privacy e Pro, status `SOURCE_IMPLEMENTED / CI_TESTED`.
+- `DCL-004`: navigazione su schermate dedicate, status `SOURCE_IMPLEMENTED / CI_TESTED`.
+- `DCL-006`: foto/video con `ContentScale.Fit` e video fullscreen nativo, status `SOURCE_IMPLEMENTED / EMULATOR_SMOKE`; la resa visiva dei fotogrammi non è ancora certificata.
+- `DCL-005`: stati reali di scansione, nessun progresso inventato, status `SOURCE_IMPLEMENTED / CI_TESTED`.
+- `WML-003`: idea di timeline, adattata tramite `VideoView + MediaController`, **non componente Watermelon implementato direttamente**.
+
+**Correzioni aperte:** [PR #37](https://github.com/riccardopinato/Android-Omni-Cleaner/pull/37), ramo P1/P2 **DRAFT / CI_PENDING** al momento di questa annotazione. Include filtri Gallery responsive, selected states, gerarchia CTA, Bento, messaggi/provider e fixture video luminosa. Non promuovere nessuna di queste correzioni a `CI_TESTED` o `RUNTIME_VISUAL_REVIEWED` finché i gate esatti e la revisione delle nuove schermate non passano.
+
+**Nessuna promozione implicita dei donor originali:** catalogo Uiverse, Watermelon, Gentleface e stili restano `REFERENCE / PROPOSED_ONLY` come componenti terzi. La precedente lista di fonti e preferenze resta integra, così come le condizioni di licenza e verifica.
+
 ## Identità e direzione visiva
 
 Utility di pulizia con schermate separate e UI fluida: galleria foto/video a formato originale e player reale.
