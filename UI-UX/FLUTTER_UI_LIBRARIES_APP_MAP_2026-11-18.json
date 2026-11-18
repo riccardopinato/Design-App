@@ -1,0 +1,354 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-18",
+  "status": "PROPOSED_ONLY",
+  "source_urls": {
+    "Forui": "https://forui.dev/docs/widgets/form/button",
+    "Mix": "https://pub.dev/packages/mix",
+    "shadcn_ui": "https://pub.dev/packages/shadcn_ui",
+    "FL Chart": "https://pub.dev/packages/fl_chart"
+  },
+  "links": [
+    {
+      "app": "annas-diary",
+      "source": "Forui",
+      "fit": "MEDIUM",
+      "surface": "form controls consistent with already-approved diary styling",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "app": "annas-diary",
+      "source": "Mix",
+      "fit": "HIGH",
+      "surface": "product-owned theme tokens",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "app": "notes-ecosistema",
+      "source": "Forui",
+      "fit": "HIGH",
+      "surface": "responsive workspaces/forms",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "app": "notes-ecosistema",
+      "source": "Mix",
+      "fit": "HIGH",
+      "surface": "design system token infrastructure",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "app": "notes-ecosistema",
+      "source": "shadcn_ui",
+      "fit": "MEDIUM",
+      "surface": "desktop-like panel references",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "app": "notes-ecosistema",
+      "source": "FL Chart",
+      "fit": "MEDIUM",
+      "surface": "real project data charts",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "app": "world-days",
+      "source": "Forui",
+      "fit": "MEDIUM",
+      "surface": "search/filter controls",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "app": "world-days",
+      "source": "Mix",
+      "fit": "MEDIUM",
+      "surface": "editorial visual tokens",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "app": "battery-guard",
+      "source": "FL Chart",
+      "fit": "HIGH",
+      "surface": "battery measurements with real data",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "app": "camperboss",
+      "source": "Forui",
+      "fit": "MEDIUM",
+      "surface": "offline-friendly forms",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "app": "camperboss",
+      "source": "Mix",
+      "fit": "MEDIUM",
+      "surface": "travel-focused tokens",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "app": "framelab",
+      "source": "Mix",
+      "fit": "HIGH",
+      "surface": "palette/editor component tokens",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "app": "framelab",
+      "source": "Forui",
+      "fit": "MEDIUM",
+      "surface": "picker/settings controls",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    }
+  ],
+  "by_app": {
+    "annas-diary": [
+      {
+        "app": "annas-diary",
+        "source": "Forui",
+        "fit": "MEDIUM",
+        "surface": "form controls consistent with already-approved diary styling",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      },
+      {
+        "app": "annas-diary",
+        "source": "Mix",
+        "fit": "HIGH",
+        "surface": "product-owned theme tokens",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      }
+    ],
+    "notes-ecosistema": [
+      {
+        "app": "notes-ecosistema",
+        "source": "Forui",
+        "fit": "HIGH",
+        "surface": "responsive workspaces/forms",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      },
+      {
+        "app": "notes-ecosistema",
+        "source": "Mix",
+        "fit": "HIGH",
+        "surface": "design system token infrastructure",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      },
+      {
+        "app": "notes-ecosistema",
+        "source": "shadcn_ui",
+        "fit": "MEDIUM",
+        "surface": "desktop-like panel references",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      },
+      {
+        "app": "notes-ecosistema",
+        "source": "FL Chart",
+        "fit": "MEDIUM",
+        "surface": "real project data charts",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      }
+    ],
+    "world-days": [
+      {
+        "app": "world-days",
+        "source": "Forui",
+        "fit": "MEDIUM",
+        "surface": "search/filter controls",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      },
+      {
+        "app": "world-days",
+        "source": "Mix",
+        "fit": "MEDIUM",
+        "surface": "editorial visual tokens",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      }
+    ],
+    "battery-guard": [
+      {
+        "app": "battery-guard",
+        "source": "FL Chart",
+        "fit": "HIGH",
+        "surface": "battery measurements with real data",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      }
+    ],
+    "camperboss": [
+      {
+        "app": "camperboss",
+        "source": "Forui",
+        "fit": "MEDIUM",
+        "surface": "offline-friendly forms",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      },
+      {
+        "app": "camperboss",
+        "source": "Mix",
+        "fit": "MEDIUM",
+        "surface": "travel-focused tokens",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      }
+    ],
+    "framelab": [
+      {
+        "app": "framelab",
+        "source": "Mix",
+        "fit": "HIGH",
+        "surface": "palette/editor component tokens",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      },
+      {
+        "app": "framelab",
+        "source": "Forui",
+        "fit": "MEDIUM",
+        "surface": "picker/settings controls",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      }
+    ]
+  },
+  "by_source": {
+    "Forui": [
+      {
+        "app": "annas-diary",
+        "source": "Forui",
+        "fit": "MEDIUM",
+        "surface": "form controls consistent with already-approved diary styling",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      },
+      {
+        "app": "notes-ecosistema",
+        "source": "Forui",
+        "fit": "HIGH",
+        "surface": "responsive workspaces/forms",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      },
+      {
+        "app": "world-days",
+        "source": "Forui",
+        "fit": "MEDIUM",
+        "surface": "search/filter controls",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      },
+      {
+        "app": "camperboss",
+        "source": "Forui",
+        "fit": "MEDIUM",
+        "surface": "offline-friendly forms",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      },
+      {
+        "app": "framelab",
+        "source": "Forui",
+        "fit": "MEDIUM",
+        "surface": "picker/settings controls",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      }
+    ],
+    "Mix": [
+      {
+        "app": "annas-diary",
+        "source": "Mix",
+        "fit": "HIGH",
+        "surface": "product-owned theme tokens",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      },
+      {
+        "app": "notes-ecosistema",
+        "source": "Mix",
+        "fit": "HIGH",
+        "surface": "design system token infrastructure",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      },
+      {
+        "app": "world-days",
+        "source": "Mix",
+        "fit": "MEDIUM",
+        "surface": "editorial visual tokens",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      },
+      {
+        "app": "camperboss",
+        "source": "Mix",
+        "fit": "MEDIUM",
+        "surface": "travel-focused tokens",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      },
+      {
+        "app": "framelab",
+        "source": "Mix",
+        "fit": "HIGH",
+        "surface": "palette/editor component tokens",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      }
+    ],
+    "shadcn_ui": [
+      {
+        "app": "notes-ecosistema",
+        "source": "shadcn_ui",
+        "fit": "MEDIUM",
+        "surface": "desktop-like panel references",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      }
+    ],
+    "FL Chart": [
+      {
+        "app": "notes-ecosistema",
+        "source": "FL Chart",
+        "fit": "MEDIUM",
+        "surface": "real project data charts",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      },
+      {
+        "app": "battery-guard",
+        "source": "FL Chart",
+        "fit": "HIGH",
+        "surface": "battery measurements with real data",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED"
+      }
+    ]
+  },
+  "counts": {
+    "apps": 6,
+    "links": 13
+  },
+  "notes": "No app source, SDK compatibility or package runtime was verified. Visual references selected by user in Design-App take precedence."
+}

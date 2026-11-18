@@ -60,3 +60,7 @@ Questa directory contiene studi di sorgenti esterne e donatori candidati, non ne
 ## Dribbble + Collect UI — direzione visiva 2026/27 (18/11/2026)
 
 [Audit con 4 shot Dribbble e 4 pagine Collect UI](./DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md) · [Matrice 15 app e 12 pattern](../UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.md) · [JSON bidirezionale](../UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json). Entrambi sono **siti di ispirazione/reference**, non donatori di codice/immagini. Stato PROPOSED_ONLY, niente modifiche consumer.
+
+## Flutter native UI sources · 18/11/2026
+
+[Flutter Gems / Forui / F22 Labs technical intake](./FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md) · [Six-app source matrix](../UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json). Site registry DESIGN-SITE-011..013. Sources are discovery/reference; no package installed, no Golden or consumer certified.

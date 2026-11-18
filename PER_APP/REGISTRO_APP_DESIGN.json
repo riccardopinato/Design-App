@@ -226,7 +226,9 @@
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "diario e ricordi",
@@ -598,6 +600,13 @@
             "UIV-111"
           ],
           "note": "6 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "FLUTTER_UI_SOURCES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+          "note": "Package shortlist only; Design-App-first and consumer verification required."
         }
       ],
       "voice_ui_candidates": [
@@ -1464,6 +1473,22 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        }
+      ],
+      "flutter_ui_library_candidates_2026_27": [
+        {
+          "source": "Forui",
+          "fit": "MEDIUM",
+          "surface": "form controls consistent with already-approved diary styling",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "source": "Mix",
+          "fit": "HIGH",
+          "surface": "product-owned theme tokens",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
         }
       ]
     },
@@ -2814,7 +2839,9 @@
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "batteria",
@@ -3068,6 +3095,13 @@
             "UIV-110"
           ],
           "note": "2 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "FLUTTER_UI_SOURCES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+          "note": "Package shortlist only; Design-App-first and consumer verification required."
         }
       ],
       "motion_design_candidates": [
@@ -3699,6 +3733,15 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        }
+      ],
+      "flutter_ui_library_candidates_2026_27": [
+        {
+          "source": "FL Chart",
+          "fit": "HIGH",
+          "surface": "battery measurements with real data",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
         }
       ]
     },
@@ -4334,7 +4377,9 @@
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "camper/van",
@@ -4577,6 +4622,13 @@
             "UIV-111"
           ],
           "note": "4 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "FLUTTER_UI_SOURCES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+          "note": "Package shortlist only; Design-App-first and consumer verification required."
         }
       ],
       "voice_ui_candidates": [
@@ -5224,6 +5276,22 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        }
+      ],
+      "flutter_ui_library_candidates_2026_27": [
+        {
+          "source": "Forui",
+          "fit": "MEDIUM",
+          "surface": "offline-friendly forms",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "source": "Mix",
+          "fit": "MEDIUM",
+          "surface": "travel-focused tokens",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
         }
       ]
     },
@@ -9941,7 +10009,9 @@
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "fotografia",
@@ -10233,6 +10303,13 @@
             "UIV-108"
           ],
           "note": "4 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "FLUTTER_UI_SOURCES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+          "note": "Package shortlist only; Design-App-first and consumer verification required."
         }
       ],
       "voice_ui_candidates": [
@@ -10911,6 +10988,22 @@
           "is_user_favorite": true,
           "code_original_available": true
         }
+      ],
+      "flutter_ui_library_candidates_2026_27": [
+        {
+          "source": "Mix",
+          "fit": "HIGH",
+          "surface": "palette/editor component tokens",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "source": "Forui",
+          "fit": "MEDIUM",
+          "surface": "picker/settings controls",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
+        }
       ]
     },
     {
@@ -10940,7 +11033,9 @@
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "nota",
@@ -11398,6 +11493,13 @@
             "UIV-111"
           ],
           "note": "9 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "FLUTTER_UI_SOURCES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+          "note": "Package shortlist only; Design-App-first and consumer verification required."
         }
       ],
       "voice_ui_candidates": [
@@ -12654,6 +12756,36 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        }
+      ],
+      "flutter_ui_library_candidates_2026_27": [
+        {
+          "source": "Forui",
+          "fit": "HIGH",
+          "surface": "responsive workspaces/forms",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "source": "Mix",
+          "fit": "HIGH",
+          "surface": "design system token infrastructure",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "source": "shadcn_ui",
+          "fit": "MEDIUM",
+          "surface": "desktop-like panel references",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "source": "FL Chart",
+          "fit": "MEDIUM",
+          "surface": "real project data charts",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
         }
       ]
     },
@@ -17872,7 +18004,9 @@
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "calendario",
@@ -18287,6 +18421,13 @@
             "UIV-111"
           ],
           "note": "8 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "FLUTTER_UI_SOURCES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+          "note": "Package shortlist only; Design-App-first and consumer verification required."
         }
       ],
       "voice_ui_candidates": [
@@ -19375,6 +19516,22 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        }
+      ],
+      "flutter_ui_library_candidates_2026_27": [
+        {
+          "source": "Forui",
+          "fit": "MEDIUM",
+          "surface": "search/filter controls",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "source": "Mix",
+          "fit": "MEDIUM",
+          "surface": "editorial visual tokens",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
         }
       ]
     }

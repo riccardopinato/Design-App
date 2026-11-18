@@ -189,6 +189,58 @@
       ],
       "related_intake": "sources/UIVERSE_FAVORITES_REFRESH_108_2026-11-18.md",
       "updated_at": "2026-11-18"
+    },
+    {
+      "id": "DESIGN-SITE-011",
+      "name": "Flutter Gems",
+      "url": "https://fluttergems.dev/",
+      "kind": "FLUTTER_PACKAGE_DISCOVERY_DIRECTORY",
+      "status": "REFERENCE",
+      "direct_page_fetch": "SELECTED_CATEGORY_PAGES_VERIFIED_2026_11_18",
+      "recommended_for": [
+        "Flutter design system",
+        "widgets",
+        "motion",
+        "testing",
+        "performance"
+      ],
+      "use": "On-demand discovery only; check original pub.dev GitHub license/SDK/updates; Design-App user-curated aesthetics first.",
+      "license": "AGGREGATOR_HAS_NO_COMPONENT_LICENSE",
+      "related_intake": "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md"
+    },
+    {
+      "id": "DESIGN-SITE-012",
+      "name": "Forui",
+      "url": "https://forui.dev/docs/widgets/form/button",
+      "kind": "FLUTTER_NATIVE_WIDGET_LIBRARY",
+      "status": "REFERENCE",
+      "direct_page_fetch": "DOCS_AND_PUB_DEV_VERIFIED_2026_11_18",
+      "recommended_for": [
+        "buttons",
+        "forms",
+        "responsive touch desktop UI",
+        "navigation"
+      ],
+      "source_repository": "duobaseio/forui",
+      "source_commit": "5dbf97c926a53fcfe3436db1be6262ac40961db5",
+      "use": "Single-widget pilot only after Product Bible and Design-App; verify Flutter SDK and footprint before adding package.",
+      "license": "MIT_CODE_AND_OFL_FONTS_ASSET_LEVEL_CHECK",
+      "related_intake": "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md"
+    },
+    {
+      "id": "DESIGN-SITE-013",
+      "name": "F22 Labs Flutter UI comparison",
+      "url": "https://www.f22labs.com/blogs/top-8-flutter-ui-libraries-for-2025-you-must-explore/",
+      "kind": "EDITORIAL_COMPARISON",
+      "status": "REFERENCE",
+      "direct_page_fetch": "VERIFIED_2026_11_18",
+      "recommended_for": [
+        "UI library research",
+        "component comparisons"
+      ],
+      "use": "Second-hand overview; actual article dated Aug 4 2026, compare original package maintainers.",
+      "license": "EDITORIAL_NOT_PACKAGE_LICENSE",
+      "related_intake": "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md"
     }
   ]
 }
