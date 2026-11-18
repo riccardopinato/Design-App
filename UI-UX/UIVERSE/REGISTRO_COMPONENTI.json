@@ -71,7 +71,24 @@
       ],
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 42
+      "favorite_export_position": 42,
+      "source_code_analysis": {
+        "css_tags": "loader",
+        "html_root": "div",
+        "bytes": 1192,
+        "keyframes": 2,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_01.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-002",
@@ -127,7 +144,25 @@
           "surface": "CTA con gradiente e stato focus/tap",
           "fit": "MEDIUM"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "button",
+        "html_root": "button",
+        "bytes": 623,
+        "keyframes": 0,
+        "hover_selectors": 1,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": true,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "HOVER_ONLY_PATTERN",
+          "GLOBAL_CSS_SELECTOR_POTENTIAL_COLLISION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_01.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-003",
@@ -183,7 +218,24 @@
           "surface": "Card contenuti/insight con reveal accessibile",
           "fit": "MEDIUM"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "gradient, card, hover, hover effect, cardhover",
+        "html_root": "div",
+        "bytes": 2016,
+        "keyframes": 0,
+        "hover_selectors": 3,
+        "contains_svg": true,
+        "contains_input": false,
+        "gradient": true,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "HOVER_ONLY_PATTERN"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_01.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-004",
@@ -242,7 +294,24 @@
       ],
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 13
+      "favorite_export_position": 13,
+      "source_code_analysis": {
+        "css_tags": "gradient, card",
+        "html_root": "div",
+        "bytes": 7333,
+        "keyframes": 0,
+        "hover_selectors": 3,
+        "contains_svg": true,
+        "contains_input": false,
+        "gradient": true,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "HOVER_ONLY_PATTERN"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_01.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-005",
@@ -490,7 +559,24 @@
           "surface": "Caricamento temporaneo con stop/errore/retry",
           "fit": "MEDIUM"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "loader",
+        "html_root": "div",
+        "bytes": 1329,
+        "keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_01.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-009",
@@ -544,7 +630,25 @@
       ],
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 64
+      "favorite_export_position": 64,
+      "source_code_analysis": {
+        "css_tags": "card",
+        "html_root": "div",
+        "bytes": 1561,
+        "keyframes": 0,
+        "hover_selectors": 1,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": true,
+        "css_variables": false,
+        "static_review_flags": [
+          "HOVER_ONLY_PATTERN",
+          "GLOBAL_CSS_SELECTOR_POTENTIAL_COLLISION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_01.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-010",
@@ -682,7 +786,25 @@
           "surface": "Scansione memoria/duplicati con stato reale",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "3d, loader, effect loader, loading animation",
+        "html_root": "div",
+        "bytes": 14026,
+        "keyframes": 19,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": true,
+        "three_d": true,
+        "css_variables": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION",
+          "HEAVY_SOURCE_REVIEW"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_01.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-012",
@@ -751,7 +873,22 @@
           "surface": "Stato avviso realmente attivo",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "switch, animated, click effect",
+        "html_root": "label",
+        "bytes": 2974,
+        "keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": true,
+        "gradient": true,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_01.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-013",
@@ -820,7 +957,24 @@
           "surface": "Scansione memoria/duplicati con stato reale",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "3d, loader, cube",
+        "html_root": "div",
+        "bytes": 1256,
+        "keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": true,
+        "css_variables": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_01.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-014",
@@ -889,7 +1043,25 @@
           "surface": "Card di anteprima/collezione",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "card, flip",
+        "html_root": "div",
+        "bytes": 6814,
+        "keyframes": 2,
+        "hover_selectors": 1,
+        "contains_svg": true,
+        "contains_input": false,
+        "gradient": true,
+        "three_d": true,
+        "css_variables": false,
+        "static_review_flags": [
+          "HOVER_ONLY_PATTERN",
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_01.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-015",
@@ -1159,7 +1331,22 @@
           "surface": "Impostazioni scansione persistite",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "switch, toggle switch, light switch",
+        "html_root": "div",
+        "bytes": 2531,
+        "keyframes": 0,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": true,
+        "gradient": true,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_01.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-019",
@@ -1228,7 +1415,24 @@
           "surface": "Caricamento delle storie locali",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "loader, astronaut",
+        "html_root": "div",
+        "bytes": 6812,
+        "keyframes": 2,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": true,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_01.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-020",
@@ -1297,7 +1501,24 @@
           "surface": "Attesa attività reale e risoluzione errore",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "loader",
+        "html_root": "div",
+        "bytes": 5083,
+        "keyframes": 2,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_01.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-021",
@@ -1366,7 +1587,24 @@
           "surface": "Tappa o diario viaggio",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "card, crypto, bitcoin, rotating",
+        "html_root": "div",
+        "bytes": 4935,
+        "keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": true,
+        "contains_input": false,
+        "gradient": true,
+        "three_d": true,
+        "css_variables": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_01.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-022",
@@ -1429,7 +1667,24 @@
           "surface": "Ricerca e filtri testuali",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "input",
+        "html_root": "div",
+        "bytes": 8726,
+        "keyframes": 2,
+        "hover_selectors": 9,
+        "contains_svg": true,
+        "contains_input": true,
+        "gradient": true,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_01.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-023",
@@ -1492,7 +1747,22 @@
           "surface": "Scelta esclusiva accessibile",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "neumorphism, skeuomorphism, glassmorphism, animation, minimalist, ball, radio, futuristic",
+        "html_root": "div",
+        "bytes": 2935,
+        "keyframes": 0,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": true,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_02.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-024",
@@ -1561,7 +1831,24 @@
           "surface": "Card di anteprima/collezione",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "simple, animation, gradient, card, card animation",
+        "html_root": "div",
+        "bytes": 6363,
+        "keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": true,
+        "contains_input": false,
+        "gradient": true,
+        "three_d": false,
+        "css_variables": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_02.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-025",
@@ -1630,7 +1917,24 @@
           "surface": "Attesa routing/traccia GPS reale con timeout/retry",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "loader, compass",
+        "html_root": "svg",
+        "bytes": 6204,
+        "keyframes": 4,
+        "hover_selectors": 0,
+        "contains_svg": true,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_02.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-026",
@@ -1699,7 +2003,24 @@
           "surface": "Scansione memoria/duplicati con stato reale",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "loader",
+        "html_root": "section",
+        "bytes": 1350,
+        "keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_02.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-027",
@@ -1768,7 +2089,24 @@
           "surface": "Stato avviso realmente attivo",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "skeuomorphism, switch",
+        "html_root": "label",
+        "bytes": 3478,
+        "keyframes": 2,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": true,
+        "gradient": true,
+        "three_d": true,
+        "css_variables": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_02.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-028",
@@ -1837,7 +2175,24 @@
           "surface": "Attesa attività reale e risoluzione errore",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "loader",
+        "html_root": "div",
+        "bytes": 6831,
+        "keyframes": 4,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": true,
+        "three_d": true,
+        "css_variables": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_02.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-029",
@@ -1906,7 +2261,24 @@
           "surface": "Scansione memoria/duplicati con stato reale",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "loader, hamster, wheel, svg, animal",
+        "html_root": "div",
+        "bytes": 6235,
+        "keyframes": 11,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": true,
+        "three_d": true,
+        "css_variables": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_02.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-030",
@@ -1975,7 +2347,24 @@
           "surface": "Scansione memoria/duplicati con stato reale",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "loader",
+        "html_root": "svg",
+        "bytes": 3923,
+        "keyframes": 4,
+        "hover_selectors": 0,
+        "contains_svg": true,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_02.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-031",
@@ -2113,7 +2502,24 @@
           "surface": "Caricamento delle storie locali",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "neumorphism, animation, loader, smooth, shadow, realistic, circle loader, spin",
+        "html_root": "div",
+        "bytes": 4394,
+        "keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": true,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_02.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-033",
@@ -2176,7 +2582,25 @@
           "surface": "CTA con azione verificata e focus",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "social, twitter, instagram, button, Discord, github, social media, rounded, button, text, gradient, blue, pink, hover, social",
+        "html_root": "div",
+        "bytes": 17363,
+        "keyframes": 1,
+        "hover_selectors": 35,
+        "contains_svg": true,
+        "contains_input": false,
+        "gradient": true,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "HOVER_ONLY_PATTERN",
+          "HEAVY_SOURCE_REVIEW"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_02.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-034",
@@ -2245,7 +2669,24 @@
           "surface": "Scansione memoria/duplicati con stato reale",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "loader",
+        "html_root": "div",
+        "bytes": 2777,
+        "keyframes": 3,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": true,
+        "css_variables": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_02.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-035",
@@ -2308,7 +2749,22 @@
           "surface": "Scelta esclusiva accessibile",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "switch",
+        "html_root": "div",
+        "bytes": 11993,
+        "keyframes": 0,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": true,
+        "gradient": true,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_02.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-036",
@@ -2377,7 +2833,24 @@
           "surface": "Scansione memoria/duplicati con stato reale",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "animation, loader, hand",
+        "html_root": "div",
+        "bytes": 2995,
+        "keyframes": 4,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_02.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-037",
@@ -2446,7 +2919,24 @@
           "surface": "Scheda nota o lavagna",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "card",
+        "html_root": "div",
+        "bytes": 3567,
+        "keyframes": 0,
+        "hover_selectors": 11,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": true,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "HOVER_ONLY_PATTERN"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_02.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-038",
@@ -2578,7 +3068,24 @@
           "surface": "Scansione memoria/duplicati con stato reale",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "animation, gradient, loader, spinner, text animation, animated, gradients, svg",
+        "html_root": "div",
+        "bytes": 4470,
+        "keyframes": 4,
+        "hover_selectors": 0,
+        "contains_svg": true,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_02.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-040",
@@ -2647,7 +3154,24 @@
           "surface": "Scansione memoria/duplicati con stato reale",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "loader",
+        "html_root": "div",
+        "bytes": 2011,
+        "keyframes": 2,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": true,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_03.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-041",
@@ -2716,7 +3240,24 @@
           "surface": "Scansione memoria/duplicati con stato reale",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "loader",
+        "html_root": "div",
+        "bytes": 638,
+        "keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": true,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_03.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-042",
@@ -2785,7 +3326,24 @@
           "surface": "Caricamento delle storie locali",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "loader",
+        "html_root": "span",
+        "bytes": 631,
+        "keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_03.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-043",
@@ -2899,7 +3457,24 @@
           "surface": "Scansione memoria/duplicati con stato reale",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "loader",
+        "html_root": "div",
+        "bytes": 10684,
+        "keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": true,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_03.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-045",
@@ -3070,7 +3645,24 @@
           "surface": "CTA con azione verificata e focus",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "button, design, hover button",
+        "html_root": "button",
+        "bytes": 1040,
+        "keyframes": 0,
+        "hover_selectors": 2,
+        "contains_svg": true,
+        "contains_input": false,
+        "gradient": true,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "HOVER_ONLY_PATTERN"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_03.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-048",
@@ -3139,7 +3731,22 @@
           "surface": "Card di anteprima/collezione",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "green, success, card, html, css, errocard, successcard",
+        "html_root": "div",
+        "bytes": 4041,
+        "keyframes": 0,
+        "hover_selectors": 0,
+        "contains_svg": true,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_03.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-049",
@@ -3208,7 +3815,24 @@
           "surface": "Stato avviso realmente attivo",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "switch, dark, light, theme-switch",
+        "html_root": "label",
+        "bytes": 2781,
+        "keyframes": 2,
+        "hover_selectors": 2,
+        "contains_svg": true,
+        "contains_input": true,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_03.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-050",
@@ -3454,7 +4078,25 @@
           "surface": "Aiuto contestuale non solo hover",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "tooltip, mario, super mario",
+        "html_root": "div",
+        "bytes": 16865,
+        "keyframes": 1,
+        "hover_selectors": 1,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "HOVER_ONLY_PATTERN",
+          "HEAVY_SOURCE_REVIEW"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_03.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-054",
@@ -3730,7 +4372,24 @@
           "surface": "Attesa routing/traccia GPS reale con timeout/retry",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "loader",
+        "html_root": "div",
+        "bytes": 1122,
+        "keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": true,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_03.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-058",
@@ -3799,7 +4458,22 @@
           "surface": "Stato avviso realmente attivo",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "skeuomorphism, switch, realistic",
+        "html_root": "div",
+        "bytes": 1544,
+        "keyframes": 0,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": true,
+        "gradient": true,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_03.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-059",
@@ -3868,7 +4542,22 @@
           "surface": "Stato avviso realmente attivo",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "switch, theme, light&dark",
+        "html_root": "input",
+        "bytes": 1493,
+        "keyframes": 0,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": true,
+        "gradient": true,
+        "three_d": false,
+        "css_variables": true,
+        "static_review_flags": [],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_03.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-060",
@@ -4579,7 +5268,22 @@
           "surface": "Selezione con semantica e feedback",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "gradient, checkbox",
+        "html_root": "label",
+        "bytes": 1471,
+        "keyframes": 0,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": true,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": true,
+        "static_review_flags": [],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_03.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-071",
@@ -4648,7 +5352,22 @@
           "surface": "Stato avviso realmente attivo",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "switch",
+        "html_root": "label",
+        "bytes": 1113,
+        "keyframes": 0,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": true,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_03.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-072",
@@ -4717,7 +5436,24 @@
           "surface": "Scansione memoria/duplicati con stato reale",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "simple, 3d, loader",
+        "html_root": "div",
+        "bytes": 2241,
+        "keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": true,
+        "css_variables": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_03.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-073",
@@ -4924,7 +5660,24 @@
           "surface": "Tappa o diario viaggio",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "glassmorphism, animation, card, hover, card template, cardhover , card animation, card hover",
+        "html_root": "div",
+        "bytes": 1759,
+        "keyframes": 0,
+        "hover_selectors": 1,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "HOVER_ONLY_PATTERN"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_03.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-076",
@@ -5062,7 +5815,24 @@
           "surface": "Scheda nota o lavagna",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "simple, material design, alert, notification, warning, card",
+        "html_root": "div",
+        "bytes": 1659,
+        "keyframes": 0,
+        "hover_selectors": 1,
+        "contains_svg": true,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "HOVER_ONLY_PATTERN"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_04.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-078",
@@ -5245,7 +6015,24 @@
           "surface": "Card di anteprima/collezione",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "simple, material design, alert, notification, success, card",
+        "html_root": "div",
+        "bytes": 2622,
+        "keyframes": 0,
+        "hover_selectors": 1,
+        "contains_svg": true,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "HOVER_ONLY_PATTERN"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_04.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-081",
@@ -5383,7 +6170,22 @@
           "surface": "Scheda nota o lavagna",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "simple, material design, alert, notification, card",
+        "html_root": "div",
+        "bytes": 1903,
+        "keyframes": 0,
+        "hover_selectors": 0,
+        "contains_svg": true,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_04.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-083",
@@ -5497,7 +6299,24 @@
           "surface": "Attesa attività reale e risoluzione errore",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "simple, form, loader, cube, animated, pattern",
+        "html_root": "div",
+        "bytes": 4717,
+        "keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": true,
+        "css_variables": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_04.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-085",
@@ -5698,7 +6517,24 @@
           "surface": "CTA con azione verificata e focus",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "simple, neumorphism, skeuomorphism, animation, minimalist, button, css, box-shadow",
+        "html_root": "button",
+        "bytes": 9626,
+        "keyframes": 8,
+        "hover_selectors": 6,
+        "contains_svg": true,
+        "contains_input": false,
+        "gradient": true,
+        "three_d": false,
+        "css_variables": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_04.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-088",
@@ -5767,7 +6603,22 @@
           "surface": "Preferenza on/off persistita",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "neumorphism, switch",
+        "html_root": "label",
+        "bytes": 1055,
+        "keyframes": 0,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": true,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_04.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-089",
@@ -5836,7 +6687,24 @@
           "surface": "Attesa attività reale e risoluzione errore",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "loader, bounce",
+        "html_root": "div",
+        "bytes": 1547,
+        "keyframes": 2,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_04.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-090",
@@ -5905,7 +6773,22 @@
           "surface": "Stato avviso realmente attivo",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "switch, dark, theme, light",
+        "html_root": "div",
+        "bytes": 4115,
+        "keyframes": 0,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": true,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_04.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-091",
@@ -6157,7 +7040,24 @@
           "surface": "Attesa attività reale e risoluzione errore",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "loader",
+        "html_root": "div",
+        "bytes": 1333,
+        "keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_04.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-095",
@@ -6358,7 +7258,24 @@
           "surface": "Scheda nota o lavagna",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "animation, card, hover, animated, hover effect, card flip, hoverme, card template, hover slide",
+        "html_root": "div",
+        "bytes": 1183,
+        "keyframes": 0,
+        "hover_selectors": 1,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": false,
+        "three_d": true,
+        "css_variables": false,
+        "static_review_flags": [
+          "HOVER_ONLY_PATTERN"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_04.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-098",
@@ -6490,7 +7407,24 @@
           "surface": "Attesa attività reale e risoluzione errore",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "loader",
+        "html_root": "div",
+        "bytes": 660,
+        "keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": false,
+        "gradient": true,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_04.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     },
     {
       "id": "UIV-100",
@@ -6559,7 +7493,22 @@
           "surface": "Stato avviso realmente attivo",
           "status": "PROPOSED_ONLY"
         }
-      ]
+      ],
+      "source_code_analysis": {
+        "css_tags": "switch, ios",
+        "html_root": "p",
+        "bytes": 1406,
+        "keyframes": 0,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "contains_input": true,
+        "gradient": false,
+        "three_d": false,
+        "css_variables": false,
+        "static_review_flags": [],
+        "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_04.json",
+        "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
+      }
     }
   ],
   "relations": [

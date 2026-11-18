@@ -34,3 +34,8 @@
 Questo esportatore **legge soltanto la pagina aperta nel tuo browser**; non riceve cookie, token OAuth, account GitHub o dati di login. Non ha accesso autonomo alla tua sessione. L'assenza di accesso autenticato impedisce attualmente il censimento completo e qualsiasi dichiarazione di codice originale recuperato dai segnalibri non visti. Anche con il JSON serve verifica dell'effettivo totale, perché il sito può cambiare il markup.
 
 **Baseline al momento della preparazione:** App-Factory-Core `a8d20ceb71ce9e9e16e6756d257d611fa6f1e0ec`, Design-App `7df6fb3782d0745ad13eed0bcb839b2d3e5d9d04`.
+
+## Analisi tecnica sorgenti — 57 originali
+
+[Rapporto statico](./ANALISI_TECNICA_57.md) · [quattro registri machine-readable](./ANALISI_CODICE_PART_01.json) con indizi su keyframes, SVG, hover, gradienti, 3D e segnalazioni di rischio. Fonte originale e hash Git conservati nel [catalogo globale](../REGISTRO_COMPONENTI.json). Nessuna QA runtime dichiarata.
+

@@ -719,3 +719,7 @@
 - Vincoli: On/off deve rappresentare stato reale, persistent state e TalkBack.
 - App candidate (7): easy-debloat, sleepmax-coach, camperboss, the-luminous-infinite-circle, tabletop-motion-alarm, cashmate-ai, battery-guard.
 
+## QA statica dei 57 codici originali
+
+[Report dettagliato](../UI-UX/UIVERSE/FAVORITES/ANALISI_TECNICA_57.md). Sorgenti letti e verificati contro blob Git; 35 con keyframes e 16 con hover. Questo non equivale a esecuzione/QA su dispositivo. Ogni segnalazione statica rimane un rischio da verificare.
+

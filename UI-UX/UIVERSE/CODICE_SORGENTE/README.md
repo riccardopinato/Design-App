@@ -75,3 +75,8 @@ Ogni codice è **una copia originale HTML/CSS con blob Git verificabile**: non �
 3. Per app native Flutter/Compose riprodurre il comportamento senza importare HTML in WebView se non richiesto dal prodotto; preferire animazioni native leggere.
 4. Verificare touch, focus tastiera, TalkBack/VoiceOver, reduced-motion, contrasto, font scale, safe area, tempi/FPS e batteria.
 5. Promuovere il riuso solo dopo evidenze per source SHA, test e Product Bible; finché non avviene resta REFERENCE/PROPOSED_ONLY.
+
+## Diagnostica per sorgente
+
+[Analisi tecnica dei 57 originali](../FAVORITES/ANALISI_TECNICA_57.md): tag CSS, SVG, keyframes, stati hover, animazioni, gradiente e rischi di riuso rilevati staticamente. Le segnalazioni devono essere confermate in una prova consumer reale.
+
