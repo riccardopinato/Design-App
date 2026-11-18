@@ -112,3 +112,14 @@ Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze
 | [UIV-081](https://uiverse.io/kennyotsu/tender-badger-21) | CARD | Card di anteprima/collezione | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-081_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-081_original.css) |
 
 [Registro 97 Favorites](../UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json) · [Matrice complessiva 25 app](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md) · [Archivio codice](../UI-UX/UIVERSE/CODICE_SORGENTE/README.md). Stato: **PROPOSED_ONLY**.
+
+## Uiverse — refresh preferiti 108 (18/11/2026)
+
+**1 nuovi collegamenti** all'archivio Uiverse. Proposte estetiche, non modifiche funzionali o test runtime.
+
+| Sorgente | Categoria | Superficie proposta | Fit | Codice originale |
+|---|---|---|---|---|
+| [UIV-106](https://uiverse.io/doniaskima/cowardly-frog-28) | LOADER | Attesa routing GPS con fallback errore | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-106_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-106_original.css) |
+
+Stato: **PROPOSED_ONLY**. Per il riuso rispettare Product Bible, accessibilità e test; loader solo per lavoro realmente attivo; nessuna autenticazione obbligatoria nuova.
+[Confronto 97→108](../UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json) · [Analisi tecnica](../UI-UX/UIVERSE/FAVORITES/ANALISI_REFRESH_11_2026-11-18.json).

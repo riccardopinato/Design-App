@@ -177,7 +177,7 @@
       "status": "REFERENCE",
       "source_repo": "uiverse-io/galaxy",
       "source_ref": "adbd2adde0a299a3956ea288fb444ec01891ca41",
-      "source_content_summary": "Personal favorites export: 97 unique Uiverse URLs, 91 newly catalogued; 100 total in Design-App; 57 original Galaxy HTML/CSS files, 43 favorite source gaps, 657 proposed app-component links",
+      "source_content_summary": "108 authenticated personal favorites (11 added since 97, none removed), 111 total Uiverse components and 111 originals archived: 57 Galaxy archive snapshots + 54 live Uiverse HTML/CSS pairs; 736 PROPOSED_ONLY mappings across 25 apps",
       "license": "MIT official source; external assets independently verified",
       "recommended_for": [
         "CSS UI",
@@ -187,7 +187,7 @@
         "switches",
         "design adaptation Flutter/Compose"
       ],
-      "related_intake": "sources/UIVERSE_FAVORITES_97_AUDIT_2026-11-18.md",
+      "related_intake": "sources/UIVERSE_FAVORITES_REFRESH_108_2026-11-18.md",
       "updated_at": "2026-11-18"
     }
   ]

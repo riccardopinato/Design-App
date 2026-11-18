@@ -268,3 +268,23 @@ Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze
 | [UIV-099](https://uiverse.io/xXJollyHAKERXx/lucky-falcon-75) | LOADER | Ricerca semantica/indicizzazione solo se avviata | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-099_original.html) |
 
 [Registro 97 Favorites](../UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json) · [Matrice complessiva 25 app](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md) · [Archivio codice](../UI-UX/UIVERSE/CODICE_SORGENTE/README.md). Stato: **PROPOSED_ONLY**.
+
+## Uiverse — refresh preferiti 108 (18/11/2026)
+
+**9 nuove associazioni** da originali HTML/CSS pubblici Uiverse, nessuna modifica runtime dell'app.
+
+| Sorgente | Famiglia | Superficie proposta | Fit | Codice sorgente |
+|---|---|---|---|---|
+| [UIV-101](https://uiverse.io/Javierrocadev/chatty-ladybug-95) | FORM | Modulo nome lavagna, titolo nota o workspace, dati locali | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-101_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-101_original.css) |
+| [UIV-102](https://uiverse.io/Praashoo7/bitter-pig-24) | FORM | Modulo nome lavagna, titolo nota o workspace, dati locali | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-102_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-102_original.css) |
+| [UIV-103](https://uiverse.io/SyedShahzaib7/brave-dog-61) | FORM | Modulo nome lavagna, titolo nota o workspace, dati locali | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-103_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-103_original.css) |
+| [UIV-104](https://uiverse.io/alexmaracinaru/tall-owl-30) | FORM | Modulo nome lavagna, titolo nota o workspace, dati locali | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-104_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-104_original.css) |
+| [UIV-105](https://uiverse.io/ayyjayy2/sour-dog-94) | FORM | Modulo nome lavagna, titolo nota o workspace, dati locali | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-105_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-105_original.css) |
+| [UIV-106](https://uiverse.io/doniaskima/cowardly-frog-28) | LOADER | Indicizzazione/esportazione reale con stato di errore e retry | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-106_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-106_original.css) |
+| [UIV-109](https://uiverse.io/mamyapro123/curvy-bear-51) | FORM | Modulo nome lavagna, titolo nota o workspace, dati locali | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-109_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-109_original.css) |
+| [UIV-110](https://uiverse.io/roroland/average-horse-2) | TOOLTIP | Spiegazione strumenti canvas e note | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-110_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-110_original.css) |
+| [UIV-111](https://uiverse.io/vinodjangid07/horrible-warthog-14) | FORM | Modulo nome lavagna, titolo nota o workspace, dati locali | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-111_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-111_original.css) |
+
+Stato: **PROPOSED_ONLY**; nessuna nuova funzione/login è autorizzata da questi suggerimenti.
+
+[Confronto 97→108](../UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json) · [Analisi dei nuovi 11](../UI-UX/UIVERSE/FAVORITES/ANALISI_REFRESH_11_2026-11-18.json).

@@ -76,9 +76,9 @@ uiverse_app_ids = {e.get("app_id") for e in uiverse_links}
 # batches without hardcoding the historic 9/64 snapshot as final forever.
 uiverse_count = uiverse_reg.get("counts", {})
 item_ids = {x.get("id") for x in uiverse_items}
-if len(uiverse_items) < 100 or len(item_ids) != len(uiverse_items) or uiverse_count.get("links") != len(uiverse_items):
+if len(uiverse_items) < 111 or len(item_ids) != len(uiverse_items) or uiverse_count.get("links") != len(uiverse_items):
     fail("Uiverse 100-item catalog regression or duplicate component IDs")
-if len(uiverse_links) < 657 or len({(e.get("component_id"), e.get("app_id")) for e in uiverse_links}) != len(uiverse_links):
+if len(uiverse_links) < 736 or len({(e.get("component_id"), e.get("app_id")) for e in uiverse_links}) != len(uiverse_links):
     fail("Uiverse multi-app relations regression/duplication")
 if uiverse_count.get("app_component_relations") != len(uiverse_links) or uiverse_count.get("apps") != len(uiverse_app_ids):
     fail("Uiverse counts do not match many-to-many links")
@@ -138,7 +138,7 @@ for item in uiverse_items:
         fail(f"Uiverse unavailable source misreported: {item.get('id')}")
     if item.get("consumer_implemented") is not False:
         fail(f"Uiverse reference incorrectly claims consumer implementation: {item.get('id')}")
-if code_count < 100 or uiverse_count.get("original_source_files") != code_count:
+if code_count < 111 or uiverse_count.get("original_source_files") != code_count:
     fail("Uiverse original-code source inventory inconsistent")
 if not (uiverse_dir / "CODICE_SORGENTE" / "LICENSE-Uiverse-Galaxy-MIT.txt").is_file():
     fail("Uiverse MIT notice missing")
@@ -166,7 +166,7 @@ favorite_originals = sum(bool(by_id.get(f["id"], {}).get("source_snapshot")) for
 if (uiverse_count.get("favorite_source_available") != favorite_originals
     or uiverse_count.get("favorite_source_unlocated") != len(favorited) - favorite_originals):
     fail("Uiverse favorite original-code counts inconsistent")
-if favorite_originals < 97:
+if favorite_originals < 108:
     fail("Uiverse original source inventory regressed below 97 verified Favorites")
 per_app_uiverse = json.loads((ROOT / "PER_APP" / "REGISTRO_APP_DESIGN.json").read_text(encoding="utf-8"))
 for app_id in uiverse_app_ids:
@@ -180,6 +180,43 @@ for app_id in uiverse_app_ids:
         fail(f"Uiverse per-app dossier/relations inconsistent: {app_id}")
 if per_app_uiverse.get("counts", {}).get("uiverse_app_links") != len(uiverse_links):
     fail("Uiverse per-app counts mismatch")
+# Refresh 108 Favorites: compare source export, delta, original-code coverage,
+# and cumulative public endpoint provenance. The older 97 export is preserved.
+refresh_diff_path = uiverse_dir / "FAVORITES" / "CONFRONTO_108_VS_97_2026-11-18.json"
+refresh_export_path = uiverse_dir / "FAVORITES" / "EXPORT_2026-11-18T16-40-39Z.json"
+public_recovery_path = uiverse_dir / "FAVORITES" / "RECUPERO_API_2026_11_18.json"
+for required in (refresh_diff_path, refresh_export_path, public_recovery_path):
+    if not required.is_file():
+        fail("Uiverse latest export/recovery evidence missing")
+refresh_diff = json.loads(refresh_diff_path.read_text(encoding="utf-8"))
+refresh_export = json.loads(refresh_export_path.read_text(encoding="utf-8"))
+public_recovery = json.loads(public_recovery_path.read_text(encoding="utf-8"))
+new_urls = refresh_export.get("favorites", [])
+if (len(new_urls) < 108 or len(set(new_urls)) != len(new_urls)
+    or set(new_urls) != fav_urls
+    or refresh_export.get("count") != len(new_urls)):
+    fail("Uiverse refreshed source export and favorites registry do not match")
+if (refresh_diff.get("added_count") != 11 or refresh_diff.get("removed_count") != 0
+    or refresh_diff.get("unchanged_count") != 97
+    or len(refresh_diff.get("added", [])) != 11):
+    fail("Uiverse 97 to 108 favorite diff evidence inconsistent")
+recovered_records = public_recovery.get("recovered", [])
+recovered_ids = {x.get("id") for x in recovered_records}
+if (len(recovered_records) != 54 or len(recovered_ids) != 54
+    or public_recovery.get("total_public_recovered") != 54):
+    fail("Uiverse cumulative 43+11 public retrieval ledger regressed")
+if len([x for x in uiverse_items if x.get("source_css_snapshot")]) < 54:
+    fail("Uiverse original HTML/CSS pairs lost")
+if any(c.get("category") == "UNKNOWN" for c in uiverse_items):
+    fail("Uiverse newly captured public source category not normalized")
+new_ids = {"UIV-" + str(i) for i in range(101, 112)}
+if {x.get("id") for x in refresh_diff.get("added", [])} != new_ids:
+    fail("Uiverse new 11 IDs changed or missing from export diff")
+if any(not by_id.get(i, {}).get("source_css_snapshot") for i in new_ids):
+    fail("Uiverse new Favorites not archived with independent original CSS")
+if uiverse_count.get("favorite_source_unlocated") != 0 or uiverse_count.get("code_unavailable") != 0:
+    fail("Uiverse 108 Favorite code inventory not complete")
+
 for required in ("ruixenui/ruixen.com", "alztrk/opentaskbar", "Acadbek/lumabar"):
     if repos.count(required) != 1:
         fail(f"external source missing or duplicated: {required}")

@@ -1,8 +1,8 @@
-# Uiverse — matrice app ↔ componenti
+# Uiverse — matrice bidirezionale componenti ↔ app
 
-**657 collegamenti univoci su 25 app**, tutti PROPOSED_ONLY.
+**111 componenti** su **25 app**, di cui **108 preferiti dell'utente** e **736 associazioni**; tutte `PROPOSED_ONLY`, non moduli implementati.
 
-[JSON canonical](./MATRICE_APP_COMPONENTI.json) · [Catalogo](./REGISTRO_COMPONENTI.json)
+[Registro](./REGISTRO_COMPONENTI.json) · [Matrice JSON](./MATRICE_APP_COMPONENTI.json) · [Nuovi 11](./FAVORITES/ANALISI_REFRESH_11_2026-11-18.json).
 
 ## 180flipcharge
 
@@ -45,6 +45,12 @@
 - **UIV-092** — Ricordi/diario illustrato (MEDIUM, PROPOSED_ONLY)
 - **UIV-095** — Ricordi/diario illustrato (MEDIUM, PROPOSED_ONLY)
 - **UIV-098** — Texture background con gate contrasto/FPS (MEDIUM, PROPOSED_ONLY)
+- **UIV-101** — Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync (MEDIUM, PROPOSED_ONLY)
+- **UIV-102** — Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync (HIGH, PROPOSED_ONLY)
+- **UIV-104** — Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync (MEDIUM, PROPOSED_ONLY)
+- **UIV-105** — Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync (HIGH, PROPOSED_ONLY)
+- **UIV-109** — Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync (HIGH, PROPOSED_ONLY)
+- **UIV-111** — Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync (MEDIUM, PROPOSED_ONLY)
 
 ## app-factory-dashboard
 
@@ -95,6 +101,14 @@
 - **UIV-096** — Texture background con gate contrasto/FPS (MEDIUM, PROPOSED_ONLY)
 - **UIV-097** — Scheda donor/capability/Golden (MEDIUM, PROPOSED_ONLY)
 - **UIV-099** — Attesa attività reale e risoluzione errore (MEDIUM, PROPOSED_ONLY)
+- **UIV-101** — Form gestione idea, capability o filtri dell'inventario (MEDIUM, PROPOSED_ONLY)
+- **UIV-102** — Form gestione idea, capability o filtri dell'inventario (MEDIUM, PROPOSED_ONLY)
+- **UIV-103** — Form gestione idea, capability o filtri dell'inventario (HIGH, PROPOSED_ONLY)
+- **UIV-104** — Form gestione idea, capability o filtri dell'inventario (MEDIUM, PROPOSED_ONLY)
+- **UIV-105** — Form gestione idea, capability o filtri dell'inventario (MEDIUM, PROPOSED_ONLY)
+- **UIV-106** — Verifica repository GitHub realmente avviata (MEDIUM, PROPOSED_ONLY)
+- **UIV-110** — Tooltip differenza Implemented/Verified e evidenze (HIGH, PROPOSED_ONLY)
+- **UIV-111** — Form gestione idea, capability o filtri dell'inventario (MEDIUM, PROPOSED_ONLY)
 
 ## battery-guard
 
@@ -136,6 +150,8 @@
 - **UIV-098** — Texture background con gate contrasto/FPS (MEDIUM, PROPOSED_ONLY)
 - **UIV-099** — Aggiornamento statistiche batteria (MEDIUM, PROPOSED_ONLY)
 - **UIV-100** — Stato avviso realmente attivo (HIGH, PROPOSED_ONLY)
+- **UIV-106** — Aggiornamento telemetria batteria realmente in corso (MEDIUM, PROPOSED_ONLY)
+- **UIV-110** — Spiegazione dello stato della carica (MEDIUM, PROPOSED_ONLY)
 
 ## beerclass-ai
 
@@ -160,6 +176,11 @@
 - **UIV-082** — Card di anteprima/collezione (MEDIUM, PROPOSED_ONLY)
 - **UIV-092** — Card di anteprima/collezione (MEDIUM, PROPOSED_ONLY)
 - **UIV-097** — Card di anteprima/collezione (MEDIUM, PROPOSED_ONLY)
+- **UIV-101** — Input Rapid Log birra, nessun nuovo login (MEDIUM, PROPOSED_ONLY)
+- **UIV-103** — Input Rapid Log birra, nessun nuovo login (MEDIUM, PROPOSED_ONLY)
+- **UIV-105** — Input Rapid Log birra, nessun nuovo login (MEDIUM, PROPOSED_ONLY)
+- **UIV-107** — Acquisizione codice a barre o catalogazione realmente attiva (HIGH, PROPOSED_ONLY)
+- **UIV-109** — Input Rapid Log birra, nessun nuovo login (MEDIUM, PROPOSED_ONLY)
 
 ## camperboss
 
@@ -202,6 +223,10 @@
 - **UIV-091** — Card di anteprima/collezione (MEDIUM, PROPOSED_ONLY)
 - **UIV-095** — Card di anteprima/collezione (MEDIUM, PROPOSED_ONLY)
 - **UIV-100** — Preferenza on/off persistita (MEDIUM, PROPOSED_ONLY)
+- **UIV-102** — Input destinazione/itinerario anche offline (MEDIUM, PROPOSED_ONLY)
+- **UIV-107** — Importazione dati offline in corso (MEDIUM, PROPOSED_ONLY)
+- **UIV-109** — Input destinazione/itinerario anche offline (MEDIUM, PROPOSED_ONLY)
+- **UIV-111** — Input destinazione/itinerario anche offline (MEDIUM, PROPOSED_ONLY)
 
 ## cashmate-ai
 
@@ -241,6 +266,12 @@
 - **UIV-097** — Card di anteprima/collezione (MEDIUM, PROPOSED_ONLY)
 - **UIV-098** — Texture background con gate contrasto/FPS (MEDIUM, PROPOSED_ONLY)
 - **UIV-100** — Preferenza on/off persistita (MEDIUM, PROPOSED_ONLY)
+- **UIV-101** — Accesso Google opzionale o modifica profilo, senza nuovo provider (HIGH, PROPOSED_ONLY)
+- **UIV-103** — Accesso Google opzionale o modifica profilo, senza nuovo provider (HIGH, PROPOSED_ONLY)
+- **UIV-104** — Accesso Google opzionale o modifica profilo, senza nuovo provider (HIGH, PROPOSED_ONLY)
+- **UIV-105** — Accesso Google opzionale o modifica profilo, senza nuovo provider (HIGH, PROPOSED_ONLY)
+- **UIV-110** — Legenda dei termini o indicatori finanziari (MEDIUM, PROPOSED_ONLY)
+- **UIV-111** — Accesso Google opzionale o modifica profilo, senza nuovo provider (HIGH, PROPOSED_ONLY)
 
 ## cooking-anime
 
@@ -274,6 +305,12 @@
 - **UIV-081** — Card di anteprima/collezione (MEDIUM, PROPOSED_ONLY)
 - **UIV-092** — Card di anteprima/collezione (MEDIUM, PROPOSED_ONLY)
 - **UIV-097** — Card di anteprima/collezione (MEDIUM, PROPOSED_ONLY)
+- **UIV-102** — Input ricetta, ingredienti o titolo (MEDIUM, PROPOSED_ONLY)
+- **UIV-104** — Input ricetta, ingredienti o titolo (MEDIUM, PROPOSED_ONLY)
+- **UIV-105** — Input ricetta, ingredienti o titolo (MEDIUM, PROPOSED_ONLY)
+- **UIV-107** — Caricamento ricetta o salvataggio realmente in corso (HIGH, PROPOSED_ONLY)
+- **UIV-108** — Input ricetta, ingredienti o titolo (HIGH, PROPOSED_ONLY)
+- **UIV-109** — Input ricetta, ingredienti o titolo (MEDIUM, PROPOSED_ONLY)
 
 ## deskland-android
 
@@ -301,6 +338,7 @@
 - **UIV-095** — Card di anteprima/collezione (MEDIUM, PROPOSED_ONLY)
 - **UIV-096** — Texture background con gate contrasto/FPS (HIGH, PROPOSED_ONLY)
 - **UIV-098** — Texture background con gate contrasto/FPS (HIGH, PROPOSED_ONLY)
+- **UIV-108** — Form interattivo del launcher, originalità grafica vincolante (HIGH, PROPOSED_ONLY)
 
 ## easy-debloat
 
@@ -333,6 +371,7 @@
 - **UIV-087** — CTA con azione verificata e focus (MEDIUM, PROPOSED_ONLY)
 - **UIV-090** — Preferenza on/off persistita (MEDIUM, PROPOSED_ONLY)
 - **UIV-100** — Preferenza on/off persistita (MEDIUM, PROPOSED_ONLY)
+- **UIV-106** — Esecuzione debloat autorizzata, con annullamento ed esito (MEDIUM, PROPOSED_ONLY)
 
 ## edu-01-corpo-umano
 
@@ -347,6 +386,8 @@
 - **UIV-082** — Card di anteprima/collezione (MEDIUM, PROPOSED_ONLY)
 - **UIV-091** — Card di anteprima/collezione (MEDIUM, PROPOSED_ONLY)
 - **UIV-095** — Card di anteprima/collezione (MEDIUM, PROPOSED_ONLY)
+- **UIV-108** — Form risposta quiz reinterpretato in stile videogioco generico (MEDIUM, PROPOSED_ONLY)
+- **UIV-110** — Definizione di un termine anatomico con supporto touch (MEDIUM, PROPOSED_ONLY)
 
 ## focussense
 
@@ -367,6 +408,7 @@
 - **UIV-072** — Attesa attività reale e risoluzione errore (MEDIUM, PROPOSED_ONLY)
 - **UIV-088** — Preferenza on/off persistita (MEDIUM, PROPOSED_ONLY)
 - **UIV-096** — Texture background con gate contrasto/FPS (MEDIUM, PROPOSED_ONLY)
+- **UIV-110** — Tooltip significato Focus Score (MEDIUM, PROPOSED_ONLY)
 
 ## framelab
 
@@ -404,6 +446,10 @@
 - **UIV-094** — Elaborazione foto/video effettiva (MEDIUM, PROPOSED_ONLY)
 - **UIV-097** — Card di anteprima/collezione (MEDIUM, PROPOSED_ONLY)
 - **UIV-099** — Elaborazione foto/video effettiva (MEDIUM, PROPOSED_ONLY)
+- **UIV-105** — Form nome progetto e metadata (MEDIUM, PROPOSED_ONLY)
+- **UIV-106** — Rendering o esportazione media effettiva (MEDIUM, PROPOSED_ONLY)
+- **UIV-107** — Rendering o esportazione media effettiva (MEDIUM, PROPOSED_ONLY)
+- **UIV-108** — Form nome progetto e metadata (MEDIUM, PROPOSED_ONLY)
 
 ## notes-ecosistema
 
@@ -476,6 +522,15 @@
 - **UIV-097** — Scheda nota o lavagna (HIGH, PROPOSED_ONLY)
 - **UIV-098** — Texture opzionale fuori dall'area scrittura (MEDIUM, PROPOSED_ONLY)
 - **UIV-099** — Ricerca semantica/indicizzazione solo se avviata (MEDIUM, PROPOSED_ONLY)
+- **UIV-101** — Modulo nome lavagna, titolo nota o workspace, dati locali (HIGH, PROPOSED_ONLY)
+- **UIV-102** — Modulo nome lavagna, titolo nota o workspace, dati locali (HIGH, PROPOSED_ONLY)
+- **UIV-103** — Modulo nome lavagna, titolo nota o workspace, dati locali (MEDIUM, PROPOSED_ONLY)
+- **UIV-104** — Modulo nome lavagna, titolo nota o workspace, dati locali (HIGH, PROPOSED_ONLY)
+- **UIV-105** — Modulo nome lavagna, titolo nota o workspace, dati locali (MEDIUM, PROPOSED_ONLY)
+- **UIV-106** — Indicizzazione/esportazione reale con stato di errore e retry (HIGH, PROPOSED_ONLY)
+- **UIV-109** — Modulo nome lavagna, titolo nota o workspace, dati locali (HIGH, PROPOSED_ONLY)
+- **UIV-110** — Spiegazione strumenti canvas e note (HIGH, PROPOSED_ONLY)
+- **UIV-111** — Modulo nome lavagna, titolo nota o workspace, dati locali (HIGH, PROPOSED_ONLY)
 
 ## omni-cleaner
 
@@ -530,6 +585,8 @@
 - **UIV-094** — Scansione memoria/duplicati con stato reale (HIGH, PROPOSED_ONLY)
 - **UIV-096** — Texture background con gate contrasto/FPS (MEDIUM, PROPOSED_ONLY)
 - **UIV-099** — Scansione memoria/duplicati con stato reale (HIGH, PROPOSED_ONLY)
+- **UIV-106** — Feedback scansione duplicati effettivamente avviata (HIGH, PROPOSED_ONLY)
+- **UIV-110** — Informazioni su file duplicati prima della cancellazione (MEDIUM, PROPOSED_ONLY)
 
 ## phone-guard
 
@@ -574,6 +631,8 @@
 - **UIV-089** — Preparazione trasferimento reale (MEDIUM, PROPOSED_ONLY)
 - **UIV-094** — Preparazione trasferimento reale (MEDIUM, PROPOSED_ONLY)
 - **UIV-099** — Preparazione trasferimento reale (MEDIUM, PROPOSED_ONLY)
+- **UIV-103** — Campo codice abbinamento dispositivo solo se previsto (MEDIUM, PROPOSED_ONLY)
+- **UIV-106** — Avvio trasferimento Wi-Fi/QR con progress reale (MEDIUM, PROPOSED_ONLY)
 
 ## sleepmax-coach
 
@@ -597,6 +656,9 @@
 - **UIV-086** — Preferenza on/off persistita (MEDIUM, PROPOSED_ONLY)
 - **UIV-090** — Preferenza on/off persistita (MEDIUM, PROPOSED_ONLY)
 - **UIV-100** — Preferenza on/off persistita (MEDIUM, PROPOSED_ONLY)
+- **UIV-102** — Form preferenze routine serale (MEDIUM, PROPOSED_ONLY)
+- **UIV-107** — Aggiornamento dati routine solo se in corso (MEDIUM, PROPOSED_ONLY)
+- **UIV-109** — Form preferenze routine serale (MEDIUM, PROPOSED_ONLY)
 
 ## tabletop-motion-alarm
 
@@ -620,6 +682,7 @@
 - **UIV-035** — Scelta esclusiva accessibile (HIGH, PROPOSED_ONLY)
 - **UIV-057** — Attesa routing/traccia GPS reale con timeout/retry (HIGH, PROPOSED_ONLY)
 - **UIV-081** — Card di anteprima/collezione (HIGH, PROPOSED_ONLY)
+- **UIV-106** — Attesa routing GPS con fallback errore (MEDIUM, PROPOSED_ONLY)
 
 ## web-utility-factory
 
@@ -677,6 +740,14 @@
 - **UIV-092** — Tappa o diario viaggio (MEDIUM, PROPOSED_ONLY)
 - **UIV-095** — Tappa o diario viaggio (MEDIUM, PROPOSED_ONLY)
 - **UIV-097** — Tappa o diario viaggio (MEDIUM, PROPOSED_ONLY)
+- **UIV-101** — Input nuova tappa e descrizione viaggio (MEDIUM, PROPOSED_ONLY)
+- **UIV-102** — Input nuova tappa e descrizione viaggio (MEDIUM, PROPOSED_ONLY)
+- **UIV-104** — Input nuova tappa e descrizione viaggio (MEDIUM, PROPOSED_ONLY)
+- **UIV-105** — Input nuova tappa e descrizione viaggio (MEDIUM, PROPOSED_ONLY)
+- **UIV-107** — Calcolo itinerario o media in corso (MEDIUM, PROPOSED_ONLY)
+- **UIV-109** — Input nuova tappa e descrizione viaggio (MEDIUM, PROPOSED_ONLY)
+- **UIV-110** — Legenda mappa/tappe accessibile (MEDIUM, PROPOSED_ONLY)
+- **UIV-111** — Input nuova tappa e descrizione viaggio (MEDIUM, PROPOSED_ONLY)
 
 ## world-days
 
@@ -735,8 +806,16 @@
 - **UIV-095** — Giornata e approfondimento storico (MEDIUM, PROPOSED_ONLY)
 - **UIV-098** — Texture background con gate contrasto/FPS (MEDIUM, PROPOSED_ONLY)
 - **UIV-099** — Caricamento delle storie locali (MEDIUM, PROPOSED_ONLY)
+- **UIV-101** — Input ricerca o filtri delle giornate senza richiedere account (MEDIUM, PROPOSED_ONLY)
+- **UIV-103** — Input ricerca o filtri delle giornate senza richiedere account (MEDIUM, PROPOSED_ONLY)
+- **UIV-104** — Input ricerca o filtri delle giornate senza richiedere account (MEDIUM, PROPOSED_ONLY)
+- **UIV-106** — Importazione dati/storie offline in corso (MEDIUM, PROPOSED_ONLY)
+- **UIV-107** — Importazione dati/storie offline in corso (MEDIUM, PROPOSED_ONLY)
+- **UIV-109** — Input ricerca o filtri delle giornate senza richiedere account (MEDIUM, PROPOSED_ONLY)
+- **UIV-110** — Nota esplicativa fonti, anno o ricorrenza (MEDIUM, PROPOSED_ONLY)
+- **UIV-111** — Input ricerca o filtri delle giornate senza richiedere account (MEDIUM, PROPOSED_ONLY)
 
-## Per componente
+## Vista inversa per componente
 
 ### UIV-001 — alexruix/tame-fly-42 (LOADER)
 
@@ -1694,4 +1773,116 @@
 - tabletop-motion-alarm: Preferenza on/off persistita (MEDIUM)
 - cashmate-ai: Preferenza on/off persistita (MEDIUM)
 - battery-guard: Stato avviso realmente attivo (HIGH)
+
+### UIV-101 — Javierrocadev/chatty-ladybug-95 (FORM)
+
+- cashmate-ai: Accesso Google opzionale o modifica profilo, senza nuovo provider (HIGH)
+- notes-ecosistema: Modulo nome lavagna, titolo nota o workspace, dati locali (HIGH)
+- annas-diary: Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync (MEDIUM)
+- app-factory-dashboard: Form gestione idea, capability o filtri dell'inventario (MEDIUM)
+- wonderlog: Input nuova tappa e descrizione viaggio (MEDIUM)
+- world-days: Input ricerca o filtri delle giornate senza richiedere account (MEDIUM)
+- beerclass-ai: Input Rapid Log birra, nessun nuovo login (MEDIUM)
+
+### UIV-102 — Praashoo7/bitter-pig-24 (FORM)
+
+- annas-diary: Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync (HIGH)
+- notes-ecosistema: Modulo nome lavagna, titolo nota o workspace, dati locali (HIGH)
+- camperboss: Input destinazione/itinerario anche offline (MEDIUM)
+- wonderlog: Input nuova tappa e descrizione viaggio (MEDIUM)
+- cooking-anime: Input ricetta, ingredienti o titolo (MEDIUM)
+- sleepmax-coach: Form preferenze routine serale (MEDIUM)
+- app-factory-dashboard: Form gestione idea, capability o filtri dell'inventario (MEDIUM)
+
+### UIV-103 — SyedShahzaib7/brave-dog-61 (FORM)
+
+- cashmate-ai: Accesso Google opzionale o modifica profilo, senza nuovo provider (HIGH)
+- app-factory-dashboard: Form gestione idea, capability o filtri dell'inventario (HIGH)
+- notes-ecosistema: Modulo nome lavagna, titolo nota o workspace, dati locali (MEDIUM)
+- beerclass-ai: Input Rapid Log birra, nessun nuovo login (MEDIUM)
+- world-days: Input ricerca o filtri delle giornate senza richiedere account (MEDIUM)
+- send-to-pc: Campo codice abbinamento dispositivo solo se previsto (MEDIUM)
+
+### UIV-104 — alexmaracinaru/tall-owl-30 (FORM)
+
+- cashmate-ai: Accesso Google opzionale o modifica profilo, senza nuovo provider (HIGH)
+- notes-ecosistema: Modulo nome lavagna, titolo nota o workspace, dati locali (HIGH)
+- annas-diary: Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync (MEDIUM)
+- app-factory-dashboard: Form gestione idea, capability o filtri dell'inventario (MEDIUM)
+- wonderlog: Input nuova tappa e descrizione viaggio (MEDIUM)
+- cooking-anime: Input ricetta, ingredienti o titolo (MEDIUM)
+- world-days: Input ricerca o filtri delle giornate senza richiedere account (MEDIUM)
+
+### UIV-105 — ayyjayy2/sour-dog-94 (FORM)
+
+- cashmate-ai: Accesso Google opzionale o modifica profilo, senza nuovo provider (HIGH)
+- annas-diary: Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync (HIGH)
+- notes-ecosistema: Modulo nome lavagna, titolo nota o workspace, dati locali (MEDIUM)
+- app-factory-dashboard: Form gestione idea, capability o filtri dell'inventario (MEDIUM)
+- cooking-anime: Input ricetta, ingredienti o titolo (MEDIUM)
+- wonderlog: Input nuova tappa e descrizione viaggio (MEDIUM)
+- beerclass-ai: Input Rapid Log birra, nessun nuovo login (MEDIUM)
+- framelab: Form nome progetto e metadata (MEDIUM)
+
+### UIV-106 — doniaskima/cowardly-frog-28 (LOADER)
+
+- omni-cleaner: Feedback scansione duplicati effettivamente avviata (HIGH)
+- notes-ecosistema: Indicizzazione/esportazione reale con stato di errore e retry (HIGH)
+- battery-guard: Aggiornamento telemetria batteria realmente in corso (MEDIUM)
+- framelab: Rendering o esportazione media effettiva (MEDIUM)
+- world-days: Importazione dati/storie offline in corso (MEDIUM)
+- send-to-pc: Avvio trasferimento Wi-Fi/QR con progress reale (MEDIUM)
+- easy-debloat: Esecuzione debloat autorizzata, con annullamento ed esito (MEDIUM)
+- app-factory-dashboard: Verifica repository GitHub realmente avviata (MEDIUM)
+- trailpath: Attesa routing GPS con fallback errore (MEDIUM)
+
+### UIV-107 — elijahgummer/new-fly-30 (LOADER)
+
+- beerclass-ai: Acquisizione codice a barre o catalogazione realmente attiva (HIGH)
+- cooking-anime: Caricamento ricetta o salvataggio realmente in corso (HIGH)
+- camperboss: Importazione dati offline in corso (MEDIUM)
+- wonderlog: Calcolo itinerario o media in corso (MEDIUM)
+- world-days: Importazione dati/storie offline in corso (MEDIUM)
+- framelab: Rendering o esportazione media effettiva (MEDIUM)
+- sleepmax-coach: Aggiornamento dati routine solo se in corso (MEDIUM)
+
+### UIV-108 — guilhermeyohan/friendly-walrus-55 (FORM)
+
+- cooking-anime: Input ricetta, ingredienti o titolo (HIGH)
+- deskland-android: Form interattivo del launcher, originalità grafica vincolante (HIGH)
+- edu-01-corpo-umano: Form risposta quiz reinterpretato in stile videogioco generico (MEDIUM)
+- framelab: Form nome progetto e metadata (MEDIUM)
+
+### UIV-109 — mamyapro123/curvy-bear-51 (FORM)
+
+- annas-diary: Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync (HIGH)
+- notes-ecosistema: Modulo nome lavagna, titolo nota o workspace, dati locali (HIGH)
+- cooking-anime: Input ricetta, ingredienti o titolo (MEDIUM)
+- beerclass-ai: Input Rapid Log birra, nessun nuovo login (MEDIUM)
+- world-days: Input ricerca o filtri delle giornate senza richiedere account (MEDIUM)
+- wonderlog: Input nuova tappa e descrizione viaggio (MEDIUM)
+- camperboss: Input destinazione/itinerario anche offline (MEDIUM)
+- sleepmax-coach: Form preferenze routine serale (MEDIUM)
+
+### UIV-110 — roroland/average-horse-2 (TOOLTIP)
+
+- app-factory-dashboard: Tooltip differenza Implemented/Verified e evidenze (HIGH)
+- notes-ecosistema: Spiegazione strumenti canvas e note (HIGH)
+- omni-cleaner: Informazioni su file duplicati prima della cancellazione (MEDIUM)
+- cashmate-ai: Legenda dei termini o indicatori finanziari (MEDIUM)
+- edu-01-corpo-umano: Definizione di un termine anatomico con supporto touch (MEDIUM)
+- battery-guard: Spiegazione dello stato della carica (MEDIUM)
+- wonderlog: Legenda mappa/tappe accessibile (MEDIUM)
+- world-days: Nota esplicativa fonti, anno o ricorrenza (MEDIUM)
+- focussense: Tooltip significato Focus Score (MEDIUM)
+
+### UIV-111 — vinodjangid07/horrible-warthog-14 (FORM)
+
+- cashmate-ai: Accesso Google opzionale o modifica profilo, senza nuovo provider (HIGH)
+- notes-ecosistema: Modulo nome lavagna, titolo nota o workspace, dati locali (HIGH)
+- app-factory-dashboard: Form gestione idea, capability o filtri dell'inventario (MEDIUM)
+- annas-diary: Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync (MEDIUM)
+- wonderlog: Input nuova tappa e descrizione viaggio (MEDIUM)
+- world-days: Input ricerca o filtri delle giornate senza richiedere account (MEDIUM)
+- camperboss: Input destinazione/itinerario anche offline (MEDIUM)
 

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "batch": "UIVERSE_FAVORITES_2026_11_18",
+  "batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
   "apps": [
     "180flipcharge",
     "annas-diary",
@@ -5220,6 +5220,638 @@
       "surface": "Stato avviso realmente attivo",
       "status": "PROPOSED_ONLY",
       "implemented": false
+    },
+    {
+      "component_id": "UIV-101",
+      "app_id": "cashmate-ai",
+      "fit": "HIGH",
+      "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-101",
+      "app_id": "notes-ecosistema",
+      "fit": "HIGH",
+      "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-101",
+      "app_id": "annas-diary",
+      "fit": "MEDIUM",
+      "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-101",
+      "app_id": "app-factory-dashboard",
+      "fit": "MEDIUM",
+      "surface": "Form gestione idea, capability o filtri dell'inventario",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-101",
+      "app_id": "wonderlog",
+      "fit": "MEDIUM",
+      "surface": "Input nuova tappa e descrizione viaggio",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-101",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-101",
+      "app_id": "beerclass-ai",
+      "fit": "MEDIUM",
+      "surface": "Input Rapid Log birra, nessun nuovo login",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-102",
+      "app_id": "annas-diary",
+      "fit": "HIGH",
+      "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-102",
+      "app_id": "notes-ecosistema",
+      "fit": "HIGH",
+      "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-102",
+      "app_id": "camperboss",
+      "fit": "MEDIUM",
+      "surface": "Input destinazione/itinerario anche offline",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-102",
+      "app_id": "wonderlog",
+      "fit": "MEDIUM",
+      "surface": "Input nuova tappa e descrizione viaggio",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-102",
+      "app_id": "cooking-anime",
+      "fit": "MEDIUM",
+      "surface": "Input ricetta, ingredienti o titolo",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-102",
+      "app_id": "sleepmax-coach",
+      "fit": "MEDIUM",
+      "surface": "Form preferenze routine serale",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-102",
+      "app_id": "app-factory-dashboard",
+      "fit": "MEDIUM",
+      "surface": "Form gestione idea, capability o filtri dell'inventario",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-103",
+      "app_id": "cashmate-ai",
+      "fit": "HIGH",
+      "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-103",
+      "app_id": "app-factory-dashboard",
+      "fit": "HIGH",
+      "surface": "Form gestione idea, capability o filtri dell'inventario",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-103",
+      "app_id": "notes-ecosistema",
+      "fit": "MEDIUM",
+      "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-103",
+      "app_id": "beerclass-ai",
+      "fit": "MEDIUM",
+      "surface": "Input Rapid Log birra, nessun nuovo login",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-103",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-103",
+      "app_id": "send-to-pc",
+      "fit": "MEDIUM",
+      "surface": "Campo codice abbinamento dispositivo solo se previsto",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-104",
+      "app_id": "cashmate-ai",
+      "fit": "HIGH",
+      "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-104",
+      "app_id": "notes-ecosistema",
+      "fit": "HIGH",
+      "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-104",
+      "app_id": "annas-diary",
+      "fit": "MEDIUM",
+      "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-104",
+      "app_id": "app-factory-dashboard",
+      "fit": "MEDIUM",
+      "surface": "Form gestione idea, capability o filtri dell'inventario",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-104",
+      "app_id": "wonderlog",
+      "fit": "MEDIUM",
+      "surface": "Input nuova tappa e descrizione viaggio",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-104",
+      "app_id": "cooking-anime",
+      "fit": "MEDIUM",
+      "surface": "Input ricetta, ingredienti o titolo",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-104",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-105",
+      "app_id": "cashmate-ai",
+      "fit": "HIGH",
+      "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-105",
+      "app_id": "annas-diary",
+      "fit": "HIGH",
+      "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-105",
+      "app_id": "notes-ecosistema",
+      "fit": "MEDIUM",
+      "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-105",
+      "app_id": "app-factory-dashboard",
+      "fit": "MEDIUM",
+      "surface": "Form gestione idea, capability o filtri dell'inventario",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-105",
+      "app_id": "cooking-anime",
+      "fit": "MEDIUM",
+      "surface": "Input ricetta, ingredienti o titolo",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-105",
+      "app_id": "wonderlog",
+      "fit": "MEDIUM",
+      "surface": "Input nuova tappa e descrizione viaggio",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-105",
+      "app_id": "beerclass-ai",
+      "fit": "MEDIUM",
+      "surface": "Input Rapid Log birra, nessun nuovo login",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-105",
+      "app_id": "framelab",
+      "fit": "MEDIUM",
+      "surface": "Form nome progetto e metadata",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-106",
+      "app_id": "omni-cleaner",
+      "fit": "HIGH",
+      "surface": "Feedback scansione duplicati effettivamente avviata",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-106",
+      "app_id": "notes-ecosistema",
+      "fit": "HIGH",
+      "surface": "Indicizzazione/esportazione reale con stato di errore e retry",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-106",
+      "app_id": "battery-guard",
+      "fit": "MEDIUM",
+      "surface": "Aggiornamento telemetria batteria realmente in corso",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-106",
+      "app_id": "framelab",
+      "fit": "MEDIUM",
+      "surface": "Rendering o esportazione media effettiva",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-106",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "Importazione dati/storie offline in corso",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-106",
+      "app_id": "send-to-pc",
+      "fit": "MEDIUM",
+      "surface": "Avvio trasferimento Wi-Fi/QR con progress reale",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-106",
+      "app_id": "easy-debloat",
+      "fit": "MEDIUM",
+      "surface": "Esecuzione debloat autorizzata, con annullamento ed esito",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-106",
+      "app_id": "app-factory-dashboard",
+      "fit": "MEDIUM",
+      "surface": "Verifica repository GitHub realmente avviata",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-106",
+      "app_id": "trailpath",
+      "fit": "MEDIUM",
+      "surface": "Attesa routing GPS con fallback errore",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-107",
+      "app_id": "beerclass-ai",
+      "fit": "HIGH",
+      "surface": "Acquisizione codice a barre o catalogazione realmente attiva",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-107",
+      "app_id": "cooking-anime",
+      "fit": "HIGH",
+      "surface": "Caricamento ricetta o salvataggio realmente in corso",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-107",
+      "app_id": "camperboss",
+      "fit": "MEDIUM",
+      "surface": "Importazione dati offline in corso",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-107",
+      "app_id": "wonderlog",
+      "fit": "MEDIUM",
+      "surface": "Calcolo itinerario o media in corso",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-107",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "Importazione dati/storie offline in corso",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-107",
+      "app_id": "framelab",
+      "fit": "MEDIUM",
+      "surface": "Rendering o esportazione media effettiva",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-107",
+      "app_id": "sleepmax-coach",
+      "fit": "MEDIUM",
+      "surface": "Aggiornamento dati routine solo se in corso",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-108",
+      "app_id": "cooking-anime",
+      "fit": "HIGH",
+      "surface": "Input ricetta, ingredienti o titolo",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-108",
+      "app_id": "deskland-android",
+      "fit": "HIGH",
+      "surface": "Form interattivo del launcher, originalità grafica vincolante",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-108",
+      "app_id": "edu-01-corpo-umano",
+      "fit": "MEDIUM",
+      "surface": "Form risposta quiz reinterpretato in stile videogioco generico",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-108",
+      "app_id": "framelab",
+      "fit": "MEDIUM",
+      "surface": "Form nome progetto e metadata",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-109",
+      "app_id": "annas-diary",
+      "fit": "HIGH",
+      "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-109",
+      "app_id": "notes-ecosistema",
+      "fit": "HIGH",
+      "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-109",
+      "app_id": "cooking-anime",
+      "fit": "MEDIUM",
+      "surface": "Input ricetta, ingredienti o titolo",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-109",
+      "app_id": "beerclass-ai",
+      "fit": "MEDIUM",
+      "surface": "Input Rapid Log birra, nessun nuovo login",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-109",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-109",
+      "app_id": "wonderlog",
+      "fit": "MEDIUM",
+      "surface": "Input nuova tappa e descrizione viaggio",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-109",
+      "app_id": "camperboss",
+      "fit": "MEDIUM",
+      "surface": "Input destinazione/itinerario anche offline",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-109",
+      "app_id": "sleepmax-coach",
+      "fit": "MEDIUM",
+      "surface": "Form preferenze routine serale",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-110",
+      "app_id": "app-factory-dashboard",
+      "fit": "HIGH",
+      "surface": "Tooltip differenza Implemented/Verified e evidenze",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-110",
+      "app_id": "notes-ecosistema",
+      "fit": "HIGH",
+      "surface": "Spiegazione strumenti canvas e note",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-110",
+      "app_id": "omni-cleaner",
+      "fit": "MEDIUM",
+      "surface": "Informazioni su file duplicati prima della cancellazione",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-110",
+      "app_id": "cashmate-ai",
+      "fit": "MEDIUM",
+      "surface": "Legenda dei termini o indicatori finanziari",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-110",
+      "app_id": "edu-01-corpo-umano",
+      "fit": "MEDIUM",
+      "surface": "Definizione di un termine anatomico con supporto touch",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-110",
+      "app_id": "battery-guard",
+      "fit": "MEDIUM",
+      "surface": "Spiegazione dello stato della carica",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-110",
+      "app_id": "wonderlog",
+      "fit": "MEDIUM",
+      "surface": "Legenda mappa/tappe accessibile",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-110",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "Nota esplicativa fonti, anno o ricorrenza",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-110",
+      "app_id": "focussense",
+      "fit": "MEDIUM",
+      "surface": "Tooltip significato Focus Score",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-111",
+      "app_id": "cashmate-ai",
+      "fit": "HIGH",
+      "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-111",
+      "app_id": "notes-ecosistema",
+      "fit": "HIGH",
+      "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-111",
+      "app_id": "app-factory-dashboard",
+      "fit": "MEDIUM",
+      "surface": "Form gestione idea, capability o filtri dell'inventario",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-111",
+      "app_id": "annas-diary",
+      "fit": "MEDIUM",
+      "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-111",
+      "app_id": "wonderlog",
+      "fit": "MEDIUM",
+      "surface": "Input nuova tappa e descrizione viaggio",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-111",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-111",
+      "app_id": "camperboss",
+      "fit": "MEDIUM",
+      "surface": "Input destinazione/itinerario anche offline",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
     }
   ],
   "by_app": {
@@ -5504,6 +6136,54 @@
         "app_id": "annas-diary",
         "fit": "MEDIUM",
         "surface": "Texture background con gate contrasto/FPS",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-101",
+        "app_id": "annas-diary",
+        "fit": "MEDIUM",
+        "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-102",
+        "app_id": "annas-diary",
+        "fit": "HIGH",
+        "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-104",
+        "app_id": "annas-diary",
+        "fit": "MEDIUM",
+        "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-105",
+        "app_id": "annas-diary",
+        "fit": "HIGH",
+        "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-109",
+        "app_id": "annas-diary",
+        "fit": "HIGH",
+        "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-111",
+        "app_id": "annas-diary",
+        "fit": "MEDIUM",
+        "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
         "status": "PROPOSED_ONLY",
         "implemented": false
       }
@@ -5881,6 +6561,70 @@
         "surface": "Attesa attività reale e risoluzione errore",
         "status": "PROPOSED_ONLY",
         "implemented": false
+      },
+      {
+        "component_id": "UIV-101",
+        "app_id": "app-factory-dashboard",
+        "fit": "MEDIUM",
+        "surface": "Form gestione idea, capability o filtri dell'inventario",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-102",
+        "app_id": "app-factory-dashboard",
+        "fit": "MEDIUM",
+        "surface": "Form gestione idea, capability o filtri dell'inventario",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-103",
+        "app_id": "app-factory-dashboard",
+        "fit": "HIGH",
+        "surface": "Form gestione idea, capability o filtri dell'inventario",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-104",
+        "app_id": "app-factory-dashboard",
+        "fit": "MEDIUM",
+        "surface": "Form gestione idea, capability o filtri dell'inventario",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-105",
+        "app_id": "app-factory-dashboard",
+        "fit": "MEDIUM",
+        "surface": "Form gestione idea, capability o filtri dell'inventario",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-106",
+        "app_id": "app-factory-dashboard",
+        "fit": "MEDIUM",
+        "surface": "Verifica repository GitHub realmente avviata",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-110",
+        "app_id": "app-factory-dashboard",
+        "fit": "HIGH",
+        "surface": "Tooltip differenza Implemented/Verified e evidenze",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-111",
+        "app_id": "app-factory-dashboard",
+        "fit": "MEDIUM",
+        "surface": "Form gestione idea, capability o filtri dell'inventario",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
       }
     ],
     "battery-guard": [
@@ -6183,6 +6927,22 @@
         "surface": "Stato avviso realmente attivo",
         "status": "PROPOSED_ONLY",
         "implemented": false
+      },
+      {
+        "component_id": "UIV-106",
+        "app_id": "battery-guard",
+        "fit": "MEDIUM",
+        "surface": "Aggiornamento telemetria batteria realmente in corso",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-110",
+        "app_id": "battery-guard",
+        "fit": "MEDIUM",
+        "surface": "Spiegazione dello stato della carica",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
       }
     ],
     "beerclass-ai": [
@@ -6349,6 +7109,46 @@
         "app_id": "beerclass-ai",
         "fit": "MEDIUM",
         "surface": "Card di anteprima/collezione",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-101",
+        "app_id": "beerclass-ai",
+        "fit": "MEDIUM",
+        "surface": "Input Rapid Log birra, nessun nuovo login",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-103",
+        "app_id": "beerclass-ai",
+        "fit": "MEDIUM",
+        "surface": "Input Rapid Log birra, nessun nuovo login",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-105",
+        "app_id": "beerclass-ai",
+        "fit": "MEDIUM",
+        "surface": "Input Rapid Log birra, nessun nuovo login",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-107",
+        "app_id": "beerclass-ai",
+        "fit": "HIGH",
+        "surface": "Acquisizione codice a barre o catalogazione realmente attiva",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-109",
+        "app_id": "beerclass-ai",
+        "fit": "MEDIUM",
+        "surface": "Input Rapid Log birra, nessun nuovo login",
         "status": "PROPOSED_ONLY",
         "implemented": false
       }
@@ -6662,6 +7462,38 @@
         "surface": "Preferenza on/off persistita",
         "status": "PROPOSED_ONLY",
         "implemented": false
+      },
+      {
+        "component_id": "UIV-102",
+        "app_id": "camperboss",
+        "fit": "MEDIUM",
+        "surface": "Input destinazione/itinerario anche offline",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-107",
+        "app_id": "camperboss",
+        "fit": "MEDIUM",
+        "surface": "Importazione dati offline in corso",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-109",
+        "app_id": "camperboss",
+        "fit": "MEDIUM",
+        "surface": "Input destinazione/itinerario anche offline",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-111",
+        "app_id": "camperboss",
+        "fit": "MEDIUM",
+        "surface": "Input destinazione/itinerario anche offline",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
       }
     ],
     "cashmate-ai": [
@@ -6949,6 +7781,54 @@
         "surface": "Preferenza on/off persistita",
         "status": "PROPOSED_ONLY",
         "implemented": false
+      },
+      {
+        "component_id": "UIV-101",
+        "app_id": "cashmate-ai",
+        "fit": "HIGH",
+        "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-103",
+        "app_id": "cashmate-ai",
+        "fit": "HIGH",
+        "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-104",
+        "app_id": "cashmate-ai",
+        "fit": "HIGH",
+        "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-105",
+        "app_id": "cashmate-ai",
+        "fit": "HIGH",
+        "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-110",
+        "app_id": "cashmate-ai",
+        "fit": "MEDIUM",
+        "surface": "Legenda dei termini o indicatori finanziari",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-111",
+        "app_id": "cashmate-ai",
+        "fit": "HIGH",
+        "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
       }
     ],
     "cooking-anime": [
@@ -7188,6 +8068,54 @@
         "surface": "Card di anteprima/collezione",
         "status": "PROPOSED_ONLY",
         "implemented": false
+      },
+      {
+        "component_id": "UIV-102",
+        "app_id": "cooking-anime",
+        "fit": "MEDIUM",
+        "surface": "Input ricetta, ingredienti o titolo",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-104",
+        "app_id": "cooking-anime",
+        "fit": "MEDIUM",
+        "surface": "Input ricetta, ingredienti o titolo",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-105",
+        "app_id": "cooking-anime",
+        "fit": "MEDIUM",
+        "surface": "Input ricetta, ingredienti o titolo",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-107",
+        "app_id": "cooking-anime",
+        "fit": "HIGH",
+        "surface": "Caricamento ricetta o salvataggio realmente in corso",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-108",
+        "app_id": "cooking-anime",
+        "fit": "HIGH",
+        "surface": "Input ricetta, ingredienti o titolo",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-109",
+        "app_id": "cooking-anime",
+        "fit": "MEDIUM",
+        "surface": "Input ricetta, ingredienti o titolo",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
       }
     ],
     "deskland-android": [
@@ -7379,6 +8307,14 @@
         "app_id": "deskland-android",
         "fit": "HIGH",
         "surface": "Texture background con gate contrasto/FPS",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-108",
+        "app_id": "deskland-android",
+        "fit": "HIGH",
+        "surface": "Form interattivo del launcher, originalità grafica vincolante",
         "status": "PROPOSED_ONLY",
         "implemented": false
       }
@@ -7613,6 +8549,14 @@
         "surface": "Preferenza on/off persistita",
         "status": "PROPOSED_ONLY",
         "implemented": false
+      },
+      {
+        "component_id": "UIV-106",
+        "app_id": "easy-debloat",
+        "fit": "MEDIUM",
+        "surface": "Esecuzione debloat autorizzata, con annullamento ed esito",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
       }
     ],
     "edu-01-corpo-umano": [
@@ -7701,6 +8645,22 @@
         "app_id": "edu-01-corpo-umano",
         "fit": "MEDIUM",
         "surface": "Card di anteprima/collezione",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-108",
+        "app_id": "edu-01-corpo-umano",
+        "fit": "MEDIUM",
+        "surface": "Form risposta quiz reinterpretato in stile videogioco generico",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-110",
+        "app_id": "edu-01-corpo-umano",
+        "fit": "MEDIUM",
+        "surface": "Definizione di un termine anatomico con supporto touch",
         "status": "PROPOSED_ONLY",
         "implemented": false
       }
@@ -7837,6 +8797,14 @@
         "app_id": "focussense",
         "fit": "MEDIUM",
         "surface": "Texture background con gate contrasto/FPS",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-110",
+        "app_id": "focussense",
+        "fit": "MEDIUM",
+        "surface": "Tooltip significato Focus Score",
         "status": "PROPOSED_ONLY",
         "implemented": false
       }
@@ -8107,6 +9075,38 @@
         "app_id": "framelab",
         "fit": "MEDIUM",
         "surface": "Elaborazione foto/video effettiva",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-105",
+        "app_id": "framelab",
+        "fit": "MEDIUM",
+        "surface": "Form nome progetto e metadata",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-106",
+        "app_id": "framelab",
+        "fit": "MEDIUM",
+        "surface": "Rendering o esportazione media effettiva",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-107",
+        "app_id": "framelab",
+        "fit": "MEDIUM",
+        "surface": "Rendering o esportazione media effettiva",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-108",
+        "app_id": "framelab",
+        "fit": "MEDIUM",
+        "surface": "Form nome progetto e metadata",
         "status": "PROPOSED_ONLY",
         "implemented": false
       }
@@ -8656,6 +9656,78 @@
         "surface": "Ricerca semantica/indicizzazione solo se avviata",
         "status": "PROPOSED_ONLY",
         "implemented": false
+      },
+      {
+        "component_id": "UIV-101",
+        "app_id": "notes-ecosistema",
+        "fit": "HIGH",
+        "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-102",
+        "app_id": "notes-ecosistema",
+        "fit": "HIGH",
+        "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-103",
+        "app_id": "notes-ecosistema",
+        "fit": "MEDIUM",
+        "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-104",
+        "app_id": "notes-ecosistema",
+        "fit": "HIGH",
+        "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-105",
+        "app_id": "notes-ecosistema",
+        "fit": "MEDIUM",
+        "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-106",
+        "app_id": "notes-ecosistema",
+        "fit": "HIGH",
+        "surface": "Indicizzazione/esportazione reale con stato di errore e retry",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-109",
+        "app_id": "notes-ecosistema",
+        "fit": "HIGH",
+        "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-110",
+        "app_id": "notes-ecosistema",
+        "fit": "HIGH",
+        "surface": "Spiegazione strumenti canvas e note",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-111",
+        "app_id": "notes-ecosistema",
+        "fit": "HIGH",
+        "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
       }
     ],
     "omni-cleaner": [
@@ -9061,6 +10133,22 @@
         "surface": "Scansione memoria/duplicati con stato reale",
         "status": "PROPOSED_ONLY",
         "implemented": false
+      },
+      {
+        "component_id": "UIV-106",
+        "app_id": "omni-cleaner",
+        "fit": "HIGH",
+        "surface": "Feedback scansione duplicati effettivamente avviata",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-110",
+        "app_id": "omni-cleaner",
+        "fit": "MEDIUM",
+        "surface": "Informazioni su file duplicati prima della cancellazione",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
       }
     ],
     "phone-guard": [
@@ -9343,6 +10431,22 @@
         "surface": "Preparazione trasferimento reale",
         "status": "PROPOSED_ONLY",
         "implemented": false
+      },
+      {
+        "component_id": "UIV-103",
+        "app_id": "send-to-pc",
+        "fit": "MEDIUM",
+        "surface": "Campo codice abbinamento dispositivo solo se previsto",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-106",
+        "app_id": "send-to-pc",
+        "fit": "MEDIUM",
+        "surface": "Avvio trasferimento Wi-Fi/QR con progress reale",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
       }
     ],
     "sleepmax-coach": [
@@ -9505,6 +10609,30 @@
         "surface": "Preferenza on/off persistita",
         "status": "PROPOSED_ONLY",
         "implemented": false
+      },
+      {
+        "component_id": "UIV-102",
+        "app_id": "sleepmax-coach",
+        "fit": "MEDIUM",
+        "surface": "Form preferenze routine serale",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-107",
+        "app_id": "sleepmax-coach",
+        "fit": "MEDIUM",
+        "surface": "Aggiornamento dati routine solo se in corso",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-109",
+        "app_id": "sleepmax-coach",
+        "fit": "MEDIUM",
+        "surface": "Form preferenze routine serale",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
       }
     ],
     "tabletop-motion-alarm": [
@@ -9621,6 +10749,14 @@
         "app_id": "trailpath",
         "fit": "HIGH",
         "surface": "Card di anteprima/collezione",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-106",
+        "app_id": "trailpath",
+        "fit": "MEDIUM",
+        "surface": "Attesa routing GPS con fallback errore",
         "status": "PROPOSED_ONLY",
         "implemented": false
       }
@@ -10026,6 +11162,70 @@
         "app_id": "wonderlog",
         "fit": "MEDIUM",
         "surface": "Tappa o diario viaggio",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-101",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "Input nuova tappa e descrizione viaggio",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-102",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "Input nuova tappa e descrizione viaggio",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-104",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "Input nuova tappa e descrizione viaggio",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-105",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "Input nuova tappa e descrizione viaggio",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-107",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "Calcolo itinerario o media in corso",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-109",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "Input nuova tappa e descrizione viaggio",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-110",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "Legenda mappa/tappe accessibile",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-111",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "Input nuova tappa e descrizione viaggio",
         "status": "PROPOSED_ONLY",
         "implemented": false
       }
@@ -10461,6 +11661,70 @@
         "app_id": "world-days",
         "fit": "MEDIUM",
         "surface": "Caricamento delle storie locali",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-101",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-103",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-104",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-106",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Importazione dati/storie offline in corso",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-107",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Importazione dati/storie offline in corso",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-109",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-110",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Nota esplicativa fonti, anno o ricorrenza",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-111",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Input ricerca o filtri delle giornate senza richiedere account",
         "status": "PROPOSED_ONLY",
         "implemented": false
       }
@@ -15858,12 +17122,666 @@
         "status": "PROPOSED_ONLY",
         "implemented": false
       }
+    ],
+    "UIV-101": [
+      {
+        "component_id": "UIV-101",
+        "app_id": "cashmate-ai",
+        "fit": "HIGH",
+        "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-101",
+        "app_id": "notes-ecosistema",
+        "fit": "HIGH",
+        "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-101",
+        "app_id": "annas-diary",
+        "fit": "MEDIUM",
+        "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-101",
+        "app_id": "app-factory-dashboard",
+        "fit": "MEDIUM",
+        "surface": "Form gestione idea, capability o filtri dell'inventario",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-101",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "Input nuova tappa e descrizione viaggio",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-101",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-101",
+        "app_id": "beerclass-ai",
+        "fit": "MEDIUM",
+        "surface": "Input Rapid Log birra, nessun nuovo login",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      }
+    ],
+    "UIV-102": [
+      {
+        "component_id": "UIV-102",
+        "app_id": "annas-diary",
+        "fit": "HIGH",
+        "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-102",
+        "app_id": "notes-ecosistema",
+        "fit": "HIGH",
+        "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-102",
+        "app_id": "camperboss",
+        "fit": "MEDIUM",
+        "surface": "Input destinazione/itinerario anche offline",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-102",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "Input nuova tappa e descrizione viaggio",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-102",
+        "app_id": "cooking-anime",
+        "fit": "MEDIUM",
+        "surface": "Input ricetta, ingredienti o titolo",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-102",
+        "app_id": "sleepmax-coach",
+        "fit": "MEDIUM",
+        "surface": "Form preferenze routine serale",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-102",
+        "app_id": "app-factory-dashboard",
+        "fit": "MEDIUM",
+        "surface": "Form gestione idea, capability o filtri dell'inventario",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      }
+    ],
+    "UIV-103": [
+      {
+        "component_id": "UIV-103",
+        "app_id": "cashmate-ai",
+        "fit": "HIGH",
+        "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-103",
+        "app_id": "app-factory-dashboard",
+        "fit": "HIGH",
+        "surface": "Form gestione idea, capability o filtri dell'inventario",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-103",
+        "app_id": "notes-ecosistema",
+        "fit": "MEDIUM",
+        "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-103",
+        "app_id": "beerclass-ai",
+        "fit": "MEDIUM",
+        "surface": "Input Rapid Log birra, nessun nuovo login",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-103",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-103",
+        "app_id": "send-to-pc",
+        "fit": "MEDIUM",
+        "surface": "Campo codice abbinamento dispositivo solo se previsto",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      }
+    ],
+    "UIV-104": [
+      {
+        "component_id": "UIV-104",
+        "app_id": "cashmate-ai",
+        "fit": "HIGH",
+        "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-104",
+        "app_id": "notes-ecosistema",
+        "fit": "HIGH",
+        "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-104",
+        "app_id": "annas-diary",
+        "fit": "MEDIUM",
+        "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-104",
+        "app_id": "app-factory-dashboard",
+        "fit": "MEDIUM",
+        "surface": "Form gestione idea, capability o filtri dell'inventario",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-104",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "Input nuova tappa e descrizione viaggio",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-104",
+        "app_id": "cooking-anime",
+        "fit": "MEDIUM",
+        "surface": "Input ricetta, ingredienti o titolo",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-104",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      }
+    ],
+    "UIV-105": [
+      {
+        "component_id": "UIV-105",
+        "app_id": "cashmate-ai",
+        "fit": "HIGH",
+        "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-105",
+        "app_id": "annas-diary",
+        "fit": "HIGH",
+        "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-105",
+        "app_id": "notes-ecosistema",
+        "fit": "MEDIUM",
+        "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-105",
+        "app_id": "app-factory-dashboard",
+        "fit": "MEDIUM",
+        "surface": "Form gestione idea, capability o filtri dell'inventario",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-105",
+        "app_id": "cooking-anime",
+        "fit": "MEDIUM",
+        "surface": "Input ricetta, ingredienti o titolo",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-105",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "Input nuova tappa e descrizione viaggio",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-105",
+        "app_id": "beerclass-ai",
+        "fit": "MEDIUM",
+        "surface": "Input Rapid Log birra, nessun nuovo login",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-105",
+        "app_id": "framelab",
+        "fit": "MEDIUM",
+        "surface": "Form nome progetto e metadata",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      }
+    ],
+    "UIV-106": [
+      {
+        "component_id": "UIV-106",
+        "app_id": "omni-cleaner",
+        "fit": "HIGH",
+        "surface": "Feedback scansione duplicati effettivamente avviata",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-106",
+        "app_id": "notes-ecosistema",
+        "fit": "HIGH",
+        "surface": "Indicizzazione/esportazione reale con stato di errore e retry",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-106",
+        "app_id": "battery-guard",
+        "fit": "MEDIUM",
+        "surface": "Aggiornamento telemetria batteria realmente in corso",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-106",
+        "app_id": "framelab",
+        "fit": "MEDIUM",
+        "surface": "Rendering o esportazione media effettiva",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-106",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Importazione dati/storie offline in corso",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-106",
+        "app_id": "send-to-pc",
+        "fit": "MEDIUM",
+        "surface": "Avvio trasferimento Wi-Fi/QR con progress reale",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-106",
+        "app_id": "easy-debloat",
+        "fit": "MEDIUM",
+        "surface": "Esecuzione debloat autorizzata, con annullamento ed esito",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-106",
+        "app_id": "app-factory-dashboard",
+        "fit": "MEDIUM",
+        "surface": "Verifica repository GitHub realmente avviata",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-106",
+        "app_id": "trailpath",
+        "fit": "MEDIUM",
+        "surface": "Attesa routing GPS con fallback errore",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      }
+    ],
+    "UIV-107": [
+      {
+        "component_id": "UIV-107",
+        "app_id": "beerclass-ai",
+        "fit": "HIGH",
+        "surface": "Acquisizione codice a barre o catalogazione realmente attiva",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-107",
+        "app_id": "cooking-anime",
+        "fit": "HIGH",
+        "surface": "Caricamento ricetta o salvataggio realmente in corso",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-107",
+        "app_id": "camperboss",
+        "fit": "MEDIUM",
+        "surface": "Importazione dati offline in corso",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-107",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "Calcolo itinerario o media in corso",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-107",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Importazione dati/storie offline in corso",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-107",
+        "app_id": "framelab",
+        "fit": "MEDIUM",
+        "surface": "Rendering o esportazione media effettiva",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-107",
+        "app_id": "sleepmax-coach",
+        "fit": "MEDIUM",
+        "surface": "Aggiornamento dati routine solo se in corso",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      }
+    ],
+    "UIV-108": [
+      {
+        "component_id": "UIV-108",
+        "app_id": "cooking-anime",
+        "fit": "HIGH",
+        "surface": "Input ricetta, ingredienti o titolo",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-108",
+        "app_id": "deskland-android",
+        "fit": "HIGH",
+        "surface": "Form interattivo del launcher, originalità grafica vincolante",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-108",
+        "app_id": "edu-01-corpo-umano",
+        "fit": "MEDIUM",
+        "surface": "Form risposta quiz reinterpretato in stile videogioco generico",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-108",
+        "app_id": "framelab",
+        "fit": "MEDIUM",
+        "surface": "Form nome progetto e metadata",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      }
+    ],
+    "UIV-109": [
+      {
+        "component_id": "UIV-109",
+        "app_id": "annas-diary",
+        "fit": "HIGH",
+        "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-109",
+        "app_id": "notes-ecosistema",
+        "fit": "HIGH",
+        "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-109",
+        "app_id": "cooking-anime",
+        "fit": "MEDIUM",
+        "surface": "Input ricetta, ingredienti o titolo",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-109",
+        "app_id": "beerclass-ai",
+        "fit": "MEDIUM",
+        "surface": "Input Rapid Log birra, nessun nuovo login",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-109",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-109",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "Input nuova tappa e descrizione viaggio",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-109",
+        "app_id": "camperboss",
+        "fit": "MEDIUM",
+        "surface": "Input destinazione/itinerario anche offline",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-109",
+        "app_id": "sleepmax-coach",
+        "fit": "MEDIUM",
+        "surface": "Form preferenze routine serale",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      }
+    ],
+    "UIV-110": [
+      {
+        "component_id": "UIV-110",
+        "app_id": "app-factory-dashboard",
+        "fit": "HIGH",
+        "surface": "Tooltip differenza Implemented/Verified e evidenze",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-110",
+        "app_id": "notes-ecosistema",
+        "fit": "HIGH",
+        "surface": "Spiegazione strumenti canvas e note",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-110",
+        "app_id": "omni-cleaner",
+        "fit": "MEDIUM",
+        "surface": "Informazioni su file duplicati prima della cancellazione",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-110",
+        "app_id": "cashmate-ai",
+        "fit": "MEDIUM",
+        "surface": "Legenda dei termini o indicatori finanziari",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-110",
+        "app_id": "edu-01-corpo-umano",
+        "fit": "MEDIUM",
+        "surface": "Definizione di un termine anatomico con supporto touch",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-110",
+        "app_id": "battery-guard",
+        "fit": "MEDIUM",
+        "surface": "Spiegazione dello stato della carica",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-110",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "Legenda mappa/tappe accessibile",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-110",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Nota esplicativa fonti, anno o ricorrenza",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-110",
+        "app_id": "focussense",
+        "fit": "MEDIUM",
+        "surface": "Tooltip significato Focus Score",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      }
+    ],
+    "UIV-111": [
+      {
+        "component_id": "UIV-111",
+        "app_id": "cashmate-ai",
+        "fit": "HIGH",
+        "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-111",
+        "app_id": "notes-ecosistema",
+        "fit": "HIGH",
+        "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-111",
+        "app_id": "app-factory-dashboard",
+        "fit": "MEDIUM",
+        "surface": "Form gestione idea, capability o filtri dell'inventario",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-111",
+        "app_id": "annas-diary",
+        "fit": "MEDIUM",
+        "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-111",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "Input nuova tappa e descrizione viaggio",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-111",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      },
+      {
+        "component_id": "UIV-111",
+        "app_id": "camperboss",
+        "fit": "MEDIUM",
+        "surface": "Input destinazione/itinerario anche offline",
+        "status": "PROPOSED_ONLY",
+        "implemented": false
+      }
     ]
   },
   "counts": {
-    "components": 100,
-    "relations": 657,
+    "components": 111,
+    "relations": 736,
     "apps": 25,
-    "favorites": 97
+    "favorites": 108
   }
 }

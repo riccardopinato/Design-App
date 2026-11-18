@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "batch_id": "UIVERSE_FAVORITES_2026_11_18",
-  "export_file": "uiverse-favorites-export.json",
+  "batch_id": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+  "export_file": "FAVORITES/EXPORT_2026-11-18T16-40-39Z.json",
   "source": "UIVERSE_AUTHENTICATED_FAVORITES_DOM",
-  "exported_at": "2026-11-18T10:08:06.777Z",
-  "scan_steps": 67,
-  "declared_count": 97,
-  "actual_count": 97,
-  "unique_count": 97,
+  "exported_at": "2026-11-18T16:40:39.750Z",
+  "scan_steps": 76,
+  "declared_count": 108,
+  "actual_count": 108,
+  "unique_count": 108,
   "completeness": "REQUIRES_USER_COUNT_VERIFICATION",
-  "already_catalogued": 6,
-  "new_catalogued": 91,
-  "code_available": 97,
+  "already_catalogued": 97,
+  "new_catalogued": 11,
+  "code_available": 108,
   "source_missing": 0,
   "source_repo_ref": "adbd2adde0a299a3956ea288fb444ec01891ca41",
   "privacy": "URLS_ONLY_NO_CREDENTIALS",
@@ -113,9 +113,23 @@
       "source_css_sha256": "cbaa16f51f57bb871e287b9bb07281a684a1d494414ddf9dfc1b6e26d9645f5f"
     },
     {
+      "id": "UIV-101",
+      "url": "https://uiverse.io/Javierrocadev/chatty-ladybug-95",
+      "original_export_position": 9,
+      "author": "Javierrocadev",
+      "slug": "chatty-ladybug-95",
+      "category": "FORM",
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-101_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-101_original.css",
+      "source_post_id": "c25e0c05-498b-403d-abf6-54e3fb0af703",
+      "source_html_sha256": "d2147c340b7a332c0cd0964f65239a5e1dc0994762bb38d17ddb81f4b243fb98",
+      "source_css_sha256": "ec2016c809e0aba3eb965a49358086fce59b74d38c669cdbdaf8b325dbc95f2d"
+    },
+    {
       "id": "UIV-018",
       "url": "https://uiverse.io/JaydipPrajapati1910/average-shrimp-57",
-      "original_export_position": 9,
+      "original_export_position": 10,
       "author": "JaydipPrajapati1910",
       "slug": "average-shrimp-57",
       "category": "SWITCH",
@@ -125,7 +139,7 @@
     {
       "id": "UIV-019",
       "url": "https://uiverse.io/JkHuger/new-deer-97",
-      "original_export_position": 10,
+      "original_export_position": 11,
       "author": "JkHuger",
       "slug": "new-deer-97",
       "category": "LOADER",
@@ -135,7 +149,7 @@
     {
       "id": "UIV-020",
       "url": "https://uiverse.io/JkHuger/selfish-bulldog-36",
-      "original_export_position": 11,
+      "original_export_position": 12,
       "author": "JkHuger",
       "slug": "selfish-bulldog-36",
       "category": "LOADER",
@@ -145,7 +159,7 @@
     {
       "id": "UIV-021",
       "url": "https://uiverse.io/JohnnyCSilva/black-rabbit-68",
-      "original_export_position": 12,
+      "original_export_position": 13,
       "author": "JohnnyCSilva",
       "slug": "black-rabbit-68",
       "category": "CARD",
@@ -155,7 +169,7 @@
     {
       "id": "UIV-004",
       "url": "https://uiverse.io/JohnnyCSilva/jolly-elephant-67",
-      "original_export_position": 13,
+      "original_export_position": 14,
       "author": "JohnnyCSilva",
       "slug": "jolly-elephant-67",
       "category": "CARD",
@@ -165,7 +179,7 @@
     {
       "id": "UIV-006",
       "url": "https://uiverse.io/JustCode14/red-dingo-61",
-      "original_export_position": 14,
+      "original_export_position": 15,
       "author": "JustCode14",
       "slug": "red-dingo-61",
       "category": "SWITCH",
@@ -179,7 +193,7 @@
     {
       "id": "UIV-022",
       "url": "https://uiverse.io/Lakshay-art/curvy-earwig-22",
-      "original_export_position": 15,
+      "original_export_position": 16,
       "author": "Lakshay-art",
       "slug": "curvy-earwig-22",
       "category": "INPUT",
@@ -189,7 +203,7 @@
     {
       "id": "UIV-023",
       "url": "https://uiverse.io/LilaRest/soft-baboon-75",
-      "original_export_position": 16,
+      "original_export_position": 17,
       "author": "LilaRest",
       "slug": "soft-baboon-75",
       "category": "RADIO",
@@ -199,7 +213,7 @@
     {
       "id": "UIV-024",
       "url": "https://uiverse.io/MuhammadHasann/fast-badger-70",
-      "original_export_position": 17,
+      "original_export_position": 18,
       "author": "MuhammadHasann",
       "slug": "fast-badger-70",
       "category": "CARD",
@@ -209,7 +223,7 @@
     {
       "id": "UIV-025",
       "url": "https://uiverse.io/Nawsome/ancient-yak-42",
-      "original_export_position": 18,
+      "original_export_position": 19,
       "author": "Nawsome",
       "slug": "ancient-yak-42",
       "category": "LOADER",
@@ -219,7 +233,7 @@
     {
       "id": "UIV-026",
       "url": "https://uiverse.io/Nawsome/brave-turtle-26",
-      "original_export_position": 19,
+      "original_export_position": 20,
       "author": "Nawsome",
       "slug": "brave-turtle-26",
       "category": "LOADER",
@@ -229,7 +243,7 @@
     {
       "id": "UIV-027",
       "url": "https://uiverse.io/Nawsome/empty-snail-69",
-      "original_export_position": 20,
+      "original_export_position": 21,
       "author": "Nawsome",
       "slug": "empty-snail-69",
       "category": "SWITCH",
@@ -239,7 +253,7 @@
     {
       "id": "UIV-028",
       "url": "https://uiverse.io/Nawsome/kind-mole-87",
-      "original_export_position": 21,
+      "original_export_position": 22,
       "author": "Nawsome",
       "slug": "kind-mole-87",
       "category": "LOADER",
@@ -249,7 +263,7 @@
     {
       "id": "UIV-029",
       "url": "https://uiverse.io/Nawsome/wet-mayfly-23",
-      "original_export_position": 22,
+      "original_export_position": 23,
       "author": "Nawsome",
       "slug": "wet-mayfly-23",
       "category": "LOADER",
@@ -259,7 +273,7 @@
     {
       "id": "UIV-030",
       "url": "https://uiverse.io/Nawsome/young-goat-78",
-      "original_export_position": 23,
+      "original_export_position": 24,
       "author": "Nawsome",
       "slug": "young-goat-78",
       "category": "LOADER",
@@ -269,7 +283,7 @@
     {
       "id": "UIV-031",
       "url": "https://uiverse.io/Novaxlo/rotten-lionfish-4",
-      "original_export_position": 24,
+      "original_export_position": 25,
       "author": "Novaxlo",
       "slug": "rotten-lionfish-4",
       "category": "LOADER",
@@ -281,9 +295,23 @@
       "source_css_sha256": "1cdbd20dfcaf2ac9f28732494e812916ad25e2d2bcd52b448fea1f053edebf43"
     },
     {
+      "id": "UIV-102",
+      "url": "https://uiverse.io/Praashoo7/bitter-pig-24",
+      "original_export_position": 26,
+      "author": "Praashoo7",
+      "slug": "bitter-pig-24",
+      "category": "FORM",
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-102_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-102_original.css",
+      "source_post_id": "f328e809-d149-47cf-a714-455c676c8b1b",
+      "source_html_sha256": "fa601491bb416aa79f145f81c34fa2f6e3874d5435d825d4084a9cb5524432de",
+      "source_css_sha256": "92dd88280b4264fb9747386304753d6e4b49beac9f7c8e6d969ad66af85ea259"
+    },
+    {
       "id": "UIV-032",
       "url": "https://uiverse.io/Praashoo7/lucky-hound-44",
-      "original_export_position": 25,
+      "original_export_position": 27,
       "author": "Praashoo7",
       "slug": "lucky-hound-44",
       "category": "LOADER",
@@ -293,7 +321,7 @@
     {
       "id": "UIV-033",
       "url": "https://uiverse.io/Praashoo7/smooth-crab-52",
-      "original_export_position": 26,
+      "original_export_position": 28,
       "author": "Praashoo7",
       "slug": "smooth-crab-52",
       "category": "BUTTON",
@@ -303,7 +331,7 @@
     {
       "id": "UIV-034",
       "url": "https://uiverse.io/Pradeepsaranbishnoi/fast-cobra-20",
-      "original_export_position": 27,
+      "original_export_position": 29,
       "author": "Pradeepsaranbishnoi",
       "slug": "fast-cobra-20",
       "category": "LOADER",
@@ -313,7 +341,7 @@
     {
       "id": "UIV-035",
       "url": "https://uiverse.io/Pradeepsaranbishnoi/hungry-bat-66",
-      "original_export_position": 28,
+      "original_export_position": 30,
       "author": "Pradeepsaranbishnoi",
       "slug": "hungry-bat-66",
       "category": "RADIO",
@@ -323,7 +351,7 @@
     {
       "id": "UIV-036",
       "url": "https://uiverse.io/Pradeepsaranbishnoi/tall-fish-38",
-      "original_export_position": 29,
+      "original_export_position": 31,
       "author": "Pradeepsaranbishnoi",
       "slug": "tall-fish-38",
       "category": "LOADER",
@@ -333,7 +361,7 @@
     {
       "id": "UIV-037",
       "url": "https://uiverse.io/Prince4fff/slippery-baboon-37",
-      "original_export_position": 30,
+      "original_export_position": 32,
       "author": "Prince4fff",
       "slug": "slippery-baboon-37",
       "category": "CARD",
@@ -343,7 +371,7 @@
     {
       "id": "UIV-038",
       "url": "https://uiverse.io/Priyanshu02020/popular-puma-87",
-      "original_export_position": 31,
+      "original_export_position": 33,
       "author": "Priyanshu02020",
       "slug": "popular-puma-87",
       "category": "BUTTON",
@@ -357,7 +385,7 @@
     {
       "id": "UIV-039",
       "url": "https://uiverse.io/SelfMadeSystem/pretty-treefrog-77",
-      "original_export_position": 32,
+      "original_export_position": 34,
       "author": "SelfMadeSystem",
       "slug": "pretty-treefrog-77",
       "category": "LOADER",
@@ -367,7 +395,7 @@
     {
       "id": "UIV-040",
       "url": "https://uiverse.io/Shoh2008/curvy-bulldog-27",
-      "original_export_position": 33,
+      "original_export_position": 35,
       "author": "Shoh2008",
       "slug": "curvy-bulldog-27",
       "category": "LOADER",
@@ -377,7 +405,7 @@
     {
       "id": "UIV-041",
       "url": "https://uiverse.io/Shoh2008/ugly-elephant-80",
-      "original_export_position": 34,
+      "original_export_position": 36,
       "author": "Shoh2008",
       "slug": "ugly-elephant-80",
       "category": "LOADER",
@@ -387,7 +415,7 @@
     {
       "id": "UIV-042",
       "url": "https://uiverse.io/Shoh2008/yellow-dolphin-16",
-      "original_export_position": 35,
+      "original_export_position": 37,
       "author": "Shoh2008",
       "slug": "yellow-dolphin-16",
       "category": "LOADER",
@@ -397,7 +425,7 @@
     {
       "id": "UIV-043",
       "url": "https://uiverse.io/Stavros2410/wet-duck-69",
-      "original_export_position": 36,
+      "original_export_position": 38,
       "author": "Stavros2410",
       "slug": "wet-duck-69",
       "category": "INPUT",
@@ -411,7 +439,7 @@
     {
       "id": "UIV-044",
       "url": "https://uiverse.io/Subaashbala/average-horse-18",
-      "original_export_position": 37,
+      "original_export_position": 39,
       "author": "Subaashbala",
       "slug": "average-horse-18",
       "category": "LOADER",
@@ -419,9 +447,23 @@
       "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-044_original.html"
     },
     {
+      "id": "UIV-103",
+      "url": "https://uiverse.io/SyedShahzaib7/brave-dog-61",
+      "original_export_position": 40,
+      "author": "SyedShahzaib7",
+      "slug": "brave-dog-61",
+      "category": "FORM",
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-103_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-103_original.css",
+      "source_post_id": "0cb13482-6da5-48aa-957e-a0cc069e8055",
+      "source_html_sha256": "e7d2b45b662cc6f49efbc2947f5f8048ff1d4a705f612ab88b4999752eac3836",
+      "source_css_sha256": "dd8dfee0bd79bcba951beb3b578b4d0e6c3a51f20adbcaf026d7e9105d156891"
+    },
+    {
       "id": "UIV-045",
       "url": "https://uiverse.io/Uncannypotato69/honest-starfish-32",
-      "original_export_position": 38,
+      "original_export_position": 41,
       "author": "Uncannypotato69",
       "slug": "honest-starfish-32",
       "category": "CHECKBOX",
@@ -435,7 +477,7 @@
     {
       "id": "UIV-046",
       "url": "https://uiverse.io/Uncannypotato69/rotten-wasp-10",
-      "original_export_position": 39,
+      "original_export_position": 42,
       "author": "Uncannypotato69",
       "slug": "rotten-wasp-10",
       "category": "CHECKBOX",
@@ -449,7 +491,7 @@
     {
       "id": "UIV-047",
       "url": "https://uiverse.io/Yaya12085/plastic-quail-42",
-      "original_export_position": 40,
+      "original_export_position": 43,
       "author": "Yaya12085",
       "slug": "plastic-quail-42",
       "category": "BUTTON",
@@ -459,7 +501,7 @@
     {
       "id": "UIV-048",
       "url": "https://uiverse.io/akshat-patel28/quick-baboon-29",
-      "original_export_position": 41,
+      "original_export_position": 44,
       "author": "akshat-patel28",
       "slug": "quick-baboon-29",
       "category": "CARD",
@@ -467,9 +509,23 @@
       "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-048_original.html"
     },
     {
+      "id": "UIV-104",
+      "url": "https://uiverse.io/alexmaracinaru/tall-owl-30",
+      "original_export_position": 45,
+      "author": "alexmaracinaru",
+      "slug": "tall-owl-30",
+      "category": "FORM",
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-104_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-104_original.css",
+      "source_post_id": "f42a9103-615d-4d66-a4d0-0593e4e5f62f",
+      "source_html_sha256": "0d2d5f4b33a79e67efb933efa90e53bf05ab5da7761e5a80d42a0634c71e541d",
+      "source_css_sha256": "15fd682190678f24afa83db42da0cecad60c40432b15c4f5eac312417590b20e"
+    },
+    {
       "id": "UIV-001",
       "url": "https://uiverse.io/alexruix/tame-fly-42",
-      "original_export_position": 42,
+      "original_export_position": 46,
       "author": "alexruix",
       "slug": "tame-fly-42",
       "category": "LOADER",
@@ -479,7 +535,7 @@
     {
       "id": "UIV-005",
       "url": "https://uiverse.io/amir_6539/red-duck-82",
-      "original_export_position": 43,
+      "original_export_position": 47,
       "author": "amir_6539",
       "slug": "red-duck-82",
       "category": "CARD_BACKGROUND",
@@ -493,7 +549,7 @@
     {
       "id": "UIV-049",
       "url": "https://uiverse.io/andrew-demchenk0/honest-stingray-90",
-      "original_export_position": 44,
+      "original_export_position": 48,
       "author": "andrew-demchenk0",
       "slug": "honest-stingray-90",
       "category": "SWITCH",
@@ -503,7 +559,7 @@
     {
       "id": "UIV-050",
       "url": "https://uiverse.io/andrew-manzyk/fast-vampirebat-53",
-      "original_export_position": 45,
+      "original_export_position": 49,
       "author": "andrew-manzyk",
       "slug": "fast-vampirebat-53",
       "category": "LOADER",
@@ -517,7 +573,7 @@
     {
       "id": "UIV-051",
       "url": "https://uiverse.io/andrew-manzyk/young-walrus-64",
-      "original_export_position": 46,
+      "original_export_position": 50,
       "author": "andrew-manzyk",
       "slug": "young-walrus-64",
       "category": "LOADER",
@@ -531,7 +587,7 @@
     {
       "id": "UIV-007",
       "url": "https://uiverse.io/arthur_6104/orange-walrus-50",
-      "original_export_position": 47,
+      "original_export_position": 51,
       "author": "arthur_6104",
       "slug": "orange-walrus-50",
       "category": "LOADER",
@@ -545,7 +601,7 @@
     {
       "id": "UIV-052",
       "url": "https://uiverse.io/ashif_6672/rare-bat-68",
-      "original_export_position": 48,
+      "original_export_position": 52,
       "author": "ashif_6672",
       "slug": "rare-bat-68",
       "category": "CARD",
@@ -557,9 +613,23 @@
       "source_css_sha256": "fdf442099f168abee3d16da335ea7ce571cc723b389a58e1f185604d19887791"
     },
     {
+      "id": "UIV-105",
+      "url": "https://uiverse.io/ayyjayy2/sour-dog-94",
+      "original_export_position": 53,
+      "author": "ayyjayy2",
+      "slug": "sour-dog-94",
+      "category": "FORM",
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-105_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-105_original.css",
+      "source_post_id": "8385716d-62bb-40ba-99f1-9f6c11aaf052",
+      "source_html_sha256": "0759bf9afc0ceadc14052b1871053e7b9d862858fd0aa1c772824db3db75997b",
+      "source_css_sha256": "8d6609ebf83e5440c6121f99738f2ded01bfec36f1bf1f81098150fcab6e164c"
+    },
+    {
       "id": "UIV-053",
       "url": "https://uiverse.io/barisdogansutcu/plastic-dolphin-67",
-      "original_export_position": 49,
+      "original_export_position": 54,
       "author": "barisdogansutcu",
       "slug": "plastic-dolphin-67",
       "category": "TOOLTIP",
@@ -569,7 +639,7 @@
     {
       "id": "UIV-054",
       "url": "https://uiverse.io/byllzz/great-wombat-13",
-      "original_export_position": 50,
+      "original_export_position": 55,
       "author": "byllzz",
       "slug": "great-wombat-13",
       "category": "CARD",
@@ -583,7 +653,7 @@
     {
       "id": "UIV-055",
       "url": "https://uiverse.io/chase2k25/modern-stingray-54",
-      "original_export_position": 51,
+      "original_export_position": 56,
       "author": "chase2k25",
       "slug": "modern-stingray-54",
       "category": "LOADER",
@@ -597,7 +667,7 @@
     {
       "id": "UIV-056",
       "url": "https://uiverse.io/chase2k25/warm-chicken-23",
-      "original_export_position": 52,
+      "original_export_position": 57,
       "author": "chase2k25",
       "slug": "warm-chicken-23",
       "category": "CARD",
@@ -611,7 +681,7 @@
     {
       "id": "UIV-057",
       "url": "https://uiverse.io/cohencoo/dry-rat-94",
-      "original_export_position": 53,
+      "original_export_position": 58,
       "author": "cohencoo",
       "slug": "dry-rat-94",
       "category": "LOADER",
@@ -621,7 +691,7 @@
     {
       "id": "UIV-058",
       "url": "https://uiverse.io/cssbuttons-io/mean-dolphin-24",
-      "original_export_position": 54,
+      "original_export_position": 59,
       "author": "cssbuttons-io",
       "slug": "mean-dolphin-24",
       "category": "SWITCH",
@@ -631,7 +701,7 @@
     {
       "id": "UIV-059",
       "url": "https://uiverse.io/cuzpq/gentle-goat-72",
-      "original_export_position": 55,
+      "original_export_position": 60,
       "author": "cuzpq",
       "slug": "gentle-goat-72",
       "category": "SWITCH",
@@ -641,7 +711,7 @@
     {
       "id": "UIV-060",
       "url": "https://uiverse.io/dexter-st/breezy-zebra-94",
-      "original_export_position": 56,
+      "original_export_position": 61,
       "author": "dexter-st",
       "slug": "breezy-zebra-94",
       "category": "BUTTON",
@@ -655,7 +725,7 @@
     {
       "id": "UIV-061",
       "url": "https://uiverse.io/dexter-st/bright-lizard-8",
-      "original_export_position": 57,
+      "original_export_position": 62,
       "author": "dexter-st",
       "slug": "bright-lizard-8",
       "category": "LOADER",
@@ -669,7 +739,7 @@
     {
       "id": "UIV-062",
       "url": "https://uiverse.io/dexter-st/spicy-otter-30",
-      "original_export_position": 58,
+      "original_export_position": 63,
       "author": "dexter-st",
       "slug": "spicy-otter-30",
       "category": "LOADER",
@@ -683,7 +753,7 @@
     {
       "id": "UIV-063",
       "url": "https://uiverse.io/dexter-st/tough-falcon-78",
-      "original_export_position": 59,
+      "original_export_position": 64,
       "author": "dexter-st",
       "slug": "tough-falcon-78",
       "category": "CARD",
@@ -695,9 +765,23 @@
       "source_css_sha256": "aad3351172cbec3921797a4dce819234cf50a6e0483fa66f55d72937f6a48992"
     },
     {
+      "id": "UIV-106",
+      "url": "https://uiverse.io/doniaskima/cowardly-frog-28",
+      "original_export_position": 65,
+      "author": "doniaskima",
+      "slug": "cowardly-frog-28",
+      "category": "LOADER",
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-106_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-106_original.css",
+      "source_post_id": "25eeb024-902f-4ef6-9df2-8f773dcab19d",
+      "source_html_sha256": "172e18219dbd3355066daf4a86618ae918ed199af26bb2a7abeb91fd197b746d",
+      "source_css_sha256": "fe06c7a317f0e48b3429c72b4dd22a84bbf03c459886cf0c90bdbdfad6b587c4"
+    },
+    {
       "id": "UIV-064",
       "url": "https://uiverse.io/dopekid_9309/tiny-dog-80",
-      "original_export_position": 60,
+      "original_export_position": 66,
       "author": "dopekid_9309",
       "slug": "tiny-dog-80",
       "category": "BUTTON",
@@ -711,7 +795,7 @@
     {
       "id": "UIV-065",
       "url": "https://uiverse.io/dovatgabriel/massive-vampirebat-17",
-      "original_export_position": 61,
+      "original_export_position": 67,
       "author": "dovatgabriel",
       "slug": "massive-vampirebat-17",
       "category": "LOADER",
@@ -723,9 +807,23 @@
       "source_css_sha256": "df378d86d951aa2aa68ee12331b010e1786a89bed363a098271862a76186ccca"
     },
     {
+      "id": "UIV-107",
+      "url": "https://uiverse.io/elijahgummer/new-fly-30",
+      "original_export_position": 68,
+      "author": "elijahgummer",
+      "slug": "new-fly-30",
+      "category": "LOADER",
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-107_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-107_original.css",
+      "source_post_id": "41326a41-1786-40c8-b29a-95b2ce012881",
+      "source_html_sha256": "042453378267923103b654d3e99a0e2f197ad42eeed6b625ef56a2e7a97fde8d",
+      "source_css_sha256": "12477fe2e161a00f2855e2fa33f53e0ebd3f1b129927e937054c4c4a4abe8c03"
+    },
+    {
       "id": "UIV-066",
       "url": "https://uiverse.io/elijahgummer/polite-earwig-72",
-      "original_export_position": 62,
+      "original_export_position": 69,
       "author": "elijahgummer",
       "slug": "polite-earwig-72",
       "category": "LOADER",
@@ -739,7 +837,7 @@
     {
       "id": "UIV-067",
       "url": "https://uiverse.io/elijahgummer/young-horse-7",
-      "original_export_position": 63,
+      "original_export_position": 70,
       "author": "elijahgummer",
       "slug": "young-horse-7",
       "category": "RADIO",
@@ -753,7 +851,7 @@
     {
       "id": "UIV-009",
       "url": "https://uiverse.io/eslam-hany/selfish-bobcat-73",
-      "original_export_position": 64,
+      "original_export_position": 71,
       "author": "eslam-hany",
       "slug": "selfish-bobcat-73",
       "category": "CARD",
@@ -763,7 +861,7 @@
     {
       "id": "UIV-068",
       "url": "https://uiverse.io/esraaabdel-kareem/bad-dragonfly-54",
-      "original_export_position": 65,
+      "original_export_position": 72,
       "author": "esraaabdel-kareem",
       "slug": "bad-dragonfly-54",
       "category": "LOADER",
@@ -777,7 +875,7 @@
     {
       "id": "UIV-069",
       "url": "https://uiverse.io/fthisilak/bitter-termite-36",
-      "original_export_position": 66,
+      "original_export_position": 73,
       "author": "fthisilak",
       "slug": "bitter-termite-36",
       "category": "BUTTON",
@@ -791,7 +889,7 @@
     {
       "id": "UIV-070",
       "url": "https://uiverse.io/gagan-gv/unlucky-yak-4",
-      "original_export_position": 67,
+      "original_export_position": 74,
       "author": "gagan-gv",
       "slug": "unlucky-yak-4",
       "category": "CHECKBOX",
@@ -801,7 +899,7 @@
     {
       "id": "UIV-071",
       "url": "https://uiverse.io/gharsh11032000/sour-vampirebat-66",
-      "original_export_position": 68,
+      "original_export_position": 75,
       "author": "gharsh11032000",
       "slug": "sour-vampirebat-66",
       "category": "SWITCH",
@@ -811,7 +909,7 @@
     {
       "id": "UIV-072",
       "url": "https://uiverse.io/gsperandio/shaggy-kangaroo-12",
-      "original_export_position": 69,
+      "original_export_position": 76,
       "author": "gsperandio",
       "slug": "shaggy-kangaroo-12",
       "category": "LOADER",
@@ -819,9 +917,23 @@
       "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-072_original.html"
     },
     {
+      "id": "UIV-108",
+      "url": "https://uiverse.io/guilhermeyohan/friendly-walrus-55",
+      "original_export_position": 77,
+      "author": "guilhermeyohan",
+      "slug": "friendly-walrus-55",
+      "category": "FORM",
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-108_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-108_original.css",
+      "source_post_id": "05fc0e5b-a052-4daf-9709-7ba26a6ad93b",
+      "source_html_sha256": "0a9a8cc713c241e6e47fb4ab2a72eb7f041608a1742853c387a2e13b075183ba",
+      "source_css_sha256": "1018e296c078ff795dbb7a340594b71dc006444c53200d4282f29981e75f58fe"
+    },
+    {
       "id": "UIV-073",
       "url": "https://uiverse.io/ilkhoeri/thin-bobcat-83",
-      "original_export_position": 70,
+      "original_export_position": 78,
       "author": "ilkhoeri",
       "slug": "thin-bobcat-83",
       "category": "CARD",
@@ -835,7 +947,7 @@
     {
       "id": "UIV-074",
       "url": "https://uiverse.io/jeremy_4982/massive-falcon-52",
-      "original_export_position": 71,
+      "original_export_position": 79,
       "author": "jeremy_4982",
       "slug": "massive-falcon-52",
       "category": "LOADER",
@@ -849,7 +961,7 @@
     {
       "id": "UIV-075",
       "url": "https://uiverse.io/joe-watson-sbf/honest-bullfrog-6",
-      "original_export_position": 72,
+      "original_export_position": 80,
       "author": "joe-watson-sbf",
       "slug": "honest-bullfrog-6",
       "category": "CARD",
@@ -859,7 +971,7 @@
     {
       "id": "UIV-076",
       "url": "https://uiverse.io/kat_2522/rude-robin-51",
-      "original_export_position": 73,
+      "original_export_position": 81,
       "author": "kat_2522",
       "slug": "rude-robin-51",
       "category": "LOADER",
@@ -873,7 +985,7 @@
     {
       "id": "UIV-077",
       "url": "https://uiverse.io/kennyotsu/fast-emu-70",
-      "original_export_position": 74,
+      "original_export_position": 82,
       "author": "kennyotsu",
       "slug": "fast-emu-70",
       "category": "CARD",
@@ -883,7 +995,7 @@
     {
       "id": "UIV-078",
       "url": "https://uiverse.io/kennyotsu/giant-sloth-18",
-      "original_export_position": 75,
+      "original_export_position": 83,
       "author": "kennyotsu",
       "slug": "giant-sloth-18",
       "category": "CARD",
@@ -897,7 +1009,7 @@
     {
       "id": "UIV-079",
       "url": "https://uiverse.io/kennyotsu/selfish-bear-69",
-      "original_export_position": 76,
+      "original_export_position": 84,
       "author": "kennyotsu",
       "slug": "selfish-bear-69",
       "category": "CARD",
@@ -911,7 +1023,7 @@
     {
       "id": "UIV-080",
       "url": "https://uiverse.io/kennyotsu/short-ape-5",
-      "original_export_position": 77,
+      "original_export_position": 85,
       "author": "kennyotsu",
       "slug": "short-ape-5",
       "category": "CARD",
@@ -921,7 +1033,7 @@
     {
       "id": "UIV-081",
       "url": "https://uiverse.io/kennyotsu/tender-badger-21",
-      "original_export_position": 78,
+      "original_export_position": 86,
       "author": "kennyotsu",
       "slug": "tender-badger-21",
       "category": "CARD",
@@ -935,7 +1047,7 @@
     {
       "id": "UIV-082",
       "url": "https://uiverse.io/kennyotsu/wise-rattlesnake-92",
-      "original_export_position": 79,
+      "original_export_position": 87,
       "author": "kennyotsu",
       "slug": "wise-rattlesnake-92",
       "category": "CARD",
@@ -945,7 +1057,7 @@
     {
       "id": "UIV-083",
       "url": "https://uiverse.io/kennyotsu/wonderful-firefox-31",
-      "original_export_position": 80,
+      "original_export_position": 88,
       "author": "kennyotsu",
       "slug": "wonderful-firefox-31",
       "category": "CARD",
@@ -959,7 +1071,7 @@
     {
       "id": "UIV-084",
       "url": "https://uiverse.io/lukepadiachy/funny-moose-89",
-      "original_export_position": 81,
+      "original_export_position": 89,
       "author": "lukepadiachy",
       "slug": "funny-moose-89",
       "category": "LOADER",
@@ -969,7 +1081,7 @@
     {
       "id": "UIV-085",
       "url": "https://uiverse.io/m1her/odd-fireant-56",
-      "original_export_position": 82,
+      "original_export_position": 90,
       "author": "m1her",
       "slug": "odd-fireant-56",
       "category": "SWITCH",
@@ -983,7 +1095,7 @@
     {
       "id": "UIV-086",
       "url": "https://uiverse.io/mamyapro123/cuddly-warthog-66",
-      "original_export_position": 83,
+      "original_export_position": 91,
       "author": "mamyapro123",
       "slug": "cuddly-warthog-66",
       "category": "SWITCH",
@@ -995,9 +1107,23 @@
       "source_css_sha256": "aa4bec81a8fb5542b57dbf76f7e148c5b8ca6a4dc9eca21d266ec10e813e7937"
     },
     {
+      "id": "UIV-109",
+      "url": "https://uiverse.io/mamyapro123/curvy-bear-51",
+      "original_export_position": 92,
+      "author": "mamyapro123",
+      "slug": "curvy-bear-51",
+      "category": "FORM",
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-109_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-109_original.css",
+      "source_post_id": "55cb20a6-1ba8-4170-82ba-3a1ada445b1b",
+      "source_html_sha256": "283d530920fdd3dab561650a63a754016ae14d73d65ecb4914b302b4b9d42f4f",
+      "source_css_sha256": "872484f165616517dad879ef8694d3a50c862ab8a089545664238fb982f16f55"
+    },
+    {
       "id": "UIV-087",
       "url": "https://uiverse.io/marcelodolza/fat-zebra-11",
-      "original_export_position": 84,
+      "original_export_position": 93,
       "author": "marcelodolza",
       "slug": "fat-zebra-11",
       "category": "BUTTON",
@@ -1007,7 +1133,7 @@
     {
       "id": "UIV-088",
       "url": "https://uiverse.io/mobinkakei/great-skunk-8",
-      "original_export_position": 85,
+      "original_export_position": 94,
       "author": "mobinkakei",
       "slug": "great-skunk-8",
       "category": "SWITCH",
@@ -1017,7 +1143,7 @@
     {
       "id": "UIV-089",
       "url": "https://uiverse.io/mobinkakei/grumpy-turtle-41",
-      "original_export_position": 86,
+      "original_export_position": 95,
       "author": "mobinkakei",
       "slug": "grumpy-turtle-41",
       "category": "LOADER",
@@ -1027,7 +1153,7 @@
     {
       "id": "UIV-090",
       "url": "https://uiverse.io/mobinkakei/strong-lizard-79",
-      "original_export_position": 87,
+      "original_export_position": 96,
       "author": "mobinkakei",
       "slug": "strong-lizard-79",
       "category": "SWITCH",
@@ -1037,7 +1163,7 @@
     {
       "id": "UIV-091",
       "url": "https://uiverse.io/monkey_8812/curly-moth-56",
-      "original_export_position": 88,
+      "original_export_position": 97,
       "author": "monkey_8812",
       "slug": "curly-moth-56",
       "category": "CARD",
@@ -1051,7 +1177,7 @@
     {
       "id": "UIV-092",
       "url": "https://uiverse.io/mymiamo/quiet-dragon-5",
-      "original_export_position": 89,
+      "original_export_position": 98,
       "author": "mymiamo",
       "slug": "quiet-dragon-5",
       "category": "CARD",
@@ -1065,7 +1191,7 @@
     {
       "id": "UIV-093",
       "url": "https://uiverse.io/preet_7613/new-cougar-63",
-      "original_export_position": 90,
+      "original_export_position": 99,
       "author": "preet_7613",
       "slug": "new-cougar-63",
       "category": "CARD",
@@ -1077,9 +1203,23 @@
       "source_css_sha256": "16053e63077a6b350dcc603153470fbc6cb5af91feae569f770757fed8cd84cf"
     },
     {
+      "id": "UIV-110",
+      "url": "https://uiverse.io/roroland/average-horse-2",
+      "original_export_position": 100,
+      "author": "roroland",
+      "slug": "average-horse-2",
+      "category": "TOOLTIP",
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-110_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-110_original.css",
+      "source_post_id": "e1a79350-f340-437c-ac23-687b9f5c7328",
+      "source_html_sha256": "f96af64e9f15f08fc714ab28361167f7d61439722a9e40cdf2d37c9690f3f4eb",
+      "source_css_sha256": "7eff5023d675cf4e631d1345353b4352d9db86a7ef8f8996f2c229d45bb641b5"
+    },
+    {
       "id": "UIV-094",
       "url": "https://uiverse.io/satyamchaudharydev/splendid-husky-54",
-      "original_export_position": 91,
+      "original_export_position": 101,
       "author": "satyamchaudharydev",
       "slug": "splendid-husky-54",
       "category": "LOADER",
@@ -1089,7 +1229,7 @@
     {
       "id": "UIV-095",
       "url": "https://uiverse.io/seoulchik/funny-seahorse-89",
-      "original_export_position": 92,
+      "original_export_position": 102,
       "author": "seoulchik",
       "slug": "funny-seahorse-89",
       "category": "CARD",
@@ -1103,7 +1243,7 @@
     {
       "id": "UIV-096",
       "url": "https://uiverse.io/solowzrd/wet-lionfish-63",
-      "original_export_position": 93,
+      "original_export_position": 103,
       "author": "solowzrd",
       "slug": "wet-lionfish-63",
       "category": "PATTERN",
@@ -1117,7 +1257,7 @@
     {
       "id": "UIV-097",
       "url": "https://uiverse.io/vamsidevendrakumar/soft-shrimp-94",
-      "original_export_position": 94,
+      "original_export_position": 104,
       "author": "vamsidevendrakumar",
       "slug": "soft-shrimp-94",
       "category": "CARD",
@@ -1125,9 +1265,23 @@
       "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-097_original.html"
     },
     {
+      "id": "UIV-111",
+      "url": "https://uiverse.io/vinodjangid07/horrible-warthog-14",
+      "original_export_position": 105,
+      "author": "vinodjangid07",
+      "slug": "horrible-warthog-14",
+      "category": "FORM",
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-111_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-111_original.css",
+      "source_post_id": "e177bf54-476e-4bd6-b822-30f0d97e74bc",
+      "source_html_sha256": "87166f6fd5e6911fece1b650ef8a38d75f99bd9eb912ebccbd6a9c134a7b50c3",
+      "source_css_sha256": "b041831f84bb7fdac03579eba63ebf56b14e312ed1f3f173a42887feda927b41"
+    },
+    {
       "id": "UIV-098",
       "url": "https://uiverse.io/whoisyourdeadie/foolish-rabbit-13",
-      "original_export_position": 95,
+      "original_export_position": 106,
       "author": "whoisyourdeadie",
       "slug": "foolish-rabbit-13",
       "category": "PATTERN",
@@ -1141,7 +1295,7 @@
     {
       "id": "UIV-099",
       "url": "https://uiverse.io/xXJollyHAKERXx/lucky-falcon-75",
-      "original_export_position": 96,
+      "original_export_position": 107,
       "author": "xXJollyHAKERXx",
       "slug": "lucky-falcon-75",
       "category": "LOADER",
@@ -1151,7 +1305,7 @@
     {
       "id": "UIV-100",
       "url": "https://uiverse.io/zanina-yassine/afraid-eel-50",
-      "original_export_position": 97,
+      "original_export_position": 108,
       "author": "zanina-yassine",
       "slug": "afraid-eel-50",
       "category": "SWITCH",
@@ -1164,12 +1318,23 @@
     "CARD": 28,
     "CARD_BACKGROUND": 1,
     "CHECKBOX": 3,
+    "FORM": 8,
     "INPUT": 2,
-    "LOADER": 36,
+    "LOADER": 38,
     "PATTERN": 2,
     "RADIO": 3,
     "SWITCH": 13,
-    "TOOLTIP": 1
+    "TOOLTIP": 2
   },
-  "last_code_recovery_at": "2026-11-18T11:09:18.470856+00:00"
+  "last_code_recovery_at": "2026-11-18T16:49:55.064870+00:00",
+  "previous_export": {
+    "exported_at": "2026-11-18T10:08:06.777Z",
+    "count": 97,
+    "completeness": "REQUIRES_USER_COUNT_VERIFICATION"
+  },
+  "delta_since_previous": {
+    "added": 11,
+    "removed": 0,
+    "unchanged": 97
+  }
 }

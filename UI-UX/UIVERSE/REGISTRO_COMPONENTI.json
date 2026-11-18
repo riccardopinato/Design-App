@@ -2,21 +2,23 @@
   "schema_version": 1,
   "batch": "UIVERSE_9_2026_11_18",
   "recorded_at": "2026-11-18",
-  "factory_sha": "a8d20ceb71ce9e9e16e6756d257d611fa6f1e0ec",
+  "factory_sha": "63c3ecba07dafdf46e27e175bd973ee05107fecb",
   "design_base_sha": "86272178bc29008c111ee459f23e74b95cb88e63",
   "source_repo": "uiverse-io/galaxy",
   "source_commit": "adbd2adde0a299a3956ea288fb444ec01891ca41",
   "counts": {
-    "links": 100,
-    "original_source_files": 100,
+    "links": 111,
+    "original_source_files": 111,
     "code_unavailable": 0,
     "apps": 25,
-    "app_component_relations": 657,
-    "favorite_links": 97,
-    "favorite_source_available": 97,
+    "app_component_relations": 736,
+    "favorite_links": 108,
+    "favorite_source_available": 108,
     "favorite_source_unlocated": 0,
-    "new_from_favorites": 91,
-    "preexisting_favorite_links": 6
+    "new_from_favorites": 102,
+    "preexisting_favorite_links": 6,
+    "new_since_last_export": 11,
+    "removed_since_last_export": 0
   },
   "components": [
     {
@@ -71,7 +73,7 @@
       ],
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 42,
+      "favorite_export_position": 46,
       "source_code_analysis": {
         "css_tags": "loader",
         "html_root": "div",
@@ -294,7 +296,7 @@
       ],
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 13,
+      "favorite_export_position": 14,
       "source_code_analysis": {
         "css_tags": "gradient, card",
         "html_root": "div",
@@ -375,7 +377,7 @@
       ],
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 43,
+      "favorite_export_position": 47,
       "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-005_original.css",
       "source_css_blob_sha": "369524a343a39ede4f1ed25274532055295f77a5",
       "source_html_sha256": "6b4d1c9e6eff54e6b7ce644fc455ebd61190df60ec2d40f58132114156c09ce3",
@@ -463,7 +465,7 @@
       ],
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 14,
+      "favorite_export_position": 15,
       "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-006_original.css",
       "source_css_blob_sha": "7d9864e45aeda26e7c834fc92904cb3c1d879b10",
       "source_html_sha256": "c8eccee2edf80ba77651504997070107a29a5e87017005ab8667f727f0607292",
@@ -557,7 +559,7 @@
       ],
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 47,
+      "favorite_export_position": 51,
       "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-007_original.css",
       "source_css_blob_sha": "1263028594101795964acd957d7ac1cfc55b9943",
       "source_html_sha256": "71ec8fa2108323ea613be965ed7881f475548c1bd26bb24c0ce6dc42d3d8fc62",
@@ -720,7 +722,7 @@
       ],
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 64,
+      "favorite_export_position": 71,
       "source_code_analysis": {
         "css_tags": "card",
         "html_root": "div",
@@ -1510,7 +1512,7 @@
       "guardrails": "On/off deve rappresentare stato reale, persistent state e TalkBack",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 9,
+      "favorite_export_position": 10,
       "apps": [
         {
           "slug": "camperboss",
@@ -1594,7 +1596,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 10,
+      "favorite_export_position": 11,
       "apps": [
         {
           "slug": "sleepmax-coach",
@@ -1680,7 +1682,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 11,
+      "favorite_export_position": 12,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -1766,7 +1768,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 12,
+      "favorite_export_position": 13,
       "apps": [
         {
           "slug": "camperboss",
@@ -1852,7 +1854,7 @@
       "guardrails": "Usare solo dopo verifica visuale, a11y e codice",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 15,
+      "favorite_export_position": 16,
       "apps": [
         {
           "slug": "cashmate-ai",
@@ -1932,7 +1934,7 @@
       "guardrails": "Stato effettivo, semantica e dimensione touch",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 16,
+      "favorite_export_position": 17,
       "apps": [
         {
           "slug": "annas-diary",
@@ -2010,7 +2012,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 17,
+      "favorite_export_position": 18,
       "apps": [
         {
           "slug": "annas-diary",
@@ -2096,7 +2098,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 18,
+      "favorite_export_position": 19,
       "apps": [
         {
           "slug": "app-factory-dashboard",
@@ -2182,7 +2184,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 19,
+      "favorite_export_position": 20,
       "apps": [
         {
           "slug": "camperboss",
@@ -2268,7 +2270,7 @@
       "guardrails": "On/off deve rappresentare stato reale, persistent state e TalkBack",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 20,
+      "favorite_export_position": 21,
       "apps": [
         {
           "slug": "focussense",
@@ -2354,7 +2356,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 21,
+      "favorite_export_position": 22,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -2440,7 +2442,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 22,
+      "favorite_export_position": 23,
       "apps": [
         {
           "slug": "world-days",
@@ -2526,7 +2528,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 23,
+      "favorite_export_position": 24,
       "apps": [
         {
           "slug": "app-factory-dashboard",
@@ -2612,7 +2614,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 24,
+      "favorite_export_position": 25,
       "apps": [
         {
           "slug": "camperboss",
@@ -2718,7 +2720,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 25,
+      "favorite_export_position": 27,
       "apps": [
         {
           "slug": "sleepmax-coach",
@@ -2804,7 +2806,7 @@
       "guardrails": "Touch+keyboard, feedback e focus; nessuna CTA senza azione reale",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 26,
+      "favorite_export_position": 28,
       "apps": [
         {
           "slug": "web-utility-factory",
@@ -2885,7 +2887,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 27,
+      "favorite_export_position": 29,
       "apps": [
         {
           "slug": "world-days",
@@ -2971,7 +2973,7 @@
       "guardrails": "Stato effettivo, semantica e dimensione touch",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 28,
+      "favorite_export_position": 30,
       "apps": [
         {
           "slug": "annas-diary",
@@ -3049,7 +3051,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 29,
+      "favorite_export_position": 31,
       "apps": [
         {
           "slug": "camperboss",
@@ -3135,7 +3137,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 30,
+      "favorite_export_position": 32,
       "apps": [
         {
           "slug": "wonderlog",
@@ -3221,7 +3223,7 @@
       "guardrails": "Touch+keyboard, feedback e focus; nessuna CTA senza azione reale",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 31,
+      "favorite_export_position": 33,
       "apps": [
         {
           "slug": "wonderlog",
@@ -3312,7 +3314,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 32,
+      "favorite_export_position": 34,
       "apps": [
         {
           "slug": "world-days",
@@ -3398,7 +3400,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 33,
+      "favorite_export_position": 35,
       "apps": [
         {
           "slug": "app-factory-dashboard",
@@ -3484,7 +3486,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 34,
+      "favorite_export_position": 36,
       "apps": [
         {
           "slug": "camperboss",
@@ -3570,7 +3572,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 35,
+      "favorite_export_position": 37,
       "apps": [
         {
           "slug": "sleepmax-coach",
@@ -3656,7 +3658,7 @@
       "guardrails": "Label, focus, keyboard/IME e contrasto",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 36,
+      "favorite_export_position": 38,
       "apps": [
         {
           "slug": "notes-ecosistema",
@@ -3730,7 +3732,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 37,
+      "favorite_export_position": 39,
       "apps": [
         {
           "slug": "world-days",
@@ -3816,7 +3818,7 @@
       "guardrails": "Stato reale, touch target e feedback",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 38,
+      "favorite_export_position": 41,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -3897,7 +3899,7 @@
       "guardrails": "Stato effettivo, semantica e dimensione touch",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 39,
+      "favorite_export_position": 42,
       "apps": [
         {
           "slug": "app-factory-dashboard",
@@ -3995,7 +3997,7 @@
       "guardrails": "Touch+keyboard, feedback e focus; nessuna CTA senza azione reale",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 40,
+      "favorite_export_position": 43,
       "apps": [
         {
           "slug": "camperboss",
@@ -4075,7 +4077,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 41,
+      "favorite_export_position": 44,
       "apps": [
         {
           "slug": "annas-diary",
@@ -4159,7 +4161,7 @@
       "guardrails": "On/off deve rappresentare stato reale, persistent state e TalkBack",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 44,
+      "favorite_export_position": 48,
       "apps": [
         {
           "slug": "180flipcharge",
@@ -4245,7 +4247,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 45,
+      "favorite_export_position": 49,
       "apps": [
         {
           "slug": "sleepmax-coach",
@@ -4349,7 +4351,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 46,
+      "favorite_export_position": 50,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -4456,7 +4458,7 @@
       "guardrails": "Contenuto accessibile senza hover e con fallback reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 48,
+      "favorite_export_position": 52,
       "apps": [
         {
           "slug": "notes-ecosistema",
@@ -4532,7 +4534,7 @@
       "guardrails": "Usare solo dopo verifica visuale, a11y e codice",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 49,
+      "favorite_export_position": 54,
       "apps": [
         {
           "slug": "edu-01-corpo-umano",
@@ -4613,7 +4615,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 50,
+      "favorite_export_position": 55,
       "apps": [
         {
           "slug": "wonderlog",
@@ -4705,7 +4707,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 51,
+      "favorite_export_position": 56,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -4806,7 +4808,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 52,
+      "favorite_export_position": 57,
       "apps": [
         {
           "slug": "camperboss",
@@ -4910,7 +4912,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 53,
+      "favorite_export_position": 58,
       "apps": [
         {
           "slug": "app-factory-dashboard",
@@ -4996,7 +4998,7 @@
       "guardrails": "On/off deve rappresentare stato reale, persistent state e TalkBack",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 54,
+      "favorite_export_position": 59,
       "apps": [
         {
           "slug": "notes-ecosistema",
@@ -5080,7 +5082,7 @@
       "guardrails": "On/off deve rappresentare stato reale, persistent state e TalkBack",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 55,
+      "favorite_export_position": 60,
       "apps": [
         {
           "slug": "easy-debloat",
@@ -5164,7 +5166,7 @@
       "guardrails": "Touch+keyboard, feedback e focus; nessuna CTA senza azione reale",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 56,
+      "favorite_export_position": 61,
       "apps": [
         {
           "slug": "annas-diary",
@@ -5254,7 +5256,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 57,
+      "favorite_export_position": 62,
       "apps": [
         {
           "slug": "world-days",
@@ -5359,7 +5361,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 58,
+      "favorite_export_position": 63,
       "apps": [
         {
           "slug": "app-factory-dashboard",
@@ -5464,7 +5466,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 59,
+      "favorite_export_position": 64,
       "apps": [
         {
           "slug": "beerclass-ai",
@@ -5568,7 +5570,7 @@
       "guardrails": "Tap/focus, azione reale, stato disabled/loading",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 60,
+      "favorite_export_position": 66,
       "apps": [
         {
           "slug": "notes-ecosistema",
@@ -5644,7 +5646,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 61,
+      "favorite_export_position": 67,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -5748,7 +5750,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 62,
+      "favorite_export_position": 69,
       "apps": [
         {
           "slug": "world-days",
@@ -5849,7 +5851,7 @@
       "guardrails": "Stato effettivo, semantica e dimensione touch",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 63,
+      "favorite_export_position": 70,
       "apps": [
         {
           "slug": "web-utility-factory",
@@ -5942,7 +5944,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 65,
+      "favorite_export_position": 72,
       "apps": [
         {
           "slug": "sleepmax-coach",
@@ -6047,7 +6049,7 @@
       "guardrails": "Touch+keyboard, feedback e focus; nessuna CTA senza azione reale",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 66,
+      "favorite_export_position": 73,
       "apps": [
         {
           "slug": "easy-debloat",
@@ -6140,7 +6142,7 @@
       "guardrails": "Stato effettivo, semantica e dimensione touch",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 67,
+      "favorite_export_position": 74,
       "apps": [
         {
           "slug": "camperboss",
@@ -6218,7 +6220,7 @@
       "guardrails": "On/off deve rappresentare stato reale, persistent state e TalkBack",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 68,
+      "favorite_export_position": 75,
       "apps": [
         {
           "slug": "notes-ecosistema",
@@ -6302,7 +6304,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 69,
+      "favorite_export_position": 76,
       "apps": [
         {
           "slug": "camperboss",
@@ -6388,7 +6390,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 70,
+      "favorite_export_position": 78,
       "apps": [
         {
           "slug": "wonderlog",
@@ -6487,7 +6489,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 71,
+      "favorite_export_position": 79,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -6586,7 +6588,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 72,
+      "favorite_export_position": 80,
       "apps": [
         {
           "slug": "camperboss",
@@ -6672,7 +6674,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 73,
+      "favorite_export_position": 81,
       "apps": [
         {
           "slug": "app-factory-dashboard",
@@ -6770,7 +6772,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 74,
+      "favorite_export_position": 82,
       "apps": [
         {
           "slug": "wonderlog",
@@ -6856,7 +6858,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 75,
+      "favorite_export_position": 83,
       "apps": [
         {
           "slug": "beerclass-ai",
@@ -6964,7 +6966,7 @@
       "guardrails": "Contenuto accessibile senza hover e con fallback reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 76,
+      "favorite_export_position": 84,
       "apps": [
         {
           "slug": "notes-ecosistema",
@@ -7049,7 +7051,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 77,
+      "favorite_export_position": 85,
       "apps": [
         {
           "slug": "annas-diary",
@@ -7135,7 +7137,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 78,
+      "favorite_export_position": 86,
       "apps": [
         {
           "slug": "wonderlog",
@@ -7239,7 +7241,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 79,
+      "favorite_export_position": 87,
       "apps": [
         {
           "slug": "beerclass-ai",
@@ -7323,7 +7325,7 @@
       "guardrails": "Contenuto accessibile senza hover e con fallback reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 80,
+      "favorite_export_position": 88,
       "apps": [
         {
           "slug": "notes-ecosistema",
@@ -7406,7 +7408,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 81,
+      "favorite_export_position": 89,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -7492,7 +7494,7 @@
       "guardrails": "On/off deve rappresentare stato reale, persistent state e TalkBack",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 82,
+      "favorite_export_position": 90,
       "apps": [
         {
           "slug": "notes-ecosistema",
@@ -7591,7 +7593,7 @@
       "guardrails": "On/off deve rappresentare stato reale, persistent state e TalkBack",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 83,
+      "favorite_export_position": 91,
       "apps": [
         {
           "slug": "easy-debloat",
@@ -7691,7 +7693,7 @@
       "guardrails": "Touch+keyboard, feedback e focus; nessuna CTA senza azione reale",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 84,
+      "favorite_export_position": 93,
       "apps": [
         {
           "slug": "camperboss",
@@ -7771,7 +7773,7 @@
       "guardrails": "On/off deve rappresentare stato reale, persistent state e TalkBack",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 85,
+      "favorite_export_position": 94,
       "apps": [
         {
           "slug": "battery-guard",
@@ -7855,7 +7857,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 86,
+      "favorite_export_position": 95,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -7941,7 +7943,7 @@
       "guardrails": "On/off deve rappresentare stato reale, persistent state e TalkBack",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 87,
+      "favorite_export_position": 96,
       "apps": [
         {
           "slug": "pocket-guard",
@@ -8025,7 +8027,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 88,
+      "favorite_export_position": 97,
       "apps": [
         {
           "slug": "camperboss",
@@ -8127,7 +8129,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 89,
+      "favorite_export_position": 98,
       "apps": [
         {
           "slug": "annas-diary",
@@ -8226,7 +8228,7 @@
       "guardrails": "Contenuto accessibile senza hover e con fallback reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 90,
+      "favorite_export_position": 99,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -8299,7 +8301,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 91,
+      "favorite_export_position": 101,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -8385,7 +8387,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 92,
+      "favorite_export_position": 102,
       "apps": [
         {
           "slug": "camperboss",
@@ -8487,7 +8489,7 @@
       "guardrails": "Contrasto, leggibilità, batterie/GPU e sfondo statico ridotto",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 93,
+      "favorite_export_position": 103,
       "apps": [
         {
           "slug": "battery-guard",
@@ -8586,7 +8588,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 94,
+      "favorite_export_position": 104,
       "apps": [
         {
           "slug": "wonderlog",
@@ -8672,7 +8674,7 @@
       "guardrails": "Contrasto, leggibilità, batterie/GPU e sfondo statico ridotto",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 95,
+      "favorite_export_position": 106,
       "apps": [
         {
           "slug": "cashmate-ai",
@@ -8759,7 +8761,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 96,
+      "favorite_export_position": 107,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -8845,7 +8847,7 @@
       "guardrails": "On/off deve rappresentare stato reale, persistent state e TalkBack",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 97,
+      "favorite_export_position": 108,
       "apps": [
         {
           "slug": "easy-debloat",
@@ -8905,6 +8907,1176 @@
         "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_04.json",
         "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
       }
+    },
+    {
+      "id": "UIV-101",
+      "title": "FORM — Javierrocadev/chatty-ladybug-95",
+      "author": "Javierrocadev",
+      "slug": "chatty-ladybug-95",
+      "uiverse_url": "https://uiverse.io/Javierrocadev/chatty-ladybug-95",
+      "category": "FORM",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": "https://uiverse.io/Javierrocadev/chatty-ladybug-95",
+      "source_blob_sha": "0376f0522aaa42e8eb1eca4b91964bd7f9679394",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-101_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "maturity": "REFERENCE",
+      "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
+      "consumer_status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "consumer_tested": false,
+      "description": "Blue modern login form; use only where an input or optional account flow already exists. Categoria FORM verificata nel post pubblico Uiverse. Tag originali: blue, form, login form, tailwind, rounded, input, button, blue, border, modern.",
+      "guardrails": "Input accessibili, label/autofill, validazione e nessun login aggiuntivo se non approvato dal Product Bible",
+      "user_favorite": true,
+      "favorite_export_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+      "favorite_export_position": 9,
+      "apps": [
+        {
+          "slug": "cashmate-ai",
+          "fit": "HIGH",
+          "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "notes-ecosistema",
+          "fit": "HIGH",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "annas-diary",
+          "fit": "MEDIUM",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "app-factory-dashboard",
+          "fit": "MEDIUM",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "beerclass-ai",
+          "fit": "MEDIUM",
+          "surface": "Input Rapid Log birra, nessun nuovo login",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-101_original.css",
+      "source_css_blob_sha": "007959164ea97af6eb8194d0792fbf084d247ed5",
+      "source_html_sha256": "d2147c340b7a332c0cd0964f65239a5e1dc0994762bb38d17ddb81f4b243fb98",
+      "source_css_sha256": "ec2016c809e0aba3eb965a49358086fce59b74d38c669cdbdaf8b325dbc95f2d",
+      "source_post_id": "c25e0c05-498b-403d-abf6-54e3fb0af703",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T16:49:55.064870+00:00",
+      "upstream_category": "form",
+      "upstream_tags": [
+        "blue",
+        "form",
+        "login form",
+        "tailwind",
+        "rounded",
+        "input",
+        "button",
+        "blue",
+        "border",
+        "modern",
+        "password",
+        "form",
+        "submit",
+        "mail",
+        "login",
+        "box",
+        "welcome"
+      ],
+      "source_code_analysis": {
+        "html_chars": 1096,
+        "css_chars": 2178,
+        "css_keyframes": 0,
+        "hover_selectors": 1,
+        "contains_svg": false,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      },
+      "design_intent": "Blue modern login form; use only where an input or optional account flow already exists"
+    },
+    {
+      "id": "UIV-102",
+      "title": "FORM — Praashoo7/bitter-pig-24",
+      "author": "Praashoo7",
+      "slug": "bitter-pig-24",
+      "uiverse_url": "https://uiverse.io/Praashoo7/bitter-pig-24",
+      "category": "FORM",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": "https://uiverse.io/Praashoo7/bitter-pig-24",
+      "source_blob_sha": "d3a4f21d4906d96040f48b755e64b5450cb142a9",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-102_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "maturity": "REFERENCE",
+      "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
+      "consumer_status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "consumer_tested": false,
+      "description": "Warm stitched beige/orange login form; adapt to product typography and contrast. Categoria FORM verificata nel post pubblico Uiverse. Tag originali: login, form, stitched, rounded, shadow, beige, orange, password, form, submit.",
+      "guardrails": "Input accessibili, label/autofill, validazione e nessun login aggiuntivo se non approvato dal Product Bible",
+      "user_favorite": true,
+      "favorite_export_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+      "favorite_export_position": 26,
+      "apps": [
+        {
+          "slug": "annas-diary",
+          "fit": "HIGH",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "notes-ecosistema",
+          "fit": "HIGH",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "camperboss",
+          "fit": "MEDIUM",
+          "surface": "Input destinazione/itinerario anche offline",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "cooking-anime",
+          "fit": "MEDIUM",
+          "surface": "Input ricetta, ingredienti o titolo",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "sleepmax-coach",
+          "fit": "MEDIUM",
+          "surface": "Form preferenze routine serale",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "app-factory-dashboard",
+          "fit": "MEDIUM",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-102_original.css",
+      "source_css_blob_sha": "0b8c5d2b299de7c4b41dff8750ff52c563aab97c",
+      "source_html_sha256": "fa601491bb416aa79f145f81c34fa2f6e3874d5435d825d4084a9cb5524432de",
+      "source_css_sha256": "92dd88280b4264fb9747386304753d6e4b49beac9f7c8e6d969ad66af85ea259",
+      "source_post_id": "f328e809-d149-47cf-a714-455c676c8b1b",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T16:49:55.064870+00:00",
+      "upstream_category": "form",
+      "upstream_tags": [
+        "login",
+        "form",
+        "stitched",
+        "rounded",
+        "shadow",
+        "beige",
+        "orange",
+        "password",
+        "form",
+        "submit",
+        "username",
+        "minimal",
+        "centered",
+        "outlined",
+        "login"
+      ],
+      "source_code_analysis": {
+        "html_chars": 226,
+        "css_chars": 1300,
+        "css_keyframes": 0,
+        "hover_selectors": 1,
+        "contains_svg": false,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      },
+      "design_intent": "Warm stitched beige/orange login form; adapt to product typography and contrast"
+    },
+    {
+      "id": "UIV-103",
+      "title": "FORM — SyedShahzaib7/brave-dog-61",
+      "author": "SyedShahzaib7",
+      "slug": "brave-dog-61",
+      "uiverse_url": "https://uiverse.io/SyedShahzaib7/brave-dog-61",
+      "category": "FORM",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": "https://uiverse.io/SyedShahzaib7/brave-dog-61",
+      "source_blob_sha": "4bec197060ce56841703b434074982f2c1d9c466",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-103_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "maturity": "REFERENCE",
+      "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
+      "consumer_status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "consumer_tested": false,
+      "description": "Blue gradient and depth form; tone down gloss and 3D for readable mobile inputs. Categoria FORM verificata nel post pubblico Uiverse. Tag originali: simple, login, 3d, social, gradient, form, submit, login form, rounded, button.",
+      "guardrails": "Input accessibili, label/autofill, validazione e nessun login aggiuntivo se non approvato dal Product Bible",
+      "user_favorite": true,
+      "favorite_export_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+      "favorite_export_position": 40,
+      "apps": [
+        {
+          "slug": "cashmate-ai",
+          "fit": "HIGH",
+          "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "app-factory-dashboard",
+          "fit": "HIGH",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "notes-ecosistema",
+          "fit": "MEDIUM",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "beerclass-ai",
+          "fit": "MEDIUM",
+          "surface": "Input Rapid Log birra, nessun nuovo login",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "send-to-pc",
+          "fit": "MEDIUM",
+          "surface": "Campo codice abbinamento dispositivo solo se previsto",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-103_original.css",
+      "source_css_blob_sha": "d981a1fecccd74ddaedd18e29e5d8454e4120234",
+      "source_html_sha256": "e7d2b45b662cc6f49efbc2947f5f8048ff1d4a705f612ab88b4999752eac3836",
+      "source_css_sha256": "dd8dfee0bd79bcba951beb3b578b4d0e6c3a51f20adbcaf026d7e9105d156891",
+      "source_post_id": "0cb13482-6da5-48aa-957e-a0cc069e8055",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T16:49:55.064870+00:00",
+      "upstream_category": "form",
+      "upstream_tags": [
+        "simple",
+        "login",
+        "3d",
+        "social",
+        "gradient",
+        "form",
+        "submit",
+        "login form",
+        "rounded",
+        "button",
+        "gradient",
+        "blue",
+        "modern",
+        "forgot",
+        "password",
+        "white",
+        "form",
+        "username",
+        "minimal",
+        "login",
+        "register",
+        "remember"
+      ],
+      "source_code_analysis": {
+        "html_chars": 599,
+        "css_chars": 1570,
+        "css_keyframes": 0,
+        "hover_selectors": 2,
+        "contains_svg": false,
+        "gradient": true,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      },
+      "design_intent": "Blue gradient and depth form; tone down gloss and 3D for readable mobile inputs"
+    },
+    {
+      "id": "UIV-104",
+      "title": "FORM — alexmaracinaru/tall-owl-30",
+      "author": "alexmaracinaru",
+      "slug": "tall-owl-30",
+      "uiverse_url": "https://uiverse.io/alexmaracinaru/tall-owl-30",
+      "category": "FORM",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": "https://uiverse.io/alexmaracinaru/tall-owl-30",
+      "source_blob_sha": "37f977bd6459df104964a8808b401d4d104b8289",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-104_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "maturity": "REFERENCE",
+      "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
+      "consumer_status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "consumer_tested": false,
+      "description": "Minimal purple login form; adapt palette and semantics rather than add authentication. Categoria FORM verificata nel post pubblico Uiverse. Tag originali: login, form, input, button, password, white, form, signin, username, purple.",
+      "guardrails": "Input accessibili, label/autofill, validazione e nessun login aggiuntivo se non approvato dal Product Bible",
+      "user_favorite": true,
+      "favorite_export_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+      "favorite_export_position": 45,
+      "apps": [
+        {
+          "slug": "cashmate-ai",
+          "fit": "HIGH",
+          "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "notes-ecosistema",
+          "fit": "HIGH",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "annas-diary",
+          "fit": "MEDIUM",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "app-factory-dashboard",
+          "fit": "MEDIUM",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "cooking-anime",
+          "fit": "MEDIUM",
+          "surface": "Input ricetta, ingredienti o titolo",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-104_original.css",
+      "source_css_blob_sha": "b813a9478dba1d9ca599a31e766dbd487bb6fc73",
+      "source_html_sha256": "0d2d5f4b33a79e67efb933efa90e53bf05ab5da7761e5a80d42a0634c71e541d",
+      "source_css_sha256": "15fd682190678f24afa83db42da0cecad60c40432b15c4f5eac312417590b20e",
+      "source_post_id": "f42a9103-615d-4d66-a4d0-0593e4e5f62f",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T16:49:55.064870+00:00",
+      "upstream_category": "form",
+      "upstream_tags": [
+        "login",
+        "form",
+        "input",
+        "button",
+        "password",
+        "white",
+        "form",
+        "signin",
+        "username",
+        "purple",
+        "minimal",
+        "login"
+      ],
+      "source_code_analysis": {
+        "html_chars": 832,
+        "css_chars": 1108,
+        "css_keyframes": 0,
+        "hover_selectors": 1,
+        "contains_svg": true,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      },
+      "design_intent": "Minimal purple login form; adapt palette and semantics rather than add authentication"
+    },
+    {
+      "id": "UIV-105",
+      "title": "FORM — ayyjayy2/sour-dog-94",
+      "author": "ayyjayy2",
+      "slug": "sour-dog-94",
+      "uiverse_url": "https://uiverse.io/ayyjayy2/sour-dog-94",
+      "category": "FORM",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": "https://uiverse.io/ayyjayy2/sour-dog-94",
+      "source_blob_sha": "fbdf8f9907db666950362891d7f43f5f841c5c88",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-105_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "maturity": "REFERENCE",
+      "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
+      "consumer_status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "consumer_tested": false,
+      "description": "Welcome/social login form; explicit consent and existing optional provider only. Categoria FORM verificata nel post pubblico Uiverse. Tag originali: login, email, social, form, submit, confirm, password, welcome, rounded, shadow.",
+      "guardrails": "Input accessibili, label/autofill, validazione e nessun login aggiuntivo se non approvato dal Product Bible",
+      "user_favorite": true,
+      "favorite_export_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+      "favorite_export_position": 53,
+      "apps": [
+        {
+          "slug": "cashmate-ai",
+          "fit": "HIGH",
+          "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "annas-diary",
+          "fit": "HIGH",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "notes-ecosistema",
+          "fit": "MEDIUM",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "app-factory-dashboard",
+          "fit": "MEDIUM",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "cooking-anime",
+          "fit": "MEDIUM",
+          "surface": "Input ricetta, ingredienti o titolo",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "beerclass-ai",
+          "fit": "MEDIUM",
+          "surface": "Input Rapid Log birra, nessun nuovo login",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "framelab",
+          "fit": "MEDIUM",
+          "surface": "Form nome progetto e metadata",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-105_original.css",
+      "source_css_blob_sha": "17cab4dbebd541bac9631fb0c677df0fc6f7430f",
+      "source_html_sha256": "0759bf9afc0ceadc14052b1871053e7b9d862858fd0aa1c772824db3db75997b",
+      "source_css_sha256": "8d6609ebf83e5440c6121f99738f2ded01bfec36f1bf1f81098150fcab6e164c",
+      "source_post_id": "8385716d-62bb-40ba-99f1-9f6c11aaf052",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T16:49:55.064870+00:00",
+      "upstream_category": "form",
+      "upstream_tags": [
+        "login",
+        "email",
+        "social",
+        "form",
+        "submit",
+        "confirm",
+        "password",
+        "welcome",
+        "rounded",
+        "shadow",
+        "blue",
+        "password",
+        "email",
+        "form",
+        "submit",
+        "buttons",
+        "social",
+        "continue",
+        "signup",
+        "welcome"
+      ],
+      "source_code_analysis": {
+        "html_chars": 2360,
+        "css_chars": 1860,
+        "css_keyframes": 0,
+        "hover_selectors": 0,
+        "contains_svg": true,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      },
+      "design_intent": "Welcome/social login form; explicit consent and existing optional provider only"
+    },
+    {
+      "id": "UIV-106",
+      "title": "LOADER — doniaskima/cowardly-frog-28",
+      "author": "doniaskima",
+      "slug": "cowardly-frog-28",
+      "uiverse_url": "https://uiverse.io/doniaskima/cowardly-frog-28",
+      "category": "LOADER",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": "https://uiverse.io/doniaskima/cowardly-frog-28",
+      "source_blob_sha": "d95c2748159009d85c6bd9f1dbcaf849171bda41",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-106_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "maturity": "REFERENCE",
+      "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
+      "consumer_status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "consumer_tested": false,
+      "description": "Red suspension-ball animation; requires actual running job, retry/timeout, reduced motion. Categoria LOADER verificata nel post pubblico Uiverse. Tag originali: simple, material design, neumorphism, skeuomorphism, glassmorphism, flashy, loader, animated, loader, red.",
+      "guardrails": "Job reale, timeout/errore/retry, stop in background e prefers-reduced-motion",
+      "user_favorite": true,
+      "favorite_export_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+      "favorite_export_position": 65,
+      "apps": [
+        {
+          "slug": "omni-cleaner",
+          "fit": "HIGH",
+          "surface": "Feedback scansione duplicati effettivamente avviata",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "notes-ecosistema",
+          "fit": "HIGH",
+          "surface": "Indicizzazione/esportazione reale con stato di errore e retry",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "battery-guard",
+          "fit": "MEDIUM",
+          "surface": "Aggiornamento telemetria batteria realmente in corso",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "framelab",
+          "fit": "MEDIUM",
+          "surface": "Rendering o esportazione media effettiva",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Importazione dati/storie offline in corso",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "send-to-pc",
+          "fit": "MEDIUM",
+          "surface": "Avvio trasferimento Wi-Fi/QR con progress reale",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "easy-debloat",
+          "fit": "MEDIUM",
+          "surface": "Esecuzione debloat autorizzata, con annullamento ed esito",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "app-factory-dashboard",
+          "fit": "MEDIUM",
+          "surface": "Verifica repository GitHub realmente avviata",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "trailpath",
+          "fit": "MEDIUM",
+          "surface": "Attesa routing GPS con fallback errore",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-106_original.css",
+      "source_css_blob_sha": "9ea3527e78cfe31a4e9c25e8363cadf12d93b242",
+      "source_html_sha256": "172e18219dbd3355066daf4a86618ae918ed199af26bb2a7abeb91fd197b746d",
+      "source_css_sha256": "fe06c7a317f0e48b3429c72b4dd22a84bbf03c459886cf0c90bdbdfad6b587c4",
+      "source_post_id": "25eeb024-902f-4ef6-9df2-8f773dcab19d",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T16:49:55.064870+00:00",
+      "upstream_category": "loader",
+      "upstream_tags": [
+        "simple",
+        "material design",
+        "neumorphism",
+        "skeuomorphism",
+        "glassmorphism",
+        "flashy",
+        "loader",
+        "animated",
+        "loader",
+        "red",
+        "simple",
+        "minimalist",
+        "circular",
+        "clean",
+        "movement",
+        "balls",
+        "suspension"
+      ],
+      "source_code_analysis": {
+        "html_chars": 26,
+        "css_chars": 803,
+        "css_keyframes": 2,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "gradient": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      },
+      "design_intent": "Red suspension-ball animation; requires actual running job, retry/timeout, reduced motion"
+    },
+    {
+      "id": "UIV-107",
+      "title": "LOADER — elijahgummer/new-fly-30",
+      "author": "elijahgummer",
+      "slug": "new-fly-30",
+      "uiverse_url": "https://uiverse.io/elijahgummer/new-fly-30",
+      "category": "LOADER",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": "https://uiverse.io/elijahgummer/new-fly-30",
+      "source_blob_sha": "dfed339ea9985a67b2c039a9a729919effe5b2d4",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-107_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "maturity": "REFERENCE",
+      "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
+      "consumer_status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "consumer_tested": false,
+      "description": "Orange drink-themed animated loader; use only when visually coherent and job runs. Categoria LOADER verificata nel post pubblico Uiverse. Tag originali: loader, animated, loader, orange, minimal, waiting, glass, aqua, straw, drink.",
+      "guardrails": "Job reale, timeout/errore/retry, stop in background e prefers-reduced-motion",
+      "user_favorite": true,
+      "favorite_export_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+      "favorite_export_position": 68,
+      "apps": [
+        {
+          "slug": "beerclass-ai",
+          "fit": "HIGH",
+          "surface": "Acquisizione codice a barre o catalogazione realmente attiva",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "cooking-anime",
+          "fit": "HIGH",
+          "surface": "Caricamento ricetta o salvataggio realmente in corso",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "camperboss",
+          "fit": "MEDIUM",
+          "surface": "Importazione dati offline in corso",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Calcolo itinerario o media in corso",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Importazione dati/storie offline in corso",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "framelab",
+          "fit": "MEDIUM",
+          "surface": "Rendering o esportazione media effettiva",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "sleepmax-coach",
+          "fit": "MEDIUM",
+          "surface": "Aggiornamento dati routine solo se in corso",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-107_original.css",
+      "source_css_blob_sha": "74964868d5da6bb3f87765ef584f963202ea3aca",
+      "source_html_sha256": "042453378267923103b654d3e99a0e2f197ad42eeed6b625ef56a2e7a97fde8d",
+      "source_css_sha256": "12477fe2e161a00f2855e2fa33f53e0ebd3f1b129927e937054c4c4a4abe8c03",
+      "source_post_id": "41326a41-1786-40c8-b29a-95b2ce012881",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T16:49:55.064870+00:00",
+      "upstream_category": "loader",
+      "upstream_tags": [
+        "loader",
+        "animated",
+        "loader",
+        "orange",
+        "minimal",
+        "waiting",
+        "glass",
+        "aqua",
+        "straw",
+        "drink",
+        "refreshing"
+      ],
+      "source_code_analysis": {
+        "html_chars": 27,
+        "css_chars": 655,
+        "css_keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "gradient": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      },
+      "design_intent": "Orange drink-themed animated loader; use only when visually coherent and job runs"
+    },
+    {
+      "id": "UIV-108",
+      "title": "FORM — guilhermeyohan/friendly-walrus-55",
+      "author": "guilhermeyohan",
+      "slug": "friendly-walrus-55",
+      "uiverse_url": "https://uiverse.io/guilhermeyohan/friendly-walrus-55",
+      "category": "FORM",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": "https://uiverse.io/guilhermeyohan/friendly-walrus-55",
+      "source_blob_sha": "9e7cbc566f6fa7e6195a2bcdec00aef7aa90667c",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-108_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "maturity": "REFERENCE",
+      "reuse": "REFERENCE_ONLY_IP_REVIEW",
+      "consumer_status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "consumer_tested": false,
+      "description": "Pixel-art character form: recognizable Mario/Nintendo reference; reference-only until IP review. Categoria FORM verificata nel post pubblico Uiverse. Tag originali: form, mario, input, animated, button, send, red, orange, yellow, email.",
+      "guardrails": "Input accessibili, label/autofill, validazione e nessun login aggiuntivo se non approvato dal Product Bible; personaggi, sprite, marchi e trade dress riconoscibili Nintendo non sono concessi in licenza dall'HTML/CSS.",
+      "user_favorite": true,
+      "favorite_export_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+      "favorite_export_position": 77,
+      "apps": [
+        {
+          "slug": "cooking-anime",
+          "fit": "HIGH",
+          "surface": "Input ricetta, ingredienti o titolo",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "deskland-android",
+          "fit": "HIGH",
+          "surface": "Form interattivo del launcher, originalità grafica vincolante",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "edu-01-corpo-umano",
+          "fit": "MEDIUM",
+          "surface": "Form risposta quiz reinterpretato in stile videogioco generico",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "framelab",
+          "fit": "MEDIUM",
+          "surface": "Form nome progetto e metadata",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-108_original.css",
+      "source_css_blob_sha": "fc98c4308c5959c0fe7e7359da6a0d8d76eee8f1",
+      "source_html_sha256": "0a9a8cc713c241e6e47fb4ab2a72eb7f041608a1742853c387a2e13b075183ba",
+      "source_css_sha256": "1018e296c078ff795dbb7a340594b71dc006444c53200d4282f29981e75f58fe",
+      "source_post_id": "05fc0e5b-a052-4daf-9709-7ba26a6ad93b",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T16:49:55.064870+00:00",
+      "upstream_category": "form",
+      "upstream_tags": [
+        "form",
+        "mario",
+        "input",
+        "animated",
+        "button",
+        "send",
+        "red",
+        "orange",
+        "yellow",
+        "email",
+        "form",
+        "name",
+        "character",
+        "clear",
+        "sprite",
+        "pixel"
+      ],
+      "source_code_analysis": {
+        "html_chars": 355,
+        "css_chars": 4215,
+        "css_keyframes": 0,
+        "hover_selectors": 2,
+        "contains_svg": false,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      },
+      "design_intent": "Pixel-art character form: recognizable Mario/Nintendo reference; reference-only until IP review",
+      "ip_review_required": true
+    },
+    {
+      "id": "UIV-109",
+      "title": "FORM — mamyapro123/curvy-bear-51",
+      "author": "mamyapro123",
+      "slug": "curvy-bear-51",
+      "uiverse_url": "https://uiverse.io/mamyapro123/curvy-bear-51",
+      "category": "FORM",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": "https://uiverse.io/mamyapro123/curvy-bear-51",
+      "source_blob_sha": "00472a1da2310d708bdee795bc45f3a8d12ac16d",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-109_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "maturity": "REFERENCE",
+      "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
+      "consumer_status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "consumer_tested": false,
+      "description": "Pink retro/pastel stars form; adapt to approved rose palette and reduced-motion. Categoria FORM verificata nel post pubblico Uiverse. Tag originali: form, button, bold, pink, password, email, retro, toggle, switch, login.",
+      "guardrails": "Input accessibili, label/autofill, validazione e nessun login aggiuntivo se non approvato dal Product Bible",
+      "user_favorite": true,
+      "favorite_export_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+      "favorite_export_position": 92,
+      "apps": [
+        {
+          "slug": "annas-diary",
+          "fit": "HIGH",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "notes-ecosistema",
+          "fit": "HIGH",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "cooking-anime",
+          "fit": "MEDIUM",
+          "surface": "Input ricetta, ingredienti o titolo",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "beerclass-ai",
+          "fit": "MEDIUM",
+          "surface": "Input Rapid Log birra, nessun nuovo login",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "camperboss",
+          "fit": "MEDIUM",
+          "surface": "Input destinazione/itinerario anche offline",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "sleepmax-coach",
+          "fit": "MEDIUM",
+          "surface": "Form preferenze routine serale",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-109_original.css",
+      "source_css_blob_sha": "35808a886efd1dc1bfc6facd0e8537b2fc80259f",
+      "source_html_sha256": "283d530920fdd3dab561650a63a754016ae14d73d65ecb4914b302b4b9d42f4f",
+      "source_css_sha256": "872484f165616517dad879ef8694d3a50c862ab8a089545664238fb982f16f55",
+      "source_post_id": "55cb20a6-1ba8-4170-82ba-3a1ada445b1b",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T16:49:55.064870+00:00",
+      "upstream_category": "form",
+      "upstream_tags": [
+        "form",
+        "button",
+        "bold",
+        "pink",
+        "password",
+        "email",
+        "retro",
+        "toggle",
+        "switch",
+        "login",
+        "pastel",
+        "stars",
+        "playful",
+        "cartoon",
+        "welcome"
+      ],
+      "source_code_analysis": {
+        "html_chars": 3185,
+        "css_chars": 7181,
+        "css_keyframes": 4,
+        "hover_selectors": 4,
+        "contains_svg": true,
+        "gradient": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      },
+      "design_intent": "Pink retro/pastel stars form; adapt to approved rose palette and reduced-motion"
+    },
+    {
+      "id": "UIV-110",
+      "title": "TOOLTIP — roroland/average-horse-2",
+      "author": "roroland",
+      "slug": "average-horse-2",
+      "uiverse_url": "https://uiverse.io/roroland/average-horse-2",
+      "category": "TOOLTIP",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": "https://uiverse.io/roroland/average-horse-2",
+      "source_blob_sha": "84110365ea9597dbc456ff9e1c142ec9d109493b",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-110_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "maturity": "REFERENCE",
+      "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
+      "consumer_status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "consumer_tested": false,
+      "description": "Animated tooltip with real information; tap/focus/keyboard support, not hover-only. Categoria TOOLTIP verificata nel post pubblico Uiverse. Tag originali: tooltip.",
+      "guardrails": "Non affidarsi a hover; usare tap, focus e lettori schermo",
+      "user_favorite": true,
+      "favorite_export_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+      "favorite_export_position": 100,
+      "apps": [
+        {
+          "slug": "app-factory-dashboard",
+          "fit": "HIGH",
+          "surface": "Tooltip differenza Implemented/Verified e evidenze",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "notes-ecosistema",
+          "fit": "HIGH",
+          "surface": "Spiegazione strumenti canvas e note",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "omni-cleaner",
+          "fit": "MEDIUM",
+          "surface": "Informazioni su file duplicati prima della cancellazione",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "cashmate-ai",
+          "fit": "MEDIUM",
+          "surface": "Legenda dei termini o indicatori finanziari",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "edu-01-corpo-umano",
+          "fit": "MEDIUM",
+          "surface": "Definizione di un termine anatomico con supporto touch",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "battery-guard",
+          "fit": "MEDIUM",
+          "surface": "Spiegazione dello stato della carica",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Legenda mappa/tappe accessibile",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Nota esplicativa fonti, anno o ricorrenza",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "focussense",
+          "fit": "MEDIUM",
+          "surface": "Tooltip significato Focus Score",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-110_original.css",
+      "source_css_blob_sha": "e6c6c7ee8df64c411b16d2ae8016d03fb6fe94eb",
+      "source_html_sha256": "f96af64e9f15f08fc714ab28361167f7d61439722a9e40cdf2d37c9690f3f4eb",
+      "source_css_sha256": "7eff5023d675cf4e631d1345353b4352d9db86a7ef8f8996f2c229d45bb641b5",
+      "source_post_id": "e1a79350-f340-437c-ac23-687b9f5c7328",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T16:49:55.064870+00:00",
+      "upstream_category": "tooltip",
+      "upstream_tags": [
+        "tooltip"
+      ],
+      "source_code_analysis": {
+        "html_chars": 1955,
+        "css_chars": 3352,
+        "css_keyframes": 3,
+        "hover_selectors": 2,
+        "contains_svg": true,
+        "gradient": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      },
+      "design_intent": "Animated tooltip with real information; tap/focus/keyboard support, not hover-only"
+    },
+    {
+      "id": "UIV-111",
+      "title": "FORM — vinodjangid07/horrible-warthog-14",
+      "author": "vinodjangid07",
+      "slug": "horrible-warthog-14",
+      "uiverse_url": "https://uiverse.io/vinodjangid07/horrible-warthog-14",
+      "category": "FORM",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": "https://uiverse.io/vinodjangid07/horrible-warthog-14",
+      "source_blob_sha": "37b4463ed1fe58a7ea987ec9f4670af30473569e",
+      "source_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-111_original.html",
+      "evidence": "UVERSE_LIVE_PUBLIC_POST_HTML_CSS_CAPTURED",
+      "license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "maturity": "REFERENCE",
+      "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
+      "consumer_status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "consumer_tested": false,
+      "description": "Minimal purple account form; use existing opt-in or non-auth input surfaces only. Categoria FORM verificata nel post pubblico Uiverse. Tag originali: purple, form, log in, button, modern, forgot, password, form, submit, username.",
+      "guardrails": "Input accessibili, label/autofill, validazione e nessun login aggiuntivo se non approvato dal Product Bible",
+      "user_favorite": true,
+      "favorite_export_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+      "favorite_export_position": 105,
+      "apps": [
+        {
+          "slug": "cashmate-ai",
+          "fit": "HIGH",
+          "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "notes-ecosistema",
+          "fit": "HIGH",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "app-factory-dashboard",
+          "fit": "MEDIUM",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "annas-diary",
+          "fit": "MEDIUM",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "slug": "camperboss",
+          "fit": "MEDIUM",
+          "surface": "Input destinazione/itinerario anche offline",
+          "status": "PROPOSED_ONLY"
+        }
+      ],
+      "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-111_original.css",
+      "source_css_blob_sha": "12382454a33fad138b711d8a855f16bb2a1245a5",
+      "source_html_sha256": "87166f6fd5e6911fece1b650ef8a38d75f99bd9eb912ebccbd6a9c134a7b50c3",
+      "source_css_sha256": "b041831f84bb7fdac03579eba63ebf56b14e312ed1f3f173a42887feda927b41",
+      "source_post_id": "e177bf54-476e-4bd6-b822-30f0d97e74bc",
+      "source_endpoint_type": "DETAIL_LOADER",
+      "source_captured_at": "2026-11-18T16:49:55.064870+00:00",
+      "upstream_category": "form",
+      "upstream_tags": [
+        "purple",
+        "form",
+        "log in",
+        "button",
+        "modern",
+        "forgot",
+        "password",
+        "form",
+        "submit",
+        "username",
+        "purple",
+        "minimal",
+        "login"
+      ],
+      "source_code_analysis": {
+        "html_chars": 1540,
+        "css_chars": 1785,
+        "css_keyframes": 0,
+        "hover_selectors": 1,
+        "contains_svg": true,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      },
+      "design_intent": "Minimal purple account form; use existing opt-in or non-auth input surfaces only"
     }
   ],
   "relations": [
@@ -14099,10 +15271,642 @@
       "surface": "Stato avviso realmente attivo",
       "status": "PROPOSED_ONLY",
       "implemented": false
+    },
+    {
+      "component_id": "UIV-101",
+      "app_id": "cashmate-ai",
+      "fit": "HIGH",
+      "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-101",
+      "app_id": "notes-ecosistema",
+      "fit": "HIGH",
+      "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-101",
+      "app_id": "annas-diary",
+      "fit": "MEDIUM",
+      "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-101",
+      "app_id": "app-factory-dashboard",
+      "fit": "MEDIUM",
+      "surface": "Form gestione idea, capability o filtri dell'inventario",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-101",
+      "app_id": "wonderlog",
+      "fit": "MEDIUM",
+      "surface": "Input nuova tappa e descrizione viaggio",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-101",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-101",
+      "app_id": "beerclass-ai",
+      "fit": "MEDIUM",
+      "surface": "Input Rapid Log birra, nessun nuovo login",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-102",
+      "app_id": "annas-diary",
+      "fit": "HIGH",
+      "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-102",
+      "app_id": "notes-ecosistema",
+      "fit": "HIGH",
+      "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-102",
+      "app_id": "camperboss",
+      "fit": "MEDIUM",
+      "surface": "Input destinazione/itinerario anche offline",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-102",
+      "app_id": "wonderlog",
+      "fit": "MEDIUM",
+      "surface": "Input nuova tappa e descrizione viaggio",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-102",
+      "app_id": "cooking-anime",
+      "fit": "MEDIUM",
+      "surface": "Input ricetta, ingredienti o titolo",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-102",
+      "app_id": "sleepmax-coach",
+      "fit": "MEDIUM",
+      "surface": "Form preferenze routine serale",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-102",
+      "app_id": "app-factory-dashboard",
+      "fit": "MEDIUM",
+      "surface": "Form gestione idea, capability o filtri dell'inventario",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-103",
+      "app_id": "cashmate-ai",
+      "fit": "HIGH",
+      "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-103",
+      "app_id": "app-factory-dashboard",
+      "fit": "HIGH",
+      "surface": "Form gestione idea, capability o filtri dell'inventario",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-103",
+      "app_id": "notes-ecosistema",
+      "fit": "MEDIUM",
+      "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-103",
+      "app_id": "beerclass-ai",
+      "fit": "MEDIUM",
+      "surface": "Input Rapid Log birra, nessun nuovo login",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-103",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-103",
+      "app_id": "send-to-pc",
+      "fit": "MEDIUM",
+      "surface": "Campo codice abbinamento dispositivo solo se previsto",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-104",
+      "app_id": "cashmate-ai",
+      "fit": "HIGH",
+      "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-104",
+      "app_id": "notes-ecosistema",
+      "fit": "HIGH",
+      "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-104",
+      "app_id": "annas-diary",
+      "fit": "MEDIUM",
+      "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-104",
+      "app_id": "app-factory-dashboard",
+      "fit": "MEDIUM",
+      "surface": "Form gestione idea, capability o filtri dell'inventario",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-104",
+      "app_id": "wonderlog",
+      "fit": "MEDIUM",
+      "surface": "Input nuova tappa e descrizione viaggio",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-104",
+      "app_id": "cooking-anime",
+      "fit": "MEDIUM",
+      "surface": "Input ricetta, ingredienti o titolo",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-104",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-105",
+      "app_id": "cashmate-ai",
+      "fit": "HIGH",
+      "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-105",
+      "app_id": "annas-diary",
+      "fit": "HIGH",
+      "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-105",
+      "app_id": "notes-ecosistema",
+      "fit": "MEDIUM",
+      "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-105",
+      "app_id": "app-factory-dashboard",
+      "fit": "MEDIUM",
+      "surface": "Form gestione idea, capability o filtri dell'inventario",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-105",
+      "app_id": "cooking-anime",
+      "fit": "MEDIUM",
+      "surface": "Input ricetta, ingredienti o titolo",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-105",
+      "app_id": "wonderlog",
+      "fit": "MEDIUM",
+      "surface": "Input nuova tappa e descrizione viaggio",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-105",
+      "app_id": "beerclass-ai",
+      "fit": "MEDIUM",
+      "surface": "Input Rapid Log birra, nessun nuovo login",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-105",
+      "app_id": "framelab",
+      "fit": "MEDIUM",
+      "surface": "Form nome progetto e metadata",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-106",
+      "app_id": "omni-cleaner",
+      "fit": "HIGH",
+      "surface": "Feedback scansione duplicati effettivamente avviata",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-106",
+      "app_id": "notes-ecosistema",
+      "fit": "HIGH",
+      "surface": "Indicizzazione/esportazione reale con stato di errore e retry",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-106",
+      "app_id": "battery-guard",
+      "fit": "MEDIUM",
+      "surface": "Aggiornamento telemetria batteria realmente in corso",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-106",
+      "app_id": "framelab",
+      "fit": "MEDIUM",
+      "surface": "Rendering o esportazione media effettiva",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-106",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "Importazione dati/storie offline in corso",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-106",
+      "app_id": "send-to-pc",
+      "fit": "MEDIUM",
+      "surface": "Avvio trasferimento Wi-Fi/QR con progress reale",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-106",
+      "app_id": "easy-debloat",
+      "fit": "MEDIUM",
+      "surface": "Esecuzione debloat autorizzata, con annullamento ed esito",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-106",
+      "app_id": "app-factory-dashboard",
+      "fit": "MEDIUM",
+      "surface": "Verifica repository GitHub realmente avviata",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-106",
+      "app_id": "trailpath",
+      "fit": "MEDIUM",
+      "surface": "Attesa routing GPS con fallback errore",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-107",
+      "app_id": "beerclass-ai",
+      "fit": "HIGH",
+      "surface": "Acquisizione codice a barre o catalogazione realmente attiva",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-107",
+      "app_id": "cooking-anime",
+      "fit": "HIGH",
+      "surface": "Caricamento ricetta o salvataggio realmente in corso",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-107",
+      "app_id": "camperboss",
+      "fit": "MEDIUM",
+      "surface": "Importazione dati offline in corso",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-107",
+      "app_id": "wonderlog",
+      "fit": "MEDIUM",
+      "surface": "Calcolo itinerario o media in corso",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-107",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "Importazione dati/storie offline in corso",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-107",
+      "app_id": "framelab",
+      "fit": "MEDIUM",
+      "surface": "Rendering o esportazione media effettiva",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-107",
+      "app_id": "sleepmax-coach",
+      "fit": "MEDIUM",
+      "surface": "Aggiornamento dati routine solo se in corso",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-108",
+      "app_id": "cooking-anime",
+      "fit": "HIGH",
+      "surface": "Input ricetta, ingredienti o titolo",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-108",
+      "app_id": "deskland-android",
+      "fit": "HIGH",
+      "surface": "Form interattivo del launcher, originalità grafica vincolante",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-108",
+      "app_id": "edu-01-corpo-umano",
+      "fit": "MEDIUM",
+      "surface": "Form risposta quiz reinterpretato in stile videogioco generico",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-108",
+      "app_id": "framelab",
+      "fit": "MEDIUM",
+      "surface": "Form nome progetto e metadata",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-109",
+      "app_id": "annas-diary",
+      "fit": "HIGH",
+      "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-109",
+      "app_id": "notes-ecosistema",
+      "fit": "HIGH",
+      "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-109",
+      "app_id": "cooking-anime",
+      "fit": "MEDIUM",
+      "surface": "Input ricetta, ingredienti o titolo",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-109",
+      "app_id": "beerclass-ai",
+      "fit": "MEDIUM",
+      "surface": "Input Rapid Log birra, nessun nuovo login",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-109",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-109",
+      "app_id": "wonderlog",
+      "fit": "MEDIUM",
+      "surface": "Input nuova tappa e descrizione viaggio",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-109",
+      "app_id": "camperboss",
+      "fit": "MEDIUM",
+      "surface": "Input destinazione/itinerario anche offline",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-109",
+      "app_id": "sleepmax-coach",
+      "fit": "MEDIUM",
+      "surface": "Form preferenze routine serale",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-110",
+      "app_id": "app-factory-dashboard",
+      "fit": "HIGH",
+      "surface": "Tooltip differenza Implemented/Verified e evidenze",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-110",
+      "app_id": "notes-ecosistema",
+      "fit": "HIGH",
+      "surface": "Spiegazione strumenti canvas e note",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-110",
+      "app_id": "omni-cleaner",
+      "fit": "MEDIUM",
+      "surface": "Informazioni su file duplicati prima della cancellazione",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-110",
+      "app_id": "cashmate-ai",
+      "fit": "MEDIUM",
+      "surface": "Legenda dei termini o indicatori finanziari",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-110",
+      "app_id": "edu-01-corpo-umano",
+      "fit": "MEDIUM",
+      "surface": "Definizione di un termine anatomico con supporto touch",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-110",
+      "app_id": "battery-guard",
+      "fit": "MEDIUM",
+      "surface": "Spiegazione dello stato della carica",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-110",
+      "app_id": "wonderlog",
+      "fit": "MEDIUM",
+      "surface": "Legenda mappa/tappe accessibile",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-110",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "Nota esplicativa fonti, anno o ricorrenza",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-110",
+      "app_id": "focussense",
+      "fit": "MEDIUM",
+      "surface": "Tooltip significato Focus Score",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-111",
+      "app_id": "cashmate-ai",
+      "fit": "HIGH",
+      "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-111",
+      "app_id": "notes-ecosistema",
+      "fit": "HIGH",
+      "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-111",
+      "app_id": "app-factory-dashboard",
+      "fit": "MEDIUM",
+      "surface": "Form gestione idea, capability o filtri dell'inventario",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-111",
+      "app_id": "annas-diary",
+      "fit": "MEDIUM",
+      "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-111",
+      "app_id": "wonderlog",
+      "fit": "MEDIUM",
+      "surface": "Input nuova tappa e descrizione viaggio",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-111",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
+    },
+    {
+      "component_id": "UIV-111",
+      "app_id": "camperboss",
+      "fit": "MEDIUM",
+      "surface": "Input destinazione/itinerario anche offline",
+      "status": "PROPOSED_ONLY",
+      "implemented": false
     }
   ],
   "recorded_favorites_at": "2026-11-18",
-  "favorites_exported_at": "2026-11-18T10:08:06.777Z",
-  "favorites_import_batch": "UIVERSE_FAVORITES_2026_11_18",
+  "favorites_exported_at": "2026-11-18T16:40:39.750Z",
+  "favorites_import_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
   "favorites_completeness": "REQUIRES_USER_COUNT_VERIFICATION"
 }

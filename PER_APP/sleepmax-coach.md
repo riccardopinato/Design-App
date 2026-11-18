@@ -123,3 +123,16 @@ Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze
 | [UIV-100](https://uiverse.io/zanina-yassine/afraid-eel-50) | SWITCH | Preferenza on/off persistita | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-100_original.html) |
 
 [Registro 97 Favorites](../UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json) · [Matrice complessiva 25 app](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md) · [Archivio codice](../UI-UX/UIVERSE/CODICE_SORGENTE/README.md). Stato: **PROPOSED_ONLY**.
+
+## Uiverse — refresh preferiti 108 (18/11/2026)
+
+**3 nuovi collegamenti** all'archivio Uiverse. Proposte estetiche, non modifiche funzionali o test runtime.
+
+| Sorgente | Categoria | Superficie proposta | Fit | Codice originale |
+|---|---|---|---|---|
+| [UIV-102](https://uiverse.io/Praashoo7/bitter-pig-24) | FORM | Form preferenze routine serale | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-102_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-102_original.css) |
+| [UIV-107](https://uiverse.io/elijahgummer/new-fly-30) | LOADER | Aggiornamento dati routine solo se in corso | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-107_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-107_original.css) |
+| [UIV-109](https://uiverse.io/mamyapro123/curvy-bear-51) | FORM | Form preferenze routine serale | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-109_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-109_original.css) |
+
+Stato: **PROPOSED_ONLY**. Per il riuso rispettare Product Bible, accessibilità e test; loader solo per lavoro realmente attivo; nessuna autenticazione obbligatoria nuova.
+[Confronto 97→108](../UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json) · [Analisi tecnica](../UI-UX/UIVERSE/FAVORITES/ANALISI_REFRESH_11_2026-11-18.json).

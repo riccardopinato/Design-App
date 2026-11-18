@@ -17,9 +17,9 @@ jobs:
           python-version: "3.12"
       - name: Install public HTTP client
         run: python -m pip install "curl_cffi>=0.7,<1"
-      - name: Read public Uiverse originals for any remaining missing entries
-        run: python scripts/uiverse_recover_public.py --limit 43 --output-dir out/uiverse
-      - name: Upload source evidence — no automated Git commits
+      - name: Inspect pending Uiverse originals on demand, without credentials
+        run: python scripts/uiverse_recover_public.py --limit 100 --output-dir out/uiverse
+      - name: Upload source evidence without making repository changes
         if: always()
         uses: actions/upload-artifact@v4
         with:

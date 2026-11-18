@@ -1,5 +1,9 @@
 # Design-App
 
+## Aggiornamento corrente — Uiverse Favorites
+
+**Uiverse Favorites aggiornati (18/11/2026, 17:40 Italia):** 108 link unici, +11 rispetto al precedente export, 0 rimossi; catalogo totale **111/111** con sorgente originale HTML/CSS, zero mancanti. **736 abbinamenti su 25 app**, tutti PROPOSED_ONLY. [Catalogo](./UI-UX/UIVERSE/README.md) · [Analisi dei nuovi 11](./UI-UX/UIVERSE/FAVORITES/ANALISI_REFRESH_11_2026-11-18.md) · [Diff verificato](./UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json). La completezza dell'account Uiverse resta non certificata.
+
 Central design library for Riccardo's App Factory.
 
 Design-App is the fast-retrieval layer for visual styles, UI/UX patterns, motion,
@@ -236,3 +240,7 @@ Added [source-grounded audit](sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md)
 ## Aggiornamento recupero pubblico (2026-11-18)
 
 Originali HTML/CSS aggiunti: **43**; catalogo **100/100**; Favorites **97/97**; codice non recuperato **0**. Provenienza e checksum in [RECUPERO_API](../UI-UX/UIVERSE/FAVORITES/RECUPERO_API_2026_11_18.json). Le cifre precedenti documentano lo stato storico prima di questo recupero. Nessuna adozione o test su app consumer.
+
+## Aggiornamento recupero pubblico (2026-11-18)
+
+Originali HTML/CSS aggiunti: **11**; catalogo **111/111**; Favorites **108/108**; codice non recuperato **0**. Provenienza e checksum in [RECUPERO_API](../UI-UX/UIVERSE/FAVORITES/RECUPERO_API_2026_11_18.json). Le cifre precedenti documentano lo stato storico prima di questo recupero. Nessuna adozione o test su app consumer.

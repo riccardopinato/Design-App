@@ -1225,7 +1225,7 @@ sources:
     license_blob: "f6c794ca60b0f6f02588f6ed8138972f2215b35a"
     classification: UI_UX_REFERENCE
     maturity: REFERENCE
-    role: "97 personal Uiverse favorites (91 new entries), 100 total Uiverse catalog components, 57 source snapshots, 43 unavailable, 657 proposals across 25 apps"
+    role: "Galaxy-specific historical source: 57 HTML/CSS snapshots at pinned commit; Design-App Uiverse corpus totals 111 originals (54 retrieved from public Uiverse directly), 108 user favorites, 736 proposals on 25 apps"
     copy_policy: "HTML_SNAPSHOT_NOT_FLUTTER_COMPOSE_COPY_READY"
     audit_path: "sources/UIVERSE_NINE_AUDIT_2026-11-18.md"
     app_map_path: "UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.json"

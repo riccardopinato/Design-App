@@ -1,6 +1,6 @@
 # Uiverse — archivio HTML/CSS originale (recupero rapido)
 
-**100 componenti con codice originale conservato**. I primi **57 snapshot HTML/CSS** derivano dall'archivio storico [uiverse-io/galaxy](https://github.com/uiverse-io/galaxy) al commit `adbd2adde0a299a3956ea288fb444ec01891ca41` (54 sono Favorites, 3 non lo sono). Gli altri **43** sono stati recuperati dalle pagine pubbliche Uiverse tramite endpoint dati Remix, con **file HTML e CSS separati**, UUID del post e SHA-256; questi ultimi **non hanno un commit sorgente Galaxy**. [Evidenze recupero](../FAVORITES/RECUPERO_API_2026_11_18.json).
+**111 componenti con sorgente originale conservato**. I primi **57 snapshot HTML/CSS** derivano dall'archivio storico [uiverse-io/galaxy](https://github.com/uiverse-io/galaxy) al commit `adbd2adde0a299a3956ea288fb444ec01891ca41` (54 sono Favorites, 3 non lo sono). Gli altri **54** (43 + 11 nuovi) sono stati recuperati da endpoint pubblici Uiverse, come coppie HTML/CSS separate con UUID del post e checksum SHA-256. **Tutti i 108 preferiti sono coperti**. I 54 recuperati live non sono attribuiti a un inesistente commit Galaxy; [prove d'origine](../FAVORITES/RECUPERO_API_2026_11_18.json). [Evidenze recupero](../FAVORITES/RECUPERO_API_2026_11_18.json).
 
 Ogni codice è **una copia originale HTML/CSS con blob Git verificabile**: non è una conversione Flutter/Compose, né una garanzia di funzionamento/accessibilità nell'app. La [licenza MIT](./LICENSE-Uiverse-Galaxy-MIT.txt) va preservata in caso di riuso, verificando anche eventuali asset terzi inclusi.
 
@@ -127,3 +127,19 @@ Ogni codice è **una copia originale HTML/CSS con blob Git verificabile**: non �
 - UIV-095: [HTML](./UIV-095_original.html), [CSS](./UIV-095_original.css), [pagina](https://uiverse.io/seoulchik/funny-seahorse-89).
 - UIV-096: [HTML](./UIV-096_original.html), [CSS](./UIV-096_original.css), [pagina](https://uiverse.io/solowzrd/wet-lionfish-63).
 - UIV-098: [HTML](./UIV-098_original.html), [CSS](./UIV-098_original.css), [pagina](https://uiverse.io/whoisyourdeadie/foolish-rabbit-13).
+
+## Recupero diretto dal sito Uiverse
+
+**11 originali aggiuntivi** in coppie HTML/CSS, non presenti nel vecchio archivio Galaxy. [SHA/post ID/provenienza](../FAVORITES/RECUPERO_API_2026_11_18.json). MIT per post Uiverse; originale Web non testato.
+
+- UIV-101: [HTML](./UIV-101_original.html), [CSS](./UIV-101_original.css), [pagina](https://uiverse.io/Javierrocadev/chatty-ladybug-95).
+- UIV-102: [HTML](./UIV-102_original.html), [CSS](./UIV-102_original.css), [pagina](https://uiverse.io/Praashoo7/bitter-pig-24).
+- UIV-103: [HTML](./UIV-103_original.html), [CSS](./UIV-103_original.css), [pagina](https://uiverse.io/SyedShahzaib7/brave-dog-61).
+- UIV-104: [HTML](./UIV-104_original.html), [CSS](./UIV-104_original.css), [pagina](https://uiverse.io/alexmaracinaru/tall-owl-30).
+- UIV-105: [HTML](./UIV-105_original.html), [CSS](./UIV-105_original.css), [pagina](https://uiverse.io/ayyjayy2/sour-dog-94).
+- UIV-106: [HTML](./UIV-106_original.html), [CSS](./UIV-106_original.css), [pagina](https://uiverse.io/doniaskima/cowardly-frog-28).
+- UIV-107: [HTML](./UIV-107_original.html), [CSS](./UIV-107_original.css), [pagina](https://uiverse.io/elijahgummer/new-fly-30).
+- UIV-108: [HTML](./UIV-108_original.html), [CSS](./UIV-108_original.css), [pagina](https://uiverse.io/guilhermeyohan/friendly-walrus-55).
+- UIV-109: [HTML](./UIV-109_original.html), [CSS](./UIV-109_original.css), [pagina](https://uiverse.io/mamyapro123/curvy-bear-51).
+- UIV-110: [HTML](./UIV-110_original.html), [CSS](./UIV-110_original.css), [pagina](https://uiverse.io/roroland/average-horse-2).
+- UIV-111: [HTML](./UIV-111_original.html), [CSS](./UIV-111_original.css), [pagina](https://uiverse.io/vinodjangid07/horrible-warthog-14).

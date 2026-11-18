@@ -173,3 +173,16 @@ Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze
 | [UIV-098](https://uiverse.io/whoisyourdeadie/foolish-rabbit-13) | PATTERN | Texture background con gate contrasto/FPS | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-098_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-098_original.css) |
 
 [Registro 97 Favorites](../UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json) · [Matrice complessiva 25 app](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md) · [Archivio codice](../UI-UX/UIVERSE/CODICE_SORGENTE/README.md). Stato: **PROPOSED_ONLY**.
+
+## Uiverse — refresh preferiti 108 (18/11/2026)
+
+**1 nuove associazioni** da originali HTML/CSS pubblici Uiverse, nessuna modifica runtime dell'app.
+
+| Sorgente | Famiglia | Superficie proposta | Fit | Codice sorgente |
+|---|---|---|---|---|
+| [UIV-108](https://uiverse.io/guilhermeyohan/friendly-walrus-55) | FORM | Form interattivo del launcher, originalità grafica vincolante | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-108_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-108_original.css) |
+
+Stato: **PROPOSED_ONLY**; nessuna nuova funzione/login è autorizzata da questi suggerimenti.
+**UIV-108**: solo ispirazione pixel-art generica. Non riusare personaggi, sprite, trade dress o marchi Nintendo senza licenza separata.
+
+[Confronto 97→108](../UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json) · [Analisi dei nuovi 11](../UI-UX/UIVERSE/FAVORITES/ANALISI_REFRESH_11_2026-11-18.json).
