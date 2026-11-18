@@ -232,3 +232,13 @@ Fonti: [Flutter Gems](https://fluttergems.dev/), [Forui Button](https://forui.de
 | Forui | MEDIUM | pickers/settings |
 
 Nessun package installato, nessuna modifica dati/architettura o Golden promosso; verifica Flutter SDK, dipendenze, APK size, accessibilità e performance necessaria prima dell'adozione.
+
+## Flutter Component Library — possibili componenti (19/11/2026)
+
+Fonte: [Flutter Component Library](https://fluttercomponentlibrary.com/) · [analisi delle licenze e sorgenti](../sources/FLUTTER_COMPONENT_LIBRARY_RESEARCH_2026-11-19.md) · [matrice dei componenti per app](../UI-UX/FLUTTER_COMPONENT_LIBRARY_APP_MAP_2026-11-19.json).
+
+- **FCL-002 · Custom Buttons** — fit HIGH: Buttons and control demonstrations customized to app design tokens.
+- **FCL-001 · Docking Bar** — fit MEDIUM: Navigational prototype only if its product architecture calls for it.
+- **FCL-005 · Bottom Sheet** — fit HIGH: Responsive control panels and settings.
+
+**Status: PROPOSED_ONLY / REFERENCE_ONLY**. I percorsi Dart dichiarati non sono sorgenti recuperati e la licenza del catalogo non e' verificata; non copiare codice o asset prima di comprovare i diritti. Design-App preferita dall'utente e Product Bible precedono; nessuna applicazione, dipendenza o mock-up approvato modificato.
