@@ -2281,7 +2281,7 @@
       "component_id": "UIV-043",
       "app_id": "notes-ecosistema",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Ricerca e filtri delle note con label accessibile",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -2289,7 +2289,7 @@
       "component_id": "UIV-043",
       "app_id": "world-days",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Ricerca per parola chiave delle ricorrenze",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -2297,7 +2297,7 @@
       "component_id": "UIV-043",
       "app_id": "omni-cleaner",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Ricerca file per nome con feedback chiaro",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -2361,7 +2361,7 @@
       "component_id": "UIV-045",
       "app_id": "omni-cleaner",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Selezione media prima di ogni eliminazione",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -2369,7 +2369,7 @@
       "component_id": "UIV-045",
       "app_id": "app-factory-dashboard",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Checklist dei controlli di verifica",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -2377,7 +2377,7 @@
       "component_id": "UIV-045",
       "app_id": "notes-ecosistema",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Checklist note o attività con stato reale",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -2705,7 +2705,7 @@
       "component_id": "UIV-052",
       "app_id": "notes-ecosistema",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card di raccolta e workspace",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -2713,7 +2713,7 @@
       "component_id": "UIV-052",
       "app_id": "world-days",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card anteprima della giornata",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -2721,7 +2721,7 @@
       "component_id": "UIV-052",
       "app_id": "omni-cleaner",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card di riepilogo risultati",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -3329,7 +3329,7 @@
       "component_id": "UIV-064",
       "app_id": "notes-ecosistema",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "CTA aggiunta o apertura nota",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -3337,7 +3337,7 @@
       "component_id": "UIV-064",
       "app_id": "world-days",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "CTA apertura dell'approfondimento",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -3345,7 +3345,7 @@
       "component_id": "UIV-064",
       "app_id": "omni-cleaner",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "CTA per avviare scansione o aprire i risultati",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -4113,7 +4113,7 @@
       "component_id": "UIV-079",
       "app_id": "notes-ecosistema",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card anteprima nota",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -4121,7 +4121,7 @@
       "component_id": "UIV-079",
       "app_id": "world-days",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card editoriale della storia",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -4129,7 +4129,7 @@
       "component_id": "UIV-079",
       "app_id": "omni-cleaner",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card per gruppo di duplicati",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -4305,7 +4305,7 @@
       "component_id": "UIV-083",
       "app_id": "notes-ecosistema",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card anteprima collezione",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -4313,7 +4313,7 @@
       "component_id": "UIV-083",
       "app_id": "world-days",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card tematica della ricorrenza",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -4321,7 +4321,7 @@
       "component_id": "UIV-083",
       "app_id": "omni-cleaner",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card risultato di scansione",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -4825,7 +4825,7 @@
       "component_id": "UIV-093",
       "app_id": "omni-cleaner",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card riepilogo archiviazione",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -4833,7 +4833,7 @@
       "component_id": "UIV-093",
       "app_id": "app-factory-dashboard",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card progetto o capability",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -4841,7 +4841,7 @@
       "component_id": "UIV-093",
       "app_id": "notes-ecosistema",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card nota o collezione",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -5646,7 +5646,7 @@
         "component_id": "UIV-045",
         "app_id": "app-factory-dashboard",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Checklist dei controlli di verifica",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -5846,7 +5846,7 @@
         "component_id": "UIV-093",
         "app_id": "app-factory-dashboard",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card progetto o capability",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -8301,7 +8301,7 @@
         "component_id": "UIV-043",
         "app_id": "notes-ecosistema",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Ricerca e filtri delle note con label accessibile",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -8309,7 +8309,7 @@
         "component_id": "UIV-045",
         "app_id": "notes-ecosistema",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Checklist note o attività con stato reale",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -8365,7 +8365,7 @@
         "component_id": "UIV-052",
         "app_id": "notes-ecosistema",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card di raccolta e workspace",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -8429,7 +8429,7 @@
         "component_id": "UIV-064",
         "app_id": "notes-ecosistema",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "CTA aggiunta o apertura nota",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -8525,7 +8525,7 @@
         "component_id": "UIV-079",
         "app_id": "notes-ecosistema",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card anteprima nota",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -8549,7 +8549,7 @@
         "component_id": "UIV-083",
         "app_id": "notes-ecosistema",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card anteprima collezione",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -8613,7 +8613,7 @@
         "component_id": "UIV-093",
         "app_id": "notes-ecosistema",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card nota o collezione",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -8850,7 +8850,7 @@
         "component_id": "UIV-043",
         "app_id": "omni-cleaner",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Ricerca file per nome con feedback chiaro",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -8866,7 +8866,7 @@
         "component_id": "UIV-045",
         "app_id": "omni-cleaner",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Selezione media prima di ogni eliminazione",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -8890,7 +8890,7 @@
         "component_id": "UIV-052",
         "app_id": "omni-cleaner",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card di riepilogo risultati",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -8930,7 +8930,7 @@
         "component_id": "UIV-064",
         "app_id": "omni-cleaner",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "CTA per avviare scansione o aprire i risultati",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -8994,7 +8994,7 @@
         "component_id": "UIV-079",
         "app_id": "omni-cleaner",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card per gruppo di duplicati",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -9002,7 +9002,7 @@
         "component_id": "UIV-083",
         "app_id": "omni-cleaner",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card risultato di scansione",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -9034,7 +9034,7 @@
         "component_id": "UIV-093",
         "app_id": "omni-cleaner",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card riepilogo archiviazione",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -10236,7 +10236,7 @@
         "component_id": "UIV-043",
         "app_id": "world-days",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Ricerca per parola chiave delle ricorrenze",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -10284,7 +10284,7 @@
         "component_id": "UIV-052",
         "app_id": "world-days",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card anteprima della giornata",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -10324,7 +10324,7 @@
         "component_id": "UIV-064",
         "app_id": "world-days",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "CTA apertura dell'approfondimento",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -10380,7 +10380,7 @@
         "component_id": "UIV-079",
         "app_id": "world-days",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card editoriale della storia",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -10396,7 +10396,7 @@
         "component_id": "UIV-083",
         "app_id": "world-days",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card tematica della ricorrenza",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -12804,7 +12804,7 @@
         "component_id": "UIV-043",
         "app_id": "notes-ecosistema",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Ricerca e filtri delle note con label accessibile",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -12812,7 +12812,7 @@
         "component_id": "UIV-043",
         "app_id": "world-days",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Ricerca per parola chiave delle ricorrenze",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -12820,7 +12820,7 @@
         "component_id": "UIV-043",
         "app_id": "omni-cleaner",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Ricerca file per nome con feedback chiaro",
         "status": "PROPOSED_ONLY",
         "implemented": false
       }
@@ -12888,7 +12888,7 @@
         "component_id": "UIV-045",
         "app_id": "omni-cleaner",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Selezione media prima di ogni eliminazione",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -12896,7 +12896,7 @@
         "component_id": "UIV-045",
         "app_id": "app-factory-dashboard",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Checklist dei controlli di verifica",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -12904,7 +12904,7 @@
         "component_id": "UIV-045",
         "app_id": "notes-ecosistema",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Checklist note o attività con stato reale",
         "status": "PROPOSED_ONLY",
         "implemented": false
       }
@@ -13246,7 +13246,7 @@
         "component_id": "UIV-052",
         "app_id": "notes-ecosistema",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card di raccolta e workspace",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -13254,7 +13254,7 @@
         "component_id": "UIV-052",
         "app_id": "world-days",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card anteprima della giornata",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -13262,7 +13262,7 @@
         "component_id": "UIV-052",
         "app_id": "omni-cleaner",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card di riepilogo risultati",
         "status": "PROPOSED_ONLY",
         "implemented": false
       }
@@ -13894,7 +13894,7 @@
         "component_id": "UIV-064",
         "app_id": "notes-ecosistema",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "CTA aggiunta o apertura nota",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -13902,7 +13902,7 @@
         "component_id": "UIV-064",
         "app_id": "world-days",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "CTA apertura dell'approfondimento",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -13910,7 +13910,7 @@
         "component_id": "UIV-064",
         "app_id": "omni-cleaner",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "CTA per avviare scansione o aprire i risultati",
         "status": "PROPOSED_ONLY",
         "implemented": false
       }
@@ -14708,7 +14708,7 @@
         "component_id": "UIV-079",
         "app_id": "notes-ecosistema",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card anteprima nota",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -14716,7 +14716,7 @@
         "component_id": "UIV-079",
         "app_id": "world-days",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card editoriale della storia",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -14724,7 +14724,7 @@
         "component_id": "UIV-079",
         "app_id": "omni-cleaner",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card per gruppo di duplicati",
         "status": "PROPOSED_ONLY",
         "implemented": false
       }
@@ -14908,7 +14908,7 @@
         "component_id": "UIV-083",
         "app_id": "notes-ecosistema",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card anteprima collezione",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -14916,7 +14916,7 @@
         "component_id": "UIV-083",
         "app_id": "world-days",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card tematica della ricorrenza",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -14924,7 +14924,7 @@
         "component_id": "UIV-083",
         "app_id": "omni-cleaner",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card risultato di scansione",
         "status": "PROPOSED_ONLY",
         "implemented": false
       }
@@ -15448,7 +15448,7 @@
         "component_id": "UIV-093",
         "app_id": "omni-cleaner",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card riepilogo archiviazione",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -15456,7 +15456,7 @@
         "component_id": "UIV-093",
         "app_id": "app-factory-dashboard",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card progetto o capability",
         "status": "PROPOSED_ONLY",
         "implemented": false
       },
@@ -15464,7 +15464,7 @@
         "component_id": "UIV-093",
         "app_id": "notes-ecosistema",
         "fit": "MEDIUM",
-        "surface": "Solo idea da classificare visivamente",
+        "surface": "Card nota o collezione",
         "status": "PROPOSED_ONLY",
         "implemented": false
       }

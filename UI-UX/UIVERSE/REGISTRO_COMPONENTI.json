@@ -3639,7 +3639,7 @@
       "author": "Stavros2410",
       "slug": "wet-duck-69",
       "uiverse_url": "https://uiverse.io/Stavros2410/wet-duck-69",
-      "category": "UNKNOWN",
+      "category": "INPUT",
       "source_repository": null,
       "source_commit": null,
       "source_path": "https://uiverse.io/Stavros2410/wet-duck-69",
@@ -3652,8 +3652,8 @@
       "consumer_status": "PROPOSED_ONLY",
       "consumer_implemented": false,
       "consumer_tested": false,
-      "description": "URL presente nell'export dei preferiti autenticati, codice non disponibile e categoria non confermata.",
-      "guardrails": "Usare solo dopo verifica visuale, a11y e codice",
+      "description": "Categoria INPUT confermata dall'endpoint pubblico Uiverse. Abbinamenti UI/UX proposti, non collaudati sui consumer.",
+      "guardrails": "Label, focus, keyboard/IME e contrasto",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
       "favorite_export_position": 36,
@@ -3661,19 +3661,19 @@
         {
           "slug": "notes-ecosistema",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Ricerca e filtri delle note con label accessibile",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "world-days",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Ricerca per parola chiave delle ricorrenze",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "omni-cleaner",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Ricerca file per nome con feedback chiaro",
           "status": "PROPOSED_ONLY"
         }
       ],
@@ -3799,7 +3799,7 @@
       "author": "Uncannypotato69",
       "slug": "honest-starfish-32",
       "uiverse_url": "https://uiverse.io/Uncannypotato69/honest-starfish-32",
-      "category": "UNKNOWN",
+      "category": "CHECKBOX",
       "source_repository": null,
       "source_commit": null,
       "source_path": "https://uiverse.io/Uncannypotato69/honest-starfish-32",
@@ -3812,8 +3812,8 @@
       "consumer_status": "PROPOSED_ONLY",
       "consumer_implemented": false,
       "consumer_tested": false,
-      "description": "URL presente nell'export dei preferiti autenticati, codice non disponibile e categoria non confermata.",
-      "guardrails": "Usare solo dopo verifica visuale, a11y e codice",
+      "description": "Categoria CHECKBOX confermata dall'endpoint pubblico Uiverse. Abbinamenti UI/UX proposti, non collaudati sui consumer.",
+      "guardrails": "Stato reale, touch target e feedback",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
       "favorite_export_position": 38,
@@ -3821,19 +3821,19 @@
         {
           "slug": "omni-cleaner",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Selezione media prima di ogni eliminazione",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "app-factory-dashboard",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Checklist dei controlli di verifica",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "notes-ecosistema",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Checklist note o attività con stato reale",
           "status": "PROPOSED_ONLY"
         }
       ],
@@ -4439,7 +4439,7 @@
       "author": "ashif_6672",
       "slug": "rare-bat-68",
       "uiverse_url": "https://uiverse.io/ashif_6672/rare-bat-68",
-      "category": "UNKNOWN",
+      "category": "CARD",
       "source_repository": null,
       "source_commit": null,
       "source_path": "https://uiverse.io/ashif_6672/rare-bat-68",
@@ -4452,8 +4452,8 @@
       "consumer_status": "PROPOSED_ONLY",
       "consumer_implemented": false,
       "consumer_tested": false,
-      "description": "URL presente nell'export dei preferiti autenticati, codice non disponibile e categoria non confermata.",
-      "guardrails": "Usare solo dopo verifica visuale, a11y e codice",
+      "description": "Categoria CARD confermata dall'endpoint pubblico Uiverse. Abbinamenti UI/UX proposti, non collaudati sui consumer.",
+      "guardrails": "Contenuto accessibile senza hover e con fallback reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
       "favorite_export_position": 48,
@@ -4461,19 +4461,19 @@
         {
           "slug": "notes-ecosistema",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card di raccolta e workspace",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "world-days",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card anteprima della giornata",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "omni-cleaner",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card di riepilogo risultati",
           "status": "PROPOSED_ONLY"
         }
       ],
@@ -5551,7 +5551,7 @@
       "author": "dopekid_9309",
       "slug": "tiny-dog-80",
       "uiverse_url": "https://uiverse.io/dopekid_9309/tiny-dog-80",
-      "category": "UNKNOWN",
+      "category": "BUTTON",
       "source_repository": null,
       "source_commit": null,
       "source_path": "https://uiverse.io/dopekid_9309/tiny-dog-80",
@@ -5564,8 +5564,8 @@
       "consumer_status": "PROPOSED_ONLY",
       "consumer_implemented": false,
       "consumer_tested": false,
-      "description": "URL presente nell'export dei preferiti autenticati, codice non disponibile e categoria non confermata.",
-      "guardrails": "Usare solo dopo verifica visuale, a11y e codice",
+      "description": "Categoria BUTTON confermata dall'endpoint pubblico Uiverse. Abbinamenti UI/UX proposti, non collaudati sui consumer.",
+      "guardrails": "Tap/focus, azione reale, stato disabled/loading",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
       "favorite_export_position": 60,
@@ -5573,19 +5573,19 @@
         {
           "slug": "notes-ecosistema",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "CTA aggiunta o apertura nota",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "world-days",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "CTA apertura dell'approfondimento",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "omni-cleaner",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "CTA per avviare scansione o aprire i risultati",
           "status": "PROPOSED_ONLY"
         }
       ],
@@ -6947,7 +6947,7 @@
       "author": "kennyotsu",
       "slug": "selfish-bear-69",
       "uiverse_url": "https://uiverse.io/kennyotsu/selfish-bear-69",
-      "category": "UNKNOWN",
+      "category": "CARD",
       "source_repository": null,
       "source_commit": null,
       "source_path": "https://uiverse.io/kennyotsu/selfish-bear-69",
@@ -6960,8 +6960,8 @@
       "consumer_status": "PROPOSED_ONLY",
       "consumer_implemented": false,
       "consumer_tested": false,
-      "description": "URL presente nell'export dei preferiti autenticati, codice non disponibile e categoria non confermata.",
-      "guardrails": "Usare solo dopo verifica visuale, a11y e codice",
+      "description": "Categoria CARD confermata dall'endpoint pubblico Uiverse. Abbinamenti UI/UX proposti, non collaudati sui consumer.",
+      "guardrails": "Contenuto accessibile senza hover e con fallback reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
       "favorite_export_position": 76,
@@ -6969,19 +6969,19 @@
         {
           "slug": "notes-ecosistema",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card anteprima nota",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "world-days",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card editoriale della storia",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "omni-cleaner",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card per gruppo di duplicati",
           "status": "PROPOSED_ONLY"
         }
       ],
@@ -7306,7 +7306,7 @@
       "author": "kennyotsu",
       "slug": "wonderful-firefox-31",
       "uiverse_url": "https://uiverse.io/kennyotsu/wonderful-firefox-31",
-      "category": "UNKNOWN",
+      "category": "CARD",
       "source_repository": null,
       "source_commit": null,
       "source_path": "https://uiverse.io/kennyotsu/wonderful-firefox-31",
@@ -7319,8 +7319,8 @@
       "consumer_status": "PROPOSED_ONLY",
       "consumer_implemented": false,
       "consumer_tested": false,
-      "description": "URL presente nell'export dei preferiti autenticati, codice non disponibile e categoria non confermata.",
-      "guardrails": "Usare solo dopo verifica visuale, a11y e codice",
+      "description": "Categoria CARD confermata dall'endpoint pubblico Uiverse. Abbinamenti UI/UX proposti, non collaudati sui consumer.",
+      "guardrails": "Contenuto accessibile senza hover e con fallback reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
       "favorite_export_position": 80,
@@ -7328,19 +7328,19 @@
         {
           "slug": "notes-ecosistema",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card anteprima collezione",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "world-days",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card tematica della ricorrenza",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "omni-cleaner",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card risultato di scansione",
           "status": "PROPOSED_ONLY"
         }
       ],
@@ -8209,7 +8209,7 @@
       "author": "preet_7613",
       "slug": "new-cougar-63",
       "uiverse_url": "https://uiverse.io/preet_7613/new-cougar-63",
-      "category": "UNKNOWN",
+      "category": "CARD",
       "source_repository": null,
       "source_commit": null,
       "source_path": "https://uiverse.io/preet_7613/new-cougar-63",
@@ -8222,8 +8222,8 @@
       "consumer_status": "PROPOSED_ONLY",
       "consumer_implemented": false,
       "consumer_tested": false,
-      "description": "URL presente nell'export dei preferiti autenticati, codice non disponibile e categoria non confermata.",
-      "guardrails": "Usare solo dopo verifica visuale, a11y e codice",
+      "description": "Categoria CARD confermata dall'endpoint pubblico Uiverse. Abbinamenti UI/UX proposti, non collaudati sui consumer.",
+      "guardrails": "Contenuto accessibile senza hover e con fallback reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
       "favorite_export_position": 90,
@@ -8231,19 +8231,19 @@
         {
           "slug": "omni-cleaner",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card riepilogo archiviazione",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "app-factory-dashboard",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card progetto o capability",
           "status": "PROPOSED_ONLY"
         },
         {
           "slug": "notes-ecosistema",
           "fit": "MEDIUM",
-          "surface": "Solo idea da classificare visivamente",
+          "surface": "Card nota o collezione",
           "status": "PROPOSED_ONLY"
         }
       ],
@@ -11160,7 +11160,7 @@
       "component_id": "UIV-043",
       "app_id": "notes-ecosistema",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Ricerca e filtri delle note con label accessibile",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -11168,7 +11168,7 @@
       "component_id": "UIV-043",
       "app_id": "world-days",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Ricerca per parola chiave delle ricorrenze",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -11176,7 +11176,7 @@
       "component_id": "UIV-043",
       "app_id": "omni-cleaner",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Ricerca file per nome con feedback chiaro",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -11240,7 +11240,7 @@
       "component_id": "UIV-045",
       "app_id": "omni-cleaner",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Selezione media prima di ogni eliminazione",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -11248,7 +11248,7 @@
       "component_id": "UIV-045",
       "app_id": "app-factory-dashboard",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Checklist dei controlli di verifica",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -11256,7 +11256,7 @@
       "component_id": "UIV-045",
       "app_id": "notes-ecosistema",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Checklist note o attività con stato reale",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -11584,7 +11584,7 @@
       "component_id": "UIV-052",
       "app_id": "notes-ecosistema",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card di raccolta e workspace",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -11592,7 +11592,7 @@
       "component_id": "UIV-052",
       "app_id": "world-days",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card anteprima della giornata",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -11600,7 +11600,7 @@
       "component_id": "UIV-052",
       "app_id": "omni-cleaner",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card di riepilogo risultati",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -12208,7 +12208,7 @@
       "component_id": "UIV-064",
       "app_id": "notes-ecosistema",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "CTA aggiunta o apertura nota",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -12216,7 +12216,7 @@
       "component_id": "UIV-064",
       "app_id": "world-days",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "CTA apertura dell'approfondimento",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -12224,7 +12224,7 @@
       "component_id": "UIV-064",
       "app_id": "omni-cleaner",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "CTA per avviare scansione o aprire i risultati",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -12992,7 +12992,7 @@
       "component_id": "UIV-079",
       "app_id": "notes-ecosistema",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card anteprima nota",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -13000,7 +13000,7 @@
       "component_id": "UIV-079",
       "app_id": "world-days",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card editoriale della storia",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -13008,7 +13008,7 @@
       "component_id": "UIV-079",
       "app_id": "omni-cleaner",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card per gruppo di duplicati",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -13184,7 +13184,7 @@
       "component_id": "UIV-083",
       "app_id": "notes-ecosistema",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card anteprima collezione",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -13192,7 +13192,7 @@
       "component_id": "UIV-083",
       "app_id": "world-days",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card tematica della ricorrenza",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -13200,7 +13200,7 @@
       "component_id": "UIV-083",
       "app_id": "omni-cleaner",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card risultato di scansione",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -13704,7 +13704,7 @@
       "component_id": "UIV-093",
       "app_id": "omni-cleaner",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card riepilogo archiviazione",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -13712,7 +13712,7 @@
       "component_id": "UIV-093",
       "app_id": "app-factory-dashboard",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card progetto o capability",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },
@@ -13720,7 +13720,7 @@
       "component_id": "UIV-093",
       "app_id": "notes-ecosistema",
       "fit": "MEDIUM",
-      "surface": "Solo idea da classificare visivamente",
+      "surface": "Card nota o collezione",
       "status": "PROPOSED_ONLY",
       "implemented": false
     },

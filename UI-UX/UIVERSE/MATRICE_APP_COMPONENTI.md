@@ -1,8 +1,8 @@
 # Uiverse — matrice app ↔ componenti
 
-[Matrice JSON](./MATRICE_APP_COMPONENTI.json) · [Catalogo](./README.md)
+**657 collegamenti univoci su 25 app**, tutti PROPOSED_ONLY.
 
-**657 collegamenti univoci su 25 app; proposte, nessun consumer implementato.**
+[JSON canonical](./MATRICE_APP_COMPONENTI.json) · [Catalogo](./REGISTRO_COMPONENTI.json)
 
 ## 180flipcharge
 
@@ -65,7 +65,7 @@
 - **UIV-039** — Attesa attività reale e risoluzione errore (MEDIUM, PROPOSED_ONLY)
 - **UIV-040** — Attesa attività reale e risoluzione errore (MEDIUM, PROPOSED_ONLY)
 - **UIV-044** — Attesa attività reale e risoluzione errore (MEDIUM, PROPOSED_ONLY)
-- **UIV-045** — Solo idea da classificare visivamente (MEDIUM, PROPOSED_ONLY)
+- **UIV-045** — Checklist dei controlli di verifica (MEDIUM, PROPOSED_ONLY)
 - **UIV-046** — Selezione con semantica e feedback (MEDIUM, PROPOSED_ONLY)
 - **UIV-047** — CTA con azione verificata e focus (MEDIUM, PROPOSED_ONLY)
 - **UIV-051** — Attesa attività reale e risoluzione errore (MEDIUM, PROPOSED_ONLY)
@@ -90,7 +90,7 @@
 - **UIV-084** — Attesa attività reale e risoluzione errore (MEDIUM, PROPOSED_ONLY)
 - **UIV-087** — CTA con azione verificata e focus (MEDIUM, PROPOSED_ONLY)
 - **UIV-089** — Attesa attività reale e risoluzione errore (MEDIUM, PROPOSED_ONLY)
-- **UIV-093** — Solo idea da classificare visivamente (MEDIUM, PROPOSED_ONLY)
+- **UIV-093** — Card progetto o capability (MEDIUM, PROPOSED_ONLY)
 - **UIV-094** — Attesa attività reale e risoluzione errore (MEDIUM, PROPOSED_ONLY)
 - **UIV-096** — Texture background con gate contrasto/FPS (MEDIUM, PROPOSED_ONLY)
 - **UIV-097** — Scheda donor/capability/Golden (MEDIUM, PROPOSED_ONLY)
@@ -431,15 +431,15 @@
 - **UIV-035** — Scelta esclusiva accessibile (MEDIUM, PROPOSED_ONLY)
 - **UIV-037** — Scheda nota o lavagna (HIGH, PROPOSED_ONLY)
 - **UIV-042** — Ricerca semantica/indicizzazione solo se avviata (MEDIUM, PROPOSED_ONLY)
-- **UIV-043** — Solo idea da classificare visivamente (MEDIUM, PROPOSED_ONLY)
-- **UIV-045** — Solo idea da classificare visivamente (MEDIUM, PROPOSED_ONLY)
+- **UIV-043** — Ricerca e filtri delle note con label accessibile (MEDIUM, PROPOSED_ONLY)
+- **UIV-045** — Checklist note o attività con stato reale (MEDIUM, PROPOSED_ONLY)
 - **UIV-046** — Selezione con semantica e feedback (HIGH, PROPOSED_ONLY)
 - **UIV-047** — CTA con azione verificata e focus (MEDIUM, PROPOSED_ONLY)
 - **UIV-048** — Scheda nota o lavagna (HIGH, PROPOSED_ONLY)
 - **UIV-049** — Preferenza on/off persistita (MEDIUM, PROPOSED_ONLY)
 - **UIV-050** — Ricerca semantica/indicizzazione solo se avviata (MEDIUM, PROPOSED_ONLY)
 - **UIV-051** — Ricerca semantica/indicizzazione solo se avviata (MEDIUM, PROPOSED_ONLY)
-- **UIV-052** — Solo idea da classificare visivamente (MEDIUM, PROPOSED_ONLY)
+- **UIV-052** — Card di raccolta e workspace (MEDIUM, PROPOSED_ONLY)
 - **UIV-053** — Aiuto contestuale non solo hover (MEDIUM, PROPOSED_ONLY)
 - **UIV-054** — Scheda nota o lavagna (HIGH, PROPOSED_ONLY)
 - **UIV-055** — Ricerca semantica/indicizzazione solo se avviata (MEDIUM, PROPOSED_ONLY)
@@ -447,7 +447,7 @@
 - **UIV-058** — Preferenza on/off persistita (MEDIUM, PROPOSED_ONLY)
 - **UIV-060** — CTA con azione verificata e focus (MEDIUM, PROPOSED_ONLY)
 - **UIV-063** — Scheda nota o lavagna (HIGH, PROPOSED_ONLY)
-- **UIV-064** — Solo idea da classificare visivamente (MEDIUM, PROPOSED_ONLY)
+- **UIV-064** — CTA aggiunta o apertura nota (MEDIUM, PROPOSED_ONLY)
 - **UIV-065** — Ricerca semantica/indicizzazione solo se avviata (MEDIUM, PROPOSED_ONLY)
 - **UIV-067** — Scelta esclusiva accessibile (MEDIUM, PROPOSED_ONLY)
 - **UIV-068** — Ricerca semantica/indicizzazione solo se avviata (MEDIUM, PROPOSED_ONLY)
@@ -459,10 +459,10 @@
 - **UIV-075** — Scheda nota o lavagna (HIGH, PROPOSED_ONLY)
 - **UIV-077** — Scheda nota o lavagna (HIGH, PROPOSED_ONLY)
 - **UIV-078** — Scheda nota o lavagna (HIGH, PROPOSED_ONLY)
-- **UIV-079** — Solo idea da classificare visivamente (MEDIUM, PROPOSED_ONLY)
+- **UIV-079** — Card anteprima nota (MEDIUM, PROPOSED_ONLY)
 - **UIV-080** — Scheda nota o lavagna (HIGH, PROPOSED_ONLY)
 - **UIV-082** — Scheda nota o lavagna (HIGH, PROPOSED_ONLY)
-- **UIV-083** — Solo idea da classificare visivamente (MEDIUM, PROPOSED_ONLY)
+- **UIV-083** — Card anteprima collezione (MEDIUM, PROPOSED_ONLY)
 - **UIV-084** — Ricerca semantica/indicizzazione solo se avviata (MEDIUM, PROPOSED_ONLY)
 - **UIV-085** — Preferenza on/off persistita (MEDIUM, PROPOSED_ONLY)
 - **UIV-087** — CTA con azione verificata e focus (MEDIUM, PROPOSED_ONLY)
@@ -470,7 +470,7 @@
 - **UIV-089** — Ricerca semantica/indicizzazione solo se avviata (MEDIUM, PROPOSED_ONLY)
 - **UIV-091** — Scheda nota o lavagna (HIGH, PROPOSED_ONLY)
 - **UIV-092** — Scheda nota o lavagna (HIGH, PROPOSED_ONLY)
-- **UIV-093** — Solo idea da classificare visivamente (MEDIUM, PROPOSED_ONLY)
+- **UIV-093** — Card nota o collezione (MEDIUM, PROPOSED_ONLY)
 - **UIV-094** — Ricerca semantica/indicizzazione solo se avviata (MEDIUM, PROPOSED_ONLY)
 - **UIV-095** — Scheda nota o lavagna (HIGH, PROPOSED_ONLY)
 - **UIV-097** — Scheda nota o lavagna (HIGH, PROPOSED_ONLY)
@@ -503,17 +503,17 @@
 - **UIV-040** — Scansione memoria/duplicati con stato reale (HIGH, PROPOSED_ONLY)
 - **UIV-041** — Scansione memoria/duplicati con stato reale (HIGH, PROPOSED_ONLY)
 - **UIV-042** — Scansione memoria/duplicati con stato reale (HIGH, PROPOSED_ONLY)
-- **UIV-043** — Solo idea da classificare visivamente (MEDIUM, PROPOSED_ONLY)
+- **UIV-043** — Ricerca file per nome con feedback chiaro (MEDIUM, PROPOSED_ONLY)
 - **UIV-044** — Scansione memoria/duplicati con stato reale (HIGH, PROPOSED_ONLY)
-- **UIV-045** — Solo idea da classificare visivamente (MEDIUM, PROPOSED_ONLY)
+- **UIV-045** — Selezione media prima di ogni eliminazione (MEDIUM, PROPOSED_ONLY)
 - **UIV-050** — Scansione memoria/duplicati con stato reale (HIGH, PROPOSED_ONLY)
 - **UIV-051** — Scansione memoria/duplicati con stato reale (HIGH, PROPOSED_ONLY)
-- **UIV-052** — Solo idea da classificare visivamente (MEDIUM, PROPOSED_ONLY)
+- **UIV-052** — Card di riepilogo risultati (MEDIUM, PROPOSED_ONLY)
 - **UIV-053** — Aiuto contestuale non solo hover (MEDIUM, PROPOSED_ONLY)
 - **UIV-055** — Scansione memoria/duplicati con stato reale (HIGH, PROPOSED_ONLY)
 - **UIV-061** — Scansione memoria/duplicati con stato reale (HIGH, PROPOSED_ONLY)
 - **UIV-062** — Scansione memoria/duplicati con stato reale (HIGH, PROPOSED_ONLY)
-- **UIV-064** — Solo idea da classificare visivamente (MEDIUM, PROPOSED_ONLY)
+- **UIV-064** — CTA per avviare scansione o aprire i risultati (MEDIUM, PROPOSED_ONLY)
 - **UIV-065** — Scansione memoria/duplicati con stato reale (HIGH, PROPOSED_ONLY)
 - **UIV-066** — Scansione memoria/duplicati con stato reale (HIGH, PROPOSED_ONLY)
 - **UIV-068** — Scansione memoria/duplicati con stato reale (HIGH, PROPOSED_ONLY)
@@ -521,12 +521,12 @@
 - **UIV-072** — Scansione memoria/duplicati con stato reale (HIGH, PROPOSED_ONLY)
 - **UIV-074** — Scansione memoria/duplicati con stato reale (HIGH, PROPOSED_ONLY)
 - **UIV-076** — Scansione memoria/duplicati con stato reale (HIGH, PROPOSED_ONLY)
-- **UIV-079** — Solo idea da classificare visivamente (MEDIUM, PROPOSED_ONLY)
-- **UIV-083** — Solo idea da classificare visivamente (MEDIUM, PROPOSED_ONLY)
+- **UIV-079** — Card per gruppo di duplicati (MEDIUM, PROPOSED_ONLY)
+- **UIV-083** — Card risultato di scansione (MEDIUM, PROPOSED_ONLY)
 - **UIV-084** — Scansione memoria/duplicati con stato reale (HIGH, PROPOSED_ONLY)
 - **UIV-088** — Impostazioni scansione persistite (MEDIUM, PROPOSED_ONLY)
 - **UIV-089** — Scansione memoria/duplicati con stato reale (HIGH, PROPOSED_ONLY)
-- **UIV-093** — Solo idea da classificare visivamente (MEDIUM, PROPOSED_ONLY)
+- **UIV-093** — Card riepilogo archiviazione (MEDIUM, PROPOSED_ONLY)
 - **UIV-094** — Scansione memoria/duplicati con stato reale (HIGH, PROPOSED_ONLY)
 - **UIV-096** — Texture background con gate contrasto/FPS (MEDIUM, PROPOSED_ONLY)
 - **UIV-099** — Scansione memoria/duplicati con stato reale (HIGH, PROPOSED_ONLY)
@@ -706,27 +706,27 @@
 - **UIV-038** — CTA con azione verificata e focus (MEDIUM, PROPOSED_ONLY)
 - **UIV-039** — Caricamento delle storie locali (MEDIUM, PROPOSED_ONLY)
 - **UIV-042** — Caricamento delle storie locali (MEDIUM, PROPOSED_ONLY)
-- **UIV-043** — Solo idea da classificare visivamente (MEDIUM, PROPOSED_ONLY)
+- **UIV-043** — Ricerca per parola chiave delle ricorrenze (MEDIUM, PROPOSED_ONLY)
 - **UIV-044** — Caricamento delle storie locali (MEDIUM, PROPOSED_ONLY)
 - **UIV-046** — Selezione con semantica e feedback (MEDIUM, PROPOSED_ONLY)
 - **UIV-048** — Giornata e approfondimento storico (MEDIUM, PROPOSED_ONLY)
 - **UIV-050** — Caricamento delle storie locali (MEDIUM, PROPOSED_ONLY)
 - **UIV-051** — Caricamento delle storie locali (MEDIUM, PROPOSED_ONLY)
-- **UIV-052** — Solo idea da classificare visivamente (MEDIUM, PROPOSED_ONLY)
+- **UIV-052** — Card anteprima della giornata (MEDIUM, PROPOSED_ONLY)
 - **UIV-055** — Caricamento delle storie locali (MEDIUM, PROPOSED_ONLY)
 - **UIV-056** — Giornata e approfondimento storico (MEDIUM, PROPOSED_ONLY)
 - **UIV-060** — CTA con azione verificata e focus (MEDIUM, PROPOSED_ONLY)
 - **UIV-061** — Caricamento delle storie locali (MEDIUM, PROPOSED_ONLY)
-- **UIV-064** — Solo idea da classificare visivamente (MEDIUM, PROPOSED_ONLY)
+- **UIV-064** — CTA apertura dell'approfondimento (MEDIUM, PROPOSED_ONLY)
 - **UIV-065** — Caricamento delle storie locali (MEDIUM, PROPOSED_ONLY)
 - **UIV-066** — Caricamento delle storie locali (MEDIUM, PROPOSED_ONLY)
 - **UIV-068** — Caricamento delle storie locali (MEDIUM, PROPOSED_ONLY)
 - **UIV-070** — Selezione con semantica e feedback (MEDIUM, PROPOSED_ONLY)
 - **UIV-074** — Caricamento delle storie locali (MEDIUM, PROPOSED_ONLY)
 - **UIV-075** — Giornata e approfondimento storico (MEDIUM, PROPOSED_ONLY)
-- **UIV-079** — Solo idea da classificare visivamente (MEDIUM, PROPOSED_ONLY)
+- **UIV-079** — Card editoriale della storia (MEDIUM, PROPOSED_ONLY)
 - **UIV-080** — Giornata e approfondimento storico (MEDIUM, PROPOSED_ONLY)
-- **UIV-083** — Solo idea da classificare visivamente (MEDIUM, PROPOSED_ONLY)
+- **UIV-083** — Card tematica della ricorrenza (MEDIUM, PROPOSED_ONLY)
 - **UIV-084** — Caricamento delle storie locali (MEDIUM, PROPOSED_ONLY)
 - **UIV-089** — Caricamento delle storie locali (MEDIUM, PROPOSED_ONLY)
 - **UIV-091** — Giornata e approfondimento storico (MEDIUM, PROPOSED_ONLY)
@@ -736,9 +736,9 @@
 - **UIV-098** — Texture background con gate contrasto/FPS (MEDIUM, PROPOSED_ONLY)
 - **UIV-099** — Caricamento delle storie locali (MEDIUM, PROPOSED_ONLY)
 
-## Componenti — mappa inversa
+## Per componente
 
-### UIV-001 — alexruix/tame-fly-42
+### UIV-001 — alexruix/tame-fly-42 (LOADER)
 
 - omni-cleaner: Caricamento effettivo durante elaborazione (HIGH)
 - notes-ecosistema: Caricamento effettivo durante elaborazione (MEDIUM)
@@ -747,7 +747,7 @@
 - framelab: Caricamento effettivo durante elaborazione (MEDIUM)
 - world-days: Caricamento effettivo durante elaborazione (MEDIUM)
 
-### UIV-002 — xueyuantan/rotten-pig-19
+### UIV-002 — xueyuantan/rotten-pig-19 (BUTTON)
 
 - annas-diary: CTA con gradiente e stato focus/tap (MEDIUM)
 - beerclass-ai: CTA con gradiente e stato focus/tap (MEDIUM)
@@ -757,7 +757,7 @@
 - camperboss: CTA con gradiente e stato focus/tap (MEDIUM)
 - web-utility-factory: CTA con gradiente e stato focus/tap (MEDIUM)
 
-### UIV-003 — gharsh11032000/tricky-cheetah-78
+### UIV-003 — gharsh11032000/tricky-cheetah-78 (CARD)
 
 - notes-ecosistema: Card contenuti/insight con reveal accessibile (MEDIUM)
 - world-days: Card contenuti/insight con reveal accessibile (MEDIUM)
@@ -767,7 +767,7 @@
 - cooking-anime: Card contenuti/insight con reveal accessibile (MEDIUM)
 - app-factory-dashboard: Card contenuti/insight con reveal accessibile (MEDIUM)
 
-### UIV-004 — JohnnyCSilva/jolly-elephant-67
+### UIV-004 — JohnnyCSilva/jolly-elephant-67 (CARD)
 
 - wonderlog: Schede editoriali e viaggi (MEDIUM)
 - camperboss: Schede editoriali e viaggi (MEDIUM)
@@ -777,7 +777,7 @@
 - framelab: Schede editoriali e viaggi (MEDIUM)
 - web-utility-factory: Schede editoriali e viaggi (MEDIUM)
 
-### UIV-005 — amir_6539/red-duck-82
+### UIV-005 — amir_6539/red-duck-82 (CARD_BACKGROUND)
 
 - annas-diary: Sfondo decorativo valutabile solo dopo lettura del codice (HIGH)
 - omni-cleaner: Sfondo decorativo valutabile solo dopo lettura del codice (MEDIUM)
@@ -788,7 +788,7 @@
 - deskland-android: Sfondo decorativo valutabile solo dopo lettura del codice (MEDIUM)
 - app-factory-dashboard: Sfondo decorativo valutabile solo dopo lettura del codice (MEDIUM)
 
-### UIV-006 — JustCode14/red-dingo-61
+### UIV-006 — JustCode14/red-dingo-61 (SWITCH)
 
 - battery-guard: Toggle semantico legato a impostazione reale (MEDIUM)
 - easy-debloat: Toggle semantico legato a impostazione reale (MEDIUM)
@@ -799,7 +799,7 @@
 - phone-guard: Toggle semantico legato a impostazione reale (MEDIUM)
 - pocket-guard: Toggle semantico legato a impostazione reale (MEDIUM)
 
-### UIV-007 — arthur_6104/orange-walrus-50
+### UIV-007 — arthur_6104/orange-walrus-50 (LOADER)
 
 - notes-ecosistema: Stato attesa job reale; frase personalizzata quando appropriata (HIGH)
 - omni-cleaner: Stato attesa job reale; frase personalizzata quando appropriata (MEDIUM)
@@ -810,7 +810,7 @@
 - web-utility-factory: Stato attesa job reale; frase personalizzata quando appropriata (MEDIUM)
 - annas-diary: Stato attesa job reale; frase personalizzata quando appropriata (MEDIUM)
 
-### UIV-008 — Shoh2008/cold-walrus-85
+### UIV-008 — Shoh2008/cold-walrus-85 (LOADER)
 
 - omni-cleaner: Caricamento temporaneo con stop/errore/retry (HIGH)
 - notes-ecosistema: Caricamento temporaneo con stop/errore/retry (MEDIUM)
@@ -820,7 +820,7 @@
 - world-days: Caricamento temporaneo con stop/errore/retry (MEDIUM)
 - camperboss: Caricamento temporaneo con stop/errore/retry (MEDIUM)
 
-### UIV-009 — eslam-hany/selfish-bobcat-73
+### UIV-009 — eslam-hany/selfish-bobcat-73 (BOOK_CARD)
 
 - annas-diary: Card libro apribile con tap; note/ricordi e raccolte (HIGH)
 - notes-ecosistema: Card libro apribile con tap; note/ricordi e raccolte (MEDIUM)
@@ -829,7 +829,7 @@
 - cooking-anime: Card libro apribile con tap; note/ricordi e raccolte (MEDIUM)
 - framelab: Card libro apribile con tap; note/ricordi e raccolte (MEDIUM)
 
-### UIV-010 — 00Kubi/fluffy-jellyfish-87
+### UIV-010 — 00Kubi/fluffy-jellyfish-87 (CARD)
 
 - annas-diary: Ricordi/diario illustrato (MEDIUM)
 - notes-ecosistema: Scheda nota o lavagna (HIGH)
@@ -839,7 +839,7 @@
 - framelab: Card di anteprima/collezione (MEDIUM)
 - beerclass-ai: Card di anteprima/collezione (MEDIUM)
 
-### UIV-011 — Admin12121/black-sheep-17
+### UIV-011 — Admin12121/black-sheep-17 (LOADER)
 
 - world-days: Caricamento delle storie locali (MEDIUM)
 - send-to-pc: Preparazione trasferimento reale (MEDIUM)
@@ -849,7 +849,7 @@
 - cashmate-ai: Attesa attività reale e risoluzione errore (MEDIUM)
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 
-### UIV-012 — Admin12121/massive-dodo-67
+### UIV-012 — Admin12121/massive-dodo-67 (SWITCH)
 
 - pocket-guard: Preferenza on/off persistita (MEDIUM)
 - phone-guard: Preferenza on/off persistita (MEDIUM)
@@ -859,7 +859,7 @@
 - the-luminous-infinite-circle: Preferenza on/off persistita (MEDIUM)
 - battery-guard: Stato avviso realmente attivo (HIGH)
 
-### UIV-013 — AqFox/young-dragon-29
+### UIV-013 — AqFox/young-dragon-29 (LOADER)
 
 - camperboss: Attesa attività reale e risoluzione errore (MEDIUM)
 - wonderlog: Attesa attività reale e risoluzione errore (MEDIUM)
@@ -869,7 +869,7 @@
 - deskland-android: Attesa attività reale e risoluzione errore (MEDIUM)
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 
-### UIV-014 — ElSombrero2/tricky-robin-67
+### UIV-014 — ElSombrero2/tricky-robin-67 (CARD)
 
 - annas-diary: Ricordi/diario illustrato (MEDIUM)
 - notes-ecosistema: Scheda nota o lavagna (HIGH)
@@ -879,7 +879,7 @@
 - framelab: Card di anteprima/collezione (MEDIUM)
 - beerclass-ai: Card di anteprima/collezione (MEDIUM)
 
-### UIV-015 — FColombati/spotty-snake-82
+### UIV-015 — FColombati/spotty-snake-82 (BUTTON)
 
 - cooking-anime: CTA con azione verificata e focus (MEDIUM)
 - framelab: CTA con azione verificata e focus (MEDIUM)
@@ -888,7 +888,7 @@
 - easy-debloat: CTA con azione verificata e focus (MEDIUM)
 - annas-diary: CTA con azione verificata e focus (HIGH)
 
-### UIV-016 — Gidarx/clever-panther-6
+### UIV-016 — Gidarx/clever-panther-6 (CARD)
 
 - beerclass-ai: Card di anteprima/collezione (MEDIUM)
 - cashmate-ai: Card di anteprima/collezione (MEDIUM)
@@ -898,7 +898,7 @@
 - deskland-android: Card di anteprima/collezione (MEDIUM)
 - notes-ecosistema: Scheda nota o lavagna (HIGH)
 
-### UIV-017 — Gidarx/moody-falcon-73
+### UIV-017 — Gidarx/moody-falcon-73 (CARD)
 
 - camperboss: Card di anteprima/collezione (MEDIUM)
 - edu-01-corpo-umano: Card di anteprima/collezione (MEDIUM)
@@ -908,7 +908,7 @@
 - world-days: Giornata e approfondimento storico (MEDIUM)
 - wonderlog: Tappa o diario viaggio (MEDIUM)
 
-### UIV-018 — JaydipPrajapati1910/average-shrimp-57
+### UIV-018 — JaydipPrajapati1910/average-shrimp-57 (SWITCH)
 
 - camperboss: Preferenza on/off persistita (MEDIUM)
 - the-luminous-infinite-circle: Preferenza on/off persistita (MEDIUM)
@@ -918,7 +918,7 @@
 - focussense: Preferenza on/off persistita (MEDIUM)
 - omni-cleaner: Impostazioni scansione persistite (MEDIUM)
 
-### UIV-019 — JkHuger/new-deer-97
+### UIV-019 — JkHuger/new-deer-97 (LOADER)
 
 - sleepmax-coach: Attesa attività reale e risoluzione errore (MEDIUM)
 - focussense: Attesa attività reale e risoluzione errore (MEDIUM)
@@ -928,7 +928,7 @@
 - framelab: Elaborazione foto/video effettiva (MEDIUM)
 - world-days: Caricamento delle storie locali (MEDIUM)
 
-### UIV-020 — JkHuger/selfish-bulldog-36
+### UIV-020 — JkHuger/selfish-bulldog-36 (LOADER)
 
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 - notes-ecosistema: Ricerca semantica/indicizzazione solo se avviata (MEDIUM)
@@ -938,7 +938,7 @@
 - battery-guard: Aggiornamento statistiche batteria (MEDIUM)
 - app-factory-dashboard: Attesa attività reale e risoluzione errore (MEDIUM)
 
-### UIV-021 — JohnnyCSilva/black-rabbit-68
+### UIV-021 — JohnnyCSilva/black-rabbit-68 (CARD)
 
 - camperboss: Card di anteprima/collezione (MEDIUM)
 - edu-01-corpo-umano: Card di anteprima/collezione (MEDIUM)
@@ -948,7 +948,7 @@
 - world-days: Giornata e approfondimento storico (MEDIUM)
 - wonderlog: Tappa o diario viaggio (MEDIUM)
 
-### UIV-022 — Lakshay-art/curvy-earwig-22
+### UIV-022 — Lakshay-art/curvy-earwig-22 (INPUT)
 
 - cashmate-ai: Ricerca o inserimento con label (MEDIUM)
 - app-factory-dashboard: Ricerca o inserimento con label (MEDIUM)
@@ -957,7 +957,7 @@
 - world-days: Ricerca o inserimento con label (MEDIUM)
 - notes-ecosistema: Ricerca e filtri testuali (HIGH)
 
-### UIV-023 — LilaRest/soft-baboon-75
+### UIV-023 — LilaRest/soft-baboon-75 (RADIO)
 
 - annas-diary: Selettore visualizzazione (HIGH)
 - notes-ecosistema: Scelta esclusiva accessibile (MEDIUM)
@@ -966,7 +966,7 @@
 - world-days: Scelta esclusiva accessibile (MEDIUM)
 - wonderlog: Scelta esclusiva accessibile (MEDIUM)
 
-### UIV-024 — MuhammadHasann/fast-badger-70
+### UIV-024 — MuhammadHasann/fast-badger-70 (CARD)
 
 - annas-diary: Ricordi/diario illustrato (MEDIUM)
 - notes-ecosistema: Scheda nota o lavagna (HIGH)
@@ -976,7 +976,7 @@
 - framelab: Card di anteprima/collezione (MEDIUM)
 - beerclass-ai: Card di anteprima/collezione (MEDIUM)
 
-### UIV-025 — Nawsome/ancient-yak-42
+### UIV-025 — Nawsome/ancient-yak-42 (LOADER)
 
 - app-factory-dashboard: Attesa attività reale e risoluzione errore (MEDIUM)
 - easy-debloat: Attesa attività reale e risoluzione errore (MEDIUM)
@@ -986,7 +986,7 @@
 - cooking-anime: Attesa attività reale e risoluzione errore (MEDIUM)
 - trailpath: Attesa routing/traccia GPS reale con timeout/retry (HIGH)
 
-### UIV-026 — Nawsome/brave-turtle-26
+### UIV-026 — Nawsome/brave-turtle-26 (LOADER)
 
 - camperboss: Attesa attività reale e risoluzione errore (MEDIUM)
 - wonderlog: Attesa attività reale e risoluzione errore (MEDIUM)
@@ -996,7 +996,7 @@
 - deskland-android: Attesa attività reale e risoluzione errore (MEDIUM)
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 
-### UIV-027 — Nawsome/empty-snail-69
+### UIV-027 — Nawsome/empty-snail-69 (SWITCH)
 
 - focussense: Preferenza on/off persistita (MEDIUM)
 - omni-cleaner: Impostazioni scansione persistite (MEDIUM)
@@ -1006,7 +1006,7 @@
 - pocket-guard: Preferenza on/off persistita (MEDIUM)
 - battery-guard: Stato avviso realmente attivo (HIGH)
 
-### UIV-028 — Nawsome/kind-mole-87
+### UIV-028 — Nawsome/kind-mole-87 (LOADER)
 
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 - notes-ecosistema: Ricerca semantica/indicizzazione solo se avviata (MEDIUM)
@@ -1016,7 +1016,7 @@
 - battery-guard: Aggiornamento statistiche batteria (MEDIUM)
 - app-factory-dashboard: Attesa attività reale e risoluzione errore (MEDIUM)
 
-### UIV-029 — Nawsome/wet-mayfly-23
+### UIV-029 — Nawsome/wet-mayfly-23 (LOADER)
 
 - world-days: Caricamento delle storie locali (MEDIUM)
 - send-to-pc: Preparazione trasferimento reale (MEDIUM)
@@ -1026,7 +1026,7 @@
 - cashmate-ai: Attesa attività reale e risoluzione errore (MEDIUM)
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 
-### UIV-030 — Nawsome/young-goat-78
+### UIV-030 — Nawsome/young-goat-78 (LOADER)
 
 - app-factory-dashboard: Attesa attività reale e risoluzione errore (MEDIUM)
 - easy-debloat: Attesa attività reale e risoluzione errore (MEDIUM)
@@ -1036,7 +1036,7 @@
 - cooking-anime: Attesa attività reale e risoluzione errore (MEDIUM)
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 
-### UIV-031 — Novaxlo/rotten-lionfish-4
+### UIV-031 — Novaxlo/rotten-lionfish-4 (LOADER)
 
 - camperboss: Attesa attività reale e risoluzione errore (MEDIUM)
 - wonderlog: Attesa attività reale e risoluzione errore (MEDIUM)
@@ -1046,7 +1046,7 @@
 - deskland-android: Attesa attività reale e risoluzione errore (MEDIUM)
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 
-### UIV-032 — Praashoo7/lucky-hound-44
+### UIV-032 — Praashoo7/lucky-hound-44 (LOADER)
 
 - sleepmax-coach: Attesa attività reale e risoluzione errore (MEDIUM)
 - focussense: Attesa attività reale e risoluzione errore (MEDIUM)
@@ -1056,7 +1056,7 @@
 - framelab: Elaborazione foto/video effettiva (MEDIUM)
 - world-days: Caricamento delle storie locali (MEDIUM)
 
-### UIV-033 — Praashoo7/smooth-crab-52
+### UIV-033 — Praashoo7/smooth-crab-52 (BUTTON)
 
 - web-utility-factory: CTA con azione verificata e focus (MEDIUM)
 - app-factory-dashboard: CTA con azione verificata e focus (MEDIUM)
@@ -1065,7 +1065,7 @@
 - wonderlog: CTA con azione verificata e focus (MEDIUM)
 - world-days: CTA con azione verificata e focus (MEDIUM)
 
-### UIV-034 — Pradeepsaranbishnoi/fast-cobra-20
+### UIV-034 — Pradeepsaranbishnoi/fast-cobra-20 (LOADER)
 
 - world-days: Caricamento delle storie locali (MEDIUM)
 - send-to-pc: Preparazione trasferimento reale (MEDIUM)
@@ -1075,7 +1075,7 @@
 - cashmate-ai: Attesa attività reale e risoluzione errore (MEDIUM)
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 
-### UIV-035 — Pradeepsaranbishnoi/hungry-bat-66
+### UIV-035 — Pradeepsaranbishnoi/hungry-bat-66 (RADIO)
 
 - annas-diary: Selettore visualizzazione (HIGH)
 - notes-ecosistema: Scelta esclusiva accessibile (MEDIUM)
@@ -1084,7 +1084,7 @@
 - world-days: Scelta esclusiva accessibile (MEDIUM)
 - trailpath: Scelta esclusiva accessibile (HIGH)
 
-### UIV-036 — Pradeepsaranbishnoi/tall-fish-38
+### UIV-036 — Pradeepsaranbishnoi/tall-fish-38 (LOADER)
 
 - camperboss: Attesa attività reale e risoluzione errore (MEDIUM)
 - wonderlog: Attesa attività reale e risoluzione errore (MEDIUM)
@@ -1094,7 +1094,7 @@
 - deskland-android: Attesa attività reale e risoluzione errore (MEDIUM)
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 
-### UIV-037 — Prince4fff/slippery-baboon-37
+### UIV-037 — Prince4fff/slippery-baboon-37 (CARD)
 
 - wonderlog: Tappa o diario viaggio (MEDIUM)
 - cooking-anime: Card di anteprima/collezione (MEDIUM)
@@ -1104,7 +1104,7 @@
 - app-factory-dashboard: Scheda donor/capability/Golden (MEDIUM)
 - notes-ecosistema: Scheda nota o lavagna (HIGH)
 
-### UIV-038 — Priyanshu02020/popular-puma-87
+### UIV-038 — Priyanshu02020/popular-puma-87 (BUTTON)
 
 - wonderlog: CTA con azione verificata e focus (MEDIUM)
 - world-days: CTA con azione verificata e focus (MEDIUM)
@@ -1113,7 +1113,7 @@
 - beerclass-ai: CTA con azione verificata e focus (MEDIUM)
 - annas-diary: CTA con azione verificata e focus (HIGH)
 
-### UIV-039 — SelfMadeSystem/pretty-treefrog-77
+### UIV-039 — SelfMadeSystem/pretty-treefrog-77 (LOADER)
 
 - world-days: Caricamento delle storie locali (MEDIUM)
 - send-to-pc: Preparazione trasferimento reale (MEDIUM)
@@ -1123,7 +1123,7 @@
 - cashmate-ai: Attesa attività reale e risoluzione errore (MEDIUM)
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 
-### UIV-040 — Shoh2008/curvy-bulldog-27
+### UIV-040 — Shoh2008/curvy-bulldog-27 (LOADER)
 
 - app-factory-dashboard: Attesa attività reale e risoluzione errore (MEDIUM)
 - easy-debloat: Attesa attività reale e risoluzione errore (MEDIUM)
@@ -1133,7 +1133,7 @@
 - cooking-anime: Attesa attività reale e risoluzione errore (MEDIUM)
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 
-### UIV-041 — Shoh2008/ugly-elephant-80
+### UIV-041 — Shoh2008/ugly-elephant-80 (LOADER)
 
 - camperboss: Attesa attività reale e risoluzione errore (MEDIUM)
 - wonderlog: Attesa attività reale e risoluzione errore (MEDIUM)
@@ -1143,7 +1143,7 @@
 - deskland-android: Attesa attività reale e risoluzione errore (MEDIUM)
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 
-### UIV-042 — Shoh2008/yellow-dolphin-16
+### UIV-042 — Shoh2008/yellow-dolphin-16 (LOADER)
 
 - sleepmax-coach: Attesa attività reale e risoluzione errore (MEDIUM)
 - focussense: Attesa attività reale e risoluzione errore (MEDIUM)
@@ -1153,13 +1153,13 @@
 - framelab: Elaborazione foto/video effettiva (MEDIUM)
 - world-days: Caricamento delle storie locali (MEDIUM)
 
-### UIV-043 — Stavros2410/wet-duck-69
+### UIV-043 — Stavros2410/wet-duck-69 (INPUT)
 
-- notes-ecosistema: Solo idea da classificare visivamente (MEDIUM)
-- world-days: Solo idea da classificare visivamente (MEDIUM)
-- omni-cleaner: Solo idea da classificare visivamente (MEDIUM)
+- notes-ecosistema: Ricerca e filtri delle note con label accessibile (MEDIUM)
+- world-days: Ricerca per parola chiave delle ricorrenze (MEDIUM)
+- omni-cleaner: Ricerca file per nome con feedback chiaro (MEDIUM)
 
-### UIV-044 — Subaashbala/average-horse-18
+### UIV-044 — Subaashbala/average-horse-18 (LOADER)
 
 - world-days: Caricamento delle storie locali (MEDIUM)
 - send-to-pc: Preparazione trasferimento reale (MEDIUM)
@@ -1169,13 +1169,13 @@
 - cashmate-ai: Attesa attività reale e risoluzione errore (MEDIUM)
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 
-### UIV-045 — Uncannypotato69/honest-starfish-32
+### UIV-045 — Uncannypotato69/honest-starfish-32 (CHECKBOX)
 
-- omni-cleaner: Solo idea da classificare visivamente (MEDIUM)
-- app-factory-dashboard: Solo idea da classificare visivamente (MEDIUM)
-- notes-ecosistema: Solo idea da classificare visivamente (MEDIUM)
+- omni-cleaner: Selezione media prima di ogni eliminazione (MEDIUM)
+- app-factory-dashboard: Checklist dei controlli di verifica (MEDIUM)
+- notes-ecosistema: Checklist note o attività con stato reale (MEDIUM)
 
-### UIV-046 — Uncannypotato69/rotten-wasp-10
+### UIV-046 — Uncannypotato69/rotten-wasp-10 (CHECKBOX)
 
 - app-factory-dashboard: Selezione con semantica e feedback (MEDIUM)
 - world-days: Selezione con semantica e feedback (MEDIUM)
@@ -1184,7 +1184,7 @@
 - camperboss: Selezione con semantica e feedback (MEDIUM)
 - notes-ecosistema: Selezione con semantica e feedback (HIGH)
 
-### UIV-047 — Yaya12085/plastic-quail-42
+### UIV-047 — Yaya12085/plastic-quail-42 (BUTTON)
 
 - camperboss: CTA con azione verificata e focus (MEDIUM)
 - easy-debloat: CTA con azione verificata e focus (MEDIUM)
@@ -1193,7 +1193,7 @@
 - annas-diary: CTA con azione verificata e focus (HIGH)
 - notes-ecosistema: CTA con azione verificata e focus (MEDIUM)
 
-### UIV-048 — akshat-patel28/quick-baboon-29
+### UIV-048 — akshat-patel28/quick-baboon-29 (CARD)
 
 - annas-diary: Ricordi/diario illustrato (MEDIUM)
 - notes-ecosistema: Scheda nota o lavagna (HIGH)
@@ -1203,7 +1203,7 @@
 - framelab: Card di anteprima/collezione (MEDIUM)
 - beerclass-ai: Card di anteprima/collezione (MEDIUM)
 
-### UIV-049 — andrew-demchenk0/honest-stingray-90
+### UIV-049 — andrew-demchenk0/honest-stingray-90 (SWITCH)
 
 - 180flipcharge: Preferenza on/off persistita (MEDIUM)
 - annas-diary: Preferenza on/off persistita (MEDIUM)
@@ -1213,7 +1213,7 @@
 - easy-debloat: Preferenza on/off persistita (MEDIUM)
 - battery-guard: Stato avviso realmente attivo (HIGH)
 
-### UIV-050 — andrew-manzyk/fast-vampirebat-53
+### UIV-050 — andrew-manzyk/fast-vampirebat-53 (LOADER)
 
 - sleepmax-coach: Attesa attività reale e risoluzione errore (MEDIUM)
 - focussense: Attesa attività reale e risoluzione errore (MEDIUM)
@@ -1223,7 +1223,7 @@
 - framelab: Elaborazione foto/video effettiva (MEDIUM)
 - world-days: Caricamento delle storie locali (MEDIUM)
 
-### UIV-051 — andrew-manzyk/young-walrus-64
+### UIV-051 — andrew-manzyk/young-walrus-64 (LOADER)
 
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 - notes-ecosistema: Ricerca semantica/indicizzazione solo se avviata (MEDIUM)
@@ -1233,13 +1233,13 @@
 - battery-guard: Aggiornamento statistiche batteria (MEDIUM)
 - app-factory-dashboard: Attesa attività reale e risoluzione errore (MEDIUM)
 
-### UIV-052 — ashif_6672/rare-bat-68
+### UIV-052 — ashif_6672/rare-bat-68 (CARD)
 
-- notes-ecosistema: Solo idea da classificare visivamente (MEDIUM)
-- world-days: Solo idea da classificare visivamente (MEDIUM)
-- omni-cleaner: Solo idea da classificare visivamente (MEDIUM)
+- notes-ecosistema: Card di raccolta e workspace (MEDIUM)
+- world-days: Card anteprima della giornata (MEDIUM)
+- omni-cleaner: Card di riepilogo risultati (MEDIUM)
 
-### UIV-053 — barisdogansutcu/plastic-dolphin-67
+### UIV-053 — barisdogansutcu/plastic-dolphin-67 (TOOLTIP)
 
 - edu-01-corpo-umano: Aiuto contestuale non solo hover (MEDIUM)
 - battery-guard: Aiuto contestuale non solo hover (MEDIUM)
@@ -1248,7 +1248,7 @@
 - omni-cleaner: Aiuto contestuale non solo hover (MEDIUM)
 - notes-ecosistema: Aiuto contestuale non solo hover (MEDIUM)
 
-### UIV-054 — byllzz/great-wombat-13
+### UIV-054 — byllzz/great-wombat-13 (CARD)
 
 - wonderlog: Tappa o diario viaggio (MEDIUM)
 - cooking-anime: Card di anteprima/collezione (MEDIUM)
@@ -1258,7 +1258,7 @@
 - app-factory-dashboard: Scheda donor/capability/Golden (MEDIUM)
 - notes-ecosistema: Scheda nota o lavagna (HIGH)
 
-### UIV-055 — chase2k25/modern-stingray-54
+### UIV-055 — chase2k25/modern-stingray-54 (LOADER)
 
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 - notes-ecosistema: Ricerca semantica/indicizzazione solo se avviata (MEDIUM)
@@ -1268,7 +1268,7 @@
 - battery-guard: Aggiornamento statistiche batteria (MEDIUM)
 - app-factory-dashboard: Attesa attività reale e risoluzione errore (MEDIUM)
 
-### UIV-056 — chase2k25/warm-chicken-23
+### UIV-056 — chase2k25/warm-chicken-23 (CARD)
 
 - camperboss: Card di anteprima/collezione (MEDIUM)
 - edu-01-corpo-umano: Card di anteprima/collezione (MEDIUM)
@@ -1278,7 +1278,7 @@
 - world-days: Giornata e approfondimento storico (MEDIUM)
 - wonderlog: Tappa o diario viaggio (MEDIUM)
 
-### UIV-057 — cohencoo/dry-rat-94
+### UIV-057 — cohencoo/dry-rat-94 (LOADER)
 
 - app-factory-dashboard: Attesa attività reale e risoluzione errore (MEDIUM)
 - easy-debloat: Attesa attività reale e risoluzione errore (MEDIUM)
@@ -1288,7 +1288,7 @@
 - cooking-anime: Attesa attività reale e risoluzione errore (MEDIUM)
 - trailpath: Attesa routing/traccia GPS reale con timeout/retry (HIGH)
 
-### UIV-058 — cssbuttons-io/mean-dolphin-24
+### UIV-058 — cssbuttons-io/mean-dolphin-24 (SWITCH)
 
 - notes-ecosistema: Preferenza on/off persistita (MEDIUM)
 - pocket-guard: Preferenza on/off persistita (MEDIUM)
@@ -1298,7 +1298,7 @@
 - camperboss: Preferenza on/off persistita (MEDIUM)
 - battery-guard: Stato avviso realmente attivo (HIGH)
 
-### UIV-059 — cuzpq/gentle-goat-72
+### UIV-059 — cuzpq/gentle-goat-72 (SWITCH)
 
 - easy-debloat: Preferenza on/off persistita (MEDIUM)
 - sleepmax-coach: Preferenza on/off persistita (MEDIUM)
@@ -1308,7 +1308,7 @@
 - cashmate-ai: Preferenza on/off persistita (MEDIUM)
 - battery-guard: Stato avviso realmente attivo (HIGH)
 
-### UIV-060 — dexter-st/breezy-zebra-94
+### UIV-060 — dexter-st/breezy-zebra-94 (BUTTON)
 
 - annas-diary: CTA con azione verificata e focus (HIGH)
 - notes-ecosistema: CTA con azione verificata e focus (MEDIUM)
@@ -1317,7 +1317,7 @@
 - cooking-anime: CTA con azione verificata e focus (MEDIUM)
 - framelab: CTA con azione verificata e focus (MEDIUM)
 
-### UIV-061 — dexter-st/bright-lizard-8
+### UIV-061 — dexter-st/bright-lizard-8 (LOADER)
 
 - world-days: Caricamento delle storie locali (MEDIUM)
 - send-to-pc: Preparazione trasferimento reale (MEDIUM)
@@ -1327,7 +1327,7 @@
 - cashmate-ai: Attesa attività reale e risoluzione errore (MEDIUM)
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 
-### UIV-062 — dexter-st/spicy-otter-30
+### UIV-062 — dexter-st/spicy-otter-30 (LOADER)
 
 - app-factory-dashboard: Attesa attività reale e risoluzione errore (MEDIUM)
 - easy-debloat: Attesa attività reale e risoluzione errore (MEDIUM)
@@ -1337,7 +1337,7 @@
 - cooking-anime: Attesa attività reale e risoluzione errore (MEDIUM)
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 
-### UIV-063 — dexter-st/tough-falcon-78
+### UIV-063 — dexter-st/tough-falcon-78 (CARD)
 
 - beerclass-ai: Card di anteprima/collezione (MEDIUM)
 - cashmate-ai: Card di anteprima/collezione (MEDIUM)
@@ -1347,13 +1347,13 @@
 - deskland-android: Card di anteprima/collezione (MEDIUM)
 - notes-ecosistema: Scheda nota o lavagna (HIGH)
 
-### UIV-064 — dopekid_9309/tiny-dog-80
+### UIV-064 — dopekid_9309/tiny-dog-80 (BUTTON)
 
-- notes-ecosistema: Solo idea da classificare visivamente (MEDIUM)
-- world-days: Solo idea da classificare visivamente (MEDIUM)
-- omni-cleaner: Solo idea da classificare visivamente (MEDIUM)
+- notes-ecosistema: CTA aggiunta o apertura nota (MEDIUM)
+- world-days: CTA apertura dell'approfondimento (MEDIUM)
+- omni-cleaner: CTA per avviare scansione o aprire i risultati (MEDIUM)
 
-### UIV-065 — dovatgabriel/massive-vampirebat-17
+### UIV-065 — dovatgabriel/massive-vampirebat-17 (LOADER)
 
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 - notes-ecosistema: Ricerca semantica/indicizzazione solo se avviata (MEDIUM)
@@ -1363,7 +1363,7 @@
 - battery-guard: Aggiornamento statistiche batteria (MEDIUM)
 - app-factory-dashboard: Attesa attività reale e risoluzione errore (MEDIUM)
 
-### UIV-066 — elijahgummer/polite-earwig-72
+### UIV-066 — elijahgummer/polite-earwig-72 (LOADER)
 
 - world-days: Caricamento delle storie locali (MEDIUM)
 - send-to-pc: Preparazione trasferimento reale (MEDIUM)
@@ -1373,7 +1373,7 @@
 - cashmate-ai: Attesa attività reale e risoluzione errore (MEDIUM)
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 
-### UIV-067 — elijahgummer/young-horse-7
+### UIV-067 — elijahgummer/young-horse-7 (RADIO)
 
 - web-utility-factory: Scelta esclusiva accessibile (MEDIUM)
 - sleepmax-coach: Scelta esclusiva accessibile (MEDIUM)
@@ -1382,7 +1382,7 @@
 - notes-ecosistema: Scelta esclusiva accessibile (MEDIUM)
 - cashmate-ai: Scelta esclusiva accessibile (MEDIUM)
 
-### UIV-068 — esraaabdel-kareem/bad-dragonfly-54
+### UIV-068 — esraaabdel-kareem/bad-dragonfly-54 (LOADER)
 
 - sleepmax-coach: Attesa attività reale e risoluzione errore (MEDIUM)
 - focussense: Attesa attività reale e risoluzione errore (MEDIUM)
@@ -1392,7 +1392,7 @@
 - framelab: Elaborazione foto/video effettiva (MEDIUM)
 - world-days: Caricamento delle storie locali (MEDIUM)
 
-### UIV-069 — fthisilak/bitter-termite-36
+### UIV-069 — fthisilak/bitter-termite-36 (BUTTON)
 
 - easy-debloat: CTA con azione verificata e focus (MEDIUM)
 - web-utility-factory: CTA con azione verificata e focus (MEDIUM)
@@ -1401,7 +1401,7 @@
 - notes-ecosistema: CTA con azione verificata e focus (MEDIUM)
 - wonderlog: CTA con azione verificata e focus (MEDIUM)
 
-### UIV-070 — gagan-gv/unlucky-yak-4
+### UIV-070 — gagan-gv/unlucky-yak-4 (CHECKBOX)
 
 - camperboss: Selezione con semantica e feedback (MEDIUM)
 - cashmate-ai: Selezione con semantica e feedback (MEDIUM)
@@ -1410,7 +1410,7 @@
 - app-factory-dashboard: Selezione con semantica e feedback (MEDIUM)
 - world-days: Selezione con semantica e feedback (MEDIUM)
 
-### UIV-071 — gharsh11032000/sour-vampirebat-66
+### UIV-071 — gharsh11032000/sour-vampirebat-66 (SWITCH)
 
 - notes-ecosistema: Preferenza on/off persistita (MEDIUM)
 - pocket-guard: Preferenza on/off persistita (MEDIUM)
@@ -1420,7 +1420,7 @@
 - camperboss: Preferenza on/off persistita (MEDIUM)
 - battery-guard: Stato avviso realmente attivo (HIGH)
 
-### UIV-072 — gsperandio/shaggy-kangaroo-12
+### UIV-072 — gsperandio/shaggy-kangaroo-12 (LOADER)
 
 - camperboss: Attesa attività reale e risoluzione errore (MEDIUM)
 - wonderlog: Attesa attività reale e risoluzione errore (MEDIUM)
@@ -1430,7 +1430,7 @@
 - deskland-android: Attesa attività reale e risoluzione errore (MEDIUM)
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 
-### UIV-073 — ilkhoeri/thin-bobcat-83
+### UIV-073 — ilkhoeri/thin-bobcat-83 (CARD)
 
 - wonderlog: Tappa o diario viaggio (MEDIUM)
 - cooking-anime: Card di anteprima/collezione (MEDIUM)
@@ -1440,7 +1440,7 @@
 - app-factory-dashboard: Scheda donor/capability/Golden (MEDIUM)
 - notes-ecosistema: Scheda nota o lavagna (HIGH)
 
-### UIV-074 — jeremy_4982/massive-falcon-52
+### UIV-074 — jeremy_4982/massive-falcon-52 (LOADER)
 
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 - notes-ecosistema: Ricerca semantica/indicizzazione solo se avviata (MEDIUM)
@@ -1450,7 +1450,7 @@
 - battery-guard: Aggiornamento statistiche batteria (MEDIUM)
 - app-factory-dashboard: Attesa attività reale e risoluzione errore (MEDIUM)
 
-### UIV-075 — joe-watson-sbf/honest-bullfrog-6
+### UIV-075 — joe-watson-sbf/honest-bullfrog-6 (CARD)
 
 - camperboss: Card di anteprima/collezione (MEDIUM)
 - edu-01-corpo-umano: Card di anteprima/collezione (MEDIUM)
@@ -1460,7 +1460,7 @@
 - world-days: Giornata e approfondimento storico (MEDIUM)
 - wonderlog: Tappa o diario viaggio (MEDIUM)
 
-### UIV-076 — kat_2522/rude-robin-51
+### UIV-076 — kat_2522/rude-robin-51 (LOADER)
 
 - app-factory-dashboard: Attesa attività reale e risoluzione errore (MEDIUM)
 - easy-debloat: Attesa attività reale e risoluzione errore (MEDIUM)
@@ -1470,7 +1470,7 @@
 - cooking-anime: Attesa attività reale e risoluzione errore (MEDIUM)
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 
-### UIV-077 — kennyotsu/fast-emu-70
+### UIV-077 — kennyotsu/fast-emu-70 (CARD)
 
 - wonderlog: Tappa o diario viaggio (MEDIUM)
 - cooking-anime: Card di anteprima/collezione (MEDIUM)
@@ -1480,7 +1480,7 @@
 - app-factory-dashboard: Scheda donor/capability/Golden (MEDIUM)
 - notes-ecosistema: Scheda nota o lavagna (HIGH)
 
-### UIV-078 — kennyotsu/giant-sloth-18
+### UIV-078 — kennyotsu/giant-sloth-18 (CARD)
 
 - beerclass-ai: Card di anteprima/collezione (MEDIUM)
 - cashmate-ai: Card di anteprima/collezione (MEDIUM)
@@ -1490,13 +1490,13 @@
 - deskland-android: Card di anteprima/collezione (MEDIUM)
 - notes-ecosistema: Scheda nota o lavagna (HIGH)
 
-### UIV-079 — kennyotsu/selfish-bear-69
+### UIV-079 — kennyotsu/selfish-bear-69 (CARD)
 
-- notes-ecosistema: Solo idea da classificare visivamente (MEDIUM)
-- world-days: Solo idea da classificare visivamente (MEDIUM)
-- omni-cleaner: Solo idea da classificare visivamente (MEDIUM)
+- notes-ecosistema: Card anteprima nota (MEDIUM)
+- world-days: Card editoriale della storia (MEDIUM)
+- omni-cleaner: Card per gruppo di duplicati (MEDIUM)
 
-### UIV-080 — kennyotsu/short-ape-5
+### UIV-080 — kennyotsu/short-ape-5 (CARD)
 
 - annas-diary: Ricordi/diario illustrato (MEDIUM)
 - notes-ecosistema: Scheda nota o lavagna (HIGH)
@@ -1506,7 +1506,7 @@
 - framelab: Card di anteprima/collezione (MEDIUM)
 - beerclass-ai: Card di anteprima/collezione (MEDIUM)
 
-### UIV-081 — kennyotsu/tender-badger-21
+### UIV-081 — kennyotsu/tender-badger-21 (CARD)
 
 - wonderlog: Tappa o diario viaggio (MEDIUM)
 - cooking-anime: Card di anteprima/collezione (MEDIUM)
@@ -1516,7 +1516,7 @@
 - app-factory-dashboard: Scheda donor/capability/Golden (MEDIUM)
 - trailpath: Card di anteprima/collezione (HIGH)
 
-### UIV-082 — kennyotsu/wise-rattlesnake-92
+### UIV-082 — kennyotsu/wise-rattlesnake-92 (CARD)
 
 - beerclass-ai: Card di anteprima/collezione (MEDIUM)
 - cashmate-ai: Card di anteprima/collezione (MEDIUM)
@@ -1526,13 +1526,13 @@
 - deskland-android: Card di anteprima/collezione (MEDIUM)
 - notes-ecosistema: Scheda nota o lavagna (HIGH)
 
-### UIV-083 — kennyotsu/wonderful-firefox-31
+### UIV-083 — kennyotsu/wonderful-firefox-31 (CARD)
 
-- notes-ecosistema: Solo idea da classificare visivamente (MEDIUM)
-- world-days: Solo idea da classificare visivamente (MEDIUM)
-- omni-cleaner: Solo idea da classificare visivamente (MEDIUM)
+- notes-ecosistema: Card anteprima collezione (MEDIUM)
+- world-days: Card tematica della ricorrenza (MEDIUM)
+- omni-cleaner: Card risultato di scansione (MEDIUM)
 
-### UIV-084 — lukepadiachy/funny-moose-89
+### UIV-084 — lukepadiachy/funny-moose-89 (LOADER)
 
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 - notes-ecosistema: Ricerca semantica/indicizzazione solo se avviata (MEDIUM)
@@ -1542,7 +1542,7 @@
 - battery-guard: Aggiornamento statistiche batteria (MEDIUM)
 - app-factory-dashboard: Attesa attività reale e risoluzione errore (MEDIUM)
 
-### UIV-085 — m1her/odd-fireant-56
+### UIV-085 — m1her/odd-fireant-56 (SWITCH)
 
 - notes-ecosistema: Preferenza on/off persistita (MEDIUM)
 - pocket-guard: Preferenza on/off persistita (MEDIUM)
@@ -1552,7 +1552,7 @@
 - camperboss: Preferenza on/off persistita (MEDIUM)
 - battery-guard: Stato avviso realmente attivo (HIGH)
 
-### UIV-086 — mamyapro123/cuddly-warthog-66
+### UIV-086 — mamyapro123/cuddly-warthog-66 (SWITCH)
 
 - easy-debloat: Preferenza on/off persistita (MEDIUM)
 - sleepmax-coach: Preferenza on/off persistita (MEDIUM)
@@ -1562,7 +1562,7 @@
 - cashmate-ai: Preferenza on/off persistita (MEDIUM)
 - battery-guard: Stato avviso realmente attivo (HIGH)
 
-### UIV-087 — marcelodolza/fat-zebra-11
+### UIV-087 — marcelodolza/fat-zebra-11 (BUTTON)
 
 - camperboss: CTA con azione verificata e focus (MEDIUM)
 - easy-debloat: CTA con azione verificata e focus (MEDIUM)
@@ -1571,7 +1571,7 @@
 - annas-diary: CTA con azione verificata e focus (HIGH)
 - notes-ecosistema: CTA con azione verificata e focus (MEDIUM)
 
-### UIV-088 — mobinkakei/great-skunk-8
+### UIV-088 — mobinkakei/great-skunk-8 (SWITCH)
 
 - battery-guard: Stato avviso realmente attivo (HIGH)
 - focussense: Preferenza on/off persistita (MEDIUM)
@@ -1581,7 +1581,7 @@
 - notes-ecosistema: Preferenza on/off persistita (MEDIUM)
 - pocket-guard: Preferenza on/off persistita (MEDIUM)
 
-### UIV-089 — mobinkakei/grumpy-turtle-41
+### UIV-089 — mobinkakei/grumpy-turtle-41 (LOADER)
 
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 - notes-ecosistema: Ricerca semantica/indicizzazione solo se avviata (MEDIUM)
@@ -1591,7 +1591,7 @@
 - battery-guard: Aggiornamento statistiche batteria (MEDIUM)
 - app-factory-dashboard: Attesa attività reale e risoluzione errore (MEDIUM)
 
-### UIV-090 — mobinkakei/strong-lizard-79
+### UIV-090 — mobinkakei/strong-lizard-79 (SWITCH)
 
 - pocket-guard: Preferenza on/off persistita (MEDIUM)
 - phone-guard: Preferenza on/off persistita (MEDIUM)
@@ -1601,7 +1601,7 @@
 - the-luminous-infinite-circle: Preferenza on/off persistita (MEDIUM)
 - battery-guard: Stato avviso realmente attivo (HIGH)
 
-### UIV-091 — monkey_8812/curly-moth-56
+### UIV-091 — monkey_8812/curly-moth-56 (CARD)
 
 - camperboss: Card di anteprima/collezione (MEDIUM)
 - edu-01-corpo-umano: Card di anteprima/collezione (MEDIUM)
@@ -1611,7 +1611,7 @@
 - world-days: Giornata e approfondimento storico (MEDIUM)
 - wonderlog: Tappa o diario viaggio (MEDIUM)
 
-### UIV-092 — mymiamo/quiet-dragon-5
+### UIV-092 — mymiamo/quiet-dragon-5 (CARD)
 
 - annas-diary: Ricordi/diario illustrato (MEDIUM)
 - notes-ecosistema: Scheda nota o lavagna (HIGH)
@@ -1621,13 +1621,13 @@
 - framelab: Card di anteprima/collezione (MEDIUM)
 - beerclass-ai: Card di anteprima/collezione (MEDIUM)
 
-### UIV-093 — preet_7613/new-cougar-63
+### UIV-093 — preet_7613/new-cougar-63 (CARD)
 
-- omni-cleaner: Solo idea da classificare visivamente (MEDIUM)
-- app-factory-dashboard: Solo idea da classificare visivamente (MEDIUM)
-- notes-ecosistema: Solo idea da classificare visivamente (MEDIUM)
+- omni-cleaner: Card riepilogo archiviazione (MEDIUM)
+- app-factory-dashboard: Card progetto o capability (MEDIUM)
+- notes-ecosistema: Card nota o collezione (MEDIUM)
 
-### UIV-094 — satyamchaudharydev/splendid-husky-54
+### UIV-094 — satyamchaudharydev/splendid-husky-54 (LOADER)
 
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 - notes-ecosistema: Ricerca semantica/indicizzazione solo se avviata (MEDIUM)
@@ -1637,7 +1637,7 @@
 - battery-guard: Aggiornamento statistiche batteria (MEDIUM)
 - app-factory-dashboard: Attesa attività reale e risoluzione errore (MEDIUM)
 
-### UIV-095 — seoulchik/funny-seahorse-89
+### UIV-095 — seoulchik/funny-seahorse-89 (CARD)
 
 - camperboss: Card di anteprima/collezione (MEDIUM)
 - edu-01-corpo-umano: Card di anteprima/collezione (MEDIUM)
@@ -1647,7 +1647,7 @@
 - world-days: Giornata e approfondimento storico (MEDIUM)
 - wonderlog: Tappa o diario viaggio (MEDIUM)
 
-### UIV-096 — solowzrd/wet-lionfish-63
+### UIV-096 — solowzrd/wet-lionfish-63 (PATTERN)
 
 - battery-guard: Texture background con gate contrasto/FPS (MEDIUM)
 - app-factory-dashboard: Texture background con gate contrasto/FPS (MEDIUM)
@@ -1656,7 +1656,7 @@
 - deskland-android: Texture background con gate contrasto/FPS (HIGH)
 - focussense: Texture background con gate contrasto/FPS (MEDIUM)
 
-### UIV-097 — vamsidevendrakumar/soft-shrimp-94
+### UIV-097 — vamsidevendrakumar/soft-shrimp-94 (CARD)
 
 - wonderlog: Tappa o diario viaggio (MEDIUM)
 - cooking-anime: Card di anteprima/collezione (MEDIUM)
@@ -1666,7 +1666,7 @@
 - app-factory-dashboard: Scheda donor/capability/Golden (MEDIUM)
 - notes-ecosistema: Scheda nota o lavagna (HIGH)
 
-### UIV-098 — whoisyourdeadie/foolish-rabbit-13
+### UIV-098 — whoisyourdeadie/foolish-rabbit-13 (PATTERN)
 
 - cashmate-ai: Texture background con gate contrasto/FPS (MEDIUM)
 - notes-ecosistema: Texture opzionale fuori dall'area scrittura (MEDIUM)
@@ -1675,7 +1675,7 @@
 - battery-guard: Texture background con gate contrasto/FPS (MEDIUM)
 - deskland-android: Texture background con gate contrasto/FPS (HIGH)
 
-### UIV-099 — xXJollyHAKERXx/lucky-falcon-75
+### UIV-099 — xXJollyHAKERXx/lucky-falcon-75 (LOADER)
 
 - omni-cleaner: Scansione memoria/duplicati con stato reale (HIGH)
 - notes-ecosistema: Ricerca semantica/indicizzazione solo se avviata (MEDIUM)
@@ -1685,7 +1685,7 @@
 - battery-guard: Aggiornamento statistiche batteria (MEDIUM)
 - app-factory-dashboard: Attesa attività reale e risoluzione errore (MEDIUM)
 
-### UIV-100 — zanina-yassine/afraid-eel-50
+### UIV-100 — zanina-yassine/afraid-eel-50 (SWITCH)
 
 - easy-debloat: Preferenza on/off persistita (MEDIUM)
 - sleepmax-coach: Preferenza on/off persistita (MEDIUM)

@@ -45,9 +45,9 @@ Il codice presente è originale Web (HTML/CSS), con provenienza e blob fissati; 
 | UIV-040 | LOADER | [Shoh2008/curvy-bulldog-27](https://uiverse.io/Shoh2008/curvy-bulldog-27) | [HTML/CSS](./CODICE_SORGENTE/UIV-040_original.html) |
 | UIV-041 | LOADER | [Shoh2008/ugly-elephant-80](https://uiverse.io/Shoh2008/ugly-elephant-80) | [HTML/CSS](./CODICE_SORGENTE/UIV-041_original.html) |
 | UIV-042 | LOADER | [Shoh2008/yellow-dolphin-16](https://uiverse.io/Shoh2008/yellow-dolphin-16) | [HTML/CSS](./CODICE_SORGENTE/UIV-042_original.html) |
-| UIV-043 | UNKNOWN | [Stavros2410/wet-duck-69](https://uiverse.io/Stavros2410/wet-duck-69) | [HTML](./CODICE_SORGENTE/UIV-043_original.html) · [CSS](./CODICE_SORGENTE/UIV-043_original.css) |
+| UIV-043 | INPUT | [Stavros2410/wet-duck-69](https://uiverse.io/Stavros2410/wet-duck-69) | [HTML](./CODICE_SORGENTE/UIV-043_original.html) · [CSS](./CODICE_SORGENTE/UIV-043_original.css) |
 | UIV-044 | LOADER | [Subaashbala/average-horse-18](https://uiverse.io/Subaashbala/average-horse-18) | [HTML/CSS](./CODICE_SORGENTE/UIV-044_original.html) |
-| UIV-045 | UNKNOWN | [Uncannypotato69/honest-starfish-32](https://uiverse.io/Uncannypotato69/honest-starfish-32) | [HTML](./CODICE_SORGENTE/UIV-045_original.html) · [CSS](./CODICE_SORGENTE/UIV-045_original.css) |
+| UIV-045 | CHECKBOX | [Uncannypotato69/honest-starfish-32](https://uiverse.io/Uncannypotato69/honest-starfish-32) | [HTML](./CODICE_SORGENTE/UIV-045_original.html) · [CSS](./CODICE_SORGENTE/UIV-045_original.css) |
 | UIV-046 | CHECKBOX | [Uncannypotato69/rotten-wasp-10](https://uiverse.io/Uncannypotato69/rotten-wasp-10) | [HTML](./CODICE_SORGENTE/UIV-046_original.html) · [CSS](./CODICE_SORGENTE/UIV-046_original.css) |
 | UIV-047 | BUTTON | [Yaya12085/plastic-quail-42](https://uiverse.io/Yaya12085/plastic-quail-42) | [HTML/CSS](./CODICE_SORGENTE/UIV-047_original.html) |
 | UIV-048 | CARD | [akshat-patel28/quick-baboon-29](https://uiverse.io/akshat-patel28/quick-baboon-29) | [HTML/CSS](./CODICE_SORGENTE/UIV-048_original.html) |
@@ -57,7 +57,7 @@ Il codice presente è originale Web (HTML/CSS), con provenienza e blob fissati; 
 | UIV-050 | LOADER | [andrew-manzyk/fast-vampirebat-53](https://uiverse.io/andrew-manzyk/fast-vampirebat-53) | [HTML](./CODICE_SORGENTE/UIV-050_original.html) · [CSS](./CODICE_SORGENTE/UIV-050_original.css) |
 | UIV-051 | LOADER | [andrew-manzyk/young-walrus-64](https://uiverse.io/andrew-manzyk/young-walrus-64) | [HTML](./CODICE_SORGENTE/UIV-051_original.html) · [CSS](./CODICE_SORGENTE/UIV-051_original.css) |
 | UIV-007 | LOADER | [arthur_6104/orange-walrus-50](https://uiverse.io/arthur_6104/orange-walrus-50) | [HTML](./CODICE_SORGENTE/UIV-007_original.html) · [CSS](./CODICE_SORGENTE/UIV-007_original.css) |
-| UIV-052 | UNKNOWN | [ashif_6672/rare-bat-68](https://uiverse.io/ashif_6672/rare-bat-68) | [HTML](./CODICE_SORGENTE/UIV-052_original.html) · [CSS](./CODICE_SORGENTE/UIV-052_original.css) |
+| UIV-052 | CARD | [ashif_6672/rare-bat-68](https://uiverse.io/ashif_6672/rare-bat-68) | [HTML](./CODICE_SORGENTE/UIV-052_original.html) · [CSS](./CODICE_SORGENTE/UIV-052_original.css) |
 | UIV-053 | TOOLTIP | [barisdogansutcu/plastic-dolphin-67](https://uiverse.io/barisdogansutcu/plastic-dolphin-67) | [HTML/CSS](./CODICE_SORGENTE/UIV-053_original.html) |
 | UIV-054 | CARD | [byllzz/great-wombat-13](https://uiverse.io/byllzz/great-wombat-13) | [HTML](./CODICE_SORGENTE/UIV-054_original.html) · [CSS](./CODICE_SORGENTE/UIV-054_original.css) |
 | UIV-055 | LOADER | [chase2k25/modern-stingray-54](https://uiverse.io/chase2k25/modern-stingray-54) | [HTML](./CODICE_SORGENTE/UIV-055_original.html) · [CSS](./CODICE_SORGENTE/UIV-055_original.css) |
@@ -69,7 +69,7 @@ Il codice presente è originale Web (HTML/CSS), con provenienza e blob fissati; 
 | UIV-061 | LOADER | [dexter-st/bright-lizard-8](https://uiverse.io/dexter-st/bright-lizard-8) | [HTML](./CODICE_SORGENTE/UIV-061_original.html) · [CSS](./CODICE_SORGENTE/UIV-061_original.css) |
 | UIV-062 | LOADER | [dexter-st/spicy-otter-30](https://uiverse.io/dexter-st/spicy-otter-30) | [HTML](./CODICE_SORGENTE/UIV-062_original.html) · [CSS](./CODICE_SORGENTE/UIV-062_original.css) |
 | UIV-063 | CARD | [dexter-st/tough-falcon-78](https://uiverse.io/dexter-st/tough-falcon-78) | [HTML](./CODICE_SORGENTE/UIV-063_original.html) · [CSS](./CODICE_SORGENTE/UIV-063_original.css) |
-| UIV-064 | UNKNOWN | [dopekid_9309/tiny-dog-80](https://uiverse.io/dopekid_9309/tiny-dog-80) | [HTML](./CODICE_SORGENTE/UIV-064_original.html) · [CSS](./CODICE_SORGENTE/UIV-064_original.css) |
+| UIV-064 | BUTTON | [dopekid_9309/tiny-dog-80](https://uiverse.io/dopekid_9309/tiny-dog-80) | [HTML](./CODICE_SORGENTE/UIV-064_original.html) · [CSS](./CODICE_SORGENTE/UIV-064_original.css) |
 | UIV-065 | LOADER | [dovatgabriel/massive-vampirebat-17](https://uiverse.io/dovatgabriel/massive-vampirebat-17) | [HTML](./CODICE_SORGENTE/UIV-065_original.html) · [CSS](./CODICE_SORGENTE/UIV-065_original.css) |
 | UIV-066 | LOADER | [elijahgummer/polite-earwig-72](https://uiverse.io/elijahgummer/polite-earwig-72) | [HTML](./CODICE_SORGENTE/UIV-066_original.html) · [CSS](./CODICE_SORGENTE/UIV-066_original.css) |
 | UIV-067 | RADIO | [elijahgummer/young-horse-7](https://uiverse.io/elijahgummer/young-horse-7) | [HTML](./CODICE_SORGENTE/UIV-067_original.html) · [CSS](./CODICE_SORGENTE/UIV-067_original.css) |
@@ -85,11 +85,11 @@ Il codice presente è originale Web (HTML/CSS), con provenienza e blob fissati; 
 | UIV-076 | LOADER | [kat_2522/rude-robin-51](https://uiverse.io/kat_2522/rude-robin-51) | [HTML](./CODICE_SORGENTE/UIV-076_original.html) · [CSS](./CODICE_SORGENTE/UIV-076_original.css) |
 | UIV-077 | CARD | [kennyotsu/fast-emu-70](https://uiverse.io/kennyotsu/fast-emu-70) | [HTML/CSS](./CODICE_SORGENTE/UIV-077_original.html) |
 | UIV-078 | CARD | [kennyotsu/giant-sloth-18](https://uiverse.io/kennyotsu/giant-sloth-18) | [HTML](./CODICE_SORGENTE/UIV-078_original.html) · [CSS](./CODICE_SORGENTE/UIV-078_original.css) |
-| UIV-079 | UNKNOWN | [kennyotsu/selfish-bear-69](https://uiverse.io/kennyotsu/selfish-bear-69) | [HTML](./CODICE_SORGENTE/UIV-079_original.html) · [CSS](./CODICE_SORGENTE/UIV-079_original.css) |
+| UIV-079 | CARD | [kennyotsu/selfish-bear-69](https://uiverse.io/kennyotsu/selfish-bear-69) | [HTML](./CODICE_SORGENTE/UIV-079_original.html) · [CSS](./CODICE_SORGENTE/UIV-079_original.css) |
 | UIV-080 | CARD | [kennyotsu/short-ape-5](https://uiverse.io/kennyotsu/short-ape-5) | [HTML/CSS](./CODICE_SORGENTE/UIV-080_original.html) |
 | UIV-081 | CARD | [kennyotsu/tender-badger-21](https://uiverse.io/kennyotsu/tender-badger-21) | [HTML](./CODICE_SORGENTE/UIV-081_original.html) · [CSS](./CODICE_SORGENTE/UIV-081_original.css) |
 | UIV-082 | CARD | [kennyotsu/wise-rattlesnake-92](https://uiverse.io/kennyotsu/wise-rattlesnake-92) | [HTML/CSS](./CODICE_SORGENTE/UIV-082_original.html) |
-| UIV-083 | UNKNOWN | [kennyotsu/wonderful-firefox-31](https://uiverse.io/kennyotsu/wonderful-firefox-31) | [HTML](./CODICE_SORGENTE/UIV-083_original.html) · [CSS](./CODICE_SORGENTE/UIV-083_original.css) |
+| UIV-083 | CARD | [kennyotsu/wonderful-firefox-31](https://uiverse.io/kennyotsu/wonderful-firefox-31) | [HTML](./CODICE_SORGENTE/UIV-083_original.html) · [CSS](./CODICE_SORGENTE/UIV-083_original.css) |
 | UIV-084 | LOADER | [lukepadiachy/funny-moose-89](https://uiverse.io/lukepadiachy/funny-moose-89) | [HTML/CSS](./CODICE_SORGENTE/UIV-084_original.html) |
 | UIV-085 | SWITCH | [m1her/odd-fireant-56](https://uiverse.io/m1her/odd-fireant-56) | [HTML](./CODICE_SORGENTE/UIV-085_original.html) · [CSS](./CODICE_SORGENTE/UIV-085_original.css) |
 | UIV-086 | SWITCH | [mamyapro123/cuddly-warthog-66](https://uiverse.io/mamyapro123/cuddly-warthog-66) | [HTML](./CODICE_SORGENTE/UIV-086_original.html) · [CSS](./CODICE_SORGENTE/UIV-086_original.css) |
@@ -99,7 +99,7 @@ Il codice presente è originale Web (HTML/CSS), con provenienza e blob fissati; 
 | UIV-090 | SWITCH | [mobinkakei/strong-lizard-79](https://uiverse.io/mobinkakei/strong-lizard-79) | [HTML/CSS](./CODICE_SORGENTE/UIV-090_original.html) |
 | UIV-091 | CARD | [monkey_8812/curly-moth-56](https://uiverse.io/monkey_8812/curly-moth-56) | [HTML](./CODICE_SORGENTE/UIV-091_original.html) · [CSS](./CODICE_SORGENTE/UIV-091_original.css) |
 | UIV-092 | CARD | [mymiamo/quiet-dragon-5](https://uiverse.io/mymiamo/quiet-dragon-5) | [HTML](./CODICE_SORGENTE/UIV-092_original.html) · [CSS](./CODICE_SORGENTE/UIV-092_original.css) |
-| UIV-093 | UNKNOWN | [preet_7613/new-cougar-63](https://uiverse.io/preet_7613/new-cougar-63) | [HTML](./CODICE_SORGENTE/UIV-093_original.html) · [CSS](./CODICE_SORGENTE/UIV-093_original.css) |
+| UIV-093 | CARD | [preet_7613/new-cougar-63](https://uiverse.io/preet_7613/new-cougar-63) | [HTML](./CODICE_SORGENTE/UIV-093_original.html) · [CSS](./CODICE_SORGENTE/UIV-093_original.css) |
 | UIV-094 | LOADER | [satyamchaudharydev/splendid-husky-54](https://uiverse.io/satyamchaudharydev/splendid-husky-54) | [HTML/CSS](./CODICE_SORGENTE/UIV-094_original.html) |
 | UIV-095 | CARD | [seoulchik/funny-seahorse-89](https://uiverse.io/seoulchik/funny-seahorse-89) | [HTML](./CODICE_SORGENTE/UIV-095_original.html) · [CSS](./CODICE_SORGENTE/UIV-095_original.css) |
 | UIV-096 | PATTERN | [solowzrd/wet-lionfish-63](https://uiverse.io/solowzrd/wet-lionfish-63) | [HTML](./CODICE_SORGENTE/UIV-096_original.html) · [CSS](./CODICE_SORGENTE/UIV-096_original.css) |
