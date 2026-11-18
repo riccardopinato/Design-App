@@ -1,0 +1,571 @@
+{
+  "schema_version": 1,
+  "batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+  "source_export": "UI-UX/UIVERSE/FAVORITES/EXPORT_2026-11-18T16-40-39Z.json",
+  "mapping_basis": "public post category and actual CSS/HTML source captured in PR #42",
+  "status": "PROPOSED_ONLY",
+  "items": [
+    {
+      "id": "UIV-101",
+      "category": "FORM",
+      "design_guidance": "Blue modern login form; use only where an input or optional account flow already exists",
+      "ip_review_required": false,
+      "apps": [
+        {
+          "app": "cashmate-ai",
+          "fit": "HIGH",
+          "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "notes-ecosistema",
+          "fit": "HIGH",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "annas-diary",
+          "fit": "MEDIUM",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "app-factory-dashboard",
+          "fit": "MEDIUM",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "beerclass-ai",
+          "fit": "MEDIUM",
+          "surface": "Input Rapid Log birra, nessun nuovo login",
+          "status": "PROPOSED_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "UIV-102",
+      "category": "FORM",
+      "design_guidance": "Warm stitched beige/orange login form; adapt to product typography and contrast",
+      "ip_review_required": false,
+      "apps": [
+        {
+          "app": "annas-diary",
+          "fit": "HIGH",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "notes-ecosistema",
+          "fit": "HIGH",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "camperboss",
+          "fit": "MEDIUM",
+          "surface": "Input destinazione/itinerario anche offline",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "cooking-anime",
+          "fit": "MEDIUM",
+          "surface": "Input ricetta, ingredienti o titolo",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "sleepmax-coach",
+          "fit": "MEDIUM",
+          "surface": "Form preferenze routine serale",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "app-factory-dashboard",
+          "fit": "MEDIUM",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "UIV-103",
+      "category": "FORM",
+      "design_guidance": "Blue gradient and depth form; tone down gloss and 3D for readable mobile inputs",
+      "ip_review_required": false,
+      "apps": [
+        {
+          "app": "cashmate-ai",
+          "fit": "HIGH",
+          "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "app-factory-dashboard",
+          "fit": "HIGH",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "notes-ecosistema",
+          "fit": "MEDIUM",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "beerclass-ai",
+          "fit": "MEDIUM",
+          "surface": "Input Rapid Log birra, nessun nuovo login",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "send-to-pc",
+          "fit": "MEDIUM",
+          "surface": "Campo codice abbinamento dispositivo solo se previsto",
+          "status": "PROPOSED_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "UIV-104",
+      "category": "FORM",
+      "design_guidance": "Minimal purple login form; adapt palette and semantics rather than add authentication",
+      "ip_review_required": false,
+      "apps": [
+        {
+          "app": "cashmate-ai",
+          "fit": "HIGH",
+          "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "notes-ecosistema",
+          "fit": "HIGH",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "annas-diary",
+          "fit": "MEDIUM",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "app-factory-dashboard",
+          "fit": "MEDIUM",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "cooking-anime",
+          "fit": "MEDIUM",
+          "surface": "Input ricetta, ingredienti o titolo",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+          "status": "PROPOSED_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "UIV-105",
+      "category": "FORM",
+      "design_guidance": "Welcome/social login form; explicit consent and existing optional provider only",
+      "ip_review_required": false,
+      "apps": [
+        {
+          "app": "cashmate-ai",
+          "fit": "HIGH",
+          "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "annas-diary",
+          "fit": "HIGH",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "notes-ecosistema",
+          "fit": "MEDIUM",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "app-factory-dashboard",
+          "fit": "MEDIUM",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "cooking-anime",
+          "fit": "MEDIUM",
+          "surface": "Input ricetta, ingredienti o titolo",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "beerclass-ai",
+          "fit": "MEDIUM",
+          "surface": "Input Rapid Log birra, nessun nuovo login",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "framelab",
+          "fit": "MEDIUM",
+          "surface": "Form nome progetto e metadata",
+          "status": "PROPOSED_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "UIV-106",
+      "category": "LOADER",
+      "design_guidance": "Red suspension-ball animation; requires actual running job, retry/timeout, reduced motion",
+      "ip_review_required": false,
+      "apps": [
+        {
+          "app": "omni-cleaner",
+          "fit": "HIGH",
+          "surface": "Feedback scansione duplicati effettivamente avviata",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "notes-ecosistema",
+          "fit": "HIGH",
+          "surface": "Indicizzazione/esportazione reale con stato di errore e retry",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "battery-guard",
+          "fit": "MEDIUM",
+          "surface": "Aggiornamento telemetria batteria realmente in corso",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "framelab",
+          "fit": "MEDIUM",
+          "surface": "Rendering o esportazione media effettiva",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Importazione dati/storie offline in corso",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "send-to-pc",
+          "fit": "MEDIUM",
+          "surface": "Avvio trasferimento Wi-Fi/QR con progress reale",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "easy-debloat",
+          "fit": "MEDIUM",
+          "surface": "Esecuzione debloat autorizzata, con annullamento ed esito",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "app-factory-dashboard",
+          "fit": "MEDIUM",
+          "surface": "Verifica repository GitHub realmente avviata",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "trailpath",
+          "fit": "MEDIUM",
+          "surface": "Attesa routing GPS con fallback errore",
+          "status": "PROPOSED_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "UIV-107",
+      "category": "LOADER",
+      "design_guidance": "Orange drink-themed animated loader; use only when visually coherent and job runs",
+      "ip_review_required": false,
+      "apps": [
+        {
+          "app": "beerclass-ai",
+          "fit": "HIGH",
+          "surface": "Acquisizione codice a barre o catalogazione realmente attiva",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "cooking-anime",
+          "fit": "HIGH",
+          "surface": "Caricamento ricetta o salvataggio realmente in corso",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "camperboss",
+          "fit": "MEDIUM",
+          "surface": "Importazione dati offline in corso",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Calcolo itinerario o media in corso",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Importazione dati/storie offline in corso",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "framelab",
+          "fit": "MEDIUM",
+          "surface": "Rendering o esportazione media effettiva",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "sleepmax-coach",
+          "fit": "MEDIUM",
+          "surface": "Aggiornamento dati routine solo se in corso",
+          "status": "PROPOSED_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "UIV-108",
+      "category": "FORM",
+      "design_guidance": "Pixel-art character form: recognizable Mario/Nintendo reference; reference-only until IP review",
+      "ip_review_required": true,
+      "apps": [
+        {
+          "app": "cooking-anime",
+          "fit": "HIGH",
+          "surface": "Input ricetta, ingredienti o titolo",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "deskland-android",
+          "fit": "HIGH",
+          "surface": "Form interattivo del launcher, originalità grafica vincolante",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "edu-01-corpo-umano",
+          "fit": "MEDIUM",
+          "surface": "Form risposta quiz reinterpretato in stile videogioco generico",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "framelab",
+          "fit": "MEDIUM",
+          "surface": "Form nome progetto e metadata",
+          "status": "PROPOSED_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "UIV-109",
+      "category": "FORM",
+      "design_guidance": "Pink retro/pastel stars form; adapt to approved rose palette and reduced-motion",
+      "ip_review_required": false,
+      "apps": [
+        {
+          "app": "annas-diary",
+          "fit": "HIGH",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "notes-ecosistema",
+          "fit": "HIGH",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "cooking-anime",
+          "fit": "MEDIUM",
+          "surface": "Input ricetta, ingredienti o titolo",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "beerclass-ai",
+          "fit": "MEDIUM",
+          "surface": "Input Rapid Log birra, nessun nuovo login",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "camperboss",
+          "fit": "MEDIUM",
+          "surface": "Input destinazione/itinerario anche offline",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "sleepmax-coach",
+          "fit": "MEDIUM",
+          "surface": "Form preferenze routine serale",
+          "status": "PROPOSED_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "UIV-110",
+      "category": "TOOLTIP",
+      "design_guidance": "Animated tooltip with real information; tap/focus/keyboard support, not hover-only",
+      "ip_review_required": false,
+      "apps": [
+        {
+          "app": "app-factory-dashboard",
+          "fit": "HIGH",
+          "surface": "Tooltip differenza Implemented/Verified e evidenze",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "notes-ecosistema",
+          "fit": "HIGH",
+          "surface": "Spiegazione strumenti canvas e note",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "omni-cleaner",
+          "fit": "MEDIUM",
+          "surface": "Informazioni su file duplicati prima della cancellazione",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "cashmate-ai",
+          "fit": "MEDIUM",
+          "surface": "Legenda dei termini o indicatori finanziari",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "edu-01-corpo-umano",
+          "fit": "MEDIUM",
+          "surface": "Definizione di un termine anatomico con supporto touch",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "battery-guard",
+          "fit": "MEDIUM",
+          "surface": "Spiegazione dello stato della carica",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Legenda mappa/tappe accessibile",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Nota esplicativa fonti, anno o ricorrenza",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "focussense",
+          "fit": "MEDIUM",
+          "surface": "Tooltip significato Focus Score",
+          "status": "PROPOSED_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "UIV-111",
+      "category": "FORM",
+      "design_guidance": "Minimal purple account form; use existing opt-in or non-auth input surfaces only",
+      "ip_review_required": false,
+      "apps": [
+        {
+          "app": "cashmate-ai",
+          "fit": "HIGH",
+          "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "notes-ecosistema",
+          "fit": "HIGH",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "app-factory-dashboard",
+          "fit": "MEDIUM",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "annas-diary",
+          "fit": "MEDIUM",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "camperboss",
+          "fit": "MEDIUM",
+          "surface": "Input destinazione/itinerario anche offline",
+          "status": "PROPOSED_ONLY"
+        }
+      ]
+    }
+  ]
+}
