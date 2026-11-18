@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "baseline_export_at": "2026-11-18T10:08:06.777Z",
+  "current_export_at": "2026-11-18T16:40:39.750Z",
+  "baseline_count": 97,
+  "new_count": 108,
+  "new_unique_count": 108,
+  "added_count": 11,
+  "removed_count": 0,
+  "unchanged_count": 97,
+  "added": [
+    {
+      "id": "UIV-101",
+      "url": "https://uiverse.io/Javierrocadev/chatty-ladybug-95"
+    },
+    {
+      "id": "UIV-102",
+      "url": "https://uiverse.io/Praashoo7/bitter-pig-24"
+    },
+    {
+      "id": "UIV-103",
+      "url": "https://uiverse.io/SyedShahzaib7/brave-dog-61"
+    },
+    {
+      "id": "UIV-104",
+      "url": "https://uiverse.io/alexmaracinaru/tall-owl-30"
+    },
+    {
+      "id": "UIV-105",
+      "url": "https://uiverse.io/ayyjayy2/sour-dog-94"
+    },
+    {
+      "id": "UIV-106",
+      "url": "https://uiverse.io/doniaskima/cowardly-frog-28"
+    },
+    {
+      "id": "UIV-107",
+      "url": "https://uiverse.io/elijahgummer/new-fly-30"
+    },
+    {
+      "id": "UIV-108",
+      "url": "https://uiverse.io/guilhermeyohan/friendly-walrus-55"
+    },
+    {
+      "id": "UIV-109",
+      "url": "https://uiverse.io/mamyapro123/curvy-bear-51"
+    },
+    {
+      "id": "UIV-110",
+      "url": "https://uiverse.io/roroland/average-horse-2"
+    },
+    {
+      "id": "UIV-111",
+      "url": "https://uiverse.io/vinodjangid07/horrible-warthog-14"
+    }
+  ],
+  "removed": [],
+  "completeness": "REQUIRES_USER_COUNT_VERIFICATION"
+}

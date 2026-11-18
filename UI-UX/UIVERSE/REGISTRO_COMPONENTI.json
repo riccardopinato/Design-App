@@ -2,21 +2,23 @@
   "schema_version": 1,
   "batch": "UIVERSE_9_2026_11_18",
   "recorded_at": "2026-11-18",
-  "factory_sha": "a8d20ceb71ce9e9e16e6756d257d611fa6f1e0ec",
+  "factory_sha": "63c3ecba07dafdf46e27e175bd973ee05107fecb",
   "design_base_sha": "86272178bc29008c111ee459f23e74b95cb88e63",
   "source_repo": "uiverse-io/galaxy",
   "source_commit": "adbd2adde0a299a3956ea288fb444ec01891ca41",
   "counts": {
-    "links": 100,
+    "links": 111,
     "original_source_files": 100,
-    "code_unavailable": 0,
+    "code_unavailable": 11,
     "apps": 25,
     "app_component_relations": 657,
-    "favorite_links": 97,
+    "favorite_links": 108,
     "favorite_source_available": 97,
-    "favorite_source_unlocated": 0,
-    "new_from_favorites": 91,
-    "preexisting_favorite_links": 6
+    "favorite_source_unlocated": 11,
+    "new_from_favorites": 102,
+    "preexisting_favorite_links": 6,
+    "new_since_last_export": 11,
+    "removed_since_last_export": 0
   },
   "components": [
     {
@@ -71,7 +73,7 @@
       ],
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 42,
+      "favorite_export_position": 46,
       "source_code_analysis": {
         "css_tags": "loader",
         "html_root": "div",
@@ -294,7 +296,7 @@
       ],
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 13,
+      "favorite_export_position": 14,
       "source_code_analysis": {
         "css_tags": "gradient, card",
         "html_root": "div",
@@ -375,7 +377,7 @@
       ],
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 43,
+      "favorite_export_position": 47,
       "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-005_original.css",
       "source_css_blob_sha": "369524a343a39ede4f1ed25274532055295f77a5",
       "source_html_sha256": "6b4d1c9e6eff54e6b7ce644fc455ebd61190df60ec2d40f58132114156c09ce3",
@@ -463,7 +465,7 @@
       ],
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 14,
+      "favorite_export_position": 15,
       "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-006_original.css",
       "source_css_blob_sha": "7d9864e45aeda26e7c834fc92904cb3c1d879b10",
       "source_html_sha256": "c8eccee2edf80ba77651504997070107a29a5e87017005ab8667f727f0607292",
@@ -557,7 +559,7 @@
       ],
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 47,
+      "favorite_export_position": 51,
       "source_css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-007_original.css",
       "source_css_blob_sha": "1263028594101795964acd957d7ac1cfc55b9943",
       "source_html_sha256": "71ec8fa2108323ea613be965ed7881f475548c1bd26bb24c0ce6dc42d3d8fc62",
@@ -720,7 +722,7 @@
       ],
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 64,
+      "favorite_export_position": 71,
       "source_code_analysis": {
         "css_tags": "card",
         "html_root": "div",
@@ -1510,7 +1512,7 @@
       "guardrails": "On/off deve rappresentare stato reale, persistent state e TalkBack",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 9,
+      "favorite_export_position": 10,
       "apps": [
         {
           "slug": "camperboss",
@@ -1594,7 +1596,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 10,
+      "favorite_export_position": 11,
       "apps": [
         {
           "slug": "sleepmax-coach",
@@ -1680,7 +1682,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 11,
+      "favorite_export_position": 12,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -1766,7 +1768,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 12,
+      "favorite_export_position": 13,
       "apps": [
         {
           "slug": "camperboss",
@@ -1852,7 +1854,7 @@
       "guardrails": "Usare solo dopo verifica visuale, a11y e codice",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 15,
+      "favorite_export_position": 16,
       "apps": [
         {
           "slug": "cashmate-ai",
@@ -1932,7 +1934,7 @@
       "guardrails": "Stato effettivo, semantica e dimensione touch",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 16,
+      "favorite_export_position": 17,
       "apps": [
         {
           "slug": "annas-diary",
@@ -2010,7 +2012,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 17,
+      "favorite_export_position": 18,
       "apps": [
         {
           "slug": "annas-diary",
@@ -2096,7 +2098,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 18,
+      "favorite_export_position": 19,
       "apps": [
         {
           "slug": "app-factory-dashboard",
@@ -2182,7 +2184,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 19,
+      "favorite_export_position": 20,
       "apps": [
         {
           "slug": "camperboss",
@@ -2268,7 +2270,7 @@
       "guardrails": "On/off deve rappresentare stato reale, persistent state e TalkBack",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 20,
+      "favorite_export_position": 21,
       "apps": [
         {
           "slug": "focussense",
@@ -2354,7 +2356,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 21,
+      "favorite_export_position": 22,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -2440,7 +2442,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 22,
+      "favorite_export_position": 23,
       "apps": [
         {
           "slug": "world-days",
@@ -2526,7 +2528,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 23,
+      "favorite_export_position": 24,
       "apps": [
         {
           "slug": "app-factory-dashboard",
@@ -2612,7 +2614,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 24,
+      "favorite_export_position": 25,
       "apps": [
         {
           "slug": "camperboss",
@@ -2718,7 +2720,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 25,
+      "favorite_export_position": 27,
       "apps": [
         {
           "slug": "sleepmax-coach",
@@ -2804,7 +2806,7 @@
       "guardrails": "Touch+keyboard, feedback e focus; nessuna CTA senza azione reale",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 26,
+      "favorite_export_position": 28,
       "apps": [
         {
           "slug": "web-utility-factory",
@@ -2885,7 +2887,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 27,
+      "favorite_export_position": 29,
       "apps": [
         {
           "slug": "world-days",
@@ -2971,7 +2973,7 @@
       "guardrails": "Stato effettivo, semantica e dimensione touch",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 28,
+      "favorite_export_position": 30,
       "apps": [
         {
           "slug": "annas-diary",
@@ -3049,7 +3051,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 29,
+      "favorite_export_position": 31,
       "apps": [
         {
           "slug": "camperboss",
@@ -3135,7 +3137,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 30,
+      "favorite_export_position": 32,
       "apps": [
         {
           "slug": "wonderlog",
@@ -3221,7 +3223,7 @@
       "guardrails": "Touch+keyboard, feedback e focus; nessuna CTA senza azione reale",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 31,
+      "favorite_export_position": 33,
       "apps": [
         {
           "slug": "wonderlog",
@@ -3312,7 +3314,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 32,
+      "favorite_export_position": 34,
       "apps": [
         {
           "slug": "world-days",
@@ -3398,7 +3400,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 33,
+      "favorite_export_position": 35,
       "apps": [
         {
           "slug": "app-factory-dashboard",
@@ -3484,7 +3486,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 34,
+      "favorite_export_position": 36,
       "apps": [
         {
           "slug": "camperboss",
@@ -3570,7 +3572,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 35,
+      "favorite_export_position": 37,
       "apps": [
         {
           "slug": "sleepmax-coach",
@@ -3656,7 +3658,7 @@
       "guardrails": "Label, focus, keyboard/IME e contrasto",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 36,
+      "favorite_export_position": 38,
       "apps": [
         {
           "slug": "notes-ecosistema",
@@ -3730,7 +3732,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 37,
+      "favorite_export_position": 39,
       "apps": [
         {
           "slug": "world-days",
@@ -3816,7 +3818,7 @@
       "guardrails": "Stato reale, touch target e feedback",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 38,
+      "favorite_export_position": 41,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -3897,7 +3899,7 @@
       "guardrails": "Stato effettivo, semantica e dimensione touch",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 39,
+      "favorite_export_position": 42,
       "apps": [
         {
           "slug": "app-factory-dashboard",
@@ -3995,7 +3997,7 @@
       "guardrails": "Touch+keyboard, feedback e focus; nessuna CTA senza azione reale",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 40,
+      "favorite_export_position": 43,
       "apps": [
         {
           "slug": "camperboss",
@@ -4075,7 +4077,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 41,
+      "favorite_export_position": 44,
       "apps": [
         {
           "slug": "annas-diary",
@@ -4159,7 +4161,7 @@
       "guardrails": "On/off deve rappresentare stato reale, persistent state e TalkBack",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 44,
+      "favorite_export_position": 48,
       "apps": [
         {
           "slug": "180flipcharge",
@@ -4245,7 +4247,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 45,
+      "favorite_export_position": 49,
       "apps": [
         {
           "slug": "sleepmax-coach",
@@ -4349,7 +4351,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 46,
+      "favorite_export_position": 50,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -4456,7 +4458,7 @@
       "guardrails": "Contenuto accessibile senza hover e con fallback reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 48,
+      "favorite_export_position": 52,
       "apps": [
         {
           "slug": "notes-ecosistema",
@@ -4532,7 +4534,7 @@
       "guardrails": "Usare solo dopo verifica visuale, a11y e codice",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 49,
+      "favorite_export_position": 54,
       "apps": [
         {
           "slug": "edu-01-corpo-umano",
@@ -4613,7 +4615,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 50,
+      "favorite_export_position": 55,
       "apps": [
         {
           "slug": "wonderlog",
@@ -4705,7 +4707,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 51,
+      "favorite_export_position": 56,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -4806,7 +4808,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 52,
+      "favorite_export_position": 57,
       "apps": [
         {
           "slug": "camperboss",
@@ -4910,7 +4912,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 53,
+      "favorite_export_position": 58,
       "apps": [
         {
           "slug": "app-factory-dashboard",
@@ -4996,7 +4998,7 @@
       "guardrails": "On/off deve rappresentare stato reale, persistent state e TalkBack",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 54,
+      "favorite_export_position": 59,
       "apps": [
         {
           "slug": "notes-ecosistema",
@@ -5080,7 +5082,7 @@
       "guardrails": "On/off deve rappresentare stato reale, persistent state e TalkBack",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 55,
+      "favorite_export_position": 60,
       "apps": [
         {
           "slug": "easy-debloat",
@@ -5164,7 +5166,7 @@
       "guardrails": "Touch+keyboard, feedback e focus; nessuna CTA senza azione reale",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 56,
+      "favorite_export_position": 61,
       "apps": [
         {
           "slug": "annas-diary",
@@ -5254,7 +5256,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 57,
+      "favorite_export_position": 62,
       "apps": [
         {
           "slug": "world-days",
@@ -5359,7 +5361,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 58,
+      "favorite_export_position": 63,
       "apps": [
         {
           "slug": "app-factory-dashboard",
@@ -5464,7 +5466,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 59,
+      "favorite_export_position": 64,
       "apps": [
         {
           "slug": "beerclass-ai",
@@ -5568,7 +5570,7 @@
       "guardrails": "Tap/focus, azione reale, stato disabled/loading",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 60,
+      "favorite_export_position": 66,
       "apps": [
         {
           "slug": "notes-ecosistema",
@@ -5644,7 +5646,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 61,
+      "favorite_export_position": 67,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -5748,7 +5750,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 62,
+      "favorite_export_position": 69,
       "apps": [
         {
           "slug": "world-days",
@@ -5849,7 +5851,7 @@
       "guardrails": "Stato effettivo, semantica e dimensione touch",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 63,
+      "favorite_export_position": 70,
       "apps": [
         {
           "slug": "web-utility-factory",
@@ -5942,7 +5944,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 65,
+      "favorite_export_position": 72,
       "apps": [
         {
           "slug": "sleepmax-coach",
@@ -6047,7 +6049,7 @@
       "guardrails": "Touch+keyboard, feedback e focus; nessuna CTA senza azione reale",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 66,
+      "favorite_export_position": 73,
       "apps": [
         {
           "slug": "easy-debloat",
@@ -6140,7 +6142,7 @@
       "guardrails": "Stato effettivo, semantica e dimensione touch",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 67,
+      "favorite_export_position": 74,
       "apps": [
         {
           "slug": "camperboss",
@@ -6218,7 +6220,7 @@
       "guardrails": "On/off deve rappresentare stato reale, persistent state e TalkBack",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 68,
+      "favorite_export_position": 75,
       "apps": [
         {
           "slug": "notes-ecosistema",
@@ -6302,7 +6304,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 69,
+      "favorite_export_position": 76,
       "apps": [
         {
           "slug": "camperboss",
@@ -6388,7 +6390,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 70,
+      "favorite_export_position": 78,
       "apps": [
         {
           "slug": "wonderlog",
@@ -6487,7 +6489,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 71,
+      "favorite_export_position": 79,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -6586,7 +6588,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 72,
+      "favorite_export_position": 80,
       "apps": [
         {
           "slug": "camperboss",
@@ -6672,7 +6674,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 73,
+      "favorite_export_position": 81,
       "apps": [
         {
           "slug": "app-factory-dashboard",
@@ -6770,7 +6772,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 74,
+      "favorite_export_position": 82,
       "apps": [
         {
           "slug": "wonderlog",
@@ -6856,7 +6858,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 75,
+      "favorite_export_position": 83,
       "apps": [
         {
           "slug": "beerclass-ai",
@@ -6964,7 +6966,7 @@
       "guardrails": "Contenuto accessibile senza hover e con fallback reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 76,
+      "favorite_export_position": 84,
       "apps": [
         {
           "slug": "notes-ecosistema",
@@ -7049,7 +7051,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 77,
+      "favorite_export_position": 85,
       "apps": [
         {
           "slug": "annas-diary",
@@ -7135,7 +7137,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 78,
+      "favorite_export_position": 86,
       "apps": [
         {
           "slug": "wonderlog",
@@ -7239,7 +7241,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 79,
+      "favorite_export_position": 87,
       "apps": [
         {
           "slug": "beerclass-ai",
@@ -7323,7 +7325,7 @@
       "guardrails": "Contenuto accessibile senza hover e con fallback reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 80,
+      "favorite_export_position": 88,
       "apps": [
         {
           "slug": "notes-ecosistema",
@@ -7406,7 +7408,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 81,
+      "favorite_export_position": 89,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -7492,7 +7494,7 @@
       "guardrails": "On/off deve rappresentare stato reale, persistent state e TalkBack",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 82,
+      "favorite_export_position": 90,
       "apps": [
         {
           "slug": "notes-ecosistema",
@@ -7591,7 +7593,7 @@
       "guardrails": "On/off deve rappresentare stato reale, persistent state e TalkBack",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 83,
+      "favorite_export_position": 91,
       "apps": [
         {
           "slug": "easy-debloat",
@@ -7691,7 +7693,7 @@
       "guardrails": "Touch+keyboard, feedback e focus; nessuna CTA senza azione reale",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 84,
+      "favorite_export_position": 93,
       "apps": [
         {
           "slug": "camperboss",
@@ -7771,7 +7773,7 @@
       "guardrails": "On/off deve rappresentare stato reale, persistent state e TalkBack",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 85,
+      "favorite_export_position": 94,
       "apps": [
         {
           "slug": "battery-guard",
@@ -7855,7 +7857,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 86,
+      "favorite_export_position": 95,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -7941,7 +7943,7 @@
       "guardrails": "On/off deve rappresentare stato reale, persistent state e TalkBack",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 87,
+      "favorite_export_position": 96,
       "apps": [
         {
           "slug": "pocket-guard",
@@ -8025,7 +8027,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 88,
+      "favorite_export_position": 97,
       "apps": [
         {
           "slug": "camperboss",
@@ -8127,7 +8129,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 89,
+      "favorite_export_position": 98,
       "apps": [
         {
           "slug": "annas-diary",
@@ -8226,7 +8228,7 @@
       "guardrails": "Contenuto accessibile senza hover e con fallback reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 90,
+      "favorite_export_position": 99,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -8299,7 +8301,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 91,
+      "favorite_export_position": 101,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -8385,7 +8387,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 92,
+      "favorite_export_position": 102,
       "apps": [
         {
           "slug": "camperboss",
@@ -8487,7 +8489,7 @@
       "guardrails": "Contrasto, leggibilità, batterie/GPU e sfondo statico ridotto",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 93,
+      "favorite_export_position": 103,
       "apps": [
         {
           "slug": "battery-guard",
@@ -8586,7 +8588,7 @@
       "guardrails": "Contenuti leggibili senza hover; touch/focus, immagini originali e safe area",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 94,
+      "favorite_export_position": 104,
       "apps": [
         {
           "slug": "wonderlog",
@@ -8672,7 +8674,7 @@
       "guardrails": "Contrasto, leggibilità, batterie/GPU e sfondo statico ridotto",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 95,
+      "favorite_export_position": 106,
       "apps": [
         {
           "slug": "cashmate-ai",
@@ -8759,7 +8761,7 @@
       "guardrails": "Solo durante operazione realmente avviata; stop/timeout/error/retry e reduced-motion",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 96,
+      "favorite_export_position": 107,
       "apps": [
         {
           "slug": "omni-cleaner",
@@ -8845,7 +8847,7 @@
       "guardrails": "On/off deve rappresentare stato reale, persistent state e TalkBack",
       "user_favorite": true,
       "favorite_export_batch": "UIVERSE_FAVORITES_2026_11_18",
-      "favorite_export_position": 97,
+      "favorite_export_position": 108,
       "apps": [
         {
           "slug": "easy-debloat",
@@ -8905,6 +8907,292 @@
         "analysis_doc": "UI-UX/UIVERSE/FAVORITES/ANALISI_CODICE_PART_04.json",
         "source_status": "HTML_CSS_STATIC_READ_NOT_RUNTIME_TESTED"
       }
+    },
+    {
+      "id": "UIV-101",
+      "title": "Uiverse Favorite in attesa di classificazione — Javierrocadev/chatty-ladybug-95",
+      "author": "Javierrocadev",
+      "slug": "chatty-ladybug-95",
+      "uiverse_url": "https://uiverse.io/Javierrocadev/chatty-ladybug-95",
+      "category": "UNKNOWN",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": null,
+      "source_blob_sha": null,
+      "source_snapshot": null,
+      "evidence": "SOURCE_CODE_NOT_LOCATED",
+      "license": "UNVERIFIED_SOURCE_NOT_COPIED",
+      "maturity": "DISCOVERY",
+      "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
+      "consumer_status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "consumer_tested": false,
+      "description": "Nuovo preferito esportato; categoria e codice da verificare via endpoint pubblico Uiverse. Non ancora associato a un consumer fino alla verifica della tipologia.",
+      "guardrails": "Provenienza, licenza, accessibilità, reduced motion e compatibilità nativa da verificare prima dell'uso.",
+      "user_favorite": true,
+      "favorite_export_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+      "favorite_export_position": 9,
+      "apps": []
+    },
+    {
+      "id": "UIV-102",
+      "title": "Uiverse Favorite in attesa di classificazione — Praashoo7/bitter-pig-24",
+      "author": "Praashoo7",
+      "slug": "bitter-pig-24",
+      "uiverse_url": "https://uiverse.io/Praashoo7/bitter-pig-24",
+      "category": "UNKNOWN",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": null,
+      "source_blob_sha": null,
+      "source_snapshot": null,
+      "evidence": "SOURCE_CODE_NOT_LOCATED",
+      "license": "UNVERIFIED_SOURCE_NOT_COPIED",
+      "maturity": "DISCOVERY",
+      "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
+      "consumer_status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "consumer_tested": false,
+      "description": "Nuovo preferito esportato; categoria e codice da verificare via endpoint pubblico Uiverse. Non ancora associato a un consumer fino alla verifica della tipologia.",
+      "guardrails": "Provenienza, licenza, accessibilità, reduced motion e compatibilità nativa da verificare prima dell'uso.",
+      "user_favorite": true,
+      "favorite_export_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+      "favorite_export_position": 26,
+      "apps": []
+    },
+    {
+      "id": "UIV-103",
+      "title": "Uiverse Favorite in attesa di classificazione — SyedShahzaib7/brave-dog-61",
+      "author": "SyedShahzaib7",
+      "slug": "brave-dog-61",
+      "uiverse_url": "https://uiverse.io/SyedShahzaib7/brave-dog-61",
+      "category": "UNKNOWN",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": null,
+      "source_blob_sha": null,
+      "source_snapshot": null,
+      "evidence": "SOURCE_CODE_NOT_LOCATED",
+      "license": "UNVERIFIED_SOURCE_NOT_COPIED",
+      "maturity": "DISCOVERY",
+      "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
+      "consumer_status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "consumer_tested": false,
+      "description": "Nuovo preferito esportato; categoria e codice da verificare via endpoint pubblico Uiverse. Non ancora associato a un consumer fino alla verifica della tipologia.",
+      "guardrails": "Provenienza, licenza, accessibilità, reduced motion e compatibilità nativa da verificare prima dell'uso.",
+      "user_favorite": true,
+      "favorite_export_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+      "favorite_export_position": 40,
+      "apps": []
+    },
+    {
+      "id": "UIV-104",
+      "title": "Uiverse Favorite in attesa di classificazione — alexmaracinaru/tall-owl-30",
+      "author": "alexmaracinaru",
+      "slug": "tall-owl-30",
+      "uiverse_url": "https://uiverse.io/alexmaracinaru/tall-owl-30",
+      "category": "UNKNOWN",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": null,
+      "source_blob_sha": null,
+      "source_snapshot": null,
+      "evidence": "SOURCE_CODE_NOT_LOCATED",
+      "license": "UNVERIFIED_SOURCE_NOT_COPIED",
+      "maturity": "DISCOVERY",
+      "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
+      "consumer_status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "consumer_tested": false,
+      "description": "Nuovo preferito esportato; categoria e codice da verificare via endpoint pubblico Uiverse. Non ancora associato a un consumer fino alla verifica della tipologia.",
+      "guardrails": "Provenienza, licenza, accessibilità, reduced motion e compatibilità nativa da verificare prima dell'uso.",
+      "user_favorite": true,
+      "favorite_export_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+      "favorite_export_position": 45,
+      "apps": []
+    },
+    {
+      "id": "UIV-105",
+      "title": "Uiverse Favorite in attesa di classificazione — ayyjayy2/sour-dog-94",
+      "author": "ayyjayy2",
+      "slug": "sour-dog-94",
+      "uiverse_url": "https://uiverse.io/ayyjayy2/sour-dog-94",
+      "category": "UNKNOWN",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": null,
+      "source_blob_sha": null,
+      "source_snapshot": null,
+      "evidence": "SOURCE_CODE_NOT_LOCATED",
+      "license": "UNVERIFIED_SOURCE_NOT_COPIED",
+      "maturity": "DISCOVERY",
+      "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
+      "consumer_status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "consumer_tested": false,
+      "description": "Nuovo preferito esportato; categoria e codice da verificare via endpoint pubblico Uiverse. Non ancora associato a un consumer fino alla verifica della tipologia.",
+      "guardrails": "Provenienza, licenza, accessibilità, reduced motion e compatibilità nativa da verificare prima dell'uso.",
+      "user_favorite": true,
+      "favorite_export_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+      "favorite_export_position": 53,
+      "apps": []
+    },
+    {
+      "id": "UIV-106",
+      "title": "Uiverse Favorite in attesa di classificazione — doniaskima/cowardly-frog-28",
+      "author": "doniaskima",
+      "slug": "cowardly-frog-28",
+      "uiverse_url": "https://uiverse.io/doniaskima/cowardly-frog-28",
+      "category": "UNKNOWN",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": null,
+      "source_blob_sha": null,
+      "source_snapshot": null,
+      "evidence": "SOURCE_CODE_NOT_LOCATED",
+      "license": "UNVERIFIED_SOURCE_NOT_COPIED",
+      "maturity": "DISCOVERY",
+      "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
+      "consumer_status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "consumer_tested": false,
+      "description": "Nuovo preferito esportato; categoria e codice da verificare via endpoint pubblico Uiverse. Non ancora associato a un consumer fino alla verifica della tipologia.",
+      "guardrails": "Provenienza, licenza, accessibilità, reduced motion e compatibilità nativa da verificare prima dell'uso.",
+      "user_favorite": true,
+      "favorite_export_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+      "favorite_export_position": 65,
+      "apps": []
+    },
+    {
+      "id": "UIV-107",
+      "title": "Uiverse Favorite in attesa di classificazione — elijahgummer/new-fly-30",
+      "author": "elijahgummer",
+      "slug": "new-fly-30",
+      "uiverse_url": "https://uiverse.io/elijahgummer/new-fly-30",
+      "category": "UNKNOWN",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": null,
+      "source_blob_sha": null,
+      "source_snapshot": null,
+      "evidence": "SOURCE_CODE_NOT_LOCATED",
+      "license": "UNVERIFIED_SOURCE_NOT_COPIED",
+      "maturity": "DISCOVERY",
+      "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
+      "consumer_status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "consumer_tested": false,
+      "description": "Nuovo preferito esportato; categoria e codice da verificare via endpoint pubblico Uiverse. Non ancora associato a un consumer fino alla verifica della tipologia.",
+      "guardrails": "Provenienza, licenza, accessibilità, reduced motion e compatibilità nativa da verificare prima dell'uso.",
+      "user_favorite": true,
+      "favorite_export_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+      "favorite_export_position": 68,
+      "apps": []
+    },
+    {
+      "id": "UIV-108",
+      "title": "Uiverse Favorite in attesa di classificazione — guilhermeyohan/friendly-walrus-55",
+      "author": "guilhermeyohan",
+      "slug": "friendly-walrus-55",
+      "uiverse_url": "https://uiverse.io/guilhermeyohan/friendly-walrus-55",
+      "category": "UNKNOWN",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": null,
+      "source_blob_sha": null,
+      "source_snapshot": null,
+      "evidence": "SOURCE_CODE_NOT_LOCATED",
+      "license": "UNVERIFIED_SOURCE_NOT_COPIED",
+      "maturity": "DISCOVERY",
+      "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
+      "consumer_status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "consumer_tested": false,
+      "description": "Nuovo preferito esportato; categoria e codice da verificare via endpoint pubblico Uiverse. Non ancora associato a un consumer fino alla verifica della tipologia.",
+      "guardrails": "Provenienza, licenza, accessibilità, reduced motion e compatibilità nativa da verificare prima dell'uso.",
+      "user_favorite": true,
+      "favorite_export_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+      "favorite_export_position": 77,
+      "apps": []
+    },
+    {
+      "id": "UIV-109",
+      "title": "Uiverse Favorite in attesa di classificazione — mamyapro123/curvy-bear-51",
+      "author": "mamyapro123",
+      "slug": "curvy-bear-51",
+      "uiverse_url": "https://uiverse.io/mamyapro123/curvy-bear-51",
+      "category": "UNKNOWN",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": null,
+      "source_blob_sha": null,
+      "source_snapshot": null,
+      "evidence": "SOURCE_CODE_NOT_LOCATED",
+      "license": "UNVERIFIED_SOURCE_NOT_COPIED",
+      "maturity": "DISCOVERY",
+      "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
+      "consumer_status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "consumer_tested": false,
+      "description": "Nuovo preferito esportato; categoria e codice da verificare via endpoint pubblico Uiverse. Non ancora associato a un consumer fino alla verifica della tipologia.",
+      "guardrails": "Provenienza, licenza, accessibilità, reduced motion e compatibilità nativa da verificare prima dell'uso.",
+      "user_favorite": true,
+      "favorite_export_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+      "favorite_export_position": 92,
+      "apps": []
+    },
+    {
+      "id": "UIV-110",
+      "title": "Uiverse Favorite in attesa di classificazione — roroland/average-horse-2",
+      "author": "roroland",
+      "slug": "average-horse-2",
+      "uiverse_url": "https://uiverse.io/roroland/average-horse-2",
+      "category": "UNKNOWN",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": null,
+      "source_blob_sha": null,
+      "source_snapshot": null,
+      "evidence": "SOURCE_CODE_NOT_LOCATED",
+      "license": "UNVERIFIED_SOURCE_NOT_COPIED",
+      "maturity": "DISCOVERY",
+      "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
+      "consumer_status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "consumer_tested": false,
+      "description": "Nuovo preferito esportato; categoria e codice da verificare via endpoint pubblico Uiverse. Non ancora associato a un consumer fino alla verifica della tipologia.",
+      "guardrails": "Provenienza, licenza, accessibilità, reduced motion e compatibilità nativa da verificare prima dell'uso.",
+      "user_favorite": true,
+      "favorite_export_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+      "favorite_export_position": 100,
+      "apps": []
+    },
+    {
+      "id": "UIV-111",
+      "title": "Uiverse Favorite in attesa di classificazione — vinodjangid07/horrible-warthog-14",
+      "author": "vinodjangid07",
+      "slug": "horrible-warthog-14",
+      "uiverse_url": "https://uiverse.io/vinodjangid07/horrible-warthog-14",
+      "category": "UNKNOWN",
+      "source_repository": null,
+      "source_commit": null,
+      "source_path": null,
+      "source_blob_sha": null,
+      "source_snapshot": null,
+      "evidence": "SOURCE_CODE_NOT_LOCATED",
+      "license": "UNVERIFIED_SOURCE_NOT_COPIED",
+      "maturity": "DISCOVERY",
+      "reuse": "REFERENCE_ONLY_UNTIL_VALIDATED_ADAPTATION",
+      "consumer_status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "consumer_tested": false,
+      "description": "Nuovo preferito esportato; categoria e codice da verificare via endpoint pubblico Uiverse. Non ancora associato a un consumer fino alla verifica della tipologia.",
+      "guardrails": "Provenienza, licenza, accessibilità, reduced motion e compatibilità nativa da verificare prima dell'uso.",
+      "user_favorite": true,
+      "favorite_export_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+      "favorite_export_position": 105,
+      "apps": []
     }
   ],
   "relations": [
@@ -14102,7 +14390,7 @@
     }
   ],
   "recorded_favorites_at": "2026-11-18",
-  "favorites_exported_at": "2026-11-18T10:08:06.777Z",
-  "favorites_import_batch": "UIVERSE_FAVORITES_2026_11_18",
+  "favorites_exported_at": "2026-11-18T16:40:39.750Z",
+  "favorites_import_batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
   "favorites_completeness": "REQUIRES_USER_COUNT_VERIFICATION"
 }

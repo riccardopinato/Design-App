@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "batch": "UIVERSE_FAVORITES_2026_11_18",
+  "batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
   "apps": [
     "180flipcharge",
     "annas-diary",
@@ -15858,12 +15858,23 @@
         "status": "PROPOSED_ONLY",
         "implemented": false
       }
-    ]
+    ],
+    "UIV-101": [],
+    "UIV-102": [],
+    "UIV-103": [],
+    "UIV-104": [],
+    "UIV-105": [],
+    "UIV-106": [],
+    "UIV-107": [],
+    "UIV-108": [],
+    "UIV-109": [],
+    "UIV-110": [],
+    "UIV-111": []
   },
   "counts": {
-    "components": 100,
+    "components": 111,
     "relations": 657,
     "apps": 25,
-    "favorites": 97
+    "favorites": 108
   }
 }
