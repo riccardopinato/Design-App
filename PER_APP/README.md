@@ -68,3 +68,7 @@ Tre screenshot condivisi dall'utente sono stati convertiti in [30 voci verificab
 ## Impeccable Designing — raccomandazioni UX e QA per 10 app
 
 Le 10 app già associate a Impeccable (`DSK-002`) nella [matrice originaria](../UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.md) ora hanno **8 quality gates** e controlli contestuali aggiunti nei rispettivi dossier e nel [registro JSON per app](./REGISTRO_APP_DESIGN.json). [Analisi completa](../sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md). Stato `PROPOSED_ONLY/NOT_EXECUTED`, nessuna app collaudata o modificata, nessuna nuova libreria o donor duplicato.
+
+## Direzione visiva 2026/27 — Dribbble e Collect UI
+
+[Matrice per app e pattern](../UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.md) · [Registro JSON](../UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json). 15 app candidate, 12 pattern; i dossier e i profili restano PROPOSAL_ONLY / NOT_VERIFIED. La Product Bible governa scelte e priorità effettive.
