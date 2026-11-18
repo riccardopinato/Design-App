@@ -101,3 +101,7 @@ La sezione [**PER_APP**](../PER_APP/README.md) conserva le proposte visuali per 
 ## Impeccable — 8 controlli di design qualità su 10 app già collegate
 
 [Playbook per app e gate](./IMPECCABLE_DESIGNING_APP_MATRIX_2026-11-17.json) · [audit della guida Designing](../sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md). Riusare la stessa identità `DSK-002` già presente nella [matrice design skill](./MATRICE_REPO_DESIGN_APP_2026-11-17.md). Critique/audit/harden/polish con evidenza screenshot e QA nativo, non solo check PASS GitHub; il detector CSS/HTML e i hooks Impeccable sono ammessi **solo Web/PWA**. Non creare una seconda Product Bible o dichiarare copy-ready il Golden App Shell DRAFT.
+
+## Dribbble / Collect UI — 2026/27
+
+[12 nuovi pattern e mappa verso 15 app](./DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.md) · [JSON](./DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json) · [fonti e guardrail](../sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md). Composizione bento, editorial photo-first, gerarchie forti, cromie semantiche, motion funzionale, onboarding e grafici. **Reference only, non codice copy-ready.**
