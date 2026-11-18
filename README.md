@@ -220,3 +220,7 @@ Dopo l'intake iniziale della pagina Bookmarks, sono stati ricevuti **3 screensho
 ## Impeccable Designing — qualità estetica e UX trasversale (17/11/2026)
 
 La [guida ufficiale](https://impeccable.style/designing/) è stata approfondita e collegata all'**Impeccable già censito come `DSK-002`**, senza duplicare donor, sorgenti o capacità. [Analisi incrementale](./sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md) · [8 controlli e 10 app già collegate](./UI-UX/IMPECCABLE_DESIGNING_APP_MATRIX_2026-11-17.json) · [dossier per-app](./PER_APP/README.md). Metodo: Start/Improve/Check/Maintain, mockup-first o code-first, critique + harden + polish, `DESIGN.md` come documento derivato dalle scelte della Product Bible. **Detector e hooks automatici analizzano Web, non Flutter nativo**. Tutti i criteri sono `PROPOSED_ONLY`, non QA già eseguiti o promozioni Golden.
+
+## Visual research — Dribbble + Collect UI (2026–27)
+
+Added [source-grounded audit](sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md) and [15-app crosswalk of 12 design patterns](UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.md). Direction: product-owned, premium, clean visual identity without an automatic framework aesthetic. References are not external assets or ready-to-copy code.

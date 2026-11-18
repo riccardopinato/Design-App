@@ -111,7 +111,7 @@
       "name": "Anna's Diary",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-17",
+      "updated_at": "2026-11-18",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -128,7 +128,9 @@
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
-        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
+        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
+        "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "diario e ricordi",
@@ -395,6 +397,13 @@
           "status": "PROPOSED_ONLY",
           "detail": "Added checklist and 4 targeted acceptance questions; no actual UI audit, screenshot, code change, new source or Golden certification.",
           "origin": "Impeccable Designing official page, same canonical DSK-002"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "DRIBBBLE_COLLECTUI_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "4 Dribbble shots + Collect UI curated category pages",
+          "detail": "6 independent visual ideas for Oggi, Calendario, Ricordi; no app code, Product Bible or Golden changed."
         }
       ],
       "voice_ui_candidates": [
@@ -826,6 +835,22 @@
         "consumer_qa_state": "NOT_EXECUTED",
         "dependency_added": false,
         "product_bible_approved": false
+      },
+      "external_visual_patterns_2026_27": {
+        "source": "DRIBBBLE_COLLECTUI_2026_11_18",
+        "pattern_ids": [
+          "DCL-001",
+          "DCL-002",
+          "DCL-004",
+          "DCL-006",
+          "DCL-007",
+          "DCL-011"
+        ],
+        "source_kind": "UI_UX_REFERENCE",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "surface": "Oggi, Calendario, Ricordi",
+        "guardrail": "Preservare Manrope/Lora, palette rose, look diario contemporaneo"
       }
     },
     {
@@ -833,7 +858,7 @@
       "name": "App Factory Dashboard",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-17",
+      "updated_at": "2026-11-18",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -850,7 +875,9 @@
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
-        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
+        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
+        "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "repository e branch",
@@ -1035,6 +1062,13 @@
           "status": "PROPOSED_ONLY",
           "detail": "Added checklist and 4 targeted acceptance questions; no actual UI audit, screenshot, code change, new source or Golden certification.",
           "origin": "Impeccable Designing official page, same canonical DSK-002"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "DRIBBBLE_COLLECTUI_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "4 Dribbble shots + Collect UI curated category pages",
+          "detail": "3 independent visual ideas for Portfolio, roadmap, stato e gate; no app code, Product Bible or Golden changed."
         }
       ],
       "voice_ui_candidates": [
@@ -1397,6 +1431,19 @@
         "consumer_qa_state": "NOT_EXECUTED",
         "dependency_added": false,
         "product_bible_approved": false
+      },
+      "external_visual_patterns_2026_27": {
+        "source": "DRIBBBLE_COLLECTUI_2026_11_18",
+        "pattern_ids": [
+          "DCL-002",
+          "DCL-005",
+          "DCL-010"
+        ],
+        "source_kind": "UI_UX_REFERENCE",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "surface": "Portfolio, roadmap, stato e gate",
+        "guardrail": "Separare implementato, verificato e roadmap; non simulare CI"
       }
     },
     {
@@ -1404,7 +1451,7 @@
       "name": "Battery Guard",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-17",
+      "updated_at": "2026-11-18",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -1420,7 +1467,9 @@
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
-        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
+        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
+        "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "batteria",
@@ -1572,6 +1621,13 @@
           "status": "PROPOSED_ONLY",
           "detail": "Added checklist and 4 targeted acceptance questions; no actual UI audit, screenshot, code change, new source or Golden certification.",
           "origin": "Impeccable Designing official page, same canonical DSK-002"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "DRIBBBLE_COLLECTUI_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "4 Dribbble shots + Collect UI curated category pages",
+          "detail": "4 independent visual ideas for Stato batteria, sessioni e grafici; no app code, Product Bible or Golden changed."
         }
       ],
       "motion_design_candidates": [
@@ -1748,6 +1804,20 @@
         "consumer_qa_state": "NOT_EXECUTED",
         "dependency_added": false,
         "product_bible_approved": false
+      },
+      "external_visual_patterns_2026_27": {
+        "source": "DRIBBBLE_COLLECTUI_2026_11_18",
+        "pattern_ids": [
+          "DCL-003",
+          "DCL-005",
+          "DCL-008",
+          "DCL-011"
+        ],
+        "source_kind": "UI_UX_REFERENCE",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "surface": "Stato batteria, sessioni e grafici",
+        "guardrail": "Grafici reali; overhead GPU e consumo prossimi a zero"
       }
     },
     {
@@ -1755,7 +1825,7 @@
       "name": "BeerClass AI",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-17",
+      "updated_at": "2026-11-18",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -1770,7 +1840,9 @@
         "sources/BEUI_VOICE_ORB_AUDIT_2026-11-17.md",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
-        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
+        "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "bicchiere/beer mug",
@@ -1859,6 +1931,13 @@
           "status": "PROPOSED_ONLY",
           "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
           "detail": "3 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "DRIBBBLE_COLLECTUI_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "4 Dribbble shots + Collect UI curated category pages",
+          "detail": "3 independent visual ideas for Diario birre e rapid log; no app code, Product Bible or Golden changed."
         }
       ],
       "voice_ui_candidates": [
@@ -1964,14 +2043,27 @@
           "source_url": "https://devlibraries.com/libraries/watermelon/scrub-slider-base",
           "batch": "WATERMELON_NINE_2026_11_17"
         }
-      ]
+      ],
+      "external_visual_patterns_2026_27": {
+        "source": "DRIBBBLE_COLLECTUI_2026_11_18",
+        "pattern_ids": [
+          "DCL-001",
+          "DCL-002",
+          "DCL-006"
+        ],
+        "source_kind": "UI_UX_REFERENCE",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "surface": "Diario birre e rapid log",
+        "guardrail": "Rapid Log più importante delle immagini"
+      }
     },
     {
       "id": "camperboss",
       "name": "CamperBoss",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-17",
+      "updated_at": "2026-11-18",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -1987,7 +2079,9 @@
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
-        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
+        "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "camper/van",
@@ -2125,6 +2219,13 @@
           "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
           "status": "PROPOSED_ONLY",
           "detail": "1 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "DRIBBBLE_COLLECTUI_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "4 Dribbble shots + Collect UI curated category pages",
+          "detail": "4 independent visual ideas for Dashboard viaggio, controlli; no app code, Product Bible or Golden changed."
         }
       ],
       "voice_ui_candidates": [
@@ -2284,14 +2385,28 @@
           "implementation": "NOT_IMPLEMENTED",
           "image_binary_in_repo": false
         }
-      ]
+      ],
+      "external_visual_patterns_2026_27": {
+        "source": "DRIBBBLE_COLLECTUI_2026_11_18",
+        "pattern_ids": [
+          "DCL-002",
+          "DCL-004",
+          "DCL-007",
+          "DCL-010"
+        ],
+        "source_kind": "UI_UX_REFERENCE",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "surface": "Dashboard viaggio, controlli",
+        "guardrail": "Offline e leggibilità in esterno prioritari"
+      }
     },
     {
       "id": "cashmate-ai",
       "name": "CashMate AI",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-17",
+      "updated_at": "2026-11-18",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -2307,7 +2422,9 @@
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
-        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
+        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
+        "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "portafoglio",
@@ -2426,6 +2543,13 @@
           "status": "PROPOSED_ONLY",
           "detail": "Added checklist and 4 targeted acceptance questions; no actual UI audit, screenshot, code change, new source or Golden certification.",
           "origin": "Impeccable Designing official page, same canonical DSK-002"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "DRIBBBLE_COLLECTUI_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "4 Dribbble shots + Collect UI curated category pages",
+          "detail": "4 independent visual ideas for Saldo, spese, budget, dettagli; no app code, Product Bible or Golden changed."
         }
       ],
       "motion_design_candidates": [
@@ -2552,6 +2676,20 @@
         "consumer_qa_state": "NOT_EXECUTED",
         "dependency_added": false,
         "product_bible_approved": false
+      },
+      "external_visual_patterns_2026_27": {
+        "source": "DRIBBBLE_COLLECTUI_2026_11_18",
+        "pattern_ids": [
+          "DCL-002",
+          "DCL-003",
+          "DCL-005",
+          "DCL-007"
+        ],
+        "source_kind": "UI_UX_REFERENCE",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "surface": "Saldo, spese, budget, dettagli",
+        "guardrail": "Privacy, accuratezza valori, niente false metriche"
       }
     },
     {
@@ -3688,7 +3826,7 @@
       "name": "Deskland Android",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-17",
+      "updated_at": "2026-11-18",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -3704,7 +3842,9 @@
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
-        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
+        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
+        "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "desktop",
@@ -3841,6 +3981,13 @@
           "status": "PROPOSED_ONLY",
           "detail": "Added checklist and 4 targeted acceptance questions; no actual UI audit, screenshot, code change, new source or Golden certification.",
           "origin": "Impeccable Designing official page, same canonical DSK-002"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "DRIBBBLE_COLLECTUI_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "4 Dribbble shots + Collect UI curated category pages",
+          "detail": "3 independent visual ideas for Home launcher e transizioni; no app code, Product Bible or Golden changed."
         }
       ],
       "voice_ui_candidates": [
@@ -4047,6 +4194,19 @@
         "consumer_qa_state": "NOT_EXECUTED",
         "dependency_added": false,
         "product_bible_approved": false
+      },
+      "external_visual_patterns_2026_27": {
+        "source": "DRIBBBLE_COLLECTUI_2026_11_18",
+        "pattern_ids": [
+          "DCL-004",
+          "DCL-008",
+          "DCL-012"
+        ],
+        "source_kind": "UI_UX_REFERENCE",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "surface": "Home launcher e transizioni",
+        "guardrail": "Prima rendere launcher affidabile e fluido"
       }
     },
     {
@@ -4340,7 +4500,7 @@
       "name": "FocusSense",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-17",
+      "updated_at": "2026-11-18",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -4355,7 +4515,9 @@
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
-        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
+        "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "attenzione",
@@ -4469,6 +4631,13 @@
           "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
           "status": "PROPOSED_ONLY",
           "detail": "4 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "DRIBBBLE_COLLECTUI_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "4 Dribbble shots + Collect UI curated category pages",
+          "detail": "3 independent visual ideas for Sessioni e Focus Score; no app code, Product Bible or Golden changed."
         }
       ],
       "motion_design_candidates": [
@@ -4608,14 +4777,27 @@
           "implementation": "NOT_IMPLEMENTED",
           "image_binary_in_repo": false
         }
-      ]
+      ],
+      "external_visual_patterns_2026_27": {
+        "source": "DRIBBBLE_COLLECTUI_2026_11_18",
+        "pattern_ids": [
+          "DCL-003",
+          "DCL-005",
+          "DCL-008"
+        ],
+        "source_kind": "UI_UX_REFERENCE",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "surface": "Sessioni e Focus Score",
+        "guardrail": "No colori o dati che suggeriscono misure non verificate"
+      }
     },
     {
       "id": "framelab",
       "name": "FrameLab",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-17",
+      "updated_at": "2026-11-18",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -4632,7 +4814,9 @@
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
-        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
+        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
+        "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "fotografia",
@@ -4820,6 +5004,13 @@
           "status": "PROPOSED_ONLY",
           "detail": "Added checklist and 4 targeted acceptance questions; no actual UI audit, screenshot, code change, new source or Golden certification.",
           "origin": "Impeccable Designing official page, same canonical DSK-002"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "DRIBBBLE_COLLECTUI_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "4 Dribbble shots + Collect UI curated category pages",
+          "detail": "4 independent visual ideas for Portfolio, foto, palette; no app code, Product Bible or Golden changed."
         }
       ],
       "voice_ui_candidates": [
@@ -5064,6 +5255,20 @@
         "consumer_qa_state": "NOT_EXECUTED",
         "dependency_added": false,
         "product_bible_approved": false
+      },
+      "external_visual_patterns_2026_27": {
+        "source": "DRIBBBLE_COLLECTUI_2026_11_18",
+        "pattern_ids": [
+          "DCL-001",
+          "DCL-006",
+          "DCL-010",
+          "DCL-012"
+        ],
+        "source_kind": "UI_UX_REFERENCE",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "surface": "Portfolio, foto, palette",
+        "guardrail": "Foto contenuto primario; controlli cromatici precisi"
       }
     },
     {
@@ -5071,7 +5276,7 @@
       "name": "Notes-Ecosistema",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-17",
+      "updated_at": "2026-11-18",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -5088,7 +5293,9 @@
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
-        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
+        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
+        "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "nota",
@@ -5384,6 +5591,13 @@
           "status": "PROPOSED_ONLY",
           "detail": "Added checklist and 4 targeted acceptance questions; no actual UI audit, screenshot, code change, new source or Golden certification.",
           "origin": "Impeccable Designing official page, same canonical DSK-002"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "DRIBBBLE_COLLECTUI_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "4 Dribbble shots + Collect UI curated category pages",
+          "detail": "5 independent visual ideas for Workspace, Inbox, Canvas, Web; no app code, Product Bible or Golden changed."
         }
       ],
       "voice_ui_candidates": [
@@ -5766,6 +5980,21 @@
         "consumer_qa_state": "NOT_EXECUTED",
         "dependency_added": false,
         "product_bible_approved": false
+      },
+      "external_visual_patterns_2026_27": {
+        "source": "DRIBBBLE_COLLECTUI_2026_11_18",
+        "pattern_ids": [
+          "DCL-002",
+          "DCL-004",
+          "DCL-007",
+          "DCL-010",
+          "DCL-011"
+        ],
+        "source_kind": "UI_UX_REFERENCE",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "surface": "Workspace, Inbox, Canvas, Web",
+        "guardrail": "Densità da workspace, niente dashboard scenografica senza funzione"
       }
     },
     {
@@ -5773,7 +6002,7 @@
       "name": "Omni Cleaner",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-17",
+      "updated_at": "2026-11-18",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -5789,7 +6018,9 @@
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
-        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
+        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
+        "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "galleria",
@@ -6011,6 +6242,13 @@
           "status": "PROPOSED_ONLY",
           "detail": "Added checklist and 4 targeted acceptance questions; no actual UI audit, screenshot, code change, new source or Golden certification.",
           "origin": "Impeccable Designing official page, same canonical DSK-002"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "DRIBBBLE_COLLECTUI_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "4 Dribbble shots + Collect UI curated category pages",
+          "detail": "5 independent visual ideas for Home funzioni, scansione, galleria e player; no app code, Product Bible or Golden changed."
         }
       ],
       "motion_design_candidates": [
@@ -6325,6 +6563,21 @@
         "consumer_qa_state": "NOT_EXECUTED",
         "dependency_added": false,
         "product_bible_approved": false
+      },
+      "external_visual_patterns_2026_27": {
+        "source": "DRIBBBLE_COLLECTUI_2026_11_18",
+        "pattern_ids": [
+          "DCL-002",
+          "DCL-004",
+          "DCL-005",
+          "DCL-006",
+          "DCL-007"
+        ],
+        "source_kind": "UI_UX_REFERENCE",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "surface": "Home funzioni, scansione, galleria e player",
+        "guardrail": "No micro-animazioni nelle operazioni distruttive; foto/video a proporzioni originali"
       }
     },
     {
@@ -6749,7 +7002,7 @@
       "name": "SleepMax Coach",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-17",
+      "updated_at": "2026-11-18",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -6763,7 +7016,9 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
-        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
+        "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "sonno",
@@ -6871,6 +7126,13 @@
           "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
           "status": "PROPOSED_ONLY",
           "detail": "5 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "DRIBBBLE_COLLECTUI_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "4 Dribbble shots + Collect UI curated category pages",
+          "detail": "3 independent visual ideas for Sonno, routine e onboarding; no app code, Product Bible or Golden changed."
         }
       ],
       "motion_design_candidates": [
@@ -6978,7 +7240,20 @@
           "implementation": "NOT_IMPLEMENTED",
           "image_binary_in_repo": false
         }
-      ]
+      ],
+      "external_visual_patterns_2026_27": {
+        "source": "DRIBBBLE_COLLECTUI_2026_11_18",
+        "pattern_ids": [
+          "DCL-003",
+          "DCL-005",
+          "DCL-009"
+        ],
+        "source_kind": "UI_UX_REFERENCE",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "surface": "Sonno, routine e onboarding",
+        "guardrail": "Evita affermazioni cliniche con grafici ornamentali"
+      }
     },
     {
       "id": "tabletop-motion-alarm",
@@ -7219,7 +7494,7 @@
       "name": "TrailPath",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-17",
+      "updated_at": "2026-11-18",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -7234,7 +7509,9 @@
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
-        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
+        "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "mappa",
@@ -7339,6 +7616,13 @@
           "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
           "status": "PROPOSED_ONLY",
           "detail": "1 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "DRIBBBLE_COLLECTUI_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "4 Dribbble shots + Collect UI curated category pages",
+          "detail": "3 independent visual ideas for Mappa, percorso, statistiche; no app code, Product Bible or Golden changed."
         }
       ],
       "motion_design_candidates": [
@@ -7412,7 +7696,20 @@
           "implementation": "NOT_IMPLEMENTED",
           "image_binary_in_repo": false
         }
-      ]
+      ],
+      "external_visual_patterns_2026_27": {
+        "source": "DRIBBBLE_COLLECTUI_2026_11_18",
+        "pattern_ids": [
+          "DCL-001",
+          "DCL-005",
+          "DCL-007"
+        ],
+        "source_kind": "UI_UX_REFERENCE",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "surface": "Mappa, percorso, statistiche",
+        "guardrail": "Routing e posizione corretti prima del polish"
+      }
     },
     {
       "id": "web-utility-factory",
@@ -7618,7 +7915,7 @@
       "name": "Wonderlog",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-17",
+      "updated_at": "2026-11-18",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -7635,7 +7932,9 @@
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
-        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
+        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
+        "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "viaggio",
@@ -7888,6 +8187,13 @@
           "status": "PROPOSED_ONLY",
           "detail": "Added checklist and 4 targeted acceptance questions; no actual UI audit, screenshot, code change, new source or Golden certification.",
           "origin": "Impeccable Designing official page, same canonical DSK-002"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "DRIBBBLE_COLLECTUI_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "4 Dribbble shots + Collect UI curated category pages",
+          "detail": "4 independent visual ideas for Viaggi, diari, foto e mappa; no app code, Product Bible or Golden changed."
         }
       ],
       "voice_ui_candidates": [
@@ -8196,6 +8502,20 @@
         "consumer_qa_state": "NOT_EXECUTED",
         "dependency_added": false,
         "product_bible_approved": false
+      },
+      "external_visual_patterns_2026_27": {
+        "source": "DRIBBBLE_COLLECTUI_2026_11_18",
+        "pattern_ids": [
+          "DCL-001",
+          "DCL-006",
+          "DCL-007",
+          "DCL-010"
+        ],
+        "source_kind": "UI_UX_REFERENCE",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "surface": "Viaggi, diari, foto e mappa",
+        "guardrail": "No immagini tagliate; viaggio e navigazione non sacrificati"
       }
     },
     {
@@ -8203,7 +8523,7 @@
       "name": "World Days",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-17",
+      "updated_at": "2026-11-18",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -8220,7 +8540,9 @@
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
-        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md"
+        "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
+        "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "calendario",
@@ -8497,6 +8819,13 @@
           "status": "PROPOSED_ONLY",
           "detail": "Added checklist and 4 targeted acceptance questions; no actual UI audit, screenshot, code change, new source or Golden certification.",
           "origin": "Impeccable Designing official page, same canonical DSK-002"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "DRIBBBLE_COLLECTUI_DESIGN_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "4 Dribbble shots + Collect UI curated category pages",
+          "detail": "4 independent visual ideas for Schede giornata e scoperta; no app code, Product Bible or Golden changed."
         }
       ],
       "voice_ui_candidates": [
@@ -8877,6 +9206,20 @@
         "consumer_qa_state": "NOT_EXECUTED",
         "dependency_added": false,
         "product_bible_approved": false
+      },
+      "external_visual_patterns_2026_27": {
+        "source": "DRIBBBLE_COLLECTUI_2026_11_18",
+        "pattern_ids": [
+          "DCL-001",
+          "DCL-003",
+          "DCL-007",
+          "DCL-011"
+        ],
+        "source_kind": "UI_UX_REFERENCE",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "surface": "Schede giornata e scoperta",
+        "guardrail": "Preservare colori già approvati, storia e fonti sopra il puro decorativo"
       }
     }
   ],
