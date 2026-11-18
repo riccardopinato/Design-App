@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-19",
+  "source_id": "DESIGN-SITE-014",
+  "source": "https://m3.material.io/",
+  "status": "REFERENCE_PROPOSED_ONLY",
+  "option": "MATERIAL3_AVAILABLE_NOT_DEFAULT_NOT_BANNED",
+  "links": [
+    {
+      "app": "focussense",
+      "source_id": "DESIGN-SITE-014",
+      "fit": "HIGH",
+      "scope": "controls, settings, focus filters and real sensor indicators; maintain focus-centric brand",
+      "selection": "NOT_DECIDED",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED",
+      "framework": "CHECK_CONSUMER_REPO",
+      "notes": "Use per-app design approval; for existing Kotlin/Compose use native Android Material3, not Flutter Golden copied as source"
+    },
+    {
+      "app": "tabletop-motion-alarm",
+      "source_id": "DESIGN-SITE-014",
+      "fit": "HIGH",
+      "scope": "alarm arming/countdown, safety toggles, PIN/alerts; protect high contrast and fast response",
+      "selection": "NOT_DECIDED",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED",
+      "framework": "CHECK_CONSUMER_REPO",
+      "notes": "Use per-app design approval; for existing Kotlin/Compose use native Android Material3, not Flutter Golden copied as source"
+    },
+    {
+      "app": "the-luminous-infinite-circle",
+      "source_id": "DESIGN-SITE-014",
+      "fit": "MEDIUM",
+      "scope": "settings and accessibility/preferences only; retain custom AOD visual identity",
+      "selection": "NOT_DECIDED",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED",
+      "framework": "CHECK_CONSUMER_REPO",
+      "notes": "Use per-app design approval; for existing Kotlin/Compose use native Android Material3, not Flutter Golden copied as source"
+    },
+    {
+      "app": "battery-guard",
+      "source_id": "DESIGN-SITE-014",
+      "fit": "MEDIUM",
+      "scope": "battery diagnostics/settings and compact summary widgets; avoid stock dashboard look",
+      "selection": "NOT_DECIDED",
+      "status": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED",
+      "framework": "CHECK_CONSUMER_REPO",
+      "notes": "Use per-app design approval; for existing Kotlin/Compose use native Android Material3, not Flutter Golden copied as source"
+    }
+  ],
+  "by_app": {
+    "focussense": [
+      {
+        "app": "focussense",
+        "source_id": "DESIGN-SITE-014",
+        "fit": "HIGH",
+        "scope": "controls, settings, focus filters and real sensor indicators; maintain focus-centric brand",
+        "selection": "NOT_DECIDED",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "framework": "CHECK_CONSUMER_REPO",
+        "notes": "Use per-app design approval; for existing Kotlin/Compose use native Android Material3, not Flutter Golden copied as source"
+      }
+    ],
+    "tabletop-motion-alarm": [
+      {
+        "app": "tabletop-motion-alarm",
+        "source_id": "DESIGN-SITE-014",
+        "fit": "HIGH",
+        "scope": "alarm arming/countdown, safety toggles, PIN/alerts; protect high contrast and fast response",
+        "selection": "NOT_DECIDED",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "framework": "CHECK_CONSUMER_REPO",
+        "notes": "Use per-app design approval; for existing Kotlin/Compose use native Android Material3, not Flutter Golden copied as source"
+      }
+    ],
+    "the-luminous-infinite-circle": [
+      {
+        "app": "the-luminous-infinite-circle",
+        "source_id": "DESIGN-SITE-014",
+        "fit": "MEDIUM",
+        "scope": "settings and accessibility/preferences only; retain custom AOD visual identity",
+        "selection": "NOT_DECIDED",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "framework": "CHECK_CONSUMER_REPO",
+        "notes": "Use per-app design approval; for existing Kotlin/Compose use native Android Material3, not Flutter Golden copied as source"
+      }
+    ],
+    "battery-guard": [
+      {
+        "app": "battery-guard",
+        "source_id": "DESIGN-SITE-014",
+        "fit": "MEDIUM",
+        "scope": "battery diagnostics/settings and compact summary widgets; avoid stock dashboard look",
+        "selection": "NOT_DECIDED",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "framework": "CHECK_CONSUMER_REPO",
+        "notes": "Use per-app design approval; for existing Kotlin/Compose use native Android Material3, not Flutter Golden copied as source"
+      }
+    ]
+  },
+  "by_source": {
+    "DESIGN-SITE-014": [
+      {
+        "app": "focussense",
+        "source_id": "DESIGN-SITE-014",
+        "fit": "HIGH",
+        "scope": "controls, settings, focus filters and real sensor indicators; maintain focus-centric brand",
+        "selection": "NOT_DECIDED",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "framework": "CHECK_CONSUMER_REPO",
+        "notes": "Use per-app design approval; for existing Kotlin/Compose use native Android Material3, not Flutter Golden copied as source"
+      },
+      {
+        "app": "tabletop-motion-alarm",
+        "source_id": "DESIGN-SITE-014",
+        "fit": "HIGH",
+        "scope": "alarm arming/countdown, safety toggles, PIN/alerts; protect high contrast and fast response",
+        "selection": "NOT_DECIDED",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "framework": "CHECK_CONSUMER_REPO",
+        "notes": "Use per-app design approval; for existing Kotlin/Compose use native Android Material3, not Flutter Golden copied as source"
+      },
+      {
+        "app": "the-luminous-infinite-circle",
+        "source_id": "DESIGN-SITE-014",
+        "fit": "MEDIUM",
+        "scope": "settings and accessibility/preferences only; retain custom AOD visual identity",
+        "selection": "NOT_DECIDED",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "framework": "CHECK_CONSUMER_REPO",
+        "notes": "Use per-app design approval; for existing Kotlin/Compose use native Android Material3, not Flutter Golden copied as source"
+      },
+      {
+        "app": "battery-guard",
+        "source_id": "DESIGN-SITE-014",
+        "fit": "MEDIUM",
+        "scope": "battery diagnostics/settings and compact summary widgets; avoid stock dashboard look",
+        "selection": "NOT_DECIDED",
+        "status": "PROPOSED_ONLY",
+        "implementation": "NOT_VERIFIED",
+        "framework": "CHECK_CONSUMER_REPO",
+        "notes": "Use per-app design approval; for existing Kotlin/Compose use native Android Material3, not Flutter Golden copied as source"
+      }
+    ]
+  },
+  "counts": {
+    "apps": 4,
+    "relations": 4
+  },
+  "evidence": "Official docs reviewed; consumer code not audited; no app source modified."
+}

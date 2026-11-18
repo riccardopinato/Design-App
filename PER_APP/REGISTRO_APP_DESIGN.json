@@ -2842,7 +2842,9 @@
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
-        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json"
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+        "sources/MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md",
+        "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json"
       ],
       "category_ideas": [
         "batteria",
@@ -3104,6 +3106,14 @@
           "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
           "note": "Package shortlist only; Design-App-first and consumer verification required.",
           "origin": "https://fluttergems.dev/"
+        },
+        {
+          "date": "2026-11-19",
+          "type": "MATERIAL3_SELECTIVE_OPTION_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://m3.material.io/",
+          "source": "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json",
+          "note": "Material 3 is a possible app-specific utility UI choice, not default/ban; implementation and actual stack NOT_VERIFIED; no consumer changes."
         }
       ],
       "motion_design_candidates": [
@@ -3745,7 +3755,16 @@
           "status": "PROPOSED_ONLY",
           "implementation": "NOT_VERIFIED"
         }
-      ]
+      ],
+      "material3_optional_design_reference": {
+        "source_id": "DESIGN-SITE-014",
+        "source_url": "https://m3.material.io/",
+        "fit": "MEDIUM",
+        "scope": "battery diagnostics/settings and compact summary widgets; avoid stock dashboard look",
+        "status": "PROPOSED_ONLY",
+        "decision": "NOT_DECIDED",
+        "implementation": "NOT_VERIFIED"
+      }
     },
     {
       "id": "beerclass-ai",
@@ -9444,7 +9463,9 @@
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "sources/MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md",
+        "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json"
       ],
       "category_ideas": [
         "attenzione",
@@ -9631,6 +9652,14 @@
             "UIV-110"
           ],
           "note": "1 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-19",
+          "type": "MATERIAL3_SELECTIVE_OPTION_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://m3.material.io/",
+          "source": "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json",
+          "note": "Material 3 is a possible app-specific utility UI choice, not default/ban; implementation and actual stack NOT_VERIFIED; no consumer changes."
         }
       ],
       "motion_design_candidates": [
@@ -9983,7 +10012,16 @@
           "is_user_favorite": true,
           "code_original_available": true
         }
-      ]
+      ],
+      "material3_optional_design_reference": {
+        "source_id": "DESIGN-SITE-014",
+        "source_url": "https://m3.material.io/",
+        "fit": "HIGH",
+        "scope": "controls, settings, focus filters and real sensor indicators; maintain focus-centric brand",
+        "status": "PROPOSED_ONLY",
+        "decision": "NOT_DECIDED",
+        "implementation": "NOT_VERIFIED"
+      }
     },
     {
       "id": "framelab",
@@ -15664,7 +15702,9 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "sources/MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md",
+        "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json"
       ],
       "category_ideas": [
         "allarme",
@@ -15763,6 +15803,14 @@
             "UIV-086"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-19",
+          "type": "MATERIAL3_SELECTIVE_OPTION_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://m3.material.io/",
+          "source": "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json",
+          "note": "Material 3 is a possible app-specific utility UI choice, not default/ban; implementation and actual stack NOT_VERIFIED; no consumer changes."
         }
       ],
       "watermelon_ui_candidates": [
@@ -15848,7 +15896,16 @@
           "is_user_favorite": true,
           "code_original_available": true
         }
-      ]
+      ],
+      "material3_optional_design_reference": {
+        "source_id": "DESIGN-SITE-014",
+        "source_url": "https://m3.material.io/",
+        "fit": "HIGH",
+        "scope": "alarm arming/countdown, safety toggles, PIN/alerts; protect high contrast and fast response",
+        "status": "PROPOSED_ONLY",
+        "decision": "NOT_DECIDED",
+        "implementation": "NOT_VERIFIED"
+      }
     },
     {
       "id": "the-luminous-infinite-circle",
@@ -15868,7 +15925,9 @@
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "sources/MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md",
+        "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json"
       ],
       "category_ideas": [
         "cerchio luminoso",
@@ -15962,6 +16021,14 @@
             "UIV-086"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-19",
+          "type": "MATERIAL3_SELECTIVE_OPTION_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://m3.material.io/",
+          "source": "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json",
+          "note": "Material 3 is a possible app-specific utility UI choice, not default/ban; implementation and actual stack NOT_VERIFIED; no consumer changes."
         }
       ],
       "bookmarked_visual_references": [
@@ -16045,7 +16112,16 @@
           "is_user_favorite": true,
           "code_original_available": true
         }
-      ]
+      ],
+      "material3_optional_design_reference": {
+        "source_id": "DESIGN-SITE-014",
+        "source_url": "https://m3.material.io/",
+        "fit": "MEDIUM",
+        "scope": "settings and accessibility/preferences only; retain custom AOD visual identity",
+        "status": "PROPOSED_ONLY",
+        "decision": "NOT_DECIDED",
+        "implementation": "NOT_VERIFIED"
+      }
     },
     {
       "id": "trailpath",
