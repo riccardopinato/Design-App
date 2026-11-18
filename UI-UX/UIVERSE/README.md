@@ -17,3 +17,7 @@
 [Catalogo canonico](./REGISTRO_COMPONENTI.json) · [Matrice bidirezionale](./MATRICE_APP_COMPONENTI.md) · [Codice da estrarre](./CODICE_SORGENTE/README.md) · [Audit fonti](../../sources/UIVERSE_NINE_AUDIT_2026-11-18.md).
 
 **Preferenze utente:** UIV-005 da valutare come sfondo per più app; UIV-007 con testo «Stiamo facendo la magia» solo durante processi reali, senza fingere AI; UIV-009 per la sezione Ricordi di Anna's Diary. I dettagli visivi dei componenti senza sorgente non sono ancora verificati.
+
+## Importazione completa dei tuoi Favorites privati
+
+L'elenco personale richiede Uiverse autenticato: **non è recuperabile pubblicamente**. [Istruzioni e procedura di esportazione JSON](./FAVORITES/README.md) · [Script locale di estrazione](../../scripts/uiverse_favorites_export_browser.js). **Stato: elenco non ancora ricevuto**. I nove componenti sopra restano il catalogo verificato esistente; non sono automaticamente tutti i preferiti.
