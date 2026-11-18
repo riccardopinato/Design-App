@@ -142,3 +142,19 @@ Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze
 | [UIV-097](https://uiverse.io/vamsidevendrakumar/soft-shrimp-94) | CARD | Card di anteprima/collezione | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-097_original.html) |
 
 [Registro 97 Favorites](../UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json) · [Matrice complessiva 25 app](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md) · [Archivio codice](../UI-UX/UIVERSE/CODICE_SORGENTE/README.md). Stato: **PROPOSED_ONLY**.
+
+## Uiverse — refresh preferiti 108 (18/11/2026)
+
+**5 nuove associazioni**, derivate dagli undici nuovi preferiti con HTML/CSS originale recuperato da Uiverse. Nessuna nuova autenticazione obbligatoria; la proposta non modifica il codice consumer.
+
+| Sorgente | Famiglia | Superficie proposta | Fit | Codice sorgente |
+|---|---|---|---|---|
+| [UIV-101](https://uiverse.io/Javierrocadev/chatty-ladybug-95) | FORM | Input Rapid Log birra, nessun nuovo login | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-101_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-101_original.css) |
+| [UIV-103](https://uiverse.io/SyedShahzaib7/brave-dog-61) | FORM | Input Rapid Log birra, nessun nuovo login | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-103_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-103_original.css) |
+| [UIV-105](https://uiverse.io/ayyjayy2/sour-dog-94) | FORM | Input Rapid Log birra, nessun nuovo login | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-105_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-105_original.css) |
+| [UIV-107](https://uiverse.io/elijahgummer/new-fly-30) | LOADER | Acquisizione codice a barre o catalogazione realmente attiva | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-107_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-107_original.css) |
+| [UIV-109](https://uiverse.io/mamyapro123/curvy-bear-51) | FORM | Input Rapid Log birra, nessun nuovo login | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-109_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-109_original.css) |
+
+Ogni riferimento resta `PROPOSED_ONLY`: prima del riuso servono Product Bible, revisione estetica, UI/accessibilità, licenza e test nel consumer.
+
+[Confronto 97→108](../UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json) · [Analisi tecnica degli 11](../UI-UX/UIVERSE/FAVORITES/ANALISI_REFRESH_11_2026-11-18.json).
