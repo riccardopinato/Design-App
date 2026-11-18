@@ -1,0 +1,433 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-18",
+  "status": "PROPOSED_ONLY",
+  "source_document": "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
+  "reference_kind": "UI_UX_REFERENCE",
+  "asset_copy_authorized": false,
+  "patterns": [
+    {
+      "id": "DCL-001",
+      "name": "Editorial hero",
+      "source_refs": [
+        "DRB-03",
+        "DRB-04"
+      ],
+      "state": "REFERENCE",
+      "reuse_mode": "REFERENCE_ONLY",
+      "apps": [
+        "annas-diary",
+        "world-days",
+        "wonderlog",
+        "framelab",
+        "trailpath",
+        "beerclass-ai"
+      ]
+    },
+    {
+      "id": "DCL-002",
+      "name": "Intentional bento",
+      "source_refs": [
+        "DRB-01",
+        "DRB-02"
+      ],
+      "state": "REFERENCE",
+      "reuse_mode": "REFERENCE_ONLY",
+      "apps": [
+        "annas-diary",
+        "notes-ecosistema",
+        "omni-cleaner",
+        "cashmate-ai",
+        "camperboss",
+        "beerclass-ai",
+        "app-factory-dashboard"
+      ]
+    },
+    {
+      "id": "DCL-003",
+      "name": "Semantic chroma",
+      "source_refs": [
+        "DRB-01",
+        "DRB-02"
+      ],
+      "state": "REFERENCE",
+      "reuse_mode": "REFERENCE_ONLY",
+      "apps": [
+        "world-days",
+        "battery-guard",
+        "cashmate-ai",
+        "focussense",
+        "sleepmax-coach"
+      ]
+    },
+    {
+      "id": "DCL-004",
+      "name": "Quiet navigation",
+      "source_refs": [
+        "DRB-02",
+        "DRB-04"
+      ],
+      "state": "REFERENCE",
+      "reuse_mode": "REFERENCE_ONLY",
+      "apps": [
+        "annas-diary",
+        "notes-ecosistema",
+        "omni-cleaner",
+        "camperboss",
+        "deskland-android"
+      ]
+    },
+    {
+      "id": "DCL-005",
+      "name": "Storytelling data",
+      "source_refs": [
+        "DRB-01",
+        "CUI-03"
+      ],
+      "state": "REFERENCE",
+      "reuse_mode": "REFERENCE_ONLY",
+      "apps": [
+        "omni-cleaner",
+        "battery-guard",
+        "cashmate-ai",
+        "focussense",
+        "trailpath",
+        "sleepmax-coach",
+        "app-factory-dashboard"
+      ]
+    },
+    {
+      "id": "DCL-006",
+      "name": "Media-first gallery",
+      "source_refs": [
+        "DRB-03",
+        "DRB-04"
+      ],
+      "state": "REFERENCE",
+      "reuse_mode": "REFERENCE_ONLY",
+      "apps": [
+        "annas-diary",
+        "omni-cleaner",
+        "wonderlog",
+        "framelab",
+        "beerclass-ai"
+      ]
+    },
+    {
+      "id": "DCL-007",
+      "name": "Contextual actions",
+      "source_refs": [
+        "DRB-01",
+        "DRB-02"
+      ],
+      "state": "REFERENCE",
+      "reuse_mode": "REFERENCE_ONLY",
+      "apps": [
+        "annas-diary",
+        "notes-ecosistema",
+        "omni-cleaner",
+        "world-days",
+        "cashmate-ai",
+        "wonderlog",
+        "camperboss",
+        "trailpath"
+      ]
+    },
+    {
+      "id": "DCL-008",
+      "name": "Functional scroll motion",
+      "source_refs": [
+        "CUI-02"
+      ],
+      "state": "REFERENCE",
+      "reuse_mode": "REFERENCE_ONLY",
+      "apps": [
+        "battery-guard",
+        "focussense",
+        "deskland-android"
+      ]
+    },
+    {
+      "id": "DCL-009",
+      "name": "First value onboarding",
+      "source_refs": [
+        "CUI-01"
+      ],
+      "state": "REFERENCE",
+      "reuse_mode": "REFERENCE_ONLY",
+      "apps": [
+        "sleepmax-coach"
+      ]
+    },
+    {
+      "id": "DCL-010",
+      "name": "Responsive editorial",
+      "source_refs": [
+        "DRB-03"
+      ],
+      "state": "REFERENCE",
+      "reuse_mode": "REFERENCE_ONLY",
+      "apps": [
+        "notes-ecosistema",
+        "wonderlog",
+        "framelab",
+        "camperboss",
+        "app-factory-dashboard"
+      ]
+    },
+    {
+      "id": "DCL-011",
+      "name": "Thoughtful empty states",
+      "source_refs": [
+        "DRB-02"
+      ],
+      "state": "REFERENCE",
+      "reuse_mode": "REFERENCE_ONLY",
+      "apps": [
+        "annas-diary",
+        "notes-ecosistema",
+        "world-days",
+        "battery-guard"
+      ]
+    },
+    {
+      "id": "DCL-012",
+      "name": "Premium polish without slop",
+      "source_refs": [
+        "DRB-03",
+        "DRB-04"
+      ],
+      "state": "REFERENCE",
+      "reuse_mode": "REFERENCE_ONLY",
+      "apps": [
+        "framelab",
+        "deskland-android"
+      ]
+    }
+  ],
+  "apps": [
+    {
+      "id": "annas-diary",
+      "name": "Anna's Diary",
+      "pattern_ids": [
+        "DCL-001",
+        "DCL-002",
+        "DCL-004",
+        "DCL-006",
+        "DCL-007",
+        "DCL-011"
+      ],
+      "surface": "Oggi, Calendario, Ricordi",
+      "fit": "HIGH",
+      "guardrail": "Preservare Manrope/Lora, palette rose, look diario contemporaneo",
+      "state": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "notes-ecosistema",
+      "name": "Notes-Ecosistema",
+      "pattern_ids": [
+        "DCL-002",
+        "DCL-004",
+        "DCL-007",
+        "DCL-010",
+        "DCL-011"
+      ],
+      "surface": "Workspace, Inbox, Canvas, Web",
+      "fit": "HIGH",
+      "guardrail": "Densità da workspace, niente dashboard scenografica senza funzione",
+      "state": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "omni-cleaner",
+      "name": "Android Omni Cleaner",
+      "pattern_ids": [
+        "DCL-002",
+        "DCL-004",
+        "DCL-005",
+        "DCL-006",
+        "DCL-007"
+      ],
+      "surface": "Home funzioni, scansione, galleria e player",
+      "fit": "HIGH",
+      "guardrail": "No micro-animazioni nelle operazioni distruttive; foto/video a proporzioni originali",
+      "state": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "world-days",
+      "name": "World Days",
+      "pattern_ids": [
+        "DCL-001",
+        "DCL-003",
+        "DCL-007",
+        "DCL-011"
+      ],
+      "surface": "Schede giornata e scoperta",
+      "fit": "HIGH",
+      "guardrail": "Preservare colori già approvati, storia e fonti sopra il puro decorativo",
+      "state": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "battery-guard",
+      "name": "Battery Guard",
+      "pattern_ids": [
+        "DCL-003",
+        "DCL-005",
+        "DCL-008",
+        "DCL-011"
+      ],
+      "surface": "Stato batteria, sessioni e grafici",
+      "fit": "HIGH",
+      "guardrail": "Grafici reali; overhead GPU e consumo prossimi a zero",
+      "state": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "cashmate-ai",
+      "name": "CashMate AI",
+      "pattern_ids": [
+        "DCL-002",
+        "DCL-003",
+        "DCL-005",
+        "DCL-007"
+      ],
+      "surface": "Saldo, spese, budget, dettagli",
+      "fit": "HIGH",
+      "guardrail": "Privacy, accuratezza valori, niente false metriche",
+      "state": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "wonderlog",
+      "name": "Wonderlog",
+      "pattern_ids": [
+        "DCL-001",
+        "DCL-006",
+        "DCL-007",
+        "DCL-010"
+      ],
+      "surface": "Viaggi, diari, foto e mappa",
+      "fit": "HIGH",
+      "guardrail": "No immagini tagliate; viaggio e navigazione non sacrificati",
+      "state": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "framelab",
+      "name": "FrameLab",
+      "pattern_ids": [
+        "DCL-001",
+        "DCL-006",
+        "DCL-010",
+        "DCL-012"
+      ],
+      "surface": "Portfolio, foto, palette",
+      "fit": "HIGH",
+      "guardrail": "Foto contenuto primario; controlli cromatici precisi",
+      "state": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "focussense",
+      "name": "FocusSense",
+      "pattern_ids": [
+        "DCL-003",
+        "DCL-005",
+        "DCL-008"
+      ],
+      "surface": "Sessioni e Focus Score",
+      "fit": "MEDIUM",
+      "guardrail": "No colori o dati che suggeriscono misure non verificate",
+      "state": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "camperboss",
+      "name": "CamperBoss",
+      "pattern_ids": [
+        "DCL-002",
+        "DCL-004",
+        "DCL-007",
+        "DCL-010"
+      ],
+      "surface": "Dashboard viaggio, controlli",
+      "fit": "MEDIUM",
+      "guardrail": "Offline e leggibilità in esterno prioritari",
+      "state": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "trailpath",
+      "name": "TrailPath",
+      "pattern_ids": [
+        "DCL-001",
+        "DCL-005",
+        "DCL-007"
+      ],
+      "surface": "Mappa, percorso, statistiche",
+      "fit": "MEDIUM",
+      "guardrail": "Routing e posizione corretti prima del polish",
+      "state": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "sleepmax-coach",
+      "name": "SleepMax Coach",
+      "pattern_ids": [
+        "DCL-003",
+        "DCL-005",
+        "DCL-009"
+      ],
+      "surface": "Sonno, routine e onboarding",
+      "fit": "MEDIUM",
+      "guardrail": "Evita affermazioni cliniche con grafici ornamentali",
+      "state": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "beerclass-ai",
+      "name": "BeerClass AI",
+      "pattern_ids": [
+        "DCL-001",
+        "DCL-002",
+        "DCL-006"
+      ],
+      "surface": "Diario birre e rapid log",
+      "fit": "MEDIUM",
+      "guardrail": "Rapid Log più importante delle immagini",
+      "state": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "deskland-android",
+      "name": "Deskland Android",
+      "pattern_ids": [
+        "DCL-004",
+        "DCL-008",
+        "DCL-012"
+      ],
+      "surface": "Home launcher e transizioni",
+      "fit": "LOW",
+      "guardrail": "Prima rendere launcher affidabile e fluido",
+      "state": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "app-factory-dashboard",
+      "name": "App Factory Dashboard",
+      "pattern_ids": [
+        "DCL-002",
+        "DCL-005",
+        "DCL-010"
+      ],
+      "surface": "Portfolio, roadmap, stato e gate",
+      "fit": "HIGH",
+      "guardrail": "Separare implementato, verificato e roadmap; non simulare CI",
+      "state": "PROPOSED_ONLY",
+      "implementation": "NOT_VERIFIED"
+    }
+  ]
+}

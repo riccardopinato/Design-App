@@ -220,3 +220,19 @@ Dopo l'intake iniziale della pagina Bookmarks, sono stati ricevuti **3 screensho
 ## Impeccable Designing — qualità estetica e UX trasversale (17/11/2026)
 
 La [guida ufficiale](https://impeccable.style/designing/) è stata approfondita e collegata all'**Impeccable già censito come `DSK-002`**, senza duplicare donor, sorgenti o capacità. [Analisi incrementale](./sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md) · [8 controlli e 10 app già collegate](./UI-UX/IMPECCABLE_DESIGNING_APP_MATRIX_2026-11-17.json) · [dossier per-app](./PER_APP/README.md). Metodo: Start/Improve/Check/Maintain, mockup-first o code-first, critique + harden + polish, `DESIGN.md` come documento derivato dalle scelte della Product Bible. **Detector e hooks automatici analizzano Web, non Flutter nativo**. Tutti i criteri sono `PROPOSED_ONLY`, non QA già eseguiti o promozioni Golden.
+
+## Visual research — Dribbble + Collect UI (2026–27)
+
+Added [source-grounded audit](sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md) and [15-app crosswalk of 12 design patterns](UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.md). Direction: product-owned, premium, clean visual identity without an automatic framework aesthetic. References are not external assets or ready-to-copy code.
+
+## Uiverse — codice sorgente e collegamenti per app (18/11/2026)
+
+[Catalogo dei nove link](./UI-UX/UIVERSE/README.md) · [Archivio HTML/CSS](./UI-UX/UIVERSE/CODICE_SORGENTE/README.md) · [Matrice app ⇄ componente](./UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md). **20 app e 64 associazioni PROPOSED_ONLY.** Sei sorgenti originali MIT verificati e salvati, tre HTML/CSS ancora non reperiti. Preferenze documentate: sfondo amir_6539, loader «Stiamo facendo la magia», libro animato per Ricordi. Nessuna modifica nei consumer, nessun Golden promosso.
+
+## Favorites Uiverse — archivio personale 97 collegamenti (18/11/2026)
+
+[Catalogo 100 componenti Uiverse](./UI-UX/UIVERSE/README.md) · [97 favorites importati](./UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json) · [57 file HTML/CSS originali](./UI-UX/UIVERSE/CODICE_SORGENTE/README.md) · [43 gap di estrazione](./UI-UX/UIVERSE/FAVORITES/CODICE_NON_REPERITO.md) · [657 legami molti-a-molti su 25 app](./UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md). Zero componenti integrati direttamente nei consumer, nessun Golden promosso; la completezza dell'account resta da confrontare con il conteggio Uiverse.
+
+## Aggiornamento recupero pubblico (2026-11-18)
+
+Originali HTML/CSS aggiunti: **43**; catalogo **100/100**; Favorites **97/97**; codice non recuperato **0**. Provenienza e checksum in [RECUPERO_API](../UI-UX/UIVERSE/FAVORITES/RECUPERO_API_2026_11_18.json). Le cifre precedenti documentano lo stato storico prima di questo recupero. Nessuna adozione o test su app consumer.

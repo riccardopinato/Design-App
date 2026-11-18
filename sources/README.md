@@ -56,3 +56,7 @@ Questa directory contiene studi di sorgenti esterne e donatori candidati, non ne
 ## Impeccable Designing — nuova guida operativa sulla fonte DSK-002
 
 [Analisi verificata della pagina](./IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md) · [pagina originale](https://impeccable.style/designing/) · [schede 10 app](../UI-UX/IMPECCABLE_DESIGNING_APP_MATRIX_2026-11-17.json). Il valore è il metodo Start → Improve → Check → Maintain e l'anti-slop contestuale, non una seconda libreria. Le istruzioni `detect`/hooks riguardano source e pagine Web, **non il codice Android/Flutter**. Nessun eseguibile installato, nessuna certificazione di app svolta.
+
+## Dribbble + Collect UI — direzione visiva 2026/27 (18/11/2026)
+
+[Audit con 4 shot Dribbble e 4 pagine Collect UI](./DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md) · [Matrice 15 app e 12 pattern](../UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.md) · [JSON bidirezionale](../UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json). Entrambi sono **siti di ispirazione/reference**, non donatori di codice/immagini. Stato PROPOSED_ONLY, niente modifiche consumer.

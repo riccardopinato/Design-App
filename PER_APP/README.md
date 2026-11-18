@@ -68,3 +68,19 @@ Tre screenshot condivisi dall'utente sono stati convertiti in [30 voci verificab
 ## Impeccable Designing — raccomandazioni UX e QA per 10 app
 
 Le 10 app già associate a Impeccable (`DSK-002`) nella [matrice originaria](../UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.md) ora hanno **8 quality gates** e controlli contestuali aggiunti nei rispettivi dossier e nel [registro JSON per app](./REGISTRO_APP_DESIGN.json). [Analisi completa](../sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md). Stato `PROPOSED_ONLY/NOT_EXECUTED`, nessuna app collaudata o modificata, nessuna nuova libreria o donor duplicato.
+
+## Direzione visiva 2026/27 — Dribbble e Collect UI
+
+[Matrice per app e pattern](../UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.md) · [Registro JSON](../UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json). 15 app candidate, 12 pattern; i dossier e i profili restano PROPOSAL_ONLY / NOT_VERIFIED. La Product Bible governa scelte e priorità effettive.
+
+## Uiverse — 18/11/2026
+
+I dossier delle **20 app compatibili** e il registro canonico contengono le 64 relazioni con i nove componenti Uiverse. [Matrice](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md) · [sorgenti](../UI-UX/UIVERSE/CODICE_SORGENTE/README.md) · [registro](../UI-UX/UIVERSE/REGISTRO_COMPONENTI.json). Nessun cambiamento nelle app, nessuna implementazione certificata.
+
+## Favorites Uiverse — tutti i 25 dossier (18/11/2026)
+
+Il [registro centrale per-app](./REGISTRO_APP_DESIGN.json) e i dossier Markdown per **25 app** sono sincronizzati con [657 associazioni](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.json). I **97 favorites esportati** mappano 54 sorgenti originali disponibili e 43 da recuperare. Nessuna adozione runtime/Golden viene implicata dai suggerimenti.
+
+## Aggiornamento recupero pubblico (2026-11-18)
+
+Originali HTML/CSS aggiunti: **43**; catalogo **100/100**; Favorites **97/97**; codice non recuperato **0**. Provenienza e checksum in [RECUPERO_API](../UI-UX/UIVERSE/FAVORITES/RECUPERO_API_2026_11_18.json). Le cifre precedenti documentano lo stato storico prima di questo recupero. Nessuna adozione o test su app consumer.

@@ -101,3 +101,19 @@ La sezione [**PER_APP**](../PER_APP/README.md) conserva le proposte visuali per 
 ## Impeccable — 8 controlli di design qualità su 10 app già collegate
 
 [Playbook per app e gate](./IMPECCABLE_DESIGNING_APP_MATRIX_2026-11-17.json) · [audit della guida Designing](../sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md). Riusare la stessa identità `DSK-002` già presente nella [matrice design skill](./MATRICE_REPO_DESIGN_APP_2026-11-17.md). Critique/audit/harden/polish con evidenza screenshot e QA nativo, non solo check PASS GitHub; il detector CSS/HTML e i hooks Impeccable sono ammessi **solo Web/PWA**. Non creare una seconda Product Bible o dichiarare copy-ready il Golden App Shell DRAFT.
+
+## Dribbble / Collect UI — 2026/27
+
+[12 nuovi pattern e mappa verso 15 app](./DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.md) · [JSON](./DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json) · [fonti e guardrail](../sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md). Composizione bento, editorial photo-first, gerarchie forti, cromie semantiche, motion funzionale, onboarding e grafici. **Reference only, non codice copy-ready.**
+
+## Uiverse — archivio componenti e sorgenti
+
+[9 link catalogati](./UIVERSE/README.md) · [codice originale](./UIVERSE/CODICE_SORGENTE/README.md) · [registro relazionale](./UIVERSE/MATRICE_APP_COMPONENTI.json). Sei file HTML/CSS MIT recuperati, tre assenti nella copia Galaxy consultata; 64 proposte su 20 app. Tutte REFERENCE/PROPOSED_ONLY.
+
+## Favorites Uiverse — importazione estesa 18/11/2026
+
+[Registro 97 Favorites](./UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json), di cui 91 nuovi rispetto al catalogo originario; [100 componenti totali](./UIVERSE/README.md), [57 sorgenti HTML/CSS MIT](./UIVERSE/CODICE_SORGENTE/README.md), [43 sorgenti da recuperare](./UIVERSE/FAVORITES/CODICE_NON_REPERITO.md), [657 associazioni su 25 app](./UIVERSE/MATRICE_APP_COMPONENTI.md). Tutte le proposte non attestate nel codice consumer restano PROPOSED_ONLY.
+
+## Aggiornamento recupero pubblico (2026-11-18)
+
+Originali HTML/CSS aggiunti: **43**; catalogo **100/100**; Favorites **97/97**; codice non recuperato **0**. Provenienza e checksum in [RECUPERO_API](../UI-UX/UIVERSE/FAVORITES/RECUPERO_API_2026_11_18.json). Le cifre precedenti documentano lo stato storico prima di questo recupero. Nessuna adozione o test su app consumer.

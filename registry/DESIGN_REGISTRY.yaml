@@ -25,12 +25,12 @@ patterns:
     tags: [tokens, spacing, radii, typography, motion]
 
   - id: DS-002
-    name: Material 3 as infrastructure, not identity
+    name: Legacy framework theme reference (historical; not default)
     category: design-system
     sources: [Wonderlog, Battery_Guard, Notes-Ecosistema, World-Days, CamperBoss, Phone-Guard]
     maturity: SOURCE_VERIFIED
     reuse_mode: ADAPT
-    tags: [material3, branding, theme]
+    tags: [legacy-framework, branding, theme]
 
   - id: DS-003
     name: Responsive NavigationBar to NavigationRail
