@@ -228,3 +228,7 @@ Added [source-grounded audit](sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md)
 ## Uiverse — codice sorgente e collegamenti per app (18/11/2026)
 
 [Catalogo dei nove link](./UI-UX/UIVERSE/README.md) · [Archivio HTML/CSS](./UI-UX/UIVERSE/CODICE_SORGENTE/README.md) · [Matrice app ⇄ componente](./UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md). **20 app e 64 associazioni PROPOSED_ONLY.** Sei sorgenti originali MIT verificati e salvati, tre HTML/CSS ancora non reperiti. Preferenze documentate: sfondo amir_6539, loader «Stiamo facendo la magia», libro animato per Ricordi. Nessuna modifica nei consumer, nessun Golden promosso.
+
+## Favorites Uiverse — archivio personale 97 collegamenti (18/11/2026)
+
+[Catalogo 100 componenti Uiverse](./UI-UX/UIVERSE/README.md) · [97 favorites importati](./UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json) · [57 file HTML/CSS originali](./UI-UX/UIVERSE/CODICE_SORGENTE/README.md) · [43 gap di estrazione](./UI-UX/UIVERSE/FAVORITES/CODICE_NON_REPERITO.md) · [657 legami molti-a-molti su 25 app](./UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md). Zero componenti integrati direttamente nei consumer, nessun Golden promosso; la completezza dell'account resta da confrontare con il conteggio Uiverse.

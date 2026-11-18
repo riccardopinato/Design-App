@@ -1,6 +1,15 @@
 # Uiverse Favorites — importazione da pagina autenticata
 
-**Stato: IN ATTESA DELL'ELENCO UTENTE.** La pagina [My Favorites](https://uiverse.io/favorites) non rende leggibili i componenti personali in una sessione non autenticata e mostra «Sign in to save posts to Favorites». Non dedurre i preferiti dal catalogo pubblico né dai nove link già selezionati in chat: possono sovrapporsi, ma non costituiscono l'elenco completo.
+## Risultato dell'importazione del 18 novembre 2026
+
+- [Registro dei 97 collegamenti](./REGISTRO_PREFERITI_2026-11-18.json), acquisiti dall'export locale con 67 passaggi di scansione e deduplicati: 97 URL unici.
+- Sei URL esistevano già; 91 sono nuovi nel registro di Design-App. Catalogo Uiverse complessivo: **100 componenti**.
+- **54 originali HTML/CSS archiviati** per i 97 Favorites, **43 sorgenti non reperite**; [elenco dei mancanti](./CODICE_NON_REPERITO.md).
+- [657 legami bidirezionali su 25 app](../MATRICE_APP_COMPONENTI.md); i dossier permanenti sono aggiornati.
+- **Non si può certificare che 97 sia il totale dell'account** perché il file d'origine marca la completezza `REQUIRES_USER_COUNT_VERIFICATION`. Confrontare con il totale del sito se mostrato.
+- Nessuna delle proposte diventa per questo implementata o Golden.
+
+**Stato: IMPORTATI 97 LINK DI FAVORITES — completezza del totale account DA CONFERMARE.** La pagina [My Favorites](https://uiverse.io/favorites) non rende leggibili i componenti personali in una sessione non autenticata e mostra «Sign in to save posts to Favorites». Non dedurre i preferiti dal catalogo pubblico né dai nove link già selezionati in chat: possono sovrapporsi, ma non costituiscono l'elenco completo.
 
 ## Esportazione sicura in una sola volta
 

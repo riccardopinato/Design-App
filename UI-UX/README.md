@@ -109,3 +109,7 @@ La sezione [**PER_APP**](../PER_APP/README.md) conserva le proposte visuali per 
 ## Uiverse — archivio componenti e sorgenti
 
 [9 link catalogati](./UIVERSE/README.md) · [codice originale](./UIVERSE/CODICE_SORGENTE/README.md) · [registro relazionale](./UIVERSE/MATRICE_APP_COMPONENTI.json). Sei file HTML/CSS MIT recuperati, tre assenti nella copia Galaxy consultata; 64 proposte su 20 app. Tutte REFERENCE/PROPOSED_ONLY.
+
+## Favorites Uiverse — importazione estesa 18/11/2026
+
+[Registro 97 Favorites](./UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json), di cui 91 nuovi rispetto al catalogo originario; [100 componenti totali](./UIVERSE/README.md), [57 sorgenti HTML/CSS MIT](./UIVERSE/CODICE_SORGENTE/README.md), [43 sorgenti da recuperare](./UIVERSE/FAVORITES/CODICE_NON_REPERITO.md), [657 associazioni su 25 app](./UIVERSE/MATRICE_APP_COMPONENTI.md). Tutte le proposte non attestate nel codice consumer restano PROPOSED_ONLY.
