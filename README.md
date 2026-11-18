@@ -224,3 +224,7 @@ La [guida ufficiale](https://impeccable.style/designing/) è stata approfondita 
 ## Visual research — Dribbble + Collect UI (2026–27)
 
 Added [source-grounded audit](sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md) and [15-app crosswalk of 12 design patterns](UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.md). Direction: product-owned, premium, clean visual identity without an automatic framework aesthetic. References are not external assets or ready-to-copy code.
+
+## Uiverse — codice sorgente e collegamenti per app (18/11/2026)
+
+[Catalogo dei nove link](./UI-UX/UIVERSE/README.md) · [Archivio HTML/CSS](./UI-UX/UIVERSE/CODICE_SORGENTE/README.md) · [Matrice app ⇄ componente](./UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md). **20 app e 64 associazioni PROPOSED_ONLY.** Sei sorgenti originali MIT verificati e salvati, tre HTML/CSS ancora non reperiti. Preferenze documentate: sfondo amir_6539, loader «Stiamo facendo la magia», libro animato per Ricordi. Nessuna modifica nei consumer, nessun Golden promosso.

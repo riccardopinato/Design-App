@@ -72,3 +72,7 @@ Le 10 app già associate a Impeccable (`DSK-002`) nella [matrice originaria](../
 ## Direzione visiva 2026/27 — Dribbble e Collect UI
 
 [Matrice per app e pattern](../UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.md) · [Registro JSON](../UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json). 15 app candidate, 12 pattern; i dossier e i profili restano PROPOSAL_ONLY / NOT_VERIFIED. La Product Bible governa scelte e priorità effettive.
+
+## Uiverse — 18/11/2026
+
+I dossier delle **20 app compatibili** e il registro canonico contengono le 64 relazioni con i nove componenti Uiverse. [Matrice](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md) · [sorgenti](../UI-UX/UIVERSE/CODICE_SORGENTE/README.md) · [registro](../UI-UX/UIVERSE/REGISTRO_COMPONENTI.json). Nessun cambiamento nelle app, nessuna implementazione certificata.

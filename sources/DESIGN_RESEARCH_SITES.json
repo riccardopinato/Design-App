@@ -168,6 +168,26 @@
       "source_content_summary": "Verified sign-up, scroll-animation, infographic categories and trending; no assumed author-specific asset license.",
       "license": "PER_ITEM_RIGHTS_NOT_ESTABLISHED_REFERENCE_ONLY",
       "related_intake": "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md"
+    },
+    {
+      "id": "DESIGN-SITE-010",
+      "name": "Uiverse",
+      "url": "https://uiverse.io/",
+      "kind": "COMMUNITY_UI_COMPONENT_LIBRARY",
+      "status": "REFERENCE",
+      "source_repo": "uiverse-io/galaxy",
+      "source_ref": "adbd2adde0a299a3956ea288fb444ec01891ca41",
+      "source_content_summary": "9 components: 6 HTML/CSS source snapshots, 3 code gaps",
+      "license": "MIT official source; external assets independently verified",
+      "recommended_for": [
+        "CSS UI",
+        "loaders",
+        "animated cards",
+        "background references",
+        "switches",
+        "design adaptation Flutter/Compose"
+      ],
+      "related_intake": "sources/UIVERSE_NINE_AUDIT_2026-11-18.md"
     }
   ]
 }
