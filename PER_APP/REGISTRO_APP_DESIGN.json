@@ -116,7 +116,8 @@
             "UIV-006"
           ],
           "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-          "note": "Source capture not equivalent to app implementation"
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "uiverse_candidates": [
@@ -444,7 +445,8 @@
             "UIV-009"
           ],
           "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-          "note": "Source capture not equivalent to app implementation"
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "voice_ui_candidates": [
@@ -1178,7 +1180,8 @@
             "UIV-007"
           ],
           "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-          "note": "Source capture not equivalent to app implementation"
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "voice_ui_candidates": [
@@ -1780,7 +1783,8 @@
             "UIV-008"
           ],
           "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-          "note": "Source capture not equivalent to app implementation"
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "motion_design_candidates": [
@@ -2140,7 +2144,8 @@
             "UIV-003"
           ],
           "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-          "note": "Source capture not equivalent to app implementation"
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "voice_ui_candidates": [
@@ -2461,7 +2466,8 @@
             "UIV-008"
           ],
           "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-          "note": "Source capture not equivalent to app implementation"
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "voice_ui_candidates": [
@@ -2827,7 +2833,8 @@
             "UIV-007"
           ],
           "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-          "note": "Source capture not equivalent to app implementation"
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "motion_design_candidates": [
@@ -3791,7 +3798,8 @@
             "UIV-009"
           ],
           "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-          "note": "Source capture not equivalent to app implementation"
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "voice_ui_candidates": [
@@ -4347,7 +4355,8 @@
             "UIV-005"
           ],
           "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-          "note": "Source capture not equivalent to app implementation"
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "voice_ui_candidates": [
@@ -4699,7 +4708,8 @@
             "UIV-008"
           ],
           "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-          "note": "Source capture not equivalent to app implementation"
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "motion_design_candidates": [
@@ -5052,7 +5062,8 @@
             "UIV-006"
           ],
           "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-          "note": "Source capture not equivalent to app implementation"
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "motion_design_candidates": [
@@ -5459,7 +5470,8 @@
             "UIV-009"
           ],
           "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-          "note": "Source capture not equivalent to app implementation"
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "voice_ui_candidates": [
@@ -6101,7 +6113,8 @@
             "UIV-009"
           ],
           "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-          "note": "Source capture not equivalent to app implementation"
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "voice_ui_candidates": [
@@ -6832,7 +6845,8 @@
             "UIV-008"
           ],
           "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-          "note": "Source capture not equivalent to app implementation"
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "motion_design_candidates": [
@@ -7289,7 +7303,8 @@
             "UIV-006"
           ],
           "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-          "note": "Source capture not equivalent to app implementation"
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "uiverse_candidates": [
@@ -7417,7 +7432,8 @@
             "UIV-006"
           ],
           "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-          "note": "Source capture not equivalent to app implementation"
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "bookmarked_visual_references": [
@@ -7558,7 +7574,8 @@
             "UIV-008"
           ],
           "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-          "note": "Source capture not equivalent to app implementation"
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "motion_design_candidates": [
@@ -8542,7 +8559,8 @@
             "UIV-007"
           ],
           "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-          "note": "Source capture not equivalent to app implementation"
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "motion_design_candidates": [
@@ -8956,7 +8974,8 @@
             "UIV-009"
           ],
           "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-          "note": "Source capture not equivalent to app implementation"
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "voice_ui_candidates": [
@@ -9643,7 +9662,8 @@
             "UIV-009"
           ],
           "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-          "note": "Source capture not equivalent to app implementation"
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "voice_ui_candidates": [
