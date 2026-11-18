@@ -52,9 +52,57 @@ if motion_intake != 1:
 watermelon_intake = len(re.findall(r"^  - batch_id: WATERMELON_NINE_2026_11_17$", oss, re.MULTILINE))
 if watermelon_intake != 1:
     fail(f"Watermelon intake must be present exactly once: {watermelon_intake}")
-expected_source_count = 95 + ruixen_intake + 2 * dock_intake + 7 * visual_intake + 10 * skills_intake + 2 * voice_intake + 2 * motion_intake + watermelon_intake
+uiverse_intake = len(re.findall(r"^    batch: UIVERSE_9_2026_11_18$", oss, re.MULTILINE))
+if uiverse_intake != 1:
+    fail(f"Uiverse intake must be present exactly once: {uiverse_intake}")
+expected_source_count = 95 + ruixen_intake + 2 * dock_intake + 7 * visual_intake + 10 * skills_intake + 2 * voice_intake + 2 * motion_intake + watermelon_intake + uiverse_intake
 if len(repos) != expected_source_count or len(set(repos)) != expected_source_count:
     fail(f"expected {expected_source_count} unique OSS design sources, found {len(repos)} / {len(set(repos))} unique")
+if repos.count("uiverse-io/galaxy") != 1:
+    fail("Uiverse Galaxy source must be present once")
+uiverse_dir = ROOT / "UI-UX" / "UIVERSE"
+uiverse_reg_path = uiverse_dir / "REGISTRO_COMPONENTI.json"
+uiverse_map_path = uiverse_dir / "MATRICE_APP_COMPONENTI.json"
+if not all(p.is_file() for p in (uiverse_reg_path, uiverse_map_path, uiverse_dir / "MATRICE_APP_COMPONENTI.md")):
+    fail("Uiverse registry and bidirectional matrix files missing")
+uiverse_reg = json.loads(uiverse_reg_path.read_text(encoding="utf-8"))
+uiverse_map = json.loads(uiverse_map_path.read_text(encoding="utf-8"))
+uiverse_items = uiverse_reg.get("components", [])
+uiverse_links = uiverse_reg.get("relations", [])
+uiverse_app_ids = {e.get("app_id") for e in uiverse_links}
+if len(uiverse_items) != 9 or len({x.get("id") for x in uiverse_items}) != 9:
+    fail("Uiverse must contain exactly nine unique components")
+if len(uiverse_links) != 64 or len({(e.get("component_id"), e.get("app_id")) for e in uiverse_links}) != 64 or len(uiverse_app_ids) != 20:
+    fail("Uiverse expected 64 unique app-component links across 20 apps")
+if {(e["component_id"], e["app_id"]) for e in uiverse_map.get("relations", [])} != {(e["component_id"], e["app_id"]) for e in uiverse_links}:
+    fail("Uiverse bidirectional relation set inconsistent")
+if any(e.get("status") != "PROPOSED_ONLY" for e in uiverse_links):
+    fail("Uiverse links must remain PROPOSED_ONLY")
+item_ids = {x.get("id") for x in uiverse_items}
+if any(e.get("component_id") not in item_ids for e in uiverse_links):
+    fail("Uiverse links to unknown component")
+code_count = 0
+for item in uiverse_items:
+    p = item.get("source_snapshot")
+    if p:
+        code_count += 1
+        if not (ROOT / p).is_file() or not re.fullmatch(r"[0-9a-f]{40}", str(item.get("source_blob_sha", ""))):
+            fail(f"Uiverse source snapshot missing or unpinned: {item.get('id')}")
+    elif item.get("evidence") != "SOURCE_CODE_NOT_LOCATED":
+        fail(f"Uiverse missing source wrongly labelled: {item.get('id')}")
+if code_count != 6:
+    fail("Uiverse expected six exact source snapshots")
+if not (uiverse_dir / "CODICE_SORGENTE" / "LICENSE-Uiverse-Galaxy-MIT.txt").is_file():
+    fail("Uiverse MIT license notice missing")
+per_app_uiverse = json.loads((ROOT / "PER_APP" / "REGISTRO_APP_DESIGN.json").read_text(encoding="utf-8"))
+for app_id in uiverse_app_ids:
+    profile = next((p for p in per_app_uiverse.get("profiles", []) if p.get("id") == app_id), None)
+    if profile is None:
+        fail(f"Uiverse app profile missing: {app_id}")
+    actual = {e.get("component_id") for e in profile.get("uiverse_candidates", [])}
+    expected = {e["component_id"] for e in uiverse_links if e["app_id"] == app_id}
+    if actual != expected or not (ROOT / "PER_APP" / f"{app_id}.md").is_file():
+        fail(f"Uiverse per-app catalogue mismatch: {app_id}")
 for required in ("ruixenui/ruixen.com", "alztrk/opentaskbar", "Acadbek/lumabar"):
     if repos.count(required) != 1:
         fail(f"external source missing or duplicated: {required}")
