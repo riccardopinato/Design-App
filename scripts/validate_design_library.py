@@ -109,7 +109,7 @@ for item in uiverse_items:
         if not codepath.is_file() or not re.fullmatch(r"[0-9a-f]{40}", str(sha)):
             fail(f"Uiverse source missing or unpinned: {item.get('id')}")
         data = codepath.read_bytes()
-        actual_sha = hashlib.sha1(b"blob " + str(len(data)).encode("ascii") + b"\\0" + data).hexdigest()
+        actual_sha = hashlib.sha1(b"blob " + str(len(data)).encode("ascii") + b"\0" + data).hexdigest()
         if sha != actual_sha:
             fail(f"Uiverse source blob mismatch: {item.get('id')}")
     elif item.get("source_blob_sha") or not str(item.get("evidence", "")).endswith(
