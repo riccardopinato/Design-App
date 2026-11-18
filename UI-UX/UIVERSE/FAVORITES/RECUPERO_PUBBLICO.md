@@ -15,3 +15,6 @@ Non avviene alcuna modifica a Uiverse, nessuna scrittura su Design-App e nessun 
 - `UIVERSE_RECOVERY_SUMMARY`: numero totale tentati / riusciti.
 
 **Non etichettare il codice come pronto per Flutter/Compose**. La sua destinazione è la sottosezione HTML/CSS originale MIT con licenze, DOI dei dati e source snapshots, non le app consumer. In caso di blocco della rete pubblica, non aggirare autenticazione e non inventare snippet; usare l'esportatore locale dell'utente solo se strettamente necessario.
+## Estensione ai 43 sorgenti rimanenti
+
+Dopo il test **2/2 PASS** di `UIV-005` e `UIV-006`, la workflow analizza fino a 43 riferimenti ancora senza sorgente, senza autenticazione Uiverse e senza usare segreti. Salva i file originali HTML/CSS esattamente come restituiti dal sito con SHA-256, i post UUID e il link di provenienza, aggiornando i contatori del catalogo e i dossier per app. Il commit automatizzato rimane sul branch della PR n. 41; il merge su `main` resta soggetto a gate e review. Per ogni fallimento, il manifest distingue l'errore e conserva `SOURCE_CODE_NOT_LOCATED`.

@@ -112,13 +112,13 @@ def main():
     p.add_argument("--delay", type=float, default=1.2)
     p.add_argument("--output-dir", default="out/uiverse")
     args = p.parse_args()
-    if not (1 <= args.limit <= 43 and 0 <= args.delay <= 5):
+    if not (1 <= args.limit <= 100 and 0 <= args.delay <= 5):
         raise SystemExit("Invalid limit or delay")
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
     missing = [x for x in catalog["components"]
                if x.get("user_favorite") and not x.get("source_snapshot")]
-    if len(missing) != 43:
-        raise SystemExit(f"Refusing unexpected missing count {len(missing)}")
+    if len(missing) > 100:
+        raise SystemExit("Unexpectedly large recovery request")
     dest = Path(args.output_dir)
     dest.mkdir(parents=True, exist_ok=True)
     successes, attempts = [], []
