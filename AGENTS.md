@@ -142,3 +142,14 @@ Follow the canonical App-Factory-Core `contracts/DESIGN_VISUAL_QA_PROCESS_v1.md`
 - No default framework visual style for new apps. The app Product Bible defines brand, typography and surface language; Flutter remains available as implementation technology.
 - Consult `sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md` and the bidirectional UI-UX app matrix for proposed patterns. Dribbble/Collect UI are reference portals only; original shots and assets remain third-party copyrighted unless individually licensed.
 - State `PROPOSED_ONLY` until mock-up review, Product Bible admission, exact consumer implementation, visual regression and accessibility QA. Never infer runtime from a static shot.
+
+## Acquisizione sicura dei preferiti privati — metodo comune (18/11/2026)
+
+Se l'utente indica link a un archivio personale di preferiti/segnalibri di **qualunque sito** e il link non espone dati pubblici:
+1. Verificare prima URL e eventuale API ufficiale/sorgente pubblica, senza inventare accesso autenticato.
+2. Quando l'accesso è bloccato, offrire un **esportatore locale, in sola lettura, specifico per il sito**, con sorgente leggibile e breve spiegazione: l'utente lo esegue nella **propria sessione autenticata**. Non chiedere password, token, cookie, API secrets o sessione; non includere fetch verso host terzi, né bypass della protezione del browser.
+3. Esportare **solo dati minimi** (ID/link + fonte/data + conteggio + criterio di completezza). Scorrimento lazy/paginazione e confronto con il conteggio effettivo sono obbligatori prima di dichiarare "tutti".
+4. Importare il file condiviso dall'utente, validare schema e URI, deduplicare con gli ID canonici esistenti, associare molti-a-molti e archiviare codice originale **solo se realmente acquisito e licenziato**. Separare link estratto, pagina pubblica, source file letto, snippet testato, feature implementata.
+5. Se l'export è incompleto, segnare PARTIAL e i gap. Aggiornare i dossier PER_APP, registri, audit, codice e validatori nella stessa PR; CI exact-head e merge gate prima di main.
+
+Il precedente importer Uiverse `scripts/uiverse_favorites_export_browser.js` è il **modello operativo**, non uno script universale valido automaticamente su altri siti. La rimozione di controlli del browser non è una scorciatoia sicura: ispezionare lo script ed eseguire solo codice di provenienza verificata.

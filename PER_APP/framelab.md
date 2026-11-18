@@ -162,3 +162,46 @@ Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze
 - **UIV-009 — [eslam-hany/selfish-bobcat-73](https://uiverse.io/eslam-hany/selfish-bobcat-73)**: Card libro apribile con tap; note/ricordi e raccolte (MEDIUM). [Sorgente originale](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-009_original.html).
 
 [Catalogo](../UI-UX/UIVERSE/README.md) · [mappa bidirezionale](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.json) · [archivio codice](../UI-UX/UIVERSE/CODICE_SORGENTE/README.md). Stato **PROPOSED_ONLY**; nessun codice consumer integrato, nessuna approvazione Product Bible implicita.
+
+## Uiverse Favorites — archivio incrociato 18/11/2026
+
+**34 preferiti proposti per framelab**. Nessuna funzione è implementata in questa app. Per ogni riferimento: licenza/provenienza, Product Bible, accessibilità, riduzione movimento, GPU/battery budget, screenshot QA e codice consumer prima dell'adozione.
+
+| ID / Uiverse | Famiglia | Schermata o ruolo proposto | Fit | Codice nel Design-App |
+|---|---|---|---|---|
+| [UIV-001](https://uiverse.io/alexruix/tame-fly-42) | LOADER | Caricamento effettivo durante elaborazione | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-001_original.html) |
+| [UIV-004](https://uiverse.io/JohnnyCSilva/jolly-elephant-67) | CARD | Schede editoriali e viaggi | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-004_original.html) |
+| [UIV-007](https://uiverse.io/arthur_6104/orange-walrus-50) | LOADER | Stato attesa job reale; frase personalizzata quando appropriata | MEDIUM | Codice non recuperato |
+| [UIV-009](https://uiverse.io/eslam-hany/selfish-bobcat-73) | BOOK_CARD | Card libro apribile con tap; note/ricordi e raccolte | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-009_original.html) |
+| [UIV-010](https://uiverse.io/00Kubi/fluffy-jellyfish-87) | CARD | Card di anteprima/collezione | MEDIUM | Codice non recuperato |
+| [UIV-014](https://uiverse.io/ElSombrero2/tricky-robin-67) | CARD | Card di anteprima/collezione | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-014_original.html) |
+| [UIV-015](https://uiverse.io/FColombati/spotty-snake-82) | BUTTON | CTA con azione verificata e focus | MEDIUM | Codice non recuperato |
+| [UIV-019](https://uiverse.io/JkHuger/new-deer-97) | LOADER | Elaborazione foto/video effettiva | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-019_original.html) |
+| [UIV-020](https://uiverse.io/JkHuger/selfish-bulldog-36) | LOADER | Elaborazione foto/video effettiva | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-020_original.html) |
+| [UIV-024](https://uiverse.io/MuhammadHasann/fast-badger-70) | CARD | Card di anteprima/collezione | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-024_original.html) |
+| [UIV-028](https://uiverse.io/Nawsome/kind-mole-87) | LOADER | Elaborazione foto/video effettiva | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-028_original.html) |
+| [UIV-032](https://uiverse.io/Praashoo7/lucky-hound-44) | LOADER | Elaborazione foto/video effettiva | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-032_original.html) |
+| [UIV-037](https://uiverse.io/Prince4fff/slippery-baboon-37) | CARD | Card di anteprima/collezione | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-037_original.html) |
+| [UIV-038](https://uiverse.io/Priyanshu02020/popular-puma-87) | BUTTON | CTA con azione verificata e focus | MEDIUM | Codice non recuperato |
+| [UIV-042](https://uiverse.io/Shoh2008/yellow-dolphin-16) | LOADER | Elaborazione foto/video effettiva | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-042_original.html) |
+| [UIV-048](https://uiverse.io/akshat-patel28/quick-baboon-29) | CARD | Card di anteprima/collezione | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-048_original.html) |
+| [UIV-050](https://uiverse.io/andrew-manzyk/fast-vampirebat-53) | LOADER | Elaborazione foto/video effettiva | MEDIUM | Codice non recuperato |
+| [UIV-051](https://uiverse.io/andrew-manzyk/young-walrus-64) | LOADER | Elaborazione foto/video effettiva | MEDIUM | Codice non recuperato |
+| [UIV-054](https://uiverse.io/byllzz/great-wombat-13) | CARD | Card di anteprima/collezione | MEDIUM | Codice non recuperato |
+| [UIV-055](https://uiverse.io/chase2k25/modern-stingray-54) | LOADER | Elaborazione foto/video effettiva | MEDIUM | Codice non recuperato |
+| [UIV-060](https://uiverse.io/dexter-st/breezy-zebra-94) | BUTTON | CTA con azione verificata e focus | MEDIUM | Codice non recuperato |
+| [UIV-065](https://uiverse.io/dovatgabriel/massive-vampirebat-17) | LOADER | Elaborazione foto/video effettiva | MEDIUM | Codice non recuperato |
+| [UIV-068](https://uiverse.io/esraaabdel-kareem/bad-dragonfly-54) | LOADER | Elaborazione foto/video effettiva | MEDIUM | Codice non recuperato |
+| [UIV-073](https://uiverse.io/ilkhoeri/thin-bobcat-83) | CARD | Card di anteprima/collezione | MEDIUM | Codice non recuperato |
+| [UIV-074](https://uiverse.io/jeremy_4982/massive-falcon-52) | LOADER | Elaborazione foto/video effettiva | MEDIUM | Codice non recuperato |
+| [UIV-077](https://uiverse.io/kennyotsu/fast-emu-70) | CARD | Card di anteprima/collezione | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-077_original.html) |
+| [UIV-080](https://uiverse.io/kennyotsu/short-ape-5) | CARD | Card di anteprima/collezione | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-080_original.html) |
+| [UIV-081](https://uiverse.io/kennyotsu/tender-badger-21) | CARD | Card di anteprima/collezione | MEDIUM | Codice non recuperato |
+| [UIV-084](https://uiverse.io/lukepadiachy/funny-moose-89) | LOADER | Elaborazione foto/video effettiva | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-084_original.html) |
+| [UIV-089](https://uiverse.io/mobinkakei/grumpy-turtle-41) | LOADER | Elaborazione foto/video effettiva | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-089_original.html) |
+| [UIV-092](https://uiverse.io/mymiamo/quiet-dragon-5) | CARD | Card di anteprima/collezione | MEDIUM | Codice non recuperato |
+| [UIV-094](https://uiverse.io/satyamchaudharydev/splendid-husky-54) | LOADER | Elaborazione foto/video effettiva | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-094_original.html) |
+| [UIV-097](https://uiverse.io/vamsidevendrakumar/soft-shrimp-94) | CARD | Card di anteprima/collezione | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-097_original.html) |
+| [UIV-099](https://uiverse.io/xXJollyHAKERXx/lucky-falcon-75) | LOADER | Elaborazione foto/video effettiva | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-099_original.html) |
+
+[Registro 97 Favorites](../UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json) · [Matrice complessiva 25 app](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md) · [Archivio codice](../UI-UX/UIVERSE/CODICE_SORGENTE/README.md). Stato: **PROPOSED_ONLY**.

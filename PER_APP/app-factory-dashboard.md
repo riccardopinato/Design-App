@@ -171,3 +171,58 @@ Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze
 - **UIV-007 — [arthur_6104/orange-walrus-50](https://uiverse.io/arthur_6104/orange-walrus-50)**: Stato attesa job reale; frase personalizzata quando appropriata (MEDIUM). Originale da estrarre.
 
 [Catalogo](../UI-UX/UIVERSE/README.md) · [mappa bidirezionale](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.json) · [archivio codice](../UI-UX/UIVERSE/CODICE_SORGENTE/README.md). Stato **PROPOSED_ONLY**; nessun codice consumer integrato, nessuna approvazione Product Bible implicita.
+
+## Uiverse Favorites — archivio incrociato 18/11/2026
+
+**46 preferiti proposti per app-factory-dashboard**. Nessuna funzione è implementata in questa app. Per ogni riferimento: licenza/provenienza, Product Bible, accessibilità, riduzione movimento, GPU/battery budget, screenshot QA e codice consumer prima dell'adozione.
+
+| ID / Uiverse | Famiglia | Schermata o ruolo proposto | Fit | Codice nel Design-App |
+|---|---|---|---|---|
+| [UIV-005](https://uiverse.io/amir_6539/red-duck-82) | CARD_BACKGROUND | Sfondo decorativo valutabile solo dopo lettura del codice | MEDIUM | Codice non recuperato |
+| [UIV-007](https://uiverse.io/arthur_6104/orange-walrus-50) | LOADER | Stato attesa job reale; frase personalizzata quando appropriata | MEDIUM | Codice non recuperato |
+| [UIV-011](https://uiverse.io/Admin12121/black-sheep-17) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-011_original.html) |
+| [UIV-016](https://uiverse.io/Gidarx/clever-panther-6) | CARD | Scheda donor/capability/Golden | MEDIUM | Codice non recuperato |
+| [UIV-020](https://uiverse.io/JkHuger/selfish-bulldog-36) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-020_original.html) |
+| [UIV-022](https://uiverse.io/Lakshay-art/curvy-earwig-22) | INPUT | Ricerca o inserimento con label | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-022_original.html) |
+| [UIV-025](https://uiverse.io/Nawsome/ancient-yak-42) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-025_original.html) |
+| [UIV-028](https://uiverse.io/Nawsome/kind-mole-87) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-028_original.html) |
+| [UIV-029](https://uiverse.io/Nawsome/wet-mayfly-23) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-029_original.html) |
+| [UIV-030](https://uiverse.io/Nawsome/young-goat-78) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-030_original.html) |
+| [UIV-033](https://uiverse.io/Praashoo7/smooth-crab-52) | BUTTON | CTA con azione verificata e focus | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-033_original.html) |
+| [UIV-034](https://uiverse.io/Pradeepsaranbishnoi/fast-cobra-20) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-034_original.html) |
+| [UIV-037](https://uiverse.io/Prince4fff/slippery-baboon-37) | CARD | Scheda donor/capability/Golden | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-037_original.html) |
+| [UIV-039](https://uiverse.io/SelfMadeSystem/pretty-treefrog-77) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-039_original.html) |
+| [UIV-040](https://uiverse.io/Shoh2008/curvy-bulldog-27) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-040_original.html) |
+| [UIV-044](https://uiverse.io/Subaashbala/average-horse-18) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-044_original.html) |
+| [UIV-045](https://uiverse.io/Uncannypotato69/honest-starfish-32) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | Codice non recuperato |
+| [UIV-046](https://uiverse.io/Uncannypotato69/rotten-wasp-10) | CHECKBOX | Selezione con semantica e feedback | MEDIUM | Codice non recuperato |
+| [UIV-047](https://uiverse.io/Yaya12085/plastic-quail-42) | BUTTON | CTA con azione verificata e focus | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-047_original.html) |
+| [UIV-051](https://uiverse.io/andrew-manzyk/young-walrus-64) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | Codice non recuperato |
+| [UIV-053](https://uiverse.io/barisdogansutcu/plastic-dolphin-67) | TOOLTIP | Stato e significato di una capability | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-053_original.html) |
+| [UIV-054](https://uiverse.io/byllzz/great-wombat-13) | CARD | Scheda donor/capability/Golden | MEDIUM | Codice non recuperato |
+| [UIV-055](https://uiverse.io/chase2k25/modern-stingray-54) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | Codice non recuperato |
+| [UIV-057](https://uiverse.io/cohencoo/dry-rat-94) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-057_original.html) |
+| [UIV-061](https://uiverse.io/dexter-st/bright-lizard-8) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | Codice non recuperato |
+| [UIV-062](https://uiverse.io/dexter-st/spicy-otter-30) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | Codice non recuperato |
+| [UIV-063](https://uiverse.io/dexter-st/tough-falcon-78) | CARD | Scheda donor/capability/Golden | MEDIUM | Codice non recuperato |
+| [UIV-065](https://uiverse.io/dovatgabriel/massive-vampirebat-17) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | Codice non recuperato |
+| [UIV-066](https://uiverse.io/elijahgummer/polite-earwig-72) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | Codice non recuperato |
+| [UIV-069](https://uiverse.io/fthisilak/bitter-termite-36) | BUTTON | CTA con azione verificata e focus | MEDIUM | Codice non recuperato |
+| [UIV-070](https://uiverse.io/gagan-gv/unlucky-yak-4) | CHECKBOX | Selezione con semantica e feedback | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-070_original.html) |
+| [UIV-073](https://uiverse.io/ilkhoeri/thin-bobcat-83) | CARD | Scheda donor/capability/Golden | MEDIUM | Codice non recuperato |
+| [UIV-074](https://uiverse.io/jeremy_4982/massive-falcon-52) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | Codice non recuperato |
+| [UIV-076](https://uiverse.io/kat_2522/rude-robin-51) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | Codice non recuperato |
+| [UIV-077](https://uiverse.io/kennyotsu/fast-emu-70) | CARD | Scheda donor/capability/Golden | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-077_original.html) |
+| [UIV-078](https://uiverse.io/kennyotsu/giant-sloth-18) | CARD | Scheda donor/capability/Golden | MEDIUM | Codice non recuperato |
+| [UIV-081](https://uiverse.io/kennyotsu/tender-badger-21) | CARD | Scheda donor/capability/Golden | MEDIUM | Codice non recuperato |
+| [UIV-082](https://uiverse.io/kennyotsu/wise-rattlesnake-92) | CARD | Scheda donor/capability/Golden | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-082_original.html) |
+| [UIV-084](https://uiverse.io/lukepadiachy/funny-moose-89) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-084_original.html) |
+| [UIV-087](https://uiverse.io/marcelodolza/fat-zebra-11) | BUTTON | CTA con azione verificata e focus | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-087_original.html) |
+| [UIV-089](https://uiverse.io/mobinkakei/grumpy-turtle-41) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-089_original.html) |
+| [UIV-093](https://uiverse.io/preet_7613/new-cougar-63) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | Codice non recuperato |
+| [UIV-094](https://uiverse.io/satyamchaudharydev/splendid-husky-54) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-094_original.html) |
+| [UIV-096](https://uiverse.io/solowzrd/wet-lionfish-63) | PATTERN | Texture background con gate contrasto/FPS | MEDIUM | Codice non recuperato |
+| [UIV-097](https://uiverse.io/vamsidevendrakumar/soft-shrimp-94) | CARD | Scheda donor/capability/Golden | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-097_original.html) |
+| [UIV-099](https://uiverse.io/xXJollyHAKERXx/lucky-falcon-75) | LOADER | Attesa attività reale e risoluzione errore | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-099_original.html) |
+
+[Registro 97 Favorites](../UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json) · [Matrice complessiva 25 app](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md) · [Archivio codice](../UI-UX/UIVERSE/CODICE_SORGENTE/README.md). Stato: **PROPOSED_ONLY**.

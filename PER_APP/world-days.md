@@ -185,3 +185,64 @@ Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze
 - **UIV-009 — [eslam-hany/selfish-bobcat-73](https://uiverse.io/eslam-hany/selfish-bobcat-73)**: Card libro apribile con tap; note/ricordi e raccolte (MEDIUM). [Sorgente originale](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-009_original.html).
 
 [Catalogo](../UI-UX/UIVERSE/README.md) · [mappa bidirezionale](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.json) · [archivio codice](../UI-UX/UIVERSE/CODICE_SORGENTE/README.md). Stato **PROPOSED_ONLY**; nessun codice consumer integrato, nessuna approvazione Product Bible implicita.
+
+## Uiverse Favorites — archivio incrociato 18/11/2026
+
+**52 preferiti proposti per world-days**. Nessuna funzione è implementata in questa app. Per ogni riferimento: licenza/provenienza, Product Bible, accessibilità, riduzione movimento, GPU/battery budget, screenshot QA e codice consumer prima dell'adozione.
+
+| ID / Uiverse | Famiglia | Schermata o ruolo proposto | Fit | Codice nel Design-App |
+|---|---|---|---|---|
+| [UIV-001](https://uiverse.io/alexruix/tame-fly-42) | LOADER | Caricamento effettivo durante elaborazione | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-001_original.html) |
+| [UIV-004](https://uiverse.io/JohnnyCSilva/jolly-elephant-67) | CARD | Schede editoriali e viaggi | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-004_original.html) |
+| [UIV-007](https://uiverse.io/arthur_6104/orange-walrus-50) | LOADER | Stato attesa job reale; frase personalizzata quando appropriata | MEDIUM | Codice non recuperato |
+| [UIV-009](https://uiverse.io/eslam-hany/selfish-bobcat-73) | BOOK_CARD | Card libro apribile con tap; note/ricordi e raccolte | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-009_original.html) |
+| [UIV-010](https://uiverse.io/00Kubi/fluffy-jellyfish-87) | CARD | Giornata e approfondimento storico | MEDIUM | Codice non recuperato |
+| [UIV-011](https://uiverse.io/Admin12121/black-sheep-17) | LOADER | Caricamento delle storie locali | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-011_original.html) |
+| [UIV-014](https://uiverse.io/ElSombrero2/tricky-robin-67) | CARD | Giornata e approfondimento storico | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-014_original.html) |
+| [UIV-017](https://uiverse.io/Gidarx/moody-falcon-73) | CARD | Giornata e approfondimento storico | MEDIUM | Codice non recuperato |
+| [UIV-019](https://uiverse.io/JkHuger/new-deer-97) | LOADER | Caricamento delle storie locali | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-019_original.html) |
+| [UIV-020](https://uiverse.io/JkHuger/selfish-bulldog-36) | LOADER | Caricamento delle storie locali | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-020_original.html) |
+| [UIV-021](https://uiverse.io/JohnnyCSilva/black-rabbit-68) | CARD | Giornata e approfondimento storico | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-021_original.html) |
+| [UIV-022](https://uiverse.io/Lakshay-art/curvy-earwig-22) | INPUT | Ricerca o inserimento con label | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-022_original.html) |
+| [UIV-023](https://uiverse.io/LilaRest/soft-baboon-75) | RADIO | Scelta esclusiva accessibile | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-023_original.html) |
+| [UIV-024](https://uiverse.io/MuhammadHasann/fast-badger-70) | CARD | Giornata e approfondimento storico | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-024_original.html) |
+| [UIV-028](https://uiverse.io/Nawsome/kind-mole-87) | LOADER | Caricamento delle storie locali | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-028_original.html) |
+| [UIV-029](https://uiverse.io/Nawsome/wet-mayfly-23) | LOADER | Caricamento delle storie locali | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-029_original.html) |
+| [UIV-032](https://uiverse.io/Praashoo7/lucky-hound-44) | LOADER | Caricamento delle storie locali | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-032_original.html) |
+| [UIV-033](https://uiverse.io/Praashoo7/smooth-crab-52) | BUTTON | CTA con azione verificata e focus | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-033_original.html) |
+| [UIV-034](https://uiverse.io/Pradeepsaranbishnoi/fast-cobra-20) | LOADER | Caricamento delle storie locali | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-034_original.html) |
+| [UIV-035](https://uiverse.io/Pradeepsaranbishnoi/hungry-bat-66) | RADIO | Scelta esclusiva accessibile | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-035_original.html) |
+| [UIV-038](https://uiverse.io/Priyanshu02020/popular-puma-87) | BUTTON | CTA con azione verificata e focus | MEDIUM | Codice non recuperato |
+| [UIV-039](https://uiverse.io/SelfMadeSystem/pretty-treefrog-77) | LOADER | Caricamento delle storie locali | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-039_original.html) |
+| [UIV-042](https://uiverse.io/Shoh2008/yellow-dolphin-16) | LOADER | Caricamento delle storie locali | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-042_original.html) |
+| [UIV-043](https://uiverse.io/Stavros2410/wet-duck-69) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | Codice non recuperato |
+| [UIV-044](https://uiverse.io/Subaashbala/average-horse-18) | LOADER | Caricamento delle storie locali | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-044_original.html) |
+| [UIV-046](https://uiverse.io/Uncannypotato69/rotten-wasp-10) | CHECKBOX | Selezione con semantica e feedback | MEDIUM | Codice non recuperato |
+| [UIV-048](https://uiverse.io/akshat-patel28/quick-baboon-29) | CARD | Giornata e approfondimento storico | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-048_original.html) |
+| [UIV-050](https://uiverse.io/andrew-manzyk/fast-vampirebat-53) | LOADER | Caricamento delle storie locali | MEDIUM | Codice non recuperato |
+| [UIV-051](https://uiverse.io/andrew-manzyk/young-walrus-64) | LOADER | Caricamento delle storie locali | MEDIUM | Codice non recuperato |
+| [UIV-052](https://uiverse.io/ashif_6672/rare-bat-68) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | Codice non recuperato |
+| [UIV-055](https://uiverse.io/chase2k25/modern-stingray-54) | LOADER | Caricamento delle storie locali | MEDIUM | Codice non recuperato |
+| [UIV-056](https://uiverse.io/chase2k25/warm-chicken-23) | CARD | Giornata e approfondimento storico | MEDIUM | Codice non recuperato |
+| [UIV-060](https://uiverse.io/dexter-st/breezy-zebra-94) | BUTTON | CTA con azione verificata e focus | MEDIUM | Codice non recuperato |
+| [UIV-061](https://uiverse.io/dexter-st/bright-lizard-8) | LOADER | Caricamento delle storie locali | MEDIUM | Codice non recuperato |
+| [UIV-064](https://uiverse.io/dopekid_9309/tiny-dog-80) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | Codice non recuperato |
+| [UIV-065](https://uiverse.io/dovatgabriel/massive-vampirebat-17) | LOADER | Caricamento delle storie locali | MEDIUM | Codice non recuperato |
+| [UIV-066](https://uiverse.io/elijahgummer/polite-earwig-72) | LOADER | Caricamento delle storie locali | MEDIUM | Codice non recuperato |
+| [UIV-068](https://uiverse.io/esraaabdel-kareem/bad-dragonfly-54) | LOADER | Caricamento delle storie locali | MEDIUM | Codice non recuperato |
+| [UIV-070](https://uiverse.io/gagan-gv/unlucky-yak-4) | CHECKBOX | Selezione con semantica e feedback | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-070_original.html) |
+| [UIV-074](https://uiverse.io/jeremy_4982/massive-falcon-52) | LOADER | Caricamento delle storie locali | MEDIUM | Codice non recuperato |
+| [UIV-075](https://uiverse.io/joe-watson-sbf/honest-bullfrog-6) | CARD | Giornata e approfondimento storico | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-075_original.html) |
+| [UIV-079](https://uiverse.io/kennyotsu/selfish-bear-69) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | Codice non recuperato |
+| [UIV-080](https://uiverse.io/kennyotsu/short-ape-5) | CARD | Giornata e approfondimento storico | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-080_original.html) |
+| [UIV-083](https://uiverse.io/kennyotsu/wonderful-firefox-31) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | Codice non recuperato |
+| [UIV-084](https://uiverse.io/lukepadiachy/funny-moose-89) | LOADER | Caricamento delle storie locali | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-084_original.html) |
+| [UIV-089](https://uiverse.io/mobinkakei/grumpy-turtle-41) | LOADER | Caricamento delle storie locali | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-089_original.html) |
+| [UIV-091](https://uiverse.io/monkey_8812/curly-moth-56) | CARD | Giornata e approfondimento storico | MEDIUM | Codice non recuperato |
+| [UIV-092](https://uiverse.io/mymiamo/quiet-dragon-5) | CARD | Giornata e approfondimento storico | MEDIUM | Codice non recuperato |
+| [UIV-094](https://uiverse.io/satyamchaudharydev/splendid-husky-54) | LOADER | Caricamento delle storie locali | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-094_original.html) |
+| [UIV-095](https://uiverse.io/seoulchik/funny-seahorse-89) | CARD | Giornata e approfondimento storico | MEDIUM | Codice non recuperato |
+| [UIV-098](https://uiverse.io/whoisyourdeadie/foolish-rabbit-13) | PATTERN | Texture background con gate contrasto/FPS | MEDIUM | Codice non recuperato |
+| [UIV-099](https://uiverse.io/xXJollyHAKERXx/lucky-falcon-75) | LOADER | Caricamento delle storie locali | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-099_original.html) |
+
+[Registro 97 Favorites](../UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json) · [Matrice complessiva 25 app](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md) · [Archivio codice](../UI-UX/UIVERSE/CODICE_SORGENTE/README.md). Stato: **PROPOSED_ONLY**.

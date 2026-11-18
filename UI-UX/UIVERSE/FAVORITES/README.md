@@ -1,6 +1,15 @@
 # Uiverse Favorites — importazione da pagina autenticata
 
-**Stato: IN ATTESA DELL'ELENCO UTENTE.** La pagina [My Favorites](https://uiverse.io/favorites) non rende leggibili i componenti personali in una sessione non autenticata e mostra «Sign in to save posts to Favorites». Non dedurre i preferiti dal catalogo pubblico né dai nove link già selezionati in chat: possono sovrapporsi, ma non costituiscono l'elenco completo.
+## Risultato dell'importazione del 18 novembre 2026
+
+- [Registro dei 97 collegamenti](./REGISTRO_PREFERITI_2026-11-18.json), acquisiti dall'export locale con 67 passaggi di scansione e deduplicati: 97 URL unici.
+- Sei URL esistevano già; 91 sono nuovi nel registro di Design-App. Catalogo Uiverse complessivo: **100 componenti**.
+- **54 originali HTML/CSS archiviati** per i 97 Favorites, **43 sorgenti non reperite**; [elenco dei mancanti](./CODICE_NON_REPERITO.md).
+- [657 legami bidirezionali su 25 app](../MATRICE_APP_COMPONENTI.md); i dossier permanenti sono aggiornati.
+- **Non si può certificare che 97 sia il totale dell'account** perché il file d'origine marca la completezza `REQUIRES_USER_COUNT_VERIFICATION`. Confrontare con il totale del sito se mostrato.
+- Nessuna delle proposte diventa per questo implementata o Golden.
+
+**Stato: IMPORTATI 97 LINK DI FAVORITES — completezza del totale account DA CONFERMARE.** La pagina [My Favorites](https://uiverse.io/favorites) non rende leggibili i componenti personali in una sessione non autenticata e mostra «Sign in to save posts to Favorites». Non dedurre i preferiti dal catalogo pubblico né dai nove link già selezionati in chat: possono sovrapporsi, ma non costituiscono l'elenco completo.
 
 ## Esportazione sicura in una sola volta
 
@@ -25,3 +34,8 @@
 Questo esportatore **legge soltanto la pagina aperta nel tuo browser**; non riceve cookie, token OAuth, account GitHub o dati di login. Non ha accesso autonomo alla tua sessione. L'assenza di accesso autenticato impedisce attualmente il censimento completo e qualsiasi dichiarazione di codice originale recuperato dai segnalibri non visti. Anche con il JSON serve verifica dell'effettivo totale, perché il sito può cambiare il markup.
 
 **Baseline al momento della preparazione:** App-Factory-Core `a8d20ceb71ce9e9e16e6756d257d611fa6f1e0ec`, Design-App `7df6fb3782d0745ad13eed0bcb839b2d3e5d9d04`.
+
+## Analisi tecnica sorgenti — 57 originali
+
+[Rapporto statico](./ANALISI_TECNICA_57.md) · [quattro registri machine-readable](./ANALISI_CODICE_PART_01.json) con indizi su keyframes, SVG, hover, gradienti, 3D e segnalazioni di rischio. Fonte originale e hash Git conservati nel [catalogo globale](../REGISTRO_COMPONENTI.json). Nessuna QA runtime dichiarata.
+

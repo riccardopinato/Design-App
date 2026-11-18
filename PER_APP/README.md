@@ -76,3 +76,7 @@ Le 10 app già associate a Impeccable (`DSK-002`) nella [matrice originaria](../
 ## Uiverse — 18/11/2026
 
 I dossier delle **20 app compatibili** e il registro canonico contengono le 64 relazioni con i nove componenti Uiverse. [Matrice](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md) · [sorgenti](../UI-UX/UIVERSE/CODICE_SORGENTE/README.md) · [registro](../UI-UX/UIVERSE/REGISTRO_COMPONENTI.json). Nessun cambiamento nelle app, nessuna implementazione certificata.
+
+## Favorites Uiverse — tutti i 25 dossier (18/11/2026)
+
+Il [registro centrale per-app](./REGISTRO_APP_DESIGN.json) e i dossier Markdown per **25 app** sono sincronizzati con [657 associazioni](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.json). I **97 favorites esportati** mappano 54 sorgenti originali disponibili e 43 da recuperare. Nessuna adozione runtime/Golden viene implicata dai suggerimenti.
