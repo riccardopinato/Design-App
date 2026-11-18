@@ -1,5 +1,9 @@
 # UI/UX — Libreria grafica, componenti e layout
 
+## Uiverse Favorites — 108 link e codice completo
+
+**111/111 sorgenti archiviate**, 108 link autenticati (11 nuovi, nessun rimosso), 736 associazioni su 25 app. [Catalogo](./UIVERSE/README.md) · [Codice Web](./UIVERSE/CODICE_SORGENTE/README.md) · [Analisi 11 nuovi](./UIVERSE/FAVORITES/ANALISI_REFRESH_11_2026-11-18.md). I riferimenti non sono implementazioni consumer.
+
 Catalogo specifico di interfacce, effetti, navigazione, composizione, controlli e micro-interazioni della App Factory. Questa directory tecnica si chiama `UI-UX` perché `/` separa directory in Git; il nome della sezione esposta resta **UI/UX**.
 
 La sezione è distinta da [MOCKUP ESTETICI](../MOCKUP%20ESTETICI/README.md), che cataloga atmosfere e identità visive (ANIME, VINTAGE, NEON, ecc.). **Una stessa reference può essere classificata in entrambe**, con un solo file canonico, metadati di cross-link e nessun binario duplicato.

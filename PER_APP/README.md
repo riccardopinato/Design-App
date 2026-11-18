@@ -1,5 +1,9 @@
 # PER_APP — dossier permanenti di design e iconografia
 
+## Uiverse — nuove associazioni nelle app
+
+**79 nuovi candidati su 19 dossier**, per un totale di **736 relazioni su 25 app**, tutti PROPOSED_ONLY. [Matrice](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md) · [Refresh dei preferiti](../UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json). Nessun consumer modificato o nuova autenticazione obbligatoria.
+
 Un dossier per ciascuna app o piattaforma della App Factory catalogata in Design-App. Conserva la direzione estetica, le idee iconografiche, il posizionamento su schermate, trigger animazione, limiti, fonti e verifiche, **senza confondere proposte con implementazioni**.
 
 **Archivio canonico:** [REGISTRO_APP_DESIGN.json](./REGISTRO_APP_DESIGN.json) · [ICONE](../ICONE/README.md) · [UI-UX](../UI-UX/README.md) · [Mock-up](../MOCKUP%20ESTETICI/README.md).

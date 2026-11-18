@@ -1,5 +1,9 @@
 # Design-App
 
+## Aggiornamento corrente — Uiverse Favorites
+
+**Uiverse Favorites aggiornati (18/11/2026, 17:40 Italia):** 108 link unici, +11 rispetto al precedente export, 0 rimossi; catalogo totale **111/111** con sorgente originale HTML/CSS, zero mancanti. **736 abbinamenti su 25 app**, tutti PROPOSED_ONLY. [Catalogo](./UI-UX/UIVERSE/README.md) · [Analisi dei nuovi 11](./UI-UX/UIVERSE/FAVORITES/ANALISI_REFRESH_11_2026-11-18.md) · [Diff verificato](./UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json). La completezza dell'account Uiverse resta non certificata.
+
 Central design library for Riccardo's App Factory.
 
 Design-App is the fast-retrieval layer for visual styles, UI/UX patterns, motion,
