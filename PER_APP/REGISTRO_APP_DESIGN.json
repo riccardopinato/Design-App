@@ -606,7 +606,8 @@
           "type": "FLUTTER_UI_SOURCES_INTAKE",
           "status": "PROPOSED_ONLY",
           "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
-          "note": "Package shortlist only; Design-App-first and consumer verification required."
+          "note": "Package shortlist only; Design-App-first and consumer verification required.",
+          "origin": "https://fluttergems.dev/"
         }
       ],
       "voice_ui_candidates": [
@@ -3101,7 +3102,8 @@
           "type": "FLUTTER_UI_SOURCES_INTAKE",
           "status": "PROPOSED_ONLY",
           "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
-          "note": "Package shortlist only; Design-App-first and consumer verification required."
+          "note": "Package shortlist only; Design-App-first and consumer verification required.",
+          "origin": "https://fluttergems.dev/"
         }
       ],
       "motion_design_candidates": [
@@ -4628,7 +4630,8 @@
           "type": "FLUTTER_UI_SOURCES_INTAKE",
           "status": "PROPOSED_ONLY",
           "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
-          "note": "Package shortlist only; Design-App-first and consumer verification required."
+          "note": "Package shortlist only; Design-App-first and consumer verification required.",
+          "origin": "https://fluttergems.dev/"
         }
       ],
       "voice_ui_candidates": [
@@ -10309,7 +10312,8 @@
           "type": "FLUTTER_UI_SOURCES_INTAKE",
           "status": "PROPOSED_ONLY",
           "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
-          "note": "Package shortlist only; Design-App-first and consumer verification required."
+          "note": "Package shortlist only; Design-App-first and consumer verification required.",
+          "origin": "https://fluttergems.dev/"
         }
       ],
       "voice_ui_candidates": [
@@ -11499,7 +11503,8 @@
           "type": "FLUTTER_UI_SOURCES_INTAKE",
           "status": "PROPOSED_ONLY",
           "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
-          "note": "Package shortlist only; Design-App-first and consumer verification required."
+          "note": "Package shortlist only; Design-App-first and consumer verification required.",
+          "origin": "https://fluttergems.dev/"
         }
       ],
       "voice_ui_candidates": [
@@ -18427,7 +18432,8 @@
           "type": "FLUTTER_UI_SOURCES_INTAKE",
           "status": "PROPOSED_ONLY",
           "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
-          "note": "Package shortlist only; Design-App-first and consumer verification required."
+          "note": "Package shortlist only; Design-App-first and consumer verification required.",
+          "origin": "https://fluttergems.dev/"
         }
       ],
       "voice_ui_candidates": [
