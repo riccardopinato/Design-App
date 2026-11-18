@@ -23,7 +23,10 @@
     "bookmarks_screenshot_edges": 120,
     "bookmarks_screenshot_cards": 30,
     "impeccable_designing_quality_candidate_apps": 10,
-    "impeccable_designing_workflow_gates": 8
+    "impeccable_designing_workflow_gates": 8,
+    "uiverse_batch_components": 9,
+    "uiverse_batch_apps": 20,
+    "uiverse_batch_relations": 64
   },
   "profiles": [
     {
@@ -31,7 +34,7 @@
       "name": "180FlipCharge",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-17",
+      "updated_at": "2026-11-18",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -42,7 +45,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json"
       ],
       "category_ideas": [
         "orientamento 180°",
@@ -103,6 +107,28 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_9_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "component_ids": [
+            "UIV-006"
+          ],
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
+        }
+      ],
+      "uiverse_candidates": [
+        {
+          "component_id": "UIV-006",
+          "fit": "MEDIUM",
+          "surface": "Toggle semantico legato a impostazione reale",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
         }
       ]
     },
@@ -130,7 +156,8 @@
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
         "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
-        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
+        "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json"
       ],
       "category_ideas": [
         "diario e ricordi",
@@ -404,6 +431,22 @@
           "status": "PROPOSED_ONLY",
           "origin": "4 Dribbble shots + Collect UI curated category pages",
           "detail": "6 independent visual ideas for Oggi, Calendario, Ricordi; no app code, Product Bible or Golden changed."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_9_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "component_ids": [
+            "UIV-002",
+            "UIV-004",
+            "UIV-005",
+            "UIV-006",
+            "UIV-007",
+            "UIV-009"
+          ],
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "voice_ui_candidates": [
@@ -851,7 +894,63 @@
         "implementation": "NOT_VERIFIED",
         "surface": "Oggi, Calendario, Ricordi",
         "guardrail": "Preservare Manrope/Lora, palette rose, look diario contemporaneo"
-      }
+      },
+      "uiverse_candidates": [
+        {
+          "component_id": "UIV-002",
+          "fit": "MEDIUM",
+          "surface": "CTA con gradiente e stato focus/tap",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-004",
+          "fit": "MEDIUM",
+          "surface": "Schede editoriali e viaggi",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-005",
+          "fit": "HIGH",
+          "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-006",
+          "fit": "MEDIUM",
+          "surface": "Toggle semantico legato a impostazione reale",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-007",
+          "fit": "MEDIUM",
+          "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-009",
+          "fit": "HIGH",
+          "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        }
+      ]
     },
     {
       "id": "app-factory-dashboard",
@@ -877,7 +976,8 @@
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
         "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
-        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
+        "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json"
       ],
       "category_ideas": [
         "repository e branch",
@@ -1069,6 +1169,19 @@
           "status": "PROPOSED_ONLY",
           "origin": "4 Dribbble shots + Collect UI curated category pages",
           "detail": "3 independent visual ideas for Portfolio, roadmap, stato e gate; no app code, Product Bible or Golden changed."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_9_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "component_ids": [
+            "UIV-003",
+            "UIV-005",
+            "UIV-007"
+          ],
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "voice_ui_candidates": [
@@ -1444,7 +1557,36 @@
         "implementation": "NOT_VERIFIED",
         "surface": "Portfolio, roadmap, stato e gate",
         "guardrail": "Separare implementato, verificato e roadmap; non simulare CI"
-      }
+      },
+      "uiverse_candidates": [
+        {
+          "component_id": "UIV-003",
+          "fit": "MEDIUM",
+          "surface": "Card contenuti/insight con reveal accessibile",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-005",
+          "fit": "MEDIUM",
+          "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-007",
+          "fit": "MEDIUM",
+          "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        }
+      ]
     },
     {
       "id": "battery-guard",
@@ -1469,7 +1611,8 @@
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
         "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
-        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
+        "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json"
       ],
       "category_ideas": [
         "batteria",
@@ -1628,6 +1771,20 @@
           "status": "PROPOSED_ONLY",
           "origin": "4 Dribbble shots + Collect UI curated category pages",
           "detail": "4 independent visual ideas for Stato batteria, sessioni e grafici; no app code, Product Bible or Golden changed."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_9_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "component_ids": [
+            "UIV-001",
+            "UIV-005",
+            "UIV-006",
+            "UIV-008"
+          ],
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "motion_design_candidates": [
@@ -1818,7 +1975,45 @@
         "implementation": "NOT_VERIFIED",
         "surface": "Stato batteria, sessioni e grafici",
         "guardrail": "Grafici reali; overhead GPU e consumo prossimi a zero"
-      }
+      },
+      "uiverse_candidates": [
+        {
+          "component_id": "UIV-001",
+          "fit": "MEDIUM",
+          "surface": "Caricamento effettivo durante elaborazione",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-005",
+          "fit": "MEDIUM",
+          "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-006",
+          "fit": "MEDIUM",
+          "surface": "Toggle semantico legato a impostazione reale",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-008",
+          "fit": "MEDIUM",
+          "surface": "Caricamento temporaneo con stop/errore/retry",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        }
+      ]
     },
     {
       "id": "beerclass-ai",
@@ -1842,7 +2037,8 @@
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
-        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
+        "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json"
       ],
       "category_ideas": [
         "bicchiere/beer mug",
@@ -1938,6 +2134,18 @@
           "status": "PROPOSED_ONLY",
           "origin": "4 Dribbble shots + Collect UI curated category pages",
           "detail": "3 independent visual ideas for Diario birre e rapid log; no app code, Product Bible or Golden changed."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_9_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "component_ids": [
+            "UIV-002",
+            "UIV-003"
+          ],
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "voice_ui_candidates": [
@@ -2056,7 +2264,27 @@
         "implementation": "NOT_VERIFIED",
         "surface": "Diario birre e rapid log",
         "guardrail": "Rapid Log più importante delle immagini"
-      }
+      },
+      "uiverse_candidates": [
+        {
+          "component_id": "UIV-002",
+          "fit": "MEDIUM",
+          "surface": "CTA con gradiente e stato focus/tap",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-003",
+          "fit": "MEDIUM",
+          "surface": "Card contenuti/insight con reveal accessibile",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        }
+      ]
     },
     {
       "id": "camperboss",
@@ -2081,7 +2309,8 @@
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
-        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
+        "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json"
       ],
       "category_ideas": [
         "camper/van",
@@ -2226,6 +2455,19 @@
           "status": "PROPOSED_ONLY",
           "origin": "4 Dribbble shots + Collect UI curated category pages",
           "detail": "4 independent visual ideas for Dashboard viaggio, controlli; no app code, Product Bible or Golden changed."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_9_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "component_ids": [
+            "UIV-002",
+            "UIV-004",
+            "UIV-008"
+          ],
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "voice_ui_candidates": [
@@ -2399,7 +2641,36 @@
         "implementation": "NOT_VERIFIED",
         "surface": "Dashboard viaggio, controlli",
         "guardrail": "Offline e leggibilità in esterno prioritari"
-      }
+      },
+      "uiverse_candidates": [
+        {
+          "component_id": "UIV-002",
+          "fit": "MEDIUM",
+          "surface": "CTA con gradiente e stato focus/tap",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-004",
+          "fit": "MEDIUM",
+          "surface": "Schede editoriali e viaggi",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-008",
+          "fit": "MEDIUM",
+          "surface": "Caricamento temporaneo con stop/errore/retry",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        }
+      ]
     },
     {
       "id": "cashmate-ai",
@@ -2424,7 +2695,8 @@
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
         "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
-        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
+        "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json"
       ],
       "category_ideas": [
         "portafoglio",
@@ -2550,6 +2822,19 @@
           "status": "PROPOSED_ONLY",
           "origin": "4 Dribbble shots + Collect UI curated category pages",
           "detail": "4 independent visual ideas for Saldo, spese, budget, dettagli; no app code, Product Bible or Golden changed."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_9_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "component_ids": [
+            "UIV-003",
+            "UIV-005",
+            "UIV-007"
+          ],
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "motion_design_candidates": [
@@ -2690,14 +2975,43 @@
         "implementation": "NOT_VERIFIED",
         "surface": "Saldo, spese, budget, dettagli",
         "guardrail": "Privacy, accuratezza valori, niente false metriche"
-      }
+      },
+      "uiverse_candidates": [
+        {
+          "component_id": "UIV-003",
+          "fit": "MEDIUM",
+          "surface": "Card contenuti/insight con reveal accessibile",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-005",
+          "fit": "MEDIUM",
+          "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-007",
+          "fit": "MEDIUM",
+          "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        }
+      ]
     },
     {
       "id": "cooking-anime",
       "name": "Cooking Anime",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-17",
+      "updated_at": "2026-11-18",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -2713,7 +3027,8 @@
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
-        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
+        "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json"
       ],
       "category_ideas": [
         "kawaii-gattini",
@@ -3472,6 +3787,19 @@
           "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
           "status": "PROPOSED_ONLY",
           "detail": "12 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_9_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "component_ids": [
+            "UIV-002",
+            "UIV-003",
+            "UIV-009"
+          ],
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "voice_ui_candidates": [
@@ -3819,6 +4147,35 @@
           "implementation": "NOT_IMPLEMENTED",
           "image_binary_in_repo": false
         }
+      ],
+      "uiverse_candidates": [
+        {
+          "component_id": "UIV-002",
+          "fit": "MEDIUM",
+          "surface": "CTA con gradiente e stato focus/tap",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-003",
+          "fit": "MEDIUM",
+          "surface": "Card contenuti/insight con reveal accessibile",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-009",
+          "fit": "MEDIUM",
+          "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        }
       ]
     },
     {
@@ -3844,7 +4201,8 @@
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
         "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
-        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
+        "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json"
       ],
       "category_ideas": [
         "desktop",
@@ -3988,6 +4346,17 @@
           "status": "PROPOSED_ONLY",
           "origin": "4 Dribbble shots + Collect UI curated category pages",
           "detail": "3 independent visual ideas for Home launcher e transizioni; no app code, Product Bible or Golden changed."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_9_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "component_ids": [
+            "UIV-005"
+          ],
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "voice_ui_candidates": [
@@ -4207,14 +4576,25 @@
         "implementation": "NOT_VERIFIED",
         "surface": "Home launcher e transizioni",
         "guardrail": "Prima rendere launcher affidabile e fluido"
-      }
+      },
+      "uiverse_candidates": [
+        {
+          "component_id": "UIV-005",
+          "fit": "MEDIUM",
+          "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        }
+      ]
     },
     {
       "id": "easy-debloat",
       "name": "Easy Debloat",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-17",
+      "updated_at": "2026-11-18",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -4228,7 +4608,8 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
-        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
+        "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json"
       ],
       "category_ideas": [
         "package app",
@@ -4317,6 +4698,18 @@
           "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
           "status": "PROPOSED_ONLY",
           "detail": "1 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_9_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "component_ids": [
+            "UIV-006",
+            "UIV-008"
+          ],
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "motion_design_candidates": [
@@ -4387,6 +4780,26 @@
           "status": "PROPOSED_ONLY",
           "implementation": "NOT_IMPLEMENTED",
           "image_binary_in_repo": false
+        }
+      ],
+      "uiverse_candidates": [
+        {
+          "component_id": "UIV-006",
+          "fit": "MEDIUM",
+          "surface": "Toggle semantico legato a impostazione reale",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-008",
+          "fit": "MEDIUM",
+          "surface": "Caricamento temporaneo con stop/errore/retry",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
         }
       ]
     },
@@ -4517,7 +4930,8 @@
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
-        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
+        "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json"
       ],
       "category_ideas": [
         "attenzione",
@@ -4638,6 +5052,18 @@
           "status": "PROPOSED_ONLY",
           "origin": "4 Dribbble shots + Collect UI curated category pages",
           "detail": "3 independent visual ideas for Sessioni e Focus Score; no app code, Product Bible or Golden changed."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_9_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "component_ids": [
+            "UIV-005",
+            "UIV-006"
+          ],
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "motion_design_candidates": [
@@ -4790,7 +5216,27 @@
         "implementation": "NOT_VERIFIED",
         "surface": "Sessioni e Focus Score",
         "guardrail": "No colori o dati che suggeriscono misure non verificate"
-      }
+      },
+      "uiverse_candidates": [
+        {
+          "component_id": "UIV-005",
+          "fit": "MEDIUM",
+          "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-006",
+          "fit": "MEDIUM",
+          "surface": "Toggle semantico legato a impostazione reale",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        }
+      ]
     },
     {
       "id": "framelab",
@@ -4816,7 +5262,8 @@
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
         "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
-        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
+        "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json"
       ],
       "category_ideas": [
         "fotografia",
@@ -5011,6 +5458,20 @@
           "status": "PROPOSED_ONLY",
           "origin": "4 Dribbble shots + Collect UI curated category pages",
           "detail": "4 independent visual ideas for Portfolio, foto, palette; no app code, Product Bible or Golden changed."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_9_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "component_ids": [
+            "UIV-001",
+            "UIV-004",
+            "UIV-007",
+            "UIV-009"
+          ],
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "voice_ui_candidates": [
@@ -5269,7 +5730,45 @@
         "implementation": "NOT_VERIFIED",
         "surface": "Portfolio, foto, palette",
         "guardrail": "Foto contenuto primario; controlli cromatici precisi"
-      }
+      },
+      "uiverse_candidates": [
+        {
+          "component_id": "UIV-001",
+          "fit": "MEDIUM",
+          "surface": "Caricamento effettivo durante elaborazione",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-004",
+          "fit": "MEDIUM",
+          "surface": "Schede editoriali e viaggi",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-007",
+          "fit": "MEDIUM",
+          "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-009",
+          "fit": "MEDIUM",
+          "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        }
+      ]
     },
     {
       "id": "notes-ecosistema",
@@ -5295,7 +5794,8 @@
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
         "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
-        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
+        "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json"
       ],
       "category_ideas": [
         "nota",
@@ -5598,6 +6098,23 @@
           "status": "PROPOSED_ONLY",
           "origin": "4 Dribbble shots + Collect UI curated category pages",
           "detail": "5 independent visual ideas for Workspace, Inbox, Canvas, Web; no app code, Product Bible or Golden changed."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_9_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "component_ids": [
+            "UIV-001",
+            "UIV-003",
+            "UIV-004",
+            "UIV-005",
+            "UIV-007",
+            "UIV-008",
+            "UIV-009"
+          ],
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "voice_ui_candidates": [
@@ -5995,7 +6512,72 @@
         "implementation": "NOT_VERIFIED",
         "surface": "Workspace, Inbox, Canvas, Web",
         "guardrail": "Densità da workspace, niente dashboard scenografica senza funzione"
-      }
+      },
+      "uiverse_candidates": [
+        {
+          "component_id": "UIV-001",
+          "fit": "MEDIUM",
+          "surface": "Caricamento effettivo durante elaborazione",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-003",
+          "fit": "MEDIUM",
+          "surface": "Card contenuti/insight con reveal accessibile",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-004",
+          "fit": "MEDIUM",
+          "surface": "Schede editoriali e viaggi",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-005",
+          "fit": "MEDIUM",
+          "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-007",
+          "fit": "HIGH",
+          "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-008",
+          "fit": "MEDIUM",
+          "surface": "Caricamento temporaneo con stop/errore/retry",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-009",
+          "fit": "MEDIUM",
+          "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        }
+      ]
     },
     {
       "id": "omni-cleaner",
@@ -6020,7 +6602,8 @@
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
         "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
-        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
+        "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json"
       ],
       "category_ideas": [
         "galleria",
@@ -6249,6 +6832,21 @@
           "status": "PROPOSED_ONLY",
           "origin": "4 Dribbble shots + Collect UI curated category pages",
           "detail": "5 independent visual ideas for Home funzioni, scansione, galleria e player; no app code, Product Bible or Golden changed."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_9_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "component_ids": [
+            "UIV-001",
+            "UIV-005",
+            "UIV-006",
+            "UIV-007",
+            "UIV-008"
+          ],
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "motion_design_candidates": [
@@ -6578,14 +7176,61 @@
         "implementation": "NOT_VERIFIED",
         "surface": "Home funzioni, scansione, galleria e player",
         "guardrail": "No micro-animazioni nelle operazioni distruttive; foto/video a proporzioni originali"
-      }
+      },
+      "uiverse_candidates": [
+        {
+          "component_id": "UIV-001",
+          "fit": "HIGH",
+          "surface": "Caricamento effettivo durante elaborazione",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-005",
+          "fit": "MEDIUM",
+          "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-006",
+          "fit": "MEDIUM",
+          "surface": "Toggle semantico legato a impostazione reale",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-007",
+          "fit": "MEDIUM",
+          "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-008",
+          "fit": "HIGH",
+          "surface": "Caricamento temporaneo con stop/errore/retry",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        }
+      ]
     },
     {
       "id": "phone-guard",
       "name": "Phone Guard",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-17",
+      "updated_at": "2026-11-18",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -6596,7 +7241,8 @@
         "README.md",
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
-        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
+        "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+        "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json"
       ],
       "category_ideas": [
         "protezione",
@@ -6648,6 +7294,28 @@
           "type": "DESIGN_CATALOG_INTAKE",
           "status": "PROPOSED_ONLY",
           "origin": "Curation from existing Design-App icon/skill crosswalk and UX coverage"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_9_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "component_ids": [
+            "UIV-006"
+          ],
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
+        }
+      ],
+      "uiverse_candidates": [
+        {
+          "component_id": "UIV-006",
+          "fit": "MEDIUM",
+          "surface": "Toggle semantico legato a impostazione reale",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
         }
       ]
     },
@@ -6656,7 +7324,7 @@
       "name": "Pocket Guard",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-17",
+      "updated_at": "2026-11-18",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -6668,7 +7336,8 @@
         "UI-UX/MATRICE_APP_STILI.md",
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
-        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
+        "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json"
       ],
       "category_ideas": [
         "borsa",
@@ -6754,6 +7423,17 @@
           "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
           "status": "PROPOSED_ONLY",
           "detail": "1 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_9_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "component_ids": [
+            "UIV-006"
+          ],
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "bookmarked_visual_references": [
@@ -6769,6 +7449,17 @@
           "implementation": "NOT_IMPLEMENTED",
           "image_binary_in_repo": false
         }
+      ],
+      "uiverse_candidates": [
+        {
+          "component_id": "UIV-006",
+          "fit": "MEDIUM",
+          "surface": "Toggle semantico legato a impostazione reale",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        }
       ]
     },
     {
@@ -6776,7 +7467,7 @@
       "name": "Send-to-PC",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-17",
+      "updated_at": "2026-11-18",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -6790,7 +7481,8 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
-        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md"
+        "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
+        "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json"
       ],
       "category_ideas": [
         "PC",
@@ -6872,6 +7564,18 @@
           "origin": "Three user-supplied screenshots after DevLibraries Bookmarks link",
           "status": "PROPOSED_ONLY",
           "detail": "7 bookmark screenshot associations; duplicates linked to canonical refs; source certainty preserved; screenshots currently remain in conversation only."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_9_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "component_ids": [
+            "UIV-001",
+            "UIV-008"
+          ],
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "motion_design_candidates": [
@@ -6994,6 +7698,26 @@
           "status": "PROPOSED_ONLY",
           "implementation": "NOT_IMPLEMENTED",
           "image_binary_in_repo": false
+        }
+      ],
+      "uiverse_candidates": [
+        {
+          "component_id": "UIV-001",
+          "fit": "MEDIUM",
+          "surface": "Caricamento effettivo durante elaborazione",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-008",
+          "fit": "MEDIUM",
+          "surface": "Caricamento temporaneo con stop/errore/retry",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
         }
       ]
     },
@@ -7716,7 +8440,7 @@
       "name": "Web Utility Factory",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-17",
+      "updated_at": "2026-11-18",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -7730,7 +8454,8 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/EASEUI_AMICRO_PATTERNS_AUDIT_2026-11-17.md",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
-        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
+        "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
+        "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json"
       ],
       "category_ideas": [
         "strumenti",
@@ -7823,6 +8548,19 @@
           "status": "PROPOSED_ONLY",
           "origin": "Nine Watermelon component links and Anna's Diary use-cases provided by user",
           "detail": "1 candidate components mapped, including source confidence and consumer-specific notes; no app code/roadmap changed"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_9_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "component_ids": [
+            "UIV-002",
+            "UIV-004",
+            "UIV-007"
+          ],
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "motion_design_candidates": [
@@ -7908,6 +8646,35 @@
           "source_url": "https://devlibraries.com/libraries/watermelon/text-gradient",
           "batch": "WATERMELON_NINE_2026_11_17"
         }
+      ],
+      "uiverse_candidates": [
+        {
+          "component_id": "UIV-002",
+          "fit": "MEDIUM",
+          "surface": "CTA con gradiente e stato focus/tap",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-004",
+          "fit": "MEDIUM",
+          "surface": "Schede editoriali e viaggi",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-007",
+          "fit": "MEDIUM",
+          "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        }
       ]
     },
     {
@@ -7934,7 +8701,8 @@
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
         "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
-        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
+        "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json"
       ],
       "category_ideas": [
         "viaggio",
@@ -8194,6 +8962,20 @@
           "status": "PROPOSED_ONLY",
           "origin": "4 Dribbble shots + Collect UI curated category pages",
           "detail": "4 independent visual ideas for Viaggi, diari, foto e mappa; no app code, Product Bible or Golden changed."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_9_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "component_ids": [
+            "UIV-002",
+            "UIV-003",
+            "UIV-004",
+            "UIV-009"
+          ],
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "voice_ui_candidates": [
@@ -8516,7 +9298,45 @@
         "implementation": "NOT_VERIFIED",
         "surface": "Viaggi, diari, foto e mappa",
         "guardrail": "No immagini tagliate; viaggio e navigazione non sacrificati"
-      }
+      },
+      "uiverse_candidates": [
+        {
+          "component_id": "UIV-002",
+          "fit": "MEDIUM",
+          "surface": "CTA con gradiente e stato focus/tap",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-003",
+          "fit": "MEDIUM",
+          "surface": "Card contenuti/insight con reveal accessibile",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-004",
+          "fit": "MEDIUM",
+          "surface": "Schede editoriali e viaggi",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-009",
+          "fit": "MEDIUM",
+          "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        }
+      ]
     },
     {
       "id": "world-days",
@@ -8542,7 +9362,8 @@
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
         "sources/IMPECCABLE_DESIGNING_GUIDE_AUDIT_2026-11-17.md",
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
-        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json"
+        "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
+        "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json"
       ],
       "category_ideas": [
         "calendario",
@@ -8826,6 +9647,23 @@
           "status": "PROPOSED_ONLY",
           "origin": "4 Dribbble shots + Collect UI curated category pages",
           "detail": "4 independent visual ideas for Schede giornata e scoperta; no app code, Product Bible or Golden changed."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_9_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "component_ids": [
+            "UIV-001",
+            "UIV-002",
+            "UIV-003",
+            "UIV-004",
+            "UIV-007",
+            "UIV-008",
+            "UIV-009"
+          ],
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "note": "Source capture not equivalent to app implementation",
+          "origin": "https://uiverse.io/"
         }
       ],
       "voice_ui_candidates": [
@@ -9220,7 +10058,72 @@
         "implementation": "NOT_VERIFIED",
         "surface": "Schede giornata e scoperta",
         "guardrail": "Preservare colori già approvati, storia e fonti sopra il puro decorativo"
-      }
+      },
+      "uiverse_candidates": [
+        {
+          "component_id": "UIV-001",
+          "fit": "MEDIUM",
+          "surface": "Caricamento effettivo durante elaborazione",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-002",
+          "fit": "MEDIUM",
+          "surface": "CTA con gradiente e stato focus/tap",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-003",
+          "fit": "MEDIUM",
+          "surface": "Card contenuti/insight con reveal accessibile",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-004",
+          "fit": "MEDIUM",
+          "surface": "Schede editoriali e viaggi",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-007",
+          "fit": "MEDIUM",
+          "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-008",
+          "fit": "MEDIUM",
+          "surface": "Caricamento temporaneo con stop/errore/retry",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        },
+        {
+          "component_id": "UIV-009",
+          "fit": "MEDIUM",
+          "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED"
+        }
+      ]
     }
   ],
   "by_app": {
@@ -9249,5 +10152,6 @@
     "Web Utility Factory": "web-utility-factory",
     "Wonderlog": "wonderlog",
     "World Days": "world-days"
-  }
+  },
+  "uiverse_catalog_ref": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json"
 }

@@ -105,3 +105,7 @@ La sezione [**PER_APP**](../PER_APP/README.md) conserva le proposte visuali per 
 ## Dribbble / Collect UI — 2026/27
 
 [12 nuovi pattern e mappa verso 15 app](./DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.md) · [JSON](./DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json) · [fonti e guardrail](../sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md). Composizione bento, editorial photo-first, gerarchie forti, cromie semantiche, motion funzionale, onboarding e grafici. **Reference only, non codice copy-ready.**
+
+## Uiverse — archivio componenti e sorgenti
+
+[9 link catalogati](./UIVERSE/README.md) · [codice originale](./UIVERSE/CODICE_SORGENTE/README.md) · [registro relazionale](./UIVERSE/MATRICE_APP_COMPONENTI.json). Sei file HTML/CSS MIT recuperati, tre assenti nella copia Galaxy consultata; 64 proposte su 20 app. Tutte REFERENCE/PROPOSED_ONLY.

@@ -1216,3 +1216,16 @@ sources:
     copy_policy: REFERENCE_ONLY_PENDING_ASSET_SECURITY_DEPENDENCY_AND_CONSUMER_GATE
     audit_path: "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md"
     app_map_path: "UI-UX/WATERMELON_NINE_APP_MAP_2026-11-17.json"
+
+  - repo: "uiverse-io/galaxy"
+    batch: UIVERSE_9_2026_11_18
+    domain: CSS_UI_COMPONENTS_AND_MICROINTERACTIONS
+    license: "MIT official license read; keep original notice and verify assets"
+    source_ref: "adbd2adde0a299a3956ea288fb444ec01891ca41"
+    license_blob: "f6c794ca60b0f6f02588f6ed8138972f2215b35a"
+    classification: UI_UX_REFERENCE
+    maturity: REFERENCE
+    role: "Nine user-selected UI components: six HTML/CSS snapshots archived, three source code gaps; many-to-many app mapping"
+    copy_policy: "HTML_SNAPSHOT_NOT_FLUTTER_COMPOSE_COPY_READY"
+    audit_path: "sources/UIVERSE_NINE_AUDIT_2026-11-18.md"
+    app_map_path: "UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.json"
