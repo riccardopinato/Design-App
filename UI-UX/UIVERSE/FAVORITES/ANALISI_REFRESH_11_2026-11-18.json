@@ -1,0 +1,953 @@
+{
+  "schema_version": 1,
+  "batch": "UIVERSE_FAVORITES_REFRESH_2026_11_18_164039Z",
+  "exported_at": "2026-11-18T16:40:39.750Z",
+  "count": 11,
+  "category_counts": {
+    "FORM": 8,
+    "LOADER": 2,
+    "TOOLTIP": 1
+  },
+  "new_associations": 79,
+  "status": "SOURCE_CODE_CAPTURED_NO_CONSUMER_IMPLEMENTATION",
+  "items": [
+    {
+      "id": "UIV-101",
+      "url": "https://uiverse.io/Javierrocadev/chatty-ladybug-95",
+      "category": "FORM",
+      "upstream_type": "form",
+      "source_html": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-101_original.html",
+      "source_css": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-101_original.css",
+      "source_post_id": "c25e0c05-498b-403d-abf6-54e3fb0af703",
+      "original_html_sha256": "d2147c340b7a332c0cd0964f65239a5e1dc0994762bb38d17ddb81f4b243fb98",
+      "original_css_sha256": "ec2016c809e0aba3eb965a49358086fce59b74d38c669cdbdaf8b325dbc95f2d",
+      "original_tags": [
+        "blue",
+        "form",
+        "login form",
+        "tailwind",
+        "rounded",
+        "input",
+        "button",
+        "blue",
+        "border",
+        "modern",
+        "password",
+        "form",
+        "submit",
+        "mail",
+        "login",
+        "box",
+        "welcome"
+      ],
+      "static_analysis": {
+        "html_chars": 1096,
+        "css_chars": 2178,
+        "css_keyframes": 0,
+        "hover_selectors": 1,
+        "contains_svg": false,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      },
+      "design_intent": "Blue modern login form; use only where an input or optional account flow already exists",
+      "ip_review_required": false,
+      "mapped_apps": [
+        {
+          "app": "cashmate-ai",
+          "fit": "HIGH",
+          "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "notes-ecosistema",
+          "fit": "HIGH",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "annas-diary",
+          "fit": "MEDIUM",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "app-factory-dashboard",
+          "fit": "MEDIUM",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "beerclass-ai",
+          "fit": "MEDIUM",
+          "surface": "Input Rapid Log birra, nessun nuovo login",
+          "status": "PROPOSED_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "UIV-102",
+      "url": "https://uiverse.io/Praashoo7/bitter-pig-24",
+      "category": "FORM",
+      "upstream_type": "form",
+      "source_html": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-102_original.html",
+      "source_css": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-102_original.css",
+      "source_post_id": "f328e809-d149-47cf-a714-455c676c8b1b",
+      "original_html_sha256": "fa601491bb416aa79f145f81c34fa2f6e3874d5435d825d4084a9cb5524432de",
+      "original_css_sha256": "92dd88280b4264fb9747386304753d6e4b49beac9f7c8e6d969ad66af85ea259",
+      "original_tags": [
+        "login",
+        "form",
+        "stitched",
+        "rounded",
+        "shadow",
+        "beige",
+        "orange",
+        "password",
+        "form",
+        "submit",
+        "username",
+        "minimal",
+        "centered",
+        "outlined",
+        "login"
+      ],
+      "static_analysis": {
+        "html_chars": 226,
+        "css_chars": 1300,
+        "css_keyframes": 0,
+        "hover_selectors": 1,
+        "contains_svg": false,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      },
+      "design_intent": "Warm stitched beige/orange login form; adapt to product typography and contrast",
+      "ip_review_required": false,
+      "mapped_apps": [
+        {
+          "app": "annas-diary",
+          "fit": "HIGH",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "notes-ecosistema",
+          "fit": "HIGH",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "camperboss",
+          "fit": "MEDIUM",
+          "surface": "Input destinazione/itinerario anche offline",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "cooking-anime",
+          "fit": "MEDIUM",
+          "surface": "Input ricetta, ingredienti o titolo",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "sleepmax-coach",
+          "fit": "MEDIUM",
+          "surface": "Form preferenze routine serale",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "app-factory-dashboard",
+          "fit": "MEDIUM",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "UIV-103",
+      "url": "https://uiverse.io/SyedShahzaib7/brave-dog-61",
+      "category": "FORM",
+      "upstream_type": "form",
+      "source_html": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-103_original.html",
+      "source_css": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-103_original.css",
+      "source_post_id": "0cb13482-6da5-48aa-957e-a0cc069e8055",
+      "original_html_sha256": "e7d2b45b662cc6f49efbc2947f5f8048ff1d4a705f612ab88b4999752eac3836",
+      "original_css_sha256": "dd8dfee0bd79bcba951beb3b578b4d0e6c3a51f20adbcaf026d7e9105d156891",
+      "original_tags": [
+        "simple",
+        "login",
+        "3d",
+        "social",
+        "gradient",
+        "form",
+        "submit",
+        "login form",
+        "rounded",
+        "button",
+        "gradient",
+        "blue",
+        "modern",
+        "forgot",
+        "password",
+        "white",
+        "form",
+        "username",
+        "minimal",
+        "login",
+        "register",
+        "remember"
+      ],
+      "static_analysis": {
+        "html_chars": 599,
+        "css_chars": 1570,
+        "css_keyframes": 0,
+        "hover_selectors": 2,
+        "contains_svg": false,
+        "gradient": true,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      },
+      "design_intent": "Blue gradient and depth form; tone down gloss and 3D for readable mobile inputs",
+      "ip_review_required": false,
+      "mapped_apps": [
+        {
+          "app": "cashmate-ai",
+          "fit": "HIGH",
+          "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "app-factory-dashboard",
+          "fit": "HIGH",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "notes-ecosistema",
+          "fit": "MEDIUM",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "beerclass-ai",
+          "fit": "MEDIUM",
+          "surface": "Input Rapid Log birra, nessun nuovo login",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "send-to-pc",
+          "fit": "MEDIUM",
+          "surface": "Campo codice abbinamento dispositivo solo se previsto",
+          "status": "PROPOSED_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "UIV-104",
+      "url": "https://uiverse.io/alexmaracinaru/tall-owl-30",
+      "category": "FORM",
+      "upstream_type": "form",
+      "source_html": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-104_original.html",
+      "source_css": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-104_original.css",
+      "source_post_id": "f42a9103-615d-4d66-a4d0-0593e4e5f62f",
+      "original_html_sha256": "0d2d5f4b33a79e67efb933efa90e53bf05ab5da7761e5a80d42a0634c71e541d",
+      "original_css_sha256": "15fd682190678f24afa83db42da0cecad60c40432b15c4f5eac312417590b20e",
+      "original_tags": [
+        "login",
+        "form",
+        "input",
+        "button",
+        "password",
+        "white",
+        "form",
+        "signin",
+        "username",
+        "purple",
+        "minimal",
+        "login"
+      ],
+      "static_analysis": {
+        "html_chars": 832,
+        "css_chars": 1108,
+        "css_keyframes": 0,
+        "hover_selectors": 1,
+        "contains_svg": true,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      },
+      "design_intent": "Minimal purple login form; adapt palette and semantics rather than add authentication",
+      "ip_review_required": false,
+      "mapped_apps": [
+        {
+          "app": "cashmate-ai",
+          "fit": "HIGH",
+          "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "notes-ecosistema",
+          "fit": "HIGH",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "annas-diary",
+          "fit": "MEDIUM",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "app-factory-dashboard",
+          "fit": "MEDIUM",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "cooking-anime",
+          "fit": "MEDIUM",
+          "surface": "Input ricetta, ingredienti o titolo",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+          "status": "PROPOSED_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "UIV-105",
+      "url": "https://uiverse.io/ayyjayy2/sour-dog-94",
+      "category": "FORM",
+      "upstream_type": "form",
+      "source_html": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-105_original.html",
+      "source_css": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-105_original.css",
+      "source_post_id": "8385716d-62bb-40ba-99f1-9f6c11aaf052",
+      "original_html_sha256": "0759bf9afc0ceadc14052b1871053e7b9d862858fd0aa1c772824db3db75997b",
+      "original_css_sha256": "8d6609ebf83e5440c6121f99738f2ded01bfec36f1bf1f81098150fcab6e164c",
+      "original_tags": [
+        "login",
+        "email",
+        "social",
+        "form",
+        "submit",
+        "confirm",
+        "password",
+        "welcome",
+        "rounded",
+        "shadow",
+        "blue",
+        "password",
+        "email",
+        "form",
+        "submit",
+        "buttons",
+        "social",
+        "continue",
+        "signup",
+        "welcome"
+      ],
+      "static_analysis": {
+        "html_chars": 2360,
+        "css_chars": 1860,
+        "css_keyframes": 0,
+        "hover_selectors": 0,
+        "contains_svg": true,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      },
+      "design_intent": "Welcome/social login form; explicit consent and existing optional provider only",
+      "ip_review_required": false,
+      "mapped_apps": [
+        {
+          "app": "cashmate-ai",
+          "fit": "HIGH",
+          "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "annas-diary",
+          "fit": "HIGH",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "notes-ecosistema",
+          "fit": "MEDIUM",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "app-factory-dashboard",
+          "fit": "MEDIUM",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "cooking-anime",
+          "fit": "MEDIUM",
+          "surface": "Input ricetta, ingredienti o titolo",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "beerclass-ai",
+          "fit": "MEDIUM",
+          "surface": "Input Rapid Log birra, nessun nuovo login",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "framelab",
+          "fit": "MEDIUM",
+          "surface": "Form nome progetto e metadata",
+          "status": "PROPOSED_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "UIV-106",
+      "url": "https://uiverse.io/doniaskima/cowardly-frog-28",
+      "category": "LOADER",
+      "upstream_type": "loader",
+      "source_html": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-106_original.html",
+      "source_css": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-106_original.css",
+      "source_post_id": "25eeb024-902f-4ef6-9df2-8f773dcab19d",
+      "original_html_sha256": "172e18219dbd3355066daf4a86618ae918ed199af26bb2a7abeb91fd197b746d",
+      "original_css_sha256": "fe06c7a317f0e48b3429c72b4dd22a84bbf03c459886cf0c90bdbdfad6b587c4",
+      "original_tags": [
+        "simple",
+        "material design",
+        "neumorphism",
+        "skeuomorphism",
+        "glassmorphism",
+        "flashy",
+        "loader",
+        "animated",
+        "loader",
+        "red",
+        "simple",
+        "minimalist",
+        "circular",
+        "clean",
+        "movement",
+        "balls",
+        "suspension"
+      ],
+      "static_analysis": {
+        "html_chars": 26,
+        "css_chars": 803,
+        "css_keyframes": 2,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "gradient": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      },
+      "design_intent": "Red suspension-ball animation; requires actual running job, retry/timeout, reduced motion",
+      "ip_review_required": false,
+      "mapped_apps": [
+        {
+          "app": "omni-cleaner",
+          "fit": "HIGH",
+          "surface": "Feedback scansione duplicati effettivamente avviata",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "notes-ecosistema",
+          "fit": "HIGH",
+          "surface": "Indicizzazione/esportazione reale con stato di errore e retry",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "battery-guard",
+          "fit": "MEDIUM",
+          "surface": "Aggiornamento telemetria batteria realmente in corso",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "framelab",
+          "fit": "MEDIUM",
+          "surface": "Rendering o esportazione media effettiva",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Importazione dati/storie offline in corso",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "send-to-pc",
+          "fit": "MEDIUM",
+          "surface": "Avvio trasferimento Wi-Fi/QR con progress reale",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "easy-debloat",
+          "fit": "MEDIUM",
+          "surface": "Esecuzione debloat autorizzata, con annullamento ed esito",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "app-factory-dashboard",
+          "fit": "MEDIUM",
+          "surface": "Verifica repository GitHub realmente avviata",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "trailpath",
+          "fit": "MEDIUM",
+          "surface": "Attesa routing GPS con fallback errore",
+          "status": "PROPOSED_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "UIV-107",
+      "url": "https://uiverse.io/elijahgummer/new-fly-30",
+      "category": "LOADER",
+      "upstream_type": "loader",
+      "source_html": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-107_original.html",
+      "source_css": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-107_original.css",
+      "source_post_id": "41326a41-1786-40c8-b29a-95b2ce012881",
+      "original_html_sha256": "042453378267923103b654d3e99a0e2f197ad42eeed6b625ef56a2e7a97fde8d",
+      "original_css_sha256": "12477fe2e161a00f2855e2fa33f53e0ebd3f1b129927e937054c4c4a4abe8c03",
+      "original_tags": [
+        "loader",
+        "animated",
+        "loader",
+        "orange",
+        "minimal",
+        "waiting",
+        "glass",
+        "aqua",
+        "straw",
+        "drink",
+        "refreshing"
+      ],
+      "static_analysis": {
+        "html_chars": 27,
+        "css_chars": 655,
+        "css_keyframes": 1,
+        "hover_selectors": 0,
+        "contains_svg": false,
+        "gradient": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      },
+      "design_intent": "Orange drink-themed animated loader; use only when visually coherent and job runs",
+      "ip_review_required": false,
+      "mapped_apps": [
+        {
+          "app": "beerclass-ai",
+          "fit": "HIGH",
+          "surface": "Acquisizione codice a barre o catalogazione realmente attiva",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "cooking-anime",
+          "fit": "HIGH",
+          "surface": "Caricamento ricetta o salvataggio realmente in corso",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "camperboss",
+          "fit": "MEDIUM",
+          "surface": "Importazione dati offline in corso",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Calcolo itinerario o media in corso",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Importazione dati/storie offline in corso",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "framelab",
+          "fit": "MEDIUM",
+          "surface": "Rendering o esportazione media effettiva",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "sleepmax-coach",
+          "fit": "MEDIUM",
+          "surface": "Aggiornamento dati routine solo se in corso",
+          "status": "PROPOSED_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "UIV-108",
+      "url": "https://uiverse.io/guilhermeyohan/friendly-walrus-55",
+      "category": "FORM",
+      "upstream_type": "form",
+      "source_html": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-108_original.html",
+      "source_css": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-108_original.css",
+      "source_post_id": "05fc0e5b-a052-4daf-9709-7ba26a6ad93b",
+      "original_html_sha256": "0a9a8cc713c241e6e47fb4ab2a72eb7f041608a1742853c387a2e13b075183ba",
+      "original_css_sha256": "1018e296c078ff795dbb7a340594b71dc006444c53200d4282f29981e75f58fe",
+      "original_tags": [
+        "form",
+        "mario",
+        "input",
+        "animated",
+        "button",
+        "send",
+        "red",
+        "orange",
+        "yellow",
+        "email",
+        "form",
+        "name",
+        "character",
+        "clear",
+        "sprite",
+        "pixel"
+      ],
+      "static_analysis": {
+        "html_chars": 355,
+        "css_chars": 4215,
+        "css_keyframes": 0,
+        "hover_selectors": 2,
+        "contains_svg": false,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      },
+      "design_intent": "Pixel-art character form: recognizable Mario/Nintendo reference; reference-only until IP review",
+      "ip_review_required": true,
+      "mapped_apps": [
+        {
+          "app": "cooking-anime",
+          "fit": "HIGH",
+          "surface": "Input ricetta, ingredienti o titolo",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "deskland-android",
+          "fit": "HIGH",
+          "surface": "Form interattivo del launcher, originalità grafica vincolante",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "edu-01-corpo-umano",
+          "fit": "MEDIUM",
+          "surface": "Form risposta quiz reinterpretato in stile videogioco generico",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "framelab",
+          "fit": "MEDIUM",
+          "surface": "Form nome progetto e metadata",
+          "status": "PROPOSED_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "UIV-109",
+      "url": "https://uiverse.io/mamyapro123/curvy-bear-51",
+      "category": "FORM",
+      "upstream_type": "form",
+      "source_html": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-109_original.html",
+      "source_css": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-109_original.css",
+      "source_post_id": "55cb20a6-1ba8-4170-82ba-3a1ada445b1b",
+      "original_html_sha256": "283d530920fdd3dab561650a63a754016ae14d73d65ecb4914b302b4b9d42f4f",
+      "original_css_sha256": "872484f165616517dad879ef8694d3a50c862ab8a089545664238fb982f16f55",
+      "original_tags": [
+        "form",
+        "button",
+        "bold",
+        "pink",
+        "password",
+        "email",
+        "retro",
+        "toggle",
+        "switch",
+        "login",
+        "pastel",
+        "stars",
+        "playful",
+        "cartoon",
+        "welcome"
+      ],
+      "static_analysis": {
+        "html_chars": 3185,
+        "css_chars": 7181,
+        "css_keyframes": 4,
+        "hover_selectors": 4,
+        "contains_svg": true,
+        "gradient": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      },
+      "design_intent": "Pink retro/pastel stars form; adapt to approved rose palette and reduced-motion",
+      "ip_review_required": false,
+      "mapped_apps": [
+        {
+          "app": "annas-diary",
+          "fit": "HIGH",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "notes-ecosistema",
+          "fit": "HIGH",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "cooking-anime",
+          "fit": "MEDIUM",
+          "surface": "Input ricetta, ingredienti o titolo",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "beerclass-ai",
+          "fit": "MEDIUM",
+          "surface": "Input Rapid Log birra, nessun nuovo login",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "camperboss",
+          "fit": "MEDIUM",
+          "surface": "Input destinazione/itinerario anche offline",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "sleepmax-coach",
+          "fit": "MEDIUM",
+          "surface": "Form preferenze routine serale",
+          "status": "PROPOSED_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "UIV-110",
+      "url": "https://uiverse.io/roroland/average-horse-2",
+      "category": "TOOLTIP",
+      "upstream_type": "tooltip",
+      "source_html": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-110_original.html",
+      "source_css": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-110_original.css",
+      "source_post_id": "e1a79350-f340-437c-ac23-687b9f5c7328",
+      "original_html_sha256": "f96af64e9f15f08fc714ab28361167f7d61439722a9e40cdf2d37c9690f3f4eb",
+      "original_css_sha256": "7eff5023d675cf4e631d1345353b4352d9db86a7ef8f8996f2c229d45bb641b5",
+      "original_tags": [
+        "tooltip"
+      ],
+      "static_analysis": {
+        "html_chars": 1955,
+        "css_chars": 3352,
+        "css_keyframes": 3,
+        "hover_selectors": 2,
+        "contains_svg": true,
+        "gradient": true,
+        "static_review_flags": [
+          "INFINITE_ANIMATION_WITHOUT_REDUCED_MOTION"
+        ],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      },
+      "design_intent": "Animated tooltip with real information; tap/focus/keyboard support, not hover-only",
+      "ip_review_required": false,
+      "mapped_apps": [
+        {
+          "app": "app-factory-dashboard",
+          "fit": "HIGH",
+          "surface": "Tooltip differenza Implemented/Verified e evidenze",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "notes-ecosistema",
+          "fit": "HIGH",
+          "surface": "Spiegazione strumenti canvas e note",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "omni-cleaner",
+          "fit": "MEDIUM",
+          "surface": "Informazioni su file duplicati prima della cancellazione",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "cashmate-ai",
+          "fit": "MEDIUM",
+          "surface": "Legenda dei termini o indicatori finanziari",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "edu-01-corpo-umano",
+          "fit": "MEDIUM",
+          "surface": "Definizione di un termine anatomico con supporto touch",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "battery-guard",
+          "fit": "MEDIUM",
+          "surface": "Spiegazione dello stato della carica",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Legenda mappa/tappe accessibile",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Nota esplicativa fonti, anno o ricorrenza",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "focussense",
+          "fit": "MEDIUM",
+          "surface": "Tooltip significato Focus Score",
+          "status": "PROPOSED_ONLY"
+        }
+      ]
+    },
+    {
+      "id": "UIV-111",
+      "url": "https://uiverse.io/vinodjangid07/horrible-warthog-14",
+      "category": "FORM",
+      "upstream_type": "form",
+      "source_html": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-111_original.html",
+      "source_css": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-111_original.css",
+      "source_post_id": "e177bf54-476e-4bd6-b822-30f0d97e74bc",
+      "original_html_sha256": "87166f6fd5e6911fece1b650ef8a38d75f99bd9eb912ebccbd6a9c134a7b50c3",
+      "original_css_sha256": "b041831f84bb7fdac03579eba63ebf56b14e312ed1f3f173a42887feda927b41",
+      "original_tags": [
+        "purple",
+        "form",
+        "log in",
+        "button",
+        "modern",
+        "forgot",
+        "password",
+        "form",
+        "submit",
+        "username",
+        "purple",
+        "minimal",
+        "login"
+      ],
+      "static_analysis": {
+        "html_chars": 1540,
+        "css_chars": 1785,
+        "css_keyframes": 0,
+        "hover_selectors": 1,
+        "contains_svg": true,
+        "gradient": false,
+        "static_review_flags": [],
+        "source_status": "ORIGINAL_PUBLIC_HTTP_NOT_RUNTIME_TESTED"
+      },
+      "design_intent": "Minimal purple account form; use existing opt-in or non-auth input surfaces only",
+      "ip_review_required": false,
+      "mapped_apps": [
+        {
+          "app": "cashmate-ai",
+          "fit": "HIGH",
+          "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "notes-ecosistema",
+          "fit": "HIGH",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "app-factory-dashboard",
+          "fit": "MEDIUM",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "annas-diary",
+          "fit": "MEDIUM",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "wonderlog",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "world-days",
+          "fit": "MEDIUM",
+          "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "app": "camperboss",
+          "fit": "MEDIUM",
+          "surface": "Input destinazione/itinerario anche offline",
+          "status": "PROPOSED_ONLY"
+        }
+      ]
+    }
+  ]
+}
