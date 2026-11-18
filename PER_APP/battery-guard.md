@@ -149,8 +149,8 @@ Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze
 | ID / Uiverse | Famiglia | Schermata o ruolo proposto | Fit | Codice nel Design-App |
 |---|---|---|---|---|
 | [UIV-001](https://uiverse.io/alexruix/tame-fly-42) | LOADER | Caricamento effettivo durante elaborazione | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-001_original.html) |
-| [UIV-005](https://uiverse.io/amir_6539/red-duck-82) | CARD_BACKGROUND | Sfondo decorativo valutabile solo dopo lettura del codice | MEDIUM | Codice non recuperato |
-| [UIV-006](https://uiverse.io/JustCode14/red-dingo-61) | SWITCH | Toggle semantico legato a impostazione reale | MEDIUM | Codice non recuperato |
+| [UIV-005](https://uiverse.io/amir_6539/red-duck-82) | CARD_BACKGROUND | Sfondo decorativo valutabile solo dopo lettura del codice | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-005_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-005_original.css) |
+| [UIV-006](https://uiverse.io/JustCode14/red-dingo-61) | SWITCH | Toggle semantico legato a impostazione reale | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-006_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-006_original.css) |
 | [UIV-011](https://uiverse.io/Admin12121/black-sheep-17) | LOADER | Aggiornamento statistiche batteria | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-011_original.html) |
 | [UIV-012](https://uiverse.io/Admin12121/massive-dodo-67) | SWITCH | Stato avviso realmente attivo | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-012_original.html) |
 | [UIV-018](https://uiverse.io/JaydipPrajapati1910/average-shrimp-57) | SWITCH | Stato avviso realmente attivo | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-018_original.html) |
@@ -164,25 +164,25 @@ Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze
 | [UIV-039](https://uiverse.io/SelfMadeSystem/pretty-treefrog-77) | LOADER | Aggiornamento statistiche batteria | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-039_original.html) |
 | [UIV-044](https://uiverse.io/Subaashbala/average-horse-18) | LOADER | Aggiornamento statistiche batteria | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-044_original.html) |
 | [UIV-049](https://uiverse.io/andrew-demchenk0/honest-stingray-90) | SWITCH | Stato avviso realmente attivo | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-049_original.html) |
-| [UIV-051](https://uiverse.io/andrew-manzyk/young-walrus-64) | LOADER | Aggiornamento statistiche batteria | MEDIUM | Codice non recuperato |
+| [UIV-051](https://uiverse.io/andrew-manzyk/young-walrus-64) | LOADER | Aggiornamento statistiche batteria | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-051_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-051_original.css) |
 | [UIV-053](https://uiverse.io/barisdogansutcu/plastic-dolphin-67) | TOOLTIP | Aiuto contestuale non solo hover | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-053_original.html) |
-| [UIV-055](https://uiverse.io/chase2k25/modern-stingray-54) | LOADER | Aggiornamento statistiche batteria | MEDIUM | Codice non recuperato |
+| [UIV-055](https://uiverse.io/chase2k25/modern-stingray-54) | LOADER | Aggiornamento statistiche batteria | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-055_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-055_original.css) |
 | [UIV-058](https://uiverse.io/cssbuttons-io/mean-dolphin-24) | SWITCH | Stato avviso realmente attivo | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-058_original.html) |
 | [UIV-059](https://uiverse.io/cuzpq/gentle-goat-72) | SWITCH | Stato avviso realmente attivo | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-059_original.html) |
-| [UIV-061](https://uiverse.io/dexter-st/bright-lizard-8) | LOADER | Aggiornamento statistiche batteria | MEDIUM | Codice non recuperato |
-| [UIV-065](https://uiverse.io/dovatgabriel/massive-vampirebat-17) | LOADER | Aggiornamento statistiche batteria | MEDIUM | Codice non recuperato |
-| [UIV-066](https://uiverse.io/elijahgummer/polite-earwig-72) | LOADER | Aggiornamento statistiche batteria | MEDIUM | Codice non recuperato |
+| [UIV-061](https://uiverse.io/dexter-st/bright-lizard-8) | LOADER | Aggiornamento statistiche batteria | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-061_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-061_original.css) |
+| [UIV-065](https://uiverse.io/dovatgabriel/massive-vampirebat-17) | LOADER | Aggiornamento statistiche batteria | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-065_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-065_original.css) |
+| [UIV-066](https://uiverse.io/elijahgummer/polite-earwig-72) | LOADER | Aggiornamento statistiche batteria | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-066_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-066_original.css) |
 | [UIV-071](https://uiverse.io/gharsh11032000/sour-vampirebat-66) | SWITCH | Stato avviso realmente attivo | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-071_original.html) |
-| [UIV-074](https://uiverse.io/jeremy_4982/massive-falcon-52) | LOADER | Aggiornamento statistiche batteria | MEDIUM | Codice non recuperato |
+| [UIV-074](https://uiverse.io/jeremy_4982/massive-falcon-52) | LOADER | Aggiornamento statistiche batteria | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-074_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-074_original.css) |
 | [UIV-084](https://uiverse.io/lukepadiachy/funny-moose-89) | LOADER | Aggiornamento statistiche batteria | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-084_original.html) |
-| [UIV-085](https://uiverse.io/m1her/odd-fireant-56) | SWITCH | Stato avviso realmente attivo | HIGH | Codice non recuperato |
-| [UIV-086](https://uiverse.io/mamyapro123/cuddly-warthog-66) | SWITCH | Stato avviso realmente attivo | HIGH | Codice non recuperato |
+| [UIV-085](https://uiverse.io/m1her/odd-fireant-56) | SWITCH | Stato avviso realmente attivo | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-085_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-085_original.css) |
+| [UIV-086](https://uiverse.io/mamyapro123/cuddly-warthog-66) | SWITCH | Stato avviso realmente attivo | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-086_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-086_original.css) |
 | [UIV-088](https://uiverse.io/mobinkakei/great-skunk-8) | SWITCH | Stato avviso realmente attivo | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-088_original.html) |
 | [UIV-089](https://uiverse.io/mobinkakei/grumpy-turtle-41) | LOADER | Aggiornamento statistiche batteria | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-089_original.html) |
 | [UIV-090](https://uiverse.io/mobinkakei/strong-lizard-79) | SWITCH | Stato avviso realmente attivo | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-090_original.html) |
 | [UIV-094](https://uiverse.io/satyamchaudharydev/splendid-husky-54) | LOADER | Aggiornamento statistiche batteria | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-094_original.html) |
-| [UIV-096](https://uiverse.io/solowzrd/wet-lionfish-63) | PATTERN | Texture background con gate contrasto/FPS | MEDIUM | Codice non recuperato |
-| [UIV-098](https://uiverse.io/whoisyourdeadie/foolish-rabbit-13) | PATTERN | Texture background con gate contrasto/FPS | MEDIUM | Codice non recuperato |
+| [UIV-096](https://uiverse.io/solowzrd/wet-lionfish-63) | PATTERN | Texture background con gate contrasto/FPS | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-096_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-096_original.css) |
+| [UIV-098](https://uiverse.io/whoisyourdeadie/foolish-rabbit-13) | PATTERN | Texture background con gate contrasto/FPS | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-098_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-098_original.css) |
 | [UIV-099](https://uiverse.io/xXJollyHAKERXx/lucky-falcon-75) | LOADER | Aggiornamento statistiche batteria | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-099_original.html) |
 | [UIV-100](https://uiverse.io/zanina-yassine/afraid-eel-50) | SWITCH | Stato avviso realmente attivo | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-100_original.html) |
 

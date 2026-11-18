@@ -201,13 +201,13 @@ Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze
 |---|---|---|---|---|
 | [UIV-001](https://uiverse.io/alexruix/tame-fly-42) | LOADER | Caricamento effettivo durante elaborazione | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-001_original.html) |
 | [UIV-004](https://uiverse.io/JohnnyCSilva/jolly-elephant-67) | CARD | Schede editoriali e viaggi | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-004_original.html) |
-| [UIV-005](https://uiverse.io/amir_6539/red-duck-82) | CARD_BACKGROUND | Sfondo decorativo valutabile solo dopo lettura del codice | MEDIUM | Codice non recuperato |
-| [UIV-007](https://uiverse.io/arthur_6104/orange-walrus-50) | LOADER | Stato attesa job reale; frase personalizzata quando appropriata | HIGH | Codice non recuperato |
+| [UIV-005](https://uiverse.io/amir_6539/red-duck-82) | CARD_BACKGROUND | Sfondo decorativo valutabile solo dopo lettura del codice | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-005_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-005_original.css) |
+| [UIV-007](https://uiverse.io/arthur_6104/orange-walrus-50) | LOADER | Stato attesa job reale; frase personalizzata quando appropriata | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-007_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-007_original.css) |
 | [UIV-009](https://uiverse.io/eslam-hany/selfish-bobcat-73) | BOOK_CARD | Card libro apribile con tap; note/ricordi e raccolte | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-009_original.html) |
-| [UIV-010](https://uiverse.io/00Kubi/fluffy-jellyfish-87) | CARD | Scheda nota o lavagna | HIGH | Codice non recuperato |
+| [UIV-010](https://uiverse.io/00Kubi/fluffy-jellyfish-87) | CARD | Scheda nota o lavagna | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-010_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-010_original.css) |
 | [UIV-014](https://uiverse.io/ElSombrero2/tricky-robin-67) | CARD | Scheda nota o lavagna | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-014_original.html) |
-| [UIV-016](https://uiverse.io/Gidarx/clever-panther-6) | CARD | Scheda nota o lavagna | HIGH | Codice non recuperato |
-| [UIV-017](https://uiverse.io/Gidarx/moody-falcon-73) | CARD | Scheda nota o lavagna | HIGH | Codice non recuperato |
+| [UIV-016](https://uiverse.io/Gidarx/clever-panther-6) | CARD | Scheda nota o lavagna | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-016_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-016_original.css) |
+| [UIV-017](https://uiverse.io/Gidarx/moody-falcon-73) | CARD | Scheda nota o lavagna | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-017_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-017_original.css) |
 | [UIV-019](https://uiverse.io/JkHuger/new-deer-97) | LOADER | Ricerca semantica/indicizzazione solo se avviata | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-019_original.html) |
 | [UIV-020](https://uiverse.io/JkHuger/selfish-bulldog-36) | LOADER | Ricerca semantica/indicizzazione solo se avviata | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-020_original.html) |
 | [UIV-021](https://uiverse.io/JohnnyCSilva/black-rabbit-68) | CARD | Scheda nota o lavagna | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-021_original.html) |
@@ -221,50 +221,50 @@ Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze
 | [UIV-035](https://uiverse.io/Pradeepsaranbishnoi/hungry-bat-66) | RADIO | Scelta esclusiva accessibile | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-035_original.html) |
 | [UIV-037](https://uiverse.io/Prince4fff/slippery-baboon-37) | CARD | Scheda nota o lavagna | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-037_original.html) |
 | [UIV-042](https://uiverse.io/Shoh2008/yellow-dolphin-16) | LOADER | Ricerca semantica/indicizzazione solo se avviata | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-042_original.html) |
-| [UIV-043](https://uiverse.io/Stavros2410/wet-duck-69) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | Codice non recuperato |
-| [UIV-045](https://uiverse.io/Uncannypotato69/honest-starfish-32) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | Codice non recuperato |
-| [UIV-046](https://uiverse.io/Uncannypotato69/rotten-wasp-10) | CHECKBOX | Selezione con semantica e feedback | HIGH | Codice non recuperato |
+| [UIV-043](https://uiverse.io/Stavros2410/wet-duck-69) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-043_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-043_original.css) |
+| [UIV-045](https://uiverse.io/Uncannypotato69/honest-starfish-32) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-045_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-045_original.css) |
+| [UIV-046](https://uiverse.io/Uncannypotato69/rotten-wasp-10) | CHECKBOX | Selezione con semantica e feedback | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-046_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-046_original.css) |
 | [UIV-047](https://uiverse.io/Yaya12085/plastic-quail-42) | BUTTON | CTA con azione verificata e focus | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-047_original.html) |
 | [UIV-048](https://uiverse.io/akshat-patel28/quick-baboon-29) | CARD | Scheda nota o lavagna | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-048_original.html) |
 | [UIV-049](https://uiverse.io/andrew-demchenk0/honest-stingray-90) | SWITCH | Preferenza on/off persistita | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-049_original.html) |
-| [UIV-050](https://uiverse.io/andrew-manzyk/fast-vampirebat-53) | LOADER | Ricerca semantica/indicizzazione solo se avviata | MEDIUM | Codice non recuperato |
-| [UIV-051](https://uiverse.io/andrew-manzyk/young-walrus-64) | LOADER | Ricerca semantica/indicizzazione solo se avviata | MEDIUM | Codice non recuperato |
-| [UIV-052](https://uiverse.io/ashif_6672/rare-bat-68) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | Codice non recuperato |
+| [UIV-050](https://uiverse.io/andrew-manzyk/fast-vampirebat-53) | LOADER | Ricerca semantica/indicizzazione solo se avviata | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-050_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-050_original.css) |
+| [UIV-051](https://uiverse.io/andrew-manzyk/young-walrus-64) | LOADER | Ricerca semantica/indicizzazione solo se avviata | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-051_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-051_original.css) |
+| [UIV-052](https://uiverse.io/ashif_6672/rare-bat-68) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-052_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-052_original.css) |
 | [UIV-053](https://uiverse.io/barisdogansutcu/plastic-dolphin-67) | TOOLTIP | Aiuto contestuale non solo hover | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-053_original.html) |
-| [UIV-054](https://uiverse.io/byllzz/great-wombat-13) | CARD | Scheda nota o lavagna | HIGH | Codice non recuperato |
-| [UIV-055](https://uiverse.io/chase2k25/modern-stingray-54) | LOADER | Ricerca semantica/indicizzazione solo se avviata | MEDIUM | Codice non recuperato |
-| [UIV-056](https://uiverse.io/chase2k25/warm-chicken-23) | CARD | Scheda nota o lavagna | HIGH | Codice non recuperato |
+| [UIV-054](https://uiverse.io/byllzz/great-wombat-13) | CARD | Scheda nota o lavagna | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-054_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-054_original.css) |
+| [UIV-055](https://uiverse.io/chase2k25/modern-stingray-54) | LOADER | Ricerca semantica/indicizzazione solo se avviata | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-055_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-055_original.css) |
+| [UIV-056](https://uiverse.io/chase2k25/warm-chicken-23) | CARD | Scheda nota o lavagna | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-056_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-056_original.css) |
 | [UIV-058](https://uiverse.io/cssbuttons-io/mean-dolphin-24) | SWITCH | Preferenza on/off persistita | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-058_original.html) |
-| [UIV-060](https://uiverse.io/dexter-st/breezy-zebra-94) | BUTTON | CTA con azione verificata e focus | MEDIUM | Codice non recuperato |
-| [UIV-063](https://uiverse.io/dexter-st/tough-falcon-78) | CARD | Scheda nota o lavagna | HIGH | Codice non recuperato |
-| [UIV-064](https://uiverse.io/dopekid_9309/tiny-dog-80) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | Codice non recuperato |
-| [UIV-065](https://uiverse.io/dovatgabriel/massive-vampirebat-17) | LOADER | Ricerca semantica/indicizzazione solo se avviata | MEDIUM | Codice non recuperato |
-| [UIV-067](https://uiverse.io/elijahgummer/young-horse-7) | RADIO | Scelta esclusiva accessibile | MEDIUM | Codice non recuperato |
-| [UIV-068](https://uiverse.io/esraaabdel-kareem/bad-dragonfly-54) | LOADER | Ricerca semantica/indicizzazione solo se avviata | MEDIUM | Codice non recuperato |
-| [UIV-069](https://uiverse.io/fthisilak/bitter-termite-36) | BUTTON | CTA con azione verificata e focus | MEDIUM | Codice non recuperato |
+| [UIV-060](https://uiverse.io/dexter-st/breezy-zebra-94) | BUTTON | CTA con azione verificata e focus | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-060_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-060_original.css) |
+| [UIV-063](https://uiverse.io/dexter-st/tough-falcon-78) | CARD | Scheda nota o lavagna | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-063_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-063_original.css) |
+| [UIV-064](https://uiverse.io/dopekid_9309/tiny-dog-80) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-064_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-064_original.css) |
+| [UIV-065](https://uiverse.io/dovatgabriel/massive-vampirebat-17) | LOADER | Ricerca semantica/indicizzazione solo se avviata | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-065_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-065_original.css) |
+| [UIV-067](https://uiverse.io/elijahgummer/young-horse-7) | RADIO | Scelta esclusiva accessibile | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-067_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-067_original.css) |
+| [UIV-068](https://uiverse.io/esraaabdel-kareem/bad-dragonfly-54) | LOADER | Ricerca semantica/indicizzazione solo se avviata | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-068_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-068_original.css) |
+| [UIV-069](https://uiverse.io/fthisilak/bitter-termite-36) | BUTTON | CTA con azione verificata e focus | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-069_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-069_original.css) |
 | [UIV-070](https://uiverse.io/gagan-gv/unlucky-yak-4) | CHECKBOX | Selezione con semantica e feedback | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-070_original.html) |
 | [UIV-071](https://uiverse.io/gharsh11032000/sour-vampirebat-66) | SWITCH | Preferenza on/off persistita | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-071_original.html) |
-| [UIV-073](https://uiverse.io/ilkhoeri/thin-bobcat-83) | CARD | Scheda nota o lavagna | HIGH | Codice non recuperato |
-| [UIV-074](https://uiverse.io/jeremy_4982/massive-falcon-52) | LOADER | Ricerca semantica/indicizzazione solo se avviata | MEDIUM | Codice non recuperato |
+| [UIV-073](https://uiverse.io/ilkhoeri/thin-bobcat-83) | CARD | Scheda nota o lavagna | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-073_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-073_original.css) |
+| [UIV-074](https://uiverse.io/jeremy_4982/massive-falcon-52) | LOADER | Ricerca semantica/indicizzazione solo se avviata | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-074_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-074_original.css) |
 | [UIV-075](https://uiverse.io/joe-watson-sbf/honest-bullfrog-6) | CARD | Scheda nota o lavagna | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-075_original.html) |
 | [UIV-077](https://uiverse.io/kennyotsu/fast-emu-70) | CARD | Scheda nota o lavagna | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-077_original.html) |
-| [UIV-078](https://uiverse.io/kennyotsu/giant-sloth-18) | CARD | Scheda nota o lavagna | HIGH | Codice non recuperato |
-| [UIV-079](https://uiverse.io/kennyotsu/selfish-bear-69) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | Codice non recuperato |
+| [UIV-078](https://uiverse.io/kennyotsu/giant-sloth-18) | CARD | Scheda nota o lavagna | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-078_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-078_original.css) |
+| [UIV-079](https://uiverse.io/kennyotsu/selfish-bear-69) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-079_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-079_original.css) |
 | [UIV-080](https://uiverse.io/kennyotsu/short-ape-5) | CARD | Scheda nota o lavagna | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-080_original.html) |
 | [UIV-082](https://uiverse.io/kennyotsu/wise-rattlesnake-92) | CARD | Scheda nota o lavagna | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-082_original.html) |
-| [UIV-083](https://uiverse.io/kennyotsu/wonderful-firefox-31) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | Codice non recuperato |
+| [UIV-083](https://uiverse.io/kennyotsu/wonderful-firefox-31) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-083_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-083_original.css) |
 | [UIV-084](https://uiverse.io/lukepadiachy/funny-moose-89) | LOADER | Ricerca semantica/indicizzazione solo se avviata | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-084_original.html) |
-| [UIV-085](https://uiverse.io/m1her/odd-fireant-56) | SWITCH | Preferenza on/off persistita | MEDIUM | Codice non recuperato |
+| [UIV-085](https://uiverse.io/m1her/odd-fireant-56) | SWITCH | Preferenza on/off persistita | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-085_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-085_original.css) |
 | [UIV-087](https://uiverse.io/marcelodolza/fat-zebra-11) | BUTTON | CTA con azione verificata e focus | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-087_original.html) |
 | [UIV-088](https://uiverse.io/mobinkakei/great-skunk-8) | SWITCH | Preferenza on/off persistita | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-088_original.html) |
 | [UIV-089](https://uiverse.io/mobinkakei/grumpy-turtle-41) | LOADER | Ricerca semantica/indicizzazione solo se avviata | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-089_original.html) |
-| [UIV-091](https://uiverse.io/monkey_8812/curly-moth-56) | CARD | Scheda nota o lavagna | HIGH | Codice non recuperato |
-| [UIV-092](https://uiverse.io/mymiamo/quiet-dragon-5) | CARD | Scheda nota o lavagna | HIGH | Codice non recuperato |
-| [UIV-093](https://uiverse.io/preet_7613/new-cougar-63) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | Codice non recuperato |
+| [UIV-091](https://uiverse.io/monkey_8812/curly-moth-56) | CARD | Scheda nota o lavagna | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-091_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-091_original.css) |
+| [UIV-092](https://uiverse.io/mymiamo/quiet-dragon-5) | CARD | Scheda nota o lavagna | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-092_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-092_original.css) |
+| [UIV-093](https://uiverse.io/preet_7613/new-cougar-63) | UNKNOWN | Solo idea da classificare visivamente | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-093_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-093_original.css) |
 | [UIV-094](https://uiverse.io/satyamchaudharydev/splendid-husky-54) | LOADER | Ricerca semantica/indicizzazione solo se avviata | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-094_original.html) |
-| [UIV-095](https://uiverse.io/seoulchik/funny-seahorse-89) | CARD | Scheda nota o lavagna | HIGH | Codice non recuperato |
+| [UIV-095](https://uiverse.io/seoulchik/funny-seahorse-89) | CARD | Scheda nota o lavagna | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-095_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-095_original.css) |
 | [UIV-097](https://uiverse.io/vamsidevendrakumar/soft-shrimp-94) | CARD | Scheda nota o lavagna | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-097_original.html) |
-| [UIV-098](https://uiverse.io/whoisyourdeadie/foolish-rabbit-13) | PATTERN | Texture opzionale fuori dall'area scrittura | MEDIUM | Codice non recuperato |
+| [UIV-098](https://uiverse.io/whoisyourdeadie/foolish-rabbit-13) | PATTERN | Texture opzionale fuori dall'area scrittura | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-098_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-098_original.css) |
 | [UIV-099](https://uiverse.io/xXJollyHAKERXx/lucky-falcon-75) | LOADER | Ricerca semantica/indicizzazione solo se avviata | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-099_original.html) |
 
 [Registro 97 Favorites](../UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json) · [Matrice complessiva 25 app](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md) · [Archivio codice](../UI-UX/UIVERSE/CODICE_SORGENTE/README.md). Stato: **PROPOSED_ONLY**.

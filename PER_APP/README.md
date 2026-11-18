@@ -80,3 +80,7 @@ I dossier delle **20 app compatibili** e il registro canonico contengono le 64 r
 ## Favorites Uiverse — tutti i 25 dossier (18/11/2026)
 
 Il [registro centrale per-app](./REGISTRO_APP_DESIGN.json) e i dossier Markdown per **25 app** sono sincronizzati con [657 associazioni](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.json). I **97 favorites esportati** mappano 54 sorgenti originali disponibili e 43 da recuperare. Nessuna adozione runtime/Golden viene implicata dai suggerimenti.
+
+## Aggiornamento recupero pubblico (2026-11-18)
+
+Originali HTML/CSS aggiunti: **43**; catalogo **100/100**; Favorites **97/97**; codice non recuperato **0**. Provenienza e checksum in [RECUPERO_API](../UI-UX/UIVERSE/FAVORITES/RECUPERO_API_2026_11_18.json). Le cifre precedenti documentano lo stato storico prima di questo recupero. Nessuna adozione o test su app consumer.

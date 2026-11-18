@@ -113,3 +113,7 @@ La sezione [**PER_APP**](../PER_APP/README.md) conserva le proposte visuali per 
 ## Favorites Uiverse — importazione estesa 18/11/2026
 
 [Registro 97 Favorites](./UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json), di cui 91 nuovi rispetto al catalogo originario; [100 componenti totali](./UIVERSE/README.md), [57 sorgenti HTML/CSS MIT](./UIVERSE/CODICE_SORGENTE/README.md), [43 sorgenti da recuperare](./UIVERSE/FAVORITES/CODICE_NON_REPERITO.md), [657 associazioni su 25 app](./UIVERSE/MATRICE_APP_COMPONENTI.md). Tutte le proposte non attestate nel codice consumer restano PROPOSED_ONLY.
+
+## Aggiornamento recupero pubblico (2026-11-18)
+
+Originali HTML/CSS aggiunti: **43**; catalogo **100/100**; Favorites **97/97**; codice non recuperato **0**. Provenienza e checksum in [RECUPERO_API](../UI-UX/UIVERSE/FAVORITES/RECUPERO_API_2026_11_18.json). Le cifre precedenti documentano lo stato storico prima di questo recupero. Nessuna adozione o test su app consumer.

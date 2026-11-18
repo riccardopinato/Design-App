@@ -232,3 +232,7 @@ Added [source-grounded audit](sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md)
 ## Favorites Uiverse — archivio personale 97 collegamenti (18/11/2026)
 
 [Catalogo 100 componenti Uiverse](./UI-UX/UIVERSE/README.md) · [97 favorites importati](./UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json) · [57 file HTML/CSS originali](./UI-UX/UIVERSE/CODICE_SORGENTE/README.md) · [43 gap di estrazione](./UI-UX/UIVERSE/FAVORITES/CODICE_NON_REPERITO.md) · [657 legami molti-a-molti su 25 app](./UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md). Zero componenti integrati direttamente nei consumer, nessun Golden promosso; la completezza dell'account resta da confrontare con il conteggio Uiverse.
+
+## Aggiornamento recupero pubblico (2026-11-18)
+
+Originali HTML/CSS aggiunti: **43**; catalogo **100/100**; Favorites **97/97**; codice non recuperato **0**. Provenienza e checksum in [RECUPERO_API](../UI-UX/UIVERSE/FAVORITES/RECUPERO_API_2026_11_18.json). Le cifre precedenti documentano lo stato storico prima di questo recupero. Nessuna adozione o test su app consumer.

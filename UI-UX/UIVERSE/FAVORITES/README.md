@@ -39,3 +39,6 @@ Questo esportatore **legge soltanto la pagina aperta nel tuo browser**; non rice
 
 [Rapporto statico](./ANALISI_TECNICA_57.md) · [quattro registri machine-readable](./ANALISI_CODICE_PART_01.json) con indizi su keyframes, SVG, hover, gradienti, 3D e segnalazioni di rischio. Fonte originale e hash Git conservati nel [catalogo globale](../REGISTRO_COMPONENTI.json). Nessuna QA runtime dichiarata.
 
+## Aggiornamento recupero pubblico (2026-11-18)
+
+Originali HTML/CSS aggiunti: **43**; catalogo **100/100**; Favorites **97/97**; codice non recuperato **0**. Provenienza e checksum in [RECUPERO_API](../UI-UX/UIVERSE/FAVORITES/RECUPERO_API_2026_11_18.json). Le cifre precedenti documentano lo stato storico prima di questo recupero. Nessuna adozione o test su app consumer.
