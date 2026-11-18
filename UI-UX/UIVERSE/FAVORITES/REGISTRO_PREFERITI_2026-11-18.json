@@ -11,8 +11,8 @@
   "completeness": "REQUIRES_USER_COUNT_VERIFICATION",
   "already_catalogued": 97,
   "new_catalogued": 11,
-  "code_available": 97,
-  "source_missing": 11,
+  "code_available": 108,
+  "source_missing": 0,
   "source_repo_ref": "adbd2adde0a299a3956ea288fb444ec01891ca41",
   "privacy": "URLS_ONLY_NO_CREDENTIALS",
   "items": [
@@ -119,8 +119,12 @@
       "author": "Javierrocadev",
       "slug": "chatty-ladybug-95",
       "category": "UNKNOWN",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-101_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-101_original.css",
+      "source_post_id": "c25e0c05-498b-403d-abf6-54e3fb0af703",
+      "source_html_sha256": "d2147c340b7a332c0cd0964f65239a5e1dc0994762bb38d17ddb81f4b243fb98",
+      "source_css_sha256": "ec2016c809e0aba3eb965a49358086fce59b74d38c669cdbdaf8b325dbc95f2d"
     },
     {
       "id": "UIV-018",
@@ -297,8 +301,12 @@
       "author": "Praashoo7",
       "slug": "bitter-pig-24",
       "category": "UNKNOWN",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-102_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-102_original.css",
+      "source_post_id": "f328e809-d149-47cf-a714-455c676c8b1b",
+      "source_html_sha256": "fa601491bb416aa79f145f81c34fa2f6e3874d5435d825d4084a9cb5524432de",
+      "source_css_sha256": "92dd88280b4264fb9747386304753d6e4b49beac9f7c8e6d969ad66af85ea259"
     },
     {
       "id": "UIV-032",
@@ -445,8 +453,12 @@
       "author": "SyedShahzaib7",
       "slug": "brave-dog-61",
       "category": "UNKNOWN",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-103_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-103_original.css",
+      "source_post_id": "0cb13482-6da5-48aa-957e-a0cc069e8055",
+      "source_html_sha256": "e7d2b45b662cc6f49efbc2947f5f8048ff1d4a705f612ab88b4999752eac3836",
+      "source_css_sha256": "dd8dfee0bd79bcba951beb3b578b4d0e6c3a51f20adbcaf026d7e9105d156891"
     },
     {
       "id": "UIV-045",
@@ -503,8 +515,12 @@
       "author": "alexmaracinaru",
       "slug": "tall-owl-30",
       "category": "UNKNOWN",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-104_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-104_original.css",
+      "source_post_id": "f42a9103-615d-4d66-a4d0-0593e4e5f62f",
+      "source_html_sha256": "0d2d5f4b33a79e67efb933efa90e53bf05ab5da7761e5a80d42a0634c71e541d",
+      "source_css_sha256": "15fd682190678f24afa83db42da0cecad60c40432b15c4f5eac312417590b20e"
     },
     {
       "id": "UIV-001",
@@ -603,8 +619,12 @@
       "author": "ayyjayy2",
       "slug": "sour-dog-94",
       "category": "UNKNOWN",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-105_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-105_original.css",
+      "source_post_id": "8385716d-62bb-40ba-99f1-9f6c11aaf052",
+      "source_html_sha256": "0759bf9afc0ceadc14052b1871053e7b9d862858fd0aa1c772824db3db75997b",
+      "source_css_sha256": "8d6609ebf83e5440c6121f99738f2ded01bfec36f1bf1f81098150fcab6e164c"
     },
     {
       "id": "UIV-053",
@@ -751,8 +771,12 @@
       "author": "doniaskima",
       "slug": "cowardly-frog-28",
       "category": "UNKNOWN",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-106_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-106_original.css",
+      "source_post_id": "25eeb024-902f-4ef6-9df2-8f773dcab19d",
+      "source_html_sha256": "172e18219dbd3355066daf4a86618ae918ed199af26bb2a7abeb91fd197b746d",
+      "source_css_sha256": "fe06c7a317f0e48b3429c72b4dd22a84bbf03c459886cf0c90bdbdfad6b587c4"
     },
     {
       "id": "UIV-064",
@@ -789,8 +813,12 @@
       "author": "elijahgummer",
       "slug": "new-fly-30",
       "category": "UNKNOWN",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-107_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-107_original.css",
+      "source_post_id": "41326a41-1786-40c8-b29a-95b2ce012881",
+      "source_html_sha256": "042453378267923103b654d3e99a0e2f197ad42eeed6b625ef56a2e7a97fde8d",
+      "source_css_sha256": "12477fe2e161a00f2855e2fa33f53e0ebd3f1b129927e937054c4c4a4abe8c03"
     },
     {
       "id": "UIV-066",
@@ -895,8 +923,12 @@
       "author": "guilhermeyohan",
       "slug": "friendly-walrus-55",
       "category": "UNKNOWN",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-108_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-108_original.css",
+      "source_post_id": "05fc0e5b-a052-4daf-9709-7ba26a6ad93b",
+      "source_html_sha256": "0a9a8cc713c241e6e47fb4ab2a72eb7f041608a1742853c387a2e13b075183ba",
+      "source_css_sha256": "1018e296c078ff795dbb7a340594b71dc006444c53200d4282f29981e75f58fe"
     },
     {
       "id": "UIV-073",
@@ -1081,8 +1113,12 @@
       "author": "mamyapro123",
       "slug": "curvy-bear-51",
       "category": "UNKNOWN",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-109_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-109_original.css",
+      "source_post_id": "55cb20a6-1ba8-4170-82ba-3a1ada445b1b",
+      "source_html_sha256": "283d530920fdd3dab561650a63a754016ae14d73d65ecb4914b302b4b9d42f4f",
+      "source_css_sha256": "872484f165616517dad879ef8694d3a50c862ab8a089545664238fb982f16f55"
     },
     {
       "id": "UIV-087",
@@ -1173,8 +1209,12 @@
       "author": "roroland",
       "slug": "average-horse-2",
       "category": "UNKNOWN",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-110_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-110_original.css",
+      "source_post_id": "e1a79350-f340-437c-ac23-687b9f5c7328",
+      "source_html_sha256": "f96af64e9f15f08fc714ab28361167f7d61439722a9e40cdf2d37c9690f3f4eb",
+      "source_css_sha256": "7eff5023d675cf4e631d1345353b4352d9db86a7ef8f8996f2c229d45bb641b5"
     },
     {
       "id": "UIV-094",
@@ -1231,8 +1271,12 @@
       "author": "vinodjangid07",
       "slug": "horrible-warthog-14",
       "category": "UNKNOWN",
-      "code_availability": "SOURCE_CODE_NOT_LOCATED",
-      "code_snapshot": null
+      "code_availability": "PUBLIC_ENDPOINT_ORIGINAL_HTML_CSS_CAPTURED",
+      "code_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-111_original.html",
+      "css_snapshot": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-111_original.css",
+      "source_post_id": "e177bf54-476e-4bd6-b822-30f0d97e74bc",
+      "source_html_sha256": "87166f6fd5e6911fece1b650ef8a38d75f99bd9eb912ebccbd6a9c134a7b50c3",
+      "source_css_sha256": "b041831f84bb7fdac03579eba63ebf56b14e312ed1f3f173a42887feda927b41"
     },
     {
       "id": "UIV-098",
@@ -1282,7 +1326,7 @@
     "TOOLTIP": 1,
     "UNKNOWN": 11
   },
-  "last_code_recovery_at": "2026-11-18T11:09:18.470856+00:00",
+  "last_code_recovery_at": "2026-11-18T16:49:55.064870+00:00",
   "previous_export": {
     "exported_at": "2026-11-18T10:08:06.777Z",
     "count": 97,

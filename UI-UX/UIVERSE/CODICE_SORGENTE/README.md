@@ -127,3 +127,19 @@ Ogni codice Ã¨ **una copia originale HTML/CSS con blob Git verificabile**: non Ã
 - UIV-095: [HTML](./UIV-095_original.html), [CSS](./UIV-095_original.css), [pagina](https://uiverse.io/seoulchik/funny-seahorse-89).
 - UIV-096: [HTML](./UIV-096_original.html), [CSS](./UIV-096_original.css), [pagina](https://uiverse.io/solowzrd/wet-lionfish-63).
 - UIV-098: [HTML](./UIV-098_original.html), [CSS](./UIV-098_original.css), [pagina](https://uiverse.io/whoisyourdeadie/foolish-rabbit-13).
+
+## Recupero diretto dal sito Uiverse
+
+**11 originali aggiuntivi** in coppie HTML/CSS, non presenti nel vecchio archivio Galaxy. [SHA/post ID/provenienza](../FAVORITES/RECUPERO_API_2026_11_18.json). MIT per post Uiverse; originale Web non testato.
+
+- UIV-101: [HTML](./UIV-101_original.html), [CSS](./UIV-101_original.css), [pagina](https://uiverse.io/Javierrocadev/chatty-ladybug-95).
+- UIV-102: [HTML](./UIV-102_original.html), [CSS](./UIV-102_original.css), [pagina](https://uiverse.io/Praashoo7/bitter-pig-24).
+- UIV-103: [HTML](./UIV-103_original.html), [CSS](./UIV-103_original.css), [pagina](https://uiverse.io/SyedShahzaib7/brave-dog-61).
+- UIV-104: [HTML](./UIV-104_original.html), [CSS](./UIV-104_original.css), [pagina](https://uiverse.io/alexmaracinaru/tall-owl-30).
+- UIV-105: [HTML](./UIV-105_original.html), [CSS](./UIV-105_original.css), [pagina](https://uiverse.io/ayyjayy2/sour-dog-94).
+- UIV-106: [HTML](./UIV-106_original.html), [CSS](./UIV-106_original.css), [pagina](https://uiverse.io/doniaskima/cowardly-frog-28).
+- UIV-107: [HTML](./UIV-107_original.html), [CSS](./UIV-107_original.css), [pagina](https://uiverse.io/elijahgummer/new-fly-30).
+- UIV-108: [HTML](./UIV-108_original.html), [CSS](./UIV-108_original.css), [pagina](https://uiverse.io/guilhermeyohan/friendly-walrus-55).
+- UIV-109: [HTML](./UIV-109_original.html), [CSS](./UIV-109_original.css), [pagina](https://uiverse.io/mamyapro123/curvy-bear-51).
+- UIV-110: [HTML](./UIV-110_original.html), [CSS](./UIV-110_original.css), [pagina](https://uiverse.io/roroland/average-horse-2).
+- UIV-111: [HTML](./UIV-111_original.html), [CSS](./UIV-111_original.css), [pagina](https://uiverse.io/vinodjangid07/horrible-warthog-14).
