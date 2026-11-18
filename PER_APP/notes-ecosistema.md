@@ -301,3 +301,13 @@ Fonti: [Flutter Gems](https://fluttergems.dev/), [Forui Button](https://forui.de
 | FL Chart | MEDIUM | charts backed by real data |
 
 Nessun package installato, nessuna modifica dati/architettura o Golden promosso; verifica Flutter SDK, dipendenze, APK size, accessibilità e performance necessaria prima dell'adozione.
+
+## Flutter Component Library — possibili componenti (19/11/2026)
+
+Fonte: [Flutter Component Library](https://fluttercomponentlibrary.com/) · [analisi delle licenze e sorgenti](../sources/FLUTTER_COMPONENT_LIBRARY_RESEARCH_2026-11-19.md) · [matrice dei componenti per app](../UI-UX/FLUTTER_COMPONENT_LIBRARY_APP_MAP_2026-11-19.json).
+
+- **FCL-003 · Filter Button** — fit HIGH: Content search and filter semantics.
+- **FCL-005 · Bottom Sheet** — fit HIGH: Selection context actions without disrupting canvas.
+- **FCL-014 · Drawer** — fit MEDIUM: Responsive navigation, keep editor/canvas controls reachable.
+
+**Status: PROPOSED_ONLY / REFERENCE_ONLY**. I percorsi Dart dichiarati non sono sorgenti recuperati e la licenza del catalogo non e' verificata; non copiare codice o asset prima di comprovare i diritti. Design-App preferita dall'utente e Product Bible precedono; nessuna applicazione, dipendenza o mock-up approvato modificato.
