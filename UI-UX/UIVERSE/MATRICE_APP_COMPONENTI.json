@@ -1,0 +1,1434 @@
+{
+  "schema_version": 1,
+  "batch": "UIVERSE_9_2026_11_18",
+  "apps": [
+    "180flipcharge",
+    "annas-diary",
+    "app-factory-dashboard",
+    "battery-guard",
+    "beerclass-ai",
+    "camperboss",
+    "cashmate-ai",
+    "cooking-anime",
+    "deskland-android",
+    "easy-debloat",
+    "focussense",
+    "framelab",
+    "notes-ecosistema",
+    "omni-cleaner",
+    "phone-guard",
+    "pocket-guard",
+    "send-to-pc",
+    "web-utility-factory",
+    "wonderlog",
+    "world-days"
+  ],
+  "relations": [
+    {
+      "component_id": "UIV-001",
+      "app_id": "omni-cleaner",
+      "fit": "HIGH",
+      "surface": "Caricamento effettivo durante elaborazione",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-001",
+      "app_id": "notes-ecosistema",
+      "fit": "MEDIUM",
+      "surface": "Caricamento effettivo durante elaborazione",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-001",
+      "app_id": "battery-guard",
+      "fit": "MEDIUM",
+      "surface": "Caricamento effettivo durante elaborazione",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-001",
+      "app_id": "send-to-pc",
+      "fit": "MEDIUM",
+      "surface": "Caricamento effettivo durante elaborazione",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-001",
+      "app_id": "framelab",
+      "fit": "MEDIUM",
+      "surface": "Caricamento effettivo durante elaborazione",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-001",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "Caricamento effettivo durante elaborazione",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-002",
+      "app_id": "annas-diary",
+      "fit": "MEDIUM",
+      "surface": "CTA con gradiente e stato focus/tap",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-002",
+      "app_id": "beerclass-ai",
+      "fit": "MEDIUM",
+      "surface": "CTA con gradiente e stato focus/tap",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-002",
+      "app_id": "cooking-anime",
+      "fit": "MEDIUM",
+      "surface": "CTA con gradiente e stato focus/tap",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-002",
+      "app_id": "wonderlog",
+      "fit": "MEDIUM",
+      "surface": "CTA con gradiente e stato focus/tap",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-002",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "CTA con gradiente e stato focus/tap",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-002",
+      "app_id": "camperboss",
+      "fit": "MEDIUM",
+      "surface": "CTA con gradiente e stato focus/tap",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-002",
+      "app_id": "web-utility-factory",
+      "fit": "MEDIUM",
+      "surface": "CTA con gradiente e stato focus/tap",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-003",
+      "app_id": "notes-ecosistema",
+      "fit": "MEDIUM",
+      "surface": "Card contenuti/insight con reveal accessibile",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-003",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "Card contenuti/insight con reveal accessibile",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-003",
+      "app_id": "wonderlog",
+      "fit": "MEDIUM",
+      "surface": "Card contenuti/insight con reveal accessibile",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-003",
+      "app_id": "beerclass-ai",
+      "fit": "MEDIUM",
+      "surface": "Card contenuti/insight con reveal accessibile",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-003",
+      "app_id": "cashmate-ai",
+      "fit": "MEDIUM",
+      "surface": "Card contenuti/insight con reveal accessibile",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-003",
+      "app_id": "cooking-anime",
+      "fit": "MEDIUM",
+      "surface": "Card contenuti/insight con reveal accessibile",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-003",
+      "app_id": "app-factory-dashboard",
+      "fit": "MEDIUM",
+      "surface": "Card contenuti/insight con reveal accessibile",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-004",
+      "app_id": "wonderlog",
+      "fit": "MEDIUM",
+      "surface": "Schede editoriali e viaggi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-004",
+      "app_id": "camperboss",
+      "fit": "MEDIUM",
+      "surface": "Schede editoriali e viaggi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-004",
+      "app_id": "annas-diary",
+      "fit": "MEDIUM",
+      "surface": "Schede editoriali e viaggi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-004",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "Schede editoriali e viaggi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-004",
+      "app_id": "notes-ecosistema",
+      "fit": "MEDIUM",
+      "surface": "Schede editoriali e viaggi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-004",
+      "app_id": "framelab",
+      "fit": "MEDIUM",
+      "surface": "Schede editoriali e viaggi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-004",
+      "app_id": "web-utility-factory",
+      "fit": "MEDIUM",
+      "surface": "Schede editoriali e viaggi",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-005",
+      "app_id": "annas-diary",
+      "fit": "HIGH",
+      "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-005",
+      "app_id": "omni-cleaner",
+      "fit": "MEDIUM",
+      "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-005",
+      "app_id": "notes-ecosistema",
+      "fit": "MEDIUM",
+      "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-005",
+      "app_id": "cashmate-ai",
+      "fit": "MEDIUM",
+      "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-005",
+      "app_id": "focussense",
+      "fit": "MEDIUM",
+      "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-005",
+      "app_id": "battery-guard",
+      "fit": "MEDIUM",
+      "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-005",
+      "app_id": "deskland-android",
+      "fit": "MEDIUM",
+      "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-005",
+      "app_id": "app-factory-dashboard",
+      "fit": "MEDIUM",
+      "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-006",
+      "app_id": "battery-guard",
+      "fit": "MEDIUM",
+      "surface": "Toggle semantico legato a impostazione reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-006",
+      "app_id": "easy-debloat",
+      "fit": "MEDIUM",
+      "surface": "Toggle semantico legato a impostazione reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-006",
+      "app_id": "focussense",
+      "fit": "MEDIUM",
+      "surface": "Toggle semantico legato a impostazione reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-006",
+      "app_id": "omni-cleaner",
+      "fit": "MEDIUM",
+      "surface": "Toggle semantico legato a impostazione reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-006",
+      "app_id": "180flipcharge",
+      "fit": "MEDIUM",
+      "surface": "Toggle semantico legato a impostazione reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-006",
+      "app_id": "annas-diary",
+      "fit": "MEDIUM",
+      "surface": "Toggle semantico legato a impostazione reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-006",
+      "app_id": "phone-guard",
+      "fit": "MEDIUM",
+      "surface": "Toggle semantico legato a impostazione reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-006",
+      "app_id": "pocket-guard",
+      "fit": "MEDIUM",
+      "surface": "Toggle semantico legato a impostazione reale",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-007",
+      "app_id": "notes-ecosistema",
+      "fit": "HIGH",
+      "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-007",
+      "app_id": "omni-cleaner",
+      "fit": "MEDIUM",
+      "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-007",
+      "app_id": "framelab",
+      "fit": "MEDIUM",
+      "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-007",
+      "app_id": "app-factory-dashboard",
+      "fit": "MEDIUM",
+      "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-007",
+      "app_id": "cashmate-ai",
+      "fit": "MEDIUM",
+      "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-007",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-007",
+      "app_id": "web-utility-factory",
+      "fit": "MEDIUM",
+      "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-007",
+      "app_id": "annas-diary",
+      "fit": "MEDIUM",
+      "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-008",
+      "app_id": "omni-cleaner",
+      "fit": "HIGH",
+      "surface": "Caricamento temporaneo con stop/errore/retry",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-008",
+      "app_id": "notes-ecosistema",
+      "fit": "MEDIUM",
+      "surface": "Caricamento temporaneo con stop/errore/retry",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-008",
+      "app_id": "send-to-pc",
+      "fit": "MEDIUM",
+      "surface": "Caricamento temporaneo con stop/errore/retry",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-008",
+      "app_id": "easy-debloat",
+      "fit": "MEDIUM",
+      "surface": "Caricamento temporaneo con stop/errore/retry",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-008",
+      "app_id": "battery-guard",
+      "fit": "MEDIUM",
+      "surface": "Caricamento temporaneo con stop/errore/retry",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-008",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "Caricamento temporaneo con stop/errore/retry",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-008",
+      "app_id": "camperboss",
+      "fit": "MEDIUM",
+      "surface": "Caricamento temporaneo con stop/errore/retry",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-009",
+      "app_id": "annas-diary",
+      "fit": "HIGH",
+      "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-009",
+      "app_id": "notes-ecosistema",
+      "fit": "MEDIUM",
+      "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-009",
+      "app_id": "world-days",
+      "fit": "MEDIUM",
+      "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-009",
+      "app_id": "wonderlog",
+      "fit": "MEDIUM",
+      "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-009",
+      "app_id": "cooking-anime",
+      "fit": "MEDIUM",
+      "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "component_id": "UIV-009",
+      "app_id": "framelab",
+      "fit": "MEDIUM",
+      "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+      "status": "PROPOSED_ONLY"
+    }
+  ],
+  "by_app": {
+    "180flipcharge": [
+      {
+        "component_id": "UIV-006",
+        "app_id": "180flipcharge",
+        "fit": "MEDIUM",
+        "surface": "Toggle semantico legato a impostazione reale",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "annas-diary": [
+      {
+        "component_id": "UIV-002",
+        "app_id": "annas-diary",
+        "fit": "MEDIUM",
+        "surface": "CTA con gradiente e stato focus/tap",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-004",
+        "app_id": "annas-diary",
+        "fit": "MEDIUM",
+        "surface": "Schede editoriali e viaggi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-005",
+        "app_id": "annas-diary",
+        "fit": "HIGH",
+        "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-006",
+        "app_id": "annas-diary",
+        "fit": "MEDIUM",
+        "surface": "Toggle semantico legato a impostazione reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-007",
+        "app_id": "annas-diary",
+        "fit": "MEDIUM",
+        "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-009",
+        "app_id": "annas-diary",
+        "fit": "HIGH",
+        "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "app-factory-dashboard": [
+      {
+        "component_id": "UIV-003",
+        "app_id": "app-factory-dashboard",
+        "fit": "MEDIUM",
+        "surface": "Card contenuti/insight con reveal accessibile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-005",
+        "app_id": "app-factory-dashboard",
+        "fit": "MEDIUM",
+        "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-007",
+        "app_id": "app-factory-dashboard",
+        "fit": "MEDIUM",
+        "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "battery-guard": [
+      {
+        "component_id": "UIV-001",
+        "app_id": "battery-guard",
+        "fit": "MEDIUM",
+        "surface": "Caricamento effettivo durante elaborazione",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-005",
+        "app_id": "battery-guard",
+        "fit": "MEDIUM",
+        "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-006",
+        "app_id": "battery-guard",
+        "fit": "MEDIUM",
+        "surface": "Toggle semantico legato a impostazione reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-008",
+        "app_id": "battery-guard",
+        "fit": "MEDIUM",
+        "surface": "Caricamento temporaneo con stop/errore/retry",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "beerclass-ai": [
+      {
+        "component_id": "UIV-002",
+        "app_id": "beerclass-ai",
+        "fit": "MEDIUM",
+        "surface": "CTA con gradiente e stato focus/tap",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-003",
+        "app_id": "beerclass-ai",
+        "fit": "MEDIUM",
+        "surface": "Card contenuti/insight con reveal accessibile",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "camperboss": [
+      {
+        "component_id": "UIV-002",
+        "app_id": "camperboss",
+        "fit": "MEDIUM",
+        "surface": "CTA con gradiente e stato focus/tap",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-004",
+        "app_id": "camperboss",
+        "fit": "MEDIUM",
+        "surface": "Schede editoriali e viaggi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-008",
+        "app_id": "camperboss",
+        "fit": "MEDIUM",
+        "surface": "Caricamento temporaneo con stop/errore/retry",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "cashmate-ai": [
+      {
+        "component_id": "UIV-003",
+        "app_id": "cashmate-ai",
+        "fit": "MEDIUM",
+        "surface": "Card contenuti/insight con reveal accessibile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-005",
+        "app_id": "cashmate-ai",
+        "fit": "MEDIUM",
+        "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-007",
+        "app_id": "cashmate-ai",
+        "fit": "MEDIUM",
+        "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "cooking-anime": [
+      {
+        "component_id": "UIV-002",
+        "app_id": "cooking-anime",
+        "fit": "MEDIUM",
+        "surface": "CTA con gradiente e stato focus/tap",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-003",
+        "app_id": "cooking-anime",
+        "fit": "MEDIUM",
+        "surface": "Card contenuti/insight con reveal accessibile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-009",
+        "app_id": "cooking-anime",
+        "fit": "MEDIUM",
+        "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "deskland-android": [
+      {
+        "component_id": "UIV-005",
+        "app_id": "deskland-android",
+        "fit": "MEDIUM",
+        "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "easy-debloat": [
+      {
+        "component_id": "UIV-006",
+        "app_id": "easy-debloat",
+        "fit": "MEDIUM",
+        "surface": "Toggle semantico legato a impostazione reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-008",
+        "app_id": "easy-debloat",
+        "fit": "MEDIUM",
+        "surface": "Caricamento temporaneo con stop/errore/retry",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "focussense": [
+      {
+        "component_id": "UIV-005",
+        "app_id": "focussense",
+        "fit": "MEDIUM",
+        "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-006",
+        "app_id": "focussense",
+        "fit": "MEDIUM",
+        "surface": "Toggle semantico legato a impostazione reale",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "framelab": [
+      {
+        "component_id": "UIV-001",
+        "app_id": "framelab",
+        "fit": "MEDIUM",
+        "surface": "Caricamento effettivo durante elaborazione",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-004",
+        "app_id": "framelab",
+        "fit": "MEDIUM",
+        "surface": "Schede editoriali e viaggi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-007",
+        "app_id": "framelab",
+        "fit": "MEDIUM",
+        "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-009",
+        "app_id": "framelab",
+        "fit": "MEDIUM",
+        "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "notes-ecosistema": [
+      {
+        "component_id": "UIV-001",
+        "app_id": "notes-ecosistema",
+        "fit": "MEDIUM",
+        "surface": "Caricamento effettivo durante elaborazione",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-003",
+        "app_id": "notes-ecosistema",
+        "fit": "MEDIUM",
+        "surface": "Card contenuti/insight con reveal accessibile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-004",
+        "app_id": "notes-ecosistema",
+        "fit": "MEDIUM",
+        "surface": "Schede editoriali e viaggi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-005",
+        "app_id": "notes-ecosistema",
+        "fit": "MEDIUM",
+        "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-007",
+        "app_id": "notes-ecosistema",
+        "fit": "HIGH",
+        "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-008",
+        "app_id": "notes-ecosistema",
+        "fit": "MEDIUM",
+        "surface": "Caricamento temporaneo con stop/errore/retry",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-009",
+        "app_id": "notes-ecosistema",
+        "fit": "MEDIUM",
+        "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "omni-cleaner": [
+      {
+        "component_id": "UIV-001",
+        "app_id": "omni-cleaner",
+        "fit": "HIGH",
+        "surface": "Caricamento effettivo durante elaborazione",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-005",
+        "app_id": "omni-cleaner",
+        "fit": "MEDIUM",
+        "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-006",
+        "app_id": "omni-cleaner",
+        "fit": "MEDIUM",
+        "surface": "Toggle semantico legato a impostazione reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-007",
+        "app_id": "omni-cleaner",
+        "fit": "MEDIUM",
+        "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-008",
+        "app_id": "omni-cleaner",
+        "fit": "HIGH",
+        "surface": "Caricamento temporaneo con stop/errore/retry",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "phone-guard": [
+      {
+        "component_id": "UIV-006",
+        "app_id": "phone-guard",
+        "fit": "MEDIUM",
+        "surface": "Toggle semantico legato a impostazione reale",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "pocket-guard": [
+      {
+        "component_id": "UIV-006",
+        "app_id": "pocket-guard",
+        "fit": "MEDIUM",
+        "surface": "Toggle semantico legato a impostazione reale",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "send-to-pc": [
+      {
+        "component_id": "UIV-001",
+        "app_id": "send-to-pc",
+        "fit": "MEDIUM",
+        "surface": "Caricamento effettivo durante elaborazione",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-008",
+        "app_id": "send-to-pc",
+        "fit": "MEDIUM",
+        "surface": "Caricamento temporaneo con stop/errore/retry",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "web-utility-factory": [
+      {
+        "component_id": "UIV-002",
+        "app_id": "web-utility-factory",
+        "fit": "MEDIUM",
+        "surface": "CTA con gradiente e stato focus/tap",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-004",
+        "app_id": "web-utility-factory",
+        "fit": "MEDIUM",
+        "surface": "Schede editoriali e viaggi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-007",
+        "app_id": "web-utility-factory",
+        "fit": "MEDIUM",
+        "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "wonderlog": [
+      {
+        "component_id": "UIV-002",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "CTA con gradiente e stato focus/tap",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-003",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "Card contenuti/insight con reveal accessibile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-004",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "Schede editoriali e viaggi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-009",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "world-days": [
+      {
+        "component_id": "UIV-001",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Caricamento effettivo durante elaborazione",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-002",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "CTA con gradiente e stato focus/tap",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-003",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Card contenuti/insight con reveal accessibile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-004",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Schede editoriali e viaggi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-007",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-008",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Caricamento temporaneo con stop/errore/retry",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-009",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+        "status": "PROPOSED_ONLY"
+      }
+    ]
+  },
+  "by_component": {
+    "UIV-001": [
+      {
+        "component_id": "UIV-001",
+        "app_id": "omni-cleaner",
+        "fit": "HIGH",
+        "surface": "Caricamento effettivo durante elaborazione",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-001",
+        "app_id": "notes-ecosistema",
+        "fit": "MEDIUM",
+        "surface": "Caricamento effettivo durante elaborazione",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-001",
+        "app_id": "battery-guard",
+        "fit": "MEDIUM",
+        "surface": "Caricamento effettivo durante elaborazione",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-001",
+        "app_id": "send-to-pc",
+        "fit": "MEDIUM",
+        "surface": "Caricamento effettivo durante elaborazione",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-001",
+        "app_id": "framelab",
+        "fit": "MEDIUM",
+        "surface": "Caricamento effettivo durante elaborazione",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-001",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Caricamento effettivo durante elaborazione",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "UIV-002": [
+      {
+        "component_id": "UIV-002",
+        "app_id": "annas-diary",
+        "fit": "MEDIUM",
+        "surface": "CTA con gradiente e stato focus/tap",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-002",
+        "app_id": "beerclass-ai",
+        "fit": "MEDIUM",
+        "surface": "CTA con gradiente e stato focus/tap",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-002",
+        "app_id": "cooking-anime",
+        "fit": "MEDIUM",
+        "surface": "CTA con gradiente e stato focus/tap",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-002",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "CTA con gradiente e stato focus/tap",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-002",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "CTA con gradiente e stato focus/tap",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-002",
+        "app_id": "camperboss",
+        "fit": "MEDIUM",
+        "surface": "CTA con gradiente e stato focus/tap",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-002",
+        "app_id": "web-utility-factory",
+        "fit": "MEDIUM",
+        "surface": "CTA con gradiente e stato focus/tap",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "UIV-003": [
+      {
+        "component_id": "UIV-003",
+        "app_id": "notes-ecosistema",
+        "fit": "MEDIUM",
+        "surface": "Card contenuti/insight con reveal accessibile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-003",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Card contenuti/insight con reveal accessibile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-003",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "Card contenuti/insight con reveal accessibile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-003",
+        "app_id": "beerclass-ai",
+        "fit": "MEDIUM",
+        "surface": "Card contenuti/insight con reveal accessibile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-003",
+        "app_id": "cashmate-ai",
+        "fit": "MEDIUM",
+        "surface": "Card contenuti/insight con reveal accessibile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-003",
+        "app_id": "cooking-anime",
+        "fit": "MEDIUM",
+        "surface": "Card contenuti/insight con reveal accessibile",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-003",
+        "app_id": "app-factory-dashboard",
+        "fit": "MEDIUM",
+        "surface": "Card contenuti/insight con reveal accessibile",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "UIV-004": [
+      {
+        "component_id": "UIV-004",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "Schede editoriali e viaggi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-004",
+        "app_id": "camperboss",
+        "fit": "MEDIUM",
+        "surface": "Schede editoriali e viaggi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-004",
+        "app_id": "annas-diary",
+        "fit": "MEDIUM",
+        "surface": "Schede editoriali e viaggi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-004",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Schede editoriali e viaggi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-004",
+        "app_id": "notes-ecosistema",
+        "fit": "MEDIUM",
+        "surface": "Schede editoriali e viaggi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-004",
+        "app_id": "framelab",
+        "fit": "MEDIUM",
+        "surface": "Schede editoriali e viaggi",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-004",
+        "app_id": "web-utility-factory",
+        "fit": "MEDIUM",
+        "surface": "Schede editoriali e viaggi",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "UIV-005": [
+      {
+        "component_id": "UIV-005",
+        "app_id": "annas-diary",
+        "fit": "HIGH",
+        "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-005",
+        "app_id": "omni-cleaner",
+        "fit": "MEDIUM",
+        "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-005",
+        "app_id": "notes-ecosistema",
+        "fit": "MEDIUM",
+        "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-005",
+        "app_id": "cashmate-ai",
+        "fit": "MEDIUM",
+        "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-005",
+        "app_id": "focussense",
+        "fit": "MEDIUM",
+        "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-005",
+        "app_id": "battery-guard",
+        "fit": "MEDIUM",
+        "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-005",
+        "app_id": "deskland-android",
+        "fit": "MEDIUM",
+        "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-005",
+        "app_id": "app-factory-dashboard",
+        "fit": "MEDIUM",
+        "surface": "Sfondo decorativo valutabile solo dopo lettura del codice",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "UIV-006": [
+      {
+        "component_id": "UIV-006",
+        "app_id": "battery-guard",
+        "fit": "MEDIUM",
+        "surface": "Toggle semantico legato a impostazione reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-006",
+        "app_id": "easy-debloat",
+        "fit": "MEDIUM",
+        "surface": "Toggle semantico legato a impostazione reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-006",
+        "app_id": "focussense",
+        "fit": "MEDIUM",
+        "surface": "Toggle semantico legato a impostazione reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-006",
+        "app_id": "omni-cleaner",
+        "fit": "MEDIUM",
+        "surface": "Toggle semantico legato a impostazione reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-006",
+        "app_id": "180flipcharge",
+        "fit": "MEDIUM",
+        "surface": "Toggle semantico legato a impostazione reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-006",
+        "app_id": "annas-diary",
+        "fit": "MEDIUM",
+        "surface": "Toggle semantico legato a impostazione reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-006",
+        "app_id": "phone-guard",
+        "fit": "MEDIUM",
+        "surface": "Toggle semantico legato a impostazione reale",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-006",
+        "app_id": "pocket-guard",
+        "fit": "MEDIUM",
+        "surface": "Toggle semantico legato a impostazione reale",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "UIV-007": [
+      {
+        "component_id": "UIV-007",
+        "app_id": "notes-ecosistema",
+        "fit": "HIGH",
+        "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-007",
+        "app_id": "omni-cleaner",
+        "fit": "MEDIUM",
+        "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-007",
+        "app_id": "framelab",
+        "fit": "MEDIUM",
+        "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-007",
+        "app_id": "app-factory-dashboard",
+        "fit": "MEDIUM",
+        "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-007",
+        "app_id": "cashmate-ai",
+        "fit": "MEDIUM",
+        "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-007",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-007",
+        "app_id": "web-utility-factory",
+        "fit": "MEDIUM",
+        "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-007",
+        "app_id": "annas-diary",
+        "fit": "MEDIUM",
+        "surface": "Stato attesa job reale; frase personalizzata quando appropriata",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "UIV-008": [
+      {
+        "component_id": "UIV-008",
+        "app_id": "omni-cleaner",
+        "fit": "HIGH",
+        "surface": "Caricamento temporaneo con stop/errore/retry",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-008",
+        "app_id": "notes-ecosistema",
+        "fit": "MEDIUM",
+        "surface": "Caricamento temporaneo con stop/errore/retry",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-008",
+        "app_id": "send-to-pc",
+        "fit": "MEDIUM",
+        "surface": "Caricamento temporaneo con stop/errore/retry",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-008",
+        "app_id": "easy-debloat",
+        "fit": "MEDIUM",
+        "surface": "Caricamento temporaneo con stop/errore/retry",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-008",
+        "app_id": "battery-guard",
+        "fit": "MEDIUM",
+        "surface": "Caricamento temporaneo con stop/errore/retry",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-008",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Caricamento temporaneo con stop/errore/retry",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-008",
+        "app_id": "camperboss",
+        "fit": "MEDIUM",
+        "surface": "Caricamento temporaneo con stop/errore/retry",
+        "status": "PROPOSED_ONLY"
+      }
+    ],
+    "UIV-009": [
+      {
+        "component_id": "UIV-009",
+        "app_id": "annas-diary",
+        "fit": "HIGH",
+        "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-009",
+        "app_id": "notes-ecosistema",
+        "fit": "MEDIUM",
+        "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-009",
+        "app_id": "world-days",
+        "fit": "MEDIUM",
+        "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-009",
+        "app_id": "wonderlog",
+        "fit": "MEDIUM",
+        "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-009",
+        "app_id": "cooking-anime",
+        "fit": "MEDIUM",
+        "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+        "status": "PROPOSED_ONLY"
+      },
+      {
+        "component_id": "UIV-009",
+        "app_id": "framelab",
+        "fit": "MEDIUM",
+        "surface": "Card libro apribile con tap; note/ricordi e raccolte",
+        "status": "PROPOSED_ONLY"
+      }
+    ]
+  }
+}
