@@ -1,6 +1,6 @@
 # Uiverse — catalogo totale e preferiti (18/11/2026)
 
-**100 componenti unici** (9 precedenti + 91 aggiunti); **97 preferiti esportati**, di cui 6 già censiti. **57 codici HTML/CSS originali archiviati** nel catalogo totale; 54 tra i preferiti e 43 senza codice. Elenco privato acquisito dall'export del browser; **completezza del totale utente da confermare**.
+**100 componenti unici con sorgente HTML/CSS archiviato** (57 snapshot storici da GitHub Galaxy + 43 originali recuperati direttamente dall'endpoint pubblico Uiverse). **97 preferiti esportati, 97/97 con codice e zero mancanti**, di cui 6 già censiti. Elenco privato acquisito dall'export del browser; **completezza del totale utente da confermare**.
 
 Il codice presente è originale Web (HTML/CSS), con provenienza e blob fissati; **non è un widget Flutter/Compose pronto, non è stato collaudato su device né implementato nelle app**.
 

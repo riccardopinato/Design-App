@@ -1,8 +1,16 @@
+# Uiverse — recupero pubblico autonomo, completato 43/43
+
+**Esito definitivo 18/11/2026: recuperati tutti i 43 componenti mancanti, 97/97 preferiti con sorgente.** Il job della [PR #41](https://github.com/riccardopinato/Design-App/pull/41) ha estratto in sola lettura dal server Uiverse, poi ha salvato in PR HTML/CSS originali e relative prove. [Registro evidenza](./RECUPERO_API_2026_11_18.json) · [codice](../CODICE_SORGENTE/README.md) · [catalogo](../README.md). Nessun APK, Golden o consumer implementato.
+
+La workflow è mantenuta **solo manuale e read-only**, senza scrittura automatica sul repository dopo l'integrazione. Gli originali rimangono disponibili per il riuso in Flutter/Compose previa trasposizione nativa e QA.
+
+---
+
 # Uiverse — prova autonoma di recupero pubblico dei sorgenti
 
 Questo strumento sperimentale tenta di leggere **solo risorse pubbliche** da `uiverse.io` senza sessione autenticata. È indipendente dai favoriti privati già esportati dall'utente: legge soltanto gli URL canonici dei 43 originali mancanti in `UI-UX/UIVERSE/REGISTRO_COMPONENTI.json`.
 
-## Prova in due componenti
+## Prova iniziale in due componenti — esito storico 2/2
 
 La workflow GitHub Actions `.github/workflows/uiverse-public-recovery.yml` esegue una prova **read-only, senza secret**, a partire da `UIV-005` e `UIV-006`. Lo script usa la pagina dati Remix di Uiverse e, se il loader non restituisce il codice, il suo endpoint `/resource/post/code/{id}`, entrambi su host `uiverse.io`. Base tecnica: [DevSissi/uiverse-tool](https://github.com/DevSissi/uiverse-tool/blob/main/scripts/fetch-post.py), tool pubblico MIT, ispezionato il 18/11/2026.
 

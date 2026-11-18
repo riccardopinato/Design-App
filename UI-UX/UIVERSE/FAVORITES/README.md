@@ -4,7 +4,7 @@
 
 - [Registro dei 97 collegamenti](./REGISTRO_PREFERITI_2026-11-18.json), acquisiti dall'export locale con 67 passaggi di scansione e deduplicati: 97 URL unici.
 - Sei URL esistevano già; 91 sono nuovi nel registro di Design-App. Catalogo Uiverse complessivo: **100 componenti**.
-- **54 originali HTML/CSS archiviati** per i 97 Favorites, **43 sorgenti non reperite**; [elenco dei mancanti](./CODICE_NON_REPERITO.md).
+- **97/97 preferiti con sorgente HTML/CSS archiviato**, **0 sorgenti mancanti**; [registro aggiornato](./REGISTRO_PREFERITI_2026-11-18.json) e [codice](../CODICE_SORGENTE/README.md). Il checkpoint precedente (54/97, 43 mancanti) resta nell'audit storico.
 - [657 legami bidirezionali su 25 app](../MATRICE_APP_COMPONENTI.md); i dossier permanenti sono aggiornati.
 - **Non si può certificare che 97 sia il totale dell'account** perché il file d'origine marca la completezza `REQUIRES_USER_COUNT_VERIFICATION`. Confrontare con il totale del sito se mostrato.
 - Nessuna delle proposte diventa per questo implementata o Golden.

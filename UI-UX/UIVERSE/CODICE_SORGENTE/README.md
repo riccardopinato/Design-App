@@ -1,6 +1,6 @@
 # Uiverse — archivio HTML/CSS originale (recupero rapido)
 
-**57 sorgenti originali** provenienti dal repository pubblico [uiverse-io/galaxy](https://github.com/uiverse-io/galaxy) al commit `adbd2adde0a299a3956ea288fb444ec01891ca41`. Di questi 54 appartengono ai 97 Favorites esportati, 3 al precedente lotto ma non risultano nei Favorites.
+**100 componenti con codice originale conservato**. I primi **57 snapshot HTML/CSS** derivano dall'archivio storico [uiverse-io/galaxy](https://github.com/uiverse-io/galaxy) al commit `adbd2adde0a299a3956ea288fb444ec01891ca41` (54 sono Favorites, 3 non lo sono). Gli altri **43** sono stati recuperati dalle pagine pubbliche Uiverse tramite endpoint dati Remix, con **file HTML e CSS separati**, UUID del post e SHA-256; questi ultimi **non hanno un commit sorgente Galaxy**. [Evidenze recupero](../FAVORITES/RECUPERO_API_2026_11_18.json).
 
 Ogni codice è **una copia originale HTML/CSS con blob Git verificabile**: non è una conversione Flutter/Compose, né una garanzia di funzionamento/accessibilità nell'app. La [licenza MIT](./LICENSE-Uiverse-Galaxy-MIT.txt) va preservata in caso di riuso, verificando anche eventuali asset terzi inclusi.
 
@@ -64,9 +64,9 @@ Ogni codice è **una copia originale HTML/CSS con blob Git verificabile**: non �
 | UIV-099 | [xXJollyHAKERXx/lucky-falcon-75](https://uiverse.io/xXJollyHAKERXx/lucky-falcon-75) | [Apri](./UIV-099_original.html) | [Originale](https://github.com/uiverse-io/galaxy/blob/adbd2adde0a299a3956ea288fb444ec01891ca41/loaders/xXJollyHAKERXx_lucky-falcon-75.html) | `7251e090e8398d62610a883e70c0426780631557` |
 | UIV-100 | [zanina-yassine/afraid-eel-50](https://uiverse.io/zanina-yassine/afraid-eel-50) | [Apri](./UIV-100_original.html) | [Originale](https://github.com/uiverse-io/galaxy/blob/adbd2adde0a299a3956ea288fb444ec01891ca41/Toggle-switches/zanina-yassine_afraid-eel-50.html) | `0912f31f0eff6995ef91fc5e6c8fa5103db93b60` |
 
-## Codice mancante
+## Stato codice mancante (checkpoint precedente)
 
-**43 dei 97 Favorites** non hanno codice recuperato dall'archivio Galaxy 2024. [Elenco puntuale dei link e categorie](../FAVORITES/CODICE_NON_REPERITO.md). Non creare snippet inventati o dichiarare COPY_READY.
+**Storicamente 43 dei 97 Favorites** non erano nell'archivio Galaxy 2024; ora **tutti e 43 sono stati recuperati** direttamente dalle pagine Uiverse. [Registro mancanti aggiornato: zero](../FAVORITES/CODICE_NON_REPERITO.md). [Elenco puntuale dei link e categorie](../FAVORITES/CODICE_NON_REPERITO.md). Non creare snippet inventati o dichiarare COPY_READY.
 
 ## Protocollo per l'adattamento
 
