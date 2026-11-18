@@ -221,3 +221,14 @@ Stato: **PROPOSED_ONLY**; nessuna nuova funzione/login è autorizzata da questi 
 **UIV-108**: solo ispirazione pixel-art generica. Non riusare personaggi, sprite, trade dress o marchi Nintendo senza licenza separata.
 
 [Confronto 97→108](../UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json) · [Analisi dei nuovi 11](../UI-UX/UIVERSE/FAVORITES/ANALISI_REFRESH_11_2026-11-18.json).
+
+## Flutter Gems / Forui / F22 — librerie UI native (18/11/2026)
+
+Fonti: [Flutter Gems](https://fluttergems.dev/), [Forui Button](https://forui.dev/docs/widgets/form/button) e [F22 Labs 2026](https://www.f22labs.com/blogs/top-8-flutter-ui-libraries-for-2025-you-must-explore/). [Matrice bidirezionale](../UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json). **PROPOSED_ONLY, NOT_VERIFIED**: prima rispettare le reference utente in Design-App e Product Bible, poi verificare il package originale e il codice consumer.
+
+| Libreria | Fit | Uso ipotizzato |
+| --- | --- | --- |
+| Mix | HIGH | palette/editor visual tokens |
+| Forui | MEDIUM | pickers/settings |
+
+Nessun package installato, nessuna modifica dati/architettura o Golden promosso; verifica Flutter SDK, dipendenze, APK size, accessibilità e performance necessaria prima dell'adozione.
