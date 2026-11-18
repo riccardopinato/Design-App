@@ -1,4 +1,12 @@
-# Uiverse — recupero pubblico autonomo, completato 43/43
+# Uiverse — recupero pubblico autonomo, completato 54/54
+
+## Secondo import completato: 108 Favorites — 18 novembre 2026
+
+- Nuova esportazione della sessione dell'utente: 108 URL (11 nuovi, 0 rimossi). [Diff](./CONFRONTO_108_VS_97_2026-11-18.json).
+- GitHub Actions: **11 richieste, 11 sorgenti HTML/CSS originali recuperati**. Il registro cumulativo [RECUPERO_API](./RECUPERO_API_2026_11_18.json) conserva tutte le 54 acquisizioni dirette dal sito Uiverse (43 + 11), post ID, hash e prove.
+- Corpus Design-App: **111 componenti, 111 file HTML originali; 54 CSS originali separati; nessun mancante**. 57 snapshot Galaxy contengono HTML/CSS nello stesso file.
+- Associazioni: **736 PROPOSED_ONLY su 25 app**, senza codice consumer modificato.
+- Il workflow resta manuale read-only e la fetch non richiede password, token o cookie.
 
 **Esito definitivo 18/11/2026: recuperati tutti i 43 componenti mancanti, 97/97 preferiti con sorgente.** Il job della [PR #41](https://github.com/riccardopinato/Design-App/pull/41) ha estratto in sola lettura dal server Uiverse, poi ha salvato in PR HTML/CSS originali e relative prove. [Registro evidenza](./RECUPERO_API_2026_11_18.json) · [codice](../CODICE_SORGENTE/README.md) · [catalogo](../README.md). Nessun APK, Golden o consumer implementato.
 
