@@ -194,3 +194,11 @@ Dialog Stack può rendere più chiaro **il flusso di invito allo spazio condivis
 **Pipeline futura:** brief e decisioni Product Bible → verifica screenshot e gerarchia `critique` → controllo funzionale/semantico `audit` → stati di errore e vuoto `harden` → rifinitura `polish` → aggiornamento token e decisioni visive. Impeccable CLI/hook sono **Web-only**, non un passaggio di build o QA Flutter. Conservare colori, font, navigazione e caratteristiche già approvate; matrice responsive e App Shell Golden DRAFT si applicano senza dichiararne la certificazione.
 
 **Storico:** aggiunta una checklist di design nel campo `impeccable_designing_quality` del registro per-app; stato `PROPOSED_ONLY` / `NOT_EXECUTED`.
+
+## Dribbble + Collect UI — proposte 2026/27 (18/11/2026)
+
+- **Pattern:** DCL-001, DCL-002, DCL-004, DCL-006, DCL-007, DCL-011.
+- **Schermate:** Oggi, Calendario, Ricordi.
+- **Vincolo:** Preservare Manrope/Lora, palette rose, look diario contemporaneo.
+- **Fonti:** [Audit sorgenti](../sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md) · [Matrice pattern/app](../UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.md).
+- **Stato:** `PROPOSED_ONLY`, non implementato né testato in questa attività. La Product Bible e le scelte di design pregresse prevalgono. Nessun asset di terzi copiato.
