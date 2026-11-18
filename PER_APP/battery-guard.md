@@ -210,3 +210,11 @@ Fonti: [Flutter Gems](https://fluttergems.dev/), [Forui Button](https://forui.de
 | FL Chart | HIGH | actual charging/history charts |
 
 Nessun package installato, nessuna modifica dati/architettura o Golden promosso; verifica Flutter SDK, dipendenze, APK size, accessibilità e performance necessaria prima dell'adozione.
+
+## Material 3 — opzione selettiva, non obbligo (19/11/2026)
+
+Fonte: [Material Design 3](https://m3.material.io/) · [studio e confini](../sources/MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md) · [matrice per app](../UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json).
+
+Fit ipotizzato: **MEDIUM**. Possibile ambito: battery diagnostics/settings and compact summary widgets; avoid stock dashboard look.
+
+**PROPOSED_ONLY / NOT_VERIFIED.** M3 non e' obbligatorio e non e' vietato; prima considerare Product Bible e stili Design-App curati dall'utente. Verificare se il consumer e' Flutter o Kotlin/Compose e se usa gia' M3. Nessuna installazione o modifica automatica, nessuna certificazione estetica senza prove su schermata reale.

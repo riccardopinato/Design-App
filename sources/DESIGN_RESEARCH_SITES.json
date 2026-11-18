@@ -241,6 +241,27 @@
       "use": "Second-hand overview; actual article dated Aug 4 2026, compare original package maintainers.",
       "license": "EDITORIAL_NOT_PACKAGE_LICENSE",
       "related_intake": "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md"
+    },
+    {
+      "id": "DESIGN-SITE-014",
+      "name": "Material Design 3 — Google",
+      "url": "https://m3.material.io/",
+      "kind": "OFFICIAL_DESIGN_SYSTEM_REFERENCE_OPTIONAL",
+      "status": "REFERENCE",
+      "direct_page_fetch": "JS_REQUIRED_HOME_OFFICIAL_IMPLEMENTATION_GUIDES_VERIFIED_2026_11_19",
+      "recommended_for": [
+        "Android utility UI",
+        "Flutter Material components",
+        "Kotlin/Jetpack Compose Material3",
+        "Settings and form controls",
+        "accessible navigation",
+        "adaptive dynamic color"
+      ],
+      "use": "Optional design system ONLY when selected for the individual app. Never mandatory and never banned. User-curated Design-App references and Product Bible precede. Preserve existing M3 if coherent; do not port Flutter Golden code into Kotlin/Compose.",
+      "source_content_summary": "Google Material 3 portal is JS-rendered for direct text; official Flutter & Android developer documentation confirms color, typography, shapes, components, dynamic color and Material 3 Expressive. Source is a design system, not an external OSS code donor.",
+      "license": "OFFICIAL_GUIDANCE_NOT_UNIVERSAL_ASSET_CODE_LICENSE",
+      "related_intake": "sources/MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md",
+      "updated_at": "2026-11-19"
     }
   ]
 }

@@ -72,3 +72,11 @@ Non cancellare le decisioni superate: aggiungere nuove voci al changelog del JSO
 | [UIV-100](https://uiverse.io/zanina-yassine/afraid-eel-50) | SWITCH | Preferenza on/off persistita | MEDIUM | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-100_original.html) |
 
 [Registro 97 Favorites](../UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json) · [Matrice complessiva 25 app](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md) · [Archivio codice](../UI-UX/UIVERSE/CODICE_SORGENTE/README.md). Stato: **PROPOSED_ONLY**.
+
+## Material 3 — opzione selettiva, non obbligo (19/11/2026)
+
+Fonte: [Material Design 3](https://m3.material.io/) · [studio e confini](../sources/MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md) · [matrice per app](../UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json).
+
+Fit ipotizzato: **MEDIUM**. Possibile ambito: settings and accessibility/preferences only; retain custom AOD visual identity.
+
+**PROPOSED_ONLY / NOT_VERIFIED.** M3 non e' obbligatorio e non e' vietato; prima considerare Product Bible e stili Design-App curati dall'utente. Verificare se il consumer e' Flutter o Kotlin/Compose e se usa gia' M3. Nessuna installazione o modifica automatica, nessuna certificazione estetica senza prove su schermata reale.
