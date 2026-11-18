@@ -61,7 +61,7 @@ Do not copy logos, brand identity, proprietary illustrations or recognizable
 third-party product identity.
 
 ## Design principles
-- Material 3 can be the technical foundation without forcing a generic Material look.
+- Visual identity is product-owned, not dictated by any default component toolkit; preserve accessible platform behavior while building distinct tokens/components per app.
 - Maintain one coherent icon language.
 - Use design tokens rather than screen-local arbitrary values.
 - Prefer progressive disclosure over crowded surfaces.
@@ -136,3 +136,9 @@ Operativamente distinguere `critique` (analisi estetica), `audit` (controllo tec
 ## Cross-app visual review evidence (2026-11-17)
 
 Follow the canonical App-Factory-Core `contracts/DESIGN_VISUAL_QA_PROCESS_v1.md` and existing Golden App Shell (DRAFT), Theme M3 (COPY-READY), and AppLab QA boundaries. For Impeccable `DSK-002` apply IWC-01..IWC-08 without installing Web-only hooks in native apps. Register pilot plans in `UI-UX/DESIGN_QA_PILOTS_2026-11-17.json` and validate via `scripts/validate_visual_qa_evidence.py`. Screenshots, physical tests, app changes and design approval must remain explicitly NOT_VERIFIED unless backed by exact-head evidence. Never mark a guideline source as COPY_READY or CERTIFIED solely because a documentation validation passes.
+
+## 2026–27 visual source policy (18 November 2026)
+
+- No default framework visual style for new apps. The app Product Bible defines brand, typography and surface language; Flutter remains available as implementation technology.
+- Consult `sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md` and the bidirectional UI-UX app matrix for proposed patterns. Dribbble/Collect UI are reference portals only; original shots and assets remain third-party copyrighted unless individually licensed.
+- State `PROPOSED_ONLY` until mock-up review, Product Bible admission, exact consumer implementation, visual regression and accessibility QA. Never infer runtime from a static shot.
