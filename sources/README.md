@@ -75,4 +75,8 @@ Questa directory contiene studi di sorgenti esterne e donatori candidati, non ne
 
 ## Archivio componenti personale e indice unificato — 19/11/2026
 
-[Indice canonico e ricerca](../BIBLIOTECA_COMPONENTI/README.md) · [478 componenti, 4 alias, 387 fonti archiviate](../BIBLIOTECA_COMPONENTI/CATALOGO.json). Comprende gli originali esistenti di Uiverse e 277 nuovi TSX originali Ruixen MIT con provenienza e hash verificati. Gli altri componenti restano `REFERENCE_ONLY` quando il loro sorgente non e' stato realmente importato. Nessuna app o Golden promossi.
+[Indice canonico e ricerca](../BIBLIOTECA_COMPONENTI/README.md) · [478 componenti, 4 alias, 425 fonti archiviate](../BIBLIOTECA_COMPONENTI/CATALOGO.json). Comprende gli originali esistenti di Uiverse e 277 nuovi TSX originali Ruixen MIT con provenienza e hash verificati. Gli altri componenti restano `REFERENCE_ONLY` quando il loro sorgente non e' stato realmente importato. Nessuna app o Golden promossi.
+
+## Acquisizione sorgenti OSS DevLibraries — 19/11/2026
+
+[38 originali React/TSX Amicro, Watermelon ed EaseUI](../BIBLIOTECA_COMPONENTI/sorgenti/README.md) sono stati recuperati dai repository originali con controllo Git SHA e MIT conservata. Il catalogo arriva a **425 sorgenti archiviati**, con **53 reference-only**. Non e' una certificazione Flutter o delle app consumer.

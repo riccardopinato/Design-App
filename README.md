@@ -249,4 +249,8 @@ Originali HTML/CSS aggiunti: **11**; catalogo **111/111**; Favorites **108/108**
 
 [Apri la biblioteca](BIBLIOTECA_COMPONENTI/README.md) · [Catalogo JSON](BIBLIOTECA_COMPONENTI/CATALOGO.json) · [Ricerca locale](BIBLIOTECA_COMPONENTI/cerca.py).
 
-Dal 19 novembre 2026, l'archivio contiene **478 componenti canonici e 4 alias**: 277 sorgenti TSX Ruixen originali MIT appena acquisiti, 111 file originali Uiverse gia' in repo e altre reference non copiate senza prova di sorgente/diritti. **387 record canonici** hanno un file sorgente locale (una variante Uiverse duplicata e' alias, non una seconda voce). Gli originali TSX/HTML/CSS sono materiale di adattamento, NON nuovi widget Flutter pronti o una certificazione delle app. La priorita' del gusto dell'utente, Product Bible e Golden tecnici non cambia.
+Dal 19 novembre 2026, l'archivio contiene **478 componenti canonici e 4 alias**: 277 sorgenti TSX Ruixen originali MIT appena acquisiti, 111 file originali Uiverse gia' in repo e altre reference non copiate senza prova di sorgente/diritti. **425 record canonici** hanno un file sorgente locale (una variante Uiverse duplicata e' alias, non una seconda voce). Gli originali TSX/HTML/CSS sono materiale di adattamento, NON nuovi widget Flutter pronti o una certificazione delle app. La priorita' del gusto dell'utente, Product Bible e Golden tecnici non cambia.
+
+### Acquisizione aggiuntiva Amicro, Watermelon, EaseUI — 19/11/2026
+
+Importati e verificati altri **38** originali React/TSX da tre repository MIT gia' catalogati: **30 Amicro**, **7 Watermelon**, **1 EaseUI**. Le licenze originali e i pin SHA sono in [sorgenti e provenance](BIBLIOTECA_COMPONENTI/sorgenti/README.md). Totale attuale: **425** sorgenti canonici archiviati e **53** reference senza codice locale. Nessun Flutter widget o app consumer modificati.

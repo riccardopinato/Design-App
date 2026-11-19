@@ -112,6 +112,91 @@ def validate() -> list[str]:
     if registered_paths != real_paths:
         errors.append(f"Ruixen file inventory mismatch, extra={len(real_paths-registered_paths)}")
 
+    # Additional MIT original sources: Amicro, Watermelon, EaseUI.
+    extra_file = ROOT / "BIBLIOTECA_COMPONENTI" / "sorgenti" / "PROVENIENZA_OSS_EXTRA_2026-11-19.json"
+    extra = json.loads(extra_file.read_text(encoding="utf-8"))
+    sources = extra.get("source_repositories", {})
+    approved = {"amicro": 30, "watermelon": 7, "easeui": 1}
+    if set(sources) != set(approved):
+        errors.append("unexpected MIT source provider set")
+    for provider, info in sources.items():
+        licpath = ROOT / str(info.get("license_path", ""))
+        if not licpath.is_file():
+            errors.append(f"{provider}: LICENSE notice missing")
+            continue
+        data = licpath.read_bytes()
+        if b"MIT License" not in data:
+            errors.append(f"{provider}: expected MIT notice not present")
+        if git_blob_sha(data) != info.get("license_sha"):
+            errors.append(f"{provider}: LICENSE differs from pinned source")
+        if not SHA40.fullmatch(str(info.get("commit", ""))):
+            errors.append(f"{provider}: source commit is not immutable SHA40")
+    external = extra.get("entries", [])
+    if len(external) != sum(approved.values()):
+        errors.append("external source entry count must be 38")
+    ids_extra = set()
+    paths_extra = set()
+    count_by_provider = {k: 0 for k in approved}
+    for row in external:
+        cid = row.get("id", "")
+        provider = row.get("provider")
+        if cid in ids_extra:
+            errors.append(f"duplicate MIT source entry {cid}")
+        ids_extra.add(cid)
+        if provider not in approved:
+            errors.append(f"{cid}: unknown source provider {provider}")
+            continue
+        count_by_provider[provider] += 1
+        record = by_id.get(cid)
+        if record is None:
+            errors.append(f"{cid}: missing catalog component")
+            continue
+        local = row.get("archive_path")
+        if record.get("archive_path") != local or record.get("archive_state") != "ARCHIVED_SOURCE":
+            errors.append(f"{cid}: archive-state/path mismatch with manifest")
+            continue
+        if record.get("source_repo") != row.get("source_repository"):
+            errors.append(f"{cid}: original repository mismatch")
+        if record.get("source_commit") != row.get("source_commit"):
+            errors.append(f"{cid}: original commit mismatch")
+        if record.get("source_path") != row.get("source_path"):
+            errors.append(f"{cid}: original file path mismatch")
+        if record.get("source_blob_sha") != row.get("source_blob_sha"):
+            errors.append(f"{cid}: pinned source blob mismatch")
+        expected = sources[provider]
+        if row.get("source_repository") != expected.get("repository") or row.get("source_commit") != expected.get("commit"):
+            errors.append(f"{cid}: provider origin mismatch")
+        if row.get("license_path") != expected.get("license_path"):
+            errors.append(f"{cid}: license path mismatch")
+        physical = ROOT / str(local or "")
+        try:
+            physical_resolved = physical.resolve()
+            physical_resolved.relative_to(ROOT.resolve())
+        except ValueError:
+            errors.append(f"{cid}: unsafe archive path")
+            continue
+        if not physical_resolved.is_file():
+            errors.append(f"{cid}: source file missing")
+            continue
+        checksum = git_blob_sha(physical_resolved.read_bytes())
+        if checksum != row.get("source_blob_sha"):
+            errors.append(f"{cid}: source bytes drift from original {checksum}")
+        paths_extra.add(str(physical_resolved))
+    if count_by_provider != approved:
+        errors.append(f"provider source totals mismatch: {count_by_provider}")
+    actual_extra = set()
+    for provider in approved:
+        actual_extra.update(
+            str(path.resolve()) for path in
+            (ROOT / "BIBLIOTECA_COMPONENTI" / "sorgenti" / provider).glob("*.tsx")
+        )
+    if paths_extra != actual_extra:
+        errors.append("external source files differ from provenance manifest")
+    if catalog.get("counts", {}).get("archived_originals") != 425:
+        errors.append("expected 425 archived canonical sources after MIT batch")
+    if catalog.get("counts", {}).get("referenced_only") != 53:
+        errors.append("expected 53 remaining references after MIT batch")
+
     return errors
 
 
