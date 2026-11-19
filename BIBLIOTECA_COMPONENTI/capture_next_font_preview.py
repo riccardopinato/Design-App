@@ -33,9 +33,12 @@ async def main() -> None:
         server = subprocess.Popen(["npm", "run", "dev"], cwd=RUNTIME, stdout=log, stderr=subprocess.STDOUT)
         try:
             ready = False
-            for _ in range(100):
+            for _ in range(30):
                 if server.poll() is not None:
                     raise RuntimeError("NEXT_SERVER_EXITED")
+                logged = log_path.read_text(encoding="utf-8")
+                if "Unhandled Rejection:" in logged or "Error: It looks like you" in logged:
+                    raise RuntimeError("NEXT_STARTUP_FATAL: " + logged[-1000:])
                 try:
                     with urlopen("http://127.0.0.1:5182", timeout=3) as response:
                         if response.status == 200:
