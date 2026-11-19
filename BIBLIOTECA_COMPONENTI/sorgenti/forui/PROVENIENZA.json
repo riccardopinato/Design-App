@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "source_repo": "duobaseio/forui",
+  "source_commit": "5dbf97c926a53fcfe3436db1be6262ac40961db5",
+  "license_type": "MIT_CODE_WITH_ADDITIONAL_FONT_NOTICES",
+  "archive_scope": "FULL_ORIGINAL_SOURCE_REFERENCE_NOT_STANDALONE_FLUTTER_PACKAGE",
+  "entries": [
+    {
+      "source_path": "forui/lib/src/widgets/button/button.dart",
+      "source_blob_sha": "bc536ebf8c62d59e7f71ceda56d9674a326155f9",
+      "local_path": "BIBLIOTECA_COMPONENTI/sorgenti/forui/button.dart",
+      "size_chars": 28051
+    },
+    {
+      "source_path": "forui/lib/src/widgets/text_field/text_form_field.dart",
+      "source_blob_sha": "061aac97da1ee1a9efd42669d2baec1b2a3c422a",
+      "local_path": "BIBLIOTECA_COMPONENTI/sorgenti/forui/text_form_field.dart",
+      "size_chars": 27747
+    },
+    {
+      "source_path": "docs_snippets/lib/examples/form/button.dart",
+      "source_blob_sha": "52c6ae39d10f5358f9c4ce36fc220d9f9387a084",
+      "local_path": "BIBLIOTECA_COMPONENTI/sorgenti/forui/demo_button.dart",
+      "size_chars": 4497
+    },
+    {
+      "source_path": "docs_snippets/lib/examples/form/text_form_field.dart",
+      "source_blob_sha": "3e6f8a7e9d8c43ec7e1a26b57441a3bb59d01ee2",
+      "local_path": "BIBLIOTECA_COMPONENTI/sorgenti/forui/demo_login_form.dart",
+      "size_chars": 1582
+    },
+    {
+      "source_path": "LICENSE",
+      "source_blob_sha": "9158ae3f51039d9db0bc0b645b2a754e892b64c8",
+      "local_path": "BIBLIOTECA_COMPONENTI/sorgenti/forui/LICENSE",
+      "size_chars": 5284
+    }
+  ]
+}
