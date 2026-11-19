@@ -18,6 +18,7 @@
     "typescript": "5.9.2",
     "lucide-react": "0.468.0",
     "class-variance-authority": "0.7.1",
-    "motion": "12.23.11"
+    "motion": "12.23.11",
+    "framer-motion": "12.23.11"
   }
 }

@@ -9,7 +9,7 @@ const requireFromRenderer = createRequire(import.meta.url);
 // Resolve third-party imports through THIS isolated runtime. Never modify TSX.
 const originalDeps = [
   'react', 'react-dom', 'react/jsx-runtime', 'lucide-react',
-  'motion/react', 'class-variance-authority',
+  'motion/react', 'framer-motion', 'class-variance-authority',
 ].map((name) => ({
   find: new RegExp('^' + name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '$'),
   replacement: requireFromRenderer.resolve(name),
