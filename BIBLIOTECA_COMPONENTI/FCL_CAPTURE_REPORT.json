@@ -3,69 +3,129 @@
   "requested": 10,
   "captured": [],
   "blocked": {
-    "FCL-003": "NO_OFFICIAL_DEMO_IFRAME: []",
-    "FCL-004": "NO_OFFICIAL_DEMO_IFRAME: []",
-    "FCL-002": "NO_OFFICIAL_DEMO_IFRAME: []",
-    "FCL-005": "NO_OFFICIAL_DEMO_IFRAME: []",
-    "FCL-009": "NO_OFFICIAL_DEMO_IFRAME: []",
-    "FCL-010": "NO_OFFICIAL_DEMO_IFRAME: []",
-    "FCL-012": "NO_OFFICIAL_DEMO_IFRAME: []",
-    "FCL-014": "NO_OFFICIAL_DEMO_IFRAME: []",
-    "FCL-015": "NO_OFFICIAL_DEMO_IFRAME: []",
+    "FCL-004": "NO_OFFICIAL_DEMO_IFRAME: []; final_url=https://fluttercomponentlibrary.com/pages/components/banner-info.html; page_title=Flutter Component Library",
+    "FCL-002": "NO_OFFICIAL_DEMO_IFRAME: []; final_url=https://fluttercomponentlibrary.com/pages/components/custom-buttons.html; page_title=Flutter Component Library",
+    "FCL-003": "NO_OFFICIAL_DEMO_IFRAME: []; final_url=https://fluttercomponentlibrary.com/pages/components/filter-button.html; page_title=Flutter Component Library",
+    "FCL-005": "NO_OFFICIAL_DEMO_IFRAME: []; final_url=https://fluttercomponentlibrary.com/pages/components/bottom-sheet.html; page_title=Flutter Component Library",
+    "FCL-009": "NO_OFFICIAL_DEMO_IFRAME: []; final_url=https://fluttercomponentlibrary.com/pages/components/stepper.html; page_title=Flutter Component Library",
+    "FCL-010": "NO_OFFICIAL_DEMO_IFRAME: []; final_url=https://fluttercomponentlibrary.com/pages/components/slider.html; page_title=Flutter Component Library",
+    "FCL-012": "NO_OFFICIAL_DEMO_IFRAME: []; final_url=https://fluttercomponentlibrary.com/pages/components/scratcher.html; page_title=Flutter Component Library",
+    "FCL-014": "NO_OFFICIAL_DEMO_IFRAME: []; final_url=https://fluttercomponentlibrary.com/pages/components/drawer.html; page_title=Flutter Component Library",
+    "FCL-015": "NO_OFFICIAL_DEMO_IFRAME: []; final_url=https://fluttercomponentlibrary.com/pages/components/draggable-fab.html; page_title=Flutter Component Library",
     "FCL-006": "VISUAL_QA_REJECTED_WRONG_COMPONENT: the Book Shelf demo route resolves to catalog homepage"
   },
   "diagnostics": {
-    "FCL-003": {
-      "title": "Flutter Component Library",
-      "iframe_count": 0,
-      "demo_links": []
-    },
     "FCL-004": {
+      "requested_url": "https://fluttercomponentlibrary.com/pages/components/banner-info.html",
+      "final_url": "https://fluttercomponentlibrary.com/pages/components/banner-info.html",
+      "http_status": 200,
       "title": "Flutter Component Library",
       "iframe_count": 0,
-      "demo_links": []
+      "demo_links": [],
+      "source_code_archived": false,
+      "source_license_verified": false,
+      "title_matches_component": false
     },
     "FCL-002": {
+      "requested_url": "https://fluttercomponentlibrary.com/pages/components/custom-buttons.html",
+      "final_url": "https://fluttercomponentlibrary.com/pages/components/custom-buttons.html",
+      "http_status": 200,
       "title": "Flutter Component Library",
       "iframe_count": 0,
-      "demo_links": []
+      "demo_links": [],
+      "source_code_archived": false,
+      "source_license_verified": false,
+      "title_matches_component": false
+    },
+    "FCL-003": {
+      "requested_url": "https://fluttercomponentlibrary.com/pages/components/filter-button.html",
+      "final_url": "https://fluttercomponentlibrary.com/pages/components/filter-button.html",
+      "http_status": 200,
+      "title": "Flutter Component Library",
+      "iframe_count": 0,
+      "demo_links": [],
+      "source_code_archived": false,
+      "source_license_verified": false,
+      "title_matches_component": false
     },
     "FCL-005": {
+      "requested_url": "https://fluttercomponentlibrary.com/pages/components/bottom-sheet.html",
+      "final_url": "https://fluttercomponentlibrary.com/pages/components/bottom-sheet.html",
+      "http_status": 200,
       "title": "Flutter Component Library",
       "iframe_count": 0,
-      "demo_links": []
+      "demo_links": [],
+      "source_code_archived": false,
+      "source_license_verified": false,
+      "title_matches_component": false
+    },
+    "FCL-009": {
+      "requested_url": "https://fluttercomponentlibrary.com/pages/components/stepper.html",
+      "final_url": "https://fluttercomponentlibrary.com/pages/components/stepper.html",
+      "http_status": 200,
+      "title": "Flutter Component Library",
+      "iframe_count": 0,
+      "demo_links": [],
+      "source_code_archived": false,
+      "source_license_verified": false,
+      "title_matches_component": false
     },
     "FCL-006": {
+      "requested_url": "https://fluttercomponentlibrary.com/pages/components/book-shelf.html",
+      "final_url": "https://fluttercomponentlibrary.com/pages/components/book-shelf.html",
+      "http_status": 200,
       "title": "Book Shelf - Flutter Component Library",
       "iframe_count": 1,
       "demo_links": [
         "https://fluttercomponentlibrary.com/#/single_component/Book_Shelf"
-      ]
-    },
-    "FCL-009": {
-      "title": "Flutter Component Library",
-      "iframe_count": 0,
-      "demo_links": []
+      ],
+      "source_code_archived": false,
+      "source_license_verified": false,
+      "title_matches_component": true
     },
     "FCL-010": {
+      "requested_url": "https://fluttercomponentlibrary.com/pages/components/slider.html",
+      "final_url": "https://fluttercomponentlibrary.com/pages/components/slider.html",
+      "http_status": 200,
       "title": "Flutter Component Library",
       "iframe_count": 0,
-      "demo_links": []
+      "demo_links": [],
+      "source_code_archived": false,
+      "source_license_verified": false,
+      "title_matches_component": false
     },
     "FCL-012": {
+      "requested_url": "https://fluttercomponentlibrary.com/pages/components/scratcher.html",
+      "final_url": "https://fluttercomponentlibrary.com/pages/components/scratcher.html",
+      "http_status": 200,
       "title": "Flutter Component Library",
       "iframe_count": 0,
-      "demo_links": []
+      "demo_links": [],
+      "source_code_archived": false,
+      "source_license_verified": false,
+      "title_matches_component": false
     },
     "FCL-014": {
+      "requested_url": "https://fluttercomponentlibrary.com/pages/components/drawer.html",
+      "final_url": "https://fluttercomponentlibrary.com/pages/components/drawer.html",
+      "http_status": 200,
       "title": "Flutter Component Library",
       "iframe_count": 0,
-      "demo_links": []
+      "demo_links": [],
+      "source_code_archived": false,
+      "source_license_verified": false,
+      "title_matches_component": false
     },
     "FCL-015": {
+      "requested_url": "https://fluttercomponentlibrary.com/pages/components/draggable-fab.html",
+      "final_url": "https://fluttercomponentlibrary.com/pages/components/draggable-fab.html",
+      "http_status": 200,
       "title": "Flutter Component Library",
       "iframe_count": 0,
-      "demo_links": []
+      "demo_links": [],
+      "source_code_archived": false,
+      "source_license_verified": false,
+      "title_matches_component": false
     }
   },
   "rule": "A missing image remains missing; no fake or general page screenshots"
