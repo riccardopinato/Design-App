@@ -55,6 +55,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Next dev adjusts tsconfig for local build; this is not a curated
+          # source change and makes git rebase refuse to run. Restore only its
+          # two generated local config files, never archived original TSX.
+          git restore -- BIBLIOTECA_COMPONENTI/next_source_renderer/tsconfig.json BIBLIOTECA_COMPONENTI/next_source_renderer/next-env.d.ts
           git add docs/assets/componenti/RXN-glowing-send-input.png BIBLIOTECA_COMPONENTI/ANTEPRIME_ORIGINI.json BIBLIOTECA_COMPONENTI/ANTEPRIME.json BIBLIOTECA_COMPONENTI/RECUPERO_119_ESITI.json BIBLIOTECA_COMPONENTI/RECUPERO_119_ESITI.md BIBLIOTECA_COMPONENTI/TABELLA_478.md BIBLIOTECA_COMPONENTI/PER_APP
           git commit -m "docs(previews): capture exact glowing send input under Next.js and real Poppins"
           AUTH=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
