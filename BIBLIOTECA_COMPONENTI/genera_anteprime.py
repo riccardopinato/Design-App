@@ -91,9 +91,15 @@ def build_manifest(rows: list[dict]) -> dict:
             if (not rec or rec.get("origin_url") != c.get("source_url")
                     or rec.get("source_license") != "MIT"
                     or rec.get("preview_sha256") != hashlib.sha256(path.read_bytes()).hexdigest()
-                    or rec.get("capture_mode") != "OFFICIAL_MIT_PNG_CONTAINED"
+                    or rec.get("capture_mode") not in {"OFFICIAL_MIT_PNG_CONTAINED", "OFFICIAL_MIT_SVG_RENDERED"}
                     or rec.get("preview_path") != "docs/assets/componenti/" + cid + ".png"):
                 raise ValueError(cid + ": Gentleface preview origin, license or SHA mismatch")
+            if rec["capture_mode"] == "OFFICIAL_MIT_SVG_RENDERED":
+                sources = json.loads((HERE / "sorgenti/gentleface/PROVENIENZA.json").read_text(encoding="utf-8"))["entries"]
+                origin = sources.get(cid)
+                if (not origin or rec.get("original_asset_sha256") != origin.get("original_svg_sha256")
+                        or hashlib.sha256((ROOT / origin["original_svg_path"]).read_bytes()).hexdigest() != origin.get("original_svg_sha256")):
+                    raise ValueError(cid + ": rendered preview is not tied to archived MIT SVG")
         if valid and c["source_site"] not in {"RUIXEN", "UIVERSE", "FLUTTER_FORUI", "GENTLEFACE"}:
             raise ValueError("unregistered image provider: " + cid)
         if valid:
