@@ -17,7 +17,11 @@ PROV=HERE/"ANTEPRIME_ORIGINI.json"
 CAT={x["id"]:x for x in json.loads((HERE/"CATALOGO.json").read_text(encoding="utf-8"))["components"]}
 OUT=ROOT/"docs/assets/componenti"
 COMMIT="f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
-ALLOWED=("grain-gradient-bg","grid-pattern","pulsating-button","shimmer-button")
+ALLOWED=(
+    "grain-gradient-bg","grid-pattern","pulsating-button","shimmer-button",
+    "interactive-hover-button","flip-text","orbiting-circles",
+    "rainbow-button","ruixen-featured-message-card","spinning-text",
+)
 sha=lambda b:hashlib.sha256(b).hexdigest()
 def git_blob(b):
     return hashlib.sha1(b"blob "+str(len(b)).encode("ascii")+b"\0"+b).hexdigest()
@@ -61,7 +65,9 @@ async def main():
                         raise ValueError("React runtime failure: "+";".join(errors[:2]))
                     elem=page.locator("#component-root")
                     await elem.wait_for(state="visible",timeout=10000)
-                    await page.wait_for_timeout(600)
+                    if slug == "interactive-hover-button":
+                        await page.locator("#component-root button").first.hover()
+                    await page.wait_for_timeout(900)
                     if await elem.get_attribute("data-original-slug")!=slug:
                         raise ValueError("Wrong source fixture")
                     raw=await elem.screenshot(animations="disabled",timeout=14000)

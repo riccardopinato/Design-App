@@ -12,3 +12,20 @@ html,body,#root{margin:0;width:100%;min-height:100vh;background:#f8fafc;}
 @keyframes spin-around{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
 .animate-shimmer-slide{animation:shimmer-slide 3s linear infinite}
 .animate-spin-around{animation:spin-around 3s linear infinite}
+
+:root {
+  --color-1:#ff4545;
+  --color-2:#faad19;
+  --color-3:#53d29a;
+  --color-4:#5f6cf3;
+  --color-5:#cc70f5;
+}
+@keyframes orbit {
+  0% { transform:rotate(calc(var(--angle)*1deg)) translateY(calc(var(--radius)*-1px)) rotate(calc(var(--angle)*-1deg));}
+  100% { transform:rotate(calc(var(--angle)*1deg + 360deg)) translateY(calc(var(--radius)*-1px)) rotate(calc(var(--angle)*-1deg - 360deg));}
+}
+.animate-orbit { animation: orbit calc(var(--duration, 20) * 1s) linear infinite; }
+@keyframes rainbow {0%,100%{background-position:0 50%}50%{background-position:100% 50%}}
+.animate-rainbow { animation: rainbow 3s linear infinite; }
+@keyframes scaleUp { from{opacity:0;transform:scale(.96) translateY(6px)} to{opacity:1;transform:scale(1) translateY(0)} }
+.animate-scaleUp { animation:scaleUp .6s ease-out both; }
