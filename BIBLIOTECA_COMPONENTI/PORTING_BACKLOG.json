@@ -3,18 +3,18 @@
   "as_of": "2026-11-19",
   "canonical_count": 480,
   "status_counts": {
-    "PENDING_FLUTTER_REWRITE": 418,
+    "PENDING_FLUTTER_REWRITE": 411,
     "SOURCE_NOT_ARCHIVED": 25,
-    "ADAPTER_DRAFT_UNVERIFIED_CONSUMER": 7,
+    "ADAPTER_DRAFT_UNVERIFIED_CONSUMER": 14,
     "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER": 28,
     "NATIVE_DART_DEPENDENCY_GATE": 2
   },
   "group_counts": {
     "REACT_INTEGRATION_NEEDED": 243,
     "SOURCE_VERIFICATION": 25,
-    "REACT_LOW_DEPENDENCY": 52,
-    "HTML_CSS_NATIVE_PORT": 108,
-    "ALREADY_HAS_DART": 37,
+    "REACT_LOW_DEPENDENCY": 46,
+    "ALREADY_HAS_DART": 44,
+    "HTML_CSS_NATIVE_PORT": 107,
     "ADVANCED_VISUAL": 15
   },
   "entries": [
@@ -152,8 +152,8 @@
       "source": "DEVLIBRARIES_AMICRO",
       "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-006.tsx",
       "original_archive_state": "ARCHIVED_SOURCE",
-      "flutter_code_path": null,
-      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/amx_006_accordion_loader.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
       "apps": [
         "anna-s-diary",
         "app-factory-dashboard",
@@ -173,7 +173,7 @@
       ],
       "preview_verified_file": false,
       "source_length_bytes": 525,
-      "native_port_group": "REACT_LOW_DEPENDENCY",
+      "native_port_group": "ALREADY_HAS_DART",
       "dependency_markers": [
         "ANIMATION_LIBRARY"
       ],
@@ -183,7 +183,7 @@
       ],
       "react_hook_count": 0,
       "estimated_difficulty": 2,
-      "priority_score": 300,
+      "priority_score": 290,
       "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
     },
     {
@@ -1960,8 +1960,8 @@
       "source": "UIVERSE",
       "source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-008_original.html",
       "original_archive_state": "ARCHIVED_SOURCE",
-      "flutter_code_path": null,
-      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/uiv_008_rolling_rock_loader.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
       "apps": [
         "battery-guard",
         "camperboss",
@@ -1973,7 +1973,7 @@
       ],
       "preview_verified_file": true,
       "source_length_bytes": 1329,
-      "native_port_group": "HTML_CSS_NATIVE_PORT",
+      "native_port_group": "ALREADY_HAS_DART",
       "dependency_markers": [
         "CSS_MOTION"
       ],
@@ -5652,58 +5652,11 @@
       "flutter_code_path": null,
       "flutter_status": "PENDING_FLUTTER_REWRITE",
       "apps": [],
-      "preview_verified_file": false,
+      "preview_verified_file": true,
       "source_length_bytes": 3598,
       "native_port_group": "REACT_LOW_DEPENDENCY",
       "dependency_markers": [],
       "import_paths": [],
-      "react_hook_count": 0,
-      "estimated_difficulty": 1,
-      "priority_score": 5,
-      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
-    },
-    {
-      "uid": "UID-0209",
-      "canonical_id": "RXN-grid-pattern",
-      "name": "grid pattern",
-      "source": "RUIXEN",
-      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/grid-pattern.tsx",
-      "original_archive_state": "ARCHIVED_SOURCE",
-      "flutter_code_path": null,
-      "flutter_status": "PENDING_FLUTTER_REWRITE",
-      "apps": [],
-      "preview_verified_file": false,
-      "source_length_bytes": 1550,
-      "native_port_group": "REACT_LOW_DEPENDENCY",
-      "dependency_markers": [],
-      "import_paths": [
-        "react",
-        "@/lib/utils"
-      ],
-      "react_hook_count": 0,
-      "estimated_difficulty": 1,
-      "priority_score": 5,
-      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
-    },
-    {
-      "uid": "UID-0225",
-      "canonical_id": "RXN-interactive-hover-button",
-      "name": "interactive hover button",
-      "source": "RUIXEN",
-      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/interactive-hover-button.tsx",
-      "original_archive_state": "ARCHIVED_SOURCE",
-      "flutter_code_path": null,
-      "flutter_status": "PENDING_FLUTTER_REWRITE",
-      "apps": [],
-      "preview_verified_file": false,
-      "source_length_bytes": 1315,
-      "native_port_group": "REACT_LOW_DEPENDENCY",
-      "dependency_markers": [],
-      "import_paths": [
-        "react",
-        "lucide-react",
-        "@/lib/utils"
-      ],
       "react_hook_count": 0,
       "estimated_difficulty": 1,
       "priority_score": 5,
@@ -5842,7 +5795,7 @@
       "flutter_code_path": null,
       "flutter_status": "PENDING_FLUTTER_REWRITE",
       "apps": [],
-      "preview_verified_file": false,
+      "preview_verified_file": true,
       "source_length_bytes": 1695,
       "native_port_group": "REACT_LOW_DEPENDENCY",
       "dependency_markers": [
@@ -6060,31 +6013,6 @@
       "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
     },
     {
-      "uid": "UID-0264",
-      "canonical_id": "RXN-orbiting-circles",
-      "name": "orbiting circles",
-      "source": "RUIXEN",
-      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/orbiting-circles.tsx",
-      "original_archive_state": "ARCHIVED_SOURCE",
-      "flutter_code_path": null,
-      "flutter_status": "PENDING_FLUTTER_REWRITE",
-      "apps": [],
-      "preview_verified_file": false,
-      "source_length_bytes": 1757,
-      "native_port_group": "REACT_LOW_DEPENDENCY",
-      "dependency_markers": [
-        "CSS_MOTION"
-      ],
-      "import_paths": [
-        "@/lib/utils",
-        "react"
-      ],
-      "react_hook_count": 0,
-      "estimated_difficulty": 2,
-      "priority_score": 0,
-      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
-    },
-    {
       "uid": "UID-0286",
       "canonical_id": "RXN-progressive-blur",
       "name": "progressive blur",
@@ -6102,57 +6030,6 @@
       ],
       "import_paths": [
         "@/lib/utils",
-        "react"
-      ],
-      "react_hook_count": 0,
-      "estimated_difficulty": 2,
-      "priority_score": 0,
-      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
-    },
-    {
-      "uid": "UID-0289",
-      "canonical_id": "RXN-pulsating-button",
-      "name": "pulsating button",
-      "source": "RUIXEN",
-      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/pulsating-button.tsx",
-      "original_archive_state": "ARCHIVED_SOURCE",
-      "flutter_code_path": null,
-      "flutter_status": "PENDING_FLUTTER_REWRITE",
-      "apps": [],
-      "preview_verified_file": false,
-      "source_length_bytes": 1118,
-      "native_port_group": "REACT_LOW_DEPENDENCY",
-      "dependency_markers": [
-        "CSS_MOTION"
-      ],
-      "import_paths": [
-        "react",
-        "@/lib/utils"
-      ],
-      "react_hook_count": 0,
-      "estimated_difficulty": 2,
-      "priority_score": 0,
-      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
-    },
-    {
-      "uid": "UID-0290",
-      "canonical_id": "RXN-rainbow-button",
-      "name": "rainbow button",
-      "source": "RUIXEN",
-      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/rainbow-button.tsx",
-      "original_archive_state": "ARCHIVED_SOURCE",
-      "flutter_code_path": null,
-      "flutter_status": "PENDING_FLUTTER_REWRITE",
-      "apps": [],
-      "preview_verified_file": false,
-      "source_length_bytes": 3323,
-      "native_port_group": "REACT_LOW_DEPENDENCY",
-      "dependency_markers": [
-        "CSS_MOTION"
-      ],
-      "import_paths": [
-        "@/lib/utils",
-        "class-variance-authority",
         "react"
       ],
       "react_hook_count": 0,
@@ -6219,7 +6096,7 @@
       "flutter_code_path": null,
       "flutter_status": "PENDING_FLUTTER_REWRITE",
       "apps": [],
-      "preview_verified_file": false,
+      "preview_verified_file": true,
       "source_length_bytes": 2658,
       "native_port_group": "REACT_LOW_DEPENDENCY",
       "dependency_markers": [
@@ -6269,7 +6146,7 @@
       "flutter_code_path": null,
       "flutter_status": "PENDING_FLUTTER_REWRITE",
       "apps": [],
-      "preview_verified_file": false,
+      "preview_verified_file": true,
       "source_length_bytes": 2891,
       "native_port_group": "REACT_LOW_DEPENDENCY",
       "dependency_markers": [
@@ -6294,7 +6171,7 @@
       "flutter_code_path": null,
       "flutter_status": "PENDING_FLUTTER_REWRITE",
       "apps": [],
-      "preview_verified_file": false,
+      "preview_verified_file": true,
       "source_length_bytes": 2618,
       "native_port_group": "REACT_LOW_DEPENDENCY",
       "dependency_markers": [
@@ -6480,6 +6357,29 @@
       "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
     },
     {
+      "uid": "UID-0209",
+      "canonical_id": "RXN-grid-pattern",
+      "name": "grid pattern",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/grid-pattern.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_grid_pattern.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
+      "apps": [],
+      "preview_verified_file": true,
+      "source_length_bytes": 1550,
+      "native_port_group": "ALREADY_HAS_DART",
+      "dependency_markers": [],
+      "import_paths": [
+        "react",
+        "@/lib/utils"
+      ],
+      "react_hook_count": 0,
+      "estimated_difficulty": 1,
+      "priority_score": -5,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
       "uid": "UID-0224",
       "canonical_id": "RXN-interactive-grid-pattern",
       "name": "interactive grid pattern",
@@ -6498,6 +6398,30 @@
         "react"
       ],
       "react_hook_count": 2,
+      "estimated_difficulty": 1,
+      "priority_score": -5,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0225",
+      "canonical_id": "RXN-interactive-hover-button",
+      "name": "interactive hover button",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/interactive-hover-button.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_interactive_hover_button.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
+      "apps": [],
+      "preview_verified_file": true,
+      "source_length_bytes": 1315,
+      "native_port_group": "ALREADY_HAS_DART",
+      "dependency_markers": [],
+      "import_paths": [
+        "react",
+        "lucide-react",
+        "@/lib/utils"
+      ],
+      "react_hook_count": 0,
       "estimated_difficulty": 1,
       "priority_score": -5,
       "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
@@ -7121,6 +7045,31 @@
       "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
     },
     {
+      "uid": "UID-0264",
+      "canonical_id": "RXN-orbiting-circles",
+      "name": "orbiting circles",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/orbiting-circles.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_orbiting_circles.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
+      "apps": [],
+      "preview_verified_file": true,
+      "source_length_bytes": 1757,
+      "native_port_group": "ALREADY_HAS_DART",
+      "dependency_markers": [
+        "CSS_MOTION"
+      ],
+      "import_paths": [
+        "@/lib/utils",
+        "react"
+      ],
+      "react_hook_count": 0,
+      "estimated_difficulty": 2,
+      "priority_score": -10,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
       "uid": "UID-0268",
       "canonical_id": "RXN-perspective-text",
       "name": "perspective text",
@@ -7220,6 +7169,57 @@
         "motion/react"
       ],
       "react_hook_count": 2,
+      "estimated_difficulty": 2,
+      "priority_score": -10,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0289",
+      "canonical_id": "RXN-pulsating-button",
+      "name": "pulsating button",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/pulsating-button.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_pulsating_button.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
+      "apps": [],
+      "preview_verified_file": true,
+      "source_length_bytes": 1118,
+      "native_port_group": "ALREADY_HAS_DART",
+      "dependency_markers": [
+        "CSS_MOTION"
+      ],
+      "import_paths": [
+        "react",
+        "@/lib/utils"
+      ],
+      "react_hook_count": 0,
+      "estimated_difficulty": 2,
+      "priority_score": -10,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0290",
+      "canonical_id": "RXN-rainbow-button",
+      "name": "rainbow button",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/rainbow-button.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_rainbow_button.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
+      "apps": [],
+      "preview_verified_file": true,
+      "source_length_bytes": 3323,
+      "native_port_group": "ALREADY_HAS_DART",
+      "dependency_markers": [
+        "CSS_MOTION"
+      ],
+      "import_paths": [
+        "@/lib/utils",
+        "class-variance-authority",
+        "react"
+      ],
+      "react_hook_count": 0,
       "estimated_difficulty": 2,
       "priority_score": -10,
       "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."

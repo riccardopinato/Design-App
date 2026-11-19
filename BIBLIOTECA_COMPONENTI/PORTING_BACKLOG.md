@@ -2,11 +2,11 @@
 
 Le conversioni e le anteprime sono due pipeline separate. Questa classificazione non produce file Dart né immagini, non verifica l'aspetto e non sostituisce gli originali.
 
-**Flutter:** {'PENDING_FLUTTER_REWRITE': 418, 'SOURCE_NOT_ARCHIVED': 25, 'ADAPTER_DRAFT_UNVERIFIED_CONSUMER': 7, 'NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER': 28, 'NATIVE_DART_DEPENDENCY_GATE': 2}.
+**Flutter:** {'PENDING_FLUTTER_REWRITE': 411, 'SOURCE_NOT_ARCHIVED': 25, 'ADAPTER_DRAFT_UNVERIFIED_CONSUMER': 14, 'NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER': 28, 'NATIVE_DART_DEPENDENCY_GATE': 2}.
 
-**Gruppi di lavoro:** {'REACT_INTEGRATION_NEEDED': 243, 'SOURCE_VERIFICATION': 25, 'REACT_LOW_DEPENDENCY': 52, 'HTML_CSS_NATIVE_PORT': 108, 'ALREADY_HAS_DART': 37, 'ADVANCED_VISUAL': 15}.
+**Gruppi di lavoro:** {'REACT_INTEGRATION_NEEDED': 243, 'SOURCE_VERIFICATION': 25, 'REACT_LOW_DEPENDENCY': 46, 'ALREADY_HAS_DART': 44, 'HTML_CSS_NATIVE_PORT': 107, 'ADVANCED_VISUAL': 15}.
 
-**Ruixen senza PNG:** 66 (TSX MIT conservati, riproduzione locale richiede runtime React + dipendenze verificate).
+**Ruixen senza PNG:** 56 (TSX MIT conservati, riproduzione locale richiede runtime React + dipendenze verificate).
 
 ## Prime 50 conversioni da sviluppare
 
@@ -14,7 +14,6 @@ Le conversioni e le anteprime sono due pipeline separate. Questa classificazione
 |---|---|---|---|---|---:|---:|
 | UID-0034 | DSP-001 | DEVLIBRARIES_EASEUI | REACT_INTEGRATION_NEEDED | ANIMATION_LIBRARY, CSS_MOTION | 18 | 340 |
 | UID-0004 | AMX-004 | DEVLIBRARIES_AMICRO | REACT_LOW_DEPENDENCY | ANIMATION_LIBRARY | 15 | 300 |
-| UID-0006 | AMX-006 | DEVLIBRARIES_AMICRO | REACT_LOW_DEPENDENCY | ANIMATION_LIBRARY | 15 | 300 |
 | UID-0036 | DSP-003 | DEVLIBRARIES_AMICRO | REACT_INTEGRATION_NEEDED | CSS_MOTION, RELATIVE_DEPENDENCY | 13 | 240 |
 | UID-0465 | UIV-106 | UIVERSE | HTML_CSS_NATIVE_PORT | — | 9 | 190 |
 | UID-0468 | UIV-110 | UIVERSE | HTML_CSS_NATIVE_PORT | — | 9 | 190 |
@@ -62,5 +61,6 @@ Le conversioni e le anteprime sono due pipeline separate. Questa classificazione
 | UID-0444 | UIV-085 | UIVERSE | HTML_CSS_NATIVE_PORT | — | 7 | 150 |
 | UID-0445 | UIV-086 | UIVERSE | HTML_CSS_NATIVE_PORT | — | 7 | 150 |
 | UID-0447 | UIV-088 | UIVERSE | HTML_CSS_NATIVE_PORT | — | 7 | 150 |
+| UID-0449 | UIV-090 | UIVERSE | HTML_CSS_NATIVE_PORT | — | 7 | 150 |
 
 Dettaglio completo, sorgenti originali e stato Flutter: [PORTING_BACKLOG.json](./PORTING_BACKLOG.json). Per il recupero delle immagini Ruixen: [RU_SOURCE_RENDER_QUEUE.json](./RU_SOURCE_RENDER_QUEUE.json).
