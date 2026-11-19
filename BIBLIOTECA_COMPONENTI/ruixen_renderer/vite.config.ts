@@ -18,7 +18,7 @@ const originalDeps = [
   find: new RegExp('^' + name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '$'),
   // framer-motion 12 exposes Motion's React API. Route both imports through
   // one renderer-bound module to avoid two hook dispatchers in isolated TSX.
-  replacement: requireFromRenderer.resolve(name === 'framer-motion' ? 'motion/react' : name),
+  replacement: requireFromRenderer.resolve(name),
 }));
 
 // Historical renderer package manifests are retained in package_history;
