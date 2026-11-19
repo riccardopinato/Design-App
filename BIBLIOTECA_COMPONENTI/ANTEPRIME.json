@@ -1595,10 +1595,10 @@
       "image_evidence": null
     },
     "RXN-orbiting-circles": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/RXN-orbiting-circles.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
     },
     "RXN-package-installer-tabs": {
       "image_path": null,
@@ -1799,10 +1799,10 @@
       "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
     },
     "RXN-ruixen-featured-message-card": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/RXN-ruixen-featured-message-card.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
     },
     "RXN-ruixen-gradient-footer": {
       "image_path": "docs/assets/componenti/RXN-ruixen-gradient-footer.png",

@@ -12,14 +12,15 @@
     "ruixen-featured-message-card",
     "spinning-text"
   ],
-  "captured": [],
+  "captured": [
+    "RXN-orbiting-circles",
+    "RXN-ruixen-featured-message-card"
+  ],
   "blocked": {
-    "RXN-interactive-hover-button": "Locator.wait_for: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"#component-root\") to be visible\n",
-    "RXN-flip-text": "Locator.wait_for: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"#component-root\") to be visible\n",
-    "RXN-orbiting-circles": "Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:5181/?component=orbiting-circles\", waiting until \"networkidle\"\n",
-    "RXN-rainbow-button": "Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:5181/?component=rainbow-button\", waiting until \"networkidle\"\n",
-    "RXN-ruixen-featured-message-card": "Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:5181/?component=ruixen-featured-message-card\", waiting until \"networkidle\"\n",
-    "RXN-spinning-text": "Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:5181/?component=spinning-text\", waiting until \"networkidle\"\n"
+    "RXN-interactive-hover-button": "React source not mounted; body=SOURCE_MODULE_FAILED: interactive-hover-button TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/interactive-hover-button.tsx; JS=[]; Vite= TransformPluginContext.error (file:///ho",
+    "RXN-flip-text": "React source not mounted; body=SOURCE_MODULE_FAILED: flip-text TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/flip-text.tsx; JS=[]; Vite= TransformPluginContext.error (file:///home/runner/work/Design-App/Desi",
+    "RXN-rainbow-button": "React source not mounted; body=SOURCE_MODULE_FAILED: rainbow-button TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/rainbow-button.tsx; JS=[]; Vite= TransformPluginContext.error (file:///home/runner/work/Desig",
+    "RXN-spinning-text": "React source not mounted; body=SOURCE_MODULE_FAILED: spinning-text TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/spinning-text.tsx; JS=[]; Vite= TransformPluginContext.error (file:///home/runner/work/Design-"
   },
   "source_revision": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941",
   "status": "IMAGE_UNREVIEWED_NOT_OFFICIAL_UPSTREAM_CAPTURE"
