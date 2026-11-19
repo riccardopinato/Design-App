@@ -84,7 +84,11 @@ async def main():
                 if url.startswith("http://127.0.0.1:5181/"): await route.continue_()
                 else:await route.abort()
             await ctx.route("**/*",local_only)
-            semaphore=asyncio.Semaphore(5)
+            # The Vite dev server shares one dependency optimizer. Source
+            # imports are NOT independent while that cache is warming; run
+            # this small residual batch deterministically to avoid stale
+            # ReactDOM/Radix ?v= module identities.
+            semaphore=asyncio.Semaphore(1)
             def assert_server_alive(stage):
                 if server.poll() is not None:
                     try:

@@ -48,6 +48,20 @@ export default defineConfig({
     __DESIGN_APP_SOURCE_ROOT__: JSON.stringify(path.resolve(__dirname, '../sorgenti')),
   },
   plugins: [pinnedAmicroHook, react(), tailwindcss()],
+  // All hook-owning packages must be optimized BEFORE concurrent source
+  // imports. Vite lazy reoptimization changed ?v= hashes between ReactDOM,
+  // Framer and Radix, creating two independent React hook dispatchers.
+  optimizeDeps: {
+    noDiscovery: true,
+    include: [
+      'react','react-dom','react-dom/client','react/jsx-runtime','react/jsx-dev-runtime',
+      'framer-motion','motion/react',
+      '@radix-ui/react-slot','@radix-ui/react-select','@radix-ui/react-tabs',
+      '@radix-ui/react-scroll-area','@radix-ui/react-context-menu','@radix-ui/react-popover',
+      'next-themes','lucide-react','react-icons/fa','react-icons/fa6',
+      'clsx','tailwind-merge','class-variance-authority',
+    ],
+  },
   resolve: {
     alias: [
       { find: '@', replacement: path.resolve(__dirname, 'src') },
