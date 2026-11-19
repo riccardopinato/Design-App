@@ -54,8 +54,8 @@
       "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-006.tsx",
       "original_language": "TypeScript/React",
       "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
-      "flutter_code_path": null,
-      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/amx_006_accordion_loader.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
       "consumer_runtime": "NOT_VERIFIED"
     },
     "DBM-002": {
@@ -3321,8 +3321,8 @@
       "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-008_original.html",
       "original_language": "HTML/CSS",
       "original_license": "MIT_GALAXY_VERIFIED",
-      "flutter_code_path": null,
-      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/uiv_008_rolling_rock_loader.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
       "consumer_runtime": "NOT_VERIFIED"
     },
     "UIV-009": {

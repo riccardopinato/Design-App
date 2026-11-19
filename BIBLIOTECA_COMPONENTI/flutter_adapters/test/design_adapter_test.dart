@@ -101,4 +101,20 @@ void main() {
     expect(pressed, 1);
     await tester.pumpWidget(const SizedBox());
   });
+
+  testWidgets('AMX-006 accordion loader renders four actual bars', (tester) async {
+    await tester.pumpWidget(harness(const Amx006AccordionLoader()));
+    expect(find.byType(Amx006AccordionLoader), findsOneWidget);
+    expect(find.byType(Transform), findsAtLeastNWidgets(4));
+    expect(tester.takeException(), isNull);
+    await tester.pumpWidget(const SizedBox());
+  });
+
+  testWidgets('UIV-008 rolling rock keeps original keyframe geometry', (tester) async {
+    await tester.pumpWidget(harness(const Uiv008RollingRockLoader()));
+    expect(find.byType(Uiv008RollingRockLoader), findsOneWidget);
+    expect(find.byType(CustomPaint), findsWidgets);
+    expect(tester.takeException(), isNull);
+    await tester.pumpWidget(const SizedBox());
+  });
 }
