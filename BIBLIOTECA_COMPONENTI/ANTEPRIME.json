@@ -1,0 +1,2888 @@
+{
+  "schema_version": 1,
+  "catalog_component_count": 480,
+  "coverage": "Captures require screenshot generation and visual QA; no source page or source code is itself an image.",
+  "created_at": "2026-11-19",
+  "previews": {
+    "AMX-001": {
+      "image_path": "docs/assets/componenti/AMX-001.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "AMX-002": {
+      "image_path": "docs/assets/componenti/AMX-002.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "AMX-003": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "AMX-004": {
+      "image_path": "docs/assets/componenti/AMX-004.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "AMX-005": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "AMX-006": {
+      "image_path": "docs/assets/componenti/AMX-006.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-002": {
+      "image_path": "docs/assets/componenti/DBM-002.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-003": {
+      "image_path": "docs/assets/componenti/DBM-003.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-004": {
+      "image_path": "docs/assets/componenti/DBM-004.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-005": {
+      "image_path": "docs/assets/componenti/DBM-005.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-006": {
+      "image_path": "docs/assets/componenti/DBM-006.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-007": {
+      "image_path": "docs/assets/componenti/DBM-007.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-008": {
+      "image_path": "docs/assets/componenti/DBM-008.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-009": {
+      "image_path": "docs/assets/componenti/DBM-009.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-010": {
+      "image_path": "docs/assets/componenti/DBM-010.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-011": {
+      "image_path": "docs/assets/componenti/DBM-011.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-012": {
+      "image_path": "docs/assets/componenti/DBM-012.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-013": {
+      "image_path": "docs/assets/componenti/DBM-013.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-014": {
+      "image_path": "docs/assets/componenti/DBM-014.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-015": {
+      "image_path": "docs/assets/componenti/DBM-015.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-016": {
+      "image_path": "docs/assets/componenti/DBM-016.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-017": {
+      "image_path": "docs/assets/componenti/DBM-017.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-019": {
+      "image_path": "docs/assets/componenti/DBM-019.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-020": {
+      "image_path": "docs/assets/componenti/DBM-020.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-022": {
+      "image_path": "docs/assets/componenti/DBM-022.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-023": {
+      "image_path": "docs/assets/componenti/DBM-023.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-024": {
+      "image_path": "docs/assets/componenti/DBM-024.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-025": {
+      "image_path": "docs/assets/componenti/DBM-025.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-026": {
+      "image_path": "docs/assets/componenti/DBM-026.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DBM-027": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-028": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-029": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-030": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DSP-001": {
+      "image_path": "docs/assets/componenti/DSP-001.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DSP-002": {
+      "image_path": "docs/assets/componenti/DSP-002.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DSP-003": {
+      "image_path": "docs/assets/componenti/DSP-003.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DSP-004": {
+      "image_path": "docs/assets/componenti/DSP-004.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DSP-005": {
+      "image_path": "docs/assets/componenti/DSP-005.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "DSP-006": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-001": {
+      "image_path": "docs/assets/componenti/FCL-001.png",
+      "status": "CAPTURED_PUBLIC_DEMO_REFERENCE_UNREVIEWED",
+      "origin_type": "PUBLIC_FLUTTER_WEB_DEMO_REFERENCE_ONLY",
+      "image_evidence": "Reference-only official Flutter Component Library demo iframe; source license NOT VERIFIED; screenshot QA pending"
+    },
+    "FCL-002": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-003": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-004": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-005": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-006": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-007": {
+      "image_path": "docs/assets/componenti/FCL-007.png",
+      "status": "CAPTURED_PUBLIC_DEMO_REFERENCE_UNREVIEWED",
+      "origin_type": "PUBLIC_FLUTTER_WEB_DEMO_REFERENCE_ONLY",
+      "image_evidence": "Reference-only official Flutter Component Library demo iframe; source license NOT VERIFIED; screenshot QA pending"
+    },
+    "FCL-008": {
+      "image_path": "docs/assets/componenti/FCL-008.png",
+      "status": "CAPTURED_PUBLIC_DEMO_REFERENCE_UNREVIEWED",
+      "origin_type": "PUBLIC_FLUTTER_WEB_DEMO_REFERENCE_ONLY",
+      "image_evidence": "Reference-only official Flutter Component Library demo iframe; source license NOT VERIFIED; screenshot QA pending"
+    },
+    "FCL-009": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-010": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-011": {
+      "image_path": "docs/assets/componenti/FCL-011.png",
+      "status": "CAPTURED_PUBLIC_DEMO_REFERENCE_UNREVIEWED",
+      "origin_type": "PUBLIC_FLUTTER_WEB_DEMO_REFERENCE_ONLY",
+      "image_evidence": "Reference-only official Flutter Component Library demo iframe; source license NOT VERIFIED; screenshot QA pending"
+    },
+    "FCL-012": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-013": {
+      "image_path": "docs/assets/componenti/FCL-013.png",
+      "status": "CAPTURED_PUBLIC_DEMO_REFERENCE_UNREVIEWED",
+      "origin_type": "PUBLIC_FLUTTER_WEB_DEMO_REFERENCE_ONLY",
+      "image_evidence": "Reference-only official Flutter Component Library demo iframe; source license NOT VERIFIED; screenshot QA pending"
+    },
+    "FCL-014": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-015": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FUI-001": {
+      "image_path": "docs/assets/componenti/FUI-001.png",
+      "status": "CAPTURED_ORIGINAL_DEMO_UNREVIEWED",
+      "origin_type": "LIVE_ORIGINAL_FLUTTER_DEMO",
+      "image_evidence": "Authentic Forui demo, provenance in ANTEPRIME_ORIGINI_FORUI.json; QA pending"
+    },
+    "FUI-002": {
+      "image_path": "docs/assets/componenti/FUI-002.png",
+      "status": "CAPTURED_ORIGINAL_DEMO_UNREVIEWED",
+      "origin_type": "LIVE_ORIGINAL_FLUTTER_DEMO",
+      "image_evidence": "Authentic Forui demo, provenance in ANTEPRIME_ORIGINI_FORUI.json; QA pending"
+    },
+    "ICO-001": {
+      "image_path": "docs/assets/componenti/ICO-001.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-002": {
+      "image_path": "docs/assets/componenti/ICO-002.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-003": {
+      "image_path": "docs/assets/componenti/ICO-003.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-004": {
+      "image_path": "docs/assets/componenti/ICO-004.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-005": {
+      "image_path": "docs/assets/componenti/ICO-005.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-006": {
+      "image_path": "docs/assets/componenti/ICO-006.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-007": {
+      "image_path": "docs/assets/componenti/ICO-007.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-008": {
+      "image_path": "docs/assets/componenti/ICO-008.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-009": {
+      "image_path": "docs/assets/componenti/ICO-009.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-010": {
+      "image_path": "docs/assets/componenti/ICO-010.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-011": {
+      "image_path": "docs/assets/componenti/ICO-011.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-012": {
+      "image_path": "docs/assets/componenti/ICO-012.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-013": {
+      "image_path": "docs/assets/componenti/ICO-013.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-014": {
+      "image_path": "docs/assets/componenti/ICO-014.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-015": {
+      "image_path": "docs/assets/componenti/ICO-015.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-016": {
+      "image_path": "docs/assets/componenti/ICO-016.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-017": {
+      "image_path": "docs/assets/componenti/ICO-017.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-018": {
+      "image_path": "docs/assets/componenti/ICO-018.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-019": {
+      "image_path": "docs/assets/componenti/ICO-019.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-020": {
+      "image_path": "docs/assets/componenti/ICO-020.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-021": {
+      "image_path": "docs/assets/componenti/ICO-021.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-022": {
+      "image_path": "docs/assets/componenti/ICO-022.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-023": {
+      "image_path": "docs/assets/componenti/ICO-023.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-024": {
+      "image_path": "docs/assets/componenti/ICO-024.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-025": {
+      "image_path": "docs/assets/componenti/ICO-025.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-026": {
+      "image_path": "docs/assets/componenti/ICO-026.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-027": {
+      "image_path": "docs/assets/componenti/ICO-027.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "ICO-028": {
+      "image_path": "docs/assets/componenti/ICO-028.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+    },
+    "RXN-accordion-editorial": {
+      "image_path": "docs/assets/componenti/RXN-accordion-editorial.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-accordion-indexed": {
+      "image_path": "docs/assets/componenti/RXN-accordion-indexed.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-account-menu": {
+      "image_path": "docs/assets/componenti/RXN-account-menu.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-action-toolbar": {
+      "image_path": "docs/assets/componenti/RXN-action-toolbar.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-add-task-sheet": {
+      "image_path": "docs/assets/componenti/RXN-add-task-sheet.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-add-to-cart-button": {
+      "image_path": "docs/assets/componenti/RXN-add-to-cart-button.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-ai-chat-input": {
+      "image_path": "docs/assets/componenti/RXN-ai-chat-input.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-animated-beam": {
+      "image_path": "docs/assets/componenti/RXN-animated-beam.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-animated-circular-progress-bar": {
+      "image_path": "docs/assets/componenti/RXN-animated-circular-progress-bar.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-animated-gradient-text": {
+      "image_path": "docs/assets/componenti/RXN-animated-gradient-text.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-animated-grid-pattern": {
+      "image_path": "docs/assets/componenti/RXN-animated-grid-pattern.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-animated-highlight-text": {
+      "image_path": "docs/assets/componenti/RXN-animated-highlight-text.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-animated-link": {
+      "image_path": "docs/assets/componenti/RXN-animated-link.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-animated-list": {
+      "image_path": "docs/assets/componenti/RXN-animated-list.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-animated-number-flip": {
+      "image_path": "docs/assets/componenti/RXN-animated-number-flip.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-animated-shiny-text": {
+      "image_path": "docs/assets/componenti/RXN-animated-shiny-text.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-animated-subscribe-button": {
+      "image_path": "docs/assets/componenti/RXN-animated-subscribe-button.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-animated-theme-toggler": {
+      "image_path": "docs/assets/componenti/RXN-animated-theme-toggler.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-app-menu-bar": {
+      "image_path": "docs/assets/componenti/RXN-app-menu-bar.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-arc-reveal-hero": {
+      "image_path": "docs/assets/componenti/RXN-arc-reveal-hero.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-arc-timeline": {
+      "image_path": "docs/assets/componenti/RXN-arc-timeline.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-aurora-text": {
+      "image_path": "docs/assets/componenti/RXN-aurora-text.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-auto-scrolling-client-carousel": {
+      "image_path": "docs/assets/componenti/RXN-auto-scrolling-client-carousel.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-automated-tasks-panel": {
+      "image_path": "docs/assets/componenti/RXN-automated-tasks-panel.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-avatar-circles": {
+      "image_path": "docs/assets/componenti/RXN-avatar-circles.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-avatar-hover-card": {
+      "image_path": "docs/assets/componenti/RXN-avatar-hover-card.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-avatar-quick-actions": {
+      "image_path": "docs/assets/componenti/RXN-avatar-quick-actions.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-avatar-spring-stack": {
+      "image_path": "docs/assets/componenti/RXN-avatar-spring-stack.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-badge-button-combo": {
+      "image_path": "docs/assets/componenti/RXN-badge-button-combo.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-badge-morph": {
+      "image_path": "docs/assets/componenti/RXN-badge-morph.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-banner-announcement": {
+      "image_path": "docs/assets/componenti/RXN-banner-announcement.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-banner-cookie": {
+      "image_path": "docs/assets/componenti/RXN-banner-cookie.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-banner-countdown": {
+      "image_path": "docs/assets/componenti/RXN-banner-countdown.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-banner-newsletter": {
+      "image_path": "docs/assets/componenti/RXN-banner-newsletter.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-behavioral-history-select": {
+      "image_path": "docs/assets/componenti/RXN-behavioral-history-select.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-better-time-picker": {
+      "image_path": "docs/assets/componenti/RXN-better-time-picker.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-blur-fade": {
+      "image_path": "docs/assets/componenti/RXN-blur-fade.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-bordered-clients-grid": {
+      "image_path": "docs/assets/componenti/RXN-bordered-clients-grid.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-bottom-drawers": {
+      "image_path": "docs/assets/componenti/RXN-bottom-drawers.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-box-reveal": {
+      "image_path": "docs/assets/componenti/RXN-box-reveal.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-breadcrumb-dropdown": {
+      "image_path": "docs/assets/componenti/RXN-breadcrumb-dropdown.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-breadcrumb-icon": {
+      "image_path": "docs/assets/componenti/RXN-breadcrumb-icon.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-breadcrumb-separator": {
+      "image_path": "docs/assets/componenti/RXN-breadcrumb-separator.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-button-badge": {
+      "image_path": "docs/assets/componenti/RXN-button-badge.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-button-copy": {
+      "image_path": "docs/assets/componenti/RXN-button-copy.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-button-dropdown": {
+      "image_path": "docs/assets/componenti/RXN-button-dropdown.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-button-split": {
+      "image_path": "docs/assets/componenti/RXN-button-split.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-calendar-crest": {
+      "image_path": "docs/assets/componenti/RXN-calendar-crest.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-calendar-lume": {
+      "image_path": "docs/assets/componenti/RXN-calendar-lume.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-calendar-planner": {
+      "image_path": "docs/assets/componenti/RXN-calendar-planner.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-calendar-scheduler": {
+      "image_path": "docs/assets/componenti/RXN-calendar-scheduler.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-calendar-twin": {
+      "image_path": "docs/assets/componenti/RXN-calendar-twin.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-calendar-wave": {
+      "image_path": "docs/assets/componenti/RXN-calendar-wave.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-card-carousel-hero": {
+      "image_path": "docs/assets/componenti/RXN-card-carousel-hero.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-card-stack": {
+      "image_path": "docs/assets/componenti/RXN-card-stack.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-carousel-3d-select": {
+      "image_path": "docs/assets/componenti/RXN-carousel-3d-select.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-case-study-tabs": {
+      "image_path": "docs/assets/componenti/RXN-case-study-tabs.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-centered-feedback-drawer": {
+      "image_path": "docs/assets/componenti/RXN-centered-feedback-drawer.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-chapter-scrubber": {
+      "image_path": "docs/assets/componenti/RXN-chapter-scrubber.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-checkbox-colored": {
+      "image_path": "docs/assets/componenti/RXN-checkbox-colored.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-checkbox-group": {
+      "image_path": "docs/assets/componenti/RXN-checkbox-group.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-checkbox-indeterminate": {
+      "image_path": "docs/assets/componenti/RXN-checkbox-indeterminate.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-checkbox-simple": {
+      "image_path": "docs/assets/componenti/RXN-checkbox-simple.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-checkbox-terms": {
+      "image_path": "docs/assets/componenti/RXN-checkbox-terms.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-checkbox-todo": {
+      "image_path": "docs/assets/componenti/RXN-checkbox-todo.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-checkbox-tree": {
+      "image_path": "docs/assets/componenti/RXN-checkbox-tree.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-chrono-select": {
+      "image_path": "docs/assets/componenti/RXN-chrono-select.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-circular-stepper-input": {
+      "image_path": "docs/assets/componenti/RXN-circular-stepper-input.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-claude-chat-input": {
+      "image_path": "docs/assets/componenti/RXN-claude-chat-input.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-clean-tag-input": {
+      "image_path": "docs/assets/componenti/RXN-clean-tag-input.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-client-carousel-showcase": {
+      "image_path": "docs/assets/componenti/RXN-client-carousel-showcase.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-cloud-background": {
+      "image_path": "docs/assets/componenti/RXN-cloud-background.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-code-comparison": {
+      "image_path": "docs/assets/componenti/RXN-code-comparison.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-color-emotion-select": {
+      "image_path": "docs/assets/componenti/RXN-color-emotion-select.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-color-picker-input": {
+      "image_path": "docs/assets/componenti/RXN-color-picker-input.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-comic-text": {
+      "image_path": "docs/assets/componenti/RXN-comic-text.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-command-deck": {
+      "image_path": "docs/assets/componenti/RXN-command-deck.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-comment-thread": {
+      "image_path": "docs/assets/componenti/RXN-comment-thread.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-confetti-button": {
+      "image_path": "docs/assets/componenti/RXN-confetti-button.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-container-text-scroll": {
+      "image_path": "docs/assets/componenti/RXN-container-text-scroll.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-cool-mode": {
+      "image_path": "docs/assets/componenti/RXN-cool-mode.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-corporate-footer": {
+      "image_path": "docs/assets/componenti/RXN-corporate-footer.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-correct-number-input": {
+      "image_path": "docs/assets/componenti/RXN-correct-number-input.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-coverflow-carousel": {
+      "image_path": "docs/assets/componenti/RXN-coverflow-carousel.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-credit-card-dialog": {
+      "image_path": "docs/assets/componenti/RXN-credit-card-dialog.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-customer-story-stack": {
+      "image_path": "docs/assets/componenti/RXN-customer-story-stack.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-deploy-region-globe": {
+      "image_path": "docs/assets/componenti/RXN-deploy-region-globe.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-dot-pattern": {
+      "image_path": "docs/assets/componenti/RXN-dot-pattern.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-drag-and-drop-tabs": {
+      "image_path": "docs/assets/componenti/RXN-drag-and-drop-tabs.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-drawer-inner-content": {
+      "image_path": "docs/assets/componenti/RXN-drawer-inner-content.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-drilldown-menu": {
+      "image_path": "docs/assets/componenti/RXN-drilldown-menu.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-drum-picker": {
+      "image_path": "docs/assets/componenti/RXN-drum-picker.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-dual-tone-rain-background": {
+      "image_path": "docs/assets/componenti/RXN-dual-tone-rain-background.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-event-scheduler": {
+      "image_path": "docs/assets/componenti/RXN-event-scheduler.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-expandable-menu-navbar": {
+      "image_path": "docs/assets/componenti/RXN-expandable-menu-navbar.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-faq-auto-accordion": {
+      "image_path": "docs/assets/componenti/RXN-faq-auto-accordion.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-faq-chat-accordion": {
+      "image_path": "docs/assets/componenti/RXN-faq-chat-accordion.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-faq-scroll-accordion": {
+      "image_path": "docs/assets/componenti/RXN-faq-scroll-accordion.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-feature-highlights": {
+      "image_path": "docs/assets/componenti/RXN-feature-highlights.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-featured-portrait-testimonial": {
+      "image_path": "docs/assets/componenti/RXN-featured-portrait-testimonial.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-file-tree": {
+      "image_path": "docs/assets/componenti/RXN-file-tree.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-fine-tune-slider": {
+      "image_path": "docs/assets/componenti/RXN-fine-tune-slider.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-flash-sale-banner": {
+      "image_path": "docs/assets/componenti/RXN-flash-sale-banner.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-flickering-grid": {
+      "image_path": "docs/assets/componenti/RXN-flickering-grid.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-flip-text": {
+      "image_path": "docs/assets/componenti/RXN-flip-text.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-floating-cards-hero": {
+      "image_path": "docs/assets/componenti/RXN-floating-cards-hero.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-floating-navbar": {
+      "image_path": "docs/assets/componenti/RXN-floating-navbar.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-floating-toolbar": {
+      "image_path": "docs/assets/componenti/RXN-floating-toolbar.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-footer-enterprise": {
+      "image_path": "docs/assets/componenti/RXN-footer-enterprise.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-footer-pro": {
+      "image_path": "docs/assets/componenti/RXN-footer-pro.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-glass-ai-card": {
+      "image_path": "docs/assets/componenti/RXN-glass-ai-card.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-glass-form": {
+      "image_path": "docs/assets/componenti/RXN-glass-form.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-glass-image-compare": {
+      "image_path": "docs/assets/componenti/RXN-glass-image-compare.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-glass-image-editor": {
+      "image_path": "docs/assets/componenti/RXN-glass-image-editor.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-glass-shipment-flow": {
+      "image_path": "docs/assets/componenti/RXN-glass-shipment-flow.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-glow-link-button": {
+      "image_path": "docs/assets/componenti/RXN-glow-link-button.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-glow-tree": {
+      "image_path": "docs/assets/componenti/RXN-glow-tree.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-glowing-send-input": {
+      "image_path": "docs/assets/componenti/RXN-glowing-send-input.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-gooey-dock": {
+      "image_path": "docs/assets/componenti/RXN-gooey-dock.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-gooey-pagination": {
+      "image_path": "docs/assets/componenti/RXN-gooey-pagination.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-gradient-chat-input": {
+      "image_path": "docs/assets/componenti/RXN-gradient-chat-input.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-gradient-hero-showcase": {
+      "image_path": "docs/assets/componenti/RXN-gradient-hero-showcase.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-gradient-reveal-text": {
+      "image_path": "docs/assets/componenti/RXN-gradient-reveal-text.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-grain-gradient-bg": {
+      "image_path": "docs/assets/componenti/RXN-grain-gradient-bg.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-gravatar-email-input": {
+      "image_path": "docs/assets/componenti/RXN-gravatar-email-input.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-grid-frame-hero": {
+      "image_path": "docs/assets/componenti/RXN-grid-frame-hero.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-grid-pattern": {
+      "image_path": "docs/assets/componenti/RXN-grid-pattern.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-grouped-faq-section": {
+      "image_path": "docs/assets/componenti/RXN-grouped-faq-section.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-halo-reel": {
+      "image_path": "docs/assets/componenti/RXN-halo-reel.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-hero-title-animation": {
+      "image_path": "docs/assets/componenti/RXN-hero-title-animation.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-hover-gradient-navbar": {
+      "image_path": "docs/assets/componenti/RXN-hover-gradient-navbar.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-hover-preview-button": {
+      "image_path": "docs/assets/componenti/RXN-hover-preview-button.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-hyper-text": {
+      "image_path": "docs/assets/componenti/RXN-hyper-text.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-icon-cloud": {
+      "image_path": "docs/assets/componenti/RXN-icon-cloud.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-icon-label-subtext-button": {
+      "image_path": "docs/assets/componenti/RXN-icon-label-subtext-button.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-icon-pagination": {
+      "image_path": "docs/assets/componenti/RXN-icon-pagination.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-image-card-fan": {
+      "image_path": "docs/assets/componenti/RXN-image-card-fan.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-image-stream-hero": {
+      "image_path": "docs/assets/componenti/RXN-image-stream-hero.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-inline-copy-input": {
+      "image_path": "docs/assets/componenti/RXN-inline-copy-input.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-input-with-select": {
+      "image_path": "docs/assets/componenti/RXN-input-with-select.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-integration-and-stats-section": {
+      "image_path": "docs/assets/componenti/RXN-integration-and-stats-section.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-interactive-grid-pattern": {
+      "image_path": "docs/assets/componenti/RXN-interactive-grid-pattern.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-interactive-hover-button": {
+      "image_path": "docs/assets/componenti/RXN-interactive-hover-button.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-invert-tabs": {
+      "image_path": "docs/assets/componenti/RXN-invert-tabs.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-iphone-15-pro": {
+      "image_path": "docs/assets/componenti/RXN-iphone-15-pro.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-line-shadow-text": {
+      "image_path": "docs/assets/componenti/RXN-line-shadow-text.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-linear-mask": {
+      "image_path": "docs/assets/componenti/RXN-linear-mask.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-live-waveform": {
+      "image_path": "docs/assets/componenti/RXN-live-waveform.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-load-ripple": {
+      "image_path": "docs/assets/componenti/RXN-load-ripple.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-loading-circle": {
+      "image_path": "docs/assets/componenti/RXN-loading-circle.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-luma-bar": {
+      "image_path": "docs/assets/componenti/RXN-luma-bar.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-magic-tree": {
+      "image_path": "docs/assets/componenti/RXN-magic-tree.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-magnetic-tabs": {
+      "image_path": "docs/assets/componenti/RXN-magnetic-tabs.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-milestone-stepper": {
+      "image_path": "docs/assets/componenti/RXN-milestone-stepper.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-mode-toggle": {
+      "image_path": "docs/assets/componenti/RXN-mode-toggle.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-morphing-expandable-menu": {
+      "image_path": "docs/assets/componenti/RXN-morphing-expandable-menu.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-morphing-page-dots": {
+      "image_path": "docs/assets/componenti/RXN-morphing-page-dots.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-morphing-text": {
+      "image_path": "docs/assets/componenti/RXN-morphing-text.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-motion-file-tree": {
+      "image_path": "docs/assets/componenti/RXN-motion-file-tree.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-mouse-spark": {
+      "image_path": "docs/assets/componenti/RXN-mouse-spark.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-multi-media-testimonial": {
+      "image_path": "docs/assets/componenti/RXN-multi-media-testimonial.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-music-player-card": {
+      "image_path": "docs/assets/componenti/RXN-music-player-card.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-navbar-breadcrumb": {
+      "image_path": "docs/assets/componenti/RXN-navbar-breadcrumb.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-navbar-centered": {
+      "image_path": "docs/assets/componenti/RXN-navbar-centered.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-navbar-floating": {
+      "image_path": "docs/assets/componenti/RXN-navbar-floating.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-navbar-icon-links": {
+      "image_path": "docs/assets/componenti/RXN-navbar-icon-links.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-navbar-minimal": {
+      "image_path": "docs/assets/componenti/RXN-navbar-minimal.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-navbar-simple": {
+      "image_path": "docs/assets/componenti/RXN-navbar-simple.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-navbar-split": {
+      "image_path": "docs/assets/componenti/RXN-navbar-split.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-navbar-status": {
+      "image_path": "docs/assets/componenti/RXN-navbar-status.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-navbar-tabs": {
+      "image_path": "docs/assets/componenti/RXN-navbar-tabs.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-navbar-user-menu": {
+      "image_path": "docs/assets/componenti/RXN-navbar-user-menu.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-navbar-with-search": {
+      "image_path": "docs/assets/componenti/RXN-navbar-with-search.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-neon-circle-grid": {
+      "image_path": "docs/assets/componenti/RXN-neon-circle-grid.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-neon-gradient-card": {
+      "image_path": "docs/assets/componenti/RXN-neon-gradient-card.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-nested-dashboard-menu": {
+      "image_path": "docs/assets/componenti/RXN-nested-dashboard-menu.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-notification": {
+      "image_path": "docs/assets/componenti/RXN-notification.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-notification-inbox-popover": {
+      "image_path": "docs/assets/componenti/RXN-notification-inbox-popover.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-notifications-carousel": {
+      "image_path": "docs/assets/componenti/RXN-notifications-carousel.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-notifications-filter": {
+      "image_path": "docs/assets/componenti/RXN-notifications-filter.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-number-ticker": {
+      "image_path": "docs/assets/componenti/RXN-number-ticker.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-orbiting-circles": {
+      "image_path": "docs/assets/componenti/RXN-orbiting-circles.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-package-installer-tabs": {
+      "image_path": "docs/assets/componenti/RXN-package-installer-tabs.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-particle-text-dots": {
+      "image_path": "docs/assets/componenti/RXN-particle-text-dots.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-password-field": {
+      "image_path": "docs/assets/componenti/RXN-password-field.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-perspective-text": {
+      "image_path": "docs/assets/componenti/RXN-perspective-text.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-phone-mockup-card": {
+      "image_path": "docs/assets/componenti/RXN-phone-mockup-card.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-phone-scroll-hero": {
+      "image_path": "docs/assets/componenti/RXN-phone-scroll-hero.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-pixel-image": {
+      "image_path": "docs/assets/componenti/RXN-pixel-image.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-preview-switch-hero": {
+      "image_path": "docs/assets/componenti/RXN-preview-switch-hero.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-pricing-cards-tooltip": {
+      "image_path": "docs/assets/componenti/RXN-pricing-cards-tooltip.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-pricing-comparison": {
+      "image_path": "docs/assets/componenti/RXN-pricing-comparison.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-pricing-feature-matrix": {
+      "image_path": "docs/assets/componenti/RXN-pricing-feature-matrix.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-pricing-flow": {
+      "image_path": "docs/assets/componenti/RXN-pricing-flow.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-pricing-landing-hero": {
+      "image_path": "docs/assets/componenti/RXN-pricing-landing-hero.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-pricing-plans": {
+      "image_path": "docs/assets/componenti/RXN-pricing-plans.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-pricing-section-vertical": {
+      "image_path": "docs/assets/componenti/RXN-pricing-section-vertical.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-pricing-tiers": {
+      "image_path": "docs/assets/componenti/RXN-pricing-tiers.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-pricing-with-user-scaling": {
+      "image_path": "docs/assets/componenti/RXN-pricing-with-user-scaling.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-product-card-hero": {
+      "image_path": "docs/assets/componenti/RXN-product-card-hero.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-product-feature-hero": {
+      "image_path": "docs/assets/componenti/RXN-product-feature-hero.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-profile-card": {
+      "image_path": "docs/assets/componenti/RXN-profile-card.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-progress-button": {
+      "image_path": "docs/assets/componenti/RXN-progress-button.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-progressive-blur": {
+      "image_path": "docs/assets/componenti/RXN-progressive-blur.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-progressive-flux-loader": {
+      "image_path": "docs/assets/componenti/RXN-progressive-flux-loader.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-promote-header": {
+      "image_path": "docs/assets/componenti/RXN-promote-header.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-pulsating-button": {
+      "image_path": "docs/assets/componenti/RXN-pulsating-button.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-rainbow-button": {
+      "image_path": "docs/assets/componenti/RXN-rainbow-button.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-range-calendar": {
+      "image_path": "docs/assets/componenti/RXN-range-calendar.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-receding-text-plane": {
+      "image_path": "docs/assets/componenti/RXN-receding-text-plane.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-retro-grid": {
+      "image_path": "docs/assets/componenti/RXN-retro-grid.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-ripple-circles": {
+      "image_path": "docs/assets/componenti/RXN-ripple-circles.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-ripple-distortion": {
+      "image_path": "docs/assets/componenti/RXN-ripple-distortion.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-rising-glow": {
+      "image_path": "docs/assets/componenti/RXN-rising-glow.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-rotating-gradient-right": {
+      "image_path": "docs/assets/componenti/RXN-rotating-gradient-right.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-ruixen-featured-message-card": {
+      "image_path": "docs/assets/componenti/RXN-ruixen-featured-message-card.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-ruixen-gradient-footer": {
+      "image_path": "docs/assets/componenti/RXN-ruixen-gradient-footer.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-ruixen-prompt-box": {
+      "image_path": "docs/assets/componenti/RXN-ruixen-prompt-box.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-ruixen-query-box": {
+      "image_path": "docs/assets/componenti/RXN-ruixen-query-box.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-sales-ai-hero": {
+      "image_path": "docs/assets/componenti/RXN-sales-ai-hero.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-scramble-text": {
+      "image_path": "docs/assets/componenti/RXN-scramble-text.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-scratch-to-reveal": {
+      "image_path": "docs/assets/componenti/RXN-scratch-to-reveal.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-script-copy-btn": {
+      "image_path": "docs/assets/componenti/RXN-script-copy-btn.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-scroll-based-velocity": {
+      "image_path": "docs/assets/componenti/RXN-scroll-based-velocity.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-scroll-burn-text": {
+      "image_path": "docs/assets/componenti/RXN-scroll-burn-text.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-scroll-image-tunnel": {
+      "image_path": "docs/assets/componenti/RXN-scroll-image-tunnel.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-scroll-over-hero": {
+      "image_path": "docs/assets/componenti/RXN-scroll-over-hero.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-scroll-pagination": {
+      "image_path": "docs/assets/componenti/RXN-scroll-pagination.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-scroll-portrait-wall": {
+      "image_path": "docs/assets/componenti/RXN-scroll-portrait-wall.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-scroll-progress": {
+      "image_path": "docs/assets/componenti/RXN-scroll-progress.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-scroll-ruler": {
+      "image_path": "docs/assets/componenti/RXN-scroll-ruler.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-scroll-text-rise": {
+      "image_path": "docs/assets/componenti/RXN-scroll-text-rise.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-scroll-tilted-grid": {
+      "image_path": "docs/assets/componenti/RXN-scroll-tilted-grid.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-scrub-datetime": {
+      "image_path": "docs/assets/componenti/RXN-scrub-datetime.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-service-ledger": {
+      "image_path": "docs/assets/componenti/RXN-service-ledger.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-share-button": {
+      "image_path": "docs/assets/componenti/RXN-share-button.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-shimmer-button": {
+      "image_path": "docs/assets/componenti/RXN-shimmer-button.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-shine-border": {
+      "image_path": "docs/assets/componenti/RXN-shine-border.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-shiny-button": {
+      "image_path": "docs/assets/componenti/RXN-shiny-button.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-slide-to-delete-button": {
+      "image_path": "docs/assets/componenti/RXN-slide-to-delete-button.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-sliding-pagination": {
+      "image_path": "docs/assets/componenti/RXN-sliding-pagination.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-smart-breadcrumb": {
+      "image_path": "docs/assets/componenti/RXN-smart-breadcrumb.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-smart-paste-input": {
+      "image_path": "docs/assets/componenti/RXN-smart-paste-input.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-smooth-cursor": {
+      "image_path": "docs/assets/componenti/RXN-smooth-cursor.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-social-preview-dock": {
+      "image_path": "docs/assets/componenti/RXN-social-preview-dock.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-solar-loader": {
+      "image_path": "docs/assets/componenti/RXN-solar-loader.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-spark-chart": {
+      "image_path": "docs/assets/componenti/RXN-spark-chart.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-sparkles-text": {
+      "image_path": "docs/assets/componenti/RXN-sparkles-text.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-spinning-text": {
+      "image_path": "docs/assets/componenti/RXN-spinning-text.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-split-feature-showcase": {
+      "image_path": "docs/assets/componenti/RXN-split-feature-showcase.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-split-hero-section": {
+      "image_path": "docs/assets/componenti/RXN-split-hero-section.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-stack-pagination": {
+      "image_path": "docs/assets/componenti/RXN-stack-pagination.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-staged-pricing": {
+      "image_path": "docs/assets/componenti/RXN-staged-pricing.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-staggered-faq-section": {
+      "image_path": "docs/assets/componenti/RXN-staggered-faq-section.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-structured-hero-section": {
+      "image_path": "docs/assets/componenti/RXN-structured-hero-section.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-subscription-plans": {
+      "image_path": "docs/assets/componenti/RXN-subscription-plans.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-tabbed-hero-section": {
+      "image_path": "docs/assets/componenti/RXN-tabbed-hero-section.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-tag-cloud-select": {
+      "image_path": "docs/assets/componenti/RXN-tag-cloud-select.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-text-animate": {
+      "image_path": "docs/assets/componenti/RXN-text-animate.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-text-reveal": {
+      "image_path": "docs/assets/componenti/RXN-text-reveal.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-three-dwall-calendar": {
+      "image_path": "docs/assets/componenti/RXN-three-dwall-calendar.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-toolbar-dock": {
+      "image_path": "docs/assets/componenti/RXN-toolbar-dock.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-tree-node-tooltip": {
+      "image_path": "docs/assets/componenti/RXN-tree-node-tooltip.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-trusted-clients-showcase": {
+      "image_path": "docs/assets/componenti/RXN-trusted-clients-showcase.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-typing-animation": {
+      "image_path": "docs/assets/componenti/RXN-typing-animation.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-url-input": {
+      "image_path": "docs/assets/componenti/RXN-url-input.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-variable-text": {
+      "image_path": "docs/assets/componenti/RXN-variable-text.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-verification-input": {
+      "image_path": "docs/assets/componenti/RXN-verification-input.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-video-hero-showcase": {
+      "image_path": "docs/assets/componenti/RXN-video-hero-showcase.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-video-player-pro": {
+      "image_path": "docs/assets/componenti/RXN-video-player-pro.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-video-text": {
+      "image_path": "docs/assets/componenti/RXN-video-text.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-visualizer-button": {
+      "image_path": "docs/assets/componenti/RXN-visualizer-button.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-warp-background": {
+      "image_path": "docs/assets/componenti/RXN-warp-background.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-wheel-pagination": {
+      "image_path": "docs/assets/componenti/RXN-wheel-pagination.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-wizard-stepper": {
+      "image_path": "docs/assets/componenti/RXN-wizard-stepper.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-word-rotate": {
+      "image_path": "docs/assets/componenti/RXN-word-rotate.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "RXN-wordmark-footer": {
+      "image_path": "docs/assets/componenti/RXN-wordmark-footer.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+    },
+    "UIV-001": {
+      "image_path": "docs/assets/componenti/UIV-001.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-002": {
+      "image_path": "docs/assets/componenti/UIV-002.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-003": {
+      "image_path": "docs/assets/componenti/UIV-003.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-004": {
+      "image_path": "docs/assets/componenti/UIV-004.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-005": {
+      "image_path": "docs/assets/componenti/UIV-005.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-006": {
+      "image_path": "docs/assets/componenti/UIV-006.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-007": {
+      "image_path": "docs/assets/componenti/UIV-007.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-008": {
+      "image_path": "docs/assets/componenti/UIV-008.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-009": {
+      "image_path": "docs/assets/componenti/UIV-009.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-010": {
+      "image_path": "docs/assets/componenti/UIV-010.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-011": {
+      "image_path": "docs/assets/componenti/UIV-011.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-012": {
+      "image_path": "docs/assets/componenti/UIV-012.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-013": {
+      "image_path": "docs/assets/componenti/UIV-013.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-014": {
+      "image_path": "docs/assets/componenti/UIV-014.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-015": {
+      "image_path": "docs/assets/componenti/UIV-015.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-016": {
+      "image_path": "docs/assets/componenti/UIV-016.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-017": {
+      "image_path": "docs/assets/componenti/UIV-017.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-018": {
+      "image_path": "docs/assets/componenti/UIV-018.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-019": {
+      "image_path": "docs/assets/componenti/UIV-019.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-020": {
+      "image_path": "docs/assets/componenti/UIV-020.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-021": {
+      "image_path": "docs/assets/componenti/UIV-021.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-022": {
+      "image_path": "docs/assets/componenti/UIV-022.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-023": {
+      "image_path": "docs/assets/componenti/UIV-023.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-024": {
+      "image_path": "docs/assets/componenti/UIV-024.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-025": {
+      "image_path": "docs/assets/componenti/UIV-025.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-026": {
+      "image_path": "docs/assets/componenti/UIV-026.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-027": {
+      "image_path": "docs/assets/componenti/UIV-027.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-028": {
+      "image_path": "docs/assets/componenti/UIV-028.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-029": {
+      "image_path": "docs/assets/componenti/UIV-029.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-030": {
+      "image_path": "docs/assets/componenti/UIV-030.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-031": {
+      "image_path": "docs/assets/componenti/UIV-031.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-032": {
+      "image_path": "docs/assets/componenti/UIV-032.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-033": {
+      "image_path": "docs/assets/componenti/UIV-033.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-034": {
+      "image_path": "docs/assets/componenti/UIV-034.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-035": {
+      "image_path": "docs/assets/componenti/UIV-035.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-036": {
+      "image_path": "docs/assets/componenti/UIV-036.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-037": {
+      "image_path": "docs/assets/componenti/UIV-037.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-038": {
+      "image_path": "docs/assets/componenti/UIV-038.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-039": {
+      "image_path": "docs/assets/componenti/UIV-039.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-040": {
+      "image_path": "docs/assets/componenti/UIV-040.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-041": {
+      "image_path": "docs/assets/componenti/UIV-041.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-042": {
+      "image_path": "docs/assets/componenti/UIV-042.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-043": {
+      "image_path": "docs/assets/componenti/UIV-043.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-044": {
+      "image_path": "docs/assets/componenti/UIV-044.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-045": {
+      "image_path": "docs/assets/componenti/UIV-045.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-046": {
+      "image_path": "docs/assets/componenti/UIV-046.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-047": {
+      "image_path": "docs/assets/componenti/UIV-047.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-048": {
+      "image_path": "docs/assets/componenti/UIV-048.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-049": {
+      "image_path": "docs/assets/componenti/UIV-049.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-050": {
+      "image_path": "docs/assets/componenti/UIV-050.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-051": {
+      "image_path": "docs/assets/componenti/UIV-051.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-052": {
+      "image_path": "docs/assets/componenti/UIV-052.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-053": {
+      "image_path": "docs/assets/componenti/UIV-053.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-054": {
+      "image_path": "docs/assets/componenti/UIV-054.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-055": {
+      "image_path": "docs/assets/componenti/UIV-055.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-056": {
+      "image_path": "docs/assets/componenti/UIV-056.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-057": {
+      "image_path": "docs/assets/componenti/UIV-057.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-058": {
+      "image_path": "docs/assets/componenti/UIV-058.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-059": {
+      "image_path": "docs/assets/componenti/UIV-059.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-060": {
+      "image_path": "docs/assets/componenti/UIV-060.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-061": {
+      "image_path": "docs/assets/componenti/UIV-061.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-062": {
+      "image_path": "docs/assets/componenti/UIV-062.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-063": {
+      "image_path": "docs/assets/componenti/UIV-063.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-064": {
+      "image_path": "docs/assets/componenti/UIV-064.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-065": {
+      "image_path": "docs/assets/componenti/UIV-065.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-066": {
+      "image_path": "docs/assets/componenti/UIV-066.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-067": {
+      "image_path": "docs/assets/componenti/UIV-067.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-068": {
+      "image_path": "docs/assets/componenti/UIV-068.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-069": {
+      "image_path": "docs/assets/componenti/UIV-069.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-070": {
+      "image_path": "docs/assets/componenti/UIV-070.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-071": {
+      "image_path": "docs/assets/componenti/UIV-071.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-072": {
+      "image_path": "docs/assets/componenti/UIV-072.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-073": {
+      "image_path": "docs/assets/componenti/UIV-073.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-074": {
+      "image_path": "docs/assets/componenti/UIV-074.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-075": {
+      "image_path": "docs/assets/componenti/UIV-075.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-076": {
+      "image_path": "docs/assets/componenti/UIV-076.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-077": {
+      "image_path": "docs/assets/componenti/UIV-077.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-078": {
+      "image_path": "docs/assets/componenti/UIV-078.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-079": {
+      "image_path": "docs/assets/componenti/UIV-079.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-080": {
+      "image_path": "docs/assets/componenti/UIV-080.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-081": {
+      "image_path": "docs/assets/componenti/UIV-081.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-082": {
+      "image_path": "docs/assets/componenti/UIV-082.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-083": {
+      "image_path": "docs/assets/componenti/UIV-083.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-084": {
+      "image_path": "docs/assets/componenti/UIV-084.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-085": {
+      "image_path": "docs/assets/componenti/UIV-085.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-086": {
+      "image_path": "docs/assets/componenti/UIV-086.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-087": {
+      "image_path": "docs/assets/componenti/UIV-087.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-088": {
+      "image_path": "docs/assets/componenti/UIV-088.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-089": {
+      "image_path": "docs/assets/componenti/UIV-089.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-090": {
+      "image_path": "docs/assets/componenti/UIV-090.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-091": {
+      "image_path": "docs/assets/componenti/UIV-091.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-092": {
+      "image_path": "docs/assets/componenti/UIV-092.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-093": {
+      "image_path": "docs/assets/componenti/UIV-093.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-094": {
+      "image_path": "docs/assets/componenti/UIV-094.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-095": {
+      "image_path": "docs/assets/componenti/UIV-095.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-096": {
+      "image_path": "docs/assets/componenti/UIV-096.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-097": {
+      "image_path": "docs/assets/componenti/UIV-097.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-098": {
+      "image_path": "docs/assets/componenti/UIV-098.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-099": {
+      "image_path": "docs/assets/componenti/UIV-099.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-100": {
+      "image_path": "docs/assets/componenti/UIV-100.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-101": {
+      "image_path": "docs/assets/componenti/UIV-101.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-102": {
+      "image_path": "docs/assets/componenti/UIV-102.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-103": {
+      "image_path": "docs/assets/componenti/UIV-103.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-104": {
+      "image_path": "docs/assets/componenti/UIV-104.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-105": {
+      "image_path": "docs/assets/componenti/UIV-105.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-106": {
+      "image_path": "docs/assets/componenti/UIV-106.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-108": {
+      "image_path": "docs/assets/componenti/UIV-108.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-109": {
+      "image_path": "docs/assets/componenti/UIV-109.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-110": {
+      "image_path": "docs/assets/componenti/UIV-110.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "UIV-111": {
+      "image_path": "docs/assets/componenti/UIV-111.png",
+      "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"
+    },
+    "WML-001": {
+      "image_path": "docs/assets/componenti/WML-001.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "WML-002": {
+      "image_path": "docs/assets/componenti/WML-002.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "WML-003": {
+      "image_path": "docs/assets/componenti/WML-003.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "WML-004": {
+      "image_path": "docs/assets/componenti/WML-004.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "WML-005": {
+      "image_path": "docs/assets/componenti/WML-005.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "WML-006": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "WML-007": {
+      "image_path": "docs/assets/componenti/WML-007.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+    },
+    "WML-008": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "WML-009": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    }
+  }
+}

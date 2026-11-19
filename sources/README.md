@@ -60,3 +60,23 @@ Questa directory contiene studi di sorgenti esterne e donatori candidati, non ne
 ## Dribbble + Collect UI — direzione visiva 2026/27 (18/11/2026)
 
 [Audit con 4 shot Dribbble e 4 pagine Collect UI](./DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md) · [Matrice 15 app e 12 pattern](../UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.md) · [JSON bidirezionale](../UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json). Entrambi sono **siti di ispirazione/reference**, non donatori di codice/immagini. Stato PROPOSED_ONLY, niente modifiche consumer.
+
+## Flutter native UI sources · 18/11/2026
+
+[Flutter Gems / Forui / F22 Labs technical intake](./FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md) · [Six-app source matrix](../UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json). Site registry DESIGN-SITE-011..013. Sources are discovery/reference; no package installed, no Golden or consumer certified.
+
+## Material Design 3 — possibile scelta per utility, non stile universale (19/11/2026)
+
+[Material 3 source audit](./MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md) · [Matrice quattro utility](../UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json). Sito Google `DESIGN-SITE-014`, riferimento facoltativo con priorita' sempre alla Product Bible e ai design curati dall'utente. Non rimuovere automaticamente Material 3 dalle app che lo usano e non installarlo in app che non lo scelgono. Stato solo `PROPOSED_ONLY` per le quattro associazioni, nessun consumer verificato o modificato.
+
+## Flutter Component Library — 15 component cards & app fit (19/11/2026)
+
+[Audit delle schede e limite di licenza](./FLUTTER_COMPONENT_LIBRARY_RESEARCH_2026-11-19.md) · [catalogo JSON bidirezionale con 15 schede / 6 app / 18 associazioni](../UI-UX/FLUTTER_COMPONENT_LIBRARY_APP_MAP_2026-11-19.json). Sito `DESIGN-SITE-015` come fonte di discovery prioritaria nel lavoro visuale Flutter **solo dopo** preferenze dell'utente in Design-App e Golden/donor. Le schede testuali indicano file Dart, ma non sono stati verificati sorgenti completi o licenza di riuso commerciale: **REFERENCE_ONLY**, niente copia diretta o installazioni, proposte `PROPOSED_ONLY`.
+
+## Archivio componenti personale e indice unificato — 19/11/2026
+
+[Indice canonico e ricerca](../BIBLIOTECA_COMPONENTI/README.md) · [480 componenti, 4 alias, 427 fonti archiviate](../BIBLIOTECA_COMPONENTI/CATALOGO.json). Comprende gli originali esistenti di Uiverse e 277 nuovi TSX originali Ruixen MIT con provenienza e hash verificati. Gli altri componenti restano `REFERENCE_ONLY` quando il loro sorgente non e' stato realmente importato. Nessuna app o Golden promossi.
+
+## Acquisizione sorgenti OSS DevLibraries — 19/11/2026
+
+[38 originali React/TSX Amicro, Watermelon ed EaseUI](../BIBLIOTECA_COMPONENTI/sorgenti/README.md) sono stati recuperati dai repository originali con controllo Git SHA e MIT conservata. Il catalogo arriva a **427 sorgenti archiviati**, con **53 reference-only**. Non e' una certificazione Flutter o delle app consumer.

@@ -130,7 +130,7 @@ def main():
     favorites_count = sum(bool(by_id[x["id"]].get("source_snapshot")) for x in fav["items"])
     remaining = len(fav["items"]) - favorites_count
     reg["counts"].update({
-        "original_source_files": catalog_count, "code_unavailable": 100-catalog_count,
+        "original_source_files": catalog_count, "code_unavailable": len(reg["components"])-catalog_count,
         "favorite_source_available": favorites_count, "favorite_source_unlocated": remaining
     })
     apps["counts"]["uiverse_original_sources"] = catalog_count
@@ -141,10 +141,29 @@ def main():
     save(REGISTER, reg)
     save(FAVORITES, fav)
     save(APP_REG, apps)
-    save(UI / "FAVORITES/RECUPERO_API_2026_11_18.json", {
-        "schema_version": 1, "retrieval_method": "Uiverse public Remix loader",
+    cumulative_path = UI / "FAVORITES/RECUPERO_API_2026_11_18.json"
+    old_recovery = load(cumulative_path) if cumulative_path.is_file() else {}
+    old_entries = old_recovery.get("recovered", [])
+    if not isinstance(old_entries, list):
+        raise RuntimeError("Invalid previous recovery ledger")
+    old_ids = {x["id"] for x in old_entries}
+    if old_ids & recovered_ids:
+        raise RuntimeError("Cannot overwrite previous recovery evidence")
+    all_entries = old_entries + evidence
+    latest_batch = {"source_export_at": fav.get("exported_at"), "captured_at": date,
+                    "newly_recovered": len(evidence), "component_ids": sorted(recovered_ids)}
+    history = list(old_recovery.get("history", []))
+    if not history and old_entries:
+        history.append({"captured_at": old_recovery.get("captured_at"),
+                        "newly_recovered": len(old_entries),
+                        "component_ids": [x["id"] for x in old_entries]})
+    history.append(latest_batch)
+    save(cumulative_path, {
+        "schema_version": 2, "retrieval_method": "Uiverse public Remix loader",
         "captured_at": date, "newly_recovered": len(evidence),
-        "recovered": evidence, "catalog_originals": catalog_count,
+        "total_public_recovered": len(all_entries),
+        "recovered": all_entries, "history": history,
+        "latest_batch": latest_batch, "catalog_originals": catalog_count,
         "favorite_originals": favorites_count, "remaining": remaining,
         "license": "MIT declared by Uiverse on post pages",
         "consumer_implemented": False, "runtime_tested": False,
@@ -159,8 +178,8 @@ def main():
                 lines[i] = line.replace("**Da recuperare**",
                   f"[HTML](./CODICE_SORGENTE/{cid}_original.html) · [CSS](./CODICE_SORGENTE/{cid}_original.css)")
     lines.extend(["", "## Recupero pubblico del " + date[:10], "",
-        f"Nuovi originali HTML/CSS: **{len(evidence)}**. Totale catalogo: **{catalog_count}/100**;",
-        f"Favorites: **{favorites_count}/97** con codice, **{remaining}** ancora mancanti.",
+        f"Nuovi originali HTML/CSS: **{len(evidence)}**. Totale catalogo: **{catalog_count}/{len(reg['components'])}**;",
+        f"Favorites: **{favorites_count}/{len(fav['items'])}** con codice, **{remaining}** ancora mancanti.",
         "[Evidenze API](./FAVORITES/RECUPERO_API_2026_11_18.json) · [codice](./CODICE_SORGENTE/README.md). "
         "Codice Web non ancora portato/testato nei consumer.", ""])
     intro.write_text("\n".join(lines).rstrip()+"\n", encoding="utf-8")
@@ -183,8 +202,8 @@ def main():
                     UI/"FAVORITES/README.md",ROOT/"sources/UIVERSE_FAVORITES_97_AUDIT_2026-11-18.md"]:
         text = docpath.read_text(encoding="utf-8").rstrip()
         text += (f"\n\n## Aggiornamento recupero pubblico ({date[:10]})\n\n"
-                 f"Originali HTML/CSS aggiunti: **{len(evidence)}**; catalogo **{catalog_count}/100**; "
-                 f"Favorites **{favorites_count}/97**; codice non recuperato **{remaining}**. "
+                 f"Originali HTML/CSS aggiunti: **{len(evidence)}**; catalogo **{catalog_count}/{len(reg['components'])}**; "
+                 f"Favorites **{favorites_count}/{len(fav['items'])}**; codice non recuperato **{remaining}**. "
                  "Provenienza e checksum in "
                  "[RECUPERO_API](../UI-UX/UIVERSE/FAVORITES/RECUPERO_API_2026_11_18.json). "
                  "Le cifre precedenti documentano lo stato storico prima di questo recupero. "

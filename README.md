@@ -1,5 +1,11 @@
 # Design-App
 
+**QA DSK-011:** [Unslop UI (MIT), 20 segnali e adapter nativi](sources/UNSLOP_UI_AUDIT_2026-11-19.md) — capability sorgente archiviata, non un componente visivo né un Golden certificato.
+
+## Aggiornamento corrente — Uiverse Favorites
+
+**Uiverse Favorites aggiornati (18/11/2026, 17:40 Italia):** 108 link unici, +11 rispetto al precedente export, 0 rimossi; catalogo totale **111/111** con sorgente originale HTML/CSS, zero mancanti. **736 abbinamenti su 25 app**, tutti PROPOSED_ONLY. [Catalogo](./UI-UX/UIVERSE/README.md) · [Analisi dei nuovi 11](./UI-UX/UIVERSE/FAVORITES/ANALISI_REFRESH_11_2026-11-18.md) · [Diff verificato](./UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json). La completezza dell'account Uiverse resta non certificata.
+
 Central design library for Riccardo's App Factory.
 
 Design-App is the fast-retrieval layer for visual styles, UI/UX patterns, motion,
@@ -35,6 +41,17 @@ The initial Project harvest includes:
 - the 36 UI/UX/design repositories already catalogued in Analisi-delle-mie-stelle-github;
 - 37 curated GitHub design, motion, audio and tooling sources from 2026-10-27;
 - 22 extra app-design and visual interaction sources from 2026-10-30.
+
+## Anteprime visuali di tutti i componenti
+
+[Tabella canonica dei 480 componenti con colonna Anteprima](BIBLIOTECA_COMPONENTI/TABELLA_478.md) ·
+[Tabelle con immagini filtrate per ciascuna app](BIBLIOTECA_COMPONENTI/PER_APP/README.md) ·
+[Visualizzatore HTML con ingrandimento](docs/componenti.html).
+
+Le miniature renderizzate sono riferimenti visivi: **110 Uiverse acquisiti dal loro codice HTML/CSS originale**;
+le altre 368 voci sono esplicitamente in attesa di immagini verificate. Le viste per app
+sono generate dalle relazioni di `BIBLIOTECA_COMPONENTI/CATALOGO.json`, senza
+ricopiare o alterare le Product Bible.
 
 ## Fast lookup
 
@@ -236,3 +253,17 @@ Added [source-grounded audit](sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md)
 ## Aggiornamento recupero pubblico (2026-11-18)
 
 Originali HTML/CSS aggiunti: **43**; catalogo **100/100**; Favorites **97/97**; codice non recuperato **0**. Provenienza e checksum in [RECUPERO_API](../UI-UX/UIVERSE/FAVORITES/RECUPERO_API_2026_11_18.json). Le cifre precedenti documentano lo stato storico prima di questo recupero. Nessuna adozione o test su app consumer.
+
+## Aggiornamento recupero pubblico (2026-11-18)
+
+Originali HTML/CSS aggiunti: **11**; catalogo **111/111**; Favorites **108/108**; codice non recuperato **0**. Provenienza e checksum in [RECUPERO_API](../UI-UX/UIVERSE/FAVORITES/RECUPERO_API_2026_11_18.json). Le cifre precedenti documentano lo stato storico prima di questo recupero. Nessuna adozione o test su app consumer.
+
+## Biblioteca componenti — indice canonico e sorgenti offline
+
+[Apri la biblioteca](BIBLIOTECA_COMPONENTI/README.md) · [Catalogo JSON](BIBLIOTECA_COMPONENTI/CATALOGO.json) · [Ricerca locale](BIBLIOTECA_COMPONENTI/cerca.py).
+
+Dal 19 novembre 2026, l'archivio contiene **480 componenti canonici e 4 alias**: 277 sorgenti TSX Ruixen originali MIT appena acquisiti, 111 file originali Uiverse gia' in repo e altre reference non copiate senza prova di sorgente/diritti. **425 record canonici** hanno un file sorgente locale (una variante Uiverse duplicata e' alias, non una seconda voce). Gli originali TSX/HTML/CSS sono materiale di adattamento, NON nuovi widget Flutter pronti o una certificazione delle app. La priorita' del gusto dell'utente, Product Bible e Golden tecnici non cambia.
+
+### Acquisizione aggiuntiva Amicro, Watermelon, EaseUI — 19/11/2026
+
+Importati e verificati altri **38** originali React/TSX da tre repository MIT gia' catalogati: **30 Amicro**, **7 Watermelon**, **1 EaseUI**. Le licenze originali e i pin SHA sono in [sorgenti e provenance](BIBLIOTECA_COMPONENTI/sorgenti/README.md). Totale attuale: **425** sorgenti canonici archiviati e **53** reference senza codice locale. Nessun Flutter widget o app consumer modificati.

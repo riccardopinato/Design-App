@@ -1,0 +1,1080 @@
+{
+  "schema_version": 1,
+  "source_head_sha": "b5ae35f82cb22174b38496978ced49d60a94e457",
+  "baseline_date": "2026-11-19",
+  "baseline_count": 119,
+  "scope": "Missing screenshot records at request time, stable 480 canonical registry",
+  "ids": [
+    {
+      "uid": "UID-0001",
+      "canonical_id": "AMX-001",
+      "provider": "DEVLIBRARIES_AMICRO",
+      "source_reference_url": "https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/src/components/css-animations/physics/CurtainReveal.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-001.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0002",
+      "canonical_id": "AMX-002",
+      "provider": "DEVLIBRARIES_AMICRO",
+      "source_reference_url": "https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/registry/ui/cursor/cursor-trail.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-002.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0003",
+      "canonical_id": "AMX-003",
+      "provider": "DEVLIBRARIES_AMICRO",
+      "source_reference_url": "https://devlibraries.com/libraries/amicro/perspective-flip",
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "MIT_REPO_REFERENCE"
+    },
+    {
+      "uid": "UID-0004",
+      "canonical_id": "AMX-004",
+      "provider": "DEVLIBRARIES_AMICRO",
+      "source_reference_url": "https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/registry/ui/scroll/scroll-reveal.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-004.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0005",
+      "canonical_id": "AMX-005",
+      "provider": "DEVLIBRARIES_AMICRO",
+      "source_reference_url": "https://devlibraries.com/libraries/amicro/spatial-door-portal",
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "MIT_REPO_REFERENCE"
+    },
+    {
+      "uid": "UID-0006",
+      "canonical_id": "AMX-006",
+      "provider": "DEVLIBRARIES_AMICRO",
+      "source_reference_url": "https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/registry/ui/loading/accordion-loader.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-006.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0007",
+      "canonical_id": "DBM-002",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-002.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0008",
+      "canonical_id": "DBM-003",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-003.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0009",
+      "canonical_id": "DBM-004",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-004.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0010",
+      "canonical_id": "DBM-005",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-005.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0011",
+      "canonical_id": "DBM-006",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-006.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0012",
+      "canonical_id": "DBM-007",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-007.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0013",
+      "canonical_id": "DBM-008",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-008.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0014",
+      "canonical_id": "DBM-009",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-009.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0015",
+      "canonical_id": "DBM-010",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-010.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0016",
+      "canonical_id": "DBM-011",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-011.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0017",
+      "canonical_id": "DBM-012",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-012.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0018",
+      "canonical_id": "DBM-013",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-013.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0019",
+      "canonical_id": "DBM-014",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-014.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0020",
+      "canonical_id": "DBM-015",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-015.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0021",
+      "canonical_id": "DBM-016",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-016.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0022",
+      "canonical_id": "DBM-017",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-017.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0023",
+      "canonical_id": "DBM-019",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-019.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0024",
+      "canonical_id": "DBM-020",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-020.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0025",
+      "canonical_id": "DBM-022",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-022.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0026",
+      "canonical_id": "DBM-023",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-023.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0027",
+      "canonical_id": "DBM-024",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/dbm-024.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0028",
+      "canonical_id": "DBM-025",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-025.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0029",
+      "canonical_id": "DBM-026",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-026.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0030",
+      "canonical_id": "DBM-027",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "LICENSE_NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0031",
+      "canonical_id": "DBM-028",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "LICENSE_NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0032",
+      "canonical_id": "DBM-029",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "LICENSE_NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0033",
+      "canonical_id": "DBM-030",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "source_reference_url": null,
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "LICENSE_NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0034",
+      "canonical_id": "DSP-001",
+      "provider": "DEVLIBRARIES_EASEUI",
+      "source_reference_url": "https://devlibraries.com/libraries/easeui",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/easeui/dsp-001.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0035",
+      "canonical_id": "DSP-002",
+      "provider": "DEVLIBRARIES_AMICRO",
+      "source_reference_url": "https://devlibraries.com/libraries/amicro/card-stack-peel",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dsp-002.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0036",
+      "canonical_id": "DSP-003",
+      "provider": "DEVLIBRARIES_AMICRO",
+      "source_reference_url": "https://devlibraries.com/libraries/amicro",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dsp-003.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0037",
+      "canonical_id": "DSP-004",
+      "provider": "DEVLIBRARIES_AMICRO",
+      "source_reference_url": "https://devlibraries.com/libraries/amicro",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dsp-004.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0038",
+      "canonical_id": "DSP-005",
+      "provider": "DEVLIBRARIES_AMICRO",
+      "source_reference_url": "https://devlibraries.com/libraries/amicro",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dsp-005.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0039",
+      "canonical_id": "DSP-006",
+      "provider": "USER_IMAGE",
+      "source_reference_url": null,
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "PERSONAL_REFERENCE_ONLY"
+    },
+    {
+      "uid": "UID-0040",
+      "canonical_id": "FCL-001",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "source_reference_url": "https://fluttercomponentlibrary.com/pages/components/docking-bar.html",
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0041",
+      "canonical_id": "FCL-002",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "source_reference_url": "https://fluttercomponentlibrary.com/pages/components/custom-buttons.html",
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0042",
+      "canonical_id": "FCL-003",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "source_reference_url": "https://fluttercomponentlibrary.com/pages/components/filter-button.html",
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0043",
+      "canonical_id": "FCL-004",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "source_reference_url": "https://fluttercomponentlibrary.com/pages/components/banner-info.html",
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0044",
+      "canonical_id": "FCL-005",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "source_reference_url": "https://fluttercomponentlibrary.com/pages/components/bottom-sheet.html",
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0045",
+      "canonical_id": "FCL-006",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "source_reference_url": "https://fluttercomponentlibrary.com/pages/components/book-shelf.html",
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0046",
+      "canonical_id": "FCL-007",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "source_reference_url": "https://fluttercomponentlibrary.com/pages/components/slide-to-act.html",
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0047",
+      "canonical_id": "FCL-008",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "source_reference_url": "https://fluttercomponentlibrary.com/pages/components/faq-widget.html",
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0048",
+      "canonical_id": "FCL-009",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "source_reference_url": "https://fluttercomponentlibrary.com/pages/components/stepper.html",
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0049",
+      "canonical_id": "FCL-010",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "source_reference_url": "https://fluttercomponentlibrary.com/pages/components/slider.html",
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0050",
+      "canonical_id": "FCL-011",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "source_reference_url": "https://fluttercomponentlibrary.com/pages/components/plan-card.html",
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0051",
+      "canonical_id": "FCL-012",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "source_reference_url": "https://fluttercomponentlibrary.com/pages/components/scratcher.html",
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0052",
+      "canonical_id": "FCL-013",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "source_reference_url": "https://fluttercomponentlibrary.com/pages/components/page-flipper.html",
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0053",
+      "canonical_id": "FCL-014",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "source_reference_url": "https://fluttercomponentlibrary.com/pages/components/drawer.html",
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0054",
+      "canonical_id": "FCL-015",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "source_reference_url": "https://fluttercomponentlibrary.com/pages/components/draggable-fab.html",
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0090",
+      "canonical_id": "RXN-animated-beam",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-beam.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-beam.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0091",
+      "canonical_id": "RXN-animated-circular-progress-bar",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-circular-progress-bar.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-circular-progress-bar.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0092",
+      "canonical_id": "RXN-animated-gradient-text",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-gradient-text.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-gradient-text.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0093",
+      "canonical_id": "RXN-animated-grid-pattern",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-grid-pattern.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-grid-pattern.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0096",
+      "canonical_id": "RXN-animated-list",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-list.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-list.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0098",
+      "canonical_id": "RXN-animated-shiny-text",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-shiny-text.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-shiny-text.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0099",
+      "canonical_id": "RXN-animated-subscribe-button",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-subscribe-button.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-subscribe-button.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0103",
+      "canonical_id": "RXN-arc-timeline",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/arc-timeline.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/arc-timeline.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0104",
+      "canonical_id": "RXN-aurora-text",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/aurora-text.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/aurora-text.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0107",
+      "canonical_id": "RXN-avatar-circles",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/avatar-circles.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/avatar-circles.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0117",
+      "canonical_id": "RXN-behavioral-history-select",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/behavioral-history-select.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/behavioral-history-select.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0119",
+      "canonical_id": "RXN-blur-fade",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/blur-fade.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/blur-fade.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0122",
+      "canonical_id": "RXN-box-reveal",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/box-reveal.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/box-reveal.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0138",
+      "canonical_id": "RXN-carousel-3d-select",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/carousel-3d-select.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/carousel-3d-select.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0155",
+      "canonical_id": "RXN-code-comparison",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/code-comparison.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/code-comparison.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0158",
+      "canonical_id": "RXN-comic-text",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/comic-text.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/comic-text.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0159",
+      "canonical_id": "RXN-command-deck",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/command-deck.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/command-deck.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0163",
+      "canonical_id": "RXN-cool-mode",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/cool-mode.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/cool-mode.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0170",
+      "canonical_id": "RXN-dot-pattern",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/dot-pattern.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/dot-pattern.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0183",
+      "canonical_id": "RXN-file-tree",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/file-tree.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/file-tree.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0185",
+      "canonical_id": "RXN-flash-sale-banner",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/flash-sale-banner.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/flash-sale-banner.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0186",
+      "canonical_id": "RXN-flickering-grid",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/flickering-grid.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/flickering-grid.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0199",
+      "canonical_id": "RXN-glow-tree",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/glow-tree.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glow-tree.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0200",
+      "canonical_id": "RXN-glowing-send-input",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/glowing-send-input.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0205",
+      "canonical_id": "RXN-gradient-reveal-text",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/gradient-reveal-text.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/gradient-reveal-text.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0215",
+      "canonical_id": "RXN-hyper-text",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/hyper-text.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/hyper-text.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0216",
+      "canonical_id": "RXN-icon-cloud",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/icon-cloud.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/icon-cloud.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0224",
+      "canonical_id": "RXN-interactive-grid-pattern",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/interactive-grid-pattern.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/interactive-grid-pattern.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0227",
+      "canonical_id": "RXN-iphone-15-pro",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/iphone-15-pro.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/iphone-15-pro.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0228",
+      "canonical_id": "RXN-line-shadow-text",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/line-shadow-text.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/line-shadow-text.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0229",
+      "canonical_id": "RXN-linear-mask",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/linear-mask.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/linear-mask.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0237",
+      "canonical_id": "RXN-mode-toggle",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/mode-toggle.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/mode-toggle.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0240",
+      "canonical_id": "RXN-morphing-text",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/morphing-text.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/morphing-text.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0257",
+      "canonical_id": "RXN-neon-gradient-card",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/neon-gradient-card.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/neon-gradient-card.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0263",
+      "canonical_id": "RXN-number-ticker",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/number-ticker.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/number-ticker.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0265",
+      "canonical_id": "RXN-package-installer-tabs",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/package-installer-tabs.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/package-installer-tabs.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0271",
+      "canonical_id": "RXN-pixel-image",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/pixel-image.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/pixel-image.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0286",
+      "canonical_id": "RXN-progressive-blur",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/progressive-blur.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/progressive-blur.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0293",
+      "canonical_id": "RXN-retro-grid",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/retro-grid.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/retro-grid.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0300",
+      "canonical_id": "RXN-ruixen-prompt-box",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/ruixen-prompt-box.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/ruixen-prompt-box.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0301",
+      "canonical_id": "RXN-ruixen-query-box",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/ruixen-query-box.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/ruixen-query-box.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0304",
+      "canonical_id": "RXN-scratch-to-reveal",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scratch-to-reveal.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scratch-to-reveal.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0305",
+      "canonical_id": "RXN-script-copy-btn",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/script-copy-btn.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/script-copy-btn.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0306",
+      "canonical_id": "RXN-scroll-based-velocity",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scroll-based-velocity.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scroll-based-velocity.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0312",
+      "canonical_id": "RXN-scroll-progress",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scroll-progress.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scroll-progress.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0316",
+      "canonical_id": "RXN-scrub-datetime",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scrub-datetime.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scrub-datetime.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0320",
+      "canonical_id": "RXN-shine-border",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/shine-border.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/shine-border.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0321",
+      "canonical_id": "RXN-shiny-button",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/shiny-button.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/shiny-button.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0326",
+      "canonical_id": "RXN-smooth-cursor",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/smooth-cursor.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/smooth-cursor.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0330",
+      "canonical_id": "RXN-sparkles-text",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/sparkles-text.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/sparkles-text.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0341",
+      "canonical_id": "RXN-text-animate",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/text-animate.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/text-animate.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0342",
+      "canonical_id": "RXN-text-reveal",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/text-reveal.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/text-reveal.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0347",
+      "canonical_id": "RXN-typing-animation",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/typing-animation.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/typing-animation.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0353",
+      "canonical_id": "RXN-video-text",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/video-text.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/video-text.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0355",
+      "canonical_id": "RXN-warp-background",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/warp-background.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/warp-background.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0358",
+      "canonical_id": "RXN-word-rotate",
+      "provider": "RUIXEN",
+      "source_reference_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/word-rotate.tsx",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/word-rotate.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_SOURCE_PINNED"
+    },
+    {
+      "uid": "UID-0470",
+      "canonical_id": "WML-001",
+      "provider": "DEVLIBRARIES_WATERMELON",
+      "source_reference_url": "https://devlibraries.com/libraries/watermelon/carousel-slider",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-001.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0471",
+      "canonical_id": "WML-002",
+      "provider": "DEVLIBRARIES_WATERMELON",
+      "source_reference_url": "https://devlibraries.com/libraries/watermelon/fractional-picker",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-002.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0472",
+      "canonical_id": "WML-003",
+      "provider": "DEVLIBRARIES_WATERMELON",
+      "source_reference_url": "https://devlibraries.com/libraries/watermelon/scrub-slider-base",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-003.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0473",
+      "canonical_id": "WML-004",
+      "provider": "DEVLIBRARIES_WATERMELON",
+      "source_reference_url": "https://devlibraries.com/libraries/watermelon/range-selection-slider",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-004.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0474",
+      "canonical_id": "WML-005",
+      "provider": "DEVLIBRARIES_WATERMELON",
+      "source_reference_url": "https://devlibraries.com/libraries/watermelon/swap-form",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-005.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0475",
+      "canonical_id": "WML-006",
+      "provider": "DEVLIBRARIES_WATERMELON",
+      "source_reference_url": "https://devlibraries.com/libraries/watermelon/text-gradient",
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "MIT_REPO_REFERENCE"
+    },
+    {
+      "uid": "UID-0476",
+      "canonical_id": "WML-007",
+      "provider": "DEVLIBRARIES_WATERMELON",
+      "source_reference_url": "https://devlibraries.com/libraries/watermelon/dialog-stack-base",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-007.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED"
+    },
+    {
+      "uid": "UID-0477",
+      "canonical_id": "WML-008",
+      "provider": "DEVLIBRARIES_WATERMELON",
+      "source_reference_url": "https://devlibraries.com/libraries/watermelon/notification-list",
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "MIT_REPO_REFERENCE"
+    },
+    {
+      "uid": "UID-0478",
+      "canonical_id": "WML-009",
+      "provider": "DEVLIBRARIES_WATERMELON",
+      "source_reference_url": "https://devlibraries.com/libraries/watermelon/flip-clock",
+      "original_source_path": null,
+      "original_archive_state": "REFERENCE_ONLY",
+      "license_state": "MIT_REPO_REFERENCE"
+    }
+  ]
+}

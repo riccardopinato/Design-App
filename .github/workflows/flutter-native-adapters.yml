@@ -1,0 +1,41 @@
+name: Flutter native adapter analysis and widget tests
+
+on:
+  pull_request:
+    paths:
+      - "BIBLIOTECA_COMPONENTI/flutter_adapters/**"
+      - "BIBLIOTECA_COMPONENTI/FLUTTER_VARIANTS.json"
+      - ".github/workflows/flutter-native-adapters.yml"
+  push:
+    branches:
+      - feature/flutter-dual-code-preview-recovery-20261119
+    paths:
+      - "BIBLIOTECA_COMPONENTI/flutter_adapters/**"
+      - ".github/workflows/flutter-native-adapters.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  adapter-tests:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    defaults:
+      run:
+        working-directory: BIBLIOTECA_COMPONENTI/flutter_adapters
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2
+        with:
+          flutter-version: "3.50.0"
+          channel: stable
+          cache: true
+      - name: Flutter / Dart versions
+        run: flutter --version
+      - name: Resolve lightweight dependencies
+        run: flutter pub get
+      - name: Flutter static analyzer
+        run: flutter analyze
+      - name: Adapter widget tests
+        run: flutter test

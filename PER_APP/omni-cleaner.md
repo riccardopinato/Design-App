@@ -1,8 +1,27 @@
 # Omni Cleaner — Dossier Design-App
 
+**Anteprime dei componenti:** [tabella con miniature, ID, fonte e stato](../BIBLIOTECA_COMPONENTI/PER_APP/omni-cleaner.md). Le immagini mancanti sono indicate esplicitamente.
+
+
 **Registro permanente:** `PER_APP/omni-cleaner.md` · [Indice](./README.md) · [Profilo JSON](./REGISTRO_APP_DESIGN.json) · [Matrice icone](../ICONE/MATRICE_APP_ICONE.md) · [Fonti di design](../UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.md)
 
 **Stato delle proposte:** `PROPOSAL_ONLY` — non sono stati ispezionati il codice HEAD o la Product Bible della singola app in questo lavoro. Le scelte visive già approvate nei repository delle app prevalgono; nessun asset copiato, nessun test consumer, nessuna integrazione.
+
+## Riconciliazione consumer — PR #35 e P1/P2 · 18/11/2026
+
+**Evidenza consumer verificata:** Android Omni Cleaner PR #35 **merged** su main, commit `b2bd4381ddd6e7e880eebb3a25b6bee03d9aafec`, CI Android e screenshot API 35 PASS sul source head `3ae3487a164bb4eedb9cb0b4068477e074c22a31`; 20 screenshot sottoposti ad audit visivo. Il testo storico `PROPOSAL_ONLY` di questo dossier si riferisce esclusivamente all'intake del catalogo del 17 novembre, **non allo stato attuale del consumer**.
+
+**Pattern adattati nel consumer (non import di codice di terzi):**
+- `UIX-STYLE-006` / `DCL-002`: raggruppamento delle nove funzioni Clean, status `SOURCE_IMPLEMENTED / CI_TESTED`.
+- `UIX-STYLE-009` / `DCL-007`: schede navigazione Privacy e Pro, status `SOURCE_IMPLEMENTED / CI_TESTED`.
+- `DCL-004`: navigazione su schermate dedicate, status `SOURCE_IMPLEMENTED / CI_TESTED`.
+- `DCL-006`: foto/video con `ContentScale.Fit` e video fullscreen nativo, status `SOURCE_IMPLEMENTED / EMULATOR_SMOKE`; la resa visiva dei fotogrammi non è ancora certificata.
+- `DCL-005`: stati reali di scansione, nessun progresso inventato, status `SOURCE_IMPLEMENTED / CI_TESTED`.
+- `WML-003`: idea di timeline, adattata tramite `VideoView + MediaController`, **non componente Watermelon implementato direttamente**.
+
+**Correzioni aperte:** [PR #37](https://github.com/riccardopinato/Android-Omni-Cleaner/pull/37), ramo P1/P2 **DRAFT / CI_PENDING** al momento di questa annotazione. Include filtri Gallery responsive, selected states, gerarchia CTA, Bento, messaggi/provider e fixture video luminosa. Non promuovere nessuna di queste correzioni a `CI_TESTED` o `RUNTIME_VISUAL_REVIEWED` finché i gate esatti e la revisione delle nuove schermate non passano.
+
+**Nessuna promozione implicita dei donor originali:** catalogo Uiverse, Watermelon, Gentleface e stili restano `REFERENCE / PROPOSED_ONLY` come componenti terzi. La precedente lista di fonti e preferenze resta integra, così come le condizioni di licenza e verifica.
 
 ## Identità e direzione visiva
 
@@ -224,3 +243,23 @@ Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze
 | [UIV-099](https://uiverse.io/xXJollyHAKERXx/lucky-falcon-75) | LOADER | Scansione memoria/duplicati con stato reale | HIGH | [Originale HTML/CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-099_original.html) |
 
 [Registro 97 Favorites](../UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json) · [Matrice complessiva 25 app](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md) · [Archivio codice](../UI-UX/UIVERSE/CODICE_SORGENTE/README.md). Stato: **PROPOSED_ONLY**.
+
+## Uiverse — refresh preferiti 108 (18/11/2026)
+
+**2 nuove associazioni** da originali HTML/CSS pubblici Uiverse, nessuna modifica runtime dell'app.
+
+| Sorgente | Famiglia | Superficie proposta | Fit | Codice sorgente |
+|---|---|---|---|---|
+| [UIV-106](https://uiverse.io/doniaskima/cowardly-frog-28) | LOADER | Feedback scansione duplicati effettivamente avviata | HIGH | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-106_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-106_original.css) |
+| [UIV-110](https://uiverse.io/roroland/average-horse-2) | TOOLTIP | Informazioni su file duplicati prima della cancellazione | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-110_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-110_original.css) |
+
+Stato: **PROPOSED_ONLY**; nessuna nuova funzione/login è autorizzata da questi suggerimenti.
+
+[Confronto 97→108](../UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json) · [Analisi dei nuovi 11](../UI-UX/UIVERSE/FAVORITES/ANALISI_REFRESH_11_2026-11-18.json).
+
+
+## DSK-011 — Unslop UI, audit sottrattivo (19/11/2026)
+
+**PROPOSED_ONLY · fonte OSS MIT** [felipebasurto/unslop-ui @ cd891160453f26aaacc569bad96a8d10d595076d](https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d). [Audit e limiti](../sources/UNSLOP_UI_AUDIT_2026-11-19.md) · [matrice di associazione](../UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json).
+
+**Proposta:** Kotlin/Compose: valuta eyebrow non pertinenti, badge/dot di stato, grafici e pulizia della gerarchia; non alterare RC1, funzioni distruttive o la Home approvata. Le U1–U20 sono controlli diagnostici e alias degli AT-01…AT-64, non un nuovo tema. Riutilizzo **ADAPT_NATIVE / SOURCE_REVIEW**; nessun automatismo rimuove elementi, nessun consumer certificato da questo dossier. Product Bible e reference preferite restano prioritarie. Stato visivo/fisico: **NOT_VERIFIED**.

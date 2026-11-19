@@ -10,7 +10,7 @@
   "counts": {
     "app_profiles": 25,
     "icon_links": 114,
-    "skill_links": 96,
+    "skill_links": 101,
     "cooking_icon_concepts": 36,
     "voice_orb_candidate_apps": 10,
     "motion_design_candidate_apps": 19,
@@ -27,12 +27,14 @@
     "uiverse_batch_components": 9,
     "uiverse_batch_apps": 20,
     "uiverse_batch_relations": 64,
-    "uiverse_total_components": 100,
-    "uiverse_user_favorites": 97,
-    "uiverse_original_sources": 100,
+    "uiverse_total_components": 111,
+    "uiverse_user_favorites": 108,
+    "uiverse_original_sources": 111,
     "uiverse_pending_sources": 0,
-    "uiverse_app_links": 657,
-    "uiverse_mapped_apps": 25
+    "uiverse_app_links": 736,
+    "uiverse_mapped_apps": 25,
+    "unslop_ui_candidate_apps": 5,
+    "unslop_ui_candidate_relations": 5
   },
   "profiles": [
     {
@@ -204,7 +206,7 @@
       "name": "Anna's Diary",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-19",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -225,7 +227,12 @@
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+        "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
+        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json"
       ],
       "category_ideas": [
         "diario e ricordi",
@@ -438,6 +445,13 @@
           "fit": "HIGH",
           "surface": "feature showcase and app-store creative",
           "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-011",
+          "name": "Unslop UI",
+          "fit": "HIGH",
+          "surface": "Editorial Today, Calendar, Memories, Settings: diagnose ornamental copy without removing approved Organic iOS Journal and Lora/Manrope/Rose/HSV",
+          "status": "PROPOSED_ONLY"
         }
       ],
       "source_variants_needed": [],
@@ -581,6 +595,38 @@
             "UIV-098"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_FAVORITES_REFRESH_108_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://uiverse.io/favorites",
+          "source": "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+          "component_ids": [
+            "UIV-101",
+            "UIV-102",
+            "UIV-104",
+            "UIV-105",
+            "UIV-109",
+            "UIV-111"
+          ],
+          "note": "6 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "FLUTTER_UI_SOURCES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+          "note": "Package shortlist only; Design-App-first and consumer verification required.",
+          "origin": "https://fluttergems.dev/"
+        },
+        {
+          "date": "2026-11-19",
+          "type": "UNSLOP_UI_2026_11_19",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
+          "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
+          "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
         }
       ],
       "voice_ui_candidates": [
@@ -1381,8 +1427,100 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        },
+        {
+          "component_id": "UIV-101",
+          "fit": "MEDIUM",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-102",
+          "fit": "HIGH",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-104",
+          "fit": "MEDIUM",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-105",
+          "fit": "HIGH",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-109",
+          "fit": "HIGH",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-111",
+          "fit": "MEDIUM",
+          "surface": "Inserimento nome/codice Insieme senza nuovo login, preservando privacy e sync",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
         }
-      ]
+      ],
+      "flutter_ui_library_candidates_2026_27": [
+        {
+          "source": "Forui",
+          "fit": "MEDIUM",
+          "surface": "form controls consistent with already-approved diary styling",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "source": "Mix",
+          "fit": "HIGH",
+          "surface": "product-owned theme tokens",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
+        }
+      ],
+      "unslop_ui_candidate_2026_11_19": {
+        "source_id": "DSK-011",
+        "status": "PROPOSED_ONLY",
+        "maturity": "REFERENCE",
+        "reuse_mode": "ADAPT_NATIVE_NOT_RUNTIME",
+        "fit": "HIGH",
+        "scope": "Editorial Today, Calendar, Memories, Settings: diagnose ornamental copy without removing approved Organic iOS Journal and Lora/Manrope/Rose/HSV",
+        "safeguard": "Keep Classic reversible, privacy and all supported locales",
+        "consumer_implementation": "NOT_VERIFIED"
+      }
     },
     {
       "id": "app-factory-dashboard",
@@ -1410,7 +1548,8 @@
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
       ],
       "category_ideas": [
         "repository e branch",
@@ -1702,6 +1841,24 @@
             "UIV-096"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_FAVORITES_REFRESH_108_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://uiverse.io/favorites",
+          "source": "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+          "component_ids": [
+            "UIV-101",
+            "UIV-102",
+            "UIV-103",
+            "UIV-104",
+            "UIV-105",
+            "UIV-106",
+            "UIV-110",
+            "UIV-111"
+          ],
+          "note": "8 original Web references mapped to existing product flows; no app code or login provider changed"
         }
       ],
       "voice_ui_candidates": [
@@ -2595,6 +2752,94 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        },
+        {
+          "component_id": "UIV-101",
+          "fit": "MEDIUM",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-102",
+          "fit": "MEDIUM",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-103",
+          "fit": "HIGH",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-104",
+          "fit": "MEDIUM",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-105",
+          "fit": "MEDIUM",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-106",
+          "fit": "MEDIUM",
+          "surface": "Verifica repository GitHub realmente avviata",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-110",
+          "fit": "HIGH",
+          "surface": "Tooltip differenza Implemented/Verified e evidenze",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-111",
+          "fit": "MEDIUM",
+          "surface": "Form gestione idea, capability o filtri dell'inventario",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
         }
       ]
     },
@@ -2623,7 +2868,12 @@
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+        "sources/MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md",
+        "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json"
       ],
       "category_ideas": [
         "batteria",
@@ -2865,6 +3115,34 @@
             "UIV-098"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_FAVORITES_REFRESH_108_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://uiverse.io/favorites",
+          "source": "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+          "component_ids": [
+            "UIV-106",
+            "UIV-110"
+          ],
+          "note": "2 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "FLUTTER_UI_SOURCES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+          "note": "Package shortlist only; Design-App-first and consumer verification required.",
+          "origin": "https://fluttergems.dev/"
+        },
+        {
+          "date": "2026-11-19",
+          "type": "MATERIAL3_SELECTIVE_OPTION_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://m3.material.io/",
+          "source": "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json",
+          "note": "Material 3 is a possible app-specific utility UI choice, not default/ban; implementation and actual stack NOT_VERIFIED; no consumer changes."
         }
       ],
       "motion_design_candidates": [
@@ -3474,8 +3752,48 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        },
+        {
+          "component_id": "UIV-106",
+          "fit": "MEDIUM",
+          "surface": "Aggiornamento telemetria batteria realmente in corso",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-110",
+          "fit": "MEDIUM",
+          "surface": "Spiegazione dello stato della carica",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
         }
-      ]
+      ],
+      "flutter_ui_library_candidates_2026_27": [
+        {
+          "source": "FL Chart",
+          "fit": "HIGH",
+          "surface": "battery measurements with real data",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
+        }
+      ],
+      "material3_optional_design_reference": {
+        "source_id": "DESIGN-SITE-014",
+        "source_url": "https://m3.material.io/",
+        "fit": "MEDIUM",
+        "scope": "battery diagnostics/settings and compact summary widgets; avoid stock dashboard look",
+        "status": "PROPOSED_ONLY",
+        "decision": "NOT_DECIDED",
+        "implementation": "NOT_VERIFIED"
+      }
     },
     {
       "id": "beerclass-ai",
@@ -3501,7 +3819,8 @@
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
       ],
       "category_ideas": [
         "bicchiere/beer mug",
@@ -3659,6 +3978,21 @@
             "UIV-092"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_FAVORITES_REFRESH_108_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://uiverse.io/favorites",
+          "source": "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+          "component_ids": [
+            "UIV-101",
+            "UIV-103",
+            "UIV-105",
+            "UIV-107",
+            "UIV-109"
+          ],
+          "note": "5 original Web references mapped to existing product flows; no app code or login provider changed"
         }
       ],
       "voice_ui_candidates": [
@@ -4009,6 +4343,61 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        },
+        {
+          "component_id": "UIV-101",
+          "fit": "MEDIUM",
+          "surface": "Input Rapid Log birra, nessun nuovo login",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-103",
+          "fit": "MEDIUM",
+          "surface": "Input Rapid Log birra, nessun nuovo login",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-105",
+          "fit": "MEDIUM",
+          "surface": "Input Rapid Log birra, nessun nuovo login",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-107",
+          "fit": "HIGH",
+          "surface": "Acquisizione codice a barre o catalogazione realmente attiva",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-109",
+          "fit": "MEDIUM",
+          "surface": "Input Rapid Log birra, nessun nuovo login",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
         }
       ]
     },
@@ -4037,7 +4426,10 @@
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "camper/van",
@@ -4266,6 +4658,28 @@
             "UIV-095"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_FAVORITES_REFRESH_108_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://uiverse.io/favorites",
+          "source": "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+          "component_ids": [
+            "UIV-102",
+            "UIV-107",
+            "UIV-109",
+            "UIV-111"
+          ],
+          "note": "4 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "FLUTTER_UI_SOURCES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+          "note": "Package shortlist only; Design-App-first and consumer verification required.",
+          "origin": "https://fluttergems.dev/"
         }
       ],
       "voice_ui_candidates": [
@@ -4869,6 +5283,66 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        },
+        {
+          "component_id": "UIV-102",
+          "fit": "MEDIUM",
+          "surface": "Input destinazione/itinerario anche offline",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-107",
+          "fit": "MEDIUM",
+          "surface": "Importazione dati offline in corso",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-109",
+          "fit": "MEDIUM",
+          "surface": "Input destinazione/itinerario anche offline",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-111",
+          "fit": "MEDIUM",
+          "surface": "Input destinazione/itinerario anche offline",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        }
+      ],
+      "flutter_ui_library_candidates_2026_27": [
+        {
+          "source": "Forui",
+          "fit": "MEDIUM",
+          "surface": "offline-friendly forms",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "source": "Mix",
+          "fit": "MEDIUM",
+          "surface": "travel-focused tokens",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
         }
       ]
     },
@@ -4897,7 +5371,8 @@
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
       ],
       "category_ideas": [
         "portafoglio",
@@ -5106,6 +5581,22 @@
             "UIV-098"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_FAVORITES_REFRESH_108_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://uiverse.io/favorites",
+          "source": "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+          "component_ids": [
+            "UIV-101",
+            "UIV-103",
+            "UIV-104",
+            "UIV-105",
+            "UIV-110",
+            "UIV-111"
+          ],
+          "note": "6 original Web references mapped to existing product flows; no app code or login provider changed"
         }
       ],
       "motion_design_candidates": [
@@ -5643,6 +6134,72 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        },
+        {
+          "component_id": "UIV-101",
+          "fit": "HIGH",
+          "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-103",
+          "fit": "HIGH",
+          "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-104",
+          "fit": "HIGH",
+          "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-105",
+          "fit": "HIGH",
+          "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-110",
+          "fit": "MEDIUM",
+          "surface": "Legenda dei termini o indicatori finanziari",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-111",
+          "fit": "HIGH",
+          "surface": "Accesso Google opzionale o modifica profilo, senza nuovo provider",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
         }
       ]
     },
@@ -5651,7 +6208,7 @@
       "name": "Cooking Anime",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-19",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -5669,7 +6226,10 @@
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
+        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json"
       ],
       "category_ideas": [
         "kawaii-gattini",
@@ -5810,6 +6370,13 @@
           "name": "Stageshow",
           "fit": "HIGH",
           "surface": "app store promotional cards",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-011",
+          "name": "Unslop UI",
+          "fit": "MEDIUM",
+          "surface": "Recipe panels and culinary image-first UI: clear copy and real badges",
           "status": "PROPOSED_ONLY"
         }
       ],
@@ -6500,6 +7067,30 @@
             "UIV-092"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_FAVORITES_REFRESH_108_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://uiverse.io/favorites",
+          "source": "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+          "component_ids": [
+            "UIV-102",
+            "UIV-104",
+            "UIV-105",
+            "UIV-107",
+            "UIV-108",
+            "UIV-109"
+          ],
+          "note": "6 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-19",
+          "type": "UNSLOP_UI_2026_11_19",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
+          "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
+          "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
         }
       ],
       "voice_ui_candidates": [
@@ -7178,8 +7769,84 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        },
+        {
+          "component_id": "UIV-102",
+          "fit": "MEDIUM",
+          "surface": "Input ricetta, ingredienti o titolo",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-104",
+          "fit": "MEDIUM",
+          "surface": "Input ricetta, ingredienti o titolo",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-105",
+          "fit": "MEDIUM",
+          "surface": "Input ricetta, ingredienti o titolo",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-107",
+          "fit": "HIGH",
+          "surface": "Caricamento ricetta o salvataggio realmente in corso",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-108",
+          "fit": "HIGH",
+          "surface": "Input ricetta, ingredienti o titolo",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-109",
+          "fit": "MEDIUM",
+          "surface": "Input ricetta, ingredienti o titolo",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
         }
-      ]
+      ],
+      "unslop_ui_candidate_2026_11_19": {
+        "source_id": "DSK-011",
+        "status": "PROPOSED_ONLY",
+        "maturity": "REFERENCE",
+        "reuse_mode": "ADAPT_NATIVE_NOT_RUNTIME",
+        "fit": "MEDIUM",
+        "scope": "Recipe panels and culinary image-first UI: clear copy and real badges",
+        "safeguard": "Do not rewrite ingredients, recipe translations, allergen/safety content",
+        "consumer_implementation": "NOT_VERIFIED"
+      }
     },
     {
       "id": "deskland-android",
@@ -7206,7 +7873,8 @@
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
       ],
       "category_ideas": [
         "desktop",
@@ -7418,6 +8086,17 @@
             "UIV-098"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_FAVORITES_REFRESH_108_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://uiverse.io/favorites",
+          "source": "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+          "component_ids": [
+            "UIV-108"
+          ],
+          "note": "1 original Web references mapped to existing product flows; no app code or login provider changed"
         }
       ],
       "voice_ui_candidates": [
@@ -7902,6 +8581,17 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        },
+        {
+          "component_id": "UIV-108",
+          "fit": "HIGH",
+          "surface": "Form interattivo del launcher, originalità grafica vincolante",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
         }
       ]
     },
@@ -7926,7 +8616,8 @@
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
       ],
       "category_ideas": [
         "package app",
@@ -8085,6 +8776,17 @@
             "UIV-086"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_FAVORITES_REFRESH_108_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://uiverse.io/favorites",
+          "source": "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+          "component_ids": [
+            "UIV-106"
+          ],
+          "note": "1 original Web references mapped to existing product flows; no app code or login provider changed"
         }
       ],
       "motion_design_candidates": [
@@ -8476,6 +9178,17 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        },
+        {
+          "component_id": "UIV-106",
+          "fit": "MEDIUM",
+          "surface": "Esecuzione debloat autorizzata, con annullamento ed esito",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
         }
       ]
     },
@@ -8497,7 +9210,8 @@
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
       ],
       "category_ideas": [
         "organi",
@@ -8594,6 +9308,18 @@
             "UIV-095"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_FAVORITES_REFRESH_108_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://uiverse.io/favorites",
+          "source": "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+          "component_ids": [
+            "UIV-108",
+            "UIV-110"
+          ],
+          "note": "2 original Web references mapped to existing product flows; no app code or login provider changed"
         }
       ],
       "amicro_six_candidates": [
@@ -8743,6 +9469,28 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        },
+        {
+          "component_id": "UIV-108",
+          "fit": "MEDIUM",
+          "surface": "Form risposta quiz reinterpretato in stile videogioco generico",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-110",
+          "fit": "MEDIUM",
+          "surface": "Definizione di un termine anatomico con supporto touch",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
         }
       ]
     },
@@ -8770,7 +9518,10 @@
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "sources/MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md",
+        "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json"
       ],
       "category_ideas": [
         "attenzione",
@@ -8946,6 +9697,25 @@
             "UIV-096"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_FAVORITES_REFRESH_108_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://uiverse.io/favorites",
+          "source": "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+          "component_ids": [
+            "UIV-110"
+          ],
+          "note": "1 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-19",
+          "type": "MATERIAL3_SELECTIVE_OPTION_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://m3.material.io/",
+          "source": "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json",
+          "note": "Material 3 is a possible app-specific utility UI choice, not default/ban; implementation and actual stack NOT_VERIFIED; no consumer changes."
         }
       ],
       "motion_design_candidates": [
@@ -9286,8 +10056,28 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        },
+        {
+          "component_id": "UIV-110",
+          "fit": "MEDIUM",
+          "surface": "Tooltip significato Focus Score",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
         }
-      ]
+      ],
+      "material3_optional_design_reference": {
+        "source_id": "DESIGN-SITE-014",
+        "source_url": "https://m3.material.io/",
+        "fit": "HIGH",
+        "scope": "controls, settings, focus filters and real sensor indicators; maintain focus-centric brand",
+        "status": "PROPOSED_ONLY",
+        "decision": "NOT_DECIDED",
+        "implementation": "NOT_VERIFIED"
+      }
     },
     {
       "id": "framelab",
@@ -9315,7 +10105,10 @@
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "fotografia",
@@ -9593,6 +10386,28 @@
             "UIV-092"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_FAVORITES_REFRESH_108_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://uiverse.io/favorites",
+          "source": "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+          "component_ids": [
+            "UIV-105",
+            "UIV-106",
+            "UIV-107",
+            "UIV-108"
+          ],
+          "note": "4 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "FLUTTER_UI_SOURCES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+          "note": "Package shortlist only; Design-App-first and consumer verification required.",
+          "origin": "https://fluttergems.dev/"
         }
       ],
       "voice_ui_candidates": [
@@ -10226,6 +11041,66 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        },
+        {
+          "component_id": "UIV-105",
+          "fit": "MEDIUM",
+          "surface": "Form nome progetto e metadata",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-106",
+          "fit": "MEDIUM",
+          "surface": "Rendering o esportazione media effettiva",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-107",
+          "fit": "MEDIUM",
+          "surface": "Rendering o esportazione media effettiva",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-108",
+          "fit": "MEDIUM",
+          "surface": "Form nome progetto e metadata",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        }
+      ],
+      "flutter_ui_library_candidates_2026_27": [
+        {
+          "source": "Mix",
+          "fit": "HIGH",
+          "surface": "palette/editor component tokens",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "source": "Forui",
+          "fit": "MEDIUM",
+          "surface": "picker/settings controls",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
         }
       ]
     },
@@ -10234,7 +11109,7 @@
       "name": "Notes-Ecosistema",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-19",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -10255,7 +11130,12 @@
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+        "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
+        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json"
       ],
       "category_ideas": [
         "nota",
@@ -10497,6 +11377,13 @@
           "fit": "HIGH",
           "surface": "workspace feature illustrations and demo",
           "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-011",
+          "name": "Unslop UI",
+          "fit": "MEDIUM",
+          "surface": "Document-first workspace: reduce pointless chrome while preserving powerful canvas",
+          "status": "PROPOSED_ONLY"
         }
       ],
       "source_variants_needed": [],
@@ -10694,6 +11581,41 @@
             "UIV-098"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_FAVORITES_REFRESH_108_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://uiverse.io/favorites",
+          "source": "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+          "component_ids": [
+            "UIV-101",
+            "UIV-102",
+            "UIV-103",
+            "UIV-104",
+            "UIV-105",
+            "UIV-106",
+            "UIV-109",
+            "UIV-110",
+            "UIV-111"
+          ],
+          "note": "9 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "FLUTTER_UI_SOURCES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+          "note": "Package shortlist only; Design-App-first and consumer verification required.",
+          "origin": "https://fluttergems.dev/"
+        },
+        {
+          "date": "2026-11-19",
+          "type": "UNSLOP_UI_2026_11_19",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
+          "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
+          "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
         }
       ],
       "voice_ui_candidates": [
@@ -11851,15 +12773,154 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        },
+        {
+          "component_id": "UIV-101",
+          "fit": "HIGH",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-102",
+          "fit": "HIGH",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-103",
+          "fit": "MEDIUM",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-104",
+          "fit": "HIGH",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-105",
+          "fit": "MEDIUM",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-106",
+          "fit": "HIGH",
+          "surface": "Indicizzazione/esportazione reale con stato di errore e retry",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-109",
+          "fit": "HIGH",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-110",
+          "fit": "HIGH",
+          "surface": "Spiegazione strumenti canvas e note",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-111",
+          "fit": "HIGH",
+          "surface": "Modulo nome lavagna, titolo nota o workspace, dati locali",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
         }
-      ]
+      ],
+      "flutter_ui_library_candidates_2026_27": [
+        {
+          "source": "Forui",
+          "fit": "HIGH",
+          "surface": "responsive workspaces/forms",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "source": "Mix",
+          "fit": "HIGH",
+          "surface": "design system token infrastructure",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "source": "shadcn_ui",
+          "fit": "MEDIUM",
+          "surface": "desktop-like panel references",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "source": "FL Chart",
+          "fit": "MEDIUM",
+          "surface": "real project data charts",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
+        }
+      ],
+      "unslop_ui_candidate_2026_11_19": {
+        "source_id": "DSK-011",
+        "status": "PROPOSED_ONLY",
+        "maturity": "REFERENCE",
+        "reuse_mode": "ADAPT_NATIVE_NOT_RUNTIME",
+        "fit": "MEDIUM",
+        "scope": "Document-first workspace: reduce pointless chrome while preserving powerful canvas",
+        "safeguard": "Do not change editors, shared data or persistence",
+        "consumer_implementation": "NOT_VERIFIED"
+      }
     },
     {
       "id": "omni-cleaner",
       "name": "Omni Cleaner",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-19",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -11879,7 +12940,10 @@
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
+        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json"
       ],
       "category_ideas": [
         "galleria",
@@ -12054,6 +13118,13 @@
           "fit": "MEDIUM",
           "surface": "feature-page visuals using actual app flows",
           "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-011",
+          "name": "Unslop UI",
+          "fit": "HIGH",
+          "surface": "Kotlin/Compose Clean screens, state badges, charts and functional hierarchy",
+          "status": "PROPOSED_ONLY"
         }
       ],
       "source_variants_needed": [],
@@ -12215,6 +13286,26 @@
             "UIV-096"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_FAVORITES_REFRESH_108_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://uiverse.io/favorites",
+          "source": "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+          "component_ids": [
+            "UIV-106",
+            "UIV-110"
+          ],
+          "note": "2 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-19",
+          "type": "UNSLOP_UI_2026_11_19",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
+          "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
+          "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
         }
       ],
       "motion_design_candidates": [
@@ -13106,8 +14197,40 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        },
+        {
+          "component_id": "UIV-106",
+          "fit": "HIGH",
+          "surface": "Feedback scansione duplicati effettivamente avviata",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-110",
+          "fit": "MEDIUM",
+          "surface": "Informazioni su file duplicati prima della cancellazione",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
         }
-      ]
+      ],
+      "unslop_ui_candidate_2026_11_19": {
+        "source_id": "DSK-011",
+        "status": "PROPOSED_ONLY",
+        "maturity": "REFERENCE",
+        "reuse_mode": "ADAPT_NATIVE_NOT_RUNTIME",
+        "fit": "HIGH",
+        "scope": "Kotlin/Compose Clean screens, state badges, charts and functional hierarchy",
+        "safeguard": "RC1 freeze; safe-delete and permission truth; user-approved Home stays",
+        "consumer_implementation": "NOT_VERIFIED"
+      }
     },
     {
       "id": "phone-guard",
@@ -13587,7 +14710,8 @@
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
       ],
       "category_ideas": [
         "PC",
@@ -13725,6 +14849,18 @@
             "UIV-074"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_FAVORITES_REFRESH_108_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://uiverse.io/favorites",
+          "source": "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+          "component_ids": [
+            "UIV-103",
+            "UIV-106"
+          ],
+          "note": "2 original Web references mapped to existing product flows; no app code or login provider changed"
         }
       ],
       "motion_design_candidates": [
@@ -14058,6 +15194,28 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        },
+        {
+          "component_id": "UIV-103",
+          "fit": "MEDIUM",
+          "surface": "Campo codice abbinamento dispositivo solo se previsto",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-106",
+          "fit": "MEDIUM",
+          "surface": "Avvio trasferimento Wi-Fi/QR con progress reale",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
         }
       ]
     },
@@ -14083,7 +15241,8 @@
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
       ],
       "category_ideas": [
         "sonno",
@@ -14244,6 +15403,19 @@
             "UIV-086"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_FAVORITES_REFRESH_108_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://uiverse.io/favorites",
+          "source": "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+          "component_ids": [
+            "UIV-102",
+            "UIV-107",
+            "UIV-109"
+          ],
+          "note": "3 original Web references mapped to existing product flows; no app code or login provider changed"
         }
       ],
       "motion_design_candidates": [
@@ -14585,6 +15757,39 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        },
+        {
+          "component_id": "UIV-102",
+          "fit": "MEDIUM",
+          "surface": "Form preferenze routine serale",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-107",
+          "fit": "MEDIUM",
+          "surface": "Aggiornamento dati routine solo se in corso",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-109",
+          "fit": "MEDIUM",
+          "surface": "Form preferenze routine serale",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
         }
       ]
     },
@@ -14607,7 +15812,9 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "sources/MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md",
+        "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json"
       ],
       "category_ideas": [
         "allarme",
@@ -14706,6 +15913,14 @@
             "UIV-086"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-19",
+          "type": "MATERIAL3_SELECTIVE_OPTION_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://m3.material.io/",
+          "source": "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json",
+          "note": "Material 3 is a possible app-specific utility UI choice, not default/ban; implementation and actual stack NOT_VERIFIED; no consumer changes."
         }
       ],
       "watermelon_ui_candidates": [
@@ -14791,7 +16006,16 @@
           "is_user_favorite": true,
           "code_original_available": true
         }
-      ]
+      ],
+      "material3_optional_design_reference": {
+        "source_id": "DESIGN-SITE-014",
+        "source_url": "https://m3.material.io/",
+        "fit": "HIGH",
+        "scope": "alarm arming/countdown, safety toggles, PIN/alerts; protect high contrast and fast response",
+        "status": "PROPOSED_ONLY",
+        "decision": "NOT_DECIDED",
+        "implementation": "NOT_VERIFIED"
+      }
     },
     {
       "id": "the-luminous-infinite-circle",
@@ -14811,7 +16035,9 @@
         "ICONE/REGISTRO_ICONE.json",
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "sources/MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md",
+        "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json"
       ],
       "category_ideas": [
         "cerchio luminoso",
@@ -14905,6 +16131,14 @@
             "UIV-086"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-19",
+          "type": "MATERIAL3_SELECTIVE_OPTION_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://m3.material.io/",
+          "source": "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json",
+          "note": "Material 3 is a possible app-specific utility UI choice, not default/ban; implementation and actual stack NOT_VERIFIED; no consumer changes."
         }
       ],
       "bookmarked_visual_references": [
@@ -14988,7 +16222,16 @@
           "is_user_favorite": true,
           "code_original_available": true
         }
-      ]
+      ],
+      "material3_optional_design_reference": {
+        "source_id": "DESIGN-SITE-014",
+        "source_url": "https://m3.material.io/",
+        "fit": "MEDIUM",
+        "scope": "settings and accessibility/preferences only; retain custom AOD visual identity",
+        "status": "PROPOSED_ONLY",
+        "decision": "NOT_DECIDED",
+        "implementation": "NOT_VERIFIED"
+      }
     },
     {
       "id": "trailpath",
@@ -15013,7 +16256,8 @@
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
       ],
       "category_ideas": [
         "mappa",
@@ -15150,6 +16394,17 @@
             "UIV-081"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_FAVORITES_REFRESH_108_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://uiverse.io/favorites",
+          "source": "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+          "component_ids": [
+            "UIV-106"
+          ],
+          "note": "1 original Web references mapped to existing product flows; no app code or login provider changed"
         }
       ],
       "motion_design_candidates": [
@@ -15275,6 +16530,17 @@
           "component_id": "UIV-081",
           "fit": "HIGH",
           "surface": "Card di anteprima/collezione",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-106",
+          "fit": "MEDIUM",
+          "surface": "Attesa routing GPS con fallback errore",
           "status": "PROPOSED_ONLY",
           "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
           "consumer_implementation": "NONE",
@@ -15657,7 +16923,8 @@
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
       ],
       "category_ideas": [
         "viaggio",
@@ -16007,6 +17274,24 @@
             "UIV-095"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_FAVORITES_REFRESH_108_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://uiverse.io/favorites",
+          "source": "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+          "component_ids": [
+            "UIV-101",
+            "UIV-102",
+            "UIV-104",
+            "UIV-105",
+            "UIV-107",
+            "UIV-109",
+            "UIV-110",
+            "UIV-111"
+          ],
+          "note": "8 original Web references mapped to existing product flows; no app code or login provider changed"
         }
       ],
       "voice_ui_candidates": [
@@ -16792,6 +18077,94 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        },
+        {
+          "component_id": "UIV-101",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-102",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-104",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-105",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-107",
+          "fit": "MEDIUM",
+          "surface": "Calcolo itinerario o media in corso",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-109",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-110",
+          "fit": "MEDIUM",
+          "surface": "Legenda mappa/tappe accessibile",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-111",
+          "fit": "MEDIUM",
+          "surface": "Input nuova tappa e descrizione viaggio",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
         }
       ]
     },
@@ -16800,7 +18173,7 @@
       "name": "World Days",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-19",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -16821,7 +18194,12 @@
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+        "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
+        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json"
       ],
       "category_ideas": [
         "calendario",
@@ -17044,6 +18422,13 @@
           "fit": "HIGH",
           "surface": "new rich-story feature preview",
           "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-011",
+          "name": "Unslop UI",
+          "fit": "MEDIUM",
+          "surface": "Editorial world-day stories: concise labels and truthful temporal state",
+          "status": "PROPOSED_ONLY"
         }
       ],
       "source_variants_needed": [],
@@ -17218,6 +18603,40 @@
             "UIV-098"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-18",
+          "type": "UIVERSE_FAVORITES_REFRESH_108_2026_11_18",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://uiverse.io/favorites",
+          "source": "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+          "component_ids": [
+            "UIV-101",
+            "UIV-103",
+            "UIV-104",
+            "UIV-106",
+            "UIV-107",
+            "UIV-109",
+            "UIV-110",
+            "UIV-111"
+          ],
+          "note": "8 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-18",
+          "type": "FLUTTER_UI_SOURCES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+          "note": "Package shortlist only; Design-App-first and consumer verification required.",
+          "origin": "https://fluttergems.dev/"
+        },
+        {
+          "date": "2026-11-19",
+          "type": "UNSLOP_UI_2026_11_19",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
+          "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
+          "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
         }
       ],
       "voice_ui_candidates": [
@@ -18218,8 +19637,122 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        },
+        {
+          "component_id": "UIV-101",
+          "fit": "MEDIUM",
+          "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-103",
+          "fit": "MEDIUM",
+          "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-104",
+          "fit": "MEDIUM",
+          "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-106",
+          "fit": "MEDIUM",
+          "surface": "Importazione dati/storie offline in corso",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-107",
+          "fit": "MEDIUM",
+          "surface": "Importazione dati/storie offline in corso",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-109",
+          "fit": "MEDIUM",
+          "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-110",
+          "fit": "MEDIUM",
+          "surface": "Nota esplicativa fonti, anno o ricorrenza",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
+        },
+        {
+          "component_id": "UIV-111",
+          "fit": "MEDIUM",
+          "surface": "Input ricerca o filtri delle giornate senza richiedere account",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
+          "consumer_implementation": "NONE",
+          "tests": "NOT_EXECUTED",
+          "is_user_favorite": true,
+          "code_original_available": true
         }
-      ]
+      ],
+      "flutter_ui_library_candidates_2026_27": [
+        {
+          "source": "Forui",
+          "fit": "MEDIUM",
+          "surface": "search/filter controls",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
+        },
+        {
+          "source": "Mix",
+          "fit": "MEDIUM",
+          "surface": "editorial visual tokens",
+          "status": "PROPOSED_ONLY",
+          "implementation": "NOT_VERIFIED"
+        }
+      ],
+      "unslop_ui_candidate_2026_11_19": {
+        "source_id": "DSK-011",
+        "status": "PROPOSED_ONLY",
+        "maturity": "REFERENCE",
+        "reuse_mode": "ADAPT_NATIVE_NOT_RUNTIME",
+        "fit": "MEDIUM",
+        "scope": "Editorial world-day stories: concise labels and truthful temporal state",
+        "safeguard": "Do not change historical stories, sources or translations during appearance audit",
+        "consumer_implementation": "NOT_VERIFIED"
+      }
     }
   ],
   "by_app": {

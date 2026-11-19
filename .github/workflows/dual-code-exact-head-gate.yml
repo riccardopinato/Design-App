@@ -1,0 +1,49 @@
+name: Dual-code UID and native Flutter — exact HEAD CI
+
+on:
+  push:
+    branches: ["feature/flutter-dual-code-preview-recovery-20261119"]
+    paths:
+      - "BIBLIOTECA_COMPONENTI/**"
+      - ".github/workflows/dual-code-exact-head-gate.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  catalog-and-provenance:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: "3.12"
+      - name: Check immutability, per-UID dual-code paths, hashes and table generation
+        run: |
+          python BIBLIOTECA_COMPONENTI/validate.py
+          python BIBLIOTECA_COMPONENTI/validate_flutter_variants.py
+          python BIBLIOTECA_COMPONENTI/uid.py validate
+          python -m unittest discover -s BIBLIOTECA_COMPONENTI -p 'test_uid.py'
+          python BIBLIOTECA_COMPONENTI/genera_anteprime.py --check
+
+  flutter-adapters:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: BIBLIOTECA_COMPONENTI/flutter_adapters
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2
+        with:
+          flutter-version: "3.50.0"
+          channel: stable
+          cache: true
+      - run: flutter --version
+      - run: flutter pub get
+      - name: Analyze every archived native Dart source
+        run: flutter analyze
+      - name: Test 5 adapted components and 28 original Gentleface icon widgets
+        run: flutter test

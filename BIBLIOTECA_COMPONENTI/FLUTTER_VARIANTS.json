@@ -1,0 +1,4328 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-19",
+  "component_total": 480,
+  "policy": "Original source is immutable. Flutter is a separate adaptation with its own file, status, license review and consumer QA. Never infer that a Dart file exists from its source title.",
+  "components": {
+    "AMX-001": {
+      "uid": "UID-0001",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-001.tsx",
+      "original_language": "TypeScript/React",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "AMX-002": {
+      "uid": "UID-0002",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-002.tsx",
+      "original_language": "TypeScript/React",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "AMX-003": {
+      "uid": "UID-0003",
+      "original_source_path": null,
+      "original_language": "TypeScript/React",
+      "original_license": "MIT_REPO_REFERENCE",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "AMX-004": {
+      "uid": "UID-0004",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-004.tsx",
+      "original_language": "TypeScript/React",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "AMX-005": {
+      "uid": "UID-0005",
+      "original_source_path": null,
+      "original_language": "TypeScript/React",
+      "original_license": "MIT_REPO_REFERENCE",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "AMX-006": {
+      "uid": "UID-0006",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-006.tsx",
+      "original_language": "TypeScript/React",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/amx_006_accordion_loader.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-002": {
+      "uid": "UID-0007",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-002.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-003": {
+      "uid": "UID-0008",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-003.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-004": {
+      "uid": "UID-0009",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-004.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-005": {
+      "uid": "UID-0010",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-005.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-006": {
+      "uid": "UID-0011",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-006.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-007": {
+      "uid": "UID-0012",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-007.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-008": {
+      "uid": "UID-0013",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-008.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-009": {
+      "uid": "UID-0014",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-009.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-010": {
+      "uid": "UID-0015",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-010.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-011": {
+      "uid": "UID-0016",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-011.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-012": {
+      "uid": "UID-0017",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-012.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-013": {
+      "uid": "UID-0018",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-013.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-014": {
+      "uid": "UID-0019",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-014.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-015": {
+      "uid": "UID-0020",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-015.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-016": {
+      "uid": "UID-0021",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-016.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-017": {
+      "uid": "UID-0022",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-017.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-019": {
+      "uid": "UID-0023",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-019.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-020": {
+      "uid": "UID-0024",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-020.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-022": {
+      "uid": "UID-0025",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-022.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-023": {
+      "uid": "UID-0026",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-023.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-024": {
+      "uid": "UID-0027",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/dbm-024.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-025": {
+      "uid": "UID-0028",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-025.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-026": {
+      "uid": "UID-0029",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-026.tsx",
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-027": {
+      "uid": "UID-0030",
+      "original_source_path": null,
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "LICENSE_NOT_VERIFIED",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-028": {
+      "uid": "UID-0031",
+      "original_source_path": null,
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "LICENSE_NOT_VERIFIED",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-029": {
+      "uid": "UID-0032",
+      "original_source_path": null,
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "LICENSE_NOT_VERIFIED",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DBM-030": {
+      "uid": "UID-0033",
+      "original_source_path": null,
+      "original_language": "TypeScript/React (source path not necessarily verified)",
+      "original_license": "LICENSE_NOT_VERIFIED",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DSP-001": {
+      "uid": "UID-0034",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/easeui/dsp-001.tsx",
+      "original_language": "TypeScript/React",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DSP-002": {
+      "uid": "UID-0035",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dsp-002.tsx",
+      "original_language": "TypeScript/React",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DSP-003": {
+      "uid": "UID-0036",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dsp-003.tsx",
+      "original_language": "TypeScript/React",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DSP-004": {
+      "uid": "UID-0037",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dsp-004.tsx",
+      "original_language": "TypeScript/React",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DSP-005": {
+      "uid": "UID-0038",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dsp-005.tsx",
+      "original_language": "TypeScript/React",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "DSP-006": {
+      "uid": "UID-0039",
+      "original_source_path": null,
+      "original_language": "VISUAL_REFERENCE_ONLY",
+      "original_license": "PERSONAL_REFERENCE_ONLY",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "FCL-001": {
+      "uid": "UID-0040",
+      "original_source_path": null,
+      "original_language": "Flutter/Dart (claimed, source not retrieved)",
+      "original_license": "NOT_VERIFIED",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "FCL-002": {
+      "uid": "UID-0041",
+      "original_source_path": null,
+      "original_language": "Flutter/Dart (claimed, source not retrieved)",
+      "original_license": "NOT_VERIFIED",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "FCL-003": {
+      "uid": "UID-0042",
+      "original_source_path": null,
+      "original_language": "Flutter/Dart (claimed, source not retrieved)",
+      "original_license": "NOT_VERIFIED",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "FCL-004": {
+      "uid": "UID-0043",
+      "original_source_path": null,
+      "original_language": "Flutter/Dart (claimed, source not retrieved)",
+      "original_license": "NOT_VERIFIED",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "FCL-005": {
+      "uid": "UID-0044",
+      "original_source_path": null,
+      "original_language": "Flutter/Dart (claimed, source not retrieved)",
+      "original_license": "NOT_VERIFIED",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "FCL-006": {
+      "uid": "UID-0045",
+      "original_source_path": null,
+      "original_language": "Flutter/Dart (claimed, source not retrieved)",
+      "original_license": "NOT_VERIFIED",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "FCL-007": {
+      "uid": "UID-0046",
+      "original_source_path": null,
+      "original_language": "Flutter/Dart (claimed, source not retrieved)",
+      "original_license": "NOT_VERIFIED",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "FCL-008": {
+      "uid": "UID-0047",
+      "original_source_path": null,
+      "original_language": "Flutter/Dart (claimed, source not retrieved)",
+      "original_license": "NOT_VERIFIED",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "FCL-009": {
+      "uid": "UID-0048",
+      "original_source_path": null,
+      "original_language": "Flutter/Dart (claimed, source not retrieved)",
+      "original_license": "NOT_VERIFIED",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "FCL-010": {
+      "uid": "UID-0049",
+      "original_source_path": null,
+      "original_language": "Flutter/Dart (claimed, source not retrieved)",
+      "original_license": "NOT_VERIFIED",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "FCL-011": {
+      "uid": "UID-0050",
+      "original_source_path": null,
+      "original_language": "Flutter/Dart (claimed, source not retrieved)",
+      "original_license": "NOT_VERIFIED",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "FCL-012": {
+      "uid": "UID-0051",
+      "original_source_path": null,
+      "original_language": "Flutter/Dart (claimed, source not retrieved)",
+      "original_license": "NOT_VERIFIED",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "FCL-013": {
+      "uid": "UID-0052",
+      "original_source_path": null,
+      "original_language": "Flutter/Dart (claimed, source not retrieved)",
+      "original_license": "NOT_VERIFIED",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "FCL-014": {
+      "uid": "UID-0053",
+      "original_source_path": null,
+      "original_language": "Flutter/Dart (claimed, source not retrieved)",
+      "original_license": "NOT_VERIFIED",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "FCL-015": {
+      "uid": "UID-0054",
+      "original_source_path": null,
+      "original_language": "Flutter/Dart (claimed, source not retrieved)",
+      "original_license": "NOT_VERIFIED",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "FUI-001": {
+      "uid": "UID-0479",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/forui/button.dart",
+      "original_language": "Flutter/Dart",
+      "original_license": "MIT_CODE_ARCHIVED_COMPONENT_LIBRARY_DEPENDENCIES_NOT_BUNDLED_FONTS_SEPARATE",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/sorgenti/forui/button.dart",
+      "flutter_status": "NATIVE_DART_DEPENDENCY_GATE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "FUI-002": {
+      "uid": "UID-0480",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/forui/demo_login_form.dart",
+      "original_language": "Flutter/Dart",
+      "original_license": "MIT_CODE_ARCHIVED_COMPONENT_LIBRARY_DEPENDENCIES_NOT_BUNDLED_FONTS_SEPARATE",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/sorgenti/forui/demo_login_form.dart",
+      "flutter_status": "NATIVE_DART_DEPENDENCY_GATE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-001": {
+      "uid": "UID-0055",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-001.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_001.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-002": {
+      "uid": "UID-0056",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-002.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_002.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-003": {
+      "uid": "UID-0057",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-003.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_003.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-004": {
+      "uid": "UID-0058",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-004.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_004.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-005": {
+      "uid": "UID-0059",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-005.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_005.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-006": {
+      "uid": "UID-0060",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-006.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_006.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-007": {
+      "uid": "UID-0061",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-007.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_007.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-008": {
+      "uid": "UID-0062",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-008.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_008.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-009": {
+      "uid": "UID-0063",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-009.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_009.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-010": {
+      "uid": "UID-0064",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-010.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_010.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-011": {
+      "uid": "UID-0065",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-011.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_011.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-012": {
+      "uid": "UID-0066",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-012.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_012.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-013": {
+      "uid": "UID-0067",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-013.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_013.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-014": {
+      "uid": "UID-0068",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-014.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_014.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-015": {
+      "uid": "UID-0069",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-015.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_015.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-016": {
+      "uid": "UID-0070",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-016.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_016.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-017": {
+      "uid": "UID-0071",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-017.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_017.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-018": {
+      "uid": "UID-0072",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-018.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_018.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-019": {
+      "uid": "UID-0073",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-019.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_019.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-020": {
+      "uid": "UID-0074",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-020.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_020.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-021": {
+      "uid": "UID-0075",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-021.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_021.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-022": {
+      "uid": "UID-0076",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-022.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_022.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-023": {
+      "uid": "UID-0077",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-023.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_023.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-024": {
+      "uid": "UID-0078",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-024.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_024.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-025": {
+      "uid": "UID-0079",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-025.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_025.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-026": {
+      "uid": "UID-0080",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-026.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_026.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-027": {
+      "uid": "UID-0081",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-027.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_027.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "ICO-028": {
+      "uid": "UID-0082",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-028.svg",
+      "original_language": "SVG (original, archived)",
+      "original_license": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/ico_028.dart",
+      "flutter_status": "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-accordion-editorial": {
+      "uid": "UID-0083",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/accordion-editorial.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_accordion_editorial.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-accordion-indexed": {
+      "uid": "UID-0084",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/accordion-indexed.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-account-menu": {
+      "uid": "UID-0085",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/account-menu.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-action-toolbar": {
+      "uid": "UID-0086",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/action-toolbar.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-add-task-sheet": {
+      "uid": "UID-0087",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/add-task-sheet.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-add-to-cart-button": {
+      "uid": "UID-0088",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/add-to-cart-button.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-ai-chat-input": {
+      "uid": "UID-0089",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/ai-chat-input.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-animated-beam": {
+      "uid": "UID-0090",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-beam.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-animated-circular-progress-bar": {
+      "uid": "UID-0091",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-circular-progress-bar.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_animated_circular_progress_bar.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-animated-gradient-text": {
+      "uid": "UID-0092",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-gradient-text.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_animated_gradient_text.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-animated-grid-pattern": {
+      "uid": "UID-0093",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-grid-pattern.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-animated-highlight-text": {
+      "uid": "UID-0094",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-highlight-text.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-animated-link": {
+      "uid": "UID-0095",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-link.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_animated_link.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-animated-list": {
+      "uid": "UID-0096",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-list.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-animated-number-flip": {
+      "uid": "UID-0097",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-number-flip.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-animated-shiny-text": {
+      "uid": "UID-0098",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-shiny-text.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_animated_shiny_text.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-animated-subscribe-button": {
+      "uid": "UID-0099",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-subscribe-button.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-animated-theme-toggler": {
+      "uid": "UID-0100",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-theme-toggler.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-app-menu-bar": {
+      "uid": "UID-0101",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/app-menu-bar.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-arc-reveal-hero": {
+      "uid": "UID-0102",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/arc-reveal-hero.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-arc-timeline": {
+      "uid": "UID-0103",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/arc-timeline.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-aurora-text": {
+      "uid": "UID-0104",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/aurora-text.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-auto-scrolling-client-carousel": {
+      "uid": "UID-0105",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/auto-scrolling-client-carousel.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-automated-tasks-panel": {
+      "uid": "UID-0106",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/automated-tasks-panel.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-avatar-circles": {
+      "uid": "UID-0107",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/avatar-circles.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-avatar-hover-card": {
+      "uid": "UID-0108",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/avatar-hover-card.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-avatar-quick-actions": {
+      "uid": "UID-0109",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/avatar-quick-actions.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-avatar-spring-stack": {
+      "uid": "UID-0110",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/avatar-spring-stack.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-badge-button-combo": {
+      "uid": "UID-0111",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/badge-button-combo.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-badge-morph": {
+      "uid": "UID-0112",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/badge-morph.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-banner-announcement": {
+      "uid": "UID-0113",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/banner-announcement.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-banner-cookie": {
+      "uid": "UID-0114",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/banner-cookie.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-banner-countdown": {
+      "uid": "UID-0115",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/banner-countdown.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-banner-newsletter": {
+      "uid": "UID-0116",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/banner-newsletter.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-behavioral-history-select": {
+      "uid": "UID-0117",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/behavioral-history-select.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-better-time-picker": {
+      "uid": "UID-0118",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/better-time-picker.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-blur-fade": {
+      "uid": "UID-0119",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/blur-fade.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-bordered-clients-grid": {
+      "uid": "UID-0120",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/bordered-clients-grid.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-bottom-drawers": {
+      "uid": "UID-0121",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/bottom-drawers.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-box-reveal": {
+      "uid": "UID-0122",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/box-reveal.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-breadcrumb-dropdown": {
+      "uid": "UID-0123",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/breadcrumb-dropdown.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-breadcrumb-icon": {
+      "uid": "UID-0124",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/breadcrumb-icon.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-breadcrumb-separator": {
+      "uid": "UID-0125",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/breadcrumb-separator.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-button-badge": {
+      "uid": "UID-0126",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/button-badge.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-button-copy": {
+      "uid": "UID-0127",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/button-copy.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-button-dropdown": {
+      "uid": "UID-0128",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/button-dropdown.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-button-split": {
+      "uid": "UID-0129",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/button-split.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-calendar-crest": {
+      "uid": "UID-0130",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/calendar-crest.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-calendar-lume": {
+      "uid": "UID-0131",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/calendar-lume.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-calendar-planner": {
+      "uid": "UID-0132",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/calendar-planner.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-calendar-scheduler": {
+      "uid": "UID-0133",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/calendar-scheduler.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-calendar-twin": {
+      "uid": "UID-0134",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/calendar-twin.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-calendar-wave": {
+      "uid": "UID-0135",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/calendar-wave.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-card-carousel-hero": {
+      "uid": "UID-0136",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/card-carousel-hero.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-card-stack": {
+      "uid": "UID-0137",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/card-stack.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-carousel-3d-select": {
+      "uid": "UID-0138",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/carousel-3d-select.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-case-study-tabs": {
+      "uid": "UID-0139",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/case-study-tabs.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-centered-feedback-drawer": {
+      "uid": "UID-0140",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/centered-feedback-drawer.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-chapter-scrubber": {
+      "uid": "UID-0141",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/chapter-scrubber.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-checkbox-colored": {
+      "uid": "UID-0142",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/checkbox-colored.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-checkbox-group": {
+      "uid": "UID-0143",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/checkbox-group.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-checkbox-indeterminate": {
+      "uid": "UID-0144",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/checkbox-indeterminate.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-checkbox-simple": {
+      "uid": "UID-0145",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/checkbox-simple.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-checkbox-terms": {
+      "uid": "UID-0146",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/checkbox-terms.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-checkbox-todo": {
+      "uid": "UID-0147",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/checkbox-todo.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-checkbox-tree": {
+      "uid": "UID-0148",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/checkbox-tree.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-chrono-select": {
+      "uid": "UID-0149",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/chrono-select.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-circular-stepper-input": {
+      "uid": "UID-0150",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/circular-stepper-input.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-claude-chat-input": {
+      "uid": "UID-0151",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/claude-chat-input.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-clean-tag-input": {
+      "uid": "UID-0152",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/clean-tag-input.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-client-carousel-showcase": {
+      "uid": "UID-0153",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/client-carousel-showcase.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-cloud-background": {
+      "uid": "UID-0154",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/cloud-background.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-code-comparison": {
+      "uid": "UID-0155",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/code-comparison.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-color-emotion-select": {
+      "uid": "UID-0156",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/color-emotion-select.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-color-picker-input": {
+      "uid": "UID-0157",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/color-picker-input.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-comic-text": {
+      "uid": "UID-0158",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/comic-text.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-command-deck": {
+      "uid": "UID-0159",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/command-deck.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-comment-thread": {
+      "uid": "UID-0160",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/comment-thread.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-confetti-button": {
+      "uid": "UID-0161",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/confetti-button.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-container-text-scroll": {
+      "uid": "UID-0162",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/container-text-scroll.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-cool-mode": {
+      "uid": "UID-0163",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/cool-mode.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-corporate-footer": {
+      "uid": "UID-0164",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/corporate-footer.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-correct-number-input": {
+      "uid": "UID-0165",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/correct-number-input.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-coverflow-carousel": {
+      "uid": "UID-0166",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/coverflow-carousel.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-credit-card-dialog": {
+      "uid": "UID-0167",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/credit-card-dialog.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-customer-story-stack": {
+      "uid": "UID-0168",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/customer-story-stack.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-deploy-region-globe": {
+      "uid": "UID-0169",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/deploy-region-globe.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-dot-pattern": {
+      "uid": "UID-0170",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/dot-pattern.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-drag-and-drop-tabs": {
+      "uid": "UID-0171",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/drag-and-drop-tabs.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-drawer-inner-content": {
+      "uid": "UID-0172",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/drawer-inner-content.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-drilldown-menu": {
+      "uid": "UID-0173",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/drilldown-menu.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-drum-picker": {
+      "uid": "UID-0174",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/drum-picker.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-dual-tone-rain-background": {
+      "uid": "UID-0175",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/dual-tone-rain-background.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-event-scheduler": {
+      "uid": "UID-0176",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/event-scheduler.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-expandable-menu-navbar": {
+      "uid": "UID-0177",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/expandable-menu-navbar.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-faq-auto-accordion": {
+      "uid": "UID-0178",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/faq-auto-accordion.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-faq-chat-accordion": {
+      "uid": "UID-0179",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/faq-chat-accordion.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-faq-scroll-accordion": {
+      "uid": "UID-0180",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/faq-scroll-accordion.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-feature-highlights": {
+      "uid": "UID-0181",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/feature-highlights.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-featured-portrait-testimonial": {
+      "uid": "UID-0182",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/featured-portrait-testimonial.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-file-tree": {
+      "uid": "UID-0183",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/file-tree.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-fine-tune-slider": {
+      "uid": "UID-0184",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/fine-tune-slider.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-flash-sale-banner": {
+      "uid": "UID-0185",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/flash-sale-banner.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-flickering-grid": {
+      "uid": "UID-0186",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/flickering-grid.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-flip-text": {
+      "uid": "UID-0187",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/flip-text.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-floating-cards-hero": {
+      "uid": "UID-0188",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/floating-cards-hero.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-floating-navbar": {
+      "uid": "UID-0189",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/floating-navbar.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-floating-toolbar": {
+      "uid": "UID-0190",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/floating-toolbar.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-footer-enterprise": {
+      "uid": "UID-0191",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/footer-enterprise.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-footer-pro": {
+      "uid": "UID-0192",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/footer-pro.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-glass-ai-card": {
+      "uid": "UID-0193",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glass-ai-card.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-glass-form": {
+      "uid": "UID-0194",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glass-form.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-glass-image-compare": {
+      "uid": "UID-0195",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glass-image-compare.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-glass-image-editor": {
+      "uid": "UID-0196",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glass-image-editor.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-glass-shipment-flow": {
+      "uid": "UID-0197",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glass-shipment-flow.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-glow-link-button": {
+      "uid": "UID-0198",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glow-link-button.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-glow-tree": {
+      "uid": "UID-0199",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glow-tree.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-glowing-send-input": {
+      "uid": "UID-0200",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-gooey-dock": {
+      "uid": "UID-0201",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/gooey-dock.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-gooey-pagination": {
+      "uid": "UID-0202",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/gooey-pagination.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-gradient-chat-input": {
+      "uid": "UID-0203",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/gradient-chat-input.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-gradient-hero-showcase": {
+      "uid": "UID-0204",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/gradient-hero-showcase.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-gradient-reveal-text": {
+      "uid": "UID-0205",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/gradient-reveal-text.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-grain-gradient-bg": {
+      "uid": "UID-0206",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/grain-gradient-bg.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-gravatar-email-input": {
+      "uid": "UID-0207",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/gravatar-email-input.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-grid-frame-hero": {
+      "uid": "UID-0208",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/grid-frame-hero.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-grid-pattern": {
+      "uid": "UID-0209",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/grid-pattern.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_grid_pattern.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-grouped-faq-section": {
+      "uid": "UID-0210",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/grouped-faq-section.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-halo-reel": {
+      "uid": "UID-0211",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/halo-reel.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-hero-title-animation": {
+      "uid": "UID-0212",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/hero-title-animation.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-hover-gradient-navbar": {
+      "uid": "UID-0213",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/hover-gradient-navbar.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-hover-preview-button": {
+      "uid": "UID-0214",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/hover-preview-button.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-hyper-text": {
+      "uid": "UID-0215",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/hyper-text.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-icon-cloud": {
+      "uid": "UID-0216",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/icon-cloud.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-icon-label-subtext-button": {
+      "uid": "UID-0217",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/icon-label-subtext-button.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-icon-pagination": {
+      "uid": "UID-0218",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/icon-pagination.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-image-card-fan": {
+      "uid": "UID-0219",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/image-card-fan.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-image-stream-hero": {
+      "uid": "UID-0220",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/image-stream-hero.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-inline-copy-input": {
+      "uid": "UID-0221",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/inline-copy-input.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-input-with-select": {
+      "uid": "UID-0222",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/input-with-select.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-integration-and-stats-section": {
+      "uid": "UID-0223",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/integration-and-stats-section.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-interactive-grid-pattern": {
+      "uid": "UID-0224",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/interactive-grid-pattern.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-interactive-hover-button": {
+      "uid": "UID-0225",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/interactive-hover-button.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_interactive_hover_button.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-invert-tabs": {
+      "uid": "UID-0226",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/invert-tabs.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-iphone-15-pro": {
+      "uid": "UID-0227",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/iphone-15-pro.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-line-shadow-text": {
+      "uid": "UID-0228",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/line-shadow-text.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-linear-mask": {
+      "uid": "UID-0229",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/linear-mask.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-live-waveform": {
+      "uid": "UID-0230",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/live-waveform.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-load-ripple": {
+      "uid": "UID-0231",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/load-ripple.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-loading-circle": {
+      "uid": "UID-0232",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/loading-circle.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-luma-bar": {
+      "uid": "UID-0233",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/luma-bar.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-magic-tree": {
+      "uid": "UID-0234",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/magic-tree.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-magnetic-tabs": {
+      "uid": "UID-0235",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/magnetic-tabs.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-milestone-stepper": {
+      "uid": "UID-0236",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/milestone-stepper.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-mode-toggle": {
+      "uid": "UID-0237",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/mode-toggle.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-morphing-expandable-menu": {
+      "uid": "UID-0238",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/morphing-expandable-menu.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-morphing-page-dots": {
+      "uid": "UID-0239",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/morphing-page-dots.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-morphing-text": {
+      "uid": "UID-0240",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/morphing-text.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-motion-file-tree": {
+      "uid": "UID-0241",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/motion-file-tree.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-mouse-spark": {
+      "uid": "UID-0242",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/mouse-spark.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-multi-media-testimonial": {
+      "uid": "UID-0243",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/multi-media-testimonial.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-music-player-card": {
+      "uid": "UID-0244",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/music-player-card.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-navbar-breadcrumb": {
+      "uid": "UID-0245",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/navbar-breadcrumb.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-navbar-centered": {
+      "uid": "UID-0246",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/navbar-centered.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-navbar-floating": {
+      "uid": "UID-0247",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/navbar-floating.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-navbar-icon-links": {
+      "uid": "UID-0248",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/navbar-icon-links.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-navbar-minimal": {
+      "uid": "UID-0249",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/navbar-minimal.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-navbar-simple": {
+      "uid": "UID-0250",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/navbar-simple.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-navbar-split": {
+      "uid": "UID-0251",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/navbar-split.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-navbar-status": {
+      "uid": "UID-0252",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/navbar-status.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-navbar-tabs": {
+      "uid": "UID-0253",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/navbar-tabs.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-navbar-user-menu": {
+      "uid": "UID-0254",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/navbar-user-menu.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-navbar-with-search": {
+      "uid": "UID-0255",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/navbar-with-search.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-neon-circle-grid": {
+      "uid": "UID-0256",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/neon-circle-grid.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-neon-gradient-card": {
+      "uid": "UID-0257",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/neon-gradient-card.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-nested-dashboard-menu": {
+      "uid": "UID-0258",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/nested-dashboard-menu.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-notification": {
+      "uid": "UID-0259",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/notification.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-notification-inbox-popover": {
+      "uid": "UID-0260",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/notification-inbox-popover.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-notifications-carousel": {
+      "uid": "UID-0261",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/notifications-carousel.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-notifications-filter": {
+      "uid": "UID-0262",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/notifications-filter.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-number-ticker": {
+      "uid": "UID-0263",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/number-ticker.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-orbiting-circles": {
+      "uid": "UID-0264",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/orbiting-circles.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_orbiting_circles.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-package-installer-tabs": {
+      "uid": "UID-0265",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/package-installer-tabs.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-particle-text-dots": {
+      "uid": "UID-0266",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/particle-text-dots.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-password-field": {
+      "uid": "UID-0267",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/password-field.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-perspective-text": {
+      "uid": "UID-0268",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/perspective-text.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-phone-mockup-card": {
+      "uid": "UID-0269",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/phone-mockup-card.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-phone-scroll-hero": {
+      "uid": "UID-0270",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/phone-scroll-hero.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-pixel-image": {
+      "uid": "UID-0271",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/pixel-image.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-preview-switch-hero": {
+      "uid": "UID-0272",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/preview-switch-hero.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-pricing-cards-tooltip": {
+      "uid": "UID-0273",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/pricing-cards-tooltip.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-pricing-comparison": {
+      "uid": "UID-0274",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/pricing-comparison.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-pricing-feature-matrix": {
+      "uid": "UID-0275",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/pricing-feature-matrix.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-pricing-flow": {
+      "uid": "UID-0276",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/pricing-flow.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-pricing-landing-hero": {
+      "uid": "UID-0277",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/pricing-landing-hero.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-pricing-plans": {
+      "uid": "UID-0278",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/pricing-plans.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-pricing-section-vertical": {
+      "uid": "UID-0279",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/pricing-section-vertical.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-pricing-tiers": {
+      "uid": "UID-0280",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/pricing-tiers.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-pricing-with-user-scaling": {
+      "uid": "UID-0281",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/pricing-with-user-scaling.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-product-card-hero": {
+      "uid": "UID-0282",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/product-card-hero.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-product-feature-hero": {
+      "uid": "UID-0283",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/product-feature-hero.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-profile-card": {
+      "uid": "UID-0284",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/profile-card.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-progress-button": {
+      "uid": "UID-0285",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/progress-button.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-progressive-blur": {
+      "uid": "UID-0286",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/progressive-blur.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-progressive-flux-loader": {
+      "uid": "UID-0287",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/progressive-flux-loader.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-promote-header": {
+      "uid": "UID-0288",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/promote-header.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-pulsating-button": {
+      "uid": "UID-0289",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/pulsating-button.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_pulsating_button.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-rainbow-button": {
+      "uid": "UID-0290",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/rainbow-button.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_rainbow_button.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-range-calendar": {
+      "uid": "UID-0291",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/range-calendar.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-receding-text-plane": {
+      "uid": "UID-0292",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/receding-text-plane.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-retro-grid": {
+      "uid": "UID-0293",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/retro-grid.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-ripple-circles": {
+      "uid": "UID-0294",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/ripple-circles.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-ripple-distortion": {
+      "uid": "UID-0295",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/ripple-distortion.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-rising-glow": {
+      "uid": "UID-0296",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/rising-glow.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-rotating-gradient-right": {
+      "uid": "UID-0297",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/rotating-gradient-right.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-ruixen-featured-message-card": {
+      "uid": "UID-0298",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/ruixen-featured-message-card.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-ruixen-gradient-footer": {
+      "uid": "UID-0299",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/ruixen-gradient-footer.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-ruixen-prompt-box": {
+      "uid": "UID-0300",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/ruixen-prompt-box.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-ruixen-query-box": {
+      "uid": "UID-0301",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/ruixen-query-box.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-sales-ai-hero": {
+      "uid": "UID-0302",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/sales-ai-hero.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-scramble-text": {
+      "uid": "UID-0303",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scramble-text.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-scratch-to-reveal": {
+      "uid": "UID-0304",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scratch-to-reveal.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-script-copy-btn": {
+      "uid": "UID-0305",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/script-copy-btn.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-scroll-based-velocity": {
+      "uid": "UID-0306",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scroll-based-velocity.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-scroll-burn-text": {
+      "uid": "UID-0307",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scroll-burn-text.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-scroll-image-tunnel": {
+      "uid": "UID-0308",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scroll-image-tunnel.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-scroll-over-hero": {
+      "uid": "UID-0309",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scroll-over-hero.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-scroll-pagination": {
+      "uid": "UID-0310",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scroll-pagination.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-scroll-portrait-wall": {
+      "uid": "UID-0311",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scroll-portrait-wall.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-scroll-progress": {
+      "uid": "UID-0312",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scroll-progress.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-scroll-ruler": {
+      "uid": "UID-0313",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scroll-ruler.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-scroll-text-rise": {
+      "uid": "UID-0314",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scroll-text-rise.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-scroll-tilted-grid": {
+      "uid": "UID-0315",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scroll-tilted-grid.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-scrub-datetime": {
+      "uid": "UID-0316",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scrub-datetime.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-service-ledger": {
+      "uid": "UID-0317",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/service-ledger.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-share-button": {
+      "uid": "UID-0318",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/share-button.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-shimmer-button": {
+      "uid": "UID-0319",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/shimmer-button.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-shine-border": {
+      "uid": "UID-0320",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/shine-border.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-shiny-button": {
+      "uid": "UID-0321",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/shiny-button.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-slide-to-delete-button": {
+      "uid": "UID-0322",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/slide-to-delete-button.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-sliding-pagination": {
+      "uid": "UID-0323",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/sliding-pagination.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-smart-breadcrumb": {
+      "uid": "UID-0324",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/smart-breadcrumb.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-smart-paste-input": {
+      "uid": "UID-0325",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/smart-paste-input.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-smooth-cursor": {
+      "uid": "UID-0326",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/smooth-cursor.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-social-preview-dock": {
+      "uid": "UID-0327",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/social-preview-dock.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-solar-loader": {
+      "uid": "UID-0328",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/solar-loader.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-spark-chart": {
+      "uid": "UID-0329",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/spark-chart.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-sparkles-text": {
+      "uid": "UID-0330",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/sparkles-text.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-spinning-text": {
+      "uid": "UID-0331",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/spinning-text.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-split-feature-showcase": {
+      "uid": "UID-0332",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/split-feature-showcase.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-split-hero-section": {
+      "uid": "UID-0333",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/split-hero-section.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-stack-pagination": {
+      "uid": "UID-0334",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/stack-pagination.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-staged-pricing": {
+      "uid": "UID-0335",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/staged-pricing.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-staggered-faq-section": {
+      "uid": "UID-0336",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/staggered-faq-section.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-structured-hero-section": {
+      "uid": "UID-0337",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/structured-hero-section.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-subscription-plans": {
+      "uid": "UID-0338",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/subscription-plans.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-tabbed-hero-section": {
+      "uid": "UID-0339",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/tabbed-hero-section.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-tag-cloud-select": {
+      "uid": "UID-0340",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/tag-cloud-select.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-text-animate": {
+      "uid": "UID-0341",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/text-animate.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-text-reveal": {
+      "uid": "UID-0342",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/text-reveal.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-three-dwall-calendar": {
+      "uid": "UID-0343",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/three-dwall-calendar.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-toolbar-dock": {
+      "uid": "UID-0344",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/toolbar-dock.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-tree-node-tooltip": {
+      "uid": "UID-0345",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/tree-node-tooltip.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-trusted-clients-showcase": {
+      "uid": "UID-0346",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/trusted-clients-showcase.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-typing-animation": {
+      "uid": "UID-0347",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/typing-animation.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-url-input": {
+      "uid": "UID-0348",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/url-input.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-variable-text": {
+      "uid": "UID-0349",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/variable-text.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-verification-input": {
+      "uid": "UID-0350",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/verification-input.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-video-hero-showcase": {
+      "uid": "UID-0351",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/video-hero-showcase.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-video-player-pro": {
+      "uid": "UID-0352",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/video-player-pro.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-video-text": {
+      "uid": "UID-0353",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/video-text.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-visualizer-button": {
+      "uid": "UID-0354",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/visualizer-button.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-warp-background": {
+      "uid": "UID-0355",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/warp-background.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-wheel-pagination": {
+      "uid": "UID-0356",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/wheel-pagination.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-wizard-stepper": {
+      "uid": "UID-0357",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/wizard-stepper.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-word-rotate": {
+      "uid": "UID-0358",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/word-rotate.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "RXN-wordmark-footer": {
+      "uid": "UID-0359",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/wordmark-footer.tsx",
+      "original_language": "TypeScript/React TSX",
+      "original_license": "MIT_SOURCE_PINNED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-001": {
+      "uid": "UID-0360",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-001_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_VERIFIED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-002": {
+      "uid": "UID-0361",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-002_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_VERIFIED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/uiv_002_gradient_pill_button.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-003": {
+      "uid": "UID-0362",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-003_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_VERIFIED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-004": {
+      "uid": "UID-0363",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-004_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_VERIFIED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-005": {
+      "uid": "UID-0364",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-005_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-006": {
+      "uid": "UID-0365",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-006_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-007": {
+      "uid": "UID-0366",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-007_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-008": {
+      "uid": "UID-0367",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-008_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_VERIFIED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/uiv_008_rolling_rock_loader.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-009": {
+      "uid": "UID-0368",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-009_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_VERIFIED",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/uiv_009_book_card.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-010": {
+      "uid": "UID-0369",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-010_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-011": {
+      "uid": "UID-0370",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-011_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-012": {
+      "uid": "UID-0371",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-012_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-013": {
+      "uid": "UID-0372",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-013_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-014": {
+      "uid": "UID-0373",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-014_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-015": {
+      "uid": "UID-0374",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-015_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-016": {
+      "uid": "UID-0375",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-016_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-017": {
+      "uid": "UID-0376",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-017_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-018": {
+      "uid": "UID-0377",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-018_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-019": {
+      "uid": "UID-0378",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-019_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-020": {
+      "uid": "UID-0379",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-020_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-021": {
+      "uid": "UID-0380",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-021_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-022": {
+      "uid": "UID-0381",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-022_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-023": {
+      "uid": "UID-0382",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-023_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-024": {
+      "uid": "UID-0383",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-024_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-025": {
+      "uid": "UID-0384",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-025_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-026": {
+      "uid": "UID-0385",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-026_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-027": {
+      "uid": "UID-0386",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-027_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-028": {
+      "uid": "UID-0387",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-028_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-029": {
+      "uid": "UID-0388",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-029_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-030": {
+      "uid": "UID-0389",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-030_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-031": {
+      "uid": "UID-0390",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-031_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-032": {
+      "uid": "UID-0391",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-032_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-033": {
+      "uid": "UID-0392",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-033_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-034": {
+      "uid": "UID-0393",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-034_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-035": {
+      "uid": "UID-0394",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-035_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-036": {
+      "uid": "UID-0395",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-036_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-037": {
+      "uid": "UID-0396",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-037_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-038": {
+      "uid": "UID-0397",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-038_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-039": {
+      "uid": "UID-0398",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-039_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-040": {
+      "uid": "UID-0399",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-040_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-041": {
+      "uid": "UID-0400",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-041_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-042": {
+      "uid": "UID-0401",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-042_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-043": {
+      "uid": "UID-0402",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-043_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-044": {
+      "uid": "UID-0403",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-044_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-045": {
+      "uid": "UID-0404",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-045_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-046": {
+      "uid": "UID-0405",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-046_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-047": {
+      "uid": "UID-0406",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-047_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-048": {
+      "uid": "UID-0407",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-048_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-049": {
+      "uid": "UID-0408",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-049_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-050": {
+      "uid": "UID-0409",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-050_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-051": {
+      "uid": "UID-0410",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-051_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-052": {
+      "uid": "UID-0411",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-052_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-053": {
+      "uid": "UID-0412",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-053_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-054": {
+      "uid": "UID-0413",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-054_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-055": {
+      "uid": "UID-0414",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-055_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-056": {
+      "uid": "UID-0415",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-056_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-057": {
+      "uid": "UID-0416",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-057_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-058": {
+      "uid": "UID-0417",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-058_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-059": {
+      "uid": "UID-0418",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-059_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-060": {
+      "uid": "UID-0419",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-060_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-061": {
+      "uid": "UID-0420",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-061_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-062": {
+      "uid": "UID-0421",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-062_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-063": {
+      "uid": "UID-0422",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-063_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-064": {
+      "uid": "UID-0423",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-064_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-065": {
+      "uid": "UID-0424",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-065_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-066": {
+      "uid": "UID-0425",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-066_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-067": {
+      "uid": "UID-0426",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-067_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-068": {
+      "uid": "UID-0427",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-068_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-069": {
+      "uid": "UID-0428",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-069_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-070": {
+      "uid": "UID-0429",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-070_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-071": {
+      "uid": "UID-0430",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-071_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-072": {
+      "uid": "UID-0431",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-072_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-073": {
+      "uid": "UID-0432",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-073_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-074": {
+      "uid": "UID-0433",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-074_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-075": {
+      "uid": "UID-0434",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-075_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-076": {
+      "uid": "UID-0435",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-076_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-077": {
+      "uid": "UID-0436",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-077_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-078": {
+      "uid": "UID-0437",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-078_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-079": {
+      "uid": "UID-0438",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-079_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-080": {
+      "uid": "UID-0439",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-080_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-081": {
+      "uid": "UID-0440",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-081_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-082": {
+      "uid": "UID-0441",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-082_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-083": {
+      "uid": "UID-0442",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-083_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-084": {
+      "uid": "UID-0443",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-084_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-085": {
+      "uid": "UID-0444",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-085_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-086": {
+      "uid": "UID-0445",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-086_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-087": {
+      "uid": "UID-0446",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-087_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-088": {
+      "uid": "UID-0447",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-088_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-089": {
+      "uid": "UID-0448",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-089_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-090": {
+      "uid": "UID-0449",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-090_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-091": {
+      "uid": "UID-0450",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-091_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-092": {
+      "uid": "UID-0451",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-092_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-093": {
+      "uid": "UID-0452",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-093_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-094": {
+      "uid": "UID-0453",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-094_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-095": {
+      "uid": "UID-0454",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-095_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-096": {
+      "uid": "UID-0455",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-096_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-097": {
+      "uid": "UID-0456",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-097_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-098": {
+      "uid": "UID-0457",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-098_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-099": {
+      "uid": "UID-0458",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-099_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-100": {
+      "uid": "UID-0459",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-100_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_GALAXY_REPOSITORY_LICENSE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-101": {
+      "uid": "UID-0460",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-101_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-102": {
+      "uid": "UID-0461",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-102_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-103": {
+      "uid": "UID-0462",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-103_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-104": {
+      "uid": "UID-0463",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-104_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-105": {
+      "uid": "UID-0464",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-105_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-106": {
+      "uid": "UID-0465",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-106_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-108": {
+      "uid": "UID-0466",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-108_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-109": {
+      "uid": "UID-0467",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-109_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-110": {
+      "uid": "UID-0468",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-110_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "UIV-111": {
+      "uid": "UID-0469",
+      "original_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-111_original.html",
+      "original_language": "HTML/CSS",
+      "original_license": "MIT_UIVERSE_POST_WITH_CREATOR_ATTRIBUTION",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "WML-001": {
+      "uid": "UID-0470",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-001.tsx",
+      "original_language": "TypeScript/React",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "WML-002": {
+      "uid": "UID-0471",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-002.tsx",
+      "original_language": "TypeScript/React",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "WML-003": {
+      "uid": "UID-0472",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-003.tsx",
+      "original_language": "TypeScript/React",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "WML-004": {
+      "uid": "UID-0473",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-004.tsx",
+      "original_language": "TypeScript/React",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "WML-005": {
+      "uid": "UID-0474",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-005.tsx",
+      "original_language": "TypeScript/React",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "WML-006": {
+      "uid": "UID-0475",
+      "original_source_path": null,
+      "original_language": "TypeScript/React",
+      "original_license": "MIT_REPO_REFERENCE",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "WML-007": {
+      "uid": "UID-0476",
+      "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-007.tsx",
+      "original_language": "TypeScript/React",
+      "original_license": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "WML-008": {
+      "uid": "UID-0477",
+      "original_source_path": null,
+      "original_language": "TypeScript/React",
+      "original_license": "MIT_REPO_REFERENCE",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    },
+    "WML-009": {
+      "uid": "UID-0478",
+      "original_source_path": null,
+      "original_language": "TypeScript/React",
+      "original_license": "MIT_REPO_REFERENCE",
+      "flutter_code_path": null,
+      "flutter_status": "SOURCE_NOT_ARCHIVED",
+      "consumer_runtime": "NOT_VERIFIED"
+    }
+  }
+}

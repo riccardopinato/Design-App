@@ -13,6 +13,37 @@ It does NOT replace:
 - a product's roadmap;
 - the app repository's own architecture and source of truth.
 
+## Comando rapido UID — componenti visuali riusabili
+
+Quando l'utente dice "Usa UID-0127 per i pulsanti dell'app F", "Usa UID-0350
+per il form nell'app G", oppure identifica un ID canonico o storico, usare
+**prima** BIBLIOTECA_COMPONENTI/UID_REGISTRY.json come mappa stabile UID ->
+ID canonico, poi CATALOGO.json, ANTEPRIME.json, le provenienze immagini
+e il file sorgente effettivo. Eseguire la logica di
+BIBLIOTECA_COMPONENTI/uid.py (lookup/plan) o equivalente lettura puntuale.
+Un UID identifica un componente specifico e non decide automaticamente
+in quale app importarlo.
+
+- Risolvere UID e alias storici senza cambiarne numero o introdurre doppi ID.
+- Recuperare immagine reale e codice esatto, license/source blob, linguaggio,
+  API e dipendenze. Preview non equivale a licenza asset o codice COPY_READY.
+- Leggere Product Bible, stack, disegno approvato e Golden/donor applicabili.
+- Se sorgente e stack coincidono, controllare dipendenze e compatibilita'
+  prima del riuso; in caso contrario implementare un adapter/rewrite fedele.
+  TSX non e' Dart, e un demo di login non e' un servizio di autenticazione.
+- Sostituire soltanto il consumer/component specificamente indicato dall'utente,
+  senza restyling globale implicito. PR, test UI, CI exact-head, stati reali,
+  a11y e collaudo consumer sono necessari per dichiarare il riuso verificato.
+- Se l'asset e' solo REFERENCE_ONLY, esplicitare ADAPTER_REQUIRED o
+  SOURCE_UNAVAILABLE, non spacciare per incollabile codice che non lo e'.
+- Per nuovi componenti, assegnare UID progressivo successivo, immutabile,
+  aggiornare catalogo, tabelle e manifest e validare. I vecchi UID non si
+  rinumerano quando entra un nuovo elemento.
+
+**Obiettivo:** richiesta rapida con un identificativo, provenienza, immagine,
+codice e piano minimo di adozione immediatamente recuperabili, senza ricominciare
+la ricerca del componente a ogni app.
+
 ## Intake rule
 Whenever work on an App Factory project discovers a reusable design pattern,
 animation, sound asset, icon system, library, component, layout, interaction or external repository, evaluate
@@ -153,3 +184,13 @@ Se l'utente indica link a un archivio personale di preferiti/segnalibri di **qua
 5. Se l'export è incompleto, segnare PARTIAL e i gap. Aggiornare i dossier PER_APP, registri, audit, codice e validatori nella stessa PR; CI exact-head e merge gate prima di main.
 
 Il precedente importer Uiverse `scripts/uiverse_favorites_export_browser.js` è il **modello operativo**, non uno script universale valido automaticamente su altri siti. La rimozione di controlli del browser non è una scorciatoia sicura: ispezionare lo script ed eseguire solo codice di provenienza verificata.
+
+## Biblioteca componenti canonica — archiviazione e ricerca (19/11/2026)
+
+Per ogni nuova fonte componente UI/UX verificare e aggiornare [BIBLIOTECA_COMPONENTI/](BIBLIOTECA_COMPONENTI/README.md) senza creare un catalogo parallelo per ogni sito. Mantenere gli ID storici come alias, evitando duplicazioni con confronto URL/commit/path e hash della sorgente quando disponibile. Utilizzare il [CATALOGO.json](BIBLIOTECA_COMPONENTI/CATALOGO.json) come indice cross-source leggero, con filtri tramite [cerca.py](BIBLIOTECA_COMPONENTI/cerca.py).
+
+**Acquisizione preferenziale:** quando un componente rilevante ha realmente disponibile codice sorgente riutilizzabile, archiviarne in automatico il linguaggio originale (Dart/TSX/HTML/CSS/Kotlin), assieme a licenza/provenienza, commit/blob, dipendenze, stato e applicazioni interessate. Evitare copiare due volte lo stesso file: puntare alla sede gia' archiviata. Rispettare diritti di riuso e attribution della fonte; quando non e' verificabile una licenza che consenta archiviazione e riuso, catalogare LINK + scheda REFERENCE_ONLY e sviluppare codice originale se necessario.
+
+**Non dichiarare pronto:** un file TSX importato e' sempre SOURCE_ARCHIVED, non Flutter COPY_READY. Un link di Flutter Component Library che indica un file Dart non prova che i byte del file siano stati recuperati. L'adozione nelle app richiede Product Bible, preferenze Design-App salvate dall'utente, test Flutter/Compose e revisione visiva degli screenshot reali. Non alzare automaticamente il livello Golden/Donor.
+
+**CI:** dopo modifiche al catalogo o ai sorgenti eseguire `python BIBLIOTECA_COMPONENTI/validate.py`, controllare che tutte le copie originali Ruixen conservino gli SHA upstream, che gli alias esistano e che il catalogo non attribuisca sorgenti a URL puramente descrittivi.

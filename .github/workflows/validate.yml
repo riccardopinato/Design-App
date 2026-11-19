@@ -18,5 +18,16 @@ jobs:
           python-version: "3.12"
       - name: Validate registry and snapshots
         run: python scripts/validate_design_library.py
+      - name: Verify archived Unslop scanner and loader subset
+        run: python -m unittest discover -s sources/oss/unslop-ui/tests -p 'test_archived_subset.py'
       - name: Verify visual review manifest and negative gates
         run: python scripts/validate_visual_qa_evidence.py --self-test
+      - name: Validate component archive, source hashes and catalog aliases
+        run: |
+          python BIBLIOTECA_COMPONENTI/validate.py
+          python BIBLIOTECA_COMPONENTI/uid.py validate
+          python BIBLIOTECA_COMPONENTI/validate_flutter_variants.py
+          python -m unittest discover -s BIBLIOTECA_COMPONENTI -p 'test_uid.py'
+          python BIBLIOTECA_COMPONENTI/genera_anteprime.py --check
+          python BIBLIOTECA_COMPONENTI/cerca.py --id UIV-107 --limite 1 > /dev/null
+          python BIBLIOTECA_COMPONENTI/cerca.py --fonte RUIXEN --solo-sorgente --limite 2 > /dev/null

@@ -177,7 +177,7 @@
       "status": "REFERENCE",
       "source_repo": "uiverse-io/galaxy",
       "source_ref": "adbd2adde0a299a3956ea288fb444ec01891ca41",
-      "source_content_summary": "Personal favorites export: 97 unique Uiverse URLs, 91 newly catalogued; 100 total in Design-App; 57 original Galaxy HTML/CSS files, 43 favorite source gaps, 657 proposed app-component links",
+      "source_content_summary": "108 authenticated personal favorites (11 added since 97, none removed), 111 total Uiverse components and 111 originals archived: 57 Galaxy archive snapshots + 54 live Uiverse HTML/CSS pairs; 736 PROPOSED_ONLY mappings across 25 apps",
       "license": "MIT official source; external assets independently verified",
       "recommended_for": [
         "CSS UI",
@@ -187,8 +187,81 @@
         "switches",
         "design adaptation Flutter/Compose"
       ],
-      "related_intake": "sources/UIVERSE_FAVORITES_97_AUDIT_2026-11-18.md",
+      "related_intake": "sources/UIVERSE_FAVORITES_REFRESH_108_2026-11-18.md",
       "updated_at": "2026-11-18"
+    },
+    {
+      "id": "DESIGN-SITE-011",
+      "name": "Flutter Gems",
+      "url": "https://fluttergems.dev/",
+      "kind": "FLUTTER_PACKAGE_DISCOVERY_DIRECTORY",
+      "status": "REFERENCE",
+      "direct_page_fetch": "SELECTED_CATEGORY_PAGES_VERIFIED_2026_11_18",
+      "recommended_for": [
+        "Flutter design system",
+        "widgets",
+        "motion",
+        "testing",
+        "performance"
+      ],
+      "use": "On-demand discovery only; check original pub.dev GitHub license/SDK/updates; Design-App user-curated aesthetics first.",
+      "license": "AGGREGATOR_HAS_NO_COMPONENT_LICENSE",
+      "related_intake": "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md"
+    },
+    {
+      "id": "DESIGN-SITE-012",
+      "name": "Forui",
+      "url": "https://forui.dev/docs/widgets/form/button",
+      "kind": "FLUTTER_NATIVE_WIDGET_LIBRARY",
+      "status": "REFERENCE",
+      "direct_page_fetch": "DOCS_AND_PUB_DEV_VERIFIED_2026_11_18",
+      "recommended_for": [
+        "buttons",
+        "forms",
+        "responsive touch desktop UI",
+        "navigation"
+      ],
+      "source_repository": "duobaseio/forui",
+      "source_commit": "5dbf97c926a53fcfe3436db1be6262ac40961db5",
+      "use": "Single-widget pilot only after Product Bible and Design-App; verify Flutter SDK and footprint before adding package.",
+      "license": "MIT_CODE_AND_OFL_FONTS_ASSET_LEVEL_CHECK",
+      "related_intake": "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md"
+    },
+    {
+      "id": "DESIGN-SITE-013",
+      "name": "F22 Labs Flutter UI comparison",
+      "url": "https://www.f22labs.com/blogs/top-8-flutter-ui-libraries-for-2025-you-must-explore/",
+      "kind": "EDITORIAL_COMPARISON",
+      "status": "REFERENCE",
+      "direct_page_fetch": "VERIFIED_2026_11_18",
+      "recommended_for": [
+        "UI library research",
+        "component comparisons"
+      ],
+      "use": "Second-hand overview; actual article dated Aug 4 2026, compare original package maintainers.",
+      "license": "EDITORIAL_NOT_PACKAGE_LICENSE",
+      "related_intake": "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md"
+    },
+    {
+      "id": "DESIGN-SITE-014",
+      "name": "Material Design 3 — Google",
+      "url": "https://m3.material.io/",
+      "kind": "OFFICIAL_DESIGN_SYSTEM_REFERENCE_OPTIONAL",
+      "status": "REFERENCE",
+      "direct_page_fetch": "JS_REQUIRED_HOME_OFFICIAL_IMPLEMENTATION_GUIDES_VERIFIED_2026_11_19",
+      "recommended_for": [
+        "Android utility UI",
+        "Flutter Material components",
+        "Kotlin/Jetpack Compose Material3",
+        "Settings and form controls",
+        "accessible navigation",
+        "adaptive dynamic color"
+      ],
+      "use": "Optional design system ONLY when selected for the individual app. Never mandatory and never banned. User-curated Design-App references and Product Bible precede. Preserve existing M3 if coherent; do not port Flutter Golden code into Kotlin/Compose.",
+      "source_content_summary": "Google Material 3 portal is JS-rendered for direct text; official Flutter & Android developer documentation confirms color, typography, shapes, components, dynamic color and Material 3 Expressive. Source is a design system, not an external OSS code donor.",
+      "license": "OFFICIAL_GUIDANCE_NOT_UNIVERSAL_ASSET_CODE_LICENSE",
+      "related_intake": "sources/MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md",
+      "updated_at": "2026-11-19"
     }
   ]
 }

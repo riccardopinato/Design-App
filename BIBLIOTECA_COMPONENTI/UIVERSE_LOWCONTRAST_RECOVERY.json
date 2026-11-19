@@ -1,0 +1,310 @@
+{
+  "as_of": "2026-11-19",
+  "original_count": 110,
+  "candidates": 15,
+  "replaced": 14,
+  "still_needs_source_visual_acceptance": 110,
+  "fixture_rule": "Only output real archived HTML/CSS. The wrapper can change contrast/size; never source styles.",
+  "cases": {
+    "UIV-005": {
+      "source_url": "https://uiverse.io/amir_6539/red-duck-82",
+      "archived_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-005_original.html",
+      "archived_source_blob_sha": "73a8aaf5f229c8b69ff590a07e19e734a5ab6db8",
+      "old_sha256": "67d37d69f8dc662c621f2fa10823ba26d6305eba3d3eaa734f046dd3600c3737",
+      "current_sha256": "61c72f8d132e6177cf4303166ae5b0d26a2e52518bd7cd665dcfadfcff68a3ce",
+      "old_stddev": 2.745,
+      "candidate_frame_stddev": [
+        92.965,
+        92.966,
+        92.971
+      ],
+      "best_stddev": 92.971,
+      "replaced": true,
+      "fixture_backdrop": "NEUTRAL",
+      "fixture_size": "380x240",
+      "capture_mode": "ORIGINAL_HTML_CSS_RUNNING_ANIMATION",
+      "visual_qa": "UNREVIEWED",
+      "claim": "Real archived source rendered in browser; no original code or external asset changed"
+    },
+    "UIV-011": {
+      "source_url": "https://uiverse.io/Admin12121/black-sheep-17",
+      "archived_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-011_original.html",
+      "archived_source_blob_sha": "6984437ea0d5805fce59054c7dc55b3199108c06",
+      "old_sha256": "1b85dbe01811088e0207189282b13372edab400dcda68640a166b974daaaecbe",
+      "current_sha256": "1f01e6ae0cd2afb8d537865446465ebc9129b0a89bef8335383a65243109c636",
+      "old_stddev": 2.667,
+      "candidate_frame_stddev": [
+        0.0,
+        16.005,
+        17.479
+      ],
+      "best_stddev": 17.479,
+      "replaced": true,
+      "fixture_backdrop": "NEUTRAL",
+      "fixture_size": "CONTENT_BASED",
+      "capture_mode": "ORIGINAL_HTML_CSS_RUNNING_ANIMATION",
+      "visual_qa": "UNREVIEWED",
+      "claim": "Real archived source rendered in browser; no original code or external asset changed"
+    },
+    "UIV-033": {
+      "source_url": "https://uiverse.io/Praashoo7/smooth-crab-52",
+      "archived_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-033_original.html",
+      "archived_source_blob_sha": "357bad2a0d52db3af7e2cdbdf21292d4c3b4a9c9",
+      "old_sha256": "bacacc39702084e00c8b9572c62dec4931e3b37f0e846169dbacde4cef15d943",
+      "current_sha256": "3e2e5b5e3989f2df5d70ffe4e28b82ca2c726e54fc3d908dbd113ec01ae7ea53",
+      "old_stddev": 0.0,
+      "candidate_frame_stddev": [
+        88.737,
+        88.737,
+        88.737
+      ],
+      "best_stddev": 88.737,
+      "replaced": true,
+      "fixture_backdrop": "DARK",
+      "fixture_size": "380x240",
+      "capture_mode": "ORIGINAL_HTML_CSS_RUNNING_ANIMATION",
+      "visual_qa": "UNREVIEWED",
+      "claim": "Real archived source rendered in browser; no original code or external asset changed"
+    },
+    "UIV-041": {
+      "source_url": "https://uiverse.io/Shoh2008/ugly-elephant-80",
+      "archived_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-041_original.html",
+      "archived_source_blob_sha": "cc7eaaa9f24c666016117d214f7e3ead829eac98",
+      "old_sha256": "d4c2d4b82e662bd341a6d189263515f2ba96fca34e3cdac2235f0e8770600173",
+      "current_sha256": "a0289e6234361bd9688ace7234156b5b2c116b28c2e3d7c5fb8de03c46813f3f",
+      "old_stddev": 0.277,
+      "candidate_frame_stddev": [
+        17.807,
+        8.755,
+        17.582
+      ],
+      "best_stddev": 17.807,
+      "replaced": true,
+      "fixture_backdrop": "DARK",
+      "fixture_size": "CONTENT_BASED",
+      "capture_mode": "ORIGINAL_HTML_CSS_RUNNING_ANIMATION",
+      "visual_qa": "UNREVIEWED",
+      "claim": "Real archived source rendered in browser; no original code or external asset changed"
+    },
+    "UIV-042": {
+      "source_url": "https://uiverse.io/Shoh2008/yellow-dolphin-16",
+      "archived_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-042_original.html",
+      "archived_source_blob_sha": "23a2c1b848505b341dc5bd8c1d84732b7abdebd6",
+      "old_sha256": "bacacc39702084e00c8b9572c62dec4931e3b37f0e846169dbacde4cef15d943",
+      "current_sha256": "8d8cabbac93721d14f1549ae4472438c4edb83beb347b2a2bcefdfaff42a9578",
+      "old_stddev": 0.0,
+      "candidate_frame_stddev": [
+        35.27,
+        35.27,
+        37.447
+      ],
+      "best_stddev": 37.447,
+      "replaced": true,
+      "fixture_backdrop": "DARK",
+      "fixture_size": "CONTENT_BASED",
+      "capture_mode": "ORIGINAL_HTML_CSS_RUNNING_ANIMATION",
+      "visual_qa": "UNREVIEWED",
+      "claim": "Real archived source rendered in browser; no original code or external asset changed"
+    },
+    "UIV-044": {
+      "source_url": "https://uiverse.io/Subaashbala/average-horse-18",
+      "archived_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-044_original.html",
+      "archived_source_blob_sha": "015627b6aa0daa8499681adf3fc23614a5e61019",
+      "old_sha256": "bacacc39702084e00c8b9572c62dec4931e3b37f0e846169dbacde4cef15d943",
+      "current_sha256": "379f944bb3113647f18aa88f95653bfe3ab609c32759b8de644cffffd2740164",
+      "old_stddev": 0.0,
+      "candidate_frame_stddev": [
+        1.898,
+        35.591,
+        36.241
+      ],
+      "best_stddev": 36.241,
+      "replaced": true,
+      "fixture_backdrop": "NEUTRAL",
+      "fixture_size": "CONTENT_BASED",
+      "capture_mode": "ORIGINAL_HTML_CSS_RUNNING_ANIMATION",
+      "visual_qa": "UNREVIEWED",
+      "claim": "Real archived source rendered in browser; no original code or external asset changed"
+    },
+    "UIV-050": {
+      "source_url": "https://uiverse.io/andrew-manzyk/fast-vampirebat-53",
+      "archived_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-050_original.html",
+      "archived_source_blob_sha": "184499a64a3d22474e9aea5181627df63e4a0173",
+      "old_sha256": "bacacc39702084e00c8b9572c62dec4931e3b37f0e846169dbacde4cef15d943",
+      "current_sha256": "90fda4bcb726b4f3639c75e3f5c78b24d30483c93617a3f5760542687441d201",
+      "old_stddev": 0.0,
+      "candidate_frame_stddev": [
+        9.293,
+        11.004,
+        9.253
+      ],
+      "best_stddev": 11.004,
+      "replaced": true,
+      "fixture_backdrop": "NEUTRAL",
+      "fixture_size": "380x240",
+      "capture_mode": "ORIGINAL_HTML_CSS_RUNNING_ANIMATION",
+      "visual_qa": "UNREVIEWED",
+      "claim": "Real archived source rendered in browser; no original code or external asset changed"
+    },
+    "UIV-061": {
+      "source_url": "https://uiverse.io/dexter-st/bright-lizard-8",
+      "archived_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-061_original.html",
+      "archived_source_blob_sha": "c4f38e56b7c84a6ff5c4c29d497e7df491a685ee",
+      "old_sha256": "13b29e53829e9aa4ec95ece79ec09fe7838c50813f526a19f3500d286ba586eb",
+      "current_sha256": "adee9d15f5eff448d88eefbe1c1b8f8272559c438c0e0d1742a48cb9f0e8d676",
+      "old_stddev": 0.157,
+      "candidate_frame_stddev": [
+        32.987,
+        28.356,
+        31.497
+      ],
+      "best_stddev": 32.987,
+      "replaced": true,
+      "fixture_backdrop": "DARK",
+      "fixture_size": "380x240",
+      "capture_mode": "ORIGINAL_HTML_CSS_RUNNING_ANIMATION",
+      "visual_qa": "UNREVIEWED",
+      "claim": "Real archived source rendered in browser; no original code or external asset changed"
+    },
+    "UIV-062": {
+      "source_url": "https://uiverse.io/dexter-st/spicy-otter-30",
+      "archived_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-062_original.html",
+      "archived_source_blob_sha": "44c08e464e7b50b7a6ddc4b9ed1d50ec87893ba1",
+      "old_sha256": "24815342d414501d501e7e421d9d773ea588e039d1e6e61cd37b7c6241c6f34c",
+      "current_sha256": "d24efc29f5d6804cb8a8ba51e83c5a6c2a974840bf00612fae40eebb0a3fd0a9",
+      "old_stddev": 1.487,
+      "candidate_frame_stddev": [
+        28.927,
+        36.107,
+        33.466
+      ],
+      "best_stddev": 36.107,
+      "replaced": true,
+      "fixture_backdrop": "NEUTRAL",
+      "fixture_size": "CONTENT_BASED",
+      "capture_mode": "ORIGINAL_HTML_CSS_RUNNING_ANIMATION",
+      "visual_qa": "UNREVIEWED",
+      "claim": "Real archived source rendered in browser; no original code or external asset changed"
+    },
+    "UIV-065": {
+      "source_url": "https://uiverse.io/dovatgabriel/massive-vampirebat-17",
+      "archived_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-065_original.html",
+      "archived_source_blob_sha": "ce18e76038050c4012ace0151387e3e1cc5f9faa",
+      "old_sha256": "51ed5c1e4360afb609c2f8288a1c2394653df1f44468b9ce9557df5931a0c658",
+      "current_sha256": "3523c1986aa47160eb24c902e538c93574b918454361b1238eeed9330f90a5dc",
+      "old_stddev": 2.714,
+      "candidate_frame_stddev": [
+        6.605,
+        6.605,
+        6.591
+      ],
+      "best_stddev": 6.605,
+      "replaced": true,
+      "fixture_backdrop": "NEUTRAL",
+      "fixture_size": "380x240",
+      "capture_mode": "ORIGINAL_HTML_CSS_RUNNING_ANIMATION",
+      "visual_qa": "UNREVIEWED",
+      "claim": "Real archived source rendered in browser; no original code or external asset changed"
+    },
+    "UIV-066": {
+      "source_url": "https://uiverse.io/elijahgummer/polite-earwig-72",
+      "archived_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-066_original.html",
+      "archived_source_blob_sha": "1dfba769680a5fccea56b9ea438e943dbf0f4c39",
+      "old_sha256": "bacacc39702084e00c8b9572c62dec4931e3b37f0e846169dbacde4cef15d943",
+      "current_sha256": "01b2317752d89d62c79c5ab012b3ce70f7959639c1a52ff4f315c74d7e6fcf98",
+      "old_stddev": 0.0,
+      "candidate_frame_stddev": [
+        0.318,
+        3.644,
+        7.625
+      ],
+      "best_stddev": 7.625,
+      "replaced": true,
+      "fixture_backdrop": "DARK",
+      "fixture_size": "CONTENT_BASED",
+      "capture_mode": "ORIGINAL_HTML_CSS_RUNNING_ANIMATION",
+      "visual_qa": "UNREVIEWED",
+      "claim": "Real archived source rendered in browser; no original code or external asset changed"
+    },
+    "UIV-088": {
+      "source_url": "https://uiverse.io/mobinkakei/great-skunk-8",
+      "archived_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-088_original.html",
+      "archived_source_blob_sha": "56a5540c5fc7d9901184edfc3bcb604d7c07dc07",
+      "old_sha256": "49ff5c304c7a57437cfc970a1dc9b9f69dde008f3d3fe5fdba5090ad3c7a363b",
+      "current_sha256": "49ff5c304c7a57437cfc970a1dc9b9f69dde008f3d3fe5fdba5090ad3c7a363b",
+      "old_stddev": 1.356,
+      "candidate_frame_stddev": [
+        2.666,
+        2.666,
+        2.666
+      ],
+      "best_stddev": 2.666,
+      "replaced": false,
+      "fixture_backdrop": "NEUTRAL",
+      "fixture_size": "CONTENT_BASED",
+      "capture_mode": "ORIGINAL_HTML_CSS_RUNNING_ANIMATION",
+      "visual_qa": "UNREVIEWED",
+      "claim": "Real archived source rendered in browser; no original code or external asset changed"
+    },
+    "UIV-089": {
+      "source_url": "https://uiverse.io/mobinkakei/grumpy-turtle-41",
+      "archived_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-089_original.html",
+      "archived_source_blob_sha": "2704a11f9a5b7a67ee5706698d793da73ff38079",
+      "old_sha256": "cb03242df9fc1c320fe921d7dc2ee22fe4ef96d42894ab53179157905616f8c2",
+      "current_sha256": "47a6eaccffad42875ef115daa5fa2c820f1bb9ae3a6c6b2adad0591c784eaf35",
+      "old_stddev": 0.721,
+      "candidate_frame_stddev": [
+        18.892,
+        16.979,
+        18.901
+      ],
+      "best_stddev": 18.901,
+      "replaced": true,
+      "fixture_backdrop": "DARK",
+      "fixture_size": "CONTENT_BASED",
+      "capture_mode": "ORIGINAL_HTML_CSS_RUNNING_ANIMATION",
+      "visual_qa": "UNREVIEWED",
+      "claim": "Real archived source rendered in browser; no original code or external asset changed"
+    },
+    "UIV-094": {
+      "source_url": "https://uiverse.io/satyamchaudharydev/splendid-husky-54",
+      "archived_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-094_original.html",
+      "archived_source_blob_sha": "112071ace5d9cb34849313300882195ff816c52d",
+      "old_sha256": "bacacc39702084e00c8b9572c62dec4931e3b37f0e846169dbacde4cef15d943",
+      "current_sha256": "6e5a41bce9d24cc8680a4444334f0146b10acc0bbac86132b22b2b53dab26a00",
+      "old_stddev": 0.0,
+      "candidate_frame_stddev": [
+        16.627,
+        20.812,
+        20.648
+      ],
+      "best_stddev": 20.812,
+      "replaced": true,
+      "fixture_backdrop": "DARK",
+      "fixture_size": "380x240",
+      "capture_mode": "ORIGINAL_HTML_CSS_RUNNING_ANIMATION",
+      "visual_qa": "UNREVIEWED",
+      "claim": "Real archived source rendered in browser; no original code or external asset changed"
+    },
+    "UIV-098": {
+      "source_url": "https://uiverse.io/whoisyourdeadie/foolish-rabbit-13",
+      "archived_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-098_original.html",
+      "archived_source_blob_sha": "ebb75491a058ac374e579513213cb646d16effa9",
+      "old_sha256": "bacacc39702084e00c8b9572c62dec4931e3b37f0e846169dbacde4cef15d943",
+      "current_sha256": "130e8f241d4bf7025c088c1b1bc7b62d36b0330891c252b1a34d52bc9144e83d",
+      "old_stddev": 0.0,
+      "candidate_frame_stddev": [
+        95.211,
+        93.322,
+        93.607
+      ],
+      "best_stddev": 95.211,
+      "replaced": true,
+      "fixture_backdrop": "NEUTRAL",
+      "fixture_size": "380x240",
+      "capture_mode": "ORIGINAL_HTML_CSS_RUNNING_ANIMATION",
+      "visual_qa": "UNREVIEWED",
+      "claim": "Real archived source rendered in browser; no original code or external asset changed"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+name: Capture archived Ruixen Next font original
+
+on:
+  push:
+    branches: ["feature/flutter-dual-code-preview-recovery-20261119"]
+    paths:
+      - "BIBLIOTECA_COMPONENTI/next_source_renderer/**"
+      - "BIBLIOTECA_COMPONENTI/capture_next_font_preview.py"
+      - ".github/workflows/capture-next-font-original.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: design-app-dual-code-branch-write-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  source-next:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: "3.12"
+      - name: Install isolated real Next.js and Playwright
+        run: |
+          cd BIBLIOTECA_COMPONENTI/next_source_renderer
+          npm install --no-audit --no-fund --ignore-scripts
+          node --input-type=module -e "import('motion/react').then(m=>{if(!m.motion)throw Error('MOTION_RUNTIME_UNAVAILABLE'); console.log('REAL_MOTION_REACT_OK')})"
+          cd ../..
+          python -m pip install "playwright==1.57.0" "Pillow==11.3.0"
+          python -m playwright install chromium
+      - name: Render untouched TSX with actual next/font/google Poppins
+        run: python BIBLIOTECA_COMPONENTI/capture_next_font_preview.py
+      - name: Regenerate and validate all evidence
+        run: |
+          python BIBLIOTECA_COMPONENTI/genera_anteprime.py --write
+          python BIBLIOTECA_COMPONENTI/resolve_119_preview_cases.py
+          python BIBLIOTECA_COMPONENTI/genera_anteprime.py --check
+          python BIBLIOTECA_COMPONENTI/validate.py
+          python BIBLIOTECA_COMPONENTI/uid.py validate
+          python BIBLIOTECA_COMPONENTI/validate_flutter_variants.py
+      - name: Save original-source screenshot, provenance, and ledger
+        env:
+          BRANCH: ${{ github.ref_name }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Next dev adjusts tsconfig for local build; this is not a curated
+          # source change and makes git rebase refuse to run. Restore only its
+          # two generated local config files, never archived original TSX.
+          git restore -- BIBLIOTECA_COMPONENTI/next_source_renderer/tsconfig.json BIBLIOTECA_COMPONENTI/next_source_renderer/next-env.d.ts
+          git add docs/assets/componenti/RXN-glowing-send-input.png BIBLIOTECA_COMPONENTI/ANTEPRIME_ORIGINI.json BIBLIOTECA_COMPONENTI/ANTEPRIME.json BIBLIOTECA_COMPONENTI/RECUPERO_119_ESITI.json BIBLIOTECA_COMPONENTI/RECUPERO_119_ESITI.md BIBLIOTECA_COMPONENTI/TABELLA_478.md BIBLIOTECA_COMPONENTI/PER_APP
+          git commit -m "docs(previews): capture exact glowing send input under Next.js and real Poppins"
+          AUTH=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
+          git -c http.https://github.com/.extraheader="AUTHORIZATION: basic ${AUTH}" fetch origin "${BRANCH}"
+          git rebase "origin/${BRANCH}"
+          git -c http.https://github.com/.extraheader="AUTHORIZATION: basic ${AUTH}" push origin "HEAD:${BRANCH}"
