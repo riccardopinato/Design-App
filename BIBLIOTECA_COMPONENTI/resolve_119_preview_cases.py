@@ -147,11 +147,17 @@ def main():
         "La colonna risultato distingue **PNG reale acquisita** da **blocco concreto** e **acquisizione ancora non eseguita**. "
         "Una PNG con QA visivo UNREVIEWED non è né Golden Flutter né asset approvato per l'app.\n",
         "Le fonti originali non sono state sostituite.\n",
-        "| UID | Componente | Origine | Esito | Evidenza/impedimento |\n|---|---|---|---|---|\n",
+        "| UID | Componente | Origine | Esito | Immagine/Fonte | Evidenza/impedimento |\n|---|---|---|---|---|---|\n",
     ]
     for e in rows:
         safe_reason=e["reason"].replace("|","&#124;").replace("\n"," ").replace("<","&lt;")
-        lines.append(f"| {e['uid']} | {e['canonical_id']} | {e['provider']} | {e['result']} | {safe_reason} |\n")
+        if e["image_path"]:
+            evidence_link = "[Apri PNG](../" + e["image_path"] + ")"
+        elif (e["source_url"] or "").startswith("https://"):
+            evidence_link = "[Fonte originale](" + e["source_url"] + ")"
+        else:
+            evidence_link = "—"
+        lines.append(f"| {e['uid']} | {e['canonical_id']} | {e['provider']} | {e['result']} | {evidence_link} | {safe_reason} |\n")
     lines.append("\nDettaglio, SHA256, link ai file e fonti: [RECUPERO_119_ESITI.json](./RECUPERO_119_ESITI.json).\n")
     MARKDOWN.write_text("".join(lines),encoding="utf-8")
     print("RECOVERY_LEDGER_119",json.dumps({"png":png,"missing":119-png,"statuses":counts}))
