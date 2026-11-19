@@ -1195,6 +1195,21 @@
       "captured_on": "2026-11-19",
       "bytes": 3736
     },
+    "RXN-flip-text": {
+      "component_id": "RXN-flip-text",
+      "preview_path": "docs/assets/componenti/RXN-flip-text.png",
+      "preview_sha256": "12c045ac92fdbc374145d0b9eff7731f63a5a0d2bee6f2bbdc2d8af013482dc1",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/flip-text.tsx",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941",
+      "source_blob_sha": "d701c73dc7fbec5ef41729fdd51767c8c2600993",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/main.tsx",
+      "local_renderer_package_sha256": "a9acb51c858dfd0f437c231e3339c2fca95789e937ba7bd7f34c4c725061fcbc",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Pinned original TSX executed in isolated React runtime. Example props and layout are local fixtures, NOT official upstream screenshot.",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER"
+    },
     "RXN-floating-cards-hero": {
       "component_id": "RXN-floating-cards-hero",
       "preview_path": "docs/assets/componenti/RXN-floating-cards-hero.png",
@@ -1627,6 +1642,21 @@
       "origin_path": "public/preview_images/featured-sections/integration-and-stats-section-light.png",
       "upstream_preview_index_sha256": "0255ae3f982b2c4def65d99f4e380ffa84c0e36863da4209b4e92f710bd16ca9",
       "bytes": 54234
+    },
+    "RXN-interactive-hover-button": {
+      "component_id": "RXN-interactive-hover-button",
+      "preview_path": "docs/assets/componenti/RXN-interactive-hover-button.png",
+      "preview_sha256": "c5c3ee03de5acf6ffd9248d3465a95189361ef728de585dab1add3a223f4c9a4",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/interactive-hover-button.tsx",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941",
+      "source_blob_sha": "e43ccbbe0f01781cf837e3f643a1a7bb39076e95",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/main.tsx",
+      "local_renderer_package_sha256": "a9acb51c858dfd0f437c231e3339c2fca95789e937ba7bd7f34c4c725061fcbc",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Pinned original TSX executed in isolated React runtime. Example props and layout are local fixtures, NOT official upstream screenshot.",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER"
     },
     "RXN-invert-tabs": {
       "component_id": "RXN-invert-tabs",
@@ -2408,6 +2438,21 @@
       "source_scope": "Pinned original TSX executed in isolated React runtime. Example props and layout are local fixtures, NOT official upstream screenshot.",
       "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER"
     },
+    "RXN-rainbow-button": {
+      "component_id": "RXN-rainbow-button",
+      "preview_path": "docs/assets/componenti/RXN-rainbow-button.png",
+      "preview_sha256": "8635189decc9f628de66c849b8425924f4c334674de6bb6f1c03458629ba5951",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/rainbow-button.tsx",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941",
+      "source_blob_sha": "1a3f673c22c4b16cc6cdb9d56e0bee27f19e0761",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/main.tsx",
+      "local_renderer_package_sha256": "a9acb51c858dfd0f437c231e3339c2fca95789e937ba7bd7f34c4c725061fcbc",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Pinned original TSX executed in isolated React runtime. Example props and layout are local fixtures, NOT official upstream screenshot.",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER"
+    },
     "RXN-range-calendar": {
       "component_id": "RXN-range-calendar",
       "preview_path": "docs/assets/componenti/RXN-range-calendar.png",
@@ -2789,6 +2834,21 @@
       "origin_path": "public/preview_images/charts/spark-chart-light.png",
       "upstream_preview_index_sha256": "0255ae3f982b2c4def65d99f4e380ffa84c0e36863da4209b4e92f710bd16ca9",
       "bytes": 11565
+    },
+    "RXN-spinning-text": {
+      "component_id": "RXN-spinning-text",
+      "preview_path": "docs/assets/componenti/RXN-spinning-text.png",
+      "preview_sha256": "6ef19b51b999eb1ad987217831e22482be9737d39879c60dce2dd4fd77b607f1",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/spinning-text.tsx",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941",
+      "source_blob_sha": "42b19a89e2a8ebcfeb2862ea3681ea784eccda44",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/main.tsx",
+      "local_renderer_package_sha256": "a9acb51c858dfd0f437c231e3339c2fca95789e937ba7bd7f34c4c725061fcbc",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Pinned original TSX executed in isolated React runtime. Example props and layout are local fixtures, NOT official upstream screenshot.",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER"
     },
     "RXN-split-feature-showcase": {
       "component_id": "RXN-split-feature-showcase",

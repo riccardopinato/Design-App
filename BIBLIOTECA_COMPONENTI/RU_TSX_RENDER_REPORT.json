@@ -13,15 +13,12 @@
     "spinning-text"
   ],
   "captured": [
-    "RXN-orbiting-circles",
-    "RXN-ruixen-featured-message-card"
+    "RXN-interactive-hover-button",
+    "RXN-flip-text",
+    "RXN-rainbow-button",
+    "RXN-spinning-text"
   ],
-  "blocked": {
-    "RXN-interactive-hover-button": "React source not mounted; body=SOURCE_MODULE_FAILED: interactive-hover-button TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/interactive-hover-button.tsx; JS=[]; Vite= TransformPluginContext.error (file:///ho",
-    "RXN-flip-text": "React source not mounted; body=SOURCE_MODULE_FAILED: flip-text TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/flip-text.tsx; JS=[]; Vite= TransformPluginContext.error (file:///home/runner/work/Design-App/Desi",
-    "RXN-rainbow-button": "React source not mounted; body=SOURCE_MODULE_FAILED: rainbow-button TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/rainbow-button.tsx; JS=[]; Vite= TransformPluginContext.error (file:///home/runner/work/Desig",
-    "RXN-spinning-text": "React source not mounted; body=SOURCE_MODULE_FAILED: spinning-text TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/spinning-text.tsx; JS=[]; Vite= TransformPluginContext.error (file:///home/runner/work/Design-"
-  },
+  "blocked": {},
   "source_revision": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941",
   "status": "IMAGE_UNREVIEWED_NOT_OFFICIAL_UPSTREAM_CAPTURE"
 }

@@ -1133,10 +1133,10 @@
       "image_evidence": null
     },
     "RXN-flip-text": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/RXN-flip-text.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
     },
     "RXN-floating-cards-hero": {
       "image_path": "docs/assets/componenti/RXN-floating-cards-hero.png",
@@ -1361,10 +1361,10 @@
       "image_evidence": null
     },
     "RXN-interactive-hover-button": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/RXN-interactive-hover-button.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
     },
     "RXN-invert-tabs": {
       "image_path": "docs/assets/componenti/RXN-invert-tabs.png",
@@ -1751,10 +1751,10 @@
       "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
     },
     "RXN-rainbow-button": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/RXN-rainbow-button.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
     },
     "RXN-range-calendar": {
       "image_path": "docs/assets/componenti/RXN-range-calendar.png",
@@ -1997,10 +1997,10 @@
       "image_evidence": null
     },
     "RXN-spinning-text": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/RXN-spinning-text.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
     },
     "RXN-split-feature-showcase": {
       "image_path": "docs/assets/componenti/RXN-split-feature-showcase.png",
