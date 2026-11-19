@@ -23,8 +23,10 @@
 La nuova [tabella completa con colonna **Anteprima**](./TABELLA_478.md) contiene
 tutti i 478 record canonici. Le [tabelle generate per app](./PER_APP/README.md)
 mostrano ogni associazione componente/app con una miniatura cliccabile o uno
-stato esplicito quando la cattura manca. Sono presenti **26 identificativi app**
-nei collegamenti del catalogo: non confonderli con i 25 dossier storici.
+stato esplicito quando la cattura manca. Sono presenti **26 identificativi app** nei collegamenti originari,
+normalizzati in **25 viste per prodotto**: `anna-s-diary` e `annas-diary`
+sono due alias storici dello stesso prodotto. Non vengono modificati gli ID
+nel catalogo sorgente.
 
 Il [visualizzatore HTML interattivo](../docs/componenti.html) offre ricerca,
 filtri per app/fonte/disponibilita' immagine e lightbox. Su GitHub la vista
