@@ -461,10 +461,10 @@
       "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-021": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-021.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-022": {
       "image_path": "docs/assets/componenti/ICO-022.png",

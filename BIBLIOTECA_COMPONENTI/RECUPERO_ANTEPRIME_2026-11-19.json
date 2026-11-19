@@ -13,12 +13,14 @@
     "DEVLIBRARIES_WATERMELON": 9
   },
   "new_ruixen": 0,
-  "new_gentleface": 0,
-  "new_total": 0,
-  "estimated_remaining": 130,
-  "cumulative_recovered_from_322_baseline": 28,
+  "new_gentleface": 1,
+  "new_total": 1,
+  "estimated_remaining": 129,
+  "cumulative_recovered_from_322_baseline": 29,
   "recovered_ruixen_ids": [],
-  "recovered_gentleface_ids": [],
+  "recovered_gentleface_ids": [
+    "ICO-021"
+  ],
   "ruixen_unresolved": {
     "RXN-animated-beam": [
       "https://ruixen.com/docs/components/animated-beam: HTTP or no response",
@@ -351,9 +353,7 @@
       "https://ruixen.com/preview/scrub-datetime: no component-specific heading"
     ]
   },
-  "gentleface_unresolved": {
-    "ICO-021": "original icon yielded uninformative image"
-  },
+  "gentleface_unresolved": {},
   "other_source_missing": {
     "DEVLIBRARIES_AMICRO": 10,
     "DEVLIBRARIES_BOOKMARKS": 27,

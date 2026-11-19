@@ -302,6 +302,21 @@
       "visual_qa": "UNREVIEWED",
       "asset_rights": "MIT_REFERENCE_NO_CONSUMER_BUNDLE"
     },
+    "ICO-021": {
+      "component_id": "ICO-021",
+      "preview_path": "docs/assets/componenti/ICO-021.png",
+      "preview_sha256": "cb5b9f1bdc435214348bc1c49b19e5ab823607f0a5e9b31268e99cfeccecebde",
+      "origin_url": "https://gentleface.com/icons/pause",
+      "origin_asset_url": "https://gentleface.com/svg/line-round/16/pause.svg",
+      "original_asset_sha256": "34780941dcb93be839c0544593e91a66b3dd9d018026c07b0c1d4d956144e129",
+      "origin_provider": "gentleface.com",
+      "source_license": "MIT",
+      "capture_mode": "OFFICIAL_MIT_SVG_RENDERED",
+      "pixel_transform": "Original official SVG rendered at 192 pixels, alpha composited on neutral 224px canvas",
+      "source_availability": "ARCHIVED_MIT_SVG_HASHED",
+      "visual_qa": "UNREVIEWED",
+      "asset_rights": "MIT_REFERENCE_NO_CONSUMER_BUNDLE"
+    },
     "ICO-022": {
       "component_id": "ICO-022",
       "preview_path": "docs/assets/componenti/ICO-022.png",
