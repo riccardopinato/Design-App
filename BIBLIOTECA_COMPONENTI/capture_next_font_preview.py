@@ -37,7 +37,8 @@ async def main() -> None:
                 if server.poll() is not None:
                     raise RuntimeError("NEXT_SERVER_EXITED")
                 logged = log_path.read_text(encoding="utf-8")
-                if "Unhandled Rejection:" in logged or "Error: It looks like you" in logged:
+                if ("Unhandled Rejection:" in logged or "Error: It looks like you" in logged
+                        or "Attempted import error:" in logged or "Module not found:" in logged):
                     raise RuntimeError("NEXT_STARTUP_FATAL: " + logged[-1000:])
                 try:
                     with urlopen("http://127.0.0.1:5182", timeout=3) as response:

@@ -34,6 +34,7 @@ jobs:
         run: |
           cd BIBLIOTECA_COMPONENTI/next_source_renderer
           npm install --no-audit --no-fund --ignore-scripts
+          node --input-type=module -e "import('motion/react').then(m=>{if(!m.motion)throw Error('MOTION_RUNTIME_UNAVAILABLE'); console.log('REAL_MOTION_REACT_OK')})"
           cd ../..
           python -m pip install "playwright==1.57.0" "Pillow==11.3.0"
           python -m playwright install chromium
