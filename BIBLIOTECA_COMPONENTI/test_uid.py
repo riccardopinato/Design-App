@@ -7,8 +7,8 @@ import uid
 class UIDContractTests(unittest.TestCase):
     def test_all_unique_stable_uids_and_no_canonical_loss(self):
         result = uid.validate()
-        self.assertEqual(478, result["uids"])
-        self.assertEqual(478, result["catalog"])
+        self.assertEqual(480, result["uids"])
+        self.assertEqual(480, result["catalog"])
 
     def test_examples_resolve_to_exact_canonical(self):
         cases = {
@@ -35,6 +35,15 @@ class UIDContractTests(unittest.TestCase):
         self.assertEqual("SOURCE_UNAVAILABLE", p["adoption_mode"])
         self.assertIsNone(p["component"]["archive_path"])
         self.assertFalse(p["copy_paste_ready"])
+
+    def test_forui_uids_do_not_claim_automatic_flutter_adoption(self):
+        for ref, cid in (("UID-0479", "FUI-001"), ("UID-0480", "FUI-002")):
+            with self.subTest(ref=ref):
+                self.assertEqual(cid, uid.inspect(ref)["canonical_id"])
+                self.assertEqual("UNREVIEWED", uid.inspect(ref)["preview_origin"]["visual_qa"])
+                plan = uid.plan(ref, "annas-diary", "flutter", "componente")
+                self.assertEqual("SOURCE_REVIEW_REQUIRED", plan["adoption_mode"])
+                self.assertFalse(plan["copy_paste_ready"])
 
     def test_no_missing_uid_silent_fallback(self):
         with self.assertRaises(LookupError):

@@ -192,8 +192,33 @@ def validate() -> list[str]:
         )
     if paths_extra != actual_extra:
         errors.append("external source files differ from provenance manifest")
-    if catalog.get("counts", {}).get("archived_originals") != 425:
-        errors.append("expected 425 archived canonical sources after MIT batch")
+    # Pin original Forui sources and license without upgrading them to a Flutter Golden.
+    native_path = ROOT / "BIBLIOTECA_COMPONENTI/sorgenti/forui/PROVENIENZA.json"
+    if not native_path.is_file():
+        errors.append("Forui upstream provenance missing")
+    else:
+        native = json.loads(native_path.read_text(encoding="utf-8"))
+        if native.get("source_repo") != "duobaseio/forui" or native.get("source_commit") != "5dbf97c926a53fcfe3436db1be6262ac40961db5":
+            errors.append("Forui immutable source SHA/repository drift")
+        entries = native.get("entries", [])
+        expected = {"button.dart", "text_form_field.dart", "demo_button.dart", "demo_login_form.dart", "LICENSE"}
+        if len(entries) != 5 or {Path(e.get("local_path", "")).name for e in entries} != expected:
+            errors.append("Forui five-file original source inventory mismatch")
+        for e in entries:
+            path = ROOT / e.get("local_path", "")
+            if not path.is_file() or git_blob_sha(path.read_bytes()) != e.get("source_blob_sha"):
+                errors.append("Forui archived original SHA mismatch: " + e.get("local_path", ""))
+        license_path = ROOT / "BIBLIOTECA_COMPONENTI/sorgenti/forui/LICENSE"
+        if license_path.is_file() and b"MIT License" not in license_path.read_bytes():
+            errors.append("Forui MIT notice missing")
+    if counter.get("FLUTTER_FORUI") != 2:
+        errors.append("expected exactly two Forui native Flutter references")
+    for cid in ("FUI-001", "FUI-002"):
+        c = by_id.get(cid)
+        if not c or c.get("source_site") != "FLUTTER_FORUI" or c.get("archive_state") != "ARCHIVED_SOURCE":
+            errors.append(cid + ": source state mismatch")
+    if catalog.get("counts", {}).get("archived_originals") != 427:
+        errors.append("expected 427 archived originals including Forui")
     if catalog.get("counts", {}).get("referenced_only") != 53:
         errors.append("expected 53 remaining references after MIT batch")
 

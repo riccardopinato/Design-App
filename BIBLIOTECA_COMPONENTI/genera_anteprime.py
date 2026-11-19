@@ -25,9 +25,10 @@ APPS_DIR = HERE / "PER_APP"
 OVERVIEW = HERE / "TABELLA_478.md"
 PNG_SIGNATURE = bytes.fromhex("89504e470d0a1a0a")
 ORIGINS = HERE / "ANTEPRIME_ORIGINI.json"
+FORUI_PROVENANCE = HERE / "ANTEPRIME_ORIGINI_FORUI.json"
 UIDS_FILE = HERE / "UID_REGISTRY.json"
 UID_BY_ID = {x["canonical_id"]: x["uid"] for x in json.loads(UIDS_FILE.read_text(encoding="utf-8"))["entries"]}
-ALL_SOURCE_TYPES = {"RUIXEN", "UIVERSE", "DEVLIBRARIES_AMICRO",
+ALL_SOURCE_TYPES = {"RUIXEN", "UIVERSE", "FLUTTER_FORUI", "DEVLIBRARIES_AMICRO",
                     "DEVLIBRARIES_BOOKMARKS", "DEVLIBRARIES_EASEUI",
                     "DEVLIBRARIES_WATERMELON", "FLUTTER_COMPONENT_LIBRARY",
                     "GENTLEFACE", "USER_IMAGE"}
@@ -36,8 +37,8 @@ ALL_SOURCE_TYPES = {"RUIXEN", "UIVERSE", "DEVLIBRARIES_AMICRO",
 def load() -> dict:
     obj = json.loads(CATALOG.read_text(encoding="utf-8"))
     ids = [c["id"] for c in obj["components"]]
-    if obj["counts"]["unique_components"] != 478 or len(ids) != 478:
-        raise ValueError("expected 478 canonical components")
+    if obj["counts"]["unique_components"] != len(ids):
+        raise ValueError("canonical component count inconsistent")
     if len(ids) != len(set(ids)):
         raise ValueError("duplicate component ID")
     if set(c["source_site"] for c in obj["components"]) != ALL_SOURCE_TYPES:
@@ -71,15 +72,27 @@ def build_manifest(rows: list[dict]) -> dict:
                 raise ValueError(cid + ": unsupported acquisition method")
             if hashlib.sha256(path.read_bytes()).hexdigest() != record.get("preview_sha256"):
                 raise ValueError(cid + ": screenshot bytes differ from registered SHA256")
-        if valid and c["source_site"] not in {"RUIXEN", "UIVERSE"}:
+        if valid and c["source_site"] == "FLUTTER_FORUI":
+            records = json.loads(FORUI_PROVENANCE.read_text(encoding="utf-8")).get("previews", {}) if FORUI_PROVENANCE.exists() else {}
+            rec = records.get(cid)
+            if (not rec or rec.get("origin_source_commit") != c.get("source_commit")
+                    or rec.get("origin_repo") != "duobaseio/forui"
+                    or rec.get("preview_path") != "docs/assets/componenti/" + cid + ".png"
+                    or rec.get("capture_mode") != "OFFICIAL_FLUTTER_WEB_DEMO_IFRAME"
+                    or rec.get("visual_qa") != "UNREVIEWED"
+                    or rec.get("preview_sha256") != hashlib.sha256(path.read_bytes()).hexdigest()):
+                raise ValueError(cid + ": invalid Forui screenshot provenance")
+        if valid and c["source_site"] not in {"RUIXEN", "UIVERSE", "FLUTTER_FORUI"}:
             raise ValueError("unregistered image provider: " + cid)
         if valid:
             out[cid] = {
                 "image_path": "docs/assets/componenti/" + cid + ".png",
-                "status": ("CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED" if c["source_site"] == "RUIXEN" else "CAPTURED_LOCAL_HTML_UNREVIEWED"),
-                "origin_type": ("PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO" if c["source_site"] == "RUIXEN" else "ARCHIVED_HTML_CSS"),
+                "status": ("CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED" if c["source_site"] == "RUIXEN" else "CAPTURED_ORIGINAL_DEMO_UNREVIEWED" if c["source_site"] == "FLUTTER_FORUI" else "CAPTURED_LOCAL_HTML_UNREVIEWED"),
+                "origin_type": ("PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO" if c["source_site"] == "RUIXEN" else "LIVE_ORIGINAL_FLUTTER_DEMO" if c["source_site"] == "FLUTTER_FORUI" else "ARCHIVED_HTML_CSS"),
                 "image_evidence": ("Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
                                    if c["source_site"] == "RUIXEN" else
+                                   "Authentic Forui demo, provenance in ANTEPRIME_ORIGINI_FORUI.json; QA pending"
+                                   if c["source_site"] == "FLUTTER_FORUI" else
                                    "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"),
             }
         else:
@@ -94,7 +107,7 @@ def build_manifest(rows: list[dict]) -> dict:
         raise ValueError("orphan preview PNG not registered in the canonical catalog")
     return {
         "schema_version": 1,
-        "catalog_component_count": 478,
+        "catalog_component_count": len(rows),
         "coverage": "Captures require screenshot generation and visual QA; no source page or source code is itself an image.",
         "created_at": "2026-11-19",
         "previews": out,
@@ -163,8 +176,8 @@ def outputs(catalog: dict, manifest: dict) -> dict[Path, str]:
               "In assenza di una PNG realmente acquisita la cella dichiara "
               "«Non disponibile» e punta alla fonte originale.\n\n")
     summary = [
-        "# Componenti Design-App — tutte le 478 anteprime\n\n",
-        f"**478 componenti canonici · {len(catalog['aliases'])} alias · {count_images} immagini archiviate.**\n\n",
+        f"# Componenti Design-App — tutte le {len(rows)} anteprime\n\n",
+        f"**{len(rows)} componenti canonici · {len(catalog['aliases'])} alias · {count_images} immagini archiviate.**\n\n",
         "[Tabelle filtrate per app](./PER_APP/README.md) · "
         "[Visualizzatore con lightbox](../docs/componenti.html) "
         "(richiede GitHub Pages o un server locale).\n\n",
@@ -179,7 +192,7 @@ def outputs(catalog: dict, manifest: dict) -> dict[Path, str]:
         f"**{len(assigned)} identificativi app · "
         f"{sum(map(len, assigned.values()))} relazioni · "
         f"{len([c for c in rows if not c['apps']])} componenti senza app.**\n\n",
-        "[Tutti i 478](../TABELLA_478.md) · "
+        f"[Tutti i {len(rows)}](../TABELLA_478.md) · "
         "[Vista interattiva](../../docs/componenti.html)\n\n",
         "| App (identificativo del catalogo) | Componenti distinti | Tabella |\n|---|---:|---|\n",
     ]
@@ -222,7 +235,7 @@ def run(write: bool) -> int:
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text(content, encoding="utf-8")
     count = sum(bool(v["image_path"]) for v in manifest["previews"].values())
-    print(f"Catalog: 478 canonical, {count} original preview PNG, "
+    print(f"Catalog: {len(catalog['components'])} canonical, {count} original preview PNG, "
           f"{len(result)-2} app tables; changed={len(changed)}")
     if changed:
         print("\n".join(changed[:35]))
