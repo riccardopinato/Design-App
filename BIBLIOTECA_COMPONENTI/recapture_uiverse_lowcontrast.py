@@ -71,7 +71,7 @@ async def main():
                         beststd=std;best=raw
                 accepted=beststd>=4.5 and beststd>oldstd+1.5
                 if accepted:
-                    assert best and best.startswith(b"\\x89PNG"),"INVALID_RENDERED_IMAGE"
+                    assert best and best.startswith(bytes([137,80,78,71])),"INVALID_RENDERED_IMAGE"
                     path.write_bytes(best)
                 cases[cid]={
                     "source_url":c["source_url"],
@@ -100,7 +100,7 @@ async def main():
         "still_needs_source_visual_acceptance":110,
         "fixture_rule":"Only output real archived HTML/CSS. The wrapper can change contrast/size; never source styles.",
         "cases":cases
-    },ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+    },ensure_ascii=False,indent=2)+chr(10),encoding="utf-8")
     print("UVERSE_TARGETED_PREVIEW_RECOVERY",sum(v["replaced"] for v in cases.values()),"/",len(IDS))
 if __name__=="__main__":
     asyncio.run(main())
