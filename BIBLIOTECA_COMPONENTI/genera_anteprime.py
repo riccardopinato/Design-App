@@ -253,7 +253,7 @@ def outputs(catalog: dict, manifest: dict) -> dict[Path, str]:
     # Preserve old deep links for the historical alias.
     result[APPS_DIR / "anna-s-diary.md"] = (
         "# Anna's Diary — alias storico\n\n"
-        "Le associazioni \`anna-s-diary\` e \`annas-diary\` sono "
+        "Le associazioni `anna-s-diary` e `annas-diary` sono "
         "riunite nella [tabella unica di Anna's Diary](./annas-diary.md).\n"
     )
     return result
