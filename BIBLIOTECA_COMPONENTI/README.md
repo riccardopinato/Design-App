@@ -8,7 +8,15 @@
 - **INDICE.md**: panoramica per famiglie e sorgenti.
 - **sorgenti/ruixen/**: 277 file **originali** TSX/React acquisiti da `ruixenui/ruixen.com@f6b20860623fa39122ac2b5f0e5bd29a9eb10941`, verificati contro SHA Git dei 277 file, con `LICENSE.md` MIT e `PROVENIENZA.json`. Non sono widget Flutter.
 - **Uiverse**: 111 file originali HTML/CSS gia' conservati in `UI-UX/UIVERSE/CODICE_SORGENTE/`; il catalogo vi punta, senza salvarne copie. Due varianti con identico blob sono rappresentate da un ID e alias.
+- **Amicro / DevLibraries:** 30 sorgenti React/TSX originali recuperati e verificati dal repository MIT al commit bloccato, con `LICENSE` conservata in `sorgenti/amicro/`.
+- **Watermelon:** 7 sorgenti React/TSX originali recuperati (incluso View On Map), licenza MIT in `sorgenti/watermelon/`.
+- **EaseUI:** 1 sorgente React/TSX originale Theme Toggle, MIT in `sorgenti/easeui/`.
+- **Manifest del nuovo lotto:** [38 file con SHA di origine](sorgenti/PROVENIENZA_OSS_EXTRA_2026-11-19.json), ancora senza port Flutter né test consumer.
 - **Altre fonti**: Flutter Component Library, Flutter Gems, Forui, DevLibraries, Watermelon, Amicro, Gentleface, ecc. I portali senza codice originale recuperato restano `REFERENCE_ONLY`, per evitare di spacciarli per pacchetti pronti.
+
+## Avanzamento acquisizione
+
+**425** voci canoniche hanno ora un sorgente fisico archiviato, **53** sono ancora solo riferimenti. Il nuovo lotto include **38** file originali; i codici TSX/React non sono automaticamente widget Flutter.
 
 ## Ricerca locale
 

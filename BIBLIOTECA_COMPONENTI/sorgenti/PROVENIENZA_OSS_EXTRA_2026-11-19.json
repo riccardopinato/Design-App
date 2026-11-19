@@ -1,0 +1,449 @@
+{
+  "schema_version": 1,
+  "batch": "OPEN_SOURCE_CODE_ACQUISITION_2026_11_19",
+  "created_at": "2026-11-19",
+  "status": "ARCHIVED_ORIGINAL_NOT_RUNTIME_VERIFIED",
+  "source_repositories": {
+    "amicro": {
+      "repository": "Subhan-code/Amicro--Micro-transitions-",
+      "commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "license_sha": "637fe058612e8a532023064bb7a5f84c9fba2b79",
+      "license": "MIT",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE"
+    },
+    "watermelon": {
+      "repository": "WatermelonCorp/watermelon-platform",
+      "commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "license_sha": "c76bf56983389c53194eecc9d088ac8de34debe1",
+      "license": "MIT",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/LICENSE"
+    },
+    "easeui": {
+      "repository": "rjcuff/easeui",
+      "commit": "8292b45cc31d17b824d1caed6867b8f60428822a",
+      "license_sha": "d5e95817a1d93350922b4812552fb31d02f21f13",
+      "license": "MIT",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/easeui/LICENSE"
+    }
+  },
+  "entries": [
+    {
+      "id": "AMX-001",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "src/components/css-animations/physics/CurtainReveal.tsx",
+      "source_blob_sha": "60ec9f5d9b996301899fc75be9ed4d029fc5ac80",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-001.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "AMX-002",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/cursor/cursor-trail.tsx",
+      "source_blob_sha": "df9715526996a0ae36731125e12a69807627ad93",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-002.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "AMX-004",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/scroll/scroll-reveal.tsx",
+      "source_blob_sha": "548a9ddff684ed94574f537a24820d5871e419d8",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-004.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "AMX-006",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/accordion-loader.tsx",
+      "source_blob_sha": "de8a6b9ded9d668daf5da92e8eee829f4c18e1f3",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-006.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DSP-002",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "src/components/css-animations/physics/MechanicalPhysicsTrios.tsx",
+      "source_blob_sha": "012685b393beaa846136e155b38016c63cd4f122",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dsp-002.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DSP-003",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "src/components/css-animations/physics/ElasticVariations.tsx",
+      "source_blob_sha": "18e083c97e6ef82f49b86e7538623a4d347b79b8",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dsp-003.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DSP-004",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "src/components/css-animations/physics/ElasticDeformTrios.tsx",
+      "source_blob_sha": "6c93dcbb1857d3b7e0579c9ea96eaa1f5af92bc6",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dsp-004.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DSP-005",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "src/components/css-animations/physics/InertiaPhysicsExperiments.tsx",
+      "source_blob_sha": "a266bc0021a4c9f400f81328356cc6f5a2a18812",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dsp-005.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-002",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/classic-spinner.tsx",
+      "source_blob_sha": "e221a9d1e1a52df3435e35d846f119fe96974a47",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-002.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-003",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/pulsating-dots.tsx",
+      "source_blob_sha": "12624c06f50b2c7d7f4c8e4a1add7b21b310d6cc",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-003.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-004",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/app-icon-load.tsx",
+      "source_blob_sha": "d1cb3a70580816ba6f577a69d0e0b701fa559d93",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-004.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-005",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/face-id-scan.tsx",
+      "source_blob_sha": "904a6fa68f1e2c25de55678d1fd6239b8eac79f7",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-005.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-006",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/stacked-bar-pulse.tsx",
+      "source_blob_sha": "5875051493813d1b81036b37030f0efa74e76380",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-006.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-007",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/apple-breathe.tsx",
+      "source_blob_sha": "d9cebebcccdb9c6d6964d73021016c4d5931d239",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-007.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-008",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/fade-arc.tsx",
+      "source_blob_sha": "4af5bd75a18e26285cc66b1679219c1ddec44391",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-008.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-009",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/terminal-loader.tsx",
+      "source_blob_sha": "af52c21353ab5e535301f4ac5aad523c0e4ebc2b",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-009.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-010",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/apple-pulse-dots.tsx",
+      "source_blob_sha": "d3be31f88d039b28d5105cb4c8770b3672792eb8",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-010.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-011",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/morph-loader.tsx",
+      "source_blob_sha": "d03e38b668a9a9d74e8ee73b4ba29c6adfa79d45",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-011.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-012",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/grid-dots.tsx",
+      "source_blob_sha": "43bce304cf8fb4806d5bf159550faa0c1c081084",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-012.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-013",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/clock-spinner.tsx",
+      "source_blob_sha": "e8f77893a5b31a0430fd194ff1647301f083f428",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-013.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-014",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/circular-bars.tsx",
+      "source_blob_sha": "d23075b3e2eb76062aae1ee19bae0849675d6f7a",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-014.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-015",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/intersecting-rings.tsx",
+      "source_blob_sha": "e0f2653579c356c8e2643ead34ac11f43604fac6",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-015.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-016",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/skeleton.tsx",
+      "source_blob_sha": "30c7693ad4c7234d7ce1fdcebac4befdc3dc69a6",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-016.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-017",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/concentric-ring.tsx",
+      "source_blob_sha": "7f393e97566e1652c8ffe636bbd17d60126414ad",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-017.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-019",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/bar-cascade.tsx",
+      "source_blob_sha": "f18c04d313156c04dbda494683a73d9f63fca1fc",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-019.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-020",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/concentric-squares.tsx",
+      "source_blob_sha": "52325442177fb21feeec6ab6fa2b056ada917531",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-020.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-022",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/bar-sweep.tsx",
+      "source_blob_sha": "3240f06f5f78963504408e8122de5daf3096f34b",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-022.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-023",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/conveyor-loop.tsx",
+      "source_blob_sha": "417e9ed63b821da609ed812d313ea855a6026a55",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-023.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-025",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/bouncing-lines.tsx",
+      "source_blob_sha": "59e67b5c5e974ab882a02eab34213508809519a4",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-025.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-026",
+      "provider": "amicro",
+      "source_repository": "Subhan-code/Amicro--Micro-transitions-",
+      "source_commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "source_path": "registry/ui/loading/newtons-cradle.tsx",
+      "source_blob_sha": "4b17e79706d48a4792098cf922f6628c8e5ed114",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-026.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "WML-001",
+      "provider": "watermelon",
+      "source_repository": "WatermelonCorp/watermelon-platform",
+      "source_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "source_path": "src/data/contents/animated-components/carousel-slider/base.tsx",
+      "source_blob_sha": "ccd0d565f1cd15ea44bf449ef7bdbfbc7cd0c25b",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-001.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "WML-002",
+      "provider": "watermelon",
+      "source_repository": "WatermelonCorp/watermelon-platform",
+      "source_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "source_path": "src/data/contents/animated-components/fractional-picker/base.tsx",
+      "source_blob_sha": "b967c1465f20eca5d16034c97dcda180bc76def8",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-002.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "WML-003",
+      "provider": "watermelon",
+      "source_repository": "WatermelonCorp/watermelon-platform",
+      "source_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "source_path": "src/data/contents/animated-components/scrub-slider/base.tsx",
+      "source_blob_sha": "50dd8724adec082588cb4970463a37e65702f2d2",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-003.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "WML-004",
+      "provider": "watermelon",
+      "source_repository": "WatermelonCorp/watermelon-platform",
+      "source_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "source_path": "src/data/contents/animated-components/range-selection-slider/base.tsx",
+      "source_blob_sha": "c9d73a57572b4c6928f27ce9e2ed2b60e8edc67f",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-004.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "WML-005",
+      "provider": "watermelon",
+      "source_repository": "WatermelonCorp/watermelon-platform",
+      "source_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "source_path": "src/data/contents/animated-components/swap-form/base.tsx",
+      "source_blob_sha": "2b64bfab4cca53260b4d4ccd6364b0c856d00768",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-005.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "WML-007",
+      "provider": "watermelon",
+      "source_repository": "WatermelonCorp/watermelon-platform",
+      "source_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "source_path": "src/data/contents/animated-components/dialog-stack/base.tsx",
+      "source_blob_sha": "0b0e401dc9ca5957bc048885bf8b29449cf24932",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-007.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DBM-024",
+      "provider": "watermelon",
+      "source_repository": "WatermelonCorp/watermelon-platform",
+      "source_commit": "9d6defcf89880d0a00fbccad773c046bb51d7afb",
+      "source_path": "src/data/contents/animated-components/view-on-map/base.tsx",
+      "source_blob_sha": "c097731af49aa75b07fb11cb45ab40f794ffa5c9",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/dbm-024.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    },
+    {
+      "id": "DSP-001",
+      "provider": "easeui",
+      "source_repository": "rjcuff/easeui",
+      "source_commit": "8292b45cc31d17b824d1caed6867b8f60428822a",
+      "source_path": "components/motion/theme-toggle.tsx",
+      "source_blob_sha": "69d6711aa860b3784fa5a27f3dcad925baa333ed",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/easeui/dsp-001.tsx",
+      "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/easeui/LICENSE",
+      "consumer_implementation": "NOT_VERIFIED"
+    }
+  ]
+}
