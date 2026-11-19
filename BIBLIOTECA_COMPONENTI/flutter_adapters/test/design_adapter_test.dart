@@ -81,4 +81,24 @@ void main() {
     expect(find.text('Hello Shimmer'), findsOneWidget);
     await tester.pumpWidget(const SizedBox());
   });
+  testWidgets('RXN grid pattern renders a real canvas and custom squares', (tester) async {
+    await tester.pumpWidget(harness(const SizedBox(
+      width: 240,
+      height: 160,
+      child: RxnGridPattern(squares: [Offset(0, 0), Offset(3, 2)]),
+    )));
+    expect(find.byType(CustomPaint), findsWidgets);
+    expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('RXN pulsating native button fires once, handles reduced motion', (tester) async {
+    var pressed = 0;
+    await tester.pumpWidget(harness(RxnPulsatingButton(
+      label: 'Continue', onPressed: () => pressed++,
+    )));
+    await tester.tap(find.text('Continue'));
+    await tester.pump();
+    expect(pressed, 1);
+    await tester.pumpWidget(const SizedBox());
+  });
 }

@@ -20,6 +20,8 @@ PORTS = {
     "RXN-accordion-editorial": "rxn_accordion_editorial.dart",
     "UIV-009": "uiv_009_book_card.dart",
     "RXN-animated-shiny-text": "rxn_animated_shiny_text.dart",
+    "RXN-grid-pattern": "rxn_grid_pattern.dart",
+    "RXN-pulsating-button": "rxn_pulsating_button.dart",
 }
 assert DATA["component_total"] == len(BY_ID) == len(BY_UID) == 480
 assert set(DATA["components"]) == set(BY_ID)
@@ -60,7 +62,7 @@ for cid, row in DATA["components"].items():
         p = (ROOT / source["archive_path"]).resolve()
         p.relative_to(ROOT.resolve())
         assert p.is_file(), cid
-assert counts["ADAPTER_DRAFT_UNVERIFIED_CONSUMER"] == 7
+assert counts["ADAPTER_DRAFT_UNVERIFIED_CONSUMER"] == 9
 assert counts["NATIVE_DART_DEPENDENCY_GATE"] == 2
 assert counts["NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER"] == 28
 print("PASS 480 originals/Flutter column records:", counts)

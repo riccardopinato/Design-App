@@ -35,3 +35,5 @@ export 'src/gentleface/ico_027.dart';
 export 'src/gentleface/ico_028.dart';
 export 'src/uiv_009_book_card.dart';
 export 'src/rxn_animated_shiny_text.dart';
+export 'src/rxn_grid_pattern.dart';
+export 'src/rxn_pulsating_button.dart';
