@@ -8,7 +8,6 @@ on:
       - ".github/workflows/component-preview-capture.yml"
       - "BIBLIOTECA_COMPONENTI/genera_anteprime.py"
       - "BIBLIOTECA_COMPONENTI/render_uiverse_previews.py"
-      - "docs/componenti.html"
   workflow_dispatch:
 
 permissions:
@@ -16,7 +15,7 @@ permissions:
 
 concurrency:
   group: component-previews-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   capture:
