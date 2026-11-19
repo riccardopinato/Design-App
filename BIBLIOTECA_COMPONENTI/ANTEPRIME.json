@@ -1,0 +1,2876 @@
+{
+  "schema_version": 1,
+  "catalog_component_count": 478,
+  "coverage": "Captures require screenshot generation and visual QA; no source page or source code is itself an image.",
+  "created_at": "2026-11-19",
+  "previews": {
+    "AMX-001": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "AMX-002": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "AMX-003": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "AMX-004": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "AMX-005": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "AMX-006": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-002": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-003": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-004": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-005": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-006": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-007": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-008": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-009": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-010": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-011": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-012": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-013": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-014": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-015": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-016": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-017": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-019": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-020": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-022": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-023": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-024": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-025": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-026": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-027": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-028": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-029": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DBM-030": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DSP-001": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DSP-002": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DSP-003": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DSP-004": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DSP-005": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "DSP-006": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-001": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-002": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-003": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-004": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-005": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-006": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-007": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-008": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-009": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-010": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-011": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-012": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-013": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-014": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "FCL-015": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-001": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-002": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-003": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-004": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-005": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-006": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-007": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-008": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-009": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-010": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-011": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-012": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-013": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-014": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-015": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-016": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-017": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-018": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-019": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-020": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-021": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-022": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-023": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-024": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-025": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-026": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-027": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "ICO-028": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-accordion-editorial": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-accordion-indexed": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-account-menu": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-action-toolbar": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-add-task-sheet": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-add-to-cart-button": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-ai-chat-input": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-animated-beam": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-animated-circular-progress-bar": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-animated-gradient-text": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-animated-grid-pattern": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-animated-highlight-text": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-animated-link": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-animated-list": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-animated-number-flip": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-animated-shiny-text": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-animated-subscribe-button": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-animated-theme-toggler": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-app-menu-bar": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-arc-reveal-hero": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-arc-timeline": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-aurora-text": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-auto-scrolling-client-carousel": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-automated-tasks-panel": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-avatar-circles": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-avatar-hover-card": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-avatar-quick-actions": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-avatar-spring-stack": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-badge-button-combo": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-badge-morph": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-banner-announcement": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-banner-cookie": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-banner-countdown": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-banner-newsletter": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-behavioral-history-select": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-better-time-picker": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-blur-fade": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-bordered-clients-grid": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-bottom-drawers": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-box-reveal": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-breadcrumb-dropdown": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-breadcrumb-icon": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-breadcrumb-separator": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-button-badge": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-button-copy": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-button-dropdown": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-button-split": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-calendar-crest": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-calendar-lume": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-calendar-planner": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-calendar-scheduler": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-calendar-twin": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-calendar-wave": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-card-carousel-hero": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-card-stack": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-carousel-3d-select": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-case-study-tabs": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-centered-feedback-drawer": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-chapter-scrubber": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-checkbox-colored": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-checkbox-group": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-checkbox-indeterminate": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-checkbox-simple": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-checkbox-terms": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-checkbox-todo": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-checkbox-tree": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-chrono-select": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-circular-stepper-input": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-claude-chat-input": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-clean-tag-input": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-client-carousel-showcase": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-cloud-background": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-code-comparison": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-color-emotion-select": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-color-picker-input": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-comic-text": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-command-deck": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-comment-thread": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-confetti-button": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-container-text-scroll": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-cool-mode": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-corporate-footer": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-correct-number-input": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-coverflow-carousel": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-credit-card-dialog": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-customer-story-stack": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-deploy-region-globe": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-dot-pattern": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-drag-and-drop-tabs": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-drawer-inner-content": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-drilldown-menu": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-drum-picker": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-dual-tone-rain-background": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-event-scheduler": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-expandable-menu-navbar": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-faq-auto-accordion": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-faq-chat-accordion": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-faq-scroll-accordion": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-feature-highlights": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-featured-portrait-testimonial": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-file-tree": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-fine-tune-slider": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-flash-sale-banner": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-flickering-grid": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-flip-text": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-floating-cards-hero": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-floating-navbar": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-floating-toolbar": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-footer-enterprise": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-footer-pro": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-glass-ai-card": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-glass-form": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-glass-image-compare": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-glass-image-editor": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-glass-shipment-flow": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-glow-link-button": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-glow-tree": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-glowing-send-input": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-gooey-dock": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-gooey-pagination": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-gradient-chat-input": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-gradient-hero-showcase": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-gradient-reveal-text": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-grain-gradient-bg": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-gravatar-email-input": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-grid-frame-hero": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-grid-pattern": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-grouped-faq-section": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-halo-reel": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-hero-title-animation": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-hover-gradient-navbar": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-hover-preview-button": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-hyper-text": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-icon-cloud": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-icon-label-subtext-button": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-icon-pagination": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-image-card-fan": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-image-stream-hero": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-inline-copy-input": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-input-with-select": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-integration-and-stats-section": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-interactive-grid-pattern": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-interactive-hover-button": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-invert-tabs": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-iphone-15-pro": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-line-shadow-text": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-linear-mask": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-live-waveform": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-load-ripple": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-loading-circle": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-luma-bar": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-magic-tree": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-magnetic-tabs": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-milestone-stepper": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-mode-toggle": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-morphing-expandable-menu": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-morphing-page-dots": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-morphing-text": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-motion-file-tree": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-mouse-spark": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-multi-media-testimonial": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-music-player-card": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-navbar-breadcrumb": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-navbar-centered": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-navbar-floating": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-navbar-icon-links": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-navbar-minimal": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-navbar-simple": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-navbar-split": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-navbar-status": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-navbar-tabs": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-navbar-user-menu": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-navbar-with-search": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-neon-circle-grid": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-neon-gradient-card": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-nested-dashboard-menu": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-notification": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-notification-inbox-popover": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-notifications-carousel": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-notifications-filter": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-number-ticker": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-orbiting-circles": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-package-installer-tabs": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-particle-text-dots": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-password-field": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-perspective-text": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-phone-mockup-card": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-phone-scroll-hero": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-pixel-image": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-preview-switch-hero": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-pricing-cards-tooltip": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-pricing-comparison": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-pricing-feature-matrix": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-pricing-flow": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-pricing-landing-hero": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-pricing-plans": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-pricing-section-vertical": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-pricing-tiers": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-pricing-with-user-scaling": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-product-card-hero": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-product-feature-hero": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-profile-card": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-progress-button": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-progressive-blur": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-progressive-flux-loader": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-promote-header": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-pulsating-button": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-rainbow-button": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-range-calendar": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-receding-text-plane": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-retro-grid": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-ripple-circles": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-ripple-distortion": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-rising-glow": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-rotating-gradient-right": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-ruixen-featured-message-card": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-ruixen-gradient-footer": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-ruixen-prompt-box": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-ruixen-query-box": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-sales-ai-hero": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-scramble-text": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-scratch-to-reveal": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-script-copy-btn": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-scroll-based-velocity": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-scroll-burn-text": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-scroll-image-tunnel": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-scroll-over-hero": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-scroll-pagination": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-scroll-portrait-wall": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-scroll-progress": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-scroll-ruler": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-scroll-text-rise": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-scroll-tilted-grid": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-scrub-datetime": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-service-ledger": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-share-button": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-shimmer-button": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-shine-border": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-shiny-button": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-slide-to-delete-button": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-sliding-pagination": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-smart-breadcrumb": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-smart-paste-input": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-smooth-cursor": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-social-preview-dock": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-solar-loader": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-spark-chart": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-sparkles-text": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-spinning-text": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-split-feature-showcase": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-split-hero-section": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-stack-pagination": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-staged-pricing": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-staggered-faq-section": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-structured-hero-section": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-subscription-plans": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-tabbed-hero-section": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-tag-cloud-select": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-text-animate": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-text-reveal": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-three-dwall-calendar": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-toolbar-dock": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-tree-node-tooltip": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-trusted-clients-showcase": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-typing-animation": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-url-input": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-variable-text": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-verification-input": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-video-hero-showcase": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-video-player-pro": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-video-text": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-visualizer-button": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-warp-background": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-wheel-pagination": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-wizard-stepper": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-word-rotate": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "RXN-wordmark-footer": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "UIV-001": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-002": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-003": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-004": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-005": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-006": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-007": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-008": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-009": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-010": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-011": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-012": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-013": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-014": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-015": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-016": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-017": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-018": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-019": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-020": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-021": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-022": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-023": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-024": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-025": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-026": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-027": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-028": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-029": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-030": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-031": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-032": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-033": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-034": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-035": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-036": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-037": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-038": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-039": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-040": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-041": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-042": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-043": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-044": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-045": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-046": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-047": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-048": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-049": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-050": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-051": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-052": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-053": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-054": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-055": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-056": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-057": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-058": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-059": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-060": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-061": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-062": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-063": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-064": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-065": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-066": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-067": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-068": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-069": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-070": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-071": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-072": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-073": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-074": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-075": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-076": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-077": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-078": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-079": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-080": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-081": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-082": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-083": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-084": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-085": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-086": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-087": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-088": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-089": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-090": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-091": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-092": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-093": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-094": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-095": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-096": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-097": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-098": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-099": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-100": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-101": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-102": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-103": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-104": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-105": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-106": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-108": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-109": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-110": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "UIV-111": {
+      "image_path": null,
+      "status": "RENDERABLE_HTML_PENDING_CAPTURE",
+      "origin_type": "ARCHIVED_HTML_CSS",
+      "image_evidence": null
+    },
+    "WML-001": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "WML-002": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "WML-003": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "WML-004": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "WML-005": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "WML-006": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "WML-007": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "WML-008": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    },
+    "WML-009": {
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
+    }
+  }
+}
