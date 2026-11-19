@@ -94,10 +94,21 @@ async def main():
                         if state!="ready":
                             why=await target.get_attribute("data-source-error")
                             raise ValueError("ORIGINAL_TSX_IMPORT_OR_RENDER_FAILED "+str(why))
-                        await page.wait_for_timeout(650)
+                        await page.wait_for_timeout(950)
                         if errors:raise ValueError("SOURCE_JS_EXCEPTION "+str(errors[:2]))
+                        # Vite can render a colorful error overlay above the original
+                        # component. That screenshot must NEVER count as recovered.
+                        if await page.locator("vite-error-overlay").count()>0:
+                            overlay=await page.locator("vite-error-overlay").first.evaluate(
+                                "(el)=>el.shadowRoot?.textContent?.slice(0,350) || el.textContent?.slice(0,350) || 'vite error'")
+                            raise ValueError("VITE_COMPILATION_OVERLAY "+str(overlay)[:350])
+                        actual_source=await target.get_attribute("data-source-path")
+                        if not actual_source or not actual_source.endswith("/"+Path(c["archive_path"]).name):
+                            raise ValueError("COMPONENT_SOURCE_PATH_DID_NOT_MATCH_ARCHIVE")
                         n=await target.locator("*").count()
                         if n<2:raise ValueError("NO_RENDERED_COMPONENT_CHILDREN")
+                        if "SOURCE_MODULE_FAILED" in (await target.inner_text()):
+                            raise ValueError("SOURCE_MODULE_FAILED_MESSAGE")
                         raw=await target.screenshot(animations="disabled",timeout=14000)
                         with Image.open(BytesIO(raw)) as image:
                             canvas=image.convert("RGB")
