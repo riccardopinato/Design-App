@@ -1,6 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { flushSync } from 'react-dom';
+import { ThemeProvider } from 'next-themes';
 import './style.css';
 
 // Compile ONE requested archived source per page. A broad glob caused Vite to
@@ -114,6 +115,10 @@ async function mount(cid: string) {
     // The upstream IconCloud paints supplied icons onto its canvas. The
     // 12 small SVG symbols are explicit local fixture inputs, not claimed
     // as official images or reusable assets.
+    ...(cid==='RXN-code-comparison'
+      ? {beforeCode:'const count = 1;',afterCode:'const count = 2;',
+          language:'typescript',filename:'counter.ts',lightTheme:'github-light',darkTheme:'github-dark'}
+      : {}),
     ...(cid==='RXN-icon-cloud'
       ? {icons:Array.from({length:12},(_,i)=>
           React.createElement('svg',{xmlns:'http://www.w3.org/2000/svg',width:40,height:40,viewBox:'0 0 40 40'},
@@ -151,7 +156,13 @@ async function mount(cid: string) {
     : node;
   // The ready flag is a render barrier: React 19's normal createRoot.render
   // is asynchronous. Never declare a page ready before its DOM is committed.
-  flushSync(()=>createRoot(target).render(framed));
+  // Some archived components explicitly use next-themes context. Supply
+  // the real upstream provider rather than faking useTheme or theme state.
+  const themed = ['DSP-001','RXN-code-comparison','RXN-mode-toggle','RXN-script-copy-btn'];
+  const preview = themed.includes(cid)
+    ? React.createElement(ThemeProvider,{attribute:'class',defaultTheme:'light',enableSystem:false},framed)
+    : framed;
+  flushSync(()=>createRoot(target).render(preview));
   target.dataset.captureStatus='ready';
   target.dataset.sourcePath=path;
 }

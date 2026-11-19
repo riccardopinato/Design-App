@@ -11,6 +11,9 @@ const originalDeps = [
   'react', 'react-dom', 'react-dom/client', 'react/jsx-runtime', 'react/jsx-dev-runtime',
   'lucide-react', 'react-icons/fa6', 'react-icons/fa', 'clsx', 'tailwind-merge',
   'motion/react', 'framer-motion', 'class-variance-authority',
+  // Dependency-licensed runtime imports for pinned original TSX; keep originals immutable.
+  'next-themes', '@hugeicons/react', '@hugeicons/core-free-icons',
+  '@shikijs/transformers', 'shiki',
 ].map((name) => ({
   find: new RegExp('^' + name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '$'),
   replacement: requireFromRenderer.resolve(name),
