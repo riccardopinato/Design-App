@@ -23,7 +23,7 @@ SOURCE_BLOB = "a7a0d3dd2785d9a708a5d8a654637547af2fa235"
 SOURCE_COMMIT = "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
 
 def git_blob(raw: bytes) -> str:
-    return hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\\0" + raw).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(raw)).encode() + bytes([0]) + raw).hexdigest()
 
 async def main() -> None:
     assert git_blob(ORIGINAL.read_bytes()) == SOURCE_BLOB, "ORIGINAL_TSX_CHANGED"
@@ -61,7 +61,6 @@ async def main() -> None:
                     await input_el.wait_for(state="visible")
                     await input_el.fill("Design App")
                     await page.evaluate("document.fonts.ready")
-                    css = await input_el.evaluate("(el) => getComputedStyle(el)")
                     family = await input_el.evaluate("(el) => getComputedStyle(el).fontFamily")
                     loaded = await input_el.evaluate("""el => {
                        const f = getComputedStyle(el).fontFamily.split(',')[0].replace(/[\\\"']/g, '').trim();
@@ -107,7 +106,7 @@ async def main() -> None:
                         "origin_repo": "ruixenui/ruixen.com",
                         "origin_source_commit": SOURCE_COMMIT,
                     }
-                    PROVENANCE.write_text(json.dumps(origins, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+                    PROVENANCE.write_text(json.dumps(origins, ensure_ascii=False, indent=2) + chr(10), encoding="utf-8")
                     print("ORIGINAL_NEXT_PNG_OK", digest, "bytes", len(png), "font", family)
                 finally:
                     await page.close()
