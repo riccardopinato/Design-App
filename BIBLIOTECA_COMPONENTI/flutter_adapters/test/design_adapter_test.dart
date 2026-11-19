@@ -43,4 +43,23 @@ void main() {
     await tester.tap(find.text('Disabled'));
     expect(find.text('Disabled'), findsOneWidget);
   });
+  testWidgets('RXN animated link taps and keeps source label', (tester) async {
+    var taps = 0;
+    await tester.pumpWidget(harness(RxnAnimatedLink(label: 'Open', onTap: () => taps++)));
+    await tester.tap(find.text('Open'));
+    await tester.pump();
+    expect(taps, 1);
+  });
+
+  testWidgets('RXN accordion expands and collapses without losing state', (tester) async {
+    const items = [RxnEditorialAccordionItem(id: 'one', title: 'Title', content: 'Hidden detail')];
+    await tester.pumpWidget(harness(const RxnEditorialAccordion(items: items)));
+    expect(find.text('Hidden detail'), findsNothing);
+    await tester.tap(find.text('Title'));
+    await tester.pump();
+    expect(find.text('Hidden detail'), findsOneWidget);
+    await tester.tap(find.text('Title'));
+    await tester.pump();
+    expect(find.text('Hidden detail'), findsNothing);
+  });
 }

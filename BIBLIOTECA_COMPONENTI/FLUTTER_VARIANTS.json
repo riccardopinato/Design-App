@@ -765,8 +765,8 @@
       "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/accordion-editorial.tsx",
       "original_language": "TypeScript/React TSX",
       "original_license": "MIT_SOURCE_PINNED",
-      "flutter_code_path": null,
-      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_accordion_editorial.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
       "consumer_runtime": "NOT_VERIFIED"
     },
     "RXN-accordion-indexed": {
@@ -873,8 +873,8 @@
       "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-link.tsx",
       "original_language": "TypeScript/React TSX",
       "original_license": "MIT_SOURCE_PINNED",
-      "flutter_code_path": null,
-      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_animated_link.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
       "consumer_runtime": "NOT_VERIFIED"
     },
     "RXN-animated-list": {
