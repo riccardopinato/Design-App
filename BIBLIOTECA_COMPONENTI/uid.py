@@ -25,6 +25,7 @@ CATFILE = HERE / "CATALOGO.json"
 PREVIEWFILE = HERE / "ANTEPRIME.json"
 ORIGINSFILE = HERE / "ANTEPRIME_ORIGINI.json"
 FORUI_ORIGINSFILE = HERE / "ANTEPRIME_ORIGINI_FORUI.json"
+GENTLEFACE_ORIGINSFILE = HERE / "ANTEPRIME_ORIGINI_GENTLEFACE.json"
 APP_ALIASES = {"anna-s-diary": "annas-diary"}
 
 
@@ -42,6 +43,11 @@ def read() -> tuple[dict, dict, dict, dict]:
             if cid in origins:
                 raise ValueError("duplicate preview origin: " + cid)
             origins[cid] = entry
+    if GENTLEFACE_ORIGINSFILE.exists():
+        for cid, record in json.loads(GENTLEFACE_ORIGINSFILE.read_text(encoding="utf-8")).get("previews", {}).items():
+            if cid in origins:
+                raise ValueError("duplicate preview origin: " + cid)
+            origins[cid] = record
     return uid, cat, pv, origins
 
 

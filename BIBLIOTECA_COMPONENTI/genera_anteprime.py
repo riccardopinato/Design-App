@@ -26,6 +26,7 @@ OVERVIEW = HERE / "TABELLA_478.md"
 PNG_SIGNATURE = bytes.fromhex("89504e470d0a1a0a")
 ORIGINS = HERE / "ANTEPRIME_ORIGINI.json"
 FORUI_PROVENANCE = HERE / "ANTEPRIME_ORIGINI_FORUI.json"
+GENTLEFACE_PROVENANCE = HERE / "ANTEPRIME_ORIGINI_GENTLEFACE.json"
 UIDS_FILE = HERE / "UID_REGISTRY.json"
 VARIANTS_FILE = HERE / "FLUTTER_VARIANTS.json"
 FLUTTER_BY_ID = json.loads(VARIANTS_FILE.read_text(encoding="utf-8"))["components"]
@@ -84,17 +85,28 @@ def build_manifest(rows: list[dict]) -> dict:
                     or rec.get("visual_qa") != "UNREVIEWED"
                     or rec.get("preview_sha256") != hashlib.sha256(path.read_bytes()).hexdigest()):
                 raise ValueError(cid + ": invalid Forui screenshot provenance")
-        if valid and c["source_site"] not in {"RUIXEN", "UIVERSE", "FLUTTER_FORUI"}:
+        if valid and c["source_site"] == "GENTLEFACE":
+            provenance = json.loads(GENTLEFACE_PROVENANCE.read_text(encoding="utf-8")).get("previews", {}) if GENTLEFACE_PROVENANCE.exists() else {}
+            rec = provenance.get(cid)
+            if (not rec or rec.get("origin_url") != c.get("source_url")
+                    or rec.get("source_license") != "MIT"
+                    or rec.get("preview_sha256") != hashlib.sha256(path.read_bytes()).hexdigest()
+                    or rec.get("capture_mode") != "OFFICIAL_MIT_PNG_CONTAINED"
+                    or rec.get("preview_path") != "docs/assets/componenti/" + cid + ".png"):
+                raise ValueError(cid + ": Gentleface preview origin, license or SHA mismatch")
+        if valid and c["source_site"] not in {"RUIXEN", "UIVERSE", "FLUTTER_FORUI", "GENTLEFACE"}:
             raise ValueError("unregistered image provider: " + cid)
         if valid:
             out[cid] = {
                 "image_path": "docs/assets/componenti/" + cid + ".png",
-                "status": ("CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED" if c["source_site"] == "RUIXEN" else "CAPTURED_ORIGINAL_DEMO_UNREVIEWED" if c["source_site"] == "FLUTTER_FORUI" else "CAPTURED_LOCAL_HTML_UNREVIEWED"),
-                "origin_type": ("PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO" if c["source_site"] == "RUIXEN" else "LIVE_ORIGINAL_FLUTTER_DEMO" if c["source_site"] == "FLUTTER_FORUI" else "ARCHIVED_HTML_CSS"),
+                "status": ("CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED" if c["source_site"] == "RUIXEN" else "CAPTURED_ORIGINAL_DEMO_UNREVIEWED" if c["source_site"] == "FLUTTER_FORUI" else "CAPTURED_OFFICIAL_ICON_UNREVIEWED" if c["source_site"] == "GENTLEFACE" else "CAPTURED_LOCAL_HTML_UNREVIEWED"),
+                "origin_type": ("PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO" if c["source_site"] == "RUIXEN" else "LIVE_ORIGINAL_FLUTTER_DEMO" if c["source_site"] == "FLUTTER_FORUI" else "OFFICIAL_GENTLEFACE_MIT_ICON" if c["source_site"] == "GENTLEFACE" else "ARCHIVED_HTML_CSS"),
                 "image_evidence": ("Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
                                    if c["source_site"] == "RUIXEN" else
                                    "Authentic Forui demo, provenance in ANTEPRIME_ORIGINI_FORUI.json; QA pending"
                                    if c["source_site"] == "FLUTTER_FORUI" else
+                                   "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+                                   if c["source_site"] == "GENTLEFACE" else
                                    "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"),
             }
         else:
