@@ -2,15 +2,14 @@
 
 Tabelle **generate** esclusivamente dalle associazioni nel catalogo canonico. Ogni riga ha una colonna Anteprima e un collegamento alla fonte.
 
-**26 identificativi app · 1176 relazioni · 282 componenti senza app.**
+**25 identificativi app · 1176 relazioni · 282 componenti senza app.**
 
 [Tutti i 478](../TABELLA_478.md) · [Vista interattiva](../../docs/componenti.html)
 
 | App (identificativo del catalogo) | Componenti distinti | Tabella |
 |---|---:|---|
 | 180flipcharge | 5 | [Apri anteprime](180flipcharge.md) |
-| anna-s-diary | 41 | [Apri anteprime](anna-s-diary.md) |
-| annas-diary | 41 | [Apri anteprime](annas-diary.md) |
+| annas-diary | 82 | [Apri anteprime](annas-diary.md) |
 | app-factory-dashboard | 85 | [Apri anteprime](app-factory-dashboard.md) |
 | battery-guard | 61 | [Apri anteprime](battery-guard.md) |
 | beerclass-ai | 34 | [Apri anteprime](beerclass-ai.md) |
