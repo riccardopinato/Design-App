@@ -88,7 +88,9 @@ async def main():
             # imports are NOT independent while that cache is warming; run
             # this small residual batch deterministically to avoid stale
             # ReactDOM/Radix ?v= module identities.
-            semaphore=asyncio.Semaphore(1)
+            # Bound concurrency to two after React and Radix pre-optimization.
+            # Dynamic @fs imports still require Vite's normal discovery pass.
+            semaphore=asyncio.Semaphore(2)
             def assert_server_alive(stage):
                 if server.poll() is not None:
                     try:
@@ -121,7 +123,7 @@ async def main():
                         target=page.locator("#component-root")
                         await page.wait_for_function(
                             "()=>['ready','failed'].includes(document.getElementById('component-root')?.dataset.captureStatus||'')",
-                            timeout=23000)
+                            timeout=11000)
                         state=await target.get_attribute("data-capture-status")
                         if state!="ready":
                             why=await target.get_attribute("data-source-error")

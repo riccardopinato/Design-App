@@ -52,7 +52,8 @@ export default defineConfig({
   // imports. Vite lazy reoptimization changed ?v= hashes between ReactDOM,
   // Framer and Radix, creating two independent React hook dispatchers.
   optimizeDeps: {
-    noDiscovery: true,
+    // Keep on-demand module resolution for Vite's @fs source imports.
+    // The explicit list stabilizes React/Radix during the initial crawl.
     include: [
       'react','react-dom','react-dom/client','react/jsx-runtime','react/jsx-dev-runtime',
       'framer-motion','motion/react',
@@ -60,6 +61,8 @@ export default defineConfig({
       '@radix-ui/react-scroll-area','@radix-ui/react-context-menu','@radix-ui/react-popover',
       'next-themes','lucide-react','react-icons/fa','react-icons/fa6',
       'clsx','tailwind-merge','class-variance-authority',
+      '@hugeicons/react','@hugeicons/core-free-icons',
+      '@shikijs/transformers','shiki',
     ],
   },
   resolve: {
