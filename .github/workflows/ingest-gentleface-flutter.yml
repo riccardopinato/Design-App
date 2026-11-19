@@ -1,0 +1,51 @@
+name: Import 28 official Gentleface SVG and native Flutter Dart sources
+
+on:
+  push:
+    branches: ["feature/flutter-dual-code-preview-recovery-20261119"]
+    paths:
+      - "BIBLIOTECA_COMPONENTI/ingest_gentleface_flutter.py"
+      - ".github/workflows/ingest-gentleface-flutter.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: design-app-dual-code-branch-write-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  source-intake:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 17
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: "3.12"
+      - name: Acquire 28 originals and native Dart directly from MIT source
+        run: python BIBLIOTECA_COMPONENTI/ingest_gentleface_flutter.py
+      - name: Validate immutable original source and all 480 dual-code references
+        run: |
+          python BIBLIOTECA_COMPONENTI/validate.py
+          python BIBLIOTECA_COMPONENTI/validate_flutter_variants.py
+          python BIBLIOTECA_COMPONENTI/uid.py validate
+      - name: Regenerate all original / Flutter code columns
+        run: |
+          python BIBLIOTECA_COMPONENTI/genera_anteprime.py --write
+          python BIBLIOTECA_COMPONENTI/genera_anteprime.py --check
+      - name: Commit actual official assets, Flutter code and regenerated catalog
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add BIBLIOTECA_COMPONENTI/sorgenti/gentleface BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface BIBLIOTECA_COMPONENTI/flutter_adapters/lib/design_app_flutter_adapters.dart BIBLIOTECA_COMPONENTI/CATALOGO.json BIBLIOTECA_COMPONENTI/FLUTTER_VARIANTS.json BIBLIOTECA_COMPONENTI/ANTEPRIME.json BIBLIOTECA_COMPONENTI/TABELLA_478.md BIBLIOTECA_COMPONENTI/PER_APP
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "feat(icons): archive 28 licensed Gentleface SVG originals plus official Flutter Dart counterparts"
+          git fetch origin "${BRANCH}"
+          git rebase "origin/${BRANCH}"
+          git push origin "HEAD:${BRANCH}"
