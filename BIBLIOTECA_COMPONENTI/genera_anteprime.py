@@ -8,6 +8,7 @@ screenshot based on the title, source URL, or programming language.
 from __future__ import annotations
 
 import argparse
+import hashlib
 from collections import defaultdict
 import html
 import json
@@ -23,6 +24,9 @@ IMAGE_DIR = ROOT / "docs" / "assets" / "componenti"
 APPS_DIR = HERE / "PER_APP"
 OVERVIEW = HERE / "TABELLA_478.md"
 PNG_SIGNATURE = bytes.fromhex("89504e470d0a1a0a")
+ORIGINS = HERE / "ANTEPRIME_ORIGINI.json"
+UIDS_FILE = HERE / "UID_REGISTRY.json"
+UID_BY_ID = {x["canonical_id"]: x["uid"] for x in json.loads(UIDS_FILE.read_text(encoding="utf-8"))["entries"]}
 ALL_SOURCE_TYPES = {"RUIXEN", "UIVERSE", "DEVLIBRARIES_AMICRO",
                     "DEVLIBRARIES_BOOKMARKS", "DEVLIBRARIES_EASEUI",
                     "DEVLIBRARIES_WATERMELON", "FLUTTER_COMPONENT_LIBRARY",
@@ -53,16 +57,30 @@ def build_manifest(rows: list[dict]) -> dict:
             raise ValueError("unsafe component ID: " + cid)
         path = IMAGE_DIR / (cid + ".png")
         valid = is_valid_png(path)
-        if valid and c["source_site"] != "UIVERSE":
-            # A future provider can be admitted only with its own verified
-            # image provenance contract; no silent promotion of arbitrary files.
-            raise ValueError("unregistered preview provider: " + cid)
+        if valid and c["source_site"] == "RUIXEN":
+            record = json.loads(ORIGINS.read_text(encoding="utf-8")).get("previews", {}).get(cid) if ORIGINS.exists() else None
+            if not record:
+                raise ValueError(cid + ": Ruixen image without origin manifest")
+            if record.get("preview_path") != "docs/assets/componenti/" + cid + ".png":
+                raise ValueError(cid + ": incorrect preview path in provenance")
+            if record.get("origin_source_commit") != c.get("source_commit"):
+                raise ValueError(cid + ": image/source commit mismatch")
+            if record.get("origin_repo") != "ruixenui/ruixen.com":
+                raise ValueError(cid + ": incorrect image source repository")
+            if record.get("capture_mode") not in {"PINNED_OFFICIAL_PREVIEW_IMAGE", "LIVE_COMPONENT_ONLY_SCREENSHOT", "OFFICIAL_SITE_STATIC_IMAGE", "LIVE_DOCS_COMPONENT_IFRAME"}:
+                raise ValueError(cid + ": unsupported acquisition method")
+            if hashlib.sha256(path.read_bytes()).hexdigest() != record.get("preview_sha256"):
+                raise ValueError(cid + ": screenshot bytes differ from registered SHA256")
+        if valid and c["source_site"] not in {"RUIXEN", "UIVERSE"}:
+            raise ValueError("unregistered image provider: " + cid)
         if valid:
             out[cid] = {
                 "image_path": "docs/assets/componenti/" + cid + ".png",
-                "status": "CAPTURED_LOCAL_HTML_UNREVIEWED",
-                "origin_type": "ARCHIVED_HTML_CSS",
-                "image_evidence": "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending",
+                "status": ("CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED" if c["source_site"] == "RUIXEN" else "CAPTURED_LOCAL_HTML_UNREVIEWED"),
+                "origin_type": ("PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO" if c["source_site"] == "RUIXEN" else "ARCHIVED_HTML_CSS"),
+                "image_evidence": ("Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
+                                   if c["source_site"] == "RUIXEN" else
+                                   "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"),
             }
         else:
             src = c["source_site"] == "UIVERSE"
@@ -112,6 +130,7 @@ def row_markdown(c: dict, image: dict, relative: str) -> str:
     apps = ", ".join(safe(x) for x in c["apps"]) or "Non assegnato"
     return "| " + " | ".join([
         cell,
+        "<code>" + safe(UID_BY_ID[cid]) + "</code>",
         "<code>" + safe(cid) + "</code>",
         safe(c["name"]),
         source_cell,
@@ -122,8 +141,8 @@ def row_markdown(c: dict, image: dict, relative: str) -> str:
 
 
 def table_head() -> str:
-    return "| Anteprima | ID | Componente | Fonte | Categoria | App associate | Codice |\n" + \
-           "|---|---|---|---|---|---|---|\n"
+    return "| Anteprima | UID | ID canonico | Componente | Fonte | Categoria | App associate | Codice |\n" + \
+           "|---|---|---|---|---|---|---|---|\n"
 
 
 def outputs(catalog: dict, manifest: dict) -> dict[Path, str]:
