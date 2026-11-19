@@ -27,6 +27,7 @@ PNG_SIGNATURE = bytes.fromhex("89504e470d0a1a0a")
 ORIGINS = HERE / "ANTEPRIME_ORIGINI.json"
 FORUI_PROVENANCE = HERE / "ANTEPRIME_ORIGINI_FORUI.json"
 GENTLEFACE_PROVENANCE = HERE / "ANTEPRIME_ORIGINI_GENTLEFACE.json"
+SECONDARY_PROVENANCE = HERE / "ANTEPRIME_ORIGINI_SECONDARIE.json"
 UIDS_FILE = HERE / "UID_REGISTRY.json"
 VARIANTS_FILE = HERE / "FLUTTER_VARIANTS.json"
 FLUTTER_BY_ID = json.loads(VARIANTS_FILE.read_text(encoding="utf-8"))["components"]
@@ -105,19 +106,47 @@ def build_manifest(rows: list[dict]) -> dict:
                 if (not origin or rec.get("original_asset_sha256") != origin.get("original_svg_sha256")
                         or hashlib.sha256((ROOT / origin["original_svg_path"]).read_bytes()).hexdigest() != origin.get("original_svg_sha256")):
                     raise ValueError(cid + ": rendered preview is not tied to archived MIT SVG")
-        if valid and c["source_site"] not in {"RUIXEN", "UIVERSE", "FLUTTER_FORUI", "GENTLEFACE"}:
+        if valid and c["source_site"] in {"FLUTTER_COMPONENT_LIBRARY", "DEVLIBRARIES_AMICRO",
+                "DEVLIBRARIES_BOOKMARKS", "DEVLIBRARIES_EASEUI", "DEVLIBRARIES_WATERMELON"}:
+            origins = json.loads(SECONDARY_PROVENANCE.read_text(encoding="utf-8")).get("previews", {}) if SECONDARY_PROVENANCE.exists() else {}
+            evidence = origins.get(cid, {})
+            if (evidence.get("component_id") != cid or evidence.get("source_provider") != c["source_site"]
+                    or evidence.get("preview_path") != "docs/assets/componenti/" + cid + ".png"
+                    or evidence.get("preview_sha256") != hashlib.sha256(path.read_bytes()).hexdigest()
+                    or evidence.get("source_reference_url") != c.get("source_url")
+                    or evidence.get("visual_qa") != "UNREVIEWED"
+                    or evidence.get("reuse_scope") != "DOCUMENTARY_REFERENCE_ONLY"):
+                raise ValueError(cid + ": secondary provider screenshot provenance/sha mismatch")
+            if c["source_site"] == "FLUTTER_COMPONENT_LIBRARY":
+                if (evidence.get("capture_mode") != "OFFICIAL_LIVE_DEMO_IFRAME"
+                        or evidence.get("original_archive_path") is not None
+                        or evidence.get("license_status") != "NOT_VERIFIED"):
+                    raise ValueError(cid + ": FCL demo is reference-only, not an archived Dart source")
+            else:
+                if (evidence.get("capture_mode") != "ARCHIVED_ORIGINAL_TSX_ISOLATED_RENDER"
+                        or evidence.get("original_archive_path") != c.get("archive_path")
+                        or evidence.get("source_blob_sha") != c.get("source_blob_sha")
+                        or c.get("archive_state") != "ARCHIVED_SOURCE"):
+                    raise ValueError(cid + ": DevLibraries TSX screenshot source not verified")
+        if valid and c["source_site"] not in {"RUIXEN", "UIVERSE", "FLUTTER_FORUI", "GENTLEFACE",
+                "FLUTTER_COMPONENT_LIBRARY", "DEVLIBRARIES_AMICRO",
+                "DEVLIBRARIES_BOOKMARKS", "DEVLIBRARIES_EASEUI", "DEVLIBRARIES_WATERMELON"}:
             raise ValueError("unregistered image provider: " + cid)
         if valid:
             out[cid] = {
                 "image_path": "docs/assets/componenti/" + cid + ".png",
-                "status": ("CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED" if c["source_site"] == "RUIXEN" else "CAPTURED_ORIGINAL_DEMO_UNREVIEWED" if c["source_site"] == "FLUTTER_FORUI" else "CAPTURED_OFFICIAL_ICON_UNREVIEWED" if c["source_site"] == "GENTLEFACE" else "CAPTURED_LOCAL_HTML_UNREVIEWED"),
-                "origin_type": ("PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO" if c["source_site"] == "RUIXEN" else "LIVE_ORIGINAL_FLUTTER_DEMO" if c["source_site"] == "FLUTTER_FORUI" else "OFFICIAL_GENTLEFACE_MIT_ICON" if c["source_site"] == "GENTLEFACE" else "ARCHIVED_HTML_CSS"),
+                "status": ("CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED" if c["source_site"] == "RUIXEN" else "CAPTURED_ORIGINAL_DEMO_UNREVIEWED" if c["source_site"] == "FLUTTER_FORUI" else "CAPTURED_OFFICIAL_ICON_UNREVIEWED" if c["source_site"] == "GENTLEFACE" else "CAPTURED_PUBLIC_DEMO_REFERENCE_UNREVIEWED" if c["source_site"] == "FLUTTER_COMPONENT_LIBRARY" else "CAPTURED_ARCHIVED_TSX_UNREVIEWED" if c["source_site"].startswith("DEVLIBRARIES_") else "CAPTURED_LOCAL_HTML_UNREVIEWED"),
+                "origin_type": ("PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO" if c["source_site"] == "RUIXEN" else "LIVE_ORIGINAL_FLUTTER_DEMO" if c["source_site"] == "FLUTTER_FORUI" else "OFFICIAL_GENTLEFACE_MIT_ICON" if c["source_site"] == "GENTLEFACE" else "PUBLIC_FLUTTER_WEB_DEMO_REFERENCE_ONLY" if c["source_site"] == "FLUTTER_COMPONENT_LIBRARY" else "ARCHIVED_DEVELOPERS_TSX_RENDER" if c["source_site"].startswith("DEVLIBRARIES_") else "ARCHIVED_HTML_CSS"),
                 "image_evidence": ("Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
                                    if c["source_site"] == "RUIXEN" else
                                    "Authentic Forui demo, provenance in ANTEPRIME_ORIGINI_FORUI.json; QA pending"
                                    if c["source_site"] == "FLUTTER_FORUI" else
                                    "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
                                    if c["source_site"] == "GENTLEFACE" else
+                                   "Reference-only official Flutter Component Library demo iframe; source license NOT VERIFIED; screenshot QA pending"
+                                   if c["source_site"] == "FLUTTER_COMPONENT_LIBRARY" else
+                                   "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+                                   if c["source_site"].startswith("DEVLIBRARIES_") else
                                    "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"),
             }
         else:
