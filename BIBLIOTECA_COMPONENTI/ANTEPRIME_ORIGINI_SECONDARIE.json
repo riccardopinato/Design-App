@@ -651,6 +651,24 @@
       "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-005.tsx",
       "reuse_scope": "DOCUMENTARY_REFERENCE_ONLY",
       "note": "Source-git-blob-matched TSX executed; client runtime visual fidelity not certified"
+    },
+    "WML-007": {
+      "component_id": "WML-007",
+      "preview_path": "docs/assets/componenti/WML-007.png",
+      "preview_sha256": "45885d5eb6d685220c7fd3db2b8f6e78c1ec3c562794c5d41bf2fa3d7174cd46",
+      "origin_url": "https://devlibraries.com/libraries/watermelon/dialog-stack-base",
+      "source_blob_sha": "0b0e401dc9ca5957bc048885bf8b29449cf24932",
+      "capture_mode": "ARCHIVED_ORIGINAL_TSX_ISOLATED_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "88ee6e78898efecf1cb7a1e897ad98687bdc0e08751d0923225957793016d9be",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "source_provider": "DEVLIBRARIES_WATERMELON",
+      "source_reference_url": "https://devlibraries.com/libraries/watermelon/dialog-stack-base",
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-007.tsx",
+      "reuse_scope": "DOCUMENTARY_REFERENCE_ONLY",
+      "note": "Source-git-blob-matched TSX executed; client runtime visual fidelity not certified"
     }
   }
 }

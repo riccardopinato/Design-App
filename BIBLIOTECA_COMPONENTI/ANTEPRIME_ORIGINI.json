@@ -1136,6 +1136,21 @@
       "upstream_preview_index_sha256": "0255ae3f982b2c4def65d99f4e380ffa84c0e36863da4209b4e92f710bd16ca9",
       "bytes": 239687
     },
+    "RXN-cool-mode": {
+      "component_id": "RXN-cool-mode",
+      "preview_path": "docs/assets/componenti/RXN-cool-mode.png",
+      "preview_sha256": "14c13f39bf88df36d2797afec8f7ddeb45b10a9980ca15f704ed39209c609852",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/cool-mode.tsx",
+      "source_blob_sha": "53eb117b692504b75501c3afd0f37207d0c7bd97",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "88ee6e78898efecf1cb7a1e897ad98687bdc0e08751d0923225957793016d9be",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
+    },
     "RXN-corporate-footer": {
       "component_id": "RXN-corporate-footer",
       "preview_path": "docs/assets/componenti/RXN-corporate-footer.png",
@@ -1419,6 +1434,21 @@
       "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
       "captured_on": "2026-11-19",
       "bytes": 3736
+    },
+    "RXN-flash-sale-banner": {
+      "component_id": "RXN-flash-sale-banner",
+      "preview_path": "docs/assets/componenti/RXN-flash-sale-banner.png",
+      "preview_sha256": "8f2ca2190cd7ec53e602c8802d7f15e0ae1faec9e5dc9096411269f0298e6d88",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/flash-sale-banner.tsx",
+      "source_blob_sha": "31ad921595967ad5fd4c54b13b6a456bdd2f8515",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "88ee6e78898efecf1cb7a1e897ad98687bdc0e08751d0923225957793016d9be",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
     },
     "RXN-flickering-grid": {
       "component_id": "RXN-flickering-grid",
@@ -3050,6 +3080,21 @@
       "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
       "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
       "local_renderer_package_sha256": "23078819dde940d2d97d72905519ca1eaae971627386d59a31d54b15270a0f3a",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
+    },
+    "RXN-script-copy-btn": {
+      "component_id": "RXN-script-copy-btn",
+      "preview_path": "docs/assets/componenti/RXN-script-copy-btn.png",
+      "preview_sha256": "31fdf6ce94f8ec57483a87064cade4897cbffc5dee94dfc5a9f7aa574bab42c9",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/script-copy-btn.tsx",
+      "source_blob_sha": "da83ded7ab6dd43d4712741e2f0f170dd7a9bd2e",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "88ee6e78898efecf1cb7a1e897ad98687bdc0e08751d0923225957793016d9be",
       "visual_qa": "UNREVIEWED",
       "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
       "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",

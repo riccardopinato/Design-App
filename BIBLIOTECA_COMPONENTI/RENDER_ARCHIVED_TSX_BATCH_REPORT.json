@@ -1,13 +1,11 @@
 {
-  "original_pending_count": 35,
-  "source_eligible": 26,
+  "original_pending_count": 29,
+  "source_eligible": 20,
   "captured": [
-    "DSP-001",
-    "RXN-code-comparison",
-    "RXN-icon-cloud",
-    "RXN-mode-toggle",
-    "RXN-ruixen-prompt-box",
-    "RXN-smooth-cursor"
+    "RXN-cool-mode",
+    "RXN-flash-sale-banner",
+    "RXN-script-copy-btn",
+    "WML-007"
   ],
   "failed": {
     "DBM-002": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useContext')\"]",
@@ -15,21 +13,17 @@
     "AMX-004": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useContext')\"]",
     "DBM-016": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useContext')\"]",
     "AMX-002": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useContext')\"]",
-    "RXN-behavioral-history-select": "SOURCE_JS_EXCEPTION [\"Cannot read properties of undefined (reading 'filter')\"]",
+    "RXN-file-tree": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useState')\"]",
+    "RXN-carousel-3d-select": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useMemo')\"]",
     "RXN-command-deck": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useState')\"]",
-    "RXN-carousel-3d-select": "SOURCE_JS_EXCEPTION [\"Cannot read properties of undefined (reading 'length')\"]",
-    "RXN-cool-mode": "SOURCE_JS_EXCEPTION ['Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the fi']",
+    "RXN-behavioral-history-select": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useMemo')\"]",
     "RXN-glowing-send-input": "ORIGINAL_TSX_IMPORT_OR_RENDER_FAILED TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx?import {\"console\": [\"Failed to load resource: the server responded with a status of 500 (Internal Server Error)\", \"ARCHIVED_TSX_BATCH_FAILED RXN-glowing-send-input TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-",
-    "RXN-file-tree": "ORIGINAL_TSX_IMPORT_OR_RENDER_FAILED Error: NO_REACT_COMPONENT_EXPORT; exports=CollapseButton,File,Folder,Tree {\"console\": [\"ARCHIVED_TSX_BATCH_FAILED RXN-file-tree Error: NO_REACT_COMPONENT_EXPORT; exports=CollapseButton,File,Folder,Tree\\n    at mount (http://127.0.0.1:5181/src/batch_main.tsx:68:25)\"], \"http\": [], \"requests\": []}",
-    "RXN-package-installer-tabs": "SOURCE_JS_EXCEPTION [\"Cannot read properties of undefined (reading '0')\"]",
-    "RXN-flash-sale-banner": "VITE_COMPILATION_OVERLAY [plugin:vite:import-analysis] Failed to resolve import \"next/font/google\" from \"../sorgenti/ruixen/glowing-send-input.tsx\". Does the file exist?/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx:6:244  |  import { motion } from \"motion/react\";\n5  |  import { FaArrowRight } from \"react-icons/fa\";\n6  ",
-    "RXN-pixel-image": "NEAR_BLANK_UNVERIFIED_COMPONENT",
     "RXN-progressive-blur": "NEAR_BLANK_UNVERIFIED_COMPONENT",
-    "RXN-script-copy-btn": "SOURCE_JS_EXCEPTION ['Cannot convert undefined or null to object']",
+    "RXN-pixel-image": "NEAR_BLANK_UNVERIFIED_COMPONENT",
     "RXN-scrub-datetime": "NEAR_BLANK_UNVERIFIED_COMPONENT",
-    "RXN-ruixen-query-box": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useMemo')\"]",
     "RXN-video-text": "NEAR_BLANK_UNVERIFIED_COMPONENT",
-    "WML-007": "SOURCE_JS_EXCEPTION [\"Cannot read properties of undefined (reading 'icon')\"]"
+    "RXN-ruixen-query-box": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useMemo')\"]",
+    "RXN-package-installer-tabs": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useContext')\"]"
   },
   "blocked_before_run": {
     "AMX-003": "BLOCKED_NO_ARCHIVED_SOURCE",
@@ -42,11 +36,21 @@
     "WML-008": "BLOCKED_NO_ARCHIVED_SOURCE",
     "WML-009": "BLOCKED_NO_ARCHIVED_SOURCE"
   },
+  "unrelated_vite_overlays": {
+    "RXN-flash-sale-banner": [
+      "[plugin:vite:import-analysis] Failed to resolve import \"next/font/google\" from \"../sorgenti/ruixen/glowing-send-input.tsx\". Does the file exist?/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx:6:244  |  impor"
+    ],
+    "RXN-progressive-blur": [
+      "[plugin:vite:import-analysis] Failed to resolve import \"next/font/google\" from \"../sorgenti/ruixen/glowing-send-input.tsx\". Does the file exist?/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx:6:244  |  impor"
+    ],
+    "RXN-pixel-image": [
+      "[plugin:vite:import-analysis] Failed to resolve import \"next/font/google\" from \"../sorgenti/ruixen/glowing-send-input.tsx\". Does the file exist?/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx:6:244  |  impor"
+    ]
+  },
   "eligible_by_source": {
     "DEVLIBRARIES_AMICRO": 2,
     "DEVLIBRARIES_BOOKMARKS": 3,
-    "DEVLIBRARIES_EASEUI": 1,
-    "RUIXEN": 19,
+    "RUIXEN": 14,
     "DEVLIBRARIES_WATERMELON": 1
   },
   "source_integrity": "Exact source blob SHA checked before execution",
