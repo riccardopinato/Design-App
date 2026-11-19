@@ -1,0 +1,42 @@
+name: Classify all 480 Flutter source ports and 66 original React previews
+
+on:
+  push:
+    branches: ["feature/flutter-dual-code-preview-recovery-20261119"]
+    paths:
+      - "BIBLIOTECA_COMPONENTI/classify_flutter_reuse.py"
+      - ".github/workflows/classify-flutter-reuse.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: design-app-dual-code-branch-write-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  classify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: "3.12"
+      - name: Classify all 480 sources in parallel without changing original code
+        run: python BIBLIOTECA_COMPONENTI/classify_flutter_reuse.py
+      - name: Commit exact 480/66 inventory to the intake branch
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add BIBLIOTECA_COMPONENTI/PORTING_BACKLOG.json BIBLIOTECA_COMPONENTI/PORTING_BACKLOG.md BIBLIOTECA_COMPONENTI/RU_SOURCE_RENDER_QUEUE.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "docs(porting): classify 480 UID for safe Flutter porting and 66 source-rendered Ruixen previews"
+          git fetch origin "${BRANCH}"
+          git rebase "origin/${BRANCH}"
+          git push origin "HEAD:${BRANCH}"
