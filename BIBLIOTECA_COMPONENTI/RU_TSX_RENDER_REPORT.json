@@ -1,0 +1,19 @@
+{
+  "renderer": "React/Vite isolated demo with unchanged pinned original TSX",
+  "requested": [
+    "grain-gradient-bg",
+    "grid-pattern",
+    "pulsating-button",
+    "shimmer-button",
+    "interactive-hover-button",
+    "flip-text",
+    "orbiting-circles",
+    "rainbow-button",
+    "ruixen-featured-message-card",
+    "spinning-text"
+  ],
+  "captured": [],
+  "blocked": {},
+  "source_revision": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941",
+  "status": "IMAGE_UNREVIEWED_NOT_OFFICIAL_UPSTREAM_CAPTURE"
+}

@@ -23,8 +23,11 @@ ROOT = HERE.parent
 UIDFILE = HERE / "UID_REGISTRY.json"
 CATFILE = HERE / "CATALOGO.json"
 PREVIEWFILE = HERE / "ANTEPRIME.json"
+VARIANTSFILE = HERE / "FLUTTER_VARIANTS.json"
 ORIGINSFILE = HERE / "ANTEPRIME_ORIGINI.json"
 FORUI_ORIGINSFILE = HERE / "ANTEPRIME_ORIGINI_FORUI.json"
+GENTLEFACE_ORIGINSFILE = HERE / "ANTEPRIME_ORIGINI_GENTLEFACE.json"
+SECONDARY_ORIGINSFILE = HERE / "ANTEPRIME_ORIGINI_SECONDARIE.json"
 APP_ALIASES = {"anna-s-diary": "annas-diary"}
 
 
@@ -42,6 +45,16 @@ def read() -> tuple[dict, dict, dict, dict]:
             if cid in origins:
                 raise ValueError("duplicate preview origin: " + cid)
             origins[cid] = entry
+    if GENTLEFACE_ORIGINSFILE.exists():
+        for cid, record in json.loads(GENTLEFACE_ORIGINSFILE.read_text(encoding="utf-8")).get("previews", {}).items():
+            if cid in origins:
+                raise ValueError("duplicate preview origin: " + cid)
+            origins[cid] = record
+    if SECONDARY_ORIGINSFILE.exists():
+        for cid, record in json.loads(SECONDARY_ORIGINSFILE.read_text(encoding="utf-8")).get("previews", {}).items():
+            if cid in origins:
+                raise ValueError("duplicate image origin: " + cid)
+            origins[cid] = record
     return uid, cat, pv, origins
 
 
@@ -117,7 +130,12 @@ def plan(ref: str, app: str, stack: str, role: str) -> dict:
                   (stack == "compose" and ("kotlin" in lang or "compose" in lang)) or
                   (stack == "web-react" and ("react" in lang or "tsx" in lang)) or
                   (stack == "web-html" and "html" in lang))
-    if info["archive_state"] != "ARCHIVED_SOURCE":
+    variant = json.loads(VARIANTSFILE.read_text(encoding="utf-8"))["components"].get(info["canonical_id"], {})
+    if stack == "flutter" and variant.get("flutter_code_path"):
+        # A native Dart original/adaptation exists, but still needs consumer
+        # dependency, theme, visual and runtime review before copy-ready.
+        mode = "SOURCE_REVIEW_REQUIRED"
+    elif info["archive_state"] != "ARCHIVED_SOURCE":
         mode = "SOURCE_UNAVAILABLE"
     elif not same_stack:
         mode = "ADAPTER_REQUIRED"
@@ -131,6 +149,8 @@ def plan(ref: str, app: str, stack: str, role: str) -> dict:
         "command": "Usa " + info["uid"] + " per " + (role or "il componente") + " nell'app " + app,
         "app": canonical_app(app), "stack": stack, "role": role,
         "component": info, "adoption_mode": mode,
+        "native_flutter_path": variant.get("flutter_code_path") if stack == "flutter" else None,
+        "native_flutter_state": variant.get("flutter_status") if stack == "flutter" else None,
         "copy_paste_ready": bool(native_drop_in),
         "required_checks": [
             "Inspect target app's Product Bible, approved design and AGENTS.md",

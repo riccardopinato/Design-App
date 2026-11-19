@@ -217,10 +217,51 @@ def validate() -> list[str]:
         c = by_id.get(cid)
         if not c or c.get("source_site") != "FLUTTER_FORUI" or c.get("archive_state") != "ARCHIVED_SOURCE":
             errors.append(cid + ": source state mismatch")
-    if catalog.get("counts", {}).get("archived_originals") != 427:
-        errors.append("expected 427 archived originals including Forui")
-    if catalog.get("counts", {}).get("referenced_only") != 53:
-        errors.append("expected 53 remaining references after MIT batch")
+    # Official Gentleface original SVGs are archived separately from their
+    # MIT native Flutter Dart sources; both require exact source hash evidence.
+    icons_manifest = ROOT / "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/PROVENIENZA.json"
+    if not icons_manifest.is_file():
+        errors.append("missing Gentleface official original SVG + Dart provenance")
+    else:
+        icons = json.loads(icons_manifest.read_text(encoding="utf-8"))
+        records = icons.get("entries", {})
+        if len(records) != 28 or icons.get("license") != "MIT":
+            errors.append("Gentleface original licensed source inventory mismatch")
+        observed_svg = set()
+        observed_dart = set()
+        for cid, info in records.items():
+            record = by_id.get(cid)
+            if not record or record.get("source_site") != "GENTLEFACE":
+                errors.append("unrecognized official Gentleface icon: " + cid)
+                continue
+            svg_path = ROOT / info["original_svg_path"]
+            dart_path = ROOT / info["native_flutter_path"]
+            if (record.get("archive_path") != info["original_svg_path"]
+                    or record.get("source_blob_sha") != info["original_svg_git_blob_sha"]
+                    or record.get("archive_state") != "ARCHIVED_SOURCE"):
+                errors.append(cid + ": catalog/source SHA mismatch")
+            for physical, expected_sha in (
+                (svg_path, info["original_svg_sha256"]),
+                (dart_path, info["native_flutter_sha256"]),
+            ):
+                try:
+                    actual = hashlib.sha256(physical.read_bytes()).hexdigest()
+                    if actual != expected_sha:
+                        errors.append(cid + ": original/native bytes changed")
+                except OSError:
+                    errors.append(cid + ": original or native Flutter source absent")
+            if svg_path.is_file() and git_blob_sha(svg_path.read_bytes()) != info["original_svg_git_blob_sha"]:
+                errors.append(cid + ": source SVG git blob mismatch")
+            observed_svg.add(svg_path.resolve())
+            observed_dart.add(dart_path.resolve())
+        all_svg = {x.resolve() for x in (ROOT / "BIBLIOTECA_COMPONENTI/sorgenti/gentleface").glob("ICO-*.svg")}
+        all_dart = {x.resolve() for x in (ROOT / "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface").glob("ico_*.dart")}
+        if observed_svg != all_svg or observed_dart != all_dart:
+            errors.append("untracked original Gentleface SVG or Dart path")
+    if catalog.get("counts", {}).get("archived_originals") != 455:
+        errors.append("expected 455 archived originals after Gentleface MIT import")
+    if catalog.get("counts", {}).get("referenced_only") != 25:
+        errors.append("expected 25 references after Gentleface MIT import")
 
     return errors
 

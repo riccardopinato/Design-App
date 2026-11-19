@@ -1,0 +1,36 @@
+{
+  "original_pending_count": 13,
+  "source_eligible": 4,
+  "captured": [
+    "AMX-002",
+    "DBM-011",
+    "DBM-016"
+  ],
+  "failed": {
+    "RXN-glowing-send-input": "ORIGINAL_TSX_IMPORT_OR_RENDER_FAILED TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx?import {\"console\": [\"Failed to load resource: the server responded with a status of 500 (Internal Server Error)\", \"ARCHIVED_TSX_BATCH_FAILED RXN-glowing-send-input TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx\"], \"http\": [\"500 http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx?import\"], \"requests\": [\"http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx?import\"]}"
+  },
+  "blocked_before_run": {
+    "AMX-003": "BLOCKED_NO_ARCHIVED_SOURCE",
+    "AMX-005": "BLOCKED_NO_ARCHIVED_SOURCE",
+    "DBM-027": "BLOCKED_NO_ARCHIVED_SOURCE",
+    "DBM-028": "BLOCKED_NO_ARCHIVED_SOURCE",
+    "DBM-029": "BLOCKED_NO_ARCHIVED_SOURCE",
+    "DBM-030": "BLOCKED_NO_ARCHIVED_SOURCE",
+    "WML-006": "BLOCKED_NO_ARCHIVED_SOURCE",
+    "WML-008": "BLOCKED_NO_ARCHIVED_SOURCE",
+    "WML-009": "BLOCKED_NO_ARCHIVED_SOURCE"
+  },
+  "unrelated_vite_overlays": {
+    "DBM-016": [
+      "[plugin:vite:import-analysis] Failed to resolve import \"next/font/google\" from \"../sorgenti/ruixen/glowing-send-input.tsx\". Does the file exist?/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx:6:244  |  impor"
+    ]
+  },
+  "eligible_by_source": {
+    "DEVLIBRARIES_AMICRO": 1,
+    "DEVLIBRARIES_BOOKMARKS": 2,
+    "RUIXEN": 1
+  },
+  "source_integrity": "Exact source blob SHA checked before execution",
+  "status": "SOURCE_PREVIEW_UNREVIEWED",
+  "statement": "A preview is considered captured ONLY with a physical nonblank PNG and exact source provenance. No source code altered."
+}

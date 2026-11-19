@@ -1,0 +1,15 @@
+name: design_app_flutter_adapters
+description: Flutter adaptations of source-pinned Design-App UI components. NOT consumer-certified.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: '>=3.14.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

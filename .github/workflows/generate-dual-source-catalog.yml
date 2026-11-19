@@ -1,0 +1,48 @@
+name: Generate dual-source original and Flutter catalog
+
+on:
+  push:
+    branches: ["feature/flutter-dual-code-preview-recovery-20261119"]
+    paths:
+      - "BIBLIOTECA_COMPONENTI/FLUTTER_VARIANTS.json"
+      - "BIBLIOTECA_COMPONENTI/genera_anteprime.py"
+      - ".github/workflows/generate-dual-source-catalog.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: design-app-dual-code-branch-write-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: "3.12"
+      - name: Verify source provenance and all 480 columns
+        run: |
+          python BIBLIOTECA_COMPONENTI/validate_flutter_variants.py
+          python BIBLIOTECA_COMPONENTI/validate.py
+          python BIBLIOTECA_COMPONENTI/uid.py validate
+      - name: Regenerate canonical and per-app Markdown
+        run: python BIBLIOTECA_COMPONENTI/genera_anteprime.py --write
+      - name: Publish only generated Markdown tables and manifest to feature branch
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add BIBLIOTECA_COMPONENTI/ANTEPRIME.json BIBLIOTECA_COMPONENTI/TABELLA_478.md BIBLIOTECA_COMPONENTI/PER_APP
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "docs(uid): regenerate original and Flutter columns for 480 components"
+          git fetch origin "${BRANCH}"
+          git rebase "origin/${BRANCH}"
+          git push origin "HEAD:${BRANCH}"

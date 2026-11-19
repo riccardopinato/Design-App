@@ -1,0 +1,1482 @@
+{
+  "schema_version": 1,
+  "missing_ruixen_previews": 56,
+  "source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941",
+  "image_source": "ORIGINAL_ARCHIVED_REACT_TSX",
+  "entries": [
+    {
+      "uid": "UID-0107",
+      "canonical_id": "RXN-avatar-circles",
+      "name": "avatar circles",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/avatar-circles.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 1270,
+      "native_port_group": "REACT_LOW_DEPENDENCY",
+      "dependency_markers": [
+        "ASSET_REVIEW"
+      ],
+      "import_paths": [
+        "@/lib/utils"
+      ],
+      "react_hook_count": 0,
+      "estimated_difficulty": 2,
+      "priority_score": 0,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0227",
+      "canonical_id": "RXN-iphone-15-pro",
+      "name": "iphone 15 pro",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/iphone-15-pro.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 3676,
+      "native_port_group": "REACT_LOW_DEPENDENCY",
+      "dependency_markers": [
+        "ASSET_REVIEW"
+      ],
+      "import_paths": [
+        "react"
+      ],
+      "react_hook_count": 0,
+      "estimated_difficulty": 2,
+      "priority_score": 0,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0229",
+      "canonical_id": "RXN-linear-mask",
+      "name": "linear mask",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/linear-mask.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 1044,
+      "native_port_group": "REACT_LOW_DEPENDENCY",
+      "dependency_markers": [
+        "ASSET_REVIEW"
+      ],
+      "import_paths": [
+        "react",
+        "@/lib/utils"
+      ],
+      "react_hook_count": 0,
+      "estimated_difficulty": 2,
+      "priority_score": 0,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0286",
+      "canonical_id": "RXN-progressive-blur",
+      "name": "progressive blur",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/progressive-blur.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 4472,
+      "native_port_group": "REACT_LOW_DEPENDENCY",
+      "dependency_markers": [
+        "ASSET_REVIEW"
+      ],
+      "import_paths": [
+        "@/lib/utils",
+        "react"
+      ],
+      "react_hook_count": 0,
+      "estimated_difficulty": 2,
+      "priority_score": 0,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0312",
+      "canonical_id": "RXN-scroll-progress",
+      "name": "scroll progress",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scroll-progress.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 756,
+      "native_port_group": "REACT_LOW_DEPENDENCY",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY"
+      ],
+      "import_paths": [
+        "@/lib/utils",
+        "motion/react",
+        "react"
+      ],
+      "react_hook_count": 0,
+      "estimated_difficulty": 2,
+      "priority_score": 0,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0103",
+      "canonical_id": "RXN-arc-timeline",
+      "name": "arc timeline",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/arc-timeline.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 10651,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [],
+      "import_paths": [
+        "@/lib/utils",
+        "react"
+      ],
+      "react_hook_count": 2,
+      "estimated_difficulty": 1,
+      "priority_score": -5,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0224",
+      "canonical_id": "RXN-interactive-grid-pattern",
+      "name": "interactive grid pattern",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/interactive-grid-pattern.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 2201,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [],
+      "import_paths": [
+        "@/lib/utils",
+        "react"
+      ],
+      "react_hook_count": 2,
+      "estimated_difficulty": 1,
+      "priority_score": -5,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0091",
+      "canonical_id": "RXN-animated-circular-progress-bar",
+      "name": "animated circular progress bar",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-circular-progress-bar.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_animated_circular_progress_bar.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 3546,
+      "native_port_group": "ALREADY_HAS_DART",
+      "dependency_markers": [
+        "CSS_MOTION"
+      ],
+      "import_paths": [
+        "@/lib/utils"
+      ],
+      "react_hook_count": 0,
+      "estimated_difficulty": 2,
+      "priority_score": -10,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0092",
+      "canonical_id": "RXN-animated-gradient-text",
+      "name": "animated gradient text",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-gradient-text.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_animated_gradient_text.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 893,
+      "native_port_group": "ALREADY_HAS_DART",
+      "dependency_markers": [
+        "CSS_MOTION"
+      ],
+      "import_paths": [
+        "@/lib/utils",
+        "react"
+      ],
+      "react_hook_count": 0,
+      "estimated_difficulty": 2,
+      "priority_score": -10,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0098",
+      "canonical_id": "RXN-animated-shiny-text",
+      "name": "animated shiny text",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-shiny-text.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_animated_shiny_text.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 1004,
+      "native_port_group": "ALREADY_HAS_DART",
+      "dependency_markers": [
+        "CSS_MOTION"
+      ],
+      "import_paths": [
+        "react",
+        "@/lib/utils"
+      ],
+      "react_hook_count": 0,
+      "estimated_difficulty": 2,
+      "priority_score": -10,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0119",
+      "canonical_id": "RXN-blur-fade",
+      "name": "blur fade",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/blur-fade.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 1817,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY"
+      ],
+      "import_paths": [
+        "motion/react",
+        "react"
+      ],
+      "react_hook_count": 2,
+      "estimated_difficulty": 2,
+      "priority_score": -10,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0240",
+      "canonical_id": "RXN-morphing-text",
+      "name": "morphing text",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/morphing-text.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 3695,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [],
+      "import_paths": [
+        "react",
+        "@/lib/utils"
+      ],
+      "react_hook_count": 13,
+      "estimated_difficulty": 2,
+      "priority_score": -10,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0316",
+      "canonical_id": "RXN-scrub-datetime",
+      "name": "scrub datetime",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scrub-datetime.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 10813,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [],
+      "import_paths": [
+        "react"
+      ],
+      "react_hook_count": 25,
+      "estimated_difficulty": 2,
+      "priority_score": -10,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0341",
+      "canonical_id": "RXN-text-animate",
+      "name": "text animate",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/text-animate.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 8794,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY"
+      ],
+      "import_paths": [
+        "@/lib/utils",
+        "motion/react",
+        "react"
+      ],
+      "react_hook_count": 0,
+      "estimated_difficulty": 2,
+      "priority_score": -10,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0342",
+      "canonical_id": "RXN-text-reveal",
+      "name": "text reveal",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/text-reveal.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 1993,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY"
+      ],
+      "import_paths": [
+        "motion/react",
+        "react",
+        "@/lib/utils"
+      ],
+      "react_hook_count": 2,
+      "estimated_difficulty": 2,
+      "priority_score": -10,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0096",
+      "canonical_id": "RXN-animated-list",
+      "name": "animated list",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-list.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 1903,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY"
+      ],
+      "import_paths": [
+        "@/lib/utils",
+        "motion/react",
+        "react"
+      ],
+      "react_hook_count": 7,
+      "estimated_difficulty": 3,
+      "priority_score": -15,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0099",
+      "canonical_id": "RXN-animated-subscribe-button",
+      "name": "animated subscribe button",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-subscribe-button.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 3379,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY"
+      ],
+      "import_paths": [
+        "@/lib/utils",
+        "motion/react",
+        "motion/react",
+        "react"
+      ],
+      "react_hook_count": 4,
+      "estimated_difficulty": 3,
+      "priority_score": -15,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0104",
+      "canonical_id": "RXN-aurora-text",
+      "name": "aurora text",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/aurora-text.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 1021,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ASSET_REVIEW",
+        "CSS_MOTION"
+      ],
+      "import_paths": [
+        "react"
+      ],
+      "react_hook_count": 0,
+      "estimated_difficulty": 3,
+      "priority_score": -15,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0122",
+      "canonical_id": "RXN-box-reveal",
+      "name": "box reveal",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/box-reveal.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 1665,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY"
+      ],
+      "import_paths": [
+        "motion/react",
+        "react"
+      ],
+      "react_hook_count": 4,
+      "estimated_difficulty": 3,
+      "priority_score": -15,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0155",
+      "canonical_id": "RXN-code-comparison",
+      "name": "code comparison",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/code-comparison.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 6304,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "SHARED_PROJECT_IMPORT"
+      ],
+      "import_paths": [
+        "@/lib/utils",
+        "@shikijs/transformers",
+        "lucide-react",
+        "next-themes",
+        "react",
+        "shiki"
+      ],
+      "react_hook_count": 10,
+      "estimated_difficulty": 3,
+      "priority_score": -15,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0158",
+      "canonical_id": "RXN-comic-text",
+      "name": "comic text",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/comic-text.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 1599,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY",
+        "ASSET_REVIEW"
+      ],
+      "import_paths": [
+        "@/lib/utils",
+        "motion/react",
+        "react"
+      ],
+      "react_hook_count": 0,
+      "estimated_difficulty": 3,
+      "priority_score": -15,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0159",
+      "canonical_id": "RXN-command-deck",
+      "name": "command deck",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/command-deck.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 4246,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "SHADCN_OR_RADIX",
+        "SHARED_PROJECT_IMPORT"
+      ],
+      "import_paths": [
+        "@/components/ui/context-menu",
+        "lucide-react"
+      ],
+      "react_hook_count": 0,
+      "estimated_difficulty": 3,
+      "priority_score": -15,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0163",
+      "canonical_id": "RXN-cool-mode",
+      "name": "cool mode",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/cool-mode.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 7000,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ASSET_REVIEW"
+      ],
+      "import_paths": [
+        "react"
+      ],
+      "react_hook_count": 4,
+      "estimated_difficulty": 3,
+      "priority_score": -15,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0170",
+      "canonical_id": "RXN-dot-pattern",
+      "name": "dot pattern",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/dot-pattern.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 4302,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY"
+      ],
+      "import_paths": [
+        "@/lib/utils",
+        "motion/react",
+        "react"
+      ],
+      "react_hook_count": 6,
+      "estimated_difficulty": 3,
+      "priority_score": -15,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0205",
+      "canonical_id": "RXN-gradient-reveal-text",
+      "name": "gradient reveal text",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/gradient-reveal-text.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 2785,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ASSET_REVIEW"
+      ],
+      "import_paths": [
+        "react",
+        "@/lib/utils"
+      ],
+      "react_hook_count": 4,
+      "estimated_difficulty": 3,
+      "priority_score": -15,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0228",
+      "canonical_id": "RXN-line-shadow-text",
+      "name": "line shadow text",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/line-shadow-text.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 1250,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY",
+        "CSS_MOTION"
+      ],
+      "import_paths": [
+        "@/lib/utils",
+        "motion/react"
+      ],
+      "react_hook_count": 0,
+      "estimated_difficulty": 3,
+      "priority_score": -15,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0237",
+      "canonical_id": "RXN-mode-toggle",
+      "name": "mode toggle",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/mode-toggle.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 942,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "SHADCN_OR_RADIX",
+        "SHARED_PROJECT_IMPORT"
+      ],
+      "import_paths": [
+        "lucide-react",
+        "next-themes",
+        "react",
+        "@/components/ui/button",
+        "@/lib/utils"
+      ],
+      "react_hook_count": 0,
+      "estimated_difficulty": 3,
+      "priority_score": -15,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0257",
+      "canonical_id": "RXN-neon-gradient-card",
+      "name": "neon gradient card",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/neon-gradient-card.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 4251,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "CSS_MOTION"
+      ],
+      "import_paths": [
+        "react",
+        "@/lib/utils"
+      ],
+      "react_hook_count": 7,
+      "estimated_difficulty": 3,
+      "priority_score": -15,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0263",
+      "canonical_id": "RXN-number-ticker",
+      "name": "number ticker",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/number-ticker.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 1711,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY"
+      ],
+      "import_paths": [
+        "motion/react",
+        "react",
+        "@/lib/utils"
+      ],
+      "react_hook_count": 5,
+      "estimated_difficulty": 3,
+      "priority_score": -15,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0271",
+      "canonical_id": "RXN-pixel-image",
+      "name": "pixel image",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/pixel-image.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 3355,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ASSET_REVIEW"
+      ],
+      "import_paths": [
+        "@/lib/utils",
+        "react"
+      ],
+      "react_hook_count": 8,
+      "estimated_difficulty": 3,
+      "priority_score": -15,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0293",
+      "canonical_id": "RXN-retro-grid",
+      "name": "retro grid",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/retro-grid.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 2007,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "3D_TRANSFORM",
+        "CSS_MOTION"
+      ],
+      "import_paths": [
+        "@/lib/utils"
+      ],
+      "react_hook_count": 0,
+      "estimated_difficulty": 3,
+      "priority_score": -15,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0320",
+      "canonical_id": "RXN-shine-border",
+      "name": "shine border",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/shine-border.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 1657,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ASSET_REVIEW",
+        "CSS_MOTION"
+      ],
+      "import_paths": [
+        "react",
+        "@/lib/utils"
+      ],
+      "react_hook_count": 0,
+      "estimated_difficulty": 3,
+      "priority_score": -15,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0321",
+      "canonical_id": "RXN-shiny-button",
+      "name": "shiny button",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/shiny-button.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 2312,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY",
+        "ASSET_REVIEW"
+      ],
+      "import_paths": [
+        "@/lib/utils",
+        "motion/react",
+        "react"
+      ],
+      "react_hook_count": 0,
+      "estimated_difficulty": 3,
+      "priority_score": -15,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0330",
+      "canonical_id": "RXN-sparkles-text",
+      "name": "sparkles text",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/sparkles-text.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 4133,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY"
+      ],
+      "import_paths": [
+        "motion/react",
+        "react",
+        "@/lib/utils"
+      ],
+      "react_hook_count": 4,
+      "estimated_difficulty": 3,
+      "priority_score": -15,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0347",
+      "canonical_id": "RXN-typing-animation",
+      "name": "typing animation",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/typing-animation.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 1965,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY"
+      ],
+      "import_paths": [
+        "@/lib/utils",
+        "motion/react",
+        "react"
+      ],
+      "react_hook_count": 8,
+      "estimated_difficulty": 3,
+      "priority_score": -15,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0353",
+      "canonical_id": "RXN-video-text",
+      "name": "video text",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/video-text.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 3511,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ASSET_REVIEW"
+      ],
+      "import_paths": [
+        "@/lib/utils",
+        "react"
+      ],
+      "react_hook_count": 4,
+      "estimated_difficulty": 3,
+      "priority_score": -15,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0358",
+      "canonical_id": "RXN-word-rotate",
+      "name": "word rotate",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/word-rotate.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 1149,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY"
+      ],
+      "import_paths": [
+        "motion/react",
+        "react",
+        "@/lib/utils"
+      ],
+      "react_hook_count": 4,
+      "estimated_difficulty": 3,
+      "priority_score": -15,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0090",
+      "canonical_id": "RXN-animated-beam",
+      "name": "animated beam",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-beam.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 5081,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY",
+        "DOM_API"
+      ],
+      "import_paths": [
+        "motion/react",
+        "react",
+        "@/lib/utils"
+      ],
+      "react_hook_count": 5,
+      "estimated_difficulty": 4,
+      "priority_score": -20,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0093",
+      "canonical_id": "RXN-animated-grid-pattern",
+      "name": "animated grid pattern",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-grid-pattern.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 3723,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY",
+        "DOM_API"
+      ],
+      "import_paths": [
+        "motion/react",
+        "react",
+        "@/lib/utils"
+      ],
+      "react_hook_count": 8,
+      "estimated_difficulty": 4,
+      "priority_score": -20,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0117",
+      "canonical_id": "RXN-behavioral-history-select",
+      "name": "behavioral history select",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/behavioral-history-select.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 4204,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "SHADCN_OR_RADIX",
+        "SHARED_PROJECT_IMPORT"
+      ],
+      "import_paths": [
+        "react",
+        "@/components/ui/select",
+        "@/lib/utils"
+      ],
+      "react_hook_count": 3,
+      "estimated_difficulty": 4,
+      "priority_score": -20,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0183",
+      "canonical_id": "RXN-file-tree",
+      "name": "file tree",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/file-tree.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 9482,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "SHADCN_OR_RADIX",
+        "SHARED_PROJECT_IMPORT"
+      ],
+      "import_paths": [
+        "lucide-react",
+        "react",
+        "@/components/ui/button",
+        "@/components/ui/scroll-area",
+        "@/lib/utils"
+      ],
+      "react_hook_count": 12,
+      "estimated_difficulty": 4,
+      "priority_score": -20,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0185",
+      "canonical_id": "RXN-flash-sale-banner",
+      "name": "flash sale banner",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/flash-sale-banner.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 4453,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "SHADCN_OR_RADIX",
+        "SHARED_PROJECT_IMPORT"
+      ],
+      "import_paths": [
+        "react",
+        "lucide-react",
+        "@/components/ui/button"
+      ],
+      "react_hook_count": 5,
+      "estimated_difficulty": 4,
+      "priority_score": -20,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0186",
+      "canonical_id": "RXN-flickering-grid",
+      "name": "flickering grid",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/flickering-grid.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 5218,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ASSET_REVIEW",
+        "DOM_API"
+      ],
+      "import_paths": [
+        "@/lib/utils",
+        "react"
+      ],
+      "react_hook_count": 14,
+      "estimated_difficulty": 4,
+      "priority_score": -20,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0199",
+      "canonical_id": "RXN-glow-tree",
+      "name": "glow tree",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glow-tree.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 2944,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY",
+        "CSS_MOTION"
+      ],
+      "import_paths": [
+        "react",
+        "motion/react",
+        "@/lib/utils",
+        "lucide-react"
+      ],
+      "react_hook_count": 3,
+      "estimated_difficulty": 4,
+      "priority_score": -20,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0200",
+      "canonical_id": "RXN-glowing-send-input",
+      "name": "glowing send input",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 2814,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY",
+        "NEXTJS_RUNTIME"
+      ],
+      "import_paths": [
+        "react",
+        "motion/react",
+        "react-icons/fa",
+        "next/font/google",
+        "@/lib/utils"
+      ],
+      "react_hook_count": 3,
+      "estimated_difficulty": 4,
+      "priority_score": -20,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0215",
+      "canonical_id": "RXN-hyper-text",
+      "name": "hyper text",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/hyper-text.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 4037,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY",
+        "DOM_API"
+      ],
+      "import_paths": [
+        "@/lib/utils",
+        "motion/react",
+        "react"
+      ],
+      "react_hook_count": 9,
+      "estimated_difficulty": 4,
+      "priority_score": -20,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0216",
+      "canonical_id": "RXN-icon-cloud",
+      "name": "icon cloud",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/icon-cloud.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 9712,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ASSET_REVIEW",
+        "DOM_API"
+      ],
+      "import_paths": [
+        "react",
+        "react-dom/server"
+      ],
+      "react_hook_count": 17,
+      "estimated_difficulty": 4,
+      "priority_score": -20,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0265",
+      "canonical_id": "RXN-package-installer-tabs",
+      "name": "package installer tabs",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/package-installer-tabs.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 3561,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "SHADCN_OR_RADIX",
+        "SHARED_PROJECT_IMPORT"
+      ],
+      "import_paths": [
+        "react",
+        "react",
+        "@/components/ui/button",
+        "@/components/ui/tabs",
+        "@/components/ui/card",
+        "lucide-react"
+      ],
+      "react_hook_count": 3,
+      "estimated_difficulty": 4,
+      "priority_score": -20,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0300",
+      "canonical_id": "RXN-ruixen-prompt-box",
+      "name": "ruixen prompt box",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/ruixen-prompt-box.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 4116,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "SHADCN_OR_RADIX",
+        "SHARED_PROJECT_IMPORT"
+      ],
+      "import_paths": [
+        "react",
+        "@/components/ui/textarea",
+        "@/lib/utils",
+        "@/hooks/use-auto-resize-textarea",
+        "lucide-react"
+      ],
+      "react_hook_count": 3,
+      "estimated_difficulty": 4,
+      "priority_score": -20,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0306",
+      "canonical_id": "RXN-scroll-based-velocity",
+      "name": "scroll based velocity",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scroll-based-velocity.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 5953,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY",
+        "DOM_API"
+      ],
+      "import_paths": [
+        "motion/react",
+        "react",
+        "motion/react",
+        "@/lib/utils"
+      ],
+      "react_hook_count": 12,
+      "estimated_difficulty": 4,
+      "priority_score": -20,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0326",
+      "canonical_id": "RXN-smooth-cursor",
+      "name": "smooth cursor",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/smooth-cursor.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 5744,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY",
+        "ASSET_REVIEW"
+      ],
+      "import_paths": [
+        "motion/react",
+        "react"
+      ],
+      "react_hook_count": 10,
+      "estimated_difficulty": 4,
+      "priority_score": -20,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0355",
+      "canonical_id": "RXN-warp-background",
+      "name": "warp background",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/warp-background.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 6211,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "3D_TRANSFORM",
+        "ANIMATION_LIBRARY"
+      ],
+      "import_paths": [
+        "@/lib/utils",
+        "motion/react",
+        "react"
+      ],
+      "react_hook_count": 7,
+      "estimated_difficulty": 4,
+      "priority_score": -20,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0138",
+      "canonical_id": "RXN-carousel-3d-select",
+      "name": "carousel 3d select",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/carousel-3d-select.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 4273,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "3D_TRANSFORM",
+        "SHADCN_OR_RADIX",
+        "SHARED_PROJECT_IMPORT"
+      ],
+      "import_paths": [
+        "react",
+        "@/components/ui/select",
+        "@/lib/utils",
+        "lucide-react"
+      ],
+      "react_hook_count": 3,
+      "estimated_difficulty": 5,
+      "priority_score": -25,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0301",
+      "canonical_id": "RXN-ruixen-query-box",
+      "name": "ruixen query box",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/ruixen-query-box.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 3924,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ASSET_REVIEW",
+        "SHADCN_OR_RADIX",
+        "SHARED_PROJECT_IMPORT"
+      ],
+      "import_paths": [
+        "lucide-react",
+        "react",
+        "@/lib/utils",
+        "@/components/ui/textarea",
+        "@/components/ui/popover",
+        "@/components/ui/button",
+        "@/hooks/use-auto-resize-textarea"
+      ],
+      "react_hook_count": 4,
+      "estimated_difficulty": 5,
+      "priority_score": -25,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0304",
+      "canonical_id": "RXN-scratch-to-reveal",
+      "name": "scratch to reveal",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scratch-to-reveal.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 5298,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY",
+        "ASSET_REVIEW",
+        "DOM_API"
+      ],
+      "import_paths": [
+        "@/lib/utils",
+        "motion/react",
+        "react"
+      ],
+      "react_hook_count": 8,
+      "estimated_difficulty": 5,
+      "priority_score": -25,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    },
+    {
+      "uid": "UID-0305",
+      "canonical_id": "RXN-script-copy-btn",
+      "name": "script copy btn",
+      "source": "RUIXEN",
+      "source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/script-copy-btn.tsx",
+      "original_archive_state": "ARCHIVED_SOURCE",
+      "flutter_code_path": null,
+      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "apps": [],
+      "preview_verified_file": false,
+      "source_length_bytes": 5016,
+      "native_port_group": "REACT_INTEGRATION_NEEDED",
+      "dependency_markers": [
+        "ANIMATION_LIBRARY",
+        "SHADCN_OR_RADIX",
+        "SHARED_PROJECT_IMPORT"
+      ],
+      "import_paths": [
+        "@/components/ui/button",
+        "@/lib/utils",
+        "lucide-react",
+        "motion/react",
+        "next-themes",
+        "react",
+        "shiki"
+      ],
+      "react_hook_count": 6,
+      "estimated_difficulty": 5,
+      "priority_score": -25,
+      "note": "Source-only triage. No consumer compatibility, screenshot fidelity or runtime test asserted."
+    }
+  ],
+  "status": "TRIAGE_ONLY_NOT_CAPTURED",
+  "policy": "No fake screenshot or implicit asset permission; source-faithful isolated React rendering, component-specific visual QA required."
+}

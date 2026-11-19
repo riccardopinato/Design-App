@@ -26,7 +26,11 @@ OVERVIEW = HERE / "TABELLA_478.md"
 PNG_SIGNATURE = bytes.fromhex("89504e470d0a1a0a")
 ORIGINS = HERE / "ANTEPRIME_ORIGINI.json"
 FORUI_PROVENANCE = HERE / "ANTEPRIME_ORIGINI_FORUI.json"
+GENTLEFACE_PROVENANCE = HERE / "ANTEPRIME_ORIGINI_GENTLEFACE.json"
+SECONDARY_PROVENANCE = HERE / "ANTEPRIME_ORIGINI_SECONDARIE.json"
 UIDS_FILE = HERE / "UID_REGISTRY.json"
+VARIANTS_FILE = HERE / "FLUTTER_VARIANTS.json"
+FLUTTER_BY_ID = json.loads(VARIANTS_FILE.read_text(encoding="utf-8"))["components"]
 UID_BY_ID = {x["canonical_id"]: x["uid"] for x in json.loads(UIDS_FILE.read_text(encoding="utf-8"))["entries"]}
 ALL_SOURCE_TYPES = {"RUIXEN", "UIVERSE", "FLUTTER_FORUI", "DEVLIBRARIES_AMICRO",
                     "DEVLIBRARIES_BOOKMARKS", "DEVLIBRARIES_EASEUI",
@@ -68,8 +72,28 @@ def build_manifest(rows: list[dict]) -> dict:
                 raise ValueError(cid + ": image/source commit mismatch")
             if record.get("origin_repo") != "ruixenui/ruixen.com":
                 raise ValueError(cid + ": incorrect image source repository")
-            if record.get("capture_mode") not in {"PINNED_OFFICIAL_PREVIEW_IMAGE", "LIVE_COMPONENT_ONLY_SCREENSHOT", "OFFICIAL_SITE_STATIC_IMAGE", "LIVE_DOCS_COMPONENT_IFRAME"}:
+            if record.get("capture_mode") not in {"PINNED_OFFICIAL_PREVIEW_IMAGE", "LIVE_COMPONENT_ONLY_SCREENSHOT", "OFFICIAL_SITE_STATIC_IMAGE", "LIVE_DOCS_COMPONENT_IFRAME", "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER", "PINNED_ORIGINAL_TSX_NEXTJS_RENDER"}:
                 raise ValueError(cid + ": unsupported acquisition method")
+            if record.get("capture_mode") == "PINNED_ORIGINAL_TSX_NEXTJS_RENDER":
+                next_pkg = HERE / "next_source_renderer/package.json"
+                if (record.get("source_blob_sha") != c.get("source_blob_sha")
+                        or record.get("local_fixture_path") != "BIBLIOTECA_COMPONENTI/next_source_renderer/app/page.tsx"
+                        or not next_pkg.is_file()
+                        or record.get("local_renderer_package_sha256") != hashlib.sha256(next_pkg.read_bytes()).hexdigest()
+                        or record.get("font_evidence", {}).get("loaded") is not True
+                        or "poppins" not in str(record.get("font_evidence", {}).get("family", "")).lower()):
+                    raise ValueError(cid + ": Next original source/loader/font provenance mismatch")
+            if record.get("capture_mode") == "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER":
+                if (record.get("source_blob_sha") != c.get("source_blob_sha")
+                        or record.get("local_fixture_path") not in {"BIBLIOTECA_COMPONENTI/ruixen_renderer/src/main.tsx", "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx"}
+                        or not (
+                            record.get("local_renderer_package_sha256") == hashlib.sha256((HERE / "ruixen_renderer/package.json").read_bytes()).hexdigest()
+                            or any(
+                                record.get("local_renderer_package_sha256") == hashlib.sha256(p.read_bytes()).hexdigest()
+                                for p in (HERE / "ruixen_renderer/package_history").glob("*.json")
+                            )
+                        )):
+                    raise ValueError(cid + ": original TSX or pinned historical isolated demo fixture provenance mismatch")
             if hashlib.sha256(path.read_bytes()).hexdigest() != record.get("preview_sha256"):
                 raise ValueError(cid + ": screenshot bytes differ from registered SHA256")
         if valid and c["source_site"] == "FLUTTER_FORUI":
@@ -82,17 +106,62 @@ def build_manifest(rows: list[dict]) -> dict:
                     or rec.get("visual_qa") != "UNREVIEWED"
                     or rec.get("preview_sha256") != hashlib.sha256(path.read_bytes()).hexdigest()):
                 raise ValueError(cid + ": invalid Forui screenshot provenance")
-        if valid and c["source_site"] not in {"RUIXEN", "UIVERSE", "FLUTTER_FORUI"}:
+        if valid and c["source_site"] == "GENTLEFACE":
+            provenance = json.loads(GENTLEFACE_PROVENANCE.read_text(encoding="utf-8")).get("previews", {}) if GENTLEFACE_PROVENANCE.exists() else {}
+            rec = provenance.get(cid)
+            if (not rec or rec.get("origin_url") != c.get("source_url")
+                    or rec.get("source_license") != "MIT"
+                    or rec.get("preview_sha256") != hashlib.sha256(path.read_bytes()).hexdigest()
+                    or rec.get("capture_mode") not in {"OFFICIAL_MIT_PNG_CONTAINED", "OFFICIAL_MIT_SVG_RENDERED"}
+                    or rec.get("preview_path") != "docs/assets/componenti/" + cid + ".png"):
+                raise ValueError(cid + ": Gentleface preview origin, license or SHA mismatch")
+            if rec["capture_mode"] == "OFFICIAL_MIT_SVG_RENDERED":
+                sources = json.loads((HERE / "sorgenti/gentleface/PROVENIENZA.json").read_text(encoding="utf-8"))["entries"]
+                origin = sources.get(cid)
+                if (not origin or rec.get("original_asset_sha256") != origin.get("original_svg_sha256")
+                        or hashlib.sha256((ROOT / origin["original_svg_path"]).read_bytes()).hexdigest() != origin.get("original_svg_sha256")):
+                    raise ValueError(cid + ": rendered preview is not tied to archived MIT SVG")
+        if valid and c["source_site"] in {"FLUTTER_COMPONENT_LIBRARY", "DEVLIBRARIES_AMICRO",
+                "DEVLIBRARIES_BOOKMARKS", "DEVLIBRARIES_EASEUI", "DEVLIBRARIES_WATERMELON"}:
+            origins = json.loads(SECONDARY_PROVENANCE.read_text(encoding="utf-8")).get("previews", {}) if SECONDARY_PROVENANCE.exists() else {}
+            evidence = origins.get(cid, {})
+            if (evidence.get("component_id") != cid or evidence.get("source_provider") != c["source_site"]
+                    or evidence.get("preview_path") != "docs/assets/componenti/" + cid + ".png"
+                    or evidence.get("preview_sha256") != hashlib.sha256(path.read_bytes()).hexdigest()
+                    or evidence.get("source_reference_url") != c.get("source_url")
+                    or evidence.get("visual_qa") != "UNREVIEWED"
+                    or evidence.get("reuse_scope") != "DOCUMENTARY_REFERENCE_ONLY"):
+                raise ValueError(cid + ": secondary provider screenshot provenance/sha mismatch")
+            if c["source_site"] == "FLUTTER_COMPONENT_LIBRARY":
+                if (evidence.get("capture_mode") != "OFFICIAL_LIVE_DEMO_IFRAME"
+                        or evidence.get("original_archive_path") is not None
+                        or evidence.get("license_status") != "NOT_VERIFIED"):
+                    raise ValueError(cid + ": FCL demo is reference-only, not an archived Dart source")
+            else:
+                if (evidence.get("capture_mode") != "ARCHIVED_ORIGINAL_TSX_ISOLATED_RENDER"
+                        or evidence.get("original_archive_path") != c.get("archive_path")
+                        or evidence.get("source_blob_sha") != c.get("source_blob_sha")
+                        or c.get("archive_state") != "ARCHIVED_SOURCE"):
+                    raise ValueError(cid + ": DevLibraries TSX screenshot source not verified")
+        if valid and c["source_site"] not in {"RUIXEN", "UIVERSE", "FLUTTER_FORUI", "GENTLEFACE",
+                "FLUTTER_COMPONENT_LIBRARY", "DEVLIBRARIES_AMICRO",
+                "DEVLIBRARIES_BOOKMARKS", "DEVLIBRARIES_EASEUI", "DEVLIBRARIES_WATERMELON"}:
             raise ValueError("unregistered image provider: " + cid)
         if valid:
             out[cid] = {
                 "image_path": "docs/assets/componenti/" + cid + ".png",
-                "status": ("CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED" if c["source_site"] == "RUIXEN" else "CAPTURED_ORIGINAL_DEMO_UNREVIEWED" if c["source_site"] == "FLUTTER_FORUI" else "CAPTURED_LOCAL_HTML_UNREVIEWED"),
-                "origin_type": ("PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO" if c["source_site"] == "RUIXEN" else "LIVE_ORIGINAL_FLUTTER_DEMO" if c["source_site"] == "FLUTTER_FORUI" else "ARCHIVED_HTML_CSS"),
+                "status": ("CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED" if c["source_site"] == "RUIXEN" else "CAPTURED_ORIGINAL_DEMO_UNREVIEWED" if c["source_site"] == "FLUTTER_FORUI" else "CAPTURED_OFFICIAL_ICON_UNREVIEWED" if c["source_site"] == "GENTLEFACE" else "CAPTURED_PUBLIC_DEMO_REFERENCE_UNREVIEWED" if c["source_site"] == "FLUTTER_COMPONENT_LIBRARY" else "CAPTURED_ARCHIVED_TSX_UNREVIEWED" if c["source_site"].startswith("DEVLIBRARIES_") else "CAPTURED_LOCAL_HTML_UNREVIEWED"),
+                "origin_type": ("PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO" if c["source_site"] == "RUIXEN" else "LIVE_ORIGINAL_FLUTTER_DEMO" if c["source_site"] == "FLUTTER_FORUI" else "OFFICIAL_GENTLEFACE_MIT_ICON" if c["source_site"] == "GENTLEFACE" else "PUBLIC_FLUTTER_WEB_DEMO_REFERENCE_ONLY" if c["source_site"] == "FLUTTER_COMPONENT_LIBRARY" else "ARCHIVED_DEVELOPERS_TSX_RENDER" if c["source_site"].startswith("DEVLIBRARIES_") else "ARCHIVED_HTML_CSS"),
                 "image_evidence": ("Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
                                    if c["source_site"] == "RUIXEN" else
                                    "Authentic Forui demo, provenance in ANTEPRIME_ORIGINI_FORUI.json; QA pending"
                                    if c["source_site"] == "FLUTTER_FORUI" else
+                                   "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
+                                   if c["source_site"] == "GENTLEFACE" else
+                                   "Reference-only official Flutter Component Library demo iframe; source license NOT VERIFIED; screenshot QA pending"
+                                   if c["source_site"] == "FLUTTER_COMPONENT_LIBRARY" else
+                                   "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
+                                   if c["source_site"].startswith("DEVLIBRARIES_") else
                                    "rendered from pinned original Uiverse HTML/CSS; screenshot visual QA pending"),
             }
         else:
@@ -141,6 +210,14 @@ def row_markdown(c: dict, image: dict, relative: str) -> str:
         if c.get("archive_path") else "")
     source_cell = href(source_url, c["source_site"]) if source_url else safe(c["source_site"])
     apps = ", ".join(safe(x) for x in c["apps"]) or "Non assegnato"
+    original = (href(relative + "/" + c["archive_path"], "Apri " + c["language"])
+                if c.get("archive_path") else
+                (href(c.get("source_url"), "Solo riferimento") if c.get("source_url") else "Non disponibile"))
+    native = FLUTTER_BY_ID[cid]
+    dart_path = native.get("flutter_code_path")
+    flutter_code = (href(relative + "/" + dart_path, "Dart nativo (gate dipendenze)" if native["flutter_status"] == "NATIVE_DART_DEPENDENCY_GATE" else "Apri codice Flutter (bozza)")
+                    if dart_path else
+                    ("Sorgente non archiviata" if native["flutter_status"] == "SOURCE_NOT_ARCHIVED" else "Da convertire"))
     return "| " + " | ".join([
         cell,
         "<code>" + safe(UID_BY_ID[cid]) + "</code>",
@@ -149,18 +226,21 @@ def row_markdown(c: dict, image: dict, relative: str) -> str:
         source_cell,
         safe(c["category"]),
         apps,
-        "Sorgente archiviata" if c["archive_state"] == "ARCHIVED_SOURCE" else "Solo riferimento",
+        original,
+        flutter_code,
     ]) + " |"
 
 
 def table_head() -> str:
-    return "| Anteprima | UID | ID canonico | Componente | Fonte | Categoria | App associate | Codice |\n" + \
-           "|---|---|---|---|---|---|---|---|\n"
+    return "| Anteprima | UID | ID canonico | Componente | Fonte | Categoria | App associate | Codice originale | Codice Flutter |\n" + \
+           "|---|---|---|---|---|---|---|---|---|\n"
 
 
 def outputs(catalog: dict, manifest: dict) -> dict[Path, str]:
     rows = catalog["components"]
     images = manifest["previews"]
+    if set(FLUTTER_BY_ID) != {c["id"] for c in rows}:
+        raise ValueError("Flutter dual-source registry does not cover every component")
     assigned = defaultdict(list)
     for row in rows:
         for app in row["apps"]:
@@ -174,7 +254,9 @@ def outputs(catalog: dict, manifest: dict) -> dict[Path, str]:
     common = ("Le immagini qui mostrate sono catture documentali, **non** una verifica "
               "di riuso Flutter, compatibilità nativa o licenze degli asset di terzi. "
               "In assenza di una PNG realmente acquisita la cella dichiara "
-              "«Non disponibile» e punta alla fonte originale.\n\n")
+              "«Non disponibile» e punta alla fonte originale. " 
+              "Le colonne Codice originale e Codice Flutter sono INDIPENDENTI; " 
+              "una variante Dart non implica test su app consumer.\n\n")
     summary = [
         f"# Componenti Design-App — tutte le {len(rows)} anteprime\n\n",
         f"**{len(rows)} componenti canonici · {len(catalog['aliases'])} alias · {count_images} immagini archiviate.**\n\n",
@@ -215,7 +297,7 @@ def outputs(catalog: dict, manifest: dict) -> dict[Path, str]:
     # Preserve old deep links for the historical alias.
     result[APPS_DIR / "anna-s-diary.md"] = (
         "# Anna's Diary — alias storico\n\n"
-        "Le associazioni \`anna-s-diary\` e \`annas-diary\` sono "
+        "Le associazioni `anna-s-diary` e `annas-diary` sono "
         "riunite nella [tabella unica di Anna's Diary](./annas-diary.md).\n"
     )
     return result
