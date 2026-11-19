@@ -29,8 +29,8 @@ jobs:
           python-version: "3.12"
       - name: Install isolated image capture dependencies
         run: |
-          python -m pip install "Pillow==11.3.0" "playwright==1.57.0"
-          python -m playwright install --with-deps chromium
+          python -m pip install "Pillow==11.3.0"
+          # Static-only original-image refresh; no browser required.
       - name: Capture pinned original images and true per-component demos
         run: python BIBLIOTECA_COMPONENTI/render_ruixen_previews.py
         # Official static image recovery only; 66 live demo routes already
