@@ -98,6 +98,13 @@ async def main():
                 cid=c["id"]
                 async with semaphore:
                     page=await ctx.new_page()
+                    await page.add_init_script("""window.__sourceErrorStacks=[];
+                    window.addEventListener('error', e => {
+                      window.__sourceErrorStacks.push(String(e.error?.stack || e.message));
+                    });
+                    window.addEventListener('unhandledrejection', e => {
+                      window.__sourceErrorStacks.push(String(e.reason?.stack || e.reason));
+                    });""")
                     errors=[]; console_errors=[]; http_errors=[]; request_errors=[]
                     page.on("pageerror",lambda e:errors.append(str(e)[:2200]))
                     page.on("console",lambda m:console_errors.append(m.text[:230]) if m.type=="error" else None)
@@ -159,7 +166,10 @@ async def main():
                             await page.wait_for_timeout(420)
                             await page.mouse.move(505,295)
                         await page.wait_for_timeout(950)
-                        if errors:raise ValueError("SOURCE_JS_EXCEPTION "+str(errors[:2]))
+                        if errors:
+                            stacks=await page.evaluate("() => (window.__sourceErrorStacks||[]).slice(0,2)")
+                            raise ValueError("SOURCE_JS_EXCEPTION "+str(errors[:2])+
+                                             " BROWSER_STACK "+json.dumps(stacks,ensure_ascii=False))
                         # Vite can broadcast an error from an unrelated UID into
                         # the same browser context. Reject errors in THIS source
                         # or renderer; explicitly log and remove unrelated overlays
@@ -213,7 +223,7 @@ async def main():
                             await target.evaluate("""el => {
                                 el.style.width='410px';
                                 el.style.height='220px';
-                                el.style.background='#ffffff';
+                                el.style.background='#111827';
                             }""")
                         if cid=="RXN-scrub-datetime":
                             # Focus on the two actual interactive rows, not
