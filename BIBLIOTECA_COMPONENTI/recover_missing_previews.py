@@ -71,7 +71,16 @@ def recover_gentleface(rows):
             icon = original_png(original_bytes)
             if icon.getbbox() is None:
                 raise ValueError("transparent/empty PNG")
-            # Contain the original icon in a neutral thumbnail; never alter glyph paths.
+            # Some correct minimalist icons (e.g. pause) cover very few pixels.
+            # Crop only to actual nontransparent source bounds before enlarging;
+            # preserve the glyph pixels, aspect ratio, and official source hash.
+            if cid == "ICO-021":
+                alpha = icon.getchannel("A")
+                bounds = alpha.getbbox()
+                if not bounds:
+                    raise ValueError("official icon has no visible pixels")
+                icon = icon.crop(bounds)
+            icon.thumbnail((48, 48), Image.Resampling.NEAREST)
             icon = icon.resize((96, 96), Image.Resampling.NEAREST)
             canvas = Image.new("RGBA", (112, 112), "#f5f6f9")
             canvas.alpha_composite(icon, (8, 8))
@@ -87,7 +96,7 @@ def recover_gentleface(rows):
                 "origin_asset_url": png_url, "original_asset_sha256": sha256(original_bytes),
                 "origin_provider": "gentleface.com", "source_license": "MIT",
                 "capture_mode": "OFFICIAL_MIT_PNG_CONTAINED",
-                "pixel_transform": "line-round 48px contained 112px neutral canvas; no synthetic glyph",
+                "pixel_transform": "line-round 48px contained; ICO-021 cropped to alpha bounds for legibility; no synthetic glyph",
                 "source_availability": "OFFICIAL_LIVE_NON_COMMIT_PINNED",
                 "visual_qa": "UNREVIEWED", "asset_rights": "MIT_REFERENCE_NO_CONSUMER_BUNDLE",
             }
@@ -194,8 +203,8 @@ async def main():
     by_source = Counter(c["source_site"] for c in missing)
     ruixen = [c for c in missing if c["source_site"] == "RUIXEN"]
     gentle = [c for c in missing if c["source_site"] == "GENTLEFACE"]
-    if len(ruixen) != 67 or len(gentle) != 28 or len(missing) != 158:
-        raise ValueError("Unexpected original missing-preview baseline; investigate instead of altering existing images")
+    if len(missing) > 158 or len(ruixen) > 67 or len(gentle) > 28:
+        raise ValueError("unexpected increase in missing original previews; investigate")
     icons, gf_fail = recover_gentleface(gentle)
     recovered, ru_fail = await recover_ruixen(ruixen)
     ru_new = [c["id"] for c in ruixen if c["id"] in recovered and (IMAGES / (c["id"] + ".png")).exists()]
@@ -203,10 +212,12 @@ async def main():
     REPORT.write_text(json.dumps({
         "catalog_sha_immutable": PINNED,
         "baseline_missing": 158,
+        "round_start_missing": len(missing),
         "baseline_by_source": by_source,
         "new_ruixen": len(ru_new), "new_gentleface": len(gf_new),
         "new_total": len(ru_new) + len(gf_new),
-        "estimated_remaining": 158 - len(ru_new) - len(gf_new),
+        "estimated_remaining": len(missing) - len(ru_new) - len(gf_new),
+        "cumulative_recovered_from_322_baseline": 158 - (len(missing) - len(ru_new) - len(gf_new)),
         "recovered_ruixen_ids": ru_new, "recovered_gentleface_ids": gf_new,
         "ruixen_unresolved": ru_fail, "gentleface_unresolved": gf_fail,
         "other_source_missing": {
@@ -215,7 +226,7 @@ async def main():
         "claim": "Only files actually acquired and hashed count; all images are UNREVIEWED until visual inspection."
     }, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print("RECOVERY_RESULT", len(ru_new), "Ruixen,", len(gf_new),
-          "Gentleface; residual", 158 - len(ru_new) - len(gf_new))
+          "Gentleface; residual", len(missing) - len(ru_new) - len(gf_new))
     for cid, detail in list(ru_fail.items())[:10]:
         print("RUIXEN_BLOCKED", cid, detail[-1] if detail else "no source")
     for cid, detail in list(gf_fail.items())[:10]:
