@@ -260,3 +260,10 @@ Ogni riferimento resta `PROPOSED_ONLY`: prima del riuso servono Product Bible, r
 **UIV-108**: riferimento pixel art che menziona Mario. Non importare personaggi, sprite, identità o marchi Nintendo senza diritti specifici.
 
 [Confronto 97→108](../UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json) · [Analisi tecnica degli 11](../UI-UX/UIVERSE/FAVORITES/ANALISI_REFRESH_11_2026-11-18.json).
+
+
+## DSK-011 — Unslop UI, audit sottrattivo (19/11/2026)
+
+**PROPOSED_ONLY · fonte OSS MIT** [felipebasurto/unslop-ui @ cd891160453f26aaacc569bad96a8d10d595076d](https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d). [Audit e limiti](../sources/UNSLOP_UI_AUDIT_2026-11-19.md) · [matrice di associazione](../UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json).
+
+**Proposta:** Ricette e schede image-first: esaminare badge, aiutanti didascalici e gerarchia; mantenere ingredienti, allergeni e traduzioni corretti. Le U1–U20 sono controlli diagnostici e alias degli AT-01…AT-64, non un nuovo tema. Riutilizzo **ADAPT_NATIVE / SOURCE_REVIEW**; nessun automatismo rimuove elementi, nessun consumer certificato da questo dossier. Product Bible e reference preferite restano prioritarie. Stato visivo/fisico: **NOT_VERIFIED**.
