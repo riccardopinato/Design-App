@@ -49,7 +49,14 @@ export default defineConfig({
   },
   plugins: [pinnedAmicroHook, react(), tailwindcss()],
   resolve: {
-    alias: [{ find: '@', replacement: path.resolve(__dirname, 'src') }, ...originalDeps],
+    alias: [
+      // The archived TSX lives outside renderer/. Force browser render root,
+      // Radix and Motion to import one physical React installation.
+      { find: 'react', replacement: path.resolve(__dirname,'node_modules/react') },
+      { find: 'react-dom', replacement: path.resolve(__dirname,'node_modules/react-dom') },
+      { find: '@', replacement: path.resolve(__dirname, 'src') },
+      ...originalDeps,
+    ],
     dedupe: ['react', 'react-dom', 'react/jsx-runtime', 'react/jsx-dev-runtime'],
   },
   server: {

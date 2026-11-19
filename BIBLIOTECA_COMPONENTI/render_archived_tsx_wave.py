@@ -99,7 +99,7 @@ async def main():
                 async with semaphore:
                     page=await ctx.new_page()
                     errors=[]; console_errors=[]; http_errors=[]; request_errors=[]
-                    page.on("pageerror",lambda e:errors.append(str(e)[:190]))
+                    page.on("pageerror",lambda e:errors.append(str(e)[:2200]))
                     page.on("console",lambda m:console_errors.append(m.text[:230]) if m.type=="error" else None)
                     page.on("response",lambda res:http_errors.append(str(res.status)+" "+res.url[-150:]) if res.status>=400 else None)
                     page.on("requestfailed",lambda req:request_errors.append(req.url[-170:]))
@@ -281,7 +281,7 @@ async def main():
                         if "ERR_CONNECTION_REFUSED" in str(exc):
                             assert_server_alive("connection_refused_"+cid)
                             raise RuntimeError("VITE_INFRASTRUCTURE_CONNECTION_REFUSED "+cid) from exc
-                        failed[cid]=str(exc)[:1100]
+                        failed[cid]=str(exc)[:2500]
                         print("TSX_WAVE_BLOCKED",cid,failed[cid][:180])
                     finally:
                         await page.close()
