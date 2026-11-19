@@ -13,7 +13,7 @@ class RxnAnimatedShinyText extends StatefulWidget {
     this.baseColor = const Color(0xFF777777),
     this.shineColor = const Color(0xFFF6F6F6),
     this.style,
-  }) : assert(shimmerWidth > 0), assert(duration > Duration.zero);
+  }) : assert(shimmerWidth > 0);
 
   final String text;
   final double shimmerWidth;
