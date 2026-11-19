@@ -1,0 +1,2372 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-19",
+  "baseline_sha": "b5ae35f82cb22174b38496978ced49d60a94e457",
+  "baseline_missing": 119,
+  "resolved_to_preview_png": 0,
+  "still_without_preview_png": 119,
+  "result_counts": {
+    "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED": 94,
+    "BLOCKED_SOURCE_NOT_ARCHIVED": 5,
+    "BLOCKED_NO_SOURCE_OR_LICENSE": 4,
+    "BLOCKED_USER_IMAGE_NOT_ATTACHED": 1,
+    "PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED": 15
+  },
+  "provider_counts": {
+    "DEVLIBRARIES_AMICRO": 10,
+    "DEVLIBRARIES_BOOKMARKS": 27,
+    "DEVLIBRARIES_EASEUI": 1,
+    "USER_IMAGE": 1,
+    "FLUTTER_COMPONENT_LIBRARY": 15,
+    "RUIXEN": 56,
+    "DEVLIBRARIES_WATERMELON": 9
+  },
+  "definition_of_resolved": "Captured means only a physical, source-grounded, SHA256-proven PNG. Blocked has a per-UID explicit reason. None are visual-QA or consumer-certified.",
+  "cases": [
+    {
+      "uid": "UID-0001",
+      "canonical_id": "AMX-001",
+      "name": "CurtainReveal",
+      "provider": "DEVLIBRARIES_AMICRO",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-001.tsx",
+      "source_url": "https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/src/components/css-animations/physics/CurtainReveal.tsx",
+      "source_blob_sha": "60ec9f5d9b996301899fc75be9ed4d029fc5ac80",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-001.tsx",
+        "GIT_BLOB_SHA:60ec9f5d9b996301899fc75be9ed4d029fc5ac80"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0002",
+      "canonical_id": "AMX-002",
+      "name": "Cursor Trail",
+      "provider": "DEVLIBRARIES_AMICRO",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-002.tsx",
+      "source_url": "https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/registry/ui/cursor/cursor-trail.tsx",
+      "source_blob_sha": "df9715526996a0ae36731125e12a69807627ad93",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-002.tsx",
+        "GIT_BLOB_SHA:df9715526996a0ae36731125e12a69807627ad93"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0003",
+      "canonical_id": "AMX-003",
+      "name": "Perspective Flip",
+      "provider": "DEVLIBRARIES_AMICRO",
+      "result": "BLOCKED_SOURCE_NOT_ARCHIVED",
+      "reason": "Pagina di riferimento nota, ma sorgente originale/asset esatto non archiviato: vietato inventare screenshot",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": "https://devlibraries.com/libraries/amicro/perspective-flip",
+      "source_blob_sha": null,
+      "license_state": "MIT_REPO_REFERENCE",
+      "capture_mode": null,
+      "evidence_refs": [
+        "https://devlibraries.com/libraries/amicro/perspective-flip"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0004",
+      "canonical_id": "AMX-004",
+      "name": "Scroll Reveal",
+      "provider": "DEVLIBRARIES_AMICRO",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-004.tsx",
+      "source_url": "https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/registry/ui/scroll/scroll-reveal.tsx",
+      "source_blob_sha": "548a9ddff684ed94574f537a24820d5871e419d8",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-004.tsx",
+        "GIT_BLOB_SHA:548a9ddff684ed94574f537a24820d5871e419d8"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0005",
+      "canonical_id": "AMX-005",
+      "name": "Spatial Door Portal",
+      "provider": "DEVLIBRARIES_AMICRO",
+      "result": "BLOCKED_SOURCE_NOT_ARCHIVED",
+      "reason": "Pagina di riferimento nota, ma sorgente originale/asset esatto non archiviato: vietato inventare screenshot",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": "https://devlibraries.com/libraries/amicro/spatial-door-portal",
+      "source_blob_sha": null,
+      "license_state": "MIT_REPO_REFERENCE",
+      "capture_mode": null,
+      "evidence_refs": [
+        "https://devlibraries.com/libraries/amicro/spatial-door-portal"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0006",
+      "canonical_id": "AMX-006",
+      "name": "Accordion Loader",
+      "provider": "DEVLIBRARIES_AMICRO",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-006.tsx",
+      "source_url": "https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/registry/ui/loading/accordion-loader.tsx",
+      "source_blob_sha": "de8a6b9ded9d668daf5da92e8eee829f4c18e1f3",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-006.tsx",
+        "GIT_BLOB_SHA:de8a6b9ded9d668daf5da92e8eee829f4c18e1f3"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0007",
+      "canonical_id": "DBM-002",
+      "name": "Classic Spinner",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-002.tsx",
+      "source_url": null,
+      "source_blob_sha": "e221a9d1e1a52df3435e35d846f119fe96974a47",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-002.tsx",
+        "GIT_BLOB_SHA:e221a9d1e1a52df3435e35d846f119fe96974a47"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0008",
+      "canonical_id": "DBM-003",
+      "name": "Pulsating Dots",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-003.tsx",
+      "source_url": null,
+      "source_blob_sha": "12624c06f50b2c7d7f4c8e4a1add7b21b310d6cc",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-003.tsx",
+        "GIT_BLOB_SHA:12624c06f50b2c7d7f4c8e4a1add7b21b310d6cc"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0009",
+      "canonical_id": "DBM-004",
+      "name": "App Icon Load",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-004.tsx",
+      "source_url": null,
+      "source_blob_sha": "d1cb3a70580816ba6f577a69d0e0b701fa559d93",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-004.tsx",
+        "GIT_BLOB_SHA:d1cb3a70580816ba6f577a69d0e0b701fa559d93"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0010",
+      "canonical_id": "DBM-005",
+      "name": "Face Id Scan",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-005.tsx",
+      "source_url": null,
+      "source_blob_sha": "904a6fa68f1e2c25de55678d1fd6239b8eac79f7",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-005.tsx",
+        "GIT_BLOB_SHA:904a6fa68f1e2c25de55678d1fd6239b8eac79f7"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0011",
+      "canonical_id": "DBM-006",
+      "name": "Stacked Bar Pulse",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-006.tsx",
+      "source_url": null,
+      "source_blob_sha": "5875051493813d1b81036b37030f0efa74e76380",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-006.tsx",
+        "GIT_BLOB_SHA:5875051493813d1b81036b37030f0efa74e76380"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0012",
+      "canonical_id": "DBM-007",
+      "name": "Apple Breathe",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-007.tsx",
+      "source_url": null,
+      "source_blob_sha": "d9cebebcccdb9c6d6964d73021016c4d5931d239",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-007.tsx",
+        "GIT_BLOB_SHA:d9cebebcccdb9c6d6964d73021016c4d5931d239"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0013",
+      "canonical_id": "DBM-008",
+      "name": "Fade Arc",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-008.tsx",
+      "source_url": null,
+      "source_blob_sha": "4af5bd75a18e26285cc66b1679219c1ddec44391",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-008.tsx",
+        "GIT_BLOB_SHA:4af5bd75a18e26285cc66b1679219c1ddec44391"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0014",
+      "canonical_id": "DBM-009",
+      "name": "Terminal Loader",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-009.tsx",
+      "source_url": null,
+      "source_blob_sha": "af52c21353ab5e535301f4ac5aad523c0e4ebc2b",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-009.tsx",
+        "GIT_BLOB_SHA:af52c21353ab5e535301f4ac5aad523c0e4ebc2b"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0015",
+      "canonical_id": "DBM-010",
+      "name": "Apple Pulse Dots",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-010.tsx",
+      "source_url": null,
+      "source_blob_sha": "d3be31f88d039b28d5105cb4c8770b3672792eb8",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-010.tsx",
+        "GIT_BLOB_SHA:d3be31f88d039b28d5105cb4c8770b3672792eb8"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0016",
+      "canonical_id": "DBM-011",
+      "name": "Morph Loader",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-011.tsx",
+      "source_url": null,
+      "source_blob_sha": "d03e38b668a9a9d74e8ee73b4ba29c6adfa79d45",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-011.tsx",
+        "GIT_BLOB_SHA:d03e38b668a9a9d74e8ee73b4ba29c6adfa79d45"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0017",
+      "canonical_id": "DBM-012",
+      "name": "Grid Dots",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-012.tsx",
+      "source_url": null,
+      "source_blob_sha": "43bce304cf8fb4806d5bf159550faa0c1c081084",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-012.tsx",
+        "GIT_BLOB_SHA:43bce304cf8fb4806d5bf159550faa0c1c081084"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0018",
+      "canonical_id": "DBM-013",
+      "name": "Clock Spinner",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-013.tsx",
+      "source_url": null,
+      "source_blob_sha": "e8f77893a5b31a0430fd194ff1647301f083f428",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-013.tsx",
+        "GIT_BLOB_SHA:e8f77893a5b31a0430fd194ff1647301f083f428"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0019",
+      "canonical_id": "DBM-014",
+      "name": "Circular Bars",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-014.tsx",
+      "source_url": null,
+      "source_blob_sha": "d23075b3e2eb76062aae1ee19bae0849675d6f7a",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-014.tsx",
+        "GIT_BLOB_SHA:d23075b3e2eb76062aae1ee19bae0849675d6f7a"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0020",
+      "canonical_id": "DBM-015",
+      "name": "Intersecting Rings",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-015.tsx",
+      "source_url": null,
+      "source_blob_sha": "e0f2653579c356c8e2643ead34ac11f43604fac6",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-015.tsx",
+        "GIT_BLOB_SHA:e0f2653579c356c8e2643ead34ac11f43604fac6"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0021",
+      "canonical_id": "DBM-016",
+      "name": "Skeleton",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-016.tsx",
+      "source_url": null,
+      "source_blob_sha": "30c7693ad4c7234d7ce1fdcebac4befdc3dc69a6",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-016.tsx",
+        "GIT_BLOB_SHA:30c7693ad4c7234d7ce1fdcebac4befdc3dc69a6"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0022",
+      "canonical_id": "DBM-017",
+      "name": "Concentric Ring",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-017.tsx",
+      "source_url": null,
+      "source_blob_sha": "7f393e97566e1652c8ffe636bbd17d60126414ad",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-017.tsx",
+        "GIT_BLOB_SHA:7f393e97566e1652c8ffe636bbd17d60126414ad"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0023",
+      "canonical_id": "DBM-019",
+      "name": "Bar Cascade",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-019.tsx",
+      "source_url": null,
+      "source_blob_sha": "f18c04d313156c04dbda494683a73d9f63fca1fc",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-019.tsx",
+        "GIT_BLOB_SHA:f18c04d313156c04dbda494683a73d9f63fca1fc"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0024",
+      "canonical_id": "DBM-020",
+      "name": "Concentric Squares",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-020.tsx",
+      "source_url": null,
+      "source_blob_sha": "52325442177fb21feeec6ab6fa2b056ada917531",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-020.tsx",
+        "GIT_BLOB_SHA:52325442177fb21feeec6ab6fa2b056ada917531"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0025",
+      "canonical_id": "DBM-022",
+      "name": "Bar Sweep",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-022.tsx",
+      "source_url": null,
+      "source_blob_sha": "3240f06f5f78963504408e8122de5daf3096f34b",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-022.tsx",
+        "GIT_BLOB_SHA:3240f06f5f78963504408e8122de5daf3096f34b"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0026",
+      "canonical_id": "DBM-023",
+      "name": "Conveyor Loop",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-023.tsx",
+      "source_url": null,
+      "source_blob_sha": "417e9ed63b821da609ed812d313ea855a6026a55",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-023.tsx",
+        "GIT_BLOB_SHA:417e9ed63b821da609ed812d313ea855a6026a55"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0027",
+      "canonical_id": "DBM-024",
+      "name": "View On Map",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/dbm-024.tsx",
+      "source_url": null,
+      "source_blob_sha": "c097731af49aa75b07fb11cb45ab40f794ffa5c9",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/dbm-024.tsx",
+        "GIT_BLOB_SHA:c097731af49aa75b07fb11cb45ab40f794ffa5c9"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0028",
+      "canonical_id": "DBM-025",
+      "name": "Bouncing Lines",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-025.tsx",
+      "source_url": null,
+      "source_blob_sha": "59e67b5c5e974ab882a02eab34213508809519a4",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-025.tsx",
+        "GIT_BLOB_SHA:59e67b5c5e974ab882a02eab34213508809519a4"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0029",
+      "canonical_id": "DBM-026",
+      "name": "Newtons Cradle",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-026.tsx",
+      "source_url": null,
+      "source_blob_sha": "4b17e79706d48a4792098cf922f6628c8e5ed114",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-026.tsx",
+        "GIT_BLOB_SHA:4b17e79706d48a4792098cf922f6628c8e5ed114"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0030",
+      "canonical_id": "DBM-027",
+      "name": "Helix Spinner",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "BLOCKED_NO_SOURCE_OR_LICENSE",
+      "reason": "Né file originale archiviato né URL e diritti verificabili nel catalogo",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": null,
+      "source_blob_sha": null,
+      "license_state": "LICENSE_NOT_VERIFIED",
+      "capture_mode": null,
+      "evidence_refs": [],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0031",
+      "canonical_id": "DBM-028",
+      "name": "Loader",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "BLOCKED_NO_SOURCE_OR_LICENSE",
+      "reason": "Né file originale archiviato né URL e diritti verificabili nel catalogo",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": null,
+      "source_blob_sha": null,
+      "license_state": "LICENSE_NOT_VERIFIED",
+      "capture_mode": null,
+      "evidence_refs": [],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0032",
+      "canonical_id": "DBM-029",
+      "name": "Particle Shape Morph",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "BLOCKED_NO_SOURCE_OR_LICENSE",
+      "reason": "Né file originale archiviato né URL e diritti verificabili nel catalogo",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": null,
+      "source_blob_sha": null,
+      "license_state": "LICENSE_NOT_VERIFIED",
+      "capture_mode": null,
+      "evidence_refs": [],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0033",
+      "canonical_id": "DBM-030",
+      "name": "Infinite Spiral",
+      "provider": "DEVLIBRARIES_BOOKMARKS",
+      "result": "BLOCKED_NO_SOURCE_OR_LICENSE",
+      "reason": "Né file originale archiviato né URL e diritti verificabili nel catalogo",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": null,
+      "source_blob_sha": null,
+      "license_state": "LICENSE_NOT_VERIFIED",
+      "capture_mode": null,
+      "evidence_refs": [],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0034",
+      "canonical_id": "DSP-001",
+      "name": "EaseUI Theme Toggle",
+      "provider": "DEVLIBRARIES_EASEUI",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/easeui/dsp-001.tsx",
+      "source_url": "https://devlibraries.com/libraries/easeui",
+      "source_blob_sha": "69d6711aa860b3784fa5a27f3dcad925baa333ed",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/easeui/dsp-001.tsx",
+        "GIT_BLOB_SHA:69d6711aa860b3784fa5a27f3dcad925baa333ed"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0035",
+      "canonical_id": "DSP-002",
+      "name": "Card Stack Peel",
+      "provider": "DEVLIBRARIES_AMICRO",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dsp-002.tsx",
+      "source_url": "https://devlibraries.com/libraries/amicro/card-stack-peel",
+      "source_blob_sha": "012685b393beaa846136e155b38016c63cd4f122",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dsp-002.tsx",
+        "GIT_BLOB_SHA:012685b393beaa846136e155b38016c63cd4f122"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0036",
+      "canonical_id": "DSP-003",
+      "name": "Accordion Blind Pull",
+      "provider": "DEVLIBRARIES_AMICRO",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dsp-003.tsx",
+      "source_url": "https://devlibraries.com/libraries/amicro",
+      "source_blob_sha": "18e083c97e6ef82f49b86e7538623a4d347b79b8",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dsp-003.tsx",
+        "GIT_BLOB_SHA:18e083c97e6ef82f49b86e7538623a4d347b79b8"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0037",
+      "canonical_id": "DSP-004",
+      "name": "Interlocking Gear Step",
+      "provider": "DEVLIBRARIES_AMICRO",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dsp-004.tsx",
+      "source_url": "https://devlibraries.com/libraries/amicro",
+      "source_blob_sha": "6c93dcbb1857d3b7e0579c9ea96eaa1f5af92bc6",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dsp-004.tsx",
+        "GIT_BLOB_SHA:6c93dcbb1857d3b7e0579c9ea96eaa1f5af92bc6"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0038",
+      "canonical_id": "DSP-005",
+      "name": "Shutter Step Slices",
+      "provider": "DEVLIBRARIES_AMICRO",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dsp-005.tsx",
+      "source_url": "https://devlibraries.com/libraries/amicro",
+      "source_blob_sha": "a266bc0021a4c9f400f81328356cc6f5a2a18812",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dsp-005.tsx",
+        "GIT_BLOB_SHA:a266bc0021a4c9f400f81328356cc6f5a2a18812"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0039",
+      "canonical_id": "DSP-006",
+      "name": "Loading & Waiting Visual References (user screenshot)",
+      "provider": "USER_IMAGE",
+      "result": "BLOCKED_USER_IMAGE_NOT_ATTACHED",
+      "reason": "Riferimento a immagine personale privo di file nel repository: occorre l'originale dell'utente",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": null,
+      "source_blob_sha": null,
+      "license_state": "PERSONAL_REFERENCE_ONLY",
+      "capture_mode": null,
+      "evidence_refs": [],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0040",
+      "canonical_id": "FCL-001",
+      "name": "Docking Bar",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "result": "PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED",
+      "reason": "Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": "https://fluttercomponentlibrary.com/pages/components/docking-bar.html",
+      "source_blob_sha": null,
+      "license_state": "NOT_VERIFIED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "https://fluttercomponentlibrary.com/pages/components/docking-bar.html"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0041",
+      "canonical_id": "FCL-002",
+      "name": "Custom Buttons",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "result": "PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED",
+      "reason": "Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": "https://fluttercomponentlibrary.com/pages/components/custom-buttons.html",
+      "source_blob_sha": null,
+      "license_state": "NOT_VERIFIED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "https://fluttercomponentlibrary.com/pages/components/custom-buttons.html"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0042",
+      "canonical_id": "FCL-003",
+      "name": "Filter Button",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "result": "PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED",
+      "reason": "Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": "https://fluttercomponentlibrary.com/pages/components/filter-button.html",
+      "source_blob_sha": null,
+      "license_state": "NOT_VERIFIED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "https://fluttercomponentlibrary.com/pages/components/filter-button.html"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0043",
+      "canonical_id": "FCL-004",
+      "name": "Banner Info",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "result": "PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED",
+      "reason": "Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": "https://fluttercomponentlibrary.com/pages/components/banner-info.html",
+      "source_blob_sha": null,
+      "license_state": "NOT_VERIFIED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "https://fluttercomponentlibrary.com/pages/components/banner-info.html"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0044",
+      "canonical_id": "FCL-005",
+      "name": "Bottom Sheet",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "result": "PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED",
+      "reason": "Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": "https://fluttercomponentlibrary.com/pages/components/bottom-sheet.html",
+      "source_blob_sha": null,
+      "license_state": "NOT_VERIFIED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "https://fluttercomponentlibrary.com/pages/components/bottom-sheet.html"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0045",
+      "canonical_id": "FCL-006",
+      "name": "Book Shelf",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "result": "PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED",
+      "reason": "Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": "https://fluttercomponentlibrary.com/pages/components/book-shelf.html",
+      "source_blob_sha": null,
+      "license_state": "NOT_VERIFIED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "https://fluttercomponentlibrary.com/pages/components/book-shelf.html"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0046",
+      "canonical_id": "FCL-007",
+      "name": "Slide To Act",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "result": "PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED",
+      "reason": "Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": "https://fluttercomponentlibrary.com/pages/components/slide-to-act.html",
+      "source_blob_sha": null,
+      "license_state": "NOT_VERIFIED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "https://fluttercomponentlibrary.com/pages/components/slide-to-act.html"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0047",
+      "canonical_id": "FCL-008",
+      "name": "FAQ Widget",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "result": "PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED",
+      "reason": "Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": "https://fluttercomponentlibrary.com/pages/components/faq-widget.html",
+      "source_blob_sha": null,
+      "license_state": "NOT_VERIFIED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "https://fluttercomponentlibrary.com/pages/components/faq-widget.html"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0048",
+      "canonical_id": "FCL-009",
+      "name": "Stepper",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "result": "PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED",
+      "reason": "Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": "https://fluttercomponentlibrary.com/pages/components/stepper.html",
+      "source_blob_sha": null,
+      "license_state": "NOT_VERIFIED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "https://fluttercomponentlibrary.com/pages/components/stepper.html"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0049",
+      "canonical_id": "FCL-010",
+      "name": "Slider",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "result": "PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED",
+      "reason": "Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": "https://fluttercomponentlibrary.com/pages/components/slider.html",
+      "source_blob_sha": null,
+      "license_state": "NOT_VERIFIED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "https://fluttercomponentlibrary.com/pages/components/slider.html"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0050",
+      "canonical_id": "FCL-011",
+      "name": "Plan Card",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "result": "PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED",
+      "reason": "Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": "https://fluttercomponentlibrary.com/pages/components/plan-card.html",
+      "source_blob_sha": null,
+      "license_state": "NOT_VERIFIED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "https://fluttercomponentlibrary.com/pages/components/plan-card.html"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0051",
+      "canonical_id": "FCL-012",
+      "name": "Scratcher",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "result": "PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED",
+      "reason": "Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": "https://fluttercomponentlibrary.com/pages/components/scratcher.html",
+      "source_blob_sha": null,
+      "license_state": "NOT_VERIFIED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "https://fluttercomponentlibrary.com/pages/components/scratcher.html"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0052",
+      "canonical_id": "FCL-013",
+      "name": "Page Flipper",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "result": "PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED",
+      "reason": "Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": "https://fluttercomponentlibrary.com/pages/components/page-flipper.html",
+      "source_blob_sha": null,
+      "license_state": "NOT_VERIFIED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "https://fluttercomponentlibrary.com/pages/components/page-flipper.html"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0053",
+      "canonical_id": "FCL-014",
+      "name": "Drawer",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "result": "PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED",
+      "reason": "Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": "https://fluttercomponentlibrary.com/pages/components/drawer.html",
+      "source_blob_sha": null,
+      "license_state": "NOT_VERIFIED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "https://fluttercomponentlibrary.com/pages/components/drawer.html"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0054",
+      "canonical_id": "FCL-015",
+      "name": "Draggable FAB",
+      "provider": "FLUTTER_COMPONENT_LIBRARY",
+      "result": "PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED",
+      "reason": "Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": "https://fluttercomponentlibrary.com/pages/components/draggable-fab.html",
+      "source_blob_sha": null,
+      "license_state": "NOT_VERIFIED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "https://fluttercomponentlibrary.com/pages/components/draggable-fab.html"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0090",
+      "canonical_id": "RXN-animated-beam",
+      "name": "animated beam",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-beam.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-beam.tsx",
+      "source_blob_sha": "4dd04a7083c0f01797fc2ca6a095e00b2162bbc0",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-beam.tsx",
+        "GIT_BLOB_SHA:4dd04a7083c0f01797fc2ca6a095e00b2162bbc0"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0091",
+      "canonical_id": "RXN-animated-circular-progress-bar",
+      "name": "animated circular progress bar",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-circular-progress-bar.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-circular-progress-bar.tsx",
+      "source_blob_sha": "5a633477c432e5a04a23a597c2254e0180550210",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-circular-progress-bar.tsx",
+        "GIT_BLOB_SHA:5a633477c432e5a04a23a597c2254e0180550210"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0092",
+      "canonical_id": "RXN-animated-gradient-text",
+      "name": "animated gradient text",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-gradient-text.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-gradient-text.tsx",
+      "source_blob_sha": "22a756980b2811ef65ab6926472e4e2067228d0a",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-gradient-text.tsx",
+        "GIT_BLOB_SHA:22a756980b2811ef65ab6926472e4e2067228d0a"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0093",
+      "canonical_id": "RXN-animated-grid-pattern",
+      "name": "animated grid pattern",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-grid-pattern.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-grid-pattern.tsx",
+      "source_blob_sha": "14cf70d08dc25a13542a08f06f06447958b6aff5",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-grid-pattern.tsx",
+        "GIT_BLOB_SHA:14cf70d08dc25a13542a08f06f06447958b6aff5"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0096",
+      "canonical_id": "RXN-animated-list",
+      "name": "animated list",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-list.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-list.tsx",
+      "source_blob_sha": "872365ba2638254747c867dbd08386c0cdefa1d4",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-list.tsx",
+        "GIT_BLOB_SHA:872365ba2638254747c867dbd08386c0cdefa1d4"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0098",
+      "canonical_id": "RXN-animated-shiny-text",
+      "name": "animated shiny text",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-shiny-text.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-shiny-text.tsx",
+      "source_blob_sha": "7a8506bae78e0e013182b41eba7b67f5356f869c",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-shiny-text.tsx",
+        "GIT_BLOB_SHA:7a8506bae78e0e013182b41eba7b67f5356f869c"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0099",
+      "canonical_id": "RXN-animated-subscribe-button",
+      "name": "animated subscribe button",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-subscribe-button.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-subscribe-button.tsx",
+      "source_blob_sha": "7f41a095ad3588cb5a85d8b811148db84194b0af",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-subscribe-button.tsx",
+        "GIT_BLOB_SHA:7f41a095ad3588cb5a85d8b811148db84194b0af"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0103",
+      "canonical_id": "RXN-arc-timeline",
+      "name": "arc timeline",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/arc-timeline.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/arc-timeline.tsx",
+      "source_blob_sha": "a7ca958a55c19643df39d1e66fd694979b02a6df",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/arc-timeline.tsx",
+        "GIT_BLOB_SHA:a7ca958a55c19643df39d1e66fd694979b02a6df"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0104",
+      "canonical_id": "RXN-aurora-text",
+      "name": "aurora text",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/aurora-text.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/aurora-text.tsx",
+      "source_blob_sha": "4b379636e20219c43d035d56b05fdca526a5e872",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/aurora-text.tsx",
+        "GIT_BLOB_SHA:4b379636e20219c43d035d56b05fdca526a5e872"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0107",
+      "canonical_id": "RXN-avatar-circles",
+      "name": "avatar circles",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/avatar-circles.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/avatar-circles.tsx",
+      "source_blob_sha": "ac1da3537b4a02aef385ce76ba6b42b2057ea4cc",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/avatar-circles.tsx",
+        "GIT_BLOB_SHA:ac1da3537b4a02aef385ce76ba6b42b2057ea4cc"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0117",
+      "canonical_id": "RXN-behavioral-history-select",
+      "name": "behavioral history select",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/behavioral-history-select.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/behavioral-history-select.tsx",
+      "source_blob_sha": "47460a058d4906c45e5d96ef0567c31b8c186037",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/behavioral-history-select.tsx",
+        "GIT_BLOB_SHA:47460a058d4906c45e5d96ef0567c31b8c186037"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0119",
+      "canonical_id": "RXN-blur-fade",
+      "name": "blur fade",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/blur-fade.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/blur-fade.tsx",
+      "source_blob_sha": "5f83fc5b60d2e2541956da96f10639f739e734d3",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/blur-fade.tsx",
+        "GIT_BLOB_SHA:5f83fc5b60d2e2541956da96f10639f739e734d3"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0122",
+      "canonical_id": "RXN-box-reveal",
+      "name": "box reveal",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/box-reveal.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/box-reveal.tsx",
+      "source_blob_sha": "9f9bcdee474fcf34aff97710910db6cad9467922",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/box-reveal.tsx",
+        "GIT_BLOB_SHA:9f9bcdee474fcf34aff97710910db6cad9467922"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0138",
+      "canonical_id": "RXN-carousel-3d-select",
+      "name": "carousel 3d select",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/carousel-3d-select.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/carousel-3d-select.tsx",
+      "source_blob_sha": "c7763457ef5c2216435a98b912282b6ebf93092c",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/carousel-3d-select.tsx",
+        "GIT_BLOB_SHA:c7763457ef5c2216435a98b912282b6ebf93092c"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0155",
+      "canonical_id": "RXN-code-comparison",
+      "name": "code comparison",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/code-comparison.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/code-comparison.tsx",
+      "source_blob_sha": "138c96bc910ca6d1925ed6b1886a28bcaffc386d",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/code-comparison.tsx",
+        "GIT_BLOB_SHA:138c96bc910ca6d1925ed6b1886a28bcaffc386d"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0158",
+      "canonical_id": "RXN-comic-text",
+      "name": "comic text",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/comic-text.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/comic-text.tsx",
+      "source_blob_sha": "01e4554c45ed476673a3304dd3e0e52ba273c8a5",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/comic-text.tsx",
+        "GIT_BLOB_SHA:01e4554c45ed476673a3304dd3e0e52ba273c8a5"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0159",
+      "canonical_id": "RXN-command-deck",
+      "name": "command deck",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/command-deck.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/command-deck.tsx",
+      "source_blob_sha": "cde89df48878c8b0e4371598d863fb08d869d9c2",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/command-deck.tsx",
+        "GIT_BLOB_SHA:cde89df48878c8b0e4371598d863fb08d869d9c2"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0163",
+      "canonical_id": "RXN-cool-mode",
+      "name": "cool mode",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/cool-mode.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/cool-mode.tsx",
+      "source_blob_sha": "53eb117b692504b75501c3afd0f37207d0c7bd97",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/cool-mode.tsx",
+        "GIT_BLOB_SHA:53eb117b692504b75501c3afd0f37207d0c7bd97"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0170",
+      "canonical_id": "RXN-dot-pattern",
+      "name": "dot pattern",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/dot-pattern.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/dot-pattern.tsx",
+      "source_blob_sha": "f115a134017a8cbb29bd6c4cab9548bd688932d5",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/dot-pattern.tsx",
+        "GIT_BLOB_SHA:f115a134017a8cbb29bd6c4cab9548bd688932d5"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0183",
+      "canonical_id": "RXN-file-tree",
+      "name": "file tree",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/file-tree.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/file-tree.tsx",
+      "source_blob_sha": "a6fe3bf54e53be4170352023385e49863d8b4b74",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/file-tree.tsx",
+        "GIT_BLOB_SHA:a6fe3bf54e53be4170352023385e49863d8b4b74"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0185",
+      "canonical_id": "RXN-flash-sale-banner",
+      "name": "flash sale banner",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/flash-sale-banner.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/flash-sale-banner.tsx",
+      "source_blob_sha": "31ad921595967ad5fd4c54b13b6a456bdd2f8515",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/flash-sale-banner.tsx",
+        "GIT_BLOB_SHA:31ad921595967ad5fd4c54b13b6a456bdd2f8515"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0186",
+      "canonical_id": "RXN-flickering-grid",
+      "name": "flickering grid",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/flickering-grid.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/flickering-grid.tsx",
+      "source_blob_sha": "f303d4d48284b4327264640e40cf9b0e9fc3d85f",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/flickering-grid.tsx",
+        "GIT_BLOB_SHA:f303d4d48284b4327264640e40cf9b0e9fc3d85f"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0199",
+      "canonical_id": "RXN-glow-tree",
+      "name": "glow tree",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glow-tree.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/glow-tree.tsx",
+      "source_blob_sha": "d0bfa85e8e91e70867e8b4ef8970af4a39cefd23",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glow-tree.tsx",
+        "GIT_BLOB_SHA:d0bfa85e8e91e70867e8b4ef8970af4a39cefd23"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0200",
+      "canonical_id": "RXN-glowing-send-input",
+      "name": "glowing send input",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/glowing-send-input.tsx",
+      "source_blob_sha": "a7a0d3dd2785d9a708a5d8a654637547af2fa235",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx",
+        "GIT_BLOB_SHA:a7a0d3dd2785d9a708a5d8a654637547af2fa235"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0205",
+      "canonical_id": "RXN-gradient-reveal-text",
+      "name": "gradient reveal text",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/gradient-reveal-text.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/gradient-reveal-text.tsx",
+      "source_blob_sha": "c3363afd8a603d0a702e8556404db118fd234c2f",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/gradient-reveal-text.tsx",
+        "GIT_BLOB_SHA:c3363afd8a603d0a702e8556404db118fd234c2f"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0215",
+      "canonical_id": "RXN-hyper-text",
+      "name": "hyper text",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/hyper-text.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/hyper-text.tsx",
+      "source_blob_sha": "0b4ee73e847718a282e7cf4a8268277695ecab59",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/hyper-text.tsx",
+        "GIT_BLOB_SHA:0b4ee73e847718a282e7cf4a8268277695ecab59"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0216",
+      "canonical_id": "RXN-icon-cloud",
+      "name": "icon cloud",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/icon-cloud.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/icon-cloud.tsx",
+      "source_blob_sha": "1e9ffc2e503e43aac8632af73199198ddd5eb8d5",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/icon-cloud.tsx",
+        "GIT_BLOB_SHA:1e9ffc2e503e43aac8632af73199198ddd5eb8d5"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0224",
+      "canonical_id": "RXN-interactive-grid-pattern",
+      "name": "interactive grid pattern",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/interactive-grid-pattern.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/interactive-grid-pattern.tsx",
+      "source_blob_sha": "bab1ce94f32e44db42842972ae98672b5c92bce6",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/interactive-grid-pattern.tsx",
+        "GIT_BLOB_SHA:bab1ce94f32e44db42842972ae98672b5c92bce6"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0227",
+      "canonical_id": "RXN-iphone-15-pro",
+      "name": "iphone 15 pro",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/iphone-15-pro.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/iphone-15-pro.tsx",
+      "source_blob_sha": "a552215c26ed3fba66a33aacfb7030cc1cfc7560",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/iphone-15-pro.tsx",
+        "GIT_BLOB_SHA:a552215c26ed3fba66a33aacfb7030cc1cfc7560"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0228",
+      "canonical_id": "RXN-line-shadow-text",
+      "name": "line shadow text",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/line-shadow-text.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/line-shadow-text.tsx",
+      "source_blob_sha": "179d805e13b26576122e1361bcc69dd078c0c3ff",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/line-shadow-text.tsx",
+        "GIT_BLOB_SHA:179d805e13b26576122e1361bcc69dd078c0c3ff"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0229",
+      "canonical_id": "RXN-linear-mask",
+      "name": "linear mask",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/linear-mask.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/linear-mask.tsx",
+      "source_blob_sha": "8f3906ab29b9e8e97c92e58d9727b971ed23a35c",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/linear-mask.tsx",
+        "GIT_BLOB_SHA:8f3906ab29b9e8e97c92e58d9727b971ed23a35c"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0237",
+      "canonical_id": "RXN-mode-toggle",
+      "name": "mode toggle",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/mode-toggle.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/mode-toggle.tsx",
+      "source_blob_sha": "13eac5d1e79df64acf3ad8a39675ae14c632c2bc",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/mode-toggle.tsx",
+        "GIT_BLOB_SHA:13eac5d1e79df64acf3ad8a39675ae14c632c2bc"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0240",
+      "canonical_id": "RXN-morphing-text",
+      "name": "morphing text",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/morphing-text.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/morphing-text.tsx",
+      "source_blob_sha": "00c657b50edd067f40a2ce59cfa6afa930528e6c",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/morphing-text.tsx",
+        "GIT_BLOB_SHA:00c657b50edd067f40a2ce59cfa6afa930528e6c"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0257",
+      "canonical_id": "RXN-neon-gradient-card",
+      "name": "neon gradient card",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/neon-gradient-card.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/neon-gradient-card.tsx",
+      "source_blob_sha": "1a2a76b046319c0b267cdea014f9fea975931c7b",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/neon-gradient-card.tsx",
+        "GIT_BLOB_SHA:1a2a76b046319c0b267cdea014f9fea975931c7b"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0263",
+      "canonical_id": "RXN-number-ticker",
+      "name": "number ticker",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/number-ticker.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/number-ticker.tsx",
+      "source_blob_sha": "1b9bf39bfb523ca512e0db3161bcd03dfe2c5202",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/number-ticker.tsx",
+        "GIT_BLOB_SHA:1b9bf39bfb523ca512e0db3161bcd03dfe2c5202"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0265",
+      "canonical_id": "RXN-package-installer-tabs",
+      "name": "package installer tabs",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/package-installer-tabs.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/package-installer-tabs.tsx",
+      "source_blob_sha": "b224af2bfe0b114de32adf9baa993c2ab297688d",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/package-installer-tabs.tsx",
+        "GIT_BLOB_SHA:b224af2bfe0b114de32adf9baa993c2ab297688d"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0271",
+      "canonical_id": "RXN-pixel-image",
+      "name": "pixel image",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/pixel-image.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/pixel-image.tsx",
+      "source_blob_sha": "d65c9c88b068c3005c0bb036212a485ef677f35a",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/pixel-image.tsx",
+        "GIT_BLOB_SHA:d65c9c88b068c3005c0bb036212a485ef677f35a"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0286",
+      "canonical_id": "RXN-progressive-blur",
+      "name": "progressive blur",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/progressive-blur.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/progressive-blur.tsx",
+      "source_blob_sha": "a4af58f50768c55f0635a58d563d847c1c9532d8",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/progressive-blur.tsx",
+        "GIT_BLOB_SHA:a4af58f50768c55f0635a58d563d847c1c9532d8"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0293",
+      "canonical_id": "RXN-retro-grid",
+      "name": "retro grid",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/retro-grid.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/retro-grid.tsx",
+      "source_blob_sha": "9a72d43527ea11c208123c98ea50a32df3ae3127",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/retro-grid.tsx",
+        "GIT_BLOB_SHA:9a72d43527ea11c208123c98ea50a32df3ae3127"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0300",
+      "canonical_id": "RXN-ruixen-prompt-box",
+      "name": "ruixen prompt box",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/ruixen-prompt-box.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/ruixen-prompt-box.tsx",
+      "source_blob_sha": "66536d96ccae4720761621b47a4a770db2f1a89a",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/ruixen-prompt-box.tsx",
+        "GIT_BLOB_SHA:66536d96ccae4720761621b47a4a770db2f1a89a"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0301",
+      "canonical_id": "RXN-ruixen-query-box",
+      "name": "ruixen query box",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/ruixen-query-box.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/ruixen-query-box.tsx",
+      "source_blob_sha": "2888b79793654557661c7d45efa7a3ff6c5ac36e",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/ruixen-query-box.tsx",
+        "GIT_BLOB_SHA:2888b79793654557661c7d45efa7a3ff6c5ac36e"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0304",
+      "canonical_id": "RXN-scratch-to-reveal",
+      "name": "scratch to reveal",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scratch-to-reveal.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scratch-to-reveal.tsx",
+      "source_blob_sha": "072199580de98d0582ef83899c1afd9dd8f9dc98",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scratch-to-reveal.tsx",
+        "GIT_BLOB_SHA:072199580de98d0582ef83899c1afd9dd8f9dc98"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0305",
+      "canonical_id": "RXN-script-copy-btn",
+      "name": "script copy btn",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/script-copy-btn.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/script-copy-btn.tsx",
+      "source_blob_sha": "da83ded7ab6dd43d4712741e2f0f170dd7a9bd2e",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/script-copy-btn.tsx",
+        "GIT_BLOB_SHA:da83ded7ab6dd43d4712741e2f0f170dd7a9bd2e"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0306",
+      "canonical_id": "RXN-scroll-based-velocity",
+      "name": "scroll based velocity",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scroll-based-velocity.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scroll-based-velocity.tsx",
+      "source_blob_sha": "6ca8c10a93044fa23c04af7e01706461c0c047c5",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scroll-based-velocity.tsx",
+        "GIT_BLOB_SHA:6ca8c10a93044fa23c04af7e01706461c0c047c5"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0312",
+      "canonical_id": "RXN-scroll-progress",
+      "name": "scroll progress",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scroll-progress.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scroll-progress.tsx",
+      "source_blob_sha": "3edfe6fb87fff8b296a20ac56356ef39c6ffb0dd",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scroll-progress.tsx",
+        "GIT_BLOB_SHA:3edfe6fb87fff8b296a20ac56356ef39c6ffb0dd"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0316",
+      "canonical_id": "RXN-scrub-datetime",
+      "name": "scrub datetime",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scrub-datetime.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scrub-datetime.tsx",
+      "source_blob_sha": "6d3722a39a5c956c6b00a75440fbba52f5cf55af",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/scrub-datetime.tsx",
+        "GIT_BLOB_SHA:6d3722a39a5c956c6b00a75440fbba52f5cf55af"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0320",
+      "canonical_id": "RXN-shine-border",
+      "name": "shine border",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/shine-border.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/shine-border.tsx",
+      "source_blob_sha": "45b1c411eff8b323871648d104d748546e7b266b",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/shine-border.tsx",
+        "GIT_BLOB_SHA:45b1c411eff8b323871648d104d748546e7b266b"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0321",
+      "canonical_id": "RXN-shiny-button",
+      "name": "shiny button",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/shiny-button.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/shiny-button.tsx",
+      "source_blob_sha": "ea2dacde13778f6cd71b174e4cce568c73c1c929",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/shiny-button.tsx",
+        "GIT_BLOB_SHA:ea2dacde13778f6cd71b174e4cce568c73c1c929"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0326",
+      "canonical_id": "RXN-smooth-cursor",
+      "name": "smooth cursor",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/smooth-cursor.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/smooth-cursor.tsx",
+      "source_blob_sha": "6e71c800e18204846bad22494d3874c44f12efb0",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/smooth-cursor.tsx",
+        "GIT_BLOB_SHA:6e71c800e18204846bad22494d3874c44f12efb0"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0330",
+      "canonical_id": "RXN-sparkles-text",
+      "name": "sparkles text",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/sparkles-text.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/sparkles-text.tsx",
+      "source_blob_sha": "17b3a364163a0460dc0967f5a922090cad2da21f",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/sparkles-text.tsx",
+        "GIT_BLOB_SHA:17b3a364163a0460dc0967f5a922090cad2da21f"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0341",
+      "canonical_id": "RXN-text-animate",
+      "name": "text animate",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/text-animate.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/text-animate.tsx",
+      "source_blob_sha": "dc988dddb75a608280601d624080cda188c64e69",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/text-animate.tsx",
+        "GIT_BLOB_SHA:dc988dddb75a608280601d624080cda188c64e69"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0342",
+      "canonical_id": "RXN-text-reveal",
+      "name": "text reveal",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/text-reveal.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/text-reveal.tsx",
+      "source_blob_sha": "31127b6046f991697f3652c7706b5cad5d82e3a1",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/text-reveal.tsx",
+        "GIT_BLOB_SHA:31127b6046f991697f3652c7706b5cad5d82e3a1"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0347",
+      "canonical_id": "RXN-typing-animation",
+      "name": "typing animation",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/typing-animation.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/typing-animation.tsx",
+      "source_blob_sha": "1ad55c5ef42fb5acc2caf5e732e2895b07e9f6ba",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/typing-animation.tsx",
+        "GIT_BLOB_SHA:1ad55c5ef42fb5acc2caf5e732e2895b07e9f6ba"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0353",
+      "canonical_id": "RXN-video-text",
+      "name": "video text",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/video-text.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/video-text.tsx",
+      "source_blob_sha": "d30946003124c154a04f065b73a8e64f2d70d720",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/video-text.tsx",
+        "GIT_BLOB_SHA:d30946003124c154a04f065b73a8e64f2d70d720"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0355",
+      "canonical_id": "RXN-warp-background",
+      "name": "warp background",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/warp-background.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/warp-background.tsx",
+      "source_blob_sha": "e9e0dacecec6d0c032c4b179c2f51ab691c06a83",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/warp-background.tsx",
+        "GIT_BLOB_SHA:e9e0dacecec6d0c032c4b179c2f51ab691c06a83"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0358",
+      "canonical_id": "RXN-word-rotate",
+      "name": "word rotate",
+      "provider": "RUIXEN",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/word-rotate.tsx",
+      "source_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/word-rotate.tsx",
+      "source_blob_sha": "17be594e804c831ac73a26803eb7f07a7c0b9441",
+      "license_state": "MIT_SOURCE_PINNED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/word-rotate.tsx",
+        "GIT_BLOB_SHA:17be594e804c831ac73a26803eb7f07a7c0b9441"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0470",
+      "canonical_id": "WML-001",
+      "name": "Carousel Slider",
+      "provider": "DEVLIBRARIES_WATERMELON",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-001.tsx",
+      "source_url": "https://devlibraries.com/libraries/watermelon/carousel-slider",
+      "source_blob_sha": "ccd0d565f1cd15ea44bf449ef7bdbfbc7cd0c25b",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-001.tsx",
+        "GIT_BLOB_SHA:ccd0d565f1cd15ea44bf449ef7bdbfbc7cd0c25b"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0471",
+      "canonical_id": "WML-002",
+      "name": "Fractional Picker",
+      "provider": "DEVLIBRARIES_WATERMELON",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-002.tsx",
+      "source_url": "https://devlibraries.com/libraries/watermelon/fractional-picker",
+      "source_blob_sha": "b967c1465f20eca5d16034c97dcda180bc76def8",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-002.tsx",
+        "GIT_BLOB_SHA:b967c1465f20eca5d16034c97dcda180bc76def8"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0472",
+      "canonical_id": "WML-003",
+      "name": "Scrub Slider (base)",
+      "provider": "DEVLIBRARIES_WATERMELON",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-003.tsx",
+      "source_url": "https://devlibraries.com/libraries/watermelon/scrub-slider-base",
+      "source_blob_sha": "50dd8724adec082588cb4970463a37e65702f2d2",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-003.tsx",
+        "GIT_BLOB_SHA:50dd8724adec082588cb4970463a37e65702f2d2"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0473",
+      "canonical_id": "WML-004",
+      "name": "Range Selection Slider",
+      "provider": "DEVLIBRARIES_WATERMELON",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-004.tsx",
+      "source_url": "https://devlibraries.com/libraries/watermelon/range-selection-slider",
+      "source_blob_sha": "c9d73a57572b4c6928f27ce9e2ed2b60e8edc67f",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-004.tsx",
+        "GIT_BLOB_SHA:c9d73a57572b4c6928f27ce9e2ed2b60e8edc67f"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0474",
+      "canonical_id": "WML-005",
+      "name": "Swap Form",
+      "provider": "DEVLIBRARIES_WATERMELON",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-005.tsx",
+      "source_url": "https://devlibraries.com/libraries/watermelon/swap-form",
+      "source_blob_sha": "2b64bfab4cca53260b4d4ccd6364b0c856d00768",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-005.tsx",
+        "GIT_BLOB_SHA:2b64bfab4cca53260b4d4ccd6364b0c856d00768"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0475",
+      "canonical_id": "WML-006",
+      "name": "Text Gradient",
+      "provider": "DEVLIBRARIES_WATERMELON",
+      "result": "BLOCKED_SOURCE_NOT_ARCHIVED",
+      "reason": "Pagina di riferimento nota, ma sorgente originale/asset esatto non archiviato: vietato inventare screenshot",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": "https://devlibraries.com/libraries/watermelon/text-gradient",
+      "source_blob_sha": null,
+      "license_state": "MIT_REPO_REFERENCE",
+      "capture_mode": null,
+      "evidence_refs": [
+        "https://devlibraries.com/libraries/watermelon/text-gradient"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0476",
+      "canonical_id": "WML-007",
+      "name": "Dialog Stack (base)",
+      "provider": "DEVLIBRARIES_WATERMELON",
+      "result": "ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED",
+      "reason": "Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-007.tsx",
+      "source_url": "https://devlibraries.com/libraries/watermelon/dialog-stack-base",
+      "source_blob_sha": "0b0e401dc9ca5957bc048885bf8b29449cf24932",
+      "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
+      "capture_mode": null,
+      "evidence_refs": [
+        "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-007.tsx",
+        "GIT_BLOB_SHA:0b0e401dc9ca5957bc048885bf8b29449cf24932"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0477",
+      "canonical_id": "WML-008",
+      "name": "Notification List",
+      "provider": "DEVLIBRARIES_WATERMELON",
+      "result": "BLOCKED_SOURCE_NOT_ARCHIVED",
+      "reason": "Pagina di riferimento nota, ma sorgente originale/asset esatto non archiviato: vietato inventare screenshot",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": "https://devlibraries.com/libraries/watermelon/notification-list",
+      "source_blob_sha": null,
+      "license_state": "MIT_REPO_REFERENCE",
+      "capture_mode": null,
+      "evidence_refs": [
+        "https://devlibraries.com/libraries/watermelon/notification-list"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    },
+    {
+      "uid": "UID-0478",
+      "canonical_id": "WML-009",
+      "name": "Flip Clock",
+      "provider": "DEVLIBRARIES_WATERMELON",
+      "result": "BLOCKED_SOURCE_NOT_ARCHIVED",
+      "reason": "Pagina di riferimento nota, ma sorgente originale/asset esatto non archiviato: vietato inventare screenshot",
+      "image_path": null,
+      "image_sha256": null,
+      "original_archive_path": null,
+      "source_url": "https://devlibraries.com/libraries/watermelon/flip-clock",
+      "source_blob_sha": null,
+      "license_state": "MIT_REPO_REFERENCE",
+      "capture_mode": null,
+      "evidence_refs": [
+        "https://devlibraries.com/libraries/watermelon/flip-clock"
+      ],
+      "consumer_admission": "NOT_VERIFIED"
+    }
+  ]
+}
