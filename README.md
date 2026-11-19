@@ -1,5 +1,7 @@
 # Design-App
 
+**QA DSK-011:** [Unslop UI (MIT), 20 segnali e adapter nativi](sources/UNSLOP_UI_AUDIT_2026-11-19.md) — capability sorgente archiviata, non un componente visivo né un Golden certificato.
+
 ## Aggiornamento corrente — Uiverse Favorites
 
 **Uiverse Favorites aggiornati (18/11/2026, 17:40 Italia):** 108 link unici, +11 rispetto al precedente export, 0 rimossi; catalogo totale **111/111** con sorgente originale HTML/CSS, zero mancanti. **736 abbinamenti su 25 app**, tutti PROPOSED_ONLY. [Catalogo](./UI-UX/UIVERSE/README.md) · [Analisi dei nuovi 11](./UI-UX/UIVERSE/FAVORITES/ANALISI_REFRESH_11_2026-11-18.md) · [Diff verificato](./UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json). La completezza dell'account Uiverse resta non certificata.

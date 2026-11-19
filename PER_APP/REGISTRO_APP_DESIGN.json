@@ -10,7 +10,7 @@
   "counts": {
     "app_profiles": 25,
     "icon_links": 114,
-    "skill_links": 96,
+    "skill_links": 101,
     "cooking_icon_concepts": 36,
     "voice_orb_candidate_apps": 10,
     "motion_design_candidate_apps": 19,
@@ -32,7 +32,9 @@
     "uiverse_original_sources": 111,
     "uiverse_pending_sources": 0,
     "uiverse_app_links": 736,
-    "uiverse_mapped_apps": 25
+    "uiverse_mapped_apps": 25,
+    "unslop_ui_candidate_apps": 5,
+    "unslop_ui_candidate_relations": 5
   },
   "profiles": [
     {
@@ -204,7 +206,7 @@
       "name": "Anna's Diary",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-19",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -228,7 +230,9 @@
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
-        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json"
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+        "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
+        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json"
       ],
       "category_ideas": [
         "diario e ricordi",
@@ -441,6 +445,13 @@
           "fit": "HIGH",
           "surface": "feature showcase and app-store creative",
           "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-011",
+          "name": "Unslop UI",
+          "fit": "HIGH",
+          "surface": "Editorial Today, Calendar, Memories, Settings: diagnose ornamental copy without removing approved Organic iOS Journal and Lora/Manrope/Rose/HSV",
+          "status": "PROPOSED_ONLY"
         }
       ],
       "source_variants_needed": [],
@@ -608,6 +619,14 @@
           "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
           "note": "Package shortlist only; Design-App-first and consumer verification required.",
           "origin": "https://fluttergems.dev/"
+        },
+        {
+          "date": "2026-11-19",
+          "type": "UNSLOP_UI_2026_11_19",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
+          "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
+          "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
         }
       ],
       "voice_ui_candidates": [
@@ -1491,7 +1510,17 @@
           "status": "PROPOSED_ONLY",
           "implementation": "NOT_VERIFIED"
         }
-      ]
+      ],
+      "unslop_ui_candidate_2026_11_19": {
+        "source_id": "DSK-011",
+        "status": "PROPOSED_ONLY",
+        "maturity": "REFERENCE",
+        "reuse_mode": "ADAPT_NATIVE_NOT_RUNTIME",
+        "fit": "HIGH",
+        "scope": "Editorial Today, Calendar, Memories, Settings: diagnose ornamental copy without removing approved Organic iOS Journal and Lora/Manrope/Rose/HSV",
+        "safeguard": "Keep Classic reversible, privacy and all supported locales",
+        "consumer_implementation": "NOT_VERIFIED"
+      }
     },
     {
       "id": "app-factory-dashboard",
@@ -6179,7 +6208,7 @@
       "name": "Cooking Anime",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-19",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -6198,7 +6227,9 @@
         "sources/DEVLIBRARIES_BOOKMARK_SCREENSHOTS_2026-11-17.md",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
+        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json"
       ],
       "category_ideas": [
         "kawaii-gattini",
@@ -6339,6 +6370,13 @@
           "name": "Stageshow",
           "fit": "HIGH",
           "surface": "app store promotional cards",
+          "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-011",
+          "name": "Unslop UI",
+          "fit": "MEDIUM",
+          "surface": "Recipe panels and culinary image-first UI: clear copy and real badges",
           "status": "PROPOSED_ONLY"
         }
       ],
@@ -7045,6 +7083,14 @@
             "UIV-109"
           ],
           "note": "6 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-19",
+          "type": "UNSLOP_UI_2026_11_19",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
+          "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
+          "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
         }
       ],
       "voice_ui_candidates": [
@@ -7790,7 +7836,17 @@
           "is_user_favorite": true,
           "code_original_available": true
         }
-      ]
+      ],
+      "unslop_ui_candidate_2026_11_19": {
+        "source_id": "DSK-011",
+        "status": "PROPOSED_ONLY",
+        "maturity": "REFERENCE",
+        "reuse_mode": "ADAPT_NATIVE_NOT_RUNTIME",
+        "fit": "MEDIUM",
+        "scope": "Recipe panels and culinary image-first UI: clear copy and real badges",
+        "safeguard": "Do not rewrite ingredients, recipe translations, allergen/safety content",
+        "consumer_implementation": "NOT_VERIFIED"
+      }
     },
     {
       "id": "deskland-android",
@@ -11053,7 +11109,7 @@
       "name": "Notes-Ecosistema",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-19",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -11077,7 +11133,9 @@
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
-        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json"
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+        "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
+        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json"
       ],
       "category_ideas": [
         "nota",
@@ -11319,6 +11377,13 @@
           "fit": "HIGH",
           "surface": "workspace feature illustrations and demo",
           "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-011",
+          "name": "Unslop UI",
+          "fit": "MEDIUM",
+          "surface": "Document-first workspace: reduce pointless chrome while preserving powerful canvas",
+          "status": "PROPOSED_ONLY"
         }
       ],
       "source_variants_needed": [],
@@ -11543,6 +11608,14 @@
           "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
           "note": "Package shortlist only; Design-App-first and consumer verification required.",
           "origin": "https://fluttergems.dev/"
+        },
+        {
+          "date": "2026-11-19",
+          "type": "UNSLOP_UI_2026_11_19",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
+          "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
+          "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
         }
       ],
       "voice_ui_candidates": [
@@ -12830,14 +12903,24 @@
           "status": "PROPOSED_ONLY",
           "implementation": "NOT_VERIFIED"
         }
-      ]
+      ],
+      "unslop_ui_candidate_2026_11_19": {
+        "source_id": "DSK-011",
+        "status": "PROPOSED_ONLY",
+        "maturity": "REFERENCE",
+        "reuse_mode": "ADAPT_NATIVE_NOT_RUNTIME",
+        "fit": "MEDIUM",
+        "scope": "Document-first workspace: reduce pointless chrome while preserving powerful canvas",
+        "safeguard": "Do not change editors, shared data or persistence",
+        "consumer_implementation": "NOT_VERIFIED"
+      }
     },
     {
       "id": "omni-cleaner",
       "name": "Omni Cleaner",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-19",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -12858,7 +12941,9 @@
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
+        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json"
       ],
       "category_ideas": [
         "galleria",
@@ -13033,6 +13118,13 @@
           "fit": "MEDIUM",
           "surface": "feature-page visuals using actual app flows",
           "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-011",
+          "name": "Unslop UI",
+          "fit": "HIGH",
+          "surface": "Kotlin/Compose Clean screens, state badges, charts and functional hierarchy",
+          "status": "PROPOSED_ONLY"
         }
       ],
       "source_variants_needed": [],
@@ -13206,6 +13298,14 @@
             "UIV-110"
           ],
           "note": "2 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-19",
+          "type": "UNSLOP_UI_2026_11_19",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
+          "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
+          "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
         }
       ],
       "motion_design_candidates": [
@@ -14120,7 +14220,17 @@
           "is_user_favorite": true,
           "code_original_available": true
         }
-      ]
+      ],
+      "unslop_ui_candidate_2026_11_19": {
+        "source_id": "DSK-011",
+        "status": "PROPOSED_ONLY",
+        "maturity": "REFERENCE",
+        "reuse_mode": "ADAPT_NATIVE_NOT_RUNTIME",
+        "fit": "HIGH",
+        "scope": "Kotlin/Compose Clean screens, state badges, charts and functional hierarchy",
+        "safeguard": "RC1 freeze; safe-delete and permission truth; user-approved Home stays",
+        "consumer_implementation": "NOT_VERIFIED"
+      }
     },
     {
       "id": "phone-guard",
@@ -18063,7 +18173,7 @@
       "name": "World Days",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-19",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -18087,7 +18197,9 @@
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
-        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json"
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+        "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
+        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json"
       ],
       "category_ideas": [
         "calendario",
@@ -18310,6 +18422,13 @@
           "fit": "HIGH",
           "surface": "new rich-story feature preview",
           "status": "PROPOSED_ONLY"
+        },
+        {
+          "id": "DSK-011",
+          "name": "Unslop UI",
+          "fit": "MEDIUM",
+          "surface": "Editorial world-day stories: concise labels and truthful temporal state",
+          "status": "PROPOSED_ONLY"
         }
       ],
       "source_variants_needed": [],
@@ -18510,6 +18629,14 @@
           "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
           "note": "Package shortlist only; Design-App-first and consumer verification required.",
           "origin": "https://fluttergems.dev/"
+        },
+        {
+          "date": "2026-11-19",
+          "type": "UNSLOP_UI_2026_11_19",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
+          "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
+          "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
         }
       ],
       "voice_ui_candidates": [
@@ -19615,7 +19742,17 @@
           "status": "PROPOSED_ONLY",
           "implementation": "NOT_VERIFIED"
         }
-      ]
+      ],
+      "unslop_ui_candidate_2026_11_19": {
+        "source_id": "DSK-011",
+        "status": "PROPOSED_ONLY",
+        "maturity": "REFERENCE",
+        "reuse_mode": "ADAPT_NATIVE_NOT_RUNTIME",
+        "fit": "MEDIUM",
+        "scope": "Editorial world-day stories: concise labels and truthful temporal state",
+        "safeguard": "Do not change historical stories, sources or translations during appearance audit",
+        "consumer_implementation": "NOT_VERIFIED"
+      }
     }
   ],
   "by_app": {

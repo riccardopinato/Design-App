@@ -18,6 +18,21 @@ additional_research:
   new_sources: 22
   focus: "Design app galleries, Material 3 Expressive, Liquid Glass, responsive, micro-interactions, gesture UX and web UI patterns."
 targeted_intakes:
+  - batch_id: UNSLOP_UI_2026_11_19
+    observed_at: "2026-11-19"
+    new_sources: 1
+    source_repository: "felipebasurto/unslop-ui"
+    source_ref: "cd891160453f26aaacc569bad96a8d10d595076d"
+    source_license: "MIT (notice archived)"
+    source_id: "DSK-011"
+    classification: "UI_UX_QA_CAPABILITY"
+    maturity: "SOURCE_ARCHIVED / REFERENCE"
+    consumer_native: "ADAPTER_REQUIRED_DART_KOTLIN"
+    audit_path: "sources/UNSLOP_UI_AUDIT_2026-11-19.md"
+    archived_path: "sources/oss/unslop-ui/"
+    app_map_path: "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json"
+    proposed_app_relations: 5
+    archived_source_subset_test: "sources/oss/unslop-ui/tests/test_archived_subset.py"
   - batch_id: RUIXEN_UI_2026_11_13
     observed_at: "2026-11-13"
     new_sources: 1

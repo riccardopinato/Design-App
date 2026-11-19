@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "batch_id": "UNSLOP_UI_2026_11_19",
+  "observed_at": "2026-11-19",
+  "source_of_truth": "riccardopinato/Design-App",
+  "factory_baseline": "14722698bf92e80c526f5f1f211c8d694ce01fb9",
+  "source": {
+    "id": "DSK-011",
+    "repo": "felipebasurto/unslop-ui",
+    "sha": "cd891160453f26aaacc569bad96a8d10d595076d",
+    "license": "MIT",
+    "upstream_url": "https://github.com/felipebasurto/unslop-ui",
+    "archived_path": "sources/oss/unslop-ui/",
+    "maturity": "SOURCE_ARCHIVED / REFERENCE"
+  },
+  "status": "PROPOSED_ONLY",
+  "counts": {
+    "sources": 1,
+    "apps": 5,
+    "relations": 5
+  },
+  "apps": [
+    {
+      "app_id": "annas-diary",
+      "app_name": "Anna's Diary",
+      "source_id": "DSK-011",
+      "fit": "HIGH",
+      "scope": "Editorial Today, Calendar, Memories, Settings: diagnose ornamental copy without removing approved Organic iOS Journal and Lora/Manrope/Rose/HSV",
+      "product_guard": "preserve approved Journal, Rose HSV, localization, Classic, Vault",
+      "status": "PROPOSED_ONLY",
+      "runtime_state": "NOT_VERIFIED",
+      "visual_state": "NOT_VERIFIED"
+    },
+    {
+      "app_id": "omni-cleaner",
+      "app_name": "Omni Cleaner",
+      "source_id": "DSK-011",
+      "fit": "HIGH",
+      "scope": "Kotlin/Compose Clean screens, state badges, charts and functional hierarchy",
+      "product_guard": "preserve Home, RC1 freeze, destructive action truth",
+      "status": "PROPOSED_ONLY",
+      "runtime_state": "NOT_VERIFIED",
+      "visual_state": "NOT_VERIFIED"
+    },
+    {
+      "app_id": "world-days",
+      "app_name": "World Days",
+      "source_id": "DSK-011",
+      "fit": "MEDIUM",
+      "scope": "Editorial world-day stories: concise labels and truthful temporal state",
+      "product_guard": "do not alter editorial facts and translations",
+      "status": "PROPOSED_ONLY",
+      "runtime_state": "NOT_VERIFIED",
+      "visual_state": "NOT_VERIFIED"
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "app_name": "Notes-Ecosistema",
+      "source_id": "DSK-011",
+      "fit": "MEDIUM",
+      "scope": "Document-first workspace: reduce pointless chrome while preserving powerful canvas",
+      "product_guard": "protect canvas, editor, persistence",
+      "status": "PROPOSED_ONLY",
+      "runtime_state": "NOT_VERIFIED",
+      "visual_state": "NOT_VERIFIED"
+    },
+    {
+      "app_id": "cooking-anime",
+      "app_name": "Cooking Anime",
+      "source_id": "DSK-011",
+      "fit": "MEDIUM",
+      "scope": "Recipe panels and culinary image-first UI: clear copy and real badges",
+      "product_guard": "protect recipes, translations and allergens",
+      "status": "PROPOSED_ONLY",
+      "runtime_state": "NOT_VERIFIED",
+      "visual_state": "NOT_VERIFIED"
+    }
+  ],
+  "no_auto_install": true
+}
