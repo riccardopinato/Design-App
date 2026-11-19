@@ -28,7 +28,9 @@ def git_blob(b):
 async def main():
     existing=json.loads(PROV.read_text(encoding="utf-8"))
     entries=existing["previews"]
-    server=subprocess.Popen(["npm","run","dev"],cwd=RUNTIME,stdout=subprocess.PIPE,stderr=subprocess.STDOUT)
+    log_path=Path("/tmp/design_app_ruixen_vite_stdout.log")
+    log_file=log_path.open("w",encoding="utf-8")
+    server=subprocess.Popen(["npm","run","dev"],cwd=RUNTIME,stdout=log_file,stderr=subprocess.STDOUT)
     try:
         for attempt in range(65):
             if server.poll() is not None: raise RuntimeError("Isolated original TSX server exited early")
@@ -60,11 +62,16 @@ async def main():
                 errors=[]
                 page.on("pageerror",lambda e:errors.append(str(e)))
                 try:
-                    res=await page.goto(f"http://127.0.0.1:5181/?component={slug}",wait_until="networkidle",timeout=25000)
+                    res=await page.goto(f"http://127.0.0.1:5181/?component={slug}",wait_until="domcontentloaded",timeout=18000)
                     if not res or res.status!=200 or errors:
                         raise ValueError("React runtime failure: "+";".join(errors[:2]))
                     elem=page.locator("#component-root")
-                    await elem.wait_for(state="visible",timeout=10000)
+                    try:
+                        await elem.wait_for(state="visible",timeout=18000)
+                    except Exception:
+                        body=(await page.locator("body").inner_text())[:400]
+                        log_tail=log_path.read_text(encoding="utf-8",errors="replace")[-1200:]
+                        raise ValueError("React source not mounted; body="+body+"; JS="+str(errors[:2])+"; Vite="+log_tail)
                     if slug == "interactive-hover-button":
                         await page.locator("#component-root button").first.hover()
                     await page.wait_for_timeout(900)
@@ -115,5 +122,6 @@ async def main():
         server.terminate()
         try:server.wait(timeout=8)
         except subprocess.TimeoutExpired:server.kill()
+        log_file.close()
 if __name__=="__main__":
     raise SystemExit(asyncio.run(main()))
