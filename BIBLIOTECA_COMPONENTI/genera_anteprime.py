@@ -76,7 +76,7 @@ def build_manifest(rows: list[dict]) -> dict:
                 raise ValueError(cid + ": unsupported acquisition method")
             if record.get("capture_mode") == "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER":
                 if (record.get("source_blob_sha") != c.get("source_blob_sha")
-                        or record.get("local_fixture_path") != "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/main.tsx"
+                        or record.get("local_fixture_path") not in {"BIBLIOTECA_COMPONENTI/ruixen_renderer/src/main.tsx", "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx"}
                         or record.get("local_renderer_package_sha256") != hashlib.sha256((HERE / "ruixen_renderer/package.json").read_bytes()).hexdigest()):
                     raise ValueError(cid + ": original TSX or isolated demo fixture provenance mismatch")
             if hashlib.sha256(path.read_bytes()).hexdigest() != record.get("preview_sha256"):
