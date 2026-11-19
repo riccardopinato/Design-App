@@ -2,6 +2,8 @@
 
 **Registro permanente:** `PER_APP/annas-diary.md` · [Indice](./README.md) · [Profilo JSON](./REGISTRO_APP_DESIGN.json) · [Matrice icone](../ICONE/MATRICE_APP_ICONE.md) · [Fonti di design](../UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.md)
 
+**Rettifica link 19/11/2026:** le quattro reference prioritarie `UIR-0003/0014/0021/0029` restano preferenze dell'utente ma i JPG del 12/11 **non erano pubblicati**. Consultare [dossier di provenienza e link funzionanti](ANNAS_DIARY_MISSING_UIR_20261119.md); non inferire che i JPG UIR-0051/52/76 siano sostituti 1:1. Questa rettifica non cambia il design approvato né l'uso di Design-App come prima fonte di ispirazione.
+
 **Stato delle proposte:** `PROPOSAL_ONLY` — non sono stati ispezionati il codice HEAD o la Product Bible della singola app in questo lavoro. Le scelte visive già approvate nei repository delle app prevalgono; nessun asset copiato, nessun test consumer, nessuna integrazione.
 
 ## Identità e direzione visiva
