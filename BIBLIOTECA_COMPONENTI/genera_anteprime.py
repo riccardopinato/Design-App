@@ -132,7 +132,11 @@ def outputs(catalog: dict, manifest: dict) -> dict[Path, str]:
     assigned = defaultdict(list)
     for row in rows:
         for app in row["apps"]:
-            assigned[app].append(row)
+            # The catalog contains two historical IDs for the same Anna's
+            # Diary product. Keep the source IDs untouched but present one
+            # unified app view with both sets of component relations.
+            public_app = "annas-diary" if app == "anna-s-diary" else app
+            assigned[public_app].append(row)
     result = {}
     count_images = sum(bool(x["image_path"]) for x in images.values())
     common = ("Le immagini qui mostrate sono catture documentali, **non** una verifica "
@@ -176,6 +180,12 @@ def outputs(catalog: dict, manifest: dict) -> dict[Path, str]:
         page.extend(row_markdown(c, images[c["id"]], "../..") + "\n" for c in subset)
         result[APPS_DIR / (app + ".md")] = "".join(page)
     result[APPS_DIR / "README.md"] = "".join(index)
+    # Preserve old deep links for the historical alias.
+    result[APPS_DIR / "anna-s-diary.md"] = (
+        "# Anna's Diary — alias storico\\n\\n"
+        "Le associazioni \`anna-s-diary\` e \`annas-diary\` sono "
+        "riunite nella [tabella unica di Anna's Diary](./annas-diary.md).\\n"
+    ).replace("\\\\n", "\\n")
     return result
 
 
