@@ -192,6 +192,21 @@
       "origin_repo": "ruixenui/ruixen.com",
       "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
     },
+    "RXN-animated-subscribe-button": {
+      "component_id": "RXN-animated-subscribe-button",
+      "preview_path": "docs/assets/componenti/RXN-animated-subscribe-button.png",
+      "preview_sha256": "388e6230deba82dfbc4dea4d982a73dbb83567ac5be88804f56790667ef6556c",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-subscribe-button.tsx",
+      "source_blob_sha": "7f41a095ad3588cb5a85d8b811148db84194b0af",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "b18702f405073e021e53eb0fafea3a233dea02ca9da947266023a701ef9f2aa4",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
+    },
     "RXN-animated-theme-toggler": {
       "component_id": "RXN-animated-theme-toggler",
       "preview_path": "docs/assets/componenti/RXN-animated-theme-toggler.png",
@@ -1603,6 +1618,21 @@
       "origin_path": "public/preview_images/buttons/hover-preview-button-light.png",
       "upstream_preview_index_sha256": "0255ae3f982b2c4def65d99f4e380ffa84c0e36863da4209b4e92f710bd16ca9",
       "bytes": 14664
+    },
+    "RXN-hyper-text": {
+      "component_id": "RXN-hyper-text",
+      "preview_path": "docs/assets/componenti/RXN-hyper-text.png",
+      "preview_sha256": "e05ccef3773a8c2baaaa8bee65aff257f2159cdcd5dd7a0acc8e008fee0c5fe2",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/hyper-text.tsx",
+      "source_blob_sha": "0b4ee73e847718a282e7cf4a8268277695ecab59",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "b18702f405073e021e53eb0fafea3a233dea02ca9da947266023a701ef9f2aa4",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
     },
     "RXN-icon-label-subtext-button": {
       "component_id": "RXN-icon-label-subtext-button",
@@ -3094,6 +3124,21 @@
       "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
       "captured_on": "2026-11-19",
       "bytes": 3689
+    },
+    "RXN-text-animate": {
+      "component_id": "RXN-text-animate",
+      "preview_path": "docs/assets/componenti/RXN-text-animate.png",
+      "preview_sha256": "bc204f79cdfaf2290e78791e1bdaada83e2aff11739a0d769201946c214c50d8",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/text-animate.tsx",
+      "source_blob_sha": "dc988dddb75a608280601d624080cda188c64e69",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "b18702f405073e021e53eb0fafea3a233dea02ca9da947266023a701ef9f2aa4",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
     },
     "RXN-three-dwall-calendar": {
       "component_id": "RXN-three-dwall-calendar",
