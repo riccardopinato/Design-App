@@ -36,7 +36,7 @@ jobs:
           npm install --no-fund --no-audit
           cd ../..
           python -m pip install "Pillow==11.3.0" "playwright==1.57.0"
-          python -m playwright install --with-deps chromium
+          python -m playwright install chromium
       - name: Capture true pinned original TSX, reject blank or wrong screenshots
         run: python BIBLIOTECA_COMPONENTI/render_ruixen_from_tsx.py
       - name: Regenerate full catalog and verify original SHA provenance
