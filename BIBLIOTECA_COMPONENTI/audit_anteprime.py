@@ -117,6 +117,36 @@ def main() -> None:
           "near-flat candidates:", len(ruixen_summary["near_flat_candidates"]))
 
 
+    # Keep Forui evidence separate: screenshots are references, not app QA.
+    forui = []
+    for cid in ("FUI-001", "FUI-002"):
+        record = MAN["previews"].get(cid)
+        if not record or not record.get("image_path"):
+            raise ValueError("Forui original preview missing: " + cid)
+        with Image.open(ROOT / record["image_path"]) as img:
+            rgb = img.convert("RGB")
+            std = round(statistics.fmean(ImageStat.Stat(rgb).stddev), 2)
+            thumb = rgb.copy()
+            thumb.thumbnail((500, 260))
+            forui.append((cid, thumb, {
+                "id": cid, "size": list(rgb.size), "color_stddev": std,
+                "near_flat_candidate": std < 4,
+                "visual_qa": "UNREVIEWED",
+            }))
+    board3 = Image.new("RGB", (1050, 340), "#e8edf5")
+    labeler = ImageDraw.Draw(board3)
+    for index, (cid, img, metrics) in enumerate(forui):
+        x = 25 + index * 525
+        board3.paste(img, (x + (500-img.width)//2, 15))
+        labeler.text((x+8, 300), cid + " · Flutter original demo (unreviewed)", fill="#182838")
+    board3.save(OUT / "CONTACT_SHEET_FORUI.png", optimize=True)
+    (OUT / "REPORT_FORUI.json").write_text(json.dumps({
+        "catalog_total": len(CAT["components"]), "forui_original_previews": len(forui),
+        "report": [item[2] for item in forui],
+        "claim": "Source-pinned official Flutter demo screenshots, manual appearance and consumer acceptance not certified.",
+    }, indent=2) + "\n", encoding="utf-8")
+    print("Forui visual references", len(forui), "/2; visual QA UNREVIEWED")
+
 
 if __name__ == "__main__":
     main()

@@ -126,3 +126,5 @@ python BIBLIOTECA_COMPONENTI/validate.py
 - `UID-0480` / `FUI-002`: esempio form email/password con validazione locale; non è autenticazione funzionante.
 - Codice, licenze e immagini originali in `sorgenti/forui/` e `ANTEPRIME_ORIGINI_FORUI.json`.
 - Nessuna installazione nelle app o Golden: il riuso richiede controllo package, tema, font, SDK, dimensione APK e test nel consumer.
+
+**Audit dipendenze Forui:** [compatibilità Flutter, font e dipendenze degli esempi](./sorgenti/forui/COMPATIBILITY_2026-11-19.md).
