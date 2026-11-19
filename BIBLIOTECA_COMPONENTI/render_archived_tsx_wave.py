@@ -110,6 +110,10 @@ async def main():
                         if "SOURCE_MODULE_FAILED" in (await target.inner_text()):
                             raise ValueError("SOURCE_MODULE_FAILED_MESSAGE")
                         raw=await target.screenshot(animations="disabled",timeout=14000)
+                        # Recheck after screenshot: cross-fixture Vite errors can arrive
+                        # during capture, even if the source root rendered correctly.
+                        if await page.locator("vite-error-overlay").count() > 0:
+                            raise ValueError("VITE_ERROR_OVERLAY_AFTER_SCREENSHOT")
                         with Image.open(BytesIO(raw)) as image:
                             canvas=image.convert("RGB")
                             variance=sum(ImageStat.Stat(canvas).stddev)

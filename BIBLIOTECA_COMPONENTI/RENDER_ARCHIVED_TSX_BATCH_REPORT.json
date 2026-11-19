@@ -17,7 +17,6 @@
     "DBM-019",
     "DBM-020",
     "DBM-022",
-    "RXN-animated-subscribe-button",
     "RXN-hyper-text",
     "RXN-text-animate"
   ],
@@ -89,7 +88,8 @@
     "WML-007": "ORIGINAL_TSX_IMPORT_OR_RENDER_FAILED TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-007.tsx",
     "WML-002": "VITE_COMPILATION_OVERLAY [plugin:vite:import-analysis] Failed to resolve import \"@hugeicons/react\" from \"../sorgenti/watermelon/wml-007.tsx\". Does the file exist?/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-007.tsx:6:3020 |  import { motion, AnimatePresence } from \"motion/react\";\n21 |  import { X, ArrowRight, ThumbsUp } from \"lucide",
     "WML-003": "VITE_COMPILATION_OVERLAY [plugin:vite:import-analysis] Failed to resolve import \"@hugeicons/react\" from \"../sorgenti/watermelon/wml-007.tsx\". Does the file exist?/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-007.tsx:6:3020 |  import { motion, AnimatePresence } from \"motion/react\";\n21 |  import { X, ArrowRight, ThumbsUp } from \"lucide",
-    "WML-004": "VITE_COMPILATION_OVERLAY [plugin:vite:import-analysis] Failed to resolve import \"@hugeicons/react\" from \"../sorgenti/watermelon/wml-007.tsx\". Does the file exist?/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-007.tsx:6:3020 |  import { motion, AnimatePresence } from \"motion/react\";\n21 |  import { X, ArrowRight, ThumbsUp } from \"lucide"
+    "WML-004": "VITE_COMPILATION_OVERLAY [plugin:vite:import-analysis] Failed to resolve import \"@hugeicons/react\" from \"../sorgenti/watermelon/wml-007.tsx\". Does the file exist?/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-007.tsx:6:3020 |  import { motion, AnimatePresence } from \"motion/react\";\n21 |  import { X, ArrowRight, ThumbsUp } from \"lucide",
+    "RXN-animated-subscribe-button": "VISUAL_QA_REJECTED_VITE_OVERLAY_CROSS_COMPONENT: image displayed error for unrelated source behavioral-history-select, not Animated Subscribe Button"
   },
   "blocked_before_run": {
     "AMX-003": "BLOCKED_NO_ARCHIVED_SOURCE",
