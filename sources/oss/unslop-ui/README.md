@@ -9,3 +9,7 @@
 - Riferimento operativo: [audit e mappa di adozione](../../UNSLOP_UI_AUDIT_2026-11-19.md).
 - Non eseguire script vendorizzati con permessi estesi o su dati privati. Script upstream non integra Dart/Kotlin; deve essere abbinato all'adapter nativo AppLab.
 - Evidenza: file acquisiti via GitHub alla revisione fissa. Non equivale a test locale o CI del codice vendorizzato.
+
+## Test reproduzione limitata
+
+L'originale pinned `tests/test_skill.py` è conservato **immutato** per tracciabilità, ma **non è eseguibile in isolamento** perché la suite completa richiede `evals/run.py`, `examples/` e `plugins/` non archiviati. Il test complementare **scritto da App Factory** `tests/test_archived_subset.py` verifica realmente solo scanner e loader inclusi (3 smoke checks), senza pretendere copertura upstream integrale. Esecuzione: `python -m unittest discover -s sources/oss/unslop-ui/tests -p 'test_archived_subset.py'`. La CI Design-App esegue questo subset. L'archivio non diventa per questo un SDK Flutter/Compose o un GOLDEN certificato.
