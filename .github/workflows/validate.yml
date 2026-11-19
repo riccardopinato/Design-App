@@ -20,3 +20,8 @@ jobs:
         run: python scripts/validate_design_library.py
       - name: Verify visual review manifest and negative gates
         run: python scripts/validate_visual_qa_evidence.py --self-test
+      - name: Validate component archive, source hashes and catalog aliases
+        run: |
+          python BIBLIOTECA_COMPONENTI/validate.py
+          python BIBLIOTECA_COMPONENTI/cerca.py --id UIV-107 --limite 1 > /dev/null
+          python BIBLIOTECA_COMPONENTI/cerca.py --fonte RUIXEN --solo-sorgente --limite 2 > /dev/null

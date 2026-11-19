@@ -153,3 +153,13 @@ Se l'utente indica link a un archivio personale di preferiti/segnalibri di **qua
 5. Se l'export è incompleto, segnare PARTIAL e i gap. Aggiornare i dossier PER_APP, registri, audit, codice e validatori nella stessa PR; CI exact-head e merge gate prima di main.
 
 Il precedente importer Uiverse `scripts/uiverse_favorites_export_browser.js` è il **modello operativo**, non uno script universale valido automaticamente su altri siti. La rimozione di controlli del browser non è una scorciatoia sicura: ispezionare lo script ed eseguire solo codice di provenienza verificata.
+
+## Biblioteca componenti canonica — archiviazione e ricerca (19/11/2026)
+
+Per ogni nuova fonte componente UI/UX verificare e aggiornare [BIBLIOTECA_COMPONENTI/](BIBLIOTECA_COMPONENTI/README.md) senza creare un catalogo parallelo per ogni sito. Mantenere gli ID storici come alias, evitando duplicazioni con confronto URL/commit/path e hash della sorgente quando disponibile. Utilizzare il [CATALOGO.json](BIBLIOTECA_COMPONENTI/CATALOGO.json) come indice cross-source leggero, con filtri tramite [cerca.py](BIBLIOTECA_COMPONENTI/cerca.py).
+
+**Acquisizione preferenziale:** quando un componente rilevante ha realmente disponibile codice sorgente riutilizzabile, archiviarne in automatico il linguaggio originale (Dart/TSX/HTML/CSS/Kotlin), assieme a licenza/provenienza, commit/blob, dipendenze, stato e applicazioni interessate. Evitare copiare due volte lo stesso file: puntare alla sede gia' archiviata. Rispettare diritti di riuso e attribution della fonte; quando non e' verificabile una licenza che consenta archiviazione e riuso, catalogare LINK + scheda REFERENCE_ONLY e sviluppare codice originale se necessario.
+
+**Non dichiarare pronto:** un file TSX importato e' sempre SOURCE_ARCHIVED, non Flutter COPY_READY. Un link di Flutter Component Library che indica un file Dart non prova che i byte del file siano stati recuperati. L'adozione nelle app richiede Product Bible, preferenze Design-App salvate dall'utente, test Flutter/Compose e revisione visiva degli screenshot reali. Non alzare automaticamente il livello Golden/Donor.
+
+**CI:** dopo modifiche al catalogo o ai sorgenti eseguire `python BIBLIOTECA_COMPONENTI/validate.py`, controllare che tutte le copie originali Ruixen conservino gli SHA upstream, che gli alias esistano e che il catalogo non attribuisca sorgenti a URL puramente descrittivi.

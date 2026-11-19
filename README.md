@@ -244,3 +244,9 @@ Originali HTML/CSS aggiunti: **43**; catalogo **100/100**; Favorites **97/97**; 
 ## Aggiornamento recupero pubblico (2026-11-18)
 
 Originali HTML/CSS aggiunti: **11**; catalogo **111/111**; Favorites **108/108**; codice non recuperato **0**. Provenienza e checksum in [RECUPERO_API](../UI-UX/UIVERSE/FAVORITES/RECUPERO_API_2026_11_18.json). Le cifre precedenti documentano lo stato storico prima di questo recupero. Nessuna adozione o test su app consumer.
+
+## Biblioteca componenti — indice canonico e sorgenti offline
+
+[Apri la biblioteca](BIBLIOTECA_COMPONENTI/README.md) · [Catalogo JSON](BIBLIOTECA_COMPONENTI/CATALOGO.json) · [Ricerca locale](BIBLIOTECA_COMPONENTI/cerca.py).
+
+Dal 19 novembre 2026, l'archivio contiene **478 componenti canonici e 4 alias**: 277 sorgenti TSX Ruixen originali MIT appena acquisiti, 111 file originali Uiverse gia' in repo e altre reference non copiate senza prova di sorgente/diritti. **387 record canonici** hanno un file sorgente locale (una variante Uiverse duplicata e' alias, non una seconda voce). Gli originali TSX/HTML/CSS sono materiale di adattamento, NON nuovi widget Flutter pronti o una certificazione delle app. La priorita' del gusto dell'utente, Product Bible e Golden tecnici non cambia.

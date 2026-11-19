@@ -228,9 +228,7 @@
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
-        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
-        "sources/FLUTTER_COMPONENT_LIBRARY_RESEARCH_2026-11-19.md",
-        "UI-UX/FLUTTER_COMPONENT_LIBRARY_APP_MAP_2026-11-19.json"
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "diario e ricordi",
@@ -610,19 +608,6 @@
           "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
           "note": "Package shortlist only; Design-App-first and consumer verification required.",
           "origin": "https://fluttergems.dev/"
-        },
-        {
-          "date": "2026-11-19",
-          "type": "FLUTTER_COMPONENT_LIBRARY_REFERENCE_INTAKE",
-          "status": "PROPOSED_ONLY",
-          "origin": "https://fluttercomponentlibrary.com/",
-          "source": "UI-UX/FLUTTER_COMPONENT_LIBRARY_APP_MAP_2026-11-19.json",
-          "component_ids": [
-            "FCL-001",
-            "FCL-005",
-            "FCL-006"
-          ],
-          "note": "3 source-card references proposed; no Dart source/license verified, code copied, package installed, consumer source inspected or app visuals certified"
         }
       ],
       "voice_ui_candidates": [
@@ -1505,32 +1490,6 @@
           "surface": "product-owned theme tokens",
           "status": "PROPOSED_ONLY",
           "implementation": "NOT_VERIFIED"
-        }
-      ],
-      "flutter_component_library_candidates_2026_27": [
-        {
-          "component_id": "FCL-001",
-          "fit": "MEDIUM",
-          "surface": "Only if compatible with the already approved bottom navigation; no silent redesign",
-          "status": "PROPOSED_ONLY",
-          "implementation": "NOT_VERIFIED",
-          "reuse_mode": "REFERENCE_ONLY"
-        },
-        {
-          "component_id": "FCL-005",
-          "fit": "HIGH",
-          "surface": "Contextual sheets for action groups with privacy boundaries",
-          "status": "PROPOSED_ONLY",
-          "implementation": "NOT_VERIFIED",
-          "reuse_mode": "REFERENCE_ONLY"
-        },
-        {
-          "component_id": "FCL-006",
-          "fit": "MEDIUM",
-          "surface": "Memory collection display only if editorial and approved",
-          "status": "PROPOSED_ONLY",
-          "implementation": "NOT_VERIFIED",
-          "reuse_mode": "REFERENCE_ONLY"
         }
       ]
     },
@@ -2885,9 +2844,7 @@
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
         "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
         "sources/MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md",
-        "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json",
-        "sources/FLUTTER_COMPONENT_LIBRARY_RESEARCH_2026-11-19.md",
-        "UI-UX/FLUTTER_COMPONENT_LIBRARY_APP_MAP_2026-11-19.json"
+        "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json"
       ],
       "category_ideas": [
         "batteria",
@@ -3157,19 +3114,6 @@
           "origin": "https://m3.material.io/",
           "source": "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json",
           "note": "Material 3 is a possible app-specific utility UI choice, not default/ban; implementation and actual stack NOT_VERIFIED; no consumer changes."
-        },
-        {
-          "date": "2026-11-19",
-          "type": "FLUTTER_COMPONENT_LIBRARY_REFERENCE_INTAKE",
-          "status": "PROPOSED_ONLY",
-          "origin": "https://fluttercomponentlibrary.com/",
-          "source": "UI-UX/FLUTTER_COMPONENT_LIBRARY_APP_MAP_2026-11-19.json",
-          "component_ids": [
-            "FCL-004",
-            "FCL-010",
-            "FCL-005"
-          ],
-          "note": "3 source-card references proposed; no Dart source/license verified, code copied, package installed, consumer source inspected or app visuals certified"
         }
       ],
       "motion_design_candidates": [
@@ -3820,33 +3764,7 @@
         "status": "PROPOSED_ONLY",
         "decision": "NOT_DECIDED",
         "implementation": "NOT_VERIFIED"
-      },
-      "flutter_component_library_candidates_2026_27": [
-        {
-          "component_id": "FCL-004",
-          "fit": "HIGH",
-          "surface": "Battery condition alerts grounded in actual device data",
-          "status": "PROPOSED_ONLY",
-          "implementation": "NOT_VERIFIED",
-          "reuse_mode": "REFERENCE_ONLY"
-        },
-        {
-          "component_id": "FCL-010",
-          "fit": "MEDIUM",
-          "surface": "Preference thresholds only where operating-system behavior allows",
-          "status": "PROPOSED_ONLY",
-          "implementation": "NOT_VERIFIED",
-          "reuse_mode": "REFERENCE_ONLY"
-        },
-        {
-          "component_id": "FCL-005",
-          "fit": "MEDIUM",
-          "surface": "Technical drill-down without obscuring current telemetry",
-          "status": "PROPOSED_ONLY",
-          "implementation": "NOT_VERIFIED",
-          "reuse_mode": "REFERENCE_ONLY"
-        }
-      ]
+      }
     },
     {
       "id": "beerclass-ai",
@@ -4482,9 +4400,7 @@
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
-        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
-        "sources/FLUTTER_COMPONENT_LIBRARY_RESEARCH_2026-11-19.md",
-        "UI-UX/FLUTTER_COMPONENT_LIBRARY_APP_MAP_2026-11-19.json"
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "camper/van",
@@ -4735,19 +4651,6 @@
           "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
           "note": "Package shortlist only; Design-App-first and consumer verification required.",
           "origin": "https://fluttergems.dev/"
-        },
-        {
-          "date": "2026-11-19",
-          "type": "FLUTTER_COMPONENT_LIBRARY_REFERENCE_INTAKE",
-          "status": "PROPOSED_ONLY",
-          "origin": "https://fluttercomponentlibrary.com/",
-          "source": "UI-UX/FLUTTER_COMPONENT_LIBRARY_APP_MAP_2026-11-19.json",
-          "component_ids": [
-            "FCL-009",
-            "FCL-008",
-            "FCL-005"
-          ],
-          "note": "3 source-card references proposed; no Dart source/license verified, code copied, package installed, consumer source inspected or app visuals certified"
         }
       ],
       "voice_ui_candidates": [
@@ -5411,32 +5314,6 @@
           "surface": "travel-focused tokens",
           "status": "PROPOSED_ONLY",
           "implementation": "NOT_VERIFIED"
-        }
-      ],
-      "flutter_component_library_candidates_2026_27": [
-        {
-          "component_id": "FCL-009",
-          "fit": "HIGH",
-          "surface": "Multi-step trip/camper checklist or setup when real flow exists",
-          "status": "PROPOSED_ONLY",
-          "implementation": "NOT_VERIFIED",
-          "reuse_mode": "REFERENCE_ONLY"
-        },
-        {
-          "component_id": "FCL-008",
-          "fit": "MEDIUM",
-          "surface": "Offline help and structured setup instructions",
-          "status": "PROPOSED_ONLY",
-          "implementation": "NOT_VERIFIED",
-          "reuse_mode": "REFERENCE_ONLY"
-        },
-        {
-          "component_id": "FCL-005",
-          "fit": "MEDIUM",
-          "surface": "Contextual actions usable offline",
-          "status": "PROPOSED_ONLY",
-          "implementation": "NOT_VERIFIED",
-          "reuse_mode": "REFERENCE_ONLY"
         }
       ]
     },
@@ -10175,9 +10052,7 @@
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
-        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
-        "sources/FLUTTER_COMPONENT_LIBRARY_RESEARCH_2026-11-19.md",
-        "UI-UX/FLUTTER_COMPONENT_LIBRARY_APP_MAP_2026-11-19.json"
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "fotografia",
@@ -10477,19 +10352,6 @@
           "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
           "note": "Package shortlist only; Design-App-first and consumer verification required.",
           "origin": "https://fluttergems.dev/"
-        },
-        {
-          "date": "2026-11-19",
-          "type": "FLUTTER_COMPONENT_LIBRARY_REFERENCE_INTAKE",
-          "status": "PROPOSED_ONLY",
-          "origin": "https://fluttercomponentlibrary.com/",
-          "source": "UI-UX/FLUTTER_COMPONENT_LIBRARY_APP_MAP_2026-11-19.json",
-          "component_ids": [
-            "FCL-002",
-            "FCL-001",
-            "FCL-005"
-          ],
-          "note": "3 source-card references proposed; no Dart source/license verified, code copied, package installed, consumer source inspected or app visuals certified"
         }
       ],
       "voice_ui_candidates": [
@@ -11184,32 +11046,6 @@
           "status": "PROPOSED_ONLY",
           "implementation": "NOT_VERIFIED"
         }
-      ],
-      "flutter_component_library_candidates_2026_27": [
-        {
-          "component_id": "FCL-002",
-          "fit": "HIGH",
-          "surface": "Buttons and control demonstrations customized to app design tokens",
-          "status": "PROPOSED_ONLY",
-          "implementation": "NOT_VERIFIED",
-          "reuse_mode": "REFERENCE_ONLY"
-        },
-        {
-          "component_id": "FCL-001",
-          "fit": "MEDIUM",
-          "surface": "Navigational prototype only if its product architecture calls for it",
-          "status": "PROPOSED_ONLY",
-          "implementation": "NOT_VERIFIED",
-          "reuse_mode": "REFERENCE_ONLY"
-        },
-        {
-          "component_id": "FCL-005",
-          "fit": "HIGH",
-          "surface": "Responsive control panels and settings",
-          "status": "PROPOSED_ONLY",
-          "implementation": "NOT_VERIFIED",
-          "reuse_mode": "REFERENCE_ONLY"
-        }
       ]
     },
     {
@@ -11241,9 +11077,7 @@
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
-        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
-        "sources/FLUTTER_COMPONENT_LIBRARY_RESEARCH_2026-11-19.md",
-        "UI-UX/FLUTTER_COMPONENT_LIBRARY_APP_MAP_2026-11-19.json"
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "nota",
@@ -11709,19 +11543,6 @@
           "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
           "note": "Package shortlist only; Design-App-first and consumer verification required.",
           "origin": "https://fluttergems.dev/"
-        },
-        {
-          "date": "2026-11-19",
-          "type": "FLUTTER_COMPONENT_LIBRARY_REFERENCE_INTAKE",
-          "status": "PROPOSED_ONLY",
-          "origin": "https://fluttercomponentlibrary.com/",
-          "source": "UI-UX/FLUTTER_COMPONENT_LIBRARY_APP_MAP_2026-11-19.json",
-          "component_ids": [
-            "FCL-003",
-            "FCL-005",
-            "FCL-014"
-          ],
-          "note": "3 source-card references proposed; no Dart source/license verified, code copied, package installed, consumer source inspected or app visuals certified"
         }
       ],
       "voice_ui_candidates": [
@@ -13008,32 +12829,6 @@
           "surface": "real project data charts",
           "status": "PROPOSED_ONLY",
           "implementation": "NOT_VERIFIED"
-        }
-      ],
-      "flutter_component_library_candidates_2026_27": [
-        {
-          "component_id": "FCL-003",
-          "fit": "HIGH",
-          "surface": "Content search and filter semantics",
-          "status": "PROPOSED_ONLY",
-          "implementation": "NOT_VERIFIED",
-          "reuse_mode": "REFERENCE_ONLY"
-        },
-        {
-          "component_id": "FCL-005",
-          "fit": "HIGH",
-          "surface": "Selection context actions without disrupting canvas",
-          "status": "PROPOSED_ONLY",
-          "implementation": "NOT_VERIFIED",
-          "reuse_mode": "REFERENCE_ONLY"
-        },
-        {
-          "component_id": "FCL-014",
-          "fit": "MEDIUM",
-          "surface": "Responsive navigation, keep editor/canvas controls reachable",
-          "status": "PROPOSED_ONLY",
-          "implementation": "NOT_VERIFIED",
-          "reuse_mode": "REFERENCE_ONLY"
         }
       ]
     },
@@ -18292,9 +18087,7 @@
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
-        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
-        "sources/FLUTTER_COMPONENT_LIBRARY_RESEARCH_2026-11-19.md",
-        "UI-UX/FLUTTER_COMPONENT_LIBRARY_APP_MAP_2026-11-19.json"
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json"
       ],
       "category_ideas": [
         "calendario",
@@ -18717,19 +18510,6 @@
           "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
           "note": "Package shortlist only; Design-App-first and consumer verification required.",
           "origin": "https://fluttergems.dev/"
-        },
-        {
-          "date": "2026-11-19",
-          "type": "FLUTTER_COMPONENT_LIBRARY_REFERENCE_INTAKE",
-          "status": "PROPOSED_ONLY",
-          "origin": "https://fluttercomponentlibrary.com/",
-          "source": "UI-UX/FLUTTER_COMPONENT_LIBRARY_APP_MAP_2026-11-19.json",
-          "component_ids": [
-            "FCL-004",
-            "FCL-003",
-            "FCL-008"
-          ],
-          "note": "3 source-card references proposed; no Dart source/license verified, code copied, package installed, consumer source inspected or app visuals certified"
         }
       ],
       "voice_ui_candidates": [
@@ -19834,32 +19614,6 @@
           "surface": "editorial visual tokens",
           "status": "PROPOSED_ONLY",
           "implementation": "NOT_VERIFIED"
-        }
-      ],
-      "flutter_component_library_candidates_2026_27": [
-        {
-          "component_id": "FCL-004",
-          "fit": "HIGH",
-          "surface": "Historical context or editorial callouts; real sourced information only",
-          "status": "PROPOSED_ONLY",
-          "implementation": "NOT_VERIFIED",
-          "reuse_mode": "REFERENCE_ONLY"
-        },
-        {
-          "component_id": "FCL-003",
-          "fit": "HIGH",
-          "surface": "Filter by region, country, category and verified story availability",
-          "status": "PROPOSED_ONLY",
-          "implementation": "NOT_VERIFIED",
-          "reuse_mode": "REFERENCE_ONLY"
-        },
-        {
-          "component_id": "FCL-008",
-          "fit": "MEDIUM",
-          "surface": "Expandable explanations without repetitive nested cards",
-          "status": "PROPOSED_ONLY",
-          "implementation": "NOT_VERIFIED",
-          "reuse_mode": "REFERENCE_ONLY"
         }
       ]
     }
