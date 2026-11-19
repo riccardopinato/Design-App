@@ -1033,6 +1033,21 @@
       "upstream_preview_index_sha256": "0255ae3f982b2c4def65d99f4e380ffa84c0e36863da4209b4e92f710bd16ca9",
       "bytes": 205100
     },
+    "RXN-code-comparison": {
+      "component_id": "RXN-code-comparison",
+      "preview_path": "docs/assets/componenti/RXN-code-comparison.png",
+      "preview_sha256": "e13c096a6d77bc97245747acb8338e224f139a74a149424d25bbfa3b3ec32a37",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/code-comparison.tsx",
+      "source_blob_sha": "138c96bc910ca6d1925ed6b1886a28bcaffc386d",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "88ee6e78898efecf1cb7a1e897ad98687bdc0e08751d0923225957793016d9be",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
+    },
     "RXN-color-emotion-select": {
       "component_id": "RXN-color-emotion-select",
       "preview_path": "docs/assets/componenti/RXN-color-emotion-select.png",
@@ -1814,6 +1829,21 @@
       "origin_repo": "ruixenui/ruixen.com",
       "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
     },
+    "RXN-icon-cloud": {
+      "component_id": "RXN-icon-cloud",
+      "preview_path": "docs/assets/componenti/RXN-icon-cloud.png",
+      "preview_sha256": "9e1d63663b943fe78ed8b131ac0642377541ae142a5a92d0cbd35a225de5d801",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/icon-cloud.tsx",
+      "source_blob_sha": "1e9ffc2e503e43aac8632af73199198ddd5eb8d5",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "88ee6e78898efecf1cb7a1e897ad98687bdc0e08751d0923225957793016d9be",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
+    },
     "RXN-icon-label-subtext-button": {
       "component_id": "RXN-icon-label-subtext-button",
       "preview_path": "docs/assets/componenti/RXN-icon-label-subtext-button.png",
@@ -2105,6 +2135,21 @@
       "origin_path": "public/preview_images/steppers/milestone-stepper-light.png",
       "upstream_preview_index_sha256": "0255ae3f982b2c4def65d99f4e380ffa84c0e36863da4209b4e92f710bd16ca9",
       "bytes": 40739
+    },
+    "RXN-mode-toggle": {
+      "component_id": "RXN-mode-toggle",
+      "preview_path": "docs/assets/componenti/RXN-mode-toggle.png",
+      "preview_sha256": "53843e89cb166352b35463f1f39fd78c89565a47bc96ad4445a813924ceaf2b5",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/mode-toggle.tsx",
+      "source_blob_sha": "13eac5d1e79df64acf3ad8a39675ae14c632c2bc",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "88ee6e78898efecf1cb7a1e897ad98687bdc0e08751d0923225957793016d9be",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
     },
     "RXN-morphing-expandable-menu": {
       "component_id": "RXN-morphing-expandable-menu",
@@ -2953,6 +2998,21 @@
       "captured_on": "2026-11-19",
       "bytes": 9940
     },
+    "RXN-ruixen-prompt-box": {
+      "component_id": "RXN-ruixen-prompt-box",
+      "preview_path": "docs/assets/componenti/RXN-ruixen-prompt-box.png",
+      "preview_sha256": "83f81cf03b333f021bac227ff76f83699c3b61ba2d0ee23c9e36af1775f31aae",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/ruixen-prompt-box.tsx",
+      "source_blob_sha": "66536d96ccae4720761621b47a4a770db2f1a89a",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "88ee6e78898efecf1cb7a1e897ad98687bdc0e08751d0923225957793016d9be",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
+    },
     "RXN-sales-ai-hero": {
       "component_id": "RXN-sales-ai-hero",
       "preview_path": "docs/assets/componenti/RXN-sales-ai-hero.png",
@@ -3256,6 +3316,21 @@
       "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
       "captured_on": "2026-11-19",
       "bytes": 19346
+    },
+    "RXN-smooth-cursor": {
+      "component_id": "RXN-smooth-cursor",
+      "preview_path": "docs/assets/componenti/RXN-smooth-cursor.png",
+      "preview_sha256": "b57d44717ee052635f27d4a67f6fe6689a019c0fc5faf94efdcfe9d8a68af58a",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/smooth-cursor.tsx",
+      "source_blob_sha": "6e71c800e18204846bad22494d3874c44f12efb0",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "88ee6e78898efecf1cb7a1e897ad98687bdc0e08751d0923225957793016d9be",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
     },
     "RXN-social-preview-dock": {
       "component_id": "RXN-social-preview-dock",

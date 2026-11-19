@@ -397,6 +397,24 @@
       "reuse_scope": "DOCUMENTARY_REFERENCE_ONLY",
       "note": "Source-git-blob-matched TSX executed; client runtime visual fidelity not certified"
     },
+    "DSP-001": {
+      "component_id": "DSP-001",
+      "preview_path": "docs/assets/componenti/DSP-001.png",
+      "preview_sha256": "c7dfd88861b4f2e59593313efe09ead6d3c58252ffde3caa51974e8f014dd6a7",
+      "origin_url": "https://devlibraries.com/libraries/easeui",
+      "source_blob_sha": "69d6711aa860b3784fa5a27f3dcad925baa333ed",
+      "capture_mode": "ARCHIVED_ORIGINAL_TSX_ISOLATED_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "88ee6e78898efecf1cb7a1e897ad98687bdc0e08751d0923225957793016d9be",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "source_provider": "DEVLIBRARIES_EASEUI",
+      "source_reference_url": "https://devlibraries.com/libraries/easeui",
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/easeui/dsp-001.tsx",
+      "reuse_scope": "DOCUMENTARY_REFERENCE_ONLY",
+      "note": "Source-git-blob-matched TSX executed; client runtime visual fidelity not certified"
+    },
     "DSP-002": {
       "component_id": "DSP-002",
       "preview_path": "docs/assets/componenti/DSP-002.png",
