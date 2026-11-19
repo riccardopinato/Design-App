@@ -262,29 +262,6 @@
       "license": "OFFICIAL_GUIDANCE_NOT_UNIVERSAL_ASSET_CODE_LICENSE",
       "related_intake": "sources/MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md",
       "updated_at": "2026-11-19"
-    },
-    {
-      "id": "DESIGN-SITE-015",
-      "name": "Flutter Component Library",
-      "url": "https://fluttercomponentlibrary.com/",
-      "kind": "FLUTTER_UI_COMPONENT_EXAMPLE_DIRECTORY",
-      "status": "REFERENCE",
-      "direct_page_fetch": "15_INDIVIDUAL_COMPONENT_PAGES_TEXT_VERIFIED;HOMEPAGE_DYNAMIC",
-      "recommended_for": [
-        "buttons",
-        "navigation",
-        "cards",
-        "sheets",
-        "filters",
-        "sliders",
-        "modest motion",
-        "contextual widgets"
-      ],
-      "use": "Priority on-demand Flutter component discovery AFTER user-curated Design-App/product style and applicable Golden/donor. Copy source ONLY with exact source file, compatible license, dependencies/SDK and consumer QA evidence. Do not auto-install components.",
-      "source_content_summary": "15 component pages show titles/demos/declared Dart paths; some list pub packages. Original Dart sources, source repo and site-wide commercial license were not verified from available page text.",
-      "license": "NOT_ESTABLISHED_DO_NOT_COPY_SOURCE_OR_ASSETS",
-      "related_intake": "sources/FLUTTER_COMPONENT_LIBRARY_RESEARCH_2026-11-19.md",
-      "updated_at": "2026-11-19"
     }
   ]
 }

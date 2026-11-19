@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "provider": "Ruixen UI",
+  "source_repository": "ruixenui/ruixen.com",
+  "source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941",
+  "license": "MIT",
+  "license_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/LICENSE.md",
+  "status": "ARCHIVED_SOURCE_ONLY_NOT_FLUTTER_NOT_RUNTIME_TESTED",
+  "entries": [
+    {
+      "id": "RXN-accordion-editorial",
+      "source_path": "registry/ruixenui/accordion-editorial.tsx",
+      "source_blob_sha": "4cb06c9f9e429d7f85af7af0984d9be67f0596ee",
+      "local_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/accordion-editorial.tsx",
+      "external_assets_or_url_detected": false,
+      "source_bytes": 3455,
+      "source_verified": true,
+      "consumer_implemented": false
+    },
+    {
+      "id": "RXN-account-menu",
+      "source_path": "registry/ruixenui/account-menu.tsx",
+      "source_blob_sha": "fc61861c7d9f025b3e04b1f749419a7ad0eb156b",
+      "local_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/account-menu.tsx",
+      "external_assets_or_url_detected": false,
+      "source_bytes": 5888,
+      "source_verified": true,
+      "consumer_implemented": false
+    },
+    {
+      "id": "RXN-action-toolbar",
+      "source_path": "registry/ruixenui/action-toolbar.tsx",
+      "source_blob_sha": "e503979ca6744abafb8e040e4b0c01bb9b47ea35",
+      "local_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/action-toolbar.tsx",
+      "external_assets_or_url_detected": false,
+      "source_bytes": 3733,
+      "source_verified": true,
+      "consumer_implemented": false
+    },
+    {
+      "id": "RXN-add-task-sheet",
+      "source_path": "registry/ruixenui/add-task-sheet.tsx",
+      "source_blob_sha": "edeb5fb7d4cf3b74fea6048ad720493e9e949378",
+      "local_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/add-task-sheet.tsx",
+      "external_assets_or_url_detected": false,
+      "source_bytes": 9805,
+      "source_verified": true,
+      "consumer_implemented": false
+    },
+    {
+      "id": "RXN-animated-circular-progress-bar",
+      "source_path": "registry/ruixenui/animated-circular-progress-bar.tsx",
+      "source_blob_sha": "5a633477c432e5a04a23a597c2254e0180550210",
+      "local_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-circular-progress-bar.tsx",
+      "external_assets_or_url_detected": false,
+      "source_bytes": 3546,
+      "source_verified": true,
+      "consumer_implemented": false
+    },
+    {
+      "id": "RXN-animated-list",
+      "source_path": "registry/ruixenui/animated-list.tsx",
+      "source_blob_sha": "872365ba2638254747c867dbd08386c0cdefa1d4",
+      "local_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-list.tsx",
+      "external_assets_or_url_detected": false,
+      "source_bytes": 1903,
+      "source_verified": true,
+      "consumer_implemented": false
+    },
+    {
+      "id": "RXN-animated-number-flip",
+      "source_path": "registry/ruixenui/animated-number-flip.tsx",
+      "source_blob_sha": "4bbaf22235615e0e6365c46b3a985510751b69d9",
+      "local_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-number-flip.tsx",
+      "external_assets_or_url_detected": false,
+      "source_bytes": 1452,
+      "source_verified": true,
+      "consumer_implemented": false
+    },
+    {
+      "id": "RXN-animated-theme-toggler",
+      "source_path": "registry/ruixenui/animated-theme-toggler.tsx",
+      "source_blob_sha": "75d45c3f7ec6d1496efe5d8bd71bede3d26822ef",
+      "local_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/animated-theme-toggler.tsx",
+      "external_assets_or_url_detected": true,
+      "source_bytes": 5374,
+      "source_verified": true,
+      "consumer_implemented": false
+    },
+    {
+      "id": "RXN-better-time-picker",
+      "source_path": "registry/ruixenui/better-time-picker.tsx",
+      "source_blob_sha": "400f40a987e35dcd3b039380cf752ba32a1d5836",
+      "local_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/better-time-picker.tsx",
+      "external_assets_or_url_detected": false,
+      "source_bytes": 10673,
+      "source_verified": true,
+      "consumer_implemented": false
+    },
+    {
+      "id": "RXN-bottom-drawers",
+      "source_path": "registry/ruixenui/bottom-drawers.tsx",
+      "source_blob_sha": "4378f98670bbb5da31098c1677f49e399b24b0e6",
+      "local_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/bottom-drawers.tsx",
+      "external_assets_or_url_detected": false,
+      "source_bytes": 6408,
+      "source_verified": true,
+      "consumer_implemented": false
+    },
+    {
+      "id": "RXN-button-copy",
+      "source_path": "registry/ruixenui/button-copy.tsx",
+      "source_blob_sha": "c0c864a7eb407866d545bba55e4e2f6ea43c34b4",
+      "local_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/button-copy.tsx",
+      "external_assets_or_url_detected": false,
+      "source_bytes": 5086,
+      "source_verified": true,
+      "consumer_implemented": false
+    },
+    {
+      "id": "RXN-button-split",
+      "source_path": "registry/ruixenui/button-split.tsx",
+      "source_blob_sha": "14b2754bdaabb8130d4bce46a2e6862c18494429",
+      "local_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/button-split.tsx",
+      "external_assets_or_url_detected": false,
+      "source_bytes": 7512,
+      "source_verified": true,
+      "consumer_implemented": false
+    }
+  ]
+}

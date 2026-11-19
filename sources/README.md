@@ -68,7 +68,3 @@ Questa directory contiene studi di sorgenti esterne e donatori candidati, non ne
 ## Material Design 3 — possibile scelta per utility, non stile universale (19/11/2026)
 
 [Material 3 source audit](./MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md) · [Matrice quattro utility](../UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json). Sito Google `DESIGN-SITE-014`, riferimento facoltativo con priorita' sempre alla Product Bible e ai design curati dall'utente. Non rimuovere automaticamente Material 3 dalle app che lo usano e non installarlo in app che non lo scelgono. Stato solo `PROPOSED_ONLY` per le quattro associazioni, nessun consumer verificato o modificato.
-
-## Flutter Component Library — 15 component cards & app fit (19/11/2026)
-
-[Audit delle schede e limite di licenza](./FLUTTER_COMPONENT_LIBRARY_RESEARCH_2026-11-19.md) · [catalogo JSON bidirezionale con 15 schede / 6 app / 18 associazioni](../UI-UX/FLUTTER_COMPONENT_LIBRARY_APP_MAP_2026-11-19.json). Sito `DESIGN-SITE-015` come fonte di discovery prioritaria nel lavoro visuale Flutter **solo dopo** preferenze dell'utente in Design-App e Golden/donor. Le schede testuali indicano file Dart, ma non sono stati verificati sorgenti completi o licenza di riuso commerciale: **REFERENCE_ONLY**, niente copia diretta o installazioni, proposte `PROPOSED_ONLY`.

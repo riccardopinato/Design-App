@@ -218,13 +218,3 @@ Fonte: [Material Design 3](https://m3.material.io/) · [studio e confini](../sou
 Fit ipotizzato: **MEDIUM**. Possibile ambito: battery diagnostics/settings and compact summary widgets; avoid stock dashboard look.
 
 **PROPOSED_ONLY / NOT_VERIFIED.** M3 non e' obbligatorio e non e' vietato; prima considerare Product Bible e stili Design-App curati dall'utente. Verificare se il consumer e' Flutter o Kotlin/Compose e se usa gia' M3. Nessuna installazione o modifica automatica, nessuna certificazione estetica senza prove su schermata reale.
-
-## Flutter Component Library — possibili componenti (19/11/2026)
-
-Fonte: [Flutter Component Library](https://fluttercomponentlibrary.com/) · [analisi delle licenze e sorgenti](../sources/FLUTTER_COMPONENT_LIBRARY_RESEARCH_2026-11-19.md) · [matrice dei componenti per app](../UI-UX/FLUTTER_COMPONENT_LIBRARY_APP_MAP_2026-11-19.json).
-
-- **FCL-004 · Banner Info** — fit HIGH: Battery condition alerts grounded in actual device data.
-- **FCL-010 · Slider** — fit MEDIUM: Preference thresholds only where operating-system behavior allows.
-- **FCL-005 · Bottom Sheet** — fit MEDIUM: Technical drill-down without obscuring current telemetry.
-
-**Status: PROPOSED_ONLY / REFERENCE_ONLY**. I percorsi Dart dichiarati non sono sorgenti recuperati e la licenza del catalogo non e' verificata; non copiare codice o asset prima di comprovare i diritti. Design-App preferita dall'utente e Product Bible precedono; nessuna applicazione, dipendenza o mock-up approvato modificato.
