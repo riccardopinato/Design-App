@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Design-App — Componenti e anteprime per app</title>
+<style>
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:#182230;background:#f5f7fa}
+*{box-sizing:border-box}body{margin:0}header{position:sticky;top:0;z-index:3;background:#ffffffed;backdrop-filter:blur(14px);border-bottom:1px solid #dbe1e8;padding:17px clamp(14px,3vw,40px)}
+h1{font-size:clamp(1.25rem,2vw,1.75rem);margin:0}h2{font-size:1.2rem}p{color:#536172;line-height:1.5}
+a{color:#174ea6}a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #3979ed;outline-offset:3px}
+.toolbar{display:flex;gap:9px;flex-wrap:wrap;margin:15px 0 0}.toolbar>*{border:1px solid #cbd5e1;border-radius:9px;background:#fff;color:#17243a;padding:10px;min-width:135px}.toolbar input{flex:2;min-width:190px}.toolbar select{flex:1}
+main{max-width:1520px;padding:18px clamp(14px,3vw,40px) 64px;margin:auto}
+.notice{background:#fefcf5;border:1px solid #e3d8b5;border-radius:12px;padding:12px 15px;font-size:.9rem;color:#55472a}.summary{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin:18px 0}
+.tablewrap{width:100%;overflow-x:auto;background:white;border:1px solid #dee4ec;border-radius:12px;box-shadow:0 3px 18px #1720360a}
+table{border-collapse:collapse;width:100%;min-width:785px}th,td{padding:10px 12px;text-align:left;vertical-align:middle;border-bottom:1px solid #e9edf2}th{background:#f6f8fa;font-size:.81rem;color:#425067;position:sticky;top:0}td{font-size:.89rem}
+tbody tr:hover{background:#f8faff}.thumb{width:112px;height:76px;object-fit:contain;background:#eff3f8;border:1px solid #e1e6ee;border-radius:9px;display:block}.thumb-btn{border:0;background:none;padding:0;cursor:zoom-in}
+.missing{width:112px;height:76px;border:1px dashed #cbd5e1;border-radius:9px;display:grid;place-content:center;text-align:center;color:#697586;font-size:.76rem;background:#f8fafc;padding:6px}
+.tiny{font-size:.76rem;color:#667085;display:block;margin-top:3px}.chip{font-size:.75rem;border-radius:6px;background:#eef4fd;color:#24477b;padding:4px 7px;display:inline-block}
+.pager{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:16px}.pager button,dialog button{border:1px solid #ccd5e0;border-radius:8px;padding:9px 13px;background:white;color:#1b2d47;cursor:pointer}.pager button:disabled{opacity:.4;cursor:not-allowed}
+dialog{width:min(960px,96vw);max-height:94dvh;border:0;padding:0;border-radius:15px;background:#fff;color:#1b293d;box-shadow:0 30px 80px #0006}dialog::backdrop{background:#0c1420d0}
+.modal-header{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 18px;border-bottom:1px solid #e0e5ed}
+.modal-main{padding:15px 18px;overflow:auto;max-height:80dvh}.large-preview{max-height:64vh;max-width:100%;margin:auto;display:block;object-fit:contain;background:#f7f9fc}
+.demo-frame{display:block;width:100%;height:340px;border:1px solid #e0e6ee;border-radius:10px;background:#fafafa}.modal-links{display:flex;gap:15px;flex-wrap:wrap;margin-top:12px}
+.muted{font-size:.86rem;color:#6a7688}
+@media(prefers-color-scheme:dark){:root{color:#ecf0f8;background:#0d1320}header,.tablewrap,dialog{background:#172033;color:#ecf0f8;border-color:#35445a}th{background:#202b40;color:#d4e0f1}td{border-color:#314056}tbody tr:hover{background:#1c2b42}.notice{background:#292722;color:#f1dfa8;border-color:#6b5a39}.toolbar>*{background:#1e2a3f;color:#e5edfa;border-color:#526074}.missing{background:#202b3d;color:#c8d4e7}.pager button,dialog button{background:#1c293d;color:white;border-color:#506079}.thumb{background:#273345}.chip{background:#274568;color:#e6f2ff}p,.tiny,.muted{color:#c2cedf}a{color:#93beff}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+<h1>Biblioteca componenti — Anteprime per app</h1>
+<p id="lead">478 componenti canonici, 4 alias storici · Anteprime reali quando disponibili · Fonti e licenze separate dal riuso</p>
+<div class="toolbar" aria-label="Filtra componenti">
+<input id="search" type="search" placeholder="Cerca ID, nome, categoria…" aria-label="Cerca componenti">
+<select id="app" aria-label="Filtra per app"><option value="">Tutte le app e i componenti</option></select>
+<select id="source" aria-label="Filtra per fonte"><option value="">Tutte le fonti</option></select>
+<select id="preview" aria-label="Filtra per anteprima"><option value="">Tutte le anteprime</option><option value="ready">Con immagine</option><option value="missing">Senza immagine</option></select>
+</div>
+</header>
+<main>
+<div class="notice">Le miniature mostrano <strong>solo immagini di provenienza registrata</strong>. In mancanza di una cattura verificabile trovi la dicitura «Da acquisire» e il link alla fonte. Per Uiverse è possibile anche visualizzare il codice HTML/CSS originale in una finestra isolata. Uno screenshot non significa componente Flutter pronto all'uso.</div>
+<div class="summary"><strong id="summary" role="status">Caricamento catalogo…</strong><span class="muted" id="coverage"></span></div>
+<div class="tablewrap">
+<table aria-label="Catalogo con colonna Anteprima">
+<thead><tr><th scope="col">Anteprima</th><th scope="col">ID / Componente</th><th scope="col">Fonte</th><th scope="col">Categoria</th><th scope="col">App associate</th><th scope="col">Stato codice</th></tr></thead>
+<tbody id="rows"><tr><td colspan="6">Caricamento…</td></tr></tbody>
+</table>
+</div>
+<div class="pager"><button id="prev" type="button">Precedente</button><span id="pages"></span><button id="next" type="button">Successiva</button></div>
+<p class="muted">Il catalogo conserva 478 ID canonici; i 277 componenti Ruixen attualmente senza associazioni non vengono assegnati arbitrariamente alle app. Filtra «Tutte» per vederli. <a href="../BIBLIOTECA_COMPONENTI/README.md">Guida e vincoli</a>.</p>
+</main>
+<dialog id="lightbox" aria-labelledby="modalTitle">
+<div class="modal-header"><strong id="modalTitle"></strong><button id="close" aria-label="Chiudi anteprima">Chiudi ✕</button></div>
+<div class="modal-main"><div id="modalContent"></div><div class="modal-links" id="modalLinks"></div></div>
+</dialog>
+<script>
+"use strict";
+const OWNER="riccardopinato",REPO="Design-App";
+const LOCAL_CATALOG="../BIBLIOTECA_COMPONENTI/CATALOGO.json";
+const LOCAL_PREVIEWS="../BIBLIOTECA_COMPONENTI/ANTEPRIME.json";
+const rawRoot="https://raw.githubusercontent.com/"+OWNER+"/"+REPO+"/main/";
+const onPages=location.hostname.endsWith(".github.io");
+const refs={rows:document.getElementById("rows"),app:document.getElementById("app"),source:document.getElementById("source"),search:document.getElementById("search"),preview:document.getElementById("preview")};
+let catalog=[],previews={},page=0,current=[],lastFocused=null;
+const PER_PAGE=35;
+function node(tag,cls,text){const e=document.createElement(tag);if(cls)e.className=cls;if(text!=null)e.textContent=text;return e}
+function urlFor(local){return onPages?rawRoot+local:local}
+function repoUrl(local){return "https://github.com/"+OWNER+"/"+REPO+"/blob/main/"+local.split("/").map(encodeURIComponent).join("/")}
+async function loadJSON(local){const url=urlFor(local);const res=await fetch(url,{cache:"no-store"});if(!res.ok)throw new Error(local+": HTTP "+res.status);return await res.json()}
+function query(){
+const s=refs.search.value.trim().toLocaleLowerCase("it"),a=refs.app.value,f=refs.source.value,p=refs.preview.value;
+current=catalog.filter(x=>(!a||(a==="__unassigned__"?!x.apps.length:x.apps.includes(a)))&&(!f||x.source_site===f)&&(!s||[x.id,x.name,x.category,x.source_site,...x.apps].join(" ").toLocaleLowerCase("it").includes(s))&&(!p||(p==="ready"?!!previews[x.id]?.image_path:!previews[x.id]?.image_path)));
+page=0;draw();
+}
+function sourceLink(c){const href=c.source_url||(c.archive_path?repoUrl(c.archive_path):null);if(!href)return node("span","muted","Fonte non registrata");const a=node("a",null,"Apri fonte");a.href=href;a.target="_blank";a.rel="noopener noreferrer";return a}
+function pic(c){
+ const wrapper=node("div");const p=previews[c.id]||{};
+ if(p.image_path){
+  const b=node("button","thumb-btn");b.type="button";b.title="Ingrandisci "+c.id;b.setAttribute("aria-label","Ingrandisci anteprima "+c.id);
+  const img=node("img","thumb");img.loading="lazy";img.alt="Anteprima reale di "+c.name;img.src=onPages?"./"+p.image_path.replace(/^docs\//,""): "../"+p.image_path;
+  img.addEventListener("error",()=>{b.replaceWith(node("div","missing","Immagine non raggiungibile"))});b.append(img);b.addEventListener("click",()=>show(c,b));wrapper.append(b);
+ }else{
+  const box=node("div","missing","Da acquisire");wrapper.append(box);
+  if(c.source_site==="UIVERSE"&&c.archive_path){const b=node("button","tiny");b.type="button";b.textContent="Anteprima dal codice";b.addEventListener("click",()=>show(c,b));wrapper.append(b)}
+ }
+ return wrapper
+}
+function draw(){
+ const start=page*PER_PAGE;refs.rows.replaceChildren();
+ for(const c of current.slice(start,start+PER_PAGE)){
+  const tr=node("tr");const cells=Array.from({length:6},()=>node("td"));
+  cells[0].append(pic(c));
+  const id=node("strong",null,c.id+" · "+c.name);cells[1].append(id,node("br"));cells[1].append(sourceLink(c));
+  cells[2].append(node("span","chip",c.source_site.replaceAll("_"," ")));
+  cells[3].textContent=c.category||"—";cells[4].textContent=c.apps.length?c.apps.join(", "):"Non assegnato";
+  cells[5].append(node("span","tiny",c.archive_state==="ARCHIVED_SOURCE"?"Sorgente originale archiviata":"Solo riferimento"));
+  cells.forEach(x=>tr.append(x));refs.rows.append(tr);
+ }
+ if(!current.length){const tr=node("tr"),td=node("td");td.colSpan=6;td.textContent="Nessuna corrispondenza";tr.append(td);refs.rows.append(tr)}
+ const pages=Math.max(1,Math.ceil(current.length/PER_PAGE));
+ document.getElementById("summary").textContent=current.length+" componenti trovati · "+Math.min(start+1,current.length)+"–"+Math.min(start+PER_PAGE,current.length);
+ document.getElementById("pages").textContent=(page+1)+" / "+pages;
+ document.getElementById("prev").disabled=page===0;document.getElementById("next").disabled=page>=pages-1;
+}
+async function show(c,source){
+ lastFocused=source;const modal=document.getElementById("lightbox");document.getElementById("modalTitle").textContent=c.id+" · "+c.name;
+ const slot=document.getElementById("modalContent");const links=document.getElementById("modalLinks");slot.replaceChildren();links.replaceChildren();
+ const p=previews[c.id]||{};
+ if(p.image_path){
+  const img=node("img","large-preview");img.alt="Anteprima di "+c.name;img.src=onPages?"./"+p.image_path.replace(/^docs\//,""):"../"+p.image_path;slot.append(img);
+  slot.append(node("p","muted","Cattura statica di riferimento, non prova di test runtime nell'app."));
+ }else if(c.source_site==="UIVERSE"&&c.archive_path){
+  slot.append(node("p","muted","Rendering isolato del codice HTML/CSS originale archiviato; eventuali asset esterni sono bloccati."));
+  const frame=node("iframe","demo-frame");frame.title="Anteprima isolata "+c.id;frame.setAttribute("sandbox","");frame.setAttribute("loading","lazy");slot.append(frame);
+  try{
+   const res=await fetch(urlFor(c.archive_path));if(!res.ok)throw Error("HTTP "+res.status);
+   let code=await res.text();
+   const csspath=c.archive_path.replace(/\.html$/,".css");const cssRes=await fetch(urlFor(csspath)).catch(()=>null);
+   if(cssRes?.ok)code+="<style>"+await cssRes.text()+"</style>";
+   code=code.replace(/<script\b[^>]*>[\s\S]*?<\/script\s*>/gi,"");
+   frame.srcdoc='<meta http-equiv="Content-Security-Policy" content="default-src \'none\'; style-src \'unsafe-inline\'; img-src data: blob:; font-src data:"><style>html,body{min-height:100%;margin:0;display:grid;place-items:center;background:#f5f7fb;color:#1c273b}*,*:before,*:after{box-sizing:border-box}</style>'+code;
+  }catch(e){slot.append(node("p","muted","Impossibile caricare l'esempio. Apri la fonte originale."))}
+ }else slot.append(node("p","muted","Non esiste ancora una cattura validata di questo componente. Apri la pagina sorgente per esaminare la demo, se disponibile."));
+ const u=c.source_url||(c.archive_path?repoUrl(c.archive_path):null);
+ if(u){const a=node("a",null,"Apri fonte originale");a.href=u;a.target="_blank";a.rel="noopener noreferrer";links.append(a)}
+ modal.showModal();
+ history.replaceState(null,"","#"+encodeURIComponent(c.id));
+}
+document.getElementById("close").onclick=()=>document.getElementById("lightbox").close();
+document.getElementById("lightbox").addEventListener("close",()=>{lastFocused?.focus();lastFocused=null});
+document.getElementById("prev").onclick=()=>{page--;draw()};
+document.getElementById("next").onclick=()=>{page++;draw()};
+for(const i of Object.values(refs).filter(x=>x!==refs.rows))i.addEventListener(i===refs.search?"input":"change",query);
+(async function init(){
+ try{
+  const [cat,manifest]=await Promise.all([loadJSON(LOCAL_CATALOG),loadJSON(LOCAL_PREVIEWS).catch(()=>({previews:{}}))]);
+  if(cat.counts?.unique_components!==478||cat.components.length!==478)throw Error("Conteggio catalogo inatteso");
+  catalog=cat.components;previews=manifest.previews||{};
+  const apps=[...new Set(catalog.flatMap(c=>c.apps))].sort((a,b)=>a.localeCompare(b,"it"));
+  for(const a of apps){const option=node("option",null,a);option.value=a;refs.app.append(option)}
+  const un=node("option",null,"Senza app associata");un.value="__unassigned__";refs.app.append(un);
+  for(const a of [...new Set(catalog.map(c=>c.source_site))].sort()){const option=node("option",null,a.replaceAll("_"," "));option.value=a;refs.source.append(option)}
+  const count=Object.values(previews).filter(x=>x.image_path).length;
+  document.getElementById("coverage").textContent=count+" miniature registrate / 478 · "+apps.length+" app";
+  const params=new URLSearchParams(location.search);refs.app.value=params.get("app")||"";
+  const id=decodeURIComponent(location.hash.slice(1));if(id){const c=catalog.find(x=>x.id===id||cat.aliases?.[id]?.canonical_id===x.id);if(c){refs.app.value="";refs.search.value=c.id}}
+  query();
+  if(id){const x=current.find(c=>c.id===id||cat.aliases?.[id]?.canonical_id===c.id);if(x)show(x,refs.search)}
+ }catch(err){
+  refs.rows.replaceChildren();const tr=node("tr"),td=node("td");td.colSpan=6;
+  td.textContent="Catalogo non caricato: "+err.message+". Su computer apri il sito con un server locale (python -m http.server) o GitHub Pages.";
+  tr.append(td);refs.rows.append(tr);document.getElementById("summary").textContent="Errore di lettura";
+ }
+})();
+</script>
+</body></html>
