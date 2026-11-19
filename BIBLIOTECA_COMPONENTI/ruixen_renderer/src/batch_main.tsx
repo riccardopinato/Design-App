@@ -2,7 +2,16 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './style.css';
 
-const modules = import.meta.glob('../../sorgenti/**/*.tsx');
+// Compile ONE requested archived source per page. A broad glob caused Vite to
+// transform unrelated files and show their error overlays over valid components.
+declare const __DESIGN_APP_SOURCE_ROOT__: string;
+const sourceRoots: Record<string, string> = {
+  RXN: 'ruixen',
+  AMX: 'amicro',
+  DBM: 'amicro',
+  DSP: 'amicro',
+  WML: 'watermelon',
+};
 const slug = new URLSearchParams(location.search).get('cid') || '';
 const target = document.getElementById('component-root');
 if (!target) throw new Error('Missing original source renderer root');
@@ -30,15 +39,20 @@ function meaningfulExport(m: Record<string, unknown>, cid: string) {
   return null;
 }
 async function mount(cid: string) {
-  const variants = [
-    '../../sorgenti/ruixen/'+cid.slice(4)+'.tsx',
-    '../../sorgenti/amicro/'+cid.toLowerCase()+'.tsx',
-    '../../sorgenti/watermelon/'+cid.toLowerCase()+'.tsx',
-    '../../sorgenti/easeui/'+cid.toLowerCase()+'.tsx',
-  ];
-  const path=variants.find(v=>modules[v]);
-  if (!path) throw Error('NO_ARCHIVED_MODULE_FOR_UID '+cid);
-  const m=await modules[path]() as Record<string, unknown>;
+  if (!/^(RXN-[a-z0-9-]+|(?:AMX|DBM|DSP|WML)-[0-9]{3})$/.test(cid)) {
+    throw Error('INVALID_CANONICAL_COMPONENT_ID');
+  }
+  const prefix=cid.split('-')[0];
+  const moduleName=cid.startsWith('RXN-')?cid.slice(4):cid.toLowerCase();
+  const sourceDir=(prefix==='DSP' && cid==='DSP-001')?'easeui':
+    (prefix==='DBM' && cid==='DBM-024')?'watermelon':
+    sourceRoots[prefix];
+  if (!sourceDir) throw Error('NO_ORIGINAL_SOURCE_PROVIDER '+cid);
+  const path=sourceDir+'/'+moduleName+'.tsx';
+  const sourceUrl='/@fs'+__DESIGN_APP_SOURCE_ROOT__+'/'+path;
+  // This source path must map to the SHA-pinned original verified by Python.
+  // Vite does not pre-transform any other repo file.
+  const m=await import(/* @vite-ignore */ sourceUrl) as Record<string, unknown>;
   const component = meaningfulExport(m,cid);
   if (!component) throw Error('NO_REACT_COMPONENT_EXPORT; exports='+Object.keys(m).join(','));
   const fixtureProps = {

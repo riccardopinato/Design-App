@@ -16,6 +16,9 @@ const originalDeps = [
 }));
 
 export default defineConfig({
+  define: {
+    __DESIGN_APP_SOURCE_ROOT__: JSON.stringify(path.resolve(__dirname, '../sorgenti')),
+  },
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: [{ find: '@', replacement: path.resolve(__dirname, 'src') }, ...originalDeps],
