@@ -231,7 +231,17 @@ async def main():
                                 el.style.height='220px';
                                 el.style.background='#111827';
                             }""")
-                        if cid=="RXN-scrub-datetime":
+                        if cid=="AMX-002":
+                            # Crop the real cursor-trail nodes rather than a
+                            # mostly empty 720x340 backdrop. First prove that
+                            # the source created its moving visual elements.
+                            dots=target.locator("div.fixed.pointer-events-none")
+                            n_dots=await dots.count()
+                            if n_dots<5:
+                                raise ValueError("CURSOR_TRAIL_ORIGINAL_DOTS_MISSING "+str(n_dots))
+                            raw=await page.screenshot(clip={"x":445,"y":225,"width":145,"height":145},
+                                animations="disabled",timeout=14000)
+                        elif cid=="RXN-scrub-datetime":
                             # Focus on the two actual interactive rows, not
                             # the empty space around the text control.
                             rows=target.locator("div.flex.items-baseline")

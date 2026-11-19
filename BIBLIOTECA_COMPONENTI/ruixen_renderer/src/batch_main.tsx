@@ -174,6 +174,21 @@ async function mount(cid: string) {
     ...(cid==='RXN-scrub-datetime'
       ? {value:new Date('2026-11-19T12:00:00'),sound:false}
       : {}),
+    // The source skeleton accepts dimensions via className. Without explicit
+    // dimensions its empty shimmer container is correctly zero-height.
+    ...(cid==='DBM-016'
+      ? {className:'w-80 h-24',shimmerColor:'dark'}
+      : {}),
+    // The source loader is intentionally tiny. Scale the ACTUAL loader using
+    // its public size/color props instead of drawing a substitute graphic.
+    ...(cid==='DBM-011'
+      ? {size:142,color:'bg-blue-500',className:''}
+      : {}),
+    // CursorTrail is only visible after mouse movement. Use the original
+    // component with large dots so the trace survives a static thumbnail.
+    ...(cid==='AMX-002'
+      ? {size:36,count:8,color:'bg-blue-500'}
+      : {}),
     // VideoText is a text-shaped live video mask. The fixture supplies an
     // original generated, local canvas MediaStream after mount. There is no
     // external media, stock photo, or invented component screenshot.
@@ -219,7 +234,8 @@ async function mount(cid: string) {
   if (cid==='RXN-animated-beam') {
     node=React.createElement(BeamSourceFixture,{component:component as React.ElementType});
   }
-  const isSmallLoading=cid.startsWith('DBM-')||cid==='AMX-006'||cid==='RXN-scrub-datetime';
+  const isSmallLoading=(cid.startsWith('DBM-') && cid!=='DBM-011' && cid!=='DBM-016')||
+    cid==='AMX-006'||cid==='RXN-scrub-datetime';
   const framed=isSmallLoading
     ? React.createElement('div',{style:{transform:'scale(3)',transformOrigin:'center'}},node)
     : node;
