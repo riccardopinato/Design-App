@@ -40,6 +40,17 @@ The initial Project harvest includes:
 - 37 curated GitHub design, motion, audio and tooling sources from 2026-10-27;
 - 22 extra app-design and visual interaction sources from 2026-10-30.
 
+## Anteprime visuali di tutti i componenti
+
+[Tabella canonica dei 478 componenti con colonna Anteprima](BIBLIOTECA_COMPONENTI/TABELLA_478.md) ·
+[Tabelle con immagini filtrate per ciascuna app](BIBLIOTECA_COMPONENTI/PER_APP/README.md) ·
+[Visualizzatore HTML con ingrandimento](docs/componenti.html).
+
+Le miniature renderizzate sono riferimenti visivi: **110 Uiverse acquisiti dal loro codice HTML/CSS originale**;
+le altre 368 voci sono esplicitamente in attesa di immagini verificate. Le viste per app
+sono generate dalle relazioni di `BIBLIOTECA_COMPONENTI/CATALOGO.json`, senza
+ricopiare o alterare le Product Bible.
+
 ## Fast lookup
 
 Start here:
