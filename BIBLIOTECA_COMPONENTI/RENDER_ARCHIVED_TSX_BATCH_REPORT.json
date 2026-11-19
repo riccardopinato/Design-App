@@ -1,21 +1,19 @@
 {
-  "original_pending_count": 23,
-  "source_eligible": 14,
-  "captured": [
-    "RXN-video-text"
-  ],
+  "original_pending_count": 22,
+  "source_eligible": 13,
+  "captured": [],
   "failed": {
+    "AMX-004": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useContext')\"]",
     "DBM-002": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useContext')\"]",
     "DBM-011": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useContext')\"]",
     "DBM-016": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useContext')\"]",
-    "AMX-004": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useContext')\"]",
     "AMX-002": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useContext')\"]",
     "RXN-glowing-send-input": "ORIGINAL_TSX_IMPORT_OR_RENDER_FAILED TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx?import {\"console\": [\"Failed to load resource: the server responded with a status of 500 (Internal Server Error)\", \"ARCHIVED_TSX_BATCH_FAILED RXN-glowing-send-input TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx\"], \"http\": [\"500 http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx?import\"], \"requests\": [\"http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx?import\"]}",
-    "RXN-file-tree": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useState')\"]",
     "RXN-carousel-3d-select": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useMemo')\"]",
+    "RXN-file-tree": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useState')\"]",
+    "RXN-behavioral-history-select": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useMemo')\"]",
     "RXN-package-installer-tabs": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useContext')\"]",
     "RXN-command-deck": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useState')\"]",
-    "RXN-behavioral-history-select": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useMemo')\"]",
     "RXN-scrub-datetime": "NEAR_BLANK_UNVERIFIED_COMPONENT",
     "RXN-ruixen-query-box": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useMemo')\"]"
   },
@@ -34,7 +32,7 @@
   "eligible_by_source": {
     "DEVLIBRARIES_AMICRO": 2,
     "DEVLIBRARIES_BOOKMARKS": 3,
-    "RUIXEN": 9
+    "RUIXEN": 8
   },
   "source_integrity": "Exact source blob SHA checked before execution",
   "status": "SOURCE_PREVIEW_UNREVIEWED",
