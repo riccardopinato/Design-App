@@ -2,6 +2,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { flushSync } from 'react-dom';
 import { ThemeProvider } from 'next-themes';
+import { FavouriteIcon } from '@hugeicons/core-free-icons';
 import './style.css';
 
 // Compile ONE requested archived source per page. A broad glob caused Vite to
@@ -67,7 +68,8 @@ async function mount(cid: string) {
   // This source path must map to the SHA-pinned original verified by Python.
   // Vite does not pre-transform any other repo file.
   const m=await import(/* @vite-ignore */ sourceUrl) as Record<string, unknown>;
-  const component = meaningfulExport(m,cid);
+  const component = meaningfulExport(m,cid) ||
+    (cid==='RXN-file-tree' ? m.Tree : null);
   if (!component) throw Error('NO_REACT_COMPONENT_EXPORT; exports='+Object.keys(m).join(','));
   const fixtureProps = {
     className:'relative w-full h-full',
@@ -105,6 +107,32 @@ async function mount(cid: string) {
       : fixtureProps.className,
     // Data is required by the original ArcTimeline API; omitting it caused a
     // source exception, not a defect in the archived component.
+    ...(cid==='RXN-behavioral-history-select'||cid==='RXN-carousel-3d-select'
+      ? {label:'Scegli un elemento',options:[
+          {value:'design',label:'Design',color:'#6366f1'},
+          {value:'test',label:'Testing',color:'#14b8a6'},
+          {value:'release',label:'Release',color:'#f59e0b'},
+        ],defaultValue:'design'} : {}),
+    ...(cid==='RXN-package-installer-tabs'
+      ? {title:'Installazione',tabs:[
+          {id:'npm',label:'npm',command:'npx',packageName:'shadcn@latest add button'},
+          {id:'pnpm',label:'pnpm',command:'pnpm dlx',packageName:'shadcn@latest add button'},
+        ]} : {}),
+    ...(cid==='RXN-script-copy-btn'
+      ? {codeLanguage:'bash',lightTheme:'github-light',darkTheme:'github-dark',
+          commandMap:{npm:'npx shadcn@latest add button',pnpm:'pnpm dlx shadcn@latest add button'}}
+      : {}),
+    ...(cid==='WML-007'
+      ? {stack:[
+          {id:'one',title:'Primi passi',type:'steps',steps:[{icon:FavouriteIcon,text:'Configura il progetto'}]},
+          {id:'two',title:'Revisione',type:'steps',steps:[{icon:FavouriteIcon,text:'Verifica la demo'}]},
+        ],trigger:{label:'Apri dialogo',icon:FavouriteIcon}}
+      : {}),
+    ...(cid==='RXN-cool-mode'
+      ? {children:React.createElement('button',
+          {type:'button',style:{padding:'16px 28px',borderRadius:12,background:'#4f46e5',color:'#fff'}},
+          'Mostra effetto')}
+      : {}),
     ...(cid==='RXN-arc-timeline'
       ? {arcConfig:{circleWidth:720},data:[
           {time:'2024',steps:[{icon:'●',content:'Progettazione'},{icon:'◆',content:'Ricerca'}]},
@@ -146,6 +174,16 @@ async function mount(cid: string) {
     node=React.createElement(m.ScrollVelocityContainer as React.ElementType,{className:'w-full'},
       React.createElement(m.ScrollVelocityRow as React.ElementType,
         {baseVelocity:2,className:'text-6xl text-slate-900'},'Design App • Componenti'));
+  }
+  if (cid==='RXN-file-tree' && m.Tree && m.Folder && m.File) {
+    const Tree=m.Tree as React.ElementType, Folder=m.Folder as React.ElementType;
+    const File=m.File as React.ElementType;
+    const elements=[{id:'src',name:'src',children:[{id:'main',name:'main.tsx'},{id:'style',name:'style.css'}]}];
+    node=React.createElement(Tree,
+      {elements,initialExpandedItems:['src'],className:'rounded-lg border p-4 w-[320px] bg-white'},
+      React.createElement(Folder,{element:'src',value:'src'},
+        React.createElement(File,{value:'main'},'main.tsx'),
+        React.createElement(File,{value:'style'},'style.css')));
   }
   if (cid==='RXN-animated-beam') {
     node=React.createElement(BeamSourceFixture,{component:component as React.ElementType});

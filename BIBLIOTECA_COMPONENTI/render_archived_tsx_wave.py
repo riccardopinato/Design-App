@@ -38,7 +38,7 @@ async def main():
     ru_data=json.loads(RU.read_text(encoding="utf-8"))
     sec_data=json.loads(SEC.read_text(encoding="utf-8")) if SEC.exists() else {"schema_version":1,"previews":{}}
     ru=ru_data["previews"];sec=sec_data["previews"]
-    failed={};made=[];skipped={}
+    failed={};made=[];skipped={};cross_uid_overlays={}
     active=[]
     for c in candidates:
         cid=c["id"]
@@ -114,12 +114,22 @@ async def main():
                             await page.mouse.move(505,295)
                         await page.wait_for_timeout(950)
                         if errors:raise ValueError("SOURCE_JS_EXCEPTION "+str(errors[:2]))
-                        # Vite can render a colorful error overlay above the original
-                        # component. That screenshot must NEVER count as recovered.
-                        if await page.locator("vite-error-overlay").count()>0:
-                            overlay=await page.locator("vite-error-overlay").first.evaluate(
-                                "(el)=>el.shadowRoot?.textContent?.slice(0,350) || el.textContent?.slice(0,350) || 'vite error'")
-                            raise ValueError("VITE_COMPILATION_OVERLAY "+str(overlay)[:350])
+                        # Vite can broadcast an error from an unrelated UID into
+                        # the same browser context. Reject errors in THIS source
+                        # or renderer; explicitly log and remove unrelated overlays
+                        # before capture. Never screenshot a Vite error UI.
+                        async def clear_cross_uid_overlays():
+                            count=await page.locator("vite-error-overlay").count()
+                            for _ in range(count):
+                                overlay=page.locator("vite-error-overlay").first
+                                detail=await overlay.evaluate(
+                                    "(el)=>el.shadowRoot?.textContent?.slice(0,550) || el.textContent?.slice(0,550) || 'vite error'")
+                                basename=Path(c["archive_path"]).name
+                                if basename in detail or "batch_main.tsx" in detail or "vite.config.ts" in detail:
+                                    raise ValueError("VITE_SOURCE_OR_RENDERER_COMPILATION_OVERLAY "+str(detail)[:380])
+                                cross_uid_overlays.setdefault(cid,[]).append(str(detail)[:260])
+                                await overlay.evaluate("(el)=>el.remove()")
+                        await clear_cross_uid_overlays()
                         actual_source=await target.get_attribute("data-source-path")
                         if not actual_source or not actual_source.endswith("/"+Path(c["archive_path"]).name):
                             raise ValueError("COMPONENT_SOURCE_PATH_DID_NOT_MATCH_ARCHIVE actual="+repr(actual_source)+" expected="+repr(c["archive_path"]))
@@ -130,10 +140,9 @@ async def main():
                         if "SOURCE_MODULE_FAILED" in (await target.inner_text()):
                             raise ValueError("SOURCE_MODULE_FAILED_MESSAGE")
                         raw=await target.screenshot(animations="disabled",timeout=14000)
-                        # Recheck after screenshot: cross-fixture Vite errors can arrive
-                        # during capture, even if the source root rendered correctly.
-                        if await page.locator("vite-error-overlay").count() > 0:
-                            raise ValueError("VITE_ERROR_OVERLAY_AFTER_SCREENSHOT")
+                        # A late unrelated overlay cannot invalidate the tested UID;
+                        # late errors for the requested source still fail closed.
+                        await clear_cross_uid_overlays()
                         with Image.open(BytesIO(raw)) as image:
                             canvas=image.convert("RGB")
                             variance=sum(ImageStat.Stat(canvas).stddev)
@@ -193,6 +202,7 @@ async def main():
     REPORT.write_text(json.dumps({
         "original_pending_count":len(candidates),"source_eligible":len(active),
         "captured":sorted(made),"failed":failed,"blocked_before_run":skipped,
+        "unrelated_vite_overlays":cross_uid_overlays,
         "eligible_by_source":totals,"source_integrity":"Exact source blob SHA checked before execution",
         "status":"SOURCE_PREVIEW_UNREVIEWED",
         "statement":"A preview is considered captured ONLY with a physical nonblank PNG and exact source provenance. No source code altered."
