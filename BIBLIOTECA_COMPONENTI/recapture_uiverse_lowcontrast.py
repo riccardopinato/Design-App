@@ -25,7 +25,7 @@ IDS=["UIV-005","UIV-011","UIV-033","UIV-041","UIV-042","UIV-044",
 # The archived source uses white text, borders or glows. Contrast belongs to
 # the DEMO BACKDROP, not to the archived component styles.
 DARK={"UIV-033","UIV-041","UIV-042","UIV-061","UIV-066","UIV-089","UIV-094"}
-FULL={"UIV-050","UIV-061","UIV-098"}
+FULL={"UIV-005","UIV-033","UIV-050","UIV-061","UIV-065","UIV-094","UIV-098"}
 def stats(raw):
     with Image.open(io.BytesIO(raw)) as im:
         rgb=im.convert("RGB")
@@ -37,6 +37,7 @@ def digest(b):return hashlib.sha256(b).hexdigest()
 async def main():
     catalog={c["id"]:c for c in CAT}
     cases={}
+    prior=json.loads(REPORT.read_text(encoding="utf-8")).get("cases",{}) if REPORT.exists() else {}
     async with async_playwright() as p:
         browser=await p.chromium.launch(headless=True,args=["--no-sandbox"])
         context=await browser.new_context(viewport={"width":420,"height":280},
@@ -46,6 +47,11 @@ async def main():
         page=await context.new_page()
         try:
             for cid in IDS:
+                if prior.get(cid,{}).get("replaced"):
+                    # Preserve prior actual PNG and before/after SHA evidence.
+                    cases[cid]=prior[cid]
+                    print("UVERSE_QA_PREVIOUSLY_CORRECTED",cid)
+                    continue
                 c=catalog[cid]
                 assert c["source_site"]=="UIVERSE" and c["archive_state"]=="ARCHIVED_SOURCE"
                 html=source_html(c)
@@ -53,6 +59,14 @@ async def main():
                     html=html.replace("</head>","<style>html,body{background:#182334!important;color:#f5f5f5!important}</style></head>")
                 if cid in FULL:
                     html=html.replace("</head>","<style>#preview{width:380px;height:240px;min-height:240px;overflow:visible}</style></head>")
+                if cid=="UIV-033":
+                    # Original .main has z-index:-1: isolate the staging
+                    # context so it is not painted behind page background.
+                    html=html.replace("</head>","<style>#preview{isolation:isolate}</style></head>")
+                if cid=="UIV-088":
+                    # Scale the small 60x30 original neumorphic switch only in
+                    # its isolated screenshot wrapper, not in original CSS.
+                    html=html.replace("</head>","<style>#preview{transform:scale(2)}</style></head>")
                 await page.set_content(html,wait_until="domcontentloaded",timeout=15000)
                 path=DEST/(cid+".png")
                 previous=path.read_bytes()
