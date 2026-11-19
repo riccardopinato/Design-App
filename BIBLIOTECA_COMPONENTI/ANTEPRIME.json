@@ -11,10 +11,10 @@
       "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
     },
     "AMX-002": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/AMX-002.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
     },
     "AMX-003": {
       "image_path": null,
@@ -95,10 +95,10 @@
       "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
     },
     "DBM-011": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/DBM-011.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
     },
     "DBM-012": {
       "image_path": "docs/assets/componenti/DBM-012.png",
@@ -125,10 +125,10 @@
       "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
     },
     "DBM-016": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/DBM-016.png",
+      "status": "CAPTURED_ARCHIVED_TSX_UNREVIEWED",
+      "origin_type": "ARCHIVED_DEVELOPERS_TSX_RENDER",
+      "image_evidence": "Rendered archived React TSX with exact source blob evidence; screenshot QA pending"
     },
     "DBM-017": {
       "image_path": "docs/assets/componenti/DBM-017.png",

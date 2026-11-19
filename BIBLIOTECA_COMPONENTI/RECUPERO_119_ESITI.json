@@ -3,15 +3,15 @@
   "as_of": "2026-11-19",
   "baseline_sha": "b5ae35f82cb22174b38496978ced49d60a94e457",
   "baseline_missing": 119,
-  "resolved_to_preview_png": 95,
-  "still_without_preview_png": 24,
+  "resolved_to_preview_png": 98,
+  "still_without_preview_png": 21,
   "result_counts": {
-    "PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING": 95,
-    "BLOCKED_ACTUAL_TSX_RENDER": 4,
+    "PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING": 98,
     "BLOCKED_SOURCE_NOT_ARCHIVED": 5,
     "BLOCKED_NO_SOURCE_OR_LICENSE": 4,
     "BLOCKED_USER_IMAGE_NOT_ATTACHED": 1,
-    "BLOCKED_PUBLIC_DEMO_CAPTURE": 10
+    "BLOCKED_PUBLIC_DEMO_CAPTURE": 10,
+    "BLOCKED_ACTUAL_TSX_RENDER": 1
   },
   "provider_counts": {
     "DEVLIBRARIES_AMICRO": 10,
@@ -51,18 +51,19 @@
       "canonical_id": "AMX-002",
       "name": "Cursor Trail",
       "provider": "DEVLIBRARIES_AMICRO",
-      "result": "BLOCKED_ACTUAL_TSX_RENDER",
-      "reason": "NEAR_BLANK_UNVERIFIED_COMPONENT",
-      "image_path": null,
-      "image_sha256": null,
+      "result": "PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING",
+      "reason": "PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati",
+      "image_path": "docs/assets/componenti/AMX-002.png",
+      "image_sha256": "9142899b33eca572059ea87089033101c1f644845352c82276b342c5d04f8645",
       "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-002.tsx",
       "source_url": "https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/registry/ui/cursor/cursor-trail.tsx",
       "source_blob_sha": "df9715526996a0ae36731125e12a69807627ad93",
       "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
-      "capture_mode": null,
+      "capture_mode": "ARCHIVED_ORIGINAL_TSX_ISOLATED_RENDER",
       "evidence_refs": [
-        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/amx-002.tsx",
-        "GIT_BLOB_SHA:df9715526996a0ae36731125e12a69807627ad93"
+        "docs/assets/componenti/AMX-002.png",
+        "ARCHIVED_ORIGINAL_TSX_ISOLATED_RENDER",
+        "SHA256:9142899b33eca572059ea87089033101c1f644845352c82276b342c5d04f8645"
       ],
       "consumer_admission": "NOT_VERIFIED",
       "source_triage": null
@@ -354,18 +355,19 @@
       "canonical_id": "DBM-011",
       "name": "Morph Loader",
       "provider": "DEVLIBRARIES_BOOKMARKS",
-      "result": "BLOCKED_ACTUAL_TSX_RENDER",
-      "reason": "NEAR_BLANK_UNVERIFIED_COMPONENT",
-      "image_path": null,
-      "image_sha256": null,
+      "result": "PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING",
+      "reason": "PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati",
+      "image_path": "docs/assets/componenti/DBM-011.png",
+      "image_sha256": "de63d74207616cbd89106ed1da5c98798eee461ceef803cdc60b83003eed6e23",
       "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-011.tsx",
       "source_url": null,
       "source_blob_sha": "d03e38b668a9a9d74e8ee73b4ba29c6adfa79d45",
       "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
-      "capture_mode": null,
+      "capture_mode": "ARCHIVED_ORIGINAL_TSX_ISOLATED_RENDER",
       "evidence_refs": [
-        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-011.tsx",
-        "GIT_BLOB_SHA:d03e38b668a9a9d74e8ee73b4ba29c6adfa79d45"
+        "docs/assets/componenti/DBM-011.png",
+        "ARCHIVED_ORIGINAL_TSX_ISOLATED_RENDER",
+        "SHA256:de63d74207616cbd89106ed1da5c98798eee461ceef803cdc60b83003eed6e23"
       ],
       "consumer_admission": "NOT_VERIFIED",
       "source_triage": null
@@ -463,18 +465,19 @@
       "canonical_id": "DBM-016",
       "name": "Skeleton",
       "provider": "DEVLIBRARIES_BOOKMARKS",
-      "result": "BLOCKED_ACTUAL_TSX_RENDER",
-      "reason": "NEAR_BLANK_UNVERIFIED_COMPONENT",
-      "image_path": null,
-      "image_sha256": null,
+      "result": "PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING",
+      "reason": "PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati",
+      "image_path": "docs/assets/componenti/DBM-016.png",
+      "image_sha256": "8a37338a34eb78bbf2befc8f6d3e9def66b6f4f6d057a266b7290a12221daec9",
       "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-016.tsx",
       "source_url": null,
       "source_blob_sha": "30c7693ad4c7234d7ce1fdcebac4befdc3dc69a6",
       "license_state": "MIT_ORIGINAL_SOURCE_ARCHIVED_ASSET_RIGHTS_NOT_CHECKED",
-      "capture_mode": null,
+      "capture_mode": "ARCHIVED_ORIGINAL_TSX_ISOLATED_RENDER",
       "evidence_refs": [
-        "BIBLIOTECA_COMPONENTI/sorgenti/amicro/dbm-016.tsx",
-        "GIT_BLOB_SHA:30c7693ad4c7234d7ce1fdcebac4befdc3dc69a6"
+        "docs/assets/componenti/DBM-016.png",
+        "ARCHIVED_ORIGINAL_TSX_ISOLATED_RENDER",
+        "SHA256:8a37338a34eb78bbf2befc8f6d3e9def66b6f4f6d057a266b7290a12221daec9"
       ],
       "consumer_admission": "NOT_VERIFIED",
       "source_triage": null

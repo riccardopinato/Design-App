@@ -1,11 +1,11 @@
 # Esito nominativo delle 119 anteprime — Design-App
-Baseline immutabile: 119 UID iniziali; **95 recuperate**; **24 senza PNG**.
+Baseline immutabile: 119 UID iniziali; **98 recuperate**; **21 senza PNG**.
 La colonna risultato distingue **PNG reale acquisita** da **blocco concreto** e **acquisizione ancora non eseguita**. Una PNG con QA visivo UNREVIEWED non è né Golden Flutter né asset approvato per l'app.
 Le fonti originali non sono state sostituite.
 | UID | Componente | Origine | Esito | Immagine/Fonte | Evidenza/impedimento |
 |---|---|---|---|---|---|
 | UID-0001 | AMX-001 | DEVLIBRARIES_AMICRO | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/AMX-001.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
-| UID-0002 | AMX-002 | DEVLIBRARIES_AMICRO | BLOCKED_ACTUAL_TSX_RENDER | [Fonte originale](https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/fa5f8ffbe39537a8db191806066b8773c47c82e9/registry/ui/cursor/cursor-trail.tsx) | NEAR_BLANK_UNVERIFIED_COMPONENT |
+| UID-0002 | AMX-002 | DEVLIBRARIES_AMICRO | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/AMX-002.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
 | UID-0003 | AMX-003 | DEVLIBRARIES_AMICRO | BLOCKED_SOURCE_NOT_ARCHIVED | [Fonte originale](https://devlibraries.com/libraries/amicro/perspective-flip) | Pagina di riferimento nota, ma sorgente originale/asset esatto non archiviato: vietato inventare screenshot |
 | UID-0004 | AMX-004 | DEVLIBRARIES_AMICRO | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/AMX-004.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
 | UID-0005 | AMX-005 | DEVLIBRARIES_AMICRO | BLOCKED_SOURCE_NOT_ARCHIVED | [Fonte originale](https://devlibraries.com/libraries/amicro/spatial-door-portal) | Pagina di riferimento nota, ma sorgente originale/asset esatto non archiviato: vietato inventare screenshot |
@@ -19,12 +19,12 @@ Le fonti originali non sono state sostituite.
 | UID-0013 | DBM-008 | DEVLIBRARIES_BOOKMARKS | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/DBM-008.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
 | UID-0014 | DBM-009 | DEVLIBRARIES_BOOKMARKS | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/DBM-009.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
 | UID-0015 | DBM-010 | DEVLIBRARIES_BOOKMARKS | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/DBM-010.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
-| UID-0016 | DBM-011 | DEVLIBRARIES_BOOKMARKS | BLOCKED_ACTUAL_TSX_RENDER | — | NEAR_BLANK_UNVERIFIED_COMPONENT |
+| UID-0016 | DBM-011 | DEVLIBRARIES_BOOKMARKS | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/DBM-011.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
 | UID-0017 | DBM-012 | DEVLIBRARIES_BOOKMARKS | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/DBM-012.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
 | UID-0018 | DBM-013 | DEVLIBRARIES_BOOKMARKS | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/DBM-013.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
 | UID-0019 | DBM-014 | DEVLIBRARIES_BOOKMARKS | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/DBM-014.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
 | UID-0020 | DBM-015 | DEVLIBRARIES_BOOKMARKS | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/DBM-015.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
-| UID-0021 | DBM-016 | DEVLIBRARIES_BOOKMARKS | BLOCKED_ACTUAL_TSX_RENDER | — | NEAR_BLANK_UNVERIFIED_COMPONENT |
+| UID-0021 | DBM-016 | DEVLIBRARIES_BOOKMARKS | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/DBM-016.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
 | UID-0022 | DBM-017 | DEVLIBRARIES_BOOKMARKS | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/DBM-017.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
 | UID-0023 | DBM-019 | DEVLIBRARIES_BOOKMARKS | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/DBM-019.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
 | UID-0024 | DBM-020 | DEVLIBRARIES_BOOKMARKS | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/DBM-020.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
