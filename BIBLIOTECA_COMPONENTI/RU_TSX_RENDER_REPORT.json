@@ -1,0 +1,18 @@
+{
+  "renderer": "React/Vite isolated demo with unchanged pinned original TSX",
+  "requested": [
+    "grain-gradient-bg",
+    "grid-pattern",
+    "pulsating-button",
+    "shimmer-button"
+  ],
+  "captured": [
+    "RXN-grain-gradient-bg",
+    "RXN-grid-pattern",
+    "RXN-pulsating-button",
+    "RXN-shimmer-button"
+  ],
+  "blocked": {},
+  "source_revision": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941",
+  "status": "IMAGE_UNREVIEWED_NOT_OFFICIAL_UPSTREAM_CAPTURE"
+}

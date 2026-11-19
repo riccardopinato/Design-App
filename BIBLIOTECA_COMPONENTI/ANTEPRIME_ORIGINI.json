@@ -1402,6 +1402,21 @@
       "upstream_preview_index_sha256": "0255ae3f982b2c4def65d99f4e380ffa84c0e36863da4209b4e92f710bd16ca9",
       "bytes": 79923
     },
+    "RXN-grain-gradient-bg": {
+      "component_id": "RXN-grain-gradient-bg",
+      "preview_path": "docs/assets/componenti/RXN-grain-gradient-bg.png",
+      "preview_sha256": "34d90f3886b648de9227852f2287a62dbbdacb25986fe61ac8ed63aa5c2eaa63",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/grain-gradient-bg.tsx",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941",
+      "source_blob_sha": "bca0135b4e28e489039efcd9f9c94a5ef96deec2",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/main.tsx",
+      "local_renderer_package_sha256": "a9acb51c858dfd0f437c231e3339c2fca95789e937ba7bd7f34c4c725061fcbc",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Pinned original TSX executed in isolated React runtime. Example props and layout are local fixtures, NOT official upstream screenshot.",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER"
+    },
     "RXN-gravatar-email-input": {
       "component_id": "RXN-gravatar-email-input",
       "preview_path": "docs/assets/componenti/RXN-gravatar-email-input.png",
@@ -1429,6 +1444,21 @@
       "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
       "captured_on": "2026-11-19",
       "bytes": 55665
+    },
+    "RXN-grid-pattern": {
+      "component_id": "RXN-grid-pattern",
+      "preview_path": "docs/assets/componenti/RXN-grid-pattern.png",
+      "preview_sha256": "27e2bcb20d160f87e33d1ba6f37ab3ddc35446bb0ec846e7ab7bfa83d874abe1",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/grid-pattern.tsx",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941",
+      "source_blob_sha": "6840f45f8054195c42ded157ca0658c27909d213",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/main.tsx",
+      "local_renderer_package_sha256": "a9acb51c858dfd0f437c231e3339c2fca95789e937ba7bd7f34c4c725061fcbc",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Pinned original TSX executed in isolated React runtime. Example props and layout are local fixtures, NOT official upstream screenshot.",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER"
     },
     "RXN-grouped-faq-section": {
       "component_id": "RXN-grouped-faq-section",
@@ -2348,6 +2378,21 @@
       "upstream_preview_index_sha256": "0255ae3f982b2c4def65d99f4e380ffa84c0e36863da4209b4e92f710bd16ca9",
       "bytes": 24178
     },
+    "RXN-pulsating-button": {
+      "component_id": "RXN-pulsating-button",
+      "preview_path": "docs/assets/componenti/RXN-pulsating-button.png",
+      "preview_sha256": "f691dd5fb294a7cd78072e09270d59522d59a093c37163d35dc4ed031e25adc2",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/pulsating-button.tsx",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941",
+      "source_blob_sha": "78d36ade7b7bd51b040f1c0ed6a5fb5737f0103a",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/main.tsx",
+      "local_renderer_package_sha256": "a9acb51c858dfd0f437c231e3339c2fca95789e937ba7bd7f34c4c725061fcbc",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Pinned original TSX executed in isolated React runtime. Example props and layout are local fixtures, NOT official upstream screenshot.",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER"
+    },
     "RXN-range-calendar": {
       "component_id": "RXN-range-calendar",
       "preview_path": "docs/assets/componenti/RXN-range-calendar.png",
@@ -2602,6 +2647,21 @@
       "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
       "captured_on": "2026-11-19",
       "bytes": 3029
+    },
+    "RXN-shimmer-button": {
+      "component_id": "RXN-shimmer-button",
+      "preview_path": "docs/assets/componenti/RXN-shimmer-button.png",
+      "preview_sha256": "602faf2da3a11e495f1ec62203802158ee8cc94a2660cf9dfc4f0d9ef5f9d701",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/shimmer-button.tsx",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941",
+      "source_blob_sha": "c217800cbc2bbd779b2473637c0d9405a519c66c",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/main.tsx",
+      "local_renderer_package_sha256": "a9acb51c858dfd0f437c231e3339c2fca95789e937ba7bd7f34c4c725061fcbc",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Pinned original TSX executed in isolated React runtime. Example props and layout are local fixtures, NOT official upstream screenshot.",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER"
     },
     "RXN-slide-to-delete-button": {
       "component_id": "RXN-slide-to-delete-button",
