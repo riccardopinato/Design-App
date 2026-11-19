@@ -183,10 +183,14 @@ async def main():
                         # Check the original implementation, not merely the
                         # surrounding fixture, before accepting visual examples.
                         if cid=="RXN-video-text":
-                            proof=await target.locator("video").first.evaluate(
-                                "(v)=>v.readyState>=2 && v.videoWidth>0 && v.srcObject instanceof MediaStream")
+                            proof=await target.locator("video").first.evaluate("""(v)=>{
+                                const mask=getComputedStyle(v.parentElement).maskImage;
+                                return v.readyState>=2 && v.videoWidth>0 &&
+                                    v.srcObject instanceof MediaStream &&
+                                    !!mask && mask!=='none';
+                            }""")
                             if not proof:
-                                raise ValueError("VIDEO_TEXT_LIVE_SOURCE_NOT_PLAYING")
+                                raise ValueError("VIDEO_TEXT_LIVE_SOURCE_OR_MASK_NOT_RENDERED")
                         if cid=="RXN-pixel-image":
                             count=await target.locator('img[alt^="Pixel image piece"]').count()
                             valid=await target.locator('img[alt^="Pixel image piece"]').first.evaluate(
@@ -211,7 +215,24 @@ async def main():
                                 el.style.height='220px';
                                 el.style.background='#ffffff';
                             }""")
-                        raw=await target.screenshot(animations="disabled",timeout=14000)
+                        if cid=="RXN-scrub-datetime":
+                            # Focus on the two actual interactive rows, not
+                            # the empty space around the text control.
+                            rows=target.locator("div.flex.items-baseline")
+                            if await rows.count()!=2:
+                                raise ValueError("SCRUB_DATETIME_SOURCE_ROWS_NOT_FOUND")
+                            boxes=[await rows.nth(i).bounding_box() for i in range(2)]
+                            if any(not b for b in boxes):
+                                raise ValueError("SCRUB_DATETIME_ROW_GEOMETRY_UNAVAILABLE")
+                            x1=min(b["x"] for b in boxes)-16
+                            y1=min(b["y"] for b in boxes)-16
+                            x2=max(b["x"]+b["width"] for b in boxes)+16
+                            y2=max(b["y"]+b["height"] for b in boxes)+16
+                            raw=await page.screenshot(clip={"x":max(0,x1),"y":max(0,y1),
+                                "width":x2-max(0,x1),"height":y2-max(0,y1)},
+                                animations="disabled",timeout=14000)
+                        else:
+                            raw=await target.screenshot(animations="disabled",timeout=14000)
                         # A late unrelated overlay cannot invalidate the tested UID;
                         # late errors for the requested source still fail closed.
                         await clear_cross_uid_overlays()

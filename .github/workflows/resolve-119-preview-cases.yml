@@ -1,15 +1,9 @@
 name: Account all 119 baseline missing previews with per-UID evidence
 
 on:
-  push:
-    branches: ["feature/flutter-dual-code-preview-recovery-20261119"]
-    paths:
-      - "BIBLIOTECA_COMPONENTI/BASELINE_119_ANTEPRIME_2026-11-19.json"
-      - "BIBLIOTECA_COMPONENTI/ANTEPRIME.json"
-      - "BIBLIOTECA_COMPONENTI/RENDER_ARCHIVED_TSX_BATCH_REPORT.json"
-      - "BIBLIOTECA_COMPONENTI/FCL_CAPTURE_REPORT.json"
-      - "BIBLIOTECA_COMPONENTI/resolve_119_preview_cases.py"
-      - ".github/workflows/resolve-119-preview-cases.yml"
+  # Ledger regeneration is part of the source renderer's single commit.
+  # A separate automatic writer conflicted with image+ledger commits;
+  # keep this independent audit available via explicit dispatch only.
   workflow_dispatch:
 
 permissions:

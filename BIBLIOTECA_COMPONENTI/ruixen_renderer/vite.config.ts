@@ -17,10 +17,14 @@ const originalDeps = [
   '@shikijs/transformers', 'shiki',
 ].map((name) => ({
   find: new RegExp('^' + name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '$'),
-  // Runtime pinned to the last independently working module resolver.
-  // Do not switch motion ESM/CJS conditions without a dedicated isolated
-  // smoke test; an earlier experiment stopped the Vite service mid-batch.
-  replacement: requireFromRenderer.resolve(name),
+  // Pinned npm Motion v12.23.11 exposes separate CJS and ESM exports.
+  // Use its verified ESM entrypoints; the earlier dynamic import.meta.resolve
+  // experiment terminated the server and is not used here.
+  replacement: name === 'framer-motion'
+    ? path.resolve(__dirname,'node_modules/framer-motion/dist/es/index.mjs')
+    : name === 'motion/react'
+      ? path.resolve(__dirname,'node_modules/motion/dist/es/react.mjs')
+      : requireFromRenderer.resolve(name),
 }));
 
 // Historical renderer package manifests are retained in package_history;
