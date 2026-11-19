@@ -1,9 +1,9 @@
 # React source preview — triage aggiornato (19 novembre 2026)
 
 ## Inventario verificato sul ramo PR #54
-- **459/480** PNG presenti, con provenienza e hash verificati dal generatore; **21/480** senza PNG.
-- Sui **119** UID della baseline congelata: **98 recuperati**, **21 con blocco individuale**.
-- Residuo, senza duplicazioni: **1 React**, **10 Flutter Component Library**, **10 source/asset mancanti**.
+- **460/480** PNG presenti, con provenienza e hash verificati dal generatore; **20/480** senza PNG.
+- Sui **119** UID della baseline congelata: **99 recuperati**, **20 con blocco individuale**.
+- Residuo, senza duplicazioni: **0 React**, **10 Flutter Component Library**, **10 source/asset mancanti**.
 - I PNG isolati da TSX originali sono **`UNREVIEWED` nel Visual QA**: acquisizione fisica e SHA non dimostrano fedeltà o compatibilità con Flutter.
 - I codici originali TSX, Dart, SVG e il doppio catalogo codice originale / Flutter sono rimasti separati e immutati.
 - Factory baseline di questa lavorazione: `14722698bf92e80c526f5f1f211c8d694ce01fb9` (CURRENT / Master v27 / Golden Index v29).
@@ -17,10 +17,36 @@ Le **13 catture React** aggiunte dopo il precedente checkpoint 446 sono:
 - `AMX-004`, `DBM-002`, `RXN-behavioral-history-select`, `RXN-carousel-3d-select`, `RXN-command-deck`, `RXN-file-tree`, `RXN-package-installer-tabs`, `RXN-ruixen-query-box`: source renders con API-specific fixtures.
 - `AMX-002`, `DBM-011`, `DBM-016`: CursorTrail reale dopo evento mouse, MorphLoader scalato con i suoi parametri, Skeleton con dimensioni esplicite. Non sono immagini sostitutive.
 
-## Unico blocco React residuo
-| ID | Blocco verificato | Azione ammissibile |
-|---|---|---|
-| `RXN-glowing-send-input` | Sorgente originale richiede `next/font/google` e Poppins; import non risolvibile nel runtime Vite indipendente | Eseguire il componente nel runtime Next.js appropriato con font e licenza verificati, oppure ottenere screenshot upstream dell'esatto componente. Non sostituire font/TSX con stub, non considerare una UI riprodotta a mano come PNG sorgente |
+## Ultimo React — recuperato e registrato
+
+`RXN-glowing-send-input` è ora **risolto come anteprima documentale**. La pipeline source-only
+`next_source_renderer` esegue l'originale TSX immutato nel runtime Next.js 16, con la
+dipendenza originale `next/font/google` / Poppins effettivamente caricata, e dipendenze
+Motion allineate. Il browser ha prodotto il PNG verificato e il manifest ha superato
+tutti i gate di sorgente, font, hash e registro UID.
+
+- Immagine fisica: `docs/assets/componenti/RXN-glowing-send-input.png`
+- Fonte: Ruixen MIT, commit `f6b20860623fa39122ac2b5f0e5bd29a9eb10941`, blob `a7a0d3dd2785d9a708a5d8a654637547af2fa235`
+- Evidenza: `BIBLIOTECA_COMPONENTI/ANTEPRIME_ORIGINI.json` — `PINNED_ORIGINAL_TSX_NEXTJS_RENDER`
+- CI della cattura e pubblicazione: **PASS** GitHub Actions, cattura del 19/11/2026
+- QA visivo: **UNREVIEWED**; ammissione Flutter/consumer: **NOT_VERIFIED**
+
+## Recupero mirato Uiverse con CSS animato
+
+Dal controllo dei **15 casi near-flat** dei 110 UID Uiverse, **14 PNG sono state
+rigenerate** con animazioni CSS reali in esecuzione, non con animazioni
+congelate al primo frame. I soli wrapper della cattura sono stati adattati
+per contrasto, viewport e isolamento dei livelli; gli HTML/CSS originali non
+sono stati modificati. Sui 14 casi è stata osservata una crescita misurabile
+della deviazione standard dei pixel. La quindicesima, `UIV-088`, rimane
+inalterata perché l'effetto originale è un piccolo switch neumorfico
+volutamente poco contrastato e il test non ha dimostrato un miglioramento
+sufficiente: non si inventa un restyling.
+
+Registro prima/dopo per ogni UID:
+`BIBLIOTECA_COMPONENTI/UIVERSE_LOWCONTRAST_RECOVERY.json`.
+Sono **14 sostituzioni migliorative**, non 14 immagini in più nel catalogo.
+La verifica di fedeltà visiva resta **UNREVIEWED**.
 
 ## Blocchi non React
 - **10 FCL**: nove demo ufficiali non espongono contenuto direttamente catturabile e Book Shelf rimanda alla pagina errata; fonte/reference note, **nessuna PNG generica**. Registro `RECUPERO_119_ESITI.json` per ID.
@@ -39,4 +65,4 @@ Le **13 catture React** aggiunte dopo il precedente checkpoint 446 sono:
 - `BIBLIOTECA_COMPONENTI/SOURCE_TRIAGE_10.md`
 - `BIBLIOTECA_COMPONENTI/ruixen_renderer/vendor/ruixen/PROVENANCE_PINNED_UI.md`
 
-**Stato:** 459 screenshot archiviate; la PR #54 resta aperta e non certificata visivamente.
+**Stato:** 460 screenshot archiviate, 20 non disponibili con causa nominativa; PR #54 aperta, QA visivo e approvazione consumer ancora non certificati.
