@@ -93,12 +93,9 @@ class _RxnEditorialAccordionState extends State<RxnEditorialAccordion> {
               ),
             ),
             ClipRect(
-              child: AnimatedSize(
-                alignment: Alignment.topCenter,
-                duration: reduce ? Duration.zero : const Duration(milliseconds: 300),
-                curve: Curves.easeOutCubic,
-                child: open
-                    ? Padding(
+              child: (reduce
+                  ? (open
+                      ? Padding(
                         padding: const EdgeInsets.only(left: 15, bottom: 8),
                         child: DecoratedBox(
                           decoration: const BoxDecoration(
@@ -111,8 +108,27 @@ class _RxnEditorialAccordionState extends State<RxnEditorialAccordion> {
                           ),
                         ),
                       )
-                    : const SizedBox(width: double.infinity),
-              ),
+                    : const SizedBox(width: double.infinity))
+                  : AnimatedSize(
+                      alignment: Alignment.topCenter,
+                      duration: const Duration(milliseconds: 300),
+                      curve: Curves.easeOutCubic,
+                      child: open
+                          ? Padding(
+                              padding: const EdgeInsets.only(left: 15, bottom: 8),
+                              child: DecoratedBox(
+                                decoration: const BoxDecoration(
+                                  border: Border(left: BorderSide(color: Color(0x2423252D))),
+                                ),
+                                child: Padding(
+                                  padding: const EdgeInsets.only(left: 14),
+                                  child: Text(item.content,
+                                    style: const TextStyle(height: 1.8,fontSize: 14,color: Color(0x8823252D))),
+                                ),
+                              ),
+                            )
+                          : const SizedBox(width: double.infinity),
+                    )),
             ),
           ],
         );
