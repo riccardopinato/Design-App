@@ -544,6 +544,24 @@
       "image_variance": 310.19,
       "note": "Screenshot of isolated public live demo; no source/Dart or asset redistribution rights asserted"
     },
+    "WML-001": {
+      "component_id": "WML-001",
+      "preview_path": "docs/assets/componenti/WML-001.png",
+      "preview_sha256": "982bca2f5622676c3a56cb554a7dceec8e24377a729a83fa54af6434bbb8e193",
+      "origin_url": "https://devlibraries.com/libraries/watermelon/carousel-slider",
+      "source_blob_sha": "ccd0d565f1cd15ea44bf449ef7bdbfbc7cd0c25b",
+      "capture_mode": "ARCHIVED_ORIGINAL_TSX_ISOLATED_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "6dca333421e98562a84c1ae365eb6991a2db68f6f3c67f2f3ca4f3411f7f21de",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "source_provider": "DEVLIBRARIES_WATERMELON",
+      "source_reference_url": "https://devlibraries.com/libraries/watermelon/carousel-slider",
+      "original_archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/watermelon/wml-001.tsx",
+      "reuse_scope": "DOCUMENTARY_REFERENCE_ONLY",
+      "note": "Source-git-blob-matched TSX executed; client runtime visual fidelity not certified"
+    },
     "WML-002": {
       "component_id": "WML-002",
       "preview_path": "docs/assets/componenti/WML-002.png",
