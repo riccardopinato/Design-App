@@ -1,20 +1,21 @@
 {
   "original_pending_count": 21,
   "source_eligible": 12,
-  "captured": [],
+  "captured": [
+    "AMX-004",
+    "DBM-002",
+    "RXN-behavioral-history-select",
+    "RXN-carousel-3d-select",
+    "RXN-command-deck",
+    "RXN-file-tree",
+    "RXN-package-installer-tabs",
+    "RXN-ruixen-query-box"
+  ],
   "failed": {
-    "AMX-002": "Page.wait_for_function: Timeout 23000ms exceeded.",
-    "AMX-004": "Page.wait_for_function: Timeout 23000ms exceeded.",
-    "DBM-002": "Page.wait_for_function: Timeout 23000ms exceeded.",
-    "DBM-011": "Page.wait_for_function: Timeout 23000ms exceeded.",
-    "DBM-016": "Page.wait_for_function: Timeout 23000ms exceeded.",
-    "RXN-behavioral-history-select": "Page.wait_for_function: Timeout 23000ms exceeded.",
-    "RXN-carousel-3d-select": "Page.wait_for_function: Timeout 23000ms exceeded.",
-    "RXN-command-deck": "Page.wait_for_function: Timeout 23000ms exceeded.",
-    "RXN-file-tree": "Page.wait_for_function: Timeout 23000ms exceeded.",
-    "RXN-glowing-send-input": "Page.wait_for_function: Timeout 23000ms exceeded.",
-    "RXN-package-installer-tabs": "Page.wait_for_function: Timeout 23000ms exceeded.",
-    "RXN-ruixen-query-box": "Page.wait_for_function: Timeout 23000ms exceeded."
+    "AMX-002": "NEAR_BLANK_UNVERIFIED_COMPONENT",
+    "DBM-011": "NEAR_BLANK_UNVERIFIED_COMPONENT",
+    "DBM-016": "NEAR_BLANK_UNVERIFIED_COMPONENT",
+    "RXN-glowing-send-input": "ORIGINAL_TSX_IMPORT_OR_RENDER_FAILED TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx?import {\"console\": [\"Failed to load resource: the server responded with a status of 500 (Internal Server Error)\", \"ARCHIVED_TSX_BATCH_FAILED RXN-glowing-send-input TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx\"], \"http\": [\"500 http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx?import\"], \"requests\": [\"http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx?import\"]}"
   },
   "blocked_before_run": {
     "AMX-003": "BLOCKED_NO_ARCHIVED_SOURCE",
@@ -27,7 +28,11 @@
     "WML-008": "BLOCKED_NO_ARCHIVED_SOURCE",
     "WML-009": "BLOCKED_NO_ARCHIVED_SOURCE"
   },
-  "unrelated_vite_overlays": {},
+  "unrelated_vite_overlays": {
+    "RXN-file-tree": [
+      "[plugin:vite:import-analysis] Failed to resolve import \"next/font/google\" from \"../sorgenti/ruixen/glowing-send-input.tsx\". Does the file exist?/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx:6:244  |  impor"
+    ]
+  },
   "eligible_by_source": {
     "DEVLIBRARIES_AMICRO": 2,
     "DEVLIBRARIES_BOOKMARKS": 3,
