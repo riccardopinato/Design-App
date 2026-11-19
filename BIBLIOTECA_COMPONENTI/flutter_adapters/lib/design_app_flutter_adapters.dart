@@ -33,3 +33,5 @@ export 'src/gentleface/ico_025.dart';
 export 'src/gentleface/ico_026.dart';
 export 'src/gentleface/ico_027.dart';
 export 'src/gentleface/ico_028.dart';
+export 'src/uiv_009_book_card.dart';
+export 'src/rxn_animated_shiny_text.dart';

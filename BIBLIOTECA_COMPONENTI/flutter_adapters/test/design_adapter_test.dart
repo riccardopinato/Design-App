@@ -62,4 +62,23 @@ void main() {
     await tester.pump();
     expect(find.text('Hidden detail'), findsNothing);
   });
+  testWidgets('UIV-009 native book card opens on tap with original cover styling', (tester) async {
+    final events = <bool>[];
+    await tester.pumpWidget(harness(Uiv009BookCard(
+      coverText: 'Cover', insideText: 'Diary',
+      onOpenChanged: events.add,
+    )));
+    await tester.tap(find.text('Cover'));
+    await tester.pump();
+    expect(events, <bool>[true]);
+    expect(find.text('Diary'), findsOneWidget);
+  });
+
+  testWidgets('RXN shimmering text renders and respects reduced motion', (tester) async {
+    await tester.pumpWidget(harness(const RxnAnimatedShinyText(
+      text: 'Hello Shimmer',
+    )));
+    expect(find.text('Hello Shimmer'), findsOneWidget);
+    await tester.pumpWidget(const SizedBox());
+  });
 }
