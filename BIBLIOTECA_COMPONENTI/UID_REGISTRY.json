@@ -3,7 +3,7 @@
   "policy": "Stable UID-0001 mapping to canonical IDs; never reorder or reuse a UID. Append next highest ID for future admissions.",
   "namespace": "UID",
   "issued_at": "2026-11-19",
-  "canonical_component_count": 478,
+  "canonical_component_count": 480,
   "entries": [
     {
       "uid": "UID-0001",
@@ -1916,6 +1916,14 @@
     {
       "uid": "UID-0478",
       "canonical_id": "WML-009"
+    },
+    {
+      "uid": "UID-0479",
+      "canonical_id": "FUI-001"
+    },
+    {
+      "uid": "UID-0480",
+      "canonical_id": "FUI-002"
     }
   ]
 }
