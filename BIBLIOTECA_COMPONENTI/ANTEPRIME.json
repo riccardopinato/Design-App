@@ -341,124 +341,124 @@
       "image_evidence": "Authentic Forui demo, provenance in ANTEPRIME_ORIGINI_FORUI.json; QA pending"
     },
     "ICO-001": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-001.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-002": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-002.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-003": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-003.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-004": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-004.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-005": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-005.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-006": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-006.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-007": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-007.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-008": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-008.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-009": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-009.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-010": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-010.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-011": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-011.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-012": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-012.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-013": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-013.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-014": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-014.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-015": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-015.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-016": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-016.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-017": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-017.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-018": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-018.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-019": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-019.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-020": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-020.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-021": {
       "image_path": null,
@@ -467,46 +467,46 @@
       "image_evidence": null
     },
     "ICO-022": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-022.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-023": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-023.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-024": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-024.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-025": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-025.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-026": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-026.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-027": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-027.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "ICO-028": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/ICO-028.png",
+      "status": "CAPTURED_OFFICIAL_ICON_UNREVIEWED",
+      "origin_type": "OFFICIAL_GENTLEFACE_MIT_ICON",
+      "image_evidence": "Official Gentleface MIT icon PNG, origin and SHA256 in ANTEPRIME_ORIGINI_GENTLEFACE.json; visual QA pending"
     },
     "RXN-accordion-editorial": {
       "image_path": "docs/assets/componenti/RXN-accordion-editorial.png",
@@ -1139,10 +1139,10 @@
       "image_evidence": null
     },
     "RXN-floating-cards-hero": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/RXN-floating-cards-hero.png",
+      "status": "CAPTURED_UPSTREAM_OR_LIVE_UNREVIEWED",
+      "origin_type": "PINNED_RUIXEN_IMAGE_OR_OFFICIAL_DEMO",
+      "image_evidence": "Exact origin is recorded in ANTEPRIME_ORIGINI.json; visual QA pending"
     },
     "RXN-floating-navbar": {
       "image_path": "docs/assets/componenti/RXN-floating-navbar.png",

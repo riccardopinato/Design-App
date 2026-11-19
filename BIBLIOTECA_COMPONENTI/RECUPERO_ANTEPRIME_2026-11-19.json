@@ -1,0 +1,394 @@
+{
+  "catalog_sha_immutable": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941",
+  "baseline_missing": 158,
+  "baseline_by_source": {
+    "DEVLIBRARIES_AMICRO": 10,
+    "DEVLIBRARIES_BOOKMARKS": 27,
+    "DEVLIBRARIES_EASEUI": 1,
+    "USER_IMAGE": 1,
+    "FLUTTER_COMPONENT_LIBRARY": 15,
+    "GENTLEFACE": 28,
+    "RUIXEN": 67,
+    "DEVLIBRARIES_WATERMELON": 9
+  },
+  "new_ruixen": 1,
+  "new_gentleface": 27,
+  "new_total": 28,
+  "estimated_remaining": 130,
+  "recovered_ruixen_ids": [
+    "RXN-floating-cards-hero"
+  ],
+  "recovered_gentleface_ids": [
+    "ICO-001",
+    "ICO-002",
+    "ICO-003",
+    "ICO-004",
+    "ICO-005",
+    "ICO-006",
+    "ICO-007",
+    "ICO-008",
+    "ICO-009",
+    "ICO-010",
+    "ICO-011",
+    "ICO-012",
+    "ICO-013",
+    "ICO-014",
+    "ICO-015",
+    "ICO-016",
+    "ICO-017",
+    "ICO-018",
+    "ICO-019",
+    "ICO-020",
+    "ICO-022",
+    "ICO-023",
+    "ICO-024",
+    "ICO-025",
+    "ICO-026",
+    "ICO-027",
+    "ICO-028"
+  ],
+  "ruixen_unresolved": {
+    "RXN-animated-gradient-text": [
+      "https://ruixen.com/docs/components/animated-gradient-text: HTTP or no response",
+      "https://ruixen.com/docs/sections/animated-gradient-text: HTTP or no response",
+      "https://ruixen.com/preview/animated-gradient-text: no component-specific heading"
+    ],
+    "RXN-animated-list": [
+      "https://ruixen.com/docs/components/animated-list: HTTP or no response",
+      "https://ruixen.com/docs/sections/animated-list: HTTP or no response",
+      "https://ruixen.com/preview/animated-list: no component-specific heading"
+    ],
+    "RXN-animated-circular-progress-bar": [
+      "https://ruixen.com/docs/components/animated-circular-progress-bar: HTTP or no response",
+      "https://ruixen.com/docs/sections/animated-circular-progress-bar: HTTP or no response",
+      "https://ruixen.com/preview/animated-circular-progress-bar: no component-specific heading"
+    ],
+    "RXN-animated-grid-pattern": [
+      "https://ruixen.com/docs/components/animated-grid-pattern: HTTP or no response",
+      "https://ruixen.com/docs/sections/animated-grid-pattern: HTTP or no response",
+      "https://ruixen.com/preview/animated-grid-pattern: no component-specific heading"
+    ],
+    "RXN-animated-beam": [
+      "https://ruixen.com/docs/components/animated-beam: HTTP or no response",
+      "https://ruixen.com/docs/sections/animated-beam: HTTP or no response",
+      "https://ruixen.com/preview/animated-beam: no component-specific heading"
+    ],
+    "RXN-animated-shiny-text": [
+      "https://ruixen.com/docs/components/animated-shiny-text: HTTP or no response",
+      "https://ruixen.com/docs/sections/animated-shiny-text: HTTP or no response",
+      "https://ruixen.com/preview/animated-shiny-text: no component-specific heading"
+    ],
+    "RXN-animated-subscribe-button": [
+      "https://ruixen.com/docs/components/animated-subscribe-button: HTTP or no response",
+      "https://ruixen.com/docs/sections/animated-subscribe-button: HTTP or no response",
+      "https://ruixen.com/preview/animated-subscribe-button: no component-specific heading"
+    ],
+    "RXN-arc-timeline": [
+      "https://ruixen.com/docs/components/arc-timeline: HTTP or no response",
+      "https://ruixen.com/docs/sections/arc-timeline: HTTP or no response",
+      "https://ruixen.com/preview/arc-timeline: no component-specific heading"
+    ],
+    "RXN-aurora-text": [
+      "https://ruixen.com/docs/components/aurora-text: HTTP or no response",
+      "https://ruixen.com/docs/sections/aurora-text: HTTP or no response",
+      "https://ruixen.com/preview/aurora-text: no component-specific heading"
+    ],
+    "RXN-avatar-circles": [
+      "https://ruixen.com/docs/components/avatar-circles: HTTP or no response",
+      "https://ruixen.com/docs/sections/avatar-circles: HTTP or no response",
+      "https://ruixen.com/preview/avatar-circles: no component-specific heading"
+    ],
+    "RXN-blur-fade": [
+      "https://ruixen.com/docs/components/blur-fade: HTTP or no response",
+      "https://ruixen.com/docs/sections/blur-fade: HTTP or no response",
+      "https://ruixen.com/preview/blur-fade: no component-specific heading"
+    ],
+    "RXN-behavioral-history-select": [
+      "https://ruixen.com/docs/components/behavioral-history-select: HTTP or no response",
+      "https://ruixen.com/docs/sections/behavioral-history-select: HTTP or no response",
+      "https://ruixen.com/preview/behavioral-history-select: no component-specific heading"
+    ],
+    "RXN-box-reveal": [
+      "https://ruixen.com/docs/components/box-reveal: HTTP or no response",
+      "https://ruixen.com/docs/sections/box-reveal: HTTP or no response",
+      "https://ruixen.com/preview/box-reveal: no component-specific heading"
+    ],
+    "RXN-carousel-3d-select": [
+      "https://ruixen.com/docs/components/carousel-3d-select: HTTP or no response",
+      "https://ruixen.com/docs/sections/carousel-3d-select: HTTP or no response",
+      "https://ruixen.com/preview/carousel-3d-select: no component-specific heading"
+    ],
+    "RXN-code-comparison": [
+      "https://ruixen.com/docs/components/code-comparison: HTTP or no response",
+      "https://ruixen.com/docs/sections/code-comparison: HTTP or no response",
+      "https://ruixen.com/preview/code-comparison: no component-specific heading"
+    ],
+    "RXN-comic-text": [
+      "https://ruixen.com/docs/components/comic-text: HTTP or no response",
+      "https://ruixen.com/docs/sections/comic-text: HTTP or no response",
+      "https://ruixen.com/preview/comic-text: no component-specific heading"
+    ],
+    "RXN-cool-mode": [
+      "https://ruixen.com/docs/components/cool-mode: HTTP or no response",
+      "https://ruixen.com/docs/sections/cool-mode: HTTP or no response",
+      "https://ruixen.com/preview/cool-mode: no component-specific heading"
+    ],
+    "RXN-command-deck": [
+      "https://ruixen.com/docs/components/command-deck: HTTP or no response",
+      "https://ruixen.com/docs/sections/command-deck: HTTP or no response",
+      "https://ruixen.com/preview/command-deck: no component-specific heading"
+    ],
+    "RXN-dot-pattern": [
+      "https://ruixen.com/docs/components/dot-pattern: HTTP or no response",
+      "https://ruixen.com/docs/sections/dot-pattern: HTTP or no response",
+      "https://ruixen.com/preview/dot-pattern: no component-specific heading"
+    ],
+    "RXN-file-tree": [
+      "https://ruixen.com/docs/components/file-tree: HTTP or no response",
+      "https://ruixen.com/docs/sections/file-tree: HTTP or no response",
+      "https://ruixen.com/preview/file-tree: no component-specific heading"
+    ],
+    "RXN-flip-text": [
+      "https://ruixen.com/docs/components/flip-text: HTTP or no response",
+      "https://ruixen.com/docs/sections/flip-text: HTTP or no response",
+      "https://ruixen.com/preview/flip-text: no component-specific heading"
+    ],
+    "RXN-flickering-grid": [
+      "https://ruixen.com/docs/components/flickering-grid: HTTP or no response",
+      "https://ruixen.com/docs/sections/flickering-grid: HTTP or no response",
+      "https://ruixen.com/preview/flickering-grid: no component-specific heading"
+    ],
+    "RXN-flash-sale-banner": [
+      "https://ruixen.com/docs/components/flash-sale-banner: HTTP or no response",
+      "https://ruixen.com/docs/sections/flash-sale-banner: HTTP or no response",
+      "https://ruixen.com/preview/flash-sale-banner: no component-specific heading"
+    ],
+    "RXN-glow-tree": [
+      "https://ruixen.com/docs/components/glow-tree: HTTP or no response",
+      "https://ruixen.com/docs/sections/glow-tree: HTTP or no response",
+      "https://ruixen.com/preview/glow-tree: no component-specific heading"
+    ],
+    "RXN-gradient-reveal-text": [
+      "https://ruixen.com/docs/components/gradient-reveal-text: HTTP or no response",
+      "https://ruixen.com/docs/sections/gradient-reveal-text: HTTP or no response",
+      "https://ruixen.com/preview/gradient-reveal-text: no component-specific heading"
+    ],
+    "RXN-glowing-send-input": [
+      "https://ruixen.com/docs/components/glowing-send-input: HTTP or no response",
+      "https://ruixen.com/docs/sections/glowing-send-input: HTTP or no response",
+      "https://ruixen.com/preview/glowing-send-input: no component-specific heading"
+    ],
+    "RXN-grid-pattern": [
+      "https://ruixen.com/docs/components/grid-pattern: HTTP or no response",
+      "https://ruixen.com/docs/sections/grid-pattern: HTTP or no response",
+      "https://ruixen.com/preview/grid-pattern: no component-specific heading"
+    ],
+    "RXN-grain-gradient-bg": [
+      "https://ruixen.com/docs/components/grain-gradient-bg: HTTP or no response",
+      "https://ruixen.com/docs/sections/grain-gradient-bg: HTTP or no response",
+      "https://ruixen.com/preview/grain-gradient-bg: no component-specific heading"
+    ],
+    "RXN-hyper-text": [
+      "https://ruixen.com/docs/components/hyper-text: HTTP or no response",
+      "https://ruixen.com/docs/sections/hyper-text: HTTP or no response",
+      "https://ruixen.com/preview/hyper-text: no component-specific heading"
+    ],
+    "RXN-interactive-grid-pattern": [
+      "https://ruixen.com/docs/components/interactive-grid-pattern: HTTP or no response",
+      "https://ruixen.com/docs/sections/interactive-grid-pattern: HTTP or no response",
+      "https://ruixen.com/preview/interactive-grid-pattern: no component-specific heading"
+    ],
+    "RXN-interactive-hover-button": [
+      "https://ruixen.com/docs/components/interactive-hover-button: HTTP or no response",
+      "https://ruixen.com/docs/sections/interactive-hover-button: HTTP or no response",
+      "https://ruixen.com/preview/interactive-hover-button: no component-specific heading"
+    ],
+    "RXN-icon-cloud": [
+      "https://ruixen.com/docs/components/icon-cloud: HTTP or no response",
+      "https://ruixen.com/docs/sections/icon-cloud: HTTP or no response",
+      "https://ruixen.com/preview/icon-cloud: no component-specific heading"
+    ],
+    "RXN-linear-mask": [
+      "https://ruixen.com/docs/components/linear-mask: HTTP or no response",
+      "https://ruixen.com/docs/sections/linear-mask: HTTP or no response",
+      "https://ruixen.com/preview/linear-mask: no component-specific heading"
+    ],
+    "RXN-line-shadow-text": [
+      "https://ruixen.com/docs/components/line-shadow-text: HTTP or no response",
+      "https://ruixen.com/docs/sections/line-shadow-text: HTTP or no response",
+      "https://ruixen.com/preview/line-shadow-text: no component-specific heading"
+    ],
+    "RXN-iphone-15-pro": [
+      "https://ruixen.com/docs/components/iphone-15-pro: HTTP or no response",
+      "https://ruixen.com/docs/sections/iphone-15-pro: HTTP or no response",
+      "https://ruixen.com/preview/iphone-15-pro: no component-specific heading"
+    ],
+    "RXN-mode-toggle": [
+      "https://ruixen.com/docs/components/mode-toggle: HTTP or no response",
+      "https://ruixen.com/docs/sections/mode-toggle: HTTP or no response",
+      "https://ruixen.com/preview/mode-toggle: no component-specific heading"
+    ],
+    "RXN-morphing-text": [
+      "https://ruixen.com/docs/components/morphing-text: HTTP or no response",
+      "https://ruixen.com/docs/sections/morphing-text: HTTP or no response",
+      "https://ruixen.com/preview/morphing-text: no component-specific heading"
+    ],
+    "RXN-pixel-image": [
+      "https://ruixen.com/docs/components/pixel-image: HTTP or no response",
+      "https://ruixen.com/docs/sections/pixel-image: HTTP or no response",
+      "https://ruixen.com/preview/pixel-image: no component-specific heading"
+    ],
+    "RXN-neon-gradient-card": [
+      "https://ruixen.com/docs/components/neon-gradient-card: HTTP or no response",
+      "https://ruixen.com/docs/sections/neon-gradient-card: HTTP or no response",
+      "https://ruixen.com/preview/neon-gradient-card: no component-specific heading"
+    ],
+    "RXN-package-installer-tabs": [
+      "https://ruixen.com/docs/components/package-installer-tabs: HTTP or no response",
+      "https://ruixen.com/docs/sections/package-installer-tabs: HTTP or no response",
+      "https://ruixen.com/preview/package-installer-tabs: no component-specific heading"
+    ],
+    "RXN-orbiting-circles": [
+      "https://ruixen.com/docs/components/orbiting-circles: HTTP or no response",
+      "https://ruixen.com/docs/sections/orbiting-circles: HTTP or no response",
+      "https://ruixen.com/preview/orbiting-circles: no component-specific heading"
+    ],
+    "RXN-number-ticker": [
+      "https://ruixen.com/docs/components/number-ticker: HTTP or no response",
+      "https://ruixen.com/docs/sections/number-ticker: HTTP or no response",
+      "https://ruixen.com/preview/number-ticker: no component-specific heading"
+    ],
+    "RXN-pulsating-button": [
+      "https://ruixen.com/docs/components/pulsating-button: HTTP or no response",
+      "https://ruixen.com/docs/sections/pulsating-button: HTTP or no response",
+      "https://ruixen.com/preview/pulsating-button: no component-specific heading"
+    ],
+    "RXN-retro-grid": [
+      "https://ruixen.com/docs/components/retro-grid: HTTP or no response",
+      "https://ruixen.com/docs/sections/retro-grid: HTTP or no response",
+      "https://ruixen.com/preview/retro-grid: no component-specific heading"
+    ],
+    "RXN-progressive-blur": [
+      "https://ruixen.com/docs/components/progressive-blur: HTTP or no response",
+      "https://ruixen.com/docs/sections/progressive-blur: HTTP or no response",
+      "https://ruixen.com/preview/progressive-blur: no component-specific heading"
+    ],
+    "RXN-ruixen-featured-message-card": [
+      "https://ruixen.com/docs/components/ruixen-featured-message-card: HTTP or no response",
+      "https://ruixen.com/docs/sections/ruixen-featured-message-card: HTTP or no response",
+      "https://ruixen.com/preview/ruixen-featured-message-card: no component-specific heading"
+    ],
+    "RXN-rainbow-button": [
+      "https://ruixen.com/docs/components/rainbow-button: HTTP or no response",
+      "https://ruixen.com/docs/sections/rainbow-button: HTTP or no response",
+      "https://ruixen.com/preview/rainbow-button: no component-specific heading"
+    ],
+    "RXN-ruixen-prompt-box": [
+      "https://ruixen.com/docs/components/ruixen-prompt-box: HTTP or no response",
+      "https://ruixen.com/docs/sections/ruixen-prompt-box: HTTP or no response",
+      "https://ruixen.com/preview/ruixen-prompt-box: no component-specific heading"
+    ],
+    "RXN-ruixen-query-box": [
+      "https://ruixen.com/docs/components/ruixen-query-box: HTTP or no response",
+      "https://ruixen.com/docs/sections/ruixen-query-box: HTTP or no response",
+      "https://ruixen.com/preview/ruixen-query-box: no component-specific heading"
+    ],
+    "RXN-scroll-based-velocity": [
+      "https://ruixen.com/docs/components/scroll-based-velocity: HTTP or no response",
+      "https://ruixen.com/docs/sections/scroll-based-velocity: HTTP or no response",
+      "https://ruixen.com/preview/scroll-based-velocity: no component-specific heading"
+    ],
+    "RXN-script-copy-btn": [
+      "https://ruixen.com/docs/components/script-copy-btn: HTTP or no response",
+      "https://ruixen.com/docs/sections/script-copy-btn: HTTP or no response",
+      "https://ruixen.com/preview/script-copy-btn: no component-specific heading"
+    ],
+    "RXN-scratch-to-reveal": [
+      "https://ruixen.com/docs/components/scratch-to-reveal: HTTP or no response",
+      "https://ruixen.com/docs/sections/scratch-to-reveal: HTTP or no response",
+      "https://ruixen.com/preview/scratch-to-reveal: no component-specific heading"
+    ],
+    "RXN-scroll-progress": [
+      "https://ruixen.com/docs/components/scroll-progress: HTTP or no response",
+      "https://ruixen.com/docs/sections/scroll-progress: HTTP or no response",
+      "https://ruixen.com/preview/scroll-progress: no component-specific heading"
+    ],
+    "RXN-shimmer-button": [
+      "https://ruixen.com/docs/components/shimmer-button: HTTP or no response",
+      "https://ruixen.com/docs/sections/shimmer-button: HTTP or no response",
+      "https://ruixen.com/preview/shimmer-button: no component-specific heading"
+    ],
+    "RXN-shine-border": [
+      "https://ruixen.com/docs/components/shine-border: HTTP or no response",
+      "https://ruixen.com/docs/sections/shine-border: HTTP or no response",
+      "https://ruixen.com/preview/shine-border: no component-specific heading"
+    ],
+    "RXN-shiny-button": [
+      "https://ruixen.com/docs/components/shiny-button: HTTP or no response",
+      "https://ruixen.com/docs/sections/shiny-button: HTTP or no response",
+      "https://ruixen.com/preview/shiny-button: no component-specific heading"
+    ],
+    "RXN-smooth-cursor": [
+      "https://ruixen.com/docs/components/smooth-cursor: HTTP or no response",
+      "https://ruixen.com/docs/sections/smooth-cursor: HTTP or no response",
+      "https://ruixen.com/preview/smooth-cursor: no component-specific heading"
+    ],
+    "RXN-sparkles-text": [
+      "https://ruixen.com/docs/components/sparkles-text: HTTP or no response",
+      "https://ruixen.com/docs/sections/sparkles-text: HTTP or no response",
+      "https://ruixen.com/preview/sparkles-text: no component-specific heading"
+    ],
+    "RXN-text-animate": [
+      "https://ruixen.com/docs/components/text-animate: HTTP or no response",
+      "https://ruixen.com/docs/sections/text-animate: HTTP or no response",
+      "https://ruixen.com/preview/text-animate: no component-specific heading"
+    ],
+    "RXN-spinning-text": [
+      "https://ruixen.com/docs/components/spinning-text: HTTP or no response",
+      "https://ruixen.com/docs/sections/spinning-text: HTTP or no response",
+      "https://ruixen.com/preview/spinning-text: no component-specific heading"
+    ],
+    "RXN-text-reveal": [
+      "https://ruixen.com/docs/components/text-reveal: HTTP or no response",
+      "https://ruixen.com/docs/sections/text-reveal: HTTP or no response",
+      "https://ruixen.com/preview/text-reveal: no component-specific heading"
+    ],
+    "RXN-typing-animation": [
+      "https://ruixen.com/docs/components/typing-animation: HTTP or no response",
+      "https://ruixen.com/docs/sections/typing-animation: HTTP or no response",
+      "https://ruixen.com/preview/typing-animation: no component-specific heading"
+    ],
+    "RXN-warp-background": [
+      "https://ruixen.com/docs/components/warp-background: HTTP or no response",
+      "https://ruixen.com/docs/sections/warp-background: HTTP or no response",
+      "https://ruixen.com/preview/warp-background: no component-specific heading"
+    ],
+    "RXN-video-text": [
+      "https://ruixen.com/docs/components/video-text: HTTP or no response",
+      "https://ruixen.com/docs/sections/video-text: HTTP or no response",
+      "https://ruixen.com/preview/video-text: no component-specific heading"
+    ],
+    "RXN-word-rotate": [
+      "https://ruixen.com/docs/components/word-rotate: HTTP or no response",
+      "https://ruixen.com/docs/sections/word-rotate: HTTP or no response",
+      "https://ruixen.com/preview/word-rotate: no component-specific heading"
+    ],
+    "RXN-scrub-datetime": [
+      "https://ruixen.com/docs/components/scrub-datetime: blank or near-uniform component",
+      "https://ruixen.com/docs/sections/scrub-datetime: HTTP or no response",
+      "https://ruixen.com/preview/scrub-datetime: no component-specific heading"
+    ]
+  },
+  "gentleface_unresolved": {
+    "ICO-021": "original icon yielded uninformative image"
+  },
+  "other_source_missing": {
+    "DEVLIBRARIES_AMICRO": 10,
+    "DEVLIBRARIES_BOOKMARKS": 27,
+    "DEVLIBRARIES_EASEUI": 1,
+    "USER_IMAGE": 1,
+    "FLUTTER_COMPONENT_LIBRARY": 15,
+    "DEVLIBRARIES_WATERMELON": 9
+  },
+  "claim": "Only files actually acquired and hashed count; all images are UNREVIEWED until visual inspection."
+}

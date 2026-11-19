@@ -1195,6 +1195,19 @@
       "captured_on": "2026-11-19",
       "bytes": 3736
     },
+    "RXN-floating-cards-hero": {
+      "component_id": "RXN-floating-cards-hero",
+      "preview_path": "docs/assets/componenti/RXN-floating-cards-hero.png",
+      "preview_sha256": "620c48bec2e3ea7e84f6c8769ab0f7a3a1ad036b3463f36e960f2b862a255876",
+      "origin_url": "https://ruixen.com/docs/components/floating-cards-hero",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941",
+      "capture_mode": "LIVE_DOCS_COMPONENT_IFRAME",
+      "preview_source_version": "LIVE_UNPINNED_NOT_ASSERTED_MATCHING_CODE_SHA",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "isolated official component iframe, NOT docs page chrome",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER"
+    },
     "RXN-floating-navbar": {
       "component_id": "RXN-floating-navbar",
       "preview_path": "docs/assets/componenti/RXN-floating-navbar.png",
