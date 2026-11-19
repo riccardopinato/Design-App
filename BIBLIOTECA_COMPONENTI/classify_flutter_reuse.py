@@ -70,10 +70,10 @@ rows.sort(key=lambda r:(-r["priority_score"],r["uid"]))
 info={"schema_version":1,"as_of":"2026-11-19","canonical_count":480,"status_counts":dict(Counter(r["flutter_status"] for r in rows)),"group_counts":dict(Counter(r["native_port_group"] for r in rows)),"entries":rows}
 (HERE/"PORTING_BACKLOG.json").write_text(json.dumps(info,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 ru=[r for r in rows if r["source"]=="RUIXEN" and not r["preview_verified_file"]]
-assert len(ru)==66, f"unexpected Ruixen missing count {len(ru)}"
+assert len(ru) == sum(1 for c in catalog["components"] if c["source_site"] == "RUIXEN" and not previews[c["id"]].get("image_path"))
 (HERE/"RU_SOURCE_RENDER_QUEUE.json").write_text(json.dumps({
     "schema_version":1,
-    "missing_ruixen_previews":66,
+    "missing_ruixen_previews":len(ru),
     "source_commit":"f6b20860623fa39122ac2b5f0e5bd29a9eb10941",
     "image_source":"ORIGINAL_ARCHIVED_REACT_TSX",
     "entries":ru,
@@ -86,7 +86,7 @@ summary=(
     "Questa classificazione non produce file Dart né immagini, non verifica l'aspetto e non sostituisce gli originali.\n\n"
     f"**Flutter:** {info['status_counts']}.\n\n"
     f"**Gruppi di lavoro:** {info['group_counts']}.\n\n"
-    "**Ruixen senza PNG:** 66 (TSX MIT conservati, riproduzione locale richiede runtime React + dipendenze verificate).\n\n"
+    f"**Ruixen senza PNG:** {len(ru)} (TSX MIT conservati, riproduzione locale richiede runtime React + dipendenze verificate).\n\n"
     "## Prime 50 conversioni da sviluppare\n\n"
     "| UID | Componente | Fonte | Gruppo | Impedimenti | App | Priorità |\n"
     "|---|---|---|---|---|---:|---:|\n"
@@ -96,4 +96,4 @@ for r in queue[:50]:
     summary+=f"| {r['uid']} | {r['canonical_id']} | {r['source']} | {r['native_port_group']} | {', '.join(r['dependency_markers']) or '—'} | {len(r['apps'])} | {r['priority_score']} |\n"
 summary+="\nDettaglio completo, sorgenti originali e stato Flutter: [PORTING_BACKLOG.json](./PORTING_BACKLOG.json). Per il recupero delle immagini Ruixen: [RU_SOURCE_RENDER_QUEUE.json](./RU_SOURCE_RENDER_QUEUE.json).\n"
 (HERE/"PORTING_BACKLOG.md").write_text(summary,encoding="utf-8")
-print("AUDIT_480",info["status_counts"],info["group_counts"],"RU_66",len(ru))
+print("AUDIT_480",info["status_counts"],info["group_counts"],"RU_UNRESOLVED",len(ru))
