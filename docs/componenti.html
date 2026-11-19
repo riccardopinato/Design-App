@@ -48,7 +48,7 @@ dialog{width:min(960px,96vw);max-height:94dvh;border:0;padding:0;border-radius:1
 </table>
 </div>
 <div class="pager"><button id="prev" type="button">Precedente</button><span id="pages"></span><button id="next" type="button">Successiva</button></div>
-<p class="muted">Il catalogo conserva 478 ID canonici; i 277 componenti Ruixen attualmente senza associazioni non vengono assegnati arbitrariamente alle app. Filtra «Tutte» per vederli. <a href="../BIBLIOTECA_COMPONENTI/README.md">Guida e vincoli</a>.</p>
+<p class="muted">Il catalogo conserva 478 ID canonici; i 277 componenti Ruixen attualmente senza associazioni non vengono assegnati arbitrariamente alle app. Filtra «Tutte» per vederli. <a href="https://github.com/riccardopinato/Design-App/blob/main/BIBLIOTECA_COMPONENTI/README.md">Guida e vincoli</a>.</p>
 </main>
 <dialog id="lightbox" aria-labelledby="modalTitle">
 <div class="modal-header"><strong id="modalTitle"></strong><button id="close" aria-label="Chiudi anteprima">Chiudi ✕</button></div>
@@ -70,7 +70,7 @@ function repoUrl(local){return "https://github.com/"+OWNER+"/"+REPO+"/blob/main/
 async function loadJSON(local){const url=urlFor(local);const res=await fetch(url,{cache:"no-store"});if(!res.ok)throw new Error(local+": HTTP "+res.status);return await res.json()}
 function query(){
 const s=refs.search.value.trim().toLocaleLowerCase("it"),a=refs.app.value,f=refs.source.value,p=refs.preview.value;
-current=catalog.filter(x=>(!a||(a==="__unassigned__"?!x.apps.length:x.apps.includes(a)))&&(!f||x.source_site===f)&&(!s||[x.id,x.name,x.category,x.source_site,...x.apps].join(" ").toLocaleLowerCase("it").includes(s))&&(!p||(p==="ready"?!!previews[x.id]?.image_path:!previews[x.id]?.image_path)));
+current=catalog.filter(x=>(!a||(a==="__unassigned__"?!x.apps.length:x.apps.some(y=>(y==="anna-s-diary"?"annas-diary":y)===a)))&&(!f||x.source_site===f)&&(!s||[x.id,x.name,x.category,x.source_site,...x.apps].join(" ").toLocaleLowerCase("it").includes(s))&&(!p||(p==="ready"?!!previews[x.id]?.image_path:!previews[x.id]?.image_path)));
 page=0;draw();
 }
 function sourceLink(c){const href=c.source_url||(c.archive_path?repoUrl(c.archive_path):null);if(!href)return node("span","muted","Fonte non registrata");const a=node("a",null,"Apri fonte");a.href=href;a.target="_blank";a.rel="noopener noreferrer";return a}
@@ -137,7 +137,7 @@ for(const i of Object.values(refs).filter(x=>x!==refs.rows))i.addEventListener(i
   const [cat,manifest]=await Promise.all([loadJSON(LOCAL_CATALOG),loadJSON(LOCAL_PREVIEWS).catch(()=>({previews:{}}))]);
   if(cat.counts?.unique_components!==478||cat.components.length!==478)throw Error("Conteggio catalogo inatteso");
   catalog=cat.components;previews=manifest.previews||{};
-  const apps=[...new Set(catalog.flatMap(c=>c.apps))].sort((a,b)=>a.localeCompare(b,"it"));
+  const apps=[...new Set(catalog.flatMap(c=>c.apps.map(a=>a==="anna-s-diary"?"annas-diary":a)))].sort((a,b)=>a.localeCompare(b,"it"));
   for(const a of apps){const option=node("option",null,a);option.value=a;refs.app.append(option)}
   const un=node("option",null,"Senza app associata");un.value="__unassigned__";refs.app.append(un);
   for(const a of [...new Set(catalog.map(c=>c.source_site))].sort()){const option=node("option",null,a.replaceAll("_"," "));option.value=a;refs.source.append(option)}
