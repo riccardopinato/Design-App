@@ -16,7 +16,9 @@ const originalDeps = [
   '@shikijs/transformers', 'shiki',
 ].map((name) => ({
   find: new RegExp('^' + name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '$'),
-  replacement: requireFromRenderer.resolve(name),
+  // framer-motion 12 exposes Motion's React API. Route both imports through
+  // one renderer-bound module to avoid two hook dispatchers in isolated TSX.
+  replacement: requireFromRenderer.resolve(name === 'framer-motion' ? 'motion/react' : name),
 }));
 
 // Historical renderer package manifests are retained in package_history;
@@ -48,7 +50,10 @@ export default defineConfig({
     host: '127.0.0.1', port: 5181, strictPort: true,
     // Vite overlay events are shared by the dev server: one bad import must
     // never contaminate another UID's valid screenshot.
-    hmr: { overlay: false },
+    // Disabling only the overlay still broadcast unrelated transform errors
+    // to every open page through Vite's websocket. Disable HMR entirely in
+    // this one-shot capture harness; each page loads its own exact source.
+    hmr: false,
     fs: { allow: ['..'] },
   },
 });

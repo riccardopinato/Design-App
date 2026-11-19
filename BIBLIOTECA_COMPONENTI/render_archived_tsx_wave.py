@@ -106,6 +106,12 @@ async def main():
                             why=await target.get_attribute("data-source-error")
                             details={"console":console_errors[:3],"http":http_errors[:3],"requests":request_errors[:3]}
                             raise ValueError("ORIGINAL_TSX_IMPORT_OR_RENDER_FAILED "+str(why)+" "+json.dumps(details,ensure_ascii=False))
+                        # Cursor-only originals have no visible output until
+                        # a real pointer event. Exercise the original runtime.
+                        if cid in {"AMX-002","RXN-smooth-cursor"}:
+                            await page.mouse.move(440,270)
+                            await page.wait_for_timeout(420)
+                            await page.mouse.move(505,295)
                         await page.wait_for_timeout(950)
                         if errors:raise ValueError("SOURCE_JS_EXCEPTION "+str(errors[:2]))
                         # Vite can render a colorful error overlay above the original
@@ -116,7 +122,7 @@ async def main():
                             raise ValueError("VITE_COMPILATION_OVERLAY "+str(overlay)[:350])
                         actual_source=await target.get_attribute("data-source-path")
                         if not actual_source or not actual_source.endswith("/"+Path(c["archive_path"]).name):
-                            raise ValueError("COMPONENT_SOURCE_PATH_DID_NOT_MATCH_ARCHIVE")
+                            raise ValueError("COMPONENT_SOURCE_PATH_DID_NOT_MATCH_ARCHIVE actual="+repr(actual_source)+" expected="+repr(c["archive_path"]))
                         n=await target.locator("*").count()
                         # A valid source may render ONE span/canvas/input directly.
                         # This is a DOM presence check, not an arbitrary child count.

@@ -150,7 +150,7 @@ async function mount(cid: string) {
   if (cid==='RXN-animated-beam') {
     node=React.createElement(BeamSourceFixture,{component:component as React.ElementType});
   }
-  const isSmallLoading=cid.startsWith('DBM-')||cid==='AMX-006';
+  const isSmallLoading=cid.startsWith('DBM-')||cid==='AMX-006'||cid==='RXN-scrub-datetime';
   const framed=isSmallLoading
     ? React.createElement('div',{style:{transform:'scale(3)',transformOrigin:'center'}},node)
     : node;
