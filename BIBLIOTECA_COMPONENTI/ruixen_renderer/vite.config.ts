@@ -8,24 +8,42 @@ const requireFromRenderer = createRequire(import.meta.url);
 // The archived TSX sits in a sibling directory, outside renderer/node_modules.
 // Resolve third-party imports through THIS isolated runtime. Never modify TSX.
 const originalDeps = [
-  'react', 'react-dom', 'react/jsx-runtime', 'lucide-react',
+  'react', 'react-dom', 'react-dom/client', 'react/jsx-runtime', 'react/jsx-dev-runtime',
+  'lucide-react', 'react-icons/fa6', 'react-icons/fa', 'clsx', 'tailwind-merge',
   'motion/react', 'framer-motion', 'class-variance-authority',
 ].map((name) => ({
   find: new RegExp('^' + name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '$'),
   replacement: requireFromRenderer.resolve(name),
 }));
 
+// Resolve only the exact MIT upstream helper used by archived Amicro sources.
+// The original TSX is never changed or silently stubbed.
+const pinnedAmicroHook = {
+  name: 'source-pinned-amicro-hook',
+  enforce: 'pre' as const,
+  resolveId(id: string, importer?: string) {
+    if (/(?:^|\\/)hooks\\/useLoopFlg(?:\\.[jt]sx?)?$/.test(id) &&
+        importer?.replaceAll('\\\\', '/').includes('/sorgenti/amicro/')) {
+      return path.resolve(__dirname, 'vendor/amicro/useLoopFlg.ts');
+    }
+    return null;
+  },
+};
+
 export default defineConfig({
   define: {
     __DESIGN_APP_SOURCE_ROOT__: JSON.stringify(path.resolve(__dirname, '../sorgenti')),
   },
-  plugins: [react(), tailwindcss()],
+  plugins: [pinnedAmicroHook, react(), tailwindcss()],
   resolve: {
     alias: [{ find: '@', replacement: path.resolve(__dirname, 'src') }, ...originalDeps],
-    dedupe: ['react', 'react-dom'],
+    dedupe: ['react', 'react-dom', 'react/jsx-runtime', 'react/jsx-dev-runtime'],
   },
   server: {
-    host: '127.0.0.1', port: 5181, strictPort: true, hmr: false,
+    host: '127.0.0.1', port: 5181, strictPort: true,
+    // Vite overlay events are shared by the dev server: one bad import must
+    // never contaminate another UID's valid screenshot.
+    hmr: { overlay: false },
     fs: { allow: ['..'] },
   },
 });

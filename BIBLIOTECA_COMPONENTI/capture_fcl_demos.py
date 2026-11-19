@@ -70,9 +70,16 @@ async def main():
                     anchors=await page.locator('a[href]').evaluate_all("""els=>els
                         .filter(a=>/open in new tab|live demo/i.test(a.textContent||''))
                         .map(a=>a.href).slice(0,6)""")
-                    diagnostics[cid]={"title":title,"iframe_count":count,"demo_links":anchors}
+                    diagnostics[cid]={
+                        "requested_url":url,"final_url":page.url,
+                        "http_status":resp.status,"title":title,
+                        "iframe_count":count,"demo_links":anchors,
+                        "source_code_archived":False,
+                        "source_license_verified":False,
+                    }
                     if count == 0:
-                        raise ValueError("NO_OFFICIAL_DEMO_IFRAME: "+str(anchors[:2]))
+                        raise ValueError("NO_OFFICIAL_DEMO_IFRAME: "+str(anchors[:2])+
+                                         "; final_url="+page.url+"; page_title="+title)
                     best=None
                     for k in range(min(5,count)):
                         frame=frames.nth(k)
@@ -96,6 +103,9 @@ async def main():
                                 if await inside.locator("flt-glass-pane,flt-scene-host,canvas").count()>0:
                                     break
                                 await page.wait_for_timeout(delay)
+                    # This known route displays the library homepage despite a visible
+                    # iframe. Keep its false-positive rejection until the exact
+                    # widget can be demonstrated, not merely a generic shell.
                     if cid == "FCL-006":
                         raise ValueError("VISUAL_QA_REJECTED_WRONG_COMPONENT: the Book Shelf demo route resolves to catalog homepage")
                     raw=await frame.screenshot(animations="disabled",timeout=20000)

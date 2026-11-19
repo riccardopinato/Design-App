@@ -1,5 +1,8 @@
 @import "tailwindcss";
 @source "../../sorgenti/ruixen";
+@source "../../sorgenti/amicro";
+@source "../../sorgenti/watermelon";
+@source "../../sorgenti/easeui";
 @theme {
   --color-primary: #5468d8;
   --color-primary-foreground: #ffffff;

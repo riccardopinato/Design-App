@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Batch render every unresolved, MIT-archived React TSX, per UID and SHA.
 
+The isolated Vite resolver pins upstream hooks and disables cross-UID error
+broadcasting; missing genuine dependencies still fail closed per UID.
+
 Source provenance is exact. A generic fixture is not a fidelity claim: visual
 QA remains UNREVIEWED, and imports/visuals that fail are logged rather than
 filled with fabricated images. Existing previews and originals are immutable.

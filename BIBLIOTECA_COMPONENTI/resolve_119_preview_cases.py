@@ -126,6 +126,9 @@ def main():
             "capture_mode":origin.get("capture_mode") if origin else None,
             "evidence_refs":evidence,
             "consumer_admission":"NOT_VERIFIED",
+            "source_triage":("BIBLIOTECA_COMPONENTI/SOURCE_TRIAGE_10.md" if code in {
+                "BLOCKED_NO_SOURCE_OR_LICENSE","BLOCKED_SOURCE_NOT_ARCHIVED",
+                "BLOCKED_USER_IMAGE_NOT_ATTACHED"} else None),
         })
     assert len(rows)==119 and len({r["canonical_id"] for r in rows})==119
     counts=dict(Counter(r["result"] for r in rows))
