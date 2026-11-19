@@ -151,6 +151,15 @@ async def main():
                         if n<1:raise ValueError("NO_RENDERED_COMPONENT_ELEMENT")
                         if "SOURCE_MODULE_FAILED" in (await target.inner_text()):
                             raise ValueError("SOURCE_MODULE_FAILED_MESSAGE")
+                        # Date/time scrub controls occupy only a few short text
+                        # lines. Capture their actual interactive UI at a
+                        # tighter frame; do not lower the anti-blank QA threshold.
+                        if cid=="RXN-scrub-datetime":
+                            await target.evaluate("""el => {
+                                el.style.width='410px';
+                                el.style.height='220px';
+                                el.style.background='#ffffff';
+                            }""")
                         raw=await target.screenshot(animations="disabled",timeout=14000)
                         # A late unrelated overlay cannot invalidate the tested UID;
                         # late errors for the requested source still fail closed.
@@ -195,7 +204,7 @@ async def main():
                         made.append(cid)
                         print("TSX_WAVE_OK",cid,"bytes",len(png),"variance",round(variance,1))
                     except Exception as exc:
-                        failed[cid]=str(exc)[:500]
+                        failed[cid]=str(exc)[:1100]
                         print("TSX_WAVE_BLOCKED",cid,failed[cid][:180])
                     finally:
                         await page.close()
