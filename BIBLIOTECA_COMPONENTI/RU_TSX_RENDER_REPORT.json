@@ -4,15 +4,23 @@
     "grain-gradient-bg",
     "grid-pattern",
     "pulsating-button",
-    "shimmer-button"
+    "shimmer-button",
+    "interactive-hover-button",
+    "flip-text",
+    "orbiting-circles",
+    "rainbow-button",
+    "ruixen-featured-message-card",
+    "spinning-text"
   ],
-  "captured": [
-    "RXN-grain-gradient-bg",
-    "RXN-grid-pattern",
-    "RXN-pulsating-button",
-    "RXN-shimmer-button"
-  ],
-  "blocked": {},
+  "captured": [],
+  "blocked": {
+    "RXN-interactive-hover-button": "Locator.wait_for: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"#component-root\") to be visible\n",
+    "RXN-flip-text": "Locator.wait_for: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"#component-root\") to be visible\n",
+    "RXN-orbiting-circles": "Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:5181/?component=orbiting-circles\", waiting until \"networkidle\"\n",
+    "RXN-rainbow-button": "Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:5181/?component=rainbow-button\", waiting until \"networkidle\"\n",
+    "RXN-ruixen-featured-message-card": "Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:5181/?component=ruixen-featured-message-card\", waiting until \"networkidle\"\n",
+    "RXN-spinning-text": "Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:5181/?component=spinning-text\", waiting until \"networkidle\"\n"
+  },
   "source_revision": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941",
   "status": "IMAGE_UNREVIEWED_NOT_OFFICIAL_UPSTREAM_CAPTURE"
 }
