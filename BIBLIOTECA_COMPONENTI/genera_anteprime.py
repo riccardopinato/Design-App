@@ -71,8 +71,13 @@ def build_manifest(rows: list[dict]) -> dict:
                 raise ValueError(cid + ": image/source commit mismatch")
             if record.get("origin_repo") != "ruixenui/ruixen.com":
                 raise ValueError(cid + ": incorrect image source repository")
-            if record.get("capture_mode") not in {"PINNED_OFFICIAL_PREVIEW_IMAGE", "LIVE_COMPONENT_ONLY_SCREENSHOT", "OFFICIAL_SITE_STATIC_IMAGE", "LIVE_DOCS_COMPONENT_IFRAME"}:
+            if record.get("capture_mode") not in {"PINNED_OFFICIAL_PREVIEW_IMAGE", "LIVE_COMPONENT_ONLY_SCREENSHOT", "OFFICIAL_SITE_STATIC_IMAGE", "LIVE_DOCS_COMPONENT_IFRAME", "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER"}:
                 raise ValueError(cid + ": unsupported acquisition method")
+            if record.get("capture_mode") == "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER":
+                if (record.get("source_blob_sha") != c.get("source_blob_sha")
+                        or record.get("local_fixture_path") != "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/main.tsx"
+                        or record.get("local_renderer_package_sha256") != hashlib.sha256((HERE / "ruixen_renderer/package.json").read_bytes()).hexdigest()):
+                    raise ValueError(cid + ": original TSX or isolated demo fixture provenance mismatch")
             if hashlib.sha256(path.read_bytes()).hexdigest() != record.get("preview_sha256"):
                 raise ValueError(cid + ": screenshot bytes differ from registered SHA256")
         if valid and c["source_site"] == "FLUTTER_FORUI":

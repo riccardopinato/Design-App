@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@source "../../sorgenti/ruixen";
+@theme {
+  --color-primary: #5468d8;
+  --color-primary-foreground: #ffffff;
+}
+html,body,#root{margin:0;width:100%;min-height:100vh;background:#f8fafc;}
+*,*::before,*::after{box-sizing:border-box;}
+#root{display:flex;justify-content:center;align-items:center;min-height:100vh;}
+#component-root{width:720px;height:340px;background:#f7f8fb;border-radius:16px;overflow:hidden;display:flex;align-items:center;justify-content:center;}
+@keyframes shimmer-slide{from{transform:translateX(-150%)}to{transform:translateX(150%)}}
+@keyframes spin-around{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+.animate-shimmer-slide{animation:shimmer-slide 3s linear infinite}
+.animate-spin-around{animation:spin-around 3s linear infinite}
