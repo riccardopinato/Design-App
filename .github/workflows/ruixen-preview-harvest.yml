@@ -32,7 +32,9 @@ jobs:
           python -m pip install "Pillow==11.3.0" "playwright==1.57.0"
           python -m playwright install --with-deps chromium
       - name: Capture pinned original images and true per-component demos
-        run: python BIBLIOTECA_COMPONENTI/render_ruixen_previews.py --live
+        run: python BIBLIOTECA_COMPONENTI/render_ruixen_previews.py
+        # Official static image recovery only; 66 live demo routes already
+        # confirmed unavailable in the previous attempt. Do not recapture.
       - name: Regenerate and validate all per-app visual tables
         run: |
           python BIBLIOTECA_COMPONENTI/genera_anteprime.py --write
