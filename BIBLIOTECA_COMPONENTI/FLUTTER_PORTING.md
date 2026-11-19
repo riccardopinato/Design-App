@@ -13,3 +13,7 @@ I primi tre file Dart sono in `flutter_adapters/`. Per i due Forui già nativi i
 Processo per le wave successive: codice sorgente e licenza → studio del comportamento e screenshot → file Flutter affiancato → widget test e flutter analyze → confronto visivo e accessibilità → consumer pilot → eventuale riuso copy-ready verificato. Una stessa conversione può servire più app, senza modificare la fonte originale.
 
 La colonna Flutter del catalogo è un riferimento al file Dart completo, non una copia parziale dei frammenti nel Markdown. Non dichiarare porting completo né compliance production prima dei rispettivi gate.
+
+## Gentleface native source intake
+
+The official Gentleface website exposes MIT SVG originals and full Flutter/Dart `CustomPainter` widgets, discoverable at `/icons/<slug>.md`. The source intake stores **28 SVG originals** and **28 native Dart files** separately with independent SHA256 and official URLs; these are **live-source hashes, not pinned Git commit SHA**. The original source and native Dart must never overwrite each other. This package is not a verified app consumer or Golden by itself.

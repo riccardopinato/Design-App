@@ -34,10 +34,15 @@ for cid, row in DATA["components"].items():
     assert row["consumer_runtime"] == "NOT_VERIFIED", cid
     state = row["flutter_status"]
     assert state in {"PENDING_FLUTTER_REWRITE", "NATIVE_DART_DEPENDENCY_GATE",
+                     "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER",
                      "SOURCE_NOT_ARCHIVED", "ADAPTER_DRAFT_UNVERIFIED_CONSUMER"}, cid
     counts[state] = counts.get(state, 0) + 1
     fpath = row.get("flutter_code_path")
-    if state == "ADAPTER_DRAFT_UNVERIFIED_CONSUMER":
+    if state == "NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER":
+        assert source["source_site"] == "GENTLEFACE", cid
+        assert fpath and fpath.startswith("BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/gentleface/"), cid
+        assert source["archive_state"] == "ARCHIVED_SOURCE", cid
+    elif state == "ADAPTER_DRAFT_UNVERIFIED_CONSUMER":
         assert cid in PORTS and fpath and Path(fpath).name == PORTS[cid], cid
     elif state == "NATIVE_DART_DEPENDENCY_GATE":
         assert source["source_site"] == "FLUTTER_FORUI" and fpath == source["archive_path"], cid
@@ -55,4 +60,5 @@ for cid, row in DATA["components"].items():
         assert p.is_file(), cid
 assert counts["ADAPTER_DRAFT_UNVERIFIED_CONSUMER"] == 5
 assert counts["NATIVE_DART_DEPENDENCY_GATE"] == 2
+assert counts["NATIVE_DART_SOURCE_ARCHIVED_UNVERIFIED_CONSUMER"] == 28
 print("PASS 480 originals/Flutter column records:", counts)
