@@ -2647,6 +2647,21 @@
       "captured_on": "2026-11-19",
       "bytes": 32004
     },
+    "RXN-pixel-image": {
+      "component_id": "RXN-pixel-image",
+      "preview_path": "docs/assets/componenti/RXN-pixel-image.png",
+      "preview_sha256": "7f1e4b4a6a59c38d403bde73d995cc89ffbd181e96969795882525f69727979b",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/pixel-image.tsx",
+      "source_blob_sha": "d65c9c88b068c3005c0bb036212a485ef677f35a",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "88ee6e78898efecf1cb7a1e897ad98687bdc0e08751d0923225957793016d9be",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
+    },
     "RXN-preview-switch-hero": {
       "component_id": "RXN-preview-switch-hero",
       "preview_path": "docs/assets/componenti/RXN-preview-switch-hero.png",
@@ -2844,6 +2859,21 @@
       "origin_path": "public/preview_images/buttons/progress-button-light.png",
       "upstream_preview_index_sha256": "0255ae3f982b2c4def65d99f4e380ffa84c0e36863da4209b4e92f710bd16ca9",
       "bytes": 14174
+    },
+    "RXN-progressive-blur": {
+      "component_id": "RXN-progressive-blur",
+      "preview_path": "docs/assets/componenti/RXN-progressive-blur.png",
+      "preview_sha256": "be4cf841da88462cb7183616fcf17474ef276a549c1406fda0b1265a7fea440e",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/progressive-blur.tsx",
+      "source_blob_sha": "a4af58f50768c55f0635a58d563d847c1c9532d8",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "88ee6e78898efecf1cb7a1e897ad98687bdc0e08751d0923225957793016d9be",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
     },
     "RXN-progressive-flux-loader": {
       "component_id": "RXN-progressive-flux-loader",

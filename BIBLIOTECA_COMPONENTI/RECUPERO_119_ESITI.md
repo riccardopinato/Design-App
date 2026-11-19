@@ -1,5 +1,5 @@
 # Esito nominativo delle 119 anteprime — Design-App
-Baseline immutabile: 119 UID iniziali; **83 recuperate**; **36 senza PNG**.
+Baseline immutabile: 119 UID iniziali; **85 recuperate**; **34 senza PNG**.
 La colonna risultato distingue **PNG reale acquisita** da **blocco concreto** e **acquisizione ancora non eseguita**. Una PNG con QA visivo UNREVIEWED non è né Golden Flutter né asset approvato per l'app.
 Le fonti originali non sono state sostituite.
 | UID | Componente | Origine | Esito | Immagine/Fonte | Evidenza/impedimento |
@@ -94,8 +94,8 @@ Le fonti originali non sono state sostituite.
 | UID-0257 | RXN-neon-gradient-card | RUIXEN | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/RXN-neon-gradient-card.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
 | UID-0263 | RXN-number-ticker | RUIXEN | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/RXN-number-ticker.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
 | UID-0265 | RXN-package-installer-tabs | RUIXEN | BLOCKED_ACTUAL_TSX_RENDER | [Fonte originale](https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/package-installer-tabs.tsx) | SOURCE_JS_EXCEPTION ["Cannot read properties of null (reading 'useContext')"] |
-| UID-0271 | RXN-pixel-image | RUIXEN | BLOCKED_ACTUAL_TSX_RENDER | [Fonte originale](https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/pixel-image.tsx) | NEAR_BLANK_UNVERIFIED_COMPONENT |
-| UID-0286 | RXN-progressive-blur | RUIXEN | BLOCKED_ACTUAL_TSX_RENDER | [Fonte originale](https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/progressive-blur.tsx) | NEAR_BLANK_UNVERIFIED_COMPONENT |
+| UID-0271 | RXN-pixel-image | RUIXEN | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/RXN-pixel-image.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
+| UID-0286 | RXN-progressive-blur | RUIXEN | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/RXN-progressive-blur.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
 | UID-0293 | RXN-retro-grid | RUIXEN | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/RXN-retro-grid.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
 | UID-0300 | RXN-ruixen-prompt-box | RUIXEN | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/RXN-ruixen-prompt-box.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
 | UID-0301 | RXN-ruixen-query-box | RUIXEN | BLOCKED_ACTUAL_TSX_RENDER | [Fonte originale](https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/ruixen-query-box.tsx) | SOURCE_JS_EXCEPTION ["Cannot read properties of null (reading 'useMemo')"] |
