@@ -19,6 +19,8 @@ const originalDeps = [
   replacement: requireFromRenderer.resolve(name),
 }));
 
+// Historical renderer package manifests are retained in package_history;
+// PNG provenance hashes are never rewritten when a new runtime dependency is added.
 // Resolve only the exact MIT upstream helper used by archived Amicro sources.
 // The original TSX is never changed or silently stubbed.
 const pinnedAmicroHook = {
