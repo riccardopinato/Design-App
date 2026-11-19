@@ -134,6 +134,18 @@ async def main():
                         if not actual_source or not actual_source.endswith("/"+Path(c["archive_path"]).name):
                             raise ValueError("COMPONENT_SOURCE_PATH_DID_NOT_MATCH_ARCHIVE actual="+repr(actual_source)+" expected="+repr(c["archive_path"]))
                         n=await target.locator("*").count()
+                        # Check the original implementation, not merely the
+                        # surrounding fixture, before accepting visual examples.
+                        if cid=="RXN-pixel-image":
+                            count=await target.locator('img[alt^="Pixel image piece"]').count()
+                            valid=await target.locator('img[alt^="Pixel image piece"]').first.evaluate(
+                                "(img)=>img.complete && img.naturalWidth>0") if count else False
+                            if count!=24 or not valid:
+                                raise ValueError("PIXEL_SOURCE_IMAGE_GRID_NOT_REAL_OR_UNLOADED")
+                        if cid=="RXN-progressive-blur":
+                            layers=await target.locator(".gradient-blur > div").count()
+                            if layers!=8:
+                                raise ValueError("PROGRESSIVE_BLUR_ORIGINAL_LAYERS_NOT_RENDERED")
                         # A valid source may render ONE span/canvas/input directly.
                         # This is a DOM presence check, not an arbitrary child count.
                         if n<1:raise ValueError("NO_RENDERED_COMPONENT_ELEMENT")

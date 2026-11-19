@@ -8,7 +8,8 @@ const requireFromRenderer = createRequire(import.meta.url);
 // The archived TSX sits in a sibling directory, outside renderer/node_modules.
 // Resolve third-party imports through THIS isolated runtime. Never modify TSX.
 const originalDeps = [
-  'react', 'react-dom', 'react-dom/client', 'react/jsx-runtime', 'react/jsx-dev-runtime',
+  // React is resolved through Vite's root dedupe, not absolute CJS aliases.
+  // Keep one dispatcher shared by source TSX, Radix and Framer Motion.
   'lucide-react', 'react-icons/fa6', 'react-icons/fa', 'clsx', 'tailwind-merge',
   'motion/react', 'framer-motion', 'class-variance-authority',
   // Dependency-licensed runtime imports for pinned original TSX; keep originals immutable.
@@ -16,8 +17,6 @@ const originalDeps = [
   '@shikijs/transformers', 'shiki',
 ].map((name) => ({
   find: new RegExp('^' + name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '$'),
-  // framer-motion 12 exposes Motion's React API. Route both imports through
-  // one renderer-bound module to avoid two hook dispatchers in isolated TSX.
   replacement: requireFromRenderer.resolve(name),
 }));
 

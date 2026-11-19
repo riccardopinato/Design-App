@@ -143,6 +143,16 @@ async function mount(cid: string) {
     // The upstream IconCloud paints supplied icons onto its canvas. The
     // 12 small SVG symbols are explicit local fixture inputs, not claimed
     // as official images or reusable assets.
+    ...(cid==='RXN-pixel-image'
+      ? {src:'data:image/svg+xml,'+encodeURIComponent(
+          '<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480">'+
+          '<rect width="480" height="480" fill="#1e293b"/>'+
+          '<circle cx="205" cy="210" r="150" fill="#f59e0b"/>'+
+          '<circle cx="320" cy="290" r="120" fill="#38bdf8"/>'+
+          '<path d="M0 400 L480 230 L480 480 L0 480Z" fill="#8b5cf6"/>'+
+          '</svg>'),
+          pixelFadeInDuration:80,maxAnimationDelay:70,colorRevealDelay:90}
+      : {}),
     ...(cid==='RXN-code-comparison'
       ? {beforeCode:'const count = 1;',afterCode:'const count = 2;',
           language:'typescript',filename:'counter.ts',lightTheme:'github-light',darkTheme:'github-dark'}
@@ -174,6 +184,21 @@ async function mount(cid: string) {
     node=React.createElement(m.ScrollVelocityContainer as React.ElementType,{className:'w-full'},
       React.createElement(m.ScrollVelocityRow as React.ElementType,
         {baseVelocity:2,className:'text-6xl text-slate-900'},'Design App • Componenti'));
+  }
+  if (cid==='RXN-progressive-blur') {
+    // Backdrop-filter cannot be observed over a uniform empty canvas.
+    // This controlled graphic is the test CONTENT behind the archived
+    // original blur layers, never a substitute image for the component.
+    node=React.createElement('div',{
+      style:{position:'relative',width:610,height:300,overflow:'hidden',
+        borderRadius:16,
+        background:'linear-gradient(120deg,#f8fafc 0%,#dbeafe 38%,#fbcfe8 100%)',
+        display:'flex',alignItems:'center',justifyContent:'center'}},
+      React.createElement('div',{style:{
+        fontSize:42,fontWeight:700,color:'#334155',
+        textShadow:'2px 3px 0 #f59e0b'}},
+        'Esempio di sfocatura'),
+      node);
   }
   if (cid==='RXN-file-tree' && m.Tree && m.Folder && m.File) {
     const Tree=m.Tree as React.ElementType, Folder=m.Folder as React.ElementType;
