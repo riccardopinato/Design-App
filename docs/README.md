@@ -1,5 +1,22 @@
 # Galleria HTML Design-App · UIR Lightbox
 
+## Catalogo visuale componenti
+
+La nuova pagina [componenti.html](./componenti.html) elenca **478 componenti
+canonici** in una tabella con colonna Anteprima, filtro per app, ricerca, fonte,
+stato dell'immagine e lightbox. Le immagini realmente disponibili sono prodotte
+da sorgenti originali e archiviate in `docs/assets/componenti/`.
+Per tutti gli altri ID si indica esplicitamente che la miniatura manca, con
+collegamento alla fonte. Le [tabelle per app visibili direttamente in GitHub](../BIBLIOTECA_COMPONENTI/PER_APP/README.md)
+funzionano senza GitHub Pages.
+
+Con la pubblicazione da `main /docs`, la pagina si trova a
+`https://riccardopinato.github.io/Design-App/componenti.html` **solo se Pages
+e' effettivamente attivato**. In alternativa avviare il server locale nella
+root con `python -m http.server 8000` e aprire
+`http://localhost:8000/docs/componenti.html`.
+
+
 Questa directory contiene [index.html](./index.html): un visualizzatore statico in italiano, senza dipendenze, con 99 riferimenti (`UIR-0001…UIR-0101` esclusi due duplicati), ricerca testuale, filtri per app, stile e provenienza, lightbox fullscreen, frecce tastiera, chiusura con ESC e link direttamente condivisibili tramite hash (`#UIR-0036`).
 
 ## Pubblicazione su GitHub Pages (una sola volta)

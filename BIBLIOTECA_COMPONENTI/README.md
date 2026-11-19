@@ -18,6 +18,41 @@
 
 **425** voci canoniche hanno ora un sorgente fisico archiviato, **53** sono ancora solo riferimenti. Il nuovo lotto include **38** file originali; i codici TSX/React non sono automaticamente widget Flutter.
 
+## Anteprime visive per ogni componente e per ogni app
+
+La nuova [tabella completa con colonna **Anteprima**](./TABELLA_478.md) contiene
+tutti i 478 record canonici. Le [tabelle generate per app](./PER_APP/README.md)
+mostrano ogni associazione componente/app con una miniatura cliccabile o uno
+stato esplicito quando la cattura manca. Sono presenti **26 identificativi app** nei collegamenti originari,
+normalizzati in **25 viste per prodotto**: `anna-s-diary` e `annas-diary`
+sono due alias storici dello stesso prodotto. Non vengono modificati gli ID
+nel catalogo sorgente.
+
+Il [visualizzatore HTML interattivo](../docs/componenti.html) offre ricerca,
+filtri per app/fonte/disponibilita' immagine e lightbox. Su GitHub la vista
+`blob` mostra solo il codice HTML; per usarla nel browser avviare un server
+locale dalla root del repository (`python -m http.server 8000`, poi
+`http://localhost:8000/docs/componenti.html`) oppure abilitare GitHub Pages
+dalla cartella `docs/` (vedi [istruzioni](../docs/README.md)).
+
+**Copertura del primo lotto:** 110 PNG Uiverse provenienti da rendering locale
+dei 110 HTML/CSS originali, con JavaScript disabilitato e asset remoti bloccati.
+Sono anteprime documentali **CAPTURED_LOCAL_HTML_UNREVIEWED**: non dimostrano
+correttezza della UI su mobile ne' includono automaticamente media esterni.
+Per le altre 368 voci `NO_VERIFIED_IMAGE` resta visibile finche' non si recupera
+una cattura valida; nessun placeholder grafico viene spacciato per il componente
+vero. Le 277 sorgenti Ruixen sono archiviate ma ancora prive di immagini e di
+assegnazioni ad app nel catalogo canonico.
+
+**Fonte di verita' immagini:** `ANTEPRIME.json`, alimentato soltanto da PNG
+reali in `docs/assets/componenti/` tramite
+`genera_anteprime.py --write`; `--check` rileva drift tra manifest, tabelle
+e screenshot. Per Uiverse la ricattura isolata usa
+`render_uiverse_previews.py` nel workflow
+`.github/workflows/component-preview-capture.yml`.
+Immagine visualizzata, licenza del componente e grado di maturita' del
+codice restano evidenze indipendenti.
+
 ## Ricerca locale
 
 ```bash
