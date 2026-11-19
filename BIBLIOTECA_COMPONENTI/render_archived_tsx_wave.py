@@ -116,6 +116,42 @@ async def main():
                             why=await target.get_attribute("data-source-error")
                             details={"console":console_errors[:3],"http":http_errors[:3],"requests":request_errors[:3]}
                             raise ValueError("ORIGINAL_TSX_IMPORT_OR_RENDER_FAILED "+str(why)+" "+json.dumps(details,ensure_ascii=False))
+                        if cid=="RXN-video-text":
+                            # Procedural ORIGINAL demo video frames, not an
+                            # external media asset. Feed HTMLVideoElement's real
+                            # srcObject, retaining the unmodified VideoText mask.
+                            await page.evaluate("""async () => {
+                              const v = document.querySelector('#component-root video');
+                              if (!v) throw Error('ORIGINAL_VIDEO_ELEMENT_MISSING');
+                              const canvas = document.createElement('canvas');
+                              canvas.width=640; canvas.height=360;
+                              const g=canvas.getContext('2d');
+                              if (!g || !canvas.captureStream)
+                                throw Error('LOCAL_CANVAS_MEDIA_STREAM_UNSUPPORTED');
+                              let frame=0;
+                              const paint=()=>{
+                                const w=640,h=360,t=frame++/12;
+                                const grad=g.createLinearGradient(0,0,w,h);
+                                grad.addColorStop(0,'#1d4ed8');
+                                grad.addColorStop(.45,'#f97316');
+                                grad.addColorStop(1,'#8b5cf6');
+                                g.fillStyle=grad;g.fillRect(0,0,w,h);
+                                for(let i=0;i<8;i++){
+                                  const x=((i*92+t*70)%750)-55;
+                                  g.fillStyle=i%2?'#fef08a':'#22d3ee';
+                                  g.beginPath();g.arc(x,90+i*24,24+i*2,0,Math.PI*2);g.fill();
+                                }
+                                requestAnimationFrame(paint);
+                              };
+                              paint();
+                              v.srcObject=canvas.captureStream(12);
+                              v.muted=true;
+                              await v.play();
+                            }""")
+                            await page.wait_for_function("""() => {
+                              const v=document.querySelector('#component-root video');
+                              return v && v.readyState>=2 && v.videoWidth>0;
+                            }""",timeout=10000)
                         # Cursor-only originals have no visible output until
                         # a real pointer event. Exercise the original runtime.
                         if cid in {"AMX-002","RXN-smooth-cursor"}:
@@ -146,6 +182,11 @@ async def main():
                         n=await target.locator("*").count()
                         # Check the original implementation, not merely the
                         # surrounding fixture, before accepting visual examples.
+                        if cid=="RXN-video-text":
+                            proof=await target.locator("video").first.evaluate(
+                                "(v)=>v.readyState>=2 && v.videoWidth>0 && v.srcObject instanceof MediaStream")
+                            if not proof:
+                                raise ValueError("VIDEO_TEXT_LIVE_SOURCE_NOT_PLAYING")
                         if cid=="RXN-pixel-image":
                             count=await target.locator('img[alt^="Pixel image piece"]').count()
                             valid=await target.locator('img[alt^="Pixel image piece"]').first.evaluate(
@@ -196,7 +237,9 @@ async def main():
                             "local_fixture_path":"BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
                             "local_renderer_package_sha256":sha((RUNTIME/"package.json").read_bytes()),
                             "visual_qa":"UNREVIEWED",
-                            "source_scope":"Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+                            "source_scope":("Original immutable VideoText TSX with generated local canvas MediaStream; NOT an upstream example or licensed footage"
+                                            if cid=="RXN-video-text" else
+                                            "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot"),
                             "asset_rights":"REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
                         }
                         if c["source_site"]=="RUIXEN":

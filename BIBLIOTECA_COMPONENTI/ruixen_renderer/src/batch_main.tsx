@@ -174,6 +174,12 @@ async function mount(cid: string) {
     ...(cid==='RXN-scrub-datetime'
       ? {value:new Date('2026-11-19T12:00:00'),sound:false}
       : {}),
+    // VideoText is a text-shaped live video mask. The fixture supplies an
+    // original generated, local canvas MediaStream after mount. There is no
+    // external media, stock photo, or invented component screenshot.
+    ...(cid==='RXN-video-text'
+      ? {src:'',children:'DESIGN',fontSize:'170px',className:'w-full h-full'}
+      : {}),
   };
   // Compound source APIs need their real children; a generic div or text
   // would not exercise the component they are meant to preview.
