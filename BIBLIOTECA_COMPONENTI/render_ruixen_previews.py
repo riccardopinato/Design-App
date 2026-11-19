@@ -98,7 +98,41 @@ async def demos(missing):
                         cid, sha, url, "LIVE_COMPONENT_ONLY_SCREENSHOT",
                         captured_on="2026-11-19", bytes=size)
                 except Exception as exc:
-                    failures.append(f"{cid}: {exc}")
+                    # The /preview route does not exist for every upstream
+                    # item. The official MDX docs may still mount an actual
+                    # interactive component in a dedicated React iframe.
+                    captured = False
+                    for docs_section in ("components", "sections"):
+                        docs_url = f"https://ruixen.com/docs/{docs_section}/{slug}"
+                        try:
+                            resp = await page.goto(docs_url, wait_until="domcontentloaded", timeout=28000)
+                            if not resp or resp.status >= 400:
+                                continue
+                            frame = page.locator("main iframe").first
+                            await frame.wait_for(state="visible", timeout=8500)
+                            await frame.scroll_into_view_if_needed()
+                            await page.wait_for_timeout(1100)
+                            box = await frame.bounding_box()
+                            if not box or box["width"] < 120 or box["height"] < 80:
+                                continue
+                            data = await frame.screenshot(animations="disabled", timeout=14000)
+                            # An empty frame or a blank docs shell is not an
+                            # authentic preview of this original component.
+                            from PIL import ImageStat
+                            im = Image.open(BytesIO(data)).convert("RGB")
+                            if sum(ImageStat.Stat(im).stddev) < 8:
+                                continue
+                            sha, size = save(data, cid)
+                            findings[cid] = evidence(
+                                cid, sha, docs_url, "LIVE_DOCS_COMPONENT_IFRAME",
+                                captured_on="2026-11-19", bytes=size,
+                                source_scope="component_iframe_not_site_header")
+                            captured = True
+                            break
+                        except Exception:
+                            continue
+                    if not captured:
+                        failures.append(f"{cid}: preview and docs iframe unavailable ({exc})")
                 finally:
                     await page.close()
         await asyncio.gather(*(one(x) for x in missing))
@@ -134,8 +168,20 @@ async def main(live, limit):
                 origin_path="public" + upstream_image,
                 upstream_preview_index_sha256=index_sha, bytes=length)
         except Exception as exc:
-            print("STATIC_MISSING", cid, str(exc))
-            missing.append(c)
+            # Some original preview paths are not committed as public Git
+            # blobs, but the upstream docs serve the same static image.
+            live_static = "https://ruixen.com" + upstream_image
+            try:
+                raw = fetch(live_static)
+                sha, length = save(raw, cid)
+                entries[cid] = evidence(
+                    cid, sha, live_static, "OFFICIAL_SITE_STATIC_IMAGE",
+                    original_sha256=hashlib.sha256(raw).hexdigest(),
+                    origin_path=None, upstream_preview_index_sha256=index_sha,
+                    bytes=length, source_availability="LIVE_UNPINNED_IMAGE_BYTES")
+            except Exception as second:
+                print("STATIC_MISSING", cid, str(exc), "| website:", str(second))
+                missing.append(c)
     failures = []
     if live:
         more, failures = await demos(missing[:limit] if limit else missing)
