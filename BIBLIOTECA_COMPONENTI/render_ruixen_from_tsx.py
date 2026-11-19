@@ -106,7 +106,7 @@ async def main():
                     made.append(cid)
                     print("TSX_SCREENSHOT_OK",cid,len(png),sha(png))
                 except Exception as exc:
-                    blocked[cid]=str(exc)[:320]
+                    blocked[cid]=str(exc)[:2200]
                     print("TSX_SCREENSHOT_BLOCKED",cid,blocked[cid])
                 finally:await page.close()
             await ctx.close();await browser.close()
