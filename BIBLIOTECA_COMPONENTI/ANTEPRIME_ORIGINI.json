@@ -3986,6 +3986,28 @@
       "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
       "captured_on": "2026-11-19",
       "bytes": 18227
+    },
+    "RXN-glowing-send-input": {
+      "component_id": "RXN-glowing-send-input",
+      "preview_path": "docs/assets/componenti/RXN-glowing-send-input.png",
+      "preview_sha256": "a7478c5a9d87af528f589bcd666d1b8444e5a14a605916d6b8c6b1e785dbe3cc",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/glowing-send-input.tsx",
+      "source_blob_sha": "a7a0d3dd2785d9a708a5d8a654637547af2fa235",
+      "capture_mode": "PINNED_ORIGINAL_TSX_NEXTJS_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/next_source_renderer/app/page.tsx",
+      "local_renderer_package_sha256": "474846848acafb1c402734cb88ddc8708798cc0b0168f726594fc6f354c32366",
+      "runtime": "Next.js webpack, real next/font/google loader",
+      "font_evidence": {
+        "family": "Poppins, \"Poppins Fallback\"",
+        "loaded": true,
+        "weight": "500",
+        "source": "next/font/google Poppins"
+      },
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Unchanged original TSX in isolated real Next runtime; fixture input Design App",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
     }
   }
 }

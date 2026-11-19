@@ -1,5 +1,5 @@
 # Esito nominativo delle 119 anteprime — Design-App
-Baseline immutabile: 119 UID iniziali; **98 recuperate**; **21 senza PNG**.
+Baseline immutabile: 119 UID iniziali; **99 recuperate**; **20 senza PNG**.
 La colonna risultato distingue **PNG reale acquisita** da **blocco concreto** e **acquisizione ancora non eseguita**. Una PNG con QA visivo UNREVIEWED non è né Golden Flutter né asset approvato per l'app.
 Le fonti originali non sono state sostituite.
 | UID | Componente | Origine | Esito | Immagine/Fonte | Evidenza/impedimento |
@@ -81,7 +81,7 @@ Le fonti originali non sono state sostituite.
 | UID-0185 | RXN-flash-sale-banner | RUIXEN | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/RXN-flash-sale-banner.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
 | UID-0186 | RXN-flickering-grid | RUIXEN | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/RXN-flickering-grid.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
 | UID-0199 | RXN-glow-tree | RUIXEN | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/RXN-glow-tree.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
-| UID-0200 | RXN-glowing-send-input | RUIXEN | BLOCKED_ACTUAL_TSX_RENDER | [Fonte originale](https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/glowing-send-input.tsx) | ORIGINAL_TSX_IMPORT_OR_RENDER_FAILED TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx?import {"console": ["Failed to  |
+| UID-0200 | RXN-glowing-send-input | RUIXEN | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/RXN-glowing-send-input.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
 | UID-0205 | RXN-gradient-reveal-text | RUIXEN | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/RXN-gradient-reveal-text.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
 | UID-0215 | RXN-hyper-text | RUIXEN | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/RXN-hyper-text.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
 | UID-0216 | RXN-icon-cloud | RUIXEN | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | [Apri PNG](../docs/assets/componenti/RXN-icon-cloud.png) | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
