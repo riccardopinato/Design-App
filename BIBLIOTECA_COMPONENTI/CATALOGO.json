@@ -8,8 +8,8 @@
   "counts": {
     "unique_components": 480,
     "aliases": 4,
-    "archived_originals": 427,
-    "referenced_only": 53,
+    "archived_originals": 455,
+    "referenced_only": 25,
     "by_source": {
       "DEVLIBRARIES_AMICRO": 10,
       "DEVLIBRARIES_BOOKMARKS": 27,
@@ -27,10 +27,10 @@
       "TypeScript/React (source path not necessarily verified)": 27,
       "VISUAL_REFERENCE_ONLY": 1,
       "Flutter/Dart (claimed, source not retrieved)": 15,
-      "SVG / motion asset (not imported)": 28,
       "TypeScript/React TSX": 277,
       "HTML/CSS": 110,
-      "Flutter/Dart": 2
+      "Flutter/Dart": 2,
+      "SVG (original, archived)": 28
     }
   },
   "aliases": {
@@ -1639,7 +1639,7 @@
       "name": "Icona notifica / promemoria",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -1652,23 +1652,23 @@
         "world-days"
       ],
       "source_url": "https://gentleface.com/icons/bell-ring",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/bell-ring.svg",
+      "source_blob_sha": "2fc50416abfdafb22da4c9bb2088067d2f870fce",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-001.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-002",
       "name": "Vista calendario",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -1681,23 +1681,23 @@
         "world-days"
       ],
       "source_url": "https://gentleface.com/icons/calendar",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/calendar.svg",
+      "source_blob_sha": "3b2ced908834235cea8c5bc99df29cf176cc706d",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-002.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-003",
       "name": "Batteria in carica",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -1708,23 +1708,23 @@
         "deskland-android"
       ],
       "source_url": "https://gentleface.com/icons/battery-charging",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/battery-charging.svg",
+      "source_blob_sha": "a97e08e41976f4f22120ef1fff6aac7d870fb30b",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-003.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-004",
       "name": "Batteria scarica",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -1734,23 +1734,23 @@
         "pocket-guard"
       ],
       "source_url": "https://gentleface.com/icons/battery-low",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/battery-low.svg",
+      "source_blob_sha": "564735b557da6d881f8d9ad68507e012958a2e20",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-004.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-005",
       "name": "Download dati / file",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -1763,23 +1763,23 @@
         "world-days"
       ],
       "source_url": "https://gentleface.com/icons/download",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/download.svg",
+      "source_blob_sha": "b8067a59dc8179061a414a586cf3d903450ba779",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-005.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-006",
       "name": "Esporta",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -1791,23 +1791,23 @@
         "world-days"
       ],
       "source_url": "https://gentleface.com/icons/export",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/export.svg",
+      "source_blob_sha": "f858387d33d3cd062814031d40529b15aec04ff7",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-006.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-007",
       "name": "Importa",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -1819,23 +1819,23 @@
         "wonderlog"
       ],
       "source_url": "https://gentleface.com/icons/import",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/import.svg",
+      "source_blob_sha": "18430293fba407ac26d1f1d22cba06f91cd7cc64",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-007.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-008",
       "name": "Galleria immagini",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -1848,23 +1848,23 @@
         "wonderlog"
       ],
       "source_url": "https://gentleface.com/icons/images",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/images.svg",
+      "source_blob_sha": "31a489209c8216bd5112d82e04109ea947447a4b",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-008.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-009",
       "name": "Video / media",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -1876,23 +1876,23 @@
         "wonderlog"
       ],
       "source_url": "https://gentleface.com/icons/video",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/video.svg",
+      "source_blob_sha": "7c90d0ef07cb98a59dd3bd62d8e12db284f9e7b6",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-009.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-010",
       "name": "Salva nei preferiti",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -1904,23 +1904,23 @@
         "world-days"
       ],
       "source_url": "https://gentleface.com/icons/bookmark",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/bookmark.svg",
+      "source_blob_sha": "e93c7571b08114aa63437c2763094dd58015d17c",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-010.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-011",
       "name": "Ricerca",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -1933,23 +1933,23 @@
         "world-days"
       ],
       "source_url": "https://gentleface.com/icons/search",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/search.svg",
+      "source_blob_sha": "e5b533d7abe91a0c7694e99a9fc336d401650ed2",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-011.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-012",
       "name": "App / nuove funzionalità",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -1960,23 +1960,23 @@
         "notes-ecosistema"
       ],
       "source_url": "https://gentleface.com/icons/apps-sparkle",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/apps-sparkle.svg",
+      "source_blob_sha": "dd68cc8e3c0617160e2a2a0ae0d95cd9862df890",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-012.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-013",
       "name": "Attività in corso",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "progress",
         "line-round"
@@ -1989,23 +1989,23 @@
         "world-days"
       ],
       "source_url": "https://gentleface.com/icons/loader",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/loader.svg",
+      "source_blob_sha": "ab50bf5887b4f1e26cabdb4de54ff282380debf1",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-013.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-014",
       "name": "Completato",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -2018,23 +2018,23 @@
         "world-days"
       ],
       "source_url": "https://gentleface.com/icons/check",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/check.svg",
+      "source_blob_sha": "5aefa84c0bdc120629fe52a5cdf5fd95757aaa26",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-014.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-015",
       "name": "Salute / frequenza o vitalità",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -2045,23 +2045,23 @@
         "sleepmax-coach"
       ],
       "source_url": "https://gentleface.com/icons/heart-pulse",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/heart-pulse.svg",
+      "source_blob_sha": "8a0da6dc0993c21c0058c34c0843d8a3592ccc07",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-015.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-016",
       "name": "Punto mappa",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -2073,23 +2073,23 @@
         "world-days"
       ],
       "source_url": "https://gentleface.com/icons/map-pin",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/map-pin.svg",
+      "source_blob_sha": "d6f092883e553027ad0c9ecf210a368fe1269b47",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-016.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-017",
       "name": "Stato cloud/sync",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -2101,23 +2101,23 @@
         "world-days"
       ],
       "source_url": "https://gentleface.com/icons/cloud",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/cloud.svg",
+      "source_blob_sha": "3fadfb3f85801f3523649251c41961593ec6349e",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-017.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-018",
       "name": "Indicatore / metriche",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -2130,23 +2130,23 @@
         "focussense"
       ],
       "source_url": "https://gentleface.com/icons/gauge",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/gauge.svg",
+      "source_blob_sha": "7fdbaddbf75e41fe37314b01cba4320616c2e109",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-018.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-019",
       "name": "Valutazione / preferito",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -2158,23 +2158,23 @@
         "world-days"
       ],
       "source_url": "https://gentleface.com/icons/star",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/star.svg",
+      "source_blob_sha": "3e6bd2cf3948bb5b0101f8508fd8a7a13e7886ab",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-019.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-020",
       "name": "Riproduci",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -2186,23 +2186,23 @@
         "omni-cleaner"
       ],
       "source_url": "https://gentleface.com/icons/play",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/play.svg",
+      "source_blob_sha": "7823edcd1d548295a68d3576ff9f630b9266f02b",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-020.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-021",
       "name": "Pausa",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -2214,23 +2214,23 @@
         "omni-cleaner"
       ],
       "source_url": "https://gentleface.com/icons/pause",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/pause.svg",
+      "source_blob_sha": "c0446971694a294d69647f4c58bbd120f8987ace",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-021.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-022",
       "name": "Ripeti / loop",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -2242,23 +2242,23 @@
         "wonderlog"
       ],
       "source_url": "https://gentleface.com/icons/repeat",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/repeat.svg",
+      "source_blob_sha": "634fca93c1ab9616d6ab711701d02d353280191a",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-022.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-023",
       "name": "Visibilità / anteprima",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -2270,23 +2270,23 @@
         "omni-cleaner"
       ],
       "source_url": "https://gentleface.com/icons/eye",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/eye.svg",
+      "source_blob_sha": "4899f9fc444a77f19cf1b7322ab8bd161db8544a",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-023.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-024",
       "name": "Archiviazione",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -2297,23 +2297,23 @@
         "world-days"
       ],
       "source_url": "https://gentleface.com/icons/archive",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/archive.svg",
+      "source_blob_sha": "f7a37a3f8d972514099be4ec0fcb1c64af39cc74",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-024.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-025",
       "name": "Messaggi / conversazioni",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -2325,23 +2325,23 @@
         "wonderlog"
       ],
       "source_url": "https://gentleface.com/icons/messages",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/messages.svg",
+      "source_blob_sha": "5d320e410677a7dc52d1eb24143ee187771e001d",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-025.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-026",
       "name": "Pagina iniziale",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -2353,23 +2353,23 @@
         "world-days"
       ],
       "source_url": "https://gentleface.com/icons/home",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/home.svg",
+      "source_blob_sha": "fbefaa5bcc611a4ff323f1113b9122e057dc5f9c",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-026.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-027",
       "name": "Protezione attiva verificata",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -2381,23 +2381,23 @@
         "tabletop-motion-alarm"
       ],
       "source_url": "https://gentleface.com/icons/shield-check",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/shield-check.svg",
+      "source_blob_sha": "a3c95f5cbc7d93b24fb7fe128199646eca888164",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-027.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "ICO-028",
       "name": "Blocco / riservatezza",
       "source_site": "GENTLEFACE",
       "category": "ICON",
-      "language": "SVG / motion asset (not imported)",
+      "language": "SVG (original, archived)",
       "tags": [
         "action-or-status",
         "line-round"
@@ -2409,16 +2409,16 @@
         "tabletop-motion-alarm"
       ],
       "source_url": "https://gentleface.com/icons/lock",
-      "source_repo": null,
+      "source_repo": "gentleface.com",
       "source_commit": null,
-      "source_path": null,
-      "source_blob_sha": null,
-      "archive_path": null,
-      "archive_state": "REFERENCE_ONLY",
-      "license_status": "ASSET_NOT_ARCHIVED",
+      "source_path": "/svg/line-round/16/lock.svg",
+      "source_blob_sha": "ebdb513174651f7357f4ed64e8da376cfe9502e8",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/gentleface/ICO-028.svg",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_OFFICIAL_SVG_SOURCE_ARCHIVED",
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
-      "notes": "Icon reference only; asset bytes and per-icon license not imported."
+      "notes": "Icon reference only; asset bytes and per-icon license not imported. Original MIT SVG source archived with SHA256; official Dart variant stored independently (LIVE hash, not commit-pinned)."
     },
     {
       "id": "RXN-accordion-editorial",
