@@ -85,6 +85,15 @@ async def main():
                 else:await route.abort()
             await ctx.route("**/*",local_only)
             semaphore=asyncio.Semaphore(5)
+            def assert_server_alive(stage):
+                if server.poll() is not None:
+                    try:
+                        with open("/tmp/design_app_full_source_render.log",encoding="utf-8",errors="replace") as lf:
+                            tail=lf.read()[-4800:]
+                    except OSError:
+                        tail="LOG_UNAVAILABLE"
+                    raise RuntimeError("VITE_RUNTIME_TERMINATED stage="+stage+
+                                       " code="+str(server.returncode)+"\n"+tail)
             async def work(c):
                 cid=c["id"]
                 async with semaphore:
@@ -95,6 +104,7 @@ async def main():
                     page.on("response",lambda res:http_errors.append(str(res.status)+" "+res.url[-150:]) if res.status>=400 else None)
                     page.on("requestfailed",lambda req:request_errors.append(req.url[-170:]))
                     try:
+                        assert_server_alive("before_navigation_"+cid)
                         await page.goto("http://127.0.0.1:5181/batch.html?cid="+cid,
                             wait_until="domcontentloaded",timeout=19000)
                         target=page.locator("#component-root")
@@ -204,6 +214,9 @@ async def main():
                         made.append(cid)
                         print("TSX_WAVE_OK",cid,"bytes",len(png),"variance",round(variance,1))
                     except Exception as exc:
+                        if "ERR_CONNECTION_REFUSED" in str(exc):
+                            assert_server_alive("connection_refused_"+cid)
+                            raise RuntimeError("VITE_INFRASTRUCTURE_CONNECTION_REFUSED "+cid) from exc
                         failed[cid]=str(exc)[:1100]
                         print("TSX_WAVE_BLOCKED",cid,failed[cid][:180])
                     finally:

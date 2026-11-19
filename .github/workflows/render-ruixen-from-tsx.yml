@@ -1,12 +1,8 @@
 name: Render unchanged MIT Ruixen TSX with isolated React — first batch
 
 on:
-  push:
-    branches: ["feature/flutter-dual-code-preview-recovery-20261119"]
-    paths:
-      - "BIBLIOTECA_COMPONENTI/ruixen_renderer/**"
-      - "BIBLIOTECA_COMPONENTI/render_ruixen_from_tsx.py"
-      - ".github/workflows/render-ruixen-from-tsx.yml"
+  # The first-batch acquisition has already completed. Keep it available
+  # manually, but do not start a second writer on every renderer change.
   workflow_dispatch:
 
 permissions:

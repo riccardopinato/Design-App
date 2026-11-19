@@ -3,7 +3,6 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 import path from 'node:path';
 import { createRequire } from 'node:module';
-import { fileURLToPath } from 'node:url';
 
 const requireFromRenderer = createRequire(import.meta.url);
 // The archived TSX sits in a sibling directory, outside renderer/node_modules.
@@ -18,12 +17,10 @@ const originalDeps = [
   '@shikijs/transformers', 'shiki',
 ].map((name) => ({
   find: new RegExp('^' + name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '$'),
-  // Motion/Framer must use the ESM import-condition entrypoint.
-  // createRequire() selects CJS and can create a second React hook runtime
-  // when a TSX lives outside this isolated Vite project.
-  replacement: (name === 'framer-motion' || name === 'motion/react')
-    ? fileURLToPath(import.meta.resolve(name))
-    : requireFromRenderer.resolve(name),
+  // Runtime pinned to the last independently working module resolver.
+  // Do not switch motion ESM/CJS conditions without a dedicated isolated
+  // smoke test; an earlier experiment stopped the Vite service mid-batch.
+  replacement: requireFromRenderer.resolve(name),
 }));
 
 // Historical renderer package manifests are retained in package_history;
