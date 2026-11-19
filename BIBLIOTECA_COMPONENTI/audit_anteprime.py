@@ -24,6 +24,9 @@ def main() -> None:
     records = []
     thumbs = []
     for item in CAT["components"]:
+        # Preserve the exact 110 Uiverse-only baseline contact sheet.
+        if item["source_site"] != "UIVERSE":
+            continue
         cid = item["id"]
         rec = MAN["previews"][cid]
         if not rec["image_path"]:
@@ -60,7 +63,7 @@ def main() -> None:
     summary = {
         "catalog_total": 478,
         "preview_images": len(records),
-        "missing_preview_images": 478 - len(records),
+        "missing_preview_images": 110 - len(records),
         "near_flat_candidates": [x["id"] for x in records if x["near_flat_candidate"]],
         "report": records,
         "duplicate_screenshot_byte_counts": dict(Counter(x["bytes"] for x in records)),
@@ -68,6 +71,51 @@ def main() -> None:
     }
     (OUT / "REPORT_110.json").write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
     print("Visual QA 110 images; near-flat candidates:", summary["near_flat_candidates"])
+
+    # Separately review all newly captured Ruixen screenshots, never silently
+    # mix them into the Uiverse 110 baseline or claim visual approval.
+    ruixen_records = []
+    ruixen_thumbs = []
+    for item in CAT["components"]:
+        if item["source_site"] != "RUIXEN":
+            continue
+        cid = item["id"]
+        rec = MAN["previews"][cid]
+        if not rec["image_path"]:
+            continue
+        path = ROOT / rec["image_path"]
+        with Image.open(path) as img:
+            rgb = img.convert("RGB")
+            std = round(statistics.fmean(ImageStat.Stat(rgb).stddev), 2)
+            ruixen_records.append({
+                "id": cid, "bytes": path.stat().st_size,
+                "color_stddev": std, "near_flat_candidate": std < 4
+            })
+            copy = rgb.copy()
+            copy.thumbnail((165, 110))
+            ruixen_thumbs.append((cid, copy))
+    if ruixen_thumbs:
+        rows2 = (len(ruixen_thumbs) + columns - 1) // columns
+        sheet2 = Image.new("RGB", (columns * width, rows2 * height), "#e8edf5")
+        draw2 = ImageDraw.Draw(sheet2)
+        for index, (cid, thumb) in enumerate(ruixen_thumbs):
+            x, y = index % columns * width, index // columns * height
+            sheet2.paste(thumb, (x + (width-thumb.width)//2, y+7))
+            draw2.text((x+10, y+119), cid, fill="#182838")
+        sheet2.save(OUT / "CONTACT_SHEET_RUIXEN.png", optimize=True)
+    ruixen_summary = {
+        "canonical_ruixen": 277,
+        "captured": len(ruixen_records),
+        "missing": 277 - len(ruixen_records),
+        "near_flat_candidates": [x["id"] for x in ruixen_records if x["near_flat_candidate"]],
+        "report": ruixen_records,
+        "claim": "Visual QA evidence only, not human-reviewed or native UI verified."
+    }
+    (OUT / "REPORT_RUIXEN.json").write_text(
+        json.dumps(ruixen_summary, indent=2) + "\n", encoding="utf-8")
+    print("Ruixen visual evidence", len(ruixen_records), "/277;",
+          "near-flat candidates:", len(ruixen_summary["near_flat_candidates"]))
+
 
 
 if __name__ == "__main__":

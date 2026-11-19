@@ -13,6 +13,37 @@ It does NOT replace:
 - a product's roadmap;
 - the app repository's own architecture and source of truth.
 
+## Comando rapido UID — componenti visuali riusabili
+
+Quando l'utente dice "Usa UID-0127 per i pulsanti dell'app F", "Usa UID-0350
+per il form nell'app G", oppure identifica un ID canonico o storico, usare
+**prima** BIBLIOTECA_COMPONENTI/UID_REGISTRY.json come mappa stabile UID ->
+ID canonico, poi CATALOGO.json, ANTEPRIME.json, le provenienze immagini
+e il file sorgente effettivo. Eseguire la logica di
+BIBLIOTECA_COMPONENTI/uid.py (lookup/plan) o equivalente lettura puntuale.
+Un UID identifica un componente specifico e non decide automaticamente
+in quale app importarlo.
+
+- Risolvere UID e alias storici senza cambiarne numero o introdurre doppi ID.
+- Recuperare immagine reale e codice esatto, license/source blob, linguaggio,
+  API e dipendenze. Preview non equivale a licenza asset o codice COPY_READY.
+- Leggere Product Bible, stack, disegno approvato e Golden/donor applicabili.
+- Se sorgente e stack coincidono, controllare dipendenze e compatibilita'
+  prima del riuso; in caso contrario implementare un adapter/rewrite fedele.
+  TSX non e' Dart, e un demo di login non e' un servizio di autenticazione.
+- Sostituire soltanto il consumer/component specificamente indicato dall'utente,
+  senza restyling globale implicito. PR, test UI, CI exact-head, stati reali,
+  a11y e collaudo consumer sono necessari per dichiarare il riuso verificato.
+- Se l'asset e' solo REFERENCE_ONLY, esplicitare ADAPTER_REQUIRED o
+  SOURCE_UNAVAILABLE, non spacciare per incollabile codice che non lo e'.
+- Per nuovi componenti, assegnare UID progressivo successivo, immutabile,
+  aggiornare catalogo, tabelle e manifest e validare. I vecchi UID non si
+  rinumerano quando entra un nuovo elemento.
+
+**Obiettivo:** richiesta rapida con un identificativo, provenienza, immagine,
+codice e piano minimo di adozione immediatamente recuperabili, senza ricominciare
+la ricerca del componente a ogni app.
+
 ## Intake rule
 Whenever work on an App Factory project discovers a reusable design pattern,
 animation, sound asset, icon system, library, component, layout, interaction or external repository, evaluate

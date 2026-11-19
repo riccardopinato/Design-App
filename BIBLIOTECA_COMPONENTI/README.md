@@ -53,6 +53,36 @@ e screenshot. Per Uiverse la ricattura isolata usa
 Immagine visualizzata, licenza del componente e grado di maturita' del
 codice restano evidenze indipendenti.
 
+## Uso immediato degli UID
+
+Ogni componente possiede un ID canonico stabile e un **UID-0001...UID-0478**
+che identifica la stessa sorgente in tutte le app. Il registro
+[UID_REGISTRY.json](./UID_REGISTRY.json) non rinumera mai gli ID gia' assegnati.
+Il comando [uid.py](./uid.py) restituisce codice originale, immagine,
+provenienza, target e ragioni per cui l'adattamento e' necessario.
+
+Esempi:
+
+\`\`\`bash
+python BIBLIOTECA_COMPONENTI/uid.py lookup UID-0127
+python BIBLIOTECA_COMPONENTI/uid.py lookup RXN-button-copy
+python BIBLIOTECA_COMPONENTI/uid.py search --text password --limit 12
+python BIBLIOTECA_COMPONENTI/uid.py plan UID-0350 --app annas-diary --stack flutter --role "input codice"
+python BIBLIOTECA_COMPONENTI/uid.py plan UID-0127 --app world-days --stack flutter --role "pulsante copia"
+python BIBLIOTECA_COMPONENTI/uid.py validate
+\`\`\`
+
+Nella chat: **"Usa UID-0127 per il pulsante Copia di World Days"**;
+l'agente risolve lo stesso componente nella libreria, verifica il Product
+Bible e lo stack, poi puo' implementare l'adapter nel repo dell'app con PR
+e test. Il resolver non effettua modifiche alle app da solo.
+
+**Stati:** \`PLAN_ONLY_NOT_IMPLEMENTED\`, \`SOURCE_UNAVAILABLE\`,
+\`ADAPTER_REQUIRED\`, \`SOURCE_REVIEW_REQUIRED\`. Non attribuisce mai
+\`COPY_READY\` a un TSX archiviato in un progetto Flutter solo perche' esiste
+il file. Anche Forui nativo richiede verifica delle dipendenze/versioni e
+integrazione col design approvato.
+
 ## Ricerca locale
 
 ```bash

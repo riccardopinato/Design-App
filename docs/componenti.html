@@ -59,10 +59,11 @@ dialog{width:min(960px,96vw);max-height:94dvh;border:0;padding:0;border-radius:1
 const OWNER="riccardopinato",REPO="Design-App";
 const LOCAL_CATALOG="../BIBLIOTECA_COMPONENTI/CATALOGO.json";
 const LOCAL_PREVIEWS="../BIBLIOTECA_COMPONENTI/ANTEPRIME.json";
+const LOCAL_UIDS="../BIBLIOTECA_COMPONENTI/UID_REGISTRY.json";
 const rawRoot="https://raw.githubusercontent.com/"+OWNER+"/"+REPO+"/main/";
 const onPages=location.hostname.endsWith(".github.io");
 const refs={rows:document.getElementById("rows"),app:document.getElementById("app"),source:document.getElementById("source"),search:document.getElementById("search"),preview:document.getElementById("preview")};
-let catalog=[],previews={},page=0,current=[],lastFocused=null;
+let catalog=[],previews={},uidById={},page=0,current=[],lastFocused=null;
 const PER_PAGE=35;
 function node(tag,cls,text){const e=document.createElement(tag);if(cls)e.className=cls;if(text!=null)e.textContent=text;return e}
 function urlFor(local){return onPages?rawRoot+local:local}
@@ -70,7 +71,7 @@ function repoUrl(local){return "https://github.com/"+OWNER+"/"+REPO+"/blob/main/
 async function loadJSON(local){const url=urlFor(local);const res=await fetch(url,{cache:"no-store"});if(!res.ok)throw new Error(local+": HTTP "+res.status);return await res.json()}
 function query(){
 const s=refs.search.value.trim().toLocaleLowerCase("it"),a=refs.app.value,f=refs.source.value,p=refs.preview.value;
-current=catalog.filter(x=>(!a||(a==="__unassigned__"?!x.apps.length:x.apps.some(y=>(y==="anna-s-diary"?"annas-diary":y)===a)))&&(!f||x.source_site===f)&&(!s||[x.id,x.name,x.category,x.source_site,...x.apps].join(" ").toLocaleLowerCase("it").includes(s))&&(!p||(p==="ready"?!!previews[x.id]?.image_path:!previews[x.id]?.image_path)));
+current=catalog.filter(x=>(!a||(a==="__unassigned__"?!x.apps.length:x.apps.some(y=>(y==="anna-s-diary"?"annas-diary":y)===a)))&&(!f||x.source_site===f)&&(!s||[uidById[x.id]||"",x.id,x.name,x.category,x.source_site,...x.apps].join(" ").toLocaleLowerCase("it").includes(s))&&(!p||(p==="ready"?!!previews[x.id]?.image_path:!previews[x.id]?.image_path)));
 page=0;draw();
 }
 function sourceLink(c){const href=c.source_url||(c.archive_path?repoUrl(c.archive_path):null);if(!href)return node("span","muted","Fonte non registrata");const a=node("a",null,"Apri fonte");a.href=href;a.target="_blank";a.rel="noopener noreferrer";return a}
@@ -91,7 +92,9 @@ function draw(){
  for(const c of current.slice(start,start+PER_PAGE)){
   const tr=node("tr");const cells=Array.from({length:6},()=>node("td"));
   cells[0].append(pic(c));
-  const id=node("strong",null,c.id+" · "+c.name);cells[1].append(id,node("br"));cells[1].append(sourceLink(c));
+  const id=node("strong",null,(uidById[c.id]||"UID assente")+" · "+c.name);
+  cells[1].append(id,node("br"),node("span","tiny",c.id));
+  cells[1].append(node("br"));cells[1].append(sourceLink(c));
   cells[2].append(node("span","chip",c.source_site.replaceAll("_"," ")));
   cells[3].textContent=c.category||"—";cells[4].textContent=c.apps.length?c.apps.join(", "):"Non assegnato";
   cells[5].append(node("span","tiny",c.archive_state==="ARCHIVED_SOURCE"?"Sorgente originale archiviata":"Solo riferimento"));
@@ -104,7 +107,7 @@ function draw(){
  document.getElementById("prev").disabled=page===0;document.getElementById("next").disabled=page>=pages-1;
 }
 async function show(c,source){
- lastFocused=source;const modal=document.getElementById("lightbox");document.getElementById("modalTitle").textContent=c.id+" · "+c.name;
+ lastFocused=source;const modal=document.getElementById("lightbox");document.getElementById("modalTitle").textContent=(uidById[c.id]||c.id)+" · "+c.name;
  const slot=document.getElementById("modalContent");const links=document.getElementById("modalLinks");slot.replaceChildren();links.replaceChildren();
  const p=previews[c.id]||{};
  if(p.image_path){
@@ -134,7 +137,9 @@ document.getElementById("next").onclick=()=>{page++;draw()};
 for(const i of Object.values(refs).filter(x=>x!==refs.rows))i.addEventListener(i===refs.search?"input":"change",query);
 (async function init(){
  try{
-  const [cat,manifest]=await Promise.all([loadJSON(LOCAL_CATALOG),loadJSON(LOCAL_PREVIEWS).catch(()=>({previews:{}}))]);
+  const [cat,manifest,uids]=await Promise.all([loadJSON(LOCAL_CATALOG),loadJSON(LOCAL_PREVIEWS).catch(()=>({previews:{}})),loadJSON(LOCAL_UIDS)]);
+  uidById=Object.fromEntries(uids.entries.map(x=>[x.canonical_id,x.uid]));
+  if(Object.keys(uidById).length!==cat.components.length)throw Error("UID registry mismatch");
   if(cat.counts?.unique_components!==478||cat.components.length!==478)throw Error("Conteggio catalogo inatteso");
   catalog=cat.components;previews=manifest.previews||{};
   const apps=[...new Set(catalog.flatMap(c=>c.apps.map(a=>a==="anna-s-diary"?"annas-diary":a)))].sort((a,b)=>a.localeCompare(b,"it"));
@@ -144,9 +149,9 @@ for(const i of Object.values(refs).filter(x=>x!==refs.rows))i.addEventListener(i
   const count=Object.values(previews).filter(x=>x.image_path).length;
   document.getElementById("coverage").textContent=count+" miniature registrate / 478 · "+apps.length+" app";
   const params=new URLSearchParams(location.search);refs.app.value=params.get("app")||"";
-  const id=decodeURIComponent(location.hash.slice(1));if(id){const c=catalog.find(x=>x.id===id||cat.aliases?.[id]?.canonical_id===x.id);if(c){refs.app.value="";refs.search.value=c.id}}
+  const id=decodeURIComponent(location.hash.slice(1));if(id){const c=catalog.find(x=>x.id===id||uidById[x.id]===id||cat.aliases?.[id]?.canonical_id===x.id);if(c){refs.app.value="";refs.search.value=c.id}}
   query();
-  if(id){const x=current.find(c=>c.id===id||cat.aliases?.[id]?.canonical_id===c.id);if(x)show(x,refs.search)}
+  if(id){const x=current.find(c=>c.id===id||uidById[c.id]===id||cat.aliases?.[id]?.canonical_id===c.id);if(x)show(x,refs.search)}
  }catch(err){
   refs.rows.replaceChildren();const tr=node("tr"),td=node("td");td.colSpan=6;
   td.textContent="Catalogo non caricato: "+err.message+". Su computer apri il sito con un server locale (python -m http.server) o GitHub Pages.";

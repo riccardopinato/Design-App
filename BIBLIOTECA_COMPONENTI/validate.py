@@ -192,23 +192,8 @@ def validate() -> list[str]:
         )
     if paths_extra != actual_extra:
         errors.append("external source files differ from provenance manifest")
-    # Forui Flutter sources: immutable original code, demo, and MIT notice.
-    native = json.loads((ROOT / "BIBLIOTECA_COMPONENTI/sorgenti/forui/PROVENIENZA.json").read_text(encoding="utf-8"))
-    if native.get("source_commit") != "5dbf97c926a53fcfe3436db1be6262ac40961db5":
-        errors.append("Forui source SHA has drifted")
-    if len(native.get("entries", [])) != 5:
-        errors.append("Forui source manifest must contain 5 upstream files")
-    for origin in native.get("entries", []):
-        original = ROOT / origin["local_path"]
-        if not original.is_file() or git_blob_sha(original.read_bytes()) != origin["source_blob_sha"]:
-            errors.append("Forui archived original differs: " + origin["local_path"])
-    for cid in ("FUI-001", "FUI-002"):
-        if cid not in by_id or by_id[cid]["source_site"] != "FLUTTER_FORUI":
-            errors.append(cid + " missing Forui canonical source")
-    if counter.get("FLUTTER_FORUI") != 2:
-        errors.append("Expected exactly 2 new native Flutter Forui references")
-    if catalog.get("counts", {}).get("archived_originals") != 427:
-        errors.append("Expected 427 archived original source entries after Forui intake")
+    if catalog.get("counts", {}).get("archived_originals") != 425:
+        errors.append("expected 425 archived canonical sources after MIT batch")
     if catalog.get("counts", {}).get("referenced_only") != 53:
         errors.append("expected 53 remaining references after MIT batch")
 
