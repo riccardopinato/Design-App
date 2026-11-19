@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: design-app-dual-code-branch-write-${{ github.ref }}
+  group: design-app-source-batch-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
