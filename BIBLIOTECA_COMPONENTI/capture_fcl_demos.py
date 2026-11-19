@@ -96,6 +96,8 @@ async def main():
                                 if await inside.locator("flt-glass-pane,flt-scene-host,canvas").count()>0:
                                     break
                                 await page.wait_for_timeout(delay)
+                    if cid == "FCL-006":
+                        raise ValueError("VISUAL_QA_REJECTED_WRONG_COMPONENT: the Book Shelf demo route resolves to catalog homepage")
                     raw=await frame.screenshot(animations="disabled",timeout=20000)
                     png,std=valid_render(raw)
                     if "404" in title.lower():

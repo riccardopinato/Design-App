@@ -269,10 +269,10 @@
       "image_evidence": null
     },
     "FCL-006": {
-      "image_path": "docs/assets/componenti/FCL-006.png",
-      "status": "CAPTURED_PUBLIC_DEMO_REFERENCE_UNREVIEWED",
-      "origin_type": "PUBLIC_FLUTTER_WEB_DEMO_REFERENCE_ONLY",
-      "image_evidence": "Reference-only official Flutter Component Library demo iframe; source license NOT VERIFIED; screenshot QA pending"
+      "image_path": null,
+      "status": "NO_VERIFIED_IMAGE",
+      "origin_type": "SOURCE_REFERENCE",
+      "image_evidence": null
     },
     "FCL-007": {
       "image_path": "docs/assets/componenti/FCL-007.png",

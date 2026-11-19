@@ -16,21 +16,6 @@
       "image_variance": 317.79,
       "note": "Screenshot of isolated public live demo; no source/Dart or asset redistribution rights asserted"
     },
-    "FCL-006": {
-      "component_id": "FCL-006",
-      "source_provider": "FLUTTER_COMPONENT_LIBRARY",
-      "source_reference_url": "https://fluttercomponentlibrary.com/pages/components/book-shelf.html",
-      "origin_demo_url": "https://fluttercomponentlibrary.com/#/single_component/Book_Shelf",
-      "preview_path": "docs/assets/componenti/FCL-006.png",
-      "preview_sha256": "0efab31ad83b3e2ecb08a6c74ed601df738dc9a056ea742b9f795c33c3003064",
-      "capture_mode": "OFFICIAL_LIVE_DEMO_IFRAME",
-      "original_archive_path": null,
-      "license_status": "NOT_VERIFIED",
-      "reuse_scope": "DOCUMENTARY_REFERENCE_ONLY",
-      "visual_qa": "UNREVIEWED",
-      "image_variance": 300.45,
-      "note": "Screenshot of isolated public live demo; no source/Dart or asset redistribution rights asserted"
-    },
     "FCL-007": {
       "component_id": "FCL-007",
       "source_provider": "FLUTTER_COMPONENT_LIBRARY",

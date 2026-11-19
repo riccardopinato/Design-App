@@ -3,7 +3,6 @@
   "requested": 15,
   "captured": [
     "FCL-001",
-    "FCL-006",
     "FCL-007",
     "FCL-008",
     "FCL-011",
@@ -18,7 +17,8 @@
     "FCL-010": "NO_OFFICIAL_DEMO_IFRAME: []",
     "FCL-012": "NO_OFFICIAL_DEMO_IFRAME: []",
     "FCL-014": "NO_OFFICIAL_DEMO_IFRAME: []",
-    "FCL-015": "NO_OFFICIAL_DEMO_IFRAME: []"
+    "FCL-015": "NO_OFFICIAL_DEMO_IFRAME: []",
+    "FCL-006": "VISUAL_QA_REJECTED_WRONG_COMPONENT: screenshot showed Flutter Component Library homepage, not Book Shelf; original iframe route resolves to homepage"
   },
   "diagnostics": {
     "FCL-003": {
