@@ -1,5 +1,5 @@
 # Esito nominativo delle 119 anteprime — Design-App
-Baseline immutabile: 119 UID iniziali; **0 recuperate**; **119 senza PNG**.
+Baseline immutabile: 119 UID iniziali; **5 recuperate**; **114 senza PNG**.
 La colonna risultato distingue **PNG reale acquisita** da **blocco concreto** e **acquisizione ancora non eseguita**. Una PNG con QA visivo UNREVIEWED non è né Golden Flutter né asset approvato per l'app.
 Le fonti originali non sono state sostituite.
 | UID | Componente | Origine | Esito | Evidenza/impedimento |
@@ -43,21 +43,21 @@ Le fonti originali non sono state sostituite.
 | UID-0037 | DSP-004 | DEVLIBRARIES_AMICRO | ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED | Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare |
 | UID-0038 | DSP-005 | DEVLIBRARIES_AMICRO | ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED | Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare |
 | UID-0039 | DSP-006 | USER_IMAGE | BLOCKED_USER_IMAGE_NOT_ATTACHED | Riferimento a immagine personale privo di file nel repository: occorre l'originale dell'utente |
-| UID-0040 | FCL-001 | FLUTTER_COMPONENT_LIBRARY | PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED | Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG |
-| UID-0041 | FCL-002 | FLUTTER_COMPONENT_LIBRARY | PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED | Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG |
-| UID-0042 | FCL-003 | FLUTTER_COMPONENT_LIBRARY | PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED | Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG |
-| UID-0043 | FCL-004 | FLUTTER_COMPONENT_LIBRARY | PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED | Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG |
-| UID-0044 | FCL-005 | FLUTTER_COMPONENT_LIBRARY | PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED | Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG |
-| UID-0045 | FCL-006 | FLUTTER_COMPONENT_LIBRARY | PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED | Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG |
-| UID-0046 | FCL-007 | FLUTTER_COMPONENT_LIBRARY | PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED | Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG |
-| UID-0047 | FCL-008 | FLUTTER_COMPONENT_LIBRARY | PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED | Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG |
-| UID-0048 | FCL-009 | FLUTTER_COMPONENT_LIBRARY | PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED | Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG |
-| UID-0049 | FCL-010 | FLUTTER_COMPONENT_LIBRARY | PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED | Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG |
-| UID-0050 | FCL-011 | FLUTTER_COMPONENT_LIBRARY | PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED | Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG |
-| UID-0051 | FCL-012 | FLUTTER_COMPONENT_LIBRARY | PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED | Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG |
-| UID-0052 | FCL-013 | FLUTTER_COMPONENT_LIBRARY | PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED | Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG |
-| UID-0053 | FCL-014 | FLUTTER_COMPONENT_LIBRARY | PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED | Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG |
-| UID-0054 | FCL-015 | FLUTTER_COMPONENT_LIBRARY | PUBLIC_DEMO_CAPTURE_NOT_YET_ATTEMPTED | Esiste URL pubblico di demo; nessun Dart originale o licenza verificata, non esiste ancora PNG |
+| UID-0040 | FCL-001 | FLUTTER_COMPONENT_LIBRARY | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
+| UID-0041 | FCL-002 | FLUTTER_COMPONENT_LIBRARY | BLOCKED_PUBLIC_DEMO_CAPTURE | Tentativo demo ufficiale fallito: NO_OFFICIAL_DEMO_IFRAME: [] |
+| UID-0042 | FCL-003 | FLUTTER_COMPONENT_LIBRARY | BLOCKED_PUBLIC_DEMO_CAPTURE | Tentativo demo ufficiale fallito: NO_OFFICIAL_DEMO_IFRAME: [] |
+| UID-0043 | FCL-004 | FLUTTER_COMPONENT_LIBRARY | BLOCKED_PUBLIC_DEMO_CAPTURE | Tentativo demo ufficiale fallito: NO_OFFICIAL_DEMO_IFRAME: [] |
+| UID-0044 | FCL-005 | FLUTTER_COMPONENT_LIBRARY | BLOCKED_PUBLIC_DEMO_CAPTURE | Tentativo demo ufficiale fallito: NO_OFFICIAL_DEMO_IFRAME: [] |
+| UID-0045 | FCL-006 | FLUTTER_COMPONENT_LIBRARY | BLOCKED_PUBLIC_DEMO_CAPTURE | Tentativo demo ufficiale fallito: VISUAL_QA_REJECTED_WRONG_COMPONENT: screenshot showed Flutter Component Library homepage, not Book Shelf; original iframe route resolves to homepage |
+| UID-0046 | FCL-007 | FLUTTER_COMPONENT_LIBRARY | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
+| UID-0047 | FCL-008 | FLUTTER_COMPONENT_LIBRARY | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
+| UID-0048 | FCL-009 | FLUTTER_COMPONENT_LIBRARY | BLOCKED_PUBLIC_DEMO_CAPTURE | Tentativo demo ufficiale fallito: NO_OFFICIAL_DEMO_IFRAME: [] |
+| UID-0049 | FCL-010 | FLUTTER_COMPONENT_LIBRARY | BLOCKED_PUBLIC_DEMO_CAPTURE | Tentativo demo ufficiale fallito: NO_OFFICIAL_DEMO_IFRAME: [] |
+| UID-0050 | FCL-011 | FLUTTER_COMPONENT_LIBRARY | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
+| UID-0051 | FCL-012 | FLUTTER_COMPONENT_LIBRARY | BLOCKED_PUBLIC_DEMO_CAPTURE | Tentativo demo ufficiale fallito: NO_OFFICIAL_DEMO_IFRAME: [] |
+| UID-0052 | FCL-013 | FLUTTER_COMPONENT_LIBRARY | PNG_ARCHIVED_SHA_VERIFIED_VISUAL_QA_PENDING | PNG reale acquisita e SHA256 verificato; revisione visiva e uso nell'app non ancora certificati |
+| UID-0053 | FCL-014 | FLUTTER_COMPONENT_LIBRARY | BLOCKED_PUBLIC_DEMO_CAPTURE | Tentativo demo ufficiale fallito: NO_OFFICIAL_DEMO_IFRAME: [] |
+| UID-0054 | FCL-015 | FLUTTER_COMPONENT_LIBRARY | BLOCKED_PUBLIC_DEMO_CAPTURE | Tentativo demo ufficiale fallito: NO_OFFICIAL_DEMO_IFRAME: [] |
 | UID-0090 | RXN-animated-beam | RUIXEN | ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED | Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare |
 | UID-0091 | RXN-animated-circular-progress-bar | RUIXEN | ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED | Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare |
 | UID-0092 | RXN-animated-gradient-text | RUIXEN | ARCHIVED_SOURCE_RENDER_NOT_YET_ATTEMPTED | Sorgente originale presente; manca cattura verificata, pipeline di rendering in corso o da completare |
