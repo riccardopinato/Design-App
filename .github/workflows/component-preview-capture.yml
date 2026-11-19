@@ -54,4 +54,7 @@ jobs:
             exit 0
           fi
           git commit -m "docs(previews): add locally rendered Uiverse thumbnails and per-app image tables"
+          # Preserve concurrent human/documentation changes; never force-push.
+          git fetch origin "${BRANCH}"
+          git rebase "origin/${BRANCH}"
           git push origin "HEAD:${BRANCH}"
