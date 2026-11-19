@@ -274,6 +274,27 @@ for source_id, linked in skills_map.get("by_source", {}).items():
          (e.get("app"), e.get("fit")) for e in skills_links if e.get("source_id") == source_id}:
         fail(f"design skill by-source links out of sync: {source_id}")
 
+# The November 17 skills matrix is an immutable ten-source snapshot.
+# A dated, separately validated delta supplies new DSK-011 links without
+# silently rewriting its original 96 historical proposals.
+unslop_path = ROOT / "UI-UX" / "UNSLOP_UI_APP_MAP_2026-11-19.json"
+unslop_map = json.loads(unslop_path.read_text(encoding="utf-8"))
+unslop_entries = unslop_map.get("apps", [])
+if unslop_map.get("source", {}).get("id") != "DSK-011" or unslop_map.get("status") != "PROPOSED_ONLY":
+    fail("Unslop mapping must retain DSK-011 proposed-only status")
+if unslop_map.get("source", {}).get("sha") != "cd891160453f26aaacc569bad96a8d10d595076d":
+    fail("Unslop upstream source pin mismatch")
+if len(unslop_entries) != 5 or len({row.get("app_id") for row in unslop_entries}) != 5:
+    fail("Unslop must declare exactly five distinct proposed app relations")
+if unslop_map.get("counts", {}).get("relations") != len(unslop_entries):
+    fail("Unslop relation count drift")
+if any(row.get("source_id") != "DSK-011" or row.get("status") != "PROPOSED_ONLY"
+       or row.get("fit") not in ("HIGH", "MEDIUM") or row.get("runtime_state") != "NOT_VERIFIED"
+       for row in unslop_entries):
+    fail("Unslop association status, identity or maturity drift")
+unslop_by_app = {row["app_name"]: (row["source_id"], row["fit"], row["scope"])
+                 for row in unslop_entries}
+
 ruixen_index = json.loads((ROOT / "sources" / "RUIXEN_UI_REGISTRY_INVENTORY_2026-11-13.json").read_text(encoding="utf-8"))
 ruixen_curated = json.loads((ROOT / "sources" / "RUIXEN_UI_CURATED_APP_MAP_2026-11-13.json").read_text(encoding="utf-8"))
 files = ruixen_index.get("files", [])
@@ -578,6 +599,8 @@ for profile in profiles:
     actual_skills = {(x["id"], x["fit"], x["surface"]) for x in profile.get("source_design_skills", [])}
     expected_skills = {(x["source_id"], x["fit"], x["surface"])
                        for x in skills_map.get("by_app", {}).get(name, [])}
+    if name in unslop_by_app:
+        expected_skills.add(unslop_by_app[name])
     if actual_skills != expected_skills or len(actual_skills) != len(profile.get("source_design_skills", [])):
         fail(f"PER_APP skill mapping drift: {name}")
     doc_path = per_app_dir / (profile["id"] + ".md")
