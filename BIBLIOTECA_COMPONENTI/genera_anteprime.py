@@ -67,7 +67,7 @@ def build_manifest(rows: list[dict]) -> dict:
                 raise ValueError(cid + ": image/source commit mismatch")
             if record.get("origin_repo") != "ruixenui/ruixen.com":
                 raise ValueError(cid + ": incorrect image source repository")
-            if record.get("capture_mode") not in {"PINNED_OFFICIAL_PREVIEW_IMAGE", "LIVE_COMPONENT_ONLY_SCREENSHOT"}:
+            if record.get("capture_mode") not in {"PINNED_OFFICIAL_PREVIEW_IMAGE", "LIVE_COMPONENT_ONLY_SCREENSHOT", "OFFICIAL_SITE_STATIC_IMAGE", "LIVE_DOCS_COMPONENT_IFRAME"}:
                 raise ValueError(cid + ": unsupported acquisition method")
             if hashlib.sha256(path.read_bytes()).hexdigest() != record.get("preview_sha256"):
                 raise ValueError(cid + ": screenshot bytes differ from registered SHA256")
