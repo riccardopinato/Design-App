@@ -89,8 +89,11 @@ async def main():
                 cid=c["id"]
                 async with semaphore:
                     page=await ctx.new_page()
-                    errors=[]
+                    errors=[]; console_errors=[]; http_errors=[]; request_errors=[]
                     page.on("pageerror",lambda e:errors.append(str(e)[:190]))
+                    page.on("console",lambda m:console_errors.append(m.text[:230]) if m.type=="error" else None)
+                    page.on("response",lambda res:http_errors.append(str(res.status)+" "+res.url[-150:]) if res.status>=400 else None)
+                    page.on("requestfailed",lambda req:request_errors.append(req.url[-170:]))
                     try:
                         await page.goto("http://127.0.0.1:5181/batch.html?cid="+cid,
                             wait_until="domcontentloaded",timeout=19000)
@@ -101,7 +104,8 @@ async def main():
                         state=await target.get_attribute("data-capture-status")
                         if state!="ready":
                             why=await target.get_attribute("data-source-error")
-                            raise ValueError("ORIGINAL_TSX_IMPORT_OR_RENDER_FAILED "+str(why))
+                            details={"console":console_errors[:3],"http":http_errors[:3],"requests":request_errors[:3]}
+                            raise ValueError("ORIGINAL_TSX_IMPORT_OR_RENDER_FAILED "+str(why)+" "+json.dumps(details,ensure_ascii=False))
                         await page.wait_for_timeout(950)
                         if errors:raise ValueError("SOURCE_JS_EXCEPTION "+str(errors[:2]))
                         # Vite can render a colorful error overlay above the original
@@ -114,7 +118,9 @@ async def main():
                         if not actual_source or not actual_source.endswith("/"+Path(c["archive_path"]).name):
                             raise ValueError("COMPONENT_SOURCE_PATH_DID_NOT_MATCH_ARCHIVE")
                         n=await target.locator("*").count()
-                        if n<2:raise ValueError("NO_RENDERED_COMPONENT_CHILDREN")
+                        # A valid source may render ONE span/canvas/input directly.
+                        # This is a DOM presence check, not an arbitrary child count.
+                        if n<1:raise ValueError("NO_RENDERED_COMPONENT_ELEMENT")
                         if "SOURCE_MODULE_FAILED" in (await target.inner_text()):
                             raise ValueError("SOURCE_MODULE_FAILED_MESSAGE")
                         raw=await target.screenshot(animations="disabled",timeout=14000)

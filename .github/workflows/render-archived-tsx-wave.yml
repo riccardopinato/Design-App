@@ -45,6 +45,7 @@ jobs:
       - name: Regenerate real previews, validate SHA and 480 UID
         run: |
           python BIBLIOTECA_COMPONENTI/genera_anteprime.py --write
+          python BIBLIOTECA_COMPONENTI/resolve_119_preview_cases.py
           python BIBLIOTECA_COMPONENTI/genera_anteprime.py --check
           python BIBLIOTECA_COMPONENTI/validate.py
           python BIBLIOTECA_COMPONENTI/uid.py validate
@@ -56,7 +57,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/assets/componenti BIBLIOTECA_COMPONENTI/ANTEPRIME_ORIGINI.json BIBLIOTECA_COMPONENTI/ANTEPRIME_ORIGINI_SECONDARIE.json BIBLIOTECA_COMPONENTI/RENDER_ARCHIVED_TSX_BATCH_REPORT.json BIBLIOTECA_COMPONENTI/ANTEPRIME.json BIBLIOTECA_COMPONENTI/TABELLA_478.md BIBLIOTECA_COMPONENTI/PER_APP
+          git add docs/assets/componenti BIBLIOTECA_COMPONENTI/ANTEPRIME_ORIGINI.json BIBLIOTECA_COMPONENTI/ANTEPRIME_ORIGINI_SECONDARIE.json BIBLIOTECA_COMPONENTI/RENDER_ARCHIVED_TSX_BATCH_REPORT.json BIBLIOTECA_COMPONENTI/RECUPERO_119_ESITI.json BIBLIOTECA_COMPONENTI/RECUPERO_119_ESITI.md BIBLIOTECA_COMPONENTI/ANTEPRIME.json BIBLIOTECA_COMPONENTI/TABELLA_478.md BIBLIOTECA_COMPONENTI/PER_APP
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "docs(previews): capture source-specific original TSX previews with hashes and per-UID failure report"
           AUTH=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
