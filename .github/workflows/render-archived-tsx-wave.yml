@@ -37,6 +37,9 @@ jobs:
         run: |
           cd BIBLIOTECA_COMPONENTI/ruixen_renderer
           npm install --no-audit --no-fund
+          # Check the exact transitive runtime expected by Framer Motion
+          # 12.23.11. Floating ^12.x broke activeAnimations ESM imports.
+          node -e "for(const [p,v] of Object.entries({'motion-dom':'12.23.9','motion-utils':'12.23.6'})){const got=require('./node_modules/'+p+'/package.json').version;console.log('PINNED_RUNTIME',p,got);if(got!==v)process.exitCode=1}"
           cd ../..
           python -m pip install "playwright==1.57.0" "Pillow==11.3.0"
           python -m playwright install chromium
