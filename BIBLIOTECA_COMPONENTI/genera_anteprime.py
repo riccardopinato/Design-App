@@ -72,8 +72,17 @@ def build_manifest(rows: list[dict]) -> dict:
                 raise ValueError(cid + ": image/source commit mismatch")
             if record.get("origin_repo") != "ruixenui/ruixen.com":
                 raise ValueError(cid + ": incorrect image source repository")
-            if record.get("capture_mode") not in {"PINNED_OFFICIAL_PREVIEW_IMAGE", "LIVE_COMPONENT_ONLY_SCREENSHOT", "OFFICIAL_SITE_STATIC_IMAGE", "LIVE_DOCS_COMPONENT_IFRAME", "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER"}:
+            if record.get("capture_mode") not in {"PINNED_OFFICIAL_PREVIEW_IMAGE", "LIVE_COMPONENT_ONLY_SCREENSHOT", "OFFICIAL_SITE_STATIC_IMAGE", "LIVE_DOCS_COMPONENT_IFRAME", "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER", "PINNED_ORIGINAL_TSX_NEXTJS_RENDER"}:
                 raise ValueError(cid + ": unsupported acquisition method")
+            if record.get("capture_mode") == "PINNED_ORIGINAL_TSX_NEXTJS_RENDER":
+                next_pkg = HERE / "next_source_renderer/package.json"
+                if (record.get("source_blob_sha") != c.get("source_blob_sha")
+                        or record.get("local_fixture_path") != "BIBLIOTECA_COMPONENTI/next_source_renderer/app/page.tsx"
+                        or not next_pkg.is_file()
+                        or record.get("local_renderer_package_sha256") != hashlib.sha256(next_pkg.read_bytes()).hexdigest()
+                        or record.get("font_evidence", {}).get("loaded") is not True
+                        or "poppins" not in str(record.get("font_evidence", {}).get("family", "")).lower()):
+                    raise ValueError(cid + ": Next original source/loader/font provenance mismatch")
             if record.get("capture_mode") == "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER":
                 if (record.get("source_blob_sha") != c.get("source_blob_sha")
                         or record.get("local_fixture_path") not in {"BIBLIOTECA_COMPONENTI/ruixen_renderer/src/main.tsx", "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx"}
