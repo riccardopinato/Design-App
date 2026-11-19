@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalog_component_count": 478,
+  "catalog_component_count": 480,
   "coverage": "Captures require screenshot generation and visual QA; no source page or source code is itself an image.",
   "created_at": "2026-11-19",
   "previews": {
@@ -327,6 +327,18 @@
       "status": "NO_VERIFIED_IMAGE",
       "origin_type": "SOURCE_REFERENCE",
       "image_evidence": null
+    },
+    "FUI-001": {
+      "image_path": "docs/assets/componenti/FUI-001.png",
+      "status": "CAPTURED_ORIGINAL_DEMO_UNREVIEWED",
+      "origin_type": "LIVE_ORIGINAL_FLUTTER_DEMO",
+      "image_evidence": "Authentic Forui demo, provenance in ANTEPRIME_ORIGINI_FORUI.json; QA pending"
+    },
+    "FUI-002": {
+      "image_path": "docs/assets/componenti/FUI-002.png",
+      "status": "CAPTURED_ORIGINAL_DEMO_UNREVIEWED",
+      "origin_type": "LIVE_ORIGINAL_FLUTTER_DEMO",
+      "image_evidence": "Authentic Forui demo, provenance in ANTEPRIME_ORIGINI_FORUI.json; QA pending"
     },
     "ICO-001": {
       "image_path": null,

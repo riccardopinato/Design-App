@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "source_commit": "5dbf97c926a53fcfe3436db1be6262ac40961db5",
+  "previews": {
+    "FUI-001": {
+      "component_id": "FUI-001",
+      "preview_path": "docs/assets/componenti/FUI-001.png",
+      "preview_sha256": "2bec008572b082d8d1d9b268e20efd6a0b44472fa6c1fd06c96ad2f0046f480f",
+      "origin_url": "https://forui.dev/docs/widgets/form/button",
+      "origin_repo": "duobaseio/forui",
+      "origin_source_commit": "5dbf97c926a53fcfe3436db1be6262ac40961db5",
+      "capture_mode": "OFFICIAL_FLUTTER_WEB_DEMO_IFRAME",
+      "visual_qa": "UNREVIEWED",
+      "asset_rights": "REFERENCE_ONLY_NO_CONSUMER_IMPORT"
+    },
+    "FUI-002": {
+      "component_id": "FUI-002",
+      "preview_path": "docs/assets/componenti/FUI-002.png",
+      "preview_sha256": "d1a54d0ee6fc11bd6e7e7cedeae810951c37827007db74964adbef46b4ee0f02",
+      "origin_url": "https://forui.dev/docs/widgets/form/text-form-field",
+      "origin_repo": "duobaseio/forui",
+      "origin_source_commit": "5dbf97c926a53fcfe3436db1be6262ac40961db5",
+      "capture_mode": "OFFICIAL_FLUTTER_WEB_DEMO_IFRAME",
+      "visual_qa": "UNREVIEWED",
+      "asset_rights": "REFERENCE_ONLY_NO_CONSUMER_IMPORT"
+    }
+  }
+}
