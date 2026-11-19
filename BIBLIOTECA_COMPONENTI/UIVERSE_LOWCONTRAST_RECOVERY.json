@@ -2,7 +2,7 @@
   "as_of": "2026-11-19",
   "original_count": 110,
   "candidates": 15,
-  "replaced": 10,
+  "replaced": 14,
   "still_needs_source_visual_acceptance": 110,
   "fixture_rule": "Only output real archived HTML/CSS. The wrapper can change contrast/size; never source styles.",
   "cases": {
@@ -11,17 +11,17 @@
       "archived_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-005_original.html",
       "archived_source_blob_sha": "73a8aaf5f229c8b69ff590a07e19e734a5ab6db8",
       "old_sha256": "67d37d69f8dc662c621f2fa10823ba26d6305eba3d3eaa734f046dd3600c3737",
-      "current_sha256": "67d37d69f8dc662c621f2fa10823ba26d6305eba3d3eaa734f046dd3600c3737",
+      "current_sha256": "61c72f8d132e6177cf4303166ae5b0d26a2e52518bd7cd665dcfadfcff68a3ce",
       "old_stddev": 2.745,
       "candidate_frame_stddev": [
-        2.745,
-        2.745,
-        2.745
+        92.965,
+        92.966,
+        92.971
       ],
-      "best_stddev": 2.745,
-      "replaced": false,
+      "best_stddev": 92.971,
+      "replaced": true,
       "fixture_backdrop": "NEUTRAL",
-      "fixture_size": "CONTENT_BASED",
+      "fixture_size": "380x240",
       "capture_mode": "ORIGINAL_HTML_CSS_RUNNING_ANIMATION",
       "visual_qa": "UNREVIEWED",
       "claim": "Real archived source rendered in browser; no original code or external asset changed"
@@ -51,17 +51,17 @@
       "archived_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-033_original.html",
       "archived_source_blob_sha": "357bad2a0d52db3af7e2cdbdf21292d4c3b4a9c9",
       "old_sha256": "bacacc39702084e00c8b9572c62dec4931e3b37f0e846169dbacde4cef15d943",
-      "current_sha256": "bacacc39702084e00c8b9572c62dec4931e3b37f0e846169dbacde4cef15d943",
+      "current_sha256": "3e2e5b5e3989f2df5d70ffe4e28b82ca2c726e54fc3d908dbd113ec01ae7ea53",
       "old_stddev": 0.0,
       "candidate_frame_stddev": [
-        0.0,
-        0.0,
-        0.0
+        88.737,
+        88.737,
+        88.737
       ],
-      "best_stddev": 0.0,
-      "replaced": false,
+      "best_stddev": 88.737,
+      "replaced": true,
       "fixture_backdrop": "DARK",
-      "fixture_size": "CONTENT_BASED",
+      "fixture_size": "380x240",
       "capture_mode": "ORIGINAL_HTML_CSS_RUNNING_ANIMATION",
       "visual_qa": "UNREVIEWED",
       "claim": "Real archived source rendered in browser; no original code or external asset changed"
@@ -191,17 +191,17 @@
       "archived_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-065_original.html",
       "archived_source_blob_sha": "ce18e76038050c4012ace0151387e3e1cc5f9faa",
       "old_sha256": "51ed5c1e4360afb609c2f8288a1c2394653df1f44468b9ce9557df5931a0c658",
-      "current_sha256": "51ed5c1e4360afb609c2f8288a1c2394653df1f44468b9ce9557df5931a0c658",
+      "current_sha256": "3523c1986aa47160eb24c902e538c93574b918454361b1238eeed9330f90a5dc",
       "old_stddev": 2.714,
       "candidate_frame_stddev": [
-        2.714,
-        2.714,
-        2.813
+        6.605,
+        6.605,
+        6.591
       ],
-      "best_stddev": 2.813,
-      "replaced": false,
+      "best_stddev": 6.605,
+      "replaced": true,
       "fixture_backdrop": "NEUTRAL",
-      "fixture_size": "CONTENT_BASED",
+      "fixture_size": "380x240",
       "capture_mode": "ORIGINAL_HTML_CSS_RUNNING_ANIMATION",
       "visual_qa": "UNREVIEWED",
       "claim": "Real archived source rendered in browser; no original code or external asset changed"
@@ -234,11 +234,11 @@
       "current_sha256": "49ff5c304c7a57437cfc970a1dc9b9f69dde008f3d3fe5fdba5090ad3c7a363b",
       "old_stddev": 1.356,
       "candidate_frame_stddev": [
-        1.356,
-        1.356,
-        1.356
+        2.666,
+        2.666,
+        2.666
       ],
-      "best_stddev": 1.356,
+      "best_stddev": 2.666,
       "replaced": false,
       "fixture_backdrop": "NEUTRAL",
       "fixture_size": "CONTENT_BASED",
@@ -271,17 +271,17 @@
       "archived_source_path": "UI-UX/UIVERSE/CODICE_SORGENTE/UIV-094_original.html",
       "archived_source_blob_sha": "112071ace5d9cb34849313300882195ff816c52d",
       "old_sha256": "bacacc39702084e00c8b9572c62dec4931e3b37f0e846169dbacde4cef15d943",
-      "current_sha256": "bacacc39702084e00c8b9572c62dec4931e3b37f0e846169dbacde4cef15d943",
+      "current_sha256": "6e5a41bce9d24cc8680a4444334f0146b10acc0bbac86132b22b2b53dab26a00",
       "old_stddev": 0.0,
       "candidate_frame_stddev": [
-        0.0,
-        0.0,
-        0.0
+        16.627,
+        20.812,
+        20.648
       ],
-      "best_stddev": 0.0,
-      "replaced": false,
+      "best_stddev": 20.812,
+      "replaced": true,
       "fixture_backdrop": "DARK",
-      "fixture_size": "CONTENT_BASED",
+      "fixture_size": "380x240",
       "capture_mode": "ORIGINAL_HTML_CSS_RUNNING_ANIMATION",
       "visual_qa": "UNREVIEWED",
       "claim": "Real archived source rendered in browser; no original code or external asset changed"
