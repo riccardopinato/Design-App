@@ -61,7 +61,7 @@ def main() -> None:
         d.text((x + 10, y + 119), cid, fill="#182838")
     board.save(OUT / "CONTACT_SHEET_110.png", optimize=True)
     summary = {
-        "catalog_total": 478,
+        "catalog_total": len(CAT["components"]),
         "preview_images": len(records),
         "missing_preview_images": 110 - len(records),
         "near_flat_candidates": [x["id"] for x in records if x["near_flat_candidate"]],
