@@ -22,8 +22,8 @@ const pinnedAmicroHook = {
   name: 'source-pinned-amicro-hook',
   enforce: 'pre' as const,
   resolveId(id: string, importer?: string) {
-    if (/(?:^|\\/)hooks\\/useLoopFlg(?:\\.[jt]sx?)?$/.test(id) &&
-        importer?.replaceAll('\\\\', '/').includes('/sorgenti/amicro/')) {
+    if (/(?:^|\/)hooks\/useLoopFlg(?:\.[jt]sx?)?$/.test(id) &&
+        importer?.replaceAll('\\', '/').includes('/sorgenti/amicro/')) {
       return path.resolve(__dirname, 'vendor/amicro/useLoopFlg.ts');
     }
     return null;
