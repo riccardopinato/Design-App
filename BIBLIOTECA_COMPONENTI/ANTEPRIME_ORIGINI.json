@@ -106,6 +106,21 @@
       "upstream_preview_index_sha256": "0255ae3f982b2c4def65d99f4e380ffa84c0e36863da4209b4e92f710bd16ca9",
       "bytes": 3886
     },
+    "RXN-animated-grid-pattern": {
+      "component_id": "RXN-animated-grid-pattern",
+      "preview_path": "docs/assets/componenti/RXN-animated-grid-pattern.png",
+      "preview_sha256": "534ca6785342af72d8146e9f0bd05e7223f498ccc88a3d309fdf5f0ef057e888",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-grid-pattern.tsx",
+      "source_blob_sha": "14cf70d08dc25a13542a08f06f06447958b6aff5",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "a9acb51c858dfd0f437c231e3339c2fca95789e937ba7bd7f34c4c725061fcbc",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
+    },
     "RXN-animated-highlight-text": {
       "component_id": "RXN-animated-highlight-text",
       "preview_path": "docs/assets/componenti/RXN-animated-highlight-text.png",
@@ -132,6 +147,21 @@
       "captured_on": "2026-11-19",
       "bytes": 6833
     },
+    "RXN-animated-list": {
+      "component_id": "RXN-animated-list",
+      "preview_path": "docs/assets/componenti/RXN-animated-list.png",
+      "preview_sha256": "77028522a0e15baf9c0de26fc0e99b7692eea240d9397292589934d6aebe9d90",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-list.tsx",
+      "source_blob_sha": "872365ba2638254747c867dbd08386c0cdefa1d4",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "a9acb51c858dfd0f437c231e3339c2fca95789e937ba7bd7f34c4c725061fcbc",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
+    },
     "RXN-animated-number-flip": {
       "component_id": "RXN-animated-number-flip",
       "preview_path": "docs/assets/componenti/RXN-animated-number-flip.png",
@@ -146,6 +176,21 @@
       "origin_path": "public/preview_images/pagination/animated-number-flip-light.png",
       "upstream_preview_index_sha256": "0255ae3f982b2c4def65d99f4e380ffa84c0e36863da4209b4e92f710bd16ca9",
       "bytes": 4472
+    },
+    "RXN-animated-shiny-text": {
+      "component_id": "RXN-animated-shiny-text",
+      "preview_path": "docs/assets/componenti/RXN-animated-shiny-text.png",
+      "preview_sha256": "0f2b94a794035cd706a980e3a60021e81152d7f72173fe99665767c8947f23b4",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/animated-shiny-text.tsx",
+      "source_blob_sha": "7a8506bae78e0e013182b41eba7b67f5356f869c",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "a9acb51c858dfd0f437c231e3339c2fca95789e937ba7bd7f34c4c725061fcbc",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
     },
     "RXN-animated-theme-toggler": {
       "component_id": "RXN-animated-theme-toggler",
@@ -1417,6 +1462,21 @@
       "upstream_preview_index_sha256": "0255ae3f982b2c4def65d99f4e380ffa84c0e36863da4209b4e92f710bd16ca9",
       "bytes": 79923
     },
+    "RXN-gradient-reveal-text": {
+      "component_id": "RXN-gradient-reveal-text",
+      "preview_path": "docs/assets/componenti/RXN-gradient-reveal-text.png",
+      "preview_sha256": "71f57308909791918c7c7e1a3dd1e78e2ccf90cdba809e56b69a199195dcddda",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/gradient-reveal-text.tsx",
+      "source_blob_sha": "c3363afd8a603d0a702e8556404db118fd234c2f",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "a9acb51c858dfd0f437c231e3339c2fca95789e937ba7bd7f34c4c725061fcbc",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
+    },
     "RXN-grain-gradient-bg": {
       "component_id": "RXN-grain-gradient-bg",
       "preview_path": "docs/assets/componenti/RXN-grain-gradient-bg.png",
@@ -2658,6 +2718,21 @@
       "captured_on": "2026-11-19",
       "bytes": 14657
     },
+    "RXN-scroll-progress": {
+      "component_id": "RXN-scroll-progress",
+      "preview_path": "docs/assets/componenti/RXN-scroll-progress.png",
+      "preview_sha256": "d78b0e0306f245df1f405acfe2075d4f310d0c5496dd90b85975a3797ce3e171",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/scroll-progress.tsx",
+      "source_blob_sha": "3edfe6fb87fff8b296a20ac56356ef39c6ffb0dd",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "a9acb51c858dfd0f437c231e3339c2fca95789e937ba7bd7f34c4c725061fcbc",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
+    },
     "RXN-scroll-ruler": {
       "component_id": "RXN-scroll-ruler",
       "preview_path": "docs/assets/componenti/RXN-scroll-ruler.png",
@@ -2737,6 +2812,36 @@
       "visual_qa": "UNREVIEWED",
       "source_scope": "Pinned original TSX executed in isolated React runtime. Example props and layout are local fixtures, NOT official upstream screenshot.",
       "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER"
+    },
+    "RXN-shine-border": {
+      "component_id": "RXN-shine-border",
+      "preview_path": "docs/assets/componenti/RXN-shine-border.png",
+      "preview_sha256": "21bdb8aa5913a49e82a68b4429ca34e2616c22df0c52c5f74f1ad51e82e75a8c",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/shine-border.tsx",
+      "source_blob_sha": "45b1c411eff8b323871648d104d748546e7b266b",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "a9acb51c858dfd0f437c231e3339c2fca95789e937ba7bd7f34c4c725061fcbc",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
+    },
+    "RXN-shiny-button": {
+      "component_id": "RXN-shiny-button",
+      "preview_path": "docs/assets/componenti/RXN-shiny-button.png",
+      "preview_sha256": "76cd634f406652aeae8956c5c4e6096c82b5d736f0188a638ac01164c3609dd6",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/shiny-button.tsx",
+      "source_blob_sha": "ea2dacde13778f6cd71b174e4cce568c73c1c929",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "a9acb51c858dfd0f437c231e3339c2fca95789e937ba7bd7f34c4c725061fcbc",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
     },
     "RXN-slide-to-delete-button": {
       "component_id": "RXN-slide-to-delete-button",
@@ -2834,6 +2939,21 @@
       "origin_path": "public/preview_images/charts/spark-chart-light.png",
       "upstream_preview_index_sha256": "0255ae3f982b2c4def65d99f4e380ffa84c0e36863da4209b4e92f710bd16ca9",
       "bytes": 11565
+    },
+    "RXN-sparkles-text": {
+      "component_id": "RXN-sparkles-text",
+      "preview_path": "docs/assets/componenti/RXN-sparkles-text.png",
+      "preview_sha256": "230e028c1138673dba0fc89a16f35167e9d2b857ada8b43555b1e5c8b9942dea",
+      "origin_url": "https://github.com/ruixenui/ruixen.com/blob/f6b20860623fa39122ac2b5f0e5bd29a9eb10941/registry/ruixenui/sparkles-text.tsx",
+      "source_blob_sha": "17b3a364163a0460dc0967f5a922090cad2da21f",
+      "capture_mode": "PINNED_ORIGINAL_TSX_ISOLATED_REACT_RENDER",
+      "local_fixture_path": "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx",
+      "local_renderer_package_sha256": "a9acb51c858dfd0f437c231e3339c2fca95789e937ba7bd7f34c4c725061fcbc",
+      "visual_qa": "UNREVIEWED",
+      "source_scope": "Original immutable archived TSX executed in isolated React with demo props, not official upstream screenshot",
+      "asset_rights": "REFERENCE_ONLY_NOT_ADMITTED_TO_CONSUMER",
+      "origin_repo": "ruixenui/ruixen.com",
+      "origin_source_commit": "f6b20860623fa39122ac2b5f0e5bd29a9eb10941"
     },
     "RXN-spinning-text": {
       "component_id": "RXN-spinning-text",
