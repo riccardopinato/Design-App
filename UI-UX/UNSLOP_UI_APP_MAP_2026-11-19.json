@@ -33,7 +33,7 @@
     },
     {
       "app_id": "omni-cleaner",
-      "app_name": "Android Omni Cleaner",
+      "app_name": "Omni Cleaner",
       "source_id": "DSK-011",
       "fit": "HIGH",
       "scope": "Kotlin/Compose Clean screens, state badges, charts and functional hierarchy",
