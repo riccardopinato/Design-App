@@ -2043,8 +2043,8 @@
       "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/interactive-hover-button.tsx",
       "original_language": "TypeScript/React TSX",
       "original_license": "MIT_SOURCE_PINNED",
-      "flutter_code_path": null,
-      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_interactive_hover_button.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
       "consumer_runtime": "NOT_VERIFIED"
     },
     "RXN-invert-tabs": {
@@ -2394,8 +2394,8 @@
       "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/orbiting-circles.tsx",
       "original_language": "TypeScript/React TSX",
       "original_license": "MIT_SOURCE_PINNED",
-      "flutter_code_path": null,
-      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_orbiting_circles.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
       "consumer_runtime": "NOT_VERIFIED"
     },
     "RXN-package-installer-tabs": {
@@ -2628,8 +2628,8 @@
       "original_source_path": "BIBLIOTECA_COMPONENTI/sorgenti/ruixen/rainbow-button.tsx",
       "original_language": "TypeScript/React TSX",
       "original_license": "MIT_SOURCE_PINNED",
-      "flutter_code_path": null,
-      "flutter_status": "PENDING_FLUTTER_REWRITE",
+      "flutter_code_path": "BIBLIOTECA_COMPONENTI/flutter_adapters/lib/src/rxn_rainbow_button.dart",
+      "flutter_status": "ADAPTER_DRAFT_UNVERIFIED_CONSUMER",
       "consumer_runtime": "NOT_VERIFIED"
     },
     "RXN-range-calendar": {

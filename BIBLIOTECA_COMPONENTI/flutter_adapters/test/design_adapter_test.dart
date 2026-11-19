@@ -117,4 +117,37 @@ void main() {
     expect(tester.takeException(), isNull);
     await tester.pumpWidget(const SizedBox());
   });
+
+  testWidgets('Ruixen interactive hover button invokes native touch callback', (tester) async {
+    var clicks = 0;
+    await tester.pumpWidget(harness(RxnInteractiveHoverButton(
+      label: 'Continua', onPressed: () => clicks++,
+    )));
+    await tester.tap(find.text('Continua').first);
+    await tester.pump();
+    expect(clicks, 1);
+    await tester.pumpWidget(const SizedBox());
+  });
+
+  testWidgets('Ruixen rainbow button supports native outline and disabled mode', (tester) async {
+    await tester.pumpWidget(harness(const RxnRainbowButton(
+      label: 'Esplora', onPressed: null, variant: RxnRainbowVariant.outline,
+    )));
+    expect(find.text('Esplora'), findsOneWidget);
+    expect(tester.takeException(), isNull);
+    await tester.pumpWidget(const SizedBox());
+  });
+
+  testWidgets('Ruixen orbit animation places every supplied child on orbit', (tester) async {
+    await tester.pumpWidget(harness(const RxnOrbitingCircles(
+      radius: 60,
+      iconSize: 30,
+      children: [Text('A'), Text('B'), Text('C')],
+    )));
+    expect(find.text('A'), findsOneWidget);
+    expect(find.text('B'), findsOneWidget);
+    expect(find.text('C'), findsOneWidget);
+    expect(find.byType(CustomPaint), findsWidgets);
+    await tester.pumpWidget(const SizedBox());
+  });
 }

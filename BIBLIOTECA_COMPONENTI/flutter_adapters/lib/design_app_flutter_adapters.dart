@@ -39,3 +39,6 @@ export 'src/rxn_grid_pattern.dart';
 export 'src/rxn_pulsating_button.dart';
 export 'src/amx_006_accordion_loader.dart';
 export 'src/uiv_008_rolling_rock_loader.dart';
+export 'src/rxn_interactive_hover_button.dart';
+export 'src/rxn_rainbow_button.dart';
+export 'src/rxn_orbiting_circles.dart';
