@@ -24,6 +24,7 @@ jobs:
         run: |
           python BIBLIOTECA_COMPONENTI/validate.py
           python BIBLIOTECA_COMPONENTI/uid.py validate
+          python BIBLIOTECA_COMPONENTI/validate_flutter_variants.py
           python -m unittest discover -s BIBLIOTECA_COMPONENTI -p 'test_uid.py'
           python BIBLIOTECA_COMPONENTI/genera_anteprime.py --check
           python BIBLIOTECA_COMPONENTI/cerca.py --id UIV-107 --limite 1 > /dev/null

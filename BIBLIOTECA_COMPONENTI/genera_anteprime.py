@@ -27,6 +27,8 @@ PNG_SIGNATURE = bytes.fromhex("89504e470d0a1a0a")
 ORIGINS = HERE / "ANTEPRIME_ORIGINI.json"
 FORUI_PROVENANCE = HERE / "ANTEPRIME_ORIGINI_FORUI.json"
 UIDS_FILE = HERE / "UID_REGISTRY.json"
+VARIANTS_FILE = HERE / "FLUTTER_VARIANTS.json"
+FLUTTER_BY_ID = json.loads(VARIANTS_FILE.read_text(encoding="utf-8"))["components"]
 UID_BY_ID = {x["canonical_id"]: x["uid"] for x in json.loads(UIDS_FILE.read_text(encoding="utf-8"))["entries"]}
 ALL_SOURCE_TYPES = {"RUIXEN", "UIVERSE", "FLUTTER_FORUI", "DEVLIBRARIES_AMICRO",
                     "DEVLIBRARIES_BOOKMARKS", "DEVLIBRARIES_EASEUI",
@@ -141,6 +143,14 @@ def row_markdown(c: dict, image: dict, relative: str) -> str:
         if c.get("archive_path") else "")
     source_cell = href(source_url, c["source_site"]) if source_url else safe(c["source_site"])
     apps = ", ".join(safe(x) for x in c["apps"]) or "Non assegnato"
+    original = (href(relative + "/" + c["archive_path"], "Apri " + c["language"])
+                if c.get("archive_path") else
+                (href(c.get("source_url"), "Solo riferimento") if c.get("source_url") else "Non disponibile"))
+    native = FLUTTER_BY_ID[cid]
+    dart_path = native.get("flutter_code_path")
+    flutter_code = (href(relative + "/" + dart_path, "Dart nativo (gate dipendenze)" if native["flutter_status"] == "NATIVE_DART_DEPENDENCY_GATE" else "Apri codice Flutter (bozza)")
+                    if dart_path else
+                    ("Sorgente non archiviata" if native["flutter_status"] == "SOURCE_NOT_ARCHIVED" else "Da convertire"))
     return "| " + " | ".join([
         cell,
         "<code>" + safe(UID_BY_ID[cid]) + "</code>",
@@ -149,18 +159,21 @@ def row_markdown(c: dict, image: dict, relative: str) -> str:
         source_cell,
         safe(c["category"]),
         apps,
-        "Sorgente archiviata" if c["archive_state"] == "ARCHIVED_SOURCE" else "Solo riferimento",
+        original,
+        flutter_code,
     ]) + " |"
 
 
 def table_head() -> str:
-    return "| Anteprima | UID | ID canonico | Componente | Fonte | Categoria | App associate | Codice |\n" + \
-           "|---|---|---|---|---|---|---|---|\n"
+    return "| Anteprima | UID | ID canonico | Componente | Fonte | Categoria | App associate | Codice originale | Codice Flutter |\n" + \
+           "|---|---|---|---|---|---|---|---|---|\n"
 
 
 def outputs(catalog: dict, manifest: dict) -> dict[Path, str]:
     rows = catalog["components"]
     images = manifest["previews"]
+    if set(FLUTTER_BY_ID) != {c["id"] for c in rows}:
+        raise ValueError("Flutter dual-source registry does not cover every component")
     assigned = defaultdict(list)
     for row in rows:
         for app in row["apps"]:
@@ -174,7 +187,9 @@ def outputs(catalog: dict, manifest: dict) -> dict[Path, str]:
     common = ("Le immagini qui mostrate sono catture documentali, **non** una verifica "
               "di riuso Flutter, compatibilità nativa o licenze degli asset di terzi. "
               "In assenza di una PNG realmente acquisita la cella dichiara "
-              "«Non disponibile» e punta alla fonte originale.\n\n")
+              "«Non disponibile» e punta alla fonte originale. " 
+              "Le colonne Codice originale e Codice Flutter sono INDIPENDENTI; " 
+              "una variante Dart non implica test su app consumer.\n\n")
     summary = [
         f"# Componenti Design-App — tutte le {len(rows)} anteprime\n\n",
         f"**{len(rows)} componenti canonici · {len(catalog['aliases'])} alias · {count_images} immagini archiviate.**\n\n",
