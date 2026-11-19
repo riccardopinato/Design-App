@@ -1,25 +1,22 @@
 {
-  "original_pending_count": 25,
-  "source_eligible": 16,
-  "captured": [
-    "RXN-pixel-image",
-    "RXN-progressive-blur"
-  ],
+  "original_pending_count": 23,
+  "source_eligible": 14,
+  "captured": [],
   "failed": {
-    "AMX-004": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useContext')\"]",
-    "DBM-002": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useContext')\"]",
-    "DBM-016": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useContext')\"]",
-    "DBM-011": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useContext')\"]",
-    "AMX-002": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useContext')\"]",
-    "RXN-glowing-send-input": "ORIGINAL_TSX_IMPORT_OR_RENDER_FAILED TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-App/BIBLIOTECA_COMPONENTI/sorgenti/ruixen/glowing-send-input.tsx?import {\"console\": [\"Failed to load resource: the server responded with a status of 500 (Internal Server Error)\", \"ARCHIVED_TSX_BATCH_FAILED RXN-glowing-send-input TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5181/@fs/home/runner/work/Design-App/Design-",
-    "RXN-file-tree": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useState')\"]",
-    "RXN-behavioral-history-select": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useMemo')\"]",
-    "RXN-carousel-3d-select": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useMemo')\"]",
-    "RXN-command-deck": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useState')\"]",
-    "RXN-package-installer-tabs": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useContext')\"]",
-    "RXN-scrub-datetime": "NEAR_BLANK_UNVERIFIED_COMPONENT",
-    "RXN-video-text": "NEAR_BLANK_UNVERIFIED_COMPONENT",
-    "RXN-ruixen-query-box": "SOURCE_JS_EXCEPTION [\"Cannot read properties of null (reading 'useMemo')\"]"
+    "AMX-002": "Page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:5181/batch.html?cid=AMX-002\nCall log:\n  - navigating to \"http://127.0.0.1:5181/batch.html?cid=AMX-002\", waiting until \"domcontentloaded\"\n",
+    "AMX-004": "Page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:5181/batch.html?cid=AMX-004\nCall log:\n  - navigating to \"http://127.0.0.1:5181/batch.html?cid=AMX-004\", waiting until \"domcontentloaded\"\n",
+    "DBM-002": "Page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:5181/batch.html?cid=DBM-002\nCall log:\n  - navigating to \"http://127.0.0.1:5181/batch.html?cid=DBM-002\", waiting until \"domcontentloaded\"\n",
+    "DBM-011": "Page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:5181/batch.html?cid=DBM-011\nCall log:\n  - navigating to \"http://127.0.0.1:5181/batch.html?cid=DBM-011\", waiting until \"domcontentloaded\"\n",
+    "DBM-016": "Page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:5181/batch.html?cid=DBM-016\nCall log:\n  - navigating to \"http://127.0.0.1:5181/batch.html?cid=DBM-016\", waiting until \"domcontentloaded\"\n",
+    "RXN-behavioral-history-select": "Page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:5181/batch.html?cid=RXN-behavioral-history-select\nCall log:\n  - navigating to \"http://127.0.0.1:5181/batch.html?cid=RXN-behavioral-history-select\", waiting until \"domcontentloaded\"\n",
+    "RXN-carousel-3d-select": "Page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:5181/batch.html?cid=RXN-carousel-3d-select\nCall log:\n  - navigating to \"http://127.0.0.1:5181/batch.html?cid=RXN-carousel-3d-select\", waiting until \"domcontentloaded\"\n",
+    "RXN-command-deck": "Page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:5181/batch.html?cid=RXN-command-deck\nCall log:\n  - navigating to \"http://127.0.0.1:5181/batch.html?cid=RXN-command-deck\", waiting until \"domcontentloaded\"\n",
+    "RXN-glowing-send-input": "Page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:5181/batch.html?cid=RXN-glowing-send-input\nCall log:\n  - navigating to \"http://127.0.0.1:5181/batch.html?cid=RXN-glowing-send-input\", waiting until \"domcontentloaded\"\n",
+    "RXN-file-tree": "Page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:5181/batch.html?cid=RXN-file-tree\nCall log:\n  - navigating to \"http://127.0.0.1:5181/batch.html?cid=RXN-file-tree\", waiting until \"domcontentloaded\"\n",
+    "RXN-package-installer-tabs": "Page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:5181/batch.html?cid=RXN-package-installer-tabs\nCall log:\n  - navigating to \"http://127.0.0.1:5181/batch.html?cid=RXN-package-installer-tabs\", waiting until \"domcontentloaded\"\n",
+    "RXN-scrub-datetime": "Page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:5181/batch.html?cid=RXN-scrub-datetime\nCall log:\n  - navigating to \"http://127.0.0.1:5181/batch.html?cid=RXN-scrub-datetime\", waiting until \"domcontentloaded\"\n",
+    "RXN-ruixen-query-box": "Page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:5181/batch.html?cid=RXN-ruixen-query-box\nCall log:\n  - navigating to \"http://127.0.0.1:5181/batch.html?cid=RXN-ruixen-query-box\", waiting until \"domcontentloaded\"\n",
+    "RXN-video-text": "Page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:5181/batch.html?cid=RXN-video-text\nCall log:\n  - navigating to \"http://127.0.0.1:5181/batch.html?cid=RXN-video-text\", waiting until \"domcontentloaded\"\n"
   },
   "blocked_before_run": {
     "AMX-003": "BLOCKED_NO_ARCHIVED_SOURCE",
@@ -36,7 +33,7 @@
   "eligible_by_source": {
     "DEVLIBRARIES_AMICRO": 2,
     "DEVLIBRARIES_BOOKMARKS": 3,
-    "RUIXEN": 11
+    "RUIXEN": 9
   },
   "source_integrity": "Exact source blob SHA checked before execution",
   "status": "SOURCE_PREVIEW_UNREVIEWED",
