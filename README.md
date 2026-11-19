@@ -42,7 +42,7 @@ The initial Project harvest includes:
 
 ## Anteprime visuali di tutti i componenti
 
-[Tabella canonica dei 478 componenti con colonna Anteprima](BIBLIOTECA_COMPONENTI/TABELLA_478.md) ·
+[Tabella canonica dei 480 componenti con colonna Anteprima](BIBLIOTECA_COMPONENTI/TABELLA_478.md) ·
 [Tabelle con immagini filtrate per ciascuna app](BIBLIOTECA_COMPONENTI/PER_APP/README.md) ·
 [Visualizzatore HTML con ingrandimento](docs/componenti.html).
 
@@ -260,7 +260,7 @@ Originali HTML/CSS aggiunti: **11**; catalogo **111/111**; Favorites **108/108**
 
 [Apri la biblioteca](BIBLIOTECA_COMPONENTI/README.md) · [Catalogo JSON](BIBLIOTECA_COMPONENTI/CATALOGO.json) · [Ricerca locale](BIBLIOTECA_COMPONENTI/cerca.py).
 
-Dal 19 novembre 2026, l'archivio contiene **478 componenti canonici e 4 alias**: 277 sorgenti TSX Ruixen originali MIT appena acquisiti, 111 file originali Uiverse gia' in repo e altre reference non copiate senza prova di sorgente/diritti. **425 record canonici** hanno un file sorgente locale (una variante Uiverse duplicata e' alias, non una seconda voce). Gli originali TSX/HTML/CSS sono materiale di adattamento, NON nuovi widget Flutter pronti o una certificazione delle app. La priorita' del gusto dell'utente, Product Bible e Golden tecnici non cambia.
+Dal 19 novembre 2026, l'archivio contiene **480 componenti canonici e 4 alias**: 277 sorgenti TSX Ruixen originali MIT appena acquisiti, 111 file originali Uiverse gia' in repo e altre reference non copiate senza prova di sorgente/diritti. **425 record canonici** hanno un file sorgente locale (una variante Uiverse duplicata e' alias, non una seconda voce). Gli originali TSX/HTML/CSS sono materiale di adattamento, NON nuovi widget Flutter pronti o una certificazione delle app. La priorita' del gusto dell'utente, Product Bible e Golden tecnici non cambia.
 
 ### Acquisizione aggiuntiva Amicro, Watermelon, EaseUI — 19/11/2026
 

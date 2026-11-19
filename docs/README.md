@@ -2,7 +2,7 @@
 
 ## Catalogo visuale componenti
 
-La nuova pagina [componenti.html](./componenti.html) elenca **478 componenti
+La nuova pagina [componenti.html](./componenti.html) elenca **480 componenti
 canonici** in una tabella con colonna Anteprima, filtro per app, ricerca, fonte,
 stato dell'immagine e lightbox. Le immagini realmente disponibili sono prodotte
 da sorgenti originali e archiviate in `docs/assets/componenti/`.

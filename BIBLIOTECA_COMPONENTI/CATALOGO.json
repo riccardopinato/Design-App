@@ -6,9 +6,9 @@
   "purpose": "Unified lightweight component index, deduplicated by exact original Uiverse source blob and explicit DevLibraries existing_design_ref; not an adoption/certification register.",
   "canonical_id_policy": "Keep existing IDs, RXN-<slug> for Ruixen. Source identity: original repository@commit:path (or exact code blob), never dedup on lookalike title alone.",
   "counts": {
-    "unique_components": 478,
+    "unique_components": 480,
     "aliases": 4,
-    "archived_originals": 425,
+    "archived_originals": 427,
     "referenced_only": 53,
     "by_source": {
       "DEVLIBRARIES_AMICRO": 10,
@@ -19,7 +19,8 @@
       "GENTLEFACE": 28,
       "RUIXEN": 277,
       "UIVERSE": 110,
-      "DEVLIBRARIES_WATERMELON": 9
+      "DEVLIBRARIES_WATERMELON": 9,
+      "FLUTTER_FORUI": 2
     },
     "by_language": {
       "TypeScript/React": 20,
@@ -28,7 +29,8 @@
       "Flutter/Dart (claimed, source not retrieved)": 15,
       "SVG / motion asset (not imported)": 28,
       "TypeScript/React TSX": 277,
-      "HTML/CSS": 110
+      "HTML/CSS": 110,
+      "Flutter/Dart": 2
     }
   },
   "aliases": {
@@ -1578,6 +1580,59 @@
       "maturity": "REFERENCE",
       "consumer_runtime": "NOT_VERIFIED",
       "notes": "Only card and declared Dart path observed, no original source file or redistributable license verified."
+    },
+    {
+      "source_site": "FLUTTER_FORUI",
+      "language": "Flutter/Dart",
+      "tags": [
+        "button",
+        "primary-action",
+        "secondary-action",
+        "destructive-action",
+        "loading-button"
+      ],
+      "apps": [],
+      "source_repo": "duobaseio/forui",
+      "source_commit": "5dbf97c926a53fcfe3436db1be6262ac40961db5",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_CODE_ARCHIVED_COMPONENT_LIBRARY_DEPENDENCIES_NOT_BUNDLED_FONTS_SEPARATE",
+      "maturity": "REFERENCE",
+      "consumer_runtime": "NOT_VERIFIED",
+      "id": "FUI-001",
+      "name": "Forui FButton — varianti primary, secondary, destructive, ghost, outline",
+      "category": "BUTTON",
+      "source_url": "https://github.com/duobaseio/forui/blob/5dbf97c926a53fcfe3436db1be6262ac40961db5/forui/lib/src/widgets/button/button.dart",
+      "source_path": "forui/lib/src/widgets/button/button.dart",
+      "source_blob_sha": "bc536ebf8c62d59e7f71ceda56d9674a326155f9",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/forui/button.dart",
+      "notes": "Original Flutter Forui widget code archived pinned to upstream commit and MIT code license. Requires full forui package/theme/dependencies: NOT drop-in single Dart file. Demo: BIBLIOTECA_COMPONENTI/sorgenti/forui/demo_button.dart. Official demo screenshot pending verified capture; no native consumer acceptance."
+    },
+    {
+      "source_site": "FLUTTER_FORUI",
+      "language": "Flutter/Dart",
+      "tags": [
+        "login",
+        "email",
+        "username",
+        "password",
+        "form",
+        "validation"
+      ],
+      "apps": [],
+      "source_repo": "duobaseio/forui",
+      "source_commit": "5dbf97c926a53fcfe3436db1be6262ac40961db5",
+      "archive_state": "ARCHIVED_SOURCE",
+      "license_status": "MIT_CODE_ARCHIVED_COMPONENT_LIBRARY_DEPENDENCIES_NOT_BUNDLED_FONTS_SEPARATE",
+      "maturity": "REFERENCE",
+      "consumer_runtime": "NOT_VERIFIED",
+      "id": "FUI-002",
+      "name": "Forui Login Form — email/username + password + submit (demo)",
+      "category": "AUTH_FORM_SAMPLE",
+      "source_url": "https://github.com/duobaseio/forui/blob/5dbf97c926a53fcfe3436db1be6262ac40961db5/docs_snippets/lib/examples/form/text_form_field.dart",
+      "source_path": "docs_snippets/lib/examples/form/text_form_field.dart",
+      "source_blob_sha": "3e6f8a7e9d8c43ec7e1a26b57441a3bb59d01ee2",
+      "archive_path": "BIBLIOTECA_COMPONENTI/sorgenti/forui/demo_login_form.dart",
+      "notes": "Authentic Forui example combines FTextFormField.email/password and FButton with local validation. It does NOT implement sign-in/auth/privacy or persistence. Pinned sources archived: text_form_field.dart, demo_login_form.dart, button.dart and MIT license. Requires forui package. Screenshot pending visual QA."
     },
     {
       "id": "ICO-001",

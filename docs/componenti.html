@@ -30,7 +30,7 @@ dialog{width:min(960px,96vw);max-height:94dvh;border:0;padding:0;border-radius:1
 <body>
 <header>
 <h1>Biblioteca componenti — Anteprime per app</h1>
-<p id="lead">478 componenti canonici, 4 alias storici · Anteprime reali quando disponibili · Fonti e licenze separate dal riuso</p>
+<p id="lead">480 componenti canonici, 4 alias storici · Anteprime reali quando disponibili · Fonti e licenze separate dal riuso</p>
 <div class="toolbar" aria-label="Filtra componenti">
 <input id="search" type="search" placeholder="Cerca ID, nome, categoria…" aria-label="Cerca componenti">
 <select id="app" aria-label="Filtra per app"><option value="">Tutte le app e i componenti</option></select>
@@ -147,7 +147,7 @@ for(const i of Object.values(refs).filter(x=>x!==refs.rows))i.addEventListener(i
   const un=node("option",null,"Senza app associata");un.value="__unassigned__";refs.app.append(un);
   for(const a of [...new Set(catalog.map(c=>c.source_site))].sort()){const option=node("option",null,a.replaceAll("_"," "));option.value=a;refs.source.append(option)}
   const count=Object.values(previews).filter(x=>x.image_path).length;
-  document.getElementById("coverage").textContent=count+" miniature registrate / 478 · "+apps.length+" app";
+  document.getElementById("coverage").textContent=count+" miniature registrate / "+catalog.length+" · "+apps.length+" app";
   const params=new URLSearchParams(location.search);refs.app.value=params.get("app")||"";
   const id=decodeURIComponent(location.hash.slice(1));if(id){const c=catalog.find(x=>x.id===id||uidById[x.id]===id||cat.aliases?.[id]?.canonical_id===x.id);if(c){refs.app.value="";refs.search.value=c.id}}
   query();

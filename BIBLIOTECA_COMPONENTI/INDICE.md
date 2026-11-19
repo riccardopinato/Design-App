@@ -1,6 +1,6 @@
 # Biblioteca componenti — indice canonico
 
-**Data:** 19 novembre 2026 · **Componenti unici:** 478 · **Alias deduplicati:** 4.
+**Data:** 19 novembre 2026 · **Componenti unici:** 480 · **Alias deduplicati:** 4.
 
 Fonte machine-readable: [CATALOGO.json](./CATALOGO.json). Per esplorare il catalogo per app, linguaggio, famiglia e disponibilita' di sorgente, usare `python BIBLIOTECA_COMPONENTI/cerca.py --help`.
 

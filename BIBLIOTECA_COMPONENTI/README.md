@@ -4,7 +4,7 @@
 
 ## Cosa contiene
 
-- **CATALOGO.json**: indice canonico consultabile di 478 componenti, deduplicazione con 4 alias storici, collegamenti ad app e fonti, linguaggio, stato e percorso del codice.
+- **CATALOGO.json**: indice canonico consultabile di 480 componenti, deduplicazione con 4 alias storici, collegamenti ad app e fonti, linguaggio, stato e percorso del codice.
 - **INDICE.md**: panoramica per famiglie e sorgenti.
 - **sorgenti/ruixen/**: 277 file **originali** TSX/React acquisiti da `ruixenui/ruixen.com@f6b20860623fa39122ac2b5f0e5bd29a9eb10941`, verificati contro SHA Git dei 277 file, con `LICENSE.md` MIT e `PROVENIENZA.json`. Non sono widget Flutter.
 - **Uiverse**: 111 file originali HTML/CSS gia' conservati in `UI-UX/UIVERSE/CODICE_SORGENTE/`; il catalogo vi punta, senza salvarne copie. Due varianti con identico blob sono rappresentate da un ID e alias.
@@ -119,3 +119,12 @@ python BIBLIOTECA_COMPONENTI/validate.py
 - Il catalogo e' un indice leggero: non contiene una seconda copia dei file Uiverse e non incorpora download inutili di asset dimostrativi.
 
 **Principio:** archiviare originali quando accessibili e legittimamente riutilizzabili, catalogare ogni fonte utile, certificare solo l'adattamento effettivamente testato.
+
+## Integrazione nativa Forui (non ancora certificata su app)
+
+- `UID-0479` / `FUI-001`: pulsante Flutter `FButton`, codice MIT originale con dipendenze Forui.
+- `UID-0480` / `FUI-002`: esempio form email/password con validazione locale; non è autenticazione funzionante.
+- Codice, licenze e immagini originali in `sorgenti/forui/` e `ANTEPRIME_ORIGINI_FORUI.json`.
+- Nessuna installazione nelle app o Golden: il riuso richiede controllo package, tema, font, SDK, dimensione APK e test nel consumer.
+
+**Audit dipendenze Forui:** [compatibilità Flutter, font e dipendenze degli esempi](./sorgenti/forui/COMPATIBILITY_2026-11-19.md).

@@ -2,9 +2,9 @@
 
 Tabelle **generate** esclusivamente dalle associazioni nel catalogo canonico. Ogni riga ha una colonna Anteprima e un collegamento alla fonte.
 
-**25 identificativi app · 1176 relazioni · 282 componenti senza app.**
+**25 identificativi app · 1176 relazioni · 284 componenti senza app.**
 
-[Tutti i 478](../TABELLA_478.md) · [Vista interattiva](../../docs/componenti.html)
+[Tutti i 480](../TABELLA_478.md) · [Vista interattiva](../../docs/componenti.html)
 
 | App (identificativo del catalogo) | Componenti distinti | Tabella |
 |---|---:|---|
