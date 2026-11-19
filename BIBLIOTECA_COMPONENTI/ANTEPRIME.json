@@ -239,10 +239,10 @@
       "image_evidence": null
     },
     "FCL-001": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/FCL-001.png",
+      "status": "CAPTURED_PUBLIC_DEMO_REFERENCE_UNREVIEWED",
+      "origin_type": "PUBLIC_FLUTTER_WEB_DEMO_REFERENCE_ONLY",
+      "image_evidence": "Reference-only official Flutter Component Library demo iframe; source license NOT VERIFIED; screenshot QA pending"
     },
     "FCL-002": {
       "image_path": null,
@@ -269,22 +269,22 @@
       "image_evidence": null
     },
     "FCL-006": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/FCL-006.png",
+      "status": "CAPTURED_PUBLIC_DEMO_REFERENCE_UNREVIEWED",
+      "origin_type": "PUBLIC_FLUTTER_WEB_DEMO_REFERENCE_ONLY",
+      "image_evidence": "Reference-only official Flutter Component Library demo iframe; source license NOT VERIFIED; screenshot QA pending"
     },
     "FCL-007": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/FCL-007.png",
+      "status": "CAPTURED_PUBLIC_DEMO_REFERENCE_UNREVIEWED",
+      "origin_type": "PUBLIC_FLUTTER_WEB_DEMO_REFERENCE_ONLY",
+      "image_evidence": "Reference-only official Flutter Component Library demo iframe; source license NOT VERIFIED; screenshot QA pending"
     },
     "FCL-008": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/FCL-008.png",
+      "status": "CAPTURED_PUBLIC_DEMO_REFERENCE_UNREVIEWED",
+      "origin_type": "PUBLIC_FLUTTER_WEB_DEMO_REFERENCE_ONLY",
+      "image_evidence": "Reference-only official Flutter Component Library demo iframe; source license NOT VERIFIED; screenshot QA pending"
     },
     "FCL-009": {
       "image_path": null,
@@ -299,10 +299,10 @@
       "image_evidence": null
     },
     "FCL-011": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/FCL-011.png",
+      "status": "CAPTURED_PUBLIC_DEMO_REFERENCE_UNREVIEWED",
+      "origin_type": "PUBLIC_FLUTTER_WEB_DEMO_REFERENCE_ONLY",
+      "image_evidence": "Reference-only official Flutter Component Library demo iframe; source license NOT VERIFIED; screenshot QA pending"
     },
     "FCL-012": {
       "image_path": null,
@@ -311,10 +311,10 @@
       "image_evidence": null
     },
     "FCL-013": {
-      "image_path": null,
-      "status": "NO_VERIFIED_IMAGE",
-      "origin_type": "SOURCE_REFERENCE",
-      "image_evidence": null
+      "image_path": "docs/assets/componenti/FCL-013.png",
+      "status": "CAPTURED_PUBLIC_DEMO_REFERENCE_UNREVIEWED",
+      "origin_type": "PUBLIC_FLUTTER_WEB_DEMO_REFERENCE_ONLY",
+      "image_evidence": "Reference-only official Flutter Component Library demo iframe; source license NOT VERIFIED; screenshot QA pending"
     },
     "FCL-014": {
       "image_path": null,

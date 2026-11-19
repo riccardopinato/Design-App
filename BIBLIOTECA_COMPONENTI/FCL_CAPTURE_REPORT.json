@@ -1,0 +1,113 @@
+{
+  "scope": "Original official FCL component demo preview; reference-only",
+  "requested": 15,
+  "captured": [
+    "FCL-001",
+    "FCL-006",
+    "FCL-007",
+    "FCL-008",
+    "FCL-011",
+    "FCL-013"
+  ],
+  "blocked": {
+    "FCL-003": "NO_OFFICIAL_DEMO_IFRAME: []",
+    "FCL-002": "NO_OFFICIAL_DEMO_IFRAME: []",
+    "FCL-004": "NO_OFFICIAL_DEMO_IFRAME: []",
+    "FCL-005": "NO_OFFICIAL_DEMO_IFRAME: []",
+    "FCL-009": "NO_OFFICIAL_DEMO_IFRAME: []",
+    "FCL-010": "NO_OFFICIAL_DEMO_IFRAME: []",
+    "FCL-012": "NO_OFFICIAL_DEMO_IFRAME: []",
+    "FCL-014": "NO_OFFICIAL_DEMO_IFRAME: []",
+    "FCL-015": "NO_OFFICIAL_DEMO_IFRAME: []"
+  },
+  "diagnostics": {
+    "FCL-003": {
+      "title": "Flutter Component Library",
+      "iframe_count": 0,
+      "demo_links": []
+    },
+    "FCL-002": {
+      "title": "Flutter Component Library",
+      "iframe_count": 0,
+      "demo_links": []
+    },
+    "FCL-001": {
+      "title": "Docking Bar - Flutter Component Library",
+      "iframe_count": 1,
+      "demo_links": [
+        "https://fluttercomponentlibrary.com/#/single_component/Docking_Bar"
+      ]
+    },
+    "FCL-004": {
+      "title": "Flutter Component Library",
+      "iframe_count": 0,
+      "demo_links": []
+    },
+    "FCL-005": {
+      "title": "Flutter Component Library",
+      "iframe_count": 0,
+      "demo_links": []
+    },
+    "FCL-006": {
+      "title": "Book Shelf - Flutter Component Library",
+      "iframe_count": 1,
+      "demo_links": [
+        "https://fluttercomponentlibrary.com/#/single_component/Book_Shelf"
+      ]
+    },
+    "FCL-007": {
+      "title": "Slide To Act - Flutter Component Library",
+      "iframe_count": 1,
+      "demo_links": [
+        "https://fluttercomponentlibrary.com/#/single_component/Slide_To_Act"
+      ]
+    },
+    "FCL-008": {
+      "title": "Faq Widget - Flutter Component Library",
+      "iframe_count": 1,
+      "demo_links": [
+        "https://fluttercomponentlibrary.com/#/single_component/Faq_Widget"
+      ]
+    },
+    "FCL-009": {
+      "title": "Flutter Component Library",
+      "iframe_count": 0,
+      "demo_links": []
+    },
+    "FCL-010": {
+      "title": "Flutter Component Library",
+      "iframe_count": 0,
+      "demo_links": []
+    },
+    "FCL-011": {
+      "title": "Plan Card - Flutter Component Library",
+      "iframe_count": 1,
+      "demo_links": [
+        "https://fluttercomponentlibrary.com/#/single_component/Plan_Card"
+      ]
+    },
+    "FCL-012": {
+      "title": "Flutter Component Library",
+      "iframe_count": 0,
+      "demo_links": []
+    },
+    "FCL-013": {
+      "title": "Page Flipper - Flutter Component Library",
+      "iframe_count": 1,
+      "demo_links": [
+        "https://fluttercomponentlibrary.com/#/single_component/Page_Flipper"
+      ]
+    },
+    "FCL-014": {
+      "title": "Flutter Component Library",
+      "iframe_count": 0,
+      "demo_links": []
+    },
+    "FCL-015": {
+      "title": "Flutter Component Library",
+      "iframe_count": 0,
+      "demo_links": []
+    }
+  },
+  "rule": "A missing image remains missing; no fake or general page screenshots"
+}
