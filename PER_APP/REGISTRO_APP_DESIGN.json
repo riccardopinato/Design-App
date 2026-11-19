@@ -10,7 +10,7 @@
   "counts": {
     "app_profiles": 25,
     "icon_links": 114,
-    "skill_links": 96,
+    "skill_links": 101,
     "cooking_icon_concepts": 36,
     "voice_orb_candidate_apps": 10,
     "motion_design_candidate_apps": 19,
@@ -625,7 +625,8 @@
           "type": "UNSLOP_UI_2026_11_19",
           "status": "PROPOSED_ONLY",
           "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
-          "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos."
+          "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
+          "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
         }
       ],
       "voice_ui_candidates": [
@@ -7088,7 +7089,8 @@
           "type": "UNSLOP_UI_2026_11_19",
           "status": "PROPOSED_ONLY",
           "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
-          "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos."
+          "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
+          "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
         }
       ],
       "voice_ui_candidates": [
@@ -11612,7 +11614,8 @@
           "type": "UNSLOP_UI_2026_11_19",
           "status": "PROPOSED_ONLY",
           "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
-          "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos."
+          "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
+          "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
         }
       ],
       "voice_ui_candidates": [
@@ -13301,7 +13304,8 @@
           "type": "UNSLOP_UI_2026_11_19",
           "status": "PROPOSED_ONLY",
           "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
-          "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos."
+          "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
+          "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
         }
       ],
       "motion_design_candidates": [
@@ -18631,7 +18635,8 @@
           "type": "UNSLOP_UI_2026_11_19",
           "status": "PROPOSED_ONLY",
           "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
-          "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos."
+          "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
+          "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
         }
       ],
       "voice_ui_candidates": [
