@@ -25,6 +25,8 @@ APPS_DIR = HERE / "PER_APP"
 OVERVIEW = HERE / "TABELLA_478.md"
 PNG_SIGNATURE = bytes.fromhex("89504e470d0a1a0a")
 ORIGINS = HERE / "ANTEPRIME_ORIGINI.json"
+UIDS_FILE = HERE / "UID_REGISTRY.json"
+UID_BY_ID = {x["canonical_id"]: x["uid"] for x in json.loads(UIDS_FILE.read_text(encoding="utf-8"))["entries"]}
 ALL_SOURCE_TYPES = {"RUIXEN", "UIVERSE", "DEVLIBRARIES_AMICRO",
                     "DEVLIBRARIES_BOOKMARKS", "DEVLIBRARIES_EASEUI",
                     "DEVLIBRARIES_WATERMELON", "FLUTTER_COMPONENT_LIBRARY",
@@ -128,6 +130,7 @@ def row_markdown(c: dict, image: dict, relative: str) -> str:
     apps = ", ".join(safe(x) for x in c["apps"]) or "Non assegnato"
     return "| " + " | ".join([
         cell,
+        "<code>" + safe(UID_BY_ID[cid]) + "</code>",
         "<code>" + safe(cid) + "</code>",
         safe(c["name"]),
         source_cell,
@@ -138,8 +141,8 @@ def row_markdown(c: dict, image: dict, relative: str) -> str:
 
 
 def table_head() -> str:
-    return "| Anteprima | ID | Componente | Fonte | Categoria | App associate | Codice |\n" + \
-           "|---|---|---|---|---|---|---|\n"
+    return "| Anteprima | UID | ID canonico | Componente | Fonte | Categoria | App associate | Codice |\n" + \
+           "|---|---|---|---|---|---|---|---|\n"
 
 
 def outputs(catalog: dict, manifest: dict) -> dict[Path, str]:
