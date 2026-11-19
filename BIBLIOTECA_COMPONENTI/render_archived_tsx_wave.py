@@ -60,6 +60,11 @@ async def main():
             skipped[cid]="BLOCKED_NO_ARCHIVED_SOURCE_LICENSE"
             continue
         active.append(c)
+    # Additional upstream MIT hook is archived byte-for-byte. Do not silently
+    # satisfy an original dependency with a fabricated stub.
+    amicro_hook = RUNTIME/"vendor/amicro/useLoopFlg.ts"
+    if not amicro_hook.is_file() or gitsha(amicro_hook.read_bytes()) != "8738725f506363ed5cb088a70a5ba93f4be87c38":
+        raise ValueError("PINNED_AMICRO_HOOK_MISSING_OR_MUTATED")
     log=open("/tmp/design_app_full_source_render.log","w",encoding="utf-8")
     server=subprocess.Popen(["npm","run","dev"],cwd=RUNTIME,stdout=log,stderr=subprocess.STDOUT)
     try:

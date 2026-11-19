@@ -77,6 +77,13 @@ async def main():
                         "source_code_archived":False,
                         "source_license_verified":False,
                     }
+                    # A provider homepage is not the requested component. The
+                    # official detail title must identify the exact component.
+                    expected_name=str(c.get("name") or "").strip().casefold()
+                    title_matches=bool(expected_name and expected_name in title.casefold())
+                    diagnostics[cid]["title_matches_component"]=title_matches
+                    if count and not title_matches:
+                        raise ValueError("OFFICIAL_IFRAME_WITHOUT_COMPONENT_TITLE: "+title)
                     if count == 0:
                         raise ValueError("NO_OFFICIAL_DEMO_IFRAME: "+str(anchors[:2])+
                                          "; final_url="+page.url+"; page_title="+title)

@@ -6,6 +6,9 @@ on:
     paths:
       - "BIBLIOTECA_COMPONENTI/ruixen_renderer/src/batch_main.tsx"
       - "BIBLIOTECA_COMPONENTI/render_archived_tsx_wave.py"
+      - "BIBLIOTECA_COMPONENTI/ruixen_renderer/vite.config.ts"
+      - "BIBLIOTECA_COMPONENTI/ruixen_renderer/package.json"
+      - "BIBLIOTECA_COMPONENTI/ruixen_renderer/vendor/amicro/**"
       - ".github/workflows/render-archived-tsx-wave.yml"
   workflow_dispatch:
 
