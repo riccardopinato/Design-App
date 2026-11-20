@@ -274,3 +274,8 @@ Importati e verificati altri **38** originali React/TSX da tre repository MIT gi
 L'elenco dell'utente contiene 15 URL ma 14 servizi distinti (Godly reindirizza a Recent Design). Registrate 14 schede uniche `DESIGN-SITE-015..028` nel [registro dei siti](sources/DESIGN_RESEARCH_SITES.json), con disponibilita' free/freemium, copyright e limiti. [Audit completo](sources/DESIGN_SITES_15_AUDIT_2026-11-20.md) · [Matrice 68 associazioni / 14 app](UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.md) · [Matrice JSON](UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json).
 
 Priorita' estetiche: 60FPS (motion mobile), Realtime Colors (colori e contrasto), Fontshare (font e licenze), Cosmos (collezioni/vision board), Shots (mockup promozionali). Lucide era gia' citato nell'Icon Adapter Pack: nessun nuovo donor duplicato. Stato: **REFERENCE / PROPOSED_ONLY**, nessuna app o Golden modificata.
+
+
+## Nuove fonti Design-App — 20/11/2026, Figma/ReUI/Best Designs
+
+Censiti **3 portali distinti** (Best Designs on X, Figma Community Mobile Apps, ReUI) e **1 file Figma specifico** [Bento Widget Templates](./UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json), accessibile con nodi e famiglie di componenti verificati. Registro fonti [DESIGN-SITE-029..031](./sources/DESIGN_RESEARCH_SITES.json), [audit completo](./sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md), [matrice 31 proposte su 12 app](./UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.md) e [dossier app](./PER_APP/README.md). ReUI ha sorgenti **React/TSX** MIT per l'offerta free (non Flutter), e premium separato; Figma Community richiede licenza per singolo file/brand. Tutto **REFERENCE/PROPOSED_ONLY**: nessun componente consumer implementato, nessuna Golden aggiornata, nessun asset copiato.
