@@ -799,6 +799,52 @@
       ],
       "related_intake": "sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md",
       "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-045",
+      "name": "Motionary — iOS Motion Dictionary",
+      "url": "https://alanfeiyuchang.github.io/motionary-ios-animations/",
+      "kind": "IOS_SWIFTUI_MOTION_REFERENCE_AND_DEMO_DICTIONARY",
+      "status": "REFERENCE",
+      "verified": "OFFICIAL_REPO_README_LICENSE_SOURCE_COMMIT",
+      "license": "MIT_CODE_AND_PROMPTS; KEEP_COPYRIGHT_NOTICE; ASSETS_CHECK_PER_ITEM",
+      "access": "PUBLIC_WEB_VIDEO_PREVIEWS; REAL_INTERACTIVE_DEMOS_IN_IOS_APP",
+      "source_repository": "alanfeiyuchang/motionary-ios-animations",
+      "source_commit": "38ca358f289a435ea0b4f0676648e831e147e9eb",
+      "counts_claimed": {
+        "effects": 839,
+        "categories": 15,
+        "families": 85
+      },
+      "recommended_for": [
+        "gesture feedback and spring choreography",
+        "card to detail and navigation morphing",
+        "truthful progress, success and errors",
+        "reduced-motion responsive mobile animation"
+      ],
+      "note": "SwiftUI iOS 18+ demo; Flutter/Compose needs original platform implementation; no code imported",
+      "related_intake": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+      "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-046",
+      "name": "Rare UI — Animated React Components",
+      "url": "https://rareui.com/",
+      "kind": "REACT_SHADCN_ANIMATED_COMPONENT_REFERENCE",
+      "status": "REFERENCE",
+      "verified": "OFFICIAL_REPO_README_LICENSE",
+      "license": "MIT_PLUS_COMMONS_CLAUSE_AND_VISIBLE_ATTRIBUTION; NO_STANDALONE_OR_PORT_REDISTRIBUTION",
+      "access": "PUBLIC_COMPONENT_CATALOG; REACT_TAILWIND_MOTION",
+      "source_repository": "swamimalode07/rare-ui",
+      "source_commit": "9523173c8896b0b9d5a87c8fbb8f45f97a7b068c",
+      "recommended_for": [
+        "animated component behavior as product UX reference",
+        "motion accessibility and prefers-reduced-motion",
+        "web-app-specific component evaluation"
+      ],
+      "note": "Do not vendor or port as a component library, CSS/TSX not Flutter, attribute visible credit if shipping copied code per license",
+      "related_intake": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+      "updated_at": "2026-11-20"
     }
   ]
 }
