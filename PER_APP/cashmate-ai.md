@@ -208,3 +208,16 @@ Intake visivo documentale: [audit](../sources/DESIGN_SITES_15_AUDIT_2026-11-20.m
 - **Lucide** (`DESIGN-SITE-025`): Consistent stroke and semantic icon naming. **Stato: PROPOSED_ONLY**.
 
 I pattern richiedono decisione di prodotto, valutazione della licenza e QA sulla schermata target. Nessun componente, font, foto o logo di terzi e' stato copiato; nessuna funzione consumer risulta implementata da questo intake.
+
+
+## Design external sources 20/11/2026 — Figma, ReUI, Best Designs on X
+
+[Audit e prove](../sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md) · [Matrice per app](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.md) · [Catalogo JSON](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json).
+
+- **Figma Community Mobile Apps** (`DESIGN-SITE-030`): Study legible finance dashboard mobile design systems. **PROPOSED_ONLY**.
+- **ReUI** (`DESIGN-SITE-031`): Study dense analytics tables, chart and filters with semantic states. **PROPOSED_ONLY**.
+- **Bento Widget Templates** (`FIGMA-BENTO-001`): At-a-glance spend/budget/category stats with accessible semantic colors. **PROPOSED_ONLY**.
+
+[File Figma Bento con nodi e varianti verificati](../UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json). **Bento indica tile di interfaccia, non un vero widget Android.**
+
+Licenze degli asset e approvazione estetica per-app obbligatorie prima di qualsiasi codice o risorsa distribuita. Proposte non implementate, nessun nuovo Golden.
