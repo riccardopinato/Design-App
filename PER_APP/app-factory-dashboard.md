@@ -286,3 +286,19 @@ Licenze degli asset e approvazione estetica per-app obbligatorie prima di qualsi
 - **React Bits** (`DESIGN-SITE-034`): Consider subtle stateful indicator and navigation transitions; avoid expensive background shaders — **PROPOSED_ONLY**.
 
 Queste fonti non autorizzano il riutilizzo di screenshot o font senza licenza. Mobbin vieta l'archiviazione/mirroring dei contenuti; React Bits usa MIT + Commons Clause; ThinkUI richiede attivazione MCP a pagamento. Nessuna app o feature implementata da questo intake.
+
+
+## Fonti AI agent/Web/motion — 20/11/2026 (7 nuove, 2 approfondimenti)
+
+[Audit](../sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md) · [Matrice per-app](../UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.md) · [Deep link ReUI/shadcn](../sources/DESIGN_EXISTING_SITES_DEEP_LINKS_2026-11-20.json).
+
+- **Scrolltide** (`DESIGN-SITE-035`): Marketing hero hierarchy only; do not alter operational screen density — **PROPOSED_ONLY**.
+- **Snapblocks** (`DESIGN-SITE-037`): UNVERIFIED — no source acquisition or implementation — **PROPOSED_ONLY**.
+- **Navbar Gallery** (`DESIGN-SITE-038`): Screenreader-friendly sidebar, search, breadcrumb and structured mega-menu references — **PROPOSED_ONLY**.
+- **AI Canvas** (`DESIGN-SITE-039`): Real upload progress, expanding tabs and task status cards — **PROPOSED_ONLY**.
+- **Aceternity UI** (`DESIGN-SITE-040`): Accessible expanding cards and tabs, avoiding hover-only operations — **PROPOSED_ONLY**.
+- **Chakra UI** (`DESIGN-SITE-041`): React form validation and accessible status UI — **PROPOSED_ONLY**.
+- **ReUI — Agent Ops Pro Blocks** (`DESIGN-SUBL-001`): Operations run queue, approvals, tool access matrix, failed-run triage and evaluation panels — **PROPOSED_ONLY**.
+- **shadcn/ui — AI Elements** (`DESIGN-SUBL-002`): Traceable streaming agent chat, tool results and reasoning presentation based on genuine event data — **PROPOSED_ONLY**.
+
+**Gate:** premium/proprietary/non-verified sources not imported, React/JS is not Dart, animations must respect reduced-motion and measurable state, GPU/performance/battery gates for shaders; per-app Product Bible and visual decisions before consumer implementation. The t.co short URL is unresolved. No code/tests of this consumer performed.

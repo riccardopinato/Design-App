@@ -135,3 +135,8 @@ Nuove sorgenti: **Best Designs on X**, **Figma Community Mobile Apps** e **ReUI*
 ## ThinkUI, Mobbin, React Bits — ingest selettivo 20/11/2026
 
 Dal lotto di 15 link **12 erano gia' nel Design-App** e non sono stati rivalutati; [audit solo dei 3 nuovi](../sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md), [matrice per app](./UI_SOURCES_3_APP_MAP_2026-11-20.md). ThinkUI e' un MCP di reference a pagamento; Mobbin documenta flussi reali ma limita la copia di screenshot; React Bits fornisce microinterazioni React con licenza MIT **piu' Commons Clause**. Nessun consumer modificato. Design-App non archivia materiali di terzi non autorizzati.
+
+
+## Web e agent design sources 20/11/2026
+
+[Audit 7 nuovi domini + 2 deep link esistenti](../sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md) · [Matrice 37 associazioni su 11 app](./DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.md) · [Sottopagine ReUI e shadcn](../sources/DESIGN_EXISTING_SITES_DEEP_LINKS_2026-11-20.json). *Snapblocks* e' in DISCOVERY non verificato, `t.co/rJcbTbEz28` irrisolto; non assumere asset o codice pronti; per Flutter solo reinterpretazioni native autorizzate e testate.

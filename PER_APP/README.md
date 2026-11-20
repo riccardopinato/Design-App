@@ -107,3 +107,8 @@ Originali HTML/CSS aggiunti: **11**; catalogo **111/111**; Favorites **108/108**
 ## Nuove risorse UI deduplicate — 20 novembre 2026
 
 **12 URL gia' archiviati, nessun nuovo audit; 3 nuove fonti e 22 associazioni su 12 dossier**. [Matrice](../UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.md) · [Registro](../UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json) · [Analisi licenze e duplicati](../sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md). Integrazioni consumer/Flutter non eseguite; tutto **PROPOSED_ONLY**.
+
+
+## Nuovi riferimenti Web/Agent UI — 20/11/2026
+
+**11 dossier aggiornati, 37 relazioni PROPOSED_ONLY**, con 7 fonti nuove, 2 sottopagine di ReUI/shadcn gia' noti senza duplicati e 1 shortlink t.co da risolvere. [Matrice](../UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.md) · [Registro](../UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json) · [Audit](../sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md). Nessun consumer modificato, licenze per singolo elemento e accessibilita'/FPS richieste prima dell'implementazione.

@@ -140,3 +140,8 @@ Il [file Figma Bento Widget Templates](../UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_202
 ## Fonti da valutare, NON componenti archiviati — 20/11/2026
 
 [ThinkUI / Mobbin / React Bits — audit originale](../sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md). Catalogati nel registro siti senza nuove voci nel `CATALOGO.json` o nuovi UID: ThinkUI e' un servizio MCP proprietario a pagamento, Mobbin e' una reference commerciale con restrizioni di ri-pubblicazione e React Bits permette prodotti commerciali ma **vieta redistribuire componenti come libreria, bundle o port**, ai sensi della MIT+Commons Clause. Non e' stato copiato alcun TSX/SVG/screenshot. I 12 duplicati sono soltanto riconciliati tramite ID gia' esistenti.
+
+
+## Sources NON archiviati come componenti — 20/11/2026
+
+[AI Canvas, Aceternity, Chakra UI, Scroll Shaders/Scrolltide, Navbar Gallery, Snapblocks e due sotto-pagine AI agent](../sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md) sono state classificate come fonti e non come nuovo codice UID. AI Canvas ha codice **MIT solo per i componenti free**, con icone e premium a condizioni separate; ReUI Agents contiene **blocchi Pro**; shader e prompt Scroll* richiedono licenza commerciale per codice/asset, Snapblocks non ha ancora fonte primaria verificabile. **Nessun UID o sorgente TSX copiato, zero incremento conteggi source-archived.** [Matrice app](../UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.md).
