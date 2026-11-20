@@ -274,3 +274,13 @@ Licenze degli asset e approvazione estetica per-app obbligatorie prima di qualsi
 - **Mobbin** (`DESIGN-SITE-033`): Compare travel itinerary, saved trip and map-to-detail journeys — **PROPOSED_ONLY**.
 
 Queste fonti non autorizzano il riutilizzo di screenshot o font senza licenza. Mobbin vieta l'archiviazione/mirroring dei contenuti; React Bits usa MIT + Commons Clause; ThinkUI richiede attivazione MCP a pagamento. Nessuna app o feature implementata da questo intake.
+
+
+## Nuove referenze visuali e cromatiche — 20/11/2026
+
+[Audit fonte e licenze](../sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md) · [Matrice app](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.md) · [Registro JSON](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json).
+
+- **BestSaaSWebDesigns — Curated Designs** (`DESIGN-SITE-042`): Explore postcard, travel map and journey storytelling visual identities. **PROPOSED_ONLY**.
+- **UIColours** (`DESIGN-SITE-043`): Develop mapped theme tokens for travel cards and daylight/dark outdoor readability. **PROPOSED_ONLY**.
+
+Le palette e i mock-up gia' approvati hanno priorita'; la fonte non concede il riuso automatico di asset di brand/post X e non garantisce esportazione diretta in Flutter. Nessuna UI implementata o tema consumer modificato.

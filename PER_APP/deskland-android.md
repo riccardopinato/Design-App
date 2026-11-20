@@ -219,3 +219,12 @@ Queste fonti non autorizzano il riutilizzo di screenshot o font senza licenza. M
 - **shadcn/ui — AI Elements** (`DESIGN-SUBL-002`): Agent status and confirmation UX references for native implementation — **PROPOSED_ONLY**.
 
 **Gate:** premium/proprietary/non-verified sources not imported, React/JS is not Dart, animations must respect reduced-motion and measurable state, GPU/performance/battery gates for shaders; per-app Product Bible and visual decisions before consumer implementation. The t.co short URL is unresolved. No code/tests of this consumer performed.
+
+
+## Nuove referenze visuali e cromatiche — 20/11/2026
+
+[Audit fonte e licenze](../sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md) · [Matrice app](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.md) · [Registro JSON](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json).
+
+- **BestSaaSWebDesigns — Curated Designs** (`DESIGN-SITE-042`): Review 3D spatial scene and motion concepts as references only; maintain device performance gating. **PROPOSED_ONLY**.
+
+Le palette e i mock-up gia' approvati hanno priorita'; la fonte non concede il riuso automatico di asset di brand/post X e non garantisce esportazione diretta in Flutter. Nessuna UI implementata o tema consumer modificato.

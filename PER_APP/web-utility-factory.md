@@ -158,3 +158,13 @@ Queste fonti non autorizzano il riutilizzo di screenshot o font senza licenza. M
 - **shadcn/ui — AI Elements** (`DESIGN-SUBL-002`): Optional Web agent UI using React-compatible source and checked license — **PROPOSED_ONLY**.
 
 **Gate:** premium/proprietary/non-verified sources not imported, React/JS is not Dart, animations must respect reduced-motion and measurable state, GPU/performance/battery gates for shaders; per-app Product Bible and visual decisions before consumer implementation. The t.co short URL is unresolved. No code/tests of this consumer performed.
+
+
+## Nuove referenze visuali e cromatiche — 20/11/2026
+
+[Audit fonte e licenze](../sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md) · [Matrice app](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.md) · [Registro JSON](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json).
+
+- **BestSaaSWebDesigns — Curated Designs** (`DESIGN-SITE-042`): Compare high-quality promotional hero, feature blocks and CTA and follow author links. **PROPOSED_ONLY**.
+- **UIColours** (`DESIGN-SITE-043`): Export candidate CSS variables/JSON design tokens for Web identity consistency. **PROPOSED_ONLY**.
+
+Le palette e i mock-up gia' approvati hanno priorita'; la fonte non concede il riuso automatico di asset di brand/post X e non garantisce esportazione diretta in Flutter. Nessuna UI implementata o tema consumer modificato.

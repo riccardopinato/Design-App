@@ -145,3 +145,8 @@ Il [file Figma Bento Widget Templates](../UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_202
 ## Sources NON archiviati come componenti — 20/11/2026
 
 [AI Canvas, Aceternity, Chakra UI, Scroll Shaders/Scrolltide, Navbar Gallery, Snapblocks e due sotto-pagine AI agent](../sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md) sono state classificate come fonti e non come nuovo codice UID. AI Canvas ha codice **MIT solo per i componenti free**, con icone e premium a condizioni separate; ReUI Agents contiene **blocchi Pro**; shader e prompt Scroll* richiedono licenza commerciale per codice/asset, Snapblocks non ha ancora fonte primaria verificabile. **Nessun UID o sorgente TSX copiato, zero incremento conteggi source-archived.** [Matrice app](../UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.md).
+
+
+## Fonti NON tradotte in UID — 20/11/2026
+
+[Curated Designs e UIColours](../sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md) sono **fonti di ispirazione e generazione palette**, non codice UI Flutter acquisito/validato. Nessun UID nuovo, nessun componente, foto, screenshot da X, file design di brand, CSS o Figma JSON copiato. Le idee per consumer sono in [matrice](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.md); per i colori servono ancora export esplicito, proprietà d'uso, contrast WCAG e test reali. Non incrementare i conteggi source-archived.
