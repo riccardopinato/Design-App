@@ -327,3 +327,16 @@ Intake visivo documentale: [audit](../sources/DESIGN_SITES_15_AUDIT_2026-11-20.m
 - **Cosmos** (`DESIGN-SITE-028`): Moodboard collections and search by color/similarity. **Stato: PROPOSED_ONLY**.
 
 I pattern richiedono decisione di prodotto, valutazione della licenza e QA sulla schermata target. Nessun componente, font, foto o logo di terzi e' stato copiato; nessuna funzione consumer risulta implementata da questo intake.
+
+
+## Design external sources 20/11/2026 — Figma, ReUI, Best Designs on X
+
+[Audit e prove](../sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md) · [Matrice per app](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.md) · [Catalogo JSON](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json).
+
+- **Figma Community Mobile Apps** (`DESIGN-SITE-030`): Study modular note editor, canvas and productivity mobile flow templates. **PROPOSED_ONLY**.
+- **ReUI** (`DESIGN-SITE-031`): Study task Kanban and rich filters as Web/UX references, not Flutter-ready code. **PROPOSED_ONLY**.
+- **Bento Widget Templates** (`FIGMA-BENTO-001`): Workspace bento of recent notes, projects, favorites, tasks and actionable capture. **PROPOSED_ONLY**.
+
+[File Figma Bento con nodi e varianti verificati](../UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json). **Bento indica tile di interfaccia, non un vero widget Android.**
+
+Licenze degli asset e approvazione estetica per-app obbligatorie prima di qualsiasi codice o risorsa distribuita. Proposte non implementate, nessun nuovo Golden.
