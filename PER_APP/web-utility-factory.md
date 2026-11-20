@@ -110,3 +110,18 @@ Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze
 | [UIV-096](https://uiverse.io/solowzrd/wet-lionfish-63) | PATTERN | Texture background con gate contrasto/FPS | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-096_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-096_original.css) |
 
 [Registro 97 Favorites](../UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json) · [Matrice complessiva 25 app](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md) · [Archivio codice](../UI-UX/UIVERSE/CODICE_SORGENTE/README.md). Stato: **PROPOSED_ONLY**.
+
+
+## Fonti esterne aggiunte — 20/11/2026 (15 URL, 14 servizi unici)
+
+Intake visivo documentale: [audit](../sources/DESIGN_SITES_15_AUDIT_2026-11-20.md) · [matrice per app](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.md) · [registro JSON](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json).
+
+- **Motion Sites** (`DESIGN-SITE-015`): Animated hero with reduced-motion fallback. **Stato: PROPOSED_ONLY**.
+- **Motion Sites Studio** (`DESIGN-SITE-016`): AI-assisted website prototype comparison. **Stato: PROPOSED_ONLY**.
+- **Land-book** (`DESIGN-SITE-017`): Pricing-page hierarchy with distinct comparison tiers. **Stato: PROPOSED_ONLY**.
+- **Recent Design** (`DESIGN-SITE-018`): App icon and typography moodboards. **Stato: PROPOSED_ONLY**.
+- **Landdding** (`DESIGN-SITE-019`): Sector-specific landing layouts for SaaS, utility and food. **Stato: PROPOSED_ONLY**.
+- **SVGL** (`DESIGN-SITE-026`): Find official provider logos for legitimate integration badges. **Stato: PROPOSED_ONLY**.
+- **Shots** (`DESIGN-SITE-027`): Create marketing phone/device mockups from own QA screenshots. **Stato: PROPOSED_ONLY**.
+
+I pattern richiedono decisione di prodotto, valutazione della licenza e QA sulla schermata target. Nessun componente, font, foto o logo di terzi e' stato copiato; nessuna funzione consumer risulta implementata da questo intake.
