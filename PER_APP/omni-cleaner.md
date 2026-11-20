@@ -275,3 +275,16 @@ Stato: **PROPOSED_ONLY**; nessuna nuova funzione/login è autorizzata da questi 
 - **Shots** (`DESIGN-SITE-027`): Create marketing phone/device mockups from own QA screenshots — **PROPOSED_ONLY**.
 
 Nessuna feature o risorsa esterna e' stata integrata. Richiesti Product Bible, approvazione estetica, licenze e QA runtime.
+
+
+## Design external sources 20/11/2026 — Figma, ReUI, Best Designs on X
+
+[Audit e prove](../sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md) · [Matrice per app](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.md) · [Catalogo JSON](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json).
+
+- **Figma Community Mobile Apps** (`DESIGN-SITE-030`): Study storage cleaner permission, empty-state and confirmation flow patterns. **PROPOSED_ONLY**.
+- **ReUI** (`DESIGN-SITE-031`): Adapt data table, filter and safe multi-step destructive action UX only if relevant. **PROPOSED_ONLY**.
+- **Bento Widget Templates** (`FIGMA-BENTO-001`): Storage and gallery overview tiles showing real scan results; respect safe delete and empty states. **PROPOSED_ONLY**.
+
+[File Figma Bento con nodi e varianti verificati](../UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json). **Bento indica tile di interfaccia, non un vero widget Android.**
+
+Licenze degli asset e approvazione estetica per-app obbligatorie prima di qualsiasi codice o risorsa distribuita. Proposte non implementate, nessun nuovo Golden.
