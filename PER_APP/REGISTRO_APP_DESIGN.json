@@ -45,7 +45,12 @@
     "ui_sources_3_2026_11_20_sites": 3,
     "ui_sources_3_2026_11_20_duplicate_urls_skipped": 12,
     "ui_sources_3_2026_11_20_apps": 12,
-    "ui_sources_3_2026_11_20_relations": 22
+    "ui_sources_3_2026_11_20_relations": 22,
+    "design_sources_agents_scroll_2026_11_20_sites": 7,
+    "design_sources_agents_scroll_2026_11_20_deep_links": 2,
+    "design_sources_agents_scroll_2026_11_20_unresolved": 1,
+    "design_sources_agents_scroll_2026_11_20_apps": 11,
+    "design_sources_agents_scroll_2026_11_20_relations": 37
   },
   "profiles": [
     {
@@ -247,7 +252,8 @@
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
-        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "diario e ricordi",
@@ -686,6 +692,17 @@
             "DESIGN-SITE-033"
           ],
           "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_AGENTS_SCROLL_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-039"
+          ],
+          "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
         }
       ],
       "voice_ui_candidates": [
@@ -1697,6 +1714,16 @@
           "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
           "consumer_implemented": false
         }
+      ],
+      "design_sources_agents_scroll_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-039",
+          "source_name": "AI Canvas",
+          "idea": "Mood check-in/card stack idea without new data collection until approved",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -1730,7 +1757,8 @@
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
-        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "repository e branch",
@@ -2082,6 +2110,24 @@
             "DESIGN-SITE-034"
           ],
           "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_AGENTS_SCROLL_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-035",
+            "DESIGN-SITE-037",
+            "DESIGN-SITE-038",
+            "DESIGN-SITE-039",
+            "DESIGN-SITE-040",
+            "DESIGN-SITE-041",
+            "DESIGN-SUBL-001",
+            "DESIGN-SUBL-002"
+          ],
+          "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
         }
       ],
       "voice_ui_candidates": [
@@ -3166,6 +3212,72 @@
           "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
           "consumer_implemented": false
         }
+      ],
+      "design_sources_agents_scroll_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-035",
+          "source_name": "Scrolltide",
+          "idea": "Marketing hero hierarchy only; do not alter operational screen density",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-037",
+          "source_name": "Snapblocks",
+          "idea": "UNVERIFIED — no source acquisition or implementation",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-038",
+          "source_name": "Navbar Gallery",
+          "idea": "Screenreader-friendly sidebar, search, breadcrumb and structured mega-menu references",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-039",
+          "source_name": "AI Canvas",
+          "idea": "Real upload progress, expanding tabs and task status cards",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-040",
+          "source_name": "Aceternity UI",
+          "idea": "Accessible expanding cards and tabs, avoiding hover-only operations",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-041",
+          "source_name": "Chakra UI",
+          "idea": "React form validation and accessible status UI",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-001",
+          "source_name": "ReUI — Agent Ops Pro Blocks",
+          "idea": "Operations run queue, approvals, tool access matrix, failed-run triage and evaluation panels",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-002",
+          "source_name": "shadcn/ui — AI Elements",
+          "idea": "Traceable streaming agent chat, tool results and reasoning presentation based on genuine event data",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -3201,7 +3313,8 @@
         "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json",
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
-        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json"
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "batteria",
@@ -3495,6 +3608,17 @@
             "FIGMA-BENTO-001"
           ],
           "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_AGENTS_SCROLL_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-036"
+          ],
+          "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
         }
       ],
       "motion_design_candidates": [
@@ -4180,6 +4304,16 @@
           "state": "PROPOSED_ONLY",
           "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
           "code_state": "NO_APP_IMPLEMENTATION"
+        }
+      ],
+      "design_sources_agents_scroll_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-036",
+          "source_name": "Scroll Shaders",
+          "idea": "Static version only: continuous GPU animation conflicts with battery utility purpose",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
         }
       ]
     },
@@ -5764,7 +5898,8 @@
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
-        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "portafoglio",
@@ -6027,6 +6162,17 @@
             "DESIGN-SITE-033"
           ],
           "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_AGENTS_SCROLL_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-041"
+          ],
+          "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
         }
       ],
       "motion_design_candidates": [
@@ -6701,6 +6847,16 @@
           "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
           "consumer_implemented": false
         }
+      ],
+      "design_sources_agents_scroll_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-041",
+          "source_name": "Chakra UI",
+          "idea": "Financial form/validation semantics, not Flutter copy-paste",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -6733,7 +6889,8 @@
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
-        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "kawaii-gattini",
@@ -7638,6 +7795,18 @@
             "DESIGN-SITE-034"
           ],
           "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_AGENTS_SCROLL_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-035",
+            "DESIGN-SITE-040"
+          ],
+          "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
         }
       ],
       "voice_ui_candidates": [
@@ -8503,6 +8672,24 @@
           "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
           "consumer_implemented": false
         }
+      ],
+      "design_sources_agents_scroll_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-035",
+          "source_name": "Scrolltide",
+          "idea": "Editorial Web launch page visual inspiration",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-040",
+          "source_name": "Aceternity UI",
+          "idea": "Editorial recipe tiles and light image transitions",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -8533,7 +8720,8 @@
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
-        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "desktop",
@@ -8778,6 +8966,20 @@
             "DESIGN-SITE-034"
           ],
           "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_AGENTS_SCROLL_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-036",
+            "DESIGN-SITE-039",
+            "DESIGN-SUBL-001",
+            "DESIGN-SUBL-002"
+          ],
+          "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
         }
       ],
       "voice_ui_candidates": [
@@ -9292,6 +9494,40 @@
           "idea": "Study light-motion effects as references only, not GPU-heavy permanent launcher background",
           "status": "PROPOSED_ONLY",
           "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "design_sources_agents_scroll_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-036",
+          "source_name": "Scroll Shaders",
+          "idea": "Visual inspiration; no permanent GPU shader without device FPS/battery evidence",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-039",
+          "source_name": "AI Canvas",
+          "idea": "Agent presence indicator derived from real status, not fake animation",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-001",
+          "source_name": "ReUI — Agent Ops Pro Blocks",
+          "idea": "Agent step trace and approval workflow as architecture reference only",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-002",
+          "source_name": "shadcn/ui — AI Elements",
+          "idea": "Agent status and confirmation UX references for native implementation",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
           "consumer_implemented": false
         }
       ]
@@ -10858,7 +11094,8 @@
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
-        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "fotografia",
@@ -11199,6 +11436,19 @@
             "DESIGN-SITE-034"
           ],
           "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_AGENTS_SCROLL_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-036",
+            "DESIGN-SITE-039",
+            "DESIGN-SITE-040"
+          ],
+          "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
         }
       ],
       "voice_ui_candidates": [
@@ -11987,6 +12237,32 @@
           "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
           "consumer_implemented": false
         }
+      ],
+      "design_sources_agents_scroll_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-036",
+          "source_name": "Scroll Shaders",
+          "idea": "Gradients/dithering as marketing reference only",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-039",
+          "source_name": "AI Canvas",
+          "idea": "Photo card/coverflow interactions preserving full image aspect ratio",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-040",
+          "source_name": "Aceternity UI",
+          "idea": "Gallery transitions with input/keyboard accessibility and original image ratio",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -12024,7 +12300,8 @@
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
-        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "nota",
@@ -12549,6 +12826,20 @@
             "DESIGN-SITE-034"
           ],
           "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_AGENTS_SCROLL_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-038",
+            "DESIGN-SITE-039",
+            "DESIGN-SITE-041",
+            "DESIGN-SUBL-001"
+          ],
+          "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
         }
       ],
       "voice_ui_candidates": [
@@ -13964,6 +14255,40 @@
           "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
           "consumer_implemented": false
         }
+      ],
+      "design_sources_agents_scroll_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-038",
+          "source_name": "Navbar Gallery",
+          "idea": "Reference multi-level Web content navigation without importing desktop nav on mobile",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-039",
+          "source_name": "AI Canvas",
+          "idea": "Signature pad and task cards, native Flutter adaptation only",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-041",
+          "source_name": "Chakra UI",
+          "idea": "Accessible dialogs/actions as Web reference for native rewrite",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-001",
+          "source_name": "ReUI — Agent Ops Pro Blocks",
+          "idea": "Agent action queue as candidate only if AI functionality is product-approved",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -13998,7 +14323,8 @@
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
-        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "galleria",
@@ -14400,6 +14726,18 @@
             "DESIGN-SITE-033"
           ],
           "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_AGENTS_SCROLL_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-039",
+            "DESIGN-SITE-041"
+          ],
+          "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
         }
       ],
       "motion_design_candidates": [
@@ -15400,6 +15738,24 @@
           "idea": "Inspect full consent, gallery preview, multi-select and deletion confirmation journey",
           "status": "PROPOSED_ONLY",
           "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "design_sources_agents_scroll_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-039",
+          "source_name": "AI Canvas",
+          "idea": "Delete-with-undo countdown only with genuinely reversible trash operation",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-041",
+          "source_name": "Chakra UI",
+          "idea": "Confirm-dialog and safe destructive action semantics",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
           "consumer_implemented": false
         }
       ]
@@ -17808,7 +18164,8 @@
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
-        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "strumenti",
@@ -17985,6 +18342,23 @@
             "DESIGN-SITE-034"
           ],
           "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_AGENTS_SCROLL_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-035",
+            "DESIGN-SITE-036",
+            "DESIGN-SITE-037",
+            "DESIGN-SITE-038",
+            "DESIGN-SITE-040",
+            "DESIGN-SITE-041",
+            "DESIGN-SUBL-002"
+          ],
+          "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
         }
       ],
       "motion_design_candidates": [
@@ -18247,6 +18621,64 @@
           "idea": "Use selective React button/card/text motion on promotional web pages after motion/performance checks",
           "status": "PROPOSED_ONLY",
           "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "design_sources_agents_scroll_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-035",
+          "source_name": "Scrolltide",
+          "idea": "Scroll narrative reference for a distinctive landing page without copying paid templates",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-036",
+          "source_name": "Scroll Shaders",
+          "idea": "Optional light Web hero shader with static reduced-motion fallback",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-037",
+          "source_name": "Snapblocks",
+          "idea": "UNVERIFIED — examine blocks only once site and license are directly accessible",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-038",
+          "source_name": "Navbar Gallery",
+          "idea": "Modern responsive navbar reference for product marketing",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-040",
+          "source_name": "Aceternity UI",
+          "idea": "Selective modern cards, hero and motion UI on marketing site",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-041",
+          "source_name": "Chakra UI",
+          "idea": "Framework comparison only for future React Web product, not a migration",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-002",
+          "source_name": "shadcn/ui — AI Elements",
+          "idea": "Optional Web agent UI using React-compatible source and checked license",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
           "consumer_implemented": false
         }
       ]
@@ -19660,7 +20092,8 @@
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
-        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "calendario",
@@ -20140,6 +20573,20 @@
             "DESIGN-SITE-033"
           ],
           "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_AGENTS_SCROLL_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-035",
+            "DESIGN-SITE-038",
+            "DESIGN-SITE-039",
+            "DESIGN-SITE-040"
+          ],
+          "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
         }
       ],
       "voice_ui_candidates": [
@@ -21355,6 +21802,40 @@
           "idea": "Compare discovery/search and editorial story-reading flows",
           "status": "PROPOSED_ONLY",
           "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "design_sources_agents_scroll_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-035",
+          "source_name": "Scrolltide",
+          "idea": "Introductory story-based landing only; preserve core content readability",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-038",
+          "source_name": "Navbar Gallery",
+          "idea": "Organize editorial category navigation with mobile and accessibility QA",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-039",
+          "source_name": "AI Canvas",
+          "idea": "Readable category cards with meaningful state",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-040",
+          "source_name": "Aceternity UI",
+          "idea": "Content cards and restrained decorative backgrounds, no legibility regression",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
           "consumer_implemented": false
         }
       ]
