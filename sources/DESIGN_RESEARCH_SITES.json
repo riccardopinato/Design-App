@@ -733,6 +733,43 @@
       "related_intake": "sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
       "source_repository": "chakra-ui/chakra-ui",
       "source_commit": "4fca0889be532fced536b77e1dff982001ebc672"
+    },
+    {
+      "id": "DESIGN-SITE-042",
+      "name": "BestSaaSWebDesigns — Curated Designs",
+      "url": "https://bestsaaswebdesigns.com/curated-designs",
+      "kind": "CURATED_X_DESIGN_SHOWCASE",
+      "status": "REFERENCE",
+      "verified": "PUBLIC_SEARCH_INDEX_PRIMARY_CONTENT; DIRECT_EXACT_PAGE_CACHE_MISS; OFFICIAL_HOMEPAGE_TERMS_MCP_DOCS_VERIFIED",
+      "license": "REFERENCE_ONLY_THIRD_PARTY_X_POSTS_AND_CREATOR_WORK; NO_COPY_REHOST_OR_REPUBLISH; SITE_TERMS_NO_SCRAPING",
+      "free_access": "FREE_PUBLIC_DISCOVERY; OFFICIAL_SAAS_CATALOG_MCP_IS_FREE_NO_SIGNIN; CURATED_X_POST_FEED_NOT_PROVEN_IN_MCP",
+      "recommended_for": [
+        "Web and App screen inspiration",
+        "motion interaction references with original creator X links",
+        "3D and illustration art direction",
+        "cross-category patterns rather than copying pixels"
+      ],
+      "related_intake": "sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+      "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-043",
+      "name": "UIColours",
+      "url": "https://uicolours.com/",
+      "kind": "BRAND_COLOR_SYSTEM_AND_THEME_BUILDER",
+      "status": "REFERENCE",
+      "verified": "OFFICIAL_HOMEPAGE_BRAND_CATALOG_COLOUR_SYSTEMS_THEME_BUILDER_READ",
+      "license": "TOOL_OUTPUT_USAGE_NOT_FULLY_DOCUMENTED; THIRD_PARTY_BRAND_IDENTITIES_AND_ASSETS_SEPARATE; TOKEN_EXPORTS_NOT_COPYRIGHT_LICENSE_TO_BRANDS",
+      "free_access": "PUBLIC_GALLERY_AND_THEME_BUILDER_PAGES_ACCESSIBLE; EXPORT_GENERATION_RUNTIME_NOT_TESTED",
+      "recommended_for": [
+        "role-based colour design tokens",
+        "semantic dark/light palette preview",
+        "OKLCH contrast and colour system literacy",
+        "export to CSS variables and Figma JSON",
+        "brand palettes as reference with original identity ownership"
+      ],
+      "related_intake": "sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+      "updated_at": "2026-11-20"
     }
   ]
 }
