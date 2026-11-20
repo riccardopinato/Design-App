@@ -289,3 +289,8 @@ Su 15 link ricevuti: **12 risorse gia' presenti saltate senza nuovo audit**, **3
 ## Design source intake — agent UI, nav, shaders (20/11/2026)
 
 **7 nuovi domini** (`DESIGN-SITE-035..041`: Scrolltide, Scroll Shaders, Snapblocks [DISCOVERY_ONLY], Navbar Gallery, AI Canvas, Aceternity UI, Chakra UI), **2 sotto-risorse di provider gia' catalogati** (`DESIGN-SUBL-001` ReUI Agents Pro, `DESIGN-SUBL-002` shadcn AI Elements) e **1 URL t.co irrisolto**. [Audit e licenze](sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md) · [Matrice 37 proposte/11 app](UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.md) · [Registro siti](sources/DESIGN_RESEARCH_SITES.json) · [Sottopagine provider](sources/DESIGN_EXISTING_SITES_DEEP_LINKS_2026-11-20.json). Niente componenti/copied assets, zero new UID, no runtime implementation or Golden promotion.
+
+
+## Nuovi siti design — Curated Designs e UIColours (20/11/2026)
+
+**2 nuove fonti** (`DESIGN-SITE-042` BestSaaSWebDesigns [Curated Designs](https://bestsaaswebdesigns.com/curated-designs), `DESIGN-SITE-043` [UIColours](https://uicolours.com/)). [Audit, limiti e diritti](sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md) · [matrice 22 idee / 13 app](UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.md) · [catalogo JSON](sources/DESIGN_RESEARCH_SITES.json). Curated Designs usa reference da post X con diritti dei creatori; UIColours offre gallery, brand colours, OKLCH e Theme Builder Figma JSON/CSS ma nessun tema delle app è stato cambiato. **REFERENCE_ONLY / PROPOSED_ONLY**, nessun asset di terzi importato o nuovo UID.
