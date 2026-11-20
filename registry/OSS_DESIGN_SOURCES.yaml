@@ -18,6 +18,18 @@ additional_research:
   new_sources: 22
   focus: "Design app galleries, Material 3 Expressive, Liquid Glass, responsive, micro-interactions, gesture UX and web UI patterns."
 targeted_intakes:
+  - batch_id: MOTIONARY_26_LINKS_2026_11_20
+    observed_at: "2026-11-20"
+    factory_baseline: "riccardopinato/App-Factory-Core@4df94ac3b3ea22a2323634fe83c3c7770fe3b835"
+    submitted_links: 26
+    new_sources: 15
+    existing_links_skipped: 11
+    source_registry: "sources/MOTIONARY_26_REGISTRY_2026-11-20.json"
+    source_audit: "sources/MOTIONARY_26_AUDIT_2026-11-20.md"
+    app_map: "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.json"
+    proposed_app_relations: 20
+    status: REFERENCE
+    note: "Motionary MIT/SwiftUI and Rare UI Commons Clause checked. Zero imported code, new UID or consumer modifications."
   - batch_id: UNSLOP_UI_2026_11_19
     observed_at: "2026-11-19"
     new_sources: 1
