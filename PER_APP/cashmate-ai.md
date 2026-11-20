@@ -268,3 +268,13 @@ Le palette e i mock-up gia' approvati hanno priorita'; la fonte non concede il r
 - **Jiro Builder** (`DESIGN-SUBL-003`): Consider draft Web campaign layout; never copy bank branding or claim automatic security compliance. **PROPOSED_ONLY**.
 
 **Gate:** Jiro e' una libreria proprietaria di design Web/React e un servizio esterno di hosting; nessun widget Flutter/Compose importato e nessun piano acquistato. I Termini consentono i progetti propri/clienti ma vietano ricollezionare o rivendere componenti/template standalone, il che preclude il copy del catalogo nella nostra libreria. Il Builder Free prevede limiti crediti e inattivita' e l'esportazione ZIP richiede un piano. Gli asset e mock-up preferiti gia' approvati in Design-App prevalgono; nessun codice consumer, server, auth, dati, palette, release o design deciso è stato modificato.
+
+
+## Design stack Florent — 5 link (20/11/2026)
+
+[Audit licenze e fonti](../sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md) · [Mappa per-app](../UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md). Nessun cambiamento automatico dell'identità visiva approvata.
+
+- **STACK5-01 · P1**: Screenshot store anonimizzati con dataset sintetico dichiarato. **PROPOSED_ONLY**.
+- **STACK5-03 · P1**: Benchmark paywall e permessi finanziari con esempi anonimi. **PROPOSED_ONLY**.
+
+**Gate:** Shipframe screenshot autentici senza dati personali, Oversight solo reference o uso licenziato in progetto, Mobbin niente mirror di screenshot terzi, Fontshare licenza per famiglia; nessun file/asset copiato in questo lotto. Prima di applicare in app: Product Bible, codice consumer, test QA e approvazione.
