@@ -92,3 +92,8 @@ Originali HTML/CSS aggiunti: **43**; catalogo **100/100**; Favorites **97/97**; 
 ## Aggiornamento recupero pubblico (2026-11-18)
 
 Originali HTML/CSS aggiunti: **11**; catalogo **111/111**; Favorites **108/108**; codice non recuperato **0**. Provenienza e checksum in [RECUPERO_API](../UI-UX/UIVERSE/FAVORITES/RECUPERO_API_2026_11_18.json). Le cifre precedenti documentano lo stato storico prima di questo recupero. Nessuna adozione o test su app consumer.
+
+
+## Intake 15 siti esterni — 20/11/2026
+
+**14 profili con nuove proposte, 68 associazioni, 14 siti unici (15 URL; Godly reindirizza a Recent).** La [matrice dedicata](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.md), il [JSON relazionale](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json) e l'[audit dei siti](../sources/DESIGN_SITES_15_AUDIT_2026-11-20.md) integrano i dossier e `REGISTRO_APP_DESIGN.json` senza creare consumer implementati. Tutte le associazioni restano PROPOSED_ONLY.
