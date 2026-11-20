@@ -279,3 +279,8 @@ Priorita' estetiche: 60FPS (motion mobile), Realtime Colors (colori e contrasto)
 ## Nuove fonti Design-App — 20/11/2026, Figma/ReUI/Best Designs
 
 Censiti **3 portali distinti** (Best Designs on X, Figma Community Mobile Apps, ReUI) e **1 file Figma specifico** [Bento Widget Templates](./UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json), accessibile con nodi e famiglie di componenti verificati. Registro fonti [DESIGN-SITE-029..031](./sources/DESIGN_RESEARCH_SITES.json), [audit completo](./sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md), [matrice 31 proposte su 12 app](./UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.md) e [dossier app](./PER_APP/README.md). ReUI ha sorgenti **React/TSX** MIT per l'offerta free (non Flutter), e premium separato; Figma Community richiede licenza per singolo file/brand. Tutto **REFERENCE/PROPOSED_ONLY**: nessun componente consumer implementato, nessuna Golden aggiornata, nessun asset copiato.
+
+
+## Nuovo intake deduplicato 20/11/2026 — ThinkUI, Mobbin, React Bits
+
+Su 15 link ricevuti: **12 risorse gia' presenti saltate senza nuovo audit**, **3 nuove** (`DESIGN-SITE-032..034`); [verifica di deduplica, licenze e fonti](sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md) · [mappa di 22 proposte su 12 app](UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.md) · [indice siti](sources/DESIGN_RESEARCH_SITES.json). ThinkUI: MCP a pagamento, repository di documentazione del servizio, screenshot con diritti misti; Mobbin: ricerca flussi a pagamento e termini che vietano mirror/archiviazione; React Bits: TSX/React e **MIT + Commons Clause** (non MIT puro). **Stato REFERENCE/PROPOSED_ONLY**, zero codice/font/icone/screenshot copiati, nessun nuovo UID o Golden.

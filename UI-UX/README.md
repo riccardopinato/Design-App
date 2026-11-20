@@ -130,3 +130,8 @@ Originali HTML/CSS aggiunti: **11**; catalogo **111/111**; Favorites **108/108**
 ## Design discovery 20 novembre 2026 — 3 nuovi siti + Bento Figma
 
 Nuove sorgenti: **Best Designs on X**, **Figma Community Mobile Apps** e **ReUI** (ID `DESIGN-SITE-029..031`), piu' [file specifico Figma Bento Widget Templates](./FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json) con nodi originali verificati. [Matrice 31 idee ↔ 12 app](./DESIGN_SOURCES_4_APP_MAP_2026-11-20.md) · [Audit](../sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md). Niente copia asset o source code, niente widget Flutter installato. Figma Community file-level rights e ReUI Pro restano gate indipendenti.
+
+
+## ThinkUI, Mobbin, React Bits — ingest selettivo 20/11/2026
+
+Dal lotto di 15 link **12 erano gia' nel Design-App** e non sono stati rivalutati; [audit solo dei 3 nuovi](../sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md), [matrice per app](./UI_SOURCES_3_APP_MAP_2026-11-20.md). ThinkUI e' un MCP di reference a pagamento; Mobbin documenta flussi reali ma limita la copia di screenshot; React Bits fornisce microinterazioni React con licenza MIT **piu' Commons Clause**. Nessun consumer modificato. Design-App non archivia materiali di terzi non autorizzati.
