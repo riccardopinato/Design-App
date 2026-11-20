@@ -196,3 +196,13 @@ Le palette e i mock-up gia' approvati hanno priorita'; la fonte non concede il r
 - **Jiro Builder** (`DESIGN-SUBL-003`): Evaluate a standalone Web-site prototype with chat editing, mobile preview, code ZIP export only on an eligible paid plan. **PROPOSED_ONLY**.
 
 **Gate:** Jiro e' una libreria proprietaria di design Web/React e un servizio esterno di hosting; nessun widget Flutter/Compose importato e nessun piano acquistato. I Termini consentono i progetti propri/clienti ma vietano ricollezionare o rivendere componenti/template standalone, il che preclude il copy del catalogo nella nostra libreria. Il Builder Free prevede limiti crediti e inattivita' e l'esportazione ZIP richiede un piano. Gli asset e mock-up preferiti gia' approvati in Design-App prevalgono; nessun codice consumer, server, auth, dati, palette, release o design deciso è stato modificato.
+
+
+## Motionary + 26 nuove fonti — 20/11/2026
+
+[Audit e licenze](../sources/MOTIONARY_26_AUDIT_2026-11-20.md) · [Mappa per app](../UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md).
+
+- **STYLE26-24** (P2): Benchmark componenti web semanticamente accessibili — **PROPOSED_ONLY**.
+- **STYLE26-21** (P2): Generare proposte landing con Stitch come reference, nessun deploy non autorizzato — **PROPOSED_ONLY**.
+
+**Gate:** Product Bible e identità visiva approvata; i componenti Web non sono widget Flutter. Nessun consumer modificato né componenti copiati. Licenze, dipendenze, accessibilità, rendering e CI da verificare per ogni adozione.
