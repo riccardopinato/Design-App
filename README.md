@@ -294,3 +294,8 @@ Su 15 link ricevuti: **12 risorse gia' presenti saltate senza nuovo audit**, **3
 ## Nuovi siti design — Curated Designs e UIColours (20/11/2026)
 
 **2 nuove fonti** (`DESIGN-SITE-042` BestSaaSWebDesigns [Curated Designs](https://bestsaaswebdesigns.com/curated-designs), `DESIGN-SITE-043` [UIColours](https://uicolours.com/)). [Audit, limiti e diritti](sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md) · [matrice 22 idee / 13 app](UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.md) · [catalogo JSON](sources/DESIGN_RESEARCH_SITES.json). Curated Designs usa reference da post X con diritti dei creatori; UIColours offre gallery, brand colours, OKLCH e Theme Builder Figma JSON/CSS ma nessun tema delle app è stato cambiato. **REFERENCE_ONLY / PROPOSED_ONLY**, nessun asset di terzi importato o nuovo UID.
+
+
+## Nuova fonte Jiro Build: lotto 15 link (20/11/2026)
+
+**13/15 URL gia' catalogati**, **1 provider Jiro nuovo** (`DESIGN-SITE-044`) e **1 sottopagina Builder** (`DESIGN-SUBL-003`) dello stesso provider. [Audit e deduplica](sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md) · [18 idee per 9 app](UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.md) · [registro siti](sources/DESIGN_RESEARCH_SITES.json). Library di prompt/componenti Web e Builder hosted non sono widget Flutter; contenuti proprietari non copiabili in una libreria concorrente. Solo reference, zero asset/source e zero app modificate.
