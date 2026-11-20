@@ -18,6 +18,18 @@ additional_research:
   new_sources: 22
   focus: "Design app galleries, Material 3 Expressive, Liquid Glass, responsive, micro-interactions, gesture UX and web UI patterns."
 targeted_intakes:
+  - batch_id: MOTIONARY_26_LINKS_2026_11_20
+    observed_at: "2026-11-20"
+    factory_baseline: "riccardopinato/App-Factory-Core@4df94ac3b3ea22a2323634fe83c3c7770fe3b835"
+    submitted_links: 26
+    new_sources: 15
+    existing_links_skipped: 11
+    source_registry: "sources/MOTIONARY_26_REGISTRY_2026-11-20.json"
+    source_audit: "sources/MOTIONARY_26_AUDIT_2026-11-20.md"
+    app_map: "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.json"
+    proposed_app_relations: 20
+    status: REFERENCE
+    note: "Motionary MIT/SwiftUI and Rare UI Commons Clause checked. Zero imported code, new UID or consumer modifications."
   - batch_id: UNSLOP_UI_2026_11_19
     observed_at: "2026-11-19"
     new_sources: 1
@@ -1525,3 +1537,213 @@ sources:
     copy_policy: REFERENCE_ONLY_PENDING_ASSET_DEPENDENCY_SECURITY_CONSUMER_GATE
     audit_path: "sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md"
     app_map_path: "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+
+  - repo: "alanfeiyuchang/motionary-ios-animations"
+    batch: MOTIONARY_26_LINKS_2026_11_20
+    domain: "UI_MOTION_REFERENCE"
+    discovery_url: "https://alanfeiyuchang.github.io/motionary-ios-animations/"
+    license: "MIT; retain copyright notice"
+    source_ref: "38ca358f289a435ea0b4f0676648e831e147e9eb"
+    maturity: REFERENCE
+    classification: UI_UX_REFERENCE
+    priority: A
+    role: "839 effects, 15 categories, 85 families; SwiftUI iOS18+, native adaptation required"
+    copy_policy: REFERENCE_ONLY_NO_CODE_IMPORTED_PENDING_CONSUMER_AND_LICENSE_GATES
+    audit_path: sources/MOTIONARY_26_AUDIT_2026-11-20.md
+    app_map_path: UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.json
+
+  - repo: "oakoss/agent-skills"
+    batch: MOTIONARY_26_LINKS_2026_11_20
+    domain: "AGENT_SKILLS_COLLECTION"
+    discovery_url: "https://github.com/oakoss/agent-skills"
+    license: "ROOT_LICENSE_NOT_FOUND; per-skill checks"
+    source_ref: "85e3a3919d9e0ec7f7302a5143ec4b3e66f5f6ad"
+    maturity: REFERENCE
+    classification: TOOLING_REFERENCE
+    priority: B
+    role: "112 skill curation claim, not 112 installed skills"
+    copy_policy: REFERENCE_ONLY_NO_CODE_IMPORTED_PENDING_CONSUMER_AND_LICENSE_GATES
+    audit_path: sources/MOTIONARY_26_AUDIT_2026-11-20.md
+    app_map_path: UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.json
+
+  - repo: "swamimalode07/rare-ui"
+    batch: MOTIONARY_26_LINKS_2026_11_20
+    domain: "ANIMATED_REACT_COMPONENTS"
+    discovery_url: "https://rareui.com/"
+    license: "MIT + Commons Clause + visible attribution; cannot redistribute components standalone/bundled/ported"
+    source_ref: "9523173c8896b0b9d5a87c8fbb8f45f97a7b068c"
+    maturity: REFERENCE
+    classification: UI_UX_REFERENCE
+    priority: A
+    role: "React/TSX Tailwind Motion; non-shippable as Flutter component library"
+    copy_policy: REFERENCE_ONLY_NO_CODE_IMPORTED_PENDING_CONSUMER_AND_LICENSE_GATES
+    audit_path: sources/MOTIONARY_26_AUDIT_2026-11-20.md
+    app_map_path: UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.json
+
+  - repo: "samuelgursky/davinci-resolve-mcp"
+    batch: MOTIONARY_26_LINKS_2026_11_20
+    domain: "VIDEO_PRODUCTION_TOOL"
+    discovery_url: "https://github.com/samuelgursky/davinci-resolve-mcp"
+    license: "LICENSE_REVIEW_REQUIRED"
+    source_ref: null
+    maturity: REFERENCE
+    classification: TOOLING_REFERENCE
+    priority: B
+    role: "DaVinci automation; desktop workflow, no mobile UI"
+    copy_policy: REFERENCE_ONLY_NO_CODE_IMPORTED_PENDING_CONSUMER_AND_LICENSE_GATES
+    audit_path: sources/MOTIONARY_26_AUDIT_2026-11-20.md
+    app_map_path: UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.json
+
+  - repo: "WyattBlue/auto-editor"
+    batch: MOTIONARY_26_LINKS_2026_11_20
+    domain: "VIDEO_EDITING_TOOL"
+    discovery_url: "https://github.com/WyattBlue/auto-editor"
+    license: "LICENSE_REVIEW_REQUIRED"
+    source_ref: null
+    maturity: REFERENCE
+    classification: TOOLING_REFERENCE
+    priority: B
+    role: "Cutting silence and pacing, requires media QA"
+    copy_policy: REFERENCE_ONLY_NO_CODE_IMPORTED_PENDING_CONSUMER_AND_LICENSE_GATES
+    audit_path: sources/MOTIONARY_26_AUDIT_2026-11-20.md
+    app_map_path: UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.json
+
+  - repo: "Breakthrough/PySceneDetect"
+    batch: MOTIONARY_26_LINKS_2026_11_20
+    domain: "VIDEO_ANALYSIS_TOOL"
+    discovery_url: "https://github.com/Breakthrough/PySceneDetect"
+    license: "LICENSE_REVIEW_REQUIRED"
+    source_ref: null
+    maturity: REFERENCE
+    classification: TOOLING_REFERENCE
+    priority: B
+    role: "Detect scene changes, not a motion design system"
+    copy_policy: REFERENCE_ONLY_NO_CODE_IMPORTED_PENDING_CONSUMER_AND_LICENSE_GATES
+    audit_path: sources/MOTIONARY_26_AUDIT_2026-11-20.md
+    app_map_path: UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.json
+
+  - repo: "Zulko/moviepy"
+    batch: MOTIONARY_26_LINKS_2026_11_20
+    domain: "VIDEO_EDITING_LIBRARY"
+    discovery_url: "https://github.com/Zulko/moviepy"
+    license: "LICENSE_REVIEW_REQUIRED"
+    source_ref: null
+    maturity: REFERENCE
+    classification: TOOLING_REFERENCE
+    priority: B
+    role: "Offline programmatic editing; codec deps separate"
+    copy_policy: REFERENCE_ONLY_NO_CODE_IMPORTED_PENDING_CONSUMER_AND_LICENSE_GATES
+    audit_path: sources/MOTIONARY_26_AUDIT_2026-11-20.md
+    app_map_path: UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.json
+
+  - repo: "remotion-dev/remotion"
+    batch: MOTIONARY_26_LINKS_2026_11_20
+    domain: "REACT_VIDEO_ENGINE"
+    discovery_url: "https://github.com/remotion-dev/remotion"
+    license: "CUSTOM_FREE_COMPANY_LICENSE; NOT_MIT"
+    source_ref: null
+    maturity: REFERENCE
+    classification: UI_UX_REFERENCE
+    priority: B
+    role: "Engine licensing independent of already recorded remotion agent skills"
+    copy_policy: REFERENCE_ONLY_NO_CODE_IMPORTED_PENDING_CONSUMER_AND_LICENSE_GATES
+    audit_path: sources/MOTIONARY_26_AUDIT_2026-11-20.md
+    app_map_path: UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.json
+
+  - repo: "browser-use/video-use"
+    batch: MOTIONARY_26_LINKS_2026_11_20
+    domain: "VIDEO_AGENT_TOOL"
+    discovery_url: "https://github.com/browser-use/video-use"
+    license: "MIT repository; underlying media/dependencies separate"
+    source_ref: "43cfc566833548093455c9d4a46bd69913b7e552"
+    maturity: REFERENCE
+    classification: TOOLING_REFERENCE
+    priority: B
+    role: "Tool candidate for editing; never assert final quality without inspection"
+    copy_policy: REFERENCE_ONLY_NO_CODE_IMPORTED_PENDING_CONSUMER_AND_LICENSE_GATES
+    audit_path: sources/MOTIONARY_26_AUDIT_2026-11-20.md
+    app_map_path: UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.json
+
+  - repo: "21st-dev/magic-mcp"
+    batch: MOTIONARY_26_LINKS_2026_11_20
+    domain: "AI_UI_GENERATION_TOOL"
+    discovery_url: "https://github.com/21st-dev/magic-mcp"
+    license: "ISC repository; service/API access may differ"
+    source_ref: "6b5299e8a83ceffa73d4fc4e148905bb3eeeeb55"
+    maturity: REFERENCE
+    classification: TOOLING_REFERENCE
+    priority: B
+    role: "Web UI generation and agent interface; not Flutter source"
+    copy_policy: REFERENCE_ONLY_NO_CODE_IMPORTED_PENDING_CONSUMER_AND_LICENSE_GATES
+    audit_path: sources/MOTIONARY_26_AUDIT_2026-11-20.md
+    app_map_path: UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.json
+
+  - repo: "GLips/Figma-Context-MCP"
+    batch: MOTIONARY_26_LINKS_2026_11_20
+    domain: "DESIGN_CONTEXT_TOOL"
+    discovery_url: "https://github.com/GLips/Figma-Context-MCP"
+    license: "MIT; requires Figma access and permissions"
+    source_ref: "c083d65c7e002923e7cb98f4e3bdafb105e90f6d"
+    maturity: REFERENCE
+    classification: TOOLING_REFERENCE
+    priority: B
+    role: "Transfer Figma context to agents; permissions and file ownership remain separate"
+    copy_policy: REFERENCE_ONLY_NO_CODE_IMPORTED_PENDING_CONSUMER_AND_LICENSE_GATES
+    audit_path: sources/MOTIONARY_26_AUDIT_2026-11-20.md
+    app_map_path: UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.json
+
+  - repo: "vercel-labs/agent-browser"
+    batch: MOTIONARY_26_LINKS_2026_11_20
+    domain: "AGENT_BROWSER_QA_TOOL"
+    discovery_url: "https://github.com/vercel-labs/agent-browser"
+    license: "Apache-2.0"
+    source_ref: "4605d82cfc20dbd051f57a631b5b7130e32141a5"
+    maturity: REFERENCE
+    classification: TOOLING_REFERENCE
+    priority: B
+    role: "Browser QA automation, requires consent for external sites"
+    copy_policy: REFERENCE_ONLY_NO_CODE_IMPORTED_PENDING_CONSUMER_AND_LICENSE_GATES
+    audit_path: sources/MOTIONARY_26_AUDIT_2026-11-20.md
+    app_map_path: UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.json
+
+  - repo: "google-labs-code/stitch-skills"
+    batch: MOTIONARY_26_LINKS_2026_11_20
+    domain: "AGENT_UI_GENERATION_SKILLS"
+    discovery_url: "https://github.com/google-labs-code/stitch-skills"
+    license: "Apache-2.0"
+    source_ref: "4cf4db8e4143b09e40f9bc887429d81f41ab3947"
+    maturity: REFERENCE
+    classification: TOOLING_REFERENCE
+    priority: B
+    role: "Prompt-to-screen prototyping; not an implemented app UI"
+    copy_policy: REFERENCE_ONLY_NO_CODE_IMPORTED_PENDING_CONSUMER_AND_LICENSE_GATES
+    audit_path: sources/MOTIONARY_26_AUDIT_2026-11-20.md
+    app_map_path: UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.json
+
+  - repo: "google-labs-code/design.md"
+    batch: MOTIONARY_26_LINKS_2026_11_20
+    domain: "DESIGN_SYSTEM_DOCUMENTATION"
+    discovery_url: "https://github.com/google-labs-code/design.md"
+    license: "Apache-2.0; format alpha"
+    source_ref: "db977b3c1d1f309269f43d5d17ae828d54bd6ae3"
+    maturity: REFERENCE
+    classification: TOOLING_REFERENCE
+    priority: B
+    role: "Machine-readable design identity spec; derived view, not parallel Product Bible"
+    copy_policy: REFERENCE_ONLY_NO_CODE_IMPORTED_PENDING_CONSUMER_AND_LICENSE_GATES
+    audit_path: sources/MOTIONARY_26_AUDIT_2026-11-20.md
+    app_map_path: UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.json
+
+  - repo: "meta/astryx"
+    batch: MOTIONARY_26_LINKS_2026_11_20
+    domain: "REACT_DESIGN_SYSTEM"
+    discovery_url: "https://github.com/meta/astryx"
+    license: "MIT for repo code; fonts/assets separate"
+    source_ref: "1f5f1cb7799641f1efac72c75e788cab58479957"
+    maturity: REFERENCE
+    classification: UI_UX_REFERENCE
+    priority: B
+    role: "Enterprise UI components; benchmark, no Material/brand adoption"
+    copy_policy: REFERENCE_ONLY_NO_CODE_IMPORTED_PENDING_CONSUMER_AND_LICENSE_GATES
+    audit_path: sources/MOTIONARY_26_AUDIT_2026-11-20.md
+    app_map_path: UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.json

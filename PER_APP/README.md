@@ -127,3 +127,8 @@ Originali HTML/CSS aggiunti: **11**; catalogo **111/111**; Favorites **108/108**
 ## Jiro Build — prompt Web e Builder (20/11/2026)
 
 **9 dossier aggiornati** con **18 proposte `PROPOSED_ONLY`** per promo Web/landing, mappate in [matrice](../UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.md) e [JSON](../UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json). Delle 15 URL condivise 13 sono gia' nel registro; un solo nuovo sito (`DESIGN-SITE-044`), con una sotto-risorsa del medesimo provider. [Audit licenze](../sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md). Nessuna implementazione nel consumer.
+
+
+## Motionary / 26 risorse — 20/11/2026
+
+[20 ipotesi su 10 profili](../UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md) sincronizzate con `REGISTRO_APP_DESIGN.json` e i rispettivi dossier app. Motionary MIT e Rare UI Commons Clause restano fonti REFERENCE, nessun consumer modificato. Per il lotto completo: [audit](../sources/MOTIONARY_26_AUDIT_2026-11-20.md).

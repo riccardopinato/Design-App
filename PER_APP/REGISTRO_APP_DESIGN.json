@@ -63,7 +63,13 @@
     "jiro_15_2026_11_20_new_sites": 1,
     "jiro_15_2026_11_20_existing_provider_subpages": 1,
     "jiro_15_2026_11_20_profiles": 9,
-    "jiro_15_2026_11_20_relations": 18
+    "jiro_15_2026_11_20_relations": 18,
+    "motionary_26_2026_11_20_submitted_links": 26,
+    "motionary_26_2026_11_20_new_sources": 15,
+    "motionary_26_2026_11_20_skipped_existing_links": 11,
+    "motionary_26_2026_11_20_profiles": 10,
+    "motionary_26_2026_11_20_relations": 20,
+    "motionary_26_2026_11_20_archived_code": 0
   },
   "profiles": [
     {
@@ -268,7 +274,9 @@
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
         "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
-        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "diario e ricordi",
@@ -743,6 +751,17 @@
             "MOTION-OSS-005"
           ],
           "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTIONARY_26_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+          "source_ids": [
+            "STYLE26-01",
+            "STYLE26-23"
+          ],
+          "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
         }
       ],
       "voice_ui_candidates": [
@@ -3544,7 +3563,9 @@
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
         "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
-        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "batteria",
@@ -3871,6 +3892,17 @@
             "MOTION-OSS-002"
           ],
           "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTIONARY_26_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+          "source_ids": [
+            "STYLE26-01",
+            "STYLE26-23"
+          ],
+          "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
         }
       ],
       "motion_design_candidates": [
@@ -7244,7 +7276,9 @@
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
         "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
         "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
-        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json"
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "kawaii-gattini",
@@ -8207,6 +8241,17 @@
             "DESIGN-SUBL-003"
           ],
           "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTIONARY_26_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+          "source_ids": [
+            "STYLE26-01",
+            "STYLE26-11"
+          ],
+          "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
         }
       ],
       "voice_ui_candidates": [
@@ -9261,7 +9306,9 @@
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
         "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
-        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "desktop",
@@ -9546,6 +9593,17 @@
             "MOTION-OSS-012"
           ],
           "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTIONARY_26_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+          "source_ids": [
+            "STYLE26-01",
+            "STYLE26-24"
+          ],
+          "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
         }
       ],
       "voice_ui_candidates": [
@@ -11789,7 +11847,9 @@
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
         "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
         "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
-        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json"
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "fotografia",
@@ -12184,6 +12244,17 @@
             "DESIGN-SUBL-003"
           ],
           "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTIONARY_26_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+          "source_ids": [
+            "STYLE26-01",
+            "STYLE26-05"
+          ],
+          "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
         }
       ],
       "voice_ui_candidates": [
@@ -13137,7 +13208,9 @@
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
         "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
         "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
-        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json"
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "nota",
@@ -13711,6 +13784,17 @@
             "DESIGN-SUBL-003"
           ],
           "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTIONARY_26_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+          "source_ids": [
+            "STYLE26-01",
+            "STYLE26-25"
+          ],
+          "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
         }
       ],
       "voice_ui_candidates": [
@@ -15248,7 +15332,9 @@
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
         "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
         "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
-        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json"
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "galleria",
@@ -15699,6 +15785,17 @@
             "DESIGN-SUBL-003"
           ],
           "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTIONARY_26_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+          "source_ids": [
+            "STYLE26-01",
+            "STYLE26-05"
+          ],
+          "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
         }
       ],
       "motion_design_candidates": [
@@ -19195,7 +19292,9 @@
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
         "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
         "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
-        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json"
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "strumenti",
@@ -19433,6 +19532,17 @@
             "DESIGN-SUBL-003"
           ],
           "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTIONARY_26_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+          "source_ids": [
+            "STYLE26-24",
+            "STYLE26-21"
+          ],
+          "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
         }
       ],
       "motion_design_candidates": [
@@ -19913,7 +20023,9 @@
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
         "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
         "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
-        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json"
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "viaggio",
@@ -20355,6 +20467,17 @@
             "DESIGN-SUBL-003"
           ],
           "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTIONARY_26_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+          "source_ids": [
+            "STYLE26-01",
+            "STYLE26-05"
+          ],
+          "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
         }
       ],
       "voice_ui_candidates": [
@@ -21398,7 +21521,9 @@
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
         "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
         "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
-        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json"
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "calendario",
@@ -21937,6 +22062,17 @@
             "DESIGN-SUBL-003"
           ],
           "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTIONARY_26_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+          "source_ids": [
+            "STYLE26-01",
+            "STYLE26-17"
+          ],
+          "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
         }
       ],
       "voice_ui_candidates": [

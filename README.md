@@ -304,3 +304,8 @@ Su 15 link ricevuti: **12 risorse gia' presenti saltate senza nuovo audit**, **3
 ## Nuova fonte Jiro Build: lotto 15 link (20/11/2026)
 
 **13/15 URL gia' catalogati**, **1 provider Jiro nuovo** (`DESIGN-SITE-044`) e **1 sottopagina Builder** (`DESIGN-SUBL-003`) dello stesso provider. [Audit e deduplica](sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md) · [18 idee per 9 app](UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.md) · [registro siti](sources/DESIGN_RESEARCH_SITES.json). Library di prompt/componenti Web e Builder hosted non sono widget Flutter; contenuti proprietari non copiabili in una libreria concorrente. Solo reference, zero asset/source e zero app modificate.
+
+
+## Motionary iOS + 26 nuove risorse — 20/11/2026
+
+**15 fonti nuove e 11 link deduplicati**, con [audit 26/26](sources/MOTIONARY_26_AUDIT_2026-11-20.md), [registro machine-readable](sources/MOTIONARY_26_REGISTRY_2026-11-20.json), [2 siti canonici Motionary/Rare UI](sources/DESIGN_RESEARCH_SITES.json) e [20 proposte su 10 app](UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md). Motionary contiene 839 animazioni SwiftUI (MIT), ma nessun codice Dart/Compose già portato; Rare UI ha Commons Clause e attribuzione visibile. I tool video/agent sono classificati separatamente dalla UI. Nessun nuovo UID, sorgente vendorizzato, Golden, consumer o APK.

@@ -1,0 +1,495 @@
+{
+  "schema_version": 1,
+  "batch_id": "MOTIONARY_26_LINKS_2026_11_20",
+  "date": "2026-11-20",
+  "factory_baseline": "riccardopinato/App-Factory-Core@4df94ac3b3ea22a2323634fe83c3c7770fe3b835",
+  "design_baseline": "riccardopinato/Design-App@32a89d433fffa60a2c4620a73555d0591dd365f1",
+  "classification": "SOURCES_NOT_COMPONENTS",
+  "links_submitted": 26,
+  "unique_new_sources": 15,
+  "existing_links_deduplicated": 11,
+  "code_imported": 0,
+  "consumer_changes": 0,
+  "source_items": [
+    {
+      "id": "STYLE26-01",
+      "name": "Motionary iOS Animations",
+      "url": "https://alanfeiyuchang.github.io/motionary-ios-animations/",
+      "repository": "alanfeiyuchang/motionary-ios-animations",
+      "kind": "UI_MOTION_REFERENCE",
+      "state": "NEW",
+      "license": "MIT; retain copyright notice",
+      "source_ref": "38ca358f289a435ea0b4f0676648e831e147e9eb",
+      "notes": "839 effects, 15 categories, 85 families; SwiftUI iOS18+, native adaptation required",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-02",
+      "name": "AI Canvas",
+      "url": "https://aicanvas.me/",
+      "repository": "aicanvas-me/aicanvas",
+      "kind": "REACT_DESIGN_SYSTEM",
+      "state": "EXISTING: DESIGN-SITE-039",
+      "license": "MIT free code only; premium and icons separate",
+      "source_ref": null,
+      "notes": "Free React design systems, not a Flutter library",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-03",
+      "name": "Jakub Krehel design skills",
+      "url": "https://github.com/jakubkrehel/skills",
+      "repository": "jakubkrehel/skills",
+      "kind": "AGENT_DESIGN_SKILLS",
+      "state": "EXISTING: OSS_REGISTRY",
+      "license": "MIT",
+      "source_ref": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "notes": "Animation, a11y, UI polish and writing; skill, not runtime UI",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-04",
+      "name": "oakoss agent skills",
+      "url": "https://github.com/oakoss/agent-skills",
+      "repository": "oakoss/agent-skills",
+      "kind": "AGENT_SKILLS_COLLECTION",
+      "state": "NEW",
+      "license": "ROOT_LICENSE_NOT_FOUND; per-skill checks",
+      "source_ref": "85e3a3919d9e0ec7f7302a5143ec4b3e66f5f6ad",
+      "notes": "112 skill curation claim, not 112 installed skills",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-05",
+      "name": "Rare UI",
+      "url": "https://rareui.com/",
+      "repository": "swamimalode07/rare-ui",
+      "kind": "ANIMATED_REACT_COMPONENTS",
+      "state": "NEW",
+      "license": "MIT + Commons Clause + visible attribution; cannot redistribute components standalone/bundled/ported",
+      "source_ref": "9523173c8896b0b9d5a87c8fbb8f45f97a7b068c",
+      "notes": "React/TSX Tailwind Motion; non-shippable as Flutter component library",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-06",
+      "name": "React Bits",
+      "url": "https://reactbits.dev/",
+      "repository": "DavidHDev/react-bits",
+      "kind": "ANIMATED_REACT_COMPONENTS",
+      "state": "EXISTING: DESIGN-SITE-034",
+      "license": "MIT + Commons Clause; review source license",
+      "source_ref": null,
+      "notes": "Already audited; no new UID",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-07",
+      "name": "DaVinci Resolve MCP",
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "repository": "samuelgursky/davinci-resolve-mcp",
+      "kind": "VIDEO_PRODUCTION_TOOL",
+      "state": "NEW",
+      "license": "LICENSE_REVIEW_REQUIRED",
+      "source_ref": null,
+      "notes": "DaVinci automation; desktop workflow, no mobile UI",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-08",
+      "name": "auto-editor",
+      "url": "https://github.com/WyattBlue/auto-editor",
+      "repository": "WyattBlue/auto-editor",
+      "kind": "VIDEO_EDITING_TOOL",
+      "state": "NEW",
+      "license": "LICENSE_REVIEW_REQUIRED",
+      "source_ref": null,
+      "notes": "Cutting silence and pacing, requires media QA",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-09",
+      "name": "PySceneDetect",
+      "url": "https://github.com/Breakthrough/PySceneDetect",
+      "repository": "Breakthrough/PySceneDetect",
+      "kind": "VIDEO_ANALYSIS_TOOL",
+      "state": "NEW",
+      "license": "LICENSE_REVIEW_REQUIRED",
+      "source_ref": null,
+      "notes": "Detect scene changes, not a motion design system",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-10",
+      "name": "MoviePy",
+      "url": "https://github.com/Zulko/moviepy",
+      "repository": "Zulko/moviepy",
+      "kind": "VIDEO_EDITING_LIBRARY",
+      "state": "NEW",
+      "license": "LICENSE_REVIEW_REQUIRED",
+      "source_ref": null,
+      "notes": "Offline programmatic editing; codec deps separate",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-11",
+      "name": "Remotion runtime",
+      "url": "https://github.com/remotion-dev/remotion",
+      "repository": "remotion-dev/remotion",
+      "kind": "REACT_VIDEO_ENGINE",
+      "state": "NEW: runtime; existing remotion-dev/skills separate",
+      "license": "CUSTOM_FREE_COMPANY_LICENSE; NOT_MIT",
+      "source_ref": null,
+      "notes": "Engine licensing independent of already recorded remotion agent skills",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-12",
+      "name": "video-use",
+      "url": "https://github.com/browser-use/video-use",
+      "repository": "browser-use/video-use",
+      "kind": "VIDEO_AGENT_TOOL",
+      "state": "NEW",
+      "license": "MIT repository; underlying media/dependencies separate",
+      "source_ref": "43cfc566833548093455c9d4a46bd69913b7e552",
+      "notes": "Tool candidate for editing; never assert final quality without inspection",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-13",
+      "name": "21st.dev Magic MCP",
+      "url": "https://github.com/21st-dev/magic-mcp",
+      "repository": "21st-dev/magic-mcp",
+      "kind": "AI_UI_GENERATION_TOOL",
+      "state": "NEW",
+      "license": "ISC repository; service/API access may differ",
+      "source_ref": "6b5299e8a83ceffa73d4fc4e148905bb3eeeeb55",
+      "notes": "Web UI generation and agent interface; not Flutter source",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-14",
+      "name": "Figma Context MCP",
+      "url": "https://github.com/GLips/Figma-Context-MCP",
+      "repository": "GLips/Figma-Context-MCP",
+      "kind": "DESIGN_CONTEXT_TOOL",
+      "state": "NEW",
+      "license": "MIT; requires Figma access and permissions",
+      "source_ref": "c083d65c7e002923e7cb98f4e3bdafb105e90f6d",
+      "notes": "Transfer Figma context to agents; permissions and file ownership remain separate",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-15",
+      "name": "Penpot",
+      "url": "https://github.com/penpot/penpot",
+      "repository": "penpot/penpot",
+      "kind": "DESIGN_TOOL",
+      "state": "EXISTING: OSS_REGISTRY",
+      "license": "SOURCE_LICENSE_ON_FILE; CHECK_COMPONENT",
+      "source_ref": null,
+      "notes": "Open-source design platform previously catalogued",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-16",
+      "name": "agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "repository": "vercel-labs/agent-browser",
+      "kind": "AGENT_BROWSER_QA_TOOL",
+      "state": "NEW",
+      "license": "Apache-2.0",
+      "source_ref": "4605d82cfc20dbd051f57a631b5b7130e32141a5",
+      "notes": "Browser QA automation, requires consent for external sites",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-17",
+      "name": "UI UX Pro Max skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "kind": "DESIGN_SKILL",
+      "state": "EXISTING: DSK-009 / OSS_REGISTRY",
+      "license": "MIT",
+      "source_ref": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+      "notes": "Existing categorized style/palette/font system; avoid duplicate skills",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-18",
+      "name": "Anthropic canvas-design",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/canvas-design",
+      "repository": "anthropics/skills",
+      "kind": "VISUAL_CREATION_SKILL",
+      "state": "EXISTING: umbrella anthropics/skills",
+      "license": "CHECK_PER_SKILL_LICENSE",
+      "source_ref": null,
+      "notes": "Poster/visual asset skill; not a Flutter widget",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-19",
+      "name": "Anthropic pptx",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/pptx",
+      "repository": "anthropics/skills",
+      "kind": "PRESENTATION_SKILL",
+      "state": "EXISTING: same umbrella",
+      "license": "CHECK_PER_SKILL_LICENSE",
+      "source_ref": null,
+      "notes": "Slide authoring, no UI runtime",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-20",
+      "name": "Anthropic theme-factory",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/theme-factory",
+      "repository": "anthropics/skills",
+      "kind": "THEME_SKILL",
+      "state": "EXISTING: same umbrella",
+      "license": "CHECK_PER_SKILL_LICENSE",
+      "source_ref": null,
+      "notes": "Branding/slide themes; derivative design reference",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-21",
+      "name": "Google Stitch skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "repository": "google-labs-code/stitch-skills",
+      "kind": "AGENT_UI_GENERATION_SKILLS",
+      "state": "NEW",
+      "license": "Apache-2.0",
+      "source_ref": "4cf4db8e4143b09e40f9bc887429d81f41ab3947",
+      "notes": "Prompt-to-screen prototyping; not an implemented app UI",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-22",
+      "name": "Anthropic frontend-design",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
+      "repository": "anthropics/skills",
+      "kind": "FRONTEND_DESIGN_SKILL",
+      "state": "EXISTING: same umbrella",
+      "license": "CHECK_PER_SKILL_LICENSE",
+      "source_ref": null,
+      "notes": "Web design guidance; adapt for mobile carefully",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-23",
+      "name": "Google DESIGN.md",
+      "url": "https://github.com/google-labs-code/design.md",
+      "repository": "google-labs-code/design.md",
+      "kind": "DESIGN_SYSTEM_DOCUMENTATION",
+      "state": "NEW",
+      "license": "Apache-2.0; format alpha",
+      "source_ref": "db977b3c1d1f309269f43d5d17ae828d54bd6ae3",
+      "notes": "Machine-readable design identity spec; derived view, not parallel Product Bible",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-24",
+      "name": "Meta Astryx",
+      "url": "https://github.com/meta/astryx",
+      "repository": "meta/astryx",
+      "kind": "REACT_DESIGN_SYSTEM",
+      "state": "NEW",
+      "license": "MIT for repo code; fonts/assets separate",
+      "source_ref": "1f5f1cb7799641f1efac72c75e788cab58479957",
+      "notes": "Enterprise UI components; benchmark, no Material/brand adoption",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-25",
+      "name": "Excalidraw",
+      "url": "https://github.com/excalidraw/excalidraw",
+      "repository": "excalidraw/excalidraw",
+      "kind": "CANVAS_TOOL",
+      "state": "EXISTING: OSS_REGISTRY",
+      "license": "CHECK_VERSION_AND_ASSET_LICENSE",
+      "source_ref": null,
+      "notes": "Already in Notes/canvas donor inventory",
+      "code_archived": false,
+      "consumer_implemented": false
+    },
+    {
+      "id": "STYLE26-26",
+      "name": "tldraw",
+      "url": "https://github.com/tldraw/tldraw",
+      "repository": "tldraw/tldraw",
+      "kind": "INFINITE_CANVAS_SDK",
+      "state": "EXISTING: OSS_REGISTRY",
+      "license": "LICENSE_PER_PACKAGE_REQUIRED",
+      "source_ref": null,
+      "notes": "Already in Notes/canvas donor inventory",
+      "code_archived": false,
+      "consumer_implemented": false
+    }
+  ],
+  "proposed_relations": [
+    {
+      "app": "annas-diary",
+      "source_id": "STYLE26-01",
+      "idea": "Spring/press su Crea, transizioni Ricordi e selettore Giorno/Notte; delicate, interrompibili",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "annas-diary",
+      "source_id": "STYLE26-23",
+      "idea": "DESIGN.md derivato da palette/Manrope-Lora/mockup già approvati; non sostituisce Product Bible",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "notes-ecosistema",
+      "source_id": "STYLE26-01",
+      "idea": "Microinterazioni card/board, espansione proprietà e undo con reduced motion",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "notes-ecosistema",
+      "source_id": "STYLE26-25",
+      "idea": "Confronto canvas solo pattern; niente nuovo database o copia codice senza gate",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "omni-cleaner",
+      "source_id": "STYLE26-01",
+      "idea": "Feedback di scansione/completamento e transizione tile singole; mai successo fittizio",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "omni-cleaner",
+      "source_id": "STYLE26-05",
+      "idea": "Reference card espandibili controllate; Commons Clause esclude port in libreria Flutter",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "wonderlog",
+      "source_id": "STYLE26-01",
+      "idea": "Espansione fotografia verso dettaglio, gesture e timeline viaggio",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "wonderlog",
+      "source_id": "STYLE26-05",
+      "idea": "Ispirazione carousel/galleria; implementazione Flutter originale",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "world-days",
+      "source_id": "STYLE26-01",
+      "idea": "Transizioni fra schede giornate, numeri/data e feedback ai preferiti",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "world-days",
+      "source_id": "STYLE26-17",
+      "idea": "Revisione tipografia/stili in conformità alla palette attuale",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "cooking-anime",
+      "source_id": "STYLE26-01",
+      "idea": "Step ricetta: avanzamento reale e transizioni tra passaggi",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "cooking-anime",
+      "source_id": "STYLE26-11",
+      "idea": "Video promo ricette prodotti offline; engine web separato dall'APK e verifica licenza",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "deskland-android",
+      "source_id": "STYLE26-01",
+      "idea": "Gesture spring/drag in home, solo se misurate su device",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "deskland-android",
+      "source_id": "STYLE26-24",
+      "idea": "Confronto token UI del pannello impostazioni; niente componenti React nel launcher",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "framelab",
+      "source_id": "STYLE26-01",
+      "idea": "Transizioni prima/dopo foto, slider, progressi di elaborazione reali",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "framelab",
+      "source_id": "STYLE26-05",
+      "idea": "Reference gallery motion; immagini originali e aspect ratio preservati",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "battery-guard",
+      "source_id": "STYLE26-01",
+      "idea": "Count-up e grafici sobri, animati solo su nuovi dati",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "battery-guard",
+      "source_id": "STYLE26-23",
+      "idea": "Specificare token e motion budget per tema Flutter proprietario",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "web-utility-factory",
+      "source_id": "STYLE26-24",
+      "idea": "Benchmark componenti web semanticamente accessibili",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "web-utility-factory",
+      "source_id": "STYLE26-21",
+      "idea": "Generare proposte landing con Stitch come reference, nessun deploy non autorizzato",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY"
+    }
+  ]
+}

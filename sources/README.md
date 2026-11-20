@@ -90,3 +90,8 @@ Questa directory contiene studi di sorgenti esterne e donatori candidati, non ne
 ## Intake Jiro Build 20/11/2026
 
 [Jiro library + Builder: audit/13 URL duplicate](./JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md) · [Registro siti design](./DESIGN_RESEARCH_SITES.json) · [Mappa app](../UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.md). Un solo provider nuovo (`DESIGN-SITE-044`), sottopagina `DESIGN-SUBL-003`; nessun template premium/source della piattaforma acquisito o vendorizzato.
+
+
+## Motionary + 25 link complementari — 20 novembre 2026
+
+[Audit fonte/diritti/26 link](./MOTIONARY_26_AUDIT_2026-11-20.md) · [Registro JSON](./MOTIONARY_26_REGISTRY_2026-11-20.json) · [Mappa per app](../UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md). **DESIGN-SITE-045 Motionary**, **DESIGN-SITE-046 Rare UI**, altri 13 source OSS/tooling nuovi e 11 voci riconciliate. Stato REFERENCE/PROPOSED_ONLY; zero widget/port/runtime copiati.

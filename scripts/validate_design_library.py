@@ -59,9 +59,61 @@ if uiverse_intake != 1:
 motion_video_intake = len(re.findall(r"^  - batch_id: MOTION_VIDEO_18_2026_11_20$", oss, re.MULTILINE))
 if motion_video_intake != 1:
     fail(f"Expected one 2026-11-20 motion/video 18-source intake, found {motion_video_intake}")
-expected_source_count = 95 + ruixen_intake + 2 * dock_intake + 7 * visual_intake + 10 * skills_intake + 2 * voice_intake + 2 * motion_intake + watermelon_intake + uiverse_intake + 18 * motion_video_intake
+motionary_26_intake = len(re.findall(r"^  - batch_id: MOTIONARY_26_LINKS_2026_11_20$", oss, re.MULTILINE))
+if motionary_26_intake != 1:
+    fail(f"Expected exactly one Motionary/26-link intake, found {motionary_26_intake}")
+expected_source_count = 95 + ruixen_intake + 2 * dock_intake + 7 * visual_intake + 10 * skills_intake + 2 * voice_intake + 2 * motion_intake + watermelon_intake + uiverse_intake + 18 * motion_video_intake + 15 * motionary_26_intake
 if len(repos) != expected_source_count or len(set(repos)) != expected_source_count:
     fail(f"expected {expected_source_count} unique OSS design sources, found {len(repos)} / {len(set(repos))} unique")
+# New curated Motionary/26-link intake: link registry, canonical dedup, and per-app evidence.
+motionary_path = ROOT / "sources" / "MOTIONARY_26_REGISTRY_2026-11-20.json"
+motionary_app_path = ROOT / "UI-UX" / "MOTIONARY_26_APP_MAP_2026-11-20.json"
+if not all(p.is_file() for p in (
+    motionary_path,
+    motionary_app_path,
+    ROOT / "sources" / "MOTIONARY_26_AUDIT_2026-11-20.md",
+    ROOT / "UI-UX" / "MOTIONARY_26_APP_MAP_2026-11-20.md",
+)):
+    fail("Motionary intake audit/registry/app map absent")
+motionary = json.loads(motionary_path.read_text(encoding="utf-8"))
+motionary_items = motionary.get("source_items", [])
+motionary_new = [x for x in motionary_items if str(x.get("state", "")).startswith("NEW")]
+motionary_old = [x for x in motionary_items if str(x.get("state", "")).startswith("EXISTING")]
+if (len(motionary_items) != 26
+        or len(motionary_new) != 15
+        or len(motionary_old) != 11
+        or motionary.get("links_submitted") != 26
+        or motionary.get("unique_new_sources") != 15
+        or motionary.get("existing_links_deduplicated") != 11
+        or len({x.get("id") for x in motionary_items}) != 26
+        or any(x.get("code_archived") is not False or x.get("consumer_implemented") is not False for x in motionary_items)):
+    fail("Motionary 26-source intake count, identity or no-code boundary drift")
+for item in motionary_new:
+    ref = item.get("source_ref")
+    if (repos.count(item.get("repository")) != 1
+            or (ref is not None and not re.fullmatch(r"[a-f0-9]{40}", str(ref)))):
+        fail(f"Motionary new OSS source missing, duplicated or malformed: {item.get('id')}")
+motionary_map = json.loads(motionary_app_path.read_text(encoding="utf-8"))
+motionary_edges = motionary_map.get("proposals", [])
+motionary_apps = {x.get("app") for x in motionary_edges}
+if (len(motionary_edges) != 20 or len(motionary_apps) != 10
+        or len({(x.get("app"), x.get("source_id")) for x in motionary_edges}) != 20
+        or any(x.get("status") != "PROPOSED_ONLY"
+               or x.get("source_id") not in {y.get("id") for y in motionary_items}
+               for x in motionary_edges)):
+    fail("Motionary per-app relation count or source identity drift")
+motionary_profiles = {
+    x.get("id"): x for x in json.loads((ROOT / "PER_APP" / "REGISTRO_APP_DESIGN.json").read_text(encoding="utf-8")).get("profiles", [])
+}
+for app_id in motionary_apps:
+    profile = motionary_profiles.get(app_id, {})
+    doc = ROOT / "PER_APP" / (app_id + ".md")
+    expected = {x.get("source_id") for x in motionary_edges if x.get("app") == app_id}
+    records = [x for x in profile.get("changelog", []) if x.get("type") == "MOTIONARY_26_2026_11_20"]
+    if (not profile or len(records) != 1 or set(records[0].get("source_ids", [])) != expected
+            or not doc.is_file() or "MOTIONARY_26_APP_MAP_2026-11-20" not in doc.read_text(encoding="utf-8")):
+        fail(f"Motionary per-app provenance/dossier drift: {app_id}")
+
 motion_manifest_path = ROOT / "sources" / "MOTION_VIDEO_18_REGISTRY_2026-11-20.json"
 motion_app_map_path = ROOT / "UI-UX" / "MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
 if not all(p.is_file() for p in (
