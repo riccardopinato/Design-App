@@ -135,3 +135,8 @@ python BIBLIOTECA_COMPONENTI/validate.py
 [ReUI](https://reui.io/) e' una nuova fonte con componenti gratuiti React/shadcn (repository `keenthemes/reui`, licenza MIT dichiarata per il software free); Pro blocks/icons rimangono a pagamento. Gli elementi **non sono automaticamente sorgenti Flutter**, dunque per questo intake **nessun UID assegnato, nessun TSX copiato e nessuna promozione COPY_READY**. Si potranno aggiungere singoli componenti con UID solo dopo aver recuperato il codice esatto, metadata, dipendenze, licenza, prova visiva e validazione.
 
 Il [file Figma Bento Widget Templates](../UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json) contiene varianti visive individuate per dimensione e nodi Figma; resta **REFERENCE_ONLY** (non un package Dart/Android AppWidget). Catalogazione per-app in [matrice](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.md), licenze degli elementi branded da verificare. Non incrementare il conteggio dei componenti source-archived per queste sole reference.
+
+
+## Fonti da valutare, NON componenti archiviati — 20/11/2026
+
+[ThinkUI / Mobbin / React Bits — audit originale](../sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md). Catalogati nel registro siti senza nuove voci nel `CATALOGO.json` o nuovi UID: ThinkUI e' un servizio MCP proprietario a pagamento, Mobbin e' una reference commerciale con restrizioni di ri-pubblicazione e React Bits permette prodotti commerciali ma **vieta redistribuire componenti come libreria, bundle o port**, ai sensi della MIT+Commons Clause. Non e' stato copiato alcun TSX/SVG/screenshot. I 12 duplicati sono soltanto riconciliati tramite ID gia' esistenti.
