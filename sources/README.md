@@ -80,3 +80,8 @@ Questa directory contiene studi di sorgenti esterne e donatori candidati, non ne
 ## Acquisizione sorgenti OSS DevLibraries — 19/11/2026
 
 [38 originali React/TSX Amicro, Watermelon ed EaseUI](../BIBLIOTECA_COMPONENTI/sorgenti/README.md) sono stati recuperati dai repository originali con controllo Git SHA e MIT conservata. Il catalogo arriva a **427 sorgenti archiviati**, con **53 reference-only**. Non e' una certificazione Flutter o delle app consumer.
+
+
+## Lotto 18 fonti motion/video — 20/11/2026
+
+[Manifest 18 source SHA e licenze](./MOTION_VIDEO_18_REGISTRY_2026-11-20.json) · [Audit 18](./MOTION_VIDEO_18_AUDIT_2026-11-20.md) · [Pipeline separata motion UI e video](./MOTION_VIDEO_18_PIPELINE_2026-11-20.md) · [App mapping](../UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.md). REF_ONLY; No import/installation/distribution of third-party source or binary.
