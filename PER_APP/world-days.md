@@ -323,3 +323,15 @@ Licenze degli asset e approvazione estetica per-app obbligatorie prima di qualsi
 - **Mobbin** (`DESIGN-SITE-033`): Compare discovery/search and editorial story-reading flows — **PROPOSED_ONLY**.
 
 Queste fonti non autorizzano il riutilizzo di screenshot o font senza licenza. Mobbin vieta l'archiviazione/mirroring dei contenuti; React Bits usa MIT + Commons Clause; ThinkUI richiede attivazione MCP a pagamento. Nessuna app o feature implementata da questo intake.
+
+
+## Fonti AI agent/Web/motion — 20/11/2026 (7 nuove, 2 approfondimenti)
+
+[Audit](../sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md) · [Matrice per-app](../UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.md) · [Deep link ReUI/shadcn](../sources/DESIGN_EXISTING_SITES_DEEP_LINKS_2026-11-20.json).
+
+- **Scrolltide** (`DESIGN-SITE-035`): Introductory story-based landing only; preserve core content readability — **PROPOSED_ONLY**.
+- **Navbar Gallery** (`DESIGN-SITE-038`): Organize editorial category navigation with mobile and accessibility QA — **PROPOSED_ONLY**.
+- **AI Canvas** (`DESIGN-SITE-039`): Readable category cards with meaningful state — **PROPOSED_ONLY**.
+- **Aceternity UI** (`DESIGN-SITE-040`): Content cards and restrained decorative backgrounds, no legibility regression — **PROPOSED_ONLY**.
+
+**Gate:** premium/proprietary/non-verified sources not imported, React/JS is not Dart, animations must respect reduced-motion and measurable state, GPU/performance/battery gates for shaders; per-app Product Bible and visual decisions before consumer implementation. The t.co short URL is unresolved. No code/tests of this consumer performed.
