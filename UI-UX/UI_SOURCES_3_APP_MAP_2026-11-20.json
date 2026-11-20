@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "batch_id": "UI_DESIGN_LINKS_DEDUP_15_2026_11_20",
+  "source_of_truth": "riccardopinato/Design-App",
+  "factory_baseline": "riccardopinato/App-Factory-Core@4df94ac3b3ea22a2323634fe83c3c7770fe3b835",
+  "design_baseline": "riccardopinato/Design-App@0c6345fa915e19ab69e0dd50eff8045968a50888",
+  "updated_at": "2026-11-20",
+  "provided_urls": 15,
+  "duplicate_count": 12,
+  "new_source_count": 3,
+  "duplicates": [
+    {
+      "no": 1,
+      "resource": "Uizze",
+      "canonical": "DSK-001",
+      "inventory": "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
+      "note": "Previously reviewed anti UI-slop agent skill"
+    },
+    {
+      "no": 4,
+      "resource": "Land-book",
+      "canonical": "DESIGN-SITE-017"
+    },
+    {
+      "no": 5,
+      "resource": "Godly",
+      "canonical": "DESIGN-SITE-018 (Recent Design alias)"
+    },
+    {
+      "no": 6,
+      "resource": "60FPS",
+      "canonical": "DESIGN-SITE-021"
+    },
+    {
+      "no": 7,
+      "resource": "shadcn/ui",
+      "canonical": "registry/OSS_DESIGN_SOURCES.yaml — shadcn-ui/ui"
+    },
+    {
+      "no": 9,
+      "resource": "Magic UI",
+      "canonical": "registry/OSS_DESIGN_SOURCES.yaml — magicuidesign/magicui"
+    },
+    {
+      "no": 10,
+      "resource": "Fontshare",
+      "canonical": "DESIGN-SITE-022"
+    },
+    {
+      "no": 11,
+      "resource": "Realtime Colors",
+      "canonical": "DESIGN-SITE-023"
+    },
+    {
+      "no": 12,
+      "resource": "Lucide",
+      "canonical": "DESIGN-SITE-025"
+    },
+    {
+      "no": 13,
+      "resource": "SVGL",
+      "canonical": "DESIGN-SITE-026"
+    },
+    {
+      "no": 14,
+      "resource": "Shots",
+      "canonical": "DESIGN-SITE-027"
+    },
+    {
+      "no": 15,
+      "resource": "Cosmos",
+      "canonical": "DESIGN-SITE-028"
+    }
+  ],
+  "new_sources": [
+    {
+      "id": "DESIGN-SITE-032",
+      "name": "ThinkUI",
+      "url": "https://thinkui.xyz/",
+      "license": "SERVER_PROPRIETARY_SUBSCRIPTION; MIT_COMPONENTS_AND_SVG_PER_RESULT; SCREENSHOTS_MIXED_417_OF_1483_PERMISSIVE_REST_STUDY_ONLY",
+      "source_repository": "Dionisselami/thinkui",
+      "source_commit": "b94cbdfbdd30b872288116e4c2c68a4ed0b70e56"
+    },
+    {
+      "id": "DESIGN-SITE-033",
+      "name": "Mobbin",
+      "url": "https://mobbin.com/",
+      "license": "PROPRIETARY_SERVICE; TERMS_LIMIT_ARCHIVE_MIRROR_REHOST_AND_AI_DERIVATIVES; THIRD_PARTY_SCREENSHOTS_NOT_TRANSFERRED"
+    },
+    {
+      "id": "DESIGN-SITE-034",
+      "name": "React Bits",
+      "url": "https://reactbits.dev/",
+      "license": "MIT_WITH_COMMONS_CLAUSE; COMMERCIAL_END_PRODUCT_ALLOWED; NO_SELL_SUBLICENSE_OR_REDISTRIBUTE_COMPONENTS_IN_STANDALONE_BUNDLES_OR_PORTED_LIBRARY",
+      "source_repository": "DavidHDev/react-bits",
+      "source_commit": "701a8acc34f718b305d1ff0cc7d4700df0e1f1c9"
+    }
+  ],
+  "counts": {
+    "app_profiles": 12,
+    "app_source_relations": 22
+  },
+  "relations": [
+    {
+      "app_id": "annas-diary",
+      "source_id": "DESIGN-SITE-032",
+      "source_name": "ThinkUI",
+      "idea": "Compare real calendar/create/share-space states with attributed references before aesthetics are approved",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "external_code_copied": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "annas-diary",
+      "source_id": "DESIGN-SITE-033",
+      "source_name": "Mobbin",
+      "idea": "Cross-check end-to-end onboarding and privacy invitation flow across shipped mobile products",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "external_code_copied": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "DESIGN-SITE-032",
+      "source_name": "ThinkUI",
+      "idea": "Find grounded filters, data-grid and dense control examples before web redesign",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "external_code_copied": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "DESIGN-SITE-034",
+      "source_name": "React Bits",
+      "idea": "Consider subtle stateful indicator and navigation transitions; avoid expensive background shaders",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "external_code_copied": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "cashmate-ai",
+      "source_id": "DESIGN-SITE-032",
+      "source_name": "ThinkUI",
+      "idea": "Study real finance overview, add-expense and paywall flows as research-only",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "external_code_copied": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "cashmate-ai",
+      "source_id": "DESIGN-SITE-033",
+      "source_name": "Mobbin",
+      "idea": "Analyze real transaction entry, insight and subscription screens for sequencing",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "external_code_copied": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "DESIGN-SITE-032",
+      "source_name": "ThinkUI",
+      "idea": "Compare saved recipes and ingredient-step reading flows using evidence, not cloned assets",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "external_code_copied": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "DESIGN-SITE-033",
+      "source_name": "Mobbin",
+      "idea": "Study discover-to-recipe-to-favorites interaction flows",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "external_code_copied": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "DESIGN-SITE-034",
+      "source_name": "React Bits",
+      "idea": "Consider restrained recipe-card entrances on Web, preserving content-first browsing",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "external_code_copied": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "deskland-android",
+      "source_id": "DESIGN-SITE-034",
+      "source_name": "React Bits",
+      "idea": "Study light-motion effects as references only, not GPU-heavy permanent launcher background",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "external_code_copied": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "framelab",
+      "source_id": "DESIGN-SITE-034",
+      "source_name": "React Bits",
+      "idea": "Study image transitions and galleries conceptually; use native image-fit and reduced-motion",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "external_code_copied": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "source_id": "DESIGN-SITE-032",
+      "source_name": "ThinkUI",
+      "idea": "Review genuine capture/editor/empty-state UX with sources and state completeness",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "external_code_copied": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "source_id": "DESIGN-SITE-033",
+      "source_name": "Mobbin",
+      "idea": "Study transitions from note listing to editor to collections and share/export",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "external_code_copied": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "source_id": "DESIGN-SITE-034",
+      "source_name": "React Bits",
+      "idea": "Study animated list, collapsible details and card reveals; adapt natively in Flutter",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "external_code_copied": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "omni-cleaner",
+      "source_id": "DESIGN-SITE-032",
+      "source_name": "ThinkUI",
+      "idea": "Benchmark safe review-delete-trash-undo flows without acquiring third-party screenshots",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "external_code_copied": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "omni-cleaner",
+      "source_id": "DESIGN-SITE-033",
+      "source_name": "Mobbin",
+      "idea": "Inspect full consent, gallery preview, multi-select and deletion confirmation journey",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "external_code_copied": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "trailpath",
+      "source_id": "DESIGN-SITE-032",
+      "source_name": "ThinkUI",
+      "idea": "Review offline navigation and failed-routing states from real interfaces",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "external_code_copied": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "trailpath",
+      "source_id": "DESIGN-SITE-033",
+      "source_name": "Mobbin",
+      "idea": "Benchmark GPS permission, no-route and retry UX from shipped navigation apps",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "external_code_copied": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "DESIGN-SITE-034",
+      "source_name": "React Bits",
+      "idea": "Use selective React button/card/text motion on promotional web pages after motion/performance checks",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "external_code_copied": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "wonderlog",
+      "source_id": "DESIGN-SITE-033",
+      "source_name": "Mobbin",
+      "idea": "Compare travel itinerary, saved trip and map-to-detail journeys",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "external_code_copied": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "DESIGN-SITE-032",
+      "source_name": "ThinkUI",
+      "idea": "Study long-form feed and category browsing hierarchy; protect readability",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "external_code_copied": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "DESIGN-SITE-033",
+      "source_name": "Mobbin",
+      "idea": "Compare discovery/search and editorial story-reading flows",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "external_code_copied": false,
+      "third_party_assets_copied": false
+    }
+  ]
+}
