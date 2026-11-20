@@ -53,7 +53,11 @@
     "design_sources_agents_scroll_2026_11_20_relations": 37,
     "curated_designs_uicolours_2026_11_20_sites": 2,
     "curated_designs_uicolours_2026_11_20_profiles": 13,
-    "curated_designs_uicolours_2026_11_20_relations": 22
+    "curated_designs_uicolours_2026_11_20_relations": 22,
+    "motion_video_18_2026_11_20_unique_sources": 18,
+    "motion_video_18_2026_11_20_app_profiles": 13,
+    "motion_video_18_2026_11_20_relations": 68,
+    "motion_video_18_2026_11_20_assets_copied": 0
   },
   "profiles": [
     {
@@ -257,7 +261,8 @@
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
-        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "diario e ricordi",
@@ -719,6 +724,19 @@
             "DESIGN-SITE-043"
           ],
           "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-001",
+            "MOTION-OSS-002",
+            "MOTION-OSS-005"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
         }
       ],
       "voice_ui_candidates": [
@@ -1760,6 +1778,32 @@
           "code_implemented": false,
           "palette_changed": false
         }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-001",
+          "source_name": "reanimate",
+          "idea": "Study permitted page transitions while preserving approved diary visuals",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-002",
+          "source_name": "motion-design-skill",
+          "idea": "Specify gentle, interruptible diary transitions and reduced-motion modes",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-005",
+          "source_name": "anidoodle",
+          "idea": "Consider original minimal doodle illustrations for diary moments",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -1795,7 +1839,8 @@
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
-        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "repository e branch",
@@ -2177,6 +2222,23 @@
             "DESIGN-SITE-043"
           ],
           "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-001",
+            "MOTION-OSS-006",
+            "MOTION-OSS-007",
+            "MOTION-OSS-013",
+            "MOTION-OSS-015",
+            "MOTION-OSS-016",
+            "MOTION-OSS-017"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
         }
       ],
       "voice_ui_candidates": [
@@ -3347,6 +3409,64 @@
           "code_implemented": false,
           "palette_changed": false
         }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-001",
+          "source_name": "reanimate",
+          "idea": "Study authorized motion reference clips and specify original queue/card transitions for Web",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-006",
+          "source_name": "cinetic",
+          "idea": "Reusable honest product-update film production workflow",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-007",
+          "source_name": "motionmaxxing",
+          "idea": "Shared animation/video QA agent: timing, typography, audio sync and source rights",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-013",
+          "source_name": "effectcraft",
+          "idea": "Assess desktop compositing as a distinct optional content pipeline donor",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-015",
+          "source_name": "librosa",
+          "idea": "Potential producer-side asset pipeline beat analysis",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-016",
+          "source_name": "whisperX",
+          "idea": "Optional private pipeline transcription with consent and model-license checks",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-017",
+          "source_name": "skills",
+          "idea": "Central reusable video production SOP, not automatically free code",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -3384,7 +3504,8 @@
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
-        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "batteria",
@@ -3700,6 +3821,17 @@
             "DESIGN-SITE-043"
           ],
           "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-002"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
         }
       ],
       "motion_design_candidates": [
@@ -4406,6 +4538,16 @@
           "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
           "code_implemented": false,
           "palette_changed": false
+        }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-002",
+          "source_name": "motion-design-skill",
+          "idea": "Restrict charge transitions to low-power meaningful state changes",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
         }
       ]
     },
@@ -5992,7 +6134,8 @@
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
-        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "portafoglio",
@@ -6277,6 +6420,17 @@
             "DESIGN-SITE-043"
           ],
           "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-008"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
         }
       ],
       "motion_design_candidates": [
@@ -6972,6 +7126,16 @@
           "code_implemented": false,
           "palette_changed": false
         }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-008",
+          "source_name": "manim",
+          "idea": "Optional finance education charts, not live app UI",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -7006,7 +7170,8 @@
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
-        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "kawaii-gattini",
@@ -7935,6 +8100,28 @@
             "DESIGN-SITE-043"
           ],
           "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-002",
+            "MOTION-OSS-003",
+            "MOTION-OSS-004",
+            "MOTION-OSS-005",
+            "MOTION-OSS-006",
+            "MOTION-OSS-007",
+            "MOTION-OSS-013",
+            "MOTION-OSS-014",
+            "MOTION-OSS-015",
+            "MOTION-OSS-016",
+            "MOTION-OSS-017",
+            "MOTION-OSS-018"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
         }
       ],
       "voice_ui_candidates": [
@@ -8838,6 +9025,104 @@
           "code_implemented": false,
           "palette_changed": false
         }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-002",
+          "source_name": "motion-design-skill",
+          "idea": "Animate recipe step feedback without disrupting legibility",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-003",
+          "source_name": "mg-styles-15",
+          "idea": "Use motion styles as references for original recipe launch videos",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-004",
+          "source_name": "huashu-art-motion",
+          "idea": "Illustrated cooking explainer idea with original non-copyrighted characters",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-005",
+          "source_name": "anidoodle",
+          "idea": "Create original recipe-process drawings for promotional content",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-006",
+          "source_name": "cinetic",
+          "idea": "Promo recipes and features; no Remotion engine shipped with Flutter",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-007",
+          "source_name": "motionmaxxing",
+          "idea": "Polish cinematic recipe teaser composition with GSAP license checked",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-013",
+          "source_name": "effectcraft",
+          "idea": "Compose licensed recipe launch clips with original art",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-014",
+          "source_name": "openverse",
+          "idea": "Discover permitted background music, not assume free commercial rights",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-015",
+          "source_name": "librosa",
+          "idea": "Align recipe teaser cuts to original or cleared music beats offline",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-016",
+          "source_name": "whisperX",
+          "idea": "Draft multilingual recipe teaser captions with transcript review",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-017",
+          "source_name": "skills",
+          "idea": "External build workflow for approved recipe tutorial teaser videos",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-018",
+          "source_name": "FFmpeg",
+          "idea": "Social video export with 16:9 and 9:16 compositions and subtitle tracks",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -8870,7 +9155,8 @@
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
-        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "desktop",
@@ -9140,6 +9426,21 @@
             "DESIGN-SITE-042"
           ],
           "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-002",
+            "MOTION-OSS-009",
+            "MOTION-OSS-010",
+            "MOTION-OSS-011",
+            "MOTION-OSS-012"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
         }
       ],
       "voice_ui_candidates": [
@@ -9700,6 +10001,48 @@
           "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
           "code_implemented": false,
           "palette_changed": false
+        }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-002",
+          "source_name": "motion-design-skill",
+          "idea": "Document consistent physics/interaction pacing with FPS and battery limits",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-009",
+          "source_name": "blender-skills",
+          "idea": "Prototype own low-poly 3D desk/world assets via desktop Blender, then optimize exports",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-010",
+          "source_name": "three.quarks",
+          "idea": "Evaluate Web particle prototype, only port after GPU and battery evaluation",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-011",
+          "source_name": "react-postprocessing",
+          "idea": "Reference bloom/depth effects without assuming WebGL-to-native interoperability",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-012",
+          "source_name": "tweakpane",
+          "idea": "Developer-only motion/scene parameter adjustment panel, excluded from release",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
         }
       ]
     },
@@ -10305,7 +10648,7 @@
       "name": "Edu_01 Corpo Umano",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -10319,7 +10662,8 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "organi",
@@ -10428,6 +10772,20 @@
             "UIV-110"
           ],
           "note": "2 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-004",
+            "MOTION-OSS-008",
+            "MOTION-OSS-014",
+            "MOTION-OSS-016"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
         }
       ],
       "amicro_six_candidates": [
@@ -10599,6 +10957,40 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-004",
+          "source_name": "huashu-art-motion",
+          "idea": "Consider illustrated body-system explainers subject to content accuracy QA",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-008",
+          "source_name": "manim",
+          "idea": "Illustrate anatomical processes or numerical facts after scientific verification",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-014",
+          "source_name": "openverse",
+          "idea": "Find anatomically accurate, properly licensed educational images",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-016",
+          "source_name": "whisperX",
+          "idea": "Accurate medical-terminology caption checking after forced alignment",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
         }
       ]
     },
@@ -11290,7 +11682,8 @@
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
-        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "fotografia",
@@ -11656,6 +12049,23 @@
             "DESIGN-SITE-043"
           ],
           "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-002",
+            "MOTION-OSS-003",
+            "MOTION-OSS-009",
+            "MOTION-OSS-010",
+            "MOTION-OSS-011",
+            "MOTION-OSS-012",
+            "MOTION-OSS-018"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
         }
       ],
       "voice_ui_candidates": [
@@ -12490,6 +12900,64 @@
           "code_implemented": false,
           "palette_changed": false
         }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-002",
+          "source_name": "motion-design-skill",
+          "idea": "Design non-cropping gallery transitions and stateful feedback",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-003",
+          "source_name": "mg-styles-15",
+          "idea": "Use film frames as references for app promo composition",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-009",
+          "source_name": "blender-skills",
+          "idea": "Produce 3D mockups as design/marketing assets",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-010",
+          "source_name": "three.quarks",
+          "idea": "VFX concept for Web previews, not an APK dependency",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-011",
+          "source_name": "react-postprocessing",
+          "idea": "Reference readable non-destructive media preview effects",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-012",
+          "source_name": "tweakpane",
+          "idea": "Parameter tuning for effects in internal Web prototype",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-018",
+          "source_name": "FFmpeg",
+          "idea": "Assess separate export tooling if scope admits video features, no LGPL/GPL binary in APK without review",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -12529,7 +12997,8 @@
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
-        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "nota",
@@ -13080,6 +13549,17 @@
             "DESIGN-SITE-043"
           ],
           "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-002"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
         }
       ],
       "voice_ui_candidates": [
@@ -14549,6 +15029,16 @@
           "code_implemented": false,
           "palette_changed": false
         }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-002",
+          "source_name": "motion-design-skill",
+          "idea": "Set canvas interaction motion tokens for drag, zoom and tool changes",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -14585,7 +15075,8 @@
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
-        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "galleria",
@@ -15011,6 +15502,19 @@
             "DESIGN-SITE-043"
           ],
           "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-001",
+            "MOTION-OSS-002",
+            "MOTION-OSS-006"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
         }
       ],
       "motion_design_candidates": [
@@ -16050,6 +16554,32 @@
           "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
           "code_implemented": false,
           "palette_changed": false
+        }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-001",
+          "source_name": "reanimate",
+          "idea": "Use frame-analysis as inspiration for native Compose transitions; no copyrighted UI clone",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-002",
+          "source_name": "motion-design-skill",
+          "idea": "Polish Color Bento card and navigation timing, maintaining real state",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-006",
+          "source_name": "cinetic",
+          "idea": "Promo with genuine Color Bento screenshots, not invented product features",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
         }
       ]
     },
@@ -18459,7 +18989,8 @@
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
-        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "strumenti",
@@ -18665,6 +19196,26 @@
             "DESIGN-SITE-043"
           ],
           "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-001",
+            "MOTION-OSS-003",
+            "MOTION-OSS-006",
+            "MOTION-OSS-007",
+            "MOTION-OSS-009",
+            "MOTION-OSS-010",
+            "MOTION-OSS-011",
+            "MOTION-OSS-012",
+            "MOTION-OSS-017",
+            "MOTION-OSS-018"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
         }
       ],
       "motion_design_candidates": [
@@ -19007,6 +19558,88 @@
           "code_implemented": false,
           "palette_changed": false
         }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-001",
+          "source_name": "reanimate",
+          "idea": "Study permitted marketing scroll motion; build a distinct implementation",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-003",
+          "source_name": "mg-styles-15",
+          "idea": "Develop a video trailer art-direction board, not imported clips",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-006",
+          "source_name": "cinetic",
+          "idea": "Create product trailers using authentic captured app screens and cleared soundtracks",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-007",
+          "source_name": "motionmaxxing",
+          "idea": "Apply motion quality gates to video marketing deliverables",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-009",
+          "source_name": "blender-skills",
+          "idea": "Original lightweight 3D campaign assets, with still fallback",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-010",
+          "source_name": "three.quarks",
+          "idea": "Optional Three.js marketing particle accent; reduced motion and performance budget",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-011",
+          "source_name": "react-postprocessing",
+          "idea": "Restrained Web 3D postproduction on standalone landing page",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-012",
+          "source_name": "tweakpane",
+          "idea": "Debug slider controls for motion prototypes; no production leak",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-017",
+          "source_name": "skills",
+          "idea": "Agent-assisted video generation with Remotion engine license gate",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-018",
+          "source_name": "FFmpeg",
+          "idea": "Offline video mux/encode for promotional clips and web publishing",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -19041,7 +19674,8 @@
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
-        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "viaggio",
@@ -19458,6 +20092,19 @@
             "DESIGN-SITE-043"
           ],
           "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-004",
+            "MOTION-OSS-005",
+            "MOTION-OSS-014"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
         }
       ],
       "voice_ui_candidates": [
@@ -20414,6 +21061,32 @@
           "code_implemented": false,
           "palette_changed": false
         }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-004",
+          "source_name": "huashu-art-motion",
+          "idea": "Explore animated travel painting reels from user-owned photos",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-005",
+          "source_name": "anidoodle",
+          "idea": "Animated personal travel sketch postcard idea",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-014",
+          "source_name": "openverse",
+          "idea": "User-opt-in discovery of media for travel storytelling subject to rights and privacy",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -20453,7 +21126,8 @@
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
-        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "calendario",
@@ -20959,6 +21633,27 @@
             "DESIGN-SITE-043"
           ],
           "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-002",
+            "MOTION-OSS-003",
+            "MOTION-OSS-004",
+            "MOTION-OSS-005",
+            "MOTION-OSS-008",
+            "MOTION-OSS-013",
+            "MOTION-OSS-014",
+            "MOTION-OSS-015",
+            "MOTION-OSS-016",
+            "MOTION-OSS-017",
+            "MOTION-OSS-018"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
         }
       ],
       "voice_ui_candidates": [
@@ -22229,6 +22924,96 @@
           "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
           "code_implemented": false,
           "palette_changed": false
+        }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-002",
+          "source_name": "motion-design-skill",
+          "idea": "Use subtle content transitions to aid comprehension of daily stories",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-003",
+          "source_name": "mg-styles-15",
+          "idea": "Explore constrained educational promo video style vocabulary",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-004",
+          "source_name": "huashu-art-motion",
+          "idea": "Create original painted educational reels for selectively verified history stories",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-005",
+          "source_name": "anidoodle",
+          "idea": "Optional small original line-art clips for educational stories",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-008",
+          "source_name": "manim",
+          "idea": "Animated graphs for verified calendar/awareness data",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-013",
+          "source_name": "effectcraft",
+          "idea": "Possible batch production of awareness reels; test editor maturity",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-014",
+          "source_name": "openverse",
+          "idea": "Search open audio/illustrations with per-asset provenance and CC license check",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-015",
+          "source_name": "librosa",
+          "idea": "Generate beat markers for informational reels without runtime audio stack",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-016",
+          "source_name": "whisperX",
+          "idea": "Transcribe and align spoken educational video captions, checking every locale",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-017",
+          "source_name": "skills",
+          "idea": "Production of localization-aware explainer clips with caption QA",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-018",
+          "source_name": "FFmpeg",
+          "idea": "Validate story reel outputs for codec, duration, caption and rights",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
         }
       ]
     }

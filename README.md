@@ -294,3 +294,8 @@ Su 15 link ricevuti: **12 risorse gia' presenti saltate senza nuovo audit**, **3
 ## Nuovi siti design — Curated Designs e UIColours (20/11/2026)
 
 **2 nuove fonti** (`DESIGN-SITE-042` BestSaaSWebDesigns [Curated Designs](https://bestsaaswebdesigns.com/curated-designs), `DESIGN-SITE-043` [UIColours](https://uicolours.com/)). [Audit, limiti e diritti](sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md) · [matrice 22 idee / 13 app](UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.md) · [catalogo JSON](sources/DESIGN_RESEARCH_SITES.json). Curated Designs usa reference da post X con diritti dei creatori; UIColours offre gallery, brand colours, OKLCH e Theme Builder Figma JSON/CSS ma nessun tema delle app è stato cambiato. **REFERENCE_ONLY / PROPOSED_ONLY**, nessun asset di terzi importato o nuovo UID.
+
+
+## Motion video / VFX — lotto 18 fonti (20/11/2026)
+
+**18 nuove fonti** originali (17 GitHub repos + API Openverse con repo ufficiale), pin README/commit, LICENSE e diritti per asset. [Audit dettagliato](sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md) · [Registro SHA](sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json) · [Pipeline motion UX vs video](sources/MOTION_VIDEO_18_PIPELINE_2026-11-20.md) · [Matrice 68 idee su 13 app](UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.md). Solo reference/knowledge; nessuna skill installata, materiale terzo copiato o UID/consumer cambiato. Licenza Remotion speciale, FFmpeg LGPL/GPL secondo build, Openverse media CC per asset, GSAP non-Apache: applicare gate specifici.

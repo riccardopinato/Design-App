@@ -168,3 +168,21 @@ Queste fonti non autorizzano il riutilizzo di screenshot o font senza licenza. M
 - **UIColours** (`DESIGN-SITE-043`): Export candidate CSS variables/JSON design tokens for Web identity consistency. **PROPOSED_ONLY**.
 
 Le palette e i mock-up gia' approvati hanno priorita'; la fonte non concede il riuso automatico di asset di brand/post X e non garantisce esportazione diretta in Flutter. Nessuna UI implementata o tema consumer modificato.
+
+
+## Motion UX, animazioni e video — lotto 18 fonti 20/11/2026
+
+[Audit licenze e compatibilita'](../sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md) · [Matrice](../UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.md) · [Pipeline](../sources/MOTION_VIDEO_18_PIPELINE_2026-11-20.md) · [Manifest SHA](../sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json).
+
+- **reanimate** (`MOTION-OSS-001`): Study permitted marketing scroll motion; build a distinct implementation. **PROPOSED_ONLY**.
+- **mg-styles-15** (`MOTION-OSS-003`): Develop a video trailer art-direction board, not imported clips. **PROPOSED_ONLY**.
+- **cinetic** (`MOTION-OSS-006`): Create product trailers using authentic captured app screens and cleared soundtracks. **PROPOSED_ONLY**.
+- **motionmaxxing** (`MOTION-OSS-007`): Apply motion quality gates to video marketing deliverables. **PROPOSED_ONLY**.
+- **blender-skills** (`MOTION-OSS-009`): Original lightweight 3D campaign assets, with still fallback. **PROPOSED_ONLY**.
+- **three.quarks** (`MOTION-OSS-010`): Optional Three.js marketing particle accent; reduced motion and performance budget. **PROPOSED_ONLY**.
+- **react-postprocessing** (`MOTION-OSS-011`): Restrained Web 3D postproduction on standalone landing page. **PROPOSED_ONLY**.
+- **tweakpane** (`MOTION-OSS-012`): Debug slider controls for motion prototypes; no production leak. **PROPOSED_ONLY**.
+- **skills** (`MOTION-OSS-017`): Agent-assisted video generation with Remotion engine license gate. **PROPOSED_ONLY**.
+- **FFmpeg** (`MOTION-OSS-018`): Offline video mux/encode for promotional clips and web publishing. **PROPOSED_ONLY**.
+
+**Vincoli:** il media render resta separato dal runtime APK; Flutter/Compose devono usare il donor/framework nativo prima di TSX/JavaScript; licenza dell'asset e del runtime va verificata singolarmente. Nessuna modifica a Product Bible, UI, database, funzioni, codice, build o screenshot del consumer. Priorita' estetica agli asset e mock-up gia' scelti nel Design-App; a11y, reduced motion, FPS/batteria e privacy da validare in una eventuale implementazione.

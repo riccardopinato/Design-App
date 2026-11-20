@@ -293,3 +293,18 @@ Queste fonti non autorizzano il riutilizzo di screenshot o font senza licenza. M
 - **UIColours** (`DESIGN-SITE-043`): Inspect image-chrome and toolbar colour hierarchy ensuring photo content remains dominant. **PROPOSED_ONLY**.
 
 Le palette e i mock-up gia' approvati hanno priorita'; la fonte non concede il riuso automatico di asset di brand/post X e non garantisce esportazione diretta in Flutter. Nessuna UI implementata o tema consumer modificato.
+
+
+## Motion UX, animazioni e video — lotto 18 fonti 20/11/2026
+
+[Audit licenze e compatibilita'](../sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md) · [Matrice](../UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.md) · [Pipeline](../sources/MOTION_VIDEO_18_PIPELINE_2026-11-20.md) · [Manifest SHA](../sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json).
+
+- **motion-design-skill** (`MOTION-OSS-002`): Design non-cropping gallery transitions and stateful feedback. **PROPOSED_ONLY**.
+- **mg-styles-15** (`MOTION-OSS-003`): Use film frames as references for app promo composition. **PROPOSED_ONLY**.
+- **blender-skills** (`MOTION-OSS-009`): Produce 3D mockups as design/marketing assets. **PROPOSED_ONLY**.
+- **three.quarks** (`MOTION-OSS-010`): VFX concept for Web previews, not an APK dependency. **PROPOSED_ONLY**.
+- **react-postprocessing** (`MOTION-OSS-011`): Reference readable non-destructive media preview effects. **PROPOSED_ONLY**.
+- **tweakpane** (`MOTION-OSS-012`): Parameter tuning for effects in internal Web prototype. **PROPOSED_ONLY**.
+- **FFmpeg** (`MOTION-OSS-018`): Assess separate export tooling if scope admits video features, no LGPL/GPL binary in APK without review. **PROPOSED_ONLY**.
+
+**Vincoli:** il media render resta separato dal runtime APK; Flutter/Compose devono usare il donor/framework nativo prima di TSX/JavaScript; licenza dell'asset e del runtime va verificata singolarmente. Nessuna modifica a Product Bible, UI, database, funzioni, codice, build o screenshot del consumer. Priorita' estetica agli asset e mock-up gia' scelti nel Design-App; a11y, reduced motion, FPS/batteria e privacy da validare in una eventuale implementazione.

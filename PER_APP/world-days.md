@@ -345,3 +345,22 @@ Queste fonti non autorizzano il riutilizzo di screenshot o font senza licenza. M
 - **UIColours** (`DESIGN-SITE-043`): Review existing story palette for contrast and colour consistency, keeping current chosen app colours. **PROPOSED_ONLY**.
 
 Le palette e i mock-up gia' approvati hanno priorita'; la fonte non concede il riuso automatico di asset di brand/post X e non garantisce esportazione diretta in Flutter. Nessuna UI implementata o tema consumer modificato.
+
+
+## Motion UX, animazioni e video — lotto 18 fonti 20/11/2026
+
+[Audit licenze e compatibilita'](../sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md) · [Matrice](../UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.md) · [Pipeline](../sources/MOTION_VIDEO_18_PIPELINE_2026-11-20.md) · [Manifest SHA](../sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json).
+
+- **motion-design-skill** (`MOTION-OSS-002`): Use subtle content transitions to aid comprehension of daily stories. **PROPOSED_ONLY**.
+- **mg-styles-15** (`MOTION-OSS-003`): Explore constrained educational promo video style vocabulary. **PROPOSED_ONLY**.
+- **huashu-art-motion** (`MOTION-OSS-004`): Create original painted educational reels for selectively verified history stories. **PROPOSED_ONLY**.
+- **anidoodle** (`MOTION-OSS-005`): Optional small original line-art clips for educational stories. **PROPOSED_ONLY**.
+- **manim** (`MOTION-OSS-008`): Animated graphs for verified calendar/awareness data. **PROPOSED_ONLY**.
+- **effectcraft** (`MOTION-OSS-013`): Possible batch production of awareness reels; test editor maturity. **PROPOSED_ONLY**.
+- **openverse** (`MOTION-OSS-014`): Search open audio/illustrations with per-asset provenance and CC license check. **PROPOSED_ONLY**.
+- **librosa** (`MOTION-OSS-015`): Generate beat markers for informational reels without runtime audio stack. **PROPOSED_ONLY**.
+- **whisperX** (`MOTION-OSS-016`): Transcribe and align spoken educational video captions, checking every locale. **PROPOSED_ONLY**.
+- **skills** (`MOTION-OSS-017`): Production of localization-aware explainer clips with caption QA. **PROPOSED_ONLY**.
+- **FFmpeg** (`MOTION-OSS-018`): Validate story reel outputs for codec, duration, caption and rights. **PROPOSED_ONLY**.
+
+**Vincoli:** il media render resta separato dal runtime APK; Flutter/Compose devono usare il donor/framework nativo prima di TSX/JavaScript; licenza dell'asset e del runtime va verificata singolarmente. Nessuna modifica a Product Bible, UI, database, funzioni, codice, build o screenshot del consumer. Priorita' estetica agli asset e mock-up gia' scelti nel Design-App; a11y, reduced motion, FPS/batteria e privacy da validare in una eventuale implementazione.

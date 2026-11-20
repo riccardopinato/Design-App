@@ -284,3 +284,14 @@ Queste fonti non autorizzano il riutilizzo di screenshot o font senza licenza. M
 - **UIColours** (`DESIGN-SITE-043`): Develop mapped theme tokens for travel cards and daylight/dark outdoor readability. **PROPOSED_ONLY**.
 
 Le palette e i mock-up gia' approvati hanno priorita'; la fonte non concede il riuso automatico di asset di brand/post X e non garantisce esportazione diretta in Flutter. Nessuna UI implementata o tema consumer modificato.
+
+
+## Motion UX, animazioni e video — lotto 18 fonti 20/11/2026
+
+[Audit licenze e compatibilita'](../sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md) · [Matrice](../UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.md) · [Pipeline](../sources/MOTION_VIDEO_18_PIPELINE_2026-11-20.md) · [Manifest SHA](../sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json).
+
+- **huashu-art-motion** (`MOTION-OSS-004`): Explore animated travel painting reels from user-owned photos. **PROPOSED_ONLY**.
+- **anidoodle** (`MOTION-OSS-005`): Animated personal travel sketch postcard idea. **PROPOSED_ONLY**.
+- **openverse** (`MOTION-OSS-014`): User-opt-in discovery of media for travel storytelling subject to rights and privacy. **PROPOSED_ONLY**.
+
+**Vincoli:** il media render resta separato dal runtime APK; Flutter/Compose devono usare il donor/framework nativo prima di TSX/JavaScript; licenza dell'asset e del runtime va verificata singolarmente. Nessuna modifica a Product Bible, UI, database, funzioni, codice, build o screenshot del consumer. Priorita' estetica agli asset e mock-up gia' scelti nel Design-App; a11y, reduced motion, FPS/batteria e privacy da validare in una eventuale implementazione.

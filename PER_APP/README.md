@@ -117,3 +117,8 @@ Originali HTML/CSS aggiunti: **11**; catalogo **111/111**; Favorites **108/108**
 ## Curated Designs e UIColours — 20 novembre 2026
 
 **13 dossier aggiornati, 22 idee PROPOSED_ONLY**, 2 fonti uniche non duplicate. [Matrice](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.md) · [Registro JSON](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json) · [Audit](../sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md). Palette già selezionate rimangono prevalenti; zero implementazioni consumer o esportazioni di token effettuate.
+
+
+## Motion e produzione video — 20/11/2026
+
+**13 profili, 68 proposte `PROPOSED_ONLY`, 18 fonti** mappate in [matrice](../UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.md), [JSON](../UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json) e [audit](../sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md). Motion nativa separata da pipeline di video promo/educativi; nessuna app modificata e nessun codice/assets terzi copiati. Preferenze visive gia' approvate prioritarie.

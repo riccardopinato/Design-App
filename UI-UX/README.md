@@ -145,3 +145,8 @@ Dal lotto di 15 link **12 erano gia' nel Design-App** e non sono stati rivalutat
 ## Sorgenti visual e design-token 20/11/2026
 
 [BestSaaSWebDesigns Curated Designs](https://bestsaaswebdesigns.com/curated-designs) + [UIColours](https://uicolours.com/) registrate con [audit](../sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md) e [mappa per app](./CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.md). **Curated Designs** e' una galleria di post X (categorie Web & App, 3D, Animation, Illustration) diversa dalla home SaaS e dal relativo MCP; nessun diritto di ripubblicazione. **UIColours** documenta ruoli cromatici, sistemi OKLCH, anteprime e export CSS/Figma; non rende automaticamente il tema pronto in Flutter. `PROPOSED_ONLY`, nessuna modifica a design già approvati.
+
+
+## Motion e VFX da 18 fonti GitHub / API — 20/11/2026
+
+[Audit e licenze](../sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md) · [Matrice 68 relazioni per 13 app](./MOTION_VIDEO_18_APP_MAP_2026-11-20.md) · [JSON](./MOTION_VIDEO_18_APP_MAP_2026-11-20.json) · [Pipeline](../sources/MOTION_VIDEO_18_PIPELINE_2026-11-20.md). Principi LottieFiles, video motion skill, Three.js VFX e produzione offline differenziati da Flutter/Compose; nessun nuovo UID, no source COPY_READY e no app code.

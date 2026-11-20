@@ -56,9 +56,56 @@ if watermelon_intake != 1:
 uiverse_intake = len(re.findall(r"^    batch: UIVERSE_9_2026_11_18$", oss, re.MULTILINE))
 if uiverse_intake != 1:
     fail(f"Uiverse intake must be present exactly once: {uiverse_intake}")
-expected_source_count = 95 + ruixen_intake + 2 * dock_intake + 7 * visual_intake + 10 * skills_intake + 2 * voice_intake + 2 * motion_intake + watermelon_intake + uiverse_intake
+motion_video_intake = len(re.findall(r"^  - batch_id: MOTION_VIDEO_18_2026_11_20$", oss, re.MULTILINE))
+if motion_video_intake != 1:
+    fail(f"Expected one 2026-11-20 motion/video 18-source intake, found {motion_video_intake}")
+expected_source_count = 95 + ruixen_intake + 2 * dock_intake + 7 * visual_intake + 10 * skills_intake + 2 * voice_intake + 2 * motion_intake + watermelon_intake + uiverse_intake + 18 * motion_video_intake
 if len(repos) != expected_source_count or len(set(repos)) != expected_source_count:
     fail(f"expected {expected_source_count} unique OSS design sources, found {len(repos)} / {len(set(repos))} unique")
+motion_manifest_path = ROOT / "sources" / "MOTION_VIDEO_18_REGISTRY_2026-11-20.json"
+motion_app_map_path = ROOT / "UI-UX" / "MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+if not all(p.is_file() for p in (
+    motion_manifest_path,
+    motion_app_map_path,
+    ROOT / "sources" / "MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+    ROOT / "sources" / "MOTION_VIDEO_18_PIPELINE_2026-11-20.md",
+    ROOT / "UI-UX" / "MOTION_VIDEO_18_APP_MAP_2026-11-20.md",
+)):
+    fail("Motion 18-source intake audit, manifest, pipeline or mapping files missing")
+motion_manifest = json.loads(motion_manifest_path.read_text(encoding="utf-8"))
+motion_sources = motion_manifest.get("records", [])
+if (len(motion_sources) != 18
+        or len({x.get("id") for x in motion_sources}) != 18
+        or len({x.get("repository") for x in motion_sources}) != 18
+        or sum(bool(x.get("license_blob_sha")) for x in motion_sources) != 17):
+    fail("Motion 18-source manifest count, uniqueness or license provenance inconsistent")
+for item in motion_sources:
+    if (repos.count(item.get("repository")) != 1
+            or not re.fullmatch(r"[0-9a-f]{40}", str(item.get("source_commit", "")))
+            or not re.fullmatch(r"[0-9a-f]{40}", str(item.get("readme_blob_sha", "")))
+            or item.get("maturity") != "REFERENCE"
+            or item.get("code_imported") is not False):
+        fail(f"Motion source missing OSS ref/provenance or misclassified: {item.get('id')}")
+motion_app_map = json.loads(motion_app_map_path.read_text(encoding="utf-8"))
+motion_edges = motion_app_map.get("relations", [])
+motion_app_ids = {x.get("app_id") for x in motion_edges}
+if (len(motion_edges) != 68 or len(motion_app_ids) != 13
+        or len({(x.get("app_id"), x.get("source_id")) for x in motion_edges}) != 68
+        or any(x.get("source_id") not in {z["id"] for z in motion_sources} or x.get("state") != "PROPOSED_ONLY" for x in motion_edges)):
+    fail("Motion 18-source cross-app relation count/provenance inconsistent")
+motion_profiles_path = ROOT / "PER_APP" / "REGISTRO_APP_DESIGN.json"
+motion_profiles = {
+    x["id"]: x
+    for x in json.loads(motion_profiles_path.read_text(encoding="utf-8")).get("profiles", [])
+}
+for app_id in motion_app_ids:
+    expected = {x["source_id"] for x in motion_edges if x["app_id"] == app_id}
+    profile = motion_profiles.get(app_id, {})
+    observed = {x.get("source_id") for x in profile.get("motion_video_18_2026_11_20", [])}
+    dossier = ROOT / "PER_APP" / (app_id + ".md")
+    if (not profile or observed != expected or not dossier.is_file()
+            or "MOTION_VIDEO_18_APP_MAP_2026-11-20" not in dossier.read_text(encoding="utf-8")):
+        fail(f"Motion 18-source per-app dossier/relations mismatch: {app_id}")
 if repos.count("uiverse-io/galaxy") != 1:
     fail("Uiverse Galaxy source must be present once")
 uiverse_dir = ROOT / "UI-UX" / "UIVERSE"

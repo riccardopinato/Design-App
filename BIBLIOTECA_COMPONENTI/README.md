@@ -150,3 +150,8 @@ Il [file Figma Bento Widget Templates](../UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_202
 ## Fonti NON tradotte in UID — 20/11/2026
 
 [Curated Designs e UIColours](../sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md) sono **fonti di ispirazione e generazione palette**, non codice UI Flutter acquisito/validato. Nessun UID nuovo, nessun componente, foto, screenshot da X, file design di brand, CSS o Figma JSON copiato. Le idee per consumer sono in [matrice](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.md); per i colori servono ancora export esplicito, proprietà d'uso, contrast WCAG e test reali. Non incrementare i conteggi source-archived.
+
+
+## Fonti motion/video 20/11/2026 — catalogo sorgenti, NON UID
+
+**18 nuove fonti** pin SHA in [registro](../sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json) e [OSS registry](../registry/OSS_DESIGN_SOURCES.yaml). Le skill, tool di produzione, FFmpeg, API Openverse e librerie Web 3D non sono componenti Flutter/Compose verificati. Nessun UID assegnato, nessun codice sorgente copiato o asset vendorizzato; `remotion-dev/skills` non ha LICENSE root individuata, mentre altri tool impongono gate commerciali, LGPL/GPL, CC e GSAP. [Audit](../sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md).
