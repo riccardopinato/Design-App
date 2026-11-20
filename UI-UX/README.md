@@ -125,3 +125,43 @@ Originali HTML/CSS aggiunti: **43**; catalogo **100/100**; Favorites **97/97**; 
 ## Aggiornamento recupero pubblico (2026-11-18)
 
 Originali HTML/CSS aggiunti: **11**; catalogo **111/111**; Favorites **108/108**; codice non recuperato **0**. Provenienza e checksum in [RECUPERO_API](../UI-UX/UIVERSE/FAVORITES/RECUPERO_API_2026_11_18.json). Le cifre precedenti documentano lo stato storico prima di questo recupero. Nessuna adozione o test su app consumer.
+
+
+## Design discovery 20 novembre 2026 — 3 nuovi siti + Bento Figma
+
+Nuove sorgenti: **Best Designs on X**, **Figma Community Mobile Apps** e **ReUI** (ID `DESIGN-SITE-029..031`), piu' [file specifico Figma Bento Widget Templates](./FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json) con nodi originali verificati. [Matrice 31 idee ↔ 12 app](./DESIGN_SOURCES_4_APP_MAP_2026-11-20.md) · [Audit](../sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md). Niente copia asset o source code, niente widget Flutter installato. Figma Community file-level rights e ReUI Pro restano gate indipendenti.
+
+
+## ThinkUI, Mobbin, React Bits — ingest selettivo 20/11/2026
+
+Dal lotto di 15 link **12 erano gia' nel Design-App** e non sono stati rivalutati; [audit solo dei 3 nuovi](../sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md), [matrice per app](./UI_SOURCES_3_APP_MAP_2026-11-20.md). ThinkUI e' un MCP di reference a pagamento; Mobbin documenta flussi reali ma limita la copia di screenshot; React Bits fornisce microinterazioni React con licenza MIT **piu' Commons Clause**. Nessun consumer modificato. Design-App non archivia materiali di terzi non autorizzati.
+
+
+## Web e agent design sources 20/11/2026
+
+[Audit 7 nuovi domini + 2 deep link esistenti](../sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md) · [Matrice 37 associazioni su 11 app](./DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.md) · [Sottopagine ReUI e shadcn](../sources/DESIGN_EXISTING_SITES_DEEP_LINKS_2026-11-20.json). *Snapblocks* e' in DISCOVERY non verificato, `t.co/rJcbTbEz28` irrisolto; non assumere asset o codice pronti; per Flutter solo reinterpretazioni native autorizzate e testate.
+
+
+## Sorgenti visual e design-token 20/11/2026
+
+[BestSaaSWebDesigns Curated Designs](https://bestsaaswebdesigns.com/curated-designs) + [UIColours](https://uicolours.com/) registrate con [audit](../sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md) e [mappa per app](./CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.md). **Curated Designs** e' una galleria di post X (categorie Web & App, 3D, Animation, Illustration) diversa dalla home SaaS e dal relativo MCP; nessun diritto di ripubblicazione. **UIColours** documenta ruoli cromatici, sistemi OKLCH, anteprime e export CSS/Figma; non rende automaticamente il tema pronto in Flutter. `PROPOSED_ONLY`, nessuna modifica a design già approvati.
+
+
+## Motion e VFX da 18 fonti GitHub / API — 20/11/2026
+
+[Audit e licenze](../sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md) · [Matrice 68 relazioni per 13 app](./MOTION_VIDEO_18_APP_MAP_2026-11-20.md) · [JSON](./MOTION_VIDEO_18_APP_MAP_2026-11-20.json) · [Pipeline](../sources/MOTION_VIDEO_18_PIPELINE_2026-11-20.md). Principi LottieFiles, video motion skill, Three.js VFX e produzione offline differenziati da Flutter/Compose; nessun nuovo UID, no source COPY_READY e no app code.
+
+
+## Web landing source Jiro Build — 20/11/2026
+
+[Audit delle 15 fonti (13 duplicate)](../sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md) · [Matrice Jiro Library/Builder, 18 proposte](./JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.md) · [JSON](./JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json). Template premium proprietari, Builder hosting a crediti, ZIP export sui piani a pagamento. `DESIGN-SITE-044` con sottopagina `DESIGN-SUBL-003`, non catalogo Flutter, no UID.
+
+
+## Motionary: animazioni iOS e strumenti UI — 20/11/2026
+
+[839 effetti SwiftUI, 15 categorie e 85 famiglie](https://alanfeiyuchang.github.io/motionary-ios-animations/) come reference prioritaria per micro-interazioni; [catalogazione, licenze e deduplica di 26 link](../sources/MOTIONARY_26_AUDIT_2026-11-20.md) · [20 proposte per 10 app](./MOTIONARY_26_APP_MAP_2026-11-20.md). No port automatico Flutter/Compose, no animazioni di progresso fittizie. Rare UI catalogata con Commons Clause+attribution; agent/browser/video tools restano tooling, non design runtime.
+
+
+## Store screenshot, Web section e AI explainer — Florent stack 20/11/2026
+
+Fonti: [Shipframe/Oversight/Mobbin/Fontshare](../sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md) · [26 idee per 12 app](./FLORIENT_STACK_5_APP_MAP_2026-11-20.md). Shipframe serve alle schede store, Oversight Sections alle landing e Oversight Videos ai video marketing; non sono librerie Flutter/Compose. Mobbin e Fontshare sono già nell'indice. Controllare licenza degli output/font e dati reali prima di riuso; PROPOSED_ONLY.

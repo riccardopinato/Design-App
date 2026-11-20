@@ -189,3 +189,74 @@ Stato: **PROPOSED_ONLY**; nessuna nuova funzione/login è autorizzata da questi 
 **UIV-108**: solo ispirazione pixel-art generica. Non riusare personaggi, sprite, trade dress o marchi Nintendo senza licenza separata.
 
 [Confronto 97→108](../UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json) · [Analisi dei nuovi 11](../UI-UX/UIVERSE/FAVORITES/ANALISI_REFRESH_11_2026-11-18.json).
+
+
+## Fonti di design — 20/11/2026
+
+[Audit](../sources/DESIGN_SITES_15_AUDIT_2026-11-20.md) · [Matrice](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.md) · [registro](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json).
+
+- **60FPS** (`DESIGN-SITE-021`): Contextual bottom sheets, card transitions, long press — **PROPOSED_ONLY**.
+
+Nessun asset, font, logo o codice importato. Sono richiesti approvazione estetica, Product Bible, licenza e QA sulle schermate reali.
+
+
+## Nuove reference UI — 20/11/2026 (deduplica 15 → 3)
+
+[Audit selettivo](../sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md) · [Matrice per-app](../UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.md) · [Registro](../UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json).
+
+- **React Bits** (`DESIGN-SITE-034`): Study light-motion effects as references only, not GPU-heavy permanent launcher background — **PROPOSED_ONLY**.
+
+Queste fonti non autorizzano il riutilizzo di screenshot o font senza licenza. Mobbin vieta l'archiviazione/mirroring dei contenuti; React Bits usa MIT + Commons Clause; ThinkUI richiede attivazione MCP a pagamento. Nessuna app o feature implementata da questo intake.
+
+
+## Fonti AI agent/Web/motion — 20/11/2026 (7 nuove, 2 approfondimenti)
+
+[Audit](../sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md) · [Matrice per-app](../UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.md) · [Deep link ReUI/shadcn](../sources/DESIGN_EXISTING_SITES_DEEP_LINKS_2026-11-20.json).
+
+- **Scroll Shaders** (`DESIGN-SITE-036`): Visual inspiration; no permanent GPU shader without device FPS/battery evidence — **PROPOSED_ONLY**.
+- **AI Canvas** (`DESIGN-SITE-039`): Agent presence indicator derived from real status, not fake animation — **PROPOSED_ONLY**.
+- **ReUI — Agent Ops Pro Blocks** (`DESIGN-SUBL-001`): Agent step trace and approval workflow as architecture reference only — **PROPOSED_ONLY**.
+- **shadcn/ui — AI Elements** (`DESIGN-SUBL-002`): Agent status and confirmation UX references for native implementation — **PROPOSED_ONLY**.
+
+**Gate:** premium/proprietary/non-verified sources not imported, React/JS is not Dart, animations must respect reduced-motion and measurable state, GPU/performance/battery gates for shaders; per-app Product Bible and visual decisions before consumer implementation. The t.co short URL is unresolved. No code/tests of this consumer performed.
+
+
+## Nuove referenze visuali e cromatiche — 20/11/2026
+
+[Audit fonte e licenze](../sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md) · [Matrice app](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.md) · [Registro JSON](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json).
+
+- **BestSaaSWebDesigns — Curated Designs** (`DESIGN-SITE-042`): Review 3D spatial scene and motion concepts as references only; maintain device performance gating. **PROPOSED_ONLY**.
+
+Le palette e i mock-up gia' approvati hanno priorita'; la fonte non concede il riuso automatico di asset di brand/post X e non garantisce esportazione diretta in Flutter. Nessuna UI implementata o tema consumer modificato.
+
+
+## Motion UX, animazioni e video — lotto 18 fonti 20/11/2026
+
+[Audit licenze e compatibilita'](../sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md) · [Matrice](../UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.md) · [Pipeline](../sources/MOTION_VIDEO_18_PIPELINE_2026-11-20.md) · [Manifest SHA](../sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json).
+
+- **motion-design-skill** (`MOTION-OSS-002`): Document consistent physics/interaction pacing with FPS and battery limits. **PROPOSED_ONLY**.
+- **blender-skills** (`MOTION-OSS-009`): Prototype own low-poly 3D desk/world assets via desktop Blender, then optimize exports. **PROPOSED_ONLY**.
+- **three.quarks** (`MOTION-OSS-010`): Evaluate Web particle prototype, only port after GPU and battery evaluation. **PROPOSED_ONLY**.
+- **react-postprocessing** (`MOTION-OSS-011`): Reference bloom/depth effects without assuming WebGL-to-native interoperability. **PROPOSED_ONLY**.
+- **tweakpane** (`MOTION-OSS-012`): Developer-only motion/scene parameter adjustment panel, excluded from release. **PROPOSED_ONLY**.
+
+**Vincoli:** il media render resta separato dal runtime APK; Flutter/Compose devono usare il donor/framework nativo prima di TSX/JavaScript; licenza dell'asset e del runtime va verificata singolarmente. Nessuna modifica a Product Bible, UI, database, funzioni, codice, build o screenshot del consumer. Priorita' estetica agli asset e mock-up gia' scelti nel Design-App; a11y, reduced motion, FPS/batteria e privacy da validare in una eventuale implementazione.
+
+
+## Motionary + 26 nuove fonti — 20/11/2026
+
+[Audit e licenze](../sources/MOTIONARY_26_AUDIT_2026-11-20.md) · [Matrice 20 proposte / 10 app](../UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md). Le fonti nuove non sostituiscono mock-up già approvati, Product Bible, Golden o design token proprietari.
+
+- **STYLE26-01** (P1): Gesture spring/drag in home, solo se misurate su device — **PROPOSED_ONLY**.
+- **STYLE26-24** (P2): Confronto token UI del pannello impostazioni; niente componenti React nel launcher — **PROPOSED_ONLY**.
+
+**Confini:** 0 componenti SwiftUI/TSX importati nel consumer; per Flutter/Compose serve implementazione compatibile e collaudo. Le licenze dei siti e delle risorse premium/media restano distinte. Motionary MIT richiede notice; Rare UI vieta redistribuzione di un port/libreria di componenti e impone attribuzione in prodotto quando applicabile. Nessun codice, dato, permesso, APK, design scelto o runtime consumer è stato modificato.
+
+
+## Design stack Florent — 5 link (20/11/2026)
+
+[Audit licenze e fonti](../sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md) · [Mappa per-app](../UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md). Nessun cambiamento automatico dell'identità visiva approvata.
+
+- **STACK5-05 · P2**: Video promozionale scene del launcher con riprese reali o ricostruzione dichiarata. **PROPOSED_ONLY**.
+
+**Gate:** Shipframe screenshot autentici senza dati personali, Oversight solo reference o uso licenziato in progetto, Mobbin niente mirror di screenshot terzi, Fontshare licenza per famiglia; nessun file/asset copiato in questo lotto. Prima di applicare in app: Product Bible, codice consumer, test QA e approvazione.

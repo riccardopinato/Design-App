@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "batch_id": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+  "status": "REFERENCE_ONLY",
+  "factory_baseline": "riccardopinato/App-Factory-Core@4df94ac3b3ea22a2323634fe83c3c7770fe3b835",
+  "design_baseline": "riccardopinato/Design-App@638c5cfb06066981416b6098c321dfaf3209b635",
+  "source_of_truth": "riccardopinato/Design-App",
+  "sources": [
+    {
+      "id": "DESIGN-SITE-029",
+      "name": "Best Designs on X",
+      "license": "THIRD_PARTY_X_POSTS_LICENSE_PER_CREATOR; NO_AUTOMATIC_COPY"
+    },
+    {
+      "id": "DESIGN-SITE-030",
+      "name": "Figma Community — Mobile Apps",
+      "license": "FREE_COMMUNITY_FILES_CC_BY_4_0_BY_FIGMA_RULES; PAID_SEPARATE; BRAND_ASSETS_SEPARATE"
+    },
+    {
+      "id": "DESIGN-SITE-031",
+      "name": "ReUI",
+      "license": "MIT_FREE_SOURCE_REPOSITORY_CLAIM; PAID_PRO_ASSETS_EXCLUDED; VERIFY_DEPENDENCIES_PER_COMPONENT"
+    },
+    {
+      "id": "FIGMA-BENTO-001",
+      "name": "Bento Widget Templates (Community)",
+      "parent_site": "DESIGN-SITE-030",
+      "license": "FIGMA_COMMUNITY_RESOURCE_LICENSE_TYPE_UNVERIFIED_FOR_THIS_SPECIFIC_FILE; THIRD_PARTY_BRAND_ASSETS_SEPARATE"
+    }
+  ],
+  "counts": {
+    "new_sites": 3,
+    "figma_files": 1,
+    "app_profiles": 12,
+    "relations": 31
+  },
+  "relations": [
+    {
+      "app_id": "annas-diary",
+      "source_id": "DESIGN-SITE-029",
+      "source_name": "Best Designs on X",
+      "idea": "Curate editorial diary layouts from credited original creators; do not copy X imagery",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "annas-diary",
+      "source_id": "DESIGN-SITE-030",
+      "source_name": "Figma Community Mobile Apps",
+      "idea": "Study mobile journal/calendar multi-screen kits and reusable navigation patterns",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "annas-diary",
+      "source_id": "FIGMA-BENTO-001",
+      "source_name": "Bento Widget Templates",
+      "idea": "Personalizable Il tuo spazio grid with compact ricordi, giorno, diario cards; preserve approved editorial identity",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "DESIGN-SITE-029",
+      "source_name": "Best Designs on X",
+      "idea": "Monitor strong current dashboard layouts but assess real density and accessibility",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "DESIGN-SITE-031",
+      "source_name": "ReUI",
+      "idea": "Evaluate free Data Grid/Kanban/Gantt/Filters patterns for repo, blockers, roadmap and CI dashboard",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "FIGMA-BENTO-001",
+      "source_name": "Bento Widget Templates",
+      "idea": "Project/Golden/CI KPI tiles of different weights, with real values and links to details",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "battery-guard",
+      "source_id": "FIGMA-BENTO-001",
+      "source_name": "Bento Widget Templates",
+      "idea": "Simple charge status and trend tiles; use only measured battery data",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "cashmate-ai",
+      "source_id": "DESIGN-SITE-030",
+      "source_name": "Figma Community Mobile Apps",
+      "idea": "Study legible finance dashboard mobile design systems",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "cashmate-ai",
+      "source_id": "DESIGN-SITE-031",
+      "source_name": "ReUI",
+      "idea": "Study dense analytics tables, chart and filters with semantic states",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "cashmate-ai",
+      "source_id": "FIGMA-BENTO-001",
+      "source_name": "Bento Widget Templates",
+      "idea": "At-a-glance spend/budget/category stats with accessible semantic colors",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "DESIGN-SITE-029",
+      "source_name": "Best Designs on X",
+      "idea": "Collect food/illustration art-direction references with creator attribution",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "DESIGN-SITE-030",
+      "source_name": "Figma Community Mobile Apps",
+      "idea": "Study image-first recipe browsing and saved collections",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "FIGMA-BENTO-001",
+      "source_name": "Bento Widget Templates",
+      "idea": "Recipe discovery and favorites tiles with images and prep time",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "focussense",
+      "source_id": "FIGMA-BENTO-001",
+      "source_name": "Bento Widget Templates",
+      "idea": "Focus score and session trend tiles with real sensor-derived values",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "framelab",
+      "source_id": "DESIGN-SITE-029",
+      "source_name": "Best Designs on X",
+      "idea": "Study photography-driven compositions and creative controls from original design posts",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "framelab",
+      "source_id": "DESIGN-SITE-030",
+      "source_name": "Figma Community Mobile Apps",
+      "idea": "Study photo browser, editor/toolbars and image-focused mobile galleries",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "framelab",
+      "source_id": "FIGMA-BENTO-001",
+      "source_name": "Bento Widget Templates",
+      "idea": "Image-led photo collage, palette and recent exports rather than identical dashboard cards",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "source_id": "DESIGN-SITE-030",
+      "source_name": "Figma Community Mobile Apps",
+      "idea": "Study modular note editor, canvas and productivity mobile flow templates",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "source_id": "DESIGN-SITE-031",
+      "source_name": "ReUI",
+      "idea": "Study task Kanban and rich filters as Web/UX references, not Flutter-ready code",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "source_id": "FIGMA-BENTO-001",
+      "source_name": "Bento Widget Templates",
+      "idea": "Workspace bento of recent notes, projects, favorites, tasks and actionable capture",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "omni-cleaner",
+      "source_id": "DESIGN-SITE-030",
+      "source_name": "Figma Community Mobile Apps",
+      "idea": "Study storage cleaner permission, empty-state and confirmation flow patterns",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "omni-cleaner",
+      "source_id": "DESIGN-SITE-031",
+      "source_name": "ReUI",
+      "idea": "Adapt data table, filter and safe multi-step destructive action UX only if relevant",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "omni-cleaner",
+      "source_id": "FIGMA-BENTO-001",
+      "source_name": "Bento Widget Templates",
+      "idea": "Storage and gallery overview tiles showing real scan results; respect safe delete and empty states",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "DESIGN-SITE-031",
+      "source_name": "ReUI",
+      "idea": "Study copy-and-own React sidebar, forms, stepper, sortable and data grid for Web products",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "wonderlog",
+      "source_id": "DESIGN-SITE-029",
+      "source_name": "Best Designs on X",
+      "idea": "Discover travel postcards, timelines and destination imagery presentation",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "wonderlog",
+      "source_id": "DESIGN-SITE-030",
+      "source_name": "Figma Community Mobile Apps",
+      "idea": "Study trip timeline and map/filter mobile layouts",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "wonderlog",
+      "source_id": "FIGMA-BENTO-001",
+      "source_name": "Bento Widget Templates",
+      "idea": "Trip summary, photo collage, next waypoint, offline state tiles",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "DESIGN-SITE-029",
+      "source_name": "Best Designs on X",
+      "idea": "Discover visually distinctive editorial storytelling patterns for historic daily content",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "DESIGN-SITE-030",
+      "source_name": "Figma Community Mobile Apps",
+      "idea": "Study card/news-feed layouts with readable long-form content",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "DESIGN-SITE-031",
+      "source_name": "ReUI",
+      "idea": "Study searchable content catalog grid, pagination and filters",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "FIGMA-BENTO-001",
+      "source_name": "Bento Widget Templates",
+      "idea": "Daily story tile, discovery themes, upcoming observances and history summaries",
+      "status": "PROPOSED_ONLY",
+      "consumer_code_implemented": false,
+      "licensed_assets_copied": false
+    }
+  ]
+}

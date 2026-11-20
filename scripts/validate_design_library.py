@@ -56,9 +56,108 @@ if watermelon_intake != 1:
 uiverse_intake = len(re.findall(r"^    batch: UIVERSE_9_2026_11_18$", oss, re.MULTILINE))
 if uiverse_intake != 1:
     fail(f"Uiverse intake must be present exactly once: {uiverse_intake}")
-expected_source_count = 95 + ruixen_intake + 2 * dock_intake + 7 * visual_intake + 10 * skills_intake + 2 * voice_intake + 2 * motion_intake + watermelon_intake + uiverse_intake
+motion_video_intake = len(re.findall(r"^  - batch_id: MOTION_VIDEO_18_2026_11_20$", oss, re.MULTILINE))
+if motion_video_intake != 1:
+    fail(f"Expected one 2026-11-20 motion/video 18-source intake, found {motion_video_intake}")
+motionary_26_intake = len(re.findall(r"^  - batch_id: MOTIONARY_26_LINKS_2026_11_20$", oss, re.MULTILINE))
+if motionary_26_intake != 1:
+    fail(f"Expected exactly one Motionary/26-link intake, found {motionary_26_intake}")
+expected_source_count = 95 + ruixen_intake + 2 * dock_intake + 7 * visual_intake + 10 * skills_intake + 2 * voice_intake + 2 * motion_intake + watermelon_intake + uiverse_intake + 18 * motion_video_intake + 15 * motionary_26_intake
 if len(repos) != expected_source_count or len(set(repos)) != expected_source_count:
     fail(f"expected {expected_source_count} unique OSS design sources, found {len(repos)} / {len(set(repos))} unique")
+# New curated Motionary/26-link intake: link registry, canonical dedup, and per-app evidence.
+motionary_path = ROOT / "sources" / "MOTIONARY_26_REGISTRY_2026-11-20.json"
+motionary_app_path = ROOT / "UI-UX" / "MOTIONARY_26_APP_MAP_2026-11-20.json"
+if not all(p.is_file() for p in (
+    motionary_path,
+    motionary_app_path,
+    ROOT / "sources" / "MOTIONARY_26_AUDIT_2026-11-20.md",
+    ROOT / "UI-UX" / "MOTIONARY_26_APP_MAP_2026-11-20.md",
+)):
+    fail("Motionary intake audit/registry/app map absent")
+motionary = json.loads(motionary_path.read_text(encoding="utf-8"))
+motionary_items = motionary.get("source_items", [])
+motionary_new = [x for x in motionary_items if str(x.get("state", "")).startswith("NEW")]
+motionary_old = [x for x in motionary_items if str(x.get("state", "")).startswith("EXISTING")]
+if (len(motionary_items) != 26
+        or len(motionary_new) != 15
+        or len(motionary_old) != 11
+        or motionary.get("links_submitted") != 26
+        or motionary.get("unique_new_sources") != 15
+        or motionary.get("existing_links_deduplicated") != 11
+        or len({x.get("id") for x in motionary_items}) != 26
+        or any(x.get("code_archived") is not False or x.get("consumer_implemented") is not False for x in motionary_items)):
+    fail("Motionary 26-source intake count, identity or no-code boundary drift")
+for item in motionary_new:
+    ref = item.get("source_ref")
+    if (repos.count(item.get("repository")) != 1
+            or (ref is not None and not re.fullmatch(r"[a-f0-9]{40}", str(ref)))):
+        fail(f"Motionary new OSS source missing, duplicated or malformed: {item.get('id')}")
+motionary_map = json.loads(motionary_app_path.read_text(encoding="utf-8"))
+motionary_edges = motionary_map.get("proposals", [])
+motionary_apps = {x.get("app") for x in motionary_edges}
+if (len(motionary_edges) != 20 or len(motionary_apps) != 10
+        or len({(x.get("app"), x.get("source_id")) for x in motionary_edges}) != 20
+        or any(x.get("status") != "PROPOSED_ONLY"
+               or x.get("source_id") not in {y.get("id") for y in motionary_items}
+               for x in motionary_edges)):
+    fail("Motionary per-app relation count or source identity drift")
+motionary_profiles = {
+    x.get("id"): x for x in json.loads((ROOT / "PER_APP" / "REGISTRO_APP_DESIGN.json").read_text(encoding="utf-8")).get("profiles", [])
+}
+for app_id in motionary_apps:
+    profile = motionary_profiles.get(app_id, {})
+    doc = ROOT / "PER_APP" / (app_id + ".md")
+    expected = {x.get("source_id") for x in motionary_edges if x.get("app") == app_id}
+    records = [x for x in profile.get("changelog", []) if x.get("type") == "MOTIONARY_26_2026_11_20"]
+    if (not profile or len(records) != 1 or set(records[0].get("source_ids", [])) != expected
+            or not doc.is_file() or "MOTIONARY_26_APP_MAP_2026-11-20" not in doc.read_text(encoding="utf-8")):
+        fail(f"Motionary per-app provenance/dossier drift: {app_id}")
+
+motion_manifest_path = ROOT / "sources" / "MOTION_VIDEO_18_REGISTRY_2026-11-20.json"
+motion_app_map_path = ROOT / "UI-UX" / "MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+if not all(p.is_file() for p in (
+    motion_manifest_path,
+    motion_app_map_path,
+    ROOT / "sources" / "MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+    ROOT / "sources" / "MOTION_VIDEO_18_PIPELINE_2026-11-20.md",
+    ROOT / "UI-UX" / "MOTION_VIDEO_18_APP_MAP_2026-11-20.md",
+)):
+    fail("Motion 18-source intake audit, manifest, pipeline or mapping files missing")
+motion_manifest = json.loads(motion_manifest_path.read_text(encoding="utf-8"))
+motion_sources = motion_manifest.get("records", [])
+if (len(motion_sources) != 18
+        or len({x.get("id") for x in motion_sources}) != 18
+        or len({x.get("repository") for x in motion_sources}) != 18
+        or sum(bool(x.get("license_blob_sha")) for x in motion_sources) != 17):
+    fail("Motion 18-source manifest count, uniqueness or license provenance inconsistent")
+for item in motion_sources:
+    if (repos.count(item.get("repository")) != 1
+            or not re.fullmatch(r"[0-9a-f]{40}", str(item.get("source_commit", "")))
+            or not re.fullmatch(r"[0-9a-f]{40}", str(item.get("readme_blob_sha", "")))
+            or item.get("maturity") != "REFERENCE"
+            or item.get("code_imported") is not False):
+        fail(f"Motion source missing OSS ref/provenance or misclassified: {item.get('id')}")
+motion_app_map = json.loads(motion_app_map_path.read_text(encoding="utf-8"))
+motion_edges = motion_app_map.get("relations", [])
+motion_app_ids = {x.get("app_id") for x in motion_edges}
+if (len(motion_edges) != 68 or len(motion_app_ids) != 13
+        or len({(x.get("app_id"), x.get("source_id")) for x in motion_edges}) != 68
+        or any(x.get("source_id") not in {z["id"] for z in motion_sources} or x.get("state") != "PROPOSED_ONLY" for x in motion_edges)):
+    fail("Motion 18-source cross-app relation count/provenance inconsistent")
+motion_profiles_path = ROOT / "PER_APP" / "REGISTRO_APP_DESIGN.json"
+motion_profiles = {
+    x["id"]: x
+    for x in json.loads(motion_profiles_path.read_text(encoding="utf-8")).get("profiles", [])
+}
+for app_id in motion_app_ids:
+    expected = {x["source_id"] for x in motion_edges if x["app_id"] == app_id}
+    profile = motion_profiles.get(app_id, {})
+    observed = {x.get("source_id") for x in profile.get("motion_video_18_2026_11_20", [])}
+    dossier = ROOT / "PER_APP" / (app_id + ".md")
+    if (not profile or observed != expected or not dossier.is_file()
+            or "MOTION_VIDEO_18_APP_MAP_2026-11-20" not in dossier.read_text(encoding="utf-8")):
+        fail(f"Motion 18-source per-app dossier/relations mismatch: {app_id}")
 if repos.count("uiverse-io/galaxy") != 1:
     fail("Uiverse Galaxy source must be present once")
 uiverse_dir = ROOT / "UI-UX" / "UIVERSE"
@@ -653,6 +752,70 @@ if len({s.get("id") for s in site_items}) != len(site_items):
     fail("duplicate design discovery site ID")
 if len({s.get("url") for s in site_items}) != len(site_items):
     fail("duplicate design discovery URL")
+# Florent 5-link reference-only intake: two canonical providers, two reused, two provider subpages.
+florient_manifest_path = ROOT / "sources" / "FLORIENT_STACK_5_REGISTRY_2026-11-20.json"
+florient_map_path = ROOT / "UI-UX" / "FLORIENT_STACK_5_APP_MAP_2026-11-20.json"
+if not all(p.is_file() for p in (
+    florient_manifest_path,
+    florient_map_path,
+    ROOT / "sources" / "FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+    ROOT / "UI-UX" / "FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+)):
+    fail("Florent design stack intake missing documents")
+florient_manifest = json.loads(florient_manifest_path.read_text(encoding="utf-8"))
+florient_links = florient_manifest.get("reference_links", [])
+if (florient_manifest.get("submitted_urls") != 5
+        or florient_manifest.get("unique_providers") != 4
+        or florient_manifest.get("new_providers") != 2
+        or len(florient_links) != 5
+        or len({x.get("id") for x in florient_links}) != 5
+        or len({x.get("url") for x in florient_links}) != 5
+        or sum(x.get("state") == "ALREADY_CATALOGUED" for x in florient_links) != 2
+        or florient_manifest.get("no_uid_added") is not True
+        or florient_manifest.get("no_source_copied") is not True
+        or florient_manifest.get("no_consumer_changes") is not True):
+    fail("Florent source count, canonical dedup or no-source boundary drift")
+site_index = {x.get("id"): x for x in site_items}
+for site_id, expected_url in (
+    ("DESIGN-SITE-022", "https://fontshare.com/"),
+    ("DESIGN-SITE-033", "https://mobbin.com/"),
+    ("DESIGN-SITE-047", "https://getshipframe.com/"),
+    ("DESIGN-SITE-048", "https://supply.madebyoversight.com/"),
+):
+    if site_index.get(site_id, {}).get("url") != expected_url:
+        fail(f"Florent canonical site ID or URL drift: {site_id}")
+oversight_subs = {x.get("id"): x for x in site_index["DESIGN-SITE-048"].get("subpages", [])}
+for subid, url in (
+    ("DESIGN-SUBL-004", "https://supply.madebyoversight.com/sections"),
+    ("DESIGN-SUBL-005", "https://supply.madebyoversight.com/videos"),
+):
+    if oversight_subs.get(subid, {}).get("url") != url or oversight_subs[subid].get("no_new_site_id") is not True:
+        fail(f"Florent Oversight subpage drift: {subid}")
+florient_map = json.loads(florient_map_path.read_text(encoding="utf-8"))
+florient_edges = florient_map.get("proposals", [])
+florient_apps = {x.get("app") for x in florient_edges}
+if (len(florient_edges) != 26 or len(florient_apps) != 12
+        or len({(x.get("app"), x.get("source_id")) for x in florient_edges}) != 26
+        or florient_map.get("proposed_relations") != 26
+        or florient_map.get("app_profiles") != 12
+        or any(x.get("source_id") not in {item.get("id") for item in florient_links}
+               or x.get("status") != "PROPOSED_ONLY"
+               or x.get("consumer_implemented") is not False for x in florient_edges)):
+    fail("Florent app crosswalk counts, status or identities drift")
+florient_profiles = {
+    x.get("id"): x
+    for x in json.loads((ROOT / "PER_APP" / "REGISTRO_APP_DESIGN.json").read_text(encoding="utf-8")).get("profiles", [])
+}
+for app_id in florient_apps:
+    profile = florient_profiles.get(app_id, {})
+    expected = {x["source_id"] for x in florient_edges if x.get("app") == app_id}
+    records = [x for x in profile.get("changelog", []) if x.get("type") == "FLORIENT_STACK_5_2026_11_20"]
+    dossier = ROOT / "PER_APP" / (app_id + ".md")
+    if (not profile or len(records) != 1 or set(records[0].get("source_ids", [])) != expected
+            or not dossier.is_file()
+            or "FLORIENT_STACK_5_APP_MAP_2026-11-20" not in dossier.read_text(encoding="utf-8")):
+        fail(f"Florent per-app dossier or provenance drift: {app_id}")
+
 devlibraries = next((s for s in site_items if s.get("id") == "DESIGN-SITE-001"), None)
 if not devlibraries or devlibraries.get("url") != "https://devlibraries.com/":
     fail("DevLibraries not registered as design discovery directory")

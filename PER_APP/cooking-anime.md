@@ -267,3 +267,113 @@ Ogni riferimento resta `PROPOSED_ONLY`: prima del riuso servono Product Bible, r
 **PROPOSED_ONLY · fonte OSS MIT** [felipebasurto/unslop-ui @ cd891160453f26aaacc569bad96a8d10d595076d](https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d). [Audit e limiti](../sources/UNSLOP_UI_AUDIT_2026-11-19.md) · [matrice di associazione](../UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json).
 
 **Proposta:** Ricette e schede image-first: esaminare badge, aiutanti didascalici e gerarchia; mantenere ingredienti, allergeni e traduzioni corretti. Le U1–U20 sono controlli diagnostici e alias degli AT-01…AT-64, non un nuovo tema. Riutilizzo **ADAPT_NATIVE / SOURCE_REVIEW**; nessun automatismo rimuove elementi, nessun consumer certificato da questo dossier. Product Bible e reference preferite restano prioritarie. Stato visivo/fisico: **NOT_VERIFIED**.
+
+
+## Fonti di design — 20/11/2026
+
+[Audit](../sources/DESIGN_SITES_15_AUDIT_2026-11-20.md) · [Matrice](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.md) · [registro](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json).
+
+- **Recent Design** (`DESIGN-SITE-018`): App icon and typography moodboards — **PROPOSED_ONLY**.
+- **Landdding** (`DESIGN-SITE-019`): Sector-specific landing layouts for SaaS, utility and food — **PROPOSED_ONLY**.
+- **Font in Logo** (`DESIGN-SITE-020`): Match editorial title typography to product tone — **PROPOSED_ONLY**.
+- **Fontshare** (`DESIGN-SITE-022`): Pair serif editorial headings with neutral readable UI fonts — **PROPOSED_ONLY**.
+- **Coolors** (`DESIGN-SITE-024`): Generate candidate 5-color palettes, then test in actual screen — **PROPOSED_ONLY**.
+- **Shots** (`DESIGN-SITE-027`): Create marketing phone/device mockups from own QA screenshots — **PROPOSED_ONLY**.
+- **Cosmos** (`DESIGN-SITE-028`): Moodboard collections and search by color/similarity — **PROPOSED_ONLY**.
+
+Nessun asset, font, logo o codice importato. Sono richiesti approvazione estetica, Product Bible, licenza e QA sulle schermate reali.
+
+
+## Design external sources 20/11/2026 — Figma, ReUI, Best Designs on X
+
+[Audit e prove](../sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md) · [Matrice per app](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.md) · [Catalogo JSON](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json).
+
+- **Best Designs on X** (`DESIGN-SITE-029`): Collect food/illustration art-direction references with creator attribution. **PROPOSED_ONLY**.
+- **Figma Community Mobile Apps** (`DESIGN-SITE-030`): Study image-first recipe browsing and saved collections. **PROPOSED_ONLY**.
+- **Bento Widget Templates** (`FIGMA-BENTO-001`): Recipe discovery and favorites tiles with images and prep time. **PROPOSED_ONLY**.
+
+[File Figma Bento con nodi e varianti verificati](../UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json). **Bento indica tile di interfaccia, non un vero widget Android.**
+
+Licenze degli asset e approvazione estetica per-app obbligatorie prima di qualsiasi codice o risorsa distribuita. Proposte non implementate, nessun nuovo Golden.
+
+
+## Nuove reference UI — 20/11/2026 (deduplica 15 → 3)
+
+[Audit selettivo](../sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md) · [Matrice per-app](../UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.md) · [Registro](../UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json).
+
+- **ThinkUI** (`DESIGN-SITE-032`): Compare saved recipes and ingredient-step reading flows using evidence, not cloned assets — **PROPOSED_ONLY**.
+- **Mobbin** (`DESIGN-SITE-033`): Study discover-to-recipe-to-favorites interaction flows — **PROPOSED_ONLY**.
+- **React Bits** (`DESIGN-SITE-034`): Consider restrained recipe-card entrances on Web, preserving content-first browsing — **PROPOSED_ONLY**.
+
+Queste fonti non autorizzano il riutilizzo di screenshot o font senza licenza. Mobbin vieta l'archiviazione/mirroring dei contenuti; React Bits usa MIT + Commons Clause; ThinkUI richiede attivazione MCP a pagamento. Nessuna app o feature implementata da questo intake.
+
+
+## Fonti AI agent/Web/motion — 20/11/2026 (7 nuove, 2 approfondimenti)
+
+[Audit](../sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md) · [Matrice per-app](../UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.md) · [Deep link ReUI/shadcn](../sources/DESIGN_EXISTING_SITES_DEEP_LINKS_2026-11-20.json).
+
+- **Scrolltide** (`DESIGN-SITE-035`): Editorial Web launch page visual inspiration — **PROPOSED_ONLY**.
+- **Aceternity UI** (`DESIGN-SITE-040`): Editorial recipe tiles and light image transitions — **PROPOSED_ONLY**.
+
+**Gate:** premium/proprietary/non-verified sources not imported, React/JS is not Dart, animations must respect reduced-motion and measurable state, GPU/performance/battery gates for shaders; per-app Product Bible and visual decisions before consumer implementation. The t.co short URL is unresolved. No code/tests of this consumer performed.
+
+
+## Nuove referenze visuali e cromatiche — 20/11/2026
+
+[Audit fonte e licenze](../sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md) · [Matrice app](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.md) · [Registro JSON](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json).
+
+- **BestSaaSWebDesigns — Curated Designs** (`DESIGN-SITE-042`): Collect food-inspired illustration composition and hero treatments for app promotion. **PROPOSED_ONLY**.
+- **UIColours** (`DESIGN-SITE-043`): Test recipe category palette and card text contrast, without copying food-brand identities. **PROPOSED_ONLY**.
+
+Le palette e i mock-up gia' approvati hanno priorita'; la fonte non concede il riuso automatico di asset di brand/post X e non garantisce esportazione diretta in Flutter. Nessuna UI implementata o tema consumer modificato.
+
+
+## Motion UX, animazioni e video — lotto 18 fonti 20/11/2026
+
+[Audit licenze e compatibilita'](../sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md) · [Matrice](../UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.md) · [Pipeline](../sources/MOTION_VIDEO_18_PIPELINE_2026-11-20.md) · [Manifest SHA](../sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json).
+
+- **motion-design-skill** (`MOTION-OSS-002`): Animate recipe step feedback without disrupting legibility. **PROPOSED_ONLY**.
+- **mg-styles-15** (`MOTION-OSS-003`): Use motion styles as references for original recipe launch videos. **PROPOSED_ONLY**.
+- **huashu-art-motion** (`MOTION-OSS-004`): Illustrated cooking explainer idea with original non-copyrighted characters. **PROPOSED_ONLY**.
+- **anidoodle** (`MOTION-OSS-005`): Create original recipe-process drawings for promotional content. **PROPOSED_ONLY**.
+- **cinetic** (`MOTION-OSS-006`): Promo recipes and features; no Remotion engine shipped with Flutter. **PROPOSED_ONLY**.
+- **motionmaxxing** (`MOTION-OSS-007`): Polish cinematic recipe teaser composition with GSAP license checked. **PROPOSED_ONLY**.
+- **effectcraft** (`MOTION-OSS-013`): Compose licensed recipe launch clips with original art. **PROPOSED_ONLY**.
+- **openverse** (`MOTION-OSS-014`): Discover permitted background music, not assume free commercial rights. **PROPOSED_ONLY**.
+- **librosa** (`MOTION-OSS-015`): Align recipe teaser cuts to original or cleared music beats offline. **PROPOSED_ONLY**.
+- **whisperX** (`MOTION-OSS-016`): Draft multilingual recipe teaser captions with transcript review. **PROPOSED_ONLY**.
+- **skills** (`MOTION-OSS-017`): External build workflow for approved recipe tutorial teaser videos. **PROPOSED_ONLY**.
+- **FFmpeg** (`MOTION-OSS-018`): Social video export with 16:9 and 9:16 compositions and subtitle tracks. **PROPOSED_ONLY**.
+
+**Vincoli:** il media render resta separato dal runtime APK; Flutter/Compose devono usare il donor/framework nativo prima di TSX/JavaScript; licenza dell'asset e del runtime va verificata singolarmente. Nessuna modifica a Product Bible, UI, database, funzioni, codice, build o screenshot del consumer. Priorita' estetica agli asset e mock-up gia' scelti nel Design-App; a11y, reduced motion, FPS/batteria e privacy da validare in una eventuale implementazione.
+
+
+## Jiro Build e Builder — fonti Web per marketing (20/11/2026)
+
+[Audit, deduplica e licenze](../sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md) · [Matrice](../UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.md) · [Mappa JSON](../UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json).
+
+- **Jiro Prompt Library** (`DESIGN-SITE-044`): Prepare landing page layout ideas for recipe search, localized value proposition and app store entry points. **PROPOSED_ONLY**.
+- **Jiro Builder** (`DESIGN-SUBL-003`): Test a separate marketing microsite only; do not import Jiro output as mobile recipe code. **PROPOSED_ONLY**.
+
+**Gate:** Jiro e' una libreria proprietaria di design Web/React e un servizio esterno di hosting; nessun widget Flutter/Compose importato e nessun piano acquistato. I Termini consentono i progetti propri/clienti ma vietano ricollezionare o rivendere componenti/template standalone, il che preclude il copy del catalogo nella nostra libreria. Il Builder Free prevede limiti crediti e inattivita' e l'esportazione ZIP richiede un piano. Gli asset e mock-up preferiti gia' approvati in Design-App prevalgono; nessun codice consumer, server, auth, dati, palette, release o design deciso è stato modificato.
+
+
+## Motionary + 26 nuove fonti — 20/11/2026
+
+[Audit e licenze](../sources/MOTIONARY_26_AUDIT_2026-11-20.md) · [Matrice 20 proposte / 10 app](../UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md). Le fonti nuove non sostituiscono mock-up già approvati, Product Bible, Golden o design token proprietari.
+
+- **STYLE26-01** (P1): Step ricetta: avanzamento reale e transizioni tra passaggi — **PROPOSED_ONLY**.
+- **STYLE26-11** (P2): Video promo ricette prodotti offline; engine web separato dall'APK e verifica licenza — **PROPOSED_ONLY**.
+
+**Confini:** 0 componenti SwiftUI/TSX importati nel consumer; per Flutter/Compose serve implementazione compatibile e collaudo. Le licenze dei siti e delle risorse premium/media restano distinte. Motionary MIT richiede notice; Rare UI vieta redistribuzione di un port/libreria di componenti e impone attribuzione in prodotto quando applicabile. Nessun codice, dato, permesso, APK, design scelto o runtime consumer è stato modificato.
+
+
+## Design stack Florent — 5 link (20/11/2026)
+
+[Audit licenze e fonti](../sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md) · [Mappa per-app](../UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md). Nessun cambiamento automatico dell'identità visiva approvata.
+
+- **STACK5-01 · P1**: Screenshot Google Play verticali con immagini genuine delle ricette e didascalie multilingua. **PROPOSED_ONLY**.
+- **STACK5-05 · P2**: Video esplicativo breve sul percorso ricetta, ingredienti e passaggi; stile coerente, risorse originali. **PROPOSED_ONLY**.
+- **STACK5-04 · P2**: Valutare font editoriali leggibili per schede promozionali, senza cambiare la UI approvata. **PROPOSED_ONLY**.
+
+**Gate:** Shipframe screenshot autentici senza dati personali, Oversight solo reference o uso licenziato in progetto, Mobbin niente mirror di screenshot terzi, Fontshare licenza per famiglia; nessun file/asset copiato in questo lotto. Prima di applicare in app: Product Bible, codice consumer, test QA e approvazione.

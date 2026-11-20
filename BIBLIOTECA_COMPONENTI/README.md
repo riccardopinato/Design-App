@@ -128,3 +128,35 @@ python BIBLIOTECA_COMPONENTI/validate.py
 - Nessuna installazione nelle app o Golden: il riuso richiede controllo package, tema, font, SDK, dimensione APK e test nel consumer.
 
 **Audit dipendenze Forui:** [compatibilità Flutter, font e dipendenze degli esempi](./sorgenti/forui/COMPATIBILITY_2026-11-19.md).
+
+
+## Source discovery — ReUI e Figma Bento (20/11/2026)
+
+[ReUI](https://reui.io/) e' una nuova fonte con componenti gratuiti React/shadcn (repository `keenthemes/reui`, licenza MIT dichiarata per il software free); Pro blocks/icons rimangono a pagamento. Gli elementi **non sono automaticamente sorgenti Flutter**, dunque per questo intake **nessun UID assegnato, nessun TSX copiato e nessuna promozione COPY_READY**. Si potranno aggiungere singoli componenti con UID solo dopo aver recuperato il codice esatto, metadata, dipendenze, licenza, prova visiva e validazione.
+
+Il [file Figma Bento Widget Templates](../UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json) contiene varianti visive individuate per dimensione e nodi Figma; resta **REFERENCE_ONLY** (non un package Dart/Android AppWidget). Catalogazione per-app in [matrice](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.md), licenze degli elementi branded da verificare. Non incrementare il conteggio dei componenti source-archived per queste sole reference.
+
+
+## Fonti da valutare, NON componenti archiviati — 20/11/2026
+
+[ThinkUI / Mobbin / React Bits — audit originale](../sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md). Catalogati nel registro siti senza nuove voci nel `CATALOGO.json` o nuovi UID: ThinkUI e' un servizio MCP proprietario a pagamento, Mobbin e' una reference commerciale con restrizioni di ri-pubblicazione e React Bits permette prodotti commerciali ma **vieta redistribuire componenti come libreria, bundle o port**, ai sensi della MIT+Commons Clause. Non e' stato copiato alcun TSX/SVG/screenshot. I 12 duplicati sono soltanto riconciliati tramite ID gia' esistenti.
+
+
+## Sources NON archiviati come componenti — 20/11/2026
+
+[AI Canvas, Aceternity, Chakra UI, Scroll Shaders/Scrolltide, Navbar Gallery, Snapblocks e due sotto-pagine AI agent](../sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md) sono state classificate come fonti e non come nuovo codice UID. AI Canvas ha codice **MIT solo per i componenti free**, con icone e premium a condizioni separate; ReUI Agents contiene **blocchi Pro**; shader e prompt Scroll* richiedono licenza commerciale per codice/asset, Snapblocks non ha ancora fonte primaria verificabile. **Nessun UID o sorgente TSX copiato, zero incremento conteggi source-archived.** [Matrice app](../UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.md).
+
+
+## Fonti NON tradotte in UID — 20/11/2026
+
+[Curated Designs e UIColours](../sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md) sono **fonti di ispirazione e generazione palette**, non codice UI Flutter acquisito/validato. Nessun UID nuovo, nessun componente, foto, screenshot da X, file design di brand, CSS o Figma JSON copiato. Le idee per consumer sono in [matrice](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.md); per i colori servono ancora export esplicito, proprietà d'uso, contrast WCAG e test reali. Non incrementare i conteggi source-archived.
+
+
+## Fonti motion/video 20/11/2026 — catalogo sorgenti, NON UID
+
+**18 nuove fonti** pin SHA in [registro](../sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json) e [OSS registry](../registry/OSS_DESIGN_SOURCES.yaml). Le skill, tool di produzione, FFmpeg, API Openverse e librerie Web 3D non sono componenti Flutter/Compose verificati. Nessun UID assegnato, nessun codice sorgente copiato o asset vendorizzato; `remotion-dev/skills` non ha LICENSE root individuata, mentre altri tool impongono gate commerciali, LGPL/GPL, CC e GSAP. [Audit](../sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md).
+
+
+## Jiro Build — sorgenti NON archiviate (20/11/2026)
+
+[Jiro Design Prompt Library e Builder](../sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md) sono catalogati **solo come siti/reference**: le condizioni d'uso vietano utilizzare i loro template/componenti per una libreria concorrente o redistribuirli standalone. Non importare prompt/source premium nel catalogo canonical UID, non etichettare React o output AI come Dart/Flutter COPY_READY. [Mappa utilizzi](../UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.md): 18 idee su 9 app, tutte PROPOSED_ONLY. Nessuna UID, snapshot, asset o build da Jiro.

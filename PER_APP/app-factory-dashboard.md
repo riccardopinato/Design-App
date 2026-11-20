@@ -248,3 +248,101 @@ Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze
 Ogni riferimento resta `PROPOSED_ONLY`: prima del riuso servono Product Bible, revisione estetica, UI/accessibilità, licenza e test nel consumer.
 
 [Confronto 97→108](../UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json) · [Analisi tecnica degli 11](../UI-UX/UIVERSE/FAVORITES/ANALISI_REFRESH_11_2026-11-18.json).
+
+
+## Fonti esterne aggiunte — 20/11/2026 (15 URL, 14 servizi unici)
+
+Intake visivo documentale: [audit](../sources/DESIGN_SITES_15_AUDIT_2026-11-20.md) · [matrice per app](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.md) · [registro JSON](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json).
+
+- **Motion Sites** (`DESIGN-SITE-015`): Animated hero with reduced-motion fallback. **Stato: PROPOSED_ONLY**.
+- **Motion Sites Studio** (`DESIGN-SITE-016`): AI-assisted website prototype comparison. **Stato: PROPOSED_ONLY**.
+- **Land-book** (`DESIGN-SITE-017`): Pricing-page hierarchy with distinct comparison tiers. **Stato: PROPOSED_ONLY**.
+- **Landdding** (`DESIGN-SITE-019`): Sector-specific landing layouts for SaaS, utility and food. **Stato: PROPOSED_ONLY**.
+- **Fontshare** (`DESIGN-SITE-022`): Pair serif editorial headings with neutral readable UI fonts. **Stato: PROPOSED_ONLY**.
+- **Lucide** (`DESIGN-SITE-025`): Consistent stroke and semantic icon naming. **Stato: PROPOSED_ONLY**.
+- **SVGL** (`DESIGN-SITE-026`): Find official provider logos for legitimate integration badges. **Stato: PROPOSED_ONLY**.
+
+I pattern richiedono decisione di prodotto, valutazione della licenza e QA sulla schermata target. Nessun componente, font, foto o logo di terzi e' stato copiato; nessuna funzione consumer risulta implementata da questo intake.
+
+
+## Design external sources 20/11/2026 — Figma, ReUI, Best Designs on X
+
+[Audit e prove](../sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md) · [Matrice per app](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.md) · [Catalogo JSON](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json).
+
+- **Best Designs on X** (`DESIGN-SITE-029`): Monitor strong current dashboard layouts but assess real density and accessibility. **PROPOSED_ONLY**.
+- **ReUI** (`DESIGN-SITE-031`): Evaluate free Data Grid/Kanban/Gantt/Filters patterns for repo, blockers, roadmap and CI dashboard. **PROPOSED_ONLY**.
+- **Bento Widget Templates** (`FIGMA-BENTO-001`): Project/Golden/CI KPI tiles of different weights, with real values and links to details. **PROPOSED_ONLY**.
+
+[File Figma Bento con nodi e varianti verificati](../UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json). **Bento indica tile di interfaccia, non un vero widget Android.**
+
+Licenze degli asset e approvazione estetica per-app obbligatorie prima di qualsiasi codice o risorsa distribuita. Proposte non implementate, nessun nuovo Golden.
+
+
+## Nuove reference UI — 20/11/2026 (deduplica 15 → 3)
+
+[Audit selettivo](../sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md) · [Matrice per-app](../UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.md) · [Registro](../UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json).
+
+- **ThinkUI** (`DESIGN-SITE-032`): Find grounded filters, data-grid and dense control examples before web redesign — **PROPOSED_ONLY**.
+- **React Bits** (`DESIGN-SITE-034`): Consider subtle stateful indicator and navigation transitions; avoid expensive background shaders — **PROPOSED_ONLY**.
+
+Queste fonti non autorizzano il riutilizzo di screenshot o font senza licenza. Mobbin vieta l'archiviazione/mirroring dei contenuti; React Bits usa MIT + Commons Clause; ThinkUI richiede attivazione MCP a pagamento. Nessuna app o feature implementata da questo intake.
+
+
+## Fonti AI agent/Web/motion — 20/11/2026 (7 nuove, 2 approfondimenti)
+
+[Audit](../sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md) · [Matrice per-app](../UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.md) · [Deep link ReUI/shadcn](../sources/DESIGN_EXISTING_SITES_DEEP_LINKS_2026-11-20.json).
+
+- **Scrolltide** (`DESIGN-SITE-035`): Marketing hero hierarchy only; do not alter operational screen density — **PROPOSED_ONLY**.
+- **Snapblocks** (`DESIGN-SITE-037`): UNVERIFIED — no source acquisition or implementation — **PROPOSED_ONLY**.
+- **Navbar Gallery** (`DESIGN-SITE-038`): Screenreader-friendly sidebar, search, breadcrumb and structured mega-menu references — **PROPOSED_ONLY**.
+- **AI Canvas** (`DESIGN-SITE-039`): Real upload progress, expanding tabs and task status cards — **PROPOSED_ONLY**.
+- **Aceternity UI** (`DESIGN-SITE-040`): Accessible expanding cards and tabs, avoiding hover-only operations — **PROPOSED_ONLY**.
+- **Chakra UI** (`DESIGN-SITE-041`): React form validation and accessible status UI — **PROPOSED_ONLY**.
+- **ReUI — Agent Ops Pro Blocks** (`DESIGN-SUBL-001`): Operations run queue, approvals, tool access matrix, failed-run triage and evaluation panels — **PROPOSED_ONLY**.
+- **shadcn/ui — AI Elements** (`DESIGN-SUBL-002`): Traceable streaming agent chat, tool results and reasoning presentation based on genuine event data — **PROPOSED_ONLY**.
+
+**Gate:** premium/proprietary/non-verified sources not imported, React/JS is not Dart, animations must respect reduced-motion and measurable state, GPU/performance/battery gates for shaders; per-app Product Bible and visual decisions before consumer implementation. The t.co short URL is unresolved. No code/tests of this consumer performed.
+
+
+## Nuove referenze visuali e cromatiche — 20/11/2026
+
+[Audit fonte e licenze](../sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md) · [Matrice app](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.md) · [Registro JSON](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json).
+
+- **BestSaaSWebDesigns — Curated Designs** (`DESIGN-SITE-042`): Compare lightweight dashboard hierarchy, graph cards and filters with references from X creators. **PROPOSED_ONLY**.
+- **UIColours** (`DESIGN-SITE-043`): Build semantic status tokens for CI, risk, priority, blockers and dashboard surface states. **PROPOSED_ONLY**.
+
+Le palette e i mock-up gia' approvati hanno priorita'; la fonte non concede il riuso automatico di asset di brand/post X e non garantisce esportazione diretta in Flutter. Nessuna UI implementata o tema consumer modificato.
+
+
+## Motion UX, animazioni e video — lotto 18 fonti 20/11/2026
+
+[Audit licenze e compatibilita'](../sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md) · [Matrice](../UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.md) · [Pipeline](../sources/MOTION_VIDEO_18_PIPELINE_2026-11-20.md) · [Manifest SHA](../sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json).
+
+- **reanimate** (`MOTION-OSS-001`): Study authorized motion reference clips and specify original queue/card transitions for Web. **PROPOSED_ONLY**.
+- **cinetic** (`MOTION-OSS-006`): Reusable honest product-update film production workflow. **PROPOSED_ONLY**.
+- **motionmaxxing** (`MOTION-OSS-007`): Shared animation/video QA agent: timing, typography, audio sync and source rights. **PROPOSED_ONLY**.
+- **effectcraft** (`MOTION-OSS-013`): Assess desktop compositing as a distinct optional content pipeline donor. **PROPOSED_ONLY**.
+- **librosa** (`MOTION-OSS-015`): Potential producer-side asset pipeline beat analysis. **PROPOSED_ONLY**.
+- **whisperX** (`MOTION-OSS-016`): Optional private pipeline transcription with consent and model-license checks. **PROPOSED_ONLY**.
+- **skills** (`MOTION-OSS-017`): Central reusable video production SOP, not automatically free code. **PROPOSED_ONLY**.
+
+**Vincoli:** il media render resta separato dal runtime APK; Flutter/Compose devono usare il donor/framework nativo prima di TSX/JavaScript; licenza dell'asset e del runtime va verificata singolarmente. Nessuna modifica a Product Bible, UI, database, funzioni, codice, build o screenshot del consumer. Priorita' estetica agli asset e mock-up gia' scelti nel Design-App; a11y, reduced motion, FPS/batteria e privacy da validare in una eventuale implementazione.
+
+
+## Jiro Build e Builder — fonti Web per marketing (20/11/2026)
+
+[Audit, deduplica e licenze](../sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md) · [Matrice](../UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.md) · [Mappa JSON](../UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json).
+
+- **Jiro Prompt Library** (`DESIGN-SITE-044`): Use SaaS marketing landing hierarchy as a reference, not as an operational dashboard replacement. **PROPOSED_ONLY**.
+- **Jiro Builder** (`DESIGN-SUBL-003`): Consider a temporary promotional front page mock-up; do not imply Jiro hosts authenticated App Factory operations. **PROPOSED_ONLY**.
+
+**Gate:** Jiro e' una libreria proprietaria di design Web/React e un servizio esterno di hosting; nessun widget Flutter/Compose importato e nessun piano acquistato. I Termini consentono i progetti propri/clienti ma vietano ricollezionare o rivendere componenti/template standalone, il che preclude il copy del catalogo nella nostra libreria. Il Builder Free prevede limiti crediti e inattivita' e l'esportazione ZIP richiede un piano. Gli asset e mock-up preferiti gia' approvati in Design-App prevalgono; nessun codice consumer, server, auth, dati, palette, release o design deciso è stato modificato.
+
+
+## Design stack Florent — 5 link (20/11/2026)
+
+[Audit licenze e fonti](../sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md) · [Mappa per-app](../UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md). Nessun cambiamento automatico dell'identità visiva approvata.
+
+- **STACK5-02 · P2**: Landing informativa del portafoglio app e processo, non dashboard runtime automaticamente. **PROPOSED_ONLY**.
+
+**Gate:** Shipframe screenshot autentici senza dati personali, Oversight solo reference o uso licenziato in progetto, Mobbin niente mirror di screenshot terzi, Fontshare licenza per famiglia; nessun file/asset copiato in questo lotto. Prima di applicare in app: Product Bible, codice consumer, test QA e approvazione.

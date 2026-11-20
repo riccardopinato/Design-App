@@ -1,0 +1,635 @@
+{
+  "schema_version": 1,
+  "batch_id": "DESIGN_SITES_15_2026_11_20",
+  "source_of_truth": "riccardopinato/Design-App",
+  "factory_baseline": "riccardopinato/App-Factory-Core@4df94ac3b3ea22a2323634fe83c3c7770fe3b835",
+  "updated_at": "2026-11-20",
+  "status": "REFERENCE_ONLY",
+  "unique_services": 14,
+  "provided_urls": 15,
+  "redirect_aliases": [
+    {
+      "from": "https://godly.website/",
+      "to": "https://recent.design/",
+      "id": "DESIGN-SITE-018"
+    }
+  ],
+  "counts": {
+    "app_profiles": 14,
+    "app_site_links": 68
+  },
+  "relations": [
+    {
+      "app_id": "web-utility-factory",
+      "site_id": "DESIGN-SITE-015",
+      "source_name": "Motion Sites",
+      "idea": "Animated hero with reduced-motion fallback",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "site_id": "DESIGN-SITE-015",
+      "source_name": "Motion Sites",
+      "idea": "Animated hero with reduced-motion fallback",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "site_id": "DESIGN-SITE-016",
+      "source_name": "Motion Sites Studio",
+      "idea": "AI-assisted website prototype comparison",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "site_id": "DESIGN-SITE-016",
+      "source_name": "Motion Sites Studio",
+      "idea": "AI-assisted website prototype comparison",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "site_id": "DESIGN-SITE-017",
+      "source_name": "Land-book",
+      "idea": "Pricing-page hierarchy with distinct comparison tiers",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "site_id": "DESIGN-SITE-017",
+      "source_name": "Land-book",
+      "idea": "Pricing-page hierarchy with distinct comparison tiers",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "cashmate-ai",
+      "site_id": "DESIGN-SITE-017",
+      "source_name": "Land-book",
+      "idea": "Pricing-page hierarchy with distinct comparison tiers",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "annas-diary",
+      "site_id": "DESIGN-SITE-018",
+      "source_name": "Recent Design",
+      "idea": "App icon and typography moodboards",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "site_id": "DESIGN-SITE-018",
+      "source_name": "Recent Design",
+      "idea": "App icon and typography moodboards",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "framelab",
+      "site_id": "DESIGN-SITE-018",
+      "source_name": "Recent Design",
+      "idea": "App icon and typography moodboards",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "site_id": "DESIGN-SITE-018",
+      "source_name": "Recent Design",
+      "idea": "App icon and typography moodboards",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "site_id": "DESIGN-SITE-018",
+      "source_name": "Recent Design",
+      "idea": "App icon and typography moodboards",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "site_id": "DESIGN-SITE-019",
+      "source_name": "Landdding",
+      "idea": "Sector-specific landing layouts for SaaS, utility and food",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "site_id": "DESIGN-SITE-019",
+      "source_name": "Landdding",
+      "idea": "Sector-specific landing layouts for SaaS, utility and food",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "site_id": "DESIGN-SITE-019",
+      "source_name": "Landdding",
+      "idea": "Sector-specific landing layouts for SaaS, utility and food",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "site_id": "DESIGN-SITE-020",
+      "source_name": "Font in Logo",
+      "idea": "Match editorial title typography to product tone",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "world-days",
+      "site_id": "DESIGN-SITE-020",
+      "source_name": "Font in Logo",
+      "idea": "Match editorial title typography to product tone",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "framelab",
+      "site_id": "DESIGN-SITE-020",
+      "source_name": "Font in Logo",
+      "idea": "Match editorial title typography to product tone",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "annas-diary",
+      "site_id": "DESIGN-SITE-020",
+      "source_name": "Font in Logo",
+      "idea": "Match editorial title typography to product tone",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "annas-diary",
+      "site_id": "DESIGN-SITE-021",
+      "source_name": "60FPS",
+      "idea": "Contextual bottom sheets, card transitions, long press",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "site_id": "DESIGN-SITE-021",
+      "source_name": "60FPS",
+      "idea": "Contextual bottom sheets, card transitions, long press",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "omni-cleaner",
+      "site_id": "DESIGN-SITE-021",
+      "source_name": "60FPS",
+      "idea": "Contextual bottom sheets, card transitions, long press",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "framelab",
+      "site_id": "DESIGN-SITE-021",
+      "source_name": "60FPS",
+      "idea": "Contextual bottom sheets, card transitions, long press",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "wonderlog",
+      "site_id": "DESIGN-SITE-021",
+      "source_name": "60FPS",
+      "idea": "Contextual bottom sheets, card transitions, long press",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "deskland-android",
+      "site_id": "DESIGN-SITE-021",
+      "source_name": "60FPS",
+      "idea": "Contextual bottom sheets, card transitions, long press",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "battery-guard",
+      "site_id": "DESIGN-SITE-021",
+      "source_name": "60FPS",
+      "idea": "Contextual bottom sheets, card transitions, long press",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "trailpath",
+      "site_id": "DESIGN-SITE-021",
+      "source_name": "60FPS",
+      "idea": "Contextual bottom sheets, card transitions, long press",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "annas-diary",
+      "site_id": "DESIGN-SITE-022",
+      "source_name": "Fontshare",
+      "idea": "Pair serif editorial headings with neutral readable UI fonts",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "site_id": "DESIGN-SITE-022",
+      "source_name": "Fontshare",
+      "idea": "Pair serif editorial headings with neutral readable UI fonts",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "world-days",
+      "site_id": "DESIGN-SITE-022",
+      "source_name": "Fontshare",
+      "idea": "Pair serif editorial headings with neutral readable UI fonts",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "framelab",
+      "site_id": "DESIGN-SITE-022",
+      "source_name": "Fontshare",
+      "idea": "Pair serif editorial headings with neutral readable UI fonts",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "site_id": "DESIGN-SITE-022",
+      "source_name": "Fontshare",
+      "idea": "Pair serif editorial headings with neutral readable UI fonts",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "site_id": "DESIGN-SITE-022",
+      "source_name": "Fontshare",
+      "idea": "Pair serif editorial headings with neutral readable UI fonts",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "annas-diary",
+      "site_id": "DESIGN-SITE-023",
+      "source_name": "Realtime Colors",
+      "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "site_id": "DESIGN-SITE-023",
+      "source_name": "Realtime Colors",
+      "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "omni-cleaner",
+      "site_id": "DESIGN-SITE-023",
+      "source_name": "Realtime Colors",
+      "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "cashmate-ai",
+      "site_id": "DESIGN-SITE-023",
+      "source_name": "Realtime Colors",
+      "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "battery-guard",
+      "site_id": "DESIGN-SITE-023",
+      "source_name": "Realtime Colors",
+      "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "focussense",
+      "site_id": "DESIGN-SITE-023",
+      "source_name": "Realtime Colors",
+      "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "trailpath",
+      "site_id": "DESIGN-SITE-023",
+      "source_name": "Realtime Colors",
+      "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "world-days",
+      "site_id": "DESIGN-SITE-023",
+      "source_name": "Realtime Colors",
+      "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "framelab",
+      "site_id": "DESIGN-SITE-024",
+      "source_name": "Coolors",
+      "idea": "Generate candidate 5-color palettes, then test in actual screen",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "annas-diary",
+      "site_id": "DESIGN-SITE-024",
+      "source_name": "Coolors",
+      "idea": "Generate candidate 5-color palettes, then test in actual screen",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "world-days",
+      "site_id": "DESIGN-SITE-024",
+      "source_name": "Coolors",
+      "idea": "Generate candidate 5-color palettes, then test in actual screen",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "site_id": "DESIGN-SITE-024",
+      "source_name": "Coolors",
+      "idea": "Generate candidate 5-color palettes, then test in actual screen",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "wonderlog",
+      "site_id": "DESIGN-SITE-024",
+      "source_name": "Coolors",
+      "idea": "Generate candidate 5-color palettes, then test in actual screen",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "omni-cleaner",
+      "site_id": "DESIGN-SITE-025",
+      "source_name": "Lucide",
+      "idea": "Consistent stroke and semantic icon naming",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "site_id": "DESIGN-SITE-025",
+      "source_name": "Lucide",
+      "idea": "Consistent stroke and semantic icon naming",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "cashmate-ai",
+      "site_id": "DESIGN-SITE-025",
+      "source_name": "Lucide",
+      "idea": "Consistent stroke and semantic icon naming",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "site_id": "DESIGN-SITE-025",
+      "source_name": "Lucide",
+      "idea": "Consistent stroke and semantic icon naming",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "battery-guard",
+      "site_id": "DESIGN-SITE-025",
+      "source_name": "Lucide",
+      "idea": "Consistent stroke and semantic icon naming",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "annas-diary",
+      "site_id": "DESIGN-SITE-025",
+      "source_name": "Lucide",
+      "idea": "Consistent stroke and semantic icon naming",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "site_id": "DESIGN-SITE-026",
+      "source_name": "SVGL",
+      "idea": "Find official provider logos for legitimate integration badges",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "site_id": "DESIGN-SITE-026",
+      "source_name": "SVGL",
+      "idea": "Find official provider logos for legitimate integration badges",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "site_id": "DESIGN-SITE-026",
+      "source_name": "SVGL",
+      "idea": "Find official provider logos for legitimate integration badges",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "omni-cleaner",
+      "site_id": "DESIGN-SITE-027",
+      "source_name": "Shots",
+      "idea": "Create marketing phone/device mockups from own QA screenshots",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "annas-diary",
+      "site_id": "DESIGN-SITE-027",
+      "source_name": "Shots",
+      "idea": "Create marketing phone/device mockups from own QA screenshots",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "site_id": "DESIGN-SITE-027",
+      "source_name": "Shots",
+      "idea": "Create marketing phone/device mockups from own QA screenshots",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "framelab",
+      "site_id": "DESIGN-SITE-027",
+      "source_name": "Shots",
+      "idea": "Create marketing phone/device mockups from own QA screenshots",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "site_id": "DESIGN-SITE-027",
+      "source_name": "Shots",
+      "idea": "Create marketing phone/device mockups from own QA screenshots",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "world-days",
+      "site_id": "DESIGN-SITE-027",
+      "source_name": "Shots",
+      "idea": "Create marketing phone/device mockups from own QA screenshots",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "site_id": "DESIGN-SITE-027",
+      "source_name": "Shots",
+      "idea": "Create marketing phone/device mockups from own QA screenshots",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "annas-diary",
+      "site_id": "DESIGN-SITE-028",
+      "source_name": "Cosmos",
+      "idea": "Moodboard collections and search by color/similarity",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "site_id": "DESIGN-SITE-028",
+      "source_name": "Cosmos",
+      "idea": "Moodboard collections and search by color/similarity",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "framelab",
+      "site_id": "DESIGN-SITE-028",
+      "source_name": "Cosmos",
+      "idea": "Moodboard collections and search by color/similarity",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "wonderlog",
+      "site_id": "DESIGN-SITE-028",
+      "source_name": "Cosmos",
+      "idea": "Moodboard collections and search by color/similarity",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "site_id": "DESIGN-SITE-028",
+      "source_name": "Cosmos",
+      "idea": "Moodboard collections and search by color/similarity",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    },
+    {
+      "app_id": "world-days",
+      "site_id": "DESIGN-SITE-028",
+      "source_name": "Cosmos",
+      "idea": "Moodboard collections and search by color/similarity",
+      "state": "PROPOSED_ONLY",
+      "code_available": false,
+      "consumer_implemented": false
+    }
+  ]
+}

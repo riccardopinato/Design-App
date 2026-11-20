@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-20",
+  "description": "Follow-up subpages on already catalogued site/source; do not create duplicate site IDs",
+  "entries": [
+    {
+      "id": "DESIGN-SUBL-001",
+      "parent_id": "DESIGN-SITE-031",
+      "name": "ReUI — Agent Ops Pro Blocks",
+      "url": "https://reui.io/blocks/solutions/agents",
+      "license": "REUI_PRO_BLOCKS_PAID; VISUAL_REFERENCE_ONLY",
+      "kind": "EXISTING_SOURCE_SUBPAGE",
+      "verified": "OFFICIAL_PAGE",
+      "examples": [
+        "Operations Dashboard",
+        "Run Queue",
+        "Run Detail Trace",
+        "Tool Access Matrix",
+        "Approval Inbox",
+        "Playbook Builder",
+        "Failed Run Triage",
+        "Agent Evaluations",
+        "Memory Scope",
+        "Run Config"
+      ]
+    },
+    {
+      "id": "DESIGN-SUBL-002",
+      "parent_id": "registry/OSS_DESIGN_SOURCES.yaml:shadcn-ui/ui",
+      "name": "shadcn/ui — AI Elements",
+      "url": "https://ui.shadcn.com/docs/ai-elements",
+      "license": "OSS_COMPONENT_LEVEL_LICENSE_AND_DEPENDENCY_CHECK",
+      "kind": "EXISTING_SOURCE_SUBPAGE",
+      "verified": "OFFICIAL_DOCS_OCT_2026",
+      "examples": [
+        "Trace",
+        "Code Block",
+        "Chat",
+        "Message",
+        "Reasoning",
+        "Tool",
+        "Context",
+        "Plan"
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "url": "https://t.co/rJcbTbEz28",
+      "status": "UNRESOLVED_SHORT_URL",
+      "destination": null,
+      "checked_at": "2026-11-20"
+    }
+  ]
+}

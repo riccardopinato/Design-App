@@ -92,3 +92,48 @@ Originali HTML/CSS aggiunti: **43**; catalogo **100/100**; Favorites **97/97**; 
 ## Aggiornamento recupero pubblico (2026-11-18)
 
 Originali HTML/CSS aggiunti: **11**; catalogo **111/111**; Favorites **108/108**; codice non recuperato **0**. Provenienza e checksum in [RECUPERO_API](../UI-UX/UIVERSE/FAVORITES/RECUPERO_API_2026_11_18.json). Le cifre precedenti documentano lo stato storico prima di questo recupero. Nessuna adozione o test su app consumer.
+
+
+## Intake 15 siti esterni — 20/11/2026
+
+**14 profili con nuove proposte, 68 associazioni, 14 siti unici (15 URL; Godly reindirizza a Recent).** La [matrice dedicata](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.md), il [JSON relazionale](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json) e l'[audit dei siti](../sources/DESIGN_SITES_15_AUDIT_2026-11-20.md) integrano i dossier e `REGISTRO_APP_DESIGN.json` senza creare consumer implementati. Tutte le associazioni restano PROPOSED_ONLY.
+
+
+## Nuovi siti Figma/ReUI/Best Designs — 20/11/2026
+
+**12 dossier aggiornati, 31 relazioni PROPOSED_ONLY**, 3 fonti di scoperta distinte e il file specifico Figma Bento Widget Templates (nodi reali e categorie con provenienza). [Matrice per app](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.md) · [Registro JSON](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json) · [Audit](../sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md). Il file Figma e' distinto dalla directory Community. ReUI Free e' React/TypeScript e non fornisce Dart Flutter pronto. Nessun asset acquisito.
+
+
+## Nuove risorse UI deduplicate — 20 novembre 2026
+
+**12 URL gia' archiviati, nessun nuovo audit; 3 nuove fonti e 22 associazioni su 12 dossier**. [Matrice](../UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.md) · [Registro](../UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json) · [Analisi licenze e duplicati](../sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md). Integrazioni consumer/Flutter non eseguite; tutto **PROPOSED_ONLY**.
+
+
+## Nuovi riferimenti Web/Agent UI — 20/11/2026
+
+**11 dossier aggiornati, 37 relazioni PROPOSED_ONLY**, con 7 fonti nuove, 2 sottopagine di ReUI/shadcn gia' noti senza duplicati e 1 shortlink t.co da risolvere. [Matrice](../UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.md) · [Registro](../UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json) · [Audit](../sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md). Nessun consumer modificato, licenze per singolo elemento e accessibilita'/FPS richieste prima dell'implementazione.
+
+
+## Curated Designs e UIColours — 20 novembre 2026
+
+**13 dossier aggiornati, 22 idee PROPOSED_ONLY**, 2 fonti uniche non duplicate. [Matrice](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.md) · [Registro JSON](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json) · [Audit](../sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md). Palette già selezionate rimangono prevalenti; zero implementazioni consumer o esportazioni di token effettuate.
+
+
+## Motion e produzione video — 20/11/2026
+
+**13 profili, 68 proposte `PROPOSED_ONLY`, 18 fonti** mappate in [matrice](../UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.md), [JSON](../UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json) e [audit](../sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md). Motion nativa separata da pipeline di video promo/educativi; nessuna app modificata e nessun codice/assets terzi copiati. Preferenze visive gia' approvate prioritarie.
+
+
+## Jiro Build — prompt Web e Builder (20/11/2026)
+
+**9 dossier aggiornati** con **18 proposte `PROPOSED_ONLY`** per promo Web/landing, mappate in [matrice](../UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.md) e [JSON](../UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json). Delle 15 URL condivise 13 sono gia' nel registro; un solo nuovo sito (`DESIGN-SITE-044`), con una sotto-risorsa del medesimo provider. [Audit licenze](../sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md). Nessuna implementazione nel consumer.
+
+
+## Motionary / 26 risorse — 20/11/2026
+
+[20 ipotesi su 10 profili](../UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md) sincronizzate con `REGISTRO_APP_DESIGN.json` e i rispettivi dossier app. Motionary MIT e Rare UI Commons Clause restano fonti REFERENCE, nessun consumer modificato. Per il lotto completo: [audit](../sources/MOTIONARY_26_AUDIT_2026-11-20.md).
+
+
+## Cinque link design stack — 20/11/2026
+
+[26 nuove proposte riferite a 12 dossier](../UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md) e tracciate nel `REGISTRO_APP_DESIGN.json`. Tutte PROPOSED_ONLY; font, video e screenshot Store sono distinti da UI runtime e Product Bible. Nessun codice consumer toccato. [Audit fonte](../sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md).

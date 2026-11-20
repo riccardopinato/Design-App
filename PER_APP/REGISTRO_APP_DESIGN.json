@@ -34,7 +34,49 @@
     "uiverse_app_links": 736,
     "uiverse_mapped_apps": 25,
     "unslop_ui_candidate_apps": 5,
-    "unslop_ui_candidate_relations": 5
+    "unslop_ui_candidate_relations": 5,
+    "design_sites_2026_11_20_unique_sources": 14,
+    "design_sites_2026_11_20_app_profiles": 14,
+    "design_sites_2026_11_20_links": 68,
+    "design_sources_followup_2026_11_20_sites": 3,
+    "design_sources_followup_2026_11_20_figma_files": 1,
+    "design_sources_followup_2026_11_20_profiles": 12,
+    "design_sources_followup_2026_11_20_relations": 31,
+    "ui_sources_3_2026_11_20_sites": 3,
+    "ui_sources_3_2026_11_20_duplicate_urls_skipped": 12,
+    "ui_sources_3_2026_11_20_apps": 12,
+    "ui_sources_3_2026_11_20_relations": 22,
+    "design_sources_agents_scroll_2026_11_20_sites": 7,
+    "design_sources_agents_scroll_2026_11_20_deep_links": 2,
+    "design_sources_agents_scroll_2026_11_20_unresolved": 1,
+    "design_sources_agents_scroll_2026_11_20_apps": 11,
+    "design_sources_agents_scroll_2026_11_20_relations": 37,
+    "curated_designs_uicolours_2026_11_20_sites": 2,
+    "curated_designs_uicolours_2026_11_20_profiles": 13,
+    "curated_designs_uicolours_2026_11_20_relations": 22,
+    "motion_video_18_2026_11_20_unique_sources": 18,
+    "motion_video_18_2026_11_20_app_profiles": 13,
+    "motion_video_18_2026_11_20_relations": 68,
+    "motion_video_18_2026_11_20_assets_copied": 0,
+    "jiro_15_2026_11_20_links_submitted": 15,
+    "jiro_15_2026_11_20_duplicates_skipped": 13,
+    "jiro_15_2026_11_20_new_sites": 1,
+    "jiro_15_2026_11_20_existing_provider_subpages": 1,
+    "jiro_15_2026_11_20_profiles": 9,
+    "jiro_15_2026_11_20_relations": 18,
+    "motionary_26_2026_11_20_submitted_links": 26,
+    "motionary_26_2026_11_20_new_sources": 15,
+    "motionary_26_2026_11_20_skipped_existing_links": 11,
+    "motionary_26_2026_11_20_profiles": 10,
+    "motionary_26_2026_11_20_relations": 20,
+    "motionary_26_2026_11_20_archived_code": 0,
+    "florient_stack_5_submitted_links": 5,
+    "florient_stack_5_unique_providers": 4,
+    "florient_stack_5_new_providers": 2,
+    "florient_stack_5_duplicate_links": 2,
+    "florient_stack_5_app_profiles": 12,
+    "florient_stack_5_relations": 26,
+    "florient_stack_5_source_code_copied": 0
   },
   "profiles": [
     {
@@ -206,7 +248,7 @@
       "name": "Anna's Diary",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-19",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -232,7 +274,18 @@
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
         "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
         "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
-        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json"
+        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "diario e ricordi",
@@ -627,6 +680,109 @@
           "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
           "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
           "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-018",
+            "DESIGN-SITE-020",
+            "DESIGN-SITE-021",
+            "DESIGN-SITE-022",
+            "DESIGN-SITE-023",
+            "DESIGN-SITE-024",
+            "DESIGN-SITE-025",
+            "DESIGN-SITE-027",
+            "DESIGN-SITE-028"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-029",
+            "DESIGN-SITE-030",
+            "FIGMA-BENTO-001"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-032",
+            "DESIGN-SITE-033"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_AGENTS_SCROLL_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-039"
+          ],
+          "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-042",
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-001",
+            "MOTION-OSS-002",
+            "MOTION-OSS-005"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTIONARY_26_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+          "source_ids": [
+            "STYLE26-01",
+            "STYLE26-23"
+          ],
+          "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-01",
+            "STACK5-04",
+            "STACK5-03"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "voice_ui_candidates": [
@@ -1520,14 +1676,188 @@
         "scope": "Editorial Today, Calendar, Memories, Settings: diagnose ornamental copy without removing approved Organic iOS Journal and Lora/Manrope/Rose/HSV",
         "safeguard": "Keep Classic reversible, privacy and all supported locales",
         "consumer_implementation": "NOT_VERIFIED"
-      }
+      },
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-018",
+          "source_name": "Recent Design",
+          "idea": "App icon and typography moodboards",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-020",
+          "source_name": "Font in Logo",
+          "idea": "Match editorial title typography to product tone",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-021",
+          "source_name": "60FPS",
+          "idea": "Contextual bottom sheets, card transitions, long press",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-022",
+          "source_name": "Fontshare",
+          "idea": "Pair serif editorial headings with neutral readable UI fonts",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-023",
+          "source_name": "Realtime Colors",
+          "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-024",
+          "source_name": "Coolors",
+          "idea": "Generate candidate 5-color palettes, then test in actual screen",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-025",
+          "source_name": "Lucide",
+          "idea": "Consistent stroke and semantic icon naming",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-027",
+          "source_name": "Shots",
+          "idea": "Create marketing phone/device mockups from own QA screenshots",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-028",
+          "source_name": "Cosmos",
+          "idea": "Moodboard collections and search by color/similarity",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-029",
+          "source_name": "Best Designs on X",
+          "idea": "Curate editorial diary layouts from credited original creators; do not copy X imagery",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "DESIGN-SITE-030",
+          "source_name": "Figma Community Mobile Apps",
+          "idea": "Study mobile journal/calendar multi-screen kits and reusable navigation patterns",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "FIGMA-BENTO-001",
+          "source_name": "Bento Widget Templates",
+          "idea": "Personalizable Il tuo spazio grid with compact ricordi, giorno, diario cards; preserve approved editorial identity",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-032",
+          "source_name": "ThinkUI",
+          "idea": "Compare real calendar/create/share-space states with attributed references before aesthetics are approved",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "site_id": "DESIGN-SITE-033",
+          "source_name": "Mobbin",
+          "idea": "Cross-check end-to-end onboarding and privacy invitation flow across shipped mobile products",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "design_sources_agents_scroll_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-039",
+          "source_name": "AI Canvas",
+          "idea": "Mood check-in/card stack idea without new data collection until approved",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-042",
+          "source_name": "BestSaaSWebDesigns — Curated Designs",
+          "idea": "Review editorial mobile layout and illustration references linked to original X creators; respect approved rose/diary visuals",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        },
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Audit rose palette semantics across light/dark surfaces and contrast without replacing approved theme",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-001",
+          "source_name": "reanimate",
+          "idea": "Study permitted page transitions while preserving approved diary visuals",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-002",
+          "source_name": "motion-design-skill",
+          "idea": "Specify gentle, interruptible diary transitions and reduced-motion modes",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-005",
+          "source_name": "anidoodle",
+          "idea": "Consider original minimal doodle illustrations for diary moments",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ]
     },
     {
       "id": "app-factory-dashboard",
       "name": "App Factory Dashboard",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -1549,7 +1879,17 @@
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "repository e branch",
@@ -1859,6 +2199,117 @@
             "UIV-111"
           ],
           "note": "8 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-015",
+            "DESIGN-SITE-016",
+            "DESIGN-SITE-017",
+            "DESIGN-SITE-019",
+            "DESIGN-SITE-022",
+            "DESIGN-SITE-025",
+            "DESIGN-SITE-026"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-029",
+            "DESIGN-SITE-031",
+            "FIGMA-BENTO-001"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-032",
+            "DESIGN-SITE-034"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_AGENTS_SCROLL_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-035",
+            "DESIGN-SITE-037",
+            "DESIGN-SITE-038",
+            "DESIGN-SITE-039",
+            "DESIGN-SITE-040",
+            "DESIGN-SITE-041",
+            "DESIGN-SUBL-001",
+            "DESIGN-SUBL-002"
+          ],
+          "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-042",
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-001",
+            "MOTION-OSS-006",
+            "MOTION-OSS-007",
+            "MOTION-OSS-013",
+            "MOTION-OSS-015",
+            "MOTION-OSS-016",
+            "MOTION-OSS-017"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "JIRO_15_LINKS_DEDUP_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-044",
+            "DESIGN-SUBL-003"
+          ],
+          "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-02"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "voice_ui_candidates": [
@@ -2841,6 +3292,272 @@
           "is_user_favorite": true,
           "code_original_available": true
         }
+      ],
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-015",
+          "source_name": "Motion Sites",
+          "idea": "Animated hero with reduced-motion fallback",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-016",
+          "source_name": "Motion Sites Studio",
+          "idea": "AI-assisted website prototype comparison",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-017",
+          "source_name": "Land-book",
+          "idea": "Pricing-page hierarchy with distinct comparison tiers",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-019",
+          "source_name": "Landdding",
+          "idea": "Sector-specific landing layouts for SaaS, utility and food",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-022",
+          "source_name": "Fontshare",
+          "idea": "Pair serif editorial headings with neutral readable UI fonts",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-025",
+          "source_name": "Lucide",
+          "idea": "Consistent stroke and semantic icon naming",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-026",
+          "source_name": "SVGL",
+          "idea": "Find official provider logos for legitimate integration badges",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-029",
+          "source_name": "Best Designs on X",
+          "idea": "Monitor strong current dashboard layouts but assess real density and accessibility",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "DESIGN-SITE-031",
+          "source_name": "ReUI",
+          "idea": "Evaluate free Data Grid/Kanban/Gantt/Filters patterns for repo, blockers, roadmap and CI dashboard",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "FIGMA-BENTO-001",
+          "source_name": "Bento Widget Templates",
+          "idea": "Project/Golden/CI KPI tiles of different weights, with real values and links to details",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-032",
+          "source_name": "ThinkUI",
+          "idea": "Find grounded filters, data-grid and dense control examples before web redesign",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "site_id": "DESIGN-SITE-034",
+          "source_name": "React Bits",
+          "idea": "Consider subtle stateful indicator and navigation transitions; avoid expensive background shaders",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "design_sources_agents_scroll_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-035",
+          "source_name": "Scrolltide",
+          "idea": "Marketing hero hierarchy only; do not alter operational screen density",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-037",
+          "source_name": "Snapblocks",
+          "idea": "UNVERIFIED — no source acquisition or implementation",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-038",
+          "source_name": "Navbar Gallery",
+          "idea": "Screenreader-friendly sidebar, search, breadcrumb and structured mega-menu references",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-039",
+          "source_name": "AI Canvas",
+          "idea": "Real upload progress, expanding tabs and task status cards",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-040",
+          "source_name": "Aceternity UI",
+          "idea": "Accessible expanding cards and tabs, avoiding hover-only operations",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-041",
+          "source_name": "Chakra UI",
+          "idea": "React form validation and accessible status UI",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-001",
+          "source_name": "ReUI — Agent Ops Pro Blocks",
+          "idea": "Operations run queue, approvals, tool access matrix, failed-run triage and evaluation panels",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-002",
+          "source_name": "shadcn/ui — AI Elements",
+          "idea": "Traceable streaming agent chat, tool results and reasoning presentation based on genuine event data",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-042",
+          "source_name": "BestSaaSWebDesigns — Curated Designs",
+          "idea": "Compare lightweight dashboard hierarchy, graph cards and filters with references from X creators",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        },
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Build semantic status tokens for CI, risk, priority, blockers and dashboard surface states",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-001",
+          "source_name": "reanimate",
+          "idea": "Study authorized motion reference clips and specify original queue/card transitions for Web",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-006",
+          "source_name": "cinetic",
+          "idea": "Reusable honest product-update film production workflow",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-007",
+          "source_name": "motionmaxxing",
+          "idea": "Shared animation/video QA agent: timing, typography, audio sync and source rights",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-013",
+          "source_name": "effectcraft",
+          "idea": "Assess desktop compositing as a distinct optional content pipeline donor",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-015",
+          "source_name": "librosa",
+          "idea": "Potential producer-side asset pipeline beat analysis",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-016",
+          "source_name": "whisperX",
+          "idea": "Optional private pipeline transcription with consent and model-license checks",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-017",
+          "source_name": "skills",
+          "idea": "Central reusable video production SOP, not automatically free code",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "jiro_library_builder_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-044",
+          "source_name": "Jiro Prompt Library",
+          "idea": "Use SaaS marketing landing hierarchy as a reference, not as an operational dashboard replacement",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-003",
+          "source_name": "Jiro Builder",
+          "idea": "Consider a temporary promotional front page mock-up; do not imply Jiro hosts authenticated App Factory operations",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        }
       ]
     },
     {
@@ -2848,7 +3565,7 @@
       "name": "Battery Guard",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -2873,7 +3590,17 @@
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
         "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
         "sources/MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md",
-        "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json"
+        "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "batteria",
@@ -3143,6 +3870,85 @@
           "origin": "https://m3.material.io/",
           "source": "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json",
           "note": "Material 3 is a possible app-specific utility UI choice, not default/ban; implementation and actual stack NOT_VERIFIED; no consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-021",
+            "DESIGN-SITE-023",
+            "DESIGN-SITE-025"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "FIGMA-BENTO-001"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_AGENTS_SCROLL_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-036"
+          ],
+          "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-002"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTIONARY_26_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+          "source_ids": [
+            "STYLE26-01",
+            "STYLE26-23"
+          ],
+          "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-01",
+            "STACK5-04"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "motion_design_candidates": [
@@ -3793,7 +4599,74 @@
         "status": "PROPOSED_ONLY",
         "decision": "NOT_DECIDED",
         "implementation": "NOT_VERIFIED"
-      }
+      },
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-021",
+          "source_name": "60FPS",
+          "idea": "Contextual bottom sheets, card transitions, long press",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-023",
+          "source_name": "Realtime Colors",
+          "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-025",
+          "source_name": "Lucide",
+          "idea": "Consistent stroke and semantic icon naming",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "FIGMA-BENTO-001",
+          "source_name": "Bento Widget Templates",
+          "idea": "Simple charge status and trend tiles; use only measured battery data",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        }
+      ],
+      "design_sources_agents_scroll_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-036",
+          "source_name": "Scroll Shaders",
+          "idea": "Static version only: continuous GPU animation conflicts with battery utility purpose",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Contrast-test charge, warning, temperature and health indicator colours with accessible fallback labels",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-002",
+          "source_name": "motion-design-skill",
+          "idea": "Restrict charge transitions to low-power meaningful state changes",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ]
     },
     {
       "id": "beerclass-ai",
@@ -4406,7 +5279,7 @@
       "name": "CamperBoss",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -4429,7 +5302,9 @@
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
-        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json"
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "camper/van",
@@ -4680,6 +5555,16 @@
           "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
           "note": "Package shortlist only; Design-App-first and consumer verification required.",
           "origin": "https://fluttergems.dev/"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-01"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "voice_ui_candidates": [
@@ -5351,7 +6236,7 @@
       "name": "CashMate AI",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -5372,7 +6257,17 @@
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "portafoglio",
@@ -5597,6 +6492,100 @@
             "UIV-111"
           ],
           "note": "6 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-017",
+            "DESIGN-SITE-023",
+            "DESIGN-SITE-025"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-030",
+            "DESIGN-SITE-031",
+            "FIGMA-BENTO-001"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-032",
+            "DESIGN-SITE-033"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_AGENTS_SCROLL_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-041"
+          ],
+          "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-008"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "JIRO_15_LINKS_DEDUP_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-044",
+            "DESIGN-SUBL-003"
+          ],
+          "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-01",
+            "STACK5-03"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "motion_design_candidates": [
@@ -6201,6 +7190,127 @@
           "is_user_favorite": true,
           "code_original_available": true
         }
+      ],
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-017",
+          "source_name": "Land-book",
+          "idea": "Pricing-page hierarchy with distinct comparison tiers",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-023",
+          "source_name": "Realtime Colors",
+          "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-025",
+          "source_name": "Lucide",
+          "idea": "Consistent stroke and semantic icon naming",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-030",
+          "source_name": "Figma Community Mobile Apps",
+          "idea": "Study legible finance dashboard mobile design systems",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "DESIGN-SITE-031",
+          "source_name": "ReUI",
+          "idea": "Study dense analytics tables, chart and filters with semantic states",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "FIGMA-BENTO-001",
+          "source_name": "Bento Widget Templates",
+          "idea": "At-a-glance spend/budget/category stats with accessible semantic colors",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-032",
+          "source_name": "ThinkUI",
+          "idea": "Study real finance overview, add-expense and paywall flows as research-only",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "site_id": "DESIGN-SITE-033",
+          "source_name": "Mobbin",
+          "idea": "Analyze real transaction entry, insight and subscription screens for sequencing",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "design_sources_agents_scroll_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-041",
+          "source_name": "Chakra UI",
+          "idea": "Financial form/validation semantics, not Flutter copy-paste",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Evaluate chart categorical colours, income/outgo status and foreground/background contrast",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-008",
+          "source_name": "manim",
+          "idea": "Optional finance education charts, not live app UI",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "jiro_library_builder_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-044",
+          "source_name": "Jiro Prompt Library",
+          "idea": "Study fintech landing structure, trust messaging, responsible financial copy and clear value proposition",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-003",
+          "source_name": "Jiro Builder",
+          "idea": "Consider draft Web campaign layout; never copy bank branding or claim automatic security compliance",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        }
       ]
     },
     {
@@ -6208,7 +7318,7 @@
       "name": "Cooking Anime",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-19",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -6229,7 +7339,19 @@
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
-        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json"
+        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "kawaii-gattini",
@@ -7091,6 +8213,130 @@
           "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
           "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
           "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-018",
+            "DESIGN-SITE-019",
+            "DESIGN-SITE-020",
+            "DESIGN-SITE-022",
+            "DESIGN-SITE-024",
+            "DESIGN-SITE-027",
+            "DESIGN-SITE-028"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-029",
+            "DESIGN-SITE-030",
+            "FIGMA-BENTO-001"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-032",
+            "DESIGN-SITE-033",
+            "DESIGN-SITE-034"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_AGENTS_SCROLL_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-035",
+            "DESIGN-SITE-040"
+          ],
+          "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-042",
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-002",
+            "MOTION-OSS-003",
+            "MOTION-OSS-004",
+            "MOTION-OSS-005",
+            "MOTION-OSS-006",
+            "MOTION-OSS-007",
+            "MOTION-OSS-013",
+            "MOTION-OSS-014",
+            "MOTION-OSS-015",
+            "MOTION-OSS-016",
+            "MOTION-OSS-017",
+            "MOTION-OSS-018"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "JIRO_15_LINKS_DEDUP_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-044",
+            "DESIGN-SUBL-003"
+          ],
+          "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTIONARY_26_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+          "source_ids": [
+            "STYLE26-01",
+            "STYLE26-11"
+          ],
+          "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-01",
+            "STACK5-05",
+            "STACK5-04"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "voice_ui_candidates": [
@@ -7846,14 +9092,280 @@
         "scope": "Recipe panels and culinary image-first UI: clear copy and real badges",
         "safeguard": "Do not rewrite ingredients, recipe translations, allergen/safety content",
         "consumer_implementation": "NOT_VERIFIED"
-      }
+      },
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-018",
+          "source_name": "Recent Design",
+          "idea": "App icon and typography moodboards",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-019",
+          "source_name": "Landdding",
+          "idea": "Sector-specific landing layouts for SaaS, utility and food",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-020",
+          "source_name": "Font in Logo",
+          "idea": "Match editorial title typography to product tone",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-022",
+          "source_name": "Fontshare",
+          "idea": "Pair serif editorial headings with neutral readable UI fonts",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-024",
+          "source_name": "Coolors",
+          "idea": "Generate candidate 5-color palettes, then test in actual screen",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-027",
+          "source_name": "Shots",
+          "idea": "Create marketing phone/device mockups from own QA screenshots",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-028",
+          "source_name": "Cosmos",
+          "idea": "Moodboard collections and search by color/similarity",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-029",
+          "source_name": "Best Designs on X",
+          "idea": "Collect food/illustration art-direction references with creator attribution",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "DESIGN-SITE-030",
+          "source_name": "Figma Community Mobile Apps",
+          "idea": "Study image-first recipe browsing and saved collections",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "FIGMA-BENTO-001",
+          "source_name": "Bento Widget Templates",
+          "idea": "Recipe discovery and favorites tiles with images and prep time",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-032",
+          "source_name": "ThinkUI",
+          "idea": "Compare saved recipes and ingredient-step reading flows using evidence, not cloned assets",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "site_id": "DESIGN-SITE-033",
+          "source_name": "Mobbin",
+          "idea": "Study discover-to-recipe-to-favorites interaction flows",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "site_id": "DESIGN-SITE-034",
+          "source_name": "React Bits",
+          "idea": "Consider restrained recipe-card entrances on Web, preserving content-first browsing",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "design_sources_agents_scroll_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-035",
+          "source_name": "Scrolltide",
+          "idea": "Editorial Web launch page visual inspiration",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-040",
+          "source_name": "Aceternity UI",
+          "idea": "Editorial recipe tiles and light image transitions",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-042",
+          "source_name": "BestSaaSWebDesigns — Curated Designs",
+          "idea": "Collect food-inspired illustration composition and hero treatments for app promotion",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        },
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Test recipe category palette and card text contrast, without copying food-brand identities",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-002",
+          "source_name": "motion-design-skill",
+          "idea": "Animate recipe step feedback without disrupting legibility",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-003",
+          "source_name": "mg-styles-15",
+          "idea": "Use motion styles as references for original recipe launch videos",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-004",
+          "source_name": "huashu-art-motion",
+          "idea": "Illustrated cooking explainer idea with original non-copyrighted characters",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-005",
+          "source_name": "anidoodle",
+          "idea": "Create original recipe-process drawings for promotional content",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-006",
+          "source_name": "cinetic",
+          "idea": "Promo recipes and features; no Remotion engine shipped with Flutter",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-007",
+          "source_name": "motionmaxxing",
+          "idea": "Polish cinematic recipe teaser composition with GSAP license checked",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-013",
+          "source_name": "effectcraft",
+          "idea": "Compose licensed recipe launch clips with original art",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-014",
+          "source_name": "openverse",
+          "idea": "Discover permitted background music, not assume free commercial rights",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-015",
+          "source_name": "librosa",
+          "idea": "Align recipe teaser cuts to original or cleared music beats offline",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-016",
+          "source_name": "whisperX",
+          "idea": "Draft multilingual recipe teaser captions with transcript review",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-017",
+          "source_name": "skills",
+          "idea": "External build workflow for approved recipe tutorial teaser videos",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-018",
+          "source_name": "FFmpeg",
+          "idea": "Social video export with 16:9 and 9:16 compositions and subtitle tracks",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "jiro_library_builder_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-044",
+          "source_name": "Jiro Prompt Library",
+          "idea": "Prepare landing page layout ideas for recipe search, localized value proposition and app store entry points",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-003",
+          "source_name": "Jiro Builder",
+          "idea": "Test a separate marketing microsite only; do not import Jiro output as mobile recipe code",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        }
+      ]
     },
     {
       "id": "deskland-android",
       "name": "Deskland Android",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -7874,7 +9386,16 @@
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "desktop",
@@ -8097,6 +9618,89 @@
             "UIV-108"
           ],
           "note": "1 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-021"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-034"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_AGENTS_SCROLL_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-036",
+            "DESIGN-SITE-039",
+            "DESIGN-SUBL-001",
+            "DESIGN-SUBL-002"
+          ],
+          "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-042"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-002",
+            "MOTION-OSS-009",
+            "MOTION-OSS-010",
+            "MOTION-OSS-011",
+            "MOTION-OSS-012"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTIONARY_26_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+          "source_ids": [
+            "STYLE26-01",
+            "STYLE26-24"
+          ],
+          "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-05"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "voice_ui_candidates": [
@@ -8592,6 +10196,113 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        }
+      ],
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-021",
+          "source_name": "60FPS",
+          "idea": "Contextual bottom sheets, card transitions, long press",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-034",
+          "source_name": "React Bits",
+          "idea": "Study light-motion effects as references only, not GPU-heavy permanent launcher background",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "design_sources_agents_scroll_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-036",
+          "source_name": "Scroll Shaders",
+          "idea": "Visual inspiration; no permanent GPU shader without device FPS/battery evidence",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-039",
+          "source_name": "AI Canvas",
+          "idea": "Agent presence indicator derived from real status, not fake animation",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-001",
+          "source_name": "ReUI — Agent Ops Pro Blocks",
+          "idea": "Agent step trace and approval workflow as architecture reference only",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-002",
+          "source_name": "shadcn/ui — AI Elements",
+          "idea": "Agent status and confirmation UX references for native implementation",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-042",
+          "source_name": "BestSaaSWebDesigns — Curated Designs",
+          "idea": "Review 3D spatial scene and motion concepts as references only; maintain device performance gating",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-002",
+          "source_name": "motion-design-skill",
+          "idea": "Document consistent physics/interaction pacing with FPS and battery limits",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-009",
+          "source_name": "blender-skills",
+          "idea": "Prototype own low-poly 3D desk/world assets via desktop Blender, then optimize exports",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-010",
+          "source_name": "three.quarks",
+          "idea": "Evaluate Web particle prototype, only port after GPU and battery evaluation",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-011",
+          "source_name": "react-postprocessing",
+          "idea": "Reference bloom/depth effects without assuming WebGL-to-native interoperability",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-012",
+          "source_name": "tweakpane",
+          "idea": "Developer-only motion/scene parameter adjustment panel, excluded from release",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
         }
       ]
     },
@@ -9197,7 +10908,7 @@
       "name": "Edu_01 Corpo Umano",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -9211,7 +10922,8 @@
         "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json",
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "organi",
@@ -9320,6 +11032,20 @@
             "UIV-110"
           ],
           "note": "2 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-004",
+            "MOTION-OSS-008",
+            "MOTION-OSS-014",
+            "MOTION-OSS-016"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
         }
       ],
       "amicro_six_candidates": [
@@ -9492,6 +11218,40 @@
           "is_user_favorite": true,
           "code_original_available": true
         }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-004",
+          "source_name": "huashu-art-motion",
+          "idea": "Consider illustrated body-system explainers subject to content accuracy QA",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-008",
+          "source_name": "manim",
+          "idea": "Illustrate anatomical processes or numerical facts after scientific verification",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-014",
+          "source_name": "openverse",
+          "idea": "Find anatomically accurate, properly licensed educational images",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-016",
+          "source_name": "whisperX",
+          "idea": "Accurate medical-terminology caption checking after forced alignment",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -9499,7 +11259,7 @@
       "name": "FocusSense",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -9521,7 +11281,11 @@
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md",
-        "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json"
+        "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "attenzione",
@@ -9716,6 +11480,39 @@
           "origin": "https://m3.material.io/",
           "source": "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json",
           "note": "Material 3 is a possible app-specific utility UI choice, not default/ban; implementation and actual stack NOT_VERIFIED; no consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-023"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "FIGMA-BENTO-001"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
         }
       ],
       "motion_design_candidates": [
@@ -10077,14 +11874,45 @@
         "status": "PROPOSED_ONLY",
         "decision": "NOT_DECIDED",
         "implementation": "NOT_VERIFIED"
-      }
+      },
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-023",
+          "source_name": "Realtime Colors",
+          "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "FIGMA-BENTO-001",
+          "source_name": "Bento Widget Templates",
+          "idea": "Focus score and session trend tiles with real sensor-derived values",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Check focus score colour states and charts to avoid meaning encoded by hue only",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        }
+      ]
     },
     {
       "id": "framelab",
       "name": "FrameLab",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -10108,7 +11936,17 @@
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
-        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json"
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "fotografia",
@@ -10408,6 +12246,112 @@
           "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
           "note": "Package shortlist only; Design-App-first and consumer verification required.",
           "origin": "https://fluttergems.dev/"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-018",
+            "DESIGN-SITE-020",
+            "DESIGN-SITE-021",
+            "DESIGN-SITE-022",
+            "DESIGN-SITE-024",
+            "DESIGN-SITE-027",
+            "DESIGN-SITE-028"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-029",
+            "DESIGN-SITE-030",
+            "FIGMA-BENTO-001"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-034"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_AGENTS_SCROLL_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-036",
+            "DESIGN-SITE-039",
+            "DESIGN-SITE-040"
+          ],
+          "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-042",
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-002",
+            "MOTION-OSS-003",
+            "MOTION-OSS-009",
+            "MOTION-OSS-010",
+            "MOTION-OSS-011",
+            "MOTION-OSS-012",
+            "MOTION-OSS-018"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "JIRO_15_LINKS_DEDUP_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-044",
+            "DESIGN-SUBL-003"
+          ],
+          "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTIONARY_26_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+          "source_ids": [
+            "STYLE26-01",
+            "STYLE26-05"
+          ],
+          "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
         }
       ],
       "voice_ui_candidates": [
@@ -11102,6 +13046,224 @@
           "status": "PROPOSED_ONLY",
           "implementation": "NOT_VERIFIED"
         }
+      ],
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-018",
+          "source_name": "Recent Design",
+          "idea": "App icon and typography moodboards",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-020",
+          "source_name": "Font in Logo",
+          "idea": "Match editorial title typography to product tone",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-021",
+          "source_name": "60FPS",
+          "idea": "Contextual bottom sheets, card transitions, long press",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-022",
+          "source_name": "Fontshare",
+          "idea": "Pair serif editorial headings with neutral readable UI fonts",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-024",
+          "source_name": "Coolors",
+          "idea": "Generate candidate 5-color palettes, then test in actual screen",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-027",
+          "source_name": "Shots",
+          "idea": "Create marketing phone/device mockups from own QA screenshots",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-028",
+          "source_name": "Cosmos",
+          "idea": "Moodboard collections and search by color/similarity",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-029",
+          "source_name": "Best Designs on X",
+          "idea": "Study photography-driven compositions and creative controls from original design posts",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "DESIGN-SITE-030",
+          "source_name": "Figma Community Mobile Apps",
+          "idea": "Study photo browser, editor/toolbars and image-focused mobile galleries",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "FIGMA-BENTO-001",
+          "source_name": "Bento Widget Templates",
+          "idea": "Image-led photo collage, palette and recent exports rather than identical dashboard cards",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-034",
+          "source_name": "React Bits",
+          "idea": "Study image transitions and galleries conceptually; use native image-fit and reduced-motion",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "design_sources_agents_scroll_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-036",
+          "source_name": "Scroll Shaders",
+          "idea": "Gradients/dithering as marketing reference only",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-039",
+          "source_name": "AI Canvas",
+          "idea": "Photo card/coverflow interactions preserving full image aspect ratio",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-040",
+          "source_name": "Aceternity UI",
+          "idea": "Gallery transitions with input/keyboard accessibility and original image ratio",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-042",
+          "source_name": "BestSaaSWebDesigns — Curated Designs",
+          "idea": "Identify motion studies and gallery compositions, with source-credit and original image ratio",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        },
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Inspect image-chrome and toolbar colour hierarchy ensuring photo content remains dominant",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-002",
+          "source_name": "motion-design-skill",
+          "idea": "Design non-cropping gallery transitions and stateful feedback",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-003",
+          "source_name": "mg-styles-15",
+          "idea": "Use film frames as references for app promo composition",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-009",
+          "source_name": "blender-skills",
+          "idea": "Produce 3D mockups as design/marketing assets",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-010",
+          "source_name": "three.quarks",
+          "idea": "VFX concept for Web previews, not an APK dependency",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-011",
+          "source_name": "react-postprocessing",
+          "idea": "Reference readable non-destructive media preview effects",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-012",
+          "source_name": "tweakpane",
+          "idea": "Parameter tuning for effects in internal Web prototype",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-018",
+          "source_name": "FFmpeg",
+          "idea": "Assess separate export tooling if scope admits video features, no LGPL/GPL binary in APK without review",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "jiro_library_builder_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-044",
+          "source_name": "Jiro Prompt Library",
+          "idea": "Reference responsive gallery/portfolio landing with full aspect ratio images and authentic before/after examples",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-003",
+          "source_name": "Jiro Builder",
+          "idea": "Evaluate Web site prototyping while preserving user-owned photos and original product identity",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        }
       ]
     },
     {
@@ -11109,7 +13271,7 @@
       "name": "Notes-Ecosistema",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-19",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -11135,7 +13297,19 @@
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
         "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
         "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
-        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json"
+        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "nota",
@@ -11616,6 +13790,121 @@
           "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
           "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
           "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-018",
+            "DESIGN-SITE-021",
+            "DESIGN-SITE-022",
+            "DESIGN-SITE-023",
+            "DESIGN-SITE-025",
+            "DESIGN-SITE-026",
+            "DESIGN-SITE-027",
+            "DESIGN-SITE-028"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-030",
+            "DESIGN-SITE-031",
+            "FIGMA-BENTO-001"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-032",
+            "DESIGN-SITE-033",
+            "DESIGN-SITE-034"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_AGENTS_SCROLL_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-038",
+            "DESIGN-SITE-039",
+            "DESIGN-SITE-041",
+            "DESIGN-SUBL-001"
+          ],
+          "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-042",
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-002"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "JIRO_15_LINKS_DEDUP_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-044",
+            "DESIGN-SUBL-003"
+          ],
+          "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTIONARY_26_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+          "source_ids": [
+            "STYLE26-01",
+            "STYLE26-25"
+          ],
+          "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-02",
+            "STACK5-03"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "voice_ui_candidates": [
@@ -12913,14 +15202,216 @@
         "scope": "Document-first workspace: reduce pointless chrome while preserving powerful canvas",
         "safeguard": "Do not change editors, shared data or persistence",
         "consumer_implementation": "NOT_VERIFIED"
-      }
+      },
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-018",
+          "source_name": "Recent Design",
+          "idea": "App icon and typography moodboards",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-021",
+          "source_name": "60FPS",
+          "idea": "Contextual bottom sheets, card transitions, long press",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-022",
+          "source_name": "Fontshare",
+          "idea": "Pair serif editorial headings with neutral readable UI fonts",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-023",
+          "source_name": "Realtime Colors",
+          "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-025",
+          "source_name": "Lucide",
+          "idea": "Consistent stroke and semantic icon naming",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-026",
+          "source_name": "SVGL",
+          "idea": "Find official provider logos for legitimate integration badges",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-027",
+          "source_name": "Shots",
+          "idea": "Create marketing phone/device mockups from own QA screenshots",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-028",
+          "source_name": "Cosmos",
+          "idea": "Moodboard collections and search by color/similarity",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-030",
+          "source_name": "Figma Community Mobile Apps",
+          "idea": "Study modular note editor, canvas and productivity mobile flow templates",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "DESIGN-SITE-031",
+          "source_name": "ReUI",
+          "idea": "Study task Kanban and rich filters as Web/UX references, not Flutter-ready code",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "FIGMA-BENTO-001",
+          "source_name": "Bento Widget Templates",
+          "idea": "Workspace bento of recent notes, projects, favorites, tasks and actionable capture",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-032",
+          "source_name": "ThinkUI",
+          "idea": "Review genuine capture/editor/empty-state UX with sources and state completeness",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "site_id": "DESIGN-SITE-033",
+          "source_name": "Mobbin",
+          "idea": "Study transitions from note listing to editor to collections and share/export",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "site_id": "DESIGN-SITE-034",
+          "source_name": "React Bits",
+          "idea": "Study animated list, collapsible details and card reveals; adapt natively in Flutter",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "design_sources_agents_scroll_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-038",
+          "source_name": "Navbar Gallery",
+          "idea": "Reference multi-level Web content navigation without importing desktop nav on mobile",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-039",
+          "source_name": "AI Canvas",
+          "idea": "Signature pad and task cards, native Flutter adaptation only",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-041",
+          "source_name": "Chakra UI",
+          "idea": "Accessible dialogs/actions as Web reference for native rewrite",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-001",
+          "source_name": "ReUI — Agent Ops Pro Blocks",
+          "idea": "Agent action queue as candidate only if AI functionality is product-approved",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-042",
+          "source_name": "BestSaaSWebDesigns — Curated Designs",
+          "idea": "Discover genuine dashboard/canvas interaction concepts and patterns, not clone social artwork",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        },
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Create candidate semantic tokens for ink, canvas, card, labels, accents and accessible contrast",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-002",
+          "source_name": "motion-design-skill",
+          "idea": "Set canvas interaction motion tokens for drag, zoom and tool changes",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "jiro_library_builder_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-044",
+          "source_name": "Jiro Prompt Library",
+          "idea": "Explore feature storytelling for canvas, notebooks and privacy with genuine app screen captures",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-003",
+          "source_name": "Jiro Builder",
+          "idea": "Use Builder only to mock up a product marketing site, not authentication, realtime sync or the notes canvas",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        }
+      ]
     },
     {
       "id": "omni-cleaner",
       "name": "Omni Cleaner",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-19",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -12943,7 +15434,19 @@
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
-        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json"
+        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "galleria",
@@ -13306,6 +15809,117 @@
           "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
           "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
           "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-021",
+            "DESIGN-SITE-023",
+            "DESIGN-SITE-025",
+            "DESIGN-SITE-027"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-030",
+            "DESIGN-SITE-031",
+            "FIGMA-BENTO-001"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-032",
+            "DESIGN-SITE-033"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_AGENTS_SCROLL_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-039",
+            "DESIGN-SITE-041"
+          ],
+          "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-042",
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-001",
+            "MOTION-OSS-002",
+            "MOTION-OSS-006"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "JIRO_15_LINKS_DEDUP_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-044",
+            "DESIGN-SUBL-003"
+          ],
+          "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTIONARY_26_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+          "source_ids": [
+            "STYLE26-01",
+            "STYLE26-05"
+          ],
+          "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-01",
+            "STACK5-03",
+            "STACK5-05"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "motion_design_candidates": [
@@ -14230,7 +16844,169 @@
         "scope": "Kotlin/Compose Clean screens, state badges, charts and functional hierarchy",
         "safeguard": "RC1 freeze; safe-delete and permission truth; user-approved Home stays",
         "consumer_implementation": "NOT_VERIFIED"
-      }
+      },
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-021",
+          "source_name": "60FPS",
+          "idea": "Contextual bottom sheets, card transitions, long press",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-023",
+          "source_name": "Realtime Colors",
+          "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-025",
+          "source_name": "Lucide",
+          "idea": "Consistent stroke and semantic icon naming",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-027",
+          "source_name": "Shots",
+          "idea": "Create marketing phone/device mockups from own QA screenshots",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-030",
+          "source_name": "Figma Community Mobile Apps",
+          "idea": "Study storage cleaner permission, empty-state and confirmation flow patterns",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "DESIGN-SITE-031",
+          "source_name": "ReUI",
+          "idea": "Adapt data table, filter and safe multi-step destructive action UX only if relevant",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "FIGMA-BENTO-001",
+          "source_name": "Bento Widget Templates",
+          "idea": "Storage and gallery overview tiles showing real scan results; respect safe delete and empty states",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-032",
+          "source_name": "ThinkUI",
+          "idea": "Benchmark safe review-delete-trash-undo flows without acquiring third-party screenshots",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "site_id": "DESIGN-SITE-033",
+          "source_name": "Mobbin",
+          "idea": "Inspect full consent, gallery preview, multi-select and deletion confirmation journey",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "design_sources_agents_scroll_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-039",
+          "source_name": "AI Canvas",
+          "idea": "Delete-with-undo countdown only with genuinely reversible trash operation",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-041",
+          "source_name": "Chakra UI",
+          "idea": "Confirm-dialog and safe destructive action semantics",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-042",
+          "source_name": "BestSaaSWebDesigns — Curated Designs",
+          "idea": "Study distinct media-gallery and utility card composition, preserving current Color Bento direction",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        },
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Check Color Bento palette readability and status/destructive colour semantics using preview and contrast checks",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-001",
+          "source_name": "reanimate",
+          "idea": "Use frame-analysis as inspiration for native Compose transitions; no copyrighted UI clone",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-002",
+          "source_name": "motion-design-skill",
+          "idea": "Polish Color Bento card and navigation timing, maintaining real state",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-006",
+          "source_name": "cinetic",
+          "idea": "Promo with genuine Color Bento screenshots, not invented product features",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "jiro_library_builder_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-044",
+          "source_name": "Jiro Prompt Library",
+          "idea": "Explore clean product landing with accurate screenshots of the Color Bento Home, safe cleaning claims and App store link",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-003",
+          "source_name": "Jiro Builder",
+          "idea": "Try a standalone marketing-site draft; the actual Android cleaner UI, privacy and APK release stay in the consumer repo",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        }
+      ]
     },
     {
       "id": "phone-guard",
@@ -16238,7 +19014,7 @@
       "name": "TrailPath",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -16257,7 +19033,9 @@
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "mappa",
@@ -16405,6 +19183,30 @@
             "UIV-106"
           ],
           "note": "1 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-021",
+            "DESIGN-SITE-023"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-032",
+            "DESIGN-SITE-033"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
         }
       ],
       "motion_design_candidates": [
@@ -16548,6 +19350,42 @@
           "is_user_favorite": true,
           "code_original_available": true
         }
+      ],
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-021",
+          "source_name": "60FPS",
+          "idea": "Contextual bottom sheets, card transitions, long press",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-023",
+          "source_name": "Realtime Colors",
+          "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-032",
+          "source_name": "ThinkUI",
+          "idea": "Review offline navigation and failed-routing states from real interfaces",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "site_id": "DESIGN-SITE-033",
+          "source_name": "Mobbin",
+          "idea": "Benchmark GPS permission, no-route and retry UX from shipped navigation apps",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -16555,7 +19393,7 @@
       "name": "Web Utility Factory",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -16571,7 +19409,18 @@
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "strumenti",
@@ -16709,6 +19558,129 @@
             "UIV-096"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-015",
+            "DESIGN-SITE-016",
+            "DESIGN-SITE-017",
+            "DESIGN-SITE-018",
+            "DESIGN-SITE-019",
+            "DESIGN-SITE-026",
+            "DESIGN-SITE-027"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-031"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-034"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_AGENTS_SCROLL_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-035",
+            "DESIGN-SITE-036",
+            "DESIGN-SITE-037",
+            "DESIGN-SITE-038",
+            "DESIGN-SITE-040",
+            "DESIGN-SITE-041",
+            "DESIGN-SUBL-002"
+          ],
+          "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-042",
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-001",
+            "MOTION-OSS-003",
+            "MOTION-OSS-006",
+            "MOTION-OSS-007",
+            "MOTION-OSS-009",
+            "MOTION-OSS-010",
+            "MOTION-OSS-011",
+            "MOTION-OSS-012",
+            "MOTION-OSS-017",
+            "MOTION-OSS-018"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "JIRO_15_LINKS_DEDUP_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-044",
+            "DESIGN-SUBL-003"
+          ],
+          "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTIONARY_26_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+          "source_ids": [
+            "STYLE26-24",
+            "STYLE26-21"
+          ],
+          "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-02",
+            "STACK5-04",
+            "STACK5-05"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "motion_design_candidates": [
@@ -16895,6 +19867,264 @@
           "is_user_favorite": true,
           "code_original_available": true
         }
+      ],
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-015",
+          "source_name": "Motion Sites",
+          "idea": "Animated hero with reduced-motion fallback",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-016",
+          "source_name": "Motion Sites Studio",
+          "idea": "AI-assisted website prototype comparison",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-017",
+          "source_name": "Land-book",
+          "idea": "Pricing-page hierarchy with distinct comparison tiers",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-018",
+          "source_name": "Recent Design",
+          "idea": "App icon and typography moodboards",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-019",
+          "source_name": "Landdding",
+          "idea": "Sector-specific landing layouts for SaaS, utility and food",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-026",
+          "source_name": "SVGL",
+          "idea": "Find official provider logos for legitimate integration badges",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-027",
+          "source_name": "Shots",
+          "idea": "Create marketing phone/device mockups from own QA screenshots",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-031",
+          "source_name": "ReUI",
+          "idea": "Study copy-and-own React sidebar, forms, stepper, sortable and data grid for Web products",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-034",
+          "source_name": "React Bits",
+          "idea": "Use selective React button/card/text motion on promotional web pages after motion/performance checks",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "design_sources_agents_scroll_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-035",
+          "source_name": "Scrolltide",
+          "idea": "Scroll narrative reference for a distinctive landing page without copying paid templates",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-036",
+          "source_name": "Scroll Shaders",
+          "idea": "Optional light Web hero shader with static reduced-motion fallback",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-037",
+          "source_name": "Snapblocks",
+          "idea": "UNVERIFIED — examine blocks only once site and license are directly accessible",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-038",
+          "source_name": "Navbar Gallery",
+          "idea": "Modern responsive navbar reference for product marketing",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-040",
+          "source_name": "Aceternity UI",
+          "idea": "Selective modern cards, hero and motion UI on marketing site",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-041",
+          "source_name": "Chakra UI",
+          "idea": "Framework comparison only for future React Web product, not a migration",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-002",
+          "source_name": "shadcn/ui — AI Elements",
+          "idea": "Optional Web agent UI using React-compatible source and checked license",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-042",
+          "source_name": "BestSaaSWebDesigns — Curated Designs",
+          "idea": "Compare high-quality promotional hero, feature blocks and CTA and follow author links",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        },
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Export candidate CSS variables/JSON design tokens for Web identity consistency",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-001",
+          "source_name": "reanimate",
+          "idea": "Study permitted marketing scroll motion; build a distinct implementation",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-003",
+          "source_name": "mg-styles-15",
+          "idea": "Develop a video trailer art-direction board, not imported clips",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-006",
+          "source_name": "cinetic",
+          "idea": "Create product trailers using authentic captured app screens and cleared soundtracks",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-007",
+          "source_name": "motionmaxxing",
+          "idea": "Apply motion quality gates to video marketing deliverables",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-009",
+          "source_name": "blender-skills",
+          "idea": "Original lightweight 3D campaign assets, with still fallback",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-010",
+          "source_name": "three.quarks",
+          "idea": "Optional Three.js marketing particle accent; reduced motion and performance budget",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-011",
+          "source_name": "react-postprocessing",
+          "idea": "Restrained Web 3D postproduction on standalone landing page",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-012",
+          "source_name": "tweakpane",
+          "idea": "Debug slider controls for motion prototypes; no production leak",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-017",
+          "source_name": "skills",
+          "idea": "Agent-assisted video generation with Remotion engine license gate",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-018",
+          "source_name": "FFmpeg",
+          "idea": "Offline video mux/encode for promotional clips and web publishing",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "jiro_library_builder_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-044",
+          "source_name": "Jiro Prompt Library",
+          "idea": "Study editorial landing templates, feature/FAQ/pricing/CTA patterns; design with original source or licensed project use",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-003",
+          "source_name": "Jiro Builder",
+          "idea": "Evaluate a standalone Web-site prototype with chat editing, mobile preview, code ZIP export only on an eligible paid plan",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        }
       ]
     },
     {
@@ -16902,7 +20132,7 @@
       "name": "Wonderlog",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -16924,7 +20154,18 @@
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "viaggio",
@@ -17292,6 +20533,102 @@
             "UIV-111"
           ],
           "note": "8 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-021",
+            "DESIGN-SITE-024",
+            "DESIGN-SITE-028"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-029",
+            "DESIGN-SITE-030",
+            "FIGMA-BENTO-001"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-033"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-042",
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-004",
+            "MOTION-OSS-005",
+            "MOTION-OSS-014"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "JIRO_15_LINKS_DEDUP_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-044",
+            "DESIGN-SUBL-003"
+          ],
+          "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTIONARY_26_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+          "source_ids": [
+            "STYLE26-01",
+            "STYLE26-05"
+          ],
+          "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-01",
+            "STACK5-05"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "voice_ui_candidates": [
@@ -18166,6 +21503,134 @@
           "is_user_favorite": true,
           "code_original_available": true
         }
+      ],
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-021",
+          "source_name": "60FPS",
+          "idea": "Contextual bottom sheets, card transitions, long press",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-024",
+          "source_name": "Coolors",
+          "idea": "Generate candidate 5-color palettes, then test in actual screen",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-028",
+          "source_name": "Cosmos",
+          "idea": "Moodboard collections and search by color/similarity",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-029",
+          "source_name": "Best Designs on X",
+          "idea": "Discover travel postcards, timelines and destination imagery presentation",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "DESIGN-SITE-030",
+          "source_name": "Figma Community Mobile Apps",
+          "idea": "Study trip timeline and map/filter mobile layouts",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "FIGMA-BENTO-001",
+          "source_name": "Bento Widget Templates",
+          "idea": "Trip summary, photo collage, next waypoint, offline state tiles",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-033",
+          "source_name": "Mobbin",
+          "idea": "Compare travel itinerary, saved trip and map-to-detail journeys",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-042",
+          "source_name": "BestSaaSWebDesigns — Curated Designs",
+          "idea": "Explore postcard, travel map and journey storytelling visual identities",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        },
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Develop mapped theme tokens for travel cards and daylight/dark outdoor readability",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-004",
+          "source_name": "huashu-art-motion",
+          "idea": "Explore animated travel painting reels from user-owned photos",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-005",
+          "source_name": "anidoodle",
+          "idea": "Animated personal travel sketch postcard idea",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-014",
+          "source_name": "openverse",
+          "idea": "User-opt-in discovery of media for travel storytelling subject to rights and privacy",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "jiro_library_builder_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-044",
+          "source_name": "Jiro Prompt Library",
+          "idea": "Consider travel journal promotional page, picture-rich story and restrained micro-interactions",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-003",
+          "source_name": "Jiro Builder",
+          "idea": "Prototype a campaign landing only; do not imply hosted builder gives an offline-capable Flutter app",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        }
       ]
     },
     {
@@ -18173,7 +21638,7 @@
       "name": "World Days",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-19",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -18199,7 +21664,19 @@
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
         "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
         "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
-        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json"
+        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+        "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "calendario",
@@ -18637,6 +22114,130 @@
           "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
           "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
           "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-020",
+            "DESIGN-SITE-022",
+            "DESIGN-SITE-023",
+            "DESIGN-SITE-024",
+            "DESIGN-SITE-027",
+            "DESIGN-SITE-028"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-029",
+            "DESIGN-SITE-030",
+            "DESIGN-SITE-031",
+            "FIGMA-BENTO-001"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-032",
+            "DESIGN-SITE-033"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_AGENTS_SCROLL_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-035",
+            "DESIGN-SITE-038",
+            "DESIGN-SITE-039",
+            "DESIGN-SITE-040"
+          ],
+          "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-042",
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTION_VIDEO_18_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "MOTION-OSS-002",
+            "MOTION-OSS-003",
+            "MOTION-OSS-004",
+            "MOTION-OSS-005",
+            "MOTION-OSS-008",
+            "MOTION-OSS-013",
+            "MOTION-OSS-014",
+            "MOTION-OSS-015",
+            "MOTION-OSS-016",
+            "MOTION-OSS-017",
+            "MOTION-OSS-018"
+          ],
+          "note": "Original motion/video/audio sources audited, source SHAs pinned, media and commercial-license gates noted. Tools/skills not installed; no new consumer/UID/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "JIRO_15_LINKS_DEDUP_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-044",
+            "DESIGN-SUBL-003"
+          ],
+          "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "MOTIONARY_26_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+          "source_ids": [
+            "STYLE26-01",
+            "STYLE26-17"
+          ],
+          "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-01",
+            "STACK5-05",
+            "STACK5-03"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "voice_ui_candidates": [
@@ -19752,7 +23353,273 @@
         "scope": "Editorial world-day stories: concise labels and truthful temporal state",
         "safeguard": "Do not change historical stories, sources or translations during appearance audit",
         "consumer_implementation": "NOT_VERIFIED"
-      }
+      },
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-020",
+          "source_name": "Font in Logo",
+          "idea": "Match editorial title typography to product tone",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-022",
+          "source_name": "Fontshare",
+          "idea": "Pair serif editorial headings with neutral readable UI fonts",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-023",
+          "source_name": "Realtime Colors",
+          "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-024",
+          "source_name": "Coolors",
+          "idea": "Generate candidate 5-color palettes, then test in actual screen",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-027",
+          "source_name": "Shots",
+          "idea": "Create marketing phone/device mockups from own QA screenshots",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-028",
+          "source_name": "Cosmos",
+          "idea": "Moodboard collections and search by color/similarity",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-029",
+          "source_name": "Best Designs on X",
+          "idea": "Discover visually distinctive editorial storytelling patterns for historic daily content",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "DESIGN-SITE-030",
+          "source_name": "Figma Community Mobile Apps",
+          "idea": "Study card/news-feed layouts with readable long-form content",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "DESIGN-SITE-031",
+          "source_name": "ReUI",
+          "idea": "Study searchable content catalog grid, pagination and filters",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "FIGMA-BENTO-001",
+          "source_name": "Bento Widget Templates",
+          "idea": "Daily story tile, discovery themes, upcoming observances and history summaries",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-032",
+          "source_name": "ThinkUI",
+          "idea": "Study long-form feed and category browsing hierarchy; protect readability",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "site_id": "DESIGN-SITE-033",
+          "source_name": "Mobbin",
+          "idea": "Compare discovery/search and editorial story-reading flows",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "design_sources_agents_scroll_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-035",
+          "source_name": "Scrolltide",
+          "idea": "Introductory story-based landing only; preserve core content readability",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-038",
+          "source_name": "Navbar Gallery",
+          "idea": "Organize editorial category navigation with mobile and accessibility QA",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-039",
+          "source_name": "AI Canvas",
+          "idea": "Readable category cards with meaningful state",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "DESIGN-SITE-040",
+          "source_name": "Aceternity UI",
+          "idea": "Content cards and restrained decorative backgrounds, no legibility regression",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-042",
+          "source_name": "BestSaaSWebDesigns — Curated Designs",
+          "idea": "Discover editorial daily story layouts and purposeful illustration/motion references",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        },
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Review existing story palette for contrast and colour consistency, keeping current chosen app colours",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        }
+      ],
+      "motion_video_18_2026_11_20": [
+        {
+          "source_id": "MOTION-OSS-002",
+          "source_name": "motion-design-skill",
+          "idea": "Use subtle content transitions to aid comprehension of daily stories",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-003",
+          "source_name": "mg-styles-15",
+          "idea": "Explore constrained educational promo video style vocabulary",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-004",
+          "source_name": "huashu-art-motion",
+          "idea": "Create original painted educational reels for selectively verified history stories",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-005",
+          "source_name": "anidoodle",
+          "idea": "Optional small original line-art clips for educational stories",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-008",
+          "source_name": "manim",
+          "idea": "Animated graphs for verified calendar/awareness data",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-013",
+          "source_name": "effectcraft",
+          "idea": "Possible batch production of awareness reels; test editor maturity",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-014",
+          "source_name": "openverse",
+          "idea": "Search open audio/illustrations with per-asset provenance and CC license check",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-015",
+          "source_name": "librosa",
+          "idea": "Generate beat markers for informational reels without runtime audio stack",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-016",
+          "source_name": "whisperX",
+          "idea": "Transcribe and align spoken educational video captions, checking every locale",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-017",
+          "source_name": "skills",
+          "idea": "Production of localization-aware explainer clips with caption QA",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "source_id": "MOTION-OSS-018",
+          "source_name": "FFmpeg",
+          "idea": "Validate story reel outputs for codec, duration, caption and rights",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
+      ],
+      "jiro_library_builder_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-044",
+          "source_name": "Jiro Prompt Library",
+          "idea": "Review accessible daily-discovery landing patterns, editorial stories and subscription messaging without changing story data",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-003",
+          "source_name": "Jiro Builder",
+          "idea": "Consider hosted Web announcement prototype; keep verified content, data sources, localization and publication independent",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        }
+      ]
     }
   ],
   "by_app": {

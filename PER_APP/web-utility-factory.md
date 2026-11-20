@@ -110,3 +110,110 @@ Per il tema chiaro/scuro preservare ThemeMode (sistema/chiaro/scuro), preferenze
 | [UIV-096](https://uiverse.io/solowzrd/wet-lionfish-63) | PATTERN | Texture background con gate contrasto/FPS | MEDIUM | [HTML](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-096_original.html) · [CSS](../UI-UX/UIVERSE/CODICE_SORGENTE/UIV-096_original.css) |
 
 [Registro 97 Favorites](../UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json) · [Matrice complessiva 25 app](../UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.md) · [Archivio codice](../UI-UX/UIVERSE/CODICE_SORGENTE/README.md). Stato: **PROPOSED_ONLY**.
+
+
+## Fonti esterne aggiunte — 20/11/2026 (15 URL, 14 servizi unici)
+
+Intake visivo documentale: [audit](../sources/DESIGN_SITES_15_AUDIT_2026-11-20.md) · [matrice per app](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.md) · [registro JSON](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json).
+
+- **Motion Sites** (`DESIGN-SITE-015`): Animated hero with reduced-motion fallback. **Stato: PROPOSED_ONLY**.
+- **Motion Sites Studio** (`DESIGN-SITE-016`): AI-assisted website prototype comparison. **Stato: PROPOSED_ONLY**.
+- **Land-book** (`DESIGN-SITE-017`): Pricing-page hierarchy with distinct comparison tiers. **Stato: PROPOSED_ONLY**.
+- **Recent Design** (`DESIGN-SITE-018`): App icon and typography moodboards. **Stato: PROPOSED_ONLY**.
+- **Landdding** (`DESIGN-SITE-019`): Sector-specific landing layouts for SaaS, utility and food. **Stato: PROPOSED_ONLY**.
+- **SVGL** (`DESIGN-SITE-026`): Find official provider logos for legitimate integration badges. **Stato: PROPOSED_ONLY**.
+- **Shots** (`DESIGN-SITE-027`): Create marketing phone/device mockups from own QA screenshots. **Stato: PROPOSED_ONLY**.
+
+I pattern richiedono decisione di prodotto, valutazione della licenza e QA sulla schermata target. Nessun componente, font, foto o logo di terzi e' stato copiato; nessuna funzione consumer risulta implementata da questo intake.
+
+
+## Design external sources 20/11/2026 — Figma, ReUI, Best Designs on X
+
+[Audit e prove](../sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md) · [Matrice per app](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.md) · [Catalogo JSON](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json).
+
+- **ReUI** (`DESIGN-SITE-031`): Study copy-and-own React sidebar, forms, stepper, sortable and data grid for Web products. **PROPOSED_ONLY**.
+
+Licenze degli asset e approvazione estetica per-app obbligatorie prima di qualsiasi codice o risorsa distribuita. Proposte non implementate, nessun nuovo Golden.
+
+
+## Nuove reference UI — 20/11/2026 (deduplica 15 → 3)
+
+[Audit selettivo](../sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md) · [Matrice per-app](../UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.md) · [Registro](../UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json).
+
+- **React Bits** (`DESIGN-SITE-034`): Use selective React button/card/text motion on promotional web pages after motion/performance checks — **PROPOSED_ONLY**.
+
+Queste fonti non autorizzano il riutilizzo di screenshot o font senza licenza. Mobbin vieta l'archiviazione/mirroring dei contenuti; React Bits usa MIT + Commons Clause; ThinkUI richiede attivazione MCP a pagamento. Nessuna app o feature implementata da questo intake.
+
+
+## Fonti AI agent/Web/motion — 20/11/2026 (7 nuove, 2 approfondimenti)
+
+[Audit](../sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md) · [Matrice per-app](../UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.md) · [Deep link ReUI/shadcn](../sources/DESIGN_EXISTING_SITES_DEEP_LINKS_2026-11-20.json).
+
+- **Scrolltide** (`DESIGN-SITE-035`): Scroll narrative reference for a distinctive landing page without copying paid templates — **PROPOSED_ONLY**.
+- **Scroll Shaders** (`DESIGN-SITE-036`): Optional light Web hero shader with static reduced-motion fallback — **PROPOSED_ONLY**.
+- **Snapblocks** (`DESIGN-SITE-037`): UNVERIFIED — examine blocks only once site and license are directly accessible — **PROPOSED_ONLY**.
+- **Navbar Gallery** (`DESIGN-SITE-038`): Modern responsive navbar reference for product marketing — **PROPOSED_ONLY**.
+- **Aceternity UI** (`DESIGN-SITE-040`): Selective modern cards, hero and motion UI on marketing site — **PROPOSED_ONLY**.
+- **Chakra UI** (`DESIGN-SITE-041`): Framework comparison only for future React Web product, not a migration — **PROPOSED_ONLY**.
+- **shadcn/ui — AI Elements** (`DESIGN-SUBL-002`): Optional Web agent UI using React-compatible source and checked license — **PROPOSED_ONLY**.
+
+**Gate:** premium/proprietary/non-verified sources not imported, React/JS is not Dart, animations must respect reduced-motion and measurable state, GPU/performance/battery gates for shaders; per-app Product Bible and visual decisions before consumer implementation. The t.co short URL is unresolved. No code/tests of this consumer performed.
+
+
+## Nuove referenze visuali e cromatiche — 20/11/2026
+
+[Audit fonte e licenze](../sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md) · [Matrice app](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.md) · [Registro JSON](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json).
+
+- **BestSaaSWebDesigns — Curated Designs** (`DESIGN-SITE-042`): Compare high-quality promotional hero, feature blocks and CTA and follow author links. **PROPOSED_ONLY**.
+- **UIColours** (`DESIGN-SITE-043`): Export candidate CSS variables/JSON design tokens for Web identity consistency. **PROPOSED_ONLY**.
+
+Le palette e i mock-up gia' approvati hanno priorita'; la fonte non concede il riuso automatico di asset di brand/post X e non garantisce esportazione diretta in Flutter. Nessuna UI implementata o tema consumer modificato.
+
+
+## Motion UX, animazioni e video — lotto 18 fonti 20/11/2026
+
+[Audit licenze e compatibilita'](../sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md) · [Matrice](../UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.md) · [Pipeline](../sources/MOTION_VIDEO_18_PIPELINE_2026-11-20.md) · [Manifest SHA](../sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json).
+
+- **reanimate** (`MOTION-OSS-001`): Study permitted marketing scroll motion; build a distinct implementation. **PROPOSED_ONLY**.
+- **mg-styles-15** (`MOTION-OSS-003`): Develop a video trailer art-direction board, not imported clips. **PROPOSED_ONLY**.
+- **cinetic** (`MOTION-OSS-006`): Create product trailers using authentic captured app screens and cleared soundtracks. **PROPOSED_ONLY**.
+- **motionmaxxing** (`MOTION-OSS-007`): Apply motion quality gates to video marketing deliverables. **PROPOSED_ONLY**.
+- **blender-skills** (`MOTION-OSS-009`): Original lightweight 3D campaign assets, with still fallback. **PROPOSED_ONLY**.
+- **three.quarks** (`MOTION-OSS-010`): Optional Three.js marketing particle accent; reduced motion and performance budget. **PROPOSED_ONLY**.
+- **react-postprocessing** (`MOTION-OSS-011`): Restrained Web 3D postproduction on standalone landing page. **PROPOSED_ONLY**.
+- **tweakpane** (`MOTION-OSS-012`): Debug slider controls for motion prototypes; no production leak. **PROPOSED_ONLY**.
+- **skills** (`MOTION-OSS-017`): Agent-assisted video generation with Remotion engine license gate. **PROPOSED_ONLY**.
+- **FFmpeg** (`MOTION-OSS-018`): Offline video mux/encode for promotional clips and web publishing. **PROPOSED_ONLY**.
+
+**Vincoli:** il media render resta separato dal runtime APK; Flutter/Compose devono usare il donor/framework nativo prima di TSX/JavaScript; licenza dell'asset e del runtime va verificata singolarmente. Nessuna modifica a Product Bible, UI, database, funzioni, codice, build o screenshot del consumer. Priorita' estetica agli asset e mock-up gia' scelti nel Design-App; a11y, reduced motion, FPS/batteria e privacy da validare in una eventuale implementazione.
+
+
+## Jiro Build e Builder — fonti Web per marketing (20/11/2026)
+
+[Audit, deduplica e licenze](../sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md) · [Matrice](../UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.md) · [Mappa JSON](../UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json).
+
+- **Jiro Prompt Library** (`DESIGN-SITE-044`): Study editorial landing templates, feature/FAQ/pricing/CTA patterns; design with original source or licensed project use. **PROPOSED_ONLY**.
+- **Jiro Builder** (`DESIGN-SUBL-003`): Evaluate a standalone Web-site prototype with chat editing, mobile preview, code ZIP export only on an eligible paid plan. **PROPOSED_ONLY**.
+
+**Gate:** Jiro e' una libreria proprietaria di design Web/React e un servizio esterno di hosting; nessun widget Flutter/Compose importato e nessun piano acquistato. I Termini consentono i progetti propri/clienti ma vietano ricollezionare o rivendere componenti/template standalone, il che preclude il copy del catalogo nella nostra libreria. Il Builder Free prevede limiti crediti e inattivita' e l'esportazione ZIP richiede un piano. Gli asset e mock-up preferiti gia' approvati in Design-App prevalgono; nessun codice consumer, server, auth, dati, palette, release o design deciso è stato modificato.
+
+
+## Motionary + 26 nuove fonti — 20/11/2026
+
+[Audit e licenze](../sources/MOTIONARY_26_AUDIT_2026-11-20.md) · [Mappa per app](../UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md).
+
+- **STYLE26-24** (P2): Benchmark componenti web semanticamente accessibili — **PROPOSED_ONLY**.
+- **STYLE26-21** (P2): Generare proposte landing con Stitch come reference, nessun deploy non autorizzato — **PROPOSED_ONLY**.
+
+**Gate:** Product Bible e identità visiva approvata; i componenti Web non sono widget Flutter. Nessun consumer modificato né componenti copiati. Licenze, dipendenze, accessibilità, rendering e CI da verificare per ogni adozione.
+
+
+## Design stack Florent — 5 link (20/11/2026)
+
+[Audit licenze e fonti](../sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md) · [Mappa per-app](../UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md). Nessun cambiamento automatico dell'identità visiva approvata.
+
+- **STACK5-02 · P1**: Hero, features, pricing e FAQ per landing delle utility; usare solo licenze compatibili. **PROPOSED_ONLY**.
+- **STACK5-04 · P2**: Font families per landing e impaginazione responsive. **PROPOSED_ONLY**.
+- **STACK5-05 · P2**: Clip introduttiva per feature Web, produzione separata dal codice applicazione. **PROPOSED_ONLY**.
+
+**Gate:** Shipframe screenshot autentici senza dati personali, Oversight solo reference o uso licenziato in progetto, Mobbin niente mirror di screenshot terzi, Fontshare licenza per famiglia; nessun file/asset copiato in questo lotto. Prima di applicare in app: Product Bible, codice consumer, test QA e approvazione.

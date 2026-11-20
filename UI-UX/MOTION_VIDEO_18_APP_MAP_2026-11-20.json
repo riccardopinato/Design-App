@@ -1,0 +1,870 @@
+{
+  "schema_version": 1,
+  "batch_id": "MOTION_VIDEO_18_2026_11_20",
+  "date": "2026-11-20",
+  "counts": {
+    "source_count": 18,
+    "app_profiles": 13,
+    "relations": 68
+  },
+  "sources": {
+    "MOTION-OSS-001": {
+      "name": "reanimate",
+      "repository": "NiazMorshed2007/reanimate",
+      "source_commit": "3f7a55a2986a84ca2173e86ee9127eefe31d046d",
+      "license": "MIT"
+    },
+    "MOTION-OSS-002": {
+      "name": "motion-design-skill",
+      "repository": "LottieFiles/motion-design-skill",
+      "source_commit": "d77a9fc8cb371cab1ba5420df5bfd232cd14c9bb",
+      "license": "MIT"
+    },
+    "MOTION-OSS-003": {
+      "name": "mg-styles-15",
+      "repository": "Vincentwei1021/mg-styles-15",
+      "source_commit": "8fab7eb49cc60590c518d1a932dfff753697fce7",
+      "license": "MIT_ORIGINAL"
+    },
+    "MOTION-OSS-004": {
+      "name": "huashu-art-motion",
+      "repository": "alchaincyf/huashu-art-motion",
+      "source_commit": "a97c45018d46e950d56d61981138e08f4e092909",
+      "license": "MIT_CODE_DOCS_EXCEPTIONS"
+    },
+    "MOTION-OSS-005": {
+      "name": "anidoodle",
+      "repository": "alexgreensh/anidoodle",
+      "source_commit": "4ae27d2c281fcfd01bce87ab13dc5ad4df81a795",
+      "license": "Apache-2.0"
+    },
+    "MOTION-OSS-006": {
+      "name": "cinetic",
+      "repository": "Leonxlnx/cinetic",
+      "source_commit": "f4bbfc844877891fe92279d47b7874fb44d485ae",
+      "license": "MIT_ORIGINAL"
+    },
+    "MOTION-OSS-007": {
+      "name": "motionmaxxing",
+      "repository": "Tejashmakwana/motionmaxxing",
+      "source_commit": "8c8ec0f2a6f6c9a0da15cd24f7b1298ab298368c",
+      "license": "Apache-2.0_ORIGINAL"
+    },
+    "MOTION-OSS-008": {
+      "name": "manim",
+      "repository": "ManimCommunity/manim",
+      "source_commit": "ab7f9527fa2b37893aacc367e21b723845f44ef0",
+      "license": "MIT_DUAL_AUTHORS"
+    },
+    "MOTION-OSS-009": {
+      "name": "blender-skills",
+      "repository": "EL4CTEO/blender-skills",
+      "source_commit": "9e7e04a603c125a0d17447ab97112fa70a865067",
+      "license": "MIT"
+    },
+    "MOTION-OSS-010": {
+      "name": "three.quarks",
+      "repository": "Alchemist0823/three.quarks",
+      "source_commit": "9d0445c5949c7da570f412ad7007efecd0357886",
+      "license": "MIT"
+    },
+    "MOTION-OSS-011": {
+      "name": "react-postprocessing",
+      "repository": "pmndrs/react-postprocessing",
+      "source_commit": "e07ef9a890c8a202a3b20eac0249032cff4e7805",
+      "license": "MIT"
+    },
+    "MOTION-OSS-012": {
+      "name": "tweakpane",
+      "repository": "cocopon/tweakpane",
+      "source_commit": "50a18c3dba67cb78431d7248dbe4d5a76336885a",
+      "license": "MIT"
+    },
+    "MOTION-OSS-013": {
+      "name": "effectcraft",
+      "repository": "storytold/effectcraft",
+      "source_commit": "f32ad3aa3b0a8e853ad41db3965fe19455a693cb",
+      "license": "MIT_OR_APACHE-2.0_CODE"
+    },
+    "MOTION-OSS-014": {
+      "name": "openverse",
+      "repository": "WordPress/openverse",
+      "source_commit": "7cea3802175bff3eb508dd9bc2e883e1ef44684c",
+      "license": "MIT_CODE_ONLY; MULTIPLE_CC_PD_MEDIA"
+    },
+    "MOTION-OSS-015": {
+      "name": "librosa",
+      "repository": "librosa/librosa",
+      "source_commit": "e099b8933a34d968f5b4c652e4ccfa3acef9d64e",
+      "license": "ISC"
+    },
+    "MOTION-OSS-016": {
+      "name": "whisperX",
+      "repository": "m-bain/whisperX",
+      "source_commit": "b904f02b7e1f26fd10fb04840d655ff27e88e464",
+      "license": "BSD-2-Clause_CODE"
+    },
+    "MOTION-OSS-017": {
+      "name": "skills",
+      "repository": "remotion-dev/skills",
+      "source_commit": "6f55706d1069e512430582ad86e4e57dc07afe1b",
+      "license": "NO_LICENSE_AT_SKILLS_ROOT; REMOTION_RUNTIME_CUSTOM"
+    },
+    "MOTION-OSS-018": {
+      "name": "FFmpeg",
+      "repository": "FFmpeg/FFmpeg",
+      "source_commit": "7ddf7bc8a482cf28b4fab2e63b7093ba35cb6a80",
+      "license": "LGPL-2.1+; GPL_OPTIONAL"
+    }
+  },
+  "relations": [
+    {
+      "app_id": "annas-diary",
+      "source_id": "MOTION-OSS-001",
+      "source_name": "reanimate",
+      "idea": "Study permitted page transitions while preserving approved diary visuals",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "VISUAL_UX_REFERENCE",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "annas-diary",
+      "source_id": "MOTION-OSS-002",
+      "source_name": "motion-design-skill",
+      "idea": "Specify gentle, interruptible diary transitions and reduced-motion modes",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "VISUAL_UX_REFERENCE",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "annas-diary",
+      "source_id": "MOTION-OSS-005",
+      "source_name": "anidoodle",
+      "idea": "Consider original minimal doodle illustrations for diary moments",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "MOTION-OSS-001",
+      "source_name": "reanimate",
+      "idea": "Study authorized motion reference clips and specify original queue/card transitions for Web",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "VISUAL_UX_REFERENCE",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "MOTION-OSS-006",
+      "source_name": "cinetic",
+      "idea": "Reusable honest product-update film production workflow",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "MOTION-OSS-007",
+      "source_name": "motionmaxxing",
+      "idea": "Shared animation/video QA agent: timing, typography, audio sync and source rights",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "MOTION-OSS-013",
+      "source_name": "effectcraft",
+      "idea": "Assess desktop compositing as a distinct optional content pipeline donor",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "MOTION-OSS-015",
+      "source_name": "librosa",
+      "idea": "Potential producer-side asset pipeline beat analysis",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "MOTION-OSS-016",
+      "source_name": "whisperX",
+      "idea": "Optional private pipeline transcription with consent and model-license checks",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "MOTION-OSS-017",
+      "source_name": "skills",
+      "idea": "Central reusable video production SOP, not automatically free code",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "battery-guard",
+      "source_id": "MOTION-OSS-002",
+      "source_name": "motion-design-skill",
+      "idea": "Restrict charge transitions to low-power meaningful state changes",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "VISUAL_UX_REFERENCE",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "cashmate-ai",
+      "source_id": "MOTION-OSS-008",
+      "source_name": "manim",
+      "idea": "Optional finance education charts, not live app UI",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "MOTION-OSS-002",
+      "source_name": "motion-design-skill",
+      "idea": "Animate recipe step feedback without disrupting legibility",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "VISUAL_UX_REFERENCE",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "MOTION-OSS-003",
+      "source_name": "mg-styles-15",
+      "idea": "Use motion styles as references for original recipe launch videos",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "MOTION-OSS-004",
+      "source_name": "huashu-art-motion",
+      "idea": "Illustrated cooking explainer idea with original non-copyrighted characters",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "MOTION-OSS-005",
+      "source_name": "anidoodle",
+      "idea": "Create original recipe-process drawings for promotional content",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "MOTION-OSS-006",
+      "source_name": "cinetic",
+      "idea": "Promo recipes and features; no Remotion engine shipped with Flutter",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "MOTION-OSS-007",
+      "source_name": "motionmaxxing",
+      "idea": "Polish cinematic recipe teaser composition with GSAP license checked",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "MOTION-OSS-013",
+      "source_name": "effectcraft",
+      "idea": "Compose licensed recipe launch clips with original art",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "MOTION-OSS-014",
+      "source_name": "openverse",
+      "idea": "Discover permitted background music, not assume free commercial rights",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "MOTION-OSS-015",
+      "source_name": "librosa",
+      "idea": "Align recipe teaser cuts to original or cleared music beats offline",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "MOTION-OSS-016",
+      "source_name": "whisperX",
+      "idea": "Draft multilingual recipe teaser captions with transcript review",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "MOTION-OSS-017",
+      "source_name": "skills",
+      "idea": "External build workflow for approved recipe tutorial teaser videos",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "MOTION-OSS-018",
+      "source_name": "FFmpeg",
+      "idea": "Social video export with 16:9 and 9:16 compositions and subtitle tracks",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "deskland-android",
+      "source_id": "MOTION-OSS-002",
+      "source_name": "motion-design-skill",
+      "idea": "Document consistent physics/interaction pacing with FPS and battery limits",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "VISUAL_UX_REFERENCE",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "deskland-android",
+      "source_id": "MOTION-OSS-009",
+      "source_name": "blender-skills",
+      "idea": "Prototype own low-poly 3D desk/world assets via desktop Blender, then optimize exports",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "deskland-android",
+      "source_id": "MOTION-OSS-010",
+      "source_name": "three.quarks",
+      "idea": "Evaluate Web particle prototype, only port after GPU and battery evaluation",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "VISUAL_UX_REFERENCE",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "deskland-android",
+      "source_id": "MOTION-OSS-011",
+      "source_name": "react-postprocessing",
+      "idea": "Reference bloom/depth effects without assuming WebGL-to-native interoperability",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "VISUAL_UX_REFERENCE",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "deskland-android",
+      "source_id": "MOTION-OSS-012",
+      "source_name": "tweakpane",
+      "idea": "Developer-only motion/scene parameter adjustment panel, excluded from release",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "edu-01-corpo-umano",
+      "source_id": "MOTION-OSS-004",
+      "source_name": "huashu-art-motion",
+      "idea": "Consider illustrated body-system explainers subject to content accuracy QA",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "edu-01-corpo-umano",
+      "source_id": "MOTION-OSS-008",
+      "source_name": "manim",
+      "idea": "Illustrate anatomical processes or numerical facts after scientific verification",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "edu-01-corpo-umano",
+      "source_id": "MOTION-OSS-014",
+      "source_name": "openverse",
+      "idea": "Find anatomically accurate, properly licensed educational images",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "edu-01-corpo-umano",
+      "source_id": "MOTION-OSS-016",
+      "source_name": "whisperX",
+      "idea": "Accurate medical-terminology caption checking after forced alignment",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "framelab",
+      "source_id": "MOTION-OSS-002",
+      "source_name": "motion-design-skill",
+      "idea": "Design non-cropping gallery transitions and stateful feedback",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "VISUAL_UX_REFERENCE",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "framelab",
+      "source_id": "MOTION-OSS-003",
+      "source_name": "mg-styles-15",
+      "idea": "Use film frames as references for app promo composition",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "framelab",
+      "source_id": "MOTION-OSS-009",
+      "source_name": "blender-skills",
+      "idea": "Produce 3D mockups as design/marketing assets",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "framelab",
+      "source_id": "MOTION-OSS-010",
+      "source_name": "three.quarks",
+      "idea": "VFX concept for Web previews, not an APK dependency",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "VISUAL_UX_REFERENCE",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "framelab",
+      "source_id": "MOTION-OSS-011",
+      "source_name": "react-postprocessing",
+      "idea": "Reference readable non-destructive media preview effects",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "VISUAL_UX_REFERENCE",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "framelab",
+      "source_id": "MOTION-OSS-012",
+      "source_name": "tweakpane",
+      "idea": "Parameter tuning for effects in internal Web prototype",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "framelab",
+      "source_id": "MOTION-OSS-018",
+      "source_name": "FFmpeg",
+      "idea": "Assess separate export tooling if scope admits video features, no LGPL/GPL binary in APK without review",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "source_id": "MOTION-OSS-002",
+      "source_name": "motion-design-skill",
+      "idea": "Set canvas interaction motion tokens for drag, zoom and tool changes",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "VISUAL_UX_REFERENCE",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "omni-cleaner",
+      "source_id": "MOTION-OSS-001",
+      "source_name": "reanimate",
+      "idea": "Use frame-analysis as inspiration for native Compose transitions; no copyrighted UI clone",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "VISUAL_UX_REFERENCE",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "omni-cleaner",
+      "source_id": "MOTION-OSS-002",
+      "source_name": "motion-design-skill",
+      "idea": "Polish Color Bento card and navigation timing, maintaining real state",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "VISUAL_UX_REFERENCE",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "omni-cleaner",
+      "source_id": "MOTION-OSS-006",
+      "source_name": "cinetic",
+      "idea": "Promo with genuine Color Bento screenshots, not invented product features",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "MOTION-OSS-001",
+      "source_name": "reanimate",
+      "idea": "Study permitted marketing scroll motion; build a distinct implementation",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "VISUAL_UX_REFERENCE",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "MOTION-OSS-003",
+      "source_name": "mg-styles-15",
+      "idea": "Develop a video trailer art-direction board, not imported clips",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "MOTION-OSS-006",
+      "source_name": "cinetic",
+      "idea": "Create product trailers using authentic captured app screens and cleared soundtracks",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "MOTION-OSS-007",
+      "source_name": "motionmaxxing",
+      "idea": "Apply motion quality gates to video marketing deliverables",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "MOTION-OSS-009",
+      "source_name": "blender-skills",
+      "idea": "Original lightweight 3D campaign assets, with still fallback",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "MOTION-OSS-010",
+      "source_name": "three.quarks",
+      "idea": "Optional Three.js marketing particle accent; reduced motion and performance budget",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "VISUAL_UX_REFERENCE",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "MOTION-OSS-011",
+      "source_name": "react-postprocessing",
+      "idea": "Restrained Web 3D postproduction on standalone landing page",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "VISUAL_UX_REFERENCE",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "MOTION-OSS-012",
+      "source_name": "tweakpane",
+      "idea": "Debug slider controls for motion prototypes; no production leak",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "MOTION-OSS-017",
+      "source_name": "skills",
+      "idea": "Agent-assisted video generation with Remotion engine license gate",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "MOTION-OSS-018",
+      "source_name": "FFmpeg",
+      "idea": "Offline video mux/encode for promotional clips and web publishing",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "wonderlog",
+      "source_id": "MOTION-OSS-004",
+      "source_name": "huashu-art-motion",
+      "idea": "Explore animated travel painting reels from user-owned photos",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "wonderlog",
+      "source_id": "MOTION-OSS-005",
+      "source_name": "anidoodle",
+      "idea": "Animated personal travel sketch postcard idea",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "wonderlog",
+      "source_id": "MOTION-OSS-014",
+      "source_name": "openverse",
+      "idea": "User-opt-in discovery of media for travel storytelling subject to rights and privacy",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "MOTION-OSS-002",
+      "source_name": "motion-design-skill",
+      "idea": "Use subtle content transitions to aid comprehension of daily stories",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "VISUAL_UX_REFERENCE",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "MOTION-OSS-003",
+      "source_name": "mg-styles-15",
+      "idea": "Explore constrained educational promo video style vocabulary",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "MOTION-OSS-004",
+      "source_name": "huashu-art-motion",
+      "idea": "Create original painted educational reels for selectively verified history stories",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "MOTION-OSS-005",
+      "source_name": "anidoodle",
+      "idea": "Optional small original line-art clips for educational stories",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "MOTION-OSS-008",
+      "source_name": "manim",
+      "idea": "Animated graphs for verified calendar/awareness data",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "MOTION-OSS-013",
+      "source_name": "effectcraft",
+      "idea": "Possible batch production of awareness reels; test editor maturity",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "MOTION-OSS-014",
+      "source_name": "openverse",
+      "idea": "Search open audio/illustrations with per-asset provenance and CC license check",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "MOTION-OSS-015",
+      "source_name": "librosa",
+      "idea": "Generate beat markers for informational reels without runtime audio stack",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "MOTION-OSS-016",
+      "source_name": "whisperX",
+      "idea": "Transcribe and align spoken educational video captions, checking every locale",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "MOTION-OSS-017",
+      "source_name": "skills",
+      "idea": "Production of localization-aware explainer clips with caption QA",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "MOTION-OSS-018",
+      "source_name": "FFmpeg",
+      "idea": "Validate story reel outputs for codec, duration, caption and rights",
+      "state": "PROPOSED_ONLY",
+      "origin": "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json",
+      "mode": "OFFLINE_PRODUCTION_OR_TOOLING",
+      "consumer_implemented": false,
+      "asset_or_code_imported": false
+    }
+  ]
+}

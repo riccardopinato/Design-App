@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "batch_id": "MOTIONARY_26_LINKS_2026_11_20",
+  "status": "PROPOSED_ONLY",
+  "user_curated_visual_reference_priority": true,
+  "links": 20,
+  "apps": 10,
+  "proposals": [
+    {
+      "app": "annas-diary",
+      "source_id": "STYLE26-01",
+      "idea": "Spring/press su Crea, transizioni Ricordi e selettore Giorno/Notte; delicate, interrompibili",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "annas-diary",
+      "source_id": "STYLE26-23",
+      "idea": "DESIGN.md derivato da palette/Manrope-Lora/mockup già approvati; non sostituisce Product Bible",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "notes-ecosistema",
+      "source_id": "STYLE26-01",
+      "idea": "Microinterazioni card/board, espansione proprietà e undo con reduced motion",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "notes-ecosistema",
+      "source_id": "STYLE26-25",
+      "idea": "Confronto canvas solo pattern; niente nuovo database o copia codice senza gate",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "omni-cleaner",
+      "source_id": "STYLE26-01",
+      "idea": "Feedback di scansione/completamento e transizione tile singole; mai successo fittizio",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "omni-cleaner",
+      "source_id": "STYLE26-05",
+      "idea": "Reference card espandibili controllate; Commons Clause esclude port in libreria Flutter",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "wonderlog",
+      "source_id": "STYLE26-01",
+      "idea": "Espansione fotografia verso dettaglio, gesture e timeline viaggio",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "wonderlog",
+      "source_id": "STYLE26-05",
+      "idea": "Ispirazione carousel/galleria; implementazione Flutter originale",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "world-days",
+      "source_id": "STYLE26-01",
+      "idea": "Transizioni fra schede giornate, numeri/data e feedback ai preferiti",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "world-days",
+      "source_id": "STYLE26-17",
+      "idea": "Revisione tipografia/stili in conformità alla palette attuale",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "cooking-anime",
+      "source_id": "STYLE26-01",
+      "idea": "Step ricetta: avanzamento reale e transizioni tra passaggi",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "cooking-anime",
+      "source_id": "STYLE26-11",
+      "idea": "Video promo ricette prodotti offline; engine web separato dall'APK e verifica licenza",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "deskland-android",
+      "source_id": "STYLE26-01",
+      "idea": "Gesture spring/drag in home, solo se misurate su device",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "deskland-android",
+      "source_id": "STYLE26-24",
+      "idea": "Confronto token UI del pannello impostazioni; niente componenti React nel launcher",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "framelab",
+      "source_id": "STYLE26-01",
+      "idea": "Transizioni prima/dopo foto, slider, progressi di elaborazione reali",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "framelab",
+      "source_id": "STYLE26-05",
+      "idea": "Reference gallery motion; immagini originali e aspect ratio preservati",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "battery-guard",
+      "source_id": "STYLE26-01",
+      "idea": "Count-up e grafici sobri, animati solo su nuovi dati",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "battery-guard",
+      "source_id": "STYLE26-23",
+      "idea": "Specificare token e motion budget per tema Flutter proprietario",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "web-utility-factory",
+      "source_id": "STYLE26-24",
+      "idea": "Benchmark componenti web semanticamente accessibili",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY"
+    },
+    {
+      "app": "web-utility-factory",
+      "source_id": "STYLE26-21",
+      "idea": "Generare proposte landing con Stitch come reference, nessun deploy non autorizzato",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY"
+    }
+  ],
+  "source_registry": "sources/MOTIONARY_26_REGISTRY_2026-11-20.json",
+  "no_consumer_edits": true
+}

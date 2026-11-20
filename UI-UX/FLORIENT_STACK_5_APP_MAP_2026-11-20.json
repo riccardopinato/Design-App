@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "batch_id": "FLORIENT_STACK_5_2026_11_20",
+  "reference_registry": "sources/FLORIENT_STACK_5_REGISTRY_2026-11-20.json",
+  "status": "PROPOSED_ONLY",
+  "proposed_relations": 26,
+  "app_profiles": 12,
+  "proposals": [
+    {
+      "app": "cooking-anime",
+      "source_id": "STACK5-01",
+      "idea": "Screenshot Google Play verticali con immagini genuine delle ricette e didascalie multilingua",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "cooking-anime",
+      "source_id": "STACK5-05",
+      "idea": "Video esplicativo breve sul percorso ricetta, ingredienti e passaggi; stile coerente, risorse originali",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "cooking-anime",
+      "source_id": "STACK5-04",
+      "idea": "Valutare font editoriali leggibili per schede promozionali, senza cambiare la UI approvata",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "world-days",
+      "source_id": "STACK5-01",
+      "idea": "Storytelling screenshots dello store basati sulle vere schede e sulle sei lingue",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "world-days",
+      "source_id": "STACK5-05",
+      "idea": "Video brevi di presentazione delle giornate, con accuratezza storica e fonti",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "world-days",
+      "source_id": "STACK5-03",
+      "idea": "Benchmark discovery e onboarding di app culturali e informazioni",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "omni-cleaner",
+      "source_id": "STACK5-01",
+      "idea": "Screenshot Play Store dell'home bento e vere funzioni sicurezza/media con risultati non fittizi",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "omni-cleaner",
+      "source_id": "STACK5-03",
+      "idea": "Benchmark conferma eliminazione, stati vuoti, trash, restore e premium disclosure",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "omni-cleaner",
+      "source_id": "STACK5-05",
+      "idea": "Demo video delle scansioni con permessi e risultati realmente riprodotti",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "annas-diary",
+      "source_id": "STACK5-01",
+      "idea": "Sequenza store opzionale centrata su Oggi, Calendario, Ricordi e Insieme senza dati personali",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "annas-diary",
+      "source_id": "STACK5-04",
+      "idea": "Confronto coppie editoriali coerenti con Manrope/Lora e palette rose già scelte, senza forzare nuove font",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "annas-diary",
+      "source_id": "STACK5-03",
+      "idea": "Benchmark UX di diary, calendar, privacy states e onboarding",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "notes-ecosistema",
+      "source_id": "STACK5-02",
+      "idea": "Landing Web descrittiva delle funzioni Canvas, Smart Inbox e ricerca con hero sobrio e sezioni evidenza",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "notes-ecosistema",
+      "source_id": "STACK5-03",
+      "idea": "Confrontare taccuini, knowledge manager e canvas nei percorsi reali",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "wonderlog",
+      "source_id": "STACK5-01",
+      "idea": "Screenshot viaggio con foto originali, mappe verificabili e sequenza delle funzioni",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "wonderlog",
+      "source_id": "STACK5-05",
+      "idea": "Video viaggio/diario offline, senza asset non licenziati",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "battery-guard",
+      "source_id": "STACK5-01",
+      "idea": "Promozione store con grafici e dati veri, non aumento artificiale autonomia",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "battery-guard",
+      "source_id": "STACK5-04",
+      "idea": "Tipografia dashboard e marketing: leggibilità dei numeri e branding indipendente",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "cashmate-ai",
+      "source_id": "STACK5-01",
+      "idea": "Screenshot store anonimizzati con dataset sintetico dichiarato",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "cashmate-ai",
+      "source_id": "STACK5-03",
+      "idea": "Benchmark paywall e permessi finanziari con esempi anonimi",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "web-utility-factory",
+      "source_id": "STACK5-02",
+      "idea": "Hero, features, pricing e FAQ per landing delle utility; usare solo licenze compatibili",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "web-utility-factory",
+      "source_id": "STACK5-04",
+      "idea": "Font families per landing e impaginazione responsive",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "web-utility-factory",
+      "source_id": "STACK5-05",
+      "idea": "Clip introduttiva per feature Web, produzione separata dal codice applicazione",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "deskland-android",
+      "source_id": "STACK5-05",
+      "idea": "Video promozionale scene del launcher con riprese reali o ricostruzione dichiarata",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "app-factory-dashboard",
+      "source_id": "STACK5-02",
+      "idea": "Landing informativa del portafoglio app e processo, non dashboard runtime automaticamente",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "camperboss",
+      "source_id": "STACK5-01",
+      "idea": "Screenshot viaggio/offline che rappresentino solo funzioni effettivamente provate",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    }
+  ]
+}

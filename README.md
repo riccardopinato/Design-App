@@ -267,3 +267,50 @@ Dal 19 novembre 2026, l'archivio contiene **480 componenti canonici e 4 alias**:
 ### Acquisizione aggiuntiva Amicro, Watermelon, EaseUI — 19/11/2026
 
 Importati e verificati altri **38** originali React/TSX da tre repository MIT gia' catalogati: **30 Amicro**, **7 Watermelon**, **1 EaseUI**. Le licenze originali e i pin SHA sono in [sorgenti e provenance](BIBLIOTECA_COMPONENTI/sorgenti/README.md). Totale attuale: **425** sorgenti canonici archiviati e **53** reference senza codice locale. Nessun Flutter widget o app consumer modificati.
+
+
+## 15 risorse design / AI — 20 novembre 2026
+
+L'elenco dell'utente contiene 15 URL ma 14 servizi distinti (Godly reindirizza a Recent Design). Registrate 14 schede uniche `DESIGN-SITE-015..028` nel [registro dei siti](sources/DESIGN_RESEARCH_SITES.json), con disponibilita' free/freemium, copyright e limiti. [Audit completo](sources/DESIGN_SITES_15_AUDIT_2026-11-20.md) · [Matrice 68 associazioni / 14 app](UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.md) · [Matrice JSON](UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json).
+
+Priorita' estetiche: 60FPS (motion mobile), Realtime Colors (colori e contrasto), Fontshare (font e licenze), Cosmos (collezioni/vision board), Shots (mockup promozionali). Lucide era gia' citato nell'Icon Adapter Pack: nessun nuovo donor duplicato. Stato: **REFERENCE / PROPOSED_ONLY**, nessuna app o Golden modificata.
+
+
+## Nuove fonti Design-App — 20/11/2026, Figma/ReUI/Best Designs
+
+Censiti **3 portali distinti** (Best Designs on X, Figma Community Mobile Apps, ReUI) e **1 file Figma specifico** [Bento Widget Templates](./UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json), accessibile con nodi e famiglie di componenti verificati. Registro fonti [DESIGN-SITE-029..031](./sources/DESIGN_RESEARCH_SITES.json), [audit completo](./sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md), [matrice 31 proposte su 12 app](./UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.md) e [dossier app](./PER_APP/README.md). ReUI ha sorgenti **React/TSX** MIT per l'offerta free (non Flutter), e premium separato; Figma Community richiede licenza per singolo file/brand. Tutto **REFERENCE/PROPOSED_ONLY**: nessun componente consumer implementato, nessuna Golden aggiornata, nessun asset copiato.
+
+
+## Nuovo intake deduplicato 20/11/2026 — ThinkUI, Mobbin, React Bits
+
+Su 15 link ricevuti: **12 risorse gia' presenti saltate senza nuovo audit**, **3 nuove** (`DESIGN-SITE-032..034`); [verifica di deduplica, licenze e fonti](sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md) · [mappa di 22 proposte su 12 app](UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.md) · [indice siti](sources/DESIGN_RESEARCH_SITES.json). ThinkUI: MCP a pagamento, repository di documentazione del servizio, screenshot con diritti misti; Mobbin: ricerca flussi a pagamento e termini che vietano mirror/archiviazione; React Bits: TSX/React e **MIT + Commons Clause** (non MIT puro). **Stato REFERENCE/PROPOSED_ONLY**, zero codice/font/icone/screenshot copiati, nessun nuovo UID o Golden.
+
+
+## Design source intake — agent UI, nav, shaders (20/11/2026)
+
+**7 nuovi domini** (`DESIGN-SITE-035..041`: Scrolltide, Scroll Shaders, Snapblocks [DISCOVERY_ONLY], Navbar Gallery, AI Canvas, Aceternity UI, Chakra UI), **2 sotto-risorse di provider gia' catalogati** (`DESIGN-SUBL-001` ReUI Agents Pro, `DESIGN-SUBL-002` shadcn AI Elements) e **1 URL t.co irrisolto**. [Audit e licenze](sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md) · [Matrice 37 proposte/11 app](UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.md) · [Registro siti](sources/DESIGN_RESEARCH_SITES.json) · [Sottopagine provider](sources/DESIGN_EXISTING_SITES_DEEP_LINKS_2026-11-20.json). Niente componenti/copied assets, zero new UID, no runtime implementation or Golden promotion.
+
+
+## Nuovi siti design — Curated Designs e UIColours (20/11/2026)
+
+**2 nuove fonti** (`DESIGN-SITE-042` BestSaaSWebDesigns [Curated Designs](https://bestsaaswebdesigns.com/curated-designs), `DESIGN-SITE-043` [UIColours](https://uicolours.com/)). [Audit, limiti e diritti](sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md) · [matrice 22 idee / 13 app](UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.md) · [catalogo JSON](sources/DESIGN_RESEARCH_SITES.json). Curated Designs usa reference da post X con diritti dei creatori; UIColours offre gallery, brand colours, OKLCH e Theme Builder Figma JSON/CSS ma nessun tema delle app è stato cambiato. **REFERENCE_ONLY / PROPOSED_ONLY**, nessun asset di terzi importato o nuovo UID.
+
+
+## Motion video / VFX — lotto 18 fonti (20/11/2026)
+
+**18 nuove fonti** originali (17 GitHub repos + API Openverse con repo ufficiale), pin README/commit, LICENSE e diritti per asset. [Audit dettagliato](sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md) · [Registro SHA](sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json) · [Pipeline motion UX vs video](sources/MOTION_VIDEO_18_PIPELINE_2026-11-20.md) · [Matrice 68 idee su 13 app](UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.md). Solo reference/knowledge; nessuna skill installata, materiale terzo copiato o UID/consumer cambiato. Licenza Remotion speciale, FFmpeg LGPL/GPL secondo build, Openverse media CC per asset, GSAP non-Apache: applicare gate specifici.
+
+
+## Nuova fonte Jiro Build: lotto 15 link (20/11/2026)
+
+**13/15 URL gia' catalogati**, **1 provider Jiro nuovo** (`DESIGN-SITE-044`) e **1 sottopagina Builder** (`DESIGN-SUBL-003`) dello stesso provider. [Audit e deduplica](sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md) · [18 idee per 9 app](UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.md) · [registro siti](sources/DESIGN_RESEARCH_SITES.json). Library di prompt/componenti Web e Builder hosted non sono widget Flutter; contenuti proprietari non copiabili in una libreria concorrente. Solo reference, zero asset/source e zero app modificate.
+
+
+## Motionary iOS + 26 nuove risorse — 20/11/2026
+
+**15 fonti nuove e 11 link deduplicati**, con [audit 26/26](sources/MOTIONARY_26_AUDIT_2026-11-20.md), [registro machine-readable](sources/MOTIONARY_26_REGISTRY_2026-11-20.json), [2 siti canonici Motionary/Rare UI](sources/DESIGN_RESEARCH_SITES.json) e [20 proposte su 10 app](UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md). Motionary contiene 839 animazioni SwiftUI (MIT), ma nessun codice Dart/Compose già portato; Rare UI ha Commons Clause e attribuzione visibile. I tool video/agent sono classificati separatamente dalla UI. Nessun nuovo UID, sorgente vendorizzato, Golden, consumer o APK.
+
+
+## Nuovo design stack: Shipframe, Oversight, Mobbin e Fontshare — 20/11/2026
+
+**5 link, 4 fornitori unici, 2 nuovi** (`DESIGN-SITE-047` Shipframe e `DESIGN-SITE-048` Oversight Supply, con 2 subpage), **2 già presenti** (`DESIGN-SITE-033` Mobbin e `DESIGN-SITE-022` Fontshare). [Audit e licenze](sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md) · [registro](sources/FLORIENT_STACK_5_REGISTRY_2026-11-20.json) · [26 proposte per 12 app](UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md). Materiali per screenshot Store, sezioni sito Web, benchmark UX, font e video explainer; zero asset/code/UID importati, zero abbonamenti, nessuna app modificata.
