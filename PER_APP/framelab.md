@@ -250,3 +250,16 @@ Nessun package installato, nessuna modifica dati/architettura o Golden promosso;
 - **Cosmos** (`DESIGN-SITE-028`): Moodboard collections and search by color/similarity — **PROPOSED_ONLY**.
 
 Nessun asset, font, logo o codice importato. Sono richiesti approvazione estetica, Product Bible, licenza e QA sulle schermate reali.
+
+
+## Design external sources 20/11/2026 — Figma, ReUI, Best Designs on X
+
+[Audit e prove](../sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md) · [Matrice per app](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.md) · [Catalogo JSON](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json).
+
+- **Best Designs on X** (`DESIGN-SITE-029`): Study photography-driven compositions and creative controls from original design posts. **PROPOSED_ONLY**.
+- **Figma Community Mobile Apps** (`DESIGN-SITE-030`): Study photo browser, editor/toolbars and image-focused mobile galleries. **PROPOSED_ONLY**.
+- **Bento Widget Templates** (`FIGMA-BENTO-001`): Image-led photo collage, palette and recent exports rather than identical dashboard cards. **PROPOSED_ONLY**.
+
+[File Figma Bento con nodi e varianti verificati](../UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json). **Bento indica tile di interfaccia, non un vero widget Android.**
+
+Licenze degli asset e approvazione estetica per-app obbligatorie prima di qualsiasi codice o risorsa distribuita. Proposte non implementate, nessun nuovo Golden.

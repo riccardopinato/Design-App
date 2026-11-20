@@ -1,0 +1,167 @@
+{
+  "id": "FIGMA-BENTO-001",
+  "title": "Bento Widget Templates (Community)",
+  "parent_site": "DESIGN-SITE-030",
+  "file_key": "4fm9HsfzmWpKjl6X9XAGO9",
+  "prototype_url": "https://www.figma.com/proto/4fm9HsfzmWpKjl6X9XAGO9/Bento-Widget-Templates--Community-?node-id=190-1470&t=FQ6JXZSQNCPEKe0G-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+  "design_url": "https://www.figma.com/design/4fm9HsfzmWpKjl6X9XAGO9/Bento-Widget-Templates--Community-?node-id=190-1470",
+  "verified_nodes": {
+    "cover": "190:1470",
+    "components_page": "104:232",
+    "inspiration_page": "132:628",
+    "readme_page": "1:4",
+    "support_page": "1:5"
+  },
+  "file_footer_credit": "@madewithjello",
+  "author_identity_verified": false,
+  "public_community_file_ownership_verified": false,
+  "license": "FIGMA_COMMUNITY_RESOURCE_LICENSE_TYPE_UNVERIFIED_FOR_THIS_SPECIFIC_FILE; THIRD_PARTY_BRAND_ASSETS_SEPARATE",
+  "source_access": "FIGMA_CONNECTOR_NODE_METADATA_VERIFIED; SCREENSHOT_RENDER_SUCCEEDED; NO_SOURCE_EXPORT",
+  "files_copied": 0,
+  "flutter_widgets_available": false,
+  "description": "Figma bento-grid of independently editable content tiles and interactive-looking compositions, not Android AppWidget implementations.",
+  "observed_variants": [
+    {
+      "family": "Social",
+      "nodes": [
+        "104:357",
+        "104:355",
+        "104:354",
+        "104:356"
+      ],
+      "sizes": [
+        "2x2",
+        "4x2",
+        "4x4",
+        "2x4"
+      ]
+    },
+    {
+      "family": "Artifact",
+      "nodes": [
+        "104:1276",
+        "104:1274",
+        "104:1275",
+        "104:1273"
+      ],
+      "sizes": [
+        "2x2",
+        "4x2",
+        "4x4",
+        "2x4"
+      ]
+    },
+    {
+      "family": "Notes",
+      "nodes": [
+        "110:412",
+        "190:3199",
+        "190:3200",
+        "190:3223"
+      ],
+      "sizes": [
+        "2x2",
+        "2x3",
+        "2x5",
+        "2x6"
+      ],
+      "note": "Some node IDs are cover instances and should not be mistaken for master components."
+    },
+    {
+      "family": "Fitness",
+      "nodes": [
+        "131:376",
+        "131:427",
+        "131:522"
+      ],
+      "sizes": [
+        "2x2",
+        "4x2",
+        "2x4"
+      ]
+    },
+    {
+      "family": "Clear palette",
+      "nodes": [
+        "186:1360",
+        "187:1354"
+      ],
+      "sizes": [
+        "2x2",
+        "2x4"
+      ],
+      "styles": [
+        "Daylight",
+        "Noon",
+        "Sunset",
+        "Midnight"
+      ]
+    },
+    {
+      "family": "Flighty",
+      "nodes": [
+        "126:999"
+      ],
+      "sizes": [
+        "4x4"
+      ]
+    },
+    {
+      "family": "Collage",
+      "nodes": [
+        "131:938"
+      ],
+      "sizes": [
+        "4x4"
+      ]
+    },
+    {
+      "family": "Business card",
+      "nodes": [
+        "131:709"
+      ],
+      "sizes": [
+        "4x4"
+      ]
+    },
+    {
+      "family": "QR code",
+      "nodes": [
+        "140:1273"
+      ],
+      "sizes": [
+        "4x2"
+      ]
+    },
+    {
+      "family": "Device",
+      "nodes": [
+        "111:493",
+        "111:492"
+      ],
+      "sizes": [
+        "2x2",
+        "2x4"
+      ]
+    },
+    {
+      "family": "Wordle",
+      "nodes": [
+        "106:400",
+        "106:399",
+        "106:398",
+        "106:397"
+      ],
+      "sizes": [
+        "2x2",
+        "4x2",
+        "4x4",
+        "2x4"
+      ]
+    }
+  ],
+  "source_instructions": "Drag an instance of a Bento component onto canvas; customize properties and color styles; do not apply radius before export, export at 3x+; brand assets belong to respective owners.",
+  "reuse_mode": "UI_UX_REFERENCE_ONLY",
+  "status": "PROPOSED_ONLY",
+  "source_date": "2026-11-20"
+}

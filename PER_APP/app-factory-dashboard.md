@@ -263,3 +263,16 @@ Intake visivo documentale: [audit](../sources/DESIGN_SITES_15_AUDIT_2026-11-20.m
 - **SVGL** (`DESIGN-SITE-026`): Find official provider logos for legitimate integration badges. **Stato: PROPOSED_ONLY**.
 
 I pattern richiedono decisione di prodotto, valutazione della licenza e QA sulla schermata target. Nessun componente, font, foto o logo di terzi e' stato copiato; nessuna funzione consumer risulta implementata da questo intake.
+
+
+## Design external sources 20/11/2026 — Figma, ReUI, Best Designs on X
+
+[Audit e prove](../sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md) · [Matrice per app](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.md) · [Catalogo JSON](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json).
+
+- **Best Designs on X** (`DESIGN-SITE-029`): Monitor strong current dashboard layouts but assess real density and accessibility. **PROPOSED_ONLY**.
+- **ReUI** (`DESIGN-SITE-031`): Evaluate free Data Grid/Kanban/Gantt/Filters patterns for repo, blockers, roadmap and CI dashboard. **PROPOSED_ONLY**.
+- **Bento Widget Templates** (`FIGMA-BENTO-001`): Project/Golden/CI KPI tiles of different weights, with real values and links to details. **PROPOSED_ONLY**.
+
+[File Figma Bento con nodi e varianti verificati](../UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json). **Bento indica tile di interfaccia, non un vero widget Android.**
+
+Licenze degli asset e approvazione estetica per-app obbligatorie prima di qualsiasi codice o risorsa distribuita. Proposte non implementate, nessun nuovo Golden.

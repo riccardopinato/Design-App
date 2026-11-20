@@ -515,6 +515,69 @@
       "priority_tier": "A",
       "related_intake": "sources/DESIGN_SITES_15_AUDIT_2026-11-20.md",
       "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-029",
+      "name": "Best Designs on X",
+      "url": "https://bestdesignsonx.com/",
+      "kind": "CURATED_X_DESIGN_DISCOVERY",
+      "status": "REFERENCE",
+      "direct_page_fetch": "SITE_NO_READABLE_BODY_SECONDARY_DESCRIPTION_ONLY",
+      "recommended_for": [
+        "visual art direction",
+        "app screenshots and icon inspiration",
+        "discover original creators from X"
+      ],
+      "use": "Monitor design posts for product-specific patterns; link original author/post before attributing style or adding a specific asset.",
+      "license": "THIRD_PARTY_X_POSTS_LICENSE_PER_CREATOR; NO_AUTOMATIC_COPY",
+      "free_access": "PUBLIC_SITE_VISITABLE; FULL_BROWSING_FEATURES_NOT_VERIFIED",
+      "related_intake": "sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+      "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-030",
+      "name": "Figma Community — Mobile Apps",
+      "url": "https://www.figma.com/community/mobile-apps?resource_type=files&editor_type=figma",
+      "kind": "FIGMA_MOBILE_TEMPLATE_DISCOVERY",
+      "status": "REFERENCE",
+      "direct_page_fetch": "PUBLIC_DIRECTORY_BROWSER_FETCH_BLOCKED; FIGMA_OFFICIAL_GUIDANCE_VERIFIED",
+      "recommended_for": [
+        "mobile design systems",
+        "multi-screen flows",
+        "mobile onboarding",
+        "typography and app components"
+      ],
+      "use": "Find exact Community design files, inspect reusable components and source licenses individually; this discovery portal is not one file or package.",
+      "license": "FREE_COMMUNITY_FILES_CC_BY_4_0_BY_FIGMA_RULES; PAID_SEPARATE; BRAND_ASSETS_SEPARATE",
+      "free_access": "MIXED_FREE_AND_PAID; FILE_SPECIFIC",
+      "related_intake": "sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+      "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-031",
+      "name": "ReUI",
+      "url": "https://reui.io/",
+      "kind": "REACT_SHADCN_COMPONENT_REGISTRY",
+      "status": "REFERENCE",
+      "direct_page_fetch": "OFFICIAL_SITE_DOCS_CHANGELOG_AND_GITHUB_README_VERIFIED",
+      "recommended_for": [
+        "data grid",
+        "filters",
+        "event calendar",
+        "kanban",
+        "Gantt",
+        "timeline",
+        "stepper",
+        "file upload",
+        "web dashboard"
+      ],
+      "use": "Free React/TypeScript/Tailwind components may be adapted into matching Web projects; for Flutter/Compose only pattern reference and native reimplementation. Pro blocks/icons separate.",
+      "license": "MIT_FREE_SOURCE_REPOSITORY_CLAIM; PAID_PRO_ASSETS_EXCLUDED; VERIFY_DEPENDENCIES_PER_COMPONENT",
+      "free_access": "FREEMIUM; FREE_CATALOG_1265_EXAMPLES_PER_2026_11_19_CHANGELOG; PAID_BLOCKS_AND_ICONS",
+      "source_repository": "keenthemes/reui",
+      "source_commit": "067aa0dc7f8bbfec1cd76fc5ad31f842be5f569a",
+      "related_intake": "sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+      "updated_at": "2026-11-20"
     }
   ]
 }

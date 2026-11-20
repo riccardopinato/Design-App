@@ -125,3 +125,12 @@ Intake visivo documentale: [audit](../sources/DESIGN_SITES_15_AUDIT_2026-11-20.m
 - **Shots** (`DESIGN-SITE-027`): Create marketing phone/device mockups from own QA screenshots. **Stato: PROPOSED_ONLY**.
 
 I pattern richiedono decisione di prodotto, valutazione della licenza e QA sulla schermata target. Nessun componente, font, foto o logo di terzi e' stato copiato; nessuna funzione consumer risulta implementata da questo intake.
+
+
+## Design external sources 20/11/2026 — Figma, ReUI, Best Designs on X
+
+[Audit e prove](../sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md) · [Matrice per app](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.md) · [Catalogo JSON](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json).
+
+- **ReUI** (`DESIGN-SITE-031`): Study copy-and-own React sidebar, forms, stepper, sortable and data grid for Web products. **PROPOSED_ONLY**.
+
+Licenze degli asset e approvazione estetica per-app obbligatorie prima di qualsiasi codice o risorsa distribuita. Proposte non implementate, nessun nuovo Golden.
