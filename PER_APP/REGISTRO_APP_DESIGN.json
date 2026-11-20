@@ -50,7 +50,10 @@
     "design_sources_agents_scroll_2026_11_20_deep_links": 2,
     "design_sources_agents_scroll_2026_11_20_unresolved": 1,
     "design_sources_agents_scroll_2026_11_20_apps": 11,
-    "design_sources_agents_scroll_2026_11_20_relations": 37
+    "design_sources_agents_scroll_2026_11_20_relations": 37,
+    "curated_designs_uicolours_2026_11_20_sites": 2,
+    "curated_designs_uicolours_2026_11_20_profiles": 13,
+    "curated_designs_uicolours_2026_11_20_relations": 22
   },
   "profiles": [
     {
@@ -253,7 +256,8 @@
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
-        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "diario e ricordi",
@@ -703,6 +707,18 @@
             "DESIGN-SITE-039"
           ],
           "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-042",
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
         }
       ],
       "voice_ui_candidates": [
@@ -1724,6 +1740,26 @@
           "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
           "consumer_implemented": false
         }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-042",
+          "source_name": "BestSaaSWebDesigns — Curated Designs",
+          "idea": "Review editorial mobile layout and illustration references linked to original X creators; respect approved rose/diary visuals",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        },
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Audit rose palette semantics across light/dark surfaces and contrast without replacing approved theme",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        }
       ]
     },
     {
@@ -1758,7 +1794,8 @@
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
-        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "repository e branch",
@@ -2128,6 +2165,18 @@
             "DESIGN-SUBL-002"
           ],
           "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-042",
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
         }
       ],
       "voice_ui_candidates": [
@@ -3278,6 +3327,26 @@
           "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
           "consumer_implemented": false
         }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-042",
+          "source_name": "BestSaaSWebDesigns — Curated Designs",
+          "idea": "Compare lightweight dashboard hierarchy, graph cards and filters with references from X creators",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        },
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Build semantic status tokens for CI, risk, priority, blockers and dashboard surface states",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        }
       ]
     },
     {
@@ -3314,7 +3383,8 @@
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
-        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "batteria",
@@ -3619,6 +3689,17 @@
             "DESIGN-SITE-036"
           ],
           "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
         }
       ],
       "motion_design_candidates": [
@@ -4314,6 +4395,17 @@
           "state": "PROPOSED_ONLY",
           "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
           "consumer_implemented": false
+        }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Contrast-test charge, warning, temperature and health indicator colours with accessible fallback labels",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
         }
       ]
     },
@@ -5899,7 +5991,8 @@
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
-        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "portafoglio",
@@ -6173,6 +6266,17 @@
             "DESIGN-SITE-041"
           ],
           "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
         }
       ],
       "motion_design_candidates": [
@@ -6857,6 +6961,17 @@
           "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
           "consumer_implemented": false
         }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Evaluate chart categorical colours, income/outgo status and foreground/background contrast",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        }
       ]
     },
     {
@@ -6890,7 +7005,8 @@
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
-        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "kawaii-gattini",
@@ -7807,6 +7923,18 @@
             "DESIGN-SITE-040"
           ],
           "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-042",
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
         }
       ],
       "voice_ui_candidates": [
@@ -8690,6 +8818,26 @@
           "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
           "consumer_implemented": false
         }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-042",
+          "source_name": "BestSaaSWebDesigns — Curated Designs",
+          "idea": "Collect food-inspired illustration composition and hero treatments for app promotion",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        },
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Test recipe category palette and card text contrast, without copying food-brand identities",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        }
       ]
     },
     {
@@ -8721,7 +8869,8 @@
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
-        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "desktop",
@@ -8980,6 +9129,17 @@
             "DESIGN-SUBL-002"
           ],
           "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-042"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
         }
       ],
       "voice_ui_candidates": [
@@ -9529,6 +9689,17 @@
           "state": "PROPOSED_ONLY",
           "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
           "consumer_implemented": false
+        }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-042",
+          "source_name": "BestSaaSWebDesigns — Curated Designs",
+          "idea": "Review 3D spatial scene and motion concepts as references only; maintain device performance gating",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
         }
       ]
     },
@@ -10461,7 +10632,8 @@
         "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json",
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
-        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json"
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "attenzione",
@@ -10678,6 +10850,17 @@
             "FIGMA-BENTO-001"
           ],
           "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
         }
       ],
       "motion_design_candidates": [
@@ -11059,6 +11242,17 @@
           "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
           "code_state": "NO_APP_IMPLEMENTATION"
         }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Check focus score colour states and charts to avoid meaning encoded by hue only",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        }
       ]
     },
     {
@@ -11095,7 +11289,8 @@
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
-        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "fotografia",
@@ -11449,6 +11644,18 @@
             "DESIGN-SITE-040"
           ],
           "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-042",
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
         }
       ],
       "voice_ui_candidates": [
@@ -12263,6 +12470,26 @@
           "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
           "consumer_implemented": false
         }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-042",
+          "source_name": "BestSaaSWebDesigns — Curated Designs",
+          "idea": "Identify motion studies and gallery compositions, with source-credit and original image ratio",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        },
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Inspect image-chrome and toolbar colour hierarchy ensuring photo content remains dominant",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        }
       ]
     },
     {
@@ -12301,7 +12528,8 @@
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
-        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "nota",
@@ -12840,6 +13068,18 @@
             "DESIGN-SUBL-001"
           ],
           "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-042",
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
         }
       ],
       "voice_ui_candidates": [
@@ -14289,6 +14529,26 @@
           "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
           "consumer_implemented": false
         }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-042",
+          "source_name": "BestSaaSWebDesigns — Curated Designs",
+          "idea": "Discover genuine dashboard/canvas interaction concepts and patterns, not clone social artwork",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        },
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Create candidate semantic tokens for ink, canvas, card, labels, accents and accessible contrast",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        }
       ]
     },
     {
@@ -14324,7 +14584,8 @@
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
-        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "galleria",
@@ -14738,6 +14999,18 @@
             "DESIGN-SITE-041"
           ],
           "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-042",
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
         }
       ],
       "motion_design_candidates": [
@@ -15757,6 +16030,26 @@
           "state": "PROPOSED_ONLY",
           "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
           "consumer_implemented": false
+        }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-042",
+          "source_name": "BestSaaSWebDesigns — Curated Designs",
+          "idea": "Study distinct media-gallery and utility card composition, preserving current Color Bento direction",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        },
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Check Color Bento palette readability and status/destructive colour semantics using preview and contrast checks",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
         }
       ]
     },
@@ -18165,7 +18458,8 @@
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
-        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "strumenti",
@@ -18359,6 +18653,18 @@
             "DESIGN-SUBL-002"
           ],
           "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-042",
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
         }
       ],
       "motion_design_candidates": [
@@ -18681,6 +18987,26 @@
           "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
           "consumer_implemented": false
         }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-042",
+          "source_name": "BestSaaSWebDesigns — Curated Designs",
+          "idea": "Compare high-quality promotional hero, feature blocks and CTA and follow author links",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        },
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Export candidate CSS variables/JSON design tokens for Web identity consistency",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        }
       ]
     },
     {
@@ -18714,7 +19040,8 @@
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
-        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "viaggio",
@@ -19119,6 +19446,18 @@
             "DESIGN-SITE-033"
           ],
           "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-042",
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
         }
       ],
       "voice_ui_candidates": [
@@ -20055,6 +20394,26 @@
           "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
           "consumer_implemented": false
         }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-042",
+          "source_name": "BestSaaSWebDesigns — Curated Designs",
+          "idea": "Explore postcard, travel map and journey storytelling visual identities",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        },
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Develop mapped theme tokens for travel cards and daylight/dark outdoor readability",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        }
       ]
     },
     {
@@ -20093,7 +20452,8 @@
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
-        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "calendario",
@@ -20587,6 +20947,18 @@
             "DESIGN-SITE-040"
           ],
           "note": "7 new sites; ReUI Agents and shadcn AI Elements deep links; 1 unresolved t.co. No code/assets/consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "CURATED_DESIGNS_UICOLOURS_INTAKE_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-042",
+            "DESIGN-SITE-043"
+          ],
+          "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
         }
       ],
       "voice_ui_candidates": [
@@ -21837,6 +22209,26 @@
           "state": "PROPOSED_ONLY",
           "source": "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
           "consumer_implemented": false
+        }
+      ],
+      "curated_designs_uicolours_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-042",
+          "source_name": "BestSaaSWebDesigns — Curated Designs",
+          "idea": "Discover editorial daily story layouts and purposeful illustration/motion references",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
+        },
+        {
+          "source_id": "DESIGN-SITE-043",
+          "source_name": "UIColours",
+          "idea": "Review existing story palette for contrast and colour consistency, keeping current chosen app colours",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+          "code_implemented": false,
+          "palette_changed": false
         }
       ]
     }
