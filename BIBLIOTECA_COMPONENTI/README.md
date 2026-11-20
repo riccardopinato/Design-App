@@ -128,3 +128,10 @@ python BIBLIOTECA_COMPONENTI/validate.py
 - Nessuna installazione nelle app o Golden: il riuso richiede controllo package, tema, font, SDK, dimensione APK e test nel consumer.
 
 **Audit dipendenze Forui:** [compatibilità Flutter, font e dipendenze degli esempi](./sorgenti/forui/COMPATIBILITY_2026-11-19.md).
+
+
+## Source discovery — ReUI e Figma Bento (20/11/2026)
+
+[ReUI](https://reui.io/) e' una nuova fonte con componenti gratuiti React/shadcn (repository `keenthemes/reui`, licenza MIT dichiarata per il software free); Pro blocks/icons rimangono a pagamento. Gli elementi **non sono automaticamente sorgenti Flutter**, dunque per questo intake **nessun UID assegnato, nessun TSX copiato e nessuna promozione COPY_READY**. Si potranno aggiungere singoli componenti con UID solo dopo aver recuperato il codice esatto, metadata, dipendenze, licenza, prova visiva e validazione.
+
+Il [file Figma Bento Widget Templates](../UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json) contiene varianti visive individuate per dimensione e nodi Figma; resta **REFERENCE_ONLY** (non un package Dart/Android AppWidget). Catalogazione per-app in [matrice](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.md), licenze degli elementi branded da verificare. Non incrementare il conteggio dei componenti source-archived per queste sole reference.
