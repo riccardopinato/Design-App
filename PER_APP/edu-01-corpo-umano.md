@@ -97,3 +97,15 @@ Stato: **PROPOSED_ONLY**; nessuna nuova funzione/login è autorizzata da questi 
 **UIV-108**: solo ispirazione pixel-art generica. Non riusare personaggi, sprite, trade dress o marchi Nintendo senza licenza separata.
 
 [Confronto 97→108](../UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json) · [Analisi dei nuovi 11](../UI-UX/UIVERSE/FAVORITES/ANALISI_REFRESH_11_2026-11-18.json).
+
+
+## Motion UX, animazioni e video — lotto 18 fonti 20/11/2026
+
+[Audit licenze e compatibilita'](../sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md) · [Matrice](../UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.md) · [Pipeline](../sources/MOTION_VIDEO_18_PIPELINE_2026-11-20.md) · [Manifest SHA](../sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json).
+
+- **huashu-art-motion** (`MOTION-OSS-004`): Consider illustrated body-system explainers subject to content accuracy QA. **PROPOSED_ONLY**.
+- **manim** (`MOTION-OSS-008`): Illustrate anatomical processes or numerical facts after scientific verification. **PROPOSED_ONLY**.
+- **openverse** (`MOTION-OSS-014`): Find anatomically accurate, properly licensed educational images. **PROPOSED_ONLY**.
+- **whisperX** (`MOTION-OSS-016`): Accurate medical-terminology caption checking after forced alignment. **PROPOSED_ONLY**.
+
+**Vincoli:** il media render resta separato dal runtime APK; Flutter/Compose devono usare il donor/framework nativo prima di TSX/JavaScript; licenza dell'asset e del runtime va verificata singolarmente. Nessuna modifica a Product Bible, UI, database, funzioni, codice, build o screenshot del consumer. Priorita' estetica agli asset e mock-up gia' scelti nel Design-App; a11y, reduced motion, FPS/batteria e privacy da validare in una eventuale implementazione.
