@@ -120,6 +120,18 @@ targeted_intakes:
     app_map_path: "UI-UX/MATRICE_REPO_DESIGN_APP_2026-11-17.json"
     note: "Ten pinned public OSS skill repos; no app integration, Golden promotion, copied assets or executable dependencies."
 
+  - batch_id: MOTION_VIDEO_18_2026_11_20
+    observed_at: "2026-11-20"
+    new_sources: 18
+    github_repositories_in_user_input: 17
+    api_sources_with_official_repo: 1
+    source_path: "sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json"
+    audit_path: "sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md"
+    app_map_path: "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+    factory_baseline: "App-Factory-Core@4df94ac3b3ea22a2323634fe83c3c7770fe3b835"
+    status: REFERENCE
+    note: "18 pinned original README/commits, 17 repository license files validated; Remotion Skills standalone license unresolved; API media item rights separate; zero source or binary imports."
+
 sources:
   - {repo: "fyne-io/fyne", utility: 96, ease: 62, deepen: true}
   - {repo: "penpot/penpot", utility: 88, ease: 46, deepen: true, role: "canvas interaction and design-token reference"}
@@ -1244,3 +1256,272 @@ sources:
     copy_policy: "HTML_SNAPSHOT_NOT_FLUTTER_COMPOSE_COPY_READY"
     audit_path: "sources/UIVERSE_NINE_AUDIT_2026-11-18.md"
     app_map_path: "UI-UX/UIVERSE/MATRICE_APP_COMPONENTI.json"
+
+  - repo: "NiazMorshed2007/reanimate"
+    batch: MOTION_VIDEO_18_2026_11_20
+    domain: "AGENT_SKILL"
+    license: "MIT"
+    source_ref: "3f7a55a2986a84ca2173e86ee9127eefe31d046d"
+    readme_blob: "77e073a2dd6a8fcbc4cc1cf686a266ccc8f88c26"
+    license_blob: "4623130339cc7f684bb692ef3635a448b3836785"
+    classification: TOOLING_REFERENCE
+    priority: B
+    maturity: REFERENCE
+    role: "Reverse-engineer authorized video/Web/GIF/Lottie motion; Bun, browser, FFmpeg; Windows untested"
+    copy_policy: REFERENCE_ONLY_PENDING_ASSET_DEPENDENCY_SECURITY_CONSUMER_GATE
+    audit_path: "sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md"
+    app_map_path: "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+
+  - repo: "LottieFiles/motion-design-skill"
+    batch: MOTION_VIDEO_18_2026_11_20
+    domain: "AGENT_SKILL"
+    license: "MIT"
+    source_ref: "d77a9fc8cb371cab1ba5420df5bfd232cd14c9bb"
+    readme_blob: "271b6b70905884e3faa3c3871b13bcd997b982d4"
+    license_blob: "cf29711a87aa93532c1253aa71c8c9815938abe2"
+    classification: TOOLING_REFERENCE
+    priority: A
+    maturity: REFERENCE
+    role: "Motion director intent, easing, timing, state and choreography principles"
+    copy_policy: REFERENCE_ONLY_PENDING_ASSET_DEPENDENCY_SECURITY_CONSUMER_GATE
+    audit_path: "sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md"
+    app_map_path: "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+
+  - repo: "Vincentwei1021/mg-styles-15"
+    batch: MOTION_VIDEO_18_2026_11_20
+    domain: "VIDEO_STYLE_REFERENCE"
+    license: "MIT_ORIGINAL"
+    source_ref: "8fab7eb49cc60590c518d1a932dfff753697fce7"
+    readme_blob: "980c78086322c240803af15f9f09759b3a5fd7c5"
+    license_blob: "e51cbfbfba7627c7d0ee34a152c6b8afaf1d3039"
+    classification: TOOLING_REFERENCE
+    priority: B
+    maturity: REFERENCE
+    role: "15 ten-second films, prompts, full source and rendering harness"
+    copy_policy: REFERENCE_ONLY_PENDING_ASSET_DEPENDENCY_SECURITY_CONSUMER_GATE
+    audit_path: "sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md"
+    app_map_path: "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+
+  - repo: "alchaincyf/huashu-art-motion"
+    batch: MOTION_VIDEO_18_2026_11_20
+    domain: "ART_EXPLAINER_SKILL"
+    license: "MIT_CODE_DOCS_EXCEPTIONS"
+    source_ref: "a97c45018d46e950d56d61981138e08f4e092909"
+    readme_blob: "593b3d77d7b9d5b8c1642f76e6da848e3661da41"
+    license_blob: "ed67368a2a79ed7be97b2a4852330cdac5b8b12a"
+    classification: TOOLING_REFERENCE
+    priority: B
+    maturity: REFERENCE
+    role: "36 art styles, nine explainer grammars, eight parametrized scene types"
+    copy_policy: REFERENCE_ONLY_PENDING_ASSET_DEPENDENCY_SECURITY_CONSUMER_GATE
+    audit_path: "sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md"
+    app_map_path: "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+
+  - repo: "alexgreensh/anidoodle"
+    batch: MOTION_VIDEO_18_2026_11_20
+    domain: "CODE_DRAWN_ART"
+    license: "Apache-2.0"
+    source_ref: "4ae27d2c281fcfd01bce87ab13dc5ad4df81a795"
+    readme_blob: "06877244f1abf0cab77e5060bfdc5cac4d19cd63"
+    license_blob: "9fb19f714da74472d435279eebc1a8e51c45e16e"
+    classification: TOOLING_REFERENCE
+    priority: B
+    maturity: REFERENCE
+    role: "Code-based doodle illustrations, looping Web art and scored films"
+    copy_policy: REFERENCE_ONLY_PENDING_ASSET_DEPENDENCY_SECURITY_CONSUMER_GATE
+    audit_path: "sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md"
+    app_map_path: "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+
+  - repo: "Leonxlnx/cinetic"
+    batch: MOTION_VIDEO_18_2026_11_20
+    domain: "VIDEO_PRODUCTION_SKILL"
+    license: "MIT_ORIGINAL"
+    source_ref: "f4bbfc844877891fe92279d47b7874fb44d485ae"
+    readme_blob: "4cb26c74f2cb3b754e719af72ab0b5d7ce3b77ba"
+    license_blob: "48a2f6640b81ff8eca9ce7f6a96337692713ef5b"
+    classification: TOOLING_REFERENCE
+    priority: A
+    maturity: REFERENCE
+    role: "Agent-driven product launch and update films with brief, shots, music, QA and render"
+    copy_policy: REFERENCE_ONLY_PENDING_ASSET_DEPENDENCY_SECURITY_CONSUMER_GATE
+    audit_path: "sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md"
+    app_map_path: "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+
+  - repo: "Tejashmakwana/motionmaxxing"
+    batch: MOTION_VIDEO_18_2026_11_20
+    domain: "VIDEO_QUALITY_SKILL"
+    license: "Apache-2.0_ORIGINAL"
+    source_ref: "8c8ec0f2a6f6c9a0da15cd24f7b1298ab298368c"
+    readme_blob: "69dbe52f294a0a760778f4287c3b25502cdfacae"
+    license_blob: "d645695673349e3947e8e5ae42332d0ac3164cd7"
+    classification: TOOLING_REFERENCE
+    priority: A
+    maturity: REFERENCE
+    role: "Agent taste and technical quality review for code-rendered motion graphics"
+    copy_policy: REFERENCE_ONLY_PENDING_ASSET_DEPENDENCY_SECURITY_CONSUMER_GATE
+    audit_path: "sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md"
+    app_map_path: "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+
+  - repo: "ManimCommunity/manim"
+    batch: MOTION_VIDEO_18_2026_11_20
+    domain: "EDUCATIONAL_VIDEO"
+    license: "MIT_DUAL_AUTHORS"
+    source_ref: "ab7f9527fa2b37893aacc367e21b723845f44ef0"
+    readme_blob: "2d272267cd18839334c9768eee28c940512169e5"
+    license_blob: "774f5965700a59c2c7df2d4c234209d1da333c3e"
+    classification: TOOLING_REFERENCE
+    priority: B
+    maturity: REFERENCE
+    role: "Python equations, charts and animated educational explainers"
+    copy_policy: REFERENCE_ONLY_PENDING_ASSET_DEPENDENCY_SECURITY_CONSUMER_GATE
+    audit_path: "sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md"
+    app_map_path: "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+
+  - repo: "EL4CTEO/blender-skills"
+    batch: MOTION_VIDEO_18_2026_11_20
+    domain: "DESKTOP_3D_SKILL"
+    license: "MIT"
+    source_ref: "9e7e04a603c125a0d17447ab97112fa70a865067"
+    readme_blob: "bf16651dc5cade9014fa0a5d127f563efc3629d2"
+    license_blob: "3f709c423026e30972b83813fc8a58a71495abf0"
+    classification: TOOLING_REFERENCE
+    priority: B
+    maturity: REFERENCE
+    role: "28 Blender agent skills, Blender 5.2 LTS+; 5.3 recommended"
+    copy_policy: REFERENCE_ONLY_PENDING_ASSET_DEPENDENCY_SECURITY_CONSUMER_GATE
+    audit_path: "sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md"
+    app_map_path: "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+
+  - repo: "Alchemist0823/three.quarks"
+    batch: MOTION_VIDEO_18_2026_11_20
+    domain: "WEB3D_CODE_DONOR"
+    license: "MIT"
+    source_ref: "9d0445c5949c7da570f412ad7007efecd0357886"
+    readme_blob: "b1b87c7c7e6a297c75f14ee8e6348bdd6a80d910"
+    license_blob: "2e287c8ff9c81f0298551457a2ca6155159c9eae"
+    classification: CODE_DONOR
+    priority: B
+    maturity: REFERENCE
+    role: "High-performance Web Three.js/TS particle emitter library"
+    copy_policy: REFERENCE_ONLY_PENDING_ASSET_DEPENDENCY_SECURITY_CONSUMER_GATE
+    audit_path: "sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md"
+    app_map_path: "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+
+  - repo: "pmndrs/react-postprocessing"
+    batch: MOTION_VIDEO_18_2026_11_20
+    domain: "WEB3D_CODE_DONOR"
+    license: "MIT"
+    source_ref: "e07ef9a890c8a202a3b20eac0249032cff4e7805"
+    readme_blob: "c86329ef4ab5157e1f86649eeaac11e4019a60c7"
+    license_blob: "55e1bd7f9a4bcd86361e735f17d740ee35757c7b"
+    classification: CODE_DONOR
+    priority: B
+    maturity: REFERENCE
+    role: "React Three Fiber postprocessing effects for Web 3D scenes"
+    copy_policy: REFERENCE_ONLY_PENDING_ASSET_DEPENDENCY_SECURITY_CONSUMER_GATE
+    audit_path: "sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md"
+    app_map_path: "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+
+  - repo: "cocopon/tweakpane"
+    batch: MOTION_VIDEO_18_2026_11_20
+    domain: "DEVELOPER_TOOL"
+    license: "MIT"
+    source_ref: "50a18c3dba67cb78431d7248dbe4d5a76336885a"
+    readme_blob: "febc808da09fae9798995faabb420d17e11ee545"
+    license_blob: "597ee0936f67ef27bca9f11385517836a42a1bd5"
+    classification: TOOLING_REFERENCE
+    priority: B
+    maturity: REFERENCE
+    role: "Dependency-free JavaScript live parameter tuning panel"
+    copy_policy: REFERENCE_ONLY_PENDING_ASSET_DEPENDENCY_SECURITY_CONSUMER_GATE
+    audit_path: "sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md"
+    app_map_path: "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+
+  - repo: "storytold/effectcraft"
+    batch: MOTION_VIDEO_18_2026_11_20
+    domain: "DESKTOP_COMPOSITING"
+    license: "MIT_OR_APACHE-2.0_CODE"
+    source_ref: "f32ad3aa3b0a8e853ad41db3965fe19455a693cb"
+    readme_blob: "6aa5e5ce4fcff55e273dba6c05238df328c4011b"
+    license_blob: "86fac3264fc208be9a207c64c7d970506bc657c7"
+    classification: TOOLING_REFERENCE
+    priority: B
+    maturity: REFERENCE
+    role: "Rust video compositor with effect stack and presets, young project"
+    copy_policy: REFERENCE_ONLY_PENDING_ASSET_DEPENDENCY_SECURITY_CONSUMER_GATE
+    audit_path: "sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md"
+    app_map_path: "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+
+  - repo: "WordPress/openverse"
+    batch: MOTION_VIDEO_18_2026_11_20
+    domain: "MEDIA_SEARCH_API"
+    license: "MIT_CODE_ONLY; MULTIPLE_CC_PD_MEDIA"
+    source_ref: "7cea3802175bff3eb508dd9bc2e883e1ef44684c"
+    readme_blob: "ad4c495fb870405d8bbb31bb69f4597f3c65aca7"
+    license_blob: "309d1bb515a8e4a9c2b279cd1e218ff476923378"
+    classification: TOOLING_REFERENCE
+    priority: A
+    maturity: REFERENCE
+    role: "Openverse media search API https://api.openverse.org/v1/ for images and audio, credit/license fields"
+    copy_policy: REFERENCE_ONLY_PENDING_ASSET_DEPENDENCY_SECURITY_CONSUMER_GATE
+    audit_path: "sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md"
+    app_map_path: "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+
+  - repo: "librosa/librosa"
+    batch: MOTION_VIDEO_18_2026_11_20
+    domain: "OFFLINE_AUDIO_ANALYSIS"
+    license: "ISC"
+    source_ref: "e099b8933a34d968f5b4c652e4ccfa3acef9d64e"
+    readme_blob: "8bb350a2f89beb4ab3294c36e0aff6bb88d89182"
+    license_blob: "22233a208b8776abdab2efcfb5ee34af616cb1ef"
+    classification: TOOLING_REFERENCE
+    priority: B
+    maturity: REFERENCE
+    role: "Python audio MIR beat, tempo and onset analysis"
+    copy_policy: REFERENCE_ONLY_PENDING_ASSET_DEPENDENCY_SECURITY_CONSUMER_GATE
+    audit_path: "sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md"
+    app_map_path: "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+
+  - repo: "m-bain/whisperX"
+    batch: MOTION_VIDEO_18_2026_11_20
+    domain: "OFFLINE_TRANSCRIPTION"
+    license: "BSD-2-Clause_CODE"
+    source_ref: "b904f02b7e1f26fd10fb04840d655ff27e88e464"
+    readme_blob: "d66fd7e7d429de3125d1a8a45d89ef21bc3640bb"
+    license_blob: "21ec9f0a1ef9cdf0f0b4cadf510287102c244559"
+    classification: TOOLING_REFERENCE
+    priority: B
+    maturity: REFERENCE
+    role: "Word-level forced alignment/optional diarization and transcription"
+    copy_policy: REFERENCE_ONLY_PENDING_ASSET_DEPENDENCY_SECURITY_CONSUMER_GATE
+    audit_path: "sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md"
+    app_map_path: "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+
+  - repo: "remotion-dev/skills"
+    batch: MOTION_VIDEO_18_2026_11_20
+    domain: "VIDEO_AGENT_SKILLS"
+    license: "NO_LICENSE_AT_SKILLS_ROOT; REMOTION_RUNTIME_CUSTOM"
+    source_ref: "6f55706d1069e512430582ad86e4e57dc07afe1b"
+    readme_blob: "9ef12cc198144473c5207abb41f57635ddff6a78"
+    classification: TOOLING_REFERENCE
+    priority: A
+    maturity: REFERENCE
+    role: "Official Remotion Agent Skills for code-driven React video production"
+    copy_policy: REFERENCE_ONLY_PENDING_ASSET_DEPENDENCY_SECURITY_CONSUMER_GATE
+    audit_path: "sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md"
+    app_map_path: "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
+
+  - repo: "FFmpeg/FFmpeg"
+    batch: MOTION_VIDEO_18_2026_11_20
+    domain: "MULTIMEDIA_TOOLCHAIN"
+    license: "LGPL-2.1+; GPL_OPTIONAL"
+    source_ref: "7ddf7bc8a482cf28b4fab2e63b7093ba35cb6a80"
+    readme_blob: "969e9ae2ae0a7bb31dfe22914989c8ec7c1de052"
+    license_blob: "0e75dd3030844784ae339fb51300bd1a3b1e6207"
+    classification: TOOLING_REFERENCE
+    priority: A
+    maturity: REFERENCE
+    role: "Command line and library video/audio/codec/subtitle conversion and export"
+    copy_policy: REFERENCE_ONLY_PENDING_ASSET_DEPENDENCY_SECURITY_CONSUMER_GATE
+    audit_path: "sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md"
+    app_map_path: "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json"
