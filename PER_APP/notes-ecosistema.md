@@ -392,3 +392,13 @@ Le palette e i mock-up gia' approvati hanno priorita'; la fonte non concede il r
 - **Jiro Builder** (`DESIGN-SUBL-003`): Use Builder only to mock up a product marketing site, not authentication, realtime sync or the notes canvas. **PROPOSED_ONLY**.
 
 **Gate:** Jiro e' una libreria proprietaria di design Web/React e un servizio esterno di hosting; nessun widget Flutter/Compose importato e nessun piano acquistato. I Termini consentono i progetti propri/clienti ma vietano ricollezionare o rivendere componenti/template standalone, il che preclude il copy del catalogo nella nostra libreria. Il Builder Free prevede limiti crediti e inattivita' e l'esportazione ZIP richiede un piano. Gli asset e mock-up preferiti gia' approvati in Design-App prevalgono; nessun codice consumer, server, auth, dati, palette, release o design deciso è stato modificato.
+
+
+## Motionary + 26 nuove fonti — 20/11/2026
+
+[Audit e licenze](../sources/MOTIONARY_26_AUDIT_2026-11-20.md) · [Matrice 20 proposte / 10 app](../UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md). Le fonti nuove non sostituiscono mock-up già approvati, Product Bible, Golden o design token proprietari.
+
+- **STYLE26-01** (P1): Microinterazioni card/board, espansione proprietà e undo con reduced motion — **PROPOSED_ONLY**.
+- **STYLE26-25** (P2): Confronto canvas solo pattern; niente nuovo database o copia codice senza gate — **PROPOSED_ONLY**.
+
+**Confini:** 0 componenti SwiftUI/TSX importati nel consumer; per Flutter/Compose serve implementazione compatibile e collaudo. Le licenze dei siti e delle risorse premium/media restano distinte. Motionary MIT richiede notice; Rare UI vieta redistribuzione di un port/libreria di componenti e impone attribuzione in prodotto quando applicabile. Nessun codice, dato, permesso, APK, design scelto o runtime consumer è stato modificato.
