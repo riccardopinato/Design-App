@@ -578,6 +578,66 @@
       "source_commit": "067aa0dc7f8bbfec1cd76fc5ad31f842be5f569a",
       "related_intake": "sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
       "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-032",
+      "name": "ThinkUI",
+      "url": "https://thinkui.xyz/",
+      "kind": "HOSTED_MCP_UI_REFERENCE_WITH_ATTRIBUTION",
+      "status": "REFERENCE",
+      "direct_page_fetch": "SITE_INACCESSIBLE; SOURCE_REPOSITORY_README_AND_LLMS_TEXT_VERIFIED",
+      "recommended_for": [
+        "evidence-driven screen and flow comparison",
+        "MIT HTML/CSS component references with source per result",
+        "animated SVG icon discovery with per-item rights",
+        "anti-slop QA via specific evidence"
+      ],
+      "use": "An agent may query the paid remote MCP for current UI references and verify provenance/license per item; do not connect or purchase without user approval. Screenshot reuse depends on source licence, never bulk archive.",
+      "license": "SERVER_PROPRIETARY_SUBSCRIPTION; MIT_COMPONENTS_AND_SVG_PER_RESULT; SCREENSHOTS_MIXED_417_OF_1483_PERMISSIVE_REST_STUDY_ONLY",
+      "free_access": "PAID_ONLY_FROM_9_99_USD_PER_MONTH; PRO_19_99_LIFETIME_190_USD; PRICES_NOT_OWN_VERIFIED_AT_CHECKOUT",
+      "source_repository": "Dionisselami/thinkui",
+      "source_commit": "b94cbdfbdd30b872288116e4c2c68a4ed0b70e56",
+      "related_intake": "sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+      "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-033",
+      "name": "Mobbin",
+      "url": "https://mobbin.com/",
+      "kind": "REAL_APP_SCREEN_AND_FLOW_GALLERY",
+      "status": "REFERENCE",
+      "direct_page_fetch": "OFFICIAL_PRICING_AND_TERMS_VERIFIED",
+      "recommended_for": [
+        "real shipped app onboarding and navigation flows",
+        "empty states and deletion confirmation UX benchmarking",
+        "multi-screen journey coherence"
+      ],
+      "use": "Use for narrow research of shipped mobile/web UX with source attribution; do not archive, mirror or republish third-party screenshots into Design-App or use ML to create derivatives without permission.",
+      "license": "PROPRIETARY_SERVICE; TERMS_LIMIT_ARCHIVE_MIRROR_REHOST_AND_AI_DERIVATIVES; THIRD_PARTY_SCREENSHOTS_NOT_TRANSFERRED",
+      "free_access": "FREEMIUM_LIMITED; PRO_EUR_10_PER_MONTH_BILLED_YEARLY; SEARCH_FLOWS_MCP_PAID",
+      "related_intake": "sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+      "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-034",
+      "name": "React Bits",
+      "url": "https://reactbits.dev/",
+      "kind": "ANIMATED_REACT_WEB_COMPONENTS_AND_MOTION_REFERENCES",
+      "status": "REFERENCE",
+      "direct_page_fetch": "OFFICIAL_GITHUB_SOURCE_README_AND_LICENSE_READ",
+      "recommended_for": [
+        "text transition and reveal motion",
+        "micro-interactions/buttons/toggles",
+        "cards/navigation/carousels",
+        "animated backgrounds for Web only when performant"
+      ],
+      "use": "Use original repo as visual and engineering reference; in suitable React web product, source inclusion allowed under license, but do not redistribute components as standalone or ported library. For Flutter only build original native equivalents with QA, no direct TSX use.",
+      "license": "MIT_WITH_COMMONS_CLAUSE; COMMERCIAL_END_PRODUCT_ALLOWED; NO_SELL_SUBLICENSE_OR_REDISTRIBUTE_COMPONENTS_IN_STANDALONE_BUNDLES_OR_PORTED_LIBRARY",
+      "free_access": "215_PLUS_FREE_COMPONENTS_PER_README; SEPARATE_PRO_PRODUCT",
+      "source_repository": "DavidHDev/react-bits",
+      "source_commit": "701a8acc34f718b305d1ff0cc7d4700df0e1f1c9",
+      "related_intake": "sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+      "updated_at": "2026-11-20"
     }
   ]
 }
