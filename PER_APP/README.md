@@ -112,3 +112,8 @@ Originali HTML/CSS aggiunti: **11**; catalogo **111/111**; Favorites **108/108**
 ## Nuovi riferimenti Web/Agent UI — 20/11/2026
 
 **11 dossier aggiornati, 37 relazioni PROPOSED_ONLY**, con 7 fonti nuove, 2 sottopagine di ReUI/shadcn gia' noti senza duplicati e 1 shortlink t.co da risolvere. [Matrice](../UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.md) · [Registro](../UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json) · [Audit](../sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md). Nessun consumer modificato, licenze per singolo elemento e accessibilita'/FPS richieste prima dell'implementazione.
+
+
+## Curated Designs e UIColours — 20 novembre 2026
+
+**13 dossier aggiornati, 22 idee PROPOSED_ONLY**, 2 fonti uniche non duplicate. [Matrice](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.md) · [Registro JSON](../UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json) · [Audit](../sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md). Palette già selezionate rimangono prevalenti; zero implementazioni consumer o esportazioni di token effettuate.
