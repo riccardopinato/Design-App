@@ -155,3 +155,8 @@ Il [file Figma Bento Widget Templates](../UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_202
 ## Fonti motion/video 20/11/2026 — catalogo sorgenti, NON UID
 
 **18 nuove fonti** pin SHA in [registro](../sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json) e [OSS registry](../registry/OSS_DESIGN_SOURCES.yaml). Le skill, tool di produzione, FFmpeg, API Openverse e librerie Web 3D non sono componenti Flutter/Compose verificati. Nessun UID assegnato, nessun codice sorgente copiato o asset vendorizzato; `remotion-dev/skills` non ha LICENSE root individuata, mentre altri tool impongono gate commerciali, LGPL/GPL, CC e GSAP. [Audit](../sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md).
+
+
+## Jiro Build — sorgenti NON archiviate (20/11/2026)
+
+[Jiro Design Prompt Library e Builder](../sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md) sono catalogati **solo come siti/reference**: le condizioni d'uso vietano utilizzare i loro template/componenti per una libreria concorrente o redistribuirli standalone. Non importare prompt/source premium nel catalogo canonical UID, non etichettare React o output AI come Dart/Flutter COPY_READY. [Mappa utilizzi](../UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.md): 18 idee su 9 app, tutte PROPOSED_ONLY. Nessuna UID, snapshot, asset o build da Jiro.

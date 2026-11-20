@@ -122,3 +122,8 @@ Originali HTML/CSS aggiunti: **11**; catalogo **111/111**; Favorites **108/108**
 ## Motion e produzione video — 20/11/2026
 
 **13 profili, 68 proposte `PROPOSED_ONLY`, 18 fonti** mappate in [matrice](../UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.md), [JSON](../UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json) e [audit](../sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md). Motion nativa separata da pipeline di video promo/educativi; nessuna app modificata e nessun codice/assets terzi copiati. Preferenze visive gia' approvate prioritarie.
+
+
+## Jiro Build — prompt Web e Builder (20/11/2026)
+
+**9 dossier aggiornati** con **18 proposte `PROPOSED_ONLY`** per promo Web/landing, mappate in [matrice](../UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.md) e [JSON](../UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json). Delle 15 URL condivise 13 sono gia' nel registro; un solo nuovo sito (`DESIGN-SITE-044`), con una sotto-risorsa del medesimo provider. [Audit licenze](../sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md). Nessuna implementazione nel consumer.

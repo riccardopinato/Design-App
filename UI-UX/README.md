@@ -150,3 +150,8 @@ Dal lotto di 15 link **12 erano gia' nel Design-App** e non sono stati rivalutat
 ## Motion e VFX da 18 fonti GitHub / API — 20/11/2026
 
 [Audit e licenze](../sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md) · [Matrice 68 relazioni per 13 app](./MOTION_VIDEO_18_APP_MAP_2026-11-20.md) · [JSON](./MOTION_VIDEO_18_APP_MAP_2026-11-20.json) · [Pipeline](../sources/MOTION_VIDEO_18_PIPELINE_2026-11-20.md). Principi LottieFiles, video motion skill, Three.js VFX e produzione offline differenziati da Flutter/Compose; nessun nuovo UID, no source COPY_READY e no app code.
+
+
+## Web landing source Jiro Build — 20/11/2026
+
+[Audit delle 15 fonti (13 duplicate)](../sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md) · [Matrice Jiro Library/Builder, 18 proposte](./JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.md) · [JSON](./JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json). Template premium proprietari, Builder hosting a crediti, ZIP export sui piani a pagamento. `DESIGN-SITE-044` con sottopagina `DESIGN-SUBL-003`, non catalogo Flutter, no UID.

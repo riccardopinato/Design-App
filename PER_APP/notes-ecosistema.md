@@ -382,3 +382,13 @@ Le palette e i mock-up gia' approvati hanno priorita'; la fonte non concede il r
 - **motion-design-skill** (`MOTION-OSS-002`): Set canvas interaction motion tokens for drag, zoom and tool changes. **PROPOSED_ONLY**.
 
 **Vincoli:** il media render resta separato dal runtime APK; Flutter/Compose devono usare il donor/framework nativo prima di TSX/JavaScript; licenza dell'asset e del runtime va verificata singolarmente. Nessuna modifica a Product Bible, UI, database, funzioni, codice, build o screenshot del consumer. Priorita' estetica agli asset e mock-up gia' scelti nel Design-App; a11y, reduced motion, FPS/batteria e privacy da validare in una eventuale implementazione.
+
+
+## Jiro Build e Builder — fonti Web per marketing (20/11/2026)
+
+[Audit, deduplica e licenze](../sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md) · [Matrice](../UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.md) · [Mappa JSON](../UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json).
+
+- **Jiro Prompt Library** (`DESIGN-SITE-044`): Explore feature storytelling for canvas, notebooks and privacy with genuine app screen captures. **PROPOSED_ONLY**.
+- **Jiro Builder** (`DESIGN-SUBL-003`): Use Builder only to mock up a product marketing site, not authentication, realtime sync or the notes canvas. **PROPOSED_ONLY**.
+
+**Gate:** Jiro e' una libreria proprietaria di design Web/React e un servizio esterno di hosting; nessun widget Flutter/Compose importato e nessun piano acquistato. I Termini consentono i progetti propri/clienti ma vietano ricollezionare o rivendere componenti/template standalone, il che preclude il copy del catalogo nella nostra libreria. Il Builder Free prevede limiti crediti e inattivita' e l'esportazione ZIP richiede un piano. Gli asset e mock-up preferiti gia' approvati in Design-App prevalgono; nessun codice consumer, server, auth, dati, palette, release o design deciso è stato modificato.

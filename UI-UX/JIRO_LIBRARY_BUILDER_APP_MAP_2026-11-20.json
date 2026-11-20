@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "batch_id": "JIRO_15_LINKS_DEDUP_2026_11_20",
+  "date": "2026-11-20",
+  "factory_baseline": "riccardopinato/App-Factory-Core@4df94ac3b3ea22a2323634fe83c3c7770fe3b835",
+  "design_base_sha": "c34483036b2ca5ad068e9568a3a8ce3b6294296f",
+  "counts": {
+    "submitted_links": 15,
+    "skipped_duplicate_links": 13,
+    "new_domains": 1,
+    "provider_subpages": 1,
+    "app_profiles": 9,
+    "relations": 18
+  },
+  "source_refs": {
+    "DESIGN-SITE-044": {
+      "id": "DESIGN-SITE-044",
+      "name": "Jiro — Design Prompt Library + AI Website Builder",
+      "url": "https://jiro.build/"
+    },
+    "DESIGN-SUBL-003": {
+      "id": "DESIGN-SUBL-003",
+      "name": "Jiro Builder",
+      "url": "https://jiro.build/builder",
+      "parent_id": "DESIGN-SITE-044"
+    }
+  },
+  "duplicate_links": [
+    {
+      "input_position": 3,
+      "url": "https://godly.website/",
+      "canonical_id": "DESIGN-SITE-018",
+      "canonical_name": "Recent Design",
+      "reason": "official_redirect_to_recent.design",
+      "alias": true
+    },
+    {
+      "input_position": 4,
+      "url": "https://land-book.com/",
+      "canonical_id": "DESIGN-SITE-017",
+      "canonical_name": "Land-book"
+    },
+    {
+      "input_position": 5,
+      "url": "https://landdding.com/",
+      "canonical_id": "DESIGN-SITE-019",
+      "canonical_name": "Landdding"
+    },
+    {
+      "input_position": 6,
+      "url": "https://recent.design/",
+      "canonical_id": "DESIGN-SITE-018",
+      "canonical_name": "Recent Design"
+    },
+    {
+      "input_position": 7,
+      "url": "https://60fps.design/",
+      "canonical_id": "DESIGN-SITE-021",
+      "canonical_name": "60FPS"
+    },
+    {
+      "input_position": 8,
+      "url": "https://cosmos.so/",
+      "canonical_id": "DESIGN-SITE-028",
+      "canonical_name": "Cosmos"
+    },
+    {
+      "input_position": 9,
+      "url": "https://fontshare.com/",
+      "canonical_id": "DESIGN-SITE-022",
+      "canonical_name": "Fontshare"
+    },
+    {
+      "input_position": 10,
+      "url": "https://fontinlogo.com/",
+      "canonical_id": "DESIGN-SITE-020",
+      "canonical_name": "Font in Logo"
+    },
+    {
+      "input_position": 11,
+      "url": "https://coolors.co/",
+      "canonical_id": "DESIGN-SITE-024",
+      "canonical_name": "Coolors"
+    },
+    {
+      "input_position": 12,
+      "url": "https://realtimecolors.com/",
+      "canonical_id": "DESIGN-SITE-023",
+      "canonical_name": "Realtime Colors"
+    },
+    {
+      "input_position": 13,
+      "url": "https://lucide.dev/",
+      "canonical_id": "DESIGN-SITE-025",
+      "canonical_name": "Lucide"
+    },
+    {
+      "input_position": 14,
+      "url": "https://svgl.app/",
+      "canonical_id": "DESIGN-SITE-026",
+      "canonical_name": "SVGL"
+    },
+    {
+      "input_position": 15,
+      "url": "https://shots.so/",
+      "canonical_id": "DESIGN-SITE-027",
+      "canonical_name": "Shots"
+    }
+  ],
+  "relations": [
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "DESIGN-SITE-044",
+      "source_name": "Jiro Prompt Library",
+      "source_url": "https://jiro.build/",
+      "idea": "Use SaaS marketing landing hierarchy as a reference, not as an operational dashboard replacement",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "source_or_premium_asset_copied": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "DESIGN-SUBL-003",
+      "source_name": "Jiro Builder",
+      "source_url": "https://jiro.build/builder",
+      "parent_source_id": "DESIGN-SITE-044",
+      "idea": "Consider a temporary promotional front page mock-up; do not imply Jiro hosts authenticated App Factory operations",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "source_or_premium_asset_copied": false
+    },
+    {
+      "app_id": "cashmate-ai",
+      "source_id": "DESIGN-SITE-044",
+      "source_name": "Jiro Prompt Library",
+      "source_url": "https://jiro.build/",
+      "idea": "Study fintech landing structure, trust messaging, responsible financial copy and clear value proposition",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "source_or_premium_asset_copied": false
+    },
+    {
+      "app_id": "cashmate-ai",
+      "source_id": "DESIGN-SUBL-003",
+      "source_name": "Jiro Builder",
+      "source_url": "https://jiro.build/builder",
+      "parent_source_id": "DESIGN-SITE-044",
+      "idea": "Consider draft Web campaign layout; never copy bank branding or claim automatic security compliance",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "source_or_premium_asset_copied": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "DESIGN-SITE-044",
+      "source_name": "Jiro Prompt Library",
+      "source_url": "https://jiro.build/",
+      "idea": "Prepare landing page layout ideas for recipe search, localized value proposition and app store entry points",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "source_or_premium_asset_copied": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "DESIGN-SUBL-003",
+      "source_name": "Jiro Builder",
+      "source_url": "https://jiro.build/builder",
+      "parent_source_id": "DESIGN-SITE-044",
+      "idea": "Test a separate marketing microsite only; do not import Jiro output as mobile recipe code",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "source_or_premium_asset_copied": false
+    },
+    {
+      "app_id": "framelab",
+      "source_id": "DESIGN-SITE-044",
+      "source_name": "Jiro Prompt Library",
+      "source_url": "https://jiro.build/",
+      "idea": "Reference responsive gallery/portfolio landing with full aspect ratio images and authentic before/after examples",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "source_or_premium_asset_copied": false
+    },
+    {
+      "app_id": "framelab",
+      "source_id": "DESIGN-SUBL-003",
+      "source_name": "Jiro Builder",
+      "source_url": "https://jiro.build/builder",
+      "parent_source_id": "DESIGN-SITE-044",
+      "idea": "Evaluate Web site prototyping while preserving user-owned photos and original product identity",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "source_or_premium_asset_copied": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "source_id": "DESIGN-SITE-044",
+      "source_name": "Jiro Prompt Library",
+      "source_url": "https://jiro.build/",
+      "idea": "Explore feature storytelling for canvas, notebooks and privacy with genuine app screen captures",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "source_or_premium_asset_copied": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "source_id": "DESIGN-SUBL-003",
+      "source_name": "Jiro Builder",
+      "source_url": "https://jiro.build/builder",
+      "parent_source_id": "DESIGN-SITE-044",
+      "idea": "Use Builder only to mock up a product marketing site, not authentication, realtime sync or the notes canvas",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "source_or_premium_asset_copied": false
+    },
+    {
+      "app_id": "omni-cleaner",
+      "source_id": "DESIGN-SITE-044",
+      "source_name": "Jiro Prompt Library",
+      "source_url": "https://jiro.build/",
+      "idea": "Explore clean product landing with accurate screenshots of the Color Bento Home, safe cleaning claims and App store link",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "source_or_premium_asset_copied": false
+    },
+    {
+      "app_id": "omni-cleaner",
+      "source_id": "DESIGN-SUBL-003",
+      "source_name": "Jiro Builder",
+      "source_url": "https://jiro.build/builder",
+      "parent_source_id": "DESIGN-SITE-044",
+      "idea": "Try a standalone marketing-site draft; the actual Android cleaner UI, privacy and APK release stay in the consumer repo",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "source_or_premium_asset_copied": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "DESIGN-SITE-044",
+      "source_name": "Jiro Prompt Library",
+      "source_url": "https://jiro.build/",
+      "idea": "Study editorial landing templates, feature/FAQ/pricing/CTA patterns; design with original source or licensed project use",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "source_or_premium_asset_copied": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "DESIGN-SUBL-003",
+      "source_name": "Jiro Builder",
+      "source_url": "https://jiro.build/builder",
+      "parent_source_id": "DESIGN-SITE-044",
+      "idea": "Evaluate a standalone Web-site prototype with chat editing, mobile preview, code ZIP export only on an eligible paid plan",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "source_or_premium_asset_copied": false
+    },
+    {
+      "app_id": "wonderlog",
+      "source_id": "DESIGN-SITE-044",
+      "source_name": "Jiro Prompt Library",
+      "source_url": "https://jiro.build/",
+      "idea": "Consider travel journal promotional page, picture-rich story and restrained micro-interactions",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "source_or_premium_asset_copied": false
+    },
+    {
+      "app_id": "wonderlog",
+      "source_id": "DESIGN-SUBL-003",
+      "source_name": "Jiro Builder",
+      "source_url": "https://jiro.build/builder",
+      "parent_source_id": "DESIGN-SITE-044",
+      "idea": "Prototype a campaign landing only; do not imply hosted builder gives an offline-capable Flutter app",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "source_or_premium_asset_copied": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "DESIGN-SITE-044",
+      "source_name": "Jiro Prompt Library",
+      "source_url": "https://jiro.build/",
+      "idea": "Review accessible daily-discovery landing patterns, editorial stories and subscription messaging without changing story data",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "source_or_premium_asset_copied": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "DESIGN-SUBL-003",
+      "source_name": "Jiro Builder",
+      "source_url": "https://jiro.build/builder",
+      "parent_source_id": "DESIGN-SITE-044",
+      "idea": "Consider hosted Web announcement prototype; keep verified content, data sources, localization and publication independent",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "source_or_premium_asset_copied": false
+    }
+  ]
+}
