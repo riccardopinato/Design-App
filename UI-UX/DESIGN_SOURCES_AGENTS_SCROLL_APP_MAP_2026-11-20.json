@@ -1,0 +1,397 @@
+{
+  "schema_version": 1,
+  "batch_id": "DESIGN_SOURCES_AGENTS_SCROLL_2026_11_20",
+  "date": "2026-11-20",
+  "baseline_core_sha": "4df94ac3b3ea22a2323634fe83c3c7770fe3b835",
+  "baseline_design_sha": "27b5e95da7f58ceccb5b898db2a6fad73a6fed01",
+  "counts": {
+    "provided_urls": 10,
+    "new_sites": 7,
+    "existing_provider_subpages": 2,
+    "unresolved_short_urls": 1,
+    "app_profiles": 11,
+    "relations": 37
+  },
+  "sources": {
+    "DESIGN-SITE-035": {
+      "id": "DESIGN-SITE-035",
+      "name": "Scrolltide",
+      "url": "https://www.scrolltide.co/"
+    },
+    "DESIGN-SITE-036": {
+      "id": "DESIGN-SITE-036",
+      "name": "Scroll Shaders",
+      "url": "https://scrollshaders.com/"
+    },
+    "DESIGN-SITE-037": {
+      "id": "DESIGN-SITE-037",
+      "name": "Snapblocks",
+      "url": "https://snapblocks.site/"
+    },
+    "DESIGN-SITE-038": {
+      "id": "DESIGN-SITE-038",
+      "name": "Navbar Gallery",
+      "url": "https://www.navbar.gallery/"
+    },
+    "DESIGN-SITE-039": {
+      "id": "DESIGN-SITE-039",
+      "name": "AI Canvas",
+      "url": "https://aicanvas.me/components"
+    },
+    "DESIGN-SITE-040": {
+      "id": "DESIGN-SITE-040",
+      "name": "Aceternity UI",
+      "url": "https://ui.aceternity.com/components"
+    },
+    "DESIGN-SITE-041": {
+      "id": "DESIGN-SITE-041",
+      "name": "Chakra UI",
+      "url": "https://chakra-ui.com/docs/components/concepts/overview"
+    },
+    "DESIGN-SUBL-001": {
+      "id": "DESIGN-SUBL-001",
+      "name": "ReUI — Agent Ops Pro Blocks",
+      "url": "https://reui.io/blocks/solutions/agents"
+    },
+    "DESIGN-SUBL-002": {
+      "id": "DESIGN-SUBL-002",
+      "name": "shadcn/ui — AI Elements",
+      "url": "https://ui.shadcn.com/docs/ai-elements"
+    }
+  },
+  "relations": [
+    {
+      "app_id": "annas-diary",
+      "source_id": "DESIGN-SITE-039",
+      "source_name": "AI Canvas",
+      "idea": "Mood check-in/card stack idea without new data collection until approved",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "DESIGN-SITE-035",
+      "source_name": "Scrolltide",
+      "idea": "Marketing hero hierarchy only; do not alter operational screen density",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "DESIGN-SITE-037",
+      "source_name": "Snapblocks",
+      "idea": "UNVERIFIED — no source acquisition or implementation",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "DESIGN-SITE-038",
+      "source_name": "Navbar Gallery",
+      "idea": "Screenreader-friendly sidebar, search, breadcrumb and structured mega-menu references",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "DESIGN-SITE-039",
+      "source_name": "AI Canvas",
+      "idea": "Real upload progress, expanding tabs and task status cards",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "DESIGN-SITE-040",
+      "source_name": "Aceternity UI",
+      "idea": "Accessible expanding cards and tabs, avoiding hover-only operations",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "DESIGN-SITE-041",
+      "source_name": "Chakra UI",
+      "idea": "React form validation and accessible status UI",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "DESIGN-SUBL-001",
+      "source_name": "ReUI — Agent Ops Pro Blocks",
+      "idea": "Operations run queue, approvals, tool access matrix, failed-run triage and evaluation panels",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "DESIGN-SUBL-002",
+      "source_name": "shadcn/ui — AI Elements",
+      "idea": "Traceable streaming agent chat, tool results and reasoning presentation based on genuine event data",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "battery-guard",
+      "source_id": "DESIGN-SITE-036",
+      "source_name": "Scroll Shaders",
+      "idea": "Static version only: continuous GPU animation conflicts with battery utility purpose",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "cashmate-ai",
+      "source_id": "DESIGN-SITE-041",
+      "source_name": "Chakra UI",
+      "idea": "Financial form/validation semantics, not Flutter copy-paste",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "DESIGN-SITE-035",
+      "source_name": "Scrolltide",
+      "idea": "Editorial Web launch page visual inspiration",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "DESIGN-SITE-040",
+      "source_name": "Aceternity UI",
+      "idea": "Editorial recipe tiles and light image transitions",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "deskland-android",
+      "source_id": "DESIGN-SITE-036",
+      "source_name": "Scroll Shaders",
+      "idea": "Visual inspiration; no permanent GPU shader without device FPS/battery evidence",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "deskland-android",
+      "source_id": "DESIGN-SITE-039",
+      "source_name": "AI Canvas",
+      "idea": "Agent presence indicator derived from real status, not fake animation",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "deskland-android",
+      "source_id": "DESIGN-SUBL-001",
+      "source_name": "ReUI — Agent Ops Pro Blocks",
+      "idea": "Agent step trace and approval workflow as architecture reference only",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "deskland-android",
+      "source_id": "DESIGN-SUBL-002",
+      "source_name": "shadcn/ui — AI Elements",
+      "idea": "Agent status and confirmation UX references for native implementation",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "framelab",
+      "source_id": "DESIGN-SITE-036",
+      "source_name": "Scroll Shaders",
+      "idea": "Gradients/dithering as marketing reference only",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "framelab",
+      "source_id": "DESIGN-SITE-039",
+      "source_name": "AI Canvas",
+      "idea": "Photo card/coverflow interactions preserving full image aspect ratio",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "framelab",
+      "source_id": "DESIGN-SITE-040",
+      "source_name": "Aceternity UI",
+      "idea": "Gallery transitions with input/keyboard accessibility and original image ratio",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "source_id": "DESIGN-SITE-038",
+      "source_name": "Navbar Gallery",
+      "idea": "Reference multi-level Web content navigation without importing desktop nav on mobile",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "source_id": "DESIGN-SITE-039",
+      "source_name": "AI Canvas",
+      "idea": "Signature pad and task cards, native Flutter adaptation only",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "source_id": "DESIGN-SITE-041",
+      "source_name": "Chakra UI",
+      "idea": "Accessible dialogs/actions as Web reference for native rewrite",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "source_id": "DESIGN-SUBL-001",
+      "source_name": "ReUI — Agent Ops Pro Blocks",
+      "idea": "Agent action queue as candidate only if AI functionality is product-approved",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "omni-cleaner",
+      "source_id": "DESIGN-SITE-039",
+      "source_name": "AI Canvas",
+      "idea": "Delete-with-undo countdown only with genuinely reversible trash operation",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "omni-cleaner",
+      "source_id": "DESIGN-SITE-041",
+      "source_name": "Chakra UI",
+      "idea": "Confirm-dialog and safe destructive action semantics",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "DESIGN-SITE-035",
+      "source_name": "Scrolltide",
+      "idea": "Scroll narrative reference for a distinctive landing page without copying paid templates",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "DESIGN-SITE-036",
+      "source_name": "Scroll Shaders",
+      "idea": "Optional light Web hero shader with static reduced-motion fallback",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "DESIGN-SITE-037",
+      "source_name": "Snapblocks",
+      "idea": "UNVERIFIED — examine blocks only once site and license are directly accessible",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "DESIGN-SITE-038",
+      "source_name": "Navbar Gallery",
+      "idea": "Modern responsive navbar reference for product marketing",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "DESIGN-SITE-040",
+      "source_name": "Aceternity UI",
+      "idea": "Selective modern cards, hero and motion UI on marketing site",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "DESIGN-SITE-041",
+      "source_name": "Chakra UI",
+      "idea": "Framework comparison only for future React Web product, not a migration",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "DESIGN-SUBL-002",
+      "source_name": "shadcn/ui — AI Elements",
+      "idea": "Optional Web agent UI using React-compatible source and checked license",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "DESIGN-SITE-035",
+      "source_name": "Scrolltide",
+      "idea": "Introductory story-based landing only; preserve core content readability",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "DESIGN-SITE-038",
+      "source_name": "Navbar Gallery",
+      "idea": "Organize editorial category navigation with mobile and accessibility QA",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "DESIGN-SITE-039",
+      "source_name": "AI Canvas",
+      "idea": "Readable category cards with meaningful state",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "DESIGN-SITE-040",
+      "source_name": "Aceternity UI",
+      "idea": "Content cards and restrained decorative backgrounds, no legibility regression",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false
+    }
+  ]
+}
