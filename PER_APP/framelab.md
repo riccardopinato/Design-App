@@ -235,3 +235,18 @@ Fonti: [Flutter Gems](https://fluttergems.dev/), [Forui Button](https://forui.de
 | Forui | MEDIUM | pickers/settings |
 
 Nessun package installato, nessuna modifica dati/architettura o Golden promosso; verifica Flutter SDK, dipendenze, APK size, accessibilità e performance necessaria prima dell'adozione.
+
+
+## Fonti di design — 20/11/2026
+
+[Audit](../sources/DESIGN_SITES_15_AUDIT_2026-11-20.md) · [Matrice](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.md) · [registro](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json).
+
+- **Recent Design** (`DESIGN-SITE-018`): App icon and typography moodboards — **PROPOSED_ONLY**.
+- **Font in Logo** (`DESIGN-SITE-020`): Match editorial title typography to product tone — **PROPOSED_ONLY**.
+- **60FPS** (`DESIGN-SITE-021`): Contextual bottom sheets, card transitions, long press — **PROPOSED_ONLY**.
+- **Fontshare** (`DESIGN-SITE-022`): Pair serif editorial headings with neutral readable UI fonts — **PROPOSED_ONLY**.
+- **Coolors** (`DESIGN-SITE-024`): Generate candidate 5-color palettes, then test in actual screen — **PROPOSED_ONLY**.
+- **Shots** (`DESIGN-SITE-027`): Create marketing phone/device mockups from own QA screenshots — **PROPOSED_ONLY**.
+- **Cosmos** (`DESIGN-SITE-028`): Moodboard collections and search by color/similarity — **PROPOSED_ONLY**.
+
+Nessun asset, font, logo o codice importato. Sono richiesti approvazione estetica, Product Bible, licenza e QA sulle schermate reali.
