@@ -97,3 +97,8 @@ Originali HTML/CSS aggiunti: **11**; catalogo **111/111**; Favorites **108/108**
 ## Intake 15 siti esterni — 20/11/2026
 
 **14 profili con nuove proposte, 68 associazioni, 14 siti unici (15 URL; Godly reindirizza a Recent).** La [matrice dedicata](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.md), il [JSON relazionale](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json) e l'[audit dei siti](../sources/DESIGN_SITES_15_AUDIT_2026-11-20.md) integrano i dossier e `REGISTRO_APP_DESIGN.json` senza creare consumer implementati. Tutte le associazioni restano PROPOSED_ONLY.
+
+
+## Nuovi siti Figma/ReUI/Best Designs — 20/11/2026
+
+**12 dossier aggiornati, 31 relazioni PROPOSED_ONLY**, 3 fonti di scoperta distinte e il file specifico Figma Bento Widget Templates (nodi reali e categorie con provenienza). [Matrice per app](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.md) · [Registro JSON](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json) · [Audit](../sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md). Il file Figma e' distinto dalla directory Community. ReUI Free e' React/TypeScript e non fornisce Dart Flutter pronto. Nessun asset acquisito.
