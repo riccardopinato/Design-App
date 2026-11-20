@@ -351,3 +351,15 @@ Licenze degli asset e approvazione estetica per-app obbligatorie prima di qualsi
 - **React Bits** (`DESIGN-SITE-034`): Study animated list, collapsible details and card reveals; adapt natively in Flutter — **PROPOSED_ONLY**.
 
 Queste fonti non autorizzano il riutilizzo di screenshot o font senza licenza. Mobbin vieta l'archiviazione/mirroring dei contenuti; React Bits usa MIT + Commons Clause; ThinkUI richiede attivazione MCP a pagamento. Nessuna app o feature implementata da questo intake.
+
+
+## Fonti AI agent/Web/motion — 20/11/2026 (7 nuove, 2 approfondimenti)
+
+[Audit](../sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md) · [Matrice per-app](../UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.md) · [Deep link ReUI/shadcn](../sources/DESIGN_EXISTING_SITES_DEEP_LINKS_2026-11-20.json).
+
+- **Navbar Gallery** (`DESIGN-SITE-038`): Reference multi-level Web content navigation without importing desktop nav on mobile — **PROPOSED_ONLY**.
+- **AI Canvas** (`DESIGN-SITE-039`): Signature pad and task cards, native Flutter adaptation only — **PROPOSED_ONLY**.
+- **Chakra UI** (`DESIGN-SITE-041`): Accessible dialogs/actions as Web reference for native rewrite — **PROPOSED_ONLY**.
+- **ReUI — Agent Ops Pro Blocks** (`DESIGN-SUBL-001`): Agent action queue as candidate only if AI functionality is product-approved — **PROPOSED_ONLY**.
+
+**Gate:** premium/proprietary/non-verified sources not imported, React/JS is not Dart, animations must respect reduced-motion and measurable state, GPU/performance/battery gates for shaders; per-app Product Bible and visual decisions before consumer implementation. The t.co short URL is unresolved. No code/tests of this consumer performed.
