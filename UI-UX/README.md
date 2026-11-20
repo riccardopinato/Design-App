@@ -155,3 +155,8 @@ Dal lotto di 15 link **12 erano gia' nel Design-App** e non sono stati rivalutat
 ## Web landing source Jiro Build — 20/11/2026
 
 [Audit delle 15 fonti (13 duplicate)](../sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md) · [Matrice Jiro Library/Builder, 18 proposte](./JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.md) · [JSON](./JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json). Template premium proprietari, Builder hosting a crediti, ZIP export sui piani a pagamento. `DESIGN-SITE-044` con sottopagina `DESIGN-SUBL-003`, non catalogo Flutter, no UID.
+
+
+## Motionary: animazioni iOS e strumenti UI — 20/11/2026
+
+[839 effetti SwiftUI, 15 categorie e 85 famiglie](https://alanfeiyuchang.github.io/motionary-ios-animations/) come reference prioritaria per micro-interazioni; [catalogazione, licenze e deduplica di 26 link](../sources/MOTIONARY_26_AUDIT_2026-11-20.md) · [20 proposte per 10 app](./MOTIONARY_26_APP_MAP_2026-11-20.md). No port automatico Flutter/Compose, no animazioni di progresso fittizie. Rare UI catalogata con Commons Clause+attribution; agent/browser/video tools restano tooling, non design runtime.
