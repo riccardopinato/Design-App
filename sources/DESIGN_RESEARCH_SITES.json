@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18",
+  "updated_at": "2026-11-20",
   "purpose": "Curated web directories and visual sources for design research; no entitlement to third-party assets",
   "sites": [
     {
@@ -262,6 +262,259 @@
       "license": "OFFICIAL_GUIDANCE_NOT_UNIVERSAL_ASSET_CODE_LICENSE",
       "related_intake": "sources/MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md",
       "updated_at": "2026-11-19"
+    },
+    {
+      "id": "DESIGN-SITE-015",
+      "name": "Motion Sites",
+      "url": "https://motionsites.ai/",
+      "kind": "AI_WEB_DESIGN_PROMPT_GALLERY",
+      "status": "REFERENCE",
+      "direct_page_fetch": "DIRECT_PAGE_VERIFIED",
+      "recommended_for": [
+        "Animated hero with reduced-motion fallback",
+        "Motion-first landing sections driven by content rather than decoration"
+      ],
+      "use": "Prompt counts advertised by social post not independently verified; web-specific prompt results are not Flutter code.",
+      "license": "PROMPTS_AND_SHOWCASES_NOT_ASSUMED_REUSABLE",
+      "free_access": "FREE_SAMPLES; FULL_ACCESS_LIMITS_NOT_FULLY_VERIFIED",
+      "priority_tier": "B",
+      "related_intake": "sources/DESIGN_SITES_15_AUDIT_2026-11-20.md",
+      "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-016",
+      "name": "Motion Sites Studio",
+      "url": "https://studio.motionsites.ai/",
+      "kind": "AI_WEBSITE_BUILDER",
+      "status": "REFERENCE",
+      "direct_page_fetch": "DIRECT_FETCH_UNAVAILABLE_PRICING_INDEXED",
+      "recommended_for": [
+        "AI-assisted website prototype comparison"
+      ],
+      "use": "Not admitted as equivalent to Lovable, code donor, or a free builder without direct live test.",
+      "license": "GENERATED_CODE_OWNERSHIP_TERMS_NEED_REVIEW",
+      "free_access": "PAID_PLANS_VISIBLE; FREE_TIER_NOT_CONFIRMED",
+      "priority_tier": "C",
+      "related_intake": "sources/DESIGN_SITES_15_AUDIT_2026-11-20.md",
+      "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-017",
+      "name": "Land-book",
+      "url": "https://land-book.com/",
+      "kind": "CURATED_WEB_SECTIONS",
+      "status": "REFERENCE",
+      "direct_page_fetch": "HOME_403; SECTIONS_PRICING_VERIFIED",
+      "recommended_for": [
+        "Pricing-page hierarchy with distinct comparison tiers",
+        "Searchable landing sections by style/color/type"
+      ],
+      "use": "Individual captured websites remain third-party copyright; useful principally Web/PWA/Store landing.",
+      "license": "THIRD_PARTY_SHOTS_REFERENCE_ONLY",
+      "free_access": "FREEMIUM_FREE_LIMITED_PRO_FROM_6_USD_MONTH",
+      "priority_tier": "A_WEB",
+      "related_intake": "sources/DESIGN_SITES_15_AUDIT_2026-11-20.md",
+      "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-018",
+      "name": "Recent Design",
+      "url": "https://recent.design/",
+      "kind": "CURATED_MULTI_DISCIPLINE_GALLERY",
+      "status": "REFERENCE",
+      "direct_page_fetch": "DIRECT_PAGE_VERIFIED",
+      "recommended_for": [
+        "App icon and typography moodboards",
+        "Editorial/mobile layout comparison"
+      ],
+      "use": "Legacy godly.website points to this same service; indexed once only.",
+      "license": "THIRD_PARTY_SHOTS_REFERENCE_ONLY",
+      "free_access": "PUBLIC_BROWSING; ACCOUNT_FEATURE_LIMITS_UNVERIFIED",
+      "priority_tier": "A",
+      "related_intake": "sources/DESIGN_SITES_15_AUDIT_2026-11-20.md",
+      "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-019",
+      "name": "Landdding",
+      "url": "https://landdding.com/",
+      "kind": "LANDING_GALLERY_AND_TEMPLATES",
+      "status": "REFERENCE",
+      "direct_page_fetch": "DIRECT_PAGE_VERIFIED",
+      "recommended_for": [
+        "Sector-specific landing layouts for SaaS, utility and food",
+        "Filter content by industry and frontend platform"
+      ],
+      "use": "Page is useful for marketing references; downloading a template is a distinct licensing check.",
+      "license": "DESIGNS_AND_TEMPLATES_HAVE_PER_ITEM_RIGHTS",
+      "free_access": "FREE_BROWSING; PRO_EXTENDS_ACCESS",
+      "priority_tier": "B_WEB",
+      "related_intake": "sources/DESIGN_SITES_15_AUDIT_2026-11-20.md",
+      "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-020",
+      "name": "Font in Logo",
+      "url": "https://fontinlogo.com/",
+      "kind": "TYPOGRAPHY_BRAND_STUDY",
+      "status": "REFERENCE",
+      "direct_page_fetch": "DIRECT_PAGE_VERIFIED",
+      "recommended_for": [
+        "Match editorial title typography to product tone",
+        "Use commercially licensed alternatives, not copied brand logos"
+      ],
+      "use": "Font lookalikes are not a license to copy a protected wordmark, title or trademark.",
+      "license": "FONT_LICENSE_PER_FAMILY; BRANDS_AND_TRADEMARKS_SEPARATE",
+      "free_access": "FREE_FONT_PREVIEWS_GENERATORS; VERIFY_INDIVIDUAL_FONT",
+      "priority_tier": "B",
+      "related_intake": "sources/DESIGN_SITES_15_AUDIT_2026-11-20.md",
+      "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-021",
+      "name": "60FPS",
+      "url": "https://60fps.design/",
+      "kind": "MOBILE_WEB_INTERACTION_REFERENCE",
+      "status": "REFERENCE",
+      "direct_page_fetch": "DIRECT_PAGE_VERIFIED",
+      "recommended_for": [
+        "Contextual bottom sheets, card transitions, long press",
+        "Swipe delete with explicit undo and stateful completion",
+        "Meaningful gallery transitions and reduced-motion variants"
+      ],
+      "use": "Many filters (Calendar, Bottom Sheet, Delete, Empty State, Shared Element, Scrub); recordings do not supply Flutter code.",
+      "license": "VIDEOS_AND_SCREENSHOTS_REFERENCE_ONLY",
+      "free_access": "PUBLIC_GALLERY; PAID_OR_ADDITIONAL_FEATURES_NOT_ASSERTED",
+      "priority_tier": "A",
+      "related_intake": "sources/DESIGN_SITES_15_AUDIT_2026-11-20.md",
+      "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-022",
+      "name": "Fontshare",
+      "url": "https://fontshare.com/",
+      "kind": "FONT_DISTRIBUTION",
+      "status": "REFERENCE",
+      "direct_page_fetch": "JS_REQUIRED; FONT_AND_LICENSE_PAGES_INDEXED",
+      "recommended_for": [
+        "Pair serif editorial headings with neutral readable UI fonts",
+        "Create character-set/language coverage checklist before choosing a family"
+      ],
+      "use": "No font binary copied; only shortlist names with independently verified font family page and terms.",
+      "license": "PER_FONT_ITF_FFL_OR_SIL_OFL; REDISTRIBUTION_RESTRICTIONS_VARY",
+      "free_access": "FREE_TO_USE_SUBJECT_TO_PER_FONT_LICENSE",
+      "priority_tier": "A",
+      "related_intake": "sources/DESIGN_SITES_15_AUDIT_2026-11-20.md",
+      "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-023",
+      "name": "Realtime Colors",
+      "url": "https://realtimecolors.com/",
+      "kind": "COLOR_TOKEN_LIVE_PREVIEW",
+      "status": "REFERENCE",
+      "direct_page_fetch": "DIRECT_PAGE_VERIFIED",
+      "recommended_for": [
+        "Preview text/background/primary/secondary/accent combinations on real UI",
+        "Compare light/dark/contrast and export token candidates"
+      ],
+      "use": "A website mockup is not proof that a Flutter component passes accessibility contrast or native rendering.",
+      "license": "EXPORTED_PALETTE_VALUES_ONLY; CHECK_SERVICE_TERMS_FOR_OTHER_ASSETS",
+      "free_access": "FREE_CLAIM_CONFIRMED_OFFICIAL",
+      "priority_tier": "A",
+      "related_intake": "sources/DESIGN_SITES_15_AUDIT_2026-11-20.md",
+      "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-024",
+      "name": "Coolors",
+      "url": "https://coolors.co/",
+      "kind": "COLOR_PALETTE_GENERATOR",
+      "status": "REFERENCE",
+      "direct_page_fetch": "HOME_403; PUBLIC_PALETTE_PAGES_VERIFIED",
+      "recommended_for": [
+        "Generate candidate 5-color palettes, then test in actual screen",
+        "Use generated harmony only as a starting point for semantic tokens"
+      ],
+      "use": "Do not assert unrestricted free exports/saves or full homepage access.",
+      "license": "PALETTE_VALUES_REFERENCE; ASSET_EXPORT_AND_TERMS_CHECK",
+      "free_access": "FREEMIUM; FREE_PALETTES_LIMITED",
+      "priority_tier": "B",
+      "related_intake": "sources/DESIGN_SITES_15_AUDIT_2026-11-20.md",
+      "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-025",
+      "name": "Lucide",
+      "url": "https://lucide.dev/",
+      "kind": "OPEN_SOURCE_ICON_SET",
+      "status": "REFERENCE",
+      "direct_page_fetch": "DIRECT_SITE_AND_GITHUB_LICENSE_VERIFIED",
+      "recommended_for": [
+        "Consistent stroke and semantic icon naming",
+        "Map candidate glyphs to existing factory semantic icon adapter"
+      ],
+      "use": "Already referenced in packs/icons/PROVENANCE.md; no duplicate runtime pack or Flutter donor admitted.",
+      "license": "ISC_LIBRARY; NO_BRAND_LOGOS",
+      "free_access": "FREE_OPEN_SOURCE",
+      "priority_tier": "A_EXISTING",
+      "related_intake": "sources/DESIGN_SITES_15_AUDIT_2026-11-20.md",
+      "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-026",
+      "name": "SVGL",
+      "url": "https://svgl.app/",
+      "kind": "BRAND_LOGO_DISCOVERY_AND_API",
+      "status": "REFERENCE",
+      "direct_page_fetch": "DIRECT_API_DOCS_VERIFIED",
+      "recommended_for": [
+        "Find official provider logos for legitimate integration badges",
+        "Use metadata/API for discovery only; cache and permission review"
+      ],
+      "use": "API says do not clone SVGL product; site notes logo permission. Never mass-bundle provider logos.",
+      "license": "BRAND_TRADEMARK_PERMISSION_PER_LOGO; CODE_LICENSE_SEPARATE",
+      "free_access": "PUBLIC_FREE_API_RATE_LIMITED",
+      "priority_tier": "B_RESTRICTED",
+      "related_intake": "sources/DESIGN_SITES_15_AUDIT_2026-11-20.md",
+      "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-027",
+      "name": "Shots",
+      "url": "https://shots.so/",
+      "kind": "PRODUCT_MOCKUP_TOOL",
+      "status": "REFERENCE",
+      "direct_page_fetch": "DIRECT_PAGE_AND_TERMS_VERIFIED",
+      "recommended_for": [
+        "Create marketing phone/device mockups from own QA screenshots",
+        "Create consistent portrait/landscape Play Store image compositions"
+      ],
+      "use": "Promotional renders do not replace authentic in-app screenshots or runtime visual QA.",
+      "license": "OUTPUT_TERMS_AND_UPLOADED_ASSET_RIGHTS_REVIEW",
+      "free_access": "FREE_BASIC_PRO_TIERS",
+      "priority_tier": "A_MARKETING",
+      "related_intake": "sources/DESIGN_SITES_15_AUDIT_2026-11-20.md",
+      "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-028",
+      "name": "Cosmos",
+      "url": "https://cosmos.so/",
+      "kind": "VISUAL_COLLECTION_AND_DISCOVERY",
+      "status": "REFERENCE",
+      "direct_page_fetch": "DIRECT_PAGE_VERIFIED",
+      "recommended_for": [
+        "Moodboard collections and search by color/similarity",
+        "Trace artist and source of visual reference",
+        "Explore collections/vision-board organization without copying thumbnails"
+      ],
+      "use": "Do not upload/re-host copyrighted images from Cosmos as app assets without distinct permission.",
+      "license": "THIRD_PARTY_IMAGES_REFERENCE_ONLY",
+      "free_access": "FREE_USE_WITH_OPTIONAL_PREMIUM",
+      "priority_tier": "A",
+      "related_intake": "sources/DESIGN_SITES_15_AUDIT_2026-11-20.md",
+      "updated_at": "2026-11-20"
     }
   ]
 }
