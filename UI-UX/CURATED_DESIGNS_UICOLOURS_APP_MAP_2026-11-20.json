@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "batch_id": "CURATED_DESIGNS_UICOLOURS_2026_11_20",
+  "date": "2026-11-20",
+  "source_of_truth": "riccardopinato/Design-App",
+  "factory_baseline": "riccardopinato/App-Factory-Core@4df94ac3b3ea22a2323634fe83c3c7770fe3b835",
+  "design_base_sha": "9974c2b855fc631bdd444c8d8941dfab4eb5184a",
+  "sources": {
+    "DESIGN-SITE-042": {
+      "id": "DESIGN-SITE-042",
+      "name": "BestSaaSWebDesigns — Curated Designs",
+      "url": "https://bestsaaswebdesigns.com/curated-designs"
+    },
+    "DESIGN-SITE-043": {
+      "id": "DESIGN-SITE-043",
+      "name": "UIColours",
+      "url": "https://uicolours.com/"
+    }
+  },
+  "counts": {
+    "provided_urls": 2,
+    "new_sites": 2,
+    "duplicate_sources": 0,
+    "app_profiles": 13,
+    "relations": 22
+  },
+  "relations": [
+    {
+      "app_id": "annas-diary",
+      "source_id": "DESIGN-SITE-042",
+      "source_name": "BestSaaSWebDesigns — Curated Designs",
+      "idea": "Review editorial mobile layout and illustration references linked to original X creators; respect approved rose/diary visuals",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false,
+      "approved_palette_changed": false
+    },
+    {
+      "app_id": "annas-diary",
+      "source_id": "DESIGN-SITE-043",
+      "source_name": "UIColours",
+      "idea": "Audit rose palette semantics across light/dark surfaces and contrast without replacing approved theme",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false,
+      "approved_palette_changed": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "DESIGN-SITE-042",
+      "source_name": "BestSaaSWebDesigns — Curated Designs",
+      "idea": "Compare lightweight dashboard hierarchy, graph cards and filters with references from X creators",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false,
+      "approved_palette_changed": false
+    },
+    {
+      "app_id": "app-factory-dashboard",
+      "source_id": "DESIGN-SITE-043",
+      "source_name": "UIColours",
+      "idea": "Build semantic status tokens for CI, risk, priority, blockers and dashboard surface states",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false,
+      "approved_palette_changed": false
+    },
+    {
+      "app_id": "battery-guard",
+      "source_id": "DESIGN-SITE-043",
+      "source_name": "UIColours",
+      "idea": "Contrast-test charge, warning, temperature and health indicator colours with accessible fallback labels",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false,
+      "approved_palette_changed": false
+    },
+    {
+      "app_id": "cashmate-ai",
+      "source_id": "DESIGN-SITE-043",
+      "source_name": "UIColours",
+      "idea": "Evaluate chart categorical colours, income/outgo status and foreground/background contrast",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false,
+      "approved_palette_changed": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "DESIGN-SITE-042",
+      "source_name": "BestSaaSWebDesigns — Curated Designs",
+      "idea": "Collect food-inspired illustration composition and hero treatments for app promotion",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false,
+      "approved_palette_changed": false
+    },
+    {
+      "app_id": "cooking-anime",
+      "source_id": "DESIGN-SITE-043",
+      "source_name": "UIColours",
+      "idea": "Test recipe category palette and card text contrast, without copying food-brand identities",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false,
+      "approved_palette_changed": false
+    },
+    {
+      "app_id": "deskland-android",
+      "source_id": "DESIGN-SITE-042",
+      "source_name": "BestSaaSWebDesigns — Curated Designs",
+      "idea": "Review 3D spatial scene and motion concepts as references only; maintain device performance gating",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false,
+      "approved_palette_changed": false
+    },
+    {
+      "app_id": "focussense",
+      "source_id": "DESIGN-SITE-043",
+      "source_name": "UIColours",
+      "idea": "Check focus score colour states and charts to avoid meaning encoded by hue only",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false,
+      "approved_palette_changed": false
+    },
+    {
+      "app_id": "framelab",
+      "source_id": "DESIGN-SITE-042",
+      "source_name": "BestSaaSWebDesigns — Curated Designs",
+      "idea": "Identify motion studies and gallery compositions, with source-credit and original image ratio",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false,
+      "approved_palette_changed": false
+    },
+    {
+      "app_id": "framelab",
+      "source_id": "DESIGN-SITE-043",
+      "source_name": "UIColours",
+      "idea": "Inspect image-chrome and toolbar colour hierarchy ensuring photo content remains dominant",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false,
+      "approved_palette_changed": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "source_id": "DESIGN-SITE-042",
+      "source_name": "BestSaaSWebDesigns — Curated Designs",
+      "idea": "Discover genuine dashboard/canvas interaction concepts and patterns, not clone social artwork",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false,
+      "approved_palette_changed": false
+    },
+    {
+      "app_id": "notes-ecosistema",
+      "source_id": "DESIGN-SITE-043",
+      "source_name": "UIColours",
+      "idea": "Create candidate semantic tokens for ink, canvas, card, labels, accents and accessible contrast",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false,
+      "approved_palette_changed": false
+    },
+    {
+      "app_id": "omni-cleaner",
+      "source_id": "DESIGN-SITE-042",
+      "source_name": "BestSaaSWebDesigns — Curated Designs",
+      "idea": "Study distinct media-gallery and utility card composition, preserving current Color Bento direction",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false,
+      "approved_palette_changed": false
+    },
+    {
+      "app_id": "omni-cleaner",
+      "source_id": "DESIGN-SITE-043",
+      "source_name": "UIColours",
+      "idea": "Check Color Bento palette readability and status/destructive colour semantics using preview and contrast checks",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false,
+      "approved_palette_changed": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "DESIGN-SITE-042",
+      "source_name": "BestSaaSWebDesigns — Curated Designs",
+      "idea": "Compare high-quality promotional hero, feature blocks and CTA and follow author links",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false,
+      "approved_palette_changed": false
+    },
+    {
+      "app_id": "web-utility-factory",
+      "source_id": "DESIGN-SITE-043",
+      "source_name": "UIColours",
+      "idea": "Export candidate CSS variables/JSON design tokens for Web identity consistency",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false,
+      "approved_palette_changed": false
+    },
+    {
+      "app_id": "wonderlog",
+      "source_id": "DESIGN-SITE-042",
+      "source_name": "BestSaaSWebDesigns — Curated Designs",
+      "idea": "Explore postcard, travel map and journey storytelling visual identities",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false,
+      "approved_palette_changed": false
+    },
+    {
+      "app_id": "wonderlog",
+      "source_id": "DESIGN-SITE-043",
+      "source_name": "UIColours",
+      "idea": "Develop mapped theme tokens for travel cards and daylight/dark outdoor readability",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false,
+      "approved_palette_changed": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "DESIGN-SITE-042",
+      "source_name": "BestSaaSWebDesigns — Curated Designs",
+      "idea": "Discover editorial daily story layouts and purposeful illustration/motion references",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false,
+      "approved_palette_changed": false
+    },
+    {
+      "app_id": "world-days",
+      "source_id": "DESIGN-SITE-043",
+      "source_name": "UIColours",
+      "idea": "Review existing story palette for contrast and colour consistency, keeping current chosen app colours",
+      "state": "PROPOSED_ONLY",
+      "consumer_implemented": false,
+      "third_party_assets_copied": false,
+      "approved_palette_changed": false
+    }
+  ]
+}
