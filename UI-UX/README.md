@@ -125,3 +125,8 @@ Originali HTML/CSS aggiunti: **43**; catalogo **100/100**; Favorites **97/97**; 
 ## Aggiornamento recupero pubblico (2026-11-18)
 
 Originali HTML/CSS aggiunti: **11**; catalogo **111/111**; Favorites **108/108**; codice non recuperato **0**. Provenienza e checksum in [RECUPERO_API](../UI-UX/UIVERSE/FAVORITES/RECUPERO_API_2026_11_18.json). Le cifre precedenti documentano lo stato storico prima di questo recupero. Nessuna adozione o test su app consumer.
+
+
+## Design discovery 20 novembre 2026 — 3 nuovi siti + Bento Figma
+
+Nuove sorgenti: **Best Designs on X**, **Figma Community Mobile Apps** e **ReUI** (ID `DESIGN-SITE-029..031`), piu' [file specifico Figma Bento Widget Templates](./FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json) con nodi originali verificati. [Matrice 31 idee ↔ 12 app](./DESIGN_SOURCES_4_APP_MAP_2026-11-20.md) · [Audit](../sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md). Niente copia asset o source code, niente widget Flutter installato. Figma Community file-level rights e ReUI Pro restano gate indipendenti.
