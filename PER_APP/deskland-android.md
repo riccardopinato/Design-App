@@ -251,3 +251,12 @@ Le palette e i mock-up gia' approvati hanno priorita'; la fonte non concede il r
 - **STYLE26-24** (P2): Confronto token UI del pannello impostazioni; niente componenti React nel launcher — **PROPOSED_ONLY**.
 
 **Confini:** 0 componenti SwiftUI/TSX importati nel consumer; per Flutter/Compose serve implementazione compatibile e collaudo. Le licenze dei siti e delle risorse premium/media restano distinte. Motionary MIT richiede notice; Rare UI vieta redistribuzione di un port/libreria di componenti e impone attribuzione in prodotto quando applicabile. Nessun codice, dato, permesso, APK, design scelto o runtime consumer è stato modificato.
+
+
+## Design stack Florent — 5 link (20/11/2026)
+
+[Audit licenze e fonti](../sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md) · [Mappa per-app](../UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md). Nessun cambiamento automatico dell'identità visiva approvata.
+
+- **STACK5-05 · P2**: Video promozionale scene del launcher con riprese reali o ricostruzione dichiarata. **PROPOSED_ONLY**.
+
+**Gate:** Shipframe screenshot autentici senza dati personali, Oversight solo reference o uso licenziato in progetto, Mobbin niente mirror di screenshot terzi, Fontshare licenza per famiglia; nessun file/asset copiato in questo lotto. Prima di applicare in app: Product Bible, codice consumer, test QA e approvazione.
