@@ -221,3 +221,14 @@ Fonte: [Material Design 3](https://m3.material.io/) · [studio e confini](../sou
 Fit ipotizzato: **MEDIUM**. Possibile ambito: battery diagnostics/settings and compact summary widgets; avoid stock dashboard look.
 
 **PROPOSED_ONLY / NOT_VERIFIED.** M3 non e' obbligatorio e non e' vietato; prima considerare Product Bible e stili Design-App curati dall'utente. Verificare se il consumer e' Flutter o Kotlin/Compose e se usa gia' M3. Nessuna installazione o modifica automatica, nessuna certificazione estetica senza prove su schermata reale.
+
+
+## Fonti di design — 20/11/2026
+
+[Audit](../sources/DESIGN_SITES_15_AUDIT_2026-11-20.md) · [Matrice](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.md) · [registro](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json).
+
+- **60FPS** (`DESIGN-SITE-021`): Contextual bottom sheets, card transitions, long press — **PROPOSED_ONLY**.
+- **Realtime Colors** (`DESIGN-SITE-023`): Preview text/background/primary/secondary/accent combinations on real UI — **PROPOSED_ONLY**.
+- **Lucide** (`DESIGN-SITE-025`): Consistent stroke and semantic icon naming — **PROPOSED_ONLY**.
+
+Nessun asset, font, logo o codice importato. Sono richiesti approvazione estetica, Product Bible, licenza e QA sulle schermate reali.
