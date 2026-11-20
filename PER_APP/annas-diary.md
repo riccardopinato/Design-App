@@ -363,3 +363,13 @@ Le palette e i mock-up gia' approvati hanno priorita'; la fonte non concede il r
 - **anidoodle** (`MOTION-OSS-005`): Consider original minimal doodle illustrations for diary moments. **PROPOSED_ONLY**.
 
 **Vincoli:** il media render resta separato dal runtime APK; Flutter/Compose devono usare il donor/framework nativo prima di TSX/JavaScript; licenza dell'asset e del runtime va verificata singolarmente. Nessuna modifica a Product Bible, UI, database, funzioni, codice, build o screenshot del consumer. Priorita' estetica agli asset e mock-up gia' scelti nel Design-App; a11y, reduced motion, FPS/batteria e privacy da validare in una eventuale implementazione.
+
+
+## Motionary + 26 nuove fonti — 20/11/2026
+
+[Audit e licenze](../sources/MOTIONARY_26_AUDIT_2026-11-20.md) · [Matrice 20 proposte / 10 app](../UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md). Le fonti nuove non sostituiscono mock-up già approvati, Product Bible, Golden o design token proprietari.
+
+- **STYLE26-01** (P1): Spring/press su Crea, transizioni Ricordi e selettore Giorno/Notte; delicate, interrompibili — **PROPOSED_ONLY**.
+- **STYLE26-23** (P2): DESIGN.md derivato da palette/Manrope-Lora/mockup già approvati; non sostituisce Product Bible — **PROPOSED_ONLY**.
+
+**Confini:** 0 componenti SwiftUI/TSX importati nel consumer; per Flutter/Compose serve implementazione compatibile e collaudo. Le licenze dei siti e delle risorse premium/media restano distinte. Motionary MIT richiede notice; Rare UI vieta redistribuzione di un port/libreria di componenti e impone attribuzione in prodotto quando applicabile. Nessun codice, dato, permesso, APK, design scelto o runtime consumer è stato modificato.
