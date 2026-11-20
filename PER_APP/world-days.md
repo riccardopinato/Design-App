@@ -285,3 +285,17 @@ Nessun package installato, nessuna modifica dati/architettura o Golden promosso;
 **PROPOSED_ONLY · fonte OSS MIT** [felipebasurto/unslop-ui @ cd891160453f26aaacc569bad96a8d10d595076d](https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d). [Audit e limiti](../sources/UNSLOP_UI_AUDIT_2026-11-19.md) · [matrice di associazione](../UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json).
 
 **Proposta:** Contenuti editoriali: revisione concisione del copy e stato delle ricorrenze, senza rivedere dati storici, storie, fonti o traduzioni. Le U1–U20 sono controlli diagnostici e alias degli AT-01…AT-64, non un nuovo tema. Riutilizzo **ADAPT_NATIVE / SOURCE_REVIEW**; nessun automatismo rimuove elementi, nessun consumer certificato da questo dossier. Product Bible e reference preferite restano prioritarie. Stato visivo/fisico: **NOT_VERIFIED**.
+
+
+## Fonti di design — 20/11/2026
+
+[Audit](../sources/DESIGN_SITES_15_AUDIT_2026-11-20.md) · [Matrice](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.md) · [registro](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json).
+
+- **Font in Logo** (`DESIGN-SITE-020`): Match editorial title typography to product tone — **PROPOSED_ONLY**.
+- **Fontshare** (`DESIGN-SITE-022`): Pair serif editorial headings with neutral readable UI fonts — **PROPOSED_ONLY**.
+- **Realtime Colors** (`DESIGN-SITE-023`): Preview text/background/primary/secondary/accent combinations on real UI — **PROPOSED_ONLY**.
+- **Coolors** (`DESIGN-SITE-024`): Generate candidate 5-color palettes, then test in actual screen — **PROPOSED_ONLY**.
+- **Shots** (`DESIGN-SITE-027`): Create marketing phone/device mockups from own QA screenshots — **PROPOSED_ONLY**.
+- **Cosmos** (`DESIGN-SITE-028`): Moodboard collections and search by color/similarity — **PROPOSED_ONLY**.
+
+Nessun asset, font, logo o codice importato. Sono richiesti approvazione estetica, Product Bible, licenza e QA sulle schermate reali.

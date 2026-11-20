@@ -267,3 +267,10 @@ Dal 19 novembre 2026, l'archivio contiene **480 componenti canonici e 4 alias**:
 ### Acquisizione aggiuntiva Amicro, Watermelon, EaseUI — 19/11/2026
 
 Importati e verificati altri **38** originali React/TSX da tre repository MIT gia' catalogati: **30 Amicro**, **7 Watermelon**, **1 EaseUI**. Le licenze originali e i pin SHA sono in [sorgenti e provenance](BIBLIOTECA_COMPONENTI/sorgenti/README.md). Totale attuale: **425** sorgenti canonici archiviati e **53** reference senza codice locale. Nessun Flutter widget o app consumer modificati.
+
+
+## 15 risorse design / AI — 20 novembre 2026
+
+L'elenco dell'utente contiene 15 URL ma 14 servizi distinti (Godly reindirizza a Recent Design). Registrate 14 schede uniche `DESIGN-SITE-015..028` nel [registro dei siti](sources/DESIGN_RESEARCH_SITES.json), con disponibilita' free/freemium, copyright e limiti. [Audit completo](sources/DESIGN_SITES_15_AUDIT_2026-11-20.md) · [Matrice 68 associazioni / 14 app](UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.md) · [Matrice JSON](UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json).
+
+Priorita' estetiche: 60FPS (motion mobile), Realtime Colors (colori e contrasto), Fontshare (font e licenze), Cosmos (collezioni/vision board), Shots (mockup promozionali). Lucide era gia' citato nell'Icon Adapter Pack: nessun nuovo donor duplicato. Stato: **REFERENCE / PROPOSED_ONLY**, nessuna app o Golden modificata.

@@ -263,3 +263,15 @@ Stato: **PROPOSED_ONLY**; nessuna nuova funzione/login è autorizzata da questi 
 **PROPOSED_ONLY · fonte OSS MIT** [felipebasurto/unslop-ui @ cd891160453f26aaacc569bad96a8d10d595076d](https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d). [Audit e limiti](../sources/UNSLOP_UI_AUDIT_2026-11-19.md) · [matrice di associazione](../UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json).
 
 **Proposta:** Kotlin/Compose: valuta eyebrow non pertinenti, badge/dot di stato, grafici e pulizia della gerarchia; non alterare RC1, funzioni distruttive o la Home approvata. Le U1–U20 sono controlli diagnostici e alias degli AT-01…AT-64, non un nuovo tema. Riutilizzo **ADAPT_NATIVE / SOURCE_REVIEW**; nessun automatismo rimuove elementi, nessun consumer certificato da questo dossier. Product Bible e reference preferite restano prioritarie. Stato visivo/fisico: **NOT_VERIFIED**.
+
+
+## Fonti di design — 20/11/2026
+
+[AUDIT delle 15 fonti](../sources/DESIGN_SITES_15_AUDIT_2026-11-20.md) · [matrice app](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.md) · [registro](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json).
+
+- **60FPS** (`DESIGN-SITE-021`): Contextual bottom sheets, card transitions, long press — **PROPOSED_ONLY**.
+- **Realtime Colors** (`DESIGN-SITE-023`): Preview text/background/primary/secondary/accent combinations on real UI — **PROPOSED_ONLY**.
+- **Lucide** (`DESIGN-SITE-025`): Consistent stroke and semantic icon naming — **PROPOSED_ONLY**.
+- **Shots** (`DESIGN-SITE-027`): Create marketing phone/device mockups from own QA screenshots — **PROPOSED_ONLY**.
+
+Nessuna feature o risorsa esterna e' stata integrata. Richiesti Product Bible, approvazione estetica, licenze e QA runtime.

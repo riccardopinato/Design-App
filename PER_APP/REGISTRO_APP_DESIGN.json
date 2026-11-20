@@ -34,7 +34,10 @@
     "uiverse_app_links": 736,
     "uiverse_mapped_apps": 25,
     "unslop_ui_candidate_apps": 5,
-    "unslop_ui_candidate_relations": 5
+    "unslop_ui_candidate_relations": 5,
+    "design_sites_2026_11_20_unique_sources": 14,
+    "design_sites_2026_11_20_app_profiles": 14,
+    "design_sites_2026_11_20_links": 68
   },
   "profiles": [
     {
@@ -206,7 +209,7 @@
       "name": "Anna's Diary",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-19",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -232,7 +235,8 @@
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
         "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
         "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
-        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json"
+        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "diario e ricordi",
@@ -627,6 +631,25 @@
           "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
           "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
           "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-018",
+            "DESIGN-SITE-020",
+            "DESIGN-SITE-021",
+            "DESIGN-SITE-022",
+            "DESIGN-SITE-023",
+            "DESIGN-SITE-024",
+            "DESIGN-SITE-025",
+            "DESIGN-SITE-027",
+            "DESIGN-SITE-028"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
         }
       ],
       "voice_ui_candidates": [
@@ -1520,14 +1543,88 @@
         "scope": "Editorial Today, Calendar, Memories, Settings: diagnose ornamental copy without removing approved Organic iOS Journal and Lora/Manrope/Rose/HSV",
         "safeguard": "Keep Classic reversible, privacy and all supported locales",
         "consumer_implementation": "NOT_VERIFIED"
-      }
+      },
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-018",
+          "source_name": "Recent Design",
+          "idea": "App icon and typography moodboards",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-020",
+          "source_name": "Font in Logo",
+          "idea": "Match editorial title typography to product tone",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-021",
+          "source_name": "60FPS",
+          "idea": "Contextual bottom sheets, card transitions, long press",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-022",
+          "source_name": "Fontshare",
+          "idea": "Pair serif editorial headings with neutral readable UI fonts",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-023",
+          "source_name": "Realtime Colors",
+          "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-024",
+          "source_name": "Coolors",
+          "idea": "Generate candidate 5-color palettes, then test in actual screen",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-025",
+          "source_name": "Lucide",
+          "idea": "Consistent stroke and semantic icon naming",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-027",
+          "source_name": "Shots",
+          "idea": "Create marketing phone/device mockups from own QA screenshots",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-028",
+          "source_name": "Cosmos",
+          "idea": "Moodboard collections and search by color/similarity",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ]
     },
     {
       "id": "app-factory-dashboard",
       "name": "App Factory Dashboard",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -1549,7 +1646,8 @@
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "repository e branch",
@@ -1859,6 +1957,23 @@
             "UIV-111"
           ],
           "note": "8 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-015",
+            "DESIGN-SITE-016",
+            "DESIGN-SITE-017",
+            "DESIGN-SITE-019",
+            "DESIGN-SITE-022",
+            "DESIGN-SITE-025",
+            "DESIGN-SITE-026"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
         }
       ],
       "voice_ui_candidates": [
@@ -2841,6 +2956,64 @@
           "is_user_favorite": true,
           "code_original_available": true
         }
+      ],
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-015",
+          "source_name": "Motion Sites",
+          "idea": "Animated hero with reduced-motion fallback",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-016",
+          "source_name": "Motion Sites Studio",
+          "idea": "AI-assisted website prototype comparison",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-017",
+          "source_name": "Land-book",
+          "idea": "Pricing-page hierarchy with distinct comparison tiers",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-019",
+          "source_name": "Landdding",
+          "idea": "Sector-specific landing layouts for SaaS, utility and food",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-022",
+          "source_name": "Fontshare",
+          "idea": "Pair serif editorial headings with neutral readable UI fonts",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-025",
+          "source_name": "Lucide",
+          "idea": "Consistent stroke and semantic icon naming",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-026",
+          "source_name": "SVGL",
+          "idea": "Find official provider logos for legitimate integration badges",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
       ]
     },
     {
@@ -2848,7 +3021,7 @@
       "name": "Battery Guard",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -2873,7 +3046,8 @@
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
         "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
         "sources/MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md",
-        "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json"
+        "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "batteria",
@@ -3143,6 +3317,19 @@
           "origin": "https://m3.material.io/",
           "source": "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json",
           "note": "Material 3 is a possible app-specific utility UI choice, not default/ban; implementation and actual stack NOT_VERIFIED; no consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-021",
+            "DESIGN-SITE-023",
+            "DESIGN-SITE-025"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
         }
       ],
       "motion_design_candidates": [
@@ -3793,7 +3980,33 @@
         "status": "PROPOSED_ONLY",
         "decision": "NOT_DECIDED",
         "implementation": "NOT_VERIFIED"
-      }
+      },
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-021",
+          "source_name": "60FPS",
+          "idea": "Contextual bottom sheets, card transitions, long press",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-023",
+          "source_name": "Realtime Colors",
+          "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-025",
+          "source_name": "Lucide",
+          "idea": "Consistent stroke and semantic icon naming",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ]
     },
     {
       "id": "beerclass-ai",
@@ -5351,7 +5564,7 @@
       "name": "CashMate AI",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -5372,7 +5585,8 @@
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "portafoglio",
@@ -5597,6 +5811,19 @@
             "UIV-111"
           ],
           "note": "6 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-017",
+            "DESIGN-SITE-023",
+            "DESIGN-SITE-025"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
         }
       ],
       "motion_design_candidates": [
@@ -6201,6 +6428,32 @@
           "is_user_favorite": true,
           "code_original_available": true
         }
+      ],
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-017",
+          "source_name": "Land-book",
+          "idea": "Pricing-page hierarchy with distinct comparison tiers",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-023",
+          "source_name": "Realtime Colors",
+          "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-025",
+          "source_name": "Lucide",
+          "idea": "Consistent stroke and semantic icon naming",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
       ]
     },
     {
@@ -6208,7 +6461,7 @@
       "name": "Cooking Anime",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-19",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -6229,7 +6482,8 @@
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
-        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json"
+        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "kawaii-gattini",
@@ -7091,6 +7345,23 @@
           "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
           "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
           "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-018",
+            "DESIGN-SITE-019",
+            "DESIGN-SITE-020",
+            "DESIGN-SITE-022",
+            "DESIGN-SITE-024",
+            "DESIGN-SITE-027",
+            "DESIGN-SITE-028"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
         }
       ],
       "voice_ui_candidates": [
@@ -7846,14 +8117,72 @@
         "scope": "Recipe panels and culinary image-first UI: clear copy and real badges",
         "safeguard": "Do not rewrite ingredients, recipe translations, allergen/safety content",
         "consumer_implementation": "NOT_VERIFIED"
-      }
+      },
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-018",
+          "source_name": "Recent Design",
+          "idea": "App icon and typography moodboards",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-019",
+          "source_name": "Landdding",
+          "idea": "Sector-specific landing layouts for SaaS, utility and food",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-020",
+          "source_name": "Font in Logo",
+          "idea": "Match editorial title typography to product tone",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-022",
+          "source_name": "Fontshare",
+          "idea": "Pair serif editorial headings with neutral readable UI fonts",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-024",
+          "source_name": "Coolors",
+          "idea": "Generate candidate 5-color palettes, then test in actual screen",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-027",
+          "source_name": "Shots",
+          "idea": "Create marketing phone/device mockups from own QA screenshots",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-028",
+          "source_name": "Cosmos",
+          "idea": "Moodboard collections and search by color/similarity",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ]
     },
     {
       "id": "deskland-android",
       "name": "Deskland Android",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -7874,7 +8203,8 @@
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "desktop",
@@ -8097,6 +8427,17 @@
             "UIV-108"
           ],
           "note": "1 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-021"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
         }
       ],
       "voice_ui_candidates": [
@@ -8592,6 +8933,16 @@
           "tests": "NOT_EXECUTED",
           "is_user_favorite": true,
           "code_original_available": true
+        }
+      ],
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-021",
+          "source_name": "60FPS",
+          "idea": "Contextual bottom sheets, card transitions, long press",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
         }
       ]
     },
@@ -9499,7 +9850,7 @@
       "name": "FocusSense",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -9521,7 +9872,8 @@
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md",
-        "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json"
+        "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "attenzione",
@@ -9716,6 +10068,17 @@
           "origin": "https://m3.material.io/",
           "source": "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json",
           "note": "Material 3 is a possible app-specific utility UI choice, not default/ban; implementation and actual stack NOT_VERIFIED; no consumer changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-023"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
         }
       ],
       "motion_design_candidates": [
@@ -10077,14 +10440,24 @@
         "status": "PROPOSED_ONLY",
         "decision": "NOT_DECIDED",
         "implementation": "NOT_VERIFIED"
-      }
+      },
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-023",
+          "source_name": "Realtime Colors",
+          "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ]
     },
     {
       "id": "framelab",
       "name": "FrameLab",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -10108,7 +10481,8 @@
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
-        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json"
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "fotografia",
@@ -10408,6 +10782,23 @@
           "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
           "note": "Package shortlist only; Design-App-first and consumer verification required.",
           "origin": "https://fluttergems.dev/"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-018",
+            "DESIGN-SITE-020",
+            "DESIGN-SITE-021",
+            "DESIGN-SITE-022",
+            "DESIGN-SITE-024",
+            "DESIGN-SITE-027",
+            "DESIGN-SITE-028"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
         }
       ],
       "voice_ui_candidates": [
@@ -11102,6 +11493,64 @@
           "status": "PROPOSED_ONLY",
           "implementation": "NOT_VERIFIED"
         }
+      ],
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-018",
+          "source_name": "Recent Design",
+          "idea": "App icon and typography moodboards",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-020",
+          "source_name": "Font in Logo",
+          "idea": "Match editorial title typography to product tone",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-021",
+          "source_name": "60FPS",
+          "idea": "Contextual bottom sheets, card transitions, long press",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-022",
+          "source_name": "Fontshare",
+          "idea": "Pair serif editorial headings with neutral readable UI fonts",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-024",
+          "source_name": "Coolors",
+          "idea": "Generate candidate 5-color palettes, then test in actual screen",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-027",
+          "source_name": "Shots",
+          "idea": "Create marketing phone/device mockups from own QA screenshots",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-028",
+          "source_name": "Cosmos",
+          "idea": "Moodboard collections and search by color/similarity",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
       ]
     },
     {
@@ -11109,7 +11558,7 @@
       "name": "Notes-Ecosistema",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-19",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -11135,7 +11584,8 @@
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
         "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
         "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
-        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json"
+        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "nota",
@@ -11616,6 +12066,24 @@
           "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
           "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
           "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-018",
+            "DESIGN-SITE-021",
+            "DESIGN-SITE-022",
+            "DESIGN-SITE-023",
+            "DESIGN-SITE-025",
+            "DESIGN-SITE-026",
+            "DESIGN-SITE-027",
+            "DESIGN-SITE-028"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
         }
       ],
       "voice_ui_candidates": [
@@ -12913,14 +13381,80 @@
         "scope": "Document-first workspace: reduce pointless chrome while preserving powerful canvas",
         "safeguard": "Do not change editors, shared data or persistence",
         "consumer_implementation": "NOT_VERIFIED"
-      }
+      },
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-018",
+          "source_name": "Recent Design",
+          "idea": "App icon and typography moodboards",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-021",
+          "source_name": "60FPS",
+          "idea": "Contextual bottom sheets, card transitions, long press",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-022",
+          "source_name": "Fontshare",
+          "idea": "Pair serif editorial headings with neutral readable UI fonts",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-023",
+          "source_name": "Realtime Colors",
+          "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-025",
+          "source_name": "Lucide",
+          "idea": "Consistent stroke and semantic icon naming",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-026",
+          "source_name": "SVGL",
+          "idea": "Find official provider logos for legitimate integration badges",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-027",
+          "source_name": "Shots",
+          "idea": "Create marketing phone/device mockups from own QA screenshots",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-028",
+          "source_name": "Cosmos",
+          "idea": "Moodboard collections and search by color/similarity",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ]
     },
     {
       "id": "omni-cleaner",
       "name": "Omni Cleaner",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-19",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -12943,7 +13477,8 @@
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
-        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json"
+        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "galleria",
@@ -13306,6 +13841,20 @@
           "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
           "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
           "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-021",
+            "DESIGN-SITE-023",
+            "DESIGN-SITE-025",
+            "DESIGN-SITE-027"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
         }
       ],
       "motion_design_candidates": [
@@ -14230,7 +14779,41 @@
         "scope": "Kotlin/Compose Clean screens, state badges, charts and functional hierarchy",
         "safeguard": "RC1 freeze; safe-delete and permission truth; user-approved Home stays",
         "consumer_implementation": "NOT_VERIFIED"
-      }
+      },
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-021",
+          "source_name": "60FPS",
+          "idea": "Contextual bottom sheets, card transitions, long press",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-023",
+          "source_name": "Realtime Colors",
+          "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-025",
+          "source_name": "Lucide",
+          "idea": "Consistent stroke and semantic icon naming",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-027",
+          "source_name": "Shots",
+          "idea": "Create marketing phone/device mockups from own QA screenshots",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ]
     },
     {
       "id": "phone-guard",
@@ -16238,7 +16821,7 @@
       "name": "TrailPath",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -16257,7 +16840,8 @@
         "sources/DRIBBBLE_COLLECTUI_RESEARCH_2026-11-18.md",
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "mappa",
@@ -16405,6 +16989,18 @@
             "UIV-106"
           ],
           "note": "1 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-021",
+            "DESIGN-SITE-023"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
         }
       ],
       "motion_design_candidates": [
@@ -16548,6 +17144,24 @@
           "is_user_favorite": true,
           "code_original_available": true
         }
+      ],
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-021",
+          "source_name": "60FPS",
+          "idea": "Contextual bottom sheets, card transitions, long press",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-023",
+          "source_name": "Realtime Colors",
+          "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
       ]
     },
     {
@@ -16555,7 +17169,7 @@
       "name": "Web Utility Factory",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -16571,7 +17185,8 @@
         "sources/AMICRO_SIX_COMPONENTS_AUDIT_2026-11-17.md",
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
-        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "strumenti",
@@ -16709,6 +17324,23 @@
             "UIV-096"
           ],
           "note": "Original HTML/CSS captured; no consumer implementation or runtime test."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-015",
+            "DESIGN-SITE-016",
+            "DESIGN-SITE-017",
+            "DESIGN-SITE-018",
+            "DESIGN-SITE-019",
+            "DESIGN-SITE-026",
+            "DESIGN-SITE-027"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
         }
       ],
       "motion_design_candidates": [
@@ -16895,6 +17527,64 @@
           "is_user_favorite": true,
           "code_original_available": true
         }
+      ],
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-015",
+          "source_name": "Motion Sites",
+          "idea": "Animated hero with reduced-motion fallback",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-016",
+          "source_name": "Motion Sites Studio",
+          "idea": "AI-assisted website prototype comparison",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-017",
+          "source_name": "Land-book",
+          "idea": "Pricing-page hierarchy with distinct comparison tiers",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-018",
+          "source_name": "Recent Design",
+          "idea": "App icon and typography moodboards",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-019",
+          "source_name": "Landdding",
+          "idea": "Sector-specific landing layouts for SaaS, utility and food",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-026",
+          "source_name": "SVGL",
+          "idea": "Find official provider logos for legitimate integration badges",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-027",
+          "source_name": "Shots",
+          "idea": "Create marketing phone/device mockups from own QA screenshots",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
       ]
     },
     {
@@ -16902,7 +17592,7 @@
       "name": "Wonderlog",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -16924,7 +17614,8 @@
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
-        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json"
+        "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "viaggio",
@@ -17292,6 +17983,19 @@
             "UIV-111"
           ],
           "note": "8 original Web references mapped to existing product flows; no app code or login provider changed"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-021",
+            "DESIGN-SITE-024",
+            "DESIGN-SITE-028"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
         }
       ],
       "voice_ui_candidates": [
@@ -18166,6 +18870,32 @@
           "is_user_favorite": true,
           "code_original_available": true
         }
+      ],
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-021",
+          "source_name": "60FPS",
+          "idea": "Contextual bottom sheets, card transitions, long press",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-024",
+          "source_name": "Coolors",
+          "idea": "Generate candidate 5-color palettes, then test in actual screen",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-028",
+          "source_name": "Cosmos",
+          "idea": "Moodboard collections and search by color/similarity",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
       ]
     },
     {
@@ -18173,7 +18903,7 @@
       "name": "World Days",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-19",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -18199,7 +18929,8 @@
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
         "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
         "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
-        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json"
+        "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "calendario",
@@ -18637,6 +19368,22 @@
           "source": "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
           "note": "Source DSK-011 pinned MIT, proposed diagnostic only; source pilots and product acceptance tracked in app repos.",
           "origin": "https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "15_DESIGN_SITES_INTAKE",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+          "site_refs": [
+            "DESIGN-SITE-020",
+            "DESIGN-SITE-022",
+            "DESIGN-SITE-023",
+            "DESIGN-SITE-024",
+            "DESIGN-SITE-027",
+            "DESIGN-SITE-028"
+          ],
+          "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
         }
       ],
       "voice_ui_candidates": [
@@ -19752,7 +20499,57 @@
         "scope": "Editorial world-day stories: concise labels and truthful temporal state",
         "safeguard": "Do not change historical stories, sources or translations during appearance audit",
         "consumer_implementation": "NOT_VERIFIED"
-      }
+      },
+      "design_sites_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-020",
+          "source_name": "Font in Logo",
+          "idea": "Match editorial title typography to product tone",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-022",
+          "source_name": "Fontshare",
+          "idea": "Pair serif editorial headings with neutral readable UI fonts",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-023",
+          "source_name": "Realtime Colors",
+          "idea": "Preview text/background/primary/secondary/accent combinations on real UI",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-024",
+          "source_name": "Coolors",
+          "idea": "Generate candidate 5-color palettes, then test in actual screen",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-027",
+          "source_name": "Shots",
+          "idea": "Create marketing phone/device mockups from own QA screenshots",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        },
+        {
+          "site_id": "DESIGN-SITE-028",
+          "source_name": "Cosmos",
+          "idea": "Moodboard collections and search by color/similarity",
+          "status": "PROPOSED_ONLY",
+          "license_gate": "PER_SOURCE_AND_ASSET",
+          "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ]
     }
   ],
   "by_app": {

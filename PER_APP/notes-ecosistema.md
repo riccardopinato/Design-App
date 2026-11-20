@@ -311,3 +311,19 @@ Nessun package installato, nessuna modifica dati/architettura o Golden promosso;
 **PROPOSED_ONLY · fonte OSS MIT** [felipebasurto/unslop-ui @ cd891160453f26aaacc569bad96a8d10d595076d](https://github.com/felipebasurto/unslop-ui/tree/cd891160453f26aaacc569bad96a8d10d595076d). [Audit e limiti](../sources/UNSLOP_UI_AUDIT_2026-11-19.md) · [matrice di associazione](../UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json).
 
 **Proposta:** Workspace e canvas: ridurre decoro e ripetizioni solo dopo aver tutelato densità utile, editor, navigazione e persistenza. Le U1–U20 sono controlli diagnostici e alias degli AT-01…AT-64, non un nuovo tema. Riutilizzo **ADAPT_NATIVE / SOURCE_REVIEW**; nessun automatismo rimuove elementi, nessun consumer certificato da questo dossier. Product Bible e reference preferite restano prioritarie. Stato visivo/fisico: **NOT_VERIFIED**.
+
+
+## Fonti esterne aggiunte — 20/11/2026 (15 URL, 14 servizi unici)
+
+Intake visivo documentale: [audit](../sources/DESIGN_SITES_15_AUDIT_2026-11-20.md) · [matrice per app](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.md) · [registro JSON](../UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json).
+
+- **Recent Design** (`DESIGN-SITE-018`): App icon and typography moodboards. **Stato: PROPOSED_ONLY**.
+- **60FPS** (`DESIGN-SITE-021`): Contextual bottom sheets, card transitions, long press. **Stato: PROPOSED_ONLY**.
+- **Fontshare** (`DESIGN-SITE-022`): Pair serif editorial headings with neutral readable UI fonts. **Stato: PROPOSED_ONLY**.
+- **Realtime Colors** (`DESIGN-SITE-023`): Preview text/background/primary/secondary/accent combinations on real UI. **Stato: PROPOSED_ONLY**.
+- **Lucide** (`DESIGN-SITE-025`): Consistent stroke and semantic icon naming. **Stato: PROPOSED_ONLY**.
+- **SVGL** (`DESIGN-SITE-026`): Find official provider logos for legitimate integration badges. **Stato: PROPOSED_ONLY**.
+- **Shots** (`DESIGN-SITE-027`): Create marketing phone/device mockups from own QA screenshots. **Stato: PROPOSED_ONLY**.
+- **Cosmos** (`DESIGN-SITE-028`): Moodboard collections and search by color/similarity. **Stato: PROPOSED_ONLY**.
+
+I pattern richiedono decisione di prodotto, valutazione della licenza e QA sulla schermata target. Nessun componente, font, foto o logo di terzi e' stato copiato; nessuna funzione consumer risulta implementata da questo intake.
