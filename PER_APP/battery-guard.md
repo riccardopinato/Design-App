@@ -243,3 +243,12 @@ Nessun asset, font, logo o codice importato. Sono richiesti approvazione estetic
 [File Figma Bento con nodi e varianti verificati](../UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json). **Bento indica tile di interfaccia, non un vero widget Android.**
 
 Licenze degli asset e approvazione estetica per-app obbligatorie prima di qualsiasi codice o risorsa distribuita. Proposte non implementate, nessun nuovo Golden.
+
+
+## Fonti AI agent/Web/motion — 20/11/2026 (7 nuove, 2 approfondimenti)
+
+[Audit](../sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md) · [Matrice per-app](../UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.md) · [Deep link ReUI/shadcn](../sources/DESIGN_EXISTING_SITES_DEEP_LINKS_2026-11-20.json).
+
+- **Scroll Shaders** (`DESIGN-SITE-036`): Static version only: continuous GPU animation conflicts with battery utility purpose — **PROPOSED_ONLY**.
+
+**Gate:** premium/proprietary/non-verified sources not imported, React/JS is not Dart, animations must respect reduced-motion and measurable state, GPU/performance/battery gates for shaders; per-app Product Bible and visual decisions before consumer implementation. The t.co short URL is unresolved. No code/tests of this consumer performed.
