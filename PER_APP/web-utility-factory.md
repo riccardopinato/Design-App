@@ -143,3 +143,18 @@ Licenze degli asset e approvazione estetica per-app obbligatorie prima di qualsi
 - **React Bits** (`DESIGN-SITE-034`): Use selective React button/card/text motion on promotional web pages after motion/performance checks — **PROPOSED_ONLY**.
 
 Queste fonti non autorizzano il riutilizzo di screenshot o font senza licenza. Mobbin vieta l'archiviazione/mirroring dei contenuti; React Bits usa MIT + Commons Clause; ThinkUI richiede attivazione MCP a pagamento. Nessuna app o feature implementata da questo intake.
+
+
+## Fonti AI agent/Web/motion — 20/11/2026 (7 nuove, 2 approfondimenti)
+
+[Audit](../sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md) · [Matrice per-app](../UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.md) · [Deep link ReUI/shadcn](../sources/DESIGN_EXISTING_SITES_DEEP_LINKS_2026-11-20.json).
+
+- **Scrolltide** (`DESIGN-SITE-035`): Scroll narrative reference for a distinctive landing page without copying paid templates — **PROPOSED_ONLY**.
+- **Scroll Shaders** (`DESIGN-SITE-036`): Optional light Web hero shader with static reduced-motion fallback — **PROPOSED_ONLY**.
+- **Snapblocks** (`DESIGN-SITE-037`): UNVERIFIED — examine blocks only once site and license are directly accessible — **PROPOSED_ONLY**.
+- **Navbar Gallery** (`DESIGN-SITE-038`): Modern responsive navbar reference for product marketing — **PROPOSED_ONLY**.
+- **Aceternity UI** (`DESIGN-SITE-040`): Selective modern cards, hero and motion UI on marketing site — **PROPOSED_ONLY**.
+- **Chakra UI** (`DESIGN-SITE-041`): Framework comparison only for future React Web product, not a migration — **PROPOSED_ONLY**.
+- **shadcn/ui — AI Elements** (`DESIGN-SUBL-002`): Optional Web agent UI using React-compatible source and checked license — **PROPOSED_ONLY**.
+
+**Gate:** premium/proprietary/non-verified sources not imported, React/JS is not Dart, animations must respect reduced-motion and measurable state, GPU/performance/battery gates for shaders; per-app Product Bible and visual decisions before consumer implementation. The t.co short URL is unresolved. No code/tests of this consumer performed.
