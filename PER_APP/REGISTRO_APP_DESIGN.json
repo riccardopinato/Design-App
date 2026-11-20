@@ -53,7 +53,13 @@
     "design_sources_agents_scroll_2026_11_20_relations": 37,
     "curated_designs_uicolours_2026_11_20_sites": 2,
     "curated_designs_uicolours_2026_11_20_profiles": 13,
-    "curated_designs_uicolours_2026_11_20_relations": 22
+    "curated_designs_uicolours_2026_11_20_relations": 22,
+    "jiro_15_2026_11_20_links_submitted": 15,
+    "jiro_15_2026_11_20_duplicates_skipped": 13,
+    "jiro_15_2026_11_20_new_sites": 1,
+    "jiro_15_2026_11_20_existing_provider_subpages": 1,
+    "jiro_15_2026_11_20_profiles": 9,
+    "jiro_15_2026_11_20_relations": 18
   },
   "profiles": [
     {
@@ -1795,7 +1801,8 @@
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
-        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "repository e branch",
@@ -2177,6 +2184,18 @@
             "DESIGN-SITE-043"
           ],
           "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "JIRO_15_LINKS_DEDUP_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-044",
+            "DESIGN-SUBL-003"
+          ],
+          "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
         }
       ],
       "voice_ui_candidates": [
@@ -3346,6 +3365,26 @@
           "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
           "code_implemented": false,
           "palette_changed": false
+        }
+      ],
+      "jiro_library_builder_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-044",
+          "source_name": "Jiro Prompt Library",
+          "idea": "Use SaaS marketing landing hierarchy as a reference, not as an operational dashboard replacement",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-003",
+          "source_name": "Jiro Builder",
+          "idea": "Consider a temporary promotional front page mock-up; do not imply Jiro hosts authenticated App Factory operations",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
         }
       ]
     },
@@ -5992,7 +6031,8 @@
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
-        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "portafoglio",
@@ -6277,6 +6317,18 @@
             "DESIGN-SITE-043"
           ],
           "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "JIRO_15_LINKS_DEDUP_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-044",
+            "DESIGN-SUBL-003"
+          ],
+          "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
         }
       ],
       "motion_design_candidates": [
@@ -6972,6 +7024,26 @@
           "code_implemented": false,
           "palette_changed": false
         }
+      ],
+      "jiro_library_builder_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-044",
+          "source_name": "Jiro Prompt Library",
+          "idea": "Study fintech landing structure, trust messaging, responsible financial copy and clear value proposition",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-003",
+          "source_name": "Jiro Builder",
+          "idea": "Consider draft Web campaign layout; never copy bank branding or claim automatic security compliance",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        }
       ]
     },
     {
@@ -7006,7 +7078,8 @@
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
-        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "kawaii-gattini",
@@ -7935,6 +8008,18 @@
             "DESIGN-SITE-043"
           ],
           "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "JIRO_15_LINKS_DEDUP_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-044",
+            "DESIGN-SUBL-003"
+          ],
+          "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
         }
       ],
       "voice_ui_candidates": [
@@ -8837,6 +8922,26 @@
           "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
           "code_implemented": false,
           "palette_changed": false
+        }
+      ],
+      "jiro_library_builder_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-044",
+          "source_name": "Jiro Prompt Library",
+          "idea": "Prepare landing page layout ideas for recipe search, localized value proposition and app store entry points",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-003",
+          "source_name": "Jiro Builder",
+          "idea": "Test a separate marketing microsite only; do not import Jiro output as mobile recipe code",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
         }
       ]
     },
@@ -11290,7 +11395,8 @@
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
-        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "fotografia",
@@ -11656,6 +11762,18 @@
             "DESIGN-SITE-043"
           ],
           "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "JIRO_15_LINKS_DEDUP_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-044",
+            "DESIGN-SUBL-003"
+          ],
+          "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
         }
       ],
       "voice_ui_candidates": [
@@ -12490,6 +12608,26 @@
           "code_implemented": false,
           "palette_changed": false
         }
+      ],
+      "jiro_library_builder_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-044",
+          "source_name": "Jiro Prompt Library",
+          "idea": "Reference responsive gallery/portfolio landing with full aspect ratio images and authentic before/after examples",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-003",
+          "source_name": "Jiro Builder",
+          "idea": "Evaluate Web site prototyping while preserving user-owned photos and original product identity",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        }
       ]
     },
     {
@@ -12529,7 +12667,8 @@
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
-        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "nota",
@@ -13080,6 +13219,18 @@
             "DESIGN-SITE-043"
           ],
           "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "JIRO_15_LINKS_DEDUP_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-044",
+            "DESIGN-SUBL-003"
+          ],
+          "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
         }
       ],
       "voice_ui_candidates": [
@@ -14549,6 +14700,26 @@
           "code_implemented": false,
           "palette_changed": false
         }
+      ],
+      "jiro_library_builder_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-044",
+          "source_name": "Jiro Prompt Library",
+          "idea": "Explore feature storytelling for canvas, notebooks and privacy with genuine app screen captures",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-003",
+          "source_name": "Jiro Builder",
+          "idea": "Use Builder only to mock up a product marketing site, not authentication, realtime sync or the notes canvas",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        }
       ]
     },
     {
@@ -14585,7 +14756,8 @@
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
-        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "galleria",
@@ -15011,6 +15183,18 @@
             "DESIGN-SITE-043"
           ],
           "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "JIRO_15_LINKS_DEDUP_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-044",
+            "DESIGN-SUBL-003"
+          ],
+          "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
         }
       ],
       "motion_design_candidates": [
@@ -16050,6 +16234,26 @@
           "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
           "code_implemented": false,
           "palette_changed": false
+        }
+      ],
+      "jiro_library_builder_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-044",
+          "source_name": "Jiro Prompt Library",
+          "idea": "Explore clean product landing with accurate screenshots of the Color Bento Home, safe cleaning claims and App store link",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-003",
+          "source_name": "Jiro Builder",
+          "idea": "Try a standalone marketing-site draft; the actual Android cleaner UI, privacy and APK release stay in the consumer repo",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
         }
       ]
     },
@@ -18459,7 +18663,8 @@
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
-        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "strumenti",
@@ -18665,6 +18870,18 @@
             "DESIGN-SITE-043"
           ],
           "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "JIRO_15_LINKS_DEDUP_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-044",
+            "DESIGN-SUBL-003"
+          ],
+          "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
         }
       ],
       "motion_design_candidates": [
@@ -19007,6 +19224,26 @@
           "code_implemented": false,
           "palette_changed": false
         }
+      ],
+      "jiro_library_builder_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-044",
+          "source_name": "Jiro Prompt Library",
+          "idea": "Study editorial landing templates, feature/FAQ/pricing/CTA patterns; design with original source or licensed project use",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-003",
+          "source_name": "Jiro Builder",
+          "idea": "Evaluate a standalone Web-site prototype with chat editing, mobile preview, code ZIP export only on an eligible paid plan",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        }
       ]
     },
     {
@@ -19041,7 +19278,8 @@
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
-        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "viaggio",
@@ -19458,6 +19696,18 @@
             "DESIGN-SITE-043"
           ],
           "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "JIRO_15_LINKS_DEDUP_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-044",
+            "DESIGN-SUBL-003"
+          ],
+          "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
         }
       ],
       "voice_ui_candidates": [
@@ -20414,6 +20664,26 @@
           "code_implemented": false,
           "palette_changed": false
         }
+      ],
+      "jiro_library_builder_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-044",
+          "source_name": "Jiro Prompt Library",
+          "idea": "Consider travel journal promotional page, picture-rich story and restrained micro-interactions",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-003",
+          "source_name": "Jiro Builder",
+          "idea": "Prototype a campaign landing only; do not imply hosted builder gives an offline-capable Flutter app",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        }
       ]
     },
     {
@@ -20453,7 +20723,8 @@
         "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
         "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
-        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json"
+        "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "calendario",
@@ -20959,6 +21230,18 @@
             "DESIGN-SITE-043"
           ],
           "note": "Source references only. X creator rights retained; no third-party source copied; UIColours tokens not exported; palette changes subject to approved visual direction and accessibility QA."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "JIRO_15_LINKS_DEDUP_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-044",
+            "DESIGN-SUBL-003"
+          ],
+          "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
         }
       ],
       "voice_ui_candidates": [
@@ -22229,6 +22512,26 @@
           "source": "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
           "code_implemented": false,
           "palette_changed": false
+        }
+      ],
+      "jiro_library_builder_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-044",
+          "source_name": "Jiro Prompt Library",
+          "idea": "Review accessible daily-discovery landing patterns, editorial stories and subscription messaging without changing story data",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
+        },
+        {
+          "source_id": "DESIGN-SUBL-003",
+          "source_name": "Jiro Builder",
+          "idea": "Consider hosted Web announcement prototype; keep verified content, data sources, localization and publication independent",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false,
+          "source_or_assets_copied": false
         }
       ]
     }
