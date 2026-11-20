@@ -37,7 +37,11 @@
     "unslop_ui_candidate_relations": 5,
     "design_sites_2026_11_20_unique_sources": 14,
     "design_sites_2026_11_20_app_profiles": 14,
-    "design_sites_2026_11_20_links": 68
+    "design_sites_2026_11_20_links": 68,
+    "design_sources_followup_2026_11_20_sites": 3,
+    "design_sources_followup_2026_11_20_figma_files": 1,
+    "design_sources_followup_2026_11_20_profiles": 12,
+    "design_sources_followup_2026_11_20_relations": 31
   },
   "profiles": [
     {
@@ -236,7 +240,9 @@
         "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
         "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
         "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
-        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json"
       ],
       "category_ideas": [
         "diario e ricordi",
@@ -650,6 +656,19 @@
           ],
           "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
           "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-029",
+            "DESIGN-SITE-030",
+            "FIGMA-BENTO-001"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
         }
       ],
       "voice_ui_candidates": [
@@ -1617,6 +1636,32 @@
           "license_gate": "PER_SOURCE_AND_ASSET",
           "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
         }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-029",
+          "source_name": "Best Designs on X",
+          "idea": "Curate editorial diary layouts from credited original creators; do not copy X imagery",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "DESIGN-SITE-030",
+          "source_name": "Figma Community Mobile Apps",
+          "idea": "Study mobile journal/calendar multi-screen kits and reusable navigation patterns",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "FIGMA-BENTO-001",
+          "source_name": "Bento Widget Templates",
+          "idea": "Personalizable Il tuo spazio grid with compact ricordi, giorno, diario cards; preserve approved editorial identity",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        }
       ]
     },
     {
@@ -1647,7 +1692,9 @@
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
-        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json"
       ],
       "category_ideas": [
         "repository e branch",
@@ -1974,6 +2021,19 @@
           ],
           "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
           "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-029",
+            "DESIGN-SITE-031",
+            "FIGMA-BENTO-001"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
         }
       ],
       "voice_ui_candidates": [
@@ -3014,6 +3074,32 @@
           "license_gate": "PER_SOURCE_AND_ASSET",
           "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
         }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-029",
+          "source_name": "Best Designs on X",
+          "idea": "Monitor strong current dashboard layouts but assess real density and accessibility",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "DESIGN-SITE-031",
+          "source_name": "ReUI",
+          "idea": "Evaluate free Data Grid/Kanban/Gantt/Filters patterns for repo, blockers, roadmap and CI dashboard",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "FIGMA-BENTO-001",
+          "source_name": "Bento Widget Templates",
+          "idea": "Project/Golden/CI KPI tiles of different weights, with real values and links to details",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        }
       ]
     },
     {
@@ -3047,7 +3133,9 @@
         "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
         "sources/MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md",
         "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json",
-        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json"
       ],
       "category_ideas": [
         "batteria",
@@ -3330,6 +3418,17 @@
           ],
           "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
           "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "FIGMA-BENTO-001"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
         }
       ],
       "motion_design_candidates": [
@@ -4005,6 +4104,16 @@
           "status": "PROPOSED_ONLY",
           "license_gate": "PER_SOURCE_AND_ASSET",
           "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "FIGMA-BENTO-001",
+          "source_name": "Bento Widget Templates",
+          "idea": "Simple charge status and trend tiles; use only measured battery data",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
         }
       ]
     },
@@ -5586,7 +5695,9 @@
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
-        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json"
       ],
       "category_ideas": [
         "portafoglio",
@@ -5824,6 +5935,19 @@
           ],
           "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
           "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-030",
+            "DESIGN-SITE-031",
+            "FIGMA-BENTO-001"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
         }
       ],
       "motion_design_candidates": [
@@ -6454,6 +6578,32 @@
           "license_gate": "PER_SOURCE_AND_ASSET",
           "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
         }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-030",
+          "source_name": "Figma Community Mobile Apps",
+          "idea": "Study legible finance dashboard mobile design systems",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "DESIGN-SITE-031",
+          "source_name": "ReUI",
+          "idea": "Study dense analytics tables, chart and filters with semantic states",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "FIGMA-BENTO-001",
+          "source_name": "Bento Widget Templates",
+          "idea": "At-a-glance spend/budget/category stats with accessible semantic colors",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        }
       ]
     },
     {
@@ -6483,7 +6633,9 @@
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
         "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
-        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json"
       ],
       "category_ideas": [
         "kawaii-gattini",
@@ -7362,6 +7514,19 @@
           ],
           "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
           "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-029",
+            "DESIGN-SITE-030",
+            "FIGMA-BENTO-001"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
         }
       ],
       "voice_ui_candidates": [
@@ -8174,6 +8339,32 @@
           "status": "PROPOSED_ONLY",
           "license_gate": "PER_SOURCE_AND_ASSET",
           "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-029",
+          "source_name": "Best Designs on X",
+          "idea": "Collect food/illustration art-direction references with creator attribution",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "DESIGN-SITE-030",
+          "source_name": "Figma Community Mobile Apps",
+          "idea": "Study image-first recipe browsing and saved collections",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "FIGMA-BENTO-001",
+          "source_name": "Bento Widget Templates",
+          "idea": "Recipe discovery and favorites tiles with images and prep time",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
         }
       ]
     },
@@ -9873,7 +10064,9 @@
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md",
         "UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json",
-        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json"
       ],
       "category_ideas": [
         "attenzione",
@@ -10079,6 +10272,17 @@
           ],
           "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
           "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "FIGMA-BENTO-001"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
         }
       ],
       "motion_design_candidates": [
@@ -10450,6 +10654,16 @@
           "license_gate": "PER_SOURCE_AND_ASSET",
           "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
         }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "FIGMA-BENTO-001",
+          "source_name": "Bento Widget Templates",
+          "idea": "Focus score and session trend tiles with real sensor-derived values",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        }
       ]
     },
     {
@@ -10482,7 +10696,9 @@
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
         "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
-        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json"
       ],
       "category_ideas": [
         "fotografia",
@@ -10799,6 +11015,19 @@
           ],
           "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
           "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-029",
+            "DESIGN-SITE-030",
+            "FIGMA-BENTO-001"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
         }
       ],
       "voice_ui_candidates": [
@@ -11551,6 +11780,32 @@
           "license_gate": "PER_SOURCE_AND_ASSET",
           "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
         }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-029",
+          "source_name": "Best Designs on X",
+          "idea": "Study photography-driven compositions and creative controls from original design posts",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "DESIGN-SITE-030",
+          "source_name": "Figma Community Mobile Apps",
+          "idea": "Study photo browser, editor/toolbars and image-focused mobile galleries",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "FIGMA-BENTO-001",
+          "source_name": "Bento Widget Templates",
+          "idea": "Image-led photo collage, palette and recent exports rather than identical dashboard cards",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        }
       ]
     },
     {
@@ -11585,7 +11840,9 @@
         "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
         "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
         "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
-        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json"
       ],
       "category_ideas": [
         "nota",
@@ -12084,6 +12341,19 @@
           ],
           "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
           "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-030",
+            "DESIGN-SITE-031",
+            "FIGMA-BENTO-001"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
         }
       ],
       "voice_ui_candidates": [
@@ -13447,6 +13717,32 @@
           "license_gate": "PER_SOURCE_AND_ASSET",
           "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
         }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-030",
+          "source_name": "Figma Community Mobile Apps",
+          "idea": "Study modular note editor, canvas and productivity mobile flow templates",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "DESIGN-SITE-031",
+          "source_name": "ReUI",
+          "idea": "Study task Kanban and rich filters as Web/UX references, not Flutter-ready code",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "FIGMA-BENTO-001",
+          "source_name": "Bento Widget Templates",
+          "idea": "Workspace bento of recent notes, projects, favorites, tasks and actionable capture",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        }
       ]
     },
     {
@@ -13478,7 +13774,9 @@
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
         "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
-        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json"
       ],
       "category_ideas": [
         "galleria",
@@ -13855,6 +14153,19 @@
           ],
           "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
           "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-030",
+            "DESIGN-SITE-031",
+            "FIGMA-BENTO-001"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
         }
       ],
       "motion_design_candidates": [
@@ -14812,6 +15123,32 @@
           "status": "PROPOSED_ONLY",
           "license_gate": "PER_SOURCE_AND_ASSET",
           "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-030",
+          "source_name": "Figma Community Mobile Apps",
+          "idea": "Study storage cleaner permission, empty-state and confirmation flow patterns",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "DESIGN-SITE-031",
+          "source_name": "ReUI",
+          "idea": "Adapt data table, filter and safe multi-step destructive action UX only if relevant",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "FIGMA-BENTO-001",
+          "source_name": "Bento Widget Templates",
+          "idea": "Storage and gallery overview tiles showing real scan results; respect safe delete and empty states",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
         }
       ]
     },
@@ -17186,7 +17523,8 @@
         "sources/WATERMELON_UI_NINE_AUDIT_2026-11-17.md",
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
-        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "strumenti",
@@ -17341,6 +17679,17 @@
           ],
           "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
           "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-031"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
         }
       ],
       "motion_design_candidates": [
@@ -17585,6 +17934,16 @@
           "license_gate": "PER_SOURCE_AND_ASSET",
           "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
         }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-031",
+          "source_name": "ReUI",
+          "idea": "Study copy-and-own React sidebar, forms, stepper, sortable and data grid for Web products",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        }
       ]
     },
     {
@@ -17615,7 +17974,9 @@
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
-        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json"
       ],
       "category_ideas": [
         "viaggio",
@@ -17996,6 +18357,19 @@
           ],
           "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
           "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-029",
+            "DESIGN-SITE-030",
+            "FIGMA-BENTO-001"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
         }
       ],
       "voice_ui_candidates": [
@@ -18896,6 +19270,32 @@
           "license_gate": "PER_SOURCE_AND_ASSET",
           "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
         }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-029",
+          "source_name": "Best Designs on X",
+          "idea": "Discover travel postcards, timelines and destination imagery presentation",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "DESIGN-SITE-030",
+          "source_name": "Figma Community Mobile Apps",
+          "idea": "Study trip timeline and map/filter mobile layouts",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "FIGMA-BENTO-001",
+          "source_name": "Bento Widget Templates",
+          "idea": "Trip summary, photo collage, next waypoint, offline state tiles",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        }
       ]
     },
     {
@@ -18930,7 +19330,9 @@
         "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
         "sources/UNSLOP_UI_AUDIT_2026-11-19.md",
         "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
-        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json"
       ],
       "category_ideas": [
         "calendario",
@@ -19384,6 +19786,20 @@
           ],
           "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
           "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-029",
+            "DESIGN-SITE-030",
+            "DESIGN-SITE-031",
+            "FIGMA-BENTO-001"
+          ],
+          "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
         }
       ],
       "voice_ui_candidates": [
@@ -20548,6 +20964,40 @@
           "status": "PROPOSED_ONLY",
           "license_gate": "PER_SOURCE_AND_ASSET",
           "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ],
+      "design_sources_followup_2026_11_20": [
+        {
+          "source_id": "DESIGN-SITE-029",
+          "source_name": "Best Designs on X",
+          "idea": "Discover visually distinctive editorial storytelling patterns for historic daily content",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "DESIGN-SITE-030",
+          "source_name": "Figma Community Mobile Apps",
+          "idea": "Study card/news-feed layouts with readable long-form content",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "DESIGN-SITE-031",
+          "source_name": "ReUI",
+          "idea": "Study searchable content catalog grid, pagination and filters",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
+        },
+        {
+          "source_id": "FIGMA-BENTO-001",
+          "source_name": "Bento Widget Templates",
+          "idea": "Daily story tile, discovery themes, upcoming observances and history summaries",
+          "state": "PROPOSED_ONLY",
+          "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+          "code_state": "NO_APP_IMPLEMENTATION"
         }
       ]
     }
