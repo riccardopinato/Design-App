@@ -140,3 +140,8 @@ Dal lotto di 15 link **12 erano gia' nel Design-App** e non sono stati rivalutat
 ## Web e agent design sources 20/11/2026
 
 [Audit 7 nuovi domini + 2 deep link esistenti](../sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md) · [Matrice 37 associazioni su 11 app](./DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.md) · [Sottopagine ReUI e shadcn](../sources/DESIGN_EXISTING_SITES_DEEP_LINKS_2026-11-20.json). *Snapblocks* e' in DISCOVERY non verificato, `t.co/rJcbTbEz28` irrisolto; non assumere asset o codice pronti; per Flutter solo reinterpretazioni native autorizzate e testate.
+
+
+## Sorgenti visual e design-token 20/11/2026
+
+[BestSaaSWebDesigns Curated Designs](https://bestsaaswebdesigns.com/curated-designs) + [UIColours](https://uicolours.com/) registrate con [audit](../sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md) e [mappa per app](./CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.md). **Curated Designs** e' una galleria di post X (categorie Web & App, 3D, Animation, Illustration) diversa dalla home SaaS e dal relativo MCP; nessun diritto di ripubblicazione. **UIColours** documenta ruoli cromatici, sistemi OKLCH, anteprime e export CSS/Figma; non rende automaticamente il tema pronto in Flutter. `PROPOSED_ONLY`, nessuna modifica a design già approvati.
