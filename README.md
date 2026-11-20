@@ -284,3 +284,8 @@ Censiti **3 portali distinti** (Best Designs on X, Figma Community Mobile Apps, 
 ## Nuovo intake deduplicato 20/11/2026 — ThinkUI, Mobbin, React Bits
 
 Su 15 link ricevuti: **12 risorse gia' presenti saltate senza nuovo audit**, **3 nuove** (`DESIGN-SITE-032..034`); [verifica di deduplica, licenze e fonti](sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md) · [mappa di 22 proposte su 12 app](UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.md) · [indice siti](sources/DESIGN_RESEARCH_SITES.json). ThinkUI: MCP a pagamento, repository di documentazione del servizio, screenshot con diritti misti; Mobbin: ricerca flussi a pagamento e termini che vietano mirror/archiviazione; React Bits: TSX/React e **MIT + Commons Clause** (non MIT puro). **Stato REFERENCE/PROPOSED_ONLY**, zero codice/font/icone/screenshot copiati, nessun nuovo UID o Golden.
+
+
+## Design source intake — agent UI, nav, shaders (20/11/2026)
+
+**7 nuovi domini** (`DESIGN-SITE-035..041`: Scrolltide, Scroll Shaders, Snapblocks [DISCOVERY_ONLY], Navbar Gallery, AI Canvas, Aceternity UI, Chakra UI), **2 sotto-risorse di provider gia' catalogati** (`DESIGN-SUBL-001` ReUI Agents Pro, `DESIGN-SUBL-002` shadcn AI Elements) e **1 URL t.co irrisolto**. [Audit e licenze](sources/DESIGN_SOURCES_AGENTS_SCROLL_2026-11-20.md) · [Matrice 37 proposte/11 app](UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.md) · [Registro siti](sources/DESIGN_RESEARCH_SITES.json) · [Sottopagine provider](sources/DESIGN_EXISTING_SITES_DEEP_LINKS_2026-11-20.json). Niente componenti/copied assets, zero new UID, no runtime implementation or Golden promotion.
