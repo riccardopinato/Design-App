@@ -175,3 +175,14 @@ Fit ipotizzato: **HIGH**. Possibile ambito: controls, settings, focus filters an
 - **Realtime Colors** (`DESIGN-SITE-023`): Preview text/background/primary/secondary/accent combinations on real UI — **PROPOSED_ONLY**.
 
 Nessun asset, font, logo o codice importato. Sono richiesti approvazione estetica, Product Bible, licenza e QA sulle schermate reali.
+
+
+## Design external sources 20/11/2026 — Figma, ReUI, Best Designs on X
+
+[Audit e prove](../sources/DESIGN_SOURCES_FIGMA_REUI_BESTDESIGNSONX_2026-11-20.md) · [Matrice per app](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.md) · [Catalogo JSON](../UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json).
+
+- **Bento Widget Templates** (`FIGMA-BENTO-001`): Focus score and session trend tiles with real sensor-derived values. **PROPOSED_ONLY**.
+
+[File Figma Bento con nodi e varianti verificati](../UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json). **Bento indica tile di interfaccia, non un vero widget Android.**
+
+Licenze degli asset e approvazione estetica per-app obbligatorie prima di qualsiasi codice o risorsa distribuita. Proposte non implementate, nessun nuovo Golden.
