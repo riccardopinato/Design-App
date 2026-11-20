@@ -80,3 +80,8 @@ Questa directory contiene studi di sorgenti esterne e donatori candidati, non ne
 ## Acquisizione sorgenti OSS DevLibraries — 19/11/2026
 
 [38 originali React/TSX Amicro, Watermelon ed EaseUI](../BIBLIOTECA_COMPONENTI/sorgenti/README.md) sono stati recuperati dai repository originali con controllo Git SHA e MIT conservata. Il catalogo arriva a **427 sorgenti archiviati**, con **53 reference-only**. Non e' una certificazione Flutter o delle app consumer.
+
+
+## Intake Jiro Build 20/11/2026
+
+[Jiro library + Builder: audit/13 URL duplicate](./JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md) · [Registro siti design](./DESIGN_RESEARCH_SITES.json) · [Mappa app](../UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.md). Un solo provider nuovo (`DESIGN-SITE-044`), sottopagina `DESIGN-SUBL-003`; nessun template premium/source della piattaforma acquisito o vendorizzato.
