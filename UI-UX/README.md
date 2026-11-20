@@ -145,3 +145,8 @@ Dal lotto di 15 link **12 erano gia' nel Design-App** e non sono stati rivalutat
 ## Sorgenti visual e design-token 20/11/2026
 
 [BestSaaSWebDesigns Curated Designs](https://bestsaaswebdesigns.com/curated-designs) + [UIColours](https://uicolours.com/) registrate con [audit](../sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md) e [mappa per app](./CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.md). **Curated Designs** e' una galleria di post X (categorie Web & App, 3D, Animation, Illustration) diversa dalla home SaaS e dal relativo MCP; nessun diritto di ripubblicazione. **UIColours** documenta ruoli cromatici, sistemi OKLCH, anteprime e export CSS/Figma; non rende automaticamente il tema pronto in Flutter. `PROPOSED_ONLY`, nessuna modifica a design già approvati.
+
+
+## Web landing source Jiro Build — 20/11/2026
+
+[Audit delle 15 fonti (13 duplicate)](../sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md) · [Matrice Jiro Library/Builder, 18 proposte](./JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.md) · [JSON](./JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json). Template premium proprietari, Builder hosting a crediti, ZIP export sui piani a pagamento. `DESIGN-SITE-044` con sottopagina `DESIGN-SUBL-003`, non catalogo Flutter, no UID.
