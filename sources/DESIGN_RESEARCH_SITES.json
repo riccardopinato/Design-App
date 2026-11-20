@@ -845,6 +845,62 @@
       "note": "Do not vendor or port as a component library, CSS/TSX not Flutter, attribute visible credit if shipping copied code per license",
       "related_intake": "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
       "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-047",
+      "name": "Shipframe — App Store & Google Play Screenshot Editor",
+      "url": "https://getshipframe.com/",
+      "kind": "APP_STORE_SCREENSHOT_MARKETING_EDITOR",
+      "status": "REFERENCE",
+      "verified": "CREATOR_REDDIT_AND_RECENT_THIRD_PARTY; OFFICIAL_SITE_DIRECT_FETCH_FAILED",
+      "license": "PROPRIETARY_SERVICE; EXPORT_COMMERCIAL_USE_TERMS_NOT_VERIFIED",
+      "free_access": "REPORTED_FREE_WATERMARKED; REPORTED_19_USD_ONETIME_PRO; CHECK_AT_SOURCE_BEFORE_PURCHASE",
+      "recommended_for": [
+        "Store screenshots based on real app screens",
+        "Device frame and localized caption composition",
+        "Brand-coherent store listing visuals"
+      ],
+      "note": "No software, screenshot or template imported; pricing/source verification partial",
+      "related_intake": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+      "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-048",
+      "name": "Oversight Supply — Website Sections & Video Skills",
+      "url": "https://supply.madebyoversight.com/",
+      "kind": "PROPRIETARY_WEB_SECTION_AND_EXPLAINER_VIDEO_SKILL_PROVIDER",
+      "status": "REFERENCE",
+      "verified": "OFFICIAL_CATALOG_PRICING_TERMS_CHECKED",
+      "license": "PROPRIETARY; OWN_AND_CLIENT_PROJECT_USE_PER_TERMS; NO_COMPONENT_TEMPLATE_STANDALONE_RESALE_OR_MIRROR",
+      "free_access": "41_FREE_SECTIONS_WITH_ACCOUNT; RAYS_VIDEO_STYLE_FREE_WITH_ACCOUNT; PREMIUM_SEPARATE_SUBSCRIPTIONS",
+      "subpages": [
+        {
+          "id": "DESIGN-SUBL-004",
+          "name": "Oversight Website Sections",
+          "url": "https://supply.madebyoversight.com/sections",
+          "kind": "WEB_SITE_SECTION_REFERENCE_AND_SOURCE_BEHIND_ACCOUNT",
+          "status": "REFERENCE",
+          "access": "41_FREE_WITH_ACCOUNT; PREMIUM_FROM_15_USD_PER_MONTH",
+          "no_new_site_id": true
+        },
+        {
+          "id": "DESIGN-SUBL-005",
+          "name": "Oversight AI Explainer Videos",
+          "url": "https://supply.madebyoversight.com/videos",
+          "kind": "VIDEO_GENERATION_SKILL_CATALOG",
+          "status": "REFERENCE",
+          "access": "RAYS_FREE_WITH_ACCOUNT; 3_PREMIUM_STYLES_9_99_USD_MONTH_OR_79_99_YEAR",
+          "no_new_site_id": true
+        }
+      ],
+      "recommended_for": [
+        "Marketing landing pages for existing apps",
+        "Video explainers for release and feature demonstrations",
+        "Reusable writing/choreography ideas, not copied premium source"
+      ],
+      "note": "Sections and Videos share a single canonical provider. No paid subscription, source download, asset or runtime added.",
+      "related_intake": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+      "updated_at": "2026-11-20"
     }
   ]
 }

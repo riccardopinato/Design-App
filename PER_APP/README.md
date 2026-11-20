@@ -132,3 +132,8 @@ Originali HTML/CSS aggiunti: **11**; catalogo **111/111**; Favorites **108/108**
 ## Motionary / 26 risorse — 20/11/2026
 
 [20 ipotesi su 10 profili](../UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md) sincronizzate con `REGISTRO_APP_DESIGN.json` e i rispettivi dossier app. Motionary MIT e Rare UI Commons Clause restano fonti REFERENCE, nessun consumer modificato. Per il lotto completo: [audit](../sources/MOTIONARY_26_AUDIT_2026-11-20.md).
+
+
+## Cinque link design stack — 20/11/2026
+
+[26 nuove proposte riferite a 12 dossier](../UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md) e tracciate nel `REGISTRO_APP_DESIGN.json`. Tutte PROPOSED_ONLY; font, video e screenshot Store sono distinti da UI runtime e Product Bible. Nessun codice consumer toccato. [Audit fonte](../sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md).

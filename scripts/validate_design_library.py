@@ -752,6 +752,70 @@ if len({s.get("id") for s in site_items}) != len(site_items):
     fail("duplicate design discovery site ID")
 if len({s.get("url") for s in site_items}) != len(site_items):
     fail("duplicate design discovery URL")
+# Florent 5-link reference-only intake: two canonical providers, two reused, two provider subpages.
+florient_manifest_path = ROOT / "sources" / "FLORIENT_STACK_5_REGISTRY_2026-11-20.json"
+florient_map_path = ROOT / "UI-UX" / "FLORIENT_STACK_5_APP_MAP_2026-11-20.json"
+if not all(p.is_file() for p in (
+    florient_manifest_path,
+    florient_map_path,
+    ROOT / "sources" / "FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+    ROOT / "UI-UX" / "FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+)):
+    fail("Florent design stack intake missing documents")
+florient_manifest = json.loads(florient_manifest_path.read_text(encoding="utf-8"))
+florient_links = florient_manifest.get("reference_links", [])
+if (florient_manifest.get("submitted_urls") != 5
+        or florient_manifest.get("unique_providers") != 4
+        or florient_manifest.get("new_providers") != 2
+        or len(florient_links) != 5
+        or len({x.get("id") for x in florient_links}) != 5
+        or len({x.get("url") for x in florient_links}) != 5
+        or sum(x.get("state") == "ALREADY_CATALOGUED" for x in florient_links) != 2
+        or florient_manifest.get("no_uid_added") is not True
+        or florient_manifest.get("no_source_copied") is not True
+        or florient_manifest.get("no_consumer_changes") is not True):
+    fail("Florent source count, canonical dedup or no-source boundary drift")
+site_index = {x.get("id"): x for x in site_items}
+for site_id, expected_url in (
+    ("DESIGN-SITE-022", "https://fontshare.com/"),
+    ("DESIGN-SITE-033", "https://mobbin.com/"),
+    ("DESIGN-SITE-047", "https://getshipframe.com/"),
+    ("DESIGN-SITE-048", "https://supply.madebyoversight.com/"),
+):
+    if site_index.get(site_id, {}).get("url") != expected_url:
+        fail(f"Florent canonical site ID or URL drift: {site_id}")
+oversight_subs = {x.get("id"): x for x in site_index["DESIGN-SITE-048"].get("subpages", [])}
+for subid, url in (
+    ("DESIGN-SUBL-004", "https://supply.madebyoversight.com/sections"),
+    ("DESIGN-SUBL-005", "https://supply.madebyoversight.com/videos"),
+):
+    if oversight_subs.get(subid, {}).get("url") != url or oversight_subs[subid].get("no_new_site_id") is not True:
+        fail(f"Florent Oversight subpage drift: {subid}")
+florient_map = json.loads(florient_map_path.read_text(encoding="utf-8"))
+florient_edges = florient_map.get("proposals", [])
+florient_apps = {x.get("app") for x in florient_edges}
+if (len(florient_edges) != 26 or len(florient_apps) != 12
+        or len({(x.get("app"), x.get("source_id")) for x in florient_edges}) != 26
+        or florient_map.get("proposed_relations") != 26
+        or florient_map.get("app_profiles") != 12
+        or any(x.get("source_id") not in {item.get("id") for item in florient_links}
+               or x.get("status") != "PROPOSED_ONLY"
+               or x.get("consumer_implemented") is not False for x in florient_edges)):
+    fail("Florent app crosswalk counts, status or identities drift")
+florient_profiles = {
+    x.get("id"): x
+    for x in json.loads((ROOT / "PER_APP" / "REGISTRO_APP_DESIGN.json").read_text(encoding="utf-8")).get("profiles", [])
+}
+for app_id in florient_apps:
+    profile = florient_profiles.get(app_id, {})
+    expected = {x["source_id"] for x in florient_edges if x.get("app") == app_id}
+    records = [x for x in profile.get("changelog", []) if x.get("type") == "FLORIENT_STACK_5_2026_11_20"]
+    dossier = ROOT / "PER_APP" / (app_id + ".md")
+    if (not profile or len(records) != 1 or set(records[0].get("source_ids", [])) != expected
+            or not dossier.is_file()
+            or "FLORIENT_STACK_5_APP_MAP_2026-11-20" not in dossier.read_text(encoding="utf-8")):
+        fail(f"Florent per-app dossier or provenance drift: {app_id}")
+
 devlibraries = next((s for s in site_items if s.get("id") == "DESIGN-SITE-001"), None)
 if not devlibraries or devlibraries.get("url") != "https://devlibraries.com/":
     fail("DevLibraries not registered as design discovery directory")

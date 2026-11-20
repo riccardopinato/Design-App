@@ -309,3 +309,8 @@ Su 15 link ricevuti: **12 risorse gia' presenti saltate senza nuovo audit**, **3
 ## Motionary iOS + 26 nuove risorse — 20/11/2026
 
 **15 fonti nuove e 11 link deduplicati**, con [audit 26/26](sources/MOTIONARY_26_AUDIT_2026-11-20.md), [registro machine-readable](sources/MOTIONARY_26_REGISTRY_2026-11-20.json), [2 siti canonici Motionary/Rare UI](sources/DESIGN_RESEARCH_SITES.json) e [20 proposte su 10 app](UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md). Motionary contiene 839 animazioni SwiftUI (MIT), ma nessun codice Dart/Compose già portato; Rare UI ha Commons Clause e attribuzione visibile. I tool video/agent sono classificati separatamente dalla UI. Nessun nuovo UID, sorgente vendorizzato, Golden, consumer o APK.
+
+
+## Nuovo design stack: Shipframe, Oversight, Mobbin e Fontshare — 20/11/2026
+
+**5 link, 4 fornitori unici, 2 nuovi** (`DESIGN-SITE-047` Shipframe e `DESIGN-SITE-048` Oversight Supply, con 2 subpage), **2 già presenti** (`DESIGN-SITE-033` Mobbin e `DESIGN-SITE-022` Fontshare). [Audit e licenze](sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md) · [registro](sources/FLORIENT_STACK_5_REGISTRY_2026-11-20.json) · [26 proposte per 12 app](UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md). Materiali per screenshot Store, sezioni sito Web, benchmark UX, font e video explainer; zero asset/code/UID importati, zero abbonamenti, nessuna app modificata.

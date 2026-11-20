@@ -206,3 +206,14 @@ Le palette e i mock-up gia' approvati hanno priorita'; la fonte non concede il r
 - **STYLE26-21** (P2): Generare proposte landing con Stitch come reference, nessun deploy non autorizzato — **PROPOSED_ONLY**.
 
 **Gate:** Product Bible e identità visiva approvata; i componenti Web non sono widget Flutter. Nessun consumer modificato né componenti copiati. Licenze, dipendenze, accessibilità, rendering e CI da verificare per ogni adozione.
+
+
+## Design stack Florent — 5 link (20/11/2026)
+
+[Audit licenze e fonti](../sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md) · [Mappa per-app](../UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md). Nessun cambiamento automatico dell'identità visiva approvata.
+
+- **STACK5-02 · P1**: Hero, features, pricing e FAQ per landing delle utility; usare solo licenze compatibili. **PROPOSED_ONLY**.
+- **STACK5-04 · P2**: Font families per landing e impaginazione responsive. **PROPOSED_ONLY**.
+- **STACK5-05 · P2**: Clip introduttiva per feature Web, produzione separata dal codice applicazione. **PROPOSED_ONLY**.
+
+**Gate:** Shipframe screenshot autentici senza dati personali, Oversight solo reference o uso licenziato in progetto, Mobbin niente mirror di screenshot terzi, Fontshare licenza per famiglia; nessun file/asset copiato in questo lotto. Prima di applicare in app: Product Bible, codice consumer, test QA e approvazione.

@@ -160,3 +160,8 @@ Dal lotto di 15 link **12 erano gia' nel Design-App** e non sono stati rivalutat
 ## Motionary: animazioni iOS e strumenti UI — 20/11/2026
 
 [839 effetti SwiftUI, 15 categorie e 85 famiglie](https://alanfeiyuchang.github.io/motionary-ios-animations/) come reference prioritaria per micro-interazioni; [catalogazione, licenze e deduplica di 26 link](../sources/MOTIONARY_26_AUDIT_2026-11-20.md) · [20 proposte per 10 app](./MOTIONARY_26_APP_MAP_2026-11-20.md). No port automatico Flutter/Compose, no animazioni di progresso fittizie. Rare UI catalogata con Commons Clause+attribution; agent/browser/video tools restano tooling, non design runtime.
+
+
+## Store screenshot, Web section e AI explainer — Florent stack 20/11/2026
+
+Fonti: [Shipframe/Oversight/Mobbin/Fontshare](../sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md) · [26 idee per 12 app](./FLORIENT_STACK_5_APP_MAP_2026-11-20.md). Shipframe serve alle schede store, Oversight Sections alle landing e Oversight Videos ai video marketing; non sono librerie Flutter/Compose. Mobbin e Fontshare sono già nell'indice. Controllare licenza degli output/font e dati reali prima di riuso; PROPOSED_ONLY.
