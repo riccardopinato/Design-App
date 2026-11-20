@@ -770,6 +770,35 @@
       ],
       "related_intake": "sources/CURATED_DESIGNS_UICOLOURS_AUDIT_2026-11-20.md",
       "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-044",
+      "name": "Jiro — Design Prompt Library + AI Website Builder",
+      "url": "https://jiro.build/",
+      "kind": "PROPRIETARY_WEB_PROMPT_COMPONENT_LIBRARY_AND_AI_SITE_BUILDER",
+      "status": "REFERENCE",
+      "verified": "OFFICIAL_HOME_TERMS_AND_PRICING; BUILDER_OFFICIAL_SEARCH_INDEX_PAGE_DIRECT_CACHE_MISS",
+      "license": "PERSONAL_COMMERCIAL_CLIENT_PROJECT_USE_WITH_PLAN; NO_STANDALONE_COMPONENT_TEMPLATE_REDISTRIBUTION; NO_COMPETING_DESIGN_LIBRARY_OR_MASS_SCRAPING; NO_TRAINING_MODELS_WITHOUT_PERMISSION",
+      "free_access": "PROMPT_LIBRARY_FREE_ITEMS; BUILDER_FREE_5_CREDITS_PER_DAY_CAPPED_25_PER_MONTH_AND_2_JIRO_HOST_SITES; SITE_PAUSES_AFTER_30_DAYS_INACTIVE; PAID_ZIP_SOURCE_EXPORT_CUSTOM_DOMAIN",
+      "subpages": [
+        {
+          "id": "DESIGN-SUBL-003",
+          "name": "Jiro Builder",
+          "url": "https://jiro.build/builder",
+          "kind": "SAME_PROVIDER_HOSTED_AI_WEBSITE_BUILDER",
+          "access": "FREE_CREDITS_AND_JIRO_HOST_PUBLISH; PAID_ZIP_EXPORT_DOMAIN_AND_MORE_CREDITS",
+          "status": "REFERENCE",
+          "no_new_site_id": true
+        }
+      ],
+      "recommended_for": [
+        "Web utility landing and launch pages",
+        "SaaS feature/FAQ/pricing/CTA sections",
+        "Natural language section-by-section editing and version history",
+        "Optional marketing microsites for existing apps, not Flutter runtime code"
+      ],
+      "related_intake": "sources/JIRO_AND_15_DESIGN_LINKS_DEDUP_AUDIT_2026-11-20.md",
+      "updated_at": "2026-11-20"
     }
   ]
 }
