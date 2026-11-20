@@ -326,3 +326,23 @@ Queste fonti non autorizzano il riutilizzo di screenshot o font senza licenza. M
 - **UIColours** (`DESIGN-SITE-043`): Test recipe category palette and card text contrast, without copying food-brand identities. **PROPOSED_ONLY**.
 
 Le palette e i mock-up gia' approvati hanno priorita'; la fonte non concede il riuso automatico di asset di brand/post X e non garantisce esportazione diretta in Flutter. Nessuna UI implementata o tema consumer modificato.
+
+
+## Motion UX, animazioni e video — lotto 18 fonti 20/11/2026
+
+[Audit licenze e compatibilita'](../sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md) · [Matrice](../UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.md) · [Pipeline](../sources/MOTION_VIDEO_18_PIPELINE_2026-11-20.md) · [Manifest SHA](../sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json).
+
+- **motion-design-skill** (`MOTION-OSS-002`): Animate recipe step feedback without disrupting legibility. **PROPOSED_ONLY**.
+- **mg-styles-15** (`MOTION-OSS-003`): Use motion styles as references for original recipe launch videos. **PROPOSED_ONLY**.
+- **huashu-art-motion** (`MOTION-OSS-004`): Illustrated cooking explainer idea with original non-copyrighted characters. **PROPOSED_ONLY**.
+- **anidoodle** (`MOTION-OSS-005`): Create original recipe-process drawings for promotional content. **PROPOSED_ONLY**.
+- **cinetic** (`MOTION-OSS-006`): Promo recipes and features; no Remotion engine shipped with Flutter. **PROPOSED_ONLY**.
+- **motionmaxxing** (`MOTION-OSS-007`): Polish cinematic recipe teaser composition with GSAP license checked. **PROPOSED_ONLY**.
+- **effectcraft** (`MOTION-OSS-013`): Compose licensed recipe launch clips with original art. **PROPOSED_ONLY**.
+- **openverse** (`MOTION-OSS-014`): Discover permitted background music, not assume free commercial rights. **PROPOSED_ONLY**.
+- **librosa** (`MOTION-OSS-015`): Align recipe teaser cuts to original or cleared music beats offline. **PROPOSED_ONLY**.
+- **whisperX** (`MOTION-OSS-016`): Draft multilingual recipe teaser captions with transcript review. **PROPOSED_ONLY**.
+- **skills** (`MOTION-OSS-017`): External build workflow for approved recipe tutorial teaser videos. **PROPOSED_ONLY**.
+- **FFmpeg** (`MOTION-OSS-018`): Social video export with 16:9 and 9:16 compositions and subtitle tracks. **PROPOSED_ONLY**.
+
+**Vincoli:** il media render resta separato dal runtime APK; Flutter/Compose devono usare il donor/framework nativo prima di TSX/JavaScript; licenza dell'asset e del runtime va verificata singolarmente. Nessuna modifica a Product Bible, UI, database, funzioni, codice, build o screenshot del consumer. Priorita' estetica agli asset e mock-up gia' scelti nel Design-App; a11y, reduced motion, FPS/batteria e privacy da validare in una eventuale implementazione.
