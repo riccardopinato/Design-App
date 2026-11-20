@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "batch_id": "FLORIENT_STACK_5_2026_11_20",
+  "source_post": "https://x.com/MaybeFlorent/status/2123518669657710910",
+  "date": "2026-11-20",
+  "factory_baseline": "riccardopinato/App-Factory-Core@4df94ac3b3ea22a2323634fe83c3c7770fe3b835",
+  "design_baseline": "riccardopinato/Design-App@1e9a51b873971b96152cfb222c68d042ae0797c0",
+  "submitted_urls": 5,
+  "unique_providers": 4,
+  "new_providers": 2,
+  "existing_canonical_provider_ids": [
+    "DESIGN-SITE-033",
+    "DESIGN-SITE-022"
+  ],
+  "new_canonical_provider_ids": [
+    "DESIGN-SITE-047",
+    "DESIGN-SITE-048"
+  ],
+  "provider_subpages": [
+    "DESIGN-SUBL-004",
+    "DESIGN-SUBL-005"
+  ],
+  "no_uid_added": true,
+  "no_source_copied": true,
+  "no_consumer_changes": true,
+  "reference_links": [
+    {
+      "id": "STACK5-01",
+      "name": "Shipframe",
+      "url": "https://getshipframe.com/",
+      "canonical_id": "DESIGN-SITE-047",
+      "classification": "STORE_SCREENSHOT_CREATOR",
+      "state": "NEW_SITE",
+      "provider": "Shipframe",
+      "verification": "PRIMARY_DOMAIN_DIRECT_FETCH_UNAVAILABLE; CREATOR_POST_AND_RECENT_THIRD_PARTY_DESCRIPTION",
+      "license": "PROPRIETARY_TOOL_OUTPUT_TERMS_NOT_YET_VERIFIED",
+      "access": "FREE_WATERMARKED_LIMITED; REPORTED_PRO_19_USD_ONETIME_NEEDS_CHECKOUT_VERIFICATION",
+      "usage": "Marketing store screenshot composition using authentic app captures, no UI runtime or code donor",
+      "rights": "No source/template ownership or code redistribution assumed"
+    },
+    {
+      "id": "STACK5-02",
+      "name": "Oversight Supply — Sections",
+      "url": "https://supply.madebyoversight.com/sections",
+      "canonical_id": "DESIGN-SITE-048 / DESIGN-SUBL-004",
+      "classification": "WEBSITE_SECTION_LIBRARY",
+      "state": "NEW_PROVIDER_SUBPAGE",
+      "provider": "Oversight Supply",
+      "verification": "OFFICIAL_PRODUCT_CATALOG_PRICING_AND_TERMS_PAGES_VERIFIED",
+      "license": "PROPRIETARY_TEMPLATES; OWN_CLIENT_PROJECT_USE_PER_PURCHASE_AND_TERMS; NO_STANDALONE_REDISTRIBUTION",
+      "access": "41_FREE_WITH_ACCOUNT; PREMIUM_PLAN_15_USD_MONTH_AT_CHECK_DATE",
+      "usage": "Hero, feature, pricing and scroll-story landing sections; Web only until own implementation",
+      "rights": "Preview and prompts are not general license to mirror source library"
+    },
+    {
+      "id": "STACK5-03",
+      "name": "Mobbin",
+      "url": "https://mobbin.com/",
+      "canonical_id": "DESIGN-SITE-033",
+      "classification": "APP_UX_SCREEN_FLOW_REFERENCE",
+      "state": "ALREADY_CATALOGUED",
+      "provider": "Mobbin",
+      "verification": "OFFICIAL_AND_EXISTING_DESIGN_APP_AUDIT",
+      "license": "PROPRIETARY; SCREENS_REFERENCES_ONLY; NO_MIRROR_OR_REHOST",
+      "access": "LIMITED_FREEMIUM; PAID_DEEP_FEATURES",
+      "usage": "Benchmark navigation, onboarding, deletion flows, empty/error/premium states",
+      "rights": "Existing source id preserved; screen assets never copied"
+    },
+    {
+      "id": "STACK5-04",
+      "name": "Fontshare",
+      "url": "https://fontshare.com/",
+      "canonical_id": "DESIGN-SITE-022",
+      "classification": "TYPOGRAPHY_FONTS_DISCOVERY",
+      "state": "ALREADY_CATALOGUED",
+      "provider": "Indian Type Foundry",
+      "verification": "OFFICIAL_ABOUT_AND_LICENSE_PAGES_VERIFIED",
+      "license": "PER_FAMILY_SIL_OFL_OR_ITF_FREE_FONT_LICENSE; EMBEDDING_SUBLICENSE_REVIEW_PER_FONT",
+      "access": "FREE_PERSONAL_AND_COMMERCIAL_PER_FONT_TERMS",
+      "usage": "Font selection and pairing for app brand typography, not replacing approved font automatically",
+      "rights": "No TTF/OTF/WOFF binaries imported; license per family"
+    },
+    {
+      "id": "STACK5-05",
+      "name": "Oversight Supply — Videos",
+      "url": "https://supply.madebyoversight.com/videos",
+      "canonical_id": "DESIGN-SITE-048 / DESIGN-SUBL-005",
+      "classification": "AI_EXPLAINER_VIDEO_SKILLS",
+      "state": "NEW_PROVIDER_SUBPAGE",
+      "provider": "Oversight Supply",
+      "verification": "OFFICIAL_VIDEO_CATALOG_AND_PRICING_VERIFIED",
+      "license": "PROPRIETARY_VIDEO_SKILLS_AND_TEMPLATES; NO_BULK_REDISTRIBUTION; SOURCE_FILE_USAGE_REVIEW",
+      "access": "RAYS_FREE_WITH_ACCOUNT; 3_PREMIUM_9_99_USD_MONTH_OR_79_99_YEAR",
+      "usage": "Offline/desktop marketing explainers and app feature demos, not runtime animations",
+      "rights": "Requires separate local rendering tools, subscription/Claude Code; music and visuals separately checked"
+    }
+  ],
+  "proposal_count": 26,
+  "affected_apps": 12
+}
