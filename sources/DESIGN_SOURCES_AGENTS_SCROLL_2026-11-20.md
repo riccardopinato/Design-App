@@ -15,7 +15,7 @@
 ## Risultati della verifica diretta
 
 ### Scrolltide
-Prompt e template per siti Web dinamici. FAQ, Terms e prezzi confermano asset/prompt/source su piani a pagamento; versione mensile con limite 10 nuovi premium/settimana e collezione 3D riservata a Yearly/Lifetime. La licenza permette siti propri e clienti, vieta rivendere/redistribuire template/prompt e riutilizzare filmati/screenshots del portale in marketing. Fonti: https://www.scrolltide.co/terms · https://www.scrolltide.co/pricing.
+Prompt e template per siti Web dinamici. Il sito presenta anche template contrassegnati **Free**; la libreria Premium, con prompt/source, richiede un piano. FAQ, Terms e prezzi documentano i limiti di licenza; versione mensile con limite 10 nuovi premium/settimana e collezione 3D riservata a Yearly/Lifetime. Per i contenuti coperti da un piano a pagamento, la licenza permette siti propri e clienti, vieta rivendere/redistribuire template/prompt e riutilizzare filmati/screenshots del portale in marketing. Fonti: https://www.scrolltide.co/terms · https://www.scrolltide.co/pricing.
 
 ### Scroll Shaders
 Shader WebGL2 seamless (React TSX e HTML/JS), export MP4, still ad alta risoluzione. Solo demo e preview gratuite: piani osservati **$29/month, $129/year, $239 lifetime**. Royalty-free nell'app/sito finale, non asset packs/rivendita. Supportano pause offscreen, pixel density limit, reduced-motion still, ma richiedono controlli GPU/FPS/consumo su hardware reale. Fonti: https://scrollshaders.com/pricing · https://scrollshaders.com/license.
