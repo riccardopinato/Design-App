@@ -228,3 +228,16 @@ Queste fonti non autorizzano il riutilizzo di screenshot o font senza licenza. M
 - **BestSaaSWebDesigns — Curated Designs** (`DESIGN-SITE-042`): Review 3D spatial scene and motion concepts as references only; maintain device performance gating. **PROPOSED_ONLY**.
 
 Le palette e i mock-up gia' approvati hanno priorita'; la fonte non concede il riuso automatico di asset di brand/post X e non garantisce esportazione diretta in Flutter. Nessuna UI implementata o tema consumer modificato.
+
+
+## Motion UX, animazioni e video — lotto 18 fonti 20/11/2026
+
+[Audit licenze e compatibilita'](../sources/MOTION_VIDEO_18_AUDIT_2026-11-20.md) · [Matrice](../UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.md) · [Pipeline](../sources/MOTION_VIDEO_18_PIPELINE_2026-11-20.md) · [Manifest SHA](../sources/MOTION_VIDEO_18_REGISTRY_2026-11-20.json).
+
+- **motion-design-skill** (`MOTION-OSS-002`): Document consistent physics/interaction pacing with FPS and battery limits. **PROPOSED_ONLY**.
+- **blender-skills** (`MOTION-OSS-009`): Prototype own low-poly 3D desk/world assets via desktop Blender, then optimize exports. **PROPOSED_ONLY**.
+- **three.quarks** (`MOTION-OSS-010`): Evaluate Web particle prototype, only port after GPU and battery evaluation. **PROPOSED_ONLY**.
+- **react-postprocessing** (`MOTION-OSS-011`): Reference bloom/depth effects without assuming WebGL-to-native interoperability. **PROPOSED_ONLY**.
+- **tweakpane** (`MOTION-OSS-012`): Developer-only motion/scene parameter adjustment panel, excluded from release. **PROPOSED_ONLY**.
+
+**Vincoli:** il media render resta separato dal runtime APK; Flutter/Compose devono usare il donor/framework nativo prima di TSX/JavaScript; licenza dell'asset e del runtime va verificata singolarmente. Nessuna modifica a Product Bible, UI, database, funzioni, codice, build o screenshot del consumer. Priorita' estetica agli asset e mock-up gia' scelti nel Design-App; a11y, reduced motion, FPS/batteria e privacy da validare in una eventuale implementazione.
