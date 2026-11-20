@@ -209,3 +209,12 @@ Fonti: [Flutter Gems](https://fluttergems.dev/), [Forui Button](https://forui.de
 | Mix | MEDIUM | travel UI tokens |
 
 Nessun package installato, nessuna modifica dati/architettura o Golden promosso; verifica Flutter SDK, dipendenze, APK size, accessibilità e performance necessaria prima dell'adozione.
+
+
+## Design stack Florent — 5 link (20/11/2026)
+
+[Audit licenze e fonti](../sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md) · [Mappa per-app](../UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md). Nessun cambiamento automatico dell'identità visiva approvata.
+
+- **STACK5-01 · P2**: Screenshot viaggio/offline che rappresentino solo funzioni effettivamente provate. **PROPOSED_ONLY**.
+
+**Gate:** Shipframe screenshot autentici senza dati personali, Oversight solo reference o uso licenziato in progetto, Mobbin niente mirror di screenshot terzi, Fontshare licenza per famiglia; nessun file/asset copiato in questo lotto. Prima di applicare in app: Product Bible, codice consumer, test QA e approvazione.
