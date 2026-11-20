@@ -41,7 +41,11 @@
     "design_sources_followup_2026_11_20_sites": 3,
     "design_sources_followup_2026_11_20_figma_files": 1,
     "design_sources_followup_2026_11_20_profiles": 12,
-    "design_sources_followup_2026_11_20_relations": 31
+    "design_sources_followup_2026_11_20_relations": 31,
+    "ui_sources_3_2026_11_20_sites": 3,
+    "ui_sources_3_2026_11_20_duplicate_urls_skipped": 12,
+    "ui_sources_3_2026_11_20_apps": 12,
+    "ui_sources_3_2026_11_20_relations": 22
   },
   "profiles": [
     {
@@ -242,7 +246,8 @@
         "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
-        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json"
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "diario e ricordi",
@@ -669,6 +674,18 @@
             "FIGMA-BENTO-001"
           ],
           "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-032",
+            "DESIGN-SITE-033"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
         }
       ],
       "voice_ui_candidates": [
@@ -1662,6 +1679,24 @@
           "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
           "code_state": "NO_APP_IMPLEMENTATION"
         }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-032",
+          "source_name": "ThinkUI",
+          "idea": "Compare real calendar/create/share-space states with attributed references before aesthetics are approved",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "site_id": "DESIGN-SITE-033",
+          "source_name": "Mobbin",
+          "idea": "Cross-check end-to-end onboarding and privacy invitation flow across shipped mobile products",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -1694,7 +1729,8 @@
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
-        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json"
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "repository e branch",
@@ -2034,6 +2070,18 @@
             "FIGMA-BENTO-001"
           ],
           "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-032",
+            "DESIGN-SITE-034"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
         }
       ],
       "voice_ui_candidates": [
@@ -3099,6 +3147,24 @@
           "state": "PROPOSED_ONLY",
           "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
           "code_state": "NO_APP_IMPLEMENTATION"
+        }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-032",
+          "source_name": "ThinkUI",
+          "idea": "Find grounded filters, data-grid and dense control examples before web redesign",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "site_id": "DESIGN-SITE-034",
+          "source_name": "React Bits",
+          "idea": "Consider subtle stateful indicator and navigation transitions; avoid expensive background shaders",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
         }
       ]
     },
@@ -5697,7 +5763,8 @@
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
-        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json"
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "portafoglio",
@@ -5948,6 +6015,18 @@
             "FIGMA-BENTO-001"
           ],
           "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-032",
+            "DESIGN-SITE-033"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
         }
       ],
       "motion_design_candidates": [
@@ -6604,6 +6683,24 @@
           "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
           "code_state": "NO_APP_IMPLEMENTATION"
         }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-032",
+          "source_name": "ThinkUI",
+          "idea": "Study real finance overview, add-expense and paywall flows as research-only",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "site_id": "DESIGN-SITE-033",
+          "source_name": "Mobbin",
+          "idea": "Analyze real transaction entry, insight and subscription screens for sequencing",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -6635,7 +6732,8 @@
         "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
-        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json"
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "kawaii-gattini",
@@ -7527,6 +7625,19 @@
             "FIGMA-BENTO-001"
           ],
           "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-032",
+            "DESIGN-SITE-033",
+            "DESIGN-SITE-034"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
         }
       ],
       "voice_ui_candidates": [
@@ -8366,6 +8477,32 @@
           "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
           "code_state": "NO_APP_IMPLEMENTATION"
         }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-032",
+          "source_name": "ThinkUI",
+          "idea": "Compare saved recipes and ingredient-step reading flows using evidence, not cloned assets",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "site_id": "DESIGN-SITE-033",
+          "source_name": "Mobbin",
+          "idea": "Study discover-to-recipe-to-favorites interaction flows",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "site_id": "DESIGN-SITE-034",
+          "source_name": "React Bits",
+          "idea": "Consider restrained recipe-card entrances on Web, preserving content-first browsing",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -8395,7 +8532,8 @@
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
-        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "desktop",
@@ -8629,6 +8767,17 @@
           ],
           "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
           "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-034"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
         }
       ],
       "voice_ui_candidates": [
@@ -9134,6 +9283,16 @@
           "status": "PROPOSED_ONLY",
           "license_gate": "PER_SOURCE_AND_ASSET",
           "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-034",
+          "source_name": "React Bits",
+          "idea": "Study light-motion effects as references only, not GPU-heavy permanent launcher background",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
         }
       ]
     },
@@ -10698,7 +10857,8 @@
         "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
-        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json"
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "fotografia",
@@ -11028,6 +11188,17 @@
             "FIGMA-BENTO-001"
           ],
           "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-034"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
         }
       ],
       "voice_ui_candidates": [
@@ -11806,6 +11977,16 @@
           "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
           "code_state": "NO_APP_IMPLEMENTATION"
         }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-034",
+          "source_name": "React Bits",
+          "idea": "Study image transitions and galleries conceptually; use native image-fit and reduced-motion",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -11842,7 +12023,8 @@
         "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
-        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json"
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "nota",
@@ -12354,6 +12536,19 @@
             "FIGMA-BENTO-001"
           ],
           "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-032",
+            "DESIGN-SITE-033",
+            "DESIGN-SITE-034"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
         }
       ],
       "voice_ui_candidates": [
@@ -13743,6 +13938,32 @@
           "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
           "code_state": "NO_APP_IMPLEMENTATION"
         }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-032",
+          "source_name": "ThinkUI",
+          "idea": "Review genuine capture/editor/empty-state UX with sources and state completeness",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "site_id": "DESIGN-SITE-033",
+          "source_name": "Mobbin",
+          "idea": "Study transitions from note listing to editor to collections and share/export",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "site_id": "DESIGN-SITE-034",
+          "source_name": "React Bits",
+          "idea": "Study animated list, collapsible details and card reveals; adapt natively in Flutter",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -13776,7 +13997,8 @@
         "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
-        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json"
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "galleria",
@@ -14166,6 +14388,18 @@
             "FIGMA-BENTO-001"
           ],
           "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-032",
+            "DESIGN-SITE-033"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
         }
       ],
       "motion_design_candidates": [
@@ -15149,6 +15383,24 @@
           "state": "PROPOSED_ONLY",
           "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
           "code_state": "NO_APP_IMPLEMENTATION"
+        }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-032",
+          "source_name": "ThinkUI",
+          "idea": "Benchmark safe review-delete-trash-undo flows without acquiring third-party screenshots",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "site_id": "DESIGN-SITE-033",
+          "source_name": "Mobbin",
+          "idea": "Inspect full consent, gallery preview, multi-select and deletion confirmation journey",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
         }
       ]
     },
@@ -17178,7 +17430,8 @@
         "UI-UX/DRIBBBLE_COLLECTUI_APP_MAP_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
-        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "mappa",
@@ -17338,6 +17591,18 @@
           ],
           "note": "References only, no code/assets added, no consumer or Golden modified; Godly alias of Recent, Lucide existing reference.",
           "origin": "https://github.com/riccardopinato/Design-App/blob/docs/design-sites-15-2026-11-20/sources/DESIGN_SITES_15_AUDIT_2026-11-20.md"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-032",
+            "DESIGN-SITE-033"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
         }
       ],
       "motion_design_candidates": [
@@ -17499,6 +17764,24 @@
           "license_gate": "PER_SOURCE_AND_ASSET",
           "source": "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json"
         }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-032",
+          "source_name": "ThinkUI",
+          "idea": "Review offline navigation and failed-routing states from real interfaces",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "site_id": "DESIGN-SITE-033",
+          "source_name": "Mobbin",
+          "idea": "Benchmark GPS permission, no-route and retry UX from shipped navigation apps",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -17524,7 +17807,8 @@
         "UI-UX/UIVERSE/REGISTRO_COMPONENTI.json",
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
-        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json"
+        "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "strumenti",
@@ -17690,6 +17974,17 @@
             "DESIGN-SITE-031"
           ],
           "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-034"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
         }
       ],
       "motion_design_candidates": [
@@ -17944,6 +18239,16 @@
           "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
           "code_state": "NO_APP_IMPLEMENTATION"
         }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-034",
+          "source_name": "React Bits",
+          "idea": "Use selective React button/card/text motion on promotional web pages after motion/performance checks",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -17976,7 +18281,8 @@
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
-        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json"
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "viaggio",
@@ -18370,6 +18676,17 @@
             "FIGMA-BENTO-001"
           ],
           "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-033"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
         }
       ],
       "voice_ui_candidates": [
@@ -19296,6 +19613,16 @@
           "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
           "code_state": "NO_APP_IMPLEMENTATION"
         }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-033",
+          "source_name": "Mobbin",
+          "idea": "Compare travel itinerary, saved trip and map-to-detail journeys",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        }
       ]
     },
     {
@@ -19332,7 +19659,8 @@
         "UI-UX/UNSLOP_UI_APP_MAP_2026-11-19.json",
         "UI-UX/DESIGN_SITES_15_APP_MAP_2026-11-20.json",
         "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
-        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json"
+        "UI-UX/FIGMA_BENTO_WIDGET_TEMPLATES_2026-11-20.json",
+        "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json"
       ],
       "category_ideas": [
         "calendario",
@@ -19800,6 +20128,18 @@
             "FIGMA-BENTO-001"
           ],
           "note": "Reference mapping only; Figma file metadata examined; ReUI React only, no copied OSS/brand assets, no app/Golden changes."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "DESIGN_LINKS_15_DEDUP_3_NEW_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "origin": "https://github.com/riccardopinato/Design-App/blob/main/sources/UI_SOURCES_DEDUP_THINKUI_MOBBIN_REACTBITS_2026-11-20.md",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "source_ids": [
+            "DESIGN-SITE-032",
+            "DESIGN-SITE-033"
+          ],
+          "note": "Only 3 new sources mapped; 12 duplicates skipped. Study-only screenshots not copied; ThinkUI/Mobbin paid; React Bits MIT+Commons Clause source archiving avoided."
         }
       ],
       "voice_ui_candidates": [
@@ -20998,6 +21338,24 @@
           "state": "PROPOSED_ONLY",
           "source": "UI-UX/DESIGN_SOURCES_4_APP_MAP_2026-11-20.json",
           "code_state": "NO_APP_IMPLEMENTATION"
+        }
+      ],
+      "ui_sources_3_2026_11_20": [
+        {
+          "site_id": "DESIGN-SITE-032",
+          "source_name": "ThinkUI",
+          "idea": "Study long-form feed and category browsing hierarchy; protect readability",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
+        },
+        {
+          "site_id": "DESIGN-SITE-033",
+          "source_name": "Mobbin",
+          "idea": "Compare discovery/search and editorial story-reading flows",
+          "status": "PROPOSED_ONLY",
+          "source": "UI-UX/UI_SOURCES_3_APP_MAP_2026-11-20.json",
+          "consumer_implemented": false
         }
       ]
     }
