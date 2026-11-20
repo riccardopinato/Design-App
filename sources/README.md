@@ -95,3 +95,8 @@ Questa directory contiene studi di sorgenti esterne e donatori candidati, non ne
 ## Motionary + 25 link complementari — 20 novembre 2026
 
 [Audit fonte/diritti/26 link](./MOTIONARY_26_AUDIT_2026-11-20.md) · [Registro JSON](./MOTIONARY_26_REGISTRY_2026-11-20.json) · [Mappa per app](../UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md). **DESIGN-SITE-045 Motionary**, **DESIGN-SITE-046 Rare UI**, altri 13 source OSS/tooling nuovi e 11 voci riconciliate. Stato REFERENCE/PROPOSED_ONLY; zero widget/port/runtime copiati.
+
+
+## Florent stack — 5 link verificati e deduplicati (20/11/2026)
+
+[Analisi verificata](./FLORIENT_STACK_5_AUDIT_2026-11-20.md) · [registro completo](./FLORIENT_STACK_5_REGISTRY_2026-11-20.json) · [crosswalk per app](../UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md). Due provider nuovi (Shipframe e Oversight) con due pagine prodotto Oversight sotto il medesimo sito canonico; Mobbin/Fontshare conservano gli ID correnti. Nessun CSS, font, screenshot, video, template o altro file di terzi copiato.
