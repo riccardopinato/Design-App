@@ -69,7 +69,14 @@
     "motionary_26_2026_11_20_skipped_existing_links": 11,
     "motionary_26_2026_11_20_profiles": 10,
     "motionary_26_2026_11_20_relations": 20,
-    "motionary_26_2026_11_20_archived_code": 0
+    "motionary_26_2026_11_20_archived_code": 0,
+    "florient_stack_5_submitted_links": 5,
+    "florient_stack_5_unique_providers": 4,
+    "florient_stack_5_new_providers": 2,
+    "florient_stack_5_duplicate_links": 2,
+    "florient_stack_5_app_profiles": 12,
+    "florient_stack_5_relations": 26,
+    "florient_stack_5_source_code_copied": 0
   },
   "profiles": [
     {
@@ -276,7 +283,9 @@
         "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
         "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
         "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
-        "sources/MOTIONARY_26_AUDIT_2026-11-20.md"
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "diario e ricordi",
@@ -762,6 +771,18 @@
             "STYLE26-23"
           ],
           "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-01",
+            "STACK5-04",
+            "STACK5-03"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "voice_ui_candidates": [
@@ -1866,7 +1887,9 @@
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
         "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
         "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
-        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json"
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "repository e branch",
@@ -2277,6 +2300,16 @@
             "DESIGN-SUBL-003"
           ],
           "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-02"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "voice_ui_candidates": [
@@ -3565,7 +3598,9 @@
         "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
         "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
         "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
-        "sources/MOTIONARY_26_AUDIT_2026-11-20.md"
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "batteria",
@@ -3903,6 +3938,17 @@
             "STYLE26-23"
           ],
           "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-01",
+            "STACK5-04"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "motion_design_candidates": [
@@ -5233,7 +5279,7 @@
       "name": "CamperBoss",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-18",
+      "updated_at": "2026-11-20",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -5256,7 +5302,9 @@
         "UI-UX/UIVERSE/FAVORITES/REGISTRO_PREFERITI_2026-11-18.json",
         "UI-UX/UIVERSE/FAVORITES/CONFRONTO_108_VS_97_2026-11-18.json",
         "sources/FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md",
-        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json"
+        "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "camper/van",
@@ -5507,6 +5555,16 @@
           "source": "UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json",
           "note": "Package shortlist only; Design-App-first and consumer verification required.",
           "origin": "https://fluttergems.dev/"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-01"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "voice_ui_candidates": [
@@ -6207,7 +6265,9 @@
         "UI-UX/DESIGN_SOURCES_AGENTS_SCROLL_APP_MAP_2026-11-20.json",
         "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
         "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
-        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json"
+        "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "portafoglio",
@@ -6515,6 +6575,17 @@
             "DESIGN-SUBL-003"
           ],
           "note": "One new Jiro provider and Builder subpage. Thirteen other links already indexed and skipped. License prohibits creating competing component library, no sources/assets copied, no app code modified."
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-01",
+            "STACK5-03"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "motion_design_candidates": [
@@ -7278,7 +7349,9 @@
         "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
         "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
         "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
-        "sources/MOTIONARY_26_AUDIT_2026-11-20.md"
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "kawaii-gattini",
@@ -8252,6 +8325,18 @@
             "STYLE26-11"
           ],
           "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-01",
+            "STACK5-05",
+            "STACK5-04"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "voice_ui_candidates": [
@@ -9308,7 +9393,9 @@
         "UI-UX/CURATED_DESIGNS_UICOLOURS_APP_MAP_2026-11-20.json",
         "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
         "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
-        "sources/MOTIONARY_26_AUDIT_2026-11-20.md"
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "desktop",
@@ -9604,6 +9691,16 @@
             "STYLE26-24"
           ],
           "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-05"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "voice_ui_candidates": [
@@ -13210,7 +13307,9 @@
         "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
         "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
         "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
-        "sources/MOTIONARY_26_AUDIT_2026-11-20.md"
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "nota",
@@ -13795,6 +13894,17 @@
             "STYLE26-25"
           ],
           "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-02",
+            "STACK5-03"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "voice_ui_candidates": [
@@ -15334,7 +15444,9 @@
         "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
         "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
         "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
-        "sources/MOTIONARY_26_AUDIT_2026-11-20.md"
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "galleria",
@@ -15796,6 +15908,18 @@
             "STYLE26-05"
           ],
           "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-01",
+            "STACK5-03",
+            "STACK5-05"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "motion_design_candidates": [
@@ -19294,7 +19418,9 @@
         "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
         "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
         "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
-        "sources/MOTIONARY_26_AUDIT_2026-11-20.md"
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "strumenti",
@@ -19543,6 +19669,18 @@
             "STYLE26-21"
           ],
           "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-02",
+            "STACK5-04",
+            "STACK5-05"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "motion_design_candidates": [
@@ -20025,7 +20163,9 @@
         "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
         "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
         "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
-        "sources/MOTIONARY_26_AUDIT_2026-11-20.md"
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "viaggio",
@@ -20478,6 +20618,17 @@
             "STYLE26-05"
           ],
           "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-01",
+            "STACK5-05"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "voice_ui_candidates": [
@@ -21523,7 +21674,9 @@
         "UI-UX/MOTION_VIDEO_18_APP_MAP_2026-11-20.json",
         "UI-UX/JIRO_LIBRARY_BUILDER_APP_MAP_2026-11-20.json",
         "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
-        "sources/MOTIONARY_26_AUDIT_2026-11-20.md"
+        "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
+        "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
       ],
       "category_ideas": [
         "calendario",
@@ -22073,6 +22226,18 @@
             "STYLE26-17"
           ],
           "note": "2 source-to-app proposals, no consumer code/screens modified, Motionary SwiftUI native-adaptation and Rare UI Commons Clause restrictions"
+        },
+        {
+          "date": "2026-11-20",
+          "type": "FLORIENT_STACK_5_2026_11_20",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "STACK5-01",
+            "STACK5-05",
+            "STACK5-03"
+          ],
+          "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+          "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
         }
       ],
       "voice_ui_candidates": [
