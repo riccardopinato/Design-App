@@ -110,3 +110,8 @@ Questa directory contiene studi di sorgenti esterne e donatori candidati, non ne
 ## Appllama/Motion/Art — lotto 21/11/2026
 
 [Audit verifiche e licensing](./APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md) · [manifest di 18 URL + 3 video](./APPLLAMA_MOTION_ART_STACK_REGISTRY_2026-11-21.json) · [mappa per app](../UI-UX/APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.md). Fonti nuove + preesistenti deduplicate; MCP Appllama Pro/restrizioni di archivio; Animate UI Commons Clause; un t.co non risolto. Video forniti esaminati per frame ma non caricati pubblicamente; niente UID o codice consumer.
+
+
+### Prompt Flutter-first per Appllama MCP
+
+[Playbook riutilizzabile](./APPLLAMA_MCP_FLUTTER_PROMPT_2026-11-21.md): studio mirato dei flow di una singola app, design originale, Dart/Flutter e gates legal/accessibilità/CI. Non implica abbonamento Pro, acquisizione di screenshot o collegamento MCP già autorizzato.
