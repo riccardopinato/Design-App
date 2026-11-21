@@ -324,3 +324,6 @@ Sei link X sono [conservati in DISCOVERY](sources/X_SIX_DESIGN_DISCOVERY_2026-11
 ## Intake UI/UX, motion e nuova idea d'arte — 21/11/2026
 
 Verificate 18 URL e **3 video originali allegati** (ispezionati localmente, solo descrizione/hash in repo). **11 nuove fonti Design-App** `DESIGN-SITE-049...059`, **6 nuove sorgenti OSS** con ref SHA e licenze; riusati senza duplicazione React Bits, Aceternity, Scrolltide, Magic UI e shadcn/ui già censiti. [Audit sorgenti/diritti](sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md) · [Manifest](sources/APPLLAMA_MOTION_ART_STACK_REGISTRY_2026-11-21.json) · [20 proposte per 9 app](UI-UX/APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.md). Un link X abbreviato resta NON_VERIFICATO. `ART-2026-001` è proposta indipendente per un'app arte quotidiana, non un clone o codice implementato.
+
+
+**Prompt per studiare app concorrenti tramite Appllama MCP:** [template originale Flutter-first](sources/APPLLAMA_MCP_FLUTTER_PROMPT_2026-11-21.md) (solo uso su MCP autorizzato dall'utente; nessuna copia di media/brand/code e nessun accesso Pro avviato).
