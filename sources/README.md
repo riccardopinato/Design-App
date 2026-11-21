@@ -100,3 +100,8 @@ Questa directory contiene studi di sorgenti esterne e donatori candidati, non ne
 ## Florent stack — 5 link verificati e deduplicati (20/11/2026)
 
 [Analisi verificata](./FLORIENT_STACK_5_AUDIT_2026-11-20.md) · [registro completo](./FLORIENT_STACK_5_REGISTRY_2026-11-20.json) · [crosswalk per app](../UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md). Due provider nuovi (Shipframe e Oversight) con due pagine prodotto Oversight sotto il medesimo sito canonico; Mobbin/Fontshare conservano gli ID correnti. Nessun CSS, font, screenshot, video, template o altro file di terzi copiato.
+
+
+## Sei post X in attesa di verifica (21/11/2026)
+
+[Manifest URL esatti](./X_SIX_DESIGN_DISCOVERY_2026-11-21.json) · [Audit e blocchi di accesso](./X_SIX_DESIGN_DISCOVERY_2026-11-21.md). **DISCOVERY**, non REFERENCE o COPY_READY: sei post non accessibili ai fetcher, quindi nessuna classificazione estetica, media o licenza inventata; zero UID/app-modifiche. Prima di un'eventuale integrazione sono necessari testo/video/screenshot dei post effettivi e controllo diritti.

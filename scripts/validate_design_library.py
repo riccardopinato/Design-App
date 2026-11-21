@@ -744,6 +744,48 @@ profiles_index_content = profiles_index.read_text(encoding="utf-8")
 if any(("./" + p["id"] + ".md") not in profiles_index_content for p in profiles):
     fail("PER_APP missing dossier index link")
 
+# Six exact X links preserved as DISCOVERY: no unverifiable content promoted to reuse.
+x_six_manifest_path = ROOT / "sources" / "X_SIX_DESIGN_DISCOVERY_2026-11-21.json"
+x_six_audit_path = ROOT / "sources" / "X_SIX_DESIGN_DISCOVERY_2026-11-21.md"
+if not x_six_manifest_path.is_file() or not x_six_audit_path.is_file():
+    fail("six-post X discovery manifest/audit missing")
+x_six_manifest = json.loads(x_six_manifest_path.read_text(encoding="utf-8"))
+x_six_entries = x_six_manifest.get("items", [])
+x_six_expected = {
+    "0xaditin": "2123469621449850890",
+    "ianneo_ai": "2123243488645206322",
+    "Jakubantalik": "2122738787667349562",
+    "elbeyoglu": "2123328186901836077",
+    "amananimates": "2123291753264656823",
+    "BenjaminUIX": "2123340929633550834",
+}
+if (x_six_manifest.get("source_urls_submitted") != 6
+        or len(x_six_entries) != 6
+        or len({x.get("post_id") for x in x_six_entries}) != 6
+        or len({x.get("intake_id") for x in x_six_entries}) != 6
+        or x_six_manifest.get("verified_tweet_contents") != 0
+        or x_six_manifest.get("approved_visual_styles") != 0
+        or x_six_manifest.get("repo_sites_added") != 0
+        or x_six_manifest.get("consumer_app_modifications") != 0):
+    fail("six-post X discovery intake counts or no-promotion guard drift")
+for item in x_six_entries:
+    handle = item.get("url_handle")
+    postid = item.get("post_id")
+    if (x_six_expected.get(handle) != postid
+            or item.get("original_link") != f"https://x.com/{handle}/status/{postid}"
+            or item.get("maturity") != "DISCOVERY"
+            or item.get("reuse_mode") != "REFERENCE_ONLY"
+            or item.get("post_text_verified") is not False
+            or item.get("post_media_verified") is not False
+            or item.get("post_links_verified") is not False
+            or item.get("content_description") is not None
+            or item.get("design_classification") is not None
+            or item.get("license") != "UNKNOWN_UNVERIFIED"
+            or item.get("app_mappings") != []
+            or item.get("code_imported") is not False
+            or item.get("consumer_implemented") is not False):
+        fail(f"X discovery link content was improperly inferred/promoted: {handle}")
+
 # Dynamic design directory sources are not GitHub repositories and must not be counted as OSS repo records.
 sites_path = ROOT / "sources" / "DESIGN_RESEARCH_SITES.json"
 sites_data = json.loads(sites_path.read_text(encoding="utf-8"))

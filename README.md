@@ -314,3 +314,8 @@ Su 15 link ricevuti: **12 risorse gia' presenti saltate senza nuovo audit**, **3
 ## Nuovo design stack: Shipframe, Oversight, Mobbin e Fontshare — 20/11/2026
 
 **5 link, 4 fornitori unici, 2 nuovi** (`DESIGN-SITE-047` Shipframe e `DESIGN-SITE-048` Oversight Supply, con 2 subpage), **2 già presenti** (`DESIGN-SITE-033` Mobbin e `DESIGN-SITE-022` Fontshare). [Audit e licenze](sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md) · [registro](sources/FLORIENT_STACK_5_REGISTRY_2026-11-20.json) · [26 proposte per 12 app](UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md). Materiali per screenshot Store, sezioni sito Web, benchmark UX, font e video explainer; zero asset/code/UID importati, zero abbonamenti, nessuna app modificata.
+
+
+## Inbox sorgenti design da X — sei URL (21/11/2026)
+
+Sei link X sono [conservati in DISCOVERY](sources/X_SIX_DESIGN_DISCOVERY_2026-11-21.md) perché non è stato possibile accedere al contenuto esatto dei post. [Manifest](sources/X_SIX_DESIGN_DISCOVERY_2026-11-21.json); zero nuove librerie, UID, stili verificati o app modificate. Il lotto non modifica i cataloghi canonici senza ispezione diretta, provenance e licenze.
