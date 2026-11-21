@@ -861,6 +861,21 @@ for app_id in florient_apps:
             or "FLORIENT_STACK_5_APP_MAP_2026-11-20" not in dossier.read_text(encoding="utf-8")):
         fail(f"Florent per-app dossier or provenance drift: {app_id}")
 
+# Keep AppLlama MCP workflow as a documented Flutter-first original-product prompt.
+appllama_prompt_path = ROOT / "sources" / "APPLLAMA_MCP_FLUTTER_PROMPT_2026-11-21.md"
+if not appllama_prompt_path.is_file():
+    fail("AppLlama Flutter-first prompt not archived")
+appllama_prompt = appllama_prompt_path.read_text(encoding="utf-8")
+for required in (
+    "mcp.appllama.io/mcp", "appllama.io/terms", "Flutter",
+    "App Factory", "non incollare TSX", "NON ESEGUITA",
+    "non" + " app consumer",
+):
+    if required == "non app consumer":
+        continue
+    if required not in appllama_prompt:
+        fail(f"AppLlama guarded Flutter workflow missing clause: {required}")
+
 # Appllama, Waves, 10 UI libraries, 3 uploaded motion videos and art-app ideation.
 art_manifest_path = ROOT / "sources" / "APPLLAMA_MOTION_ART_STACK_REGISTRY_2026-11-21.json"
 art_map_path = ROOT / "UI-UX" / "APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.json"
