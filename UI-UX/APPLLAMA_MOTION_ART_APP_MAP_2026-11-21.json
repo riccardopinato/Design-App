@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "batch_id": "APPLLAMA_MOTION_ART_STACK_2026_11_21",
+  "source_registry": "sources/APPLLAMA_MOTION_ART_STACK_REGISTRY_2026-11-21.json",
+  "proposal_count": 20,
+  "existing_app_profiles": 9,
+  "new_app_ideas": 1,
+  "new_app_idea_id": "ART-2026-001",
+  "proposals": [
+    {
+      "app": "omni-cleaner",
+      "source_id": "VIDEO-20261121-01",
+      "application": "Rendere irreversibili e documentati i dialoghi cancellazione evitando dark patterns",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "omni-cleaner",
+      "source_id": "DESIGN-SITE-049",
+      "application": "Confrontare flussi premium, scansione e gestione file con app concorrenti per UX, non clonare",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "annas-diary",
+      "source_id": "VIDEO-20261121-01",
+      "application": "Verifica copie e conferme privacy in Insieme e Cassaforte con spiegazione chiara",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "annas-diary",
+      "source_id": "DESIGN-SITE-049",
+      "application": "Analizzare percorsi diary/calendario reali senza sostituire i mockup approvati",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "notes-ecosistema",
+      "source_id": "DESIGN-SITE-056",
+      "application": "Studio di motion minimal per cards/transition e stati della canvas",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "notes-ecosistema",
+      "source_id": "VIDEO-20261121-02",
+      "application": "Eventuale indicatore per job AI locali con stato accessibile testuale",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "world-days",
+      "source_id": "DESIGN-SITE-049",
+      "application": "Benchmark app editoriali e navigazione schede ricorrenze multilingua",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "world-days",
+      "source_id": "DESIGN-SITE-057",
+      "application": "Tessere editoriali tattili come reference Web, Flutter adapter originale se approvato",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "cooking-anime",
+      "source_id": "DESIGN-SITE-049",
+      "application": "Flow recipe discovery, pagine dettagli e paywall comparati, contenuti originali",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "cooking-anime",
+      "source_id": "DESIGN-SITE-059",
+      "application": "Tessere video/card Web per landing di presentazione e marketing",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "wonderlog",
+      "source_id": "VIDEO-20261121-03",
+      "application": "Carosello tridimensionale di ricordi, con opzione disable-motion e fallback",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "wonderlog",
+      "source_id": "DESIGN-SITE-054",
+      "application": "Reference per travel hero/flow senza riutilizzare asset di terzi",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "deskland-android",
+      "source_id": "VIDEO-20261121-03",
+      "application": "Strutture 3D per launcher: riferimento non prova di prestazioni Android",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "deskland-android",
+      "source_id": "DESIGN-SITE-052",
+      "application": "Transizioni onda come idea da testare: SwiftUI/Web disponibili, no drop-in Android",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "web-utility-factory",
+      "source_id": "DESIGN-SITE-035",
+      "application": "Riutilizzare l'attuale fonte Scrolltide per hero/scroll storytelling Web",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "web-utility-factory",
+      "source_id": "DESIGN-SITE-050",
+      "application": "Dissolve: effetto polverizzazione solo su landing Web, non obbligatorio",
+      "priority": "P3",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "web-utility-factory",
+      "source_id": "DESIGN-SITE-053",
+      "application": "Hero, bento e social proof per landing con componenti ufficiali MIT e fonte precisa",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "web-utility-factory",
+      "source_id": "INTAKE-07",
+      "application": "SEO audit CLI per siti e utility Web, previo confronto con controlli già presenti",
+      "priority": "P1",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "battery-guard",
+      "source_id": "DESIGN-SITE-055",
+      "application": "Accessibilità dialog/slider e stati come riferimento comportamentale, UI Flutter custom",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    },
+    {
+      "app": "battery-guard",
+      "source_id": "DESIGN-SITE-058",
+      "application": "Micro-feedback delicato e gerarchia UI; Commons Clause vieta ridistribuzione come library",
+      "priority": "P2",
+      "status": "PROPOSED_ONLY",
+      "consumer_implemented": false
+    }
+  ]
+}
