@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20",
+  "updated_at": "2026-11-21",
   "purpose": "Curated web directories and visual sources for design research; no entitlement to third-party assets",
   "sites": [
     {
@@ -901,6 +901,157 @@
       "note": "Sections and Videos share a single canonical provider. No paid subscription, source download, asset or runtime added.",
       "related_intake": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
       "updated_at": "2026-11-20"
+    },
+    {
+      "id": "DESIGN-SITE-049",
+      "name": "Appllama — Mobile UI Research MCP",
+      "url": "https://appllama.io/mcp",
+      "kind": "PAID_IOS_SCREEN_FLOW_RESEARCH_SERVICE",
+      "status": "REFERENCE",
+      "license": "PROPRIETARY_RESEARCH_DATA; SKILLS_REPO_MIT; NEVER_MIRROR",
+      "maturity": "REFERENCE",
+      "copy_policy": "REFERENCE_ONLY_NO_CODE_OR_MEDIA_IMPORTED",
+      "related_intake": "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+      "updated_at": "2026-11-21",
+      "related_repository": "Appllama/appllama-skills"
+    },
+    {
+      "id": "DESIGN-SITE-050",
+      "name": "Dissolve — React Native Particle Motion",
+      "url": "https://dissolve.rselmi.com/",
+      "kind": "REACT_NATIVE_REACT_PARTICLE_MOTION_REFERENCE",
+      "status": "REFERENCE",
+      "license": "PACKAGE_DISSOLVE_UI_MIT_REPORTED; SOURCE_LICENSE_NEEDS_DIRECT_CHECK",
+      "maturity": "REFERENCE",
+      "copy_policy": "REFERENCE_ONLY_NO_CODE_OR_MEDIA_IMPORTED",
+      "related_intake": "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+      "updated_at": "2026-11-21"
+    },
+    {
+      "id": "DESIGN-SITE-051",
+      "name": "Another Boring Day — Daily Curated Fine Art",
+      "url": "https://anotherboring.day/",
+      "kind": "DAILY_CURATED_ART_AND_WALLPAPER_IDEA_REFERENCE",
+      "status": "REFERENCE",
+      "license": "ORIGINAL_BRAND_MEDIA_AND_SERVICE_RIGHTS_RESERVED; INDEPENDENT_APP_ONLY",
+      "maturity": "REFERENCE",
+      "copy_policy": "REFERENCE_ONLY_NO_CODE_OR_MEDIA_IMPORTED",
+      "related_intake": "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+      "updated_at": "2026-11-21",
+      "derived_new_app_idea": "ART-2026-001"
+    },
+    {
+      "id": "DESIGN-SITE-052",
+      "name": "Libraries.dev — Open Motion Libraries",
+      "url": "https://libraries.dev/",
+      "kind": "REACT_SWIFTUI_MIT_MOTION_LIBRARIES",
+      "status": "REFERENCE",
+      "license": "PUBLISHED_PACKAGES_MIT; PREMIUM_PRO_CONTENT_SEPARATE",
+      "maturity": "REFERENCE",
+      "copy_policy": "REFERENCE_ONLY_NO_CODE_OR_MEDIA_IMPORTED",
+      "related_intake": "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+      "updated_at": "2026-11-21",
+      "subpages": [
+        {
+          "id": "DESIGN-SUBL-006",
+          "url": "https://libraries.dev/waves",
+          "name": "Distortion Waves",
+          "status": "REFERENCE",
+          "platforms": [
+            "React",
+            "SwiftUI"
+          ],
+          "license": "MIT_PER_PUBLISHED_PACKAGE",
+          "no_new_site_id": true
+        }
+      ]
+    },
+    {
+      "id": "DESIGN-SITE-053",
+      "name": "Magic UI — React Motion Components",
+      "url": "https://magicui.design/",
+      "kind": "REACT_MOTION_COMPONENT_LIBRARY",
+      "status": "REFERENCE",
+      "license": "OSS_REPO_MIT; PRO_SEPARATE",
+      "maturity": "REFERENCE",
+      "copy_policy": "REFERENCE_ONLY_NO_CODE_OR_MEDIA_IMPORTED",
+      "related_intake": "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+      "updated_at": "2026-11-21",
+      "alternate_urls": [
+        "https://pro.magicui.design/?ref=benjaminmo"
+      ]
+    },
+    {
+      "id": "DESIGN-SITE-054",
+      "name": "21st.dev — Component Marketplace",
+      "url": "https://21st.dev/",
+      "kind": "COMPONENT_MARKETPLACE_WITH_PROVENANCE",
+      "status": "REFERENCE",
+      "license": "PER_RESULT_LICENSE_SOURCE_REQUIRED",
+      "maturity": "REFERENCE",
+      "copy_policy": "REFERENCE_ONLY_NO_CODE_OR_MEDIA_IMPORTED",
+      "related_intake": "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+      "updated_at": "2026-11-21"
+    },
+    {
+      "id": "DESIGN-SITE-055",
+      "name": "shadcn/ui — Accessible UI Registry",
+      "url": "https://ui.shadcn.com/",
+      "kind": "REACT_UI_COMPONENT_PRIMITIVES",
+      "status": "REFERENCE",
+      "license": "OSS_REPO_MIT; PER_DEPENDENCY_LICENSE_CHECK",
+      "maturity": "REFERENCE",
+      "copy_policy": "REFERENCE_ONLY_NO_CODE_OR_MEDIA_IMPORTED",
+      "related_intake": "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+      "updated_at": "2026-11-21"
+    },
+    {
+      "id": "DESIGN-SITE-056",
+      "name": "Motion Primitives",
+      "url": "https://motion-primitives.com/",
+      "kind": "REACT_MOTION_PRIMITIVES",
+      "status": "REFERENCE",
+      "license": "OFFICIAL_REPOSITORY_MIT",
+      "maturity": "REFERENCE",
+      "copy_policy": "REFERENCE_ONLY_NO_CODE_OR_MEDIA_IMPORTED",
+      "related_intake": "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+      "updated_at": "2026-11-21"
+    },
+    {
+      "id": "DESIGN-SITE-057",
+      "name": "Cult UI",
+      "url": "https://cult-ui.com/",
+      "kind": "REACT_TACTILE_ANIMATED_UI",
+      "status": "REFERENCE",
+      "license": "OFFICIAL_REPOSITORY_MIT",
+      "maturity": "REFERENCE",
+      "copy_policy": "REFERENCE_ONLY_NO_CODE_OR_MEDIA_IMPORTED",
+      "related_intake": "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+      "updated_at": "2026-11-21"
+    },
+    {
+      "id": "DESIGN-SITE-058",
+      "name": "Animate UI",
+      "url": "https://animate-ui.com/",
+      "kind": "REACT_MOTION_ACCESSIBLE_COMPONENTS",
+      "status": "REFERENCE",
+      "license": "MIT_WITH_COMMONS_CLAUSE; CANNOT_RESELL_REDISTRIBUTE_LIBRARY",
+      "maturity": "REFERENCE",
+      "copy_policy": "REFERENCE_ONLY_NO_CODE_OR_MEDIA_IMPORTED",
+      "related_intake": "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+      "updated_at": "2026-11-21"
+    },
+    {
+      "id": "DESIGN-SITE-059",
+      "name": "Kibo UI",
+      "url": "https://kibo-ui.com/",
+      "kind": "REACT_SHADCN_ADVANCED_COMPONENTS",
+      "status": "REFERENCE",
+      "license": "PERMISSIVE_REPO_LICENSE_EQUIVALENT_TO_MIT_NOTICE",
+      "maturity": "REFERENCE",
+      "copy_policy": "REFERENCE_ONLY_NO_CODE_OR_MEDIA_IMPORTED",
+      "related_intake": "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+      "updated_at": "2026-11-21"
     }
   ]
 }
