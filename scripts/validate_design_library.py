@@ -869,10 +869,7 @@ appllama_prompt = appllama_prompt_path.read_text(encoding="utf-8")
 for required in (
     "mcp.appllama.io/mcp", "appllama.io/terms", "Flutter",
     "App Factory", "non incollare TSX", "NON ESEGUITA",
-    "non" + " app consumer",
 ):
-    if required == "non app consumer":
-        continue
     if required not in appllama_prompt:
         fail(f"AppLlama guarded Flutter workflow missing clause: {required}")
 
