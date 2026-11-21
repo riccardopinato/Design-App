@@ -217,3 +217,15 @@ Le palette e i mock-up gia' approvati hanno priorita'; la fonte non concede il r
 - **STACK5-05 · P2**: Clip introduttiva per feature Web, produzione separata dal codice applicazione. **PROPOSED_ONLY**.
 
 **Gate:** Shipframe screenshot autentici senza dati personali, Oversight solo reference o uso licenziato in progetto, Mobbin niente mirror di screenshot terzi, Fontshare licenza per famiglia; nessun file/asset copiato in questo lotto. Prima di applicare in app: Product Bible, codice consumer, test QA e approvazione.
+
+
+## Appllama · Dissolve · Libraries.dev — 21/11/2026
+
+[Audit di fonti e licenze](../sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md) · [Mappa per app](../UI-UX/APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.md).
+
+- **DESIGN-SITE-035 — P2:** Riutilizzare l'attuale fonte Scrolltide per hero/scroll storytelling Web. `PROPOSED_ONLY`.
+- **DESIGN-SITE-050 — P3:** Dissolve: effetto polverizzazione solo su landing Web, non obbligatorio. `PROPOSED_ONLY`.
+- **DESIGN-SITE-053 — P2:** Hero, bento e social proof per landing con componenti ufficiali MIT e fonte precisa. `PROPOSED_ONLY`.
+- **INTAKE-07 — P1:** SEO audit CLI per siti e utility Web, previo confronto con controlli già presenti. `PROPOSED_ONLY`.
+
+Nessun video/file terzo inserito nel repo; i materiali ricevuti sono descritti con SHA256 e non sono sorgente COPY_READY. Prima del riuso: Product Bible, licenza, compatibilità Flutter/Compose/Web, accessibilità/motion reduced e QA.

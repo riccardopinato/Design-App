@@ -62,7 +62,10 @@ if motion_video_intake != 1:
 motionary_26_intake = len(re.findall(r"^  - batch_id: MOTIONARY_26_LINKS_2026_11_20$", oss, re.MULTILINE))
 if motionary_26_intake != 1:
     fail(f"Expected exactly one Motionary/26-link intake, found {motionary_26_intake}")
-expected_source_count = 95 + ruixen_intake + 2 * dock_intake + 7 * visual_intake + 10 * skills_intake + 2 * voice_intake + 2 * motion_intake + watermelon_intake + uiverse_intake + 18 * motion_video_intake + 15 * motionary_26_intake
+appllama_motion_intake = len(re.findall(r"^  - batch_id: APPLLAMA_MOTION_ART_STACK_2026_11_21$", oss, re.MULTILINE))
+if appllama_motion_intake != 1:
+    fail(f"Expected one Appllama/Motion/Art batch, got {appllama_motion_intake}")
+expected_source_count = 95 + ruixen_intake + 2 * dock_intake + 7 * visual_intake + 10 * skills_intake + 2 * voice_intake + 2 * motion_intake + watermelon_intake + uiverse_intake + 18 * motion_video_intake + 15 * motionary_26_intake + 6 * appllama_motion_intake
 if len(repos) != expected_source_count or len(set(repos)) != expected_source_count:
     fail(f"expected {expected_source_count} unique OSS design sources, found {len(repos)} / {len(set(repos))} unique")
 # New curated Motionary/26-link intake: link registry, canonical dedup, and per-app evidence.
@@ -744,6 +747,48 @@ profiles_index_content = profiles_index.read_text(encoding="utf-8")
 if any(("./" + p["id"] + ".md") not in profiles_index_content for p in profiles):
     fail("PER_APP missing dossier index link")
 
+# Six exact X links preserved as DISCOVERY: no unverifiable content promoted to reuse.
+x_six_manifest_path = ROOT / "sources" / "X_SIX_DESIGN_DISCOVERY_2026-11-21.json"
+x_six_audit_path = ROOT / "sources" / "X_SIX_DESIGN_DISCOVERY_2026-11-21.md"
+if not x_six_manifest_path.is_file() or not x_six_audit_path.is_file():
+    fail("six-post X discovery manifest/audit missing")
+x_six_manifest = json.loads(x_six_manifest_path.read_text(encoding="utf-8"))
+x_six_entries = x_six_manifest.get("items", [])
+x_six_expected = {
+    "0xaditin": "2123469621449850890",
+    "ianneo_ai": "2123243488645206322",
+    "Jakubantalik": "2122738787667349562",
+    "elbeyoglu": "2123328186901836077",
+    "amananimates": "2123291753264656823",
+    "BenjaminUIX": "2123340929633550834",
+}
+if (x_six_manifest.get("source_urls_submitted") != 6
+        or len(x_six_entries) != 6
+        or len({x.get("post_id") for x in x_six_entries}) != 6
+        or len({x.get("intake_id") for x in x_six_entries}) != 6
+        or x_six_manifest.get("verified_tweet_contents") != 0
+        or x_six_manifest.get("approved_visual_styles") != 0
+        or x_six_manifest.get("repo_sites_added") != 0
+        or x_six_manifest.get("consumer_app_modifications") != 0):
+    fail("six-post X discovery intake counts or no-promotion guard drift")
+for item in x_six_entries:
+    handle = item.get("url_handle")
+    postid = item.get("post_id")
+    if (x_six_expected.get(handle) != postid
+            or item.get("original_link") != f"https://x.com/{handle}/status/{postid}"
+            or item.get("maturity") != "DISCOVERY"
+            or item.get("reuse_mode") != "REFERENCE_ONLY"
+            or item.get("post_text_verified") is not False
+            or item.get("post_media_verified") is not False
+            or item.get("post_links_verified") is not False
+            or item.get("content_description") is not None
+            or item.get("design_classification") is not None
+            or item.get("license") != "UNKNOWN_UNVERIFIED"
+            or item.get("app_mappings") != []
+            or item.get("code_imported") is not False
+            or item.get("consumer_implemented") is not False):
+        fail(f"X discovery link content was improperly inferred/promoted: {handle}")
+
 # Dynamic design directory sources are not GitHub repositories and must not be counted as OSS repo records.
 sites_path = ROOT / "sources" / "DESIGN_RESEARCH_SITES.json"
 sites_data = json.loads(sites_path.read_text(encoding="utf-8"))
@@ -815,6 +860,106 @@ for app_id in florient_apps:
             or not dossier.is_file()
             or "FLORIENT_STACK_5_APP_MAP_2026-11-20" not in dossier.read_text(encoding="utf-8")):
         fail(f"Florent per-app dossier or provenance drift: {app_id}")
+
+# Keep AppLlama MCP workflow as a documented Flutter-first original-product prompt.
+appllama_prompt_path = ROOT / "sources" / "APPLLAMA_MCP_FLUTTER_PROMPT_2026-11-21.md"
+if not appllama_prompt_path.is_file():
+    fail("AppLlama Flutter-first prompt not archived")
+appllama_prompt = appllama_prompt_path.read_text(encoding="utf-8")
+for required in (
+    "mcp.appllama.io/mcp", "appllama.io/terms", "Flutter",
+    "App Factory", "non incollare TSX", "NON ESEGUITA",
+):
+    if required not in appllama_prompt:
+        fail(f"AppLlama guarded Flutter workflow missing clause: {required}")
+
+# Appllama, Waves, 10 UI libraries, 3 uploaded motion videos and art-app ideation.
+art_manifest_path = ROOT / "sources" / "APPLLAMA_MOTION_ART_STACK_REGISTRY_2026-11-21.json"
+art_map_path = ROOT / "UI-UX" / "APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.json"
+if not all(p.is_file() for p in (
+    art_manifest_path, art_map_path,
+    ROOT / "sources" / "APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+    ROOT / "UI-UX" / "APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.md",
+)):
+    fail("Appllama/Motion/Art intake files missing")
+art_manifest = json.loads(art_manifest_path.read_text(encoding="utf-8"))
+art_records = art_manifest.get("records", [])
+art_videos = art_manifest.get("uploaded_video_inspection", [])
+if (art_manifest.get("submitted_external_url_occurrences") != 18
+        or len(art_records) != 18
+        or len({x.get("id") for x in art_records}) != 18
+        or len({x.get("url") for x in art_records}) != 18
+        or art_manifest.get("unique_new_design_sites") != 11
+        or art_manifest.get("new_oss_count") != 6
+        or art_manifest.get("unknown_shortlink_count") != 1
+        or len(art_videos) != 3
+        or art_manifest.get("submitted_video_files") != 3
+        or art_manifest.get("created_uids") != 0
+        or art_manifest.get("consumer_implementations") != 0
+        or art_manifest.get("video_sources_imported") != 0):
+    fail("Appllama/Motion/Art manifest counts, dedup or boundaries drift")
+if (len({x.get("sha256") for x in art_videos}) != 3
+        or any(not re.fullmatch("[0-9a-f]{64}", str(x.get("sha256", "")))
+               or x.get("media_uploaded_to_repository") is not False
+               or x.get("component_source_imported") is not False
+               or x.get("status") != "VIDEO_INSPECTED_REFERENCE_ONLY" for x in art_videos)):
+    fail("Appllama/Motion/Art video hashes, source/rights or media import boundary drift")
+art_expected_sites = [
+    ("DESIGN-SITE-049", "https://appllama.io/mcp"),
+    ("DESIGN-SITE-050", "https://dissolve.rselmi.com/"),
+    ("DESIGN-SITE-051", "https://anotherboring.day/"),
+    ("DESIGN-SITE-052", "https://libraries.dev/"),
+    ("DESIGN-SITE-053", "https://magicui.design/"),
+    ("DESIGN-SITE-054", "https://21st.dev/"),
+    ("DESIGN-SITE-055", "https://ui.shadcn.com/"),
+    ("DESIGN-SITE-056", "https://motion-primitives.com/"),
+    ("DESIGN-SITE-057", "https://cult-ui.com/"),
+    ("DESIGN-SITE-058", "https://animate-ui.com/"),
+    ("DESIGN-SITE-059", "https://kibo-ui.com/"),
+]
+for site_id, url in art_expected_sites:
+    if len([s for s in site_items if s.get("id") == site_id and s.get("url") == url]) != 1:
+        fail(f"Appllama/Motion/Art canonical site absent: {site_id}")
+for existing_site_id in ("DESIGN-SITE-034", "DESIGN-SITE-035", "DESIGN-SITE-040"):
+    if len([s for s in site_items if s.get("id") == existing_site_id]) != 1:
+        fail(f"Appllama/Motion/Art existing site duplicated: {existing_site_id}")
+art_oss = {
+    "Appllama/appllama-skills", "seo-skills/seo-audit-skill",
+    "ibelick/motion-primitives", "nolly-studio/cult-ui",
+    "imskyleen/animate-ui", "shadcnblocks/kibo",
+}
+if any(repos.count(name) != 1 for name in art_oss):
+    fail("Appllama/Motion/Art OSS source missing or duplicated")
+art_unresolved = [x for x in art_records if x.get("state") == "UNRESOLVED"]
+if (len(art_unresolved) != 1
+        or art_unresolved[0].get("url") != "https://t.co/fRjCLeHI5m"
+        or art_unresolved[0].get("site_id") is not None
+        or art_unresolved[0].get("status") != "DISCOVERY"):
+    fail("Unresolved X shortlink was improperly promoted")
+art_map = json.loads(art_map_path.read_text(encoding="utf-8"))
+art_edges = art_map.get("proposals", [])
+art_apps = {x.get("app") for x in art_edges}
+if (len(art_edges) != 20 or len(art_apps) != 9
+        or art_map.get("proposal_count") != 20
+        or art_map.get("existing_app_profiles") != 9
+        or art_map.get("new_app_ideas") != 1
+        or art_map.get("new_app_idea_id") != "ART-2026-001"
+        or len({(x.get("app"), x.get("source_id")) for x in art_edges}) != 20
+        or any(x.get("status") != "PROPOSED_ONLY"
+               or x.get("consumer_implemented") is not False for x in art_edges)):
+    fail("Appllama/Motion/Art proposed relations or app statuses drift")
+art_profiles = {
+    x.get("id"): x for x in json.loads((ROOT / "PER_APP" / "REGISTRO_APP_DESIGN.json").read_text(encoding="utf-8")).get("profiles", [])
+}
+for app in art_apps:
+    prof = art_profiles.get(app, {})
+    expected = {x.get("source_id") for x in art_edges if x.get("app") == app}
+    logs = [x for x in prof.get("changelog", []) if x.get("type") == "APPLLAMA_MOTION_ART_STACK_2026_11_21"]
+    doc = ROOT / "PER_APP" / (app + ".md")
+    if (not prof or len(logs) != 1 or set(logs[0].get("source_ids", [])) != expected
+            or not doc.is_file()
+            or "APPLLAMA_MOTION_ART_APP_MAP_2026-11-21" not in doc.read_text(encoding="utf-8")):
+        fail(f"Appllama/Motion/Art dossier drift: {app}")
 
 devlibraries = next((s for s in site_items if s.get("id") == "DESIGN-SITE-001"), None)
 if not devlibraries or devlibraries.get("url") != "https://devlibraries.com/":

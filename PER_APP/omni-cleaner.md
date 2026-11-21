@@ -360,3 +360,13 @@ Le palette e i mock-up gia' approvati hanno priorita'; la fonte non concede il r
 - **STACK5-05 · P2**: Demo video delle scansioni con permessi e risultati realmente riprodotti. **PROPOSED_ONLY**.
 
 **Gate:** Shipframe screenshot autentici senza dati personali, Oversight solo reference o uso licenziato in progetto, Mobbin niente mirror di screenshot terzi, Fontshare licenza per famiglia; nessun file/asset copiato in questo lotto. Prima di applicare in app: Product Bible, codice consumer, test QA e approvazione.
+
+
+## Appllama · Dissolve · Libraries.dev — 21/11/2026
+
+[Audit di fonti e licenze](../sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md) · [Mappa per app](../UI-UX/APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.md).
+
+- **VIDEO-20261121-01 — P1:** Rendere irreversibili e documentati i dialoghi cancellazione evitando dark patterns. `PROPOSED_ONLY`.
+- **DESIGN-SITE-049 — P2:** Confrontare flussi premium, scansione e gestione file con app concorrenti per UX, non clonare. `PROPOSED_ONLY`.
+
+Nessun video/file terzo inserito nel repo; i materiali ricevuti sono descritti con SHA256 e non sono sorgente COPY_READY. Prima del riuso: Product Bible, licenza, compatibilità Flutter/Compose/Web, accessibilità/motion reduced e QA.

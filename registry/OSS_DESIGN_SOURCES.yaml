@@ -18,6 +18,21 @@ additional_research:
   new_sources: 22
   focus: "Design app galleries, Material 3 Expressive, Liquid Glass, responsive, micro-interactions, gesture UX and web UI patterns."
 targeted_intakes:
+  - batch_id: APPLLAMA_MOTION_ART_STACK_2026_11_21
+    observed_at: "2026-11-21"
+    factory_baseline: "riccardopinato/App-Factory-Core@4df94ac3b3ea22a2323634fe83c3c7770fe3b835"
+    submitted_links: 18
+    uploaded_videos_inspected: 3
+    new_sources: 6
+    new_design_sites: 11
+    existing_design_sites: 3
+    unresolved_shortlinks: 1
+    source_registry: "sources/APPLLAMA_MOTION_ART_STACK_REGISTRY_2026-11-21.json"
+    source_audit: "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md"
+    app_map: "UI-UX/APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.json"
+    proposed_app_relations: 20
+    status: REFERENCE
+    note: "MCP requires Pro; no external artwork, third-party videos, code or app modifications; Flutter adapters only, source legal checks remain."
   - batch_id: MOTIONARY_26_LINKS_2026_11_20
     observed_at: "2026-11-20"
     factory_baseline: "riccardopinato/App-Factory-Core@4df94ac3b3ea22a2323634fe83c3c7770fe3b835"
@@ -1747,3 +1762,87 @@ sources:
     copy_policy: REFERENCE_ONLY_NO_CODE_IMPORTED_PENDING_CONSUMER_AND_LICENSE_GATES
     audit_path: sources/MOTIONARY_26_AUDIT_2026-11-20.md
     app_map_path: UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.json
+
+  - repo: "Appllama/appllama-skills"
+    batch: APPLLAMA_MOTION_ART_STACK_2026_11_21
+    domain: "MOBILE_APP_DESIGN_AGENT_SKILLS"
+    discovery_url: "https://github.com/Appllama/appllama-skills"
+    license: "MIT_REPO_CODE; MCP_DATA_PROPRIETARY"
+    source_ref: "dd5caaec3d5d50ad7fc0324da238119c6b7c3707"
+    maturity: REFERENCE
+    classification: "AGENT_SKILLS_REFERENCE"
+    priority: B
+    role: "Curated design/process/QA reference; no consumer or library source copied"
+    copy_policy: REFERENCE_ONLY_NO_CODE_IMPORTED_PENDING_CONSUMER_AND_LICENSE_GATES
+    audit_path: sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md
+    app_map_path: UI-UX/APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.json
+
+  - repo: "seo-skills/seo-audit-skill"
+    batch: APPLLAMA_MOTION_ART_STACK_2026_11_21
+    domain: "WEB_SEO_AUDIT_CLI_SKILL"
+    discovery_url: "https://github.com/seo-skills/seo-audit-skill"
+    license: "MIT"
+    source_ref: "f43ba12d65898cea8f043ec2d87fc413c4ca9e0c"
+    maturity: REFERENCE
+    classification: "TOOLING_REFERENCE"
+    priority: B
+    role: "Curated design/process/QA reference; no consumer or library source copied"
+    copy_policy: REFERENCE_ONLY_NO_CODE_IMPORTED_PENDING_CONSUMER_AND_LICENSE_GATES
+    audit_path: sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md
+    app_map_path: UI-UX/APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.json
+
+  - repo: "ibelick/motion-primitives"
+    batch: APPLLAMA_MOTION_ART_STACK_2026_11_21
+    domain: "REACT_MOTION_PRIMITIVES"
+    discovery_url: "https://github.com/ibelick/motion-primitives"
+    license: "MIT"
+    source_ref: "120f64f6ca60348e251f929e9c81f11ccbe45eda"
+    maturity: REFERENCE
+    classification: "UI_UX_REFERENCE"
+    priority: A
+    role: "Curated design/process/QA reference; no consumer or library source copied"
+    copy_policy: REFERENCE_ONLY_NO_CODE_IMPORTED_PENDING_CONSUMER_AND_LICENSE_GATES
+    audit_path: sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md
+    app_map_path: UI-UX/APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.json
+
+  - repo: "nolly-studio/cult-ui"
+    batch: APPLLAMA_MOTION_ART_STACK_2026_11_21
+    domain: "TACTILE_REACT_COMPONENTS"
+    discovery_url: "https://github.com/nolly-studio/cult-ui"
+    license: "MIT"
+    source_ref: "d71b1428b811c2779d46ea41b7ef8c9f9c9991c2"
+    maturity: REFERENCE
+    classification: "UI_UX_REFERENCE"
+    priority: A
+    role: "Curated design/process/QA reference; no consumer or library source copied"
+    copy_policy: REFERENCE_ONLY_NO_CODE_IMPORTED_PENDING_CONSUMER_AND_LICENSE_GATES
+    audit_path: sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md
+    app_map_path: UI-UX/APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.json
+
+  - repo: "imskyleen/animate-ui"
+    batch: APPLLAMA_MOTION_ART_STACK_2026_11_21
+    domain: "ACCESSIBLE_REACT_ANIMATIONS"
+    discovery_url: "https://github.com/imskyleen/animate-ui"
+    license: "MIT_WITH_COMMONS_CLAUSE_NO_LIBRARY_REDISTRIBUTION"
+    source_ref: "9873c628afdcdb030e74dc2930774a2aa473bd39"
+    maturity: REFERENCE
+    classification: "UI_UX_REFERENCE"
+    priority: A
+    role: "Curated design/process/QA reference; no consumer or library source copied"
+    copy_policy: REFERENCE_ONLY_NO_CODE_IMPORTED_PENDING_CONSUMER_AND_LICENSE_GATES
+    audit_path: sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md
+    app_map_path: UI-UX/APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.json
+
+  - repo: "shadcnblocks/kibo"
+    batch: APPLLAMA_MOTION_ART_STACK_2026_11_21
+    domain: "REACT_ADVANCED_UI_COMPONENTS"
+    discovery_url: "https://github.com/shadcnblocks/kibo"
+    license: "PERMISSIVE_MIT_EQUIVALENT_WITH_NOTICE"
+    source_ref: "3d63cdb15b79d972e3dc38a10997987672f9b263"
+    maturity: REFERENCE
+    classification: "UI_UX_REFERENCE"
+    priority: B
+    role: "Curated design/process/QA reference; no consumer or library source copied"
+    copy_policy: REFERENCE_ONLY_NO_CODE_IMPORTED_PENDING_CONSUMER_AND_LICENSE_GATES
+    audit_path: sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md
+    app_map_path: UI-UX/APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.json

@@ -165,3 +165,8 @@ Dal lotto di 15 link **12 erano gia' nel Design-App** e non sono stati rivalutat
 ## Store screenshot, Web section e AI explainer — Florent stack 20/11/2026
 
 Fonti: [Shipframe/Oversight/Mobbin/Fontshare](../sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md) · [26 idee per 12 app](./FLORIENT_STACK_5_APP_MAP_2026-11-20.md). Shipframe serve alle schede store, Oversight Sections alle landing e Oversight Videos ai video marketing; non sono librerie Flutter/Compose. Mobbin e Fontshare sono già nell'indice. Controllare licenza degli output/font e dati reali prima di riuso; PROPOSED_ONLY.
+
+
+## Lotto Appllama/Motion/Art — 21/11/2026
+
+[20 opportunità per 9 app, tutte solo proposte](./APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.md) · [Crosswalk JSON](./APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.json) · [audit e diritti](../sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md). Tre video analizzati: conferme distruttive leggibili, ThinkingOrb a stati, card 3D. Appllama è ricerca Pro; React/SwiftUI non equivalgono a codice Flutter. Nessun effetto/app integrato.

@@ -137,3 +137,8 @@ Originali HTML/CSS aggiunti: **11**; catalogo **111/111**; Favorites **108/108**
 ## Cinque link design stack — 20/11/2026
 
 [26 nuove proposte riferite a 12 dossier](../UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md) e tracciate nel `REGISTRO_APP_DESIGN.json`. Tutte PROPOSED_ONLY; font, video e screenshot Store sono distinti da UI runtime e Product Bible. Nessun codice consumer toccato. [Audit fonte](../sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md).
+
+
+## Riferimenti Appllama e librerie UI — 21/11/2026
+
+[20 proposte per 9 app](../UI-UX/APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.md), già collegate ai dossier e al `REGISTRO_APP_DESIGN.json`. `PROPOSED_ONLY` su tutti i record; zero codice importato, zero consumer changes; l'eventuale app d'arte `ART-2026-001` rimane nella inbox Idee, non nel portafoglio.
