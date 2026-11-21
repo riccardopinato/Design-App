@@ -76,7 +76,14 @@
     "florient_stack_5_duplicate_links": 2,
     "florient_stack_5_app_profiles": 12,
     "florient_stack_5_relations": 26,
-    "florient_stack_5_source_code_copied": 0
+    "florient_stack_5_source_code_copied": 0,
+    "appllama_motion_art_links": 18,
+    "appllama_motion_art_videos": 3,
+    "appllama_motion_art_sites_new": 11,
+    "appllama_motion_art_oss_new": 6,
+    "appllama_motion_art_apps": 9,
+    "appllama_motion_art_relations": 20,
+    "appllama_motion_art_consumer_changes": 0
   },
   "profiles": [
     {
@@ -248,7 +255,7 @@
       "name": "Anna's Diary",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-20",
+      "updated_at": "2026-11-21",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -285,7 +292,9 @@
         "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
         "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
         "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
-        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+        "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+        "UI-UX/APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.md"
       ],
       "category_ideas": [
         "diario e ricordi",
@@ -783,6 +792,17 @@
           ],
           "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
           "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
+        },
+        {
+          "date": "2026-11-21",
+          "type": "APPLLAMA_MOTION_ART_STACK_2026_11_21",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "VIDEO-20261121-01",
+            "DESIGN-SITE-049"
+          ],
+          "origin": "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+          "note": "User-submitted sources and three videos; verified, deduplicated, no imported third-party code/assets or consumer changes."
         }
       ],
       "voice_ui_candidates": [
@@ -3565,7 +3585,7 @@
       "name": "Battery Guard",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-20",
+      "updated_at": "2026-11-21",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -3600,7 +3620,9 @@
         "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
         "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
         "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
-        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+        "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+        "UI-UX/APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.md"
       ],
       "category_ideas": [
         "batteria",
@@ -3949,6 +3971,17 @@
           ],
           "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
           "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
+        },
+        {
+          "date": "2026-11-21",
+          "type": "APPLLAMA_MOTION_ART_STACK_2026_11_21",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "DESIGN-SITE-055",
+            "DESIGN-SITE-058"
+          ],
+          "origin": "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+          "note": "User-submitted sources and three videos; verified, deduplicated, no imported third-party code/assets or consumer changes."
         }
       ],
       "motion_design_candidates": [
@@ -7318,7 +7351,7 @@
       "name": "Cooking Anime",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-20",
+      "updated_at": "2026-11-21",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -7351,7 +7384,9 @@
         "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
         "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
         "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
-        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+        "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+        "UI-UX/APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.md"
       ],
       "category_ideas": [
         "kawaii-gattini",
@@ -8337,6 +8372,17 @@
           ],
           "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
           "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
+        },
+        {
+          "date": "2026-11-21",
+          "type": "APPLLAMA_MOTION_ART_STACK_2026_11_21",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "DESIGN-SITE-049",
+            "DESIGN-SITE-059"
+          ],
+          "origin": "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+          "note": "User-submitted sources and three videos; verified, deduplicated, no imported third-party code/assets or consumer changes."
         }
       ],
       "voice_ui_candidates": [
@@ -9365,7 +9411,7 @@
       "name": "Deskland Android",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-20",
+      "updated_at": "2026-11-21",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -9395,7 +9441,9 @@
         "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
         "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
         "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
-        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+        "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+        "UI-UX/APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.md"
       ],
       "category_ideas": [
         "desktop",
@@ -9701,6 +9749,17 @@
           ],
           "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
           "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
+        },
+        {
+          "date": "2026-11-21",
+          "type": "APPLLAMA_MOTION_ART_STACK_2026_11_21",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "VIDEO-20261121-03",
+            "DESIGN-SITE-052"
+          ],
+          "origin": "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+          "note": "User-submitted sources and three videos; verified, deduplicated, no imported third-party code/assets or consumer changes."
         }
       ],
       "voice_ui_candidates": [
@@ -13271,7 +13330,7 @@
       "name": "Notes-Ecosistema",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-20",
+      "updated_at": "2026-11-21",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -13309,7 +13368,9 @@
         "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
         "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
         "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
-        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+        "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+        "UI-UX/APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.md"
       ],
       "category_ideas": [
         "nota",
@@ -13905,6 +13966,17 @@
           ],
           "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
           "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
+        },
+        {
+          "date": "2026-11-21",
+          "type": "APPLLAMA_MOTION_ART_STACK_2026_11_21",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "DESIGN-SITE-056",
+            "VIDEO-20261121-02"
+          ],
+          "origin": "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+          "note": "User-submitted sources and three videos; verified, deduplicated, no imported third-party code/assets or consumer changes."
         }
       ],
       "voice_ui_candidates": [
@@ -15411,7 +15483,7 @@
       "name": "Omni Cleaner",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-20",
+      "updated_at": "2026-11-21",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -15446,7 +15518,9 @@
         "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
         "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
         "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
-        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+        "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+        "UI-UX/APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.md"
       ],
       "category_ideas": [
         "galleria",
@@ -15920,6 +15994,17 @@
           ],
           "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
           "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
+        },
+        {
+          "date": "2026-11-21",
+          "type": "APPLLAMA_MOTION_ART_STACK_2026_11_21",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "VIDEO-20261121-01",
+            "DESIGN-SITE-049"
+          ],
+          "origin": "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+          "note": "User-submitted sources and three videos; verified, deduplicated, no imported third-party code/assets or consumer changes."
         }
       ],
       "motion_design_candidates": [
@@ -19393,7 +19478,7 @@
       "name": "Web Utility Factory",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-20",
+      "updated_at": "2026-11-21",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -19420,7 +19505,9 @@
         "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
         "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
         "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
-        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+        "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+        "UI-UX/APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.md"
       ],
       "category_ideas": [
         "strumenti",
@@ -19681,6 +19768,19 @@
           ],
           "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
           "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
+        },
+        {
+          "date": "2026-11-21",
+          "type": "APPLLAMA_MOTION_ART_STACK_2026_11_21",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "DESIGN-SITE-035",
+            "DESIGN-SITE-050",
+            "DESIGN-SITE-053",
+            "INTAKE-07"
+          ],
+          "origin": "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+          "note": "User-submitted sources and three videos; verified, deduplicated, no imported third-party code/assets or consumer changes."
         }
       ],
       "motion_design_candidates": [
@@ -20132,7 +20232,7 @@
       "name": "Wonderlog",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-20",
+      "updated_at": "2026-11-21",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -20165,7 +20265,9 @@
         "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
         "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
         "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
-        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+        "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+        "UI-UX/APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.md"
       ],
       "category_ideas": [
         "viaggio",
@@ -20629,6 +20731,17 @@
           ],
           "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
           "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
+        },
+        {
+          "date": "2026-11-21",
+          "type": "APPLLAMA_MOTION_ART_STACK_2026_11_21",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "VIDEO-20261121-03",
+            "DESIGN-SITE-054"
+          ],
+          "origin": "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+          "note": "User-submitted sources and three videos; verified, deduplicated, no imported third-party code/assets or consumer changes."
         }
       ],
       "voice_ui_candidates": [
@@ -21638,7 +21751,7 @@
       "name": "World Days",
       "section": "PER_APP",
       "created_at": "2026-11-17",
-      "updated_at": "2026-11-20",
+      "updated_at": "2026-11-21",
       "product_bible_checked": false,
       "app_code_checked": false,
       "implementation_state": "NOT_VERIFIED",
@@ -21676,7 +21789,9 @@
         "UI-UX/MOTIONARY_26_APP_MAP_2026-11-20.md",
         "sources/MOTIONARY_26_AUDIT_2026-11-20.md",
         "UI-UX/FLORIENT_STACK_5_APP_MAP_2026-11-20.md",
-        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md"
+        "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
+        "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+        "UI-UX/APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.md"
       ],
       "category_ideas": [
         "calendario",
@@ -22238,6 +22353,17 @@
           ],
           "origin": "sources/FLORIENT_STACK_5_AUDIT_2026-11-20.md",
           "note": "Two existing and two new providers; user-curated references only, no app modifications or copied third-party assets."
+        },
+        {
+          "date": "2026-11-21",
+          "type": "APPLLAMA_MOTION_ART_STACK_2026_11_21",
+          "status": "PROPOSED_ONLY",
+          "source_ids": [
+            "DESIGN-SITE-049",
+            "DESIGN-SITE-057"
+          ],
+          "origin": "sources/APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md",
+          "note": "User-submitted sources and three videos; verified, deduplicated, no imported third-party code/assets or consumer changes."
         }
       ],
       "voice_ui_candidates": [
