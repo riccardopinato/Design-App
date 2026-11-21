@@ -105,3 +105,8 @@ Questa directory contiene studi di sorgenti esterne e donatori candidati, non ne
 ## Sei post X in attesa di verifica (21/11/2026)
 
 [Manifest URL esatti](./X_SIX_DESIGN_DISCOVERY_2026-11-21.json) · [Audit e blocchi di accesso](./X_SIX_DESIGN_DISCOVERY_2026-11-21.md). **DISCOVERY**, non REFERENCE o COPY_READY: sei post non accessibili ai fetcher, quindi nessuna classificazione estetica, media o licenza inventata; zero UID/app-modifiche. Prima di un'eventuale integrazione sono necessari testo/video/screenshot dei post effettivi e controllo diritti.
+
+
+## Appllama/Motion/Art — lotto 21/11/2026
+
+[Audit verifiche e licensing](./APPLLAMA_MOTION_ART_STACK_AUDIT_2026-11-21.md) · [manifest di 18 URL + 3 video](./APPLLAMA_MOTION_ART_STACK_REGISTRY_2026-11-21.json) · [mappa per app](../UI-UX/APPLLAMA_MOTION_ART_APP_MAP_2026-11-21.md). Fonti nuove + preesistenti deduplicate; MCP Appllama Pro/restrizioni di archivio; Animate UI Commons Clause; un t.co non risolto. Video forniti esaminati per frame ma non caricati pubblicamente; niente UID o codice consumer.
