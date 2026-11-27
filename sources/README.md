@@ -65,6 +65,10 @@ Questa directory contiene studi di sorgenti esterne e donatori candidati, non ne
 
 [Flutter Gems / Forui / F22 Labs technical intake](./FLUTTER_UI_LIBRARIES_RESEARCH_2026-11-18.md) · [Six-app source matrix](../UI-UX/FLUTTER_UI_LIBRARIES_APP_MAP_2026-11-18.json). Site registry DESIGN-SITE-011..013. Sources are discovery/reference; no package installed, no Golden or consumer certified.
 
+## Design product-owned — Core v27 / Index v31 (27/11/2026)
+
+[Crosswalk operativo e deduplica fra Design-App/Golden/consumer](./FACTORY_PRODUCT_OWNED_DESIGN_CROSSWALK_20261127.md). Le preferenze visuali curate dall'utente e le approvazioni del singolo prodotto precedono la scelta dello stile; i Golden fissano gli obblighi tecnici, non impongono Material 3 o un'estetica universale. Nessun UID nuovo, sorgente terza copiata o app modificata.
+
 ## Material Design 3 — possibile scelta per utility, non stile universale (19/11/2026)
 
 [Material 3 source audit](./MATERIAL3_OPTIONAL_REFERENCE_2026-11-19.md) · [Matrice quattro utility](../UI-UX/MATERIAL3_OPTIONAL_APP_MAP_2026-11-19.json). Sito Google `DESIGN-SITE-014`, riferimento facoltativo con priorita' sempre alla Product Bible e ai design curati dall'utente. Non rimuovere automaticamente Material 3 dalle app che lo usano e non installarlo in app che non lo scelgono. Stato solo `PROPOSED_ONLY` per le quattro associazioni, nessun consumer verificato o modificato.
